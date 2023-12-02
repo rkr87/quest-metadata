@@ -124,7 +124,8 @@ class Item(BaseModel):
         for item in ratings:
             votes += item['count']
             rating += item['star_rating'] * item['count']
-        val['rating'] = rating / votes
+        if votes > 0:
+            val['rating'] = rating / votes
         return val
 
 
