@@ -714,11 +714,11 @@ enable = "W0614,C0302,R0915"
 ignore-patterns = ".+\\.pyi"
 # extension-pkg-allow-list = ["dependency_injector","uplink"]
 [tool.pylint.'FORMAT']
-max-line-length = 79
-max-module-lines = 750
+# max-line-length = 79
+# max-module-lines = 300
 
 [tool.pylint.'DESIGN']
-max-statements = 35
+# max-statements = 35
 min-public-methods = 1
 
 [tool.pylint.'BASIC']
