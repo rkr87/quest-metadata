@@ -1,3 +1,16 @@
+# pyright: reportMissingTypeArgument=false
+"""
+app_manager.py
+
+This module defines the AppManager class for managing local apps.
+
+AppManager:
+    A singleton class for managing local apps,
+    providing methods to get, add, update, and save app information.
+
+Attributes:
+    APPS (str): The file path for storing local app information.
+"""
 from datetime import datetime, timedelta
 
 from typing_extensions import final, overload
@@ -9,29 +22,40 @@ APPS: str = "./data/apps.json"
 
 
 @final
-class AppManager(metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgument]; pylint: disable=line-too-long
-    '''
-    Manages application information, providing methods for loading,
-    updating, and saving data.
-    '''
+class AppManager(metaclass=Singleton):
+    """
+    AppManager class for managing local apps.
+
+    Attributes:
+        _apps (LocalApps): The dictionary containing local app information.
+        _exclusion_days (int): The number of days to exclude recently
+            updated apps.
+    """
 
     def __init__(self, exclusion_days: int = 7) -> None:
+        """
+        Initialize the AppManager instance.
+
+        Args:
+            exclusion_days (int): The number of days to exclude recently
+                updated apps.
+        """
         self._apps: LocalApps = self._load_from_file()
         self._exclusion_days: int = exclusion_days
 
     def get(self,
             exclude_recently_updated: bool = False) \
             -> LocalApps:
-        '''
-        Retrieves applications, excluding recent updates if specified.
+        """
+        Get local apps.
 
         Args:
-            exclude_recently_updated (bool):
-                Whether to exclude recently updated apps.
+            exclude_recently_updated (bool): Whether to exclude recently
+                updated apps.
 
         Returns:
-            dict: Dictionary of applications.
-        '''
+            LocalApps: The dictionary containing local app information.
+        """
         if not exclude_recently_updated:
             return self._apps
 
@@ -42,16 +66,15 @@ class AppManager(metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgum
         return output
 
     def _need_update(self, app: LocalApp) -> bool:
-        '''
-        Checks if an application needs an update based on the last update
-        timestamp.
+        """
+        Check if an app needs an update based on the exclusion days.
 
         Args:
-            app (App): Application information.
+            app (LocalApp): The local app to check.
 
         Returns:
-            bool: True if the application needs an update, False otherwise.
-        '''
+            bool: True if the app needs an update, False otherwise.
+        """
         if app.updated is None:
             return True
 
@@ -60,14 +83,17 @@ class AppManager(metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgum
         return delta.days > self._exclusion_days
 
     def add(self, store_id: str, package: str, app_name: str) -> None:
-        '''
-        Adds a new application to the list.
+        """
+        Add a new app or update an existing app.
 
         Args:
-            package (str): Package name of the application.
-            app_name (str): Name of the application.
-            store_id (str): Store ID of the application.
-        '''
+            store_id (str): The ID of the app store.
+            package (str): The package name of the app.
+            app_name (str): The name of the app.
+
+        Returns:
+            None
+        """
         if store_id not in self._apps:
             app: LocalApp = LocalApp(packages=[package],
                                      app_name=app_name,
@@ -77,9 +103,12 @@ class AppManager(metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgum
             self._apps[store_id].packages.append(package)
 
     def save(self) -> None:
-        '''
-        Saves the current state of applications to a file.
-        '''
+        """
+        Save local app information to a file.
+
+        Returns:
+            None
+        """
         with open(APPS, 'w', encoding="utf-8") as file:
             text: str = self._apps.model_dump_json(
                 indent=4,
@@ -98,13 +127,16 @@ class AppManager(metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgum
     def update(self, store_id: dict[str, LocalApp]) -> None: ...
 
     def update(self, store_id: str | list[str] | dict[str, LocalApp]) -> None:
-        '''
-        Updates the last update timestamp for one or more applications.
+        """
+        Update the timestamp of one or more apps.
 
         Args:
-            package_name (str | List[str] | Dict[str, App]):
-                Package name or list of package names or dictionary of apps.
-        '''
+            store_ids (str | list[str] | dict[str, LocalApp]): The ID(s) of the
+                app(s) to update.
+
+        Returns:
+            None
+        """
         if isinstance(store_id, str):
             self._update(store_id)
         else:
@@ -113,24 +145,26 @@ class AppManager(metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgum
         self.save()
 
     def _update(self, store_id: str) -> None:
-        '''
-        Helper method to update the last update timestamp for a single
-        application.
+        """
+        Update the timestamp of a single app.
 
         Args:
-            package_name (str): Package name of the application.
-        '''
+            store_id (str): The ID of the app to update.
+
+        Returns:
+            None
+        """
         time: str = datetime.now().isoformat()
         if store_id in self._apps:
             self._apps[store_id].updated = time
 
     def _load_from_file(self) -> LocalApps:
-        '''
-        Helper method to load application data from a file.
+        """
+        Load local app information from a file.
 
         Returns:
-            dict: Dictionary of applications.
-        '''
+            LocalApps: The dictionary containing local app information.
+        """
         try:
             with open(APPS, encoding="utf8") as file:
                 data: LocalApps = LocalApps.model_validate_json(file.read())
