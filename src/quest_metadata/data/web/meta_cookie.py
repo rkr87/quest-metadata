@@ -23,7 +23,7 @@ Usage:
 Attributes:
     META_DOMAIN (str): The base URL of the Meta domain.
 """
-import logging
+from logging import Logger, getLogger
 from time import sleep
 
 from playwright.sync_api import sync_playwright
@@ -52,7 +52,7 @@ class MetaCookie(NonInstantiable):
         Returns:
             str: The obtained cookie.
         """
-        logger = logging.getLogger(__name__)
+        logger: Logger = getLogger(__name__)
         logger.info("Acquiring cookies from meta.com")
         with sync_playwright() as p:
             browser = p.chromium.launch()

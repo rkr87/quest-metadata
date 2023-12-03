@@ -11,8 +11,8 @@ AppManager:
 Attributes:
     APPS (str): The file path for storing local app information.
 """
-import logging
 from datetime import datetime, timedelta
+from logging import Logger, getLogger
 
 from typing_extensions import final, overload
 
@@ -41,8 +41,8 @@ class AppManager(metaclass=Singleton):
             exclusion_days (int): The number of days to exclude recently
                 updated apps.
         """
-        logger = logging.getLogger(__name__)
-        logger.info("Initialising app manager")
+        self._logger: Logger = getLogger(__name__)
+        self._logger.info("Initialising app manager")
         self._apps: LocalApps = self._load_from_file()
         self._exclusion_days: int = exclusion_days
 

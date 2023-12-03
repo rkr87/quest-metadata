@@ -24,7 +24,7 @@ Usage:
 
 Note: Adjust the usage example based on the actual use case in your code.
 """
-import logging
+from logging import Logger, getLogger
 
 from requests import Response, get
 from typing_extensions import final
@@ -58,7 +58,7 @@ class GitHubWrapper(NonInstantiable):
                 A Pydantic model representing a list of external
                 applications retrieved from the GitHub API.
         '''
-        logger = logging.getLogger(__name__)
+        logger: Logger = getLogger(__name__)
         logger.info("Fetching app update list from Github")
         headers: dict[str, str] = {'Accept': 'application/json'}
         resp: Response = get(EXT_APPS, headers=headers, timeout=10)

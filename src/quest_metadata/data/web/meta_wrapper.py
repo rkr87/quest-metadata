@@ -24,7 +24,7 @@ Usage:
 Attributes:
     API_DOMAIN (str): The base URL for the Meta API.
 """
-import logging
+from logging import Logger, getLogger
 from urllib.parse import urlencode
 
 from requests import Response, post
@@ -57,8 +57,8 @@ class MetaWrapper(metaclass=Singleton):
         Args:
             cookie (str): The cookie to be used in the API request headers.
         """
-        logger = logging.getLogger(__name__)
-        logger.info("Initialising Meta API Wrapper")
+        self._logger: Logger = getLogger(__name__)
+        self._logger.info("Initialising Meta API Wrapper")
         self._header: ApiHeader = ApiHeader(cookie=cookie)
         self._payload: ApiPayload = ApiPayload()
 
@@ -74,8 +74,7 @@ class MetaWrapper(metaclass=Singleton):
             MetaResponse: A Pydantic model representing the response from the
                 Meta API.
         """
-        logger = logging.getLogger(__name__)
-        logger.debug("Fetching %s from Meta API", store_id)
+        self._logger.debug("Fetching %s from Meta API", store_id)
         self._header.referrer = f"{META_DOMAIN}/en-gb/experiences/{store_id}"
         self._payload.variables.item_id = store_id
 
