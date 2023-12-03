@@ -28,7 +28,7 @@ repos:
     hooks:
     - id: pylint
       name: pylint
-      entry: "pylint ./src/quest_metadata"
+      entry: "pylint src/quest_metadata"
       language: python
       language_version: python3.11
       additional_dependencies: []
