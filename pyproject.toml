@@ -707,9 +707,9 @@ reportUninitializedInstanceVariable = true
 [tool.pylint.MAIN]
 init-hook = "import sys, os; sys.path.insert(0, os.path.join('src','quest_metadata')); sys.path.insert(0, os.path.join('.venv','lib','site-packages'))"
 load-plugins = ["pylint_pydantic"]
-source-roots = ["./src/quest-metadata"]
+source-roots = ["src/quest-metadata"]
 [tool.pylint.'MASTER']
-disable = "C0114"
+disable = "C0114, C0411"
 enable = "W0614,C0302,R0915"
 ignore-patterns = ".+\\.pyi"
 # extension-pkg-allow-list = ["dependency_injector","uplink"]
