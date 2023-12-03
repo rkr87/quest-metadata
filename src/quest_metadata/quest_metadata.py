@@ -8,6 +8,9 @@ Application:
     A class that updates local app data from GitHub and fetches
     additional meta data.
 """
+import logging
+import logging.config
+from datetime import datetime, timedelta
 from typing import final
 
 from base.singleton import Singleton
@@ -50,8 +53,12 @@ class Application(metaclass=Singleton):
         This method updates local app data from GitHub and fetches
         additional meta data.
         """
+        logger = logging.getLogger(__name__)
+        start: datetime = datetime.now()
         GithubUpdater.update(self._app_manager)
         MetaUpdater.start(self._app_manager, self._meta_wrapper)
+        delta: timedelta = datetime.now() - start
+        logger.info("Completed in %s seconds", delta.seconds)
 
 
 def main() -> None:
@@ -66,4 +73,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    logging.config.fileConfig('logging.conf')
     main()

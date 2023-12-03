@@ -23,6 +23,7 @@ Usage:
 Attributes:
     META_DOMAIN (str): The base URL of the Meta domain.
 """
+import logging
 from time import sleep
 
 from playwright.sync_api import sync_playwright
@@ -51,6 +52,8 @@ class MetaCookie(NonInstantiable):
         Returns:
             str: The obtained cookie.
         """
+        logger = logging.getLogger(__name__)
+        logger.info("Acquiring cookies from meta.com")
         with sync_playwright() as p:
             browser = p.chromium.launch()
             context = browser.new_context()
@@ -61,6 +64,7 @@ class MetaCookie(NonInstantiable):
             if consent is not None:
                 consent.click(force=True)
             while 'gu' not in [c['name'] for c in context.cookies()]:
+                logger.debug("Waiting for 'gu' cookie...")
                 sleep(1)
             cookies: str = ";".join(
                 [f"{c['name']}={c['value']}" for c in context.cookies()]

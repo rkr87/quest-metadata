@@ -10,6 +10,8 @@ Processor:
 Attributes:
     FILES (str): The file path to save processed apps.
 """
+import logging
+
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
@@ -43,10 +45,15 @@ class MetaUpdater(NonInstantiable):
         Returns:
             None
         """
+        logger = logging.getLogger(__name__)
         scrape_apps: LocalApps = app_manager.get(True)
-        print(f"{len(scrape_apps)} to scrape")
+        logger.info(
+            "Start fetching app metadata from meta (%s to fetch)",
+            len(scrape_apps)
+        )
 
         for key, local_app in scrape_apps.items():
+            logger.info("Fetching: %s", local_app.app_name)
             response: MetaResponse = meta_wrapper.get(key)
             json_text: str = response.model_dump_json(
                 indent=4,
