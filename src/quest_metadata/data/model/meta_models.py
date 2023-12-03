@@ -181,7 +181,7 @@ class _Item(_BaseModel):
     age_rating: _AgeRating
     iarc: _Iarc = Field(..., alias='iarc_cert')
     platform: str
-    internet_connection: str
+    internet_connection: str | None
     website: str = Field(..., alias='website_url')
     icon: _Url = Field(..., alias='icon_image')
     banner: _Url = Field(..., alias='hero')
