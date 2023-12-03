@@ -7,7 +7,10 @@ name = "cz_conventional_commits"
 version = "0.0.1"
 
 # Files where the version will be updated. A pattern to match a line, can also be specified, separated by :
-version_files = ["pyproject.toml:version", "src/quest_metadata/__version__.py"]
+version_files = [
+    "pyproject.toml:version",
+    "src/quest_metadata/constants/constants.py",
+]
 
 # Format for the git tag, useful for old projects, that use a convention like "v1.2.1"
 # tag_format = "v$version"
@@ -743,13 +746,5 @@ skip_gitignore = true
 force_single_line = false
 lines_between_sections = 1
 src_paths = ["src/quest_metadata"]
-extend_skip = [
-    ".env",
-    '.toml',
-    ".json",
-    ".yaml",
-    ".gitignore",
-    "__version__.py",
-]
+extend_skip = [".env", '.toml', ".json", ".yaml", ".gitignore"]
 known_third_party = []
-known_first_party = ["__version__"]
