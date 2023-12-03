@@ -9,8 +9,7 @@ from typing_extensions import Literal, final
 
 from base.singleton import Singleton
 from data.model.meta_response import MetaResponse
-from utils.string_helper import (  # pylint: disable=wrong-import-order; Figure this shit out..
-    to_camel, to_kebab)
+from utils.string_helper import to_camel, to_kebab
 
 WEB_DOMAIN = "https://www.meta.com"
 API_DOMAIN = "https://www.meta.com/ocapi/graphql?forced_locale=en_GB"
