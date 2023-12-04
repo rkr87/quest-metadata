@@ -12,11 +12,11 @@ Attributes:
     APPS (str): The file path for storing local app information.
 """
 from datetime import datetime, timedelta
-from logging import Logger, getLogger
 
 from pydantic_core import ValidationError
 from typing_extensions import final, overload
 
+from base.base_class import BaseClass
 from base.singleton import Singleton
 from data.model.local_apps import LocalApp, LocalApps
 
@@ -24,7 +24,7 @@ APPS: str = "./data/apps.json"
 
 
 @final
-class AppManager(metaclass=Singleton):
+class AppManager(BaseClass, metaclass=Singleton):
     """
     AppManager class for managing local apps.
 
@@ -42,7 +42,7 @@ class AppManager(metaclass=Singleton):
             exclusion_days (int): The number of days to exclude recently
                 updated apps.
         """
-        self._logger: Logger = getLogger(__name__)
+        super().__init__()
         self._logger.info("Initialising app manager")
         self._apps: LocalApps = self._load_from_file()
         self._exclusion_days: int = exclusion_days

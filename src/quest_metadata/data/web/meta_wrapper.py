@@ -24,12 +24,13 @@ Usage:
 Attributes:
     API_DOMAIN (str): The base URL for the Meta API.
 """
-from logging import Logger, getLogger
+
 from urllib.parse import urlencode
 
 from requests import Response, post
 from typing_extensions import final
 
+from base.base_class import BaseClass
 from base.singleton import Singleton
 from constants.constants import META_DOMAIN
 from data.model.api_models import ApiHeader, ApiPayload
@@ -39,7 +40,7 @@ API_ENDPOINT = f"{META_DOMAIN}/ocapi/graphql?forced_locale=en_GB"
 
 
 @final
-class MetaWrapper(metaclass=Singleton):
+class MetaWrapper(BaseClass, metaclass=Singleton):
     """
     MetaWrapper class for interacting with the Meta API.
 
@@ -57,10 +58,10 @@ class MetaWrapper(metaclass=Singleton):
         Args:
             cookie (str): The cookie to be used in the API request headers.
         """
-        self._logger: Logger = getLogger(__name__)
         self._logger.info("Initialising Meta API Wrapper")
         self._header: ApiHeader = ApiHeader(cookie=cookie)
         self._payload: ApiPayload = ApiPayload()
+        super().__init__()
 
     def get(self, store_id: str) -> MetaResponse:
         """

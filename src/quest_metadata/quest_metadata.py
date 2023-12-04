@@ -10,9 +10,9 @@ Application:
 """
 import logging.config
 from datetime import datetime, timedelta
-from logging import Logger, getLogger
 from typing import final
 
+from base.base_class import BaseClass
 from base.singleton import Singleton
 from controller.github_updater import GithubUpdater
 from controller.meta_updater import MetaUpdater
@@ -22,7 +22,7 @@ from data.web.meta_wrapper import MetaWrapper
 
 
 @final
-class Application(metaclass=Singleton):
+class Application(BaseClass, metaclass=Singleton):
     """
     Application class for managing app data.
 
@@ -43,9 +43,9 @@ class Application(metaclass=Singleton):
             app_manager (AppManager): The local app manager.
             meta_wrapper (MetaWrapper): The MetaWrapper for fetching meta data.
         """
-        self._logger: Logger = getLogger(__name__)
         self._app_manager: AppManager = app_manager
         self._meta_wrapper: MetaWrapper = meta_wrapper
+        super().__init__()
 
     def run(self) -> None:
         """
