@@ -14,6 +14,7 @@ Attributes:
 from datetime import datetime, timedelta
 from logging import Logger, getLogger
 
+from pydantic_core import ValidationError
 from typing_extensions import final, overload
 
 from base.singleton import Singleton
@@ -97,13 +98,13 @@ class AppManager(metaclass=Singleton):
         Returns:
             None
         """
-        if store_id not in self._apps:
-            app: LocalApp = LocalApp(packages=[package],
+        if package not in self._apps:
+            app: LocalApp = LocalApp(store_ids=[store_id],
                                      app_name=app_name,
                                      added=datetime.now().isoformat())
-            self._apps[store_id] = app
-        elif package not in self._apps[store_id].packages:
-            self._apps[store_id].packages.append(package)
+            self._apps[package] = app
+        elif store_id not in self._apps[package].store_ids:
+            self._apps[package].store_ids.append(store_id)
 
     def save(self) -> None:
         """
@@ -172,5 +173,5 @@ class AppManager(metaclass=Singleton):
             with open(APPS, encoding="utf8") as file:
                 data: LocalApps = LocalApps.model_validate_json(file.read())
             return data
-        except FileNotFoundError:
+        except (FileNotFoundError, ValidationError):
             return LocalApps()

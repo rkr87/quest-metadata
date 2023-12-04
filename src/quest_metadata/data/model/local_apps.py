@@ -27,7 +27,7 @@ class LocalApp(BaseModel):
     """
     Pydantic model for representing a local application.
     """
-    packages: list[str]
+    store_ids: list[str]
     app_name: str
     added: str
     updated: str | None = None

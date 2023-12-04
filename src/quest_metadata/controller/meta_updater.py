@@ -1,5 +1,5 @@
 """
-processor.py
+meta_updater.py
 
 This module defines the Processor class for processing app data.
 
@@ -52,18 +52,18 @@ class MetaUpdater(NonInstantiable):
             len(scrape_apps)
         )
 
-        for key, local_app in scrape_apps.items():
+        for package, local_app in scrape_apps.items():
             logger.info("Fetching: %s", local_app.app_name)
-            response: MetaResponse = meta_wrapper.get(key)
-            json_text: str = response.model_dump_json(
-                indent=4,
-                exclude_unset=True,
-                exclude_none=True
-            )
-            for package in local_app.packages:
+            for store_id in local_app.store_ids:
+                response: MetaResponse = meta_wrapper.get(store_id)
+                json_text: str = response.model_dump_json(
+                    indent=4,
+                    exclude_unset=True,
+                    exclude_none=True
+                )
                 with open(
                     f"{FILES}{package}.json", 'w', encoding="utf-8"
                 ) as file:
                     file.write(json_text)
-            app_manager.update(key)
-            scrape_apps.pop(key)
+            app_manager.update(package)
+            scrape_apps.pop(package)
