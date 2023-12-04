@@ -18,10 +18,9 @@ Usage:
     ratings = response.data.ratings
     ```
 """
+from datetime import datetime
 
-from typing import Any
-
-from pydantic import Field, root_validator, validator
+from pydantic import Field, validator
 
 from base.base_model import BaseModel
 from base.root_flatten import RootFlatten
@@ -107,9 +106,14 @@ class _Tags(RootFlatten[list[_Tag]]):
         """
         if val is None:
             return None
-        item = "Browse all"
+        items_to_remove: list[str] = [
+            "browse all",
+            "try before you buy",
+            "nik_test",
+            "stephrhee"
+        ]
         for tag in val:
-            if tag.root == item:
+            if tag.root is not None and tag.root.lower() in items_to_remove:
                 val.remove(tag)
         return val
 
@@ -128,7 +132,7 @@ class _ReleaseDate(RootFlatten[str]):
         Convert the meta date format to standard ISO format
         """
         if val is None:
-            return val
+            return datetime(1980, 1, 1).isoformat()
         return to_iso(val, "%d %b %Y")
 
 
@@ -175,8 +179,6 @@ class _Item(BaseModel):
     platforms: list[str] = Field(..., alias='supported_platforms_i18n')
     player_modes: list[str] = Field(..., alias='supported_player_modes')
     tags: _Tags = Field(..., alias='item_tags')
-    rating: float | None
-    votes: int | None
     hist: _Ratings = Field(..., alias='quality_rating_histogram_aggregate_all')
     comfort: str = Field(..., alias='comfort_rating')
     age_rating: _AgeRating
@@ -190,37 +192,6 @@ class _Item(BaseModel):
     trailer: _Trailer | None
     has_ads: bool = Field(..., alias='has_in_app_ads')
     require_360_sensor: bool = Field(..., alias='is_360_sensor_setup_required')
-
-    @root_validator(pre=True, allow_reuse=False)
-    @classmethod
-    def weighted_ratings(cls, val: dict[str, Any]) -> dict[str, Any]:
-        """
-        Calculate the weighted average rating based on the provided histogram.
-
-        Args:
-            val (dict[str, Any]): The input dictionary containing
-                the ratings histogram.
-
-        Returns:
-            dict[str, Any]: The modified dictionary with the calculated
-                weighted average rating.
-
-        Note:
-            The ratings histogram should be in the format:
-            [
-                {"star_rating": int, "count": int},
-                ...
-            ]
-            The weighted average rating is calculated by summing
-            up the product of each star rating and its count,
-            then dividing by the total count of votes.
-        """
-        ratings = val.get('quality_rating_histogram_aggregate_all', [])
-        votes: int = sum(r['count'] for r in ratings)
-        rating: int = sum(r['count'] * r['star_rating'] for r in ratings)
-        val['rating'] = None if votes == 0 else rating / votes
-        val['votes'] = votes
-        return val
 
 
 class _Data(RootFlatten[_Item]):
@@ -244,11 +215,5 @@ class MetaResponse(BaseModel):
     """
     Pydantic model for representing a meta response.
     """
-    # class MyModel(RootModel[dict[str, _Data]]):
-    #     def __getattr__(self, item: str) -> _Data:
-    #         return self.root.__getitem__(item)
-
-    #     def __get__(self) -> _Data:
-    #         return self.root.__getitem__("root")
     data: _Data
     errors: list[Error] | None = None

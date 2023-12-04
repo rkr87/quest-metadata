@@ -25,6 +25,7 @@ Attributes:
     API_DOMAIN (str): The base URL for the Meta API.
 """
 
+from typing import overload
 from urllib.parse import urlencode
 
 from requests import Response, post
@@ -63,26 +64,51 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
         self._header: ApiHeader = ApiHeader(cookie=cookie)
         self._payload: ApiPayload = ApiPayload()
 
-    def get(self, store_id: str) -> MetaResponse:
+    @overload
+    def get(self, uid: str) -> list[MetaResponse]:
         """
-        Send a GET request to the Meta API to retrieve information for a
-        specific store item.
+        Get meta information for a single store item.
 
         Args:
-            store_id (str): The ID of the store item.
+            uid (str): The store item ID.
 
         Returns:
-            MetaResponse: A Pydantic model representing the response from the
-                Meta API.
+            list[MetaResponse]: A list containing a single MetaResponse object.
         """
-        self._logger.debug("Fetching %s from Meta API", store_id)
-        self._header.referrer = f"{META_DOMAIN}/en-gb/experiences/{store_id}"
-        self._payload.variables.item_id = store_id
+    @overload
+    def get(self, uid: list[str]) -> list[MetaResponse]:
+        """
+        Get meta information for a list of store items.
 
-        resp: Response = post(
-            API_ENDPOINT,
-            headers=self._header.model_dump(by_alias=True),
-            data=urlencode(self._payload.model_dump(by_alias=True)),
-            timeout=10
-        )
-        return MetaResponse.model_validate(resp.json())
+        Args:
+            uid (list[str]): List of store item IDs.
+
+        Returns:
+            list[MetaResponse]: A list of MetaResponse objects.
+        """
+
+    def get(self, uid: list[str] | str) -> list[MetaResponse]:
+        """
+        Get meta information for one or more store items.
+
+        Args:
+            uid (str | list[str]): The store ID or a list of store IDs.
+
+        Returns:
+            list[MetaResponse]: A list of MetaResponse objects.
+        """
+        def fetch(sid: str) -> MetaResponse:
+            self._logger.debug("Fetching %s from Meta API", sid)
+            self._header.referrer = f"{META_DOMAIN}/en-gb/experiences/{sid}"
+            self._payload.variables.item_id = sid
+
+            resp: Response = post(
+                API_ENDPOINT,
+                headers=self._header.model_dump(by_alias=True),
+                data=urlencode(self._payload.model_dump(by_alias=True)),
+                timeout=10
+            )
+            return MetaResponse.model_validate(resp.json())
+
+        uids: list[str] = [uid] if isinstance(uid, str) else uid
+        return [fetch(uid) for uid in uids]

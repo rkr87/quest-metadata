@@ -1,23 +1,22 @@
 """
 meta_updater.py
 
-This module defines the Processor class for processing app data.
+This module defines a utility class, MetaUpdater,
+for updating meta information for local apps.
 
-Processor:
-    A class with a static method for fetching and processing app
-    data using an AppManager and a MetaWrapper.
-
-Attributes:
-    FILES (str): The file path to save processed apps.
+It uses a MetaWrapper to fetch meta information for each
+app and updates the local app manager accordingly.
 """
 from logging import Logger, getLogger
 
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
+from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApps
 from data.model.meta_response import MetaResponse
+from data.model.meta_result import MetaResult
 from data.web.meta_wrapper import MetaWrapper
 
 FILES: str = "./data/packages/"
@@ -26,36 +25,30 @@ FILES: str = "./data/packages/"
 @final
 class MetaUpdater(NonInstantiable):
     """
-    Processor class for processing app data.
+    Utility class for updating meta information for local apps.
 
-    Attributes:
-        _launch_method (str): The launch method for creating instances.
+    This class provides a method 'start' to fetch meta information for each app
+    from MetaWrapper and update the local app manager.
     """
     _launch_method: str = "start"
 
     @staticmethod
     def start(app_manager: AppManager, meta_wrapper: MetaWrapper) -> None:
         """
-        Start processing app data.
+        Start the meta updating process.
 
-        Args:
+        Parameters:
             app_manager (AppManager): The local app manager.
-            meta_wrapper (MetaWrapper): The MetaWrapper for fetching meta data.
-
-        Returns:
-            None
+            meta_wrapper (MetaWrapper): The MetaWrapper instance for fetching meta information.
         """
         logger: Logger = getLogger(__name__)
-        scrape_apps: LocalApps = app_manager.get(True)
-        logger.info(
-            "Start fetching app metadata from meta (%s to fetch)",
-            len(scrape_apps)
-        )
+        local_apps: LocalApps = app_manager.get(True)
+        logger.info("Fetching %s apps from meta.com", len(local_apps))
 
-        for package, app in scrape_apps.items():
+        for package, app in local_apps.items():
             logger.info("Fetching: %s", app.app_name)
-            responses: list[MetaResponse]
-            responses = [meta_wrapper.get(id) for id in app.store_ids]
-            responses[0].save_json(f"{FILES}{package}.json")
+            responses: list[MetaResponse] = meta_wrapper.get(app.store_ids)
+            meta_result: MetaResult = MetaParser.parse(responses)
+            meta_result.save_json(f"{FILES}{package}.json")
             app_manager.update(package)
-            scrape_apps.pop(package)
+            local_apps.pop(package)
