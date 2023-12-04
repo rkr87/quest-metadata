@@ -18,8 +18,9 @@ Usage:
     my_apps = LocalApps({'app1': my_app, 'app2': my_app})
     ```
 """
-from pydantic import BaseModel
 
+
+from base.base_model import BaseModel
 from base.root_dict_model import RootDictModel
 
 

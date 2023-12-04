@@ -16,9 +16,10 @@ ApiHeader:
 
 from typing import Callable
 
-from pydantic import BaseModel, Field
+from pydantic import Field
 from typing_extensions import Literal
 
+from base.base_model import BaseModel
 from constants.constants import META_DOMAIN
 from utils.string_utils import to_camel, to_kebab
 

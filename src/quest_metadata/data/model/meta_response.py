@@ -18,27 +18,15 @@ Usage:
     ratings = response.data.ratings
     ```
 """
-from abc import ABC
+
 from typing import Any
 
-from pydantic import BaseModel as PydanticBaseModel
 from pydantic import Field, root_validator, validator
 
+from base.base_model import BaseModel
 from base.root_flatten import RootFlatten
 from base.root_list_model import RootListModel
 from utils.string_utils import to_iso
-
-
-class _BaseModel(ABC, PydanticBaseModel):
-    """
-    Base Pydantic model with ABC and PydanticBaseModel as parents.
-    """
-    class Config:
-        """
-        Set all children to ignore all keys provided that are not
-        defined by the model.
-        """
-        extra: str = 'ignore'
 
 
 class _Url(RootFlatten[str]):
@@ -48,7 +36,7 @@ class _Url(RootFlatten[str]):
     _key = "uri"
 
 
-class _IarcRating(_BaseModel):
+class _IarcRating(BaseModel):
     """
     Pydantic model for representing IARC rating.
     """
@@ -66,7 +54,7 @@ class _Iarc(RootFlatten[_IarcRating]):
     _key = "iarc_rating"
 
 
-class _RatingHist(_BaseModel):
+class _RatingHist(BaseModel):
     """
     Pydantic model for representing star ratings.
     """
@@ -144,7 +132,7 @@ class _ReleaseDate(RootFlatten[str]):
         return to_iso(val, "%d %b %Y")
 
 
-class _Trailer(_BaseModel):
+class _Trailer(BaseModel):
     """
     Pydantic model for representing a trailer.
     """
@@ -152,11 +140,24 @@ class _Trailer(_BaseModel):
     uri: str
 
 
-class _Item(_BaseModel):
+class _IdList(RootListModel[str]):
+    """
+    Pydantic Model for merging multiple store_ids into a list.
+    """
+    @validator("root", pre=True)
+    @classmethod
+    def make_list(cls, val: str) -> list[str]:
+        """
+        Transform store_id into a list as some packages are listed on the store more than once.
+        """
+        return [val]
+
+
+class _Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
-    id: str
+    id: _IdList
     name: str = Field(..., alias='display_name')
     app_name: str = Field(..., alias='appName')
     type_name: str = Field(..., alias='__typename')
@@ -229,7 +230,7 @@ class _Data(RootFlatten[_Item]):
     _key = "item"
 
 
-class _Error(_BaseModel):
+class Error(BaseModel):
     """
     Pydantic model for representing an error.
     """
@@ -239,9 +240,15 @@ class _Error(_BaseModel):
     path: list[int | str]
 
 
-class MetaResponse(_BaseModel):
+class MetaResponse(BaseModel):
     """
     Pydantic model for representing a meta response.
     """
+    # class MyModel(RootModel[dict[str, _Data]]):
+    #     def __getattr__(self, item: str) -> _Data:
+    #         return self.root.__getitem__(item)
+
+    #     def __get__(self) -> _Data:
+    #         return self.root.__getitem__("root")
     data: _Data
-    errors: list[_Error] | None = None
+    errors: list[Error] | None = None

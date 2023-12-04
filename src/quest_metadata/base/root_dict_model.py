@@ -21,7 +21,7 @@ Usage:
 from abc import ABC
 from typing import Iterator, Tuple, TypeVar
 
-from pydantic import RootModel
+from base.base_model import RootModel
 
 _KT = TypeVar('_KT', bound=str)
 _VT = TypeVar('_VT')

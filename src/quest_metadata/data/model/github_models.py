@@ -34,8 +34,7 @@ instantiation of these models in your code.
 """
 from typing import Callable
 
-from pydantic import BaseModel
-
+from base.base_model import BaseModel
 from base.root_list_model import RootListModel
 from utils.string_utils import to_camel
 

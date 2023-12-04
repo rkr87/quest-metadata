@@ -34,7 +34,7 @@ from base.base_class import BaseClass
 from base.singleton import Singleton
 from constants.constants import META_DOMAIN
 from data.model.api_models import ApiHeader, ApiPayload
-from data.model.meta_models import MetaResponse
+from data.model.meta_response import MetaResponse
 
 API_ENDPOINT = f"{META_DOMAIN}/ocapi/graphql?forced_locale=en_GB"
 

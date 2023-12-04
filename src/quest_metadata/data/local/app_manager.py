@@ -113,13 +113,7 @@ class AppManager(BaseClass, metaclass=Singleton):
         Returns:
             None
         """
-        with open(APPS, 'w', encoding="utf-8") as file:
-            text: str = self._apps.model_dump_json(
-                indent=4,
-                exclude_none=True,
-                exclude_unset=True
-            )
-            file.write(text)
+        self._apps.save_json(APPS)
 
     @overload
     def update(self, store_id: str) -> None: ...

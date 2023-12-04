@@ -17,7 +17,7 @@ from typing_extensions import final
 from base.non_instantiable import NonInstantiable
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApps
-from data.model.meta_models import MetaResponse
+from data.model.meta_response import MetaResponse
 from data.web.meta_wrapper import MetaWrapper
 
 FILES: str = "./data/packages/"
@@ -52,18 +52,10 @@ class MetaUpdater(NonInstantiable):
             len(scrape_apps)
         )
 
-        for package, local_app in scrape_apps.items():
-            logger.info("Fetching: %s", local_app.app_name)
-            for store_id in local_app.store_ids:
-                response: MetaResponse = meta_wrapper.get(store_id)
-                json_text: str = response.model_dump_json(
-                    indent=4,
-                    exclude_unset=True,
-                    exclude_none=True
-                )
-                with open(
-                    f"{FILES}{package}.json", 'w', encoding="utf-8"
-                ) as file:
-                    file.write(json_text)
+        for package, app in scrape_apps.items():
+            logger.info("Fetching: %s", app.app_name)
+            responses: list[MetaResponse]
+            responses = [meta_wrapper.get(id) for id in app.store_ids]
+            responses[0].save_json(f"{FILES}{package}.json")
             app_manager.update(package)
             scrape_apps.pop(package)

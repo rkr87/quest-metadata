@@ -35,8 +35,10 @@ Result:
 from abc import ABC
 from typing import ClassVar, Union
 
-from pydantic import RootModel, validator
+from pydantic import validator
 from typing_extensions import TypeVar
+
+from base.base_model import RootModel
 
 _VT = TypeVar('_VT')
 
