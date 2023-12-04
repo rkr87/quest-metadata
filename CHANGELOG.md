@@ -1,3 +1,22 @@
+## 0.2.0 (2023-12-04)
+
+### Feat
+
+- **logging**: added basic logging capabilities
+
+### Fix
+
+- **logging**: handle unicode characters correctly
+- **MetaResponse**: made internet_connection field optional
+- **meta_response**: handle div/0 on weighted_ratings
+
+### Refactor
+
+- **local_apps**: change root_key to package rather than store id
+- **logging**: clean up logging implementation
+- **constants.py**: relocate VERSION constant to constants.py
+- **project**: clean-up, readability changes and docstrings added
+
 ## 0.1.0 (2023-12-03)
 
 ### Feat
