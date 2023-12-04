@@ -32,10 +32,8 @@ Usage:
 """
 from abc import ABC
 
-from base.singleton import Singleton
 
-
-class NonInstantiable(ABC, metaclass=Singleton):  # pylint: disable=too-few-public-methods
+class NonInstantiable(ABC):  # pylint: disable=too-few-public-methods
     """
     An abstract base class with a Singleton pattern,
     preventing direct instantiation.
