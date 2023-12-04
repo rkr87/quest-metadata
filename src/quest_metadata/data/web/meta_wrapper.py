@@ -58,10 +58,10 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
         Args:
             cookie (str): The cookie to be used in the API request headers.
         """
+        super().__init__()
         self._logger.info("Initialising Meta API Wrapper")
         self._header: ApiHeader = ApiHeader(cookie=cookie)
         self._payload: ApiPayload = ApiPayload()
-        super().__init__()
 
     def get(self, store_id: str) -> MetaResponse:
         """

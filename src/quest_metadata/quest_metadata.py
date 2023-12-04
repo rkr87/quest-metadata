@@ -43,9 +43,9 @@ class Application(BaseClass, metaclass=Singleton):
             app_manager (AppManager): The local app manager.
             meta_wrapper (MetaWrapper): The MetaWrapper for fetching meta data.
         """
+        super().__init__()
         self._app_manager: AppManager = app_manager
         self._meta_wrapper: MetaWrapper = meta_wrapper
-        super().__init__()
 
     def run(self) -> None:
         """
