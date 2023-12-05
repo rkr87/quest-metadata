@@ -25,7 +25,6 @@ from pydantic import Field, validator
 from base.base_model import BaseModel
 from base.root_flatten import RootFlatten
 from base.root_list_model import RootListModel
-from utils.string_utils import to_iso
 
 
 class _Url(RootFlatten[str]):
@@ -118,7 +117,7 @@ class _Tags(RootFlatten[list[_Tag]]):
         return val
 
 
-class _ReleaseDate(RootFlatten[str]):
+class _ReleaseDate(RootFlatten[datetime]):
     """
     Pydantic model that flattens the provided dict["display_date"]
     key into a str and converts the provided value to standard ISO format.
@@ -127,13 +126,15 @@ class _ReleaseDate(RootFlatten[str]):
 
     @validator("root")
     @classmethod
-    def to_iso(cls, val: str | None) -> str | None:
+    def to_datetime(cls, val: str | None) -> datetime:
         """
-        Convert the meta date format to standard ISO format
+        Convert the meta date format to datetime
         """
-        if val is None:
-            return datetime(1980, 1, 1).isoformat()
-        return to_iso(val, "%d %b %Y")
+        default_date = datetime(1980, 1, 1)
+        try:
+            return datetime.strptime(val, "%d %b %Y") if val else default_date
+        except ValueError:
+            return default_date
 
 
 class _Trailer(BaseModel):
@@ -179,6 +180,8 @@ class _Item(BaseModel):
     platforms: list[str] = Field(..., alias='supported_platforms_i18n')
     player_modes: list[str] = Field(..., alias='supported_player_modes')
     tags: _Tags = Field(..., alias='item_tags')
+    rating: float = 0
+    votes: int = 0
     hist: _Ratings = Field(..., alias='quality_rating_histogram_aggregate_all')
     comfort: str = Field(..., alias='comfort_rating')
     age_rating: _AgeRating

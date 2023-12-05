@@ -30,7 +30,7 @@ class Item(BaseModel):
     type_name: str
     appstore_type: str
     category: str | None
-    release_date: datetime = datetime(1980, 1, 1)
+    release_date: datetime
     description: str
     markdown_desc: bool
     developer: str
