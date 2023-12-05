@@ -124,17 +124,21 @@ class _ReleaseDate(RootFlatten[datetime]):
     """
     _key = "display_date"
 
-    @validator("root")
+    @validator("root", pre=True)
     @classmethod
-    def to_datetime(cls, val: str | None) -> datetime:
+    def to_datetime(cls, val: dict[str, str | None]) -> dict[str, datetime]:
         """
         Convert the meta date format to datetime
         """
-        default_date = datetime(1980, 1, 1)
-        try:
-            return datetime.strptime(val, "%d %b %Y") if val else default_date
-        except ValueError:
-            return default_date
+        text: str | None = val.get(cls._key)
+        result: dict[str, datetime] = {cls._key: datetime(1980, 1, 1)}
+
+        if text:
+            try:
+                result[cls._key] = datetime.strptime(text, "%d %b %Y")
+            except ValueError:
+                pass
+        return result
 
 
 class _Trailer(BaseModel):
