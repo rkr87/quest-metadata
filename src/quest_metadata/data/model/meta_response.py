@@ -212,8 +212,8 @@ class Item(BaseModel):
         Returns:
             float: The overall rating.
         """
-        rating: int = sum(r.votes * r.rating for r in self.hist)  # pylint: disable=not-an-iterable
         if self.votes != 0:
+            rating: int = sum(r.votes * r.rating for r in self.hist)  # pylint: disable=not-an-iterable
             return rating / self.votes
         return 0
 
