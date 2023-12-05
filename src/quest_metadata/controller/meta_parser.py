@@ -10,13 +10,13 @@ Classes:
     MetaParser: A final class for parsing and consolidating meta information.
 
 """
-from typing import Tuple
+
+from typing import Any, Tuple, TypeVar
 
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
-from data.model.meta_response import MetaResponse
-from data.model.meta_result import Item, MetaResult
+from data.model.meta_response import Item, MetaResponse
 
 
 @final
@@ -30,7 +30,7 @@ class MetaParser(NonInstantiable):
     _launch_method: str = "parse"
 
     @classmethod
-    def parse(cls, meta_responses: list[MetaResponse]) -> MetaResult:
+    def parse(cls, meta_responses: list[MetaResponse]) -> MetaResponse:
         """
         Parse and consolidate a list of MetaResponse objects into a
         single MetaResult.
@@ -42,37 +42,21 @@ class MetaParser(NonInstantiable):
         Returns:
             MetaResult: Consolidated MetaResult object.
         """
-        results: list[MetaResult] = cls._convert(meta_responses)
-        consol: MetaResult
-        if len(results) == 1:
-            consol = results[0]
+        consol: MetaResponse
+        if len(meta_responses) == 1:
+            consol = meta_responses[0]
         else:
-            base: Tuple[MetaResult, list[MetaResult]] = cls._identify_base(results)
+            base: Tuple[MetaResponse, list[MetaResponse]] = cls._identify_base(meta_responses)
             consol = base[0]
             for merge in base[1]:
-                cls._consolidate_results(consol.data, merge.data)
-        cls._calc_weighted_ratings(consol.data)
+                cls._consolidate_results(consol.data.root, merge.data.root)
         return consol
-
-    @classmethod
-    def _convert(cls, responses: list[MetaResponse]) -> list[MetaResult]:
-        """
-        Convert a list of MetaResponse objects to a list of MetaResult objects.
-
-        Args:
-            responses (list[MetaResponse]): List of MetaResponse objects to
-                be converted.
-
-        Returns:
-            list[MetaResult]: List of converted MetaResult objects.
-        """
-        return [MetaResult(**r.model_dump()) for r in responses]
 
     @classmethod
     def _identify_base(
         cls,
-        results: list[MetaResult]
-    ) -> Tuple[MetaResult, list[MetaResult]]:
+        responses: list[MetaResponse]
+    ) -> Tuple[MetaResponse, list[MetaResponse]]:
         """
         Identify the base result from a list of MetaResult objects.
 
@@ -85,12 +69,16 @@ class MetaParser(NonInstantiable):
             Tuple[MetaResult, list[MetaResult]]: Tuple containing the
                 base result and the remaining list of results.
         """
-        base_result: Tuple[int, MetaResult] = 0, results[0]
-        for index, result in enumerate(results, 1):
-            if cls._new_base_check(base_result[1].data, result.data):
-                base_result = index - 1, result
-        results.pop(base_result[0])
-        return base_result[1], results
+        base_result: Tuple[int, MetaResponse] = 0, responses[0]
+
+        for i, result in enumerate(responses[1:], start=1):
+            if cls._new_base_check(base_result[1].data.root, result.data.root):
+                base_result = i, result
+
+        base_index, base_response = base_result
+        responses.pop(base_index)
+
+        return base_response, responses
 
     @classmethod
     def _new_base_check(cls, base: Item, new: Item) -> bool:
@@ -108,27 +96,12 @@ class MetaParser(NonInstantiable):
                 False otherwise.
         """
         return (
-            new.release_date > base.release_date or
+            new.release_date.root > base.release_date.root or
             (
-                new.release_date == base.release_date and
-                (new.votes or 0) > (base.votes or 0)
+                new.release_date.root == base.release_date.root and
+                new.votes > base.votes
             )
         )
-
-    @classmethod
-    def _calc_weighted_ratings(cls, consol: Item) -> None:
-        """
-        Calculate weighted ratings based on votes and rating values.
-
-        Args:
-            consol (Item): Item containing information to calculate
-                weighted ratings.
-        """
-        votes: int = sum(r.votes for r in consol.hist)
-        rating: int = sum(r.votes * r.rating for r in consol.hist)
-        if votes != 0:
-            consol.rating = rating / votes
-            consol.votes = votes
 
     @classmethod
     def _consolidate_results(cls, base: Item, update: Item) -> None:
@@ -139,17 +112,18 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        lists: list[Tuple[list[str], list[str]]] = [
-            (base.id, update.id),
+        lists: list[Tuple[list[Any], list[Any]]] = [
+            (base.id.root, update.id.root),
             (base.genres, update.genres),
             (base.input_devices, update.input_devices),
             (base.games_modes, update.games_modes),
             (base.languages, update.languages),
             (base.platforms, update.platforms),
             (base.player_modes, update.player_modes),
-            (base.tags, update.tags),
+            (base.tags.root, update.tags.root),
             (base.screenshots, update.screenshots),
         ]
+
         for base_list, update_list in lists:
             cls._update_list(base_list, update_list)
 
@@ -159,11 +133,13 @@ class MetaParser(NonInstantiable):
                     base_item.votes += item.votes
                     break
 
+    _KT = TypeVar("_KT")
+
     @classmethod
     def _update_list(
         cls,
-        base: list[str] | None,
-        update: list[str] | None
+        base: list[_KT] | None,
+        update: list[_KT] | None
     ) -> None:
         """
         Update a list, ensuring no duplicate items are added.

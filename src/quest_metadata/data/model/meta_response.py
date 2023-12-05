@@ -20,7 +20,7 @@ Usage:
 """
 from datetime import datetime
 
-from pydantic import Field, validator
+from pydantic import Field, computed_field, validator
 
 from base.base_model import BaseModel
 from base.root_flatten import RootFlatten
@@ -44,7 +44,7 @@ class _IarcRating(BaseModel):
     icon: _Url = Field(..., alias='small_age_rating_image')
 
 
-class _Iarc(RootFlatten[_IarcRating]):
+class _Iarc(RootFlatten[_IarcRating | None]):
     """
     Pydantic model that flattens the provided dict["iarc_rating"]
     key into a IarcRating class.
@@ -60,13 +60,6 @@ class _RatingHist(BaseModel):
     votes: int = Field(..., alias='count')
 
 
-class _Ratings(RootListModel[_RatingHist]):
-    """
-    Pydantic model for representing a list of star ratings.
-    """
-    root: list[_RatingHist]
-
-
 class _Language(RootFlatten[str]):
     """
     Pydantic model that flattens the provided dict["name"] key into a str.
@@ -74,7 +67,7 @@ class _Language(RootFlatten[str]):
     _key = "name"
 
 
-class _AgeRating(RootFlatten[str]):
+class _AgeRating(RootFlatten[str | None]):
     """
     Pydantic model that flattens the provided dict["category_name"]
     key into a str.
@@ -112,7 +105,7 @@ class _Tags(RootFlatten[list[_Tag]]):
             "stephrhee"
         ]
         for tag in val:
-            if tag.root is not None and tag.root.lower() in items_to_remove:
+            if tag.root.lower() in items_to_remove:
                 val.remove(tag)
         return val
 
@@ -162,7 +155,7 @@ class _IdList(RootListModel[str]):
         return [val]
 
 
-class _Item(BaseModel):
+class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
@@ -184,9 +177,7 @@ class _Item(BaseModel):
     platforms: list[str] = Field(..., alias='supported_platforms_i18n')
     player_modes: list[str] = Field(..., alias='supported_player_modes')
     tags: _Tags = Field(..., alias='item_tags')
-    rating: float = 0
-    votes: int = 0
-    hist: _Ratings = Field(..., alias='quality_rating_histogram_aggregate_all')
+    hist: list[_RatingHist] = Field(..., alias='quality_rating_histogram_aggregate_all')
     comfort: str = Field(..., alias='comfort_rating')
     age_rating: _AgeRating
     iarc: _Iarc = Field(..., alias='iarc_cert')
@@ -200,8 +191,34 @@ class _Item(BaseModel):
     has_ads: bool = Field(..., alias='has_in_app_ads')
     require_360_sensor: bool = Field(..., alias='is_360_sensor_setup_required')
 
+    @computed_field  # type: ignore[misc]
+    @property
+    def votes(self) -> int:
+        """
+        Calculate the total number of votes for the item.
 
-class _Data(RootFlatten[_Item]):
+        Returns:
+            int: The total number of votes.
+        """
+        return sum(r.votes for r in self.hist)  # pylint: disable=not-an-iterable
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def rating(self) -> float:
+        """
+        Calculate the overall rating for the item based on votes and
+        individual ratings.
+
+        Returns:
+            float: The overall rating.
+        """
+        rating: int = sum(r.votes * r.rating for r in self.hist)  # pylint: disable=not-an-iterable
+        if self.votes != 0:
+            return rating / self.votes
+        return 0
+
+
+class _Data(RootFlatten[Item]):
     """
     Pydantic model that flattens the provided dict["item"] key into an Item.
     """

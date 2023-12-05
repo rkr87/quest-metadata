@@ -16,7 +16,6 @@ from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApps
 from data.model.meta_response import MetaResponse
-from data.model.meta_result import MetaResult
 from data.web.meta_wrapper import MetaWrapper
 
 FILES: str = "./data/packages/"
@@ -48,7 +47,7 @@ class MetaUpdater(NonInstantiable):
         for package, app in local_apps.items():
             logger.info("Fetching: %s", app.app_name)
             responses: list[MetaResponse] = meta_wrapper.get(app.store_ids)
-            meta_result: MetaResult = MetaParser.parse(responses)
+            meta_result: MetaResponse = MetaParser.parse(responses)
             meta_result.save_json(f"{FILES}{package}.json")
             app_manager.update(package)
             local_apps.pop(package)
