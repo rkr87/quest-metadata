@@ -75,10 +75,9 @@ class MetaParser(NonInstantiable):
             if cls._new_base_check(base_result[1].data.root, result.data.root):
                 base_result = i, result
 
-        base_index, base_response = base_result
-        responses.pop(base_index)
+        responses.pop(base_result[0])
 
-        return base_response, responses
+        return base_result[1], responses
 
     @classmethod
     def _new_base_check(cls, base: Item, new: Item) -> bool:
