@@ -91,19 +91,17 @@ style = [
 use_shortcuts = true
 
 [tool.commitizen.customize]
-message_template = "{{change_type}}:{{message}}"
-example = "feature: this feature enable customize through config file"
+message_template = "{{change_type}}: {{title}}{% if description %}\n\n{{description}}{% endif %}"
 schema = "<type>: <body>"
-schema_pattern = "(feat|fix|refactor|perf):(\\s.*)"
-bump_pattern = "^(break|new|fix|hotfix)"
-bump_map = { "break" = "MAJOR", "new" = "MINOR", "fix" = "PATCH", "hotfix" = "PATCH" }
-change_type_order = ["BREAKING CHANGE", "feat", "fix", "refactor", "perf"]
-# info_path = "cz_customize_info.txt"
+schema_pattern = "(feat|fix|refactor|chore): (\\s.*)"
+bump_pattern = "^(break|feat|fix|refactor|chore)"
+bump_map = { "break" = "MAJOR", "feat" = "MINOR", "fix" = "PATCH", "refactor" = "PATCH" }
+change_type_order = ["BREAKING CHANGE", "feat", "fix", "refactor", "chore"]
 info = """
 This is customized info
 """
-commit_parser = "^(?P<change_type>feat|fix|refactor|chore):\\s(?P<message>.*)?"
-changelog_pattern = "^(feature|bug fix|refactor|chore)?(!)?"
+commit_parser = "^(?P<change_type>feat|fix|refactor|chore): \\s(?P<title>.*)?"
+changelog_pattern = "^(feat|fix|refactor|chore)?(!)?"
 change_type_map = { "feat" = "feat", "fix" = "fix", "refactor" = "refactor", "chore" = "chore" }
 
 [[tool.commitizen.customize.questions]]
@@ -120,13 +118,13 @@ message = "Select the type of change you are committing"
 
 [[tool.commitizen.customize.questions]]
 type = "input"
-name = "message"
-message = "Body."
+name = "title"
+message = "Title\n    Each statement should start with a verb conjugated in an imperative way.\n    Statements should be seperated from themselves with a \";\".\n    Statements should be lowercase with no period. \n\n    EG: do something; do some other things\n\n"
 
 [[tool.commitizen.customize.questions]]
-type = "confirm"
-name = "show_message"
-message = "Do you want to add body message in commit?"
+type = "input"
+name = "description"
+message = "Description\n    Each statement should start with a verb conjugated in an imperative way.\n    Statements should be seperated from themselves with a line break \"\\n\" \n\n    EG: added x thing\"\\n\"removed some other things\n\n"
 
 [tool.mypy]
 
