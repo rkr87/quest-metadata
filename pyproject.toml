@@ -1,7 +1,8 @@
 [tool.commitizen]
 
 # Name of the committing rules to use
-name = "cz_conventional_commits"
+# name = "cz_conventional_commits"
+name = "cz_customize"
 
 # Current version. Example: "0.1.2"
 version = "0.2.0"
@@ -89,6 +90,43 @@ style = [
 # Define a key for each of your choices to set the key
 use_shortcuts = true
 
+[tool.commitizen.customize]
+message_template = "{{change_type}}:{{message}}"
+example = "feature: this feature enable customize through config file"
+schema = "<type>: <body>"
+schema_pattern = "(feat|fix|refactor|perf):(\\s.*)"
+bump_pattern = "^(break|new|fix|hotfix)"
+bump_map = { "break" = "MAJOR", "new" = "MINOR", "fix" = "PATCH", "hotfix" = "PATCH" }
+change_type_order = ["BREAKING CHANGE", "feat", "fix", "refactor", "perf"]
+# info_path = "cz_customize_info.txt"
+info = """
+This is customized info
+"""
+commit_parser = "^(?P<change_type>feat|fix|refactor|chore):\\s(?P<message>.*)?"
+changelog_pattern = "^(feature|bug fix|refactor|chore)?(!)?"
+change_type_map = { "feat" = "feat", "fix" = "fix", "refactor" = "refactor", "chore" = "chore" }
+
+[[tool.commitizen.customize.questions]]
+type = "list"
+name = "change_type"
+choices = [
+    { value = "feat", name = "feature: Adding a new feature." },
+    { value = "fix", name = "bug fix: Fixing a bug" },
+    { value = "refactor", name = "refactor: Changing code for peformance or convenience purpose (e.g. readibility)" },
+    { value = "chore", name = "chore: Everything else (writing documentation, formatting, adding tests, cleaning useless code etc.)" },
+]
+# choices = ["feature", "fix"]  # short version
+message = "Select the type of change you are committing"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "message"
+message = "Body."
+
+[[tool.commitizen.customize.questions]]
+type = "confirm"
+name = "show_message"
+message = "Do you want to add body message in commit?"
 
 [tool.mypy]
 
