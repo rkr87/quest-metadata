@@ -28,7 +28,7 @@ Attributes:
 from typing import overload
 from urllib.parse import urlencode
 
-from requests import Response, post
+from aiohttp import ClientResponse, ClientSession
 from typing_extensions import final
 
 from base.base_class import BaseClass
@@ -52,7 +52,7 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
             the payload to be sent with API requests.
     """
 
-    def __init__(self, cookie: str) -> None:
+    def __init__(self, cookie: str, http_session: ClientSession) -> None:
         """
         Initialize a new instance of MetaWrapper.
 
@@ -61,11 +61,12 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
         """
         super().__init__()
         self._logger.info("Initialising Meta API Wrapper")
+        self._session: ClientSession = http_session
         self._header: ApiHeader = ApiHeader(cookie=cookie)
         self._payload: ApiPayload = ApiPayload()
 
     @overload
-    def get(self, uid: str) -> list[MetaResponse]:
+    async def get(self, uid: str) -> list[MetaResponse]:
         """
         Get meta information for a single store item.
 
@@ -76,7 +77,7 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
             list[MetaResponse]: A list containing a single MetaResponse object.
         """
     @overload
-    def get(self, uid: list[str]) -> list[MetaResponse]:
+    async def get(self, uid: list[str]) -> list[MetaResponse]:
         """
         Get meta information for a list of store items.
 
@@ -87,7 +88,7 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
             list[MetaResponse]: A list of MetaResponse objects.
         """
 
-    def get(self, uid: list[str] | str) -> list[MetaResponse]:
+    async def get(self, uid: list[str] | str) -> list[MetaResponse]:
         """
         Get meta information for one or more store items.
 
@@ -97,18 +98,24 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
         Returns:
             list[MetaResponse]: A list of MetaResponse objects.
         """
-        def fetch(sid: str) -> MetaResponse:
+        async def fetch(sid: str) -> MetaResponse:
             self._logger.debug("Fetching %s from Meta API", sid)
             self._header.referrer = f"{META_DOMAIN}/en-gb/experiences/{sid}"
             self._payload.variables.item_id = sid
 
-            resp: Response = post(
+            resp: ClientResponse = await self._session.post(
                 API_ENDPOINT,
                 headers=self._header.model_dump(by_alias=True),
                 data=urlencode(self._payload.model_dump(by_alias=True)),
-                timeout=10
             )
-            return MetaResponse.model_validate(resp.json())
+            assert resp.status == 200
+            text = await resp.json(content_type='text/html; charset="utf-8"')
+            return MetaResponse.model_validate(text)
 
         uids: list[str] = [uid] if isinstance(uid, str) else uid
-        return [fetch(uid) for uid in uids]
+
+        responses: list[MetaResponse] = []
+        for store_id in uids:
+            resp: MetaResponse = await fetch(store_id)
+            responses.append(resp)
+        return responses

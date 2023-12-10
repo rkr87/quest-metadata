@@ -26,7 +26,7 @@ Note: Adjust the usage example based on the actual use case in your code.
 """
 from logging import Logger, getLogger
 
-from requests import Response, get
+from aiohttp import ClientResponse, ClientSession
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
@@ -49,7 +49,7 @@ class GitHubWrapper(NonInstantiable):
     _launch_method = "get_github_apps"
 
     @staticmethod
-    def get_github_apps() -> GithubApps:
+    async def get_github_apps(http_session: ClientSession) -> GithubApps:
         '''
         Fetches the list of external applications from the specified URL.
 
@@ -61,7 +61,7 @@ class GitHubWrapper(NonInstantiable):
         logger: Logger = getLogger(__name__)
         logger.info("Fetching app update list from Github")
         headers: dict[str, str] = {'Accept': 'application/json'}
-        resp: Response = get(EXT_APPS, headers=headers, timeout=10)
-        resp.encoding = 'utf8'
-        data: GithubApps = GithubApps.model_validate(resp.json())
+        resp: ClientResponse = await http_session.get(EXT_APPS, headers=headers)
+        text = await resp.json(content_type='text/plain; charset=utf-8')
+        data: GithubApps = GithubApps.model_validate(text)
         return data

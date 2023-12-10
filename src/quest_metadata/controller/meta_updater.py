@@ -7,14 +7,16 @@ for updating meta information for local apps.
 It uses a MetaWrapper to fetch meta information for each
 app and updates the local app manager accordingly.
 """
+import asyncio
 from logging import Logger, getLogger
+from typing import Any, Coroutine
 
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
 from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
-from data.model.local_apps import LocalApps
+from data.model.local_apps import LocalApp, LocalApps
 from data.model.meta_response import MetaResponse
 from data.web.meta_wrapper import MetaWrapper
 
@@ -32,7 +34,7 @@ class MetaUpdater(NonInstantiable):
     _launch_method: str = "start"
 
     @staticmethod
-    def start(app_manager: AppManager, meta_wrapper: MetaWrapper) -> None:
+    async def start(app_manager: AppManager, meta_wrapper: MetaWrapper) -> None:
         """
         Start the meta updating process.
 
@@ -44,10 +46,15 @@ class MetaUpdater(NonInstantiable):
         local_apps: LocalApps = app_manager.get(True)
         logger.info("Fetching %s apps from meta.com", len(local_apps))
 
-        for package, app in local_apps.items():
+        async def scrape(package: str, app: LocalApp) -> None:
+            responses: list[MetaResponse] = await meta_wrapper.get(app.store_ids)
             logger.info("Fetching: %s", app.app_name)
-            responses: list[MetaResponse] = meta_wrapper.get(app.store_ids)
             meta_result: MetaResponse = MetaParser.parse(responses)
-            meta_result.save_json(f"{FILES}{package}.json")
-            app_manager.update(package)
+            await meta_result.save_json(f"{FILES}{package}.json")
+            await app_manager.update(package)
             local_apps.pop(package)
+
+        tasks: list[Coroutine[Any, Any, None]] = []
+        for package, app in local_apps.items():
+            tasks.append(scrape(package, app))
+        await asyncio.gather(*tasks)  # pylint: disable=E1101

@@ -6,6 +6,7 @@ manipulation.
 """
 from typing import Generic, TypeVar
 
+import aiofiles
 from pydantic import BaseModel as PydanticBaseModel
 from pydantic import RootModel as PydanticRootModel
 
@@ -15,7 +16,7 @@ _VT = TypeVar("_VT")
 class BaseModel(PydanticBaseModel):
     """Base class for Pydantic models with additional utility methods."""
 
-    def save_json(self, file_path: str) -> None:
+    async def save_json(self, file_path: str) -> None:
         """
         Save the JSON representation of the model to a file.
 
@@ -27,8 +28,8 @@ class BaseModel(PydanticBaseModel):
             exclude_unset=True,
             exclude_none=True
         )
-        with open(file_path, 'w', encoding="utf-8") as file:
-            file.write(json_text)
+        async with aiofiles.open(file_path, 'w', encoding="utf-8") as file:
+            await file.write(json_text)
 
 
 class RootModel(BaseModel, PydanticRootModel[_VT], Generic[_VT]):
