@@ -28,10 +28,12 @@ Usage:
 
 Note: Adjust the usage example based on the actual use case in your code.
 """
+from aiohttp import ClientSession
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
 from data.local.app_manager import AppManager
+from data.model.github_models import GithubApps
 from data.web.github_wrapper import GitHubWrapper
 
 
@@ -47,7 +49,10 @@ class GithubUpdater(NonInstantiable):
     _launch_method: str = "update"
 
     @staticmethod
-    def update(app_manager: AppManager) -> None:
+    async def update(
+        app_manager: AppManager,
+        http_session: ClientSession
+    ) -> None:
         """
         Update the provided AppManager with information from the GitHub
         repository.
@@ -58,6 +63,7 @@ class GithubUpdater(NonInstantiable):
         Returns:
             None
         """
-        for item in GitHubWrapper.get_github_apps():
+        update: GithubApps = await GitHubWrapper.get_github_apps(http_session)
+        for item in update:
             app_manager.add(item.id, item.package_name, item.app_name)
-        app_manager.save()
+        await app_manager.save()

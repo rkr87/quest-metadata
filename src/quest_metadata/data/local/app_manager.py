@@ -106,25 +106,25 @@ class AppManager(BaseClass, metaclass=Singleton):
         elif store_id not in self._apps[package].store_ids:
             self._apps[package].store_ids.append(store_id)
 
-    def save(self) -> None:
+    async def save(self) -> None:
         """
         Save local app information to a file.
 
         Returns:
             None
         """
-        self._apps.save_json(APPS)
+        await self._apps.save_json(APPS)
 
     @overload
-    def update(self, store_id: str) -> None: ...
+    async def update(self, store_id: str) -> None: ...
 
     @overload
-    def update(self, store_id: list[str]) -> None: ...
+    async def update(self, store_id: list[str]) -> None: ...
 
     @overload
-    def update(self, store_id: dict[str, LocalApp]) -> None: ...
+    async def update(self, store_id: dict[str, LocalApp]) -> None: ...
 
-    def update(self, store_id: str | list[str] | dict[str, LocalApp]) -> None:
+    async def update(self, store_id: str | list[str] | dict[str, LocalApp]) -> None:
         """
         Update the timestamp of one or more apps.
 
@@ -140,7 +140,7 @@ class AppManager(BaseClass, metaclass=Singleton):
         else:
             for item in store_id:
                 self._update(item)
-        self.save()
+        await self.save()
 
     def _update(self, store_id: str) -> None:
         """

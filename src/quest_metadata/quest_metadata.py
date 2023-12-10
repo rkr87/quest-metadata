@@ -8,15 +8,19 @@ Application:
     A class that updates local app data from GitHub and fetches
     additional meta data.
 """
+import asyncio
 import logging.config
 from datetime import datetime, timedelta
 from typing import final
+
+from aiohttp import ClientSession
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
 from controller.github_updater import GithubUpdater
 from controller.meta_updater import MetaUpdater
 from data.local.app_manager import AppManager
+from data.web.http_client import HttpClient
 from data.web.meta_cookie import MetaCookie
 from data.web.meta_wrapper import MetaWrapper
 
@@ -34,7 +38,8 @@ class Application(BaseClass, metaclass=Singleton):
     def __init__(
         self,
         app_manager: AppManager,
-        meta_wrapper: MetaWrapper
+        meta_wrapper: MetaWrapper,
+        http_session: ClientSession
     ) -> None:
         """
         Initialize the Application.
@@ -46,8 +51,9 @@ class Application(BaseClass, metaclass=Singleton):
         super().__init__()
         self._app_manager: AppManager = app_manager
         self._meta_wrapper: MetaWrapper = meta_wrapper
+        self._http_session: ClientSession = http_session
 
-    def run(self) -> None:
+    async def run(self) -> None:
         """
         Run the application.
 
@@ -55,23 +61,25 @@ class Application(BaseClass, metaclass=Singleton):
         additional meta data.
         """
         start: datetime = datetime.now()
-        GithubUpdater.update(self._app_manager)
-        MetaUpdater.start(self._app_manager, self._meta_wrapper)
+        await GithubUpdater.update(self._app_manager, self._http_session)
+        await MetaUpdater.start(self._app_manager, self._meta_wrapper)
         delta: timedelta = datetime.now() - start
         self._logger.info("Completed in %s seconds", delta.seconds)
 
 
-def main() -> None:
+async def main() -> None:
     """
     Initialise dependencies and start the application.
     """
     manager = AppManager()
-    cookie: str = MetaCookie.fetch()
-    wrapper = MetaWrapper(cookie)
-    app = Application(manager, wrapper)
-    app.run()
+    client = HttpClient()
+    await client.open_session()
+    cookie: str = await MetaCookie.fetch()
+    wrapper = MetaWrapper(cookie, client())
+    app = Application(manager, wrapper, client())
+    await app.run()
 
 
 if __name__ == "__main__":
     logging.config.fileConfig('logging.conf')
-    main()
+    asyncio.run(main())

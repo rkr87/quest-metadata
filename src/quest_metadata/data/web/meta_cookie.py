@@ -23,10 +23,10 @@ Usage:
 Attributes:
     META_DOMAIN (str): The base URL of the Meta domain.
 """
+import asyncio
 from logging import Logger, getLogger
-from time import sleep
 
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
@@ -45,7 +45,7 @@ class MetaCookie(NonInstantiable):
     _launch_method = "fetch"
 
     @staticmethod
-    def fetch() -> str:
+    async def fetch() -> str:
         """
         Fetch the required cookie for interacting with the Meta API.
 
@@ -54,19 +54,22 @@ class MetaCookie(NonInstantiable):
         """
         logger: Logger = getLogger(__name__)
         logger.info("Acquiring cookies from meta.com")
-        with sync_playwright() as p:
-            browser = p.chromium.launch()
-            context = browser.new_context()
-            page = context.new_page()
-            page.goto(META_DOMAIN)
-            consent = page.wait_for_selector("text=Allow all cookies")
-            sleep(2)
+        async with async_playwright() as p:
+            browser = await p.chromium.launch()
+            context = await browser.new_context()
+            page = await context.new_page()
+            await page.goto(META_DOMAIN)
+            consent = await page.wait_for_selector("text=Allow all cookies")
+            await asyncio.sleep(2)  # pylint: disable=E1101
             if consent is not None:
-                consent.click(force=True)
-            while 'gu' not in [c['name'] for c in context.cookies()]:
+                await consent.click(force=True)
+
+            cookie_jar = await context.cookies()
+            while 'gu' not in [c['name'] for c in cookie_jar]:
                 logger.debug("Waiting for 'gu' cookie...")
-                sleep(1)
+                await asyncio.sleep(0.5)  # pylint: disable=E1101
+                cookie_jar = await context.cookies()
             cookies: str = ";".join(
-                [f"{c['name']}={c['value']}" for c in context.cookies()]
+                [f"{c['name']}={c['value']}" for c in cookie_jar]
             )
             return cookies
