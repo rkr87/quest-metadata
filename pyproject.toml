@@ -807,6 +807,9 @@ max-nested-blocks = 3
 [tool.pylint.'BASIC']
 no-docstring-rgx = '__.*__'
 
+[tool.pylint.broad_try_clause]
+max-try-statements = 2
+
 [tool.autopep8]
 # don't let autopep8 autofix line length issues...
 max_line_length = 500
