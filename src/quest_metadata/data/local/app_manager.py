@@ -186,8 +186,8 @@ class AppManager(BaseClass, metaclass=Singleton):
         Returns:
             LocalApps: The dictionary containing local app information.
         """
-        with open(APPS, encoding="utf8") as file:
-            try:
+        try:
+            with open(APPS, encoding="utf8") as file:
                 return LocalApps.model_validate_json(file.read())
-            except (FileNotFoundError, ValidationError):
-                return LocalApps()
+        except (FileNotFoundError, ValidationError):
+            return LocalApps()
