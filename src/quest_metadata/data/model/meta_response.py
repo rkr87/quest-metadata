@@ -1,4 +1,3 @@
-# pylint: disable=too-few-public-methods
 """
 meta_models.py
 
@@ -52,7 +51,7 @@ class _Iarc(RootFlatten[_IarcRating | None]):
     _key = "iarc_rating"
 
 
-class _RatingHist(BaseModel):
+class RatingHist(BaseModel):
     """
     Pydantic model for representing star ratings.
     """
@@ -150,7 +149,8 @@ class _IdList(RootListModel[str]):
     @classmethod
     def make_list(cls, val: str) -> list[str]:
         """
-        Transform store_id into a list as some packages are listed on the store more than once.
+        Transform store_id into a list as some packages are listed on the
+        store more than once.
         """
         return [val]
 
@@ -177,7 +177,10 @@ class Item(BaseModel):
     platforms: list[str] = Field(..., alias='supported_platforms_i18n')
     player_modes: list[str] = Field(..., alias='supported_player_modes')
     tags: _Tags = Field(..., alias='item_tags')
-    hist: list[_RatingHist] = Field(..., alias='quality_rating_histogram_aggregate_all')
+    hist: list[RatingHist] = Field(
+        ...,
+        alias='quality_rating_histogram_aggregate_all'
+    )
     comfort: str = Field(..., alias='comfort_rating')
     age_rating: _AgeRating
     iarc: _Iarc = Field(..., alias='iarc_cert')

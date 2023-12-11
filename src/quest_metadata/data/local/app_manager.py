@@ -94,14 +94,13 @@ class AppManager(BaseClass, metaclass=Singleton):
             store_id (str): The ID of the app store.
             package (str): The package name of the app.
             app_name (str): The name of the app.
-
-        Returns:
-            None
         """
         if package not in self._apps:
-            app: LocalApp = LocalApp(store_ids=[store_id],
-                                     app_name=app_name,
-                                     added=datetime.now().isoformat())
+            app: LocalApp = LocalApp(
+                store_ids=[store_id],
+                app_name=app_name,
+                added=datetime.now().isoformat()
+            )
             self._apps[package] = app
         elif store_id not in self._apps[package].store_ids:
             self._apps[package].store_ids.append(store_id)
@@ -109,9 +108,6 @@ class AppManager(BaseClass, metaclass=Singleton):
     async def save(self) -> None:
         """
         Save local app information to a file.
-
-        Returns:
-            None
         """
         await self._apps.save_json(APPS)
 
@@ -124,16 +120,18 @@ class AppManager(BaseClass, metaclass=Singleton):
     @overload
     async def update(self, store_id: dict[str, LocalApp]) -> None: ...
 
-    async def update(self, store_id: str | list[str] | dict[str, LocalApp]) -> None:
+    async def update(
+        self,
+        store_id: str | list[str] | dict[str, LocalApp]
+    ) -> None:
         """
         Update the timestamp of one or more apps.
 
         Args:
-            store_ids (str | list[str] | dict[str, LocalApp]): The ID(s) of the
-                app(s) to update.
-
-        Returns:
-            None
+            store_id (str | list[str] | dict[str, LocalApp]): The ID(s) of the
+                app(s) to update. It can be a single string, a list of strings,
+                or a dictionary with app IDs as keys and LocalApp objects as
+                values.
         """
         if isinstance(store_id, str):
             self._update(store_id)
@@ -148,24 +146,21 @@ class AppManager(BaseClass, metaclass=Singleton):
 
         Args:
             store_id (str): The ID of the app to update.
-
-        Returns:
-            None
         """
         time: str = datetime.now().isoformat()
         if store_id in self._apps:
             self._apps[store_id].updated = time
 
-    def _load_from_file(self) -> LocalApps:
+    @staticmethod
+    def _load_from_file() -> LocalApps:
         """
         Load local app information from a file.
 
         Returns:
             LocalApps: The dictionary containing local app information.
         """
-        try:
-            with open(APPS, encoding="utf8") as file:
-                data: LocalApps = LocalApps.model_validate_json(file.read())
-            return data
-        except (FileNotFoundError, ValidationError):
-            return LocalApps()
+        with open(APPS, encoding="utf8") as file:
+            try:
+                return LocalApps.model_validate_json(file.read())
+            except (FileNotFoundError, ValidationError):
+                return LocalApps()

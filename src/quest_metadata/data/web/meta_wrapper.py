@@ -25,6 +25,7 @@ Attributes:
     API_DOMAIN (str): The base URL for the Meta API.
 """
 
+from http import HTTPStatus
 from typing import overload
 from urllib.parse import urlencode
 
@@ -108,7 +109,7 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
                 headers=self._header.model_dump(by_alias=True),
                 data=urlencode(self._payload.model_dump(by_alias=True)),
             )
-            assert resp.status == 200
+            assert resp.status == HTTPStatus.OK
             text = await resp.json(content_type='text/html; charset="utf-8"')
             return MetaResponse.model_validate(text)
 

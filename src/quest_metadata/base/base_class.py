@@ -24,10 +24,11 @@ from abc import ABC
 from logging import Logger, getLogger
 
 
-class BaseClass(ABC):  # pylint: disable=too-few-public-methods
+class BaseClass(ABC):
     """
     A base class that serves as an abstract base class (ABC).
-    Subclasses should inherit from this class and implement the necessary methods.
+    Subclasses should inherit from this class and implement the necessary
+    methods.
 
     Attributes:
         logger (Logger): An instance of the Logger class for logging messages.

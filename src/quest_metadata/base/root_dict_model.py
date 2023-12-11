@@ -19,7 +19,8 @@ Usage:
     ```
 """
 from abc import ABC
-from typing import Iterator, Tuple, TypeVar
+from collections.abc import Iterator
+from typing import TypeVar
 
 from base.base_model import RootModel
 
@@ -77,7 +78,7 @@ class RootDictModel(ABC, RootModel[dict[_KT, _VT]]):
         """
         return list(self.root.values())
 
-    def items(self) -> list[Tuple[_KT, _VT]]:
+    def items(self) -> list[tuple[_KT, _VT]]:
         """
         Return a list of all key-value pairs in the dictionary.
         """

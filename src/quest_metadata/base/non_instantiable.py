@@ -33,7 +33,7 @@ Usage:
 from abc import ABC
 
 
-class NonInstantiable(ABC):  # pylint: disable=too-few-public-methods
+class NonInstantiable(ABC):
     """
     An abstract base class with a Singleton pattern,
     preventing direct instantiation.
