@@ -60,14 +60,14 @@ class MetaCookie(NonInstantiable):
             page = await context.new_page()
             await page.goto(META_DOMAIN)
             consent = await page.wait_for_selector("text=Allow all cookies")
-            await asyncio.sleep(2)  # pylint: disable=E1101
+            await asyncio.sleep(2)
             if consent is not None:
                 await consent.click(force=True)
 
             cookie_jar = await context.cookies()
             while 'gu' not in [c['name'] for c in cookie_jar]:
                 logger.debug("Waiting for 'gu' cookie...")
-                await asyncio.sleep(0.5)  # pylint: disable=E1101
+                await asyncio.sleep(0.5)
                 cookie_jar = await context.cookies()
             cookies: str = ";".join(
                 [f"{c['name']}={c['value']}" for c in cookie_jar]

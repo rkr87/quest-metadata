@@ -57,4 +57,4 @@ class MetaUpdater(NonInstantiable):
         tasks: list[Coroutine[Any, Any, None]] = []
         for package, app in local_apps.items():
             tasks.append(scrape(package, app))
-        await asyncio.gather(*tasks)  # pylint: disable=E1101
+        await asyncio.gather(*tasks)
