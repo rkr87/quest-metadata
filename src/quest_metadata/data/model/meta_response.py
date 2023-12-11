@@ -60,7 +60,7 @@ class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
-    ids: list[str]
+    ids: list[str] = Field(..., validation_alias='id')
     name: str = Field(..., validation_alias='display_name')
     app_name: str = Field(..., validation_alias='appName')
     type_name: str = Field(..., validation_alias='__typename')
@@ -181,7 +181,7 @@ class Item(BaseModel):
         """
         return self.price_gbp is not None and self.price_gbp == 0
 
-    @validator("id", pre=True)
+    @validator("ids", pre=True)
     @classmethod
     def id_to_list(cls, val: str) -> list[str]:
         """
