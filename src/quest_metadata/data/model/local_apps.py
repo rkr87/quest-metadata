@@ -32,6 +32,8 @@ class LocalApp(BaseModel):
     app_name: str
     added: str
     updated: str | None = None
+    is_available: bool | None = None
+    is_free: bool | None = None
 
 
 class LocalApps(RootDictModel[str, LocalApp]):

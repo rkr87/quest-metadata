@@ -46,7 +46,7 @@ class _IarcRating(BaseModel):
 class _Iarc(RootFlatten[_IarcRating | None]):
     """
     Pydantic model that flattens the provided dict["iarc_rating"]
-    key into a IarcRating class.
+    key into an instance of _IarcRating.
     """
     _key = "iarc_rating"
 
@@ -93,7 +93,7 @@ class _Tags(RootFlatten[list[_Tag]]):
     @classmethod
     def remove_item(cls, val: list[_Tag] | None) -> list[_Tag] | None:
         """
-        Remove the "Browse all" tag from the list of tags
+        Remove the unwanted tags from the list of tags.
         """
         if val is None:
             return None
@@ -155,6 +155,22 @@ class _IdList(RootListModel[str]):
         return [val]
 
 
+class _Price(RootFlatten[int]):
+    """
+    Pydantic model that flattens the provided dict["offset_amount"]
+    key into an int.
+    """
+    _key = "offset_amount"
+
+
+class _CurrentOffer(RootFlatten[_Price]):
+    """
+    Pydantic model that flattens the provided dict["price"] key
+    into an instance of _Price.
+    """
+    _key = "price"
+
+
 class Item(BaseModel):
     """
     Pydantic model for representing an item.
@@ -193,6 +209,11 @@ class Item(BaseModel):
     trailer: _Trailer | None
     has_ads: bool = Field(..., alias='has_in_app_ads')
     require_360_sensor: bool = Field(..., alias='is_360_sensor_setup_required')
+    price_gbp: _CurrentOffer | None = Field(
+        ...,
+        alias="current_offer",
+        exclude=True
+    )
 
     @computed_field  # type: ignore[misc]
     @property
@@ -220,10 +241,33 @@ class Item(BaseModel):
             return rating / self.votes
         return 0
 
+    @computed_field  # type: ignore[misc]
+    @property
+    def is_available(self) -> bool:
+        """
+        Check if the item is available for purchase.
+
+        Returns:
+            bool: True if available, False otherwise.
+        """
+        return self.price_gbp is not None
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def is_free(self) -> bool:
+        """
+        Check if the item is available for free.
+
+        Returns:
+            bool: True if free, False otherwise.
+        """
+        return self.price_gbp is not None and self.price_gbp.root.root == 0  # pylint: disable=E1101
+
 
 class _Data(RootFlatten[Item]):
     """
-    Pydantic model that flattens the provided dict["item"] key into an Item.
+    Pydantic model that flattens the provided dict["item"] key into an
+    instance of Item.
     """
     _key = "item"
 

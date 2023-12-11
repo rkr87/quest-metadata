@@ -58,7 +58,11 @@ class MetaUpdater(NonInstantiable):
             logger.info("Fetching: %s", app.app_name)
             meta_result: MetaResponse = MetaParser.parse(responses)
             await meta_result.save_json(f"{FILES}{package}.json")
-            await app_manager.update(package)
+            await app_manager.update(
+                package,
+                meta_result.data.root.is_available,
+                meta_result.data.root.is_free
+            )
             local_apps.pop(package)
 
         tasks: list[Coroutine[Any, Any, None]] = []
