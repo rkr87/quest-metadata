@@ -14,7 +14,7 @@ ApiHeader:
     Pydantic model representing headers for an API request.
 """
 
-from typing import Callable
+from collections.abc import Callable
 
 from pydantic import Field
 from typing_extensions import Literal
