@@ -130,6 +130,21 @@ class MetaParser(NonInstantiable):
 
         cls._update_ratings(base.hist, update.hist)
 
+        cls._update_availability(base, update)
+
+    @classmethod
+    def _update_availability(cls, base: Item, update: Item) -> None:
+        """
+        Update availability information in the base with information from
+        the update.
+
+        Args:
+            base (Item): Base item to be updated.
+            update (Item): Update item containing additional information.
+        """
+        if update.price_gbp is not None and update.price_gbp.root.root > 0:
+            base.price_gbp = update.price_gbp
+
     @classmethod
     def _update_ratings(
         cls,

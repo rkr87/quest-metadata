@@ -112,17 +112,34 @@ class AppManager(BaseClass, metaclass=Singleton):
         await self._apps.save_json(APPS)
 
     @overload
-    async def update(self, store_id: str) -> None: ...
+    async def update(
+        self,
+        store_id: str,
+        is_available: bool,
+        is_free: bool
+    ) -> None: ...
 
     @overload
-    async def update(self, store_id: list[str]) -> None: ...
+    async def update(
+        self,
+        store_id: list[str],
+        is_available: bool,
+        is_free: bool
+    ) -> None: ...
 
     @overload
-    async def update(self, store_id: dict[str, LocalApp]) -> None: ...
+    async def update(
+        self,
+        store_id: dict[str, LocalApp],
+        is_available: bool,
+        is_free: bool
+    ) -> None: ...
 
     async def update(
         self,
-        store_id: str | list[str] | dict[str, LocalApp]
+        store_id: str | list[str] | dict[str, LocalApp],
+        is_available: bool,
+        is_free: bool
     ) -> None:
         """
         Update the timestamp of one or more apps.
@@ -132,24 +149,34 @@ class AppManager(BaseClass, metaclass=Singleton):
                 app(s) to update. It can be a single string, a list of strings,
                 or a dictionary with app IDs as keys and LocalApp objects as
                 values.
+            is_available (bool): The availability status of the app(s).
+            is_free (bool): The pricing status of the app(s).
         """
         if isinstance(store_id, str):
-            self._update(store_id)
-        else:
-            for item in store_id:
-                self._update(item)
+            store_id = [store_id]
+        for item in store_id:
+            self._update(item, is_available, is_free)
         await self.save()
 
-    def _update(self, store_id: str) -> None:
+    def _update(
+        self,
+        store_id: str,
+        is_available: bool,
+        is_free: bool
+    ) -> None:
         """
-        Update the timestamp of a single app.
+        Update the timestamp and status of a single app.
 
         Args:
             store_id (str): The ID of the app to update.
+            is_available (bool): The availability status of the app.
+            is_free (bool): The pricing status of the app.
         """
         time: str = datetime.now().isoformat()
         if store_id in self._apps:
             self._apps[store_id].updated = time
+            self._apps[store_id].is_free = is_free
+            self._apps[store_id].is_available = is_available
 
     @staticmethod
     def _load_from_file() -> LocalApps:
