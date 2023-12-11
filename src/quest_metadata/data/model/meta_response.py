@@ -19,199 +19,117 @@ Usage:
 """
 from datetime import datetime
 
-from pydantic import Field, computed_field, validator
+from pydantic import AliasPath, Field, computed_field, validator
 
 from base.base_model import BaseModel
-from base.root_flatten import RootFlatten
-from base.root_list_model import RootListModel
-
-
-class _Url(RootFlatten[str]):
-    """
-    Pydantic model that flattens the provided dict["uri"] key into a str.
-    """
-    _key = "uri"
 
 
 class _IarcRating(BaseModel):
     """
     Pydantic model for representing IARC rating.
     """
-    age_rating: str = Field(..., alias='age_rating_text')
+    age_rating: str = Field(..., validation_alias='age_rating_text')
     descriptors: list[str]
-    elements: list[str] = Field(..., alias='interactive_elements')
-    icon: _Url = Field(..., alias='small_age_rating_image')
-
-
-class _Iarc(RootFlatten[_IarcRating | None]):
-    """
-    Pydantic model that flattens the provided dict["iarc_rating"]
-    key into an instance of _IarcRating.
-    """
-    _key = "iarc_rating"
+    elements: list[str] = Field(..., validation_alias='interactive_elements')
+    icon: str = Field(
+        ...,
+        validation_alias=AliasPath('small_age_rating_image', 'uri')
+    )
 
 
 class RatingHist(BaseModel):
     """
     Pydantic model for representing star ratings.
     """
-    rating: int = Field(..., alias='star_rating')
-    votes: int = Field(..., alias='count')
-
-
-class _Language(RootFlatten[str]):
-    """
-    Pydantic model that flattens the provided dict["name"] key into a str.
-    """
-    _key = "name"
-
-
-class _AgeRating(RootFlatten[str | None]):
-    """
-    Pydantic model that flattens the provided dict["category_name"]
-    key into a str.
-    """
-    _key = "category_name"
-
-
-class _Tag(RootFlatten[str]):
-    """
-    Pydantic model that flattens the provided dict["display_name"]
-    key into a str.
-    """
-    _key = "display_name"
-
-
-class _Tags(RootFlatten[list[_Tag]]):
-    """
-    Pydantic model that flattens the provided dict["nodes"]
-    key into a list of Tags.
-    """
-    _key = "nodes"
-
-    @validator("root")
-    @classmethod
-    def remove_item(cls, val: list[_Tag] | None) -> list[_Tag] | None:
-        """
-        Remove the unwanted tags from the list of tags.
-        """
-        if val is None:
-            return None
-        items_to_remove: list[str] = [
-            "browse all",
-            "try before you buy",
-            "nik_test",
-            "stephrhee"
-        ]
-        for tag in val:
-            if tag.root.lower() in items_to_remove:
-                val.remove(tag)
-        return val
-
-
-class _ReleaseDate(RootFlatten[datetime]):
-    """
-    Pydantic model that flattens the provided dict["display_date"]
-    key into a str and converts the provided value to standard ISO format.
-    """
-    _key = "display_date"
-
-    @validator("root", pre=True)
-    @classmethod
-    def to_datetime(cls, val: dict[str, str | None]) -> dict[str, datetime]:
-        """
-        Convert the meta date format to datetime
-        """
-        text: str | None = val.get(cls._key)
-        result: dict[str, datetime] = {cls._key: datetime(1980, 1, 1)}
-
-        if text:
-            try:
-                result[cls._key] = datetime.strptime(text, "%d %b %Y")
-            except ValueError:
-                pass
-        return result
+    rating: int = Field(..., validation_alias='star_rating')
+    votes: int = Field(..., validation_alias='count')
 
 
 class _Trailer(BaseModel):
     """
     Pydantic model for representing a trailer.
     """
-    thumbnail: _Url | None
-    uri: str
-
-
-class _IdList(RootListModel[str]):
-    """
-    Pydantic Model for merging multiple store_ids into a list.
-    """
-    @validator("root", pre=True)
-    @classmethod
-    def make_list(cls, val: str) -> list[str]:
-        """
-        Transform store_id into a list as some packages are listed on the
-        store more than once.
-        """
-        return [val]
-
-
-class _Price(RootFlatten[int]):
-    """
-    Pydantic model that flattens the provided dict["offset_amount"]
-    key into an int.
-    """
-    _key = "offset_amount"
-
-
-class _CurrentOffer(RootFlatten[_Price]):
-    """
-    Pydantic model that flattens the provided dict["price"] key
-    into an instance of _Price.
-    """
-    _key = "price"
+    thumbnail: str | None = Field(
+        default=None,
+        validation_alias=AliasPath('thumbnail', 'uri')
+    )
+    url: str = Field(..., validation_alias='uri')
 
 
 class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
-    id: _IdList
-    name: str = Field(..., alias='display_name')
-    app_name: str = Field(..., alias='appName')
-    type_name: str = Field(..., alias='__typename')
-    appstore_type: str = Field(..., alias='__isAppStoreItem')
+    ids: list[str]
+    name: str = Field(..., validation_alias='display_name')
+    app_name: str = Field(..., validation_alias='appName')
+    type_name: str = Field(..., validation_alias='__typename')
+    appstore_type: str = Field(..., validation_alias='__isAppStoreItem')
     category: str | None
-    release_date: _ReleaseDate = Field(..., alias='release_info')
-    description: str = Field(..., alias='display_long_description')
-    markdown_desc: bool = Field(..., alias='long_description_uses_markdown')
-    developer: str = Field(..., alias='developer_name')
-    publisher: str = Field(..., alias='publisher_name')
-    genres: list[str] = Field(..., alias='genre_names')
-    input_devices: list[str] = Field(..., alias='supported_input_device_names')
-    games_modes: list[str] = Field(..., alias='user_interaction_mode_names')
-    languages: list[_Language] = Field(..., alias='supported_in_app_languages')
-    platforms: list[str] = Field(..., alias='supported_platforms_i18n')
-    player_modes: list[str] = Field(..., alias='supported_player_modes')
-    tags: _Tags = Field(..., alias='item_tags')
+    release_date: datetime = Field(
+        default=datetime(1980, 1, 1),
+        validation_alias=AliasPath('release_info', 'display_date')
+    )
+    description: str = Field(..., validation_alias='display_long_description')
+    markdown_desc: bool = Field(
+        ...,
+        validation_alias='long_description_uses_markdown'
+    )
+    developer: str = Field(..., validation_alias='developer_name')
+    publisher: str = Field(..., validation_alias='publisher_name')
+    genres: list[str] = Field(..., validation_alias='genre_names')
+    input_devices: list[str] = Field(
+        ...,
+        validation_alias='supported_input_device_names'
+    )
+    games_modes: list[str] = Field(
+        ...,
+        validation_alias='user_interaction_mode_names'
+    )
+    languages: list[str] = Field(
+        ...,
+        validation_alias='supported_in_app_languages'
+    )
+    platforms: list[str] = Field(
+        ...,
+        validation_alias='supported_platforms_i18n'
+    )
+    player_modes: list[str] = Field(
+        ...,
+        validation_alias='supported_player_modes'
+    )
+    tags: list[str] = Field(
+        ...,
+        validation_alias=AliasPath('item_tags', 'nodes')
+    )
     hist: list[RatingHist] = Field(
         ...,
-        alias='quality_rating_histogram_aggregate_all'
+        validation_alias='quality_rating_histogram_aggregate_all'
     )
-    comfort: str = Field(..., alias='comfort_rating')
-    age_rating: _AgeRating
-    iarc: _Iarc = Field(..., alias='iarc_cert')
+    comfort: str = Field(..., validation_alias='comfort_rating')
+    age_rating: str | None = Field(
+        default=None,
+        validation_alias=AliasPath('age_rating', 'category_name')
+    )
+    iarc: _IarcRating | None = Field(
+        default=None,
+        validation_alias=AliasPath('iarc_cert', 'iarc_rating')
+    )
     platform: str
     internet_connection: str | None
-    website: str = Field(..., alias='website_url')
-    icon: _Url = Field(..., alias='icon_image')
-    banner: _Url = Field(..., alias='hero')
-    screenshots: list[_Url]
+    website: str = Field(..., validation_alias='website_url')
+    icon: str = Field(..., validation_alias=AliasPath('icon_image', 'uri'))
+    banner: str = Field(..., validation_alias=AliasPath('hero', 'uri'))
+    screenshots: list[str]
     trailer: _Trailer | None
-    has_ads: bool = Field(..., alias='has_in_app_ads')
-    require_360_sensor: bool = Field(..., alias='is_360_sensor_setup_required')
-    price_gbp: _CurrentOffer | None = Field(
+    has_ads: bool = Field(..., validation_alias='has_in_app_ads')
+    require_360_sensor: bool = Field(
         ...,
-        alias="current_offer",
+        validation_alias='is_360_sensor_setup_required'
+    )
+    price_gbp: int | None = Field(
+        default=None,
+        validation_alias=AliasPath("current_offer", "price", "offset_amount"),
         exclude=True
     )
 
@@ -261,15 +179,89 @@ class Item(BaseModel):
         Returns:
             bool: True if free, False otherwise.
         """
-        return self.price_gbp is not None and self.price_gbp.root.root == 0  # pylint: disable=E1101
+        return self.price_gbp is not None and self.price_gbp == 0
 
+    @validator("id", pre=True)
+    @classmethod
+    def id_to_list(cls, val: str) -> list[str]:
+        """
+        Convert a single item ID to a list of item IDs.
 
-class _Data(RootFlatten[Item]):
-    """
-    Pydantic model that flattens the provided dict["item"] key into an
-    instance of Item.
-    """
-    _key = "item"
+        Args:
+            val (str): The item ID.
+
+        Returns:
+            list[str]: List containing the item ID.
+        """
+        return [val]
+
+    @validator("release_date", pre=True)
+    @classmethod
+    def to_datetime(cls, val: str | None) -> datetime:
+        """
+        Convert a date string to a datetime object.
+
+        Args:
+            val (str | None): The date string or None if not available.
+
+        Returns:
+            datetime: The converted datetime object.
+        """
+        if val is None:
+            return datetime(1980, 1, 1)
+        return datetime.strptime(val, "%d %b %Y")
+
+    @validator("tags", pre=True)
+    @classmethod
+    def parse_tags(cls, val: list[dict[str, str]]) -> list[str]:
+        """
+        Parse and filter item tags.
+
+        Args:
+            val (list[dict[str, str]]): List of dictionaries containing
+                tag information.
+
+        Returns:
+            list[str]: List of filtered item tags.
+        """
+        remove: list[str] = [
+            "browse all",
+            "try before you buy",
+            "nik_test",
+            "stephrhee"
+        ]
+        key = 'display_name'
+        return [x[key] for x in val if x[key].lower() not in remove]
+
+    @validator("languages", pre=True)
+    @classmethod
+    def parse_languages(cls, val: list[dict[str, str]]) -> list[str]:
+        """
+        Parse supported in-app languages.
+
+        Args:
+            val (list[dict[str, str]]): List of dictionaries containing
+                language information.
+
+        Returns:
+            list[str]: List of supported in-app languages.
+        """
+        return [x['name'] for x in val]
+
+    @validator("screenshots", pre=True)
+    @classmethod
+    def parse_screenshots(cls, val: list[dict[str, str]]) -> list[str]:
+        """
+        Parse item screenshots.
+
+        Args:
+            val (list[dict[str, str]]): List of dictionaries containing
+                screenshot information.
+
+        Returns:
+            list[str]: List of item screenshots.
+        """
+        return [x['uri'] for x in val]
 
 
 class Error(BaseModel):
@@ -286,5 +278,5 @@ class MetaResponse(BaseModel):
     """
     Pydantic model for representing a meta response.
     """
-    data: _Data
+    data: Item = Field(..., validation_alias=AliasPath("data", "item"))
     errors: list[Error] | None = None

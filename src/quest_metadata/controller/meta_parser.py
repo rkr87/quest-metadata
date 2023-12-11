@@ -50,7 +50,7 @@ class MetaParser(NonInstantiable):
             base = cls._identify_base(meta_responses)
             consol = base[0]
             for merge in base[1]:
-                cls._consolidate_results(consol.data.root, merge.data.root)
+                cls._consolidate_results(consol.data, merge.data)
         return consol
 
     @classmethod
@@ -79,7 +79,7 @@ class MetaParser(NonInstantiable):
         base_result: tuple[int, MetaResponse] = 0, responses[0]
 
         for i, result in enumerate(responses[1:], start=1):
-            if cls._new_base_check(base_result[1].data.root, result.data.root):
+            if cls._new_base_check(base_result[1].data, result.data):
                 base_result = i, result
 
         responses.pop(base_result[0])
@@ -102,9 +102,9 @@ class MetaParser(NonInstantiable):
                 False otherwise.
         """
         return (
-            new.release_date.root > base.release_date.root or
+            new.release_date > base.release_date or
             (
-                new.release_date.root == base.release_date.root and
+                new.release_date == base.release_date and
                 new.votes > base.votes
             )
         )
@@ -118,14 +118,14 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        cls._update_list(base.id.root, update.id.root)
+        cls._update_list(base.ids, update.ids)
         cls._update_list(base.genres, update.genres)
         cls._update_list(base.input_devices, update.input_devices)
         cls._update_list(base.games_modes, update.games_modes)
         cls._update_list(base.languages, update.languages)
         cls._update_list(base.platforms, update.platforms)
         cls._update_list(base.player_modes, update.player_modes)
-        cls._update_list(base.tags.root, update.tags.root)
+        cls._update_list(base.tags, update.tags)
         cls._update_list(base.screenshots, update.screenshots)
 
         cls._update_ratings(base.hist, update.hist)
@@ -142,7 +142,7 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        if update.price_gbp is not None and update.price_gbp.root.root > 0:
+        if update.price_gbp is not None and update.price_gbp > 0:
             base.price_gbp = update.price_gbp
 
     @classmethod
