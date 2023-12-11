@@ -14,7 +14,7 @@ Attributes:
 from datetime import datetime, timedelta
 
 from pydantic_core import ValidationError
-from typing_extensions import final, overload
+from typing_extensions import final
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
@@ -111,54 +111,7 @@ class AppManager(BaseClass, metaclass=Singleton):
         """
         await self._apps.save_json(APPS)
 
-    @overload
     async def update(
-        self,
-        store_id: str,
-        is_available: bool,
-        is_free: bool
-    ) -> None: ...
-
-    @overload
-    async def update(
-        self,
-        store_id: list[str],
-        is_available: bool,
-        is_free: bool
-    ) -> None: ...
-
-    @overload
-    async def update(
-        self,
-        store_id: dict[str, LocalApp],
-        is_available: bool,
-        is_free: bool
-    ) -> None: ...
-
-    async def update(
-        self,
-        store_id: str | list[str] | dict[str, LocalApp],
-        is_available: bool,
-        is_free: bool
-    ) -> None:
-        """
-        Update the timestamp of one or more apps.
-
-        Args:
-            store_id (str | list[str] | dict[str, LocalApp]): The ID(s) of the
-                app(s) to update. It can be a single string, a list of strings,
-                or a dictionary with app IDs as keys and LocalApp objects as
-                values.
-            is_available (bool): The availability status of the app(s).
-            is_free (bool): The pricing status of the app(s).
-        """
-        if isinstance(store_id, str):
-            store_id = [store_id]
-        for item in store_id:
-            self._update(item, is_available, is_free)
-        await self.save()
-
-    def _update(
         self,
         store_id: str,
         is_available: bool,
@@ -177,6 +130,7 @@ class AppManager(BaseClass, metaclass=Singleton):
             self._apps[store_id].updated = time
             self._apps[store_id].is_free = is_free
             self._apps[store_id].is_available = is_available
+        await self.save()
 
     @staticmethod
     def _load_from_file() -> LocalApps:
