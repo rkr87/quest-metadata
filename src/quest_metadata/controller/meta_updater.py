@@ -60,8 +60,8 @@ class MetaUpdater(NonInstantiable):
             await meta_result.save_json(f"{FILES}{package}.json")
             await app_manager.update(
                 package,
-                meta_result.data.root.is_available,
-                meta_result.data.root.is_free
+                meta_result.data.is_available,
+                meta_result.data.is_free
             )
             local_apps.pop(package)
 
