@@ -32,7 +32,7 @@ Usage:
 Note: Adjust the usage example based on the actual use case and
 instantiation of these models in your code.
 """
-from typing import Callable
+from collections.abc import Callable
 
 from base.base_model import BaseModel
 from base.root_list_model import RootListModel
@@ -67,7 +67,7 @@ class _GithubApp(BaseModel):
         alias_generator: Callable[..., str] = to_camel
 
 
-class GithubApps(RootListModel[_GithubApp]):  # pylint: disable=too-few-public-methods
+class GithubApps(RootListModel[_GithubApp]):
     """
     Pydantic model representing a list of external applications from GitHub.
     """

@@ -11,12 +11,12 @@ Classes:
 
 """
 
-from typing import Any, Tuple, TypeVar
+from typing import TypeVar
 
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
-from data.model.meta_response import Item, MetaResponse
+from data.model.meta_response import Item, MetaResponse, RatingHist
 
 
 @final
@@ -46,7 +46,8 @@ class MetaParser(NonInstantiable):
         if len(meta_responses) == 1:
             consol = meta_responses[0]
         else:
-            base: Tuple[MetaResponse, list[MetaResponse]] = cls._identify_base(meta_responses)
+            base: tuple[MetaResponse, list[MetaResponse]]
+            base = cls._identify_base(meta_responses)
             consol = base[0]
             for merge in base[1]:
                 cls._consolidate_results(consol.data.root, merge.data.root)
@@ -56,20 +57,26 @@ class MetaParser(NonInstantiable):
     def _identify_base(
         cls,
         responses: list[MetaResponse]
-    ) -> Tuple[MetaResponse, list[MetaResponse]]:
+    ) -> tuple[MetaResponse, list[MetaResponse]]:
         """
-        Identify the base result from a list of MetaResult objects.
+        Identify the base result from a list of MetaResponse objects.
 
         The base result is chosen based on specific criteria.
 
         Args:
-            results (list[MetaResult]): List of MetaResult objects.
+            responses (list[MetaResponse]): List of MetaResponse objects.
 
         Returns:
-            Tuple[MetaResult, list[MetaResult]]: Tuple containing the
+            Tuple[MetaResponse, list[MetaResponse]]: Tuple containing the
                 base result and the remaining list of results.
+
+        This method iterates through the provided list of MetaResponse objects
+        and identifies the base result based on specific criteria. The criteria
+        are implemented in the `_new_base_check` method. The identified base
+        result is removed from the list of responses, and the tuple containing
+        the base result and the updated list of responses is returned.
         """
-        base_result: Tuple[int, MetaResponse] = 0, responses[0]
+        base_result: tuple[int, MetaResponse] = 0, responses[0]
 
         for i, result in enumerate(responses[1:], start=1):
             if cls._new_base_check(base_result[1].data.root, result.data.root):
@@ -111,25 +118,35 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        lists: list[Tuple[list[Any], list[Any]]] = [
-            (base.id.root, update.id.root),
-            (base.genres, update.genres),
-            (base.input_devices, update.input_devices),
-            (base.games_modes, update.games_modes),
-            (base.languages, update.languages),
-            (base.platforms, update.platforms),
-            (base.player_modes, update.player_modes),
-            (base.tags.root, update.tags.root),
-            (base.screenshots, update.screenshots),
-        ]
+        cls._update_list(base.id.root, update.id.root)
+        cls._update_list(base.genres, update.genres)
+        cls._update_list(base.input_devices, update.input_devices)
+        cls._update_list(base.games_modes, update.games_modes)
+        cls._update_list(base.languages, update.languages)
+        cls._update_list(base.platforms, update.platforms)
+        cls._update_list(base.player_modes, update.player_modes)
+        cls._update_list(base.tags.root, update.tags.root)
+        cls._update_list(base.screenshots, update.screenshots)
 
-        for base_list, update_list in lists:
-            cls._update_list(base_list, update_list)
+        cls._update_ratings(base.hist, update.hist)
 
-        for item in update.hist:
-            for base_item in base.hist:
-                if base_item.rating == item.rating:
-                    base_item.votes += item.votes
+    @classmethod
+    def _update_ratings(
+        cls,
+        base: list[RatingHist],
+        update: list[RatingHist]
+    ) -> None:
+        """
+        Update ratings in the base with those from the update.
+
+        Args:
+            base (List[RatingHist]): Base list of ratings.
+            update (List[RatingHist]): Update list of ratings.
+        """
+        for update_rating in update:
+            for base_rating in base:
+                if base_rating.rating == update_rating.rating:
+                    base_rating.votes += update_rating.votes
                     break
 
     _KT = TypeVar("_KT")
@@ -148,7 +165,5 @@ class MetaParser(NonInstantiable):
             update (list[str] | None): Update list containing additional items.
         """
         if update is not None:
-            if base is None:
-                base = update
-            else:
-                base.extend(item for item in update if item not in base)
+            base = base or []
+            base.extend(item for item in update if item not in base)

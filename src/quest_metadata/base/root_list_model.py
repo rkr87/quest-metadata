@@ -19,7 +19,8 @@ Usage:
     ```
 """
 from abc import ABC
-from typing import Iterator, TypeVar
+from collections.abc import Iterator
+from typing import TypeVar
 
 from base.base_model import RootModel
 

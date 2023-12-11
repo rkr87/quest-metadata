@@ -744,27 +744,71 @@ reportUninitializedInstanceVariable = true
 
 
 [tool.pylint.MAIN]
+load-plugins = [
+    "pylint_pydantic",
+    "pylint.extensions.broad_try_clause",
+    "pylint.extensions.code_style",
+    "pylint.extensions.comparison_placement",
+    "pylint.extensions.confusing_elif",
+    "pylint.extensions.for_any_all",
+    "pylint.extensions.consider_refactoring_into_while_condition",
+    "pylint.extensions.consider_ternary_expression",
+    "pylint.extensions.bad_builtin",
+    "pylint.extensions.mccabe",
+    "pylint.extensions.dict_init_mutate",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.dunder",
+    "pylint.extensions.check_elif",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.eq_without_hash",
+    "pylint.extensions.private_import",
+    "pylint.extensions.magic_value",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.no_self_use",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.docparams",
+    "pylint.extensions.redefined_loop_name",
+    "pylint.extensions.set_membership",
+    "pylint.extensions.typing",
+    "pylint.extensions.while_used",
+]
 init-hook = "import sys, os; sys.path.insert(0, os.path.join('src','quest_metadata')); sys.path.insert(0, os.path.join('.venv','lib','site-packages'))"
-load-plugins = ["pylint_pydantic"]
 source-roots = ["src/quest-metadata"]
+
 [tool.pylint.'MASTER']
-disable = "C0411"
-enable = "W0614,C0302,R0915"
+disable = "R0903, C0199"
+enable = "W0614,C0302,R0915,E1121"
 ignore-patterns = ".+\\.pyi"
-# extension-pkg-allow-list = ["dependency_injector","uplink"]
+extension-pkg-allow-list = ["dependency_injector", "uplink"]
+extension-pkg-whitelist = ["pydantic"]
+
 [tool.pylint.'FORMAT']
-# max-line-length = 79
-# max-module-lines = 300
+max-line-length = 79
+max-module-lines = 400
 
 [tool.pylint.'DESIGN']
-# max-statements = 35
 min-public-methods = 1
+max-statements = 20
+max-args = 5
+max-locals = 10
+max-returns = 4
+max-branches = 5
+max-parents = 4
+max-attributes = 4
+max-public-methods = 10
+max-complexity = 4
+
+[tool.pylint.'SIMILARITIES']
+min-similarity-lines = 3
+
+[tool.pylint.'REFACTORING']
+max-nested-blocks = 3
 
 [tool.pylint.'BASIC']
 no-docstring-rgx = '__.*__'
 
-
 [tool.autopep8]
+# don't let autopep8 autofix line length issues...
 max_line_length = 500
 in_place = true
 recursive = true

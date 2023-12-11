@@ -31,7 +31,7 @@ from re import sub
 
 
 def to_snake(string: str) -> str:
-    '''
+    """
     Convert a string to snake_case.
 
     Args:
@@ -39,7 +39,7 @@ def to_snake(string: str) -> str:
 
     Returns:
         str: The string converted to snake_case.
-    '''
+    """
     return '_'.join(
         sub('([A-Z][a-z]+)', r' \1',
             sub('([A-Z]+)', r' \1',
@@ -85,19 +85,19 @@ def to_kebab(snake: str) -> str:
     return '-'.join(word for word in snake.split('_'))
 
 
-def to_iso(data_str: str, _format: str) -> str:
-    '''
+def to_iso(date_str: str, input_format: str) -> str:
+    """
     Convert a date string to ISO format.
 
     Args:
-        data_str (str): The input date string.
-        _format (str): The format of the input date string.
+        date_str (str): The input date string.
+        input_format (str): The format of the input date string.
 
     Returns:
         str: The string converted to ISO format or the original
             string if the conversion fails.
-    '''
+    """
     try:
-        return datetime.strptime(data_str, _format).isoformat()
+        return datetime.strptime(date_str, input_format).isoformat()
     except ValueError:
-        return data_str
+        return date_str

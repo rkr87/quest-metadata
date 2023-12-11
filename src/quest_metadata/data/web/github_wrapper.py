@@ -50,18 +50,23 @@ class GitHubWrapper(NonInstantiable):
 
     @staticmethod
     async def get_github_apps(http_session: ClientSession) -> GithubApps:
-        '''
+        """
         Fetches the list of external applications from the specified URL.
 
         Returns:
             GithubApps:
                 A Pydantic model representing a list of external
                 applications retrieved from the GitHub API.
-        '''
+        """
         logger: Logger = getLogger(__name__)
         logger.info("Fetching app update list from Github")
         headers: dict[str, str] = {'Accept': 'application/json'}
-        resp: ClientResponse = await http_session.get(EXT_APPS, headers=headers)
+
+        resp: ClientResponse = await http_session.get(
+            EXT_APPS,
+            headers=headers
+        )
+
         text = await resp.json(content_type='text/plain; charset=utf-8')
         data: GithubApps = GithubApps.model_validate(text)
         return data

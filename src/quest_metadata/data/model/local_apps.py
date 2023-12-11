@@ -34,7 +34,7 @@ class LocalApp(BaseModel):
     updated: str | None = None
 
 
-class LocalApps(RootDictModel[str, LocalApp]):  # pylint: disable=too-few-public-methods
+class LocalApps(RootDictModel[str, LocalApp]):
     """
     Pydantic model for representing a dictionary of local applications.
     """

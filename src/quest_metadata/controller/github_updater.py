@@ -57,11 +57,15 @@ class GithubUpdater(NonInstantiable):
         Update the provided AppManager with information from the GitHub
         repository.
 
+        This method fetches information about GitHub apps using the provided
+        `http_session` and updates the local `AppManager` with the retrieved
+        data. It iterates through the fetched information and adds each item's
+        details (such as id, package_name, and app_name) to the AppManager.
+
         Args:
             app_manager (AppManager): The local AppManager to be updated.
-
-        Returns:
-            None
+            http_session (ClientSession): The aiohttp ClientSession used for
+                making asynchronous HTTP requests.
         """
         update: GithubApps = await GitHubWrapper.get_github_apps(http_session)
         for item in update:

@@ -46,6 +46,13 @@ class Page(AsyncContextManager):
         wait_until: typing.Optional[Literal['commit', 'domcontentloaded', 'load', 'networkidle']] = ...,
         referer: typing.Optional[str] = ...
     ) -> typing.Optional['Response']: ...
+    def on(
+        self,
+        event: Literal['response'],
+        f: typing.Callable[[Response], 'typing.Union[typing.Awaitable[None], None]']
+    ) -> None: ...
+
+
 
 class BrowserContext(AsyncContextManager):
     async def new_page(self) -> Page: ...

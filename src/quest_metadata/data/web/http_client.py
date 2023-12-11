@@ -55,7 +55,8 @@ class HttpClient(BaseClass):
         Opens a new aiohttp client session.
 
         Parameters:
-        - connection_limit (Optional[int]): Limit the number of simultaneous connections.
+        - connection_limit (Optional[int]): Limit the number of simultaneous
+            connections.
         - timeout (int): Optional. The timeout value for the client session.
 
         Example:
@@ -77,7 +78,8 @@ class HttpClient(BaseClass):
         """
         Allows instances of HttpClient to be called like a function.
 
-        Asserts that the _session is not None and returns the current ClientSession.
+        Asserts that the _session is not None and returns the current
+        ClientSession.
 
         Returns:
         ClientSession: The current aiohttp client session.
