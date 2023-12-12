@@ -8,7 +8,7 @@ repos:
       name: mypy
       entry: "mypy ./src/quest_metadata"
       language: python
-      language_version: python3.11
+      language_version: python3.12
       additional_dependencies: ["mypy==1.7.1",
                                 "mypy-extensions==1.0.0",
                                 "aiofiles==23.2.1",
@@ -33,7 +33,7 @@ repos:
       name: pylint
       entry: "pylint src/quest_metadata"
       language: python
-      language_version: python3.11
+      language_version: python3.12
       additional_dependencies: []
       types: [python]
       args: ["--rcfile=pyproject.toml"]
@@ -47,7 +47,7 @@ repos:
       name: isort
       entry: "isort"
       language: python
-      language_version: python3.11
+      language_version: python3.12
       additional_dependencies: []
       types: [python]
       args: ["--settings-path=pyproject.toml"]
@@ -61,7 +61,7 @@ repos:
       name: autopep8
       entry: "autopep8"
       language: python
-      language_version: python3.11
+      language_version: python3.12
       additional_dependencies: []
       types: [python]
       args: ["--global-config=pyproject.toml"]
