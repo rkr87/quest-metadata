@@ -4,10 +4,11 @@ name: run src/quest_metadata.py
 #   schedule:
 #     - cron: '0 0 * * *' # At 00:00 every day
 
-on: workflow-dispatch
+on: workflow_dispatch
 
 jobs:
   build:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,12 +24,13 @@ jobs:
         run: playwright install chromium
           
       - name: execute script
-        run: python .src/quest_metadata.py
+        run: python src/quest_metadata/quest_metadata.py
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add --all
           git commit -am "update: github action"
           git push
           
