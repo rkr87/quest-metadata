@@ -205,7 +205,7 @@ explicit_package_bases = true
 # Specifies the Python version used to parse and check the target program. 
 # The string should be in the format MAJOR.MINOR – for example 2.7. 
 # The default is the version of the Python interpreter used to run mypy.
-python_version = "3.11"
+python_version = "3.12"
 
 # Specifies the OS platform for the target program, for example darwin or win32 (meaning OS X or Windows). 
 # The default is the current platform as revealed by Python’s sys.platform variable.
@@ -530,7 +530,7 @@ venv = ".venv"
 # extraPaths = ['']
 
 # The version of Python used for this execution environment. If not specified, the global pythonVersion setting is used instead
-pythonVersion = "3.11"
+pythonVersion = "3.12"
 
 # Specifies the target platform that will be used for this execution environment. If not specified, the global pythonPlatform setting is used instead.
 # pythonPlatform = ""
