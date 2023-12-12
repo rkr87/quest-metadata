@@ -41,5 +41,5 @@ class BaseClass(ABC):
         It creates a Logger instance named after the current module (__name__)
         for logging messages related to this class.
         """
-        self._logger: Logger = getLogger(__name__)
+        self._logger: Logger = getLogger(self.__class__.__module__)
         super().__init__()
