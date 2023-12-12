@@ -1,0 +1,37 @@
+name: run src/quest_metadata.py
+
+on:
+  schedule:
+    - cron: '40 9 * * *' # At 00:00 every day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 # checkout the repository content to github runner
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.12' # install the python version needed
+          
+      - name: install python packages
+        run: pip install -r .reqs/scrape.txt
+
+      - name: install playwright chromium
+        run: playwright install chromium
+          
+      - name: execute py script # run main.py
+        run: python src/quest_metadata.py
+          
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master 
