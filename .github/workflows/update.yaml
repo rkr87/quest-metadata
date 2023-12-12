@@ -32,4 +32,6 @@ jobs:
           git add --all
           git commit -am "update: github action"
           git push
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           
