@@ -21,7 +21,7 @@ from controller.github_updater import GithubUpdater
 from controller.meta_updater import MetaUpdater
 from data.local.app_manager import AppManager
 from data.web.http_client import HttpClient
-from data.web.meta_cookie import MetaCookie
+# from data.web.meta_cookie import MetaCookie
 from data.web.meta_wrapper import MetaWrapper
 
 
@@ -74,7 +74,8 @@ async def main() -> None:
     manager = AppManager()
     client = HttpClient()
     await client.open_session()
-    cookie: str = await MetaCookie.fetch()
+    # cookie: str = await MetaCookie.fetch()
+    cookie: str = "locale=en_GB;datr=WjR4ZVGsNzKJQ4FPrNAHpqGf;csrf=tZYcRP_RB3w-1Q_zxCPn6J;gu=ARNVLgsuxcHDAQtZSfjZMRbJvGlzdTnXfAGys7dBitJ7uI_WUsQ-E2cyUUqz9dbd9rT16zJD0EO5MGbyhhXF-w5KqD4umIrRsw6xuKUy6LBq3L84LNy0ID7WBKCR9A4.0"  # pylint: disable=C0301
     wrapper = MetaWrapper(cookie, client())
     app = Application(manager, wrapper, client())
     await app.run()
