@@ -4,7 +4,7 @@ name: run src/quest_metadata.py
 #   schedule:
 #     - cron: '0 0 * * *' # At 00:00 every day
 
-on: workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   build:
