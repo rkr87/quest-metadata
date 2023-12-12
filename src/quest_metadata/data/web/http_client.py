@@ -16,6 +16,7 @@ Example:
         await client.close_session()
     ```
 """
+import socket
 from typing import final
 
 from aiohttp import ClientSession, ClientTimeout, TCPConnector
@@ -48,7 +49,7 @@ class HttpClient(BaseClass):
 
     async def open_session(
         self,
-        connection_limit: int | None = None,
+        connection_limit: int = 100,
         timeout: int = 30
     ) -> None:
         """
@@ -65,14 +66,15 @@ class HttpClient(BaseClass):
         ```
         """
         _timeout: ClientTimeout = ClientTimeout(total=timeout)
-        if connection_limit:
-            connector: TCPConnector = TCPConnector(limit=connection_limit)
-            self._session = ClientSession(
-                connector=connector,
-                timeout=_timeout
-            )
-        else:
-            self._session = ClientSession(timeout=_timeout)
+        connector = TCPConnector(
+            limit=connection_limit,
+            family=socket.AF_INET,
+            verify_ssl=False
+        )
+        self._session = ClientSession(
+            connector=connector,
+            timeout=_timeout
+        )
 
     def __call__(self) -> ClientSession:
         """
