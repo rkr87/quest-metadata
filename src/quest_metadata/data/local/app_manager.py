@@ -47,9 +47,7 @@ class AppManager(BaseClass, metaclass=Singleton):
         self._apps: LocalApps = self._load_from_file()
         self._exclusion_days: int = exclusion_days
 
-    def get(self,
-            exclude_recently_updated: bool = False) \
-            -> LocalApps:
+    def get(self, exclude_recently_updated: bool = False) -> LocalApps:
         """
         Get local apps.
 
@@ -62,7 +60,15 @@ class AppManager(BaseClass, metaclass=Singleton):
         """
         if not exclude_recently_updated:
             return self._apps
+        return self._filter_recently_updated_apps()
 
+    def _filter_recently_updated_apps(self) -> LocalApps:
+        """
+        Filter out recently updated apps.
+
+        Returns:
+            LocalApps: The dictionary containing local app information.
+        """
         output: LocalApps = LocalApps()
         for key, app in self._apps.items():
             if self._need_update(app):

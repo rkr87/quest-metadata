@@ -159,10 +159,42 @@ class MetaParser(NonInstantiable):
             update (List[RatingHist]): Update list of ratings.
         """
         for update_rating in update:
-            for base_rating in base:
-                if base_rating.rating == update_rating.rating:
-                    base_rating.votes += update_rating.votes
-                    break
+            cls._update_single_rating(base, update_rating)
+
+    @classmethod
+    def _update_single_rating(
+        cls,
+        base: list[RatingHist],
+        update_rating: RatingHist
+    ) -> None:
+        """
+        Update a single rating in the base with the update.
+
+        Args:
+            base (List[RatingHist]): Base list of ratings.
+            update_rating (RatingHist): Update rating to be merged
+                into the base.
+        """
+        for base_rating in base:
+            cls._merge_ratings(base_rating, update_rating)
+
+    @classmethod
+    def _merge_ratings(
+        cls,
+        base_rating: RatingHist,
+        update_rating: RatingHist
+    ) -> None:
+        """
+        Merge the votes from the update into the base rating.
+
+        Args:
+            base_rating (RatingHist): Base rating.
+            update_rating (RatingHist): Update rating to be merged
+                into the base.
+        """
+        if base_rating.rating == update_rating.rating:
+            base_rating.votes += update_rating.votes
+            return
 
     _KT = TypeVar("_KT")
 
