@@ -23,7 +23,7 @@ jobs:
         run: playwright install chromium
           
       - name: execute script
-        run: python .src/quest_metadata.py
+        run: python src/quest_metadata/quest_metadata.py
           
       - name: commit files
         run: |
