@@ -99,7 +99,17 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
         Returns:
             list[MetaResponse]: A list of MetaResponse objects.
         """
-        async def fetch(sid: str) -> MetaResponse:
+        async def fetch(sid: str) -> MetaResponse | None:
+            """
+            Fetch meta information for a specific store item.
+
+            Args:
+                sid (str): The store item ID.
+
+            Returns:
+                MetaResponse | None: A MetaResponse object or None if not
+                    found.
+            """
             self._logger.debug("Fetching %s from Meta API", sid)
             self._header.referrer = f"{META_DOMAIN}/en-gb/experiences/{sid}"
             self._payload.variables.item_id = sid
@@ -109,14 +119,17 @@ class MetaWrapper(BaseClass, metaclass=Singleton):
                 headers=self._header.model_dump(by_alias=True),
                 data=urlencode(self._payload.model_dump(by_alias=True)),
             )
-            assert resp.status == HTTPStatus.OK
-            text = await resp.json(content_type='text/html; charset="utf-8"')
-            return MetaResponse.model_validate(text)
+            if resp.status == HTTPStatus.OK:
+                text = await resp.json(
+                    content_type='text/html; charset="utf-8"'
+                )
+                return MetaResponse.model_validate(text)
+            return None
 
         uids: list[str] = [uid] if isinstance(uid, str) else uid
 
         responses: list[MetaResponse] = []
         for store_id in uids:
-            resp: MetaResponse = await fetch(store_id)
-            responses.append(resp)
+            if resp := await fetch(store_id):
+                responses.append(resp)
         return responses
