@@ -28,8 +28,8 @@ from logging import Logger, getLogger
 
 from playwright._impl._api_structures import SetCookieParam
 from playwright.async_api import async_playwright
-from playwright.async_api._generated import (Browser, BrowserContext,
-                                             ElementHandle, Page, Response)
+from playwright.async_api._generated import (Browser, BrowserContext, Page,
+                                             Response)
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
@@ -93,11 +93,11 @@ class MetaCookie(NonInstantiable):
         logger: Logger = getLogger(__name__)
         logger.info(page_content)
 
-        consent: ElementHandle | None = await page.wait_for_selector(
-            "text=Allow all cookies"
-        )
-        if consent is not None:
-            await consent.click(force=True)
+        # consent: ElementHandle | None = await page.wait_for_selector(
+        #     "text=Allow all cookies"
+        # )
+        # if consent is not None:
+        #     await consent.click(force=True)
 
     @staticmethod
     async def _wait_for_cookie(context: BrowserContext) -> None:
