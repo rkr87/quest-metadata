@@ -24,9 +24,11 @@ Attributes:
     META_DOMAIN (str): The base URL of the Meta domain.
 """
 import asyncio
+import os
 from logging import Logger, getLogger
 
 from playwright._impl._api_structures import Cookie
+from playwright._impl._errors import TimeoutError as PWTimeOut
 from playwright.async_api import async_playwright
 from playwright.async_api._generated import (Browser, BrowserContext,
                                              ElementHandle, Page, Response)
@@ -67,7 +69,8 @@ class MetaCookie(NonInstantiable):
             page: Page = await context.new_page()
             await page.goto(META_DOMAIN)
 
-            await MetaCookie._handle_cookie_consent(page)
+            if not MetaCookie._github_actions():
+                await MetaCookie._handle_cookie_consent(page)
             await MetaCookie._wait_for_cookie(context)
             return await MetaCookie._get_cookie_string(context)
 
@@ -96,7 +99,7 @@ class MetaCookie(NonInstantiable):
         """
         try:
             return await page.wait_for_selector("text=Allow all cookies")
-        except TimeoutError:
+        except PWTimeOut:
             return None
 
     @staticmethod
@@ -135,5 +138,18 @@ class MetaCookie(NonInstantiable):
         Returns:
             str: The formatted cookie string.
         """
-        cookies = await context.cookies()
+        cookies: list[Cookie] = await context.cookies()
         return ";".join([f"{c.get('name')}={c.get('value')}" for c in cookies])
+
+    @staticmethod
+    def _github_actions() -> bool:
+        """
+        Check if the code is running in a GitHub Actions environment.
+
+        Returns:
+            bool: True if running in GitHub Actions, False otherwise.
+        """
+        return (
+            os.environ.get("CI") is not None and
+            os.environ.get("GITHUB_RUN_ID") is not None
+        )
