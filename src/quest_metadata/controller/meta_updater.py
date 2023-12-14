@@ -48,7 +48,7 @@ class MetaUpdater(NonInstantiable):
                 meta information.
         """
         logger: Logger = getLogger(__name__)
-        local_apps: LocalApps = app_manager.get(True)
+        local_apps: LocalApps = app_manager.get()
         logger.info("Fetching %s apps from meta.com", len(local_apps))
 
         async def scrape(package: str, app: LocalApp) -> None:
