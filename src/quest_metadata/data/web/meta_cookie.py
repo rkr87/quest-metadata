@@ -63,6 +63,7 @@ class MetaCookie(NonInstantiable):
         async with async_playwright() as p:
             browser: Browser = await p.chromium.launch()
             context: BrowserContext = await browser.new_context()
+            await context.add_cookies([{"name": "locale", "value": "en_GB"}])
             page: Page = await context.new_page()
             await page.goto(META_DOMAIN)
 
