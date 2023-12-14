@@ -40,12 +40,13 @@ class MetaUpdater(NonInstantiable):
         meta_wrapper: MetaWrapper
     ) -> None:
         """
-        Start the meta updating process.
+        Fetches meta information for each local app and updates the app
+        manager.
 
-        Parameters:
+        Args:
             app_manager (AppManager): The local app manager.
-            meta_wrapper (MetaWrapper): The MetaWrapper instance for fetching
-                meta information.
+            meta_wrapper (MetaWrapper): The MetaWrapper instance for
+                fetching meta information.
         """
         logger: Logger = getLogger(__name__)
         local_apps: LocalApps = app_manager.get()
@@ -55,15 +56,18 @@ class MetaUpdater(NonInstantiable):
             responses: list[MetaResponse] = await meta_wrapper.get(
                 app.store_ids
             )
-            logger.info("Fetching: %s", app.app_name)
-            meta_result: MetaResponse = MetaParser.parse(responses)
-            await meta_result.save_json(f"{FILES}{package}.json")
-            await app_manager.update(
-                package,
-                meta_result.data.is_available,
-                meta_result.data.is_free
-            )
-            local_apps.pop(package)
+            logger.debug("Fetching: %s", app.app_name)
+            if len(responses) > 0:
+                result: MetaResponse = MetaParser.parse(responses, package)
+                await result.save_json(f"{FILES}{package}.json")
+                await app_manager.update(
+                    package,
+                    result.data.is_available,
+                    result.data.is_free
+                )
+                local_apps.pop(package)
+            else:
+                logger.info("No responses for %s", package)
 
         tasks: list[Coroutine[Any, Any, None]] = []
         for package, app in local_apps.items():
