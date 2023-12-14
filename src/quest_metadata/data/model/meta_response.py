@@ -18,6 +18,7 @@ Usage:
     ```
 """
 from datetime import datetime
+from logging import Logger, getLogger
 
 from pydantic import AliasPath, Field, computed_field, validator
 
@@ -207,9 +208,22 @@ class Item(BaseModel):
         Returns:
             datetime: The converted datetime object.
         """
+        default = datetime(1980, 1, 1)
         if val is None:
-            return datetime(1980, 1, 1)
-        return datetime.strptime(val, "%d %b %Y")
+            return default
+
+        date_formats: list[str] = [
+            "%d %b %Y",
+            "%b %d, %Y"
+        ]
+        for fmt in date_formats:
+            try:
+                return datetime.strptime(val, fmt)
+            except ValueError:
+                pass
+        logger: Logger = getLogger(__name__)
+        logger.info("Unable to parse date: %s", val)
+        return default
 
     @validator("tags", pre=True)
     @classmethod
@@ -261,7 +275,7 @@ class Item(BaseModel):
         Returns:
             list[str]: List of item screenshots.
         """
-        return [x['uri'] for x in val]
+        return [item['uri'] for item in val]
 
 
 class Error(BaseModel):

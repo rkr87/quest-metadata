@@ -11,6 +11,7 @@ Classes:
 
 """
 
+from logging import Logger, getLogger
 from typing import TypeVar
 
 from typing_extensions import final
@@ -30,17 +31,21 @@ class MetaParser(NonInstantiable):
     _launch_method: str = "parse"
 
     @classmethod
-    def parse(cls, meta_responses: list[MetaResponse]) -> MetaResponse:
+    def parse(
+        cls,
+        meta_responses: list[MetaResponse],
+        package: str
+    ) -> MetaResponse:
         """
-        Parse and consolidate a list of MetaResponse objects into a
-        single MetaResult.
+        Parse and consolidate meta information from a list of MetaResponse
+        objects.
 
         Args:
-            meta_responses (list[MetaResponse]): List of MetaResponse
-                objects to be consolidated.
+            meta_responses (list[MetaResponse]): List of MetaResponse objects.
+            package (str): Package identifier.
 
         Returns:
-            MetaResult: Consolidated MetaResult object.
+            MetaResponse: Consolidated MetaResponse object.
         """
         consol: MetaResponse
         if len(meta_responses) == 1:
@@ -51,6 +56,15 @@ class MetaParser(NonInstantiable):
             consol = base[0]
             for merge in base[1]:
                 cls._consolidate_results(consol.data, merge.data)
+        if consol.errors is not None and len(consol.errors) > 0:
+            logger: Logger = getLogger(__name__)
+            logger.info("Result contains errors: %s", package)
+            for error in consol.errors:
+                logger.info("%s", error.model_dump_json(
+                    indent=4,
+                    exclude_unset=True,
+                    exclude_none=True)
+                )
         return consol
 
     @classmethod

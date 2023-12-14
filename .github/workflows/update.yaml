@@ -1,16 +1,19 @@
 name: run src/quest_metadata.py
 
-# on:
-#   schedule:
-#     - cron: '0 0 * * *' # At 00:00 every day
-
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: '0 0 * * *' # At 00:00 every day
 
 jobs:
   build:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
+      - name: en_GB.UTF-8
+        run: |
+          sudo locale-gen en_GB.UTF-8
+          sudo update-locale LANG=en_GB.UTF-8
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v4
