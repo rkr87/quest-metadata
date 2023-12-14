@@ -26,7 +26,7 @@ Attributes:
 import asyncio
 from logging import Logger, getLogger
 
-from playwright._impl._api_structures import Cookie, SetCookieParam
+from playwright._impl._api_structures import Cookie
 from playwright.async_api import async_playwright
 from playwright.async_api._generated import (Browser, BrowserContext,
                                              ElementHandle, Page, Response)
@@ -64,16 +64,6 @@ class MetaCookie(NonInstantiable):
         async with async_playwright() as p:
             browser: Browser = await p.chromium.launch()
             context: BrowserContext = await browser.new_context()
-            locale: SetCookieParam = {
-                "name": "locale",
-                "value": "en_GB",
-                "domain": ".www.meta.com",
-                "path": "/",
-                "httpOnly": False,
-                "secure": True,
-                "sameSite": "None"
-            }
-            await context.add_cookies([locale])
             page: Page = await context.new_page()
             await page.goto(META_DOMAIN)
 
