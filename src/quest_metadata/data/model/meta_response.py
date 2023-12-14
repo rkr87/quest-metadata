@@ -214,7 +214,7 @@ class Item(BaseModel):
 
         date_formats: list[str] = [
             "%d %b %Y",
-            "%b, %d %Y"
+            "%b %d, %Y"
         ]
         for fmt in date_formats:
             try:
