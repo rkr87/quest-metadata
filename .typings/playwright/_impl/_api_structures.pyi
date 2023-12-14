@@ -10,6 +10,17 @@ class Cookie(TypedDict, total=False):
     secure: bool
     sameSite: Literal['Lax', 'None', 'Strict']
 
+class SetCookieParam(TypedDict, total=False):
+    name: str
+    value: str
+    url: Optional[str]
+    domain: Optional[str]
+    path: Optional[str]
+    expires: Optional[float]
+    httpOnly: Optional[bool]
+    secure: Optional[bool]
+    sameSite: Optional[Literal['Lax', 'None', 'Strict']]
+
 class Geolocation(TypedDict, total=False):
     latitude: float
     longitude: float

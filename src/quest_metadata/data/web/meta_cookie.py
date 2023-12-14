@@ -26,6 +26,7 @@ Attributes:
 import asyncio
 from logging import Logger, getLogger
 
+from playwright._impl._api_structures import Cookie, SetCookieParam
 from playwright.async_api import async_playwright
 from playwright.async_api._generated import (Browser, BrowserContext,
                                              ElementHandle, Page, Response)
@@ -63,6 +64,16 @@ class MetaCookie(NonInstantiable):
         async with async_playwright() as p:
             browser: Browser = await p.chromium.launch()
             context: BrowserContext = await browser.new_context()
+            locale: SetCookieParam = {
+                "name": "locale",
+                "value": "en_GB",
+                "domain": ".www.meta.com",
+                "path": "/",
+                "httpOnly": False,
+                "secure": True,
+                "sameSite": "None"
+            }
+            await context.add_cookies([locale])
             page: Page = await context.new_page()
             await page.goto(META_DOMAIN)
 
@@ -78,11 +89,25 @@ class MetaCookie(NonInstantiable):
         Args:
             page (Page): The Playwright Page instance.
         """
-        consent: ElementHandle | None = await page.wait_for_selector(
-            "text=Allow all cookies"
-        )
-        if consent is not None:
+        if consent := await MetaCookie._find_consent(page):
             await consent.click(force=True)
+
+    @staticmethod
+    async def _find_consent(page: Page) -> ElementHandle | None:
+        """
+        Find the cookie consent element on the Meta page.
+
+        Args:
+            page (Page): The Playwright Page instance.
+
+        Returns:
+            ElementHandle | None: The cookie consent element or None if not
+                found.
+        """
+        try:
+            return await page.wait_for_selector("text=Allow all cookies")
+        except TimeoutError:
+            return None
 
     @staticmethod
     async def _wait_for_cookie(context: BrowserContext) -> None:
@@ -102,7 +127,7 @@ class MetaCookie(NonInstantiable):
             Args:
                 response (Response): The Playwright Response instance.
             """
-            cookies = await context.cookies()
+            cookies: list[Cookie] = await context.cookies()
             if REQ_COOKIE in [c.get('name') for c in cookies]:
                 cookie_found.set()
 

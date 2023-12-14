@@ -4,8 +4,8 @@ from typing import Literal
 
 from playwright._impl._api_structures import (Cookie, Geolocation,
                                               HttpCredentials, Position,
-                                              ProxySettings, StorageState,
-                                              ViewportSize)
+                                              ProxySettings, SetCookieParam,
+                                              StorageState, ViewportSize)
 from playwright._impl._async_base import AsyncBase, AsyncContextManager
 
 class JSHandle(AsyncBase):
@@ -51,6 +51,7 @@ class Page(AsyncContextManager):
         event: Literal['response'],
         f: typing.Callable[[Response], 'typing.Union[typing.Awaitable[None], None]']
     ) -> None: ...
+    async def content(self) -> str: ...
 
 
 
@@ -60,6 +61,8 @@ class BrowserContext(AsyncContextManager):
         self,
         urls: typing.Optional[typing.Union[str, typing.List[str]]] = ...
     ) -> typing.List[Cookie]: ...
+    async def add_cookies(self, cookies: typing.List[SetCookieParam]) -> None: ...
+
 
 class Browser(AsyncContextManager):
     async def new_context(
