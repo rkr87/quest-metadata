@@ -89,6 +89,9 @@ class MetaCookie(NonInstantiable):
         Args:
             page (Page): The Playwright Page instance.
         """
+        page_content: str = await page.content()
+        print(page_content)
+
         consent: ElementHandle | None = await page.wait_for_selector(
             "text=Allow all cookies"
         )
