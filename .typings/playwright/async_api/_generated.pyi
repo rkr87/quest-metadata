@@ -51,6 +51,7 @@ class Page(AsyncContextManager):
         event: Literal['response'],
         f: typing.Callable[[Response], 'typing.Union[typing.Awaitable[None], None]']
     ) -> None: ...
+    async def content(self) -> str: ...
 
 
 
