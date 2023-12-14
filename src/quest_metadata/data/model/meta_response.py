@@ -207,9 +207,17 @@ class Item(BaseModel):
         Returns:
             datetime: The converted datetime object.
         """
+        default = datetime(1980, 1, 1)
         if val is None:
-            return datetime(1980, 1, 1)
-        return datetime.strptime(val, "%d %b %Y")
+            return default
+
+        date_formats: list[str] = ["%d %b %Y", "%b, %d %Y"]
+        for fmt in date_formats:
+            try:
+                return datetime.strptime(val, fmt)
+            except ValueError:
+                pass
+        return default
 
     @validator("tags", pre=True)
     @classmethod
