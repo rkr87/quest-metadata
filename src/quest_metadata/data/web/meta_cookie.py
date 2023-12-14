@@ -26,10 +26,10 @@ Attributes:
 import asyncio
 from logging import Logger, getLogger
 
-from playwright._impl._api_structures import SetCookieParam
+from playwright._impl._api_structures import Cookie, SetCookieParam
 from playwright.async_api import async_playwright
-from playwright.async_api._generated import (Browser, BrowserContext, Page,
-                                             Response)
+from playwright.async_api._generated import (Browser, BrowserContext,
+                                             ElementHandle, Page, Response)
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
@@ -89,15 +89,25 @@ class MetaCookie(NonInstantiable):
         Args:
             page (Page): The Playwright Page instance.
         """
-        page_content: str = await page.content()
-        logger: Logger = getLogger(__name__)
-        logger.info(page_content)
+        if consent := await MetaCookie._find_consent(page):
+            await consent.click(force=True)
 
-        # consent: ElementHandle | None = await page.wait_for_selector(
-        #     "text=Allow all cookies"
-        # )
-        # if consent is not None:
-        #     await consent.click(force=True)
+    @staticmethod
+    async def _find_consent(page: Page) -> ElementHandle | None:
+        """
+        Find the cookie consent element on the Meta page.
+
+        Args:
+            page (Page): The Playwright Page instance.
+
+        Returns:
+            ElementHandle | None: The cookie consent element or None if not
+                found.
+        """
+        try:
+            return await page.wait_for_selector("text=Allow all cookies")
+        except TimeoutError:
+            return None
 
     @staticmethod
     async def _wait_for_cookie(context: BrowserContext) -> None:
@@ -117,7 +127,7 @@ class MetaCookie(NonInstantiable):
             Args:
                 response (Response): The Playwright Response instance.
             """
-            cookies = await context.cookies()
+            cookies: list[Cookie] = await context.cookies()
             if REQ_COOKIE in [c.get('name') for c in cookies]:
                 cookie_found.set()
 
