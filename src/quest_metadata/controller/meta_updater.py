@@ -65,7 +65,6 @@ class MetaUpdater(NonInstantiable):
                     result.data.is_available,
                     result.data.is_free
                 )
-                local_apps.pop(package)
             else:
                 logger.info("No responses for %s", package)
 
