@@ -59,6 +59,9 @@ class MetaUpdater(NonInstantiable):
             logger.debug("Fetching: %s", app.app_name)
             if len(responses) > 0:
                 result: MetaResponse = MetaParser.parse(responses, package)
+                if app.logos is not None:
+                    result.data.logo_landscape = app.logos.landscape
+                    result.data.logo_portrait = app.logos.portrait
                 await result.save_json(f"{FILES}{package}.json")
                 await meta_wrapper.get_resources(result.data.resources)
                 await app_manager.update(

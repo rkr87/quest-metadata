@@ -31,13 +31,12 @@ from typing_extensions import final
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
-from constants.constants import META_DOMAIN
+from constants.constants import META_DOMAIN, RESOURCES
 from data.model.api_models import ApiHeader, ApiPayload
 from data.model.meta_response import MetaResource, MetaResponse
 from data.web.http_client import HttpClient
 
 API_ENDPOINT = f"{META_DOMAIN}/ocapi/graphql?forced_locale=en_GB"
-RESOURCES = "./data/resources/"
 
 
 @final
