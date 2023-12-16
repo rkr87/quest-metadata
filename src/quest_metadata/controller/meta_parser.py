@@ -134,13 +134,12 @@ class MetaParser(NonInstantiable):
         """
         cls._update_list(base.ids, update.ids)
         cls._update_list(base.genres, update.genres)
-        cls._update_list(base.input_devices, update.input_devices)
-        cls._update_list(base.games_modes, update.games_modes)
+        cls._update_list(base.devices, update.devices)
+        cls._update_list(base.modes, update.modes)
         cls._update_list(base.languages, update.languages)
         cls._update_list(base.platforms, update.platforms)
         cls._update_list(base.player_modes, update.player_modes)
         cls._update_list(base.tags, update.tags)
-        cls._update_list(base.screenshots, update.screenshots)
 
         cls._update_ratings(base.hist, update.hist)
 
@@ -156,8 +155,8 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        if update.price_gbp is not None and update.price_gbp > 0:
-            base.price_gbp = update.price_gbp
+        if update.price is not None and update.price > 0:
+            base.price = update.price
 
     @classmethod
     def _update_ratings(

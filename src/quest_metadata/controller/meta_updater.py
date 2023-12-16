@@ -60,6 +60,7 @@ class MetaUpdater(NonInstantiable):
             if len(responses) > 0:
                 result: MetaResponse = MetaParser.parse(responses, package)
                 await result.save_json(f"{FILES}{package}.json")
+                await meta_wrapper.get_resources(result.data.resources)
                 await app_manager.update(
                     package,
                     result.data.is_available,

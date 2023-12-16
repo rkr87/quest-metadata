@@ -19,10 +19,13 @@ Usage:
 
 Attributes:
     API_ENDPOINT (str): The base URL for the Meta API.
+    RESOURCES (str): The location to save resources
 """
 
 from urllib.parse import urlencode
 
+from aiofiles import open as aopen
+from aiofiles.os import path
 from aiohttp import ClientResponse
 from typing_extensions import final
 
@@ -30,10 +33,11 @@ from base.base_class import BaseClass
 from base.singleton import Singleton
 from constants.constants import META_DOMAIN
 from data.model.api_models import ApiHeader, ApiPayload
-from data.model.meta_response import MetaResponse
+from data.model.meta_response import MetaResource, MetaResponse
 from data.web.http_client import HttpClient
 
 API_ENDPOINT = f"{META_DOMAIN}/ocapi/graphql?forced_locale=en_GB"
+RESOURCES = "./data/resources/"
 
 
 @final
@@ -100,3 +104,17 @@ class MetaWrapper(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMiss
             return MetaResponse.model_validate(text)
 
         return [y for x in uids if (y := await fetch(x))]
+
+    async def get_resources(self, resources: list[MetaResource]) -> None:
+        """
+        Fetch and save resources associated with store items.
+
+        Args:
+            resources (List[MetaResource]): List of MetaResource objects.
+        """
+        for res in resources:
+            fp: str = f"{RESOURCES}{res}"
+            if not await path.exists(fp):
+                if data := await self._client.get(res.url):
+                    async with aopen(fp, 'wb') as file:
+                        await file.write(await data.read())
