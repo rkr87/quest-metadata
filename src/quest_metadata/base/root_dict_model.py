@@ -48,7 +48,7 @@ class RootDictModel(ABC, RootModel[dict[_KT, _VT]]):
         """
         self.root[key] = value
 
-    def __iter__(self) -> Iterator[_KT]:  # type: ignore
+    def __iter__(self) -> Iterator[_KT]:  # type: ignore[override]
         """
         Return an iterator over the keys.
         """
