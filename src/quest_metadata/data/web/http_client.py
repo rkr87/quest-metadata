@@ -78,7 +78,7 @@ class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
     async def get(
         self,
         url: str,
-        headers: dict[str, str] | None,
+        headers: dict[str, str] | None = None,
         data: str | None = None
     ) -> ClientResponse | None:
         """
