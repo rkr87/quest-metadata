@@ -1,4 +1,3 @@
-# pyright: reportMissingTypeArgument=false
 """
 non_instantiable.py
 

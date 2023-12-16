@@ -1,4 +1,3 @@
-# pyright: reportMissingTypeArgument=false
 """
 app_manager.py
 
@@ -24,7 +23,7 @@ APPS: str = "./data/apps.json"
 
 
 @final
-class AppManager(BaseClass, metaclass=Singleton):
+class AppManager(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgument]
     """
     AppManager class for managing local apps.
 
