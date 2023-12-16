@@ -120,6 +120,8 @@ class Item(BaseModel):
     website: str = Field(validation_alias='website_url')
     icon: MetaResource = Field(validation_alias=AliasPath('icon_image', 'uri'))
     banner: MetaResource = Field(validation_alias=AliasPath('hero', 'uri'))
+    logo_portrait: str | None = None
+    logo_landscape: str | None = None
     has_ads: bool = Field(validation_alias='has_in_app_ads')
     sensor_req: bool = Field(validation_alias='is_360_sensor_setup_required')
     price: int | None = Field(
