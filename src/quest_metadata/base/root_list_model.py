@@ -40,7 +40,7 @@ class RootListModel(ABC, RootModel[list[_VT]]):
         """
         return self.root[index]
 
-    def __iter__(self) -> Iterator[_VT]:  # type: ignore
+    def __iter__(self) -> Iterator[_VT]:  # type: ignore[override]
         """
         Return an iterator over the elements.
         """
