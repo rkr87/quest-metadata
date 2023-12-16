@@ -39,7 +39,7 @@ from base.root_list_model import RootListModel
 from utils.string_utils import to_camel
 
 
-class _GithubApp(BaseModel):
+class GithubApp(BaseModel):
     """
     Pydantic model representing an external application from GitHub.
 
@@ -67,7 +67,7 @@ class _GithubApp(BaseModel):
         alias_generator: Callable[..., str] = to_camel
 
 
-class GithubApps(RootListModel[_GithubApp]):
+class GithubApps(RootListModel[GithubApp]):
     """
     Pydantic model representing a list of external applications from GitHub.
     """

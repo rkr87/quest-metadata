@@ -30,16 +30,20 @@ Example:
     apps = await github_wrapper.get_github_apps()
     ```
 """
+from aiofiles import open as aopen
+from aiofiles.os import path
 from aiohttp import ClientResponse
 from typing_extensions import final
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
+from constants.constants import RESOURCES
 from data.model.github_models import GithubApps
+from data.model.local_apps import Logos
 from data.web.http_client import HttpClient
 
-EXT_APPS: str = (
-    'https://raw.githubusercontent.com/basti564/LauncherIcons/main/oculus_apps.json'
+REPO: str = (
+    'https://raw.githubusercontent.com/basti564/LauncherIcons/main/'
 )
 
 
@@ -78,7 +82,7 @@ class GitHubWrapper(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMi
         headers: dict[str, str] = {'Accept': 'application/json'}
 
         resp: ClientResponse | None = await self._client.get(
-            EXT_APPS,
+            f"{REPO}oculus_apps.json",
             headers=headers
         )
 
@@ -88,3 +92,34 @@ class GitHubWrapper(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMi
         text = await resp.json(content_type='text/plain; charset=utf-8')
         data: GithubApps = GithubApps.model_validate(text)
         return data
+
+    async def get_resources(self, package: str) -> Logos:
+        """
+        Fetch logos associated with a local application from GitHub.
+
+        Args:
+            package (str): The package name of the application.
+
+        Returns:
+            Logos: A Pydantic model representing logos associated with the
+                local application.
+        """
+        dirs: list[str] = [
+            "landscape",
+            "portrait"
+        ]
+
+        files: dict[str, str] = {}
+        for orientation in dirs:
+            fn: str = f"{package}_logo_{orientation}.jpg".lower()
+            fp: str = f"{RESOURCES}{fn}"
+            if await path.exists(fp):
+                files[orientation] = fn
+                continue
+            if data := await self._client.get(
+                f"{REPO}oculus_{orientation}/{package}.jpg"
+            ):
+                async with aopen(fp, 'wb') as file:
+                    await file.write(await data.read())
+                    files[orientation] = fn
+        return Logos.model_validate(files)
