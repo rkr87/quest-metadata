@@ -17,7 +17,7 @@ from typing_extensions import final
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
-from data.model.local_apps import LocalApp, LocalApps
+from data.model.local_apps import LocalApp, LocalApps, Logos
 
 APPS: str = "./data/apps.json"
 
@@ -136,6 +136,17 @@ class AppManager(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
             self._apps[store_id].is_free = is_free
             self._apps[store_id].is_available = is_available
         await self.save()
+
+    def add_logos(self, store_id: str, logos: Logos) -> None:
+        """
+        Add logos to a local application.
+
+        Args:
+            store_id (str): The ID of the local application.
+            logos (Logos): Logos associated with the local application.
+        """
+        if store_id in self._apps:
+            self._apps[store_id].logos = logos
 
     @staticmethod
     def _load_from_file() -> LocalApps:
