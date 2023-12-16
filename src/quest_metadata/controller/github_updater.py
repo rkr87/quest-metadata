@@ -1,6 +1,5 @@
 """
 github_updater.py
-
 This module defines the GithubUpdater class responsible for updating the
 local AppManager with information obtained from the GitHub repository.
 
@@ -9,26 +8,25 @@ GithubUpdater:
     AppManager with information from the GitHub repository.
 
 Attributes:
-    _launch_method (str): The method to be used for creating instances.
+    _launch_method (str): The method used for creating instances.
 
 Usage:
-    To use this class, call the static method `update(app_manager)`.
+    To use this class, call the static method `update(...)`.
 
-    Example:
+Example:
     ```python
     from github_updater import GithubUpdater
+    from data.web.github_wrapper import GitHubWrapper
     from data.local.app_manager import AppManager
 
-    # Create an instance of the local AppManager
     app_manager = AppManager()
+    client = HttpClient()
+    await client.open_session()
+    github_wrapper = GitHubWrapper(client)
 
-    # Update the AppManager with information from GitHub
-    GithubUpdater.update(app_manager)
+    await GithubUpdater.update(app_manager, github_wrapper)
     ```
-
-Note: Adjust the usage example based on the actual use case in your code.
 """
-from aiohttp import ClientSession
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
@@ -40,34 +38,34 @@ from data.web.github_wrapper import GitHubWrapper
 @final
 class GithubUpdater(NonInstantiable):
     """
-    GitHub Updater class responsible for updating the local app manager with
+    GitHubUpdater class responsible for updating the local AppManager with
     information obtained from the GitHub repository.
 
     Attributes:
-        _launch_method (str): The method to be used for creating instances.
+        _launch_method (str): The method used for creating instances.
     """
     _launch_method: str = "update"
 
     @staticmethod
     async def update(
         app_manager: AppManager,
-        http_session: ClientSession
+        github_wrapper: GitHubWrapper
     ) -> None:
         """
         Update the provided AppManager with information from the GitHub
         repository.
 
         This method fetches information about GitHub apps using the provided
-        `http_session` and updates the local `AppManager` with the retrieved
+        `github_wrapper` and updates the local `AppManager` with the retrieved
         data. It iterates through the fetched information and adds each item's
         details (such as id, package_name, and app_name) to the AppManager.
 
         Args:
             app_manager (AppManager): The local AppManager to be updated.
-            http_session (ClientSession): The aiohttp ClientSession used for
-                making asynchronous HTTP requests.
+            github_wrapper (GitHubWrapper): The GitHubWrapper for fetching
+                update information.
         """
-        update: GithubApps = await GitHubWrapper.get_github_apps(http_session)
+        update: GithubApps = await github_wrapper.get_github_apps()
         for item in update:
             app_manager.add(item.id, item.package_name, item.app_name)
         await app_manager.save()
