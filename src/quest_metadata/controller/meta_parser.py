@@ -132,7 +132,7 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        cls._merge_list(base.additional_ids, update.additional_ids)
+        cls._merge_list(base.additional_ids, [update.id])
         cls._merge_list(base.genres, update.genres)
         cls._merge_list(base.devices, update.devices)
         cls._merge_list(base.modes, update.modes)
