@@ -28,9 +28,7 @@ Example:
     ```
 """
 import asyncio
-from collections.abc import Coroutine
 from logging import Logger, getLogger
-from typing import Any
 
 from typing_extensions import final
 
@@ -89,9 +87,5 @@ class GithubUpdater(NonInstantiable):
             )
             app_manager.add_logos(app.package_name, logos)
 
-        tasks: list[Coroutine[Any, Any, None]] = []
-        for app in apps:
-            tasks.append(scrape(app))
-        await asyncio.gather(*tasks)
-
+        await asyncio.gather(*[scrape(app) for app in apps])
         await app_manager.save()
