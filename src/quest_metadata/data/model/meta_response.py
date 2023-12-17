@@ -15,7 +15,7 @@ Usage:
 """
 from datetime import datetime
 from logging import Logger, getLogger
-from typing import Annotated, Any
+from typing import Annotated, Any, ClassVar
 
 from pydantic import AliasPath, Field, computed_field, validator
 
@@ -81,6 +81,9 @@ class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
+    global_rating: ClassVar[float] = 0
+    global_votes: ClassVar[list[int]] = []
+
     id: str
     additional_ids: list[str] | None = None
     name: str = Field(validation_alias='display_name')
