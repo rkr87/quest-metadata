@@ -91,7 +91,7 @@ style = [
 use_shortcuts = true
 
 [tool.commitizen.customize]
-message_template = "{{change_type}}: {{title}}{% if description %}\n\n{{description}}{% endif %}"
+message_template = "{{change_type}}{% if scope %}({{scope}}){% endif %}: {{title}}{% if description %}\n\n{{description}}{% endif %}"
 schema = "<type>: <body>"
 schema_pattern = "(feat|fix|refactor|chore): (\\s.*)"
 bump_pattern = "^(break|feat|fix|refactor|chore)"
@@ -118,13 +118,19 @@ message = "Select the type of change you are committing"
 
 [[tool.commitizen.customize.questions]]
 type = "input"
+name = "scope"
+message = "SCOPE [ENTER TO SKIP]\n    Describe the section of the codebase being updated.\n    Should be an identifiable description, eg classname, filename, modulename.\n    Statements should be lowercase with no punctuation. \n\n    EG: parser\n\n"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
 name = "title"
-message = "Title\n    Each statement should start with a verb conjugated in an imperative way.\n    Statements should be seperated from themselves with a \";\".\n    Statements should be lowercase with no period. \n\n    EG: added x thing; removed y thing; fixed z issue\n\n"
+message = "TITLE\n    Each statement should start with a verb conjugated in an imperative way.\n    Statements should be seperated from themselves with \";\".\n    Statements should be lowercase with no period. \n\n    EG: added x thing; removed y thing; fixed z issue\n\n"
 
 [[tool.commitizen.customize.questions]]
 type = "input"
 name = "description"
-message = "Description\n    Provide a more detailed description of the changes made in this commit. [ENTER TO SKIP]"
+message = "DESCRIPTION\n    Provide a more detailed description of the changes made in this commit. \n    Statements should be seperated from themselves with a new line [ENTER].\n    Statements should be lowercase with no period. \n\n    EG: added x thing\n        removed y thing\n        fixed z issue\n\n"
+multiline = true
 
 [tool.mypy]
 
