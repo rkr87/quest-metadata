@@ -31,7 +31,7 @@ Example:
     ```
 """
 from aiofiles import open as aopen
-from aiofiles.os import path
+from aiofiles.os import makedirs, path
 from aiohttp import ClientResponse
 from typing_extensions import final
 
@@ -111,15 +111,17 @@ class GitHubWrapper(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMi
 
         files: dict[str, str] = {}
         for orientation in dirs:
-            fn: str = f"{package}_logo_{orientation}.jpg".lower()
-            fp: str = f"{RESOURCES}{fn}"
-            if await path.exists(fp):
-                files[orientation] = fn
+            directory: str = f"{RESOURCES}logo_{orientation}/"
+            await makedirs(directory, exist_ok=True)
+
+            filename: str = f"{package.lower()}.jpg"
+            if await path.exists(f"{directory}{filename}"):
+                files[orientation] = filename
                 continue
             if data := await self._client.get(
                 f"{REPO}oculus_{orientation}/{package}.jpg"
             ):
-                async with aopen(fp, 'wb') as file:
+                async with aopen(f"{directory}{filename}", 'wb') as file:
                     await file.write(await data.read())
-                    files[orientation] = fn
+                    files[orientation] = filename
         return Logos.model_validate(files)
