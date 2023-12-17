@@ -132,14 +132,14 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
-        cls._update_list(base.ids, update.ids)
-        cls._update_list(base.genres, update.genres)
-        cls._update_list(base.devices, update.devices)
-        cls._update_list(base.modes, update.modes)
-        cls._update_list(base.languages, update.languages)
-        cls._update_list(base.platforms, update.platforms)
-        cls._update_list(base.player_modes, update.player_modes)
-        cls._update_list(base.tags, update.tags)
+        cls._merge_list(base.additional_ids, [update.id])
+        cls._merge_list(base.genres, update.genres)
+        cls._merge_list(base.devices, update.devices)
+        cls._merge_list(base.modes, update.modes)
+        cls._merge_list(base.languages, update.languages)
+        cls._merge_list(base.platforms, update.platforms)
+        cls._merge_list(base.player_modes, update.player_modes)
+        cls._merge_list(base.tags, update.tags)
 
         cls._update_ratings(base.hist, update.hist)
 
@@ -212,7 +212,7 @@ class MetaParser(NonInstantiable):
     _KT = TypeVar("_KT")
 
     @classmethod
-    def _update_list(
+    def _merge_list(
         cls,
         base: list[_KT] | None,
         update: list[_KT] | None
@@ -225,5 +225,7 @@ class MetaParser(NonInstantiable):
             update (list[str] | None): Update list containing additional items.
         """
         if update is not None:
-            base = base or []
-            base.extend(item for item in update if item not in base)
+            if base is None:
+                base = update
+            else:
+                base.extend(item for item in update if item not in base)

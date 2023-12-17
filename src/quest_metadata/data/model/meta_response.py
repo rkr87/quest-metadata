@@ -81,7 +81,8 @@ class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
-    ids: list[str] = Field(validation_alias='id')
+    id: str
+    additional_ids: list[str] | None = None
     name: str = Field(validation_alias='display_name')
     app_name: str = Field(validation_alias='appName')
     type_name: str = Field(validation_alias='__typename')
@@ -128,6 +129,10 @@ class Item(BaseModel):
         default=None,
         validation_alias=AliasPath("current_offer", "price", "offset_amount"),
         exclude=True
+    )
+    is_demo_of: str | None = Field(
+        default=None,
+        validation_alias=AliasPath("is_demo_of", "id"),
     )
 
     @computed_field  # type: ignore[misc]
@@ -193,20 +198,6 @@ class Item(BaseModel):
         if self.iarc is not None:
             consol['iarc_icon'] = self.iarc.iarc_icon
         return consol
-
-    @validator("ids", pre=True)
-    @classmethod
-    def id_to_list(cls, val: str) -> list[str]:
-        """
-        Convert a single item ID to a list of item IDs.
-
-        Args:
-            val (str): The item ID.
-
-        Returns:
-            list[str]: List containing the item ID.
-        """
-        return [val]
 
     @validator("release_date", pre=True)
     @classmethod
