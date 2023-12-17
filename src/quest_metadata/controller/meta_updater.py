@@ -13,13 +13,12 @@ from logging import Logger, getLogger
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
+from constants.constants import DATA
 from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApp, LocalApps
 from data.model.meta_response import MetaResponse
 from data.web.meta_wrapper import MetaWrapper
-
-FILES: str = "./data/packages/"
 
 
 @final
@@ -60,7 +59,7 @@ class MetaUpdater(NonInstantiable):
                 if app.logos is not None:
                     result.data.logo_landscape = app.logos.landscape
                     result.data.logo_portrait = app.logos.portrait
-                await result.save_json(f"{FILES}{package}.json")
+                await result.save_json(f"{DATA}{package}.json")
                 await meta_wrapper.get_resources(result.data.resources)
                 await app_manager.update(
                     package,

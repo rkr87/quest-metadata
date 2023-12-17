@@ -15,11 +15,13 @@ Attributes:
 
 import asyncio
 import logging.config
+import os
 from datetime import datetime, timedelta
 from typing import final
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
+from constants.constants import DATA, RESOURCES
 from controller.github_updater import GithubUpdater
 from controller.meta_updater import MetaUpdater
 from data.local.app_manager import AppManager
@@ -79,16 +81,23 @@ async def main() -> None:
     """
     Initialise dependencies and start the application.
     """
+
     manager = AppManager()
+
     client = HttpClient()
     await client.open_session()
+
+    github_wrapper = GitHubWrapper(client)
+
     cookie: str = await MetaCookie.fetch()
     meta_wrapper = MetaWrapper(cookie, client)
-    github_wrapper = GitHubWrapper(client)
+
     app = Application(manager, meta_wrapper, github_wrapper)
     await app.run()
 
 
 if __name__ == "__main__":
     logging.config.fileConfig('logging.conf')
+    os.makedirs(DATA, exist_ok=True)
+    os.makedirs(RESOURCES, exist_ok=True)
     asyncio.run(main())
