@@ -10,17 +10,17 @@
         "category": "GAMES",
         "release_date": "2017-06-27T00:00:00",
         "description": "It That Crawls is an immersive physiological horror that brings out the fear of the unknown. Your space ship has become infested with 'crawlers' that will attack on sight. Your aim is to collect enough batteries to power the escape pod and make your escape.\n\nControl the player using the touch-pad and tap once to collect batteries. You never know whats lurking just around the corner, so it is advised to wear headphones so you can HEAR if something is lurking around the corner.\n\nSupports Touchpad and Bluetooth Gamepad.\n\nWARNING: CONTAINS JUMP-SCARES",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Gill Studio",
         "publisher": "Gill Studio",
         "genres": [
             "Horror"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad",
             "Gamepad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "age_rating": "Teen",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://mgill42.wixsite.com/website",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162680_1922683768008430_4305246282315726848_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=eDfrVhfAB68AX8oOfZk&_nc_ht=scontent.oculuscdn.com&oh=00_AfDadU01rqgMQelVUgF7zqwqOhq3eI_W_yopXkrOLdO57A&oe=6582CFC8",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162680_448989465476446_2208244228213964800_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6G5Ib9l5iRAAX_B9FbA&_nc_ht=scontent.oculuscdn.com&oh=00_AfB0ASWkVPnKjCranZFdMUd0PewCA0y1E0Sk_8mSN82How&oe=658122D7",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162678_122517898348047_4311038745794052096_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BSW0ON-NS9gAX_X_07Y&_nc_ht=scontent.oculuscdn.com&oh=00_AfDGOml3YOAgL4hgN_Pi3g8xi6J10eLq7HGvIHdSxNXcQw&oe=6582B157",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162729_200594350466693_3226592274154520576_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=uKLvXsXoZScAX_Z-Z3x&_nc_ht=scontent.oculuscdn.com&oh=00_AfAmNrj6z8zVTRpdt9mE7aVWZlNh4-v7J8402OGP9hJB4w&oe=6582C161",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162730_1935501789996777_421195799062380544_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=E_e1I-N6kQ8AX-HcpNl&_nc_ht=scontent.oculuscdn.com&oh=00_AfBqTOAvUCL-uhzkeY40qarwlcXwlUWGJ0hAWvgamRd2zA&oe=65822850",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162688_219912865197752_6529894541116309504_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1fTt8mWP6LgAX85l7vs&_nc_ht=scontent.oculuscdn.com&oh=00_AfDpEQUcHDGC5FQMGEjNApcytUcZP6-Hj-bAqH0mQa-m2g&oe=65811171",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162680_760509470777697_2003666212826906624_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=GrTXSY0jI3YAX9g5j9d&_nc_ht=scontent.oculuscdn.com&oh=00_AfAsuPmEqLoblCNUiysu8CDl3eozq4s3p1jOQpjW7BWmoA&oe=6582ADD9"
-        ],
+        "icon": "11162680_1922683768008430_4305246282315726848_n.jpg",
+        "banner": "11162680_448989465476446_2208244228213964800_n.jpg",
+        "logo_portrait": "com.unity3d.itthatcrawls_logo_portrait.jpg",
+        "logo_landscape": "com.unity3d.itthatcrawls_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 8,
         "rating": 2.75,
         "is_available": true,

@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2017-03-27T00:00:00",
         "description": "Pigasus is a feature rich universal media player that supports networked streaming of media from UPNP/DLNA media servers and Samba shares as well as local playback. The Lite version is a scaled down version with some non essential features disabled. \n\nPigasus Lite is for those that just want to be able to stream video from their UPNP/DLNA capable media server or browse content on their phone without all the bells and whistles. Or those that are curious about Pigasus VR Media Player and wish to try it before investing in the full version.\n\nAccess, setup and enjoy your media the way you want it. Pigasus supports a host of features optimized for a comfortable VR viewing experience.\n\nPlease see the Pigasus FAQ for additional feature support, information and help:\n\nhttps://hanginghatstudios.com/pigasus-faq",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Hanging Hat Studios LLC",
         "publisher": "Hanging Hat Studios LLC",
         "genres": [
@@ -18,12 +18,12 @@
             "Casual",
             "Media Player"
         ],
-        "input_devices": [
+        "devices": [
             "Gamepad",
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -69,22 +69,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://hanginghatstudios.com/pigasus",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162698_716940501839821_7312479943709949952_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BeYeQqSpRHgAX-PsvA1&_nc_ht=scontent.oculuscdn.com&oh=00_AfCh8-vv6pUzB_fa_mC3rJNHiK4Kg8gPaDwTnz5BDs8pEg&oe=65815352",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162741_369509406837709_7123307645301161984_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=mvHiU5kQhDgAX-b4T1z&_nc_ht=scontent.oculuscdn.com&oh=00_AfBEH9fmg8n7TUuCNXRXC2dXu4iL-dkz9jAfMkRErUmU8g&oe=65825DDA",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162732_190963238338209_7891170011673264128_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=2v6YZJ4762UAX-VHKXc&_nc_ht=scontent.oculuscdn.com&oh=00_AfBGzkrrYz5uA3p2ruM81ELA3UVxkmE-eykjxdVowiBWeg&oe=65811A70",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162732_204594516789716_8089150347408310272_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lalEC1TpCpAAX877DOo&_nc_ht=scontent.oculuscdn.com&oh=00_AfASiqn-5Wzp9OZS1V9T8ZvD08LkYWzh0KP1edQ-1LkYKg&oe=65812865",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331069_2150450845183045_1601537470103552000_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=hR6ot47nIgAAX82pr0u&_nc_ht=scontent.oculuscdn.com&oh=00_AfDEy0oDBi5tU2uIVsP7tUWdMagJHFb40k4vleqtouTOwg&oe=65827CC7",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12504730_161487447836987_2163073868183371776_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sJ5oLLMLcF0AX9Cdtnz&_nc_ht=scontent.oculuscdn.com&oh=00_AfCogrXgGrXhWYIi2UBiew2JReWAU-iVwKN43MX0melROg&oe=65820441",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12504730_1972085256452425_4227711982205140992_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=nV-OJ88N0bgAX-HE5d9&_nc_oc=AQmgvs5sF1v4PB5R2qOn2cdGbuerMA1I_0vdTpNG0CR5WdIcR88PihWlQhDDS16voC4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJ4_wZCT3mXb3whULpMRVkGG-aZZVkXwbh12-tVE35_g&oe=65816746"
-        ],
+        "icon": "11162698_716940501839821_7312479943709949952_n.jpg",
+        "banner": "11162741_369509406837709_7123307645301161984_n.jpg",
+        "logo_portrait": "com.hanginghatstudios.pigasuslite_logo_portrait.jpg",
+        "logo_landscape": "com.hanginghatstudios.pigasuslite_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 160,
         "rating": 2.525,
         "is_available": true,

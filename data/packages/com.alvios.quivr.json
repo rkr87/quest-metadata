@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2019-02-05T00:00:00",
         "description": "QuiVr Vanguard brings the best-selling archery mechanics of the original QuiVr into a stand-alone, fast-paced title for the Oculus Go.  Combining cooperative drop-in multiplayer with the critically acclaimed gameplay of QuiVr on desktop, Vanguard allows players to join in one of the most popular VR gaming experiences available today.  Compatible with both Oculus Go and Oculus Quest, play with your friends across platform (once Quest releases), and find out why QuiVr has consistently topped the most popular VR titles since its release.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Luminary Apps, LLC",
         "publisher": "Alvios, Inc.",
         "genres": [
@@ -18,10 +18,10 @@
             "Arcade",
             "Shooter"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Multiplayer",
             "Single User",
             "Co-op"
@@ -68,22 +68,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12386444_352227485138085_8354695406382219264_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0Z6aLZ2iwygAX8uiMGb&_nc_ht=scontent.oculuscdn.com&oh=00_AfDLvXoM9SBXoBR31Xp528YHijhl88J-Cg5_j9M6nWAzPw&oe=6581B868"
+            "icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://quivr.net/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974678_363523027714989_2031392326961594368_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=M-tx-_EP3IsAX-JdFux&_nc_ht=scontent.oculuscdn.com&oh=00_AfAq265Co5_47awqZcEFLlokL19BFoWF6ZSl76cYyOOFbw&oe=65810275",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39001710_513859435780998_4972914376001454080_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=aNO92sAcS1IAX-87m1w&_nc_ht=scontent.oculuscdn.com&oh=00_AfAncVe2GWg3MsCUjdmJEAvb5REgZX4r_Ik5RlnO3emTzg&oe=658250EF",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982674_662297344172197_2496794545069490176_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=F4_2M8mOeiYAX9wbnx5&_nc_ht=scontent.oculuscdn.com&oh=00_AfCbVx1GKr1hIuRYwivtCdo-ZVtM7qj5xm6uDsA8TpwwBg&oe=65812DE5",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974682_1608589942620130_1112609534272077824_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RzsB_xGZM4cAX8PSZGI&_nc_ht=scontent.oculuscdn.com&oh=00_AfD6LUs8e-y7gR5QYcvYrjnSi65WzR9lz7t4JsIljn649g&oe=658147C9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974510_2144888142427538_6295340398487273472_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=--JM0XNtGKgAX_ufbSd&_nc_ht=scontent.oculuscdn.com&oh=00_AfBG2GsG5Op_W1aRRgBHs8rzHxy-8X3UgSzp57nL5WELSA&oe=6581A547",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39036628_536447390157866_4424947879848706048_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zvZhZtXRTRcAX_4-4iS&_nc_ht=scontent.oculuscdn.com&oh=00_AfBEczbHfXFx36-OV9TAjMDzM6t-guki8w6UxlrKhhj4Mw&oe=65816BBB",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974628_1064758883703824_3840979838244487168_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=uqhrUW1zmScAX_fLh9R&_nc_ht=scontent.oculuscdn.com&oh=00_AfBzRVxKdbdT9r6vjszXjibn1xl-w9-9Cvm8OOUWmYXPRQ&oe=6581163E"
-        ],
+        "icon": "38974678_363523027714989_2031392326961594368_n.jpg",
+        "banner": "39001710_513859435780998_4972914376001454080_n.jpg",
+        "logo_portrait": "com.alvios.quivr_logo_portrait.jpg",
+        "logo_landscape": "com.alvios.quivr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 40,
         "rating": 4.175,
         "is_available": true,

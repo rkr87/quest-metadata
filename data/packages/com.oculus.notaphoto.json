@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2016-04-12T00:00:00",
         "description": "As a photographer and VR enthusiast I have always dreamed about a way of expressing photography as close as possible to the actual moment of capture, about the moment when reality and photography converge. The first trial was a couple of years ago when I took some photos and made a short film based on the famous parallax techniques but with a twist. The twist was that everything was now in actual 3d and not just 2D layers. The next step was giving the viewer a bit of input and so came to be the online WebGL version. The final step was full immersion; VR was only the natural step forward. \nmore info on how this was achieved : http://aurelm.com/2013/12/15/fernweh-3d-parallax-photography-tutorial/",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Aurel Manea Productions",
         "publisher": "Aurel Manea",
         "genres": [
@@ -18,10 +18,10 @@
             "360 Experience (Non-game)",
             "Travel"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -66,22 +66,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://aurelm.com/fully-3d-interactive-photography/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138771_1677796575816159_1514417038_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=A-Xpd5YHO-IAX91hN2s&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJidd-dS29AvS-zbivYlPAMV_m4TbzDY6xT_ZhObtx9A&oe=6582D147",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12138840_824387994356335_1563527421_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BK4Qwvqer0QAX8l4bLv&_nc_ht=scontent.oculuscdn.com&oh=00_AfADd4eK_GHE60xqxnTYOqLEhlJN4yjt9_y4zzohnm6wFA&oe=6581D3B5",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138792_976971732388321_849551327_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=btZUEfeH-6YAX8AAmjK&_nc_ht=scontent.oculuscdn.com&oh=00_AfBCQpmrtZ3YiHA6QiTMjOwIeM4MoXQ1x9lkxdTrq39pzA&oe=65825DE5",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138834_1757166401179652_1834676902_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5LxMXVwr0GcAX8fsaty&_nc_ht=scontent.oculuscdn.com&oh=00_AfBwGmAhWecT9RrdTE72EIeAJbssJRhL9VdeLpmf0j0blQ&oe=65821C85",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138832_1248797961801243_1985556965_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=wGNP7YH3tW8AX_xf7MD&_nc_ht=scontent.oculuscdn.com&oh=00_AfD-BlXAao7hGMD36JMyrjVvgOPkqhoHIZC7CWDU9b9p-Q&oe=6581C7F4",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12448837_1712346882351320_445814653_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0e3ixEncJ80AX9KfF45&_nc_ht=scontent.oculuscdn.com&oh=00_AfAbfsbU8c6qJD6a0TENQSibU25e2NcBqzJt0jncKjT6tg&oe=6581FD5A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12448842_1552150631781687_1259563216_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ez_ZFXYP7asAX_EHdyg&_nc_ht=scontent.oculuscdn.com&oh=00_AfBp3LgshCD7_34UOp0TLJEVDrbhvXGMuKYaBPpBZ2cwLA&oe=65829158"
-        ],
+        "icon": "12138771_1677796575816159_1514417038_n.jpg",
+        "banner": "12138840_824387994356335_1563527421_n.jpg",
+        "logo_portrait": "com.oculus.notaphoto_logo_portrait.jpg",
+        "logo_landscape": "com.oculus.notaphoto_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 1353,
         "rating": 3.6910569105691056,
         "is_available": true,

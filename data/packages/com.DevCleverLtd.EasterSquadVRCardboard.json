@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2019-04-24T00:00:00",
         "description": "There is trouble at the Easter Village, you must save Easter from the evil Easter Baron Bozo. The Chocolate Egg Factory has been taken over by Bozo and is being used to create chocolate mutants which are sent out into the villages to steal all of the Easter eggs and ruin Easter for everyone. Using your Oculus Go or Gear VR Headset and controller, you must put a stop to Bozo and his mutant minions and save Easter!\n\nThis is an On-Rails Virtual Reality Multiplayer Game, where you use the Oculus Go or Gear VR Headset and controller to play.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "DevCleverLimited",
         "publisher": "DevCleverLimited",
         "genres": [
@@ -18,10 +18,10 @@
             "Adventure",
             "Casual"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Multiplayer",
             "Single User",
             "Co-op"
@@ -68,22 +68,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12386444_352227485138085_8354695406382219264_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0Z6aLZ2iwygAX8uiMGb&_nc_ht=scontent.oculuscdn.com&oh=00_AfDLvXoM9SBXoBR31Xp528YHijhl88J-Cg5_j9M6nWAzPw&oe=6581B868"
+            "icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.devclever.co.uk/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974570_309102496441630_6291316447922618368_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=IjQ3x9csLe4AX8cBPdC&_nc_ht=scontent.oculuscdn.com&oh=00_AfDjyazz6f0nCOYgDr2WXLnvQp_tCTzMAb8hzURAGejVqg&oe=6581058A",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974828_655440851592562_6788328315364048896_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=np1fkgmTiJkAX8B5w_2&_nc_ht=scontent.oculuscdn.com&oh=00_AfBTjQNpgTn9wF8Ib1VGZaziirASqzJyAVNy1oF_NSsHaA&oe=65824397",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974484_2229654600460165_4950885982661509120_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=dABIAXd3fEMAX-APacN&_nc_ht=scontent.oculuscdn.com&oh=00_AfDap_32oWHkhlARCtiGB5Np0X0lhdRwDBAGKxkj5is3lw&oe=6582B463",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39001703_2053658654755265_4675791106854617088_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=7NS54QvUJ8cAX-9Xw4I&_nc_ht=scontent.oculuscdn.com&oh=00_AfBc84WqBxJZsihahnrkRL-aImN5R_ZgUFlpButY9hC6zg&oe=6580EF36",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982496_2336265483084159_461845521330339840_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=9zqCoZgFLoQAX83ew8X&_nc_ht=scontent.oculuscdn.com&oh=00_AfDu0aMoMFeiSGMz8gepqmAdur6uq_4gl5yJvg0z7ZhWWw&oe=65820A8D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982559_1258839377615743_7746967622876397568_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Ur9w5dWp88kAX_4SY06&_nc_ht=scontent.oculuscdn.com&oh=00_AfBPa6Cd-3giHVh-rClyjuqok_igVreAK9yHWMhI3AOXNg&oe=6581D6D3",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39001690_257950078417295_4280651998203740160_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Ig3rJbcRDHAAX9nI9O8&_nc_ht=scontent.oculuscdn.com&oh=00_AfAWTdsKtRDnQ_eIlm5jb5NSwW4Zro92cUP2oTCo3_jwng&oe=6582C6B7"
-        ],
+        "icon": "38974570_309102496441630_6291316447922618368_n.jpg",
+        "banner": "38974828_655440851592562_6788328315364048896_n.jpg",
+        "logo_portrait": "com.devcleverltd.eastersquadvrcardboard_logo_portrait.jpg",
+        "logo_landscape": "com.devcleverltd.eastersquadvrcardboard_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 5,
         "rating": 2.6,
         "is_available": true,

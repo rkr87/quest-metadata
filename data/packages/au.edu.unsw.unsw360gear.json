@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2018-03-02T00:00:00",
         "description": "Welcome to UNSW Sydney in 360!\n\nExplore our beautiful campus and see your future at UNSW. \n\nCheck out your future campus and Sydney Harbour before you arrive. Meet some of our friendly students as they take you on a guided tour, and get access to information about our world-class Faculties, research labs, library and modern facilities. \n\nChoose your own way of exploring our campuses and Sydney Harbour in 360. Take the guided tour or jump to your favourite locations using the scene finder.\n\nTake the guided route starting with our famous University Mall. At the beginning of each location, one of our students will give you an introduction. Click on the icons to watch videos, find out more about our Faculties, read about buildings and who is inside. When you’re ready to move on, click ‘Next’ to go to the next location. \n\nImagining yourself at UNSW has never been easier. Let’s go!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Paper Moose",
         "publisher": "UNSW Sydney",
         "genres": [
@@ -20,11 +20,11 @@
             "Social",
             "Utility"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller",
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -67,22 +67,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.360tour.unsw.edu.au/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12386340_2001747770072611_7692403361915600896_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=oUXe2xk0wO4AX-sPY5A&_nc_ht=scontent.oculuscdn.com&oh=00_AfCMHp8LlZ0mlD1EyRN3mRxTmF0aRv9KWqND1rL3lc-aNA&oe=65823E2B",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162702_378019579334945_7703661557825142784_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XHa4Dvr_uMYAX-SKuDF&_nc_ht=scontent.oculuscdn.com&oh=00_AfD6FRz3m8GLfQ3eHBcI129nYtk-ZVIFemneQQIky14sNQ&oe=658253F1",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162769_370384236745783_9210207197588357120_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rSUzF3jEPM4AX-Phc_S&_nc_ht=scontent.oculuscdn.com&oh=00_AfCaxgeKv8MWBrwMbArgRbuKPKgv_gmHURvkSj12sc8hbg&oe=65824BAA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386286_162907494440772_3052499850735124480_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=22z9vwdigaYAX-DXuVY&_nc_ht=scontent.oculuscdn.com&oh=00_AfBvZtN-btzhScJI-mlbfORPUPMT2CMTWfSIFWcz59SRuQ&oe=65812F26",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427636_434094226993882_2839419423599624192_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UkOyRvDVC4YAX_65rwW&_nc_ht=scontent.oculuscdn.com&oh=00_AfAuuWYbPcrxLPVuHgY6yKZFriK4bvUSk2IhLd4sTcYEQA&oe=65820C64",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427537_133617190661829_8151054789082349568_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qE5o2zBJWfMAX_lKBDh&_nc_ht=scontent.oculuscdn.com&oh=00_AfDuPNu78k2hNUXQjy7DQeif7OiwzYYf2nsTMTSCSFarNQ&oe=65823C08",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162763_1974970069442238_2892469021393813504_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=kD1YO-Sx8uUAX8hVxlU&_nc_ht=scontent.oculuscdn.com&oh=00_AfAVwxrwTJh6ttu8u_Elvj4WXTTVaD3O9xg7AtyyegB_cQ&oe=65818DBA"
-        ],
+        "icon": "12386340_2001747770072611_7692403361915600896_n.jpg",
+        "banner": "11162702_378019579334945_7703661557825142784_n.jpg",
+        "logo_portrait": "au.edu.unsw.unsw360gear_logo_portrait.jpg",
+        "logo_landscape": "au.edu.unsw.unsw360gear_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 10,
         "rating": 3.5,
         "is_available": true,

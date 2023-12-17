@@ -11,7 +11,7 @@
         "category": "APPS",
         "release_date": "2019-05-21T00:00:00",
         "description": "SKYBOX is an ultimate local VR video player which supports video playback from local storage and network shared servers. \n\n>> Go/Gear Paid users reach us for Quest free version! \n\nAny Feedback is highly appreciated: \nBug Report to Contact@SKYBOX.xyz \nDiscussions: https://forum.SKYBOX.xyz \nFAQ: https://SKYBOX.xyz/en/support/ \n\nWith SKYBOX, enjoy videos from your UPnP/DLNA media server or SMB share in the same Wi-Fi. A easy-to-set-up PC Client is available to support streaming from PC = Save your Storage! \nNo need to manually set the stereo mode such as 180° or 3D side-by-side; SKYBOX would recognize the correct format for you = Save your Time! \n\nFeatures include: \n1. Automatically recognize video stereo mode ( 180° / 360° / 2D / 3D ). \n2. AirScreen: stream videos to VR headsets (download: https://SKYBOX.xyz/en/get/)\n3. Support DLNA media servers and SMB 2.0 shares. \n4. 8k local and streaming playback with Quest 2, 5k for Quest. \n5. Simple and intuitive UI.\n\nRelax and enjoy SKYBOX :)",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "SKYBOX STUDIO",
         "publisher": "SKYBOX STUDIO",
         "genres": [
@@ -21,13 +21,13 @@
             "Media Player",
             "Social"
         ],
-        "input_devices": [
+        "devices": [
             "Touch Controllers",
             "Hand Tracking",
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -77,7 +77,7 @@
             },
             {
                 "rating": 5,
-                "votes": 5615
+                "votes": 5617
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,33 +85,19 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://SKYBOX.XYZ/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974625_343468176265008_86462287283486720_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ew0F84TMu34AX8GYPvm&_nc_ht=scontent.oculuscdn.com&oh=00_AfB95t6eMn6nB55kZnHeDLm1bUHLK1dK9ACxs5NRUHAvdw&oe=6581B472",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39031350_395612481256994_7200392056177426432_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qtJdQCeyqGIAX-eaq29&_nc_ht=scontent.oculuscdn.com&oh=00_AfCXSI9maV-FHJlF0D7C8ymmGP2ULEeJ1ipF7VPSqGvxCA&oe=658288DA",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974809_507886349738571_782199899214053376_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zaCNJ6tAIdMAX-rM84G&_nc_ht=scontent.oculuscdn.com&oh=00_AfBDnBCyTHGfJC4MxS1er5vLWsxkkkryDD1Sy7iWnPezcQ&oe=65825305",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982527_785237071846400_7346281001322020864_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5bd3Q4pLoUMAX9cjs-H&_nc_ht=scontent.oculuscdn.com&oh=00_AfDYg6izLTh8ie9W7rvMkrpbewFbsOWkcMM_jS6kuMkTYA&oe=65815F14",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974765_1163656613803088_7423218034690490368_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=SBAMqdmgCF8AX-L40e6&_nc_ht=scontent.oculuscdn.com&oh=00_AfBR5G6MmKaf2IACKppHKGaBd7KN70QpGHEu7Z554jK-Zg&oe=6582434C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974780_471491136923512_1332548899625238528_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ONaeJ4aUtI4AX8NtE48&_nc_ht=scontent.oculuscdn.com&oh=00_AfBFfxC21Uhw7umjz6Po2U0rJ0EW4VusdJN2ZiZOl47-tA&oe=658206D8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974837_1114440005388601_5831688267883347968_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=CZUGHc8EXp0AX-O3Xxs&_nc_ht=scontent.oculuscdn.com&oh=00_AfCdVltLkmqWCxXoIOkYJOdPDjH_Gp5XzwoGwdLfYAzOPw&oe=6582BD6B",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974489_2225231071087781_6526711983234875392_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0mPkcCHZ8GIAX_6xefR&_nc_ht=scontent.oculuscdn.com&oh=00_AfB0bekXyMU8QkAoe7Ni0fzKrQg8PWz-U1f7F0ClOMvSiQ&oe=6582BF07",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974586_373149576778265_594344180080181248_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0RDQt-aZ8OAAX_Zp6LK&_nc_ht=scontent.oculuscdn.com&oh=00_AfCzTfpbV3hdBykzyEU-O86mDNOtycZXSYWfTW0OWqeKNw&oe=65818E20",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12504662_2135908366681803_8699168168821653504_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=kZ6jgr52V74AX_-3Q_U&_nc_ht=scontent.oculuscdn.com&oh=00_AfDlXz3wLEYeCt2gxioAiS7_f2cXtTkaf5kH0gHoJVgHsg&oe=65819AAC",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139492_642107609478156_6757871568396746752_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=FOtZZO4MgpUAX832Spr&_nc_ht=scontent.oculuscdn.com&oh=00_AfCk_BZZ6eNMMArBz-VmVwXdt__6SQeiJupHQnYfEJWUqQ&oe=6581579F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139467_628089830903896_8219899253661630464_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=c6WQKobYOjwAX9jK3nZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfAB_LrBmRvEF-YRDBlKyyvVr6Z5lhM6qsCm7cPo96s-xQ&oe=65820082"
-        ],
-        "trailer": {
-            "thumbnail": "https://scontent.oculuscdn.com/v/t64.5771-25/38982721_436373897574753_6581139124199797604_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=VDcTN0aeHZ4AX-hzGJi&_nc_ht=scontent.oculuscdn.com&oh=00_AfB-dKR3wUtoC89rKUDupZpCdg0uLCPTWtLUk31wXK1jNA&oe=6581D254",
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/39036625_713096922722418_4813989213887633925_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=b20b63&_nc_ohc=IDdV4kdiX1gAX9F4UU_&_nc_ht=scontent.oculuscdn.com&oh=00_AfDIeiv3NNmQYu6KE2x613BUU4eqaM4PUAnytwEfyGIxBw&oe=65812639"
-        },
+        "icon": "38974625_343468176265008_86462287283486720_n.jpg",
+        "banner": "39031350_395612481256994_7200392056177426432_n.jpg",
+        "logo_portrait": "xyz.skybox.player.ovr_logo_portrait.jpg",
+        "logo_landscape": "xyz.skybox.player.ovr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
-        "votes": 7532,
-        "rating": 4.47437599575146,
+        "sensor_req": false,
+        "votes": 7534,
+        "rating": 4.4745155295991506,
         "is_available": true,
         "is_free": false
     }

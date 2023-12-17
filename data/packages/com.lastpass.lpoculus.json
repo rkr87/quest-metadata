@@ -10,17 +10,17 @@
         "category": "APPS",
         "release_date": "2022-10-11T00:00:00",
         "description": "LastPass is a password manager that secures your passwords and personal information in an encrypted vault. Never forget a password again. Only remember your LastPass master password and LastPass secures the rest. With automatic device sync, anything you save on one device is instantly available on other devices.\n\n     - Securely access information like passwords, credit card numbers, \n       and addresses in the encrypted vault.\n     - Copy and paste various credentials while browsing on your Oculus \n       Device for a better experience.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "LastPass",
         "publisher": "LastPass",
         "genres": [
             "2D",
             "Utilities"
         ],
-        "input_devices": [
+        "devices": [
             "Touch Controllers"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -69,22 +69,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://www.lastpass.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974671_1469221510245531_3087984154130857824_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BECPAw_3gcEAX_JRh2Y&_nc_ht=scontent.oculuscdn.com&oh=00_AfBbt9Hh5a5jnFHgjyBlqhCUnwnzCjsdred93xEFx6V-1A&oe=6581403F",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38982469_1095907324381463_7490008121630398404_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=FSTjV0OFChEAX_IrsiZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfCmv5cB406BLEgTeXjN6ltMYoHwjBvRJfYLsbtoNQDJfA&oe=6581CFD7",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974862_419214350345667_6775444114580834490_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KzNb6-wZafgAX9Sidv0&_nc_ht=scontent.oculuscdn.com&oh=00_AfB5PTJ_dnbpVccCFYSc1hvyhtsN8CXO7JH40SFpcn_YEw&oe=658243AD",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974497_1076941956515170_2052538007557490172_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=a3H8KF2e2gIAX_SW563&_nc_ht=scontent.oculuscdn.com&oh=00_AfDWurcLl7X3n_PMZUf_inkstg133Ktzs72EpKZ2vfORkw&oe=6581A919",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974883_500070051938688_4774586579083682808_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rUsxV2pNT8QAX9apHxp&_nc_ht=scontent.oculuscdn.com&oh=00_AfAtTe7sqY_p6u2-zdjTm_elJ5YqgrR5CJuo4Fz2vR64Tg&oe=65825A0E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974918_2151930944997070_4290666849495569791_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lMu-Zd_OQbkAX-zDCBA&_nc_ht=scontent.oculuscdn.com&oh=00_AfAkhR0bMgoZK6SmRtxbBDO4eSOKB4GwiorntirJhikdAw&oe=65824B4A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974897_779938343271647_7357376386880407367_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5mfS-y7FnI4AX8-UVXm&_nc_ht=scontent.oculuscdn.com&oh=00_AfCpnFfqzyMy2Zgj5adLF0hiFS6ffF41dfPJra6ziF7EIw&oe=6582C123"
-        ],
+        "icon": "38974671_1469221510245531_3087984154130857824_n.jpg",
+        "banner": "38982469_1095907324381463_7490008121630398404_n.jpg",
+        "logo_portrait": "com.lastpass.lpoculus_logo_portrait.jpg",
+        "logo_landscape": "com.lastpass.lpoculus_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 7,
         "rating": 3.857142857142857,
         "is_available": true,

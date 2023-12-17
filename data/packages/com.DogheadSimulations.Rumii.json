@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2018-07-05T00:00:00",
         "description": "rumii is a social-virtual reality space that enables people to collaborate and communicate in one room from anywhere in the world - as though they’re all in the same physical location. Step into your virtual reality office or classroom. rumii can be used across virtual reality headsets and desktops for collaboration, classes and meetings. Great for remote teams, education and digital nomads.\n\nTo enable a truly immersive experience, rumii is loaded with features that address all your communication and collaboration needs.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Doghead Simulations",
         "publisher": "Doghead Simulations",
         "genres": [
@@ -18,10 +18,10 @@
             "Simulation",
             "Productivity"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Multiplayer"
         ],
         "languages": [
@@ -67,22 +67,17 @@
                 "Users Interact",
                 "Digital Purchases"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.rumii.net/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12139031_182479699137877_674528174364688384_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=QvOCUfhGuI0AX_I54y6&_nc_ht=scontent.oculuscdn.com&oh=00_AfCcWga37Dr-BNPEGAajwo0Qrg_tT7cf8YQgOS1jpIwB4g&oe=6581A642",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12386401_1895018910562339_8320545687620026368_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=cOPVSw3CqmAAX_TwRkt&_nc_ht=scontent.oculuscdn.com&oh=00_AfBmoUOPRBO0NPhUiLEVH8Al6qZI8IllG3UyPxi6ZxpAcg&oe=6581869F",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139007_2039148413072802_2759796687051423744_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xRdu-1XqO1EAX_17PM_&_nc_ht=scontent.oculuscdn.com&oh=00_AfA0sNFYEfIZrT0_2dn6C1k19Eawp07YWA6SwiqcjYA2JQ&oe=65815D2F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410355_221184031817210_388991017585475584_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lSwIKMHjziwAX_7RLfF&_nc_ht=scontent.oculuscdn.com&oh=00_AfB0IWm_SUpXUobbaVIRKEVXh79ik0gtzquTqO5p87pk5Q&oe=6581DBF7",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386220_520814131667771_8786836057720094720_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=8Hq7u0adUhsAX9h4YR7&_nc_ht=scontent.oculuscdn.com&oh=00_AfA__TGeBbABKmTZ7_myQXbJ2t0z2N1ldrTDkY23XbBgFQ&oe=6582AA13",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386294_177204856311281_4470323363222388736_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0ppCNnWoYu0AX8yYbgN&_nc_ht=scontent.oculuscdn.com&oh=00_AfA2p9sZj5UCLpGFVQaM0sANmwRSeDNRPd5LdBvNgbzEng&oe=6581AE94",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331252_186700695256704_1186041380405772288_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fXrnK7no5x0AX8tdMkb&_nc_ht=scontent.oculuscdn.com&oh=00_AfD6vJvYjZH1gVBVFwehp5aLi4-4Q3wCbMOCd7Ij04ZKNQ&oe=65814EC4"
-        ],
+        "icon": "12139031_182479699137877_674528174364688384_n.jpg",
+        "banner": "12386401_1895018910562339_8320545687620026368_n.jpg",
+        "logo_portrait": "com.dogheadsimulations.rumii_logo_portrait.jpg",
+        "logo_landscape": "com.dogheadsimulations.rumii_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 33,
         "rating": 3.393939393939394,
         "is_available": true,

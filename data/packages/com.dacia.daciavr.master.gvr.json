@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2019-04-18T00:00:00",
         "description": "Découvrez les véhicules Dacia, en 3D. Sandero Stepway, Lodgy Stepway, Nouveau Duster, Dokker Stepway, Logan et Logan MCV. Découvrez leur design et installez-vous à l'intérieur pour découvrir leurs habitacles comme si vous y étiez. \nApplication à vocation de divertissement, dont les visuels non contractuels, sont une illustration de la gamme Dacia, qui ne remplace pas les configurateurs ou brochures commerciales, et n' engagent pas Dacia sur l’équipement des véhicules commercialisés dans le réseau de distribution.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "SERIOUS FACTORY",
         "publisher": "RENAULT",
         "genres": [
@@ -18,10 +18,10 @@
             "Utility",
             "Exploration"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -62,22 +62,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://www.dacia.fr/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38982545_581402385694895_3532331196157526016_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=vJTc8ipiWDoAX8bBTcf&_nc_ht=scontent.oculuscdn.com&oh=00_AfCeraWQkLUfCIlLRs9BlDeVlQWOQ9O6vbMnL5jSf9q4Lw&oe=6582CB37",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39001690_1172590766243630_8408216338182438912_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=AW1AF3EeJboAX-z2Zx8&_nc_ht=scontent.oculuscdn.com&oh=00_AfAaN9dVmyzzwj3QT5expz7xAYAAFYFTFcKnuV1cZn0SxQ&oe=658293E8",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982501_690757364659827_4118975818430939136_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=WzH2dk5nG4oAX9Ii-H9&_nc_ht=scontent.oculuscdn.com&oh=00_AfCthq5UkvPc2Ehj4cO42Ps2YDauXuOUgwHMp2Pi0n9GoA&oe=6581FD66",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982570_260110624925396_8732626986259709952_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xCeS5dPT0MgAX9ErWal&_nc_ht=scontent.oculuscdn.com&oh=00_AfBG0iSQy6fTGxxACjt9YPuO1fIWBjRNugkZmPMaJOkEEw&oe=6581A567",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974715_791673264523760_8963392263359037440_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=MAHG7jqEcIAAX922bnC&_nc_oc=AQnr13tvCfEUhglxEHvbuK4bCYar17Ywv4jH8uiHSuzjfbctpui74J7-gjuJBdzzmlg&_nc_ht=scontent.oculuscdn.com&oh=00_AfCjcDpxR8LR3HSg6XM_ios1mvzUT8_Z0XijuY05HccDvg&oe=6580EF7F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974752_1155584394619528_1767223414164029440_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Un-qp9IiRjgAX8tmNGo&_nc_ht=scontent.oculuscdn.com&oh=00_AfCw7sV_Hf7TzTK33LSptckt6pY-Em8tFNnB7-q0v1GFXQ&oe=6580FF72",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974821_357790188412038_4367863907604234240_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=9G_fgYnxASkAX9WYXOP&_nc_ht=scontent.oculuscdn.com&oh=00_AfBkycerxiJBU8BIpt2mmoQwfK_NSSZJaGmomBKFrKfFBg&oe=6581FA00"
-        ],
+        "icon": "38982545_581402385694895_3532331196157526016_n.jpg",
+        "banner": "39001690_1172590766243630_8408216338182438912_n.jpg",
+        "logo_portrait": "com.dacia.daciavr.master.gvr_logo_portrait.jpg",
+        "logo_landscape": "com.dacia.daciavr.master.gvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 7,
         "rating": 4.285714285714286,
         "is_available": true,

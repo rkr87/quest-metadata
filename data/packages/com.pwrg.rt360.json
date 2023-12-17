@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2016-09-20T00:00:00",
         "description": "Experience news in a whole new way – with RT’s new application, RT 360. RT 360 brings you the news in a revolutionary, 360-degree video format, allowing you to become completely immersed in the story. See it, hear it, feel it – all around you. Be transported to any corner of the world with this simple app on your smartphone. RT360 – for an all-around news experience.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "RT (Russia Today)",
         "publisher": "RT",
         "genres": [
@@ -20,10 +20,10 @@
             "Educational",
             "Narrative"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -69,22 +69,17 @@
             "age_rating": "Everyone 10+",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12386444_352227485138085_8354695406382219264_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0Z6aLZ2iwygAX8uiMGb&_nc_ht=scontent.oculuscdn.com&oh=00_AfDLvXoM9SBXoBR31Xp528YHijhl88J-Cg5_j9M6nWAzPw&oe=6581B868"
+            "icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.rt.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12427714_199322793798943_1494855461_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=8fq3uZ5EiPIAX9HjAap&_nc_ht=scontent.oculuscdn.com&oh=00_AfCtPsczBBTEUbSwIjQKtuaAHRhGvJVLQgzO94LqiYNGkg&oe=6581DDB2",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12522358_1741119219477077_1339875608_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=398AOuouj2EAX9ESAOU&_nc_oc=AQnWce9-YH06n7iG5vu2-8owiylFYzuopuLwYyFMJ9M1k1atTSGt4OEnh1m6o0Pqe8Y&_nc_ht=scontent.oculuscdn.com&oh=00_AfCWG7yCWsGzCfdfcsN18T3IUVabQK0M1iEsA7ICs5zvGQ&oe=65818F2E",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12533747_1808001716098983_1594252481_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EfbL3PRLLjQAX8fOean&_nc_ht=scontent.oculuscdn.com&oh=00_AfDnplFjG3oTjQ80EykqRyACX6x3_V0TPFYfAtEKuOu49g&oe=6582D163",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162683_333622283637816_1372745802_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=OaAhYPXZa_oAX8nFmf0&_nc_ht=scontent.oculuscdn.com&oh=00_AfCtUrWQ6kTdOUEv_skgZJO9jwUJJ0k6SyAFq0yrVbxwrA&oe=65813B42",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410235_1800481000182729_245068114_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sxN_Oe5VOQgAX8vlqEJ&_nc_ht=scontent.oculuscdn.com&oh=00_AfDKrvXA4JiZcViSy2PJ9FTKn5ZMrjmfziGu73M8ZImoog&oe=65817E19",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427677_889286984532086_1149662179_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Dfa4TTB0SpgAX8A-y-L&_nc_ht=scontent.oculuscdn.com&oh=00_AfBGWmuzz5AlbP3CT3N1lOdYMZx6x7cEyR-zW2UfVqHUxQ&oe=65817A8E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427506_1656033108053498_314706257_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=S1bKGVEXZaIAX-peAFZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfAucYYEQG85-c83-2gbtarsrHCgFaGVhWs6oLzFvuq08g&oe=6581EDE4"
-        ],
+        "icon": "12427714_199322793798943_1494855461_n.jpg",
+        "banner": "12522358_1741119219477077_1339875608_n.jpg",
+        "logo_portrait": "com.pwrg.rt360_logo_portrait.jpg",
+        "logo_landscape": "com.pwrg.rt360_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 170,
         "rating": 4.076470588235294,
         "is_available": true,

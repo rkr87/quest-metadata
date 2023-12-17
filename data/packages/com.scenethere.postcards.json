@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2018-05-07T00:00:00",
         "description": "Malmö is more than a city. Malmö brims of people creating experiences for you to enjoy. Join British tourist Joe in this 360° tour where he explores some of the great things Malmö has to offer. Admire the view on top of the Öresund bridge, get behind the scenes of a Michelin-restaurant and more.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "SceneThere",
         "publisher": "Malmö Tourism",
         "genres": [
@@ -18,8 +18,8 @@
             "Travel",
             "360 Experience (Non-game)"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -60,22 +60,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.scenethere.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12448944_200335007230776_6983735866904543232_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=O8v6Zl5ewNUAX8VV8Kb&_nc_oc=AQkR8SZReDChZjELex9QhJEbgZ75Bns4A03we4D9gEgJLVSudPhDQdIsEkXeS05icrY&_nc_ht=scontent.oculuscdn.com&oh=00_AfAILg6troz9IR31DajwMpZAO1wRCRZ-ksEuIvq05yxb7A&oe=6581272C",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12504788_183423292300925_1119101188361420800_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=7qv2xgibSosAX-8n2UM&_nc_ht=scontent.oculuscdn.com&oh=00_AfDdtT4Ff5fDrs3OhOEg4TyPpdWR11SCAgbDVU_yLW-xXQ&oe=6581854E",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331252_739282319599519_6756091957287583744_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=LEOQ3UR6qvUAX_3M1hu&_nc_ht=scontent.oculuscdn.com&oh=00_AfBies1uIB9jA-6nYkMHb1rtv3pOcxFbDgFuCCbP_orOjA&oe=6582A86E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331258_1772082752847917_5355109819021787136_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UMDQ0Cke1hQAX90ktPk&_nc_ht=scontent.oculuscdn.com&oh=00_AfDjdmoI56jY5PxoghUj_KVQ5G0M8PdVGNjFPWKw6s_N8A&oe=6581605C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12602096_2156987874524970_690816283783987200_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=cvZnIxKJV9sAX9-9kEZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfAboE4IZQgEFPxViwH7WXUQnwwPA2cTlpOIK61lwcLxxw&oe=6581353C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331252_1229190887218515_6330440443188215808_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=JLgK3Ubza84AX_YzQr6&_nc_ht=scontent.oculuscdn.com&oh=00_AfCfwTuw8ryZzWbmuvU36zCAtZ92alIp-x2rx8gLryvSZA&oe=6581A5A2",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386401_177788709597847_6996255649327742976_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=W7HUFkrrV1EAX8kXHoN&_nc_ht=scontent.oculuscdn.com&oh=00_AfCSTDm31S9F8KBDeLS3f0fdNwhDXsCdrEldXc2jDHdpXA&oe=6580FF64"
-        ],
+        "icon": "12448944_200335007230776_6983735866904543232_n.jpg",
+        "banner": "12504788_183423292300925_1119101188361420800_n.jpg",
+        "logo_portrait": "com.scenethere.postcards_logo_portrait.jpg",
+        "logo_landscape": "com.scenethere.postcards_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 6,
         "rating": 3.0,
         "is_available": true,

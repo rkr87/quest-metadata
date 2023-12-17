@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2018-08-26T00:00:00",
         "description": "Introducing Breaking Boundaries, an interactive virtual reality celebration of some of history’s most influential women scientists. Their legacies are not only of groundbreaking discoveries, but also of overcoming obstacles, following passions, and breaking the mold. \n\nDesigned and available exclusively for the Samsung Gear, Breaking Boundaries immerses players in the life and times of famous figures like Jane Goodall, Marie Curie, and Grace Hopper. Players will explore each scientist’s real-life work environments and will gain an intimate knowledge of their lives and achievements through fully voice-acted vignettes that are steeped in historical context, including narration from Jane Goodall herself!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Filament Games",
         "publisher": "Filament Games",
         "genres": [
@@ -18,10 +18,10 @@
             "Educational",
             "Narrative"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,22 +65,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://www.breakingboundariesvr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162706_111489149545476_1447561977713917952_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tflt1uRLMs0AX9_Hhjp&_nc_ht=scontent.oculuscdn.com&oh=00_AfBemsI4JrfveRXwsFUfW6f3zia7pgAGiNhwZdUmdC3Nsg&oe=6582CDE5",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162718_1899471346969149_5929016684986761216_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KCnh5-AjKxMAX_fKCq-&_nc_ht=scontent.oculuscdn.com&oh=00_AfDKdTiAJswxDOvyRFIJJn1cwznbmTAMBLzTm-UzfS_A5A&oe=65815516",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162727_510349245965501_2856743577914966016_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4_t56laOFogAX8iXyhV&_nc_ht=scontent.oculuscdn.com&oh=00_AfCb-0p-lmwyqEYL-A925oJ-yititZYh809ThHhnr7Aa-g&oe=6582D9F7",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162690_786566468190680_5741113454924660736_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tcGDfL6W3pgAX-plLPt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCFlhk2qOMWUudwdCjluCLrax55GwHiFAestB1sX9CAxA&oe=6582AE4A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974662_246093842705470_1800969418885300224_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=TRkI3LXY1tgAX_SSTge&_nc_ht=scontent.oculuscdn.com&oh=00_AfDbdPqOX8KcssDJV-7gAG5TUCCr3dojgPqzUT0cCIHNfw&oe=6581A670",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974542_499221850539023_4168243658866294784_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=_vLJ7d6nJJAAX84guv-&_nc_ht=scontent.oculuscdn.com&oh=00_AfCX1sFrkdId4WXD0_zIUU6LkXOAGkrGvRw9vUP0U66c0A&oe=6581D2FC",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974572_663238174033401_9195178368285278208_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=A3Y_dY9ugeYAX-6wNS1&_nc_ht=scontent.oculuscdn.com&oh=00_AfBp5sEDejABvUdpE-a2h9cWgjEve_bEJId1KYRNvwE3gw&oe=658255ED"
-        ],
+        "icon": "11162706_111489149545476_1447561977713917952_n.jpg",
+        "banner": "11162718_1899471346969149_5929016684986761216_n.jpg",
+        "logo_portrait": "com.filamentgames.breakingboundaries_logo_portrait.jpg",
+        "logo_landscape": "com.filamentgames.breakingboundaries_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 60,
         "rating": 4.383333333333334,
         "is_available": true,

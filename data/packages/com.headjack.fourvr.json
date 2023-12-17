@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2018-07-02T00:00:00",
         "description": "Home of Channel 4's immersive content",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Headjack",
         "publisher": "Channel 4 Television Corporation",
         "genres": [
@@ -18,11 +18,11 @@
             "Media Player",
             "Film"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,25 +65,17 @@
                 "Diverse Content: Discretion Advised"
             ],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://www.channel4.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12331252_236840160229561_6019037129336684544_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EKg5v7eZV4MAX9SKqpG&_nc_ht=scontent.oculuscdn.com&oh=00_AfCh5kniP43LXkrysbpP-QD-ZHavfTMlkjeeE4mtZ3_enw&oe=65816783",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12410441_2044841905588300_2454140640737361920_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tUngz6Zp6MAAX-Y4_Ql&_nc_ht=scontent.oculuscdn.com&oh=00_AfD_x0mmQ615QOt-ueG1Lb8CFB6F1uNglAc9aKxzZ7qU_w&oe=6582694B",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138836_486353608491808_8911895742918950912_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=dw9hoH6GswAAX9k5SK4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAmtvc21vn5Tz10qpdLUOiLJ6KxW5Bdh8Z-sSQ0wGUjdQ&oe=65818744",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12504808_193180424714065_4290281052888367104_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ioHTsPMchCwAX85bwn0&_nc_ht=scontent.oculuscdn.com&oh=00_AfA-6xspGABpTyGTOdMQjSLinxiZ06y_tNiNdRMWGNf5dg&oe=65815489",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331150_255084235073433_3774861578386538496_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qgny4Dy3OhAAX_mJPon&_nc_ht=scontent.oculuscdn.com&oh=00_AfBftrbOZjXHEi_Q_7beSPId19715Scr4Y3azb4ojY6Udg&oe=65829EEA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138836_347920169073732_5804667864120033280_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=E5ZKjvyYXAMAX9uyAmw&_nc_ht=scontent.oculuscdn.com&oh=00_AfAHhmXrDHwg3HntDutPIYhcHQfT42vYes78UVIVkmcwWw&oe=65817E22",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427650_1711714538910480_726465023441895424_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6_27GbZKfb8AX-hx-Sa&_nc_ht=scontent.oculuscdn.com&oh=00_AfCzZgQj4NfSKwUh5ZAlB1MVO9wp4B_11eLXg2k-6XeSQA&oe=65827846"
-        ],
-        "trailer": {
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/12504844_1991829044465437_6620644477071523840_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=b20b63&_nc_ohc=qSRjN-WOG5EAX83CQYW&_nc_ht=scontent.oculuscdn.com&oh=00_AfBPQtVakVmDlNYQwj_pIjpyHNZvrbJhEQ4Cg6n0MvDDiw&oe=65817353"
-        },
+        "icon": "12331252_236840160229561_6019037129336684544_n.jpg",
+        "banner": "12410441_2044841905588300_2454140640737361920_n.jpg",
+        "logo_portrait": "com.headjack.fourvr_logo_portrait.jpg",
+        "logo_landscape": "com.headjack.fourvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 44,
         "rating": 1.6590909090909092,
         "is_available": true,

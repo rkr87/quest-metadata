@@ -11,7 +11,7 @@
         "category": "APPS",
         "release_date": "2019-05-20T00:00:00",
         "description": "Meta Quest Browser is designed from ground up to provide the ultimate web browsing experience in VR. Multitask by viewing multiple sites side-by-side and using tabs.  Enjoy video in an immersive theater screen. including support for VR and 3D content.  And, experience the next generation of immersive web sites.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Meta Quest",
         "publisher": "Oculus",
         "genres": [
@@ -21,12 +21,12 @@
             "Utility",
             "Media Player"
         ],
-        "input_devices": [
+        "devices": [
             "Touch Controllers",
             "3DOF Controller",
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -74,7 +74,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1924
+                "votes": 1926
             },
             {
                 "rating": 2,
@@ -90,7 +90,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1561
+                "votes": 1560
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -103,29 +103,19 @@
                 "Digital Purchases",
                 "Unrestricted Internet"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://developer.oculus.com/documentation/oculus-browser/browser-intro/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38982568_501698054732260_5585142434704477723_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sKoHnv4VMoQAX94z-C5&_nc_ht=scontent.oculuscdn.com&oh=00_AfBbuR3Zj2JmghSDvtt23FXpzWf6vW1juGkHg6NLGXYl0w&oe=6582815A",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974837_1530155907476906_2303904859551602466_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=TbWzURYzjUsAX92tyyD&_nc_ht=scontent.oculuscdn.com&oh=00_AfABwCVBu4GfVjmusLLBB2rSEYNCKXhTtgqEqySQE0681w&oe=6582AE04",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974629_1114904836013153_4522144229623595274_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=wcFG4-bA1gIAX_N8rUG&_nc_ht=scontent.oculuscdn.com&oh=00_AfBUD-ijGNRArQDBF2XoQFYptWfJV1Mj5lk-vQjGpEFTcA&oe=65818412",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974711_1324456278065105_4658144714181645768_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=FcfCawwiD34AX_BviC1&_nc_ht=scontent.oculuscdn.com&oh=00_AfBavltoJO0Ps3U3cORR-eK5MTFq3_j7hO9n4Mz1aMPjzw&oe=65823E4C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031613_499853038203199_8566242146643403797_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=oJjvze-eCPgAX_3Y4m3&_nc_ht=scontent.oculuscdn.com&oh=00_AfDLUGPdlluomW0QcpGX1gdnX2h53zsKLUVdUo0OOoAR0Q&oe=65816393",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974676_999759393975987_9128842752991597109_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xHCCXanQZ-kAX-q3dTN&_nc_ht=scontent.oculuscdn.com&oh=00_AfByRPb4HviIAdfA7MuVrFzSXRSEfZx5eZlsiZgApqQ64Q&oe=65819407",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031574_281357544169346_4443487813552755958_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lC6Ah2X4yUwAX-E1ZGz&_nc_ht=scontent.oculuscdn.com&oh=00_AfAsgxEigJKIJFLX5c4u5AuVpDjKnXFXRtRPx8BJNEdCDg&oe=6580F3DE",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75240109_558965631483616_4005999933525065728_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4ZZu-HfVDoUAX--kRWu&_nc_ht=scontent.oculuscdn.com&oh=00_AfAKEMZxbYINmGLT_U7yArrbCfa7gb8kWY47UYH9ghLyBw&oe=65815841",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031376_817432165457329_1003432300150185433_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KSpm9XFoa3AAX_UURdJ&_nc_ht=scontent.oculuscdn.com&oh=00_AfCVkz6cEw7zYF4FeTske6V9Msj4sBjRAY8w6d57JfRnXg&oe=65813F54",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75443246_267626057721700_5127356868775116800_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=QF9HrWDSFScAX-dXeNX&_nc_ht=scontent.oculuscdn.com&oh=00_AfBtNSYmPj9tlE2ZzRXJ-lH5GrJJd72xaqsBeFDtfCxVvg&oe=65811CEA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75221330_887878075014065_2319251532039585792_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=cszPRsMhapgAX935M8j&_nc_ht=scontent.oculuscdn.com&oh=00_AfCauIt3jWCJddhlxQsYF3NyJk0S3J9enm8NCS9ifuJO9w&oe=658212CD",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75210396_2305784096394316_6123139044873338880_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=A4LZSO90wF8AX9mZMNC&_nc_ht=scontent.oculuscdn.com&oh=00_AfDWGJsWtqMW4pL7CCyelubLPL2Vez3uzGN4l25TovjeEw&oe=65812186"
-        ],
+        "icon": "38982568_501698054732260_5585142434704477723_n.jpg",
+        "banner": "38974837_1530155907476906_2303904859551602466_n.jpg",
+        "logo_portrait": "com.oculus.browser_logo_portrait.jpg",
+        "logo_landscape": "com.oculus.browser_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
-        "votes": 4419,
-        "rating": 2.860601946141661,
+        "sensor_req": false,
+        "votes": 4420,
+        "rating": 2.8592760180995476,
         "is_available": true,
         "is_free": true
     }

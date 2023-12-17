@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2019-10-31T00:00:00",
         "description": "We live in one of the most exciting times ever, thousands of exoplanets have been found. An extrasolar planet, or exoplanet, is a planet outside our Solar System. Even planets very similar to our own Earth have been confirmed which raises questions about the existence of extraterrestrial life. \n\nThe purpose of the application is to give the user a comprehensive and accurate overview of discovered exoplanets. View all discovered planets in the milky way. The application shows a 3D simulation of each solar system.\n\nData provided by PHL's Exoplanet Catalog of the Planetary Habitability Laboratory",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Göran Bäcklund",
         "publisher": "Exoplanethunter",
         "genres": [
@@ -18,10 +18,10 @@
             "Exploration",
             "Space/Universe"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://exoplanethunter.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974512_910090762703704_48741058401533952_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=3Z4RfFmQlJsAX-O5n_i&_nc_ht=scontent.oculuscdn.com&oh=00_AfAYKWHVS-2o37CjCBDMdgDScEaV7cMTAwlcpnCJGtwtWw&oe=65814B09",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974501_619268475271804_4647158965073870848_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=I8S-eowbMu0AX-vMcjb&_nc_ht=scontent.oculuscdn.com&oh=00_AfCGN-xeHJlWjlQ5ibdpD7koDwwPXIZQ-klKdg7lz1x02A&oe=6581034C",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031321_2462321620680308_4428832355645390848_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=f_XJwNDrixUAX8ZhBuV&_nc_ht=scontent.oculuscdn.com&oh=00_AfCs6HXNMV3oitjEPM7kjKAai7rXyDDm2vHzS4U8XrZ6Eg&oe=6582A1F0",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/57566688_694172471100828_2828536663666327552_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=8zuSVMFpFkwAX_vDgnL&_nc_ht=scontent.oculuscdn.com&oh=00_AfAhnh8YuRPnN4IB2uvMsL2GZcjdsOkiqXdapIuiPY82Eg&oe=658224A4",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39003239_2853428211352924_769156388478779392_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=21d2KSTIsCYAX-ReJLb&_nc_oc=AQkv1-ejF7VlBQnC30hfVud6y65dgJgmPsQ1c0sZSO4Z9us3chvKQAJcHNM1IJII2W8&_nc_ht=scontent.oculuscdn.com&oh=00_AfDHkOdUDn4CYKYvPqyaKQReMyD-uZhvARD4LiCZ84VPdg&oe=6580F2C5",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982719_692677891206964_4366490016285720576_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=7xMbtJaXRdoAX8ll574&_nc_ht=scontent.oculuscdn.com&oh=00_AfD-dgMSkpjPEa_73svhhJJi-ExW9_COI50EZIXf1qBBcA&oe=6582B36A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974718_2621018567985490_5810449912302665728_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=DIRbLy2sziUAX8_9XOG&_nc_ht=scontent.oculuscdn.com&oh=00_AfAhedm0fJCuwP0ZnT-IhzuYVndHU4zGvCZctpCwBdZG7A&oe=65820E0A"
-        ],
+        "icon": "38974512_910090762703704_48741058401533952_n.jpg",
+        "banner": "38974501_619268475271804_4647158965073870848_n.jpg",
+        "logo_portrait": "com.exoplanethunter.varoid_logo_portrait.jpg",
+        "logo_landscape": "com.exoplanethunter.varoid_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 11,
         "rating": 3.1818181818181817,
         "is_available": true,

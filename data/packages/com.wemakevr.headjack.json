@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2017-04-11T00:00:00",
         "description": "The WeMakeVR app features exceptional cinematic VR content, ranked among the best in the industry by Google’s YouTube team. The experiences cover a range of categories, including music, tourism, fashion and entertainment. Once you download the app, you can experience the Faroe Islands, stand on stage with rock stars or be on the set of a fashion shoot with a famous model and much more!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "WeMakeVR",
         "publisher": "WeMakeVR",
         "genres": [
@@ -20,10 +20,10 @@
             "Music video",
             "Narrative"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -73,22 +73,17 @@
                 "Diverse Content: Discretion Advised"
             ],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://www.wemakevr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162700_1799927420228017_7106319391788105728_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HtMRbEaaiBYAX-UP19P&_nc_ht=scontent.oculuscdn.com&oh=00_AfAIespnx-POacB4LmsFj1HeHO7XvANZHI0jP1jyNtN0XA&oe=65820D7A",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162685_1879469435628178_2646760457855041536_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Xyjt5DCWrvsAX-LVGWy&_nc_ht=scontent.oculuscdn.com&oh=00_AfCr3DMQtnuE8hkg481PHNwSIqQdC1RJmWoQ05Gq2-Gy-Q&oe=65827A29",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162716_772052226306301_6040217648887758848_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qBSUk_EZC3wAX8E8YN3&_nc_ht=scontent.oculuscdn.com&oh=00_AfC8asky3TYAJTfJX6MKdEZ1e0n_AuYKIkbhvuvstiHAVQ&oe=6582CFFC",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162680_1486807564674758_2778031649311424512_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=--6T5a295BEAX-665am&_nc_ht=scontent.oculuscdn.com&oh=00_AfDOSdRbHCWNjIucgT5A8QnjhSBXwsT-U-DRzn7Ddx99Pw&oe=658172B4",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162699_1097727007038022_1871491149798047744_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=VU0jg5pA0uEAX8-MPDl&_nc_ht=scontent.oculuscdn.com&oh=00_AfBVJC1s-J8v8XB3ORHVdltFVNCUznHWrC-6IUudTTnT6A&oe=65820BF8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162678_1907462726180388_7776431738477084672_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sTnefmY6j38AX_ZxjMi&_nc_ht=scontent.oculuscdn.com&oh=00_AfD8g2SdApTQfoPWLPrm1GWqpIkzIqgoi9j2FVl3etX3BA&oe=6582A54A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162704_1489385897779077_7020149793640939520_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Hv308e3PH6MAX-0px5a&_nc_ht=scontent.oculuscdn.com&oh=00_AfBXFenkxGE3suE4-EKtb6deMjTPUIq2kQ4wk-DkScyi5Q&oe=658193DB"
-        ],
+        "icon": "11162700_1799927420228017_7106319391788105728_n.jpg",
+        "banner": "11162685_1879469435628178_2646760457855041536_n.jpg",
+        "logo_portrait": "com.wemakevr.headjack_logo_portrait.jpg",
+        "logo_landscape": "com.wemakevr.headjack_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 41,
         "rating": 2.6097560975609757,
         "is_available": true,

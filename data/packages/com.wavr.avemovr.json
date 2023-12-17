@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2017-06-07T00:00:00",
         "description": "Its all about the high score, can you beat it? Follow the trail of the markers as they will give you more points. In the ambient atmosphere beware of hitting the buildings, if you do you race is over. The track will be more difficult the longer you stay alive thus the high score will be hard to beat every race. Don't let the ever shifting ambient and sometimes eerie skies fool you, they are there to distract you from...well....beating the record! Go for it!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Wavr Tech AB",
         "publisher": "WaVR",
         "genres": [
@@ -18,10 +18,10 @@
             "Casual",
             "Racing"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -62,25 +62,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.wavr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162675_418157361883324_1043863561882828800_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=IyG_6FSF7HgAX9h0btN&_nc_ht=scontent.oculuscdn.com&oh=00_AfCPBWJd3HP2bqNvUDxwnhoQqMJ2yv5-IEpamO3MOuK2bw&oe=658244D5",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162687_113034739260767_8586760890341130240_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=bSVISeh5U6gAX9piHdo&_nc_ht=scontent.oculuscdn.com&oh=00_AfCHoEijTQJSw1gWdZ6_366w2wLuQAJ6WcV6V9A_kQuM6w&oe=658167D3",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162681_264620444008731_1887407808970752000_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=W0GTBTUogskAX8jDEvd&_nc_ht=scontent.oculuscdn.com&oh=00_AfAyTYPWilc_Wgic0jPyvIY66QYNkED4zKk8868exSy-Aw&oe=6581A640",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162688_1970613556505436_8228193475460333568_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=LpcnrAPQXekAX-QymbZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfDW1UnZHwn2LiW1ryDprG-V-UW-z6uoT5kx8eGjY1xu7g&oe=65810A61",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162675_1146771548765266_4043121241375113216_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Sm6YBJ73SIwAX87hRbo&_nc_ht=scontent.oculuscdn.com&oh=00_AfCSS_Cxl9nE85GhtmH-xkhNGB2qOWhP58YEZUj-UMyqOQ&oe=65812DFD",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162707_1887806971466004_8448353829765775360_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=N_UHJlUtZ2EAX-4SAIz&_nc_ht=scontent.oculuscdn.com&oh=00_AfAV14xQkDNNuVRVtaXaX5z8l803yQ9k2Q93lr4LTVFM_w&oe=65820A45",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162683_1863047403935092_8930076687375269888_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=736igd-xrpgAX8SB7g5&_nc_ht=scontent.oculuscdn.com&oh=00_AfDma5uW87JV5fe8tiMx3UPlaBLgsJaIlgD8rNjpeUL4zw&oe=6582B16C"
-        ],
-        "trailer": {
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/11162680_1968059250080951_7720690218390519808_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=b20b63&_nc_ohc=NuHHJjqGLJ0AX9-Djxq&_nc_ht=scontent.oculuscdn.com&oh=00_AfD7MRRac6Apq-vpilhxwXY9qMjs_xSHE1GqyJIpHTLIgw&oe=658121D8"
-        },
+        "icon": "11162675_418157361883324_1043863561882828800_n.jpg",
+        "banner": "11162687_113034739260767_8586760890341130240_n.jpg",
+        "logo_portrait": "com.wavr.avemovr_logo_portrait.jpg",
+        "logo_landscape": "com.wavr.avemovr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 68,
         "rating": 3.4705882352941178,
         "is_available": true,

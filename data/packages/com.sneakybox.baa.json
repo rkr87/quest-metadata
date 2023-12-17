@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2018-04-11T00:00:00",
         "description": "Pre-flight Inspection is an aircraft exterior walk-around for pilots, cabin crew, ground handling crew and any aviation enthusiast. This is a fun way to learn all of the pre-flight responsibilities.\nBefore every flight, there are safety precautions that need to be taken, as it is the last time any irregularities that might have occurred should be spotted and fixed.\nYou will be walking around an A320 in Vilnius Airport and learning how to remove locking devices, secure external openings, ensure that the aircraft has all its necessary equipment, and plenty more.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "BAA Training",
         "publisher": "BAA Training",
         "genres": [
@@ -18,8 +18,8 @@
             "Simulation",
             "Exploration"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -62,22 +62,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://baatyperating.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162791_218440862054870_5729615505350721536_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HTGxHBPcSp4AX9f0Fb3&_nc_ht=scontent.oculuscdn.com&oh=00_AfBI2dFg-fHv4KVWuoaqBxfbdOXABXmEIlFGZgksJkiWAw&oe=6580FF3B",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12386356_171362483645773_1985267492053843968_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=d60XZUECYe8AX9kNHe1&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJnX9JjPq5R0QMEDhpGX7eH9TBUXCldEDI--3b_YjwgA&oe=65822A19",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386220_1608232999230791_1862895107762552832_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=R_6PncrEStgAX811hXU&_nc_ht=scontent.oculuscdn.com&oh=00_AfCSRkJjlkXMKHzuQGK0k_0eOc3ElpJ5qjzD0_vKFtdnNg&oe=6580F11C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12534016_494966367587165_3627302908871049216_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=WdlTVSUYkHwAX_3DsRq&_nc_ht=scontent.oculuscdn.com&oh=00_AfAPSoyrWldpidmHTQIPi6ooeH1MXfa-IBFdfJxIzAjhwg&oe=65821484",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427628_1463553623755082_6755530549227421696_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=p6-KiZvVWMQAX_eHiwY&_nc_ht=scontent.oculuscdn.com&oh=00_AfC0SUbrI1oI-oIZQWw1TgohrqqlSEky_0C-M6Q2DDjK-Q&oe=65816D92",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139031_150702405616100_3076860815043723264_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HVEhoJIKca4AX9f6-HV&_nc_ht=scontent.oculuscdn.com&oh=00_AfB6V_CEyeOvuIE70sOmSVVuudDEXeLc721qOTPkaep8Wg&oe=65817E4D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410280_217868345457936_6512398785677623296_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=CjmbTykXq_4AX_EJjYa&_nc_oc=AQlGf0KFwYcMv7wEkXb4NKAVazkdhYsK0wtlOr2UE7i59wUz-zzeeZ1LN0bPfgQeX7A&_nc_ht=scontent.oculuscdn.com&oh=00_AfBCrS_1WVvurw75RtbJis7Hd_r2n_ThM7M8KyVkppn5ZA&oe=6582CEB5"
-        ],
+        "icon": "11162791_218440862054870_5729615505350721536_n.jpg",
+        "banner": "12386356_171362483645773_1985267492053843968_n.jpg",
+        "logo_portrait": "com.sneakybox.baa_logo_portrait.jpg",
+        "logo_landscape": "com.sneakybox.baa_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 10,
         "rating": 3.4,
         "is_available": true,

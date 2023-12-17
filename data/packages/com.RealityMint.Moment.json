@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2020-05-14T00:00:00",
         "description": "Moment is designed to help you cultivate a sense of inner peace throughout your daily life. Within, you will find guided and unguided meditations, timed sessions, and beautiful nature scenes.\n\nAlthough this is the final version of Moment on the Oculus Go, this is not the end of our journey. We plan to return bigger and better and we hope to see you again on future devices!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Reality Mint LLC",
         "publisher": "Reality Mint LLC",
         "genres": [
@@ -18,10 +18,10 @@
             "Relaxation/Meditation",
             "Travel"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "elements": [
                 "In-App Purchases"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://www.realitymint.com/moment",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/86625134_266877917839004_8506721490425610240_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fMmzW_pJ1r4AX9C2asR&_nc_ht=scontent.oculuscdn.com&oh=00_AfCjnplL68mMSpDzY8oVvETyon_ASxPjC8VFUDhWrJufhQ&oe=65813281",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/75234367_245235796572057_3661120905834135552_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RUu-SVOTzOUAX8RPohg&_nc_ht=scontent.oculuscdn.com&oh=00_AfDQ6KnjcXprqgncsReGej91x7G7pxcX76SsYP_6G5d8sQ&oe=65818419",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75556280_206313057773959_5970342017847072104_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XJ1aZVvKRFAAX-FJdRT&_nc_ht=scontent.oculuscdn.com&oh=00_AfCHaGdz2UkdIgfwg5a2mdI7n5mjFhkI75nO0gf9A6XN_A&oe=6582D0D2",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75462207_764155784172183_6437400932214580413_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=POxP6WR1oTgAX9jqNmM&_nc_ht=scontent.oculuscdn.com&oh=00_AfAxJOKKh_0fn016YW2LdcCfDjmzYHbPLgjGvwN4b5AJtw&oe=65815A5C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75371508_3518002658290137_1062461296167699879_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=9lFCr5gsLk4AX_5KZNn&_nc_ht=scontent.oculuscdn.com&oh=00_AfAfM8CjS2MzWcgEzFT3sE2taZANQb8h6l42MHBCCMVdrg&oe=6581FB79",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75462957_741199993416031_9203953723869291321_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=LZRTLsqA_bQAX9yJ-rQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfCYiMyKZoWfRCMJNxmX8sEf3WzHIUeZS4ngsH7sCMB6Tw&oe=6580EA99",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974696_346666663019650_3133984822974715952_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=peXDYWDv1WsAX8bvkMg&_nc_ht=scontent.oculuscdn.com&oh=00_AfDuvWU1Lawf6M1Ki_2-s4-CSEj4DSUa32IfAj-Jl3j-FA&oe=65818B93"
-        ],
+        "icon": "86625134_266877917839004_8506721490425610240_n.jpg",
+        "banner": "75234367_245235796572057_3661120905834135552_n.jpg",
+        "logo_portrait": "com.realitymint.moment_logo_portrait.jpg",
+        "logo_landscape": "com.realitymint.moment_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 12,
         "rating": 4.083333333333333,
         "is_available": true,

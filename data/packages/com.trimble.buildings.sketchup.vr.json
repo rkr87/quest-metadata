@@ -9,7 +9,7 @@
         "appstore_type": "Application",
         "release_date": "2023-09-27T00:00:00",
         "description": "SketchUp is the most popular 3D modelling tool for architects, designers, engineers, and hobbyists. Now you can unlock the power of SketchUp in VR. Visualize the models you have created in SketchUp desktop, mobile, and web with your favorite Quest device. Stay connected with project stakeholders using Trimble's cloud collaboration tool, Trimble Connect. Immerse yourself and your customers in compelling immersive walkthroughs of your design, and make design decisions faster and most effectively than ever before. Cycle through the various design options, or simply hide and show objects leveraging the native Scenes, Tags, and Outliner features. Experience your 3D SketchUp models in immersive mode or enjoy our new Home Environment to explore your 3D model in tabletop mode.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Trimble Inc.",
         "publisher": "SketchUp",
         "genres": [
@@ -17,10 +17,10 @@
             "Business",
             "Creativity & Design"
         ],
-        "input_devices": [
+        "devices": [
             "Touch Controllers"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -66,26 +66,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://www.sketchup.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974682_619149046392699_1589401583909484109_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=kTnmMqi_mmIAX-S8LG7&_nc_ht=scontent.oculuscdn.com&oh=00_AfD53zC0r9MtLqgteK9NhvFKUW_PZml6r1bqYEK-0J4gZA&oe=65818269",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974819_174033385291898_8089865322047564583_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=gvUmX0FRE_gAX8Ws22-&_nc_ht=scontent.oculuscdn.com&oh=00_AfCjxfTpxEOK9btOmXA7fU10F5912U34w_nm2IiNB0hU4g&oe=65815F4B",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974860_343341951441282_1633391574937871714_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=-U2u29R2EiUAX9Y37v6&_nc_ht=scontent.oculuscdn.com&oh=00_AfA84yj_BZdSpGSh3WEvAGhGMrGX8ZZMc5lhmssXYQc-iw&oe=65820A78",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39035411_651074956977696_121627202414009474_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Zmmtg4tuSbkAX-OeKM1&_nc_ht=scontent.oculuscdn.com&oh=00_AfBiCatt3qL96JXvbOLrZ4OK_GpBBtU04YOEWfXWyLPMyg&oe=6582D9CD",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982591_1464589684334176_1242496580340990813_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=CpIheVrW5xsAX_44KwU&_nc_ht=scontent.oculuscdn.com&oh=00_AfDAVo1XF7IHyh7metQtdDJfPCWtX4dOtmO6OMYGRRiMdA&oe=658187F2",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974624_1224641538182322_4318240205615924757_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rK-zanfepL4AX_Gw4Kp&_nc_ht=scontent.oculuscdn.com&oh=00_AfC6MzJk32HR71wDcEFQ81Ge_rY6d_KSJG6TZU7ZP-HPxg&oe=6581EE4C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39035373_251743757792327_4472257562833342164_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Bj4BFuIsnGAAX9lHmUP&_nc_ht=scontent.oculuscdn.com&oh=00_AfALkIKn_Xa5yRXHXFksAdPl6exibqMcJZu-_7cCUeNoCA&oe=6582880C"
-        ],
-        "trailer": {
-            "thumbnail": "https://scontent.oculuscdn.com/v/t64.5771-25/38974661_674137674543784_6426752169893589102_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=aDDSBu0ZOCgAX9Wuo8Z&_nc_ht=scontent.oculuscdn.com&oh=00_AfAssg_o3uByO-v57ePW65b-kCLzj8Iu1xB9vPc5l4WOEw&oe=65826233",
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/38982601_693760812252141_8597332315548934451_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=b20b63&_nc_ohc=VlxUrULnqDYAX-9j15R&_nc_ht=scontent.oculuscdn.com&oh=00_AfDMMWvBibR4nmXSTwmI-sielIEEE9JlA566Ubj69YKJbw&oe=6581F21E"
-        },
+        "icon": "38974682_619149046392699_1589401583909484109_n.jpg",
+        "banner": "38974819_174033385291898_8089865322047564583_n.jpg",
+        "logo_portrait": "com.trimble.buildings.sketchup.vr_logo_portrait.jpg",
+        "logo_landscape": "com.trimble.buildings.sketchup.vr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 12,
         "rating": 3.3333333333333335,
         "is_available": true,

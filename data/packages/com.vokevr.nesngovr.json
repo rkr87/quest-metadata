@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2017-08-29T00:00:00",
         "description": "Now New Englanders can live-stream NESN’s Red Sox games in Virtual Reality with NESNgo VR.  Fully immerse yourself in the game and pick your favorite viewing angles, or let the VR cast pick for you. \n\nNote: You’ll need a valid account with your cable provider (or “MVPD”) in order to stream on NESNgo VR.  Currently, we support:\n-          Comcast Xfinity\n-          Metrocast\n-          Cox\n-          RCN\n-          Playstation Vue\n-          Atlantic Broadband\n-          DirecTV\n\nIf you watch NESN via one of the cable providers listed above, download NESNgo VR and start streaming.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "NESN",
         "publisher": "NESN",
         "genres": [
@@ -20,10 +20,10 @@
             "Music video",
             "Film"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://nesngo.nesn.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162708_521605428187693_52033236733263872_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BB5f5NsVZ1YAX-hbkvb&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJZ3lvvnQoiOtNoxrEYrBYcK7yqU1NiGOqCGBe0arnCg&oe=6581211F",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162708_156301961611646_1759596170721624064_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HswAQkCVkU0AX-LKW2J&_nc_ht=scontent.oculuscdn.com&oh=00_AfDOHku1j5ZgO0FBOUSyqYt-LFLn7zBCYzKdY36ageeAhA&oe=6581F103",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162699_1993103427640384_141037491820953600_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RED-M7ztZPwAX-TR2cP&_nc_oc=AQlUYTf3vHAqeGnvGfqBARxQQ-kYs4G_Jc0PcpJcMVvfBImJVyLmyvdhJaTxJU6Rabw&_nc_ht=scontent.oculuscdn.com&oh=00_AfC1e7zMsQD49X70WD6rBnVY4KdO8BslAXaACGYGptMKvQ&oe=65810A6F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162727_804226276405489_3901804044103974912_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XJ17UoclLhUAX9ORP73&_nc_ht=scontent.oculuscdn.com&oh=00_AfCqHwxS0J7l6_ow_J49oKzikPJmAyM8bde44Wx_WmidGw&oe=6581017F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162679_1951054578439617_392395221549187072_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RzbYFH1QdwwAX8Oa3Sa&_nc_ht=scontent.oculuscdn.com&oh=00_AfCuYZlsXgLiApjU7m7B2CiHYZp6Ql3G2JuzEbYDOWWAqw&oe=6580EC07",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162718_1858605184456045_7285447664362061824_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=207IePLS6PsAX_FIksS&_nc_ht=scontent.oculuscdn.com&oh=00_AfDg5OwkWjxMHf7iiWrlMbCdULut76gp-7t97XVI24foyg&oe=658174D0",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162741_1623769817695649_94762109719543808_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YM5jRf3IntoAX8rENJH&_nc_ht=scontent.oculuscdn.com&oh=00_AfB33e9WMEEZdtRgZF238Za6x7qET0vxLbK-OLkil6_dQQ&oe=658154CA"
-        ],
+        "icon": "11162708_521605428187693_52033236733263872_n.jpg",
+        "banner": "11162708_156301961611646_1759596170721624064_n.jpg",
+        "logo_portrait": "com.vokevr.nesngovr_logo_portrait.jpg",
+        "logo_landscape": "com.vokevr.nesngovr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 61,
         "rating": 2.819672131147541,
         "is_available": true,

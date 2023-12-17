@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2018-01-29T00:00:00",
         "description": "This educational VR experience provides a guided tour of the roman coliseum and an quick lesson about human digestion.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "EvoBooks",
         "publisher": "EvoBooks",
         "genres": [
@@ -18,12 +18,12 @@
             "Exploration",
             "Narrative"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad",
             "3DOF Controller",
             "Gamepad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -69,22 +69,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://evobooks.com.br/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12534016_1700592663340405_4526716751970304000_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YJRAjGpcN9sAX_H5ydD&_nc_ht=scontent.oculuscdn.com&oh=00_AfCnKyELXm5vDoszSqGvmG8sv6iyBxG1Im0QIg7yV2sH1A&oe=65811B31",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12410407_950508051770934_8665311693246562304_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=urrAvzefQaQAX-mCS-X&_nc_ht=scontent.oculuscdn.com&oh=00_AfAtgxRWbezjXLpkARp7QJrzqy_RYwvlU0_5WC4xwyGKxg&oe=6582B276",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410200_189427771803371_8882743343159705600_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=H1H7pR5jxSMAX8VSiXl&_nc_oc=AQl0c3gfhdkosTlZZXJ7H2V1c8l9L_zFF3o7-vDTgUmfaep-W0t_6jR88-tiPC1KMPI&_nc_ht=scontent.oculuscdn.com&oh=00_AfBLMyDslM-vpjFKcGVbYcc3U3i3bZ-tHw9chX-oO9RPQQ&oe=6581D45F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410407_302475830274314_2305078397660823552_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=e6VBa0lizusAX8XCNXv&_nc_ht=scontent.oculuscdn.com&oh=00_AfBfZggb-CFWI_W6Go2YRc3XV-HPxIwc3SbSq241h7b5yA&oe=65817F26",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139007_564278963911416_3520543456550191104_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=pb3-PsdKeKcAX_A4iiV&_nc_ht=scontent.oculuscdn.com&oh=00_AfCEU_gV4IL6bkZKyCUQEyPomLzbtyAhrnrTVOIa5efa1A&oe=6581B9D9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139007_767812580077698_7247552527959326720_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=mynviNcGJsgAX-ciWZ0&_nc_ht=scontent.oculuscdn.com&oh=00_AfDgLT2IWpNZrBT0WBGwkOtOuVtRQ--E7qcBZqEHDEc6OQ&oe=65814B5E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386220_1477730985687877_6177913166526152704_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1ztFogGVedEAX_HGvYZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfBhHkiGcTIC9B_hzfk5wqjWed4U8vxKWXLnCTHJGX_Fdw&oe=658211C5"
-        ],
+        "icon": "12534016_1700592663340405_4526716751970304000_n.jpg",
+        "banner": "12410407_950508051770934_8665311693246562304_n.jpg",
+        "logo_portrait": "com.evobooks.odin_logo_portrait.jpg",
+        "logo_landscape": "com.evobooks.odin_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 8,
         "rating": 3.375,
         "is_available": true,

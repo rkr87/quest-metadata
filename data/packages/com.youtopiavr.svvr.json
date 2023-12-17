@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2016-02-03T00:00:00",
         "description": "This app uses data from Google StreetView but is not an official Google product.\n\nSee the world with your friends in VR. Includes speech recognition for searching, voice-chat enabled group exploration, Wikipedia integration, multiple navigation modes and more.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "YoutopiaVR",
         "publisher": "VISO VR",
         "genres": [
@@ -19,11 +19,11 @@
             "Exploration",
             "Travel"
         ],
-        "input_devices": [
+        "devices": [
             "Gamepad",
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User",
             "Multiplayer"
         ],
@@ -66,22 +66,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://places.visovirtual.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12386360_669936423165516_1237134659_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=VGkDwspHr2wAX_4BeOj&_nc_ht=scontent.oculuscdn.com&oh=00_AfBiG29_O7qAqq5JqEGgnLy0GnOjchc4FTSdePvnkVbWpQ&oe=65824206",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12482250_1732582627010618_927668426_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=_LjcV6XXgicAX-frnqs&_nc_ht=scontent.oculuscdn.com&oh=00_AfAo8R_urkbbQ3VjSwG5A2TD-mS4kwL6-1ccb5O8x3u-IA&oe=65823CB9",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162745_954739241286606_13183483_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=W1G_Hz9HiBQAX9j3Qum&_nc_ht=scontent.oculuscdn.com&oh=00_AfBVgPsT5pWJQPoIjUrRI0Y_iAEYCyLhoibC4ByAdf8s3g&oe=65829728",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138838_1678032452413678_280786956_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Iq3yK_3zjDEAX-oRXC3&_nc_ht=scontent.oculuscdn.com&oh=00_AfCn88aM2mXqu4IDMyqVXVOAGbro_D59jj9UwJ_ZsfC7qg&oe=6581FD74",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138837_1735630616658238_22519387_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=raN6R2x_QhkAX9QjuVc&_nc_ht=scontent.oculuscdn.com&oh=00_AfA2XcwxDSb2ziKF9Hb_bywcd29eXvKeHXo4j_l9q6T1JA&oe=6581F14D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138838_802547849891465_293521885_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=CjojW2IpxfYAX8LWf03&_nc_ht=scontent.oculuscdn.com&oh=00_AfDp5lvq6kLJ_eSO5kY-B3Lo8liXEAwMtYRzap45GHnijA&oe=658197E2",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138837_1735630616658238_22519387_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=raN6R2x_QhkAX9QjuVc&_nc_ht=scontent.oculuscdn.com&oh=00_AfA2XcwxDSb2ziKF9Hb_bywcd29eXvKeHXo4j_l9q6T1JA&oe=6581F14D"
-        ],
+        "icon": "12386360_669936423165516_1237134659_n.jpg",
+        "banner": "12482250_1732582627010618_927668426_n.jpg",
+        "logo_portrait": "com.youtopiavr.svvr_logo_portrait.jpg",
+        "logo_landscape": "com.youtopiavr.svvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 9258,
         "rating": 3.9916828688701664,
         "is_available": true,

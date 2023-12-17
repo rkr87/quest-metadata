@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2017-11-29T00:00:00",
         "description": "Corpus VR Personal is a VR training tool that can help you train that painful head or neck with fun physical exercises. And it can help you to get a grip on your stress with specific exercises and relaxing environments.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "inMotion VR B.V.",
         "publisher": "inMotion VR B.V.",
         "genres": [
@@ -18,11 +18,11 @@
             "Relaxation/Meditation",
             "Medicine"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.inmotionvr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162676_180763065815766_5378207057923014656_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=QuyqV7VJ9ssAX8ssWNh&_nc_ht=scontent.oculuscdn.com&oh=00_AfBwOiVdQ7TYthgkWmy6KVxx0fH3WDi71y1i5aeaTpRi9A&oe=6582B672",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162703_231603374035951_2666639735459414016_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qxhuL088l2wAX_-NmYH&_nc_ht=scontent.oculuscdn.com&oh=00_AfDCxOXdLqNSIbtNh9YdfRLrS0aUxIgYwmWMcYn0Kg7zaQ&oe=6581F323",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974848_513729419449555_8265039652000366592_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=r317s_0ocC8AX-ij-mC&_nc_ht=scontent.oculuscdn.com&oh=00_AfDRkgrpjK0beCgaCroi1skq2_TyvlAlT_52kdNUq-3IAg&oe=6580F6F0",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974815_671841433304230_455418003987628032_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zZmReaWl7sQAX-IHS71&_nc_ht=scontent.oculuscdn.com&oh=00_AfABCMEtnKv3YOsUiGUwSVJxL3r5wL7pr7ez2GqpEWHoTQ&oe=65826B2F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974593_514121779014990_8459468234465214464_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=OJO9Ln43Wt0AX8wC3sv&_nc_ht=scontent.oculuscdn.com&oh=00_AfAa0nxlToFuBHdzGR2PJsW7yW9vzLAs6pmCPTpGwmy-bA&oe=6582BF4E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974521_272474166710520_5549480647061405696_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ILq6-ByJKikAX8jlm-m&_nc_ht=scontent.oculuscdn.com&oh=00_AfB8nDEnm_OOjYiainDNC-dD9092tHjSbqwZINNesNYXeg&oe=6582594D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974823_159168208355350_777389333979070464_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=nPAEwYJboYIAX9WaYUi&_nc_ht=scontent.oculuscdn.com&oh=00_AfA541c2kMtWJZoHn901yNhVjoaPUIAeNVEvii0LQ5ZF5g&oe=6581ED5D"
-        ],
+        "icon": "11162676_180763065815766_5378207057923014656_n.jpg",
+        "banner": "11162703_231603374035951_2666639735459414016_n.jpg",
+        "logo_portrait": "com.inmotionvr.corpusvr.personal.gearvr_logo_portrait.jpg",
+        "logo_landscape": "com.inmotionvr.corpusvr.personal.gearvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 7,
         "rating": 4.285714285714286,
         "is_available": true,

@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2017-01-24T00:00:00",
         "description": "WatchVR is a VR app where users have streaming access to all 360° video content. \nThe platform has been designed from the beginning to fully support 360° videos. WatchVr allows content creators to integrate their own content and channels trough an easy way.\nIt is compatible with all 360° Youtube content and it can be available on WatchVR.\nThe interface is very well organized trough channels for an easy navigation.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "VR Life S.L.",
         "publisher": "VR Life S.L.",
         "genres": [
@@ -18,10 +18,10 @@
             "Music",
             "Music video"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://letswatchvr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12386387_307553502971350_301965028729290752_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6E2Zy93Zzg8AX81qRsQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfBkQKbwHAqWy2ig3ATCfXK3hhe-58LsnQBgC-5GnumKrg&oe=65822F0E",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12602337_695505927265857_4103142979839983616_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=PLY2kGpsbAYAX95e-Wt&_nc_ht=scontent.oculuscdn.com&oh=00_AfDAHNphDcSgGyviSGbV07_bfrgb5-EVCVgtFEej5nxHKg&oe=6582A4AA",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12680302_145806805891963_7171257244309258240_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tWiuJ_v_7N0AX-7Q7me&_nc_ht=scontent.oculuscdn.com&oh=00_AfDmaTgfLoqlASzDx9tWA5XG8GKwazMHd_3DjOwQsu-35w&oe=65823916",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12602235_113848062429125_384260330152263680_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4PR93DUIDLEAX85rbV2&_nc_ht=scontent.oculuscdn.com&oh=00_AfCZXoEXHmHjJN4OKNuy0vDgNhSZ2juHkYuB9Ce_eQiL9A&oe=658112AA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12680518_1251372551567832_2533320463078129664_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6_2QipX5g9EAX_l4Jye&_nc_ht=scontent.oculuscdn.com&oh=00_AfC_PL6AhupoFz8cgymj3ADHU5Pf2Y2Dzn280npNsd8GJA&oe=6580FBC5",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12602295_1311431622242126_7660538286582005760_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=DiC03ui3bugAX9sfm0n&_nc_ht=scontent.oculuscdn.com&oh=00_AfCUwPCjrFA_YkO_G9Y_ta4Zr3205JAdk0qGpvUU64YLqA&oe=6582CEE7",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12504706_1141209309266930_7550358768983212032_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=aCeqx_2ViMkAX-7YW-5&_nc_ht=scontent.oculuscdn.com&oh=00_AfDr6g3Ldf6XKGRQkVwdFs_2Jv0UOEEdHHb4NlQyorOGzA&oe=6582DBAB"
-        ],
+        "icon": "12386387_307553502971350_301965028729290752_n.jpg",
+        "banner": "12602337_695505927265857_4103142979839983616_n.jpg",
+        "logo_portrait": "com.vrlife.watchvr_logo_portrait.jpg",
+        "logo_landscape": "com.vrlife.watchvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 177,
         "rating": 3.4237288135593222,
         "is_available": true,

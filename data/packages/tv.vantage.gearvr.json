@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2017-02-01T00:00:00",
         "description": "Discover the magic of virtual reality! Enjoy an experience unlike any other as you become immersed in live events all from the comfort of your own home. Don't watch, be there with vantage.tv!\n\nOur first concert release comes from Eric Church's incredible set as he headlined country music's premiere festival, Stagecoach, in April 2016. Closing down day one of the festival he performed hit after hit, keeping the crowd rocking all night long. \n\nAdditional content will roll out in the near future so follow us on social media or sign up for our newsletter at vantage.tv to stay updated!\n\nQuestions? Email us at support@vantage.tv",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "vantage.tv Inc.",
         "publisher": "vantage.tv, Inc",
         "genres": [
@@ -20,10 +20,10 @@
             "Film",
             "Sport"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -68,22 +68,17 @@
             "elements": [
                 "Digital Purchases"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://vantage.tv/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12533760_236643316781894_7586931399056162816_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=SuFByVwvtzEAX88fLN0&_nc_ht=scontent.oculuscdn.com&oh=00_AfDzwX76iTGVwHLScR0JkiNRKxVzxguKlPPsydCjymrnVA&oe=65817AA3",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162823_1753523768300462_3446994009916964864_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=QavoYaQE09oAX8aoy9V&_nc_ht=scontent.oculuscdn.com&oh=00_AfByVA1ERzFKBPbVTO07CtCjX1RjxYCsHCb1_RIbuW63UA&oe=6581E680",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139502_1295638253850369_4843050009672810496_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=t-NqCfG50TUAX-Wl_1D&_nc_ht=scontent.oculuscdn.com&oh=00_AfDN0jHR6XzWI4FBlQNuQ2sGq7CXxu_3Plt287VzLPTw0w&oe=65821688",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12727966_812798225486411_738507545_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fNdw9RRLaUkAX8_nCxL&_nc_ht=scontent.oculuscdn.com&oh=00_AfBCVjELJM9VZH5Ck5ZDtEpdYYP1QY1Q2majXGk35AEmnQ&oe=658225C1",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386392_187042695045902_2100765383_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=PxczuGi5CBkAX-2twNY&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJG7JRmOMaf9KoOhe7wzYJwrCJvPkSaQvotCmHqPBw7Q&oe=6582D074",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138831_1236804676353862_1061102770_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1Hp7cu189U8AX9sgY3o&_nc_ht=scontent.oculuscdn.com&oh=00_AfDnQPiKuLEajciGruWBy3_E3fwDGvKGgjBYHnX1PMHUWw&oe=6581073C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386183_1737734396482113_1602703431_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Itt_B1SfvK0AX_pcITE&_nc_ht=scontent.oculuscdn.com&oh=00_AfDWoDUY3E4EB47pShppZtYzD7SK_zHcPbzoh7jcIYRudQ&oe=6581EB66"
-        ],
+        "icon": "12533760_236643316781894_7586931399056162816_n.jpg",
+        "banner": "11162823_1753523768300462_3446994009916964864_n.jpg",
+        "logo_portrait": "tv.vantage.gearvr_logo_portrait.jpg",
+        "logo_landscape": "tv.vantage.gearvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 128,
         "rating": 3.546875,
         "is_available": true,

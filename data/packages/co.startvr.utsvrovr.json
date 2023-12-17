@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2019-01-08T00:00:00",
         "description": "Meet three international students and three international graduates of UTS in our latest VR content!\nThey'll tell you about some of the highlights of their time at UTS, including: \n- how they've networked with industry; \n- how UTS's support services helped them throughout their degree; \n- the practical, \"hands-on\" nature of their coursework;\n- their experiences of living in Sydney; and\n- the leadership and development opportunities they've had.\nExperience UTS now!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Start VR",
         "publisher": "Start VR",
         "genres": [
@@ -18,11 +18,11 @@
             "Educational",
             "360 Experience (Non-game)"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,22 +65,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://www.uts.edu.au/future-students/undergraduate/why-uts/experience-uts-vr",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974688_362282801193592_4503650153365766144_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=CdnxA2-B08wAX98l_oD&_nc_ht=scontent.oculuscdn.com&oh=00_AfCddpIPoBrf8IRjubxsltBu7HPr6zDjlhXdZtcrc-T9VQ&oe=6581A819",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38984448_1191284531024978_7093587150217674752_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=GReMo-afSPQAX9Toivz&_nc_ht=scontent.oculuscdn.com&oh=00_AfDRtJgQPY3xA5o-Teet1aPr5rOWtqAsuxD9ux0as9Ghdw&oe=65813D0B",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974630_292958204671647_9086160007979859968_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U6lJ1K7RtBMAX8Amspd&_nc_ht=scontent.oculuscdn.com&oh=00_AfAwWqoOwoJCEYHw701P3x-BIRWPSNgTePOwXSmLSWtGpw&oe=6581AFAE",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031382_510278532791565_8987881668664623104_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=70sidAJ9RdIAX9UphPq&_nc_ht=scontent.oculuscdn.com&oh=00_AfB0Ld-U18s6vHGyYuTqwCAYdNZhPx_9ymgPRnq275AARA&oe=65826FF8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974585_340610963407939_7804296777623928832_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=3Ef1MBva3ccAX9Au1HB&_nc_ht=scontent.oculuscdn.com&oh=00_AfB6EvI8uFjl08zB9kYhZK8qDMoWSfTj0b3lSOXny1logw&oe=6582D39F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974745_1970277116391665_3966515285560655872_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=t8wl5TvWQzcAX_Ne6uw&_nc_ht=scontent.oculuscdn.com&oh=00_AfBUIytetyBRFNiNBaBwJ7xfnyG18huPIPZiD1cJbaCiwA&oe=6581854C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974465_2182583155362340_1375864284755525632_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=OAyKrKbnNGgAX_JA7go&_nc_ht=scontent.oculuscdn.com&oh=00_AfCBya41ZQM-zvaHBAStZxh6oR4YNpnZNz8_FZ-vLoe40Q&oe=6580F5EB"
-        ],
+        "icon": "38974688_362282801193592_4503650153365766144_n.jpg",
+        "banner": "38984448_1191284531024978_7093587150217674752_n.jpg",
+        "logo_portrait": "co.startvr.utsvrovr_logo_portrait.jpg",
+        "logo_landscape": "co.startvr.utsvrovr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 5,
         "rating": 2.4,
         "is_available": true,

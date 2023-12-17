@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2016-03-29T00:00:00",
         "description": "You begin with no memory of who you are, or where you are. You seem to be in some sort of military bunker... but why?\n\nAs you descend through the levels of the bunker, you begin to work out what happened in this place and why you're here. In the end it becomes a race against time, with high stakes and difficult challenges.\n\nThis is an adventure-style game, all about exploration and problem-solving. There are no zombies, no \"jump scares\" and nothing is trying to kill you. It's just you against the bunker, as you try to find your way out.\nNote -- this is a small game, with an estimated play-through time of about half an hour.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Tiriam Immersive Media",
         "publisher": "Tiriam Immersive Media",
         "genres": [
@@ -18,10 +18,10 @@
             "Adventure",
             "Puzzle"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,22 +65,17 @@
                 "Violence"
             ],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.tiriam.com/#%21bunker14%2Fcs7r3",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138836_182901612094524_398616853_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1HrqOPCrtgUAX91V3HG&_nc_ht=scontent.oculuscdn.com&oh=00_AfAIGH78hSDYpLqQ-Z8WdncsVn-dE5LE-3d-AIVlJPTChw&oe=6581343B",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12138839_1675146986096086_1538764908_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ej4ovF0tdvsAX_ipRwv&_nc_oc=AQm2sPnaoV1gpEJGTC3_1-WgGpN5WLwXwVLVPGV_TsxgvZqoq15gDYIniqrHB4GYHj8&_nc_ht=scontent.oculuscdn.com&oh=00_AfBbAWifStSGLn4rgZJX1zBdCgiC50AJQ5RIaAAn6J5E1Q&oe=6582A302",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162745_1079647915389738_2090718339_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qExTmb8WEZAAX-nbdWs&_nc_ht=scontent.oculuscdn.com&oh=00_AfA-zRf7iWQsVL4XCh2274gDeNUN10nhPRhJHffXM1vNlw&oe=65828F8F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138834_559170714241146_1901670921_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lnkE4tQopegAX8Xrqyv&_nc_ht=scontent.oculuscdn.com&oh=00_AfDCC4TezgfXhkCxHGZ9L4SvtFt_wIjxVE5_SWHAn7GziQ&oe=6582DBFF",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138771_187304251640223_577999780_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ZOep008rKAcAX_0q4sA&_nc_ht=scontent.oculuscdn.com&oh=00_AfC5UZtm6vGYB92_mZ_BKedJu1OygjLrxgtwxrEaXbwSzQ&oe=6582B61C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138838_1314483055234976_1983914333_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ay2Ag0k7mowAX_lcXfo&_nc_ht=scontent.oculuscdn.com&oh=00_AfA0PXMgKHlxVSGuz6XZowiTHJl2Hy3BxPjrbajhNfs2aQ&oe=65818816",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162739_1665992893655746_1594083282_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=u5WDG5hXBc4AX-ErNLz&_nc_ht=scontent.oculuscdn.com&oh=00_AfD5ISzfdNGF8hgkP4_MXx6QjgVLsnQVbGp6vYkbq6Ni6g&oe=65814F51"
-        ],
+        "icon": "12138836_182901612094524_398616853_n.jpg",
+        "banner": "12138839_1675146986096086_1538764908_n.jpg",
+        "logo_portrait": "com.bernieroehl.bunker_logo_portrait.jpg",
+        "logo_landscape": "com.bernieroehl.bunker_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 152,
         "rating": 2.388157894736842,
         "is_available": true,

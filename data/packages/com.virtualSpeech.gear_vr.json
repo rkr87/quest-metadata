@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2016-06-07T00:00:00",
         "description": "Improve your soft skills through practice in realistic VR scenarios with VirtualSpeech. Training rooms include public speaking, sales pitches, networking, business storytelling, media training and more.\n\nFeatures\n★ Upload your presentation slides and notes\n★ Realistic virtual environments and avatars\n★ Sound and visual distractions\n★ Save speeches to review later\n★ Speech analysis with real time feedback on your delivery\n★ Eye contact rating\n★ Upload custom questions\n\nFor our detailed app guide, visit: https://virtualspeech.com/app-guide",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "VirtualSpeech",
         "publisher": "VirtualSpeech",
         "genres": [
@@ -18,11 +18,11 @@
             "Productivity",
             "Simulation"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -70,22 +70,17 @@
             "elements": [
                 "Digital Purchases"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://virtualspeech.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12533893_222995785137563_4761102454571925504_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=OgF8V5VQQvYAX-Qc5aJ&_nc_ht=scontent.oculuscdn.com&oh=00_AfDV7_5OShpMfgb8IHHrBiqaCEL4xGdYnuN3-3dYd8Tgbw&oe=65826168",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12139007_452671588496346_3967048342541697024_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sYU_Ilj6rFEAX_HxuEo&_nc_ht=scontent.oculuscdn.com&oh=00_AfApESY5GokkrkaialwqUTUpwpZ8kMkYMYcD3QLFYz8Jjg&oe=65818277",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162698_147008555910944_3846742821067292672_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=m0sVEkTh2PgAX8z7iWZ&_nc_ht=scontent.oculuscdn.com&oh=00_AfC8acIp-5eVqBlz38ThgL7r30Y2SSG4cOjptIUJy107ew&oe=6582C167",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974740_738949969926579_6325913569133068288_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=LuQL2H5pwX4AX8kxwsR&_nc_ht=scontent.oculuscdn.com&oh=00_AfBKscH_1cr_hww3EeonFDV3n0j-1SLa3RvD4LaWiXnBWw&oe=6581DB8C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75422380_570104157110588_2767561038734819328_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=JZHRYdRX4zIAX-hSa0g&_nc_ht=scontent.oculuscdn.com&oh=00_AfDs0Pof5h_YVfQjvE8ED_8LQTZihf4A2k1Tm8yeTOq_Sw&oe=65822DE2",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162694_127042724626153_7220989336349573120_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=s1fjsd1KRhoAX8TC_v5&_nc_ht=scontent.oculuscdn.com&oh=00_AfBlihhstMUQ_d3vDJ38a2n6Mqho5Rcy0XkAbgQDptJ7-g&oe=658235EA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031354_3287660327973753_8469235608571609088_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=l63oF6_Fpj4AX-oLxvV&_nc_ht=scontent.oculuscdn.com&oh=00_AfDMkNm-ehVsgCAstVJGUYjshSLgpwGOQXlL9cm1V3M72g&oe=6582D69E"
-        ],
+        "icon": "12533893_222995785137563_4761102454571925504_n.jpg",
+        "banner": "12139007_452671588496346_3967048342541697024_n.jpg",
+        "logo_portrait": "com.virtualspeech.gear_vr_logo_portrait.jpg",
+        "logo_landscape": "com.virtualspeech.gear_vr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 415,
         "rating": 3.797590361445783,
         "is_available": true,

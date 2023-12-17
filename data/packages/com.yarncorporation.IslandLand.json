@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2018-02-20T00:00:00",
         "description": "Visit Maine in this experimental VR experience. Island Land is an imaginary rendered island that serves as the entry point for a collection of linked 360 videos captured along the coast of Maine. Fly in a LifeFlight helicopter, see inside an artist's studio, hop in a kayak, or cruise on a lobster boat. And, for those not opposed to being surrounded by giant crustaceans, go inside a trap and try the lobster's-eye-view.\n\nIt was produced by The Yarn Corporation in partnership with the renowned non-profit organization, Island Institute, and the creative technology agency, Big Room Studios.\n\nThe app is currently in beta. Over time, Island Land will evolve to encompass more of the cycles of island life: day to night, high tide to low, new moon to full, summer to winter, perhaps even birth to death.\n\nAs we collect more experiences we'll add them to Island Land, bringing you with us to see more of the Maine islands and beyond.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "The Yarn Corporation",
         "publisher": "The Yarn Corporation",
         "genres": [
@@ -18,8 +18,8 @@
             "Exploration",
             "360 Experience (Non-game)"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -60,22 +60,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://islandlandvr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12410454_1287705328010757_327498635073814528_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=MTwqQEI6zyIAX-X8S0B&_nc_ht=scontent.oculuscdn.com&oh=00_AfDdahr_i2vjpTUIjgLP8F8EP-T2TmeGO-AgbKVYnPd-0g&oe=65828183",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12138845_1301319283261503_8142510278064472064_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EO54eOBAEyQAX88PwNU&_nc_ht=scontent.oculuscdn.com&oh=00_AfBSn2NptUwjTalZ4CrOes08LjHquepP6s4d7ndHCi4X9A&oe=65819A22",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386444_1230562107036356_1764903960025497600_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=uug_AMj9Iu0AX8FijK_&_nc_ht=scontent.oculuscdn.com&oh=00_AfDeXcKY4GDr6FuMvmzfUbL4J2t83oSDj59EhP3VVu0BJA&oe=65814FE9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138842_1369123106465287_8309656012789383168_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=AC_t2xlpnNQAX8gXC9C&_nc_ht=scontent.oculuscdn.com&oh=00_AfDnocoLZEoqUbvUeRTBbo64DtHWz_SLq-7DW40MrqBsEQ&oe=6581005B",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12727993_1780810178846041_475197054235181056_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=I_-Wx6WUmAQAX9RoB4N&_nc_ht=scontent.oculuscdn.com&oh=00_AfCgRcUoiKgiIhlo5Ho3mxGzMrzrbzUuvoCNcCnEwDpUbg&oe=658108B9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386444_371955813157707_4314640342159720448_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tdpCJbONeUMAX-b5icG&_nc_ht=scontent.oculuscdn.com&oh=00_AfBlH2uAslM1OyNOOTzK-Sn_pnwL2fmBsgmNdtb7_jzwJw&oe=65814D79",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386302_1779842752268849_36269164863684608_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0QjtzTaCj1QAX-VofC7&_nc_ht=scontent.oculuscdn.com&oh=00_AfD3WxkdNpgtVpWw6MWXa-84VNPKRro2cNCHmE1joG6Lmw&oe=6580FEF4"
-        ],
+        "icon": "12410454_1287705328010757_327498635073814528_n.jpg",
+        "banner": "12138845_1301319283261503_8142510278064472064_n.jpg",
+        "logo_portrait": "com.yarncorporation.islandland_logo_portrait.jpg",
+        "logo_landscape": "com.yarncorporation.islandland_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 40,
         "rating": 2.825,
         "is_available": true,

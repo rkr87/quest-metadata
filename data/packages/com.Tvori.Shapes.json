@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2021-11-11T00:00:00",
         "description": "ShapesXR is a design and collaboration platform for remote teams.\n\"Best Collaboration Tool\" Auggie Award, Augmented World Expo 2021.\n\n“ShapesXR Revolutionizes XR Development” - Forbes.\n\nIn ShapesXR anybody can start creating in 3D without prior experience within minutes. You can design and prototype your immersive app, invite others to co-create in real-time, or present your ideas using ShapesXR storyboard feature. You can also share your creation with anybody without a VR headset via Web, the Unity plugin or just a picture for your 2D deck.\n\nShapesXR has powerful MR creation capabilities that especially shine on Meta Quest Pro. It supports avatars with eye and mouth tracking for an enhanced social presence, full-color passthrough for higher fidelity UI and UX design in MR, and Stylus controllers for commenting and quick sketching.\n\nShapesXR allows product owners, business leaders, and designers to finally start thinking and creating spatially together for the future of VR, AR and MR. ",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Shapes Corp.",
         "publisher": "Shapes Corp.",
         "genres": [
@@ -18,10 +18,10 @@
             "Utilities",
             "Creativity & Design"
         ],
-        "input_devices": [
+        "devices": [
             "Touch Controllers"
         ],
-        "games_modes": [
+        "modes": [
             "Multiplayer",
             "Single User",
             "Co-op"
@@ -76,26 +76,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://www.shapesxr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/39031591_845055287101709_8583521194368736046_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tTrG661l_8MAX_ws1Pg&_nc_ht=scontent.oculuscdn.com&oh=00_AfC8PzEVUN5gBl_L6dsdf-l8j4fFrkyRMdLCua2wMsWw9g&oe=65816AA6",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38982553_2131680650372840_484185868400645625_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zdmzuJiz1dQAX8TNHVI&_nc_oc=AQkcXE3ZGqXPAMlB8i5LPSg0krLD1791dwCbopGJAh_pP7wLVqtGrj2XVbyzllbil8s&_nc_ht=scontent.oculuscdn.com&oh=00_AfB1cs8o5XURxRlqXQqcsLynYW5ZtKAWK0EntJmuBzUSrw&oe=6582295A",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75540507_1210224239522475_2306576586940417468_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=e5GW6AILPK0AX_3L0ti&_nc_ht=scontent.oculuscdn.com&oh=00_AfBWRnvF5tNEXmnYFerr2hgTyXrxjABKKgfnerN3LOX51A&oe=65818413",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031462_6791853687562547_6168340652919781449_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5NkgiuM1XMQAX-R5XWO&_nc_ht=scontent.oculuscdn.com&oh=00_AfAPNW8I5rKUaQVkZbCSzpsD0yQTxexmy6txUc4hGmS4mg&oe=65820351",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75334053_984891649345887_654250903713838882_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HeRIg7EsF0gAX_3Xkw7&_nc_ht=scontent.oculuscdn.com&oh=00_AfCYFS5Nbv9UyxNr9OC52b_Iiun8bU4xRxJbiFtG4Wqqrg&oe=658273E6",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75236135_720471026765237_651914016561455377_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=wVIgA9YuhSEAX_t8ZF-&_nc_ht=scontent.oculuscdn.com&oh=00_AfAP385TnU3KlPwTuam16zCxvHGsICRX7nFHnjrrHYMQng&oe=6580F8D1",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75210893_298876763007636_2324389239741742415_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Oh6ME17dViYAX_bY61V&_nc_ht=scontent.oculuscdn.com&oh=00_AfB4OyQjUu22qTMEQFUu1aXlaa3JdwPL72e7ygMJltTXUQ&oe=65814EF3"
-        ],
-        "trailer": {
-            "thumbnail": "https://scontent.oculuscdn.com/v/t64.5771-25/86625133_1046077330130863_2716158367108079747_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=PDmSfbjsVh4AX_NfqZP&_nc_ht=scontent.oculuscdn.com&oh=00_AfA_vRA4gLvaFtzxo7A7J8FGf7ywb_WeEUA0ok60hqYFHQ&oe=658198AC",
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/39001703_7321125291250403_7834092416415279258_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=b20b63&_nc_ohc=yH2t2TDvG9oAX9eZhU9&_nc_ht=scontent.oculuscdn.com&oh=00_AfC9DQhaa3u6tgVbQ5BjuiubBTok3BHq6rcrsFP1eSQlKA&oe=65826B2C"
-        },
+        "icon": "39031591_845055287101709_8583521194368736046_n.jpg",
+        "banner": "38982553_2131680650372840_484185868400645625_n.jpg",
+        "logo_portrait": "com.tvori.shapes_logo_portrait.jpg",
+        "logo_landscape": "com.tvori.shapes_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 261,
         "rating": 4.218390804597701,
         "is_available": true,

@@ -10,7 +10,7 @@
         "category": "EARLY_ACCESS",
         "release_date": "2018-02-07T00:00:00",
         "description": "Rolloff slideshow of 360-stereo panoramas. Just load the into folder Downloads/StereoPanoramas/ in next format for each panorama:\n01_Pano_10sec.jpg (means 10 seconds to show)\n01_Pano_logo.jpg (means logo, shown down the pano)",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Harris Kalinka",
         "publisher": "Harris Kalinka",
         "genres": [
@@ -18,8 +18,8 @@
             "Exploration",
             "Narrative"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -60,22 +60,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://harriskalinka.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162702_1743071169331098_7345336804301602816_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UXjDfgWiOQgAX--dJUl&_nc_ht=scontent.oculuscdn.com&oh=00_AfC8_JixAwjOXnptri2XbTgGD5kyVcPgnkoenSequy9vvA&oe=6581A13B",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12386340_138853146817340_5831893099168661504_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zgS5LvW7zooAX8p2xwr&_nc_ht=scontent.oculuscdn.com&oh=00_AfDnujXxw0DU7hjYLWxZxYSY8z_OrsSc1bUz4NdZRyGTjg&oe=6582861F",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410493_174597166462050_1790815914334093312_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=2xSrTS-61HoAX_S8FcI&_nc_ht=scontent.oculuscdn.com&oh=00_AfBOroC-sKzZRihVA34RUPyP-JW4S6w8k01t8ca77WXXeA&oe=6581E25F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162769_383966262048781_1248174374469500928_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1gLklcMORX0AX_YXJtP&_nc_ht=scontent.oculuscdn.com&oh=00_AfCVbBT4M8j-mWCXVycAPi8YcGIjgoulpoW04rdlhUzm2Q&oe=658288E8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410355_326881427790808_228285762414575616_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=JVJscQhu1O0AX_x2STv&_nc_ht=scontent.oculuscdn.com&oh=00_AfB35Bwf_zr-_kf-nP55i-152l-pRPKkv795e014zX5OhA&oe=6581CD4C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427574_824941194379514_7689113893708234752_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zjejUyu2f58AX8gnndi&_nc_ht=scontent.oculuscdn.com&oh=00_AfDg9J73IMEjZ8_MNRi1ke5E09SksbCo7VTSRUH_wW4R1w&oe=6581FDCE",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386286_145016142817465_825320653606354944_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UIDXZsxjVMIAX99UkEQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfCyljMhWEvQ1GJEIa_LwyQ9xOesbkLs_rKriHgtLN3oDg&oe=65829437"
-        ],
+        "icon": "11162702_1743071169331098_7345336804301602816_n.jpg",
+        "banner": "12386340_138853146817340_5831893099168661504_n.jpg",
+        "logo_portrait": "com.lpb.samsonpanoviewer_logo_portrait.jpg",
+        "logo_landscape": "com.lpb.samsonpanoviewer_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 9,
         "rating": 1.6666666666666667,
         "is_available": true,

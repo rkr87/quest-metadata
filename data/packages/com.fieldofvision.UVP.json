@@ -10,16 +10,16 @@
         "category": "APPS",
         "release_date": "2018-10-17T00:00:00",
         "description": "Supports 360, 3D 360 (TB), non-360 videos and spatial audio.\n\nFully customisable, perfect to create your own white label app for events and presentations.\n\nOnce the app is installed launch it once, then restart. This will generate the correct folder structure under \"Android/data/com.fieldofvision.UVP/files/\" with folders \"Sounds\", \"Videos\" and \"Images\".\n\nFeatures:\n\n**Hidden settings menu accessible by pulling trigger whilst pointing at the logo, includes the following:\n*Custom menu audio\n*Custom menu background\n*Custom logo in menu\n*Customise what happens when user removes HMD (pause video or restart video)\n*Video controls (disable/enable)\n*Back button to return to menu (disable/enable)\n*Loop video (disable/enable)\n*Gaze selection (disable/enable)\n*Set app into single video mode (skips menu and video automatically plays upon app launch)",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Field Of Vision",
         "publisher": "Field Of Vision",
         "genres": [
             "Utility"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -60,22 +60,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.fieldof.vision/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/39035360_223027906616889_7105354965311624652_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=AkrMoZ6RVuEAX90O4gG&_nc_ht=scontent.oculuscdn.com&oh=00_AfDrRpAuO9QKVrwt8hS0pp3KzfPnMbY3w-rwqvMQeGoG3A&oe=6582D134",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39031611_449408300154958_2136764939244821760_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XeXiWn6N9zYAX-QDpLT&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJayOI1a69EP46TMjSSyqboztKIKcSDuWe70XKSnIZzA&oe=6582B489",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982712_263039394527780_7945145501337255936_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=eQhwRDV4kJQAX-KFWUl&_nc_oc=AQnw0sQGjjoTIeYkcA9SVM5r2_4ANl91YLhCTCdnrPe9ElXc9bcUZPmTty7V6uMoxew&_nc_ht=scontent.oculuscdn.com&oh=00_AfB5T2iAqoGnFToChD7t0vMRCzLBowEuMuIJhZeUB2rF0A&oe=65811581",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982539_196145365035348_4165836776373485568_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qd1qjL6DeIQAX9Kqibp&_nc_ht=scontent.oculuscdn.com&oh=00_AfBFSQRb5T8KWR5S0rXVsjXnU6SGkVrPrNiZopNwYQpDOA&oe=65814C24",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974749_1342247102575694_7160221321547218944_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=C4eNOCpFt1sAX-gP3Wy&_nc_ht=scontent.oculuscdn.com&oh=00_AfC7wx2MNghZTiwUvh2c6xWnGVpI6qHA0lyryg6sdQurPg&oe=6581623F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982667_278697396261270_7373501224143814656_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Aze1Z7isKOEAX9_bGnj&_nc_ht=scontent.oculuscdn.com&oh=00_AfCpxKuYjICPZ0NbcQwYeFs3ROpwmxqpVuCWFNmjAA1L_w&oe=6582C5E3",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974919_321802338378976_5276774335711805440_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=SK8cOFVKEhMAX8mEoT1&_nc_ht=scontent.oculuscdn.com&oh=00_AfCE0uLEpWl0Z5ZnDFhO6jl5PLvcVM5EecHsHnefL5-hqQ&oe=6581B4D7"
-        ],
+        "icon": "39035360_223027906616889_7105354965311624652_n.jpg",
+        "banner": "39031611_449408300154958_2136764939244821760_n.jpg",
+        "logo_portrait": "com.fieldofvision.uvp_logo_portrait.jpg",
+        "logo_landscape": "com.fieldofvision.uvp_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 25,
         "rating": 2.84,
         "is_available": true,

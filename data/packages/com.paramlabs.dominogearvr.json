@@ -10,17 +10,17 @@
         "category": "GAMES",
         "release_date": "2017-04-25T00:00:00",
         "description": "Take a trip down memory lane or indulge in your favorite pastime as you play with dominoes on your phone. \nChoose to enter “Free Mode” and express your creativity or enter the “Guided Mode” and have fun building some interesting formations – all within the convenience of your phone.\nWith Domino VR you don’t have to worry about your creations taking up space inside your house or office, you can simply save unfinished creations and work on them later to create awesome and complex shapes. \nRelive the experience of watching the dominoes fall without having to create the whole line again, and in case you get stuck, refer to our helpful tutorial to guide you along the way.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Param Labs",
         "publisher": "ParamLabs Private Limited",
         "genres": [
             "Arcade",
             "Puzzle"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -62,22 +62,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.paramlabs.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162814_842929715861423_2540803696267100160_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=t4GBUXPdNMQAX9jWoL9&_nc_ht=scontent.oculuscdn.com&oh=00_AfD3MohB-vcJE3DxBil3fbqAL3hJUqYrAQSxV7lAql09Bw&oe=6581F017",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162810_1499401813417606_4193214628790009856_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=wE4rq3tlqsMAX9Un6iX&_nc_ht=scontent.oculuscdn.com&oh=00_AfAM9NbCLvG_fEg1GoGkJOQntq5zR4nkmbpqtfxF0leT2g&oe=6582B35E",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12602290_190215941492946_8305191235371401216_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5A2kIP1FhFMAX-aExY3&_nc_ht=scontent.oculuscdn.com&oh=00_AfCR4TGv3tsjmZwZ3-Q1qFTDq6Gdoi7Kt8pNI7NADpiwLw&oe=6581F1EA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162678_806134439544087_4884130547225329664_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xis9a0fUzwoAX8NWpDH&_nc_ht=scontent.oculuscdn.com&oh=00_AfDGyLtqEo7DxYYLohykawQ5xX2j2lvidng2HdYvHbG2kQ&oe=65816FE8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162788_1657386201223280_2120778112584122368_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RCgNi4UQXOYAX_biFzH&_nc_ht=scontent.oculuscdn.com&oh=00_AfCq5w35lB0qqw3vrRH2FhhxDco2aKk6tZluJLhkest81w&oe=6581789B",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12727760_1383978451661102_1523836817319657472_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sy4YwWCp0NkAX8L1PQc&_nc_ht=scontent.oculuscdn.com&oh=00_AfD3aSRi7O5JwQ6wQ_LP7mc7c18cWIX5NOxlkguqPrOmwg&oe=658270D8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162801_381158785611186_125820083388809216_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=t6JIxX0vTK8AX_XDOYs&_nc_ht=scontent.oculuscdn.com&oh=00_AfBP5OA7knAtbLgaljw47s8gTsrUbaPuUmexEh2a465T6w&oe=65811FEE"
-        ],
+        "icon": "11162814_842929715861423_2540803696267100160_n.jpg",
+        "banner": "11162810_1499401813417606_4193214628790009856_n.jpg",
+        "logo_portrait": "com.paramlabs.dominogearvr_logo_portrait.jpg",
+        "logo_landscape": "com.paramlabs.dominogearvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 49,
         "rating": 3.061224489795918,
         "is_available": true,

@@ -11,7 +11,7 @@
         "category": "APPS",
         "release_date": "2020-01-09T00:00:00",
         "description": "Pigasus is a feature rich universal media player that supports networked streaming of media from UPNP/DLNA media servers and Samba shares as well as local playback from your device's internal storage.\n\nAccess, setup and enjoy your media the way you want it. Pigasus supports playback of 2D/3D/Surround 360 and 180 videos and images, audio streaming playback and a host of other features optimized for a comfortable VR viewing experience.\n\nSome of Pigasus' features include:\n- Playback of all media types (i.e. video, audio and images)\n- Supports streaming of network shared media (UPNP/DLNA media servers and Samba shares)\n- Playback of 2D, 3D, surround 180 and 360 degree videos and images\n- Adjustable re-orientation and zooming of 180/360 surround content\n- Subtitle and audio track support for videos\n\nPlease see the Pigasus FAQ for additional feature support, information and help:\n\nhttps://hanginghatstudios.com/pigasus-faq",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Hanging Hat Studios",
         "publisher": "Hanging Hat Studios",
         "genres": [
@@ -21,13 +21,13 @@
             "Utility",
             "Media Player"
         ],
-        "input_devices": [
+        "devices": [
             "Gamepad",
             "Touch Controllers",
             "Touchpad",
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -80,31 +80,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://hanginghatstudios.com/pigasus",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974599_2271142536342261_7547260534194700288_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=mT7Z2WeGYqMAX8_933I&_nc_oc=AQnen1vt9R9zWq53t8sRM1LEuxgSLnmAzoqJIxOkmYhIQZzPv_YC9H5QR_CCjyuK2d8&_nc_ht=scontent.oculuscdn.com&oh=00_AfDyBMrkwaRmOjL4W047ESZZAkWNOcAXORFd3ZItMRR_0Q&oe=658104BA",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39003263_1132453520286527_2737658020426153984_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=jQbshuLCw-EAX-HdNQK&_nc_ht=scontent.oculuscdn.com&oh=00_AfBuZC2J9195wkzlMmq5kvWTO-9pvDlnrvAxQLraXQWZOw&oe=6581F224",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974472_550395733313350_5987601395182299515_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XTf1sE0o2AYAX_0g8IT&_nc_ht=scontent.oculuscdn.com&oh=00_AfBOw44yTaptLvGU-DTAgN8VBze2_yhMSSkyOPLY3zqUig&oe=65817C37",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75334060_1207405616123279_4063316830435934208_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UJoYi2skCnIAX-MAQxT&_nc_ht=scontent.oculuscdn.com&oh=00_AfBXhAbof9BMnRHUspk_y9Bt6WMPDT58ZmT6fxNT4_Kk5g&oe=65813DAB",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974738_398743948845351_4383959746428556655_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=pQvUMyK9C14AX9F0jOf&_nc_ht=scontent.oculuscdn.com&oh=00_AfApscd0KGCTsU-ez1gO6-_6Em0oXaC9-Y07pQUOWgzG0Q&oe=65811058",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982699_1409243886204916_6502509614503387134_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=zPzaYpzgNzEAX8dakxO&_nc_ht=scontent.oculuscdn.com&oh=00_AfB-3gXJZpdOE_oa-Q6jqiOxGTA_Xiq3_28dXhK5HQARxg&oe=6582CA09",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974837_1242313623175253_5566861992966233754_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xQCcSIxiq8wAX_5n_4N&_nc_ht=scontent.oculuscdn.com&oh=00_AfBlguDIl3qdF9vSe5p7TjDYezhu3HutCozL_93tkU9imw&oe=658157D8",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974819_2576141752478144_2400385938162188288_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=WCONO--PzzgAX--BM1i&_nc_ht=scontent.oculuscdn.com&oh=00_AfBmh6kOcCSuup7exw-QxtvYoLfKKu228z5p6-_RrilY8w&oe=65822A69",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75230038_467235080840054_9049717545480749056_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=X26BJnrXnlkAX829keH&_nc_ht=scontent.oculuscdn.com&oh=00_AfDcEywbcv3AKV0t0WiRuozP4WtHdYMAnrnZbEwCe3BjsQ&oe=65810026",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982673_2406453352810729_2411591851434835968_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=NN6ZxoxWNfYAX9QviGw&_nc_ht=scontent.oculuscdn.com&oh=00_AfA_Ll_Y6Zpfo26GX6x_bo41lCq930x2xGhDJA3wEemlUQ&oe=6580F376",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974725_520141615256052_897424835154542592_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5c2PIAfmSeIAX_r6LvH&_nc_ht=scontent.oculuscdn.com&oh=00_AfBki9g5eqNG_MgZVZ8W2j-EWJjkzmG1CAZNXcLlSE_mSA&oe=6580FE38",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162769_151316162225966_6753602439623999488_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=FebZj8yt9FoAX_NIwfC&_nc_ht=scontent.oculuscdn.com&oh=00_AfCWP4OuEML-rxXP4gIOBwnFFYZ_teQYE0jPObP4fSxJyw&oe=6582C997"
-        ],
-        "trailer": {
-            "thumbnail": "https://scontent.oculuscdn.com/v/t64.5771-25/39031333_1230110377341838_853286106554848015_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rARaK_6FqJQAX-b0ESQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfBaJQznuwj7dZR1ATPhus8d8dyQ5G4J-0fgL4n4eezh9g&oe=65814D0F",
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/39035315_1146487712586293_349210299828077918_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=b20b63&_nc_ohc=qZDQFWBD4fwAX9eiHxh&_nc_ht=scontent.oculuscdn.com&oh=00_AfCoAD4K7RcXinsRHFWVw8B71UqJsx_LPwftrr-4xMPjmw&oe=65813B34"
-        },
+        "icon": "38974599_2271142536342261_7547260534194700288_n.jpg",
+        "banner": "39003263_1132453520286527_2737658020426153984_n.jpg",
+        "logo_portrait": "com.hanginghatstudios.pigasus_logo_portrait.jpg",
+        "logo_landscape": "com.hanginghatstudios.pigasus_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 1191,
         "rating": 3.8984047019311503,
         "is_available": true,

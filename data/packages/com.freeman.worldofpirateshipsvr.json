@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2017-06-07T00:00:00",
         "description": "World Of Pirate Ships is a classical, free for all, death-match, multiplayer only, game for 10 players (ships) per map. The goal is to destroy, as many as you can, enemy ships . Each round is 10 minutes long after which map changes. For every hit with your cannon you get gold. If you hit bigger ship, you'll get more gold. You can spend it on upgrades or new ships. Controls are very simple. Just tap and hold on the water to set new direction for the ship, tap to shoot, swipe down and up to change cannons.\n\nGood luck captain!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Catchy games",
         "publisher": "Catchy Games",
         "genres": [
@@ -19,10 +19,10 @@
             "Shooter",
             "Simulation"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Multiplayer"
         ],
         "languages": [
@@ -65,22 +65,17 @@
             "elements": [
                 "Digital Purchases"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://simeunovicn13.wixsite.com/catchygames",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162687_1757780384512787_1958326412041519104_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=8HyJypW5Yr8AX89u1F_&_nc_ht=scontent.oculuscdn.com&oh=00_AfDMSxgAktQlLBQ3GxncPJv5aIvQ-eQ4uCvJZ4erYu3EOg&oe=6581D0E5",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162706_822065767961768_2031509704122826752_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=cKtWK6lJUygAX-bONEz&_nc_ht=scontent.oculuscdn.com&oh=00_AfByRXJnmcKeuasDJRya1LKjqt1pfMHMqoGcYbi1v68CKg&oe=65812C37",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162720_100359607216456_8636151450877034496_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HT8x4h-pqUYAX-AzQUs&_nc_ht=scontent.oculuscdn.com&oh=00_AfAFZEbMRmFJsM-iINs4MStpAV_fsNd8W8bs6QhgZ8HBKw&oe=65825441",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162679_1858503507743305_8854225992969879552_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=emgJIl_EZssAX-RzlTz&_nc_ht=scontent.oculuscdn.com&oh=00_AfA8JvP9WhE46DP85yDwOQne5OMcyV3m4o16HBwBM3vEhw&oe=6581EE69",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162711_1333027490109621_660558634320658432_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=GZUo6SEEs44AX_xWC48&_nc_ht=scontent.oculuscdn.com&oh=00_AfBALa_vt-R7MqUwYkxpepH8cGcSg7DsM4_pJPexDs-kdA&oe=65819730",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162812_227276104426861_1479288248294440960_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=FHfTwnUnAboAX8ajF4Y&_nc_ht=scontent.oculuscdn.com&oh=00_AfDHkrrDBsDSKR8gvFqT5dkYFBA7Uy6ABVjGqNP307sqEA&oe=65829F69",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162687_1868061243516895_3926227663395487744_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rU5nCyIj9ogAX8DUGfR&_nc_ht=scontent.oculuscdn.com&oh=00_AfC6ef2HzfHdbuErarbASCNjJsq0SCNE1Y2X-WZFesQaBw&oe=6582A140"
-        ],
+        "icon": "11162687_1757780384512787_1958326412041519104_n.jpg",
+        "banner": "11162706_822065767961768_2031509704122826752_n.jpg",
+        "logo_portrait": "com.freeman.worldofpirateshipsvr_logo_portrait.jpg",
+        "logo_landscape": "com.freeman.worldofpirateshipsvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 13,
         "rating": 4.230769230769231,
         "is_available": true,

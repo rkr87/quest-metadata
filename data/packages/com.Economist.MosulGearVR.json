@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2016-10-26T00:00:00",
         "description": "Welcome to the Economist VR app, providing access to VR content from the world’s most influential news publication. Featuring:\n\nPassport: Hyderabad\nHyderabad, India's fourth biggest city, is fast becoming one of the most exciting visitor destinations in the country. Its booming tech scene is attracting global attention and transforming this ancient city into a cosmopolitan hotspot.\n\nPassport: Osaka\nBright lights, bath-houses and seafood markets — explore Japan’s second city with a local who knows its best-kept secrets. \n\nOcean: The mystery corals\nLukas Isall of the Palau International Research Centre tells the story of some of the world’s most beautiful and mysterious corals. \n\nOceans VR: Net positive\nExplore the case for limiting fishing on the high seas, from the viewpoint of diner, fish, fisherman and policymaker. \n\nRecoVR: Mosul, a collective reconstruction\nTour the Mosul Museum in Iraq, destroyed by Islamic State but recreated in VR in conjunction with Rekrei, a heritage project.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "The Economist",
         "publisher": "The Economist",
         "genres": [
@@ -18,8 +18,8 @@
             "Documentary & History",
             "News & Information"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,22 +65,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://vr.economist.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482156_1117346328417221_6938089714691866624_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lMcuUr3aHsQAX8KN-Ah&_nc_ht=scontent.oculuscdn.com&oh=00_AfAmtOY4_tyBSUsRSiCiAZFVxqfqa6U-QyRMCH_Eq_PsZA&oe=65825C7E",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39031570_510103012814708_5992929552152657920_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=vGWei1-dWcYAX8HjWNq&_nc_ht=scontent.oculuscdn.com&oh=00_AfAL5gPTFSnhixrUlYCuj-vHEIPLKD7ytkuGd3hQidD4-A&oe=6580EBBA",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386450_1744330335896357_6338900914581012480_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=jCUwlvG_p-MAX-IdMBV&_nc_ht=scontent.oculuscdn.com&oh=00_AfBJVw_7oVRrucE31Anf82u-E8zGrvumW4xYZPsjjfrOTg&oe=6582A871",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974532_373486633459384_352219066670252032_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fCYyIyuID6kAX81lAJ4&_nc_ht=scontent.oculuscdn.com&oh=00_AfD-aiIqgo9Um-yAUSaU_l_ECn4RMvtoAZVIhIzn1JLQ_w&oe=65823AEB",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12482253_729345607221994_7857315851085545472_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=fh6V9QDj4n4AX-qeI99&_nc_ht=scontent.oculuscdn.com&oh=00_AfBSEKNqL8nBPSpsJqWovrhF6s-WZpj-TP95ueNgRSk_Wg&oe=6581561E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138848_1907222076178618_9124499072202309632_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=emA2IkFi9-gAX9a-jFy&_nc_ht=scontent.oculuscdn.com&oh=00_AfChxJ0Jt8LKP10XAW67mpGd7ngarKiL-Nl4OOgQLvhY0g&oe=65819A8E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12680329_788895747919047_379318892968804352_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Rqw7jeF-knYAX_Snk6r&_nc_ht=scontent.oculuscdn.com&oh=00_AfBu-dtwgPB7lZAJcVoZyt-58ewFpo0ThwW6HvLFv7zf4w&oe=6581B96A"
-        ],
+        "icon": "12482156_1117346328417221_6938089714691866624_n.jpg",
+        "banner": "39031570_510103012814708_5992929552152657920_n.jpg",
+        "logo_portrait": "com.economist.mosulgearvr_logo_portrait.jpg",
+        "logo_landscape": "com.economist.mosulgearvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 547,
         "rating": 3.8921389396709323,
         "is_available": true,

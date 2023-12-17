@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2016-07-29T00:00:00",
         "description": "Download the NERVE app to experience the dares from the film in first-person Virtual Reality, and more! Choose \"PLAYER\" to put yourself inside VR depictions of the crazy dares from the film, or choose \"WATCHER\" to see what other Players from around the world have already dared to do… More experiences for watchers and players are being added all the time, so keep checking back for new stuff.\n\nAre you a Watcher or a Player?\n\nNERVE – In Theaters July 27. Starring Emma Roberts, Dave Franco, Emily Meade, Miles Heizer, Juliette Lewis, Colson Baker, and Kimiko Glenn.\n\nIndustrious high school senior, Vee Delmonico [Roberts], has had it with living life on the sidelines. When pressured by friends to join the popular online game Nerve, Vee decides to sign up for just one dare in what seems like harmless fun. But the game begins to take a sinister turn with increasingly dangerous acts, leading her into a high stakes finale that will determine her entire future.\n\n#WatcherOrPlayer\nPlayNerve.com",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Lionsgate",
         "publisher": "Lionsgate Entertainment",
         "genres": [
@@ -19,10 +19,10 @@
             "Simulation",
             "Narrative"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -67,17 +67,12 @@
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://PlayNerve.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12410244_153727845034687_1574612765_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=OZv-1YERhN0AX_0u4P9&_nc_ht=scontent.oculuscdn.com&oh=00_AfDyaqfKh1Lx1Fjk54UIH025kF2Wo9-PvFdrYa_lFlasWQ&oe=65812F5A",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12386474_1610082719322461_2041712627_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=psHuCzwVixkAX_7P7d7&_nc_ht=scontent.oculuscdn.com&oh=00_AfDjHXvorLMRecxdZqXHnDEveu5WwZ7oCD4xGVG-UAcvig&oe=6582726D",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162824_144238959343389_2109376363_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=_z2UxSnqEacAX-nej0E&_nc_oc=AQkSqyxmsVsD57ZgbTVh_ypU76V_QTyvY_CU_Q11WWdzxqeq-CjM5HkaeHyjemPNXsU&_nc_ht=scontent.oculuscdn.com&oh=00_AfAb7GIO1DiFXasNXmb6GGL92poP7-bA0p8yHb6HDS5Eiw&oe=6581450F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410473_1567596000213325_1917178453_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=La0CbmEoIOcAX_xPZ2U&_nc_ht=scontent.oculuscdn.com&oh=00_AfA8ZgFKN7E8-xM4xHGjdH4Rdu4D6TwbF_ueeIbwhINEeQ&oe=658222B7",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139352_892849037525936_1211536448_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EyUFl5YTu4sAX-tEEa5&_nc_ht=scontent.oculuscdn.com&oh=00_AfCIsso5x1u8VqepjH9WWIAV0LRQzWpbLl8S8Eku3Rk_KQ&oe=6581A79D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138831_1807156119503210_723261408_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=jeVNc5Y6WN4AX_-QBSh&_nc_ht=scontent.oculuscdn.com&oh=00_AfA3Vjw7pA1p2XJOCsbuur_7-ZjvvYKcVQNHSCb_W20U3w&oe=6582CB71",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331111_342083129464004_2102587776_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=W2XC6dytyhAAX-FJ2vv&_nc_ht=scontent.oculuscdn.com&oh=00_AfAem8lGIgwORZnybZ42twD79uT7vSq0M3_NiDLkRiNbVQ&oe=6581B0B3"
-        ],
+        "icon": "12410244_153727845034687_1574612765_n.jpg",
+        "banner": "12386474_1610082719322461_2041712627_n.jpg",
+        "logo_portrait": "com.lionsgate.nerve_logo_portrait.jpg",
+        "logo_landscape": "com.lionsgate.nerve_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 674,
         "rating": 3.655786350148368,
         "is_available": true,

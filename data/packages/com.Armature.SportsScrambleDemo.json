@@ -10,17 +10,17 @@
         "category": "GAMES",
         "release_date": "2019-05-21T00:00:00",
         "description": "Welcome to Sports Scramble! Take your favorite sports and mix them together! Play Tennis with a Golf Club. Bowl a strike with a Basketball. Smash a Home Run with a Hockey Stick! Each of the three main sports: Tennis, Bowling, and Baseball has their own Single-Player Training, QuickPlay, and Challenge Modes. Show off your skills competing against other players in online multiplayer matches.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Armature Studio",
         "publisher": "Oculus",
         "genres": [
             "Sport",
             "Arcade"
         ],
-        "input_devices": [
+        "devices": [
             "Touch Controllers"
         ],
-        "games_modes": [
+        "modes": [
             "Single User",
             "Multiplayer"
         ],
@@ -69,22 +69,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://armature.com/games/sports-scramble",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974707_1007330412799413_1527504036490641408_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ceYobqTNrmQAX_bKCjy&_nc_ht=scontent.oculuscdn.com&oh=00_AfBA5f0wPSyhGFIL4JkZUV4CV2HN_BypOzouiz_NmEuwNw&oe=658108C1",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/39001674_1201708700012170_3242520478199316480_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XFuwiJeWp9UAX8iaKEx&_nc_ht=scontent.oculuscdn.com&oh=00_AfA-oZKzyj3Z4yK4SUtF5tnW23y57XKXIcI8Nr7CfOszxQ&oe=6581E10A",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982484_688836391552973_7662654335364366336_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=LD2OEw4qgtAAX_Kbhom&_nc_ht=scontent.oculuscdn.com&oh=00_AfDo4IV98VD7JiTKkk9fn-Bb5mUQq2iH7YvG_udJoE_OeA&oe=65817167",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974687_413179179521645_3666881238662119424_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Rnm1LMsQor8AX-dffs6&_nc_oc=AQnIQ_o64lY92C8ZTO--f12v4PD44Bo2gGvRX31-H2Q_DYtyguBQQYVbsiRxh2gPwM4&_nc_ht=scontent.oculuscdn.com&oh=00_AfCguyoz1YoTp3dJVtl8u6PEOf14Ck6kpTUaXzNpgwbjIQ&oe=65823F0F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974731_416570335570253_3882881191291912192_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=7TyCsSuuxFQAX-wvXcc&_nc_ht=scontent.oculuscdn.com&oh=00_AfCvq5DUvQZ5eVpBXynM3rid6c864T2b8FA4edc9pOKv3Q&oe=6582413F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031616_590353344794706_7063605851835072512_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Ivu0TGZMrHsAX-N_0ol&_nc_ht=scontent.oculuscdn.com&oh=00_AfA-vxfYUoJIxJA6nlrpJi80gfjO16IAn7HwRz5aaiVqOw&oe=6581F153",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974558_2131297276979075_6375408334165508096_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=3HonMqxKH-kAX_V-SP6&_nc_ht=scontent.oculuscdn.com&oh=00_AfCt-9b0obIrU9WHhYWCwu5db3i4_PcsRrUki5LrVwTxOw&oe=6581BF7D"
-        ],
+        "icon": "38974707_1007330412799413_1527504036490641408_n.jpg",
+        "banner": "39001674_1201708700012170_3242520478199316480_n.jpg",
+        "logo_portrait": "com.armature.sportsscrambledemo_logo_portrait.jpg",
+        "logo_landscape": "com.armature.sportsscrambledemo_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 26,
         "rating": 3.769230769230769,
         "is_available": true,

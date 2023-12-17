@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2019-05-07T00:00:00",
         "description": "Oxygen Dreams is a voxelized FPS/ Platform game with free locomotion (virtual legs required ... ).\n\nIn his dreams, Evan is still a child. In his dreams he remembers remote places, deserts of colors, melodies and strange creatures ... a world where his fantasies and nightmares come true.\nNo, it is not a feeling of nostalgia ... in this world he always has the certainty that growing up is ... boring.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Fguillotine",
         "publisher": "Fguillotine",
         "genres": [
@@ -18,10 +18,10 @@
             "Shooter",
             "Puzzle"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -64,22 +64,17 @@
                 "Violence"
             ],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://stmania2010.wixsite.com/fguillotinevr",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974859_1100695513451133_4786209098217553920_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=SjK8wH2L1DUAX-PRYeQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfBw_RLA-v8KccymfVQtC2wNu21kE0souZw68G0oE9M52Q&oe=65829630",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974622_283091262632005_6066649199749890048_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=F_My-66blcwAX9TIKG0&_nc_ht=scontent.oculuscdn.com&oh=00_AfCn6vzoymEJJ3LKXTtf1aIlK16LOo_DEpUBqe6lNzWyKA&oe=658122AD",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974489_993389114204225_7077644562327404544_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rEygLRI78ZIAX853NcA&_nc_ht=scontent.oculuscdn.com&oh=00_AfBRtTHt12t9EMHswJqhZMJ-ccmI3xXgui_ubr6NC6NAdw&oe=6581DC09",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39003260_2269962973324003_2596716671448121344_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ZXKbeRo3ooQAX-L5qFF&_nc_ht=scontent.oculuscdn.com&oh=00_AfACvUOrcBQGnl4Ritx-99GT_iK6_70zx0XMX8r1jMwIhA&oe=658228D1",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974625_2187266088036304_6301630957912850432_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1feW5OW279sAX8-3Bii&_nc_ht=scontent.oculuscdn.com&oh=00_AfCRgNytYZEwZhSuy_xhvoekoscHJ8-A_Aop3uVdnSnHDg&oe=65821BB6",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031370_696672314117631_6090300553856811008_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ci6LApBJUD0AX-mva_v&_nc_ht=scontent.oculuscdn.com&oh=00_AfCLm0W7EVqC_Oeh8kOmUu-P6XCQxAUp_4AuivIRPLv3VA&oe=6580E7A1",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031514_1144363605762199_843745517845348352_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=GPlQKb-GWlYAX8uoJar&_nc_ht=scontent.oculuscdn.com&oh=00_AfAzHDBr24m2Yg-78_kLPJxw6NxzNukTCfFF_BCPfg-4pw&oe=6581E486"
-        ],
+        "icon": "38974859_1100695513451133_4786209098217553920_n.jpg",
+        "banner": "38974622_283091262632005_6066649199749890048_n.jpg",
+        "logo_portrait": "com.fguillotine.oxygendreams_logo_portrait.jpg",
+        "logo_landscape": "com.fguillotine.oxygendreams_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 32,
         "rating": 4.09375,
         "is_available": true,

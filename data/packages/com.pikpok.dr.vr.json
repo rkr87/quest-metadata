@@ -10,7 +10,7 @@
         "category": "GAMES",
         "release_date": "2015-11-25T00:00:00",
         "description": "In a world overrun with the Dead, you have survived… but for how long?\n\nInto the Dead throws you into the gruesome world of the zombie apocalypse where there are no second chances.  Do what you have to in order to stay alive, keep moving as fast as you can, and protect yourself by any means necessary.  When the Dead are rising, run!\n\nFEATURES:\n• Intense gameplay in stunning virtual reality depicting the grim reality of the zombie apocalypse like never before\n• 5 different Game Modes to test your skill - defend your position in Stand Your Ground, created just for Oculus\n• Unlock an arsenal of powerful weapons to help you stay alive\n• Collect loyal canine companions to help keep the horde off your back\n• Endless Missions to complete keeps the challenge fresh and exciting\n\nWe love to hear from our players!\nOn Twitter? Drop us a line @pikpokgames and join the conversation with #IntoTheDead",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "PikPok",
         "publisher": "PikPok",
         "genres": [
@@ -18,11 +18,11 @@
             "Adventure",
             "Horror"
         ],
-        "input_devices": [
+        "devices": [
             "Gamepad",
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -71,17 +71,12 @@
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://intothedead.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12449013_262204864112082_709607291_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=rHPxBMSrtiMAX-kQbSx&_nc_ht=scontent.oculuscdn.com&oh=00_AfAtPhapw-geIgYt81FwF8OticYbGFE1fYeWrR84vqtpxg&oe=658145EA",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12138838_527228074134733_1997197142_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HTBUTOj-e_sAX9A8EFe&_nc_ht=scontent.oculuscdn.com&oh=00_AfAWVi9ZPgNkfvXgokD65fC-c7dELrmp6U7W6n-fB79vCQ&oe=65812E51",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12449013_1059833624082451_483403167_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=iOz-PS4wYroAX-Wfk4x&_nc_ht=scontent.oculuscdn.com&oh=00_AfDfTc6XDTogamnn7jWJPappMrsKInca_Gdllm2KMy4Rpw&oe=658228E7",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138817_134248620269433_58855670_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=lWzTtMLkfiQAX_da_l9&_nc_ht=scontent.oculuscdn.com&oh=00_AfBAsfPDbiwMSAYtNuNDSKBpXFAOXO3Qxfv9KSx84dmU7Q&oe=658104B9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138911_1677178479193623_1732668462_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=_bIWrR02hVwAX8r1tNs&_nc_ht=scontent.oculuscdn.com&oh=00_AfBlaB6t1W5K0L7LyylnTX4rMXPIHJ2cMOUuM6qNTNwwDQ&oe=65824117",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138913_1712174855679776_1635570268_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=45vcxyFe0w4AX-QNsUd&_nc_ht=scontent.oculuscdn.com&oh=00_AfA6yQyZUY5y6ACtYYOcBqKa5RWiUs3HAW3RpTCssbYsGw&oe=65827DFD",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138838_884024788409473_350707019_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5b6RHBiByksAX-nqMXv&_nc_ht=scontent.oculuscdn.com&oh=00_AfCX4VT0IdYCIJvY3zZfW6nqez0mPnzos0As-YTpnRqGOg&oe=65810F24"
-        ],
+        "icon": "12449013_262204864112082_709607291_n.jpg",
+        "banner": "12138838_527228074134733_1997197142_n.jpg",
+        "logo_portrait": "com.pikpok.dr.vr_logo_portrait.jpg",
+        "logo_landscape": "com.pikpok.dr.vr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 1744,
         "rating": 3.3153669724770642,
         "is_available": true,

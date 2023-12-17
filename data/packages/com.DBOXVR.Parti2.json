@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2017-12-07T00:00:00",
         "description": "Each edition of Parti will examine a design and its concepts in a dialogue format with its creator.\n\nParti's mission is to radically advance architectural representation as an experiential spatial discourse.\n\nParti is a DBOXVR series. DBOX is an Emmy Award-winning Visual Communications agency that has been representing architecture and envisioning futures for over twenty years.\n\nParti 2: Features Oppenheim Architecture. An award winning architecture, planning, and interior design firm, lead by Chad Oppenheim. The firm’s work is built on both a physical and spiritual contextual sensitivity, supported by evocative and economic design solutions that all serve to enhance life.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "DBOXVR",
         "publisher": "DBOXVR",
         "genres": [
@@ -18,8 +18,8 @@
             "360 Experience (Non-game)",
             "Exploration"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,22 +65,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.dboxvr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/11162681_159723497944379_8167760313488244736_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=abzSjCAZFOoAX88Q4ns&_nc_ht=scontent.oculuscdn.com&oh=00_AfCEXCszFGeSfG0F2snzy0qyqW69oa3P-Jq2PeQv36QArA&oe=65819FF2",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162696_1818920301731202_1299951476533100544_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HS7ptU2d9rUAX9PIjWU&_nc_ht=scontent.oculuscdn.com&oh=00_AfD8F9Yohx4xp692WMDxKzonJyG_9cQHNPsqzIzlJSO0Ag&oe=65821136",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162687_503479870016651_908172969337946112_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=V_gbvHnHQ2EAX-FIHY1&_nc_ht=scontent.oculuscdn.com&oh=00_AfBgCqAnO6ofvgQSUBVN3XziT_8CxI2NAnRIMpDBixP8rg&oe=6582662C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162696_151754698753137_1268425428737982464_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=bER5F4qjtFgAX-eg6NH&_nc_ht=scontent.oculuscdn.com&oh=00_AfCar-B8zdmlTEWu5cUnxEfLvG_A1bdzCIM1rZFJPRJiHw&oe=65819488",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162732_354425545011912_2279967347378749440_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EfBqw15RFNkAX9FQ75c&_nc_ht=scontent.oculuscdn.com&oh=00_AfAzZmopakLWP7NL9W_QaXxYpvZDLPhq_kVbrIQxEyvZVA&oe=65822C0C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162694_133331450630433_3936233554215698432_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Ygtau0IoLQ0AX8FvlFQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfCr8Lf0yJKbll4jkWXzuOfKLq9gffq0-5Yg5ycgEcgJig&oe=6581E50A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162681_156035548317406_7746430077654532096_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=mUN3SljMDhIAX_h-kKR&_nc_ht=scontent.oculuscdn.com&oh=00_AfC9aPYBaAj9Y-Us_c5RJn47IT91VV8SmjXzRPnQ2vEBtw&oe=65820A5F"
-        ],
+        "icon": "11162681_159723497944379_8167760313488244736_n.jpg",
+        "banner": "11162696_1818920301731202_1299951476533100544_n.jpg",
+        "logo_portrait": "com.dboxvr.parti2_logo_portrait.jpg",
+        "logo_landscape": "com.dboxvr.parti2_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 50,
         "rating": 4.46,
         "is_available": true,

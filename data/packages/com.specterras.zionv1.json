@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2017-01-27T00:00:00",
         "description": "A navigable VR experience of one of the most remarkable areas in Zion National Park, Utah.  The Zion Narrows Experience will allow the viewer to navigate above and around some of the most dramatic sandstone formation in the narrows.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Specterras Productions LLC",
         "publisher": "Specterras Productions",
         "genres": [
@@ -19,11 +19,11 @@
             "Productivity",
             "Travel"
         ],
-        "input_devices": [
+        "devices": [
             "Gamepad",
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -67,25 +67,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.specterras.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12727726_240043313112061_8942548993229979648_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=uvOseba_dyQAX-8Q1B6&_nc_ht=scontent.oculuscdn.com&oh=00_AfAkoqKU-csZUqxdyADnsOgxlWUTKSlYHFr4t0kjjYK9GA&oe=658295FF",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12482178_277469692619700_95854423_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=s2FimOXlagsAX9y3_sx&_nc_ht=scontent.oculuscdn.com&oh=00_AfD7XHkVmw5GcgMSd3XCkm2kewZRciwymK2yrwy2mlZxuQ&oe=65814A4E",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386363_511137242414658_983568042_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=t_dLnLhdEN0AX_vUZIl&_nc_ht=scontent.oculuscdn.com&oh=00_AfCPKUszKDCRlaXL5hDbI_RdMVYmyIL4KnE6Ksc2CJ_LXw&oe=6580EC9E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12602177_1721528254781878_1093328163_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Abj9iIHQvJMAX-5Frk1&_nc_ht=scontent.oculuscdn.com&oh=00_AfAC-rJXL_C8NTDAFCUz3n7ZmKDze6Heur82xzXi1GuMzw&oe=65821B5D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386419_1761153454123713_159780057_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=uUV-JiKI-hoAX8sRoov&_nc_ht=scontent.oculuscdn.com&oh=00_AfAe4j6qGBVactF5rxspXIylKLXmuliM4fq7Sg1nDm3T4w&oe=65812E1F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410475_1632729493722708_1850531906_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=yDBjpRNe-KQAX800SUR&_nc_ht=scontent.oculuscdn.com&oh=00_AfDPlsScnCrQlE9VZTUbCwFN2KE-AF2ioTLwrmK3ai5IQw&oe=6580F012",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162772_255735451479260_1837737086_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=aLb1Y5I_lbcAX-7nCet&_nc_ht=scontent.oculuscdn.com&oh=00_AfDGeDSuj8dJXp6uRY_np3UUN-rUW6AlMKWPrVDO6F5Img&oe=6581B8FD"
-        ],
-        "trailer": {
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/12410199_1847874572164413_1365383752804466688_n.mp4?_nc_cat=100&ccb=1-7&_nc_sid=b20b63&_nc_ohc=HUyi0_CC6HoAX9OD_85&_nc_ht=scontent.oculuscdn.com&oh=00_AfDpqQP8he95IXGSTYyHO63IMZlYxD5gKz9MOw7-KwA4gQ&oe=65826B41"
-        },
+        "icon": "12727726_240043313112061_8942548993229979648_n.jpg",
+        "banner": "12482178_277469692619700_95854423_n.jpg",
+        "logo_portrait": "com.specterras.zionv1_logo_portrait.jpg",
+        "logo_landscape": "com.specterras.zionv1_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 440,
         "rating": 3.6136363636363638,
         "is_available": true,

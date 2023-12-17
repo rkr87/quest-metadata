@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2017-07-26T00:00:00",
         "description": "Feel yourself at home with your personal VR Loft. It's your cozy corner, with a futuristic menu/console. Menu/console can be controlled via either simple clicks or various voice commands. Simply tap the microphone icon and speak out one of the available commands (the options are yet limited, more will be added soon). Your can listen to shuffled music from your music library and browse the news, by reading the content provided by one of the leading news providers in VR industry, UploadVR.\nGive us your support to add more functions and news websites.\n\nPlease suggest what you would love to have in your own VR Loft.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "ARLOOPA Inc",
         "publisher": "ARLOOPA Inc.",
         "genres": [
@@ -18,10 +18,10 @@
             "Music",
             "Utility"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -63,22 +63,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://www.arloopa.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12602078_298627217152082_1665612656_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ojoIQYaiDJIAX8KlNAs&_nc_ht=scontent.oculuscdn.com&oh=00_AfANEu-jxZmF-zz7GEgB6IxdEqK2KXQyF7ZsjwzYhf--6A&oe=658101FE",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12410316_978135722285470_753967533_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=dlFtFpaSlVwAX8vpmCo&_nc_ht=scontent.oculuscdn.com&oh=00_AfCozlt9ER9PKw6SqFiZGFP_uTxI87c-birzJAMtmRaaRA&oe=658180E4",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331225_1035501599837105_164901701_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=czvsdnh8LBYAX_Jjhkd&_nc_ht=scontent.oculuscdn.com&oh=00_AfDGJXbyH5cWdCDbt08SprMbA6FTeIjabtFyxmDuwqBA7A&oe=658292CA",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12482309_1621965341465637_1354067560_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=efpFQs9nvC4AX9NjwFb&_nc_ht=scontent.oculuscdn.com&oh=00_AfC3KeR-maEb2k3ZKIsPfbWJlGsYosM4kiIhcZ_Q8n2vmA&oe=6582D734",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139267_1014555935247029_1911532136_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Cj-r6VnhXrQAX-HHGEY&_nc_ht=scontent.oculuscdn.com&oh=00_AfDCiaRqXVm8jUpucHRj_bRfjdeL_DGWAWKaJEKe7HQmeg&oe=658241B3",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138798_154810934942185_1088107912_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=N6a_gdoz2o0AX94AI48&_nc_ht=scontent.oculuscdn.com&oh=00_AfBJF3sxQPL6B_c5P00MzaJNw7UV_6Ny1w1KzcHgW7SdsA&oe=658146D9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386392_142442282852733_407964807_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=vHV75EqP6iAAX9IFeoC&_nc_ht=scontent.oculuscdn.com&oh=00_AfBgKxfyBYDN5GI9wm7O5DyfvqgXiNS6QeRYUY0qGwGRuQ&oe=6581F6D6"
-        ],
+        "icon": "12602078_298627217152082_1665612656_n.jpg",
+        "banner": "12410316_978135722285470_753967533_n.jpg",
+        "logo_portrait": "com.arloopa.loft_logo_portrait.jpg",
+        "logo_landscape": "com.arloopa.loft_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 27,
         "rating": 2.3333333333333335,
         "is_available": true,

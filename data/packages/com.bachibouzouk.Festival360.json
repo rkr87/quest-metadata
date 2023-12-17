@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2017-03-01T00:00:00",
         "description": "Stage Stories is a virtual reality app which presents extracts from various performances during the two summer festivals in 2016.\nWhen viewers put on their immersive headsets, they will find themselves in a virtual rehearsal studio, surrounded by ten directors, choreographers and artistic directors, each of whom will give, at their request, a short talk about his or her work and the selected extract. Viewers will then be able to watch this extract as if they were part of the performance.\nFor each performance the artists and production crews have considered questions this new approach raises about camera positioning and the best way to record the action and capture the space.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "BACHIBOUZOUK",
         "publisher": "BACHIBOUZOUK",
         "genres": [
@@ -19,10 +19,10 @@
             "Music video",
             "Narrative"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -69,22 +69,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://www.bachibouzouk.net/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12504696_417375565264227_2445094722352447488_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=GeGiEHJdgNkAX82HaqR&_nc_ht=scontent.oculuscdn.com&oh=00_AfAIV7jxCTfWdf4zNToOIO1miIa5rjjv5wFD3O6SM1fobA&oe=6581E67E",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12727726_1830484010501351_6469425473217626112_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=2vvFspk4owYAX8djmQF&_nc_ht=scontent.oculuscdn.com&oh=00_AfCEdqPzcSZpPDgOGV2E9ckWiscfc10bV-RtxhSDRTWU1g&oe=658293CA",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12448923_1856153657960157_3959753950474797056_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ju2ETHUDaHcAX9ZxwGm&_nc_ht=scontent.oculuscdn.com&oh=00_AfBfaQc-dJJn8UpuQpVjZruZxTpxT5fhRn2AVPkScg5qPQ&oe=658293AD",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427537_357519974619930_1185605776232677376_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=kewUlDeMI_cAX8j7i9w&_nc_ht=scontent.oculuscdn.com&oh=00_AfDWK0yxkfuZYYuFTADPg2U63Qfbjj4xd9XKo8qKR7S-vw&oe=6580E72E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427537_1214530345292760_3117952545281015808_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RyvgSP5SmtoAX9MSPFI&_nc_ht=scontent.oculuscdn.com&oh=00_AfAGZfkRlZkXycgnE2G-dnYuxy7-O9x2ka5kgfgDCZ20Qw&oe=65827C8E",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139431_1643105652656373_5232710419386204160_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YdI9ZHC6xpwAX_i8m5t&_nc_ht=scontent.oculuscdn.com&oh=00_AfCJRW44T-k0lKxcHWmEU1voYDqnAiHZ3X3RlhFregb83Q&oe=658184B3",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12727726_374774769544390_732726729277177856_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=WMAi1LNHTqgAX_3cVJh&_nc_ht=scontent.oculuscdn.com&oh=00_AfAcZke7TBnIUEAO61PQN9RR45kNeaueS7gHGhQGbkxf_Q&oe=65814B3B"
-        ],
+        "icon": "12504696_417375565264227_2445094722352447488_n.jpg",
+        "banner": "12727726_1830484010501351_6469425473217626112_n.jpg",
+        "logo_portrait": "com.bachibouzouk.festival360_logo_portrait.jpg",
+        "logo_landscape": "com.bachibouzouk.festival360_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 8,
         "rating": 4.0,
         "is_available": true,

@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2018-09-18T00:00:00",
         "description": "Vodafone presents a health and safety awareness experience highlighting some of the many hazards faced by personnel working at height. \n\nStep into the shoes of a rookie telecommunications engineer tasked with realigning a rooftop microwave antenna. Select the equipment needed for the job and conduct a risk assessment of the rooftop site before eventually climbing the mast and carrying out a simplified realignment procedure. \n\nThis application is not intended as a tool to train personnel for working at height, but simply to raise awareness of the potential dangers and the importance of using the correct equipment and procedures to ensure the safety of everyone.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Make Real",
         "publisher": "Vodafone",
         "genres": [
@@ -18,10 +18,10 @@
             "360 Experience (Non-game)",
             "Productivity"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -64,22 +64,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://www.vodafone.co.uk/our-responsibilities/our-employees/health-and-safety/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12410200_175185166495089_8596144659443482624_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XquFA5knOJQAX-0JPPP&_nc_ht=scontent.oculuscdn.com&oh=00_AfD5KwXaUXvcjcU5ut3IOv1DGu3fLQ5srMZpO8ufvWXubA&oe=65824064",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12504730_1584451315011023_4619082574881357824_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=3VH049u-B3AAX9VU1d-&_nc_ht=scontent.oculuscdn.com&oh=00_AfBg-bM3TfUwN1X06uttDcZkWbpdpclAGt7OmYIzXGXRAA&oe=65821E95",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12534042_186925531967333_6321622767955345408_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=yiqiHDO5o8cAX-tt5AF&_nc_ht=scontent.oculuscdn.com&oh=00_AfACtIqUGMzuQ2TPMbICyBIKvM7LHobjtxQ1MZGbGej4hQ&oe=65823FCE",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12139007_645323005821678_4659006202863157248_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=hTg92EOjCzQAX9P2YB9&_nc_ht=scontent.oculuscdn.com&oh=00_AfADyI01lpQxMFAL5ajotWkkudkns_cRRXnK8y7nvMpwdw&oe=65820BFC",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12602334_184662832372945_4138594249786523648_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EGT1P9N-wRsAX95qUC5&_nc_ht=scontent.oculuscdn.com&oh=00_AfAcTqMMp2xjIFG46oEIPd1cSgcYmwO1t8G0geSRRKIDnw&oe=658166F3",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410487_814057875431208_5012494677182513152_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RHCXpIr-0e4AX_0qAw5&_nc_ht=scontent.oculuscdn.com&oh=00_AfAv05wnS1fqSOHaqEdHfn3JBoe5JbezmoW2oSivjN39yQ&oe=65812E9C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138999_446366172493226_7193366464638746624_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=feTjiLJEq1AAX9t2BEJ&_nc_ht=scontent.oculuscdn.com&oh=00_AfB6xpqtdtSSy9meS92mhCpjAdhWa4Iy7jzmqnWSmPJvYg&oe=6582CF93"
-        ],
+        "icon": "12410200_175185166495089_8596144659443482624_n.jpg",
+        "banner": "12504730_1584451315011023_4619082574881357824_n.jpg",
+        "logo_portrait": "com.vodafone.workingatheight_logo_portrait.jpg",
+        "logo_landscape": "com.vodafone.workingatheight_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 54,
         "rating": 3.759259259259259,
         "is_available": true,

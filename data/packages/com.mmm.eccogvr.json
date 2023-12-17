@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2017-05-30T00:00:00",
         "description": "Man Made Music is a VR spherical video player allowing users to experience the 3D Audio work of Man Made Music.  We create best-in-class VR/AR with spatialized 3D Audio across linear/cinematic experiences, game-engine based experiences, room/scale experiences, and live streaming VR.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Man Made Music Inc",
         "publisher": "Man Made Music Inc",
         "genres": [
@@ -18,8 +18,8 @@
             "Music video",
             "Productivity"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -62,22 +62,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://www.manmademusic.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12449036_592983637574207_2763612396126732288_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=99KvLF8cR-kAX_OdDKw&_nc_ht=scontent.oculuscdn.com&oh=00_AfCyayZigUPAWYAoJgVZtbB0Pj0n1LhlnzXMmkFjQUWsjg&oe=658271FC",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12533901_285333841885745_7766284534642900992_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KDPh8_zWcnIAX_w9UaU&_nc_ht=scontent.oculuscdn.com&oh=00_AfAISTXmVRT4c3hjDHeviddMcT_U5qN4ww86-eu_1Pb0mg&oe=65819DC2",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12533772_1242015062518598_2552584168789770240_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Nn-YYZa3mXEAX9pSphX&_nc_ht=scontent.oculuscdn.com&oh=00_AfCbczo7JjBvusP6hoX8InJ07GASZgD6UWWR9riVW7gWIg&oe=65823A8F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12427653_247923612313711_7308120753767972864_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=8aftBgWcbiwAX_jyE-3&_nc_ht=scontent.oculuscdn.com&oh=00_AfAy3w6YzG7x9ODL5L2b13iFJe2-4CqnAvqp2emgCyheWg&oe=6581A32D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12482153_1312359595479878_6627659120738566144_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=PKu8HEbqsikAX8FA1hx&_nc_ht=scontent.oculuscdn.com&oh=00_AfAZgeGXGLhtlp7PVTtKGRyaoUqS6G3OGgg1oebDCGQATw&oe=6582CBEB",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12727868_230359357425406_4197738388993867776_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qMwIV4BG2lcAX8S4TFv&_nc_ht=scontent.oculuscdn.com&oh=00_AfBi0TrM3EqB0aRzORUliy1oC0LGw-oNIM9ruZuZwikNvA&oe=65814944",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12533842_602206306656768_6865450921384476672_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=gS8TrnNPa8IAX9dIT-8&_nc_ht=scontent.oculuscdn.com&oh=00_AfAoK9BRUB7anSrVcRb9BVfCOMH5esa2GmokRpN66HfclA&oe=6581D2CC"
-        ],
+        "icon": "12449036_592983637574207_2763612396126732288_n.jpg",
+        "banner": "12533901_285333841885745_7766284534642900992_n.jpg",
+        "logo_portrait": "com.mmm.eccogvr_logo_portrait.jpg",
+        "logo_landscape": "com.mmm.eccogvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 15,
         "rating": 2.3333333333333335,
         "is_available": true,

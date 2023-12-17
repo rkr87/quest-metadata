@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2018-05-17T00:00:00",
         "description": "Storyhive is Hiverlab's proprietary system and platform for interactive presentation, broadcasting, and communication with immersive technology. It empowers content creators to easily upload and create their immersive experiences with simple interactive functions from the Storyhive web portal (https://create.storyhive.io/), and conduct multi-user immersive guided or facilitated experiences via the Storyhive mobile app.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Hiverlab",
         "publisher": "Hiverlab",
         "genres": [
@@ -18,10 +18,10 @@
             "360 Experience (Non-game)",
             "Exploration"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Multiplayer"
         ],
         "languages": [
@@ -64,22 +64,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://www.storyhive.io/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12449084_210433236354598_8356241689098059776_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=A-dwe4AGfdgAX-aRYcH&_nc_ht=scontent.oculuscdn.com&oh=00_AfC7hkVyL2qyv-hk3cIj0v6qoxnr9fOgOIkp5VjmYYK9Qw&oe=65823472",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12386220_165793250753310_1347430591938691072_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=RO4wb3VOe7kAX8xIsKd&_nc_ht=scontent.oculuscdn.com&oh=00_AfANg_gAsK0lsLKPyE3CgAdnoC8WrG4HRVbTS8bLpgmuqw&oe=65818443",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386401_166160534070767_943622830535213056_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=VN0xTTo_atIAX907MxO&_nc_ht=scontent.oculuscdn.com&oh=00_AfCaOvL0SOBnIdcmgfchXzGai9H3MCqdq-9mFl5vvb2jQA&oe=6581D985",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331258_1954395024592322_8628133008928407552_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=9gwAH9EpAacAX_XTAcc&_nc_ht=scontent.oculuscdn.com&oh=00_AfCv-7g6EoSPdMc0ojJ6exsqIQ6_mVBmb7EXKMMvpcsreQ&oe=65824C5F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410487_652851108399049_3534546235346124800_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=7Owe3zFpL3AAX82sUVR&_nc_ht=scontent.oculuscdn.com&oh=00_AfAek9MO2C7ieOrlpOHuXlu7H-ql0mN4fYyV2RdF_xqFJw&oe=6581F1DF",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386356_2025684464418537_9088852626056937472_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=us3qTXX2Pb4AX-wjauo&_nc_ht=scontent.oculuscdn.com&oh=00_AfD1Vzgo9lLylJRu4-Cs5tHtEhElGXvhckIibk5-jjfe7g&oe=6582C177",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12331069_292256524644849_1299729418133962752_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=IzWhob9Ie2sAX-geRe2&_nc_ht=scontent.oculuscdn.com&oh=00_AfC38TcIZGUGBKy9lzdmGBB9JdfUr0kSeo0q7jszlp1Y2A&oe=658278D2"
-        ],
+        "icon": "12449084_210433236354598_8356241689098059776_n.jpg",
+        "banner": "12386220_165793250753310_1347430591938691072_n.jpg",
+        "logo_portrait": "com.hiverlab.storyhivegearvr_logo_portrait.jpg",
+        "logo_landscape": "com.hiverlab.storyhivegearvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 14,
         "rating": 2.5714285714285716,
         "is_available": true,

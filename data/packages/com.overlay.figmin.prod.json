@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2022-10-25T00:00:00",
         "description": "Create, Collect & Play in Mixed Reality!\n\nFigmin XR is a fun multi-purpose application for easily creating, collecting & playing in augmented reality. Multiplayer supported.\n\nAnything is possible! Decorate your room, create physics games, educational experiences, awesome videos for social media, storytelling, art, marketing, visualization, or anything that you can imagine.\n\nWe offer a suite of built-in tools:\n\n* Sketch in 3D, powered by Tilt Brush!\n* Search and import 3D models, animated GIFs and Videos provided by Sketchfab, Giphy and YouTube\n* Browse Reddit and experience multimedia content in AR\n* 3D text editor\n* Create 3D & 2D models with our voxel editor\n* Fully featured physics editor, to bring your creations to life\n* Discover Figmin XR user generated content\n* Publish your creations\n* Built in Voxelizer, to transform 3D models and images into fully editable Voxels\n* Directly import web-links of images, GIFs, YouTube videos & Sketchfab 3D models",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Overlay",
         "publisher": "Overlay",
         "genres": [
@@ -18,11 +18,11 @@
             "Productivity",
             "Creativity & Design"
         ],
-        "input_devices": [
+        "devices": [
             "Hand Tracking",
             "Touch Controllers"
         ],
-        "games_modes": [
+        "modes": [
             "Single User",
             "Multiplayer",
             "Co-op"
@@ -76,26 +76,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://www.overlaymr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/38974606_984561889165247_2805343699900884654_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=QObiSr5VV7gAX-_HF3B&_nc_ht=scontent.oculuscdn.com&oh=00_AfDzQ84nVqPuK8cuWb2-_rl4WBhuyD-w9PBhXcEUIbLtwg&oe=65828E71",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974753_1097668007885062_2241216132730137338_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=FpZzcHqUjaQAX8jc5fg&_nc_ht=scontent.oculuscdn.com&oh=00_AfANV_KWlOSpweTn6-NWxNnRVP94yvPp3Gv8wjSgtlScyw&oe=65816826",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982642_413691237579088_6028014691989449456_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=CIIdOAvqlVkAX9VrMPV&_nc_ht=scontent.oculuscdn.com&oh=00_AfDvnibFf7FNBOPbQUJA7JCKXVkmlozFrPqgYLJDvG6mTw&oe=6581A079",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982516_440457228180609_8995918853649631429_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=x4x1Kbq3v-EAX_Qsowe&_nc_ht=scontent.oculuscdn.com&oh=00_AfCk1j4hJzIn-3P_1b4zvhQr5ZulcxZEkBa6n0V2hndYCw&oe=65828B65",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974830_822286692117591_7979756994655421693_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=TeaE5VHo80UAX-H_cG1&_nc_ht=scontent.oculuscdn.com&oh=00_AfAeF6EH8MMonm0ryRUxx_hg6LBIXLdo987xebzgKkAewg&oe=65820165",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974736_822757802068824_1987519420379505963_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=PCgbbfMZPmUAX_9DbCT&_nc_ht=scontent.oculuscdn.com&oh=00_AfC48Mn3-YHBYPzYDpd9-7JJLPEkqvCn658wPILeZtCXcw&oe=65825B14",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974791_1807384876279797_2894989462823656639_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=v0rwY93adcIAX9aaeqP&_nc_ht=scontent.oculuscdn.com&oh=00_AfD5Qcos1buhFS0-AC9NyY0FwjahoAiHgNUpGlNJQHbVKw&oe=658170FF"
-        ],
-        "trailer": {
-            "thumbnail": "https://scontent.oculuscdn.com/v/t64.5771-25/38982600_6375608302561583_3516310550568960282_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=GJFQO5aApMIAX9cy4nk&_nc_ht=scontent.oculuscdn.com&oh=00_AfB9KfvkAF41Rkv5_d9zVWlIlVmTI4k_9qF3lulTrMA5uQ&oe=658289EE",
-            "url": "https://scontent.oculuscdn.com/v/t64.7195-25/10000000_1694985404336158_5966261808567714433_n.mp4?_nc_cat=103&ccb=1-7&_nc_sid=b20b63&_nc_ohc=iZBwHcWQQKUAX-crijo&_nc_ht=scontent.oculuscdn.com&oh=00_AfAae2Zae7pcbPNDvKfS7BNgIKBf59-MDk-VZXgEP0bBZQ&oe=6581EF9B"
-        },
+        "icon": "38974606_984561889165247_2805343699900884654_n.jpg",
+        "banner": "38974753_1097668007885062_2241216132730137338_n.jpg",
+        "logo_portrait": "com.overlay.figmin.prod_logo_portrait.jpg",
+        "logo_landscape": "com.overlay.figmin.prod_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 87,
         "rating": 4.448275862068965,
         "is_available": true,

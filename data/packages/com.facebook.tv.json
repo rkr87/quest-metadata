@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2018-06-18T00:00:00",
         "description": "Facebook Watch — A new video experience that invites you to be part of the action with your favorite entertainment, sports, news, and creator videos. Catch up on original shows, videos from friends and Pages you follow, top live videos, recommended videos, and videos you’ve saved — all in one place.\n\nNeed more information? Visit https://www.facebook.com/help/watchfortv",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Facebook VR",
         "publisher": "Facebook",
         "genres": [
@@ -19,10 +19,10 @@
             "Film",
             "Utility"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -36,6 +36,7 @@
         ],
         "player_modes": [],
         "tags": [
+            "Entertainment: Top Free",
             "tvprovider"
         ],
         "hist": [
@@ -67,22 +68,17 @@
             "elements": [
                 "Users Interact"
             ],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12138850_1786874088228955_5598594603113512960_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6NPgvVatIvoAX-e_2Y4&_nc_ht=scontent.oculuscdn.com&oh=00_AfAp36r7MQq87nrkMJDa65yzPQXls6vJUUTXGXoJ3P9iMw&oe=658208C2"
+            "icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://facebook.com/watch",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/39001732_409034449969753_1676385392724541440_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=IlkDny8eg2kAX_cqLt-&_nc_ht=scontent.oculuscdn.com&oh=00_AfApl5dkhFFmNPy0InI4HHz5O4EaCAEMgLa3Q9znmumxZg&oe=658195EB",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/38974719_1708729292605306_5937724744064303104_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YzDioRvEc9YAX-oooD6&_nc_ht=scontent.oculuscdn.com&oh=00_AfDFtsUZRbJcVbpNNclLBiV3qUVAqM-wh6mNBXzEL3bjVQ&oe=65817760",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031364_1324596061031830_6544656777504358400_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=134vHeI7sKEAX-bMaAj&_nc_ht=scontent.oculuscdn.com&oh=00_AfDkXq4u8PRZPhxr7J_yUNwEywhUrhxmnYYPKcS2NNyg-w&oe=65821880",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031364_480991689367269_5742010102362144768_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Um074IyF0rAAX-f2CVR&_nc_ht=scontent.oculuscdn.com&oh=00_AfCHu9A_jx4DUftauqifRoNLJUD4og3N-cHN5M7Gn0abCA&oe=6581B52D",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974612_2617708695123212_7335470276580212736_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4JHp78E-198AX_O0fWY&_nc_ht=scontent.oculuscdn.com&oh=00_AfDoS3tCBmsmdqhi8hHEQV9jj-MJCiiX6rXE1OB5Q-fYzQ&oe=658101F0",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974461_2956784751061350_8918894117249875968_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Qym0NqUczAUAX-YHDGj&_nc_ht=scontent.oculuscdn.com&oh=00_AfC8d38kC4ChrpMaEeMcSmetuMBMtebSiqTaXrgETNCPCw&oe=6581294B",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38982718_490921774813386_3663354645310341120_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=m0j37KQLRCEAX9oBuBB&_nc_ht=scontent.oculuscdn.com&oh=00_AfBoQIQUxML-VoFwCUeRgSSpC-VYD_q7kdEVPPhPThi2tQ&oe=6581F987"
-        ],
+        "icon": "39001732_409034449969753_1676385392724541440_n.jpg",
+        "banner": "38974719_1708729292605306_5937724744064303104_n.jpg",
+        "logo_portrait": "com.facebook.tv_logo_portrait.jpg",
+        "logo_landscape": "com.facebook.tv_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 139,
         "rating": 2.7194244604316546,
         "is_available": true,

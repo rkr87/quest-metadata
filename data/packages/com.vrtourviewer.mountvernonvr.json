@@ -10,7 +10,7 @@
         "category": "APPS",
         "release_date": "2020-10-01T00:00:00",
         "description": "George Washington's Mount Vernon estate is one of the most iconic homes in the world. Now you can virtually visit this historic home and plantation in vivid detail.\n\nAt the heart of the Virtual Tour is a set of beautiful 360 degree panoramic images that you can fully control and view. \n\nTour every major room within the Mount Vernon Mansion, and see the upper garden, kitchen, the Fred W. Smith National Library for the Study of George Washington, and George Washington's Gristmill & Distillery.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "3DV / VR Tourviewer",
         "publisher": "HULLFILM",
         "genres": [
@@ -18,11 +18,11 @@
             "Educational",
             "360 Experience (Non-game)"
         ],
-        "input_devices": [
+        "devices": [
             "3DOF Controller",
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -64,22 +64,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.mountvernon.org/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/75367595_237771147308483_3288064499187313893_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=k6nUykpRXtMAX_OBDMI&_nc_ht=scontent.oculuscdn.com&oh=00_AfD46gri8BPOWr1MqEsZM-EJu3vvSyoU7NFwRejNAEhzLg&oe=658199D5",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/75221330_735738820613597_4431309456704069366_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HUP75PW73PcAX9geWh2&_nc_ht=scontent.oculuscdn.com&oh=00_AfApeT_ghQ9gnU_6lMR01r35z3AWZFqgVYWdmxKNCBLbcQ&oe=6581FB9E",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39031400_294461298447039_3662279754092970238_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Yy7mU-2tL-wAX-3HKit&_nc_ht=scontent.oculuscdn.com&oh=00_AfBWCmW_gKRHDrOs0rClC3KG47yG7CaqbLq0fXEo10deYQ&oe=65823773",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/39035387_949339272207148_6426206114676825394_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=QCUnShBbpxIAX_87ST2&_nc_ht=scontent.oculuscdn.com&oh=00_AfDD8-a8w5Ytyaall0pkuErsR90z7_Kkm2QfMx5KJipwLw&oe=65821680",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/38974518_4231167960257713_6628122952234042441_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=C4qQ4LVrA5EAX-_eu81&_nc_ht=scontent.oculuscdn.com&oh=00_AfCinnhTTm1ixTHCgA-muZIqY80yIkUBUrgDpuVygDH9Xw&oe=6582855A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/75230043_303584524227263_8615173444488858183_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EDd7K2-5_8IAX-cJpVQ&_nc_ht=scontent.oculuscdn.com&oh=00_AfBBadLaxOdxDb7U-zpJ2jUwq73caDBqtcXtsRvSwPOfvw&oe=6581666A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/86646352_1073277759856088_6090316593442584988_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ytAtNtWMQqkAX9n61ag&_nc_ht=scontent.oculuscdn.com&oh=00_AfCyxuZOeD8uK1VGckT_AP07IJSwCsmbmUhjRYyzDRpH5w&oe=6581CCD2"
-        ],
+        "icon": "75367595_237771147308483_3288064499187313893_n.jpg",
+        "banner": "75221330_735738820613597_4431309456704069366_n.jpg",
+        "logo_portrait": "com.vrtourviewer.mountvernonvr_logo_portrait.jpg",
+        "logo_landscape": "com.vrtourviewer.mountvernonvr_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 7,
         "rating": 4.428571428571429,
         "is_available": true,

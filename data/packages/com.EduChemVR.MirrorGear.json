@@ -10,15 +10,15 @@
         "category": "APPS",
         "release_date": "2017-12-12T00:00:00",
         "description": "Learn and experience chemistry on an atomic level. There are two modules: Stereochemistry and Molecular Geometries. \nTo enter one of the modules press and hold the Gear VR touchpad. Audio instructions are given, so head-phones are recommended for an optimal experience. In the scene, press and hold the touchpad to travel in the direction you are facing. Release the touchpad to stop/freeze the view. Double-click on the touchpad to select molecular objects and learn more about them. \nEnjoy!",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Magnus Norrby",
         "publisher": "EduChem VR Sweden AB",
         "genres": [
             "Educational",
             "Exploration"
         ],
-        "input_devices": [],
-        "games_modes": [
+        "devices": [],
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -60,22 +60,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://educhem-vr.com/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12427628_157042705054079_921011133391831040_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BkPlqTxu4EQAX8rsMqB&_nc_ht=scontent.oculuscdn.com&oh=00_AfCeWZMOY_LTQRA08ihvvtzeNbWJuYEa8qpI-VOXuR0tYQ&oe=65810653",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/11162716_133105987356269_4341104856895848448_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=JhTPquoX8qIAX_M5dft&_nc_ht=scontent.oculuscdn.com&oh=00_AfA_QalX9XL-1KtR_O6NKYvwqJUKY5_VeQMciiUR2930dw&oe=65824A25",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162737_296625710824352_1137361770101342208_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=HKRmmCq3sDIAX8neL6g&_nc_ht=scontent.oculuscdn.com&oh=00_AfBZzmg1bp9S0DIg_WUH8WBggXwytgsFgvER-imVXWBcQA&oe=6582D97C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410440_1734479506584521_3086350455089922048_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=mcObEeG216YAX_nefdJ&_nc_ht=scontent.oculuscdn.com&oh=00_AfD3DQSsVQRzTxXRnQkcuLXJvZyxpj21yDfhGMFDjtFU1g&oe=6581CF0C",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162766_304623786708960_5960570555580022784_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=hW3KQEI_a3UAX81B40Y&_nc_ht=scontent.oculuscdn.com&oh=00_AfATFC2Ajiehg3YyeSsAcaPlSN4VWAk--Vfsa5TLHrM8Vg&oe=658101D9",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162694_152533685493893_8730114443276451840_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=eHxWQSqzVSIAX8rucLP&_nc_oc=AQn6Nfpmx1nH13QF04N0-kjMxW7Y7nsLYvRrOmMQLXA1xGotZ11muHVY5imcN--OIUs&_nc_ht=scontent.oculuscdn.com&oh=00_AfDbEydEas8qfghJ_q8SeRPHpi9VOK8tUIcBuUrDYDfY5g&oe=6582B096",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/11162711_1985834191706068_7233967481977569280_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=9ghNRbwrPiYAX_W-N_F&_nc_ht=scontent.oculuscdn.com&oh=00_AfBPavu6tKoqFcBGQB52m4vVjB2Mt2f-Ppi10Z3xTmMHJg&oe=65821B93"
-        ],
+        "icon": "12427628_157042705054079_921011133391831040_n.jpg",
+        "banner": "11162716_133105987356269_4341104856895848448_n.jpg",
+        "logo_portrait": "com.educhemvr.mirrorgear_logo_portrait.jpg",
+        "logo_landscape": "com.educhemvr.mirrorgear_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 15,
         "rating": 2.0,
         "is_available": true,

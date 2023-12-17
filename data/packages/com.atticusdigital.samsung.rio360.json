@@ -10,7 +10,7 @@
         "category": "ENTERTAINMENT",
         "release_date": "2016-09-20T00:00:00",
         "description": "The Samsung Step into Rio app provides fans with an exclusive 360° tour of Team GB’s headquarters in Rio for the 2016 Olympic Games – British House. Located at the historic Parque Lage, British House is set at the foot of the Corcovado in the shadow of the iconic Christ the Redeemer statue and is the team’s home away from home in Rio.\n \nTake in this incredible location with the full 360 video experience and discover what Team GB will be up to and where GB Olympic athletes will be relaxing and celebrating their achievements during Games time.",
-        "markdown_desc": false,
+        "markdown": false,
         "developer": "Atticus Digital",
         "publisher": "Atticus Digital Ltd",
         "genres": [
@@ -18,10 +18,10 @@
             "Narrative",
             "Sport"
         ],
-        "input_devices": [
+        "devices": [
             "Touchpad"
         ],
-        "games_modes": [
+        "modes": [
             "Single User"
         ],
         "languages": [
@@ -65,22 +65,17 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
-            "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12482345_233896350376075_8399588285755686912_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=U7AfMsqPUrIAX_U1PQt&_nc_ht=scontent.oculuscdn.com&oh=00_AfCrWEHNF1Ar2Dq5GRBite797ISteIubE04WKKYF7QvLtw&oe=65814E4D"
+            "icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.samsung.com/uk/home/",
-        "icon": "https://scontent.oculuscdn.com/v/t64.5771-25/12410452_290081534685398_981873810_n.jpg?stp=dst-jpg_q92_s56x56&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=DgcGipPkCCgAX8Q8AHK&_nc_ht=scontent.oculuscdn.com&oh=00_AfCu9zBZZi-kktqwnLCs-_9_3zv7Xy8TmH74pTRl8tIfXA&oe=658178B6",
-        "banner": "https://scontent.oculuscdn.com/v/t64.5771-25/12410316_1636314763348081_1995561252_n.jpg?stp=dst-jpg_q92_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=F9QYU_4NlqsAX_xMSyj&_nc_ht=scontent.oculuscdn.com&oh=00_AfCBVn22fW156uw2wav_YOcYDPe8571c_gn4RwcUqvFPLQ&oe=6582D48A",
-        "screenshots": [
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12138898_1576834542612266_262526729_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=PX8VChHskEcAX8ljLxr&_nc_ht=scontent.oculuscdn.com&oh=00_AfAk3FBIB01cAqMB_xz228uVlpI4oIl4krAJ1Gpd33GdMg&oe=65814BFF",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12386364_1755519004666158_675855028_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Z0L4p8GLkKoAX87bFgA&_nc_ht=scontent.oculuscdn.com&oh=00_AfDwGS4C_DhNpVaWPWc4lFFjLW3B1PV44Lv9PkDxOf3THA&oe=6581721F",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12504632_159766724451052_1910005159_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=107&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=t3gqvRP6PzgAX8texOf&_nc_ht=scontent.oculuscdn.com&oh=00_AfC51sXfC5qeDRF3byOySLjU-UvEITxyJPHv0Xk6ne_z5w&oe=6582A272",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12410324_286698091697376_1982240871_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ZYf509n7KHAAX-wGT3o&_nc_ht=scontent.oculuscdn.com&oh=00_AfDOLj9TePHPLHRoT1ZVQRf0Y9En5uji-sWfiSRsTXpueA&oe=6581AE8A",
-            "https://scontent.oculuscdn.com/v/t64.5771-25/12680355_321008534898379_859611664_n.jpg?stp=dst-jpg_q92_s1440x1440&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=hK8r7KENxj0AX-x38cy&_nc_ht=scontent.oculuscdn.com&oh=00_AfAqL5KKAhStRir5mbhIMNwkMR9qGmv090wr0LxTRkBSCA&oe=65810022"
-        ],
+        "icon": "12410452_290081534685398_981873810_n.jpg",
+        "banner": "12410316_1636314763348081_1995561252_n.jpg",
+        "logo_portrait": "com.atticusdigital.samsung.rio360_logo_portrait.jpg",
+        "logo_landscape": "com.atticusdigital.samsung.rio360_logo_landscape.jpg",
         "has_ads": false,
-        "require_360_sensor": false,
+        "sensor_req": false,
         "votes": 59,
         "rating": 3.8813559322033897,
         "is_available": true,
