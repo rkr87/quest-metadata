@@ -81,7 +81,8 @@ class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
-    ids: list[str] = Field(validation_alias='id')
+    id: str
+    ids: list[str] | None = None
     name: str = Field(validation_alias='display_name')
     app_name: str = Field(validation_alias='appName')
     type_name: str = Field(validation_alias='__typename')
