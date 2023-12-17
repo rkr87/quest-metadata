@@ -20,6 +20,7 @@ from typing import Annotated, Any, ClassVar
 from pydantic import AliasPath, Field, computed_field, validator
 
 from base.base_model import BaseModel, RootModel
+from utils.math_utils import percentile
 
 
 class MetaResource(RootModel[str]):
@@ -163,6 +164,24 @@ class Item(BaseModel):
             rating: int = sum(r.votes * r.rating for r in self.hist)
             return rating / self.votes
         return 0
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def weighted_rating(self) -> float:
+        """
+        Calculate the weighted rating for the item based on a combination of
+        individual ratings, total votes, and a global average.
+
+        The weighted rating is computed using the following formula:
+            (item_rating * item_votes + global_avg * confidence) /
+                (item_votes + confidence)
+
+        Returns:
+            float: The weighted rating for the item.
+        """
+        avg: float = Item.global_rating / sum(Item.global_votes)
+        conf: float = percentile(Item.global_votes, 25)
+        return (self.rating * self.votes + avg * conf) / (self.votes + conf)
 
     @computed_field  # type: ignore[misc]
     @property
