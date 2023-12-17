@@ -132,6 +132,8 @@ class MetaParser(NonInstantiable):
             base (Item): Base item to be updated.
             update (Item): Update item containing additional information.
         """
+        if base.additional_ids is None:
+            base.additional_ids = []
         cls._merge_list(base.additional_ids, [update.id])
         cls._merge_list(base.genres, update.genres)
         cls._merge_list(base.devices, update.devices)
@@ -214,8 +216,8 @@ class MetaParser(NonInstantiable):
     @classmethod
     def _merge_list(
         cls,
-        base: list[_KT] | None,
-        update: list[_KT] | None
+        base: list[_KT],
+        update: list[_KT]
     ) -> None:
         """
         Update a list, ensuring no duplicate items are added.
@@ -224,8 +226,4 @@ class MetaParser(NonInstantiable):
             base (list[str] | None): Base list to be updated.
             update (list[str] | None): Update list containing additional items.
         """
-        if update is not None:
-            if base is None:
-                base = update
-                return
-            base.extend(item for item in update if item not in base)
+        base.extend(item for item in update if item not in base)
