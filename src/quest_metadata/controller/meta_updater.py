@@ -17,7 +17,7 @@ from constants.constants import DATA
 from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApp, LocalApps
-from data.model.meta_response import MetaResponse
+from data.model.meta_response import Item, MetaResponse
 from data.web.meta_wrapper import MetaWrapper
 
 
@@ -59,6 +59,8 @@ class MetaUpdater(NonInstantiable):
                 if app.logos is not None:
                     result.data.logo_landscape = app.logos.landscape
                     result.data.logo_portrait = app.logos.portrait
+                Item.global_rating += result.data.rating * result.data.votes
+                Item.global_votes.append(result.data.votes)
                 await result.save_json(f"{DATA}{package}.json")
                 await meta_wrapper.get_resources(result.data.resources)
                 await app_manager.update(
