@@ -129,6 +129,10 @@ class Item(BaseModel):
         validation_alias=AliasPath("current_offer", "price", "offset_amount"),
         exclude=True
     )
+    is_demo_of: str | None = Field(
+        default=None,
+        validation_alias=AliasPath("is_demo_of", "id"),
+    )
 
     @computed_field  # type: ignore[misc]
     @property
