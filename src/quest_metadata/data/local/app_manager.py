@@ -17,9 +17,10 @@ from typing_extensions import final
 
 from base.base_class import BaseClass
 from base.singleton import Singleton
+from constants.constants import DATA
 from data.model.local_apps import LocalApp, LocalApps, Logos
 
-APPS: str = "./data/apps.json"
+APPS: str = f"{DATA}_apps.json"
 
 
 @final

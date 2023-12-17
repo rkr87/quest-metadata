@@ -14,5 +14,6 @@ VERSION (str):
 """
 
 META_DOMAIN = "https://www.meta.com"
-RESOURCES = "./data/resources/"
+RESOURCES = "res/"
+DATA: str = "data/"
 VERSION = "0.2.0"
