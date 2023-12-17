@@ -199,20 +199,6 @@ class Item(BaseModel):
             consol['iarc_icon'] = self.iarc.iarc_icon
         return consol
 
-    @validator("ids", pre=True)
-    @classmethod
-    def id_to_list(cls, val: str) -> list[str]:
-        """
-        Convert a single item ID to a list of item IDs.
-
-        Args:
-            val (str): The item ID.
-
-        Returns:
-            list[str]: List containing the item ID.
-        """
-        return [val]
-
     @validator("release_date", pre=True)
     @classmethod
     def to_datetime(cls, val: str | None) -> datetime:
