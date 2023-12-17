@@ -25,7 +25,7 @@ Attributes:
 from urllib.parse import urlencode
 
 from aiofiles import open as aopen
-from aiofiles.os import path
+from aiofiles.os import makedirs, path
 from aiohttp import ClientResponse
 from typing_extensions import final
 
@@ -104,16 +104,18 @@ class MetaWrapper(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMiss
 
         return [y for x in uids if (y := await fetch(x))]
 
-    async def get_resources(self, resources: list[MetaResource]) -> None:
+    async def get_resources(self, resources: dict[str, MetaResource]) -> None:
         """
         Fetch and save resources associated with store items.
 
         Args:
             resources (List[MetaResource]): List of MetaResource objects.
         """
-        for res in resources:
-            fp: str = f"{RESOURCES}{res}"
-            if not await path.exists(fp):
-                if data := await self._client.get(res.url):
-                    async with aopen(fp, 'wb') as file:
-                        await file.write(await data.read())
+        for res_type, res in resources.items():
+            directory: str = f"{RESOURCES}{res_type}/"
+            await makedirs(directory, exist_ok=True)
+            if await path.exists(f"{directory}{res}"):
+                continue
+            if data := await self._client.get(res.url):
+                async with aopen(f"{directory}{res}", 'wb') as file:
+                    await file.write(await data.read())

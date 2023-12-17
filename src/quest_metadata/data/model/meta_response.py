@@ -64,7 +64,7 @@ class _IarcRating(BaseModel):
     age_rating: str = Field(validation_alias='age_rating_text')
     descriptors: list[str]
     elements: list[str] = Field(validation_alias='interactive_elements')
-    icon: MetaResource = Field(
+    iarc_icon: MetaResource = Field(
         validation_alias=AliasPath('small_age_rating_image', 'uri')
     )
 
@@ -179,16 +179,19 @@ class Item(BaseModel):
         return self.price is not None and self.price == 0
 
     @property
-    def resources(self) -> list[MetaResource]:
+    def resources(self) -> dict[str, MetaResource]:
         """
         Get a list of MetaResources associated with the item.
 
         Returns:
             list[MetaResource]: List of MetaResources.
         """
-        consol: list[MetaResource] = [self.icon, self.banner]
+        consol: dict[str, MetaResource] = {
+            "icon": self.icon,
+            "banner": self.banner
+        }
         if self.iarc is not None:
-            consol.append(self.iarc.icon)
+            consol['iarc_icon'] = self.iarc.iarc_icon
         return consol
 
     @validator("ids", pre=True)
