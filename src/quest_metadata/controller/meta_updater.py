@@ -8,9 +8,7 @@ It uses a MetaWrapper to fetch meta information for each
 app and updates the local app manager accordingly.
 """
 import asyncio
-from collections.abc import Coroutine
 from logging import Logger, getLogger
-from typing import Any
 
 from typing_extensions import final
 
@@ -49,8 +47,8 @@ class MetaUpdater(NonInstantiable):
                 fetching meta information.
         """
         logger: Logger = getLogger(__name__)
-        local_apps: LocalApps = app_manager.get()
-        logger.info("Fetching %s apps from meta.com", len(local_apps))
+        apps: LocalApps = app_manager.get()
+        logger.info("Fetching %s apps from meta.com", len(apps))
 
         async def scrape(package: str, app: LocalApp) -> None:
             responses: list[MetaResponse] = await meta_wrapper.get(
@@ -72,7 +70,4 @@ class MetaUpdater(NonInstantiable):
             else:
                 logger.info("No responses for %s", package)
 
-        tasks: list[Coroutine[Any, Any, None]] = []
-        for package, app in local_apps.items():
-            tasks.append(scrape(package, app))
-        await asyncio.gather(*tasks)
+        await asyncio.gather(*[scrape(pkg, app) for pkg, app in apps.items()])
