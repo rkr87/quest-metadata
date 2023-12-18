@@ -318,5 +318,6 @@ class MetaResponse(BaseModel):
     """
     Pydantic model for representing a meta response.
     """
+    package: str | None = None
     data: Annotated[Item, Field(validation_alias=AliasPath("data", "item"))]
     errors: list[Error] | None = None
