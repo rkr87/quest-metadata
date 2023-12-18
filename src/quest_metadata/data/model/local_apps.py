@@ -44,6 +44,7 @@ class LocalApp(BaseModel):
     updated: str | None = None
     is_available: bool | None = None
     is_free: bool | None = None
+    is_demo: bool | None = None
     logos: Logos | None = Field(default=None, exclude=True)
 
 
