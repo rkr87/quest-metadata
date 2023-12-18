@@ -15,11 +15,13 @@ Usage:
 """
 from datetime import datetime
 from logging import Logger, getLogger
-from typing import Annotated, Any
+from typing import Annotated, Any, ClassVar
 
 from pydantic import AliasPath, Field, computed_field, validator
 
 from base.base_model import BaseModel, RootModel
+from data.model.local_apps import Logos
+from utils.math_utils import percentile
 
 
 class MetaResource(RootModel[str]):
@@ -81,6 +83,9 @@ class Item(BaseModel):
     """
     Pydantic model for representing an item.
     """
+    global_rating: ClassVar[float] = 0
+    global_votes: ClassVar[list[int]] = []
+
     id: str
     additional_ids: list[str] | None = None
     name: str = Field(validation_alias='display_name')
@@ -160,6 +165,24 @@ class Item(BaseModel):
             rating: int = sum(r.votes * r.rating for r in self.hist)
             return rating / self.votes
         return 0
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def weighted_rating(self) -> float:
+        """
+        Calculate the weighted rating for the item based on a combination of
+        individual ratings, total votes, and a global average.
+
+        The weighted rating is computed using the following formula:
+            (item_rating * item_votes + global_avg * confidence) /
+                (item_votes + confidence)
+
+        Returns:
+            float: The weighted rating for the item.
+        """
+        avg: float = Item.global_rating / sum(Item.global_votes)
+        conf: float = percentile(Item.global_votes, 25)
+        return (self.rating * self.votes + avg * conf) / (self.votes + conf)
 
     @computed_field  # type: ignore[misc]
     @property
@@ -265,6 +288,21 @@ class Item(BaseModel):
         """
         return [x['name'] for x in val]
 
+    def add_github_logos(self, logos: Logos | None) -> None:
+        """
+        Add GitHub logos to the item.
+
+        This method sets the landscape and portrait logos of the item
+        based on the provided `Logos` instance.
+
+        Args:
+            logos (Logos | None): The GitHub logos information.
+            If None, no logos will be added to the item.
+        """
+        if logos is not None:
+            self.logo_landscape = logos.landscape
+            self.logo_portrait = logos.portrait
+
 
 class Error(BaseModel):
     """
@@ -280,5 +318,6 @@ class MetaResponse(BaseModel):
     """
     Pydantic model for representing a meta response.
     """
+    package: str | None = None
     data: Annotated[Item, Field(validation_alias=AliasPath("data", "item"))]
     errors: list[Error] | None = None

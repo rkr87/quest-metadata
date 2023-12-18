@@ -49,24 +49,33 @@ class MetaUpdater(NonInstantiable):
         apps: LocalApps = app_manager.get()
         logger.info("Fetching %s apps from meta.com", len(apps))
 
-        async def scrape(package: str, app: LocalApp) -> None:
-            responses: list[MetaResponse] = await meta_wrapper.get(
-                app.store_ids
-            )
-            logger.debug("Fetching: %s", app.app_name)
-            if len(responses) > 0:
-                result: MetaResponse = MetaParser.parse(responses, package)
-                if app.logos is not None:
-                    result.data.logo_landscape = app.logos.landscape
-                    result.data.logo_portrait = app.logos.portrait
-                await result.save_json(f"{DATA}{package}.json")
-                await meta_wrapper.get_resources(result.data.resources)
-                await app_manager.update(
-                    package,
-                    result.data.is_available,
-                    result.data.is_free
-                )
-            else:
-                logger.info("No responses for %s", package)
+        async def scrape(package: str, app: LocalApp) -> MetaResponse | None:
+            responses: list[MetaResponse] = \
+                await meta_wrapper.get(app.store_ids)
 
-        await asyncio.gather(*[scrape(pkg, app) for pkg, app in apps.items()])
+            logger.debug("Fetching: %s", app.app_name)
+
+            if len(responses) == 0:
+                logger.info("No responses for %s", package)
+                return None
+
+            result: MetaResponse = MetaParser.parse(
+                responses,
+                package,
+                app
+            )
+            await meta_wrapper.get_resources(result.data.resources)
+            await app_manager.update(
+                package,
+                result.data.is_available,
+                result.data.is_free
+            )
+
+            return result
+
+        tasks: list[MetaResponse | None] = \
+            await asyncio.gather(*[scrape(p, a) for p, a in apps.items()])
+
+        await asyncio.gather(
+            *[r.save_json(f"{DATA}{r.package}.json") for r in tasks if r]
+        )

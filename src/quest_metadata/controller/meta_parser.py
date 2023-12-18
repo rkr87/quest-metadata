@@ -17,6 +17,7 @@ from typing import TypeVar
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
+from data.model.local_apps import LocalApp
 from data.model.meta_response import Item, MetaResponse, RatingHist
 
 
@@ -34,38 +35,63 @@ class MetaParser(NonInstantiable):
     def parse(
         cls,
         meta_responses: list[MetaResponse],
-        package: str
+        package: str,
+        app: LocalApp
     ) -> MetaResponse:
         """
         Parse and consolidate meta information from a list of MetaResponse
-        objects.
+        objects into a single MetaResponse object.
+
+        This method takes a list of MetaResponse objects and consolidates
+        them into a single MetaResponse object. The consolidation process
+        involves identifying a base result from the list, merging additional
+        information from other results into the base, and updating global
+        rating statistics.
 
         Args:
-            meta_responses (list[MetaResponse]): List of MetaResponse objects.
+            meta_responses (list[MetaResponse]): List of MetaResponse objects
+                to be consolidated.
             package (str): Package identifier.
+            app (LocalApp): LocalApp instance containing additional information
+                about the app.
 
         Returns:
             MetaResponse: Consolidated MetaResponse object.
         """
-        consol: MetaResponse
-        if len(meta_responses) == 1:
-            consol = meta_responses[0]
-        else:
-            base: tuple[MetaResponse, list[MetaResponse]]
-            base = cls._identify_base(meta_responses)
+        consol: MetaResponse = meta_responses[0]
+        if len(meta_responses) > 1:
+            base: tuple[MetaResponse, list[MetaResponse]] = cls._identify_base(
+                meta_responses
+            )
             consol = base[0]
             for merge in base[1]:
                 cls._consolidate_results(consol.data, merge.data)
-        if consol.errors is not None and len(consol.errors) > 0:
-            logger: Logger = getLogger(__name__)
-            logger.info("Result contains errors: %s", package)
-            for error in consol.errors:
-                logger.info("%s", error.model_dump_json(
-                    indent=4,
-                    exclude_unset=True,
-                    exclude_none=True)
-                )
+        cls._handle_errors(consol, package)
+        consol.data.add_github_logos(app.logos)
+        consol.package = package
+        Item.global_rating += consol.data.rating * consol.data.votes
+        Item.global_votes.append(consol.data.votes)
         return consol
+
+    @classmethod
+    def _handle_errors(cls, response: MetaResponse, package: str) -> None:
+        """
+        Handle errors in the consolidated MetaResponse.
+
+        Args:
+            response (MetaResponse): Consolidated MetaResponse object.
+            package (str): Package identifier.
+        """
+        if response.errors is None or len(response.errors) == 0:
+            return
+        logger: Logger = getLogger(__name__)
+        logger.info("Result contains errors: %s", package)
+        for error in response.errors:
+            logger.info("%s", error.model_dump_json(
+                indent=4,
+                exclude_unset=True,
+                exclude_none=True)
+            )
 
     @classmethod
     def _identify_base(
