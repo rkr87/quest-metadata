@@ -20,6 +20,7 @@ from typing import Annotated, Any, ClassVar
 from pydantic import AliasPath, Field, computed_field, validator
 
 from base.base_model import BaseModel, RootModel
+from data.model.local_apps import Logos
 from utils.math_utils import percentile
 
 
@@ -286,6 +287,21 @@ class Item(BaseModel):
             list[str]: List of supported in-app languages.
         """
         return [x['name'] for x in val]
+
+    def add_github_logos(self, logos: Logos | None) -> None:
+        """
+        Add GitHub logos to the item.
+
+        This method sets the landscape and portrait logos of the item
+        based on the provided `Logos` instance.
+
+        Args:
+            logos (Logos | None): The GitHub logos information.
+            If None, no logos will be added to the item.
+        """
+        if logos is not None:
+            self.logo_landscape = logos.landscape
+            self.logo_portrait = logos.portrait
 
 
 class Error(BaseModel):
