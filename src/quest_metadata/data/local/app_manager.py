@@ -121,7 +121,8 @@ class AppManager(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
         self,
         store_id: str,
         is_available: bool,
-        is_free: bool
+        is_free: bool,
+        is_demo: bool
     ) -> None:
         """
         Update the timestamp and status of a single app.
@@ -130,12 +131,15 @@ class AppManager(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
             store_id (str): The ID of the app to update.
             is_available (bool): The availability status of the app.
             is_free (bool): The pricing status of the app.
+            is_demo (bool): Whether the app is a demo version of
+                another app.
         """
         time: str = datetime.now().isoformat()
         if store_id in self._apps:
             self._apps[store_id].updated = time
             self._apps[store_id].is_free = is_free
             self._apps[store_id].is_available = is_available
+            self._apps[store_id].is_demo = is_demo
         await self.save()
 
     def add_logos(self, store_id: str, logos: Logos) -> None:

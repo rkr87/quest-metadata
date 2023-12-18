@@ -68,7 +68,8 @@ class MetaUpdater(NonInstantiable):
             await app_manager.update(
                 package,
                 result.data.is_available,
-                result.data.is_free
+                result.data.is_free,
+                result.data.is_demo_of is not None
             )
 
             return result
