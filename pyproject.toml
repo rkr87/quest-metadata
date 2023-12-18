@@ -782,11 +782,10 @@ init-hook = "import sys, os; sys.path.insert(0, os.path.join('src','quest_metada
 source-roots = ["src/quest-metadata"]
 
 [tool.pylint.'MASTER']
-disable = "R0903, C0199"
+disable = "R0903, C0199, C0411"
 enable = "W0614,C0302,R0915,E1121"
 ignore-patterns = ".+\\.pyi"
-extension-pkg-allow-list = ["dependency_injector", "uplink"]
-extension-pkg-whitelist = ["pydantic"]
+extension-pkg-whitelist = "pydantic"
 
 [tool.pylint.'FORMAT']
 max-line-length = 79
@@ -794,7 +793,7 @@ max-module-lines = 350
 ignore-long-lines = "^(.*(((#\\s*(pylint|mypy|pyright|type))|(['\"]http)).*))$"
 
 [tool.pylint.'DESIGN']
-min-public-methods = 1
+# min-public-methods = 1
 max-statements = 20
 max-args = 5
 max-locals = 10
