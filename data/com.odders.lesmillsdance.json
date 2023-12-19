@@ -1,4 +1,5 @@
 {
+    "package": "com.odders.lesmillsdance",
     "data": {
         "id": "6212696172191478",
         "name": "LES MILLS XR DANCE",
@@ -61,7 +62,7 @@
             },
             {
                 "rating": 3,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 4,
@@ -69,13 +70,15 @@
             },
             {
                 "rating": 5,
-                "votes": 42
+                "votes": 44
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
-            "descriptors": [],
+            "descriptors": [
+                "Alcohol Reference"
+            ],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
@@ -88,8 +91,9 @@
         "logo_landscape": "com.odders.lesmillsdance.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 52,
-        "rating": 4.6923076923076925,
+        "votes": 55,
+        "rating": 4.672727272727273,
+        "weighted_rating": 4.566258437435058,
         "is_available": true,
         "is_free": false
     }

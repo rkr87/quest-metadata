@@ -1,4 +1,5 @@
 {
+    "package": "com.myr.shootout",
     "data": {
         "id": "5555992527808989",
         "name": "SHOOTOUT",
@@ -35,6 +36,10 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Arcade",
+            "Action",
+            "Social",
+            "First on Quest",
             "New",
             "Free",
             "Goofy gunplay",
@@ -47,7 +52,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 11
+                "votes": 12
             },
             {
                 "rating": 2,
@@ -59,7 +64,7 @@
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 5,
@@ -68,12 +73,14 @@
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
-            "age_rating": "Everyone",
-            "descriptors": [],
+            "age_rating": "Teen",
+            "descriptors": [
+                "Violence"
+            ],
             "elements": [
                 "Users Interact"
             ],
-            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
@@ -84,8 +91,9 @@
         "logo_landscape": "com.myr.shootout.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 84,
-        "rating": 4.142857142857143,
+        "votes": 86,
+        "rating": 4.104651162790698,
+        "weighted_rating": 4.132410708287565,
         "is_available": true,
         "is_free": true
     }
