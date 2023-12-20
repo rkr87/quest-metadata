@@ -163,7 +163,7 @@ class Item(BaseModel):
         """
         if self.votes != 0:
             rating: int = sum(r.votes * r.rating for r in self.hist)
-            return rating / self.votes
+            return round(rating / self.votes, 4)
         return 0
 
     @computed_field  # type: ignore[misc]
@@ -180,9 +180,9 @@ class Item(BaseModel):
         Returns:
             float: The weighted rating for the item.
         """
-        avg: float = Item.global_rating / sum(Item.global_votes)
-        conf: float = percentile(Item.global_votes, 25)
-        return (self.rating * self.votes + avg * conf) / (self.votes + conf)
+        m: float = Item.global_rating / sum(Item.global_votes)
+        c: float = percentile(Item.global_votes, 25)
+        return round((self.rating * self.votes + m * c) / (self.votes + c), 4)
 
     @computed_field  # type: ignore[misc]
     @property
