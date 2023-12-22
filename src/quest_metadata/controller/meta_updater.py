@@ -17,8 +17,9 @@ from constants.constants import DATA
 from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApp, LocalApps
-from data.model.meta_response import MetaResponse
+from data.model.meta_response import Item, MetaResponse
 from data.web.meta_wrapper import MetaWrapper
+from utils.math_utils import percentile
 
 
 @final
@@ -76,6 +77,14 @@ class MetaUpdater(NonInstantiable):
 
         tasks: list[MetaResponse | None] = \
             await asyncio.gather(*[scrape(p, a) for p, a in apps.items()])
+
+        votes: list[int] = [i.data.votes for i in tasks if i]
+        Item.global_rating = sum(
+            i.data.rating * i.data.votes
+            for i in tasks if i
+        )
+        Item.global_votes = sum(votes)
+        Item.lower_quartile_votes = percentile(votes, 25)
 
         await asyncio.gather(
             *[r.save_json(f"{DATA}{r.package}.json") for r in tasks if r]

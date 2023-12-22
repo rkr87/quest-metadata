@@ -69,8 +69,6 @@ class MetaParser(NonInstantiable):
         cls._handle_errors(consol, package)
         consol.data.add_github_logos(app.logos)
         consol.package = package
-        Item.global_rating += consol.data.rating * consol.data.votes
-        Item.global_votes.append(consol.data.votes)
         return consol
 
     @classmethod
