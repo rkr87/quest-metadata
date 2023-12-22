@@ -48,8 +48,8 @@ class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
 
     async def open_session(
         self,
-        connection_limit: int = 100,
-        timeout: int = 30
+        connection_limit: int = 50,
+        timeout: int = 100
     ) -> None:
         """
         Opens a new aiohttp client session.
