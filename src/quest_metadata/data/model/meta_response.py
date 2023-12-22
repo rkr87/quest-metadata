@@ -99,7 +99,7 @@ class Item(BaseModel):
     )
     description: str = Field(validation_alias='display_long_description')
     markdown: bool = Field(validation_alias='long_description_uses_markdown')
-    developer: str = Field(validation_alias='developer_name')
+    developer: str | None = Field(validation_alias='developer_name')
     publisher: str = Field(validation_alias='publisher_name')
     genres: list[str] = Field(validation_alias='genre_names')
     devices: list[str] = Field(validation_alias='supported_input_device_names')
@@ -240,7 +240,8 @@ class Item(BaseModel):
 
         date_formats: list[str] = [
             "%d %b %Y",
-            "%b %d, %Y"
+            "%b %d, %Y",
+            "%b %Y"
         ]
         for fmt in date_formats:
             try:
