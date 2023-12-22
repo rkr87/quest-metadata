@@ -27,6 +27,7 @@ from urllib.parse import urlencode
 from aiofiles import open as aopen
 from aiofiles.os import makedirs, path
 from aiohttp import ClientResponse
+from pydantic import ValidationError
 from typing_extensions import final
 
 from base.base_class import BaseClass
@@ -100,7 +101,10 @@ class MetaWrapper(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMiss
                 return None
 
             text = await resp.json(content_type='text/html; charset="utf-8"')
-            return MetaResponse.model_validate(text)
+            try:
+                return MetaResponse.model_validate(text)
+            except ValidationError:
+                return None
 
         return [y for x in uids if (y := await fetch(x))]
 
