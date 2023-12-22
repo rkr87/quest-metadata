@@ -58,7 +58,12 @@ class MetaUpdater(NonInstantiable):
             logger.debug("Fetching: %s", app.app_name)
 
             if len(responses) == 0:
-                logger.info("No responses for %s", package)
+                logger.info(
+                    "No responses for %s (%s) %s",
+                    app.app_name,
+                    package,
+                    app.store_ids
+                )
                 return None
 
             result: MetaResponse = MetaParser.parse(
