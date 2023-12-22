@@ -163,7 +163,7 @@ class Item(BaseModel):
         """
         if self.votes != 0:
             rating: int = sum(r.votes * r.rating for r in self.hist)
-            return round(rating / self.votes, 4)
+            return round(rating / self.votes, 6)
         return 0
 
     @computed_field  # type: ignore[misc]
@@ -182,7 +182,7 @@ class Item(BaseModel):
         """
         m: float = Item.global_rating / sum(Item.global_votes)
         c: float = percentile(Item.global_votes, 25)
-        return round((self.rating * self.votes + m * c) / (self.votes + c), 4)
+        return round((self.rating * self.votes + m * c) / (self.votes + c), 6)
 
     @computed_field  # type: ignore[misc]
     @property
