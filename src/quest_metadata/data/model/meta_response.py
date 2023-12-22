@@ -21,7 +21,6 @@ from pydantic import AliasPath, Field, computed_field, validator
 
 from base.base_model import BaseModel, RootModel
 from data.model.local_apps import Logos
-from utils.math_utils import percentile
 
 
 class MetaResource(RootModel[str]):
@@ -84,7 +83,8 @@ class Item(BaseModel):
     Pydantic model for representing an item.
     """
     global_rating: ClassVar[float] = 0
-    global_votes: ClassVar[list[int]] = []
+    global_votes: ClassVar[int] = 0
+    lower_quartile_votes: ClassVar[float] = 0
 
     id: str
     additional_ids: list[str] | None = None
@@ -163,7 +163,7 @@ class Item(BaseModel):
         """
         if self.votes != 0:
             rating: int = sum(r.votes * r.rating for r in self.hist)
-            return round(rating / self.votes, 4)
+            return round(rating / self.votes, 6)
         return 0
 
     @computed_field  # type: ignore[misc]
@@ -180,9 +180,9 @@ class Item(BaseModel):
         Returns:
             float: The weighted rating for the item.
         """
-        m: float = Item.global_rating / sum(Item.global_votes)
-        c: float = percentile(Item.global_votes, 25)
-        return round((self.rating * self.votes + m * c) / (self.votes + c), 4)
+        m: float = Item.global_rating / Item.global_votes
+        c: float = Item.lower_quartile_votes
+        return round((self.rating * self.votes + m * c) / (self.votes + c), 6)
 
     @computed_field  # type: ignore[misc]
     @property
