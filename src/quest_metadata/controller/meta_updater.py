@@ -78,6 +78,8 @@ class MetaUpdater(NonInstantiable):
         tasks: list[MetaResponse | None] = \
             await asyncio.gather(*[scrape(p, a) for p, a in apps.items()])
 
+        await app_manager.save()
+
         votes: list[int] = [i.data.votes for i in tasks if i]
         Item.global_rating = sum(
             i.data.rating * i.data.votes

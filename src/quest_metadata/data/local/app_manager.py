@@ -140,7 +140,6 @@ class AppManager(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
             self._apps[store_id].is_free = is_free
             self._apps[store_id].is_available = is_available
             self._apps[store_id].is_demo = is_demo
-        await self.save()
 
     def add_logos(self, store_id: str, logos: Logos) -> None:
         """
