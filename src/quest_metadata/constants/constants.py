@@ -9,11 +9,15 @@ META_DOMAIN (str):
 RESOURCES (str):
     The path to the directory where resources are stored.
 
+DATA (str):
+    The path to the directory where data files are stored.
+
 VERSION (str):
     The version number of the application.
 """
+from utils.env_utils import github_actions
 
-META_DOMAIN = "https://www.meta.com"
-RESOURCES = "res/"
-DATA: str = "data/"
+META_DOMAIN: str = "https://www.meta.com"
+RESOURCES: str = github_actions("res/")
+DATA: str = github_actions("data/")
 VERSION = "0.2.0"
