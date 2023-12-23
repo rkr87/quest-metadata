@@ -2,6 +2,9 @@
     "package": "com.steelcrategames.keeptalkingandnobodyexplodes",
     "data": {
         "id": "2010043642376517",
+        "additional_ids": [
+            "814885695293688"
+        ],
         "name": "Keep Talking and Nobody Explodes",
         "app_name": "Keep Talking and Nobody Explodes",
         "type_name": "Application",
@@ -17,7 +20,10 @@
             "Puzzle"
         ],
         "devices": [
-            "Touch Controllers"
+            "Touch Controllers",
+            "Gamepad",
+            "Touchpad",
+            "3DOF Controller"
         ],
         "modes": [
             "Co-op"
@@ -71,28 +77,30 @@
             "2 Player Games",
             "Holiday Sale 2023 [casual social shelf]",
             "NUX Puzzles",
-            "Puzzle"
+            "Puzzle",
+            "Multiplayer & Social",
+            "Hang Out with Friends"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 34
+                "votes": 424
             },
             {
                 "rating": 2,
-                "votes": 8
+                "votes": 168
             },
             {
                 "rating": 3,
-                "votes": 12
+                "votes": 239
             },
             {
                 "rating": 4,
-                "votes": 69
+                "votes": 669
             },
             {
                 "rating": 5,
-                "votes": 429
+                "votes": 3522
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -113,9 +121,9 @@
         "logo_landscape": "com.steelcrategames.keeptalkingandnobodyexplodes.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 552,
-        "rating": 4.5417,
-        "weighted_rating": 4.5321,
+        "votes": 5022,
+        "rating": 4.333532,
+        "weighted_rating": 4.333226,
         "is_available": true,
         "is_free": false
     }
