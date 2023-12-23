@@ -24,7 +24,6 @@ Attributes:
     META_DOMAIN (str): The base URL of the Meta domain.
 """
 import asyncio
-import os
 from logging import Logger, getLogger
 
 from playwright._impl._api_structures import Cookie
@@ -36,6 +35,7 @@ from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
 from constants.constants import META_DOMAIN
+from utils.env_utils import github_actions
 
 REQ_COOKIE = 'gu'
 TIMEOUT_SECONDS = 20
@@ -69,7 +69,7 @@ class MetaCookie(NonInstantiable):
             page: Page = await context.new_page()
             await page.goto(META_DOMAIN)
 
-            if not MetaCookie._github_actions():
+            if not github_actions():
                 await MetaCookie._handle_cookie_consent(page)
             await MetaCookie._wait_for_cookie(context)
             return await MetaCookie._get_cookie_string(context)
@@ -140,16 +140,3 @@ class MetaCookie(NonInstantiable):
         """
         cookies: list[Cookie] = await context.cookies()
         return ";".join([f"{c.get('name')}={c.get('value')}" for c in cookies])
-
-    @staticmethod
-    def _github_actions() -> bool:
-        """
-        Check if the code is running in a GitHub Actions environment.
-
-        Returns:
-            bool: True if running in GitHub Actions, False otherwise.
-        """
-        return (
-            os.environ.get("CI") is not None and
-            os.environ.get("GITHUB_RUN_ID") is not None
-        )
