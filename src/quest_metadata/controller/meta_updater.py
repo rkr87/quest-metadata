@@ -51,6 +51,7 @@ class MetaUpdater(NonInstantiable):
         logger.info("Fetching %s apps from meta.com", len(apps))
 
         async def scrape(package: str, app: LocalApp) -> MetaResponse | None:
+            await asyncio.sleep(1 / 50)
             responses: list[MetaResponse] = \
                 await meta_wrapper.get(app.store_ids)
 
