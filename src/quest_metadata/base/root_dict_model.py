@@ -83,3 +83,20 @@ class RootDictModel(ABC, RootModel[dict[_KT, _VT]]):
         Return a list of all key-value pairs in the dictionary.
         """
         return list(self.root.items())
+
+    def update(self, new_dict: "RootDictModel[_KT, _VT]") -> None:
+        """
+        Update the dictionary with the key-value pairs from another dictionary.
+
+        Args:
+            new_dict (RootDictModel[_KT, _VT]): Another dictionary to update
+                from.
+        """
+        self.root.update(new_dict)
+
+    def get(self, key: _KT) -> None | _VT:
+        """
+        Get the value associated with the specified key, or None if not
+        present.
+        """
+        return self.root.get(key)
