@@ -148,8 +148,9 @@ class Item(BaseModel):
             float: The weighted rating for the item.
         """
         m: float = Item.global_rating / Item.global_votes
-        c: float = Item.lower_quartile_votes
-        return round((self.rating * self.votes + m * c) / (self.votes + c), 6)
+        c: float = max(Item.lower_quartile_votes, 100)
+        v: float = max(self.votes, c)
+        return round((self.rating * v + m * c) / (v + c), 6)
 
     @computed_field  # type: ignore[misc]
     @property
