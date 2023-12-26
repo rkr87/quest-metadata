@@ -86,7 +86,7 @@ async def main() -> None:
     oculus_wrapper = OculusWrapper(client)
 
     cookie: str = await MetaCookie.fetch()
-    meta_wrapper = MetaWrapper(cookie, client)
+    meta_wrapper: MetaWrapper = await MetaWrapper(cookie, client)
 
     app = Application(manager, meta_wrapper, oculus_wrapper)
     await app.run()
