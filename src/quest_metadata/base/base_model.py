@@ -25,7 +25,6 @@ class BaseModel(PydanticBaseModel):
         """
         json_text: str = self.model_dump_json(
             indent=4,
-            exclude_unset=True,
             exclude_none=True
         )
         async with aiofiles.open(file_path, 'w', encoding="utf-8") as file:
