@@ -1,61 +1,27 @@
 """
-meta_models.py
+meta_app.py
 
-This module defines Pydantic models for handling meta responses.
+This module defines Pydantic models for handling a meta app response.
 
 Usage:
-    To use these models, create instances of `MetaResponse`, `Item`, and other
+    To use these models, create instances of `MetaApp`, `Item`, and other
     relevant models as needed.
 
     ```python
-    from meta_models import MetaResponse, Item
-    response = MetaResponse(data=my_data)
-    ratings = response.data.ratings
+    from meta_models import MetaApp, Item
+    app = MetaApp(data=my_data)
+    ratings = app.data.ratings
     ```
 """
 from datetime import datetime
 from logging import Logger, getLogger
-from typing import Annotated, Any, ClassVar
+from typing import Annotated, ClassVar
 
 from pydantic import AliasPath, Field, computed_field, validator
 
-from base.base_model import BaseModel, RootModel
-from data.model.local_apps import Logos
-
-
-class MetaResource(RootModel[str]):
-    """
-    Pydantic model for representing a meta resource.
-    """
-    root: str
-    _url: str
-
-    def model_post_init(self, __context: Any) -> None:
-        """
-        Post-initialization method to set internal URL.
-        """
-        self._url = self.root
-        self.root = self._url.split('/')[-1].partition("?")[0]
-        return super().model_post_init(__context)
-
-    @property
-    def url(self) -> str:
-        """
-        Get the URL of the resource.
-
-        Returns:
-            str: The URL of the resource.
-        """
-        return self._url
-
-    def __str__(self) -> str:
-        """
-        Convert the resource to a string.
-
-        Returns:
-            str: The string representation of the resource.
-        """
-        return self.root
+from base.base_model import BaseModel
+from data.model.meta_models import MetaError, MetaResource
+from data.model.store_section import StoreLogos
 
 
 class _IarcRating(BaseModel):
@@ -99,7 +65,7 @@ class Item(BaseModel):
     )
     description: str = Field(validation_alias='display_long_description')
     markdown: bool = Field(validation_alias='long_description_uses_markdown')
-    developer: str = Field(validation_alias='developer_name')
+    developer: str | None = Field(validation_alias='developer_name')
     publisher: str = Field(validation_alias='publisher_name')
     genres: list[str] = Field(validation_alias='genre_names')
     devices: list[str] = Field(validation_alias='supported_input_device_names')
@@ -126,8 +92,9 @@ class Item(BaseModel):
     website: str = Field(validation_alias='website_url')
     icon: MetaResource = Field(validation_alias=AliasPath('icon_image', 'uri'))
     banner: MetaResource = Field(validation_alias=AliasPath('hero', 'uri'))
-    logo_portrait: str | None = None
-    logo_landscape: str | None = None
+    logo_portrait: MetaResource | None = None
+    logo_landscape: MetaResource | None = None
+    logo_square: MetaResource | None = None
     has_ads: bool = Field(validation_alias='has_in_app_ads')
     sensor_req: bool = Field(validation_alias='is_360_sensor_setup_required')
     price: int | None = Field(
@@ -220,6 +187,12 @@ class Item(BaseModel):
         }
         if self.iarc is not None:
             consol['iarc_icon'] = self.iarc.iarc_icon
+        if self.logo_portrait is not None:
+            consol['logo_portrait'] = self.logo_portrait
+        if self.logo_landscape is not None:
+            consol['logo_landscape'] = self.logo_landscape
+        if self.logo_square is not None:
+            consol['logo_square'] = self.logo_square
         return consol
 
     @validator("release_date", pre=True)
@@ -240,7 +213,8 @@ class Item(BaseModel):
 
         date_formats: list[str] = [
             "%d %b %Y",
-            "%b %d, %Y"
+            "%b %d, %Y",
+            "%b %Y"
         ]
         for fmt in date_formats:
             try:
@@ -288,36 +262,22 @@ class Item(BaseModel):
         """
         return [x['name'] for x in val]
 
-    def add_github_logos(self, logos: Logos | None) -> None:
-        """
-        Add GitHub logos to the item.
 
-        This method sets the landscape and portrait logos of the item
-        based on the provided `Logos` instance.
-
-        Args:
-            logos (Logos | None): The GitHub logos information.
-            If None, no logos will be added to the item.
-        """
-        if logos is not None:
-            self.logo_landscape = logos.landscape
-            self.logo_portrait = logos.portrait
-
-
-class Error(BaseModel):
+class MetaApp(BaseModel):
     """
-    Pydantic model for representing an error.
-    """
-    message: str
-    severity: str
-    mids: list[str]
-    path: list[int | str]
-
-
-class MetaResponse(BaseModel):
-    """
-    Pydantic model for representing a meta response.
+    Pydantic model for representing a meta app.
     """
     package: str | None = None
     data: Annotated[Item, Field(validation_alias=AliasPath("data", "item"))]
-    errors: list[Error] | None = None
+    errors: list[MetaError] | None = None
+
+    def attach_logos(self, logos: StoreLogos) -> None:
+        """
+        Attach logos to the meta app data.
+
+        Args:
+            logos (StoreLogos): The StoreLogos instance containing logos.
+        """
+        self.data.logo_landscape = logos.landscape
+        self.data.logo_portrait = logos.portrait
+        self.data.logo_square = logos.square

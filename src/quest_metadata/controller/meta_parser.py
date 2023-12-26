@@ -17,8 +17,7 @@ from typing import TypeVar
 from typing_extensions import final
 
 from base.non_instantiable import NonInstantiable
-from data.model.local_apps import LocalApp
-from data.model.meta_response import Item, MetaResponse, RatingHist
+from data.model.meta_app import Item, MetaApp, RatingHist
 
 
 @final
@@ -34,10 +33,9 @@ class MetaParser(NonInstantiable):
     @classmethod
     def parse(
         cls,
-        meta_responses: list[MetaResponse],
-        package: str,
-        app: LocalApp
-    ) -> MetaResponse:
+        meta_responses: list[MetaApp],
+        package: str
+    ) -> MetaApp:
         """
         Parse and consolidate meta information from a list of MetaResponse
         objects into a single MetaResponse object.
@@ -52,27 +50,24 @@ class MetaParser(NonInstantiable):
             meta_responses (list[MetaResponse]): List of MetaResponse objects
                 to be consolidated.
             package (str): Package identifier.
-            app (LocalApp): LocalApp instance containing additional information
-                about the app.
 
         Returns:
             MetaResponse: Consolidated MetaResponse object.
         """
-        consol: MetaResponse = meta_responses[0]
+        consol: MetaApp = meta_responses[0]
         if len(meta_responses) > 1:
-            base: tuple[MetaResponse, list[MetaResponse]] = cls._identify_base(
+            base: tuple[MetaApp, list[MetaApp]] = cls._identify_base(
                 meta_responses
             )
             consol = base[0]
             for merge in base[1]:
                 cls._consolidate_results(consol.data, merge.data)
         cls._handle_errors(consol, package)
-        consol.data.add_github_logos(app.logos)
         consol.package = package
         return consol
 
     @classmethod
-    def _handle_errors(cls, response: MetaResponse, package: str) -> None:
+    def _handle_errors(cls, response: MetaApp, package: str) -> None:
         """
         Handle errors in the consolidated MetaResponse.
 
@@ -94,8 +89,8 @@ class MetaParser(NonInstantiable):
     @classmethod
     def _identify_base(
         cls,
-        responses: list[MetaResponse]
-    ) -> tuple[MetaResponse, list[MetaResponse]]:
+        responses: list[MetaApp]
+    ) -> tuple[MetaApp, list[MetaApp]]:
         """
         Identify the base result from a list of MetaResponse objects.
 
@@ -114,7 +109,7 @@ class MetaParser(NonInstantiable):
         result is removed from the list of responses, and the tuple containing
         the base result and the updated list of responses is returned.
         """
-        base_result: tuple[int, MetaResponse] = 0, responses[0]
+        base_result: tuple[int, MetaApp] = 0, responses[0]
 
         for i, result in enumerate(responses[1:], start=1):
             if cls._new_base_check(base_result[1].data, result.data):
@@ -158,6 +153,11 @@ class MetaParser(NonInstantiable):
         """
         if base.additional_ids is None:
             base.additional_ids = []
+
+        base.logo_landscape = base.logo_landscape or update.logo_landscape
+        base.logo_portrait = base.logo_portrait or update.logo_portrait
+        base.logo_square = base.logo_square or update.logo_square
+
         cls._merge_list(base.additional_ids, [update.id])
         cls._merge_list(base.genres, update.genres)
         cls._merge_list(base.devices, update.devices)

@@ -1,18 +1,9 @@
 """
-quest_metadata.py
-This module defines the Application class for managing app data.
+Module providing the main application class and entry point.
 
-Application:
-    A class that updates local app data from GitHub and fetches
-    additional meta data.
-
-Attributes:
-    _app_manager (AppManager): The local app manager.
-    _meta_wrapper (MetaWrapper): The MetaWrapper for fetching meta data.
-    _github_wrapper (GitHubWrapper): The GitHubWrapper for updating local
-        app data.
+Classes:
+- Application: Main application class for orchestrating updates.
 """
-
 import asyncio
 import logging.config
 import os
@@ -22,56 +13,58 @@ from typing import final
 from base.base_class import BaseClass
 from base.singleton import Singleton
 from constants.constants import DATA, RESOURCES
-from controller.github_updater import GithubUpdater
 from controller.meta_updater import MetaUpdater
+from controller.oculus_updater import OculusUpdater
 from data.local.app_manager import AppManager
-from data.web.github_wrapper import GitHubWrapper
 from data.web.http_client import HttpClient
 from data.web.meta_cookie import MetaCookie
 from data.web.meta_wrapper import MetaWrapper
+from data.web.oculus_wrapper import OculusWrapper
 
 
 @final
 class Application(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgument]
     """
-    Application class for managing app data.
+    Main application class for orchestrating updates.
 
     Attributes:
-        _app_manager (AppManager): The local app manager.
-        _meta_wrapper (MetaWrapper): The MetaWrapper for fetching meta data.
-        _github_wrapper (GitHubWrapper): The GitHubWrapper for updating local
-            appdata.
+    - _app_manager (AppManager): An instance of the AppManager for managing
+        local app data.
+    - _meta_wrapper (MetaWrapper): An instance of the MetaWrapper for
+        interacting with the Meta API.
+    - _oculus_wrapper (OculusWrapper): An instance of the OculusWrapper for
+        interacting with OculusDB and GraphQL.
     """
 
     def __init__(
         self,
         app_manager: AppManager,
         meta_wrapper: MetaWrapper,
-        github_wrapper: GitHubWrapper
+        oculus_wrapper: OculusWrapper
     ) -> None:
         """
-        Initialize the Application.
+        Initialize the Application instance.
 
-        Args:
-            app_manager (AppManager): The local app manager.
-            meta_wrapper (MetaWrapper): The MetaWrapper for fetching meta data.
-            github_wrapper (GitHubWrapper): The GitHubWrapper for updating
+        Parameters:
+        - app_manager (AppManager): An instance of the AppManager for managing
             local app data.
+        - meta_wrapper (MetaWrapper): An instance of the MetaWrapper for
+            interacting with the Meta API.
+        - oculus_wrapper (OculusWrapper): An instance of the OculusWrapper for
+            interacting with OculusDB and GraphQL.
         """
         super().__init__()
         self._app_manager: AppManager = app_manager
         self._meta_wrapper: MetaWrapper = meta_wrapper
-        self._github_wrapper: GitHubWrapper = github_wrapper
+        self._oculus_wrapper: OculusWrapper = oculus_wrapper
 
     async def run(self) -> None:
         """
-        Run the application.
-
-        This method updates local app data from GitHub and fetches
-        additional meta data.
+        Run the main application process, updating Oculus apps and starting
+        Meta updates.
         """
         start: datetime = datetime.now()
-        await GithubUpdater.update(self._app_manager, self._github_wrapper)
+        await OculusUpdater.update(self._app_manager, self._oculus_wrapper)
         await MetaUpdater.start(self._app_manager, self._meta_wrapper)
         delta: timedelta = datetime.now() - start
         self._logger.info("Completed in %s seconds", delta.seconds)
@@ -79,7 +72,10 @@ class Application(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMiss
 
 async def main() -> None:
     """
-    Initialise dependencies and start the application.
+    Main entry point for the application.
+
+    Returns:
+    - None
     """
 
     manager = AppManager()
@@ -87,12 +83,12 @@ async def main() -> None:
     client = HttpClient()
     await client.open_session()
 
-    github_wrapper = GitHubWrapper(client)
+    oculus_wrapper = OculusWrapper(client)
 
     cookie: str = await MetaCookie.fetch()
-    meta_wrapper = MetaWrapper(cookie, client)
+    meta_wrapper: MetaWrapper = await MetaWrapper(cookie, client)
 
-    app = Application(manager, meta_wrapper, github_wrapper)
+    app = Application(manager, meta_wrapper, oculus_wrapper)
     await app.run()
 
 

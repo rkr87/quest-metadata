@@ -17,7 +17,7 @@ from constants.constants import DATA
 from controller.meta_parser import MetaParser
 from data.local.app_manager import AppManager
 from data.model.local_apps import LocalApp, LocalApps
-from data.model.meta_response import Item, MetaResponse
+from data.model.meta_app import Item, MetaApp
 from data.web.meta_wrapper import MetaWrapper
 from utils.math_utils import percentile
 
@@ -50,22 +50,23 @@ class MetaUpdater(NonInstantiable):
         apps: LocalApps = app_manager.get()
         logger.info("Fetching %s apps from meta.com", len(apps))
 
-        async def scrape(package: str, app: LocalApp) -> MetaResponse | None:
+        async def scrape(package: str, app: LocalApp) -> MetaApp | None:
             await asyncio.sleep(1 / 50)
-            responses: list[MetaResponse] = \
-                await meta_wrapper.get(app.store_ids)
+            responses: list[MetaApp] = \
+                await meta_wrapper.get_app(app.store_ids)
 
             logger.debug("Fetching: %s", app.app_name)
 
             if len(responses) == 0:
-                logger.info("No responses for %s", package)
+                logger.info(
+                    "No responses for %s (%s) %s",
+                    app.app_name,
+                    package,
+                    app.store_ids
+                )
                 return None
 
-            result: MetaResponse = MetaParser.parse(
-                responses,
-                package,
-                app
-            )
+            result: MetaApp = MetaParser.parse(responses, package)
             await meta_wrapper.get_resources(result.data.resources)
             await app_manager.update(
                 package,
@@ -76,7 +77,7 @@ class MetaUpdater(NonInstantiable):
 
             return result
 
-        tasks: list[MetaResponse | None] = \
+        tasks: list[MetaApp | None] = \
             await asyncio.gather(*[scrape(p, a) for p, a in apps.items()])
 
         await app_manager.save()
