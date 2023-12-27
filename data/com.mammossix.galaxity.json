@@ -1,28 +1,32 @@
 {
     "package": "com.mammossix.galaxity",
     "data": {
-        "id": "1852276078160450",
+        "id": "2337801553010648",
+        "additional_ids": [
+            "1852276078160450"
+        ],
         "name": "Galaxity",
         "app_name": "Galaxity",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2018-12-05T00:00:00",
+        "release_date": "2021-06-15T00:00:00",
         "description": "Create your avatar\nWe have a variety of hair, skin, clothing and color options for you to customize your avatar. Show your creativity avatar to friends in the virtual world.\n\nTalk to people and make friends\nGalaxity provides a voice chat feature. You can communicate with people using your own voice or use various character expressions to communicate and become a friend with people from different nations. \n\nPlay various mini-games\nWe offer you a variety of mini-games, such as soccer, baseball, and multiple survival modes. Have fun with your friends. We will continue to update different game modes for you to play with your friends. \n\nVisit the theater\nYou can create your own movie theater for your friends to play and watch on YouTube. Prepare popcorn and pizza!",
         "markdown": false,
-        "developer": "MAMMOSSIX Co., Ltd.",
+        "developer": "MAMMOSSIX",
         "publisher": "MAMMOSSIX Co., Ltd.",
         "genres": [
-            "Social",
-            "Casual"
+            "Casual",
+            "Social"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
+            "Single User",
             "Multiplayer",
-            "Co-op",
-            "Single User"
+            "Co-op"
         ],
         "languages": [
             "English"
@@ -33,54 +37,57 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
-        "tags": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [
+            "Minigame"
+        ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 44
+                "votes": 51
             },
             {
                 "rating": 2,
-                "votes": 23
+                "votes": 27
             },
             {
                 "rating": 3,
-                "votes": 16
+                "votes": 20
             },
             {
                 "rating": 4,
-                "votes": 32
+                "votes": 36
             },
             {
                 "rating": 5,
-                "votes": 134
+                "votes": 142
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
-            "age_rating": "Teen",
-            "descriptors": [
-                "Violence"
-            ],
+            "age_rating": "Everyone",
+            "descriptors": [],
             "elements": [
-                "Users Interact",
-                "Digital Purchases"
+                "Users Interact"
             ],
-            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://www.galaxity.net/",
-        "icon": "38974548_2296081687288362_7695527263428673536_n.jpg",
-        "banner": "39031639_606823119726679_8638233698266775552_n.jpg",
-        "logo_portrait": "com.mammossix.galaxity.jpg",
-        "logo_landscape": "com.mammossix.galaxity.jpg",
+        "icon": "38982648_1244673332596536_2668855668837110138_n.jpg",
+        "banner": "38974864_776899336571963_4898880309371108405_n.jpg",
+        "logo_portrait": "39031309_2054091108219984_2779026707334561792_n.jpg",
+        "logo_landscape": "38974729_440373223426977_611531114485383168_n.jpg",
+        "logo_square": "39001717_467593527339835_2393586949098045440_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 249,
-        "rating": 3.759036,
-        "weighted_rating": 3.79384,
+        "votes": 276,
+        "rating": 3.692029,
+        "weighted_rating": 3.829899,
         "is_available": true,
         "is_free": true
     }

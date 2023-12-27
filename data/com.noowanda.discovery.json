@@ -1,29 +1,41 @@
 {
     "package": "com.noowanda.discovery",
     "data": {
-        "id": "2610169122379924",
+        "id": "3626919647423171",
+        "additional_ids": [
+            "2610169122379924"
+        ],
         "name": "Discovery",
         "app_name": "Discovery",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2020-11-12T00:00:00",
-        "description": "Explore a giant world made of blocks and modify it with your own creations. Construct houses, build entire villages, cities, monumental constructions or dig deep underground.\nPlace torches or design complex electric circuits to light up your creations in the dark and enjoy beautiful day and night cycles.\n\n\n• Creative sandbox block-building experience: Create your own worlds with more than 215 unique materials.\n• Jump into Virtual Reality and experience your block world as if you were there with incredible 360 degrees immersion.\n• Inking system: Customize the blocks with 16 different colors for your own look.\n• Easy accessibility, Simple controls",
+        "release_date": "2021-06-14T00:00:00",
+        "description": "Explore a giant world made of blocks and modify it with your own creations. Construct houses, build entire villages, cities, monumental constructions or dig deep underground.\nPlace torches or design complex electric circuits to light up your creations in the dark and enjoy beautiful day and night cycles.\n\n• Creative sandbox block-building experience: Create your own worlds with more than 215 unique materials.\n• Jump into Virtual Reality and experience your block world as if you were there with incredible 360 degrees immersion.\n• Inking system: Customize the blocks with 16 different colors for your own look.\n• Multiplayer: Play together with 4 friends online.\n• Build-In World Gallery: Share you creations with the community or Download and Rate other players worlds easily with the built-in online world gallery.\n• Easy accessibility, Simple controls",
         "markdown": false,
-        "developer": "noowanda",
+        "developer": "Noowanda",
         "publisher": "noowanda",
         "genres": [
+            "Social",
             "Action",
             "Art/Creativity"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
-            "Single User"
+            "Co-op",
+            "Single User",
+            "Multiplayer"
         ],
         "languages": [
-            "English"
+            "English",
+            "French (France)",
+            "German",
+            "Italian",
+            "Portuguese (Portugal)",
+            "Spanish (Spain)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -31,31 +43,35 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 23
+                "votes": 70
             },
             {
                 "rating": 2,
-                "votes": 1
+                "votes": 16
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 19
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 34
             },
             {
                 "rating": 5,
-                "votes": 25
+                "votes": 71
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -67,18 +83,19 @@
             ],
             "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.noowanda.com/",
-        "icon": "38974711_1356160101208741_3327926770463670272_n.jpg",
-        "banner": "39031395_351989602703990_7351476758535148271_n.jpg",
-        "logo_portrait": "com.noowanda.discovery.jpg",
-        "logo_landscape": "com.noowanda.discovery.jpg",
+        "icon": "38982548_871669933679462_3807193186439481120_n.jpg",
+        "banner": "38974792_3965017806895599_5262995667787359683_n.jpg",
+        "logo_portrait": "39031400_290721911958993_463997768350073266_n.jpg",
+        "logo_landscape": "75207243_2773253896250967_8365503883921482002_n.jpg",
+        "logo_square": "39031399_451506939144559_963985197778201615_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 62,
-        "rating": 3.241935,
-        "weighted_rating": 3.478384,
+        "votes": 210,
+        "rating": 3.095238,
+        "weighted_rating": 3.454974,
         "is_available": true,
         "is_free": false
     }

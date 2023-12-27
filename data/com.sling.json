@@ -1,23 +1,28 @@
 {
     "package": "com.sling",
     "data": {
-        "id": "2412412708773095",
+        "id": "2703538566384665",
+        "additional_ids": [
+            "2412412708773095"
+        ],
         "name": "Sling TV",
         "app_name": "Sling TV",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2018-12-17T00:00:00",
-        "description": "Sling TV is Live TV, Only Better. The #1 Live TV Streaming Service that lets you personalize your channel lineup and save. \nStart with the service best for you, then pick Extras in your favorite genres: Sports, Comedy, Kids, News, Movies, Lifestyle, Spanish, & more. Change your service online anytime.\n\nOver 100 live channels available to stream instantly on all of your favorite devices. Watch your favorite live sports like the NFL & college football, hit TV shows like Fear the Walking Dead, Better Call Saul, SportsCenter, plus 10,000+ hours of on-demand tv shows and movies.\n\nWith Sling TV you can get both TV and Cloud DVR on your terms - add it when you want and choose when you watch, for just $5\n\nThis is TV on your terms. No paying for useless channels, no long-term contracts, no hidden fees, easy online cancellation.\n\nThe Sling Orange service offers 30 channels for just $25/mo – including ESPN, Disney Channel, AMC, TNT, TBS, CNN, A&E, History, and many more.",
+        "release_date": "2019-05-21T00:00:00",
+        "description": "Sling TV is live TV, only better. The #1 live TV streaming service that lets you personalize your channel lineup and save. \n\nStart with the service best for you, then pick Extras in your favorite genres: Sports, Comedy, Kids, News, Movies, Lifestyle, Spanish, & more. Change your service online anytime.\n\nOver 100 live channels available to stream instantly on all of your favorite devices. Watch your favorite live sports like the NFL & college football, hit TV shows like Fear the Walking Dead, Better Call Saul, SportsCenter, plus 10,000+ hours of on-demand tv shows and movies.\n\nWith Sling TV you can get both TV and Cloud DVR on your terms - add it when you want and choose when you watch, for just $5\n\nThis is TV on your terms. No paying for useless channels, no long-term contracts, no hidden fees, easy online cancellation.\n\nThe Sling Orange service offers 30 channels for just $25/mo – including ESPN, Disney Channel, AMC, TNT, TBS, CNN, A&E, History, and many more.",
         "markdown": false,
         "developer": "Sling TV, LLC",
         "publisher": "Sling TV, LLC",
         "genres": [
+            "Media & Streaming",
             "Film",
             "News & Information",
             "Sport"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -34,31 +39,33 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING"
+        ],
         "tags": [
-            "Entertainment: Top Free",
-            "tvprovider"
+            "tvprovider",
+            "Entertainment: Top Free"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 38
+                "votes": 66
             },
             {
                 "rating": 2,
-                "votes": 3
+                "votes": 5
             },
             {
                 "rating": 3,
-                "votes": 7
+                "votes": 9
             },
             {
                 "rating": 4,
-                "votes": 6
+                "votes": 7
             },
             {
                 "rating": 5,
-                "votes": 29
+                "votes": 33
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -70,19 +77,20 @@
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://www.sling.com/",
-        "icon": "38974658_1931124460297367_3372434090622976000_n.jpg",
-        "banner": "39031397_2294647857276176_508499814036537344_n.jpg",
-        "logo_portrait": "com.sling.jpg",
-        "logo_landscape": "com.sling.jpg",
+        "icon": "39031522_435653490335254_3931040388999020544_n.jpg",
+        "banner": "38974633_796549667411009_1990349434797424640_n.jpg",
+        "logo_portrait": "39031478_2136250493258535_6709711610480427008_n.jpg",
+        "logo_landscape": "38974804_579747912471769_6519343984018456576_n.jpg",
+        "logo_square": "38974609_695765217470338_3934964825171427328_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 83,
-        "rating": 2.819277,
-        "weighted_rating": 3.085776,
-        "is_available": true,
-        "is_free": true
+        "votes": 120,
+        "rating": 2.466667,
+        "weighted_rating": 3.259282,
+        "is_available": false,
+        "is_free": false
     }
 }

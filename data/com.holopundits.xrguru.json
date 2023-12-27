@@ -1,22 +1,26 @@
 {
     "package": "com.holopundits.xrguru",
     "data": {
-        "id": "3289830014445026",
+        "id": "3694537353974790",
+        "additional_ids": [
+            "3289830014445026"
+        ],
         "name": "XR Guru",
         "app_name": "XR Guru",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2020-11-05T00:00:00",
-        "description": "XR Guru is your one-stop destination for accessing educational XR content across digital ecosystems. XR (AR/VR) content producers and end-users can easily and seamlessly connect with each other using XR Guru marketplace. Whether you use an Android or Apple or Oculus device, you can harness the best of XR educational content with XR Guru marketplace. Teachers, Students, Content creators, Developers, & Professionals can connect with each other and benefit via XR Guru.",
+        "release_date": "2021-05-17T00:00:00",
+        "description": "XR Guru caters the diverse needs of the present education system. XR Guru is an interactive and immersive learning application. The purpose of the app is to simplify visually complex topics as illustrative and instructional 3D content",
         "markdown": false,
-        "developer": "XR Guru Team",
+        "developer": "Holo Pundits Inc",
         "publisher": "Holo Pundits",
         "genres": [
             "Educational",
             "360 Experience (Non-game)"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -28,14 +32,18 @@
         "platforms": [
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 2,
@@ -43,7 +51,7 @@
             },
             {
                 "rating": 3,
-                "votes": 0
+                "votes": 2
             },
             {
                 "rating": 4,
@@ -51,28 +59,29 @@
             },
             {
                 "rating": 5,
-                "votes": 1
+                "votes": 4
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
-        "internet_connection": "REQUIRED",
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://www.xrguru.com/",
-        "icon": "57568670_740205903250410_7602801845059230731_n.jpg",
-        "banner": "39003250_336966177595232_6285381407871142408_n.jpg",
-        "logo_portrait": "com.holopundits.xrguru.jpg",
-        "logo_landscape": "com.holopundits.xrguru.jpg",
+        "icon": "39036677_495123251486983_7744024737165217069_n.jpg",
+        "banner": "39036671_775980639709019_8555915428890735335_n.jpg",
+        "logo_portrait": "86641453_949822885528082_4084756959807538036_n.jpg",
+        "logo_landscape": "57569462_1216984622007296_8058700745139399854_n.jpg",
+        "logo_square": "75203617_1739404009541785_3676143991984702867_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 4,
-        "rating": 2.25,
-        "weighted_rating": 3.902137,
+        "votes": 10,
+        "rating": 3.1,
+        "weighted_rating": 3.65521,
         "is_available": true,
         "is_free": true
     }

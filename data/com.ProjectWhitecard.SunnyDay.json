@@ -1,23 +1,29 @@
 {
     "package": "com.ProjectWhitecard.SunnyDay",
     "data": {
-        "id": "2452699524755696",
-        "name": "DoVille Adventures",
-        "app_name": "DoVille Adventures",
+        "id": "4095930040426279",
+        "additional_ids": [
+            "2452699524755696"
+        ],
+        "name": "DoVille",
+        "app_name": "DoVille",
         "type_name": "Application",
         "appstore_type": "Application",
-        "category": "APPS",
-        "release_date": "2020-12-18T00:00:00",
-        "description": "DoVille Adventures has launched! Designed by a team that includes older, nostalgic adults, it's your vacation dream come true! Episode One, Juniper Beach, is a low poly BEACH adventure. Thrill to easy-to-use summer activities; catch the mysterious art thief and save the beach, or simply stretch out for an extended stay in the warm, warm sun. Take a dip, water ski, or ride the hot-air balloon. For more information (and even a report on the positive brain effects, visit doville dot fun). ",
+        "category": "GAMES",
+        "release_date": "2021-07-23T00:00:00",
+        "description": "DoVille is in Early Access.\n\nDoVille Episode 1: Juniper Beach, is here.\nDesigned by a team that includes older, nostalgic adults, DoVille is your VR vacation dream come true.\n\nIncluded in the first download is Juniper Beach, a low poly BEACH and sleuthing adventure. Thrill to easy-to-use activities; catch the mysterious art thief and save the beach, or simply stretch out for an extended stay in the warm, warm sun. Take a dip, water ski, or ride the hot-air balloon. \n\nMore episodes are on the way!\nFor more information (and even a report on the positive brain effects, visit doville dot fun). ",
         "markdown": false,
-        "developer": "Project Whitecard Digital Inc.",
+        "developer": "Project Whitecard Inc.",
         "publisher": "Project Whitecard Digital Inc.",
         "genres": [
+            "Adventure",
+            "Art/Creativity",
+            "Relaxation/Meditation",
             "Exploration",
-            "Narrative",
-            "Relaxation/Meditation"
+            "Narrative"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -32,7 +38,11 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [
             "Experiences & Narratives"
         ],
@@ -58,25 +68,26 @@
                 "votes": 3
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://adventures.doville.fun/",
-        "icon": "38974738_482967795999858_3377267840078712572_n.jpg",
-        "banner": "38982446_201649044781155_7885211739624034404_n.jpg",
-        "logo_portrait": "com.projectwhitecard.sunnyday.jpg",
-        "logo_landscape": "com.projectwhitecard.sunnyday.jpg",
+        "icon": "39035313_267479628091060_531472906115029326_n.jpg",
+        "banner": "38974879_246470733681720_8573307177310115549_n.jpg",
+        "logo_portrait": "39031414_229103278562620_7324784822951999132_n.jpg",
+        "logo_landscape": "38982446_4730996720304369_8060554763955995834_n.jpg",
+        "logo_square": "38982441_135721588095305_6049224103761509062_n.jpg",
         "has_ads": false,
         "sensor_req": false,
         "votes": 5,
         "rating": 4.4,
-        "weighted_rating": 4.281215,
+        "weighted_rating": 4.30521,
         "is_available": true,
         "is_free": false
     }

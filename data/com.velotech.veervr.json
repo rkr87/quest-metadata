@@ -1,23 +1,30 @@
 {
     "package": "com.velotech.veervr",
     "data": {
-        "id": "1093086134103708",
-        "name": "VeeR: Video, Movie and Photo Platform",
-        "app_name": "VeeR: Video, Movie and Photo Platform",
+        "id": "3528340453943941",
+        "additional_ids": [
+            "1093086134103708"
+        ],
+        "name": "VeeR: Premium Immersive Entertainment",
+        "app_name": "VeeR: Premium Immersive Entertainment",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2016-10-02T00:00:00",
-        "description": "VeeR VR is a premium VR entertainment platform, with a library of 10,000+ of 4K 360/180 3D videos, photos and interactive experiences.\n\nFRESH EXPERIENCES CURATED DAILY in a variety of immersive categories such as interactive stories, live performances, animations, travel & documentaries\n\nPREMIUM TITLES from award-winning studios and film-festival selections\n\nONLINE STREAMING & OFFLINE WATCHING up to 4K\n\nHEAD-TRACKED SUBTITLES available in English and simplified Chinese on selected titles\n\nVEER MOBILE COMPANION APP available on iOS & Android for exploring content on-the-go, and bookmarking to watch in a VR headset later\n\nAny thoughts or feedback? Feel free to be in touch via following channels:\nFacebook: @letsveer\nTwitter: @letsveer\nWebsite：veer.tv\nSupport：support@veer.tv",
+        "release_date": "2021-04-01T00:00:00",
+        "description": "Looking for the best latest VR movies？VeeR have them all.\n\nWhat is special about VeeR:\n\n• PREMIUM TITLES: VR movies from award-winning studios and latest film festival line-ups\n\n• FRESH EXPERIENCES CURATED WEEKLY: We've got interactive movies, animations, Sci-Fi, travel & documentaries and so much more\n\n• HEAD-TRACKED SUBTITLES: Enjoy titles all around the world with English captions\n\n• ONLINE STREAMING & OFFLINE WATCHING up to 4K \n\n• VEER VR MOBILE APP:  With the mobile companion app, available on iOS & Android, you can preview and  bookmark titles during your commute or break time and watch later in a VR headset.\n\nDownload VeeR now and start watching!\n\nIf you like VeeR, please rate us and leave a review.\n\n*Any feedback or problems? \nReply within 48 hours: support@veer.tv \n\n*Follow us and stay tuned for new titles:\nFacebook: @letsveer \nTwitter: @letsveer",
         "markdown": false,
         "developer": "Velocious Technologies",
         "publisher": "Velocious Technologies",
         "genres": [
+            "Films",
+            "Space & Universe",
+            "Theatre",
             "Travel",
             "Relaxation/Meditation",
             "Space/Universe"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller",
             "Touchpad"
         ],
@@ -27,9 +34,9 @@
         "languages": [
             "English",
             "Chinese (China)",
+            "Japanese",
             "Chinese (Hong Kong)",
-            "Chinese (Taiwan)",
-            "Japanese"
+            "Chinese (Taiwan)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -37,31 +44,35 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 101
+                "votes": 105
             },
             {
                 "rating": 2,
-                "votes": 38
+                "votes": 40
             },
             {
                 "rating": 3,
-                "votes": 42
+                "votes": 44
             },
             {
                 "rating": 4,
-                "votes": 79
+                "votes": 80
             },
             {
                 "rating": 5,
-                "votes": 327
+                "votes": 332
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [],
@@ -70,18 +81,19 @@
             ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
-        "website": "http://veer.tv/",
-        "icon": "12139031_325771907828092_6397870463367774208_n.jpg",
-        "banner": "75221318_1415007738669247_1767244785921294336_n.jpg",
-        "logo_portrait": "com.velotech.veervr.jpg",
-        "logo_landscape": "com.velotech.veervr.jpg",
+        "website": "https://veer.tv/",
+        "icon": "38974560_2538220816477121_3145222265667351990_n.jpg",
+        "banner": "39031490_239671544315002_7385715236704850727_n.jpg",
+        "logo_portrait": "38982649_568672783712627_1520202579202539520_n.jpg",
+        "logo_landscape": "38974449_588319625292823_7143758961009754112_n.jpg",
+        "logo_square": "75196222_591867904935244_4565217912553472000_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 587,
-        "rating": 3.839864,
-        "weighted_rating": 3.852722,
+        "votes": 601,
+        "rating": 3.821963,
+        "weighted_rating": 3.877378,
         "is_available": true,
         "is_free": true
     }

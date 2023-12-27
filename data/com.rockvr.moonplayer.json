@@ -1,18 +1,22 @@
 {
     "package": "com.rockvr.moonplayer",
     "data": {
-        "id": "945657588886188",
-        "name": "Moon VR Player : Stream videos from PC/3D/2D/360/180",
-        "app_name": "Moon VR Player : Stream videos from PC/3D/2D/360/180",
+        "id": "4304774742883035",
+        "additional_ids": [
+            "945657588886188"
+        ],
+        "name": "Moon VR Video Player",
+        "app_name": "Moon VR Video Player",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2016-05-03T00:00:00",
-        "description": "As the most popular player support streaming videos from PC, Moon Player brings you gorgeous experience to view high-quality videos in VR. Browse and play videos from your very own video library in VR has never been this easy. More than just elegant design, it also maximizes your video quality, and plays just about any format, including standard/3D/360/180 videos.You can mark it as your favorite app so that it can be started from launcher.\n\nQ:How to stream videos from PC?\nA:Download air play software on our website: moonplayerapp.com, drag the videos into the window of air play,set your phone and PC in the same Wi-fi, then you can enjoy the videos from PC without copying them.\n\nIf you like our player, please give a 5 star review and recommend it to your friends who use gear vr so that they can enjoy it, too.\n\nPlease join us at https://www.facebook.com/moonplayervr/, if you have any trouble or feature request, just left a comment there, we will reply you as soon as possible :)",
+        "release_date": "2022-03-10T00:00:00",
+        "description": "Play Everything:\nAll format support: Compatible with every video formats and every codec\nHigh resolutions: UHD, 4K, 8K and 12K playback\nAll projection types: fisheye, cubemap, equirectangular and cinema\nAll stereo modes: 2D, 3D Side by Side, 3D Top Bottom, Flat, 180°, 190°, 200°, 220°and 360°\n\nUseful Innovations:\nUSB Supported (FAT32 & NTFS)\nDLNA: Browse and play video files on devices attached to your home network\nLocal streaming: Cablelessly watch videos stored on PC, Mac or other local devices (Download: https://moonvrplayer.com/)\nHand-Tracking Control: No need for controllers; you can control everything with just a flick of your fingers.\nIndustry-Leading Virtual Cinematic Experience: Choose from 5 classic virtual environments and 1 artist environment, featuring dynamic lighting and advanced anti-aliasing for intricate details.\nInnovative Mixed Reality (MR) Mode: Whether you want to hang the screen on your home wall or have the screen's light reflect into your real environment, Moon VR Player can make it happen.\n\nSmooth and Stable:\nHardware acceleration: Accelerate  your GPU hardware to unleash its full potential\nSpecial algorithms: Made for each different formats, including 3D videos\n\nIn-App Purchase Details:\nIncludes a virtual environment collaboratively created with an artist, requiring additional payment to support both the artist and our work.",
         "markdown": false,
-        "developer": "Beijing InnoVision Inc",
-        "publisher": "Rock VR",
+        "developer": "InnoVision Inc",
+        "publisher": "InnoVision",
         "genres": [
+            "Media & Streaming",
             "Casual",
             "Film",
             "Productivity",
@@ -20,6 +24,7 @@
             "Exploration"
         ],
         "devices": [
+            "Touch Controllers",
             "Touchpad",
             "3DOF Controller"
         ],
@@ -28,7 +33,26 @@
         ],
         "languages": [
             "English",
-            "Chinese (China)"
+            "Chinese (China)",
+            "Chinese (Hong Kong)",
+            "Chinese (Taiwan)",
+            "French (Belgium)",
+            "French (Canada)",
+            "French (France)",
+            "German",
+            "German (Switzerland)",
+            "Japanese",
+            "Korean",
+            "Russian",
+            "Russian (Ukraine)",
+            "Spanish (Argentina)",
+            "Spanish (Chile)",
+            "Spanish (Colombia)",
+            "Spanish (Mexico)",
+            "Spanish (Peru)",
+            "Spanish (Puerto Rico)",
+            "Spanish (Spain)",
+            "Spanish (Venezuela)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -36,52 +60,55 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
-        "tags": [
-            "Apps: Top Free"
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
         ],
+        "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 507
+                "votes": 528
             },
             {
                 "rating": 2,
-                "votes": 225
+                "votes": 236
             },
             {
                 "rating": 3,
-                "votes": 410
+                "votes": 423
             },
             {
                 "rating": 4,
-                "votes": 797
+                "votes": 821
             },
             {
                 "rating": 5,
-                "votes": 2208
+                "votes": 2411
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
-        "website": "http://www.moonplayerapp.com/",
-        "icon": "12138787_1706749372947652_1200638807_n.jpg",
-        "banner": "12449016_1578295312482918_1947289868_n.jpg",
-        "logo_portrait": "com.rockvr.moonplayer.jpg",
-        "logo_landscape": "com.rockvr.moonplayer.jpg",
+        "website": "https://moonvrplayer.com/",
+        "icon": "75236135_896370435435308_3734047778099046479_n.jpg",
+        "banner": "38974705_6797873746996564_912711847173866232_n.jpg",
+        "logo_portrait": "11162739_1729438907279167_1029601187_n.jpg",
+        "logo_landscape": "12138837_217784341944222_1540174788_n.jpg",
+        "logo_square": "12138836_921664914611271_1535882354_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 4147,
-        "rating": 3.958283,
-        "weighted_rating": 3.959613,
+        "votes": 4419,
+        "rating": 3.984612,
+        "weighted_rating": 3.989609,
         "is_available": true,
-        "is_free": true
+        "is_free": false
     }
 }

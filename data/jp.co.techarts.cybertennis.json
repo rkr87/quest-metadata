@@ -1,23 +1,27 @@
 {
     "package": "jp.co.techarts.cybertennis",
     "data": {
-        "id": "2439690532723888",
+        "id": "3747400338656073",
+        "additional_ids": [
+            "2439690532723888"
+        ],
         "name": "CYBER TENNIS",
         "app_name": "CYBER TENNIS",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2018-11-07T00:00:00",
-        "description": "You can enjoy tennis with a natural swing, with the controller as a racket. Especially four experienced tennis you can enjoy a very realistic feeling of operation. You can set details such as the height of the player, the height of the hit point, grip, etc., and you can play with your own style. By nurturing computer characters, you can nurture strong players. Since the character learns by artificial intelligence, you should become an excellent trainer and grow characters. Besides network fighting, we have a watching mode that allows nearby players to watch the battle situation. Not only the person wearing VR goggles but also the people around can share fun.",
+        "release_date": "2021-02-09T00:00:00",
+        "description": "Enjoy tennis even more with a natural swing by using the controller as a racket. Experienced tennis players in particular will enjoy the very realistic handling. Play in your own style by making detailed adjustments to settings such as player height, ball position, and grip. Strong players can be cultivated by training computer characters. The characters learn through AI, so please develop your players as a great trainer. In addition to network matches, spectator mode enables nearby players to watch the matches. Not only the person wearing the VR goggles, but those in the vicinity can also share in the excitement. ",
         "markdown": false,
-        "developer": "TECHNICAL ARTS / h.godai",
-        "publisher": "TECHINICAL ARTS Corp.",
+        "developer": "TECHNICAL ARTS",
+        "publisher": "TECHNICAL ARTS Corp.",
         "genres": [
             "Action",
             "Simulation",
             "Sport"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -26,7 +30,16 @@
         ],
         "languages": [
             "English",
-            "Japanese"
+            "Chinese (China)",
+            "Chinese (Hong Kong)",
+            "Chinese (Taiwan)",
+            "French (France)",
+            "German",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Russian",
+            "Spanish (Spain)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -34,49 +47,56 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 12
+                "votes": 14
             },
             {
                 "rating": 2,
-                "votes": 5
+                "votes": 7
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 4
             },
             {
                 "rating": 4,
-                "votes": 21
+                "votes": 25
             },
             {
                 "rating": 5,
-                "votes": 50
+                "votes": 66
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
-            "descriptors": [],
+            "descriptors": [
+                "Mild Language"
+            ],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
-        "website": "http://www.cybertennis.jp/",
-        "icon": "75422387_1677849145689811_6489163914549395456_n.jpg",
-        "banner": "39031640_241780017179190_6176859787142103040_n.jpg",
-        "logo_portrait": "jp.co.techarts.cybertennis.jpg",
-        "logo_landscape": "jp.co.techarts.cybertennis.jpg",
+        "website": "https://www.cybertennis.jp/",
+        "icon": "75269300_2839964679576726_2050847047128599084_n.jpg",
+        "banner": "38974714_444193210263049_5430297458084623142_n.jpg",
+        "logo_portrait": "39031431_2526543310942273_276177701486723072_n.jpg",
+        "logo_landscape": "75298472_580063252863593_2160587425716371456_n.jpg",
+        "logo_square": "39031368_656106341895104_8640457619447742464_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 90,
-        "rating": 4.022222,
-        "weighted_rating": 4.061919,
+        "votes": 116,
+        "rating": 4.051724,
+        "weighted_rating": 4.125194,
         "is_available": true,
         "is_free": false
     }

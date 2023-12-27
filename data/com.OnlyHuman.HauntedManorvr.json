@@ -1,26 +1,30 @@
 {
     "package": "com.OnlyHuman.HauntedManorvr",
     "data": {
-        "id": "1794758713929287",
+        "id": "4170968262914682",
+        "additional_ids": [
+            "1794758713929287"
+        ],
         "name": "Secret of Harrow Manor",
         "app_name": "Secret of Harrow Manor",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2018-03-14T00:00:00",
-        "description": "I created Secret of Harrow Manor because I wanted to experience a survival horror style game in mobile VR that had slow zombies and a creepy abandoned house. I tried to capture some of that B horror movie type feel, so If that sounds like your cup of tea as well, enjoy!\n\nFeatures:\n-4 interconnected levels filled with monsters and items\n-A co-op multiplayer mode with random enemy and item spawn locations\n-A carefully crafted inventory system, watch your ammo so you don't get caught by surprise!",
+        "release_date": "2021-07-30T00:00:00",
+        "description": "Inspired by classic survival horror gameplay, you find yourself in an abandoned mansion infested with zombies. To survive and progress, you'll need to search the area for weapons, healing items, and keys.\n\nFeatures:\n-4 interconnected levels filled with monsters and items\n-A co-op multiplayer mode with random enemy and item spawn locations\n-A carefully crafted inventory system, watch your ammo so you don't get caught by surprise!",
         "markdown": false,
         "developer": "Only Human Studios",
         "publisher": "Only Human Studios",
         "genres": [
             "Action",
-            "Horror",
-            "Adventure"
+            "Adventure",
+            "Horror"
         ],
         "devices": [
+            "Touch Controllers",
+            "Gamepad",
             "3DOF Controller",
-            "Touchpad",
-            "Gamepad"
+            "Touchpad"
         ],
         "modes": [
             "Single User",
@@ -35,7 +39,9 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "STANDING"
+        ],
         "tags": [],
         "hist": [
             {
@@ -48,7 +54,7 @@
             },
             {
                 "rating": 3,
-                "votes": 5
+                "votes": 6
             },
             {
                 "rating": 4,
@@ -56,10 +62,10 @@
             },
             {
                 "rating": 5,
-                "votes": 11
+                "votes": 13
             }
         ],
-        "comfort": "COMFORTABLE_FOR_SOME",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -69,18 +75,19 @@
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.onlyhumanstudios.net/secret-of-harrow-manor",
-        "icon": "12448961_522413204798744_1830235068342206464_n.jpg",
-        "banner": "11162769_267599890441428_3214472507805401088_n.jpg",
-        "logo_portrait": "com.onlyhuman.hauntedmanorvr.jpg",
-        "logo_landscape": "com.onlyhuman.hauntedmanorvr.jpg",
+        "icon": "38974703_171318841589288_5605821021834986041_n.jpg",
+        "banner": "38974522_1807865226083909_1659943142109746210_n.jpg",
+        "logo_portrait": "38974848_2220059921590334_8810357231368273920_n.jpg",
+        "logo_landscape": "38974513_613014119203775_6295946323883458560_n.jpg",
+        "logo_square": "38974577_306198323655045_7617204287063457792_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 39,
-        "rating": 3.333333,
-        "weighted_rating": 3.633606,
+        "votes": 42,
+        "rating": 3.404762,
+        "weighted_rating": 3.807591,
         "is_available": true,
         "is_free": false
     }

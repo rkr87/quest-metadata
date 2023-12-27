@@ -1,26 +1,31 @@
 {
     "package": "com.CendaGames.VoxelFly",
     "data": {
-        "id": "1681924048528676",
-        "name": "Voxel Fly",
-        "app_name": "Voxel Fly",
+        "id": "5008885985897261",
+        "additional_ids": [
+            "1681924048528676"
+        ],
+        "name": "Voxel Fly ",
+        "app_name": "Voxel Fly ",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2018-11-15T00:00:00",
-        "description": "\"It’s fairly intense which makes it a great experience for VR\" - AndroidAuthority\n\nPlay missions to unlock new machines. Beat the record in this impossible, endless game. Join to the events and become the best in the leaderboards! Avoid of the enemies or simply destroy them. You can choose from many modes:\n\nMODES\nExplorer - Slow speed with many enemies.\nMadness - Mad race with fast speed and less enemies.\nDestroyer - Crash them all! Your enemies has no chance.\nAttacker - Destroy enemies and objects by fire!\nCannoneer - Just fire!\nHorizon - Super speed with left/right turn\nDefender - They shall not pass :)\n\nFEATURES\n- 70 missions (still growing)\n- 30+ machines\n- 2 events\n- You get several games in the one\n- Design your own levels with Customize option\n- Set difficulty for all play modes\n- 72Hz for stable image\n- Set resolution for optimal performance\n\nFollow @CendaGames to get news!\nwww.discord.cenda.cz",
+        "release_date": "2023-04-26T00:00:00",
+        "description": "\"It’s fairly intense which makes it a great experience for VR\" - AndroidAuthority\n\nPlay missions to unlock new machines. Beat the record in this impossible, endless game. Join to the events and become the best in the leaderboards! Avoid of the enemies or simply destroy them. You can choose from many modes:\n\nMODES\nExplorer - Slow speed with many enemies.\nMadness - Mad race with fast speed and less enemies.\nDestroyer - Crash them all! Your enemies has no chance.\nAttacker - Destroy enemies and objects by fire!\nCannoneer - Just fire!\nHorizon - Super speed with left/right turn\nDefender - They shall not pass :)\n\nFEATURES\n- 70 missions (still growing)\n- 30+ machines\n- 2 events\n- You get several games in the one\n- Design your own levels with Customize option\n- Set difficulty for all play modes\n- Set resolution for optimal performance\n\nFollow @CendaGames to get news!\nwww.discord.cenda.cz",
         "markdown": false,
         "developer": "Čeněk Štrichel",
         "publisher": "Čeněk Štrichel",
         "genres": [
-            "Action",
             "Casual",
-            "Flying"
+            "Flying",
+            "Simulation",
+            "Action"
         ],
         "devices": [
+            "Touch Controllers",
+            "Gamepad",
             "3DOF Controller",
-            "Touchpad",
-            "Gamepad"
+            "Touchpad"
         ],
         "modes": [
             "Single User"
@@ -39,7 +44,9 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING"
+        ],
         "tags": [],
         "hist": [
             {
@@ -60,10 +67,10 @@
             },
             {
                 "rating": 5,
-                "votes": 98
+                "votes": 104
             }
         ],
-        "comfort": "COMFORTABLE_FOR_FEW",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -72,18 +79,19 @@
             "elements": [],
             "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
-        "website": "http://cenda.cz/voxelfly/",
-        "icon": "39003246_1387978351339425_894328155144192_n.jpg",
-        "banner": "38982699_618061575289796_7077077137018060800_n.jpg",
-        "logo_portrait": "com.cendagames.voxelfly.jpg",
-        "logo_landscape": "com.cendagames.voxelfly.jpg",
+        "website": "http://cenda.cz/",
+        "icon": "75223475_5535686033184052_5528335277590559580_n.jpg",
+        "banner": "57570299_553953860072942_2000215552644731616_n.jpg",
+        "logo_portrait": "39003246_397971610775164_5929066502312427520_n.jpg",
+        "logo_landscape": "39001719_763571310690018_6247223188380450816_n.jpg",
+        "logo_square": "38974562_2229853484007439_5334505473628438528_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 121,
-        "rating": 4.561983,
-        "weighted_rating": 4.519636,
+        "votes": 127,
+        "rating": 4.582677,
+        "weighted_rating": 4.418687,
         "is_available": true,
         "is_free": false
     }

@@ -1,40 +1,49 @@
 {
     "package": "com.WIDVE.PolarVR",
     "data": {
-        "id": "2870120766391290",
+        "id": "4404368699688285",
+        "additional_ids": [
+            "2870120766391290"
+        ],
         "name": "Exploring the Universe from Antarctica",
         "app_name": "Exploring the Universe from Antarctica",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2019-10-31T00:00:00",
+        "release_date": "2023-03-16T00:00:00",
         "description": "Exploring the Universe from Antarctica takes users on a journey from the South Pole into outer space in efforts to better understand high-energy neutrinos and the research that takes place surrounding them at the IceCube Neutrino Observatory at the South Pole. Take the role of an IceCube scientist who has the ability to travel deep into space to seek out the source of a high energy neutrino that passes through the IceCube detection array.",
         "markdown": false,
-        "developer": "Virtual Environments",
-        "publisher": "University of Wisconsin - Madison",
+        "developer": "WID Virtual Environments & Field Day Lab",
+        "publisher": "National Science Foundation",
         "genres": [
+            "Educational",
             "Space/Universe",
-            "Narrative",
-            "Educational"
+            "Narrative"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
             "Single User"
         ],
         "languages": [
-            "English (US)",
             "English",
+            "English (US)",
             "Portuguese (Brazil)",
             "Spanish (Mexico)"
         ],
         "platforms": [
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [
             "Experiences & Narratives",
             "EDUCATIONAL"
@@ -58,28 +67,29 @@
             },
             {
                 "rating": 5,
-                "votes": 5
+                "votes": 6
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
-        "website": "http://pvre.discovery.wisc.edu/",
-        "icon": "38974911_760666171038396_1285580979817152512_n.jpg",
-        "banner": "38984444_587732335091057_2754730760240889856_n.jpg",
-        "logo_portrait": "com.widve.polarvr.jpg",
-        "logo_landscape": "com.widve.polarvr.jpg",
+        "website": "https://vrctica.wiscweb.wisc.edu/",
+        "icon": "75655852_524009116287596_2980664462147742674_n.jpg",
+        "banner": "39036607_1460332717793684_7084254461679587074_n.jpg",
+        "logo_portrait": "38974823_462098077966381_636585874926075904_n.jpg",
+        "logo_landscape": "39035408_780711975677877_3068239312442097664_n.jpg",
+        "logo_square": "38974778_528079367946673_511974442579001344_n.jpg",
         "has_ads": false,
         "sensor_req": false,
-        "votes": 15,
-        "rating": 3.333333,
-        "weighted_rating": 3.845563,
+        "votes": 16,
+        "rating": 3.4375,
+        "weighted_rating": 3.82396,
         "is_available": true,
         "is_free": true
     }
