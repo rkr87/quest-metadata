@@ -4,6 +4,19 @@ repos:
 
   - repo: local
     hooks:
+    - id: autopep8
+      name: autopep8
+      entry: "autopep8"
+      language: python
+      language_version: python3.12
+      additional_dependencies: []
+      types: [python]
+      args: ["--global-config=pyproject.toml"]
+      require_serial: true
+      verbose: true
+
+  - repo: local
+    hooks:
     - id: mypy
       name: mypy
       entry: "mypy ./src/quest_metadata"
@@ -54,19 +67,6 @@ repos:
       require_serial: true
       verbose: true
       pass_filenames: true
-
-  - repo: local
-    hooks:
-    - id: autopep8
-      name: autopep8
-      entry: "autopep8"
-      language: python
-      language_version: python3.12
-      additional_dependencies: []
-      types: [python]
-      args: ["--global-config=pyproject.toml"]
-      require_serial: true
-      verbose: true
 
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v2.29.0
