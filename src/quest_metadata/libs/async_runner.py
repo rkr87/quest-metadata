@@ -60,7 +60,7 @@ class AsyncRunner:
 
         Example:
         ```python
-        async def sync_method(arg: int, kwarg: bool = False) -> str:
+        def sync_method(arg: int, kwarg: bool = False) -> str:
             # Some synchronous logic
             return f"Result: {arg}, {kwarg}"
 
