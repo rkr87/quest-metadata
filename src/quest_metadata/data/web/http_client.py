@@ -1,18 +1,10 @@
 """
-Module: http_client
-Description:
-    This module provides an asynchronous HTTP client using the aiohttp library.
-    The HttpClient class supports opening and closing client sessions with
-    configurable connection limits.
-Example:
-    ```python
-        client = http_client.HttpClient()
-        await client.open_session(connection_limit=10)
-        # Use 'client' to make asynchronous HTTP requests
-        await client.close_session()
-    ```
-"""
+Module providing an HTTP client using aiohttp.
 
+Classes:
+- HttpClient: Singleton class for making HTTP requests.
+
+"""
 import socket
 from asyncio.exceptions import TimeoutError as TOError
 from http import HTTPStatus
@@ -20,27 +12,32 @@ from typing import final
 
 from aiohttp import ClientResponse, ClientSession, ClientTimeout, TCPConnector
 
-from base.base_class import BaseClass
-from base.singleton import Singleton
+from base.classes import Singleton
 
 
 @final
-class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissingTypeArgument]
+class HttpClient(Singleton):
     """
-    An asynchronous HTTP client using the aiohttp library.
-    Inherits from BaseClass and is marked as final.
+    Singleton class for making HTTP requests.
+
+    Attributes:
+    - _session (ClientSession | None): The aiohttp ClientSession instance.
+
+    Methods:
+    - close_session: Close the aiohttp ClientSession.
+    - open_session: Open a new aiohttp ClientSession.
+    - get: Perform an HTTP GET request.
+    - post: Perform an HTTP POST request.
+    - _validate: Validate the HTTP response.
     """
 
     def __init__(self) -> None:
-        """
-        Initializes the HttpClient.
-        """
         self._session: ClientSession | None
         super().__init__()
 
     async def close_session(self) -> None:
         """
-        Closes the existing client session.
+        Close the aiohttp ClientSession.
         """
         if self._session is not None:
             await self._session.close()
@@ -49,20 +46,14 @@ class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
     async def open_session(
         self,
         connection_limit: int = 50,
-        timeout: int = 100
+        timeout: int = 600
     ) -> None:
         """
-        Opens a new aiohttp client session.
+        Open a new aiohttp ClientSession.
 
-        Parameters:
-        - connection_limit (Optional[int]): Limit the number of simultaneous
-            connections.
-        - timeout (int): Optional. The timeout value for the client session.
-
-        Example:
-        ```python
-            await open_session(connection_limit=10, timeout=30)
-        ```
+        Args:
+        - connection_limit (int): Maximum number of connections.
+        - timeout (int): Timeout duration in seconds.
         """
         _timeout: ClientTimeout = ClientTimeout(total=timeout)
         connector = TCPConnector(
@@ -82,16 +73,16 @@ class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
         data: str | None = None
     ) -> ClientResponse | None:
         """
-        Performs an HTTP GET request.
+        Perform an HTTP GET request.
 
-        Parameters:
-        - url (str): The URL for the GET request.
-        - headers (Optional[dict[str, str]]): Optional headers for the request.
-        - data (Optional[str]): Optional data to be sent with the request.
+        Args:
+        - url (str): The URL to make the request to.
+        - headers (dict[str, str] | None): Additional headers for the request.
+        - data (str | None): Data to be sent with the request.
 
         Returns:
-        - ClientResponse | None: The response from the server or None if an
-            error occurs.
+        - ClientResponse | None: The HTTP response, or None if an error
+            occurred.
         """
         assert self._session is not None
         try:
@@ -111,16 +102,16 @@ class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
         data: str | None = None
     ) -> ClientResponse | None:
         """
-        Performs an HTTP POST request.
+        Perform an HTTP POST request.
 
-        Parameters:
-        - url (str): The URL for the POST request.
-        - headers (Optional[dict[str, str]]): Optional headers for the request.
-        - data (Optional[str]): Optional data to be sent with the request.
+        Args:
+        - url (str): The URL to make the request to.
+        - headers (dict[str, str] | None): Additional headers for the request.
+        - data (str | None): Data to be sent with the request.
 
         Returns:
-        - ClientResponse | None: The response from the server or None if an
-            error occurs.
+        - ClientResponse | None: The HTTP response, or None if an error
+            occurred.
         """
         assert self._session is not None
         try:
@@ -136,13 +127,13 @@ class HttpClient(BaseClass, metaclass=Singleton):  # pyright: ignore[reportMissi
     @staticmethod
     def _validate(response: ClientResponse) -> ClientResponse | None:
         """
-        Validates the HTTP response.
+        Validate the HTTP response.
 
-        Parameters:
-        - response (ClientResponse): The response from the server.
+        Args:
+        - response (ClientResponse): The HTTP response.
 
         Returns:
-        - ClientResponse | None: The validated response or None if the status
-            code is not OK.
+        - ClientResponse | None: The HTTP response, or None if validation
+            fails.
         """
         return response if response.status == HTTPStatus.OK else None
