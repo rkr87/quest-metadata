@@ -28,7 +28,8 @@ repos:
                                 "aiohttp==3.9.1",
                                 "asyncio==3.4.3",
                                 "pydantic==2.5.2",
-                                "types-aiofiles==23.2.0.0"]
+                                "types-aiofiles==23.2.0.0",
+                                "types-pillow==10.1.0.2"]
       types: [python]
       args: ["--config-file=pyproject.toml"]
       require_serial: true
