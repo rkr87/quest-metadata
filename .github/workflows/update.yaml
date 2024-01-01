@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
           
       - name: install python packages
-        run: pip install -r .reqs/scrape.txt
+        run: pip install -r .config_app/requirements.txt
           
       - name: execute script
         run: python src/quest_metadata/main.py
