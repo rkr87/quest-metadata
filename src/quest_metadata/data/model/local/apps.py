@@ -5,9 +5,6 @@ Classes:
 - LocalApp: Model for representing a local application.
 - LocalApps: Dictionary-based model for a collection of local applications.
 """
-from typing import Annotated
-
-from pydantic import Field
 
 from base.models import BaseModel, RootDictModel
 
