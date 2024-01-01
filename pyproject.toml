@@ -8,10 +8,7 @@ name = "cz_customize"
 version = "0.2.0"
 
 # Files where the version will be updated. A pattern to match a line, can also be specified, separated by :
-version_files = [
-    "pyproject.toml:version",
-    "src/quest_metadata/constants/constants.py",
-]
+version_files = ["pyproject.toml:version", "src/quest_metadata/__version__.py"]
 
 # Format for the git tag, useful for old projects, that use a convention like "v1.2.1"
 # tag_format = "v$version"
