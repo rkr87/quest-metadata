@@ -36,7 +36,7 @@ class LocalApp(BaseModel):
     id: str
     additional_ids: list[str] = []
     app_name: str
-    max_version_date: Annotated[int, Field(exclude=True, default=0)]
+    max_version_date: int = 0
     added: str
     updated: str | None = None
     is_available: bool | None = None
