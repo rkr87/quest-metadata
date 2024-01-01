@@ -11,7 +11,8 @@ from typing import Any
 from pydantic import Field, field_validator
 
 from base.models import BaseModel, RootListModel
-from constants.constants import BINARY_TYPE
+
+BINARY_TYPE = "AndroidBinary"
 
 
 class AppVersion(BaseModel):

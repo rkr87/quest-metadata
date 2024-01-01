@@ -13,5 +13,4 @@ from utils.env import github_actions
 RESOURCES: str = github_actions("res/")
 DATA: str = github_actions("data/")
 VERSION: str = "0.2.0"
-BINARY_TYPE: str = "AndroidBinary"
 DEFAULT_LOCALE: str = "en_US"
