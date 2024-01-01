@@ -29,7 +29,7 @@ async def main() -> None:
     - Initialize the Application instance.
     - Run the application to update local apps and scrape app data.
     """
-    logging.config.fileConfig('logging.conf')
+    logging.config.fileConfig('.config_app/logging.conf')
     os.makedirs(DATA, exist_ok=True)
     os.makedirs(RESOURCES, exist_ok=True)
     app: Application = await Application()
