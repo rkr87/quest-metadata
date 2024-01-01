@@ -14,6 +14,9 @@ from typing import Generic, TypeVar
 import aiofiles
 from pydantic import BaseModel as PydanticBaseModel
 from pydantic import RootModel as PydanticRootModel
+from pydantic._internal._model_construction import ModelMetaclass
+
+from base.classes import Singleton, SingletonMeta
 
 _VT = TypeVar("_VT")
 _KT = TypeVar('_KT')
@@ -42,6 +45,31 @@ class BaseModel(PydanticBaseModel):
         )
         async with aiofiles.open(file_path, 'w', encoding="utf-8") as file:
             await file.write(json_text)
+
+
+class SingletonModelMeta(ModelMetaclass, SingletonMeta):  # type: ignore[type-arg]
+    """
+    Metaclass for SingletonModel, combining Pydantic's ModelMetaclass and
+    custom SingletonMeta.
+
+    This metaclass ensures that only a single instance of the SingletonModel
+    is created. It provides singleton behavior for classes using the
+    SingletonModel metaclass.
+    """
+
+
+class SingletonModel(BaseModel, Singleton, metaclass=SingletonModelMeta):
+    """
+    Pydantic BaseModel extension with asynchronous JSON saving and singleton
+    behavior.
+
+    This class inherits from Pydantic's BaseModel and includes additional
+    functionality to ensure that only a single instance of the class is
+    created.
+
+    Methods:
+    - save_json: Asynchronously saves the model as JSON to a file.
+    """
 
 
 class RootModel(BaseModel, PydanticRootModel[_VT], Generic[_VT]):
