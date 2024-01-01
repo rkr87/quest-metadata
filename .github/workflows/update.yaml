@@ -24,7 +24,7 @@ jobs:
         run: pip install -r .reqs/scrape.txt
           
       - name: execute script
-        run: python src/quest_metadata/quest_metadata.py
+        run: python src/quest_metadata/main.py
           
       - name: commit files
         run: |
