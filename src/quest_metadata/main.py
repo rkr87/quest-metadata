@@ -1,39 +1,73 @@
 """
 Main script for running the Oculus app updater.
 
-Modules:
-- asyncio: Asynchronous I/O operations.
-- logging.config: Configuration for logging.
-- os: Operating system-specific functionality.
-- application: The Application module for managing and updating Oculus apps.
-- constants.constants: Constants used in the application.
 
 Functions:
 - main: Asynchronous function to run the Oculus app updater.
 """
 import asyncio
-import logging.config
-import os
+from argparse import ArgumentParser, Namespace
 
-from application import Application
-from constants.constants import DATA, RESOURCES
+from config.app_config import AppConfig
 
 
 async def main() -> None:
     """
     Asynchronous function to run the Oculus app updater.
-
-    Execution steps:
-    - Configure logging from 'logging.conf'.
-    - Create necessary directories for app data and resources.
-    - Initialize the Application instance.
-    - Run the application to update local apps and scrape app data.
     """
-    logging.config.fileConfig('logging.conf')
-    os.makedirs(DATA, exist_ok=True)
-    os.makedirs(RESOURCES, exist_ok=True)
+    from application import Application  # pylint: disable=C0415
     app: Application = await Application()
     await app.run()
 
+
+def setup_args() -> ArgumentParser:
+    """
+    Set up command-line arguments for the script.
+
+    Returns:
+    - ArgumentParser: The configured argument parser.
+    """
+    arg_parser = ArgumentParser(
+        prog="QuestMetadata",
+        description="Fetch metadata and artwork for Meta Quest apps"
+    )
+    arg_parser.add_argument(
+        "-c",
+        "--config_file",
+        type=str,
+        help="path to config override",
+        required=False
+    )
+    arg_parser.add_argument(
+        "-s",
+        "--save_config",
+        action='store_true',
+        help="save default config values to default file location",
+        required=False
+    )
+    return arg_parser
+
+
+async def load_config(override_file: str | None) -> None:
+    """
+    Load configuration.
+
+    Args:
+    - override_file (str | None): Path to a config override file.
+    """
+    await AppConfig.load_config(override_file)
+
+
+async def save_config() -> None:
+    """
+    Save default configuration values to the default file location.
+    """
+    await AppConfig.save_defaults()
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    args: Namespace = setup_args().parse_args()
+    if args.save_config:
+        asyncio.run(save_config())
+    else:
+        asyncio.run(load_config(args.config_file))
+        asyncio.run(main())

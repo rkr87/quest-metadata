@@ -13,11 +13,11 @@ from pydantic_core import ValidationError
 from typing_extensions import final
 
 from base.classes import Singleton
-from constants.constants import DATA
+from config.app_config import AppConfig
 from data.model.local.apps import LocalApp, LocalApps
 from data.model.parsed.app_item import ParsedAppItem
 
-APPS: str = f"{DATA}_apps.json"
+APPS: str = f"{AppConfig().data_path}/_apps.json"
 
 
 @final

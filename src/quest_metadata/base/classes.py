@@ -15,7 +15,7 @@ Classes:
 """
 from abc import ABC, ABCMeta
 from logging import Logger, getLogger
-from typing import Any, Generic, TypeVar
+from typing import Any, Generic, Self, TypeVar
 
 _T = TypeVar("_T")
 
@@ -74,9 +74,52 @@ class SingletonMeta(ABCMeta, Generic[_T]):
             cls._instances[cls] = super().__call__(*args, **kwargs)
         return cls._instances[cls]
 
+    def add_instance(cls, instance: Any) -> _T:
+        """
+        Add a new instance to the singleton registry.
+
+        Args:
+        - instance (Any): The instance to add.
+
+        Returns:
+        - _T: The added singleton instance.
+        """
+        if cls not in cls._instances and isinstance(instance, cls):
+            cls._instances[cls] = instance
+        return cls._instances[cls]
+
+    def instance_exists(cls) -> bool:
+        """
+        Check if a singleton instance exists.
+
+        Returns:
+        - bool: True if a singleton instance exists, False otherwise.
+        """
+        return cls in cls._instances
+
+    def get_instance(cls) -> _T:
+        """
+        Get the existing singleton instance.
+
+        Returns:
+        - _T: The existing singleton instance.
+        """
+        return cls._instances[cls]
+
 
 class Singleton(BaseClass, metaclass=SingletonMeta):   # pyright: ignore[reportMissingTypeArgument]
     """
     A singleton class that inherits from BaseClass and uses SingletonMeta
     as its metaclass.
     """
+    def __new__(cls, *args: Any, **kwargs: Any) -> Self:  # pylint: disable=W0613
+        """
+        Create a new instance of the singleton class if it doesn't exist,
+        or return the existing instance.
+
+        Returns:
+        - Singleton: The singleton instance.
+        """
+        if cls.instance_exists():
+            return cls.get_instance()  # type: ignore[return-value]
+        return cls.add_instance(super().__new__(cls))  # type: ignore[return-value]

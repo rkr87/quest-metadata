@@ -13,7 +13,7 @@ from typing import Any
 from pydantic import AliasPath, Field, model_serializer, model_validator
 
 from base.models import BaseModel
-from constants.constants import DEFAULT_LOCALE
+from config.app_config import AppConfig
 from controller.image_manager import ImageProps
 from utils.dict import get_nested_keys
 
@@ -225,7 +225,7 @@ class AppAdditionalDetails(BaseModel):
             return None
         loc = next((
             item for item in flatten
-            if item['locale'] == DEFAULT_LOCALE or len(flatten) == 1
+            if item['locale'] == AppConfig().scrape_locale or len(flatten) == 1
         ))
         to_dict: dict[str, Any] = {
             "images": loc["imagesExcludingScreenshotsAndMarkdown"]["nodes"],

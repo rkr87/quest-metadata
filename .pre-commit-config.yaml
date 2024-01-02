@@ -68,9 +68,3 @@ repos:
       require_serial: true
       verbose: true
       pass_filenames: true
-
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: v2.29.0
-    hooks:
-      - id: commitizen
-        stages: [commit-msg]
