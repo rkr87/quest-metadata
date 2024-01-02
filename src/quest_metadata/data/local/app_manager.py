@@ -8,9 +8,9 @@ Constants:
 - APPS (str): File path for storing the serialized collection of local apps.
 """
 from datetime import datetime, timedelta
+from typing import final
 
 from pydantic_core import ValidationError
-from typing_extensions import final
 
 from base.classes import Singleton
 from config.app_config import AppConfig

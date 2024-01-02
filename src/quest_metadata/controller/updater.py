@@ -5,10 +5,10 @@ Classes:
 - Updater: Singleton class for updating and scraping Oculus apps.
 """
 import asyncio
+from typing import final
 
 from aiofiles import open as aopen
 from aiofiles.os import makedirs, path, remove
-from typing_extensions import final
 
 from base.classes import Singleton
 from base.lists import LowerCaseUniqueList

@@ -7,11 +7,10 @@ Classes:
 """
 
 from io import BytesIO
-from typing import NamedTuple
+from typing import NamedTuple, final
 
 from PIL.Image import Image
 from PIL.Image import open as open_image
-from typing_extensions import final
 
 from base.classes import Singleton
 from utils.async_runner import AsyncRunner

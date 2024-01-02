@@ -11,13 +11,12 @@ Classes:
 """
 import asyncio
 from collections.abc import Callable
-from typing import Any, TypeVar
+from typing import Any, TypeVar, final
 from urllib.parse import urlencode
 
 from aiofiles.os import path
 from aiohttp import ClientResponse
 from pydantic import Field, ValidationError
-from typing_extensions import final
 
 from base.classes import Singleton
 from base.models import BaseModel
