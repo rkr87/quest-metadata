@@ -62,7 +62,7 @@ class Updater(Singleton):
 
         parsed: list[ParsedAppItem] = await asyncio.gather(*[
             self._parse_result(i.id, i.app_name, i.package_name)
-            for i in oculusdb
+            for x, i in enumerate(oculusdb) if x < 1000  # pylint: disable=R2004
         ])
 
         parsed_ids: list[str] = [i.id for i in parsed]
