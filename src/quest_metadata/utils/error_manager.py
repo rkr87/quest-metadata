@@ -6,9 +6,11 @@ Classes:
 - ErrorManager: Singleton class for managing and logging errors.
 """
 from datetime import datetime, timedelta
-from typing import Any
+from typing import Annotated, Any
 
-from aiofiles.os import listdir, remove
+from aiofiles.os import listdir
+from aiofiles.os import makedirs as amakedirs
+from aiofiles.os import remove
 from pydantic import Field
 
 from base.models import BaseModel, SingletonModel
@@ -21,7 +23,7 @@ class _ErrorEntry(BaseModel):
     """
     Model class representing an entry for logged errors.
     """
-    exception: Exception | str = Field(exclude=True)
+    exception: Annotated[Exception | str, Field(exclude=True)]
     context: str
     error_type: str | None = None
     error_message: str | None = None
@@ -93,7 +95,9 @@ class ErrorManager(SingletonModel):
         """
         date_format = "%Y-%m-%d %H.%M.%S"
         date_string: str = self.timestamp.strftime(date_format)
-        await self.save_json(f"{ERROR_DIR}/{date_string}.json")
+        await amakedirs(ERROR_DIR, exist_ok=True)
+        if len(self.errors_logged) > 0:
+            await self.save_json(f"{ERROR_DIR}/{date_string}.json")
         for file in await listdir(ERROR_DIR):
             date_str: str = file.replace(".json", "")
             date_val: datetime = datetime.strptime(date_str, date_format)
