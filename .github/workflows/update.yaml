@@ -29,11 +29,10 @@ jobs:
         continue-on-error: true
           
       - name: commit files
+        if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add --all
           git commit -am "update: github action"
           git push
-          
-          
