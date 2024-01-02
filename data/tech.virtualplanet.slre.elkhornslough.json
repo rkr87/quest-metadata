@@ -2,7 +2,9 @@
     "package": "tech.virtualplanet.slre.elkhornslough",
     "data": {
         "id": "5036454663062965",
-        "additional_ids": [],
+        "additional_ids": [
+            "4127185524022123"
+        ],
         "name": "Sea Level Rise Explorer: Turner Station",
         "app_name": "Sea Level Rise Explorer: Turner Station",
         "type_name": "Application",
@@ -20,7 +22,8 @@
         ],
         "devices": [
             "Touch Controllers",
-            "Touch (as Gamepad)"
+            "Touch (as Gamepad)",
+            "3DOF Controller"
         ],
         "modes": [
             "Single User"
@@ -39,7 +42,9 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "EDUCATIONAL"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -55,11 +60,11 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 3
             },
             {
                 "rating": 5,
-                "votes": 0
+                "votes": 2
             }
         ],
         "comfort": "NOT_RATED",
@@ -80,13 +85,35 @@
             "icon": "39031552_146244973909731_7835304449658390799_n.png",
             "logo_transparent": "39036679_1308221002895477_5770298117286985135_n.png"
         },
-        "translations": [],
-        "keywords": [],
+        "translations": [
+            {
+                "images": {},
+                "locale": "es_LA",
+                "display_name": "Explorador del Nivel Del Mar: Elkhorn Slough",
+                "keywords": [
+                    "Aumento",
+                    "Monterey",
+                    "Cambio",
+                    "climatico",
+                    "Mar"
+                ],
+                "long_description": "El desarrollo del Explorador de Aumento del Nivel del Mar tuvo como objetivo mostrar los efectos del aumento del nivel del mar y la intersección de las necesidades relacionadas con el transporte y los ecosistemas en uno de los estuarios más preciados de California.\n\nEn esta experiencia se resumen los hallazgos clave del “Estudio de resiliencia climática de la Carretera 1 de la Costa Central”. Esperemos que arroje cierta luz sobre planificaciones similares que se hagan en el estado relativas a cuestiones de transporte y recursos naturales.\n\nEn esta zona baja, el nivel del mar subirá y es posible que haya más tormentas, lo que aumentará la frecuencia y la intensidad de las inundaciones y, con el tiempo, las aguas oceánicas la inundarán permanentemente. Esto podría afectar las propiedades de la costa, la infraestructura, la seguridad pública y el acceso a estos magníficos recursos costeros.\n",
+                "long_description_uses_markdown": false,
+                "short_description": "El desarrollo del Explorador de Aumento del Nivel del Mar tuvo como objetivo mostrar los efectos del aumento del nivel del mar y la intersección de las necesidades relacionadas con el transporte y los ecosistemas en uno de los estuarios más preciados de California.\n"
+            }
+        ],
+        "keywords": [
+            "sea",
+            "rise",
+            "climate",
+            "change",
+            "Monterey"
+        ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 1,
-        "rating": 3.0,
-        "weighted_rating": 4.05266749303791,
+        "votes": 6,
+        "rating": 4.166667,
+        "weighted_rating": 3.9,
         "is_available": true,
         "is_free": true
     },

@@ -2,7 +2,9 @@
     "package": "games.b4t.epicrollercoasters.oculus",
     "data": {
         "id": "2299465166734471",
-        "additional_ids": [],
+        "additional_ids": [
+            "1644126292264565"
+        ],
         "name": "Epic Roller Coasters",
         "app_name": "Epic Roller Coasters",
         "type_name": "Application",
@@ -16,10 +18,14 @@
         "genres": [
             "Shooting",
             "Racing",
-            "Casual"
+            "Casual",
+            "Roller Coaster",
+            "Shooter"
         ],
         "devices": [
-            "Touch Controllers"
+            "Touch Controllers",
+            "3DOF Controller",
+            "Touchpad"
         ],
         "modes": [
             "Multiplayer",
@@ -27,7 +33,14 @@
         ],
         "languages": [
             "English",
-            "Portuguese (Brazil)"
+            "Portuguese (Brazil)",
+            "Chinese (China)",
+            "French (France)",
+            "German",
+            "Japanese",
+            "Korean",
+            "Russian",
+            "Spanish (Spain)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -41,28 +54,29 @@
             "STANDING"
         ],
         "tags": [
-            "Meta Quest Pro Launch"
+            "Meta Quest Pro Launch",
+            "Entertainment: Top Free"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 913
+                "votes": 1743
             },
             {
                 "rating": 2,
-                "votes": 375
+                "votes": 774
             },
             {
                 "rating": 3,
-                "votes": 464
+                "votes": 1138
             },
             {
                 "rating": 4,
-                "votes": 519
+                "votes": 1756
             },
             {
                 "rating": 5,
-                "votes": 1471
+                "votes": 6430
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -216,13 +230,17 @@
             "rollercoasters",
             "shooter",
             "dinosaur",
-            "horror"
+            "horror",
+            "roller",
+            "coaster",
+            "epic",
+            "physics"
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 3742,
-        "rating": 3.336718,
-        "weighted_rating": 3.3569207789385196,
+        "votes": 11841,
+        "rating": 3.874588,
+        "weighted_rating": 3.87,
         "is_available": true,
         "is_free": true
     },
