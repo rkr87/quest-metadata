@@ -18,6 +18,7 @@ from pydantic import (AliasPath, Field, computed_field, field_validator,
 from base.models import BaseModel
 from data.model.oculus.app_additionals import (AppAdditionalDetails, AppImage,
                                                AppImages, Translation)
+from utils.error_manager import ErrorManager
 
 
 class _IarcRating(BaseModel):
@@ -326,7 +327,12 @@ class Item(BaseModel):
             except ValueError:
                 pass
         logger: Logger = getLogger(__name__)
-        logger.info("Unable to parse date: %s", val)
+        error: str = ErrorManager().capture(
+            "ValueError",
+            "Parsing app release date",
+            f"Unable to parse date: {val}"
+        )
+        logger.warning("%s", error)
         return default
 
     @validator("tags", pre=True)

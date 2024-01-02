@@ -30,6 +30,7 @@ from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.web.http_client import HttpClient
 from helpers.string import to_camel
+from utils.error_manager import ErrorManager
 
 OCULUS: str = "https://graph.oculus.com/graphql"
 OCULUSDB: str = "https://oculusdb.rui2015.me/api/v1/allapps"
@@ -227,11 +228,15 @@ class Wrapper(Singleton):
         try:
             text = await resp.json(content_type=None)
         except asyncio.TimeoutError as e:
-            self._logger.info(
-                "%s\nPayload: %s",
+            error: str = ErrorManager().capture(
                 e,
-                payload.model_dump_json(exclude_none=True)
+                "Reading http request response",
+                error_info={
+                    "request_info": resp.request_info,
+                    "payload": payload.model_dump_json(exclude_none=True)
+                }
             )
+            self._logger.warning("%s", error)
             return None
         return text
 
@@ -253,7 +258,13 @@ class Wrapper(Singleton):
         try:
             return target_model.model_validate(text)
         except ValidationError as e:
-            self._logger.info("%s\nData: %s", e, text)
+            error: str = ErrorManager().capture(
+                e,
+                "Validating http response",
+                f"Captured model validation error: {target_model.__name__}",
+                {"data": text}
+            )
+            self._logger.warning("%s", error)
             return None
 
     async def get_oculusdb_apps(self) -> OculusDbApps:
@@ -451,7 +462,15 @@ class Wrapper(Singleton):
         """
         try:
             stream: bytes = await data.read()
-        except asyncio.TimeoutError:
-            self._logger.info("Downloading image failed: %s", res.url)
+        except asyncio.TimeoutError as e:
+            error: str = ErrorManager().capture(
+                e,
+                "Downloading image data",
+                error_info={
+                    "request": data.request_info,
+                    "image_details": res.model_dump(exclude_none=True)
+                }
+            )
+            self._logger.warning("%s", error)
             return None
         return stream

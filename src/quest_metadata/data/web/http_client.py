@@ -13,6 +13,7 @@ from typing import final
 from aiohttp import ClientResponse, ClientSession, ClientTimeout, TCPConnector
 
 from base.classes import Singleton
+from utils.error_manager import ErrorManager
 
 
 @final
@@ -91,7 +92,17 @@ class HttpClient(Singleton):
                 headers=headers,
                 data=data
             )
-        except TOError:
+        except TOError as e:
+            error: str = ErrorManager().capture(
+                e,
+                context="HTTP GET request timed out",
+                error_info={
+                    "url": url,
+                    "headers": headers,
+                    "payload": data
+                }
+            )
+            self._logger.warning("%s", error)
             return None
         return self._validate(resp)
 
@@ -120,7 +131,17 @@ class HttpClient(Singleton):
                 headers=headers,
                 data=data
             )
-        except TOError:
+        except TOError as e:
+            error: str = ErrorManager().capture(
+                e,
+                context="HTTP POST request timed out",
+                error_info={
+                    "url": url,
+                    "headers": headers,
+                    "payload": data
+                }
+            )
+            self._logger.warning("%s", error)
             return None
         return self._validate(resp)
 

@@ -10,6 +10,7 @@ import logging.config
 from argparse import ArgumentParser, Namespace
 
 from config.app_config import AppConfig
+from utils.error_manager import ErrorManager
 
 
 async def main() -> None:
@@ -73,3 +74,4 @@ if __name__ == "__main__":
         asyncio.run(load_config(args.config_file))
         logging.config.fileConfig(AppConfig().logging_config)
         asyncio.run(main())
+        asyncio.run(ErrorManager().save_error_log())
