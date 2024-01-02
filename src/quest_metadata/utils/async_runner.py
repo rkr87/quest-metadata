@@ -38,7 +38,7 @@ class AsyncRunner:
         self,
         pool: ThreadPoolExecutor | None = None
     ) -> None:
-        self._pool: ThreadPoolExecutor = pool or ThreadPoolExecutor(16)
+        self._pool: ThreadPoolExecutor = pool or ThreadPoolExecutor()
 
     async def call(
         self,
