@@ -24,14 +24,14 @@ from pydantic.v1.utils import deep_update
 
 from base.models import SingletonModel
 
-CONFIG_FILE = ".config_app/app_config.json"
+CONFIG_FILE = ".config/app/app_config.json"
 
 
 class AppConfig(SingletonModel):
     """
     Singleton configuration model for the application.
     """
-    logging_config: str = ".config_app/logging.conf"
+    logging_config: str = ".config/app/logging.conf"
     scrape_locale: str = "en_US"
     data_path: str = ".data"
     resource_path: str = ".res"
