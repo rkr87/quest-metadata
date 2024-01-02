@@ -17,7 +17,7 @@ from controller.updater import Updater
 from data.local.app_manager import AppManager
 from data.web.http_client import HttpClient
 from data.web.wrapper import Wrapper
-from libs.async_runner import AsyncRunner
+from utils.async_runner import AsyncRunner
 
 
 @final

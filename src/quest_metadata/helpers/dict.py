@@ -11,7 +11,7 @@ Functions:
 from collections.abc import Sequence
 from typing import Any
 
-from utils.indexable import safe_get
+from helpers.indexable import safe_get
 
 
 def get_nested_keys(

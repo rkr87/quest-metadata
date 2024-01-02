@@ -29,7 +29,7 @@ from data.model.oculus.app_versions import AppVersions
 from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.web.http_client import HttpClient
-from utils.string import to_camel
+from helpers.string import to_camel
 
 OCULUS: str = "https://graph.oculus.com/graphql"
 OCULUSDB: str = "https://oculusdb.rui2015.me/api/v1/allapps"
