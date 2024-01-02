@@ -1,4 +1,4 @@
-name: run src/quest_metadata.py
+name: Scrape Oculus app data and images
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         run: pip install -r .config_app/requirements.txt
           
       - name: execute script
-        run: python src/quest_metadata/main.py
+        run: python src/quest_metadata/main.py -c .config_app/github_actions.json
         continue-on-error: true
           
       - name: commit files
