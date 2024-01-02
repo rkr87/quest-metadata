@@ -4,11 +4,15 @@ Module providing the Application class for managing and updating Oculus apps.
 Classes:
 - Application: Singleton class for managing and updating Oculus apps.
 """
+import logging.config
 from collections.abc import Generator
 from datetime import datetime, timedelta
 from typing import Any, final
 
+from aiofiles.os import makedirs as amakedirs
+
 from base.classes import Singleton
+from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from controller.updater import Updater
 from data.local.app_manager import AppManager
@@ -47,6 +51,7 @@ class Application(Singleton):
         Returns:
         Application: The initialized Application instance.
         """
+        await self._setup_environment()
         client = HttpClient()
         await client.open_session()
         self._wrapper = Wrapper(client)
@@ -62,6 +67,16 @@ class Application(Singleton):
         Generator: A generator to await the asynchronous initialization.
         """
         return self._async_init().__await__()
+
+    @staticmethod
+    async def _setup_environment() -> None:
+        """
+        Set up the environment for the application.
+        """
+        config = AppConfig()
+        logging.config.fileConfig(config.logging_config)
+        await amakedirs(config.data_path, exist_ok=True)
+        await amakedirs(config.resource_path, exist_ok=True)
 
     async def run(self) -> None:
         """
