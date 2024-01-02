@@ -275,7 +275,7 @@ class Item(BaseModel):
         a: float = max(100, c)
         r: float = self.rating / 5
         v: int = self.votes
-        return (m + r * v + m / 5 * a) / (m + c + v + a) * 5
+        return round((m + r * v + m / 5 * a) / (m + 4 + v + a) * 5, 2)
 
     @computed_field  # type: ignore[misc]
     @property
