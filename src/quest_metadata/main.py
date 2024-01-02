@@ -6,6 +6,7 @@ Functions:
 - main: Asynchronous function to run the Oculus app updater.
 """
 import asyncio
+import logging.config
 from argparse import ArgumentParser, Namespace
 
 from config.app_config import AppConfig
@@ -70,4 +71,5 @@ if __name__ == "__main__":
         asyncio.run(save_config())
     else:
         asyncio.run(load_config(args.config_file))
+        logging.config.fileConfig(AppConfig().logging_config)
         asyncio.run(main())

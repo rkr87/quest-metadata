@@ -4,7 +4,6 @@ Module providing the Application class for managing and updating Oculus apps.
 Classes:
 - Application: Singleton class for managing and updating Oculus apps.
 """
-import logging.config
 from collections.abc import Generator
 from datetime import datetime, timedelta
 from typing import Any, final
@@ -74,7 +73,6 @@ class Application(Singleton):
         Set up the environment for the application.
         """
         config = AppConfig()
-        logging.config.fileConfig(config.logging_config)
         await amakedirs(config.data_path, exist_ok=True)
         await amakedirs(config.resource_path, exist_ok=True)
 
