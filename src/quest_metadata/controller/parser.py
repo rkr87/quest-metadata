@@ -12,6 +12,7 @@ from typing_extensions import final
 
 from base.classes import NonInstantiable
 from data.model.oculus.app import Item, OculusApp, RatingHist
+from utils.error_manager import ErrorManager
 
 
 @final
@@ -77,21 +78,18 @@ class Parser(NonInstantiable):
         """
         if len(response.errors) == 0:
             return
-        logger: Logger = getLogger(__name__)
-        error_list: list[str] = []
-        for error in response.errors:
-            error_list.append(
-                error.model_dump_json(
-                    indent=4,
-                    exclude_unset=True,
-                    exclude_none=True
-                )
-            )
-        logger.info(
-            "Result contains errors: %s\n    %s",
-            package,
-            '\n    '.join(error_list)
+        error: str = ErrorManager().capture(
+            "ValidationError",
+            "Parsing Oculus App Response",
+            f"App Response contains errors: {package}",
+            error_info={
+                "package": package,
+                "errors": response.errors,
+                "data": response.data.model_dump()
+            }
         )
+        logger: Logger = getLogger(__name__)
+        logger.warning("%s", error)
 
     @classmethod
     def _consolidate_results(cls, base: Item, update: Item) -> None:

@@ -16,6 +16,7 @@ from base.classes import Singleton
 from config.app_config import AppConfig
 from data.model.local.apps import LocalApp, LocalApps
 from data.model.parsed.app_item import ParsedAppItem
+from utils.error_manager import ErrorManager
 
 APPS: str = f"{AppConfig().data_path}/_apps.json"
 
@@ -242,6 +243,11 @@ class AppManager(Singleton):
         try:
             with open(APPS, encoding="utf8") as file:
                 return LocalApps.model_validate_json(file.read())
-        except (FileNotFoundError, ValidationError):
-            self._logger.info("Failed to open %s, creating new version.", APPS)
+        except (FileNotFoundError, ValidationError) as e:
+            error: str = ErrorManager().capture(
+                e,
+                "Loading _apps.json",
+                log_message="Couldn't load _apps.json - creating a new one."
+            )
+            self._logger.warning("%s", error)
             return LocalApps()

@@ -26,6 +26,7 @@ from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
 from data.web.wrapper import Wrapper
 from helpers.math import percentile
+from utils.error_manager import ErrorManager
 
 
 @final
@@ -185,12 +186,18 @@ class Updater(Singleton):
             response.
         """
         if (primary := await self._scrape_app_id(app.id)) is None:
-            self._logger.info(
-                "No response for %s (%s) [%s]",
-                app.app_name,
-                package,
-                app.id
+            error: str = ErrorManager().capture(
+                "ValidationError",
+                "Scraping app data",
+                f"No responses for: {app.app_name}",
+                error_info={
+                    "package": package,
+                    "app_name": app.app_name,
+                    "id": app.id,
+                    "additional_ids": app.additional_ids
+                }
             )
+            self._logger.warning("%s", error)
             return None
 
         additional: list[OculusApp] = \
@@ -277,11 +284,15 @@ class Updater(Singleton):
         try:
             async with aopen(file_path, 'wb') as file:
                 await file.write(image_data)
-        except asyncio.TimeoutError:
-            self._logger.info(
-                "Failed saving file: %s",
-                file_path
+        except asyncio.TimeoutError as e:
+            error: str = ErrorManager().capture(
+                e,
+                "Saving Image File",
+                error_info={
+                    "file_path": file_path
+                }
             )
+            self._logger.warning("%s", error)
             if await path.exists(file_path):
                 await remove(file_path)
             return None
@@ -300,7 +311,14 @@ class Updater(Singleton):
         directory: str = f"{AppConfig().resource_path}/{res.type}/"
         try:
             await makedirs(directory, exist_ok=True)
-        except asyncio.TimeoutError:
-            self._logger.info("Failed creating directory: %s", directory)
+        except asyncio.TimeoutError as e:
+            error: str = ErrorManager().capture(
+                e,
+                "Creating Directory",
+                error_info={
+                    "directory": directory
+                }
+            )
+            self._logger.warning("%s", error)
             return None
         return directory
