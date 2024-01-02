@@ -14,7 +14,7 @@ from PIL.Image import open as open_image
 from typing_extensions import final
 
 from base.classes import Singleton
-from libs.async_runner import AsyncRunner
+from utils.async_runner import AsyncRunner
 
 
 class ImageProps(NamedTuple):

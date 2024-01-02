@@ -25,7 +25,7 @@ from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
 from data.web.wrapper import Wrapper
-from utils.math import percentile
+from helpers.math import percentile
 
 
 @final
