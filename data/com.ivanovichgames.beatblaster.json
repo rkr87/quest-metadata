@@ -2,7 +2,9 @@
     "package": "com.ivanovichgames.beatblaster",
     "data": {
         "id": "5352805804730379",
-        "additional_ids": [],
+        "additional_ids": [
+            "2828871417128045"
+        ],
         "name": "Pangman",
         "app_name": "Pangman",
         "type_name": "Application",
@@ -16,10 +18,12 @@
         "genres": [
             "Arcade",
             "Shooter",
-            "Action"
+            "Action",
+            "Racing"
         ],
         "devices": [
-            "Touch Controllers"
+            "Touch Controllers",
+            "3DOF Controller"
         ],
         "modes": [
             "Single User",
@@ -34,7 +38,9 @@
             "Italian",
             "Japanese",
             "Korean",
-            "Portuguese (Brazil)"
+            "Portuguese (Brazil)",
+            "Russian",
+            "Spanish (Spain)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -51,23 +57,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 0
+                "votes": 4
             },
             {
                 "rating": 2,
-                "votes": 1
+                "votes": 4
             },
             {
                 "rating": 3,
-                "votes": 3
+                "votes": 6
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 3
             },
             {
                 "rating": 5,
-                "votes": 4
+                "votes": 9
             }
         ],
         "comfort": "NOT_RATED",
@@ -90,13 +96,35 @@
             "icon": "38982564_179468030192192_8375849999876328039_n.png",
             "logo_transparent": "38974648_909518476466132_5586774864156926027_n.png"
         },
-        "translations": [],
-        "keywords": [],
+        "translations": [
+            {
+                "images": {},
+                "locale": "es_ES",
+                "display_name": "Beat Blaster",
+                "keywords": [
+                    "ritmo",
+                    "música",
+                    "shooter",
+                    "disparos",
+                    "espacio"
+                ],
+                "long_description": "Beat Blaster es un juego VR de disparar, correr y esquivar donde todo sucede al ritmo de la música. Una original mezcla de estilos dónde cada partida te ofrecerá un nuevo reto.\n\n30 CANCIONES Y AMBISONIC AUDIO\nCada nivel introduce una novedad y todas las partidas son diferentes gracias a la inteligente generación de los niveles.\nEl sonido Ambisonic te permite experimentar la música de una forma completamente nueva.\n\nSIN TIEMPOS DE ESPERA\nNo hay pantallas de carga, complicados menús ni esperas eternas.\n\n3 FORMAS DE MOVIMIENTO\nMando VR clásico, inclinando la cabeza o el intuitivo y original control basado en el desplazamiento de la cabeza. \n\nSIN MAREOS\nEs un juego VR con un elevado componente de velocidad. Pero todos los movimientos del juego están diseñados sin hacer rotar al jugador, minimizando así la probabilidad de sufrir mareos.\n\nREGLAS FÁCILES\nHas de llegar al final de la canción sin morir. Dispones de un Blaster con munición infinita y una sola vida.",
+                "long_description_uses_markdown": false,
+                "short_description": "Beat Blaster es un juego VR de disparar, correr y esquivar donde todo sucede al ritmo de la música. Una original mezcla de estilos dónde cada partida te ofrecerá un nuevo reto."
+            }
+        ],
+        "keywords": [
+            "beat",
+            "music",
+            "shooter",
+            "rhythm",
+            "space"
+        ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 9,
-        "rating": 3.888889,
-        "weighted_rating": 3.89,
+        "votes": 26,
+        "rating": 3.346154,
+        "weighted_rating": 3.74,
         "is_available": true,
         "is_free": false
     },

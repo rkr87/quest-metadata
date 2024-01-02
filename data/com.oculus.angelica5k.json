@@ -1,23 +1,29 @@
 {
     "package": "com.oculus.angelica5k",
     "data": {
-        "id": "1962660437148780",
-        "additional_ids": [],
+        "id": "2725629380835491",
+        "additional_ids": [
+            "1962660437148780"
+        ],
         "name": "Dear Angelica",
         "app_name": "Dear Angelica",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2018-12-20T00:00:00",
+        "release_date": "2019-10-22T00:00:00",
         "description": "From Emmy Award winning Oculus Story Studio comes Dear Angelica, a journey through the magical and dreamlike ways we remember our loved ones. Entirely painted by hand inside of VR, Dear Angelica plays out in a series of memories that unfold around you. An immersive, illustrative short story starring Geena Davis and Mae Whitman.",
         "markdown": false,
         "developer": "Oculus Story Studio",
         "publisher": "Oculus",
         "genres": [
+            "Animation",
+            "Drama",
+            "Experimental",
             "360 Experience (non-game)",
             "Movie"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -32,59 +38,67 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
-        "tags": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Free",
+            "Award-winning",
+            "Narrative"
+        ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 11
+                "votes": 23
             },
             {
                 "rating": 2,
-                "votes": 7
+                "votes": 22
             },
             {
                 "rating": 3,
-                "votes": 21
+                "votes": 48
             },
             {
                 "rating": 4,
-                "votes": 33
+                "votes": 65
             },
             {
                 "rating": 5,
-                "votes": 167
+                "votes": 373
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
-                "Use of Tobacco",
+                "Violence",
                 "Blood",
-                "Violence"
+                "Use of Tobacco"
             ],
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.oculus.com/",
         "app_images": {
-            "cover_landscape": "38974730_373356836751429_7900959964422733824_n.png",
-            "cover_portrait": "38974608_2270331203214310_2857448197364645888_n.png",
-            "cover_square": "38974623_281235559407625_5756220645906055168_n.png",
-            "hero": "38982582_1147951062029615_383032347462729728_n.png",
-            "icon": "38974767_2095050203848684_5980015453076979712_n.png",
-            "logo_transparent": "38982550_473856529807284_2396065690688684032_n.png"
+            "cover_landscape": "75262745_491589358229470_4154284529822990336_n.png",
+            "cover_portrait": "38974466_617768408959242_287688239609806848_n.png",
+            "cover_square": "38982650_629270821173521_3958509380621565952_n.png",
+            "hero": "38982529_770682426676249_6748647099631403008_n.png",
+            "icon": "38982722_2619818151433894_3518687811634987008_n.png",
+            "logo_transparent": "38982638_1574869339304158_6274076560865624064_n.png"
         },
         "translations": [],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 239,
-        "rating": 4.414226,
-        "weighted_rating": 4.25,
+        "votes": 531,
+        "rating": 4.399247,
+        "weighted_rating": 4.3,
         "is_available": true,
         "is_free": true
     },

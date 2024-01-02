@@ -2,7 +2,9 @@
     "package": "com.racketfury.rf_gearvr",
     "data": {
         "id": "1952355814856769",
-        "additional_ids": [],
+        "additional_ids": [
+            "1515064735229728"
+        ],
         "name": "Racket Fury: Table Tennis VR",
         "app_name": "Racket Fury: Table Tennis VR",
         "type_name": "Application",
@@ -16,10 +18,12 @@
         "genres": [
             "Sports",
             "Action",
-            "Simulation"
+            "Simulation",
+            "Arcade"
         ],
         "devices": [
-            "Touch Controllers"
+            "Touch Controllers",
+            "3DOF Controller"
         ],
         "modes": [
             "Single User",
@@ -42,23 +46,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 143
+                "votes": 197
             },
             {
                 "rating": 2,
-                "votes": 84
+                "votes": 103
             },
             {
                 "rating": 3,
-                "votes": 114
+                "votes": 168
             },
             {
                 "rating": 4,
-                "votes": 240
+                "votes": 390
             },
             {
                 "rating": 5,
-                "votes": 728
+                "votes": 1170
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,13 +89,16 @@
             "Tennis",
             "Ping",
             "Pong",
-            "Racket"
+            "Racket",
+            "TableTennis",
+            "PingPong",
+            "RacketFury"
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 1309,
-        "rating": 4.012987,
-        "weighted_rating": 4.0,
+        "votes": 2028,
+        "rating": 4.101085,
+        "weighted_rating": 4.09,
         "is_available": true,
         "is_free": false
     },

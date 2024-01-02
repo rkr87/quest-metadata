@@ -1,24 +1,28 @@
 {
     "package": "com.raf1dev.gothruvr",
     "data": {
-        "id": "1712701125524929",
-        "additional_ids": [],
+        "id": "3785305398179183",
+        "additional_ids": [
+            "1712701125524929"
+        ],
         "name": "GoThru",
         "app_name": "GoThru",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2019-01-10T00:00:00",
+        "release_date": "2021-05-26T00:00:00",
         "description": "Explore the whole planet using Google Street View or build your own Virtual Tour experiences using GoThru Overlay Editor. GoThru VR introduces professional functions like:\n- street view navigation\n- offline navigation\n- locking the app to only one tour\n- navigation arrows\n- hotspots\n- menu\n- panorama gallery\n- maps\n- favorites\nand much more",
         "markdown": false,
         "developer": "Raf1Dev",
         "publisher": "GoThru",
         "genres": [
+            "Travel & Exploration",
             "360 Experience (non-game)",
             "Exploration",
             "Travel"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller",
             "Touchpad"
         ],
@@ -27,14 +31,29 @@
         ],
         "languages": [
             "English",
+            "Bulgarian",
+            "Chinese (China)",
+            "Chinese (Hong Kong)",
+            "Chinese (Taiwan)",
+            "French (Belgium)",
+            "French (Canada)",
+            "French (France)",
+            "Italian",
+            "Portuguese (Brazil)",
+            "Portuguese (Portugal)",
+            "Spanish (Argentina)",
+            "Spanish (Chile)",
+            "Spanish (Colombia)",
+            "Spanish (Mexico)",
+            "Spanish (Peru)",
+            "Spanish (Puerto Rico)",
+            "Spanish (Spain)",
+            "Spanish (Venezuela)",
             "English (Australia)",
             "English (UK)",
             "English (US)",
             "English (Canada)",
-            "English (South Africa)",
-            "French (Belgium)",
-            "French (Canada)",
-            "French (France)"
+            "English (South Africa)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -42,78 +61,59 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 9
+                "votes": 11
             },
             {
                 "rating": 2,
-                "votes": 4
+                "votes": 7
             },
             {
                 "rating": 3,
-                "votes": 6
+                "votes": 8
             },
             {
                 "rating": 4,
-                "votes": 4
+                "votes": 12
             },
             {
                 "rating": 5,
-                "votes": 46
+                "votes": 56
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://gothru.co/",
         "app_images": {
-            "cover_landscape": "38974560_204237983856925_8316487287122690048_n.png",
-            "cover_portrait": "38982679_224599378455613_6635784984114233344_n.png",
-            "cover_square": "38982571_257357331598780_327660654125121536_n.png",
-            "hero": "38974572_2046133618800529_9181787712523337728_n.png",
-            "icon": "38974817_325194238324423_6958308780043927552_n.png",
-            "logo_transparent": "38982713_2325741687656171_7221419344180281344_n.png"
+            "cover_landscape": "38974504_2874206969517143_2323849117895213234_n.png",
+            "cover_portrait": "39031619_174561900836595_869226700782759072_n.png",
+            "cover_square": "38974819_504050503962292_3066868913253894356_n.png",
+            "hero": "39031387_182949373168908_5382142954444536609_n.png",
+            "icon": "38974648_235282984903256_6578105590353524981_n.png",
+            "logo_transparent": "38982658_334537831209664_8247837333087425483_n.png"
         },
         "translations": [
             {
                 "images": {},
                 "locale": "en_GB",
                 "display_name": "GoThru",
-                "keywords": [
-                    "realestate",
-                    "google",
-                    "gothru",
-                    "hotspot",
-                    "navigation"
-                ],
-                "long_description": "Built on top of the state of the art GoThru Overlay Editor, GoThru VR introduces professional functions like:\n- offline navigation\n- locking the app to only one tour\n- navigation arrows\n- hotspots\n- menu",
+                "keywords": [],
+                "long_description": "Explore the whole planet using Google Street View or build your own Virtual Tour experiences using GoThru Overlay Editor. GoThru VR introduces professional functions like:\n- street view navigation\n- offline navigation\n- locking the app to only one tour\n- navigation arrows\n- hotspots\n- menu\n- panorama gallery\n- maps\n- favorites\nand much more",
                 "long_description_uses_markdown": false,
-                "short_description": "Professional oriented application intended for Real Estate, Google Trusted Photographers, Architects or anyone that needs to create navigable tours, with hotspots and menus."
-            },
-            {
-                "images": {},
-                "locale": "fr_FR",
-                "display_name": "GoThru",
-                "keywords": [
-                    "immobilier",
-                    "google",
-                    "gothru",
-                    "hotspot",
-                    "navigation"
-                ],
-                "long_description": "Conçu pour fonctionner avec le tout dernier éditeur d'Overlay de GoThru, GoThru VR introduit des fonctions professionnelles telles que:\n- navigation hors ligne\n- verrouiller l'application pour un seul tour\n- flèches de navigation\n- hotspots\n- menu",
-                "long_description_uses_markdown": false,
-                "short_description": "Application professionnelle destinée aux professionnels de l'immobilier, aux photographes agréés Google, aux architectes ou à tous ceux qui souhaitent créer des visites guidées avec des hotspots et des menus."
+                "short_description": "Explore any Google Street View experience like International Space Station, Mars and even climb El Capitan, or build your own experience like trips that you did or real estate tours that you've created."
             }
         ],
         "keywords": [
@@ -125,9 +125,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 69,
-        "rating": 4.072464,
-        "weighted_rating": 3.96,
+        "votes": 94,
+        "rating": 4.010638,
+        "weighted_rating": 3.92,
         "is_available": true,
         "is_free": true
     },

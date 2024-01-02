@@ -2,7 +2,9 @@
     "package": "com.casinovr.casinovrpoker",
     "data": {
         "id": "2257223740990488",
-        "additional_ids": [],
+        "additional_ids": [
+            "686548444781796"
+        ],
         "name": "Poker VR - Multi Table Tournaments",
         "app_name": "Poker VR - Multi Table Tournaments",
         "type_name": "Application",
@@ -15,14 +17,19 @@
         "publisher": "Mega Particle, Inc.",
         "genres": [
             "Social",
-            "Casino & Poker"
+            "Casino & Poker",
+            "Casual",
+            "Sports"
         ],
         "devices": [
             "Touch Controllers",
-            "Hand Tracking"
+            "Hand Tracking",
+            "Touchpad",
+            "3DOF Controller"
         ],
         "modes": [
-            "Multiplayer"
+            "Multiplayer",
+            "Co-op"
         ],
         "languages": [
             "English"
@@ -39,28 +46,30 @@
         "tags": [
             "Tabletop greats",
             "Evergreen nerdy fun",
-            "Tag"
+            "Tag",
+            "Multiplayer & Social",
+            "Hang with Friends"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 746
+                "votes": 1655
             },
             {
                 "rating": 2,
-                "votes": 190
+                "votes": 658
             },
             {
                 "rating": 3,
-                "votes": 267
+                "votes": 1054
             },
             {
                 "rating": 4,
-                "votes": 707
+                "votes": 2402
             },
             {
                 "rating": 5,
-                "votes": 3507
+                "votes": 8388
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,13 +101,14 @@
             "casino",
             "casual",
             "social",
-            "free"
+            "free",
+            "multiplayer"
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 5417,
-        "rating": 4.114824,
-        "weighted_rating": 4.11,
+        "votes": 14157,
+        "rating": 4.07438,
+        "weighted_rating": 4.07,
         "is_available": true,
         "is_free": true
     },

@@ -1,15 +1,17 @@
 {
     "package": "com.oculus.tv",
     "data": {
-        "id": "1834973373242178",
-        "additional_ids": [],
-        "name": "Oculus TV",
-        "app_name": "Oculus TV",
+        "id": "1931356740318898",
+        "additional_ids": [
+            "1834973373242178"
+        ],
+        "name": "Meta Quest TV",
+        "app_name": "Meta Quest TV",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2018-06-20T00:00:00",
-        "description": "Oculus TV is a hub for must-watch programming, from your favorite Hulu* and SHOWTIME* shows, sports programming including MLB Live games via Facebook Watch, the best in pulse-pounding esports, and more-all on a massive virtual screen, equivalent to a 180-inch TV in real life.\n\nChannel Surfing There's plenty to see on Oculus TV, so we've made it easy to switch between live and on-demand content, from The Daily Show and late-night laughs with Stephen Colbert to Facebook Watch originals. You can stream the beyond everyday live events and videos of Red Bull TV and the blockbuster programming on Pluto TV*. If you're looking for the hottest memes, you'll love Neverthink. Want a rundown of today's headlines? Newsy* has you covered! For added convenience, Oculus TV lets you easily launch other dedicated VR entertainment apps, like Netflix**, Hulu*, and SHOWTIME*.\n\n*Denotes content only available in the US; subscription may be required. \n**Subscription may be required.",
+        "release_date": "2019-05-20T00:00:00",
+        "description": "Meta Quest TV is a VR home for the best in immersive entertainment. Watch together with friends or enjoy your own private entertainment screen. From immersive documentaries and feature films to on-demand concerts and sports, check out our regularly-updated lineup and experience entertainment like never before.",
         "markdown": false,
         "developer": "Oculus",
         "publisher": "Oculus",
@@ -17,10 +19,13 @@
             "Media & Streaming"
         ],
         "devices": [
+            "Touch Controllers",
+            "Hand Tracking",
             "3DOF Controller"
         ],
         "modes": [
-            "Single User"
+            "Single User",
+            "Multiplayer"
         ],
         "languages": [
             "English"
@@ -31,28 +36,34 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
-        "tags": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Free"
+        ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 187
+                "votes": 1118
             },
             {
                 "rating": 2,
-                "votes": 63
+                "votes": 156
             },
             {
                 "rating": 3,
-                "votes": 78
+                "votes": 170
             },
             {
                 "rating": 4,
-                "votes": 121
+                "votes": 214
             },
             {
                 "rating": 5,
-                "votes": 581
+                "votes": 919
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -61,22 +72,19 @@
             "descriptors": [
                 "Diverse Content: Discretion Advised"
             ],
-            "elements": [
-                "Users Interact",
-                "Digital Purchases"
-            ],
+            "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
-        "website": "http://www.oculus.com/",
+        "website": "https://www.meta.com/quest/entertainment/",
         "app_images": {
-            "cover_landscape": "12427574_199254650687823_5616316514350137344_n.png",
-            "cover_portrait": "12386220_230787907475453_3807188139366154240_n.png",
-            "cover_square": "12482172_200105113927667_2590955995022753792_n.png",
-            "hero": "12386220_192489161550086_3907541514821042176_n.png",
-            "icon": "12482156_414888388974416_6204083342858518528_n.png",
-            "logo_transparent": "12427628_589227314767979_8495413253852102656_n.png"
+            "cover_landscape": "38982538_176831279913943_7069013086811717632_n.png",
+            "cover_portrait": "38974456_188029758815976_8080875603286294528_n.png",
+            "cover_square": "38974621_281336995837050_4354426604202491904_n.png",
+            "hero": "38984468_264157194295221_8164828573106962432_n.png",
+            "icon": "38974485_355332968539938_139600142360641536_n.png",
+            "logo_transparent": "38974813_333642430681220_2532119117775765504_n.png"
         },
         "translations": [],
         "keywords": [
@@ -88,9 +96,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 1030,
-        "rating": 3.821359,
-        "weighted_rating": 3.83,
+        "votes": 2577,
+        "rating": 2.868064,
+        "weighted_rating": 2.91,
         "is_available": true,
         "is_free": true
     },

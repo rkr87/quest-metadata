@@ -1,32 +1,37 @@
 {
     "package": "com.facebook.tv",
     "data": {
-        "id": "1925714304166869",
-        "additional_ids": [],
+        "id": "1790834284361209",
+        "additional_ids": [
+            "1925714304166869"
+        ],
         "name": "Facebook Watch",
         "app_name": "Facebook Watch",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2018-06-18T00:00:00",
-        "description": "Facebook Watch — A new video experience that invites you to be part of the action with your favorite entertainment, sports, news, and creator videos. Catch up on original shows, videos from friends and Pages you follow, top live videos, recommended videos, and videos you’ve saved — all in one place.\n\nNeed more information? Visit https://www.facebook.com/help/watchfortv",
+        "release_date": "2019-05-21T00:00:00",
+        "description": "Facebook Watch — A new video experience that invites you to be part of the action with your favorite entertainment, sports, news, and creator videos. Catch up on original shows, videos from friends and Pages you follow, top live videos, recommended videos, and videos you’ve saved — all in one place.",
         "markdown": false,
-        "developer": "Facebook VR",
+        "developer": "Facebook",
         "publisher": "Facebook",
         "genres": [
+            "Media & Streaming",
             "360 Experience (non-game)",
             "Media Player",
             "Movie",
             "Utility"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
             "Single User"
         ],
         "languages": [
-            "English"
+            "English",
+            "English (US)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -34,23 +39,26 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [
-            "Entertainment: Top Free",
-            "tvprovider"
+            "tvprovider",
+            "Entertainment: Top Free"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 54
+                "votes": 104
             },
             {
                 "rating": 2,
-                "votes": 13
+                "votes": 16
             },
             {
                 "rating": 3,
-                "votes": 24
+                "votes": 29
             },
             {
                 "rating": 4,
@@ -58,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 34
+                "votes": 35
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -70,16 +78,16 @@
             ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "http://facebook.com/watch",
         "app_images": {
-            "cover_landscape": "12602334_232403680646378_8223795244265635840_n.png",
-            "cover_portrait": "12138999_1690647887716579_1826041732857331712_n.png",
-            "cover_square": "12138999_198049324325042_6881347729218338816_n.png",
-            "hero": "12139007_1759256700798821_8950089650131697664_n.png",
-            "icon": "12386401_2147968685218696_5431399798387245056_n.png",
-            "logo_transparent": "12504788_252782025290288_7621881308880306176_n.png"
+            "cover_landscape": "38974482_492292577956532_6327012702803722240_n.png",
+            "cover_portrait": "38974676_256794668358267_6725544633754976256_n.png",
+            "cover_square": "38974836_655822278151626_1616503562819338240_n.png",
+            "hero": "38974475_267141914151536_8861663141159763968_n.png",
+            "icon": "38982571_321360532024040_9125489178128154624_n.png",
+            "logo_transparent": "39031330_1357008494435104_8150135374023229440_n.png"
         },
         "translations": [
             {
@@ -437,11 +445,11 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 139,
-        "rating": 2.719424,
-        "weighted_rating": 3.23,
-        "is_available": true,
-        "is_free": true
+        "votes": 198,
+        "rating": 2.292929,
+        "weighted_rating": 2.84,
+        "is_available": false,
+        "is_free": false
     },
     "errors": []
 }

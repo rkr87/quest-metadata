@@ -2,7 +2,9 @@
     "package": "com.flightsystemsllc.flight74",
     "data": {
         "id": "4939588089476517",
-        "additional_ids": [],
+        "additional_ids": [
+            "3466107356802122"
+        ],
         "name": "Flight 74",
         "app_name": "Flight 74",
         "type_name": "Application",
@@ -19,7 +21,8 @@
         ],
         "devices": [
             "Touch Controllers",
-            "Hand Tracking"
+            "Hand Tracking",
+            "3DOF Controller"
         ],
         "modes": [
             "Single User"
@@ -40,23 +43,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 2,
-                "votes": 10
+                "votes": 12
             },
             {
                 "rating": 3,
-                "votes": 7
+                "votes": 10
             },
             {
                 "rating": 4,
-                "votes": 33
+                "votes": 34
             },
             {
                 "rating": 5,
-                "votes": 91
+                "votes": 102
             }
         ],
         "comfort": "NOT_RATED",
@@ -84,9 +87,9 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 144,
-        "rating": 4.381944,
-        "weighted_rating": 4.17,
+        "votes": 162,
+        "rating": 4.345679,
+        "weighted_rating": 4.14,
         "is_available": true,
         "is_free": false
     },

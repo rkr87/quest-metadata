@@ -1,17 +1,19 @@
 {
     "package": "com.solas.vr",
     "data": {
-        "id": "3916203871786673",
-        "additional_ids": [],
+        "id": "4239610756068143",
+        "additional_ids": [
+            "3916203871786673"
+        ],
         "name": "Solas VR",
         "app_name": "Solas VR",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2020-08-27T00:00:00",
+        "release_date": "2021-04-26T00:00:00",
         "description": "Solas Meditation is the VR app that goes beyond meditation as we know it. With an immersive gallery of landscapes, nature sounds and guidance, Solas VR meditation replicates the real feeling of being out there, close to nature, enjoying the inner calmness we are made for. Bringing together eternal wisdom and cutting edge technology, Solas Meditation is designed for urban living, as a shield against stress, confusion and rush. The graphics and sounds, provided directly by nature, create a seamless multi-sensory experience, initiating a journey within. \nWith Solas Meditation you will feel more. You will do more. You will be more.",
         "markdown": false,
-        "developer": "Virtual Reality Ireland Media Ltd.",
+        "developer": "Virtual Reality Ireland Media",
         "publisher": "Tiesto Capital Ltd",
         "genres": [
             "360 Experience (non-game)",
@@ -19,6 +21,7 @@
             "Relaxation/Meditation"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -33,22 +36,25 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [
             "Experiences & Narratives"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 3
+                "votes": 6
             },
             {
                 "rating": 2,
-                "votes": 3
+                "votes": 6
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 5
             },
             {
                 "rating": 4,
@@ -56,26 +62,26 @@
             },
             {
                 "rating": 5,
-                "votes": 2
+                "votes": 5
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://www.solasvr.com/",
         "app_images": {
-            "cover_landscape": "38982699_731472304346435_5524487768757239388_n.png",
-            "cover_portrait": "38974847_623976201879534_7424293414577921758_n.png",
-            "cover_square": "39036644_582611189344234_7757464422155738115_n.png",
-            "hero": "38974855_417461385890219_3967813806458031915_n.png",
-            "icon": "38974854_1263583787327558_2492226341362050340_n.png",
-            "logo_transparent": "39001725_289700525416523_8582132434121441128_n.png"
+            "cover_landscape": "75439593_919600812115847_1829137218795508158_n.png",
+            "cover_portrait": "75404387_829908680925034_4094723077363405557_n.png",
+            "cover_square": "39031584_1801348486713296_5753241653177771906_n.png",
+            "hero": "38974899_183072640243601_4514744138294971544_n.png",
+            "icon": "38982604_1007443349994647_8096515772764004994_n.png",
+            "logo_transparent": "75203613_244740583807437_6085771984108042365_n.png"
         },
         "translations": [],
         "keywords": [
@@ -87,9 +93,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 11,
-        "rating": 2.636364,
-        "weighted_rating": 3.77,
+        "votes": 23,
+        "rating": 2.695652,
+        "weighted_rating": 3.64,
         "is_available": true,
         "is_free": true
     },

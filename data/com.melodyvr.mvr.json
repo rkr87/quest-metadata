@@ -1,24 +1,28 @@
 {
     "package": "com.melodyvr.mvr",
     "data": {
-        "id": "1168045643267750",
-        "additional_ids": [],
+        "id": "2617356444966011",
+        "additional_ids": [
+            "1168045643267750"
+        ],
         "name": "MelodyVR",
         "app_name": "MelodyVR",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "ENTERTAINMENT",
-        "release_date": "2018-05-01T00:00:00",
-        "description": "Jump up on stage at a sold out show, be an audience of one at a VIP performance, or catch your favourite band at a festival on the other side of the world. Transport yourself around the venue, from jump spot to jump spot, so you’re always at the heart of the action. With an unmissable line-up of artists - from Bebe Rexha to Imagine Dragons, from 2Chainz to the London Symphony Orchestra - MelodyVR is your all-access-pass to live music in virtual reality.\n\nDownload the MelodyVR app to explore our selection of Shows from across the music spectrum: from festival stages, to packed out arenas, to underground clubs. Or choose an Original: our exclusive, only-in-VR performances - think secret gigs on rooftops, and poolside acoustic sessions. In Journeys, lean back and let us do the work - our curated playlists will take you from stage-to-stage around the world.",
+        "release_date": "2019-08-22T00:00:00",
+        "description": "Jump up on stage at a sold out show, be an audience of one at a VIP performance, or catch your favourite band at a festival on the other side of the world. Transport yourself around the venue, from jump spot to jump spot, so you’re always at the heart of the action. With an unmissable line-up of artists - from Bebe Rexha to Imagine Dragons, from 2Chainz to the London Symphony Orchestra - MelodyVR is your all-access-pass to live music in virtual reality.",
         "markdown": false,
         "developer": "MelodyVR",
         "publisher": "MelodyVR",
         "genres": [
+            "Events",
             "360 Experience (non-game)",
             "Music",
             "Music Video"
         ],
         "devices": [
+            "Touch Controllers",
             "Touchpad",
             "3DOF Controller"
         ],
@@ -34,28 +38,32 @@
             "Meta Quest 2",
             "Meta Quest"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 176
+                "votes": 300
             },
             {
                 "rating": 2,
-                "votes": 34
+                "votes": 52
             },
             {
                 "rating": 3,
-                "votes": 28
+                "votes": 42
             },
             {
                 "rating": 4,
-                "votes": 28
+                "votes": 39
             },
             {
                 "rating": 5,
-                "votes": 171
+                "votes": 195
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -69,16 +77,16 @@
             ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://melodyvr.com/",
         "app_images": {
-            "cover_landscape": "12138782_297130334149066_2502362008096079872_n.png",
-            "cover_portrait": "12449084_423775858065118_6051978343086030848_n.png",
-            "cover_square": "12386356_2045272605760602_923097761648214016_n.png",
-            "hero": "12534016_1848516028515805_1882133675030609920_n.png",
-            "icon": "12410355_472325353161794_3177008916831666176_n.png",
-            "logo_transparent": "11162732_296442394211529_4325953672564441088_n.png"
+            "cover_landscape": "38984452_2354800894612647_3843324005624840192_n.png",
+            "cover_portrait": "39003262_2164824043642987_873297478412140544_n.png",
+            "cover_square": "39031598_1304862569672823_15671936231145472_n.png",
+            "hero": "39003279_666526577105395_6668605376138575872_n.png",
+            "icon": "39031552_2303652796408497_6615661013633073152_n.png",
+            "logo_transparent": "38982525_1440639499441267_7135885036120702976_n.png"
         },
         "translations": [],
         "keywords": [
@@ -86,13 +94,14 @@
             "gigs",
             "concerts",
             "melody",
+            "liam",
             "charts"
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 437,
-        "rating": 2.963387,
-        "weighted_rating": 3.15,
+        "votes": 628,
+        "rating": 2.644904,
+        "weighted_rating": 2.82,
         "is_available": false,
         "is_free": false
     },
