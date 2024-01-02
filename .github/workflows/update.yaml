@@ -3,6 +3,7 @@ name: run src/quest_metadata.py
 on:
   schedule:
     - cron: '0 0 * * *' # At 00:00 every day
+  workflow_dispatch:
 
 jobs:
   update:
@@ -25,6 +26,7 @@ jobs:
           
       - name: execute script
         run: python src/quest_metadata/main.py
+        continue-on-error: true
           
       - name: commit files
         run: |
