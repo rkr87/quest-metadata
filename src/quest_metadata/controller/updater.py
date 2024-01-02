@@ -21,7 +21,7 @@ from data.model.oculus.app import Item, OculusApp
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_package import AppPackage
 from data.model.oculus.app_versions import AppVersions
-# from data.model.oculus.store_section import StoreSection
+from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
 from data.web.wrapper import Wrapper
@@ -62,17 +62,17 @@ class Updater(Singleton):
 
         parsed: list[ParsedAppItem] = await asyncio.gather(*[
             self._parse_result(i.id, i.app_name, i.package_name)
-            for x, i in enumerate(oculusdb) if x < 3000  # pylint: disable=R2004
+            for i in oculusdb
         ])
 
-        # parsed_ids: list[str] = [i.id for i in parsed]
+        parsed_ids: list[str] = [i.id for i in parsed]
 
-        # oculus: StoreSection = await self._wrapper.get_store_apps()
-        # parsed += await asyncio.gather(*[
-        #     self._parse_result(i.id, i.display_name)
-        #     for i in oculus
-        #     if i.id not in parsed_ids
-        # ])
+        oculus: StoreSection = await self._wrapper.get_store_apps()
+        parsed += await asyncio.gather(*[
+            self._parse_result(i.id, i.display_name)
+            for i in oculus
+            if i.id not in parsed_ids
+        ])
 
         self._logger.info("Collecting package names for each Oculus app")
 
