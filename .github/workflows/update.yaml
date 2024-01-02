@@ -22,10 +22,10 @@ jobs:
           python-version: '3.12'
           
       - name: install python packages
-        run: pip install -r .config_app/requirements.txt
+        run: pip install -r .config/app/requirements.txt
           
       - name: execute script
-        run: python src/quest_metadata/main.py -c .config_app/github_actions.json
+        run: python src/quest_metadata/main.py -c .config/app/github_actions.json
         continue-on-error: true
           
       - name: commit files
