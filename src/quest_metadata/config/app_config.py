@@ -55,7 +55,7 @@ class AppConfig(SingletonModel):
                 data.update(json.loads(await config.read()))
         if override_file and await path.exists(override_file):
             async with aopen(override_file, "r", encoding="utf8") as override:
-                deep_update(data, json.loads(await override.read()))
+                data = deep_update(data, json.loads(await override.read()))
         model: Self = cls.model_validate(data)
         cls.add_instance(model)
         return model
