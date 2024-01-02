@@ -10,7 +10,7 @@ from collections.abc import Callable
 from pydantic import field_validator
 
 from base.models import BaseModel, RootListModel
-from utils.string import to_camel
+from helpers.string import to_camel
 
 
 class OculusDbApp(BaseModel):

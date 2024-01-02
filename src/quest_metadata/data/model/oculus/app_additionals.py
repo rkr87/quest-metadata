@@ -15,7 +15,7 @@ from pydantic import AliasPath, Field, model_serializer, model_validator
 from base.models import BaseModel
 from config.app_config import AppConfig
 from controller.image_manager import ImageProps
-from utils.dict import get_nested_keys
+from helpers.dict import get_nested_keys
 
 IMG_TYPES: dict[str, ImageProps] = {
     "COVER_LANDSCAPE": ImageProps(max_height=300),

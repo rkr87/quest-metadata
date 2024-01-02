@@ -8,7 +8,7 @@ Functions:
 """
 from typing import Any, TypeVar, overload
 
-from utils.list import safe_list_get
+from helpers.list import safe_list_get
 
 _VT = TypeVar("_VT")
 _KT = TypeVar("_KT")
