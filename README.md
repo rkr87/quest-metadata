@@ -6,11 +6,11 @@
 - include parsing of google form for rookie multiplayer reports
 
 **Performance**
+- move images to google drive
 - implement multiprocessing/concurrency for image manipulation
 - only fetch full version history for new apps and additional ids (fetch released history for all apps)
 
 **Logging/Error Handling**
-- Save files for captured errors and keep for x days rather than logging the responses to console
 - better timeit implementation
 - log more stuff (and accurately)
   
