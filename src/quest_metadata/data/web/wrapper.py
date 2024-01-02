@@ -21,7 +21,7 @@ from typing_extensions import final
 
 from base.classes import Singleton
 from base.models import BaseModel
-from constants.constants import DEFAULT_LOCALE, RESOURCES
+from config.app_config import AppConfig
 from data.model.oculus.app import OculusApp
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_package import AppPackage
@@ -121,7 +121,7 @@ class _Payload(BaseModel):
     - url_encode: Encode the payload into a URL-encoded string.
     """
     access_token: str = "OC|1076686279105243|"
-    forced_locale: str = DEFAULT_LOCALE
+    forced_locale: str = AppConfig().scrape_locale
     variables: _RequestVars = _RequestVars()
 
     doc_id: int | None = None
@@ -422,7 +422,9 @@ class Wrapper(Singleton):
         Returns:
         - AppImage: The AppImage instance with downloaded data.
         """
-        if await path.exists(f"{RESOURCES}{res.type}/{res.name}"):
+        if await path.exists(
+            f"{AppConfig().resource_path}/{res.type}/{res.name}"
+        ):
             return None
         await asyncio.sleep(1 / RATE_LIMIT)
         if (data := await self._client.get(res.url)) is None:

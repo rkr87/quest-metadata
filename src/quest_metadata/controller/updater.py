@@ -12,7 +12,7 @@ from typing_extensions import final
 
 from base.classes import Singleton
 from base.lists import LowerCaseUniqueList
-from constants.constants import DATA, RESOURCES
+from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from controller.parser import Parser
 from data.local.app_manager import AppManager
@@ -148,9 +148,10 @@ class Updater(Singleton):
         await self._app_manager.save()
 
         self._calc_average_ratings([i for i in tasks if i])
-        await asyncio.gather(
-            *[r.save_json(f"{DATA}{r.package}.json") for r in tasks if r]
-        )
+        await asyncio.gather(*[
+            r.save_json(f"{AppConfig().data_path}/{r.package}.json")
+            for r in tasks if r
+        ])
 
     @staticmethod
     def _calc_average_ratings(items: list[OculusApp]) -> None:
@@ -296,7 +297,7 @@ class Updater(Singleton):
         Optional[str]: The directory path or None if creating the directory
             fails.
         """
-        directory: str = f"{RESOURCES}{res.type}/"
+        directory: str = f"{AppConfig().resource_path}/{res.type}/"
         try:
             await makedirs(directory, exist_ok=True)
         except asyncio.TimeoutError:
