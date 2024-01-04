@@ -15,11 +15,16 @@ from utils.error_manager import ErrorManager
 
 async def main() -> None:
     """
-    Asynchronous function to run the Oculus app updater.
+    Setup environment
     """
-    from application import Application  # pylint: disable=C0415
-    app: Application = await Application()
-    await app.run()
+    args: Namespace = setup_args().parse_args()
+    if args.save_config:
+        await AppConfig.save_defaults()
+        return
+    config: AppConfig = await AppConfig.load_config(args.config_file)
+    logging.config.fileConfig(config.logging_config)
+    await _run_app()
+    await ErrorManager().save_error_log()
 
 
 def setup_args() -> ArgumentParser:
@@ -29,49 +34,32 @@ def setup_args() -> ArgumentParser:
     Returns:
     - ArgumentParser: The configured argument parser.
     """
-    arg_parser = ArgumentParser(
+    args = ArgumentParser(
         prog="QuestMetadata",
         description="Fetch metadata and artwork for Meta Quest apps"
     )
-    arg_parser.add_argument(
+    args.add_argument(
         "-c",
         "--config_file",
         type=str,
         help="path to config override",
         required=False
     )
-    arg_parser.add_argument(
+    args.add_argument(
         "-s",
         "--save_config",
         action='store_true',
         help="save default config values to default file location",
         required=False
     )
-    return arg_parser
+    return args
 
 
-async def load_config(override_file: str | None) -> None:
-    """
-    Load configuration.
-
-    Args:
-    - override_file (str | None): Path to a config override file.
-    """
-    await AppConfig.load_config(override_file)
-
-
-async def save_config() -> None:
-    """
-    Save default configuration values to the default file location.
-    """
-    await AppConfig.save_defaults()
+async def _run_app() -> None:
+    """Run the app"""
+    from application import Application  # pylint: disable=C0415
+    app: Application = await Application()
+    await app.run()
 
 if __name__ == "__main__":
-    args: Namespace = setup_args().parse_args()
-    if args.save_config:
-        asyncio.run(save_config())
-    else:
-        asyncio.run(load_config(args.config_file))
-        logging.config.fileConfig(AppConfig().logging_config)
-        asyncio.run(main())
-        asyncio.run(ErrorManager().save_error_log())
+    asyncio.run(main())
