@@ -36,9 +36,10 @@ class AsyncRunner:
 
     def __init__(
         self,
-        pool: ThreadPoolExecutor | None = None
+        pool: ThreadPoolExecutor | None = None,
+        workers: int | None = None
     ) -> None:
-        self._pool: ThreadPoolExecutor = pool or ThreadPoolExecutor()
+        self._pool: ThreadPoolExecutor = pool or ThreadPoolExecutor(workers)
 
     async def call(
         self,
