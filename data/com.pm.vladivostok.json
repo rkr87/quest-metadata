@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Adults Only 18+",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "38974506_3377538252473864_2619999919830677542_n.png",
             "hero": "38974862_3124248017901722_5998993447765633077_n.png",
             "icon": "43997715_453856429561027_917954095933663623_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974883_697498781239489_240567008208524520_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Desperate: Vladivostok",
                 "keywords": [],
@@ -94,9 +106,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 9,
         "rating": 4.444444,
-        "weighted_rating": 3.88,
+        "weighted_rating": 3.89,
         "is_available": false,
         "is_free": false
     },

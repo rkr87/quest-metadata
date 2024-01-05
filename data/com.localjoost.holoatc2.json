@@ -7,6 +7,7 @@
         "app_name": "HoloATC",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-02-06T00:00:00",
         "description": "This app shows live air traffic from a number of airports all around the world. It is indented to be used with hand tracking only. Initially you are asked select an airport, then select a place for the airport center. Press fingers and thumb together to place the airport. Then you can watch air traffic. More options are in the hand menu (hold hand up with palm towards you).\nYou can also see aircraft pictures by looking at a plane for 3 seconds, and select a single airplane to follow. This will be shared in all headsets watching this airport.",
         "markdown": false,
@@ -55,6 +56,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -70,12 +72,15 @@
             "cover_square": "57568684_905368870501332_8963527668150992013_n.png",
             "hero": "39031609_737367381000374_7704593024219410929_n.png",
             "icon": "38982447_689998806287640_4590581198346116915_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75507164_730896425099882_3252550260741817662_n.png"
         },
         "translations": [],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 4.0,
         "weighted_rating": 3.84,

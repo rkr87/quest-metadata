@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [],
@@ -78,11 +79,23 @@
             "cover_portrait": "12138812_436110759928103_2118166396_n.png",
             "cover_square": "12138814_931907043569346_1183068591_n.png",
             "hero": "12138839_172299979787042_210944001_n.png",
-            "icon": "12138815_912981108784698_1525733548_n.png"
+            "icon": "12138815_912981108784698_1525733548_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Tarraco VR",
                 "keywords": [],
@@ -94,6 +107,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1966,
         "rating": 2.989318,
         "weighted_rating": 3.03,

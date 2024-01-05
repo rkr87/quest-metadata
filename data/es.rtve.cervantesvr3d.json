@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "11162763_459199841129775_2068115027486834688_n.png",
             "hero": "11162718_115140282531548_8196352696756731904_n.png",
             "icon": "11162696_148271115788165_1022679816811315200_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162743_1593581390681721_6731744960212631552_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Cervantes VR",
                 "keywords": [
@@ -107,6 +119,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 28,
         "rating": 3.714286,
         "weighted_rating": 3.81,

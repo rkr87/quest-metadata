@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "38982487_828614754460613_1569763554035416980_n.png",
             "hero": "38982695_916613725854952_5670203697298209034_n.png",
             "icon": "38974621_563380548379665_7820367189191644616_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974613_493341981972501_211091012849879767_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Boule Petanque",
                 "keywords": [],
@@ -92,7 +104,16 @@
                 "short_description": "BOULE PETANQUE est un jeu de sport VR qui te permet de jouer aux boules, à la pétanque ou au bocce.\nDans le mode solo, tu apprends à jouer, dans le mode multijoueur, tu peux te mesurer à d'autres joueurs. Il peut s'agir d'amis ou de joueurs aléatoires du monde entier.\nJoin our discord: http://discord.boulepetanque.com"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Boule Petanque",
                 "keywords": [],
@@ -104,6 +125,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 87,
         "rating": 4.632184,
         "weighted_rating": 4.19,

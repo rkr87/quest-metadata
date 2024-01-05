@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "11162708_135592817038798_9034909262748319744_n.png",
             "hero": "11162730_1006470236158612_2763656342232104960_n.png",
             "icon": "11162718_870157693133815_2384912055757963264_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162748_120387221927824_6527316882133876736_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "UnityChan Flyer",
                 "keywords": [
@@ -99,6 +111,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 28,
         "rating": 3.535714,
         "weighted_rating": 3.78,

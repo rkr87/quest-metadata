@@ -55,6 +55,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -70,11 +71,22 @@
             "cover_square": "11162823_261742450914372_7946080966689161216_n.png",
             "hero": "12482393_1425854060790527_4566811117787021312_n.png",
             "icon": "12602285_590055207855958_5647894870551953408_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12331199_2026470090899474_4476022050384773120_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "ART HOF",
                 "keywords": [
@@ -96,6 +108,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 11,
         "rating": 2.909091,
         "weighted_rating": 3.75,

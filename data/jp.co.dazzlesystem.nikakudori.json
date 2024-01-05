@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,11 +73,22 @@
             "cover_square": "38974782_1172301079595267_8237657783789420544_n.png",
             "hero": "38974869_474351156394967_405698217028616192_n.png",
             "icon": "38982615_312407462858348_1861095795638403072_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982511_723090558030200_2477287855878045696_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "二角取り",
                 "keywords": [
@@ -98,6 +110,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 25,
         "rating": 3.24,
         "weighted_rating": 3.73,

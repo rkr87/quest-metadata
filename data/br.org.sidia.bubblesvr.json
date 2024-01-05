@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +74,22 @@
             "cover_square": "12386356_1782999845099150_2009127122009849856_n.png",
             "hero": "12410407_1707635949306062_2111094279886602240_n.png",
             "icon": "12386356_1790720544564477_5974378806717186048_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12448944_171713730122763_8651782473249718272_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_BR",
                 "display_name": "Bubble 360 Gallery",
                 "keywords": [
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 18,
         "rating": 2.444444,
         "weighted_rating": 3.64,

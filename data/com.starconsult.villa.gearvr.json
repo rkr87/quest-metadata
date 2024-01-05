@@ -68,6 +68,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -86,11 +87,22 @@
             "cover_square": "11162707_2023182881250847_2755758687648743424_n.png",
             "hero": "11162684_280792475757980_3994371709003104256_n.png",
             "icon": "11162754_352524108504426_1854039958940024832_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162732_356854591424163_7710756229617811456_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "The Villa: Allison's Diary",
                 "keywords": [
@@ -114,6 +126,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 92,
         "rating": 3.815217,
         "weighted_rating": 3.83,

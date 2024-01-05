@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,11 +73,22 @@
             "cover_square": "38982721_471571887305096_425572337587056881_n.png",
             "hero": "38974854_383619162951256_4272163938188532215_n.png",
             "icon": "38982461_804878163625310_3435629065276876427_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982721_772678746616250_1504260189778713301_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Explorador Del Nivel Del Mar: Long Beach",
                 "keywords": [
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 16,
         "rating": 4.25,
         "weighted_rating": 3.89,

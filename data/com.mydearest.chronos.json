@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "38974740_1708203869324736_5300106646763077632_n.png",
             "hero": "38974772_388476975318488_8819087525491507200_n.png",
             "icon": "38974852_2025497380905037_6098298805164179456_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982440_1979465195482578_1727344625640800256_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "東京クロノス",
                 "keywords": [],
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 193,
         "rating": 4.668394,
         "weighted_rating": 4.37,

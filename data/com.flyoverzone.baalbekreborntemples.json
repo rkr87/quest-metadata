@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +79,22 @@
             "cover_square": "39001729_638229473457992_8947336526129167579_n.png",
             "hero": "38982712_299549391363658_7723870079366643604_n.png",
             "icon": "39031340_716032102293811_6776036037244466998_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035425_282386539503549_3472924936451976061_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Baalbek Reborn: Temples",
                 "keywords": [
@@ -97,7 +109,16 @@
                 "short_description": "Faites une visite virtuelle des temples romains de Baalbek, au Liban. Découvrez les ruines d'aujourd'hui situées dans le site du patrimoine mondial et voyagez en arrière pour voir sa splendeur antique restaurée numériquement.  Écoutez les explications des experts de l'Institut archéologique Allemand. Découvrez la conception et l'utilisation du sanctuaire dans l'Antiquité et dans la période post-antique. Admirez certains des plus beaux exemples d'architecture romaine antique au Proche-Orient."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Baalbek Reborn: Temples",
                 "keywords": [
@@ -121,6 +142,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 15,
         "rating": 4.533333,
         "weighted_rating": 3.92,

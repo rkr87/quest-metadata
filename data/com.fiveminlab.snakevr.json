@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -68,12 +69,26 @@
         "website": "http://5minlab.com/",
         "app_images": {
             "cover_landscape": "12449015_935100646587445_1506303782_n.png",
+            "cover_portrait": null,
+            "cover_square": null,
             "hero": "12449015_252942935039624_2083353666_n.png",
-            "icon": "12138835_1711921749090319_1173607914_n.png"
+            "icon": "12138835_1711921749090319_1173607914_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "Snake VR",
                 "keywords": [
@@ -97,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 838,
         "rating": 3.655131,
         "weighted_rating": 3.68,

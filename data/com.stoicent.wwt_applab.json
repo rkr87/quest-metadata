@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -79,11 +80,22 @@
             "cover_square": "39031425_555198742714140_916524294841377445_n.png",
             "hero": "38974453_3300381136845081_2420987540119992426_n.png",
             "icon": "38974905_3319232204971914_7528994460949865950_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974751_763779881304982_6117386198376220520_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "World War Toons: Tank Arena VR (BETA)",
                 "keywords": [],
@@ -95,6 +107,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 51,
         "rating": 3.72549,
         "weighted_rating": 3.8,

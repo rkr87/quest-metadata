@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -76,11 +77,22 @@
             "cover_square": "38982625_745524529239134_2525294440512225280_n.png",
             "hero": "38974447_2270470263266308_4721420311126343680_n.png",
             "icon": "38974528_719808478446754_218225733531598848_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974687_1146183185567223_4258731923939000320_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Green Beret: Rebels Operation",
                 "keywords": [
@@ -104,6 +116,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 13,
         "rating": 4.384615,
         "weighted_rating": 3.9,

@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +79,22 @@
             "cover_square": "39035428_1050794268742468_3680544553532420616_n.png",
             "hero": "75334057_409515153482751_5742809447731549706_n.png",
             "icon": "39036605_418301069429331_57164963259767082_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974730_280357356849701_2367448960311729999_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "VR New York Story",
                 "keywords": [],
@@ -91,7 +103,16 @@
                 "short_description": "VR 뉴욕스토리는 뉴욕을 배경으로 한 가상 공간에서 영어 말하기 학습 솔루션을 이용해 캐릭터들과 생동감 넘치는 대화 체험을 할 수 있는 VR 게임입니다. 이제 더 이상 영어 공부를 위해 해외 유학에 시간과 돈을 들이지 마세요! 정교하게 고안된 VR 게임을 통해 뉴욕의 곳곳을 방문하고 당신의 손과 컨트롤러만으로 뉴욕을 체험할 수 있습니다.\n"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "VR New York Story",
                 "keywords": [],
@@ -103,6 +124,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4,
         "rating": 3.5,
         "weighted_rating": 3.83,

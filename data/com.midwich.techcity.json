@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,11 +73,22 @@
             "cover_square": "38974440_737973856673444_2615710554429325312_n.png",
             "hero": "39035361_452743718675249_9124403960151539712_n.png",
             "icon": "38982492_387934171897188_7261098927825354752_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974835_947670875581347_6600150246049710080_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "Tech City VR",
                 "keywords": [
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 22,
         "rating": 2.454545,
         "weighted_rating": 3.6,

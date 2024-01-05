@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -77,11 +78,22 @@
             "cover_square": "38982541_1306619993474928_1025972418273618050_n.png",
             "hero": "39031352_878548459852416_7811341590721085366_n.png",
             "icon": "39035347_1219952228622476_8047321338305445782_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75603734_461002476146119_4763043037299772418_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ro_RO",
                 "display_name": "Muzeul Abandonului VR",
                 "keywords": [],
@@ -93,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 2.0,
         "weighted_rating": 3.82,

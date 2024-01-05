@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +74,22 @@
             "cover_square": "38984462_910593039137101_1865398051493904384_n.png",
             "hero": "38974792_537052796795256_4274096430706065408_n.png",
             "icon": "39001701_373134280120395_5432161145764970496_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974732_515077405648349_4575574015006998528_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "スマートボールVR",
                 "keywords": [
@@ -101,6 +113,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 6,
         "rating": 4.5,
         "weighted_rating": 3.87,

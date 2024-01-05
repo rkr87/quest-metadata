@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -82,11 +83,22 @@
             "cover_square": "12680425_985767594912320_4286705496909414400_n.png",
             "hero": "12727978_1788286207902085_2194531364005478400_n.png",
             "icon": "12331258_550003985374442_6246669506966454272_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12139007_2029412103976472_8484265498731610112_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Luna Park",
                 "keywords": [
@@ -110,6 +122,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 124,
         "rating": 2.33871,
         "weighted_rating": 3.04,

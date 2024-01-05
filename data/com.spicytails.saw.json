@@ -67,6 +67,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -84,11 +85,22 @@
             "cover_square": "38974776_652188918581008_1225512421913788416_n.png",
             "hero": "39003250_320870432175560_2647950352774594560_n.png",
             "icon": "39031612_2118452838455166_3391074128428531712_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974830_324948325066339_1810624857554026496_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "狼と香辛料ＶＲ",
                 "keywords": [
@@ -108,6 +120,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 88,
         "rating": 3.988636,
         "weighted_rating": 3.91,

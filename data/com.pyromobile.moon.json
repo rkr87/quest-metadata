@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "12410318_1808405432737611_2841920133947981824_n.png",
             "hero": "12139518_1593178884310648_483221169835606016_n.png",
             "icon": "12386177_162826074171714_5078510824192999424_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12602109_200946823669833_5927373159916371968_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Una aventura en la Luna",
                 "keywords": [
@@ -104,6 +116,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 35,
         "rating": 3.714286,
         "weighted_rating": 3.81,

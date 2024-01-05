@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,22 @@
             "cover_square": "75542967_168920248076077_4195368207170033729_n.png",
             "hero": "75588058_886028425547741_6745172026765273527_n.png",
             "icon": "75429297_1007392926450879_95185638312136206_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75441580_417760409336182_1151643774235758294_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "TripeaksDreamland VR",
                 "keywords": [],
@@ -96,6 +108,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 31,
         "rating": 4.387097,
         "weighted_rating": 3.96,

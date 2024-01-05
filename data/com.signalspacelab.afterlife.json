@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -79,11 +80,22 @@
             "cover_square": "39035395_1639962899483234_8132377045758902272_n.png",
             "hero": "39031460_585530241948877_445794678789373952_n.png",
             "icon": "38982563_281612949407521_4924111736358830080_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974834_577816846073394_3166499380966457344_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Afterlife",
                 "keywords": [
@@ -107,6 +119,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 7,
         "rating": 4.0,
         "weighted_rating": 3.85,

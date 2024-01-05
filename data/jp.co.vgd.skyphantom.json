@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -76,11 +77,22 @@
             "cover_square": "12410441_240687666678457_4609199618910060544_n.png",
             "hero": "12504728_719808444859352_4420795157574582272_n.png",
             "icon": "12410355_404976733310253_7819140047159951360_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12449084_2123053817721719_8252153904003809280_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "ACE  PHANTOM",
                 "keywords": [
@@ -104,6 +116,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 57,
         "rating": 4.017544,
         "weighted_rating": 3.9,

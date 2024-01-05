@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -77,11 +78,22 @@
             "cover_square": "38982492_1124905378162580_3717313449842030356_n.png",
             "hero": "75348041_1127849944522742_6259507293306855632_n.png",
             "icon": "39031605_2059576320895373_2491564694010829006_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39003260_678651210446355_5991041807127735776_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "XmasQuest",
                 "keywords": [],
@@ -93,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 3.0,
         "weighted_rating": 3.82,

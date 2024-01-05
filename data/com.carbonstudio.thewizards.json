@@ -67,10 +67,11 @@
             },
             {
                 "rating": 5,
-                "votes": 318
+                "votes": 319
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -88,11 +89,22 @@
             "cover_square": "38974858_443101863166757_1255605325021577216_n.png",
             "hero": "38974732_364932984379259_7597045407088115712_n.png",
             "icon": "38982527_352930815365526_1176914312908767232_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031377_480699999339521_4164041596007874560_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "The Wizards",
                 "keywords": [
@@ -116,8 +128,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 598,
-        "rating": 4.120401,
+        "is_demo_of": null,
+        "votes": 599,
+        "rating": 4.12187,
         "weighted_rating": 4.08,
         "is_available": true,
         "is_free": false

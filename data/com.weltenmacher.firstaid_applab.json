@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "38974497_597475477904933_771966943729308317_n.png",
             "hero": "75302225_4658030734231683_5595250776787302313_n.png",
             "icon": "38974777_242142607793339_8206873930145972366_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39036629_5121331677893174_2525653138625930964_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Erste Hilfe Training",
                 "keywords": [],
@@ -89,7 +101,16 @@
                 "short_description": "Diese VR-Anwendung hilft dir, die Schritte der Ersten Hilfe zu erlernen. Der Schwerpunkt liegt auf der Rettungskette und der Reanimation mit Feststellung (Ausgangssituation), Herzdruckmassage und Beatmung. Jeder Schritt ist in eine Anleitung und ein Training unterteilt, um zu lernen, die Schritte sicher auszuführen."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "First Aid Training",
                 "keywords": [],
@@ -101,6 +122,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 6,
         "rating": 2.5,
         "weighted_rating": 3.77,

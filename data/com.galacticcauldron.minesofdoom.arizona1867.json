@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "39031375_360053858499734_4106384719449889755_n.png",
             "hero": "38974542_330316381528464_7758984534154565769_n.png",
             "icon": "38974746_326069872040158_8736941224485372088_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031312_324062542220712_9159264521473587010_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Mines of Doom: Arizona 1867",
                 "keywords": [
@@ -106,6 +118,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 15,
         "rating": 4.066667,
         "weighted_rating": 3.87,

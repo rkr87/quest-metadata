@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +79,22 @@
             "cover_square": "38974738_475393999856961_3042030339670147072_n.png",
             "hero": "38984456_474861886688494_5451184045545226240_n.png",
             "icon": "39031490_729985627444273_5976286068549353472_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982706_2420556748228888_661905458755272704_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_BR",
                 "display_name": "Epic Fun",
                 "keywords": [
@@ -106,6 +118,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 94,
         "rating": 3.840426,
         "weighted_rating": 3.84,

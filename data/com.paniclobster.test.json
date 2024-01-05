@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +79,22 @@
             "cover_square": "12533795_1632553246855304_7158761999034220544_n.png",
             "hero": "38974722_1485149964921718_2161615065361416192_n.png",
             "icon": "12139061_1109025042608997_2683083490198552576_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12410288_282187735708129_7769390513257447424_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_BR",
                 "display_name": "Panic Lobster",
                 "keywords": [
@@ -105,6 +117,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 12,
         "rating": 3.583333,
         "weighted_rating": 3.81,

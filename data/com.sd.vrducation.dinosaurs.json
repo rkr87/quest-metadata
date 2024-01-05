@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "11162704_115420795821741_462457678724071424_n.png",
             "hero": "11162718_2055971917970697_3142449926340870144_n.png",
             "icon": "11162695_122915105036320_6234205881240649728_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162717_132810294124557_8330821461300215808_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Dinosaurios!",
                 "keywords": [
@@ -107,6 +119,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 81,
         "rating": 2.679012,
         "weighted_rating": 3.34,

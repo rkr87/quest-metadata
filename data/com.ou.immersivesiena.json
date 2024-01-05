@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,11 +75,22 @@
             "cover_square": "39031395_1719840608207100_2623253642253053465_n.png",
             "hero": "75223470_2973165056065370_720143436867385874_n.png",
             "icon": "75422395_665853957337519_5198955320344215898_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035326_298652468189844_5589892395402315777_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Immersive Siena",
                 "keywords": [
@@ -102,6 +114,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 15,
         "rating": 3.866667,
         "weighted_rating": 3.84,

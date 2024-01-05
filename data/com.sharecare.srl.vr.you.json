@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,11 +75,22 @@
             "cover_square": "38982492_3000083080215332_6218957280591871939_n.png",
             "hero": "39036672_2959308447652613_436175383779776204_n.png",
             "icon": "39031600_568626404407375_244974220538856625_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974689_154064623602774_1295164812725947462_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Sharecare YOU Анатомия",
                 "keywords": [],
@@ -90,6 +102,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 20,
         "rating": 4.1,
         "weighted_rating": 3.88,

@@ -56,6 +56,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -73,11 +74,22 @@
             "cover_square": "12138802_802165503258782_6601990575111536640_n.png",
             "hero": "12331221_1333799629985561_8042372823500455936_n.png",
             "icon": "12139277_1333363873349970_3231810268577136640_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12427520_1186091131437294_118951425660157952_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Escena 360",
                 "keywords": [],
@@ -89,6 +101,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 52,
         "rating": 2.980769,
         "weighted_rating": 3.56,

@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -81,11 +82,22 @@
             "cover_square": "38982634_268915470708751_4191663381091975168_n.png",
             "hero": "38974577_265583607684401_5915772938581180416_n.png",
             "icon": "39003229_2350499064973726_8121602733749829632_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982652_2361697657409696_5562714248754233344_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Commando",
                 "keywords": [
@@ -109,6 +121,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 32,
         "rating": 2.34375,
         "weighted_rating": 3.5,

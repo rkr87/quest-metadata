@@ -75,6 +75,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -103,7 +104,16 @@
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "No More Rainbows",
                 "keywords": [],
@@ -121,6 +131,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1055,
         "rating": 4.614218,
         "weighted_rating": 4.54,

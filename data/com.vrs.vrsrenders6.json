@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "12727760_231021747304042_2337900864154370048_n.png",
             "hero": "12139289_1091671567611070_7720934868317634560_n.png",
             "icon": "12602284_428907807461506_8715136127083741184_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162675_1812168115699870_2469829550679261184_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Architecture VR",
                 "keywords": [
@@ -107,6 +119,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 17,
         "rating": 2.882353,
         "weighted_rating": 3.71,

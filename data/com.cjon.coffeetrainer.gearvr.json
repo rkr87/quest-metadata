@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "12331069_2050530821869102_1226758817128120320_n.png",
             "hero": "12410440_584373145230261_95364135285424128_n.png",
             "icon": "12386220_177141742928215_3360598393410813952_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12331252_444084356021072_3194926962044829696_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "커피트레이너VR",
                 "keywords": [
@@ -101,6 +113,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 49,
         "rating": 2.591837,
         "weighted_rating": 3.45,

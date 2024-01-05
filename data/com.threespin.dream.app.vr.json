@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "38982553_1379274765928077_7455872042946763401_n.png",
             "hero": "38974504_457632849297080_6709048746058562689_n.png",
             "icon": "38974457_1501395543629821_449231062780506845_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982678_1295515984318872_3592605082358805265_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "3spin Learning VR",
                 "keywords": [],
@@ -95,6 +107,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.85,

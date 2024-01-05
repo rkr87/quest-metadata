@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,11 +75,22 @@
             "cover_square": "12727894_594087907457033_7045074807414587392_n.png",
             "hero": "12331072_216057042135440_2056353371215888384_n.png",
             "icon": "12504696_121286671715820_6466724814961770496_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12533983_162642880895666_5077819248558997504_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pl_PL",
                 "display_name": "Magic DESIGN vol...1",
                 "keywords": [
@@ -102,6 +114,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 43,
         "rating": 2.488372,
         "weighted_rating": 3.45,

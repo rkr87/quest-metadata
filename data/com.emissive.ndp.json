@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,6 +81,8 @@
             "cover_square": "38974459_1266365834135040_7668236052259120550_n.png",
             "hero": "39001681_1092082381660475_8185301021099614260_n.png",
             "icon": "39031339_996321697739828_2631243967885844675_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75439596_548776026785501_7015378996090711481_n.png"
         },
         "translations": [
@@ -89,7 +92,10 @@
                     "cover_portrait": "75295751_714655486524922_6948811914541797714_n.png",
                     "cover_square": "75302968_1212688616147490_5688949065260555453_n.png",
                     "hero": "75234373_367085882074937_450453718219149075_n.png",
-                    "icon": "75307246_708998580211584_9102252718378025646_n.png"
+                    "icon": "75307246_708998580211584_9102252718378025646_n.png",
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
                 },
                 "locale": "fr_FR",
                 "display_name": "Eternelle Notre-Dame",
@@ -99,7 +105,16 @@
                 "short_description": "Orange présente « Eternelle Notre-Dame », la première expédition immersive en réalité virtuelle à Notre-Dame de Paris.\n\nPlongez dans l’histoire de la cathédrale grâce à la réalité virtuelle, découvrez des endroits inaccessibles et entrez dans l’Histoire….\n\nGrâce à votre casque, vous pourrez explorer Notre-Dame de Paris à travers les siècles, totalement recréée numériquement."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Eternal Notre-Dame",
                 "keywords": [],
@@ -111,6 +126,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 9,
         "rating": 4.666667,
         "weighted_rating": 3.9,

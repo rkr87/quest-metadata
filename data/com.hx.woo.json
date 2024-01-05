@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -82,11 +83,22 @@
             "cover_square": "57568668_214838354157245_4278787210132612721_n.png",
             "hero": "38974871_472987461203805_554790820850650054_n.png",
             "icon": "39031337_499624211568990_6681593580105429375_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035393_963494564556775_1898689167574990450_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "气球总动员",
                 "keywords": [],
@@ -98,6 +110,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 18,
         "rating": 3.388889,
         "weighted_rating": 3.77,

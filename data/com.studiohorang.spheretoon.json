@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "11162727_1245611772206304_3179783762057625600_n.png",
             "hero": "11162682_151486715588003_1952851947941789696_n.png",
             "icon": "11162754_1912133935703275_9123100944383344640_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162716_140417309930598_7122689285974654976_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "Sphere Toon",
                 "keywords": [
@@ -104,6 +116,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 246,
         "rating": 4.243902,
         "weighted_rating": 4.12,

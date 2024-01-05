@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -84,11 +85,22 @@
             "cover_square": "39031507_975336169859610_6088465544933537113_n.png",
             "hero": "39035402_3025832527634216_2470422172462660240_n.png",
             "icon": "57566683_1065054774340862_2215735099558493216_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035307_2703786606593479_567232664057916541_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Vessk 手と机で遊ぼう",
                 "keywords": [],
@@ -100,6 +112,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 10,
         "rating": 3.5,
         "weighted_rating": 3.81,

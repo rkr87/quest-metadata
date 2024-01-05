@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "11162763_2063195490374060_5330196667947810816_n.png",
             "hero": "12386286_141892343144081_5087648259741057024_n.png",
             "icon": "11162763_952028594962365_9032495194775224320_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162711_1966910303567710_737619813718818816_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "DINOSAUR ISLAND",
                 "keywords": [
@@ -106,9 +118,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 70,
         "rating": 3.5,
-        "weighted_rating": 3.7,
+        "weighted_rating": 3.71,
         "is_available": true,
         "is_free": false
     },

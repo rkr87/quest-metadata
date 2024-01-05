@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "38982531_132528372382265_4536344720183531263_n.png",
             "hero": "39003274_824040521589705_4603931352485554371_n.png",
             "icon": "39001690_915655202361348_1579121034722111469_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982619_555954575530710_3583565146681762482_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Fit Immersion",
                 "keywords": [],
@@ -88,7 +100,16 @@
                 "short_description": "Путешествуйте по самым живописным местам в 360° во время тренировки на велотренажере! \nОколо 20 треков в 3 разных странах и 3D-ландшафты доступны для загрузки.\nПолучайте удовольствие от тренировок в помещении с помощью этого интерактивного и иммерсивного приложения для тренировок."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Fit Immersion",
                 "keywords": [],
@@ -100,9 +121,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 20,
         "rating": 3.05,
-        "weighted_rating": 3.71,
+        "weighted_rating": 3.72,
         "is_available": true,
         "is_free": true
     },

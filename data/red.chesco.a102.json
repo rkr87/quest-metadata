@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -79,11 +80,22 @@
             "cover_square": "75441584_366780608177855_8049428723412316626_n.png",
             "hero": "39031315_364095925084207_3212614418397826668_n.png",
             "icon": "75422371_236540858341550_5335697337133542198_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974834_246967197259204_6660581679445954717_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "A102",
                 "keywords": [],
@@ -95,6 +107,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 11,
         "rating": 4.818182,
         "weighted_rating": 3.93,

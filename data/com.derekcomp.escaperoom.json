@@ -68,6 +68,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -85,11 +86,22 @@
             "cover_square": "38982713_1411442092597975_4074808112613585013_n.png",
             "hero": "39035333_810121246705830_6234113374298931907_n.png",
             "icon": "38982448_835395964255505_3236533822806124405_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982713_1332058670869186_6828927522253484435_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_PT",
                 "display_name": "Fuga do bunker",
                 "keywords": [],
@@ -98,7 +110,16 @@
                 "short_description": "Um jogo ao estilo das Quest Rooms. Uma característica especial do jogo é mover-se utilizando um espaço real de 3 por 4 metros. \nВключить программ"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Побег из Бункера",
                 "keywords": [],
@@ -110,6 +131,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 61,
         "rating": 4.360656,
         "weighted_rating": 4.03,

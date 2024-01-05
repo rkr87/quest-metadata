@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,11 +73,22 @@
             "cover_square": "38984439_585806932294774_8056460619711218194_n.png",
             "hero": "54770912_1573815962769495_2944222663053417202_n.png",
             "icon": "39031371_2951429678245655_1235781914660210892_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001725_313717396362755_2526032873068573171_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Inside player VR",
                 "keywords": [
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 9,
         "rating": 2.333333,
         "weighted_rating": 3.72,

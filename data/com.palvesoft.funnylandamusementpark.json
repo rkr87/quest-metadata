@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "75282158_543199340604484_7610777949767753173_n.png",
             "hero": "75441573_3183478865246596_2551571563425710305_n.png",
             "icon": "39035334_711337230091019_927713168399117605_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75443239_551016473072570_4131684315984148782_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "FunnyLand: Amusement park",
                 "keywords": [],
@@ -92,6 +104,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4,
         "rating": 4.5,
         "weighted_rating": 3.86,

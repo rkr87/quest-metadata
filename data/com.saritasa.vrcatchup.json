@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "39031561_852273969071772_84296627606878942_n.png",
             "hero": "39003276_2433177466831745_1302917539074950081_n.png",
             "icon": "38974854_616180036529969_8621433893033574818_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035322_428546412576221_337277007296304410_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Catch Up",
                 "keywords": [],
@@ -92,6 +104,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4,
         "rating": 4.5,
         "weighted_rating": 3.86,

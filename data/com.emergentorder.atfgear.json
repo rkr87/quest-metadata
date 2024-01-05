@@ -66,8 +66,10 @@
         "comfort": "COMFORTABLE_FOR_MOST",
         "age_rating": "Ages 13+",
         "iarc": {
+            "age_rating": null,
             "descriptors": [],
-            "elements": []
+            "elements": [],
+            "iarc_icon": null
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
@@ -78,6 +80,8 @@
             "cover_square": "12386282_1770890926510966_700213528_n.png",
             "hero": "12386425_576272782497829_1930097380_n.png",
             "icon": "12533773_1092931144131555_2087710709_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12410432_1268992326468761_232482933_n.png"
         },
         "translations": [],
@@ -88,6 +92,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 104,
         "rating": 3.942308,
         "weighted_rating": 3.89,

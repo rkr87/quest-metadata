@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "38974608_593394607749506_1785826562495479808_n.png",
             "hero": "38984448_1191284531024978_7093587150217674752_n.png",
             "icon": "38974688_362282801193592_4503650153365766144_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38984453_2483739901653129_249729911353245696_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "UTS VR",
                 "keywords": [],
@@ -97,9 +109,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 5,
         "rating": 2.4,
-        "weighted_rating": 3.77,
+        "weighted_rating": 3.78,
         "is_available": true,
         "is_free": true
     },

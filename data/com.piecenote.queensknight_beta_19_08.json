@@ -56,6 +56,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -73,11 +74,22 @@
             "cover_square": "39001656_2074918699477678_7047976787967475712_n.png",
             "hero": "38974537_502194680554925_1097711362169110528_n.png",
             "icon": "39001690_340876123520568_3116270653267771392_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031332_358291761752575_3200439745842774016_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "クインズナイト 体験版",
                 "keywords": [
@@ -97,6 +109,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 20,
         "rating": 4.05,
         "weighted_rating": 3.87,

@@ -7,6 +7,7 @@
         "app_name": "Art of Combat (Demo)",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-07-12T00:00:00",
         "description": "The most advanced VR fighting game to date! Fight against 12 unique fighters with a complete set of martial arts techniques and combos, and 15 different special powers.\n\nTry the game free with this limited content demo version or puchase the full version at https://www.oculus.com/experiences/quest/9026710184066320/\n\nFeel a stunning immersive martial arts combat experience that will make other fighting games bite the dust!\nTo defeat your enemies, you'll have to adapt to each opponent style. You will have to train your striking, evasion, blocking and specials powers skills to become the toughest martial arts master in the world.\nImprove your stamina, body strength and technique while you have a great fighting time.\nUnleash the dragon inside you!",
         "markdown": false,
@@ -59,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -76,11 +78,22 @@
             "cover_square": "39031606_1835660003530431_6094422922820853061_n.png",
             "hero": "39035373_811137587126409_167107343428076134_n.png",
             "icon": "38982617_288801236850464_5326812603512202312_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974866_835296127957163_5685206762242128564_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Art of Combat (Demo)",
                 "keywords": [],
@@ -92,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 13,
         "rating": 4.615385,
         "weighted_rating": 3.92,

@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [],
@@ -81,11 +82,22 @@
             "cover_square": "75222941_492849032071763_6368733623258086095_n.png",
             "hero": "39035360_755204291859223_5355877279054290677_n.png",
             "icon": "38974560_215416133328727_4635345633456204807_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75196217_590081092386273_8140299200938660115_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "MageCosmos",
                 "keywords": [],
@@ -94,7 +106,16 @@
                 "short_description": "MageCosmos是一个虚拟多元宇宙，融入了自由探索世界、社交游戏和情景式互动剧情学习等模块，真正将用户深度连接起来。我们希望重新定义人与人的连接方式、人与世界的交互方式，以及我们获取信息和知识的方式，让一切变得更加立体、生动和有活力。"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "MageCosmos",
                 "keywords": [],
@@ -106,6 +127,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 46,
         "rating": 3.956522,
         "weighted_rating": 3.87,

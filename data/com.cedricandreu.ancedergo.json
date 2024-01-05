@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -81,11 +82,22 @@
             "cover_square": "38974657_581615048979825_523227140930404352_n.png",
             "hero": "38974863_1077789905734319_3505079736038588416_n.png",
             "icon": "38974465_414234292686495_8212021330158026752_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031650_570137810148676_3654556447754158080_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Anceder Go",
                 "keywords": [
@@ -109,6 +121,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 56,
         "rating": 4.517857,
         "weighted_rating": 4.07,

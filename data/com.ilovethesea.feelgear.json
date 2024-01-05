@@ -70,8 +70,10 @@
         "comfort": "COMFORTABLE_FOR_SOME",
         "age_rating": "Ages 13+",
         "iarc": {
+            "age_rating": null,
             "descriptors": [],
-            "elements": []
+            "elements": [],
+            "iarc_icon": null
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
@@ -82,11 +84,22 @@
             "cover_square": "12138848_346447649049887_941717437013819392_n.png",
             "hero": "12410271_705725866258421_2673097850149142528_n.png",
             "icon": "12410453_626484600845674_7891345297878548480_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12138848_1195516337190801_3668132856556683264_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Feel - TheMustOfTheSea",
                 "keywords": [
@@ -110,6 +123,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 42,
         "rating": 2.261905,
         "weighted_rating": 3.4,

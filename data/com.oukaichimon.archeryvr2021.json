@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "75314844_391082558755655_1209929404569522230_n.png",
             "hero": "75230042_499820094397382_5591228295184227125_n.png",
             "icon": "38974726_976854319741662_973236132283533516_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39003236_953624262135671_4335481960157260907_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "ModernArcheryVR",
                 "keywords": [],
@@ -92,6 +104,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 8,
         "rating": 3.25,
         "weighted_rating": 3.8,

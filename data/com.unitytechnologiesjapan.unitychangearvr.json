@@ -54,8 +54,10 @@
         "comfort": "COMFORTABLE_FOR_MOST",
         "age_rating": "Ages 13+",
         "iarc": {
+            "age_rating": null,
             "descriptors": [],
-            "elements": []
+            "elements": [],
+            "iarc_icon": null
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
@@ -65,11 +67,23 @@
             "cover_portrait": "12138771_565023840317101_1010280818_n.png",
             "cover_square": "12138812_734595963310916_669984572_n.png",
             "hero": "12138810_1524866807827267_492506015_n.png",
-            "icon": "12138816_893522114030850_721776746_n.png"
+            "icon": "12138816_893522114030850_721776746_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Unity-chan! Candy Rock Star Live Stage!",
                 "keywords": [],
@@ -81,6 +95,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2308,
         "rating": 3.956239,
         "weighted_rating": 3.95,

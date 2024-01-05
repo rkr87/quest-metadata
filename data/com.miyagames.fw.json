@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,22 @@
             "cover_square": "38974905_2309129605907826_6900634917105921014_n.png",
             "hero": "38974862_3220652634879209_279991497377000142_n.png",
             "icon": "38982441_748996542796320_6920581948876475476_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001671_2044986669006788_5488937655344790877_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "漂浮世界",
                 "keywords": [],
@@ -96,6 +108,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 121,
         "rating": 3.942149,
         "weighted_rating": 3.89,

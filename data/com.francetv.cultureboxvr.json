@@ -7,6 +7,7 @@
         "app_name": "Culturebox, the immersive experience - Hervé",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-06-20T00:00:00",
         "description": "Come and discover exclusively the artistic universe of the singer Hervé in the \"Culturebox City\", a virtual extension of the set of \"Culturebox, the show\".\n \nIn this universe, you will have the privilege of living a variety of experiences:\n**  Take part in a unique and interactive performance by the artist\n**   Discover his intimate universe via archives in a playful exhibition room\n**  Access exclusive immersive behind-the-scenes videos of a recent Hervé performance\nOther surprises await you in this dreamlike world, so don't wait any longer to experience the full potential of this experience!",
         "markdown": false,
@@ -58,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +75,22 @@
             "cover_square": "39031542_6378866135501483_8730579436255730218_n.png",
             "hero": "39031334_790348022781929_5752950456194734921_n.png",
             "icon": "38982487_970446817425376_2561821673846307705_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001691_588967009728691_6637234335277297263_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Culturebox, l'expérience immersive - Hervé",
                 "keywords": [],
@@ -89,6 +102,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4,
         "rating": 5.0,
         "weighted_rating": 3.88,

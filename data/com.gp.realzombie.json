@@ -7,6 +7,7 @@
         "app_name": "Pandemus VR",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-05-23T00:00:00",
         "description": "In this game, your house becomes the game area and you have to survive the zombie attack that lurks around you. Put on your VR headset and get ready to face the zombie apocalypse in your own house. Explore every corner, search for weapons and ammunition, and protect yourself from the zombie attacks coming from all directions. Test your survival skills in this exciting and adrenaline-fueled game. Make your home your game arena. You'll be able to use all the space available to you, free from wires. You'll be able to move around freely throughout your house.",
         "markdown": false,
@@ -57,6 +58,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -75,11 +77,22 @@
             "cover_square": "38974537_6296724633754224_7096348834910505621_n.png",
             "hero": "38974813_1446774889398768_1027953737960836927_n.png",
             "icon": "38974441_596917942403662_2897541589379244719_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982719_629279138719733_2561187524457073028_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Pandemus VR",
                 "keywords": [],
@@ -91,6 +104,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 5,
         "rating": 3.8,
         "weighted_rating": 3.84,

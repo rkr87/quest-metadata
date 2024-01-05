@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "39035330_494224965044424_6019030469787560351_n.png",
             "hero": "38982586_159319102738741_2598945106214250446_n.png",
             "icon": "39003228_151814906841217_7778505621498750216_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031388_772599440065459_4838226708857808545_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "VIRUS NO MORE",
                 "keywords": [],
@@ -94,8 +106,13 @@
             {
                 "images": {
                     "cover_landscape": "39001717_1367431860295476_8358951087644214890_n.png",
+                    "cover_portrait": null,
+                    "cover_square": null,
                     "hero": "38982454_484064302702832_2146329849801514388_n.png",
-                    "icon": "38974538_148504713747889_1242336787029512229_n.png"
+                    "icon": "38974538_148504713747889_1242336787029512229_n.png",
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
                 },
                 "locale": "fr_FR",
                 "display_name": "VIRUS NO MORE",
@@ -105,7 +122,16 @@
                 "short_description": "Un Shoot 'Em Up d'actualité. Allez vous survivre au virus ?"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "VIRUS NO MORE",
                 "keywords": [],
@@ -114,7 +140,16 @@
                 "short_description": "主题外景拍摄。 你要在这种疾病中生存吗？"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "VIRUS NO MORE",
                 "keywords": [],
@@ -126,6 +161,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 7,
         "rating": 2.571429,
         "weighted_rating": 3.76,

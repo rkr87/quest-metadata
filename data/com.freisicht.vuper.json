@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +74,22 @@
             "cover_square": "57569471_167020345446505_6506507889376338030_n.png",
             "hero": "75348038_211417447392182_8562605568738130299_n.png",
             "icon": "75411992_665409914416216_9131354880769101384_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75207240_2877641579151318_5099530091199998215_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "SUPER die zweite Schöpfung",
                 "keywords": [],
@@ -89,6 +101,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 3,
         "rating": 2.333333,
         "weighted_rating": 3.8,

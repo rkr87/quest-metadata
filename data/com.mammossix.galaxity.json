@@ -67,6 +67,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -84,11 +85,22 @@
             "cover_square": "38974887_271220274345331_735369136185015607_n.png",
             "hero": "38974864_776899336571963_4898880309371108405_n.png",
             "icon": "38982648_1244673332596536_2668855668837110138_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974450_244668250596739_1163982347993010203_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "银河城 (Galaxity) 测试版",
                 "keywords": [
@@ -111,6 +123,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 277,
         "rating": 3.689531,
         "weighted_rating": 3.73,

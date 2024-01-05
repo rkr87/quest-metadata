@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "38974651_342976396370118_4317995149704560640_n.png",
             "hero": "38982606_1825150980850475_5516888725822373888_n.png",
             "icon": "39003267_1390487467766758_5871763426606317568_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035367_464233961062680_616174803061047296_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "ACTIU VR360",
                 "keywords": [
@@ -94,7 +106,16 @@
                 "short_description": "Découvrez des projets de design d'intérieur, des bureaux, des hôpitaux, des espaces publics et des centres éducatifs comme vous ne les avez jamais vus auparavant. Projets architecturaux et conception professionnelle capables de projeter des scénarios ultra-réalistes avant d'être développés. Et faites-le avec Actiu, l'une des principales usines de meubles en Europe."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "ACTIU VR360",
                 "keywords": [
@@ -118,6 +139,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 12,
         "rating": 2.083333,
         "weighted_rating": 3.66,

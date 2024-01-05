@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -81,11 +82,22 @@
             "cover_square": "39031359_1529212587535232_8215885608924268634_n.png",
             "hero": "39035330_461748619325602_7799200125857095905_n.png",
             "icon": "39036698_2497798877027222_4119500526913027451_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031515_554405903152391_3176971740506713422_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Movistar Experiencia Inmersiva",
                 "keywords": [],
@@ -97,6 +109,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 3,
         "rating": 5.0,
         "weighted_rating": 3.87,

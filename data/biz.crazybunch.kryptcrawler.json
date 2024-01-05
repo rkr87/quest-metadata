@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -79,11 +80,22 @@
             "cover_square": "11162699_1346149768800825_5018304457968975872_n.png",
             "hero": "11162680_261179297620676_9102472456978825216_n.png",
             "icon": "11162680_1642272819139696_6099717733509758976_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162706_657966087741668_7714242815349227520_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "KryptCrawler",
                 "keywords": [
@@ -107,6 +119,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 198,
         "rating": 3.40404,
         "weighted_rating": 3.56,

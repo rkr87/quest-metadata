@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -83,11 +84,22 @@
             "cover_square": "12448961_197692927491785_1117024279616028672_n.png",
             "hero": "12449084_1638665992835893_4288742239120654336_n.png",
             "icon": "12427574_332286367283200_483731729777950720_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12410355_588767521465531_8905079007049940992_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Escape Velocity",
                 "keywords": [
@@ -111,6 +123,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 22,
         "rating": 3.5,
         "weighted_rating": 3.78,

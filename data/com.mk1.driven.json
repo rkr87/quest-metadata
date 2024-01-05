@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "39001679_4673342782716271_4679525360280909798_n.png",
             "hero": "38982535_2813670472219706_5465612127867614914_n.png",
             "icon": "57569445_551756512730742_966917373745830555_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001663_4531703926909802_1950811869878101143_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "Driven - Demo",
                 "keywords": [],
@@ -91,6 +103,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 57,
         "rating": 3.245614,
         "weighted_rating": 3.63,

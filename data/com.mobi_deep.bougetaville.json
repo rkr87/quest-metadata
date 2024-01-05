@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "75557065_1317729132335594_7797131357523505911_n.png",
             "hero": "75230047_441801911356540_5884560615841586001_n.png",
             "icon": "39031340_911350493582373_646388916633203531_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035453_1228384497894442_5140440400949805210_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Bouge ta ville !",
                 "keywords": [],
@@ -91,6 +103,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 3.0,
         "weighted_rating": 3.82,

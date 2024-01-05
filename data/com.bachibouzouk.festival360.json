@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,22 @@
             "cover_square": "12331072_1889101601373590_6835792531528089600_n.png",
             "hero": "12727726_1830484010501351_6469425473217626112_n.png",
             "icon": "12504696_417375565264227_2445094722352447488_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12482253_377596635954721_4105521421059358720_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Histoires d’Espaces",
                 "keywords": [
@@ -106,6 +118,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 8,
         "rating": 4.0,
         "weighted_rating": 3.85,

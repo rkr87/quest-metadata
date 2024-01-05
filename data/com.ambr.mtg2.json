@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,22 @@
             "cover_square": "38982568_617796496035747_2270448495685755980_n.png",
             "hero": "38982441_1536589266700452_4440796183711148610_n.png",
             "icon": "38982441_947381449243176_3888040744160460829_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031574_675864480460157_5245255113351527181_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "NEO",
                 "keywords": [],
@@ -96,6 +108,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 8,
         "rating": 2.0,
         "weighted_rating": 3.71,

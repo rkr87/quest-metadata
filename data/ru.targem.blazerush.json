@@ -71,6 +71,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -90,11 +91,22 @@
             "cover_square": "39031629_277059381258684_1259453330377881983_n.png",
             "hero": "39035432_686489042600877_6069079196808420301_n.png",
             "icon": "75302219_758505665137803_3092574488672854127_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001663_293007635996043_88817851573539845_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "BlazeRush: Star Track",
                 "keywords": [
@@ -113,6 +125,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 403,
         "rating": 4.136476,
         "weighted_rating": 4.07,

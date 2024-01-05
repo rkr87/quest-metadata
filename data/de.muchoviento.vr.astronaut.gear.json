@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -77,11 +78,22 @@
             "cover_square": "12482156_123562118471199_2217069393869799424_n.png",
             "hero": "12331258_224206078149024_7456812448541048832_n.png",
             "icon": "12139031_154222161864112_5903106650528546816_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12331069_400441710477413_8605097407102844928_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Astronaut VR",
                 "keywords": [
@@ -103,6 +115,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 51,
         "rating": 4.039216,
         "weighted_rating": 3.9,

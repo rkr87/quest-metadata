@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -77,11 +78,22 @@
             "cover_square": "39035362_115712840534522_7262261387028662581_n.png",
             "hero": "39036608_1296289150831137_4962278739445227631_n.png",
             "icon": "38982568_205318894462346_7482947221072559815_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75222946_407410590427353_6951804871825107837_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "コミなびVR",
                 "keywords": [],
@@ -93,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 11,
         "rating": 4.272727,
         "weighted_rating": 3.88,

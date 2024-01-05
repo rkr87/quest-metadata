@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,11 +73,22 @@
             "cover_square": "38982588_1439536856199949_4073440970295738368_n.png",
             "hero": "38982615_415538262337932_5477724937684779008_n.png",
             "icon": "38974632_468790600380059_823237250870411264_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974831_554183092009244_900182826928832512_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Des bateaux et des hommes",
                 "keywords": [
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.85,

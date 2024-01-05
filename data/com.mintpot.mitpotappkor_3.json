@@ -72,6 +72,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -91,11 +92,22 @@
             "cover_square": "12139405_1879139002314349_8338310063198306304_n.png",
             "hero": "12410201_1750536051877528_4744385797610799104_n.png",
             "icon": "12727742_596365847232209_3079747763211075584_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12139519_1322717471093616_2276811083287101440_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "민트팟: 자막이 있는 VR영상",
                 "keywords": [
@@ -116,6 +128,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 44,
         "rating": 3.159091,
         "weighted_rating": 3.64,

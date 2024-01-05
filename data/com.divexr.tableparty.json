@@ -7,6 +7,7 @@
         "app_name": "Table Party",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-03-28T00:00:00",
         "description": "Welcome to the fantastic boardgame world!\nIf you want to play board games in VR, download Table Party right now! You can enjoy a variety of content in a wonderful virtual space with everyone.\nEnjoy 10 board games and 3 casual games in a fantastic virtual world with the cool look I imagined!\nNo friends to play with?\nDo not worry!\nYou can make friends with people from all over the world and hang out in the virtual world.\nAlso, more games and contents will be added, so please look forward to it.\nHave Fun!\n\nFeatures:\nSingle play / Multi play \nYou can customize your avatar in your private room.\n10 types of board games: One card, Yacht Dice, Othello, Chess, Checkers, Rummy, Gin Rummy, Yut Nori, Omok, Janggi\n3 types of causal games : Stack Up, Flying Arrow, Whack a Mole",
         "markdown": false,
@@ -62,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +82,22 @@
             "cover_square": "75318184_814864273147211_1118229343742842685_n.png",
             "hero": "38982547_544172920684426_5435081905228269597_n.png",
             "icon": "38974583_2813352028801365_4447741537845645614_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974804_2483846251774050_8114088174858952469_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "Table Party",
                 "keywords": [],
@@ -96,6 +109,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 14,
         "rating": 4.142857,
         "weighted_rating": 3.87,

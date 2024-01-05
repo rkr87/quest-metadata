@@ -7,6 +7,7 @@
         "app_name": "GolBall",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-04-18T00:00:00",
         "description": "Golball VR offers a unique experience for football fans. The app functions as a virtual museum that allows users to get closer to football idols and their most precious digital collectibles. In the museum, there is a replica of the goal-scoring ball from the biggest football leagues, such as La Liga Santander, which allows users to interact with the most precious goal balls.\n\nIn addition, Golball VR offers the opportunity to have a personal experience with the most recognized football players. Users can interact with players through the app and learn more about their careers, achievements, and skills on the field.\n\nThe app also includes a wealth of additional content, such as exclusive interviews with players, videos of the best moments in football his",
         "markdown": false,
@@ -63,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +80,22 @@
             "cover_square": "38974491_484626353755162_4284987439922096740_n.png",
             "hero": "38974686_247202627734235_4952813320163397896_n.png",
             "icon": "38974714_1217554859155568_8128131230170582638_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974506_3542670036000023_2753350462982350075_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "GolBall",
                 "keywords": [],
@@ -94,6 +107,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 2.0,
         "weighted_rating": 3.82,

@@ -57,15 +57,23 @@
         "comfort": "COMFORTABLE_FOR_SOME",
         "age_rating": "Ages 13+",
         "iarc": {
+            "age_rating": null,
             "descriptors": [],
-            "elements": []
+            "elements": [],
+            "iarc_icon": null
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.samsung.co.uk/",
         "app_images": {
             "cover_landscape": "12138832_570484906460359_1015278993_n.png",
-            "hero": "11162745_195273317495416_1719920100_n.png"
+            "cover_portrait": null,
+            "cover_square": null,
+            "hero": "11162745_195273317495416_1719920100_n.png",
+            "icon": null,
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
         },
         "translations": [],
         "keywords": [
@@ -77,6 +85,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 723,
         "rating": 3.405256,
         "weighted_rating": 3.46,

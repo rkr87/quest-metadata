@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -82,11 +83,22 @@
             "cover_square": "11162682_708967005961977_3520712115620937728_n.png",
             "hero": "11162704_128020204525960_3950422708822474752_n.png",
             "icon": "11162696_1859744057670809_3378333537441677312_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162694_177260052825071_568724399511830528_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Innocent Forest 2",
                 "keywords": [
@@ -110,6 +122,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 24,
         "rating": 4.25,
         "weighted_rating": 3.91,

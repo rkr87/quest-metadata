@@ -69,6 +69,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -87,11 +88,22 @@
             "cover_square": "11162727_1314523241949941_942246087358414848_n.png",
             "hero": "12331199_1292609590827638_6393561996989562880_n.png",
             "icon": "12680482_285264811889127_6140169513619947520_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12533755_414144112251492_7027824964623400960_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "The Cathedral: Allison's Diary",
                 "keywords": [
@@ -115,6 +127,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 154,
         "rating": 3.649351,
         "weighted_rating": 3.73,

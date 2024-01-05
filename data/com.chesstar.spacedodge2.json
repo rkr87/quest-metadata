@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "38974516_542793606229215_4576645244275130368_n.png",
             "hero": "38974652_1107962246049916_4170730878722375680_n.png",
             "icon": "38982539_657452111351199_2336541571429695488_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974858_975437882663382_1318509716686503936_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "星际道奇2",
                 "keywords": [
@@ -103,6 +115,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 40,
         "rating": 3.675,
         "weighted_rating": 3.79,

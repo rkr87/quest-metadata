@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -77,11 +78,22 @@
             "cover_square": "11162704_1951469631802650_118251702473195520_n.png",
             "hero": "11162683_875689369248937_5647065074280431616_n.png",
             "icon": "11162699_1954594668092372_5896502283612454912_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162676_145471429363642_4923603323900133376_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "ホームスターVR",
                 "keywords": [
@@ -105,6 +117,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 44,
         "rating": 3.931818,
         "weighted_rating": 3.87,

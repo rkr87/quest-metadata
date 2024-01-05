@@ -73,10 +73,11 @@
             },
             {
                 "rating": 5,
-                "votes": 10460
+                "votes": 10462
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -96,11 +97,22 @@
             "cover_square": "39001681_385719563123293_8142563257099223208_n.png",
             "hero": "38982472_1062210131184129_611449966853662672_n.png",
             "icon": "38974444_231471042215274_4345050703899679261_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39035453_866600987314418_6392822521136538632_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Resident Evil 4",
                 "keywords": [
@@ -115,7 +127,16 @@
                 "short_description": "Rejouez le classique survival horror, Resident Evil 4, intégralement repensé pour la RV. Incarnez l'agent spécial Leon S. Kennedy, en vue à la première personne, envoyé dans un village européen pour sauver la fille du président des États-Unis."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Resident Evil 4",
                 "keywords": [
@@ -130,7 +151,16 @@
                 "short_description": "DER Survival-Horror-Klassiker „Resident Evil 4“ kehrt im VR-Gewand zurück. Gehen Sie voll auf in Ihrer Rolle als Spezialagent Leon S. Kennedy, der in ein mysteriöses Dorf in Südeuropa geschickt wird, um die Tochter des US-Präsidenten zu retten."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Resident Evil 4",
                 "keywords": [
@@ -151,6 +181,8 @@
                     "cover_square": "39001703_261376972554876_3697403027383377584_n.png",
                     "hero": "39001726_933277090594546_7204690623338817149_n.png",
                     "icon": "39035453_617809619239650_6830279052933908074_n.png",
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
                     "logo_transparent": "38974493_637073880546132_5368208977829195000_n.png"
                 },
                 "locale": "ja_JP",
@@ -176,8 +208,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 11970,
-        "rating": 4.724728,
+        "is_demo_of": null,
+        "votes": 11972,
+        "rating": 4.724774,
         "weighted_rating": 4.72,
         "is_available": true,
         "is_free": false

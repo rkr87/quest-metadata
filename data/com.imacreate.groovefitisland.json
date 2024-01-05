@@ -67,6 +67,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -82,11 +83,22 @@
             "cover_square": "75514543_473753758201631_6229637443178085518_n.png",
             "hero": "57569432_690810822757915_158094757969842884_n.png",
             "icon": "39031572_516033033920039_2086256926542688814_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982675_475480437950557_2211367857196573955_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Groove Fit Island!!",
                 "keywords": [],
@@ -98,9 +110,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 9,
         "rating": 4.444444,
-        "weighted_rating": 3.88,
+        "weighted_rating": 3.89,
         "is_available": false,
         "is_free": false
     },

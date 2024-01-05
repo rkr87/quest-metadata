@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -82,11 +83,22 @@
             "cover_square": "38984447_366860444971191_5083430460238861676_n.png",
             "hero": "38982460_168892938673053_3137854476217044984_n.png",
             "icon": "39031322_335483101571097_5032846327315506624_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001656_190894079741298_3810828733908093467_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Warchasm",
                 "keywords": [],
@@ -98,6 +110,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 32,
         "rating": 4.84375,
         "weighted_rating": 4.07,

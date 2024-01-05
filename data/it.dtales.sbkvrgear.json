@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "11162695_335998333525660_8304754759319945216_n.png",
             "hero": "11162741_218316172031239_8227426282632118272_n.png",
             "icon": "11162704_290864904716075_5558860756851621888_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162704_786496641531131_3272986815828590592_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "SBK VR",
                 "keywords": [
@@ -107,6 +119,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 58,
         "rating": 3.586207,
         "weighted_rating": 3.75,

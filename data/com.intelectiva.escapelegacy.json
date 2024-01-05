@@ -7,6 +7,7 @@
         "app_name": "Grandma's Legacy - Mystery Escape Room",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-04-21T00:00:00",
         "description": "My grandma hasn't answered the phone for a few days, that's not normal and I think something strange could be happening. My mother doesn’t belive me and thinks is usual in her. I can’t go to the police without any evidence. I’ll go to her old house and discover the truth behind it.\n\nThere has always been something special about her, but I'm afraid something dangerous could have happened. I’m afraid that I won't be able to see her again!\n\nMystery, puzzle solving, challenges and secrets surround your grandmother's dissapearance. Explore the diferent rooms and unravel the unsolved secret that your grandma keeps in Grandma’s Legacy\n",
         "markdown": false,
@@ -61,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -78,11 +80,22 @@
             "cover_square": "38982617_3006337809671446_5823427033790683489_n.png",
             "hero": "39001677_549684560479220_3556708924438280461_n.png",
             "icon": "38974727_570605881685872_6421636858877593171_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974744_993059415205985_7602438939124203634_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Grandma's Legacy - Escape room de misterio",
                 "keywords": [],
@@ -91,7 +104,16 @@
                 "short_description": "Mi abuela lleva días sin contestar al teléfono, no es normal en ella creo que algo malo ha podido pasarle, mi madre no me cree… pero no puedo ir a la policía sin pruebas. \n\n¡Iré a investigar a su vieja casa y descubriré que ha sucedido!\n"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Grandma's Legacy - Escape room de misterio",
                 "keywords": [],
@@ -103,6 +125,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 4.0,
         "weighted_rating": 3.84,

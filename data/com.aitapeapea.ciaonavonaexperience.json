@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,22 @@
             "cover_square": "39031318_622620055596570_5252034197359814358_n.png",
             "hero": "38982701_457948499081110_4467705238418416361_n.png",
             "icon": "39031451_200490605501458_5776245639729112317_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982540_442569647237042_2380865335048861306_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "C!AO",
                 "keywords": [],
@@ -96,9 +108,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 8,
         "rating": 4.375,
-        "weighted_rating": 3.87,
+        "weighted_rating": 3.88,
         "is_available": true,
         "is_free": true
     },

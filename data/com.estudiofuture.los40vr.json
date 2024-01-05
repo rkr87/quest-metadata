@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,11 +75,22 @@
             "cover_square": "12386220_353077718430738_5445908240862806016_n.png",
             "hero": "12410407_1847476118880621_703145236515258368_n.png",
             "icon": "12448961_228435014630111_1962714180695883776_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12504728_236684383760746_2861528016863887360_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Los40 VR",
                 "keywords": [
@@ -102,6 +114,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 38,
         "rating": 3.921053,
         "weighted_rating": 3.86,

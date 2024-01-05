@@ -57,11 +57,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 167
+                "votes": 168
             },
             {
                 "rating": 2,
-                "votes": 84
+                "votes": 83
             },
             {
                 "rating": 3,
@@ -77,6 +77,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -92,11 +93,22 @@
             "cover_square": "38974541_1320981408071595_5394348983835426816_n.png",
             "hero": "39003263_1132453520286527_2737658020426153984_n.png",
             "icon": "38974599_2271142536342261_7547260534194700288_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982492_515090275935931_940072271265923072_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_HK",
                 "display_name": "Pigasus VR Media Player",
                 "keywords": [
@@ -111,7 +123,16 @@
                 "short_description": "Pigasus(飞猪)是一款同时支持UPNP/DLNA媒体播放器，Samba共享等联网流媒体和本地播放，功能丰富的通用媒体播放器。\n\n进入，设置，然后用你喜爱的方式享受观看影片的乐趣。\n\n请查看PigasusFAQ获取更多功能支持，信息和帮助：\nhttps://hanginghatstudios.com/pigasus-faq-ch"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Pigasus VR Media Player",
                 "keywords": [
@@ -126,7 +147,16 @@
                 "short_description": "Pigasus ist ein universeller Media Player mit vielen Features, der vernetztes Medien-Streaming von UPNP/DLNA Medienservern und Samba shares unterstützt, sowie lokales Playback vom Speicher des Geräts.\n\nZugriff, Einrichtung und Genuss deiner Medien wie es dir gefällt.\n\nSiehe Pigasus FAQ für weitere Feature-Unterstützung, Informationen und Hilfe:\n\nhttps://hanginghatstudios.com/pigasus-faq-de"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "Pigasus VR Media Player",
                 "keywords": [
@@ -141,7 +171,16 @@
                 "short_description": "피가수스는 UPnP / DLNA 미디어 서버 및 삼바 공유의 네트워크 스트리밍 뿐만 아니라 장치의 내부 저장 장치 또는 SD 카드의 로컬 재생을 지원하는 풍부한 기능의 범용 미디어 플레이어입니다.\n\n원하는 방식으로 미디어에 접속하고 설정하고 즐길 수 있습니다. \n\n추가 기능 지원, 정보 및 도움말을 보려면 피가수스의 질의 응답을 참조하십시오: \n\nhttps://hanginghatstudios.com/pigasus-faq-kr"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Pigasus VR Media Player",
                 "keywords": [
@@ -166,8 +205,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1195,
-        "rating": 3.894561,
+        "rating": 3.893724,
         "weighted_rating": 3.89,
         "is_available": true,
         "is_free": false

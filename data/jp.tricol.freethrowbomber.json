@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -77,11 +78,22 @@
             "cover_square": "12522355_1036135833145560_1043517015_n.png",
             "hero": "12427570_142961049456492_2057885263_n.png",
             "icon": "12427512_1601792770112702_1402972081_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12427535_901878166607044_1194512763_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "フリースローボンバー",
                 "keywords": [
@@ -102,6 +114,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 46,
         "rating": 3.369565,
         "weighted_rating": 3.7,

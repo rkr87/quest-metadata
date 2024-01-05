@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -77,11 +78,22 @@
             "cover_square": "38982633_357259301767011_8952886970921517056_n.png",
             "hero": "38974775_358510994963396_7748777612289245184_n.png",
             "icon": "38974579_775490406134166_5676077316371906560_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974552_1914358685347805_8529208878330544128_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Mill VR: Nine Men's Morris",
                 "keywords": [
@@ -105,6 +117,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 15,
         "rating": 4.733333,
         "weighted_rating": 3.95,

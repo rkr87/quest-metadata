@@ -69,6 +69,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -86,11 +87,22 @@
             "cover_square": "75254878_1915439818605703_3008853894900918135_n.png",
             "hero": "86629760_273583121106624_6123611726044254242_n.png",
             "icon": "39031395_3291576947610904_3375475669511873302_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75207240_163209362312792_9128967769590161991_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Touring Karts",
                 "keywords": [],
@@ -102,6 +114,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 193,
         "rating": 3.093264,
         "weighted_rating": 3.36,

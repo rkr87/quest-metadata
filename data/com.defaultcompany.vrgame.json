@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -77,11 +78,22 @@
             "cover_square": "38982695_824700221482215_8640136133799434579_n.png",
             "hero": "38974517_493077271770190_5800255896997044858_n.png",
             "icon": "38974535_287372859598360_809487600127482290_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75240099_654576182606553_1054924615205619093_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "巨蛇狂奔",
                 "keywords": [],
@@ -93,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 0,
         "rating": 0.0,
         "weighted_rating": 3.84,

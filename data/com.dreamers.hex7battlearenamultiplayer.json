@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -80,11 +81,22 @@
             "cover_square": "39001685_1125398831392082_6227874785384868629_n.png",
             "hero": "75210393_612505843681028_3829588561855767779_n.png",
             "icon": "38974901_423991136389027_93382614210514936_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75476757_1518388228623480_6183221001842260473_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Hex7 - Kampfarena - Multiplayer",
                 "keywords": [],
@@ -96,6 +108,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 5.0,
         "weighted_rating": 3.86,

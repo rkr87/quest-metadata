@@ -55,6 +55,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -72,11 +73,22 @@
             "cover_square": "11162731_795874093918009_5836033121224491008_n.png",
             "hero": "11162730_1893306320931171_786613373247684608_n.png",
             "icon": "11162679_110499286305246_5304360803279831040_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162704_1449108895172998_3283675657988472832_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "SapphiartChan Live Show!",
                 "keywords": [
@@ -100,6 +112,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 95,
         "rating": 3.431579,
         "weighted_rating": 3.65,

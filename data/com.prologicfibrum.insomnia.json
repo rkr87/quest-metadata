@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Adults Only 18+",
             "descriptors": [
@@ -78,11 +79,22 @@
             "cover_square": "39031532_739761650353797_7536030912390403690_n.png",
             "hero": "75287555_544514233684588_81797767027329892_n.png",
             "icon": "57575358_1391864331312965_5584744610757158505_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75210389_425854885554190_2752457527424927196_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Insomnia",
                 "keywords": [],
@@ -94,6 +106,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4,
         "rating": 3.5,
         "weighted_rating": 3.83,

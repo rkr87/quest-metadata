@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -77,11 +78,22 @@
             "cover_square": "12728016_1314002521963170_558407176_n.png",
             "hero": "12448854_1641342852856754_1465980569_n.png",
             "icon": "12522465_1739090036332517_1660632536_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12504579_257366644641319_126317653_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "脳内潜入3Dシューティング - Motivator -",
                 "keywords": [
@@ -105,9 +117,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 388,
         "rating": 3.719072,
-        "weighted_rating": 3.74,
+        "weighted_rating": 3.75,
         "is_available": false,
         "is_free": false
     },

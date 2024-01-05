@@ -77,6 +77,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -94,11 +95,22 @@
             "cover_square": "38974648_761464228121458_959828801471598761_n.png",
             "hero": "38974901_740078546646090_8812747046928170631_n.png",
             "icon": "38982564_179468030192192_8375849999876328039_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974648_909518476466132_5586774864156926027_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Beat Blaster",
                 "keywords": [
@@ -122,6 +134,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 26,
         "rating": 3.346154,
         "weighted_rating": 3.74,

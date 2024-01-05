@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,11 +75,22 @@
             "cover_square": "39001712_495957971253072_6856993954684993536_n.png",
             "hero": "38982519_873879949680098_6134947713856307200_n.png",
             "icon": "38982543_3667006103464034_6460857863865630720_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39036637_414051519278254_7777996416537853952_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "DW World Heritage 360",
                 "keywords": [
@@ -102,6 +114,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 14,
         "rating": 3.142857,
         "weighted_rating": 3.76,

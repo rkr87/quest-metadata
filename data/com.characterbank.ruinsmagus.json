@@ -70,6 +70,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -90,11 +91,22 @@
             "cover_square": "43997711_514610070046380_3758417529837885108_n.png",
             "hero": "38982445_1160656491142043_6260241017220982288_n.png",
             "icon": "39036675_1420053755081941_4663643663735404454_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982563_511725457214000_7700733551806835120_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "RUINSMAGUS ～ルインズメイガス～",
                 "keywords": [
@@ -115,6 +127,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 297,
         "rating": 4.333333,
         "weighted_rating": 4.2,

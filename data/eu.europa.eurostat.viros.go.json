@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +76,22 @@
             "cover_square": "38974777_2661768203880213_2984264446878154752_n.png",
             "hero": "38974495_456886581698274_3388115896688967680_n.png",
             "icon": "38982620_1044684382534302_922198571590090752_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75556279_404601647087418_7231170676583825408_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "ViROS - Virtual Reality for Official Statistics",
                 "keywords": [
@@ -94,7 +106,16 @@
                 "short_description": "Date un paseo por la Unión Europea y descubre las estadísticas europeas"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "ViROS - Virtual Reality for Official Statistics",
                 "keywords": [
@@ -109,7 +130,16 @@
                 "short_description": "Parcourez les pays de l'Union européenne et découvrez leurs statistiques"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "ViROS - Virtual Reality for Official Statistics",
                 "keywords": [
@@ -133,6 +163,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 9,
         "rating": 3.0,
         "weighted_rating": 3.77,

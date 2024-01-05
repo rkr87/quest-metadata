@@ -7,6 +7,7 @@
         "app_name": "Isla Nemo",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-06-23T00:00:00",
         "description": "This first installment is a \"proof of concept\" for the \"adapted\" interaction mechanics, which facilitate the characteristic interactions of virtual reality games and applications, in this case, for people whose disability makes it difficult or prevents them from using their hands.\n\nIt's a work in progress that we hope will show that it's feasible to implement game mechanics that are accessible and equally fun for everyone!\n\nUpcoming tasks:\n- Load and save the game at checkpoints.\n- Add turn when teleporting sideways.\n- …",
         "markdown": false,
@@ -60,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +77,22 @@
             "cover_square": "38984446_587735383480405_1313079319275463718_n.png",
             "hero": "39035326_292898723088043_524802530923914793_n.png",
             "icon": "75262741_6087567304625162_5499242305066179500_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982693_782459653611050_6763089881902786143_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Isla Nemo",
                 "keywords": [],
@@ -91,6 +104,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 5.0,
         "weighted_rating": 3.86,

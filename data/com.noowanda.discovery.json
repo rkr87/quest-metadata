@@ -52,7 +52,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 71
+                "votes": 72
             },
             {
                 "rating": 2,
@@ -72,6 +72,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -92,11 +93,22 @@
             "cover_square": "38974578_268810964596180_1057400420448759686_n.png",
             "hero": "38974792_3965017806895599_5262995667787359683_n.png",
             "icon": "38982548_871669933679462_3807193186439481120_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974901_445154496637917_5195882330345794140_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Discovery",
                 "keywords": [],
@@ -112,9 +124,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 212,
-        "rating": 3.084906,
-        "weighted_rating": 3.34,
+        "is_demo_of": null,
+        "votes": 213,
+        "rating": 3.075117,
+        "weighted_rating": 3.33,
         "is_available": true,
         "is_free": false
     },

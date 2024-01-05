@@ -68,6 +68,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -83,11 +84,22 @@
             "cover_square": "38974444_886108305499267_8661565671513260234_n.png",
             "hero": "39031366_537347823906185_3872282276396802807_n.png",
             "icon": "39031552_146244973909731_7835304449658390799_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39036679_1308221002895477_5770298117286985135_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Explorador del Nivel Del Mar: Elkhorn Slough",
                 "keywords": [
@@ -111,6 +123,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 6,
         "rating": 4.166667,
         "weighted_rating": 3.86,

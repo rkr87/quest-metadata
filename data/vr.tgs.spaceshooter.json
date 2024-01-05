@@ -66,6 +66,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -85,11 +86,22 @@
             "cover_square": "39035421_219564296552697_3318254183440404085_n.png",
             "hero": "38974841_4217910691626747_278243290688399874_n.png",
             "icon": "38974684_886606548807890_101755877797309987_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974689_3204039013030582_5773334279206222934_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "Space Shooter",
                 "keywords": [],
@@ -101,6 +113,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 5,
         "rating": 2.8,
         "weighted_rating": 3.79,

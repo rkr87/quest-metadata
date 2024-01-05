@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -81,11 +82,22 @@
             "cover_square": "38982708_390797619690397_8538161439460480926_n.png",
             "hero": "38982708_642151523962472_5500712504397820685_n.png",
             "icon": "38974892_788823445768665_845834932931048820_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75572754_461674139174943_3104275317048303_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Vodafone 5G Reality",
                 "keywords": [],
@@ -97,6 +109,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 5,
         "rating": 3.8,
         "weighted_rating": 3.84,

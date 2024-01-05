@@ -88,6 +88,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -103,11 +104,22 @@
             "cover_square": "38974819_504050503962292_3066868913253894356_n.png",
             "hero": "39031387_182949373168908_5382142954444536609_n.png",
             "icon": "38974648_235282984903256_6578105590353524981_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982658_334537831209664_8247837333087425483_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "GoThru",
                 "keywords": [],
@@ -125,6 +137,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 94,
         "rating": 4.010638,
         "weighted_rating": 3.92,

@@ -76,6 +76,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -93,11 +94,22 @@
             "cover_square": "38982720_131273202184584_674517526199042551_n.png",
             "hero": "38974714_444193210263049_5430297458084623142_n.png",
             "icon": "75269300_2839964679576726_2050847047128599084_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75622023_252709779767947_3022822769201533733_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "CYBER TENNIS",
                 "keywords": [],
@@ -115,6 +127,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 116,
         "rating": 4.051724,
         "weighted_rating": 3.95,

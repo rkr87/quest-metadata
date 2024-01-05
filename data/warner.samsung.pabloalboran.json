@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +74,22 @@
             "cover_square": "12427594_231777517365532_7667887856093757440_n.png",
             "hero": "12482392_825401757646429_4051741236443217920_n.png",
             "icon": "12386356_1941471886170018_2385765306845888512_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12410407_1969409523377373_8691309907678330880_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Pablo Alborán VR",
                 "keywords": [
@@ -101,6 +113,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 23,
         "rating": 3.652174,
         "weighted_rating": 3.81,

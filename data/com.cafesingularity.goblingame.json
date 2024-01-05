@@ -7,6 +7,7 @@
         "app_name": "Cleric and Goblins",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-01-06T00:00:00",
         "description": "\"Cleric and Goblins\" is a hack-and-slash-like VR action game that features procedurally generated dungeons, a physics-based combat system, and item collection. The player's objective is to rescue the Cleric from the goblin-infested dungeon. Embark on an immersive adventure where your actions and decision-making skills will be put to the test. Be cautious of goblin traps, rescue the Cleric, and claim the finest loot!\n\n■story\nAs you wake up, you find yourself in an unfamiliar forest. Confused and sitting down, a mysterious cleric girl passes by. She is a traveling cleric and offers to guide you from this mysterious forest to a nearby town. You feel relieved and safely reach the town with her help. Upon arrival, she hands you a small amount of money and a self-defense knife before departing.A few days later, you learn that Cleric has been kidnapped by goblins. Determined to rescue her, you take the self-defense knife she gave you and venture into the dungeon.",
         "markdown": false,
@@ -68,6 +69,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -86,11 +88,22 @@
             "cover_square": "39031632_866848751297156_2779902051334361602_n.png",
             "hero": "38982523_1237044416908676_4901011787156028_n.png",
             "icon": "38982441_472628595050620_41151949926643023_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031603_1188545341758094_2134831711863683432_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "くれりっくさんはすぐゴブリンにさらわれる",
                 "keywords": [],
@@ -102,6 +115,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 48,
         "rating": 4.0,
         "weighted_rating": 3.89,

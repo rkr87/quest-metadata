@@ -7,6 +7,7 @@
         "app_name": "End of Night",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-05-07T00:00:00",
         "description": "End of Night is a CINEMATIC VR experience about the tormenting memories of one man's escape from Denmark to Sweden during WWII. \n\nIt is an artistic mix of advanced technologies such as photogrammetry and volumetric video, blended together into a collage-like 3D universe. Although realistic in its depiction of war-torn Copenhagen, and based on real accounts, the fictional experience unfolds like dimly recalled fragments of a painful memory.\n\nThe audience is placed in the passenger seat of a rowboat with a full freedom inside this 360 VR video, sitting face to face with Josef. Through the physical proximity to him and his vivid stories of both heroic and immoral acts, the audience become intimate observers of the trauma experienced by a young man forced to flee his own country.\n\nThe experience reflects on the theme of survivor's guilt and the impossible choices that people on the run have to make in order to save their own lives.",
         "markdown": false,
@@ -58,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -76,11 +78,22 @@
             "cover_square": "38974888_139838708712859_520137428657975470_n.png",
             "hero": "38982671_562626735828713_3340367070303477161_n.png",
             "icon": "57569471_572522098153320_5399227113502291470_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982617_875659916857987_6270692498721449184_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "End of Night",
                 "keywords": [],
@@ -92,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 13,
         "rating": 3.076923,
         "weighted_rating": 3.76,

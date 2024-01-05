@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -76,11 +77,22 @@
             "cover_square": "38974629_1061368704686674_5315060616454760949_n.png",
             "hero": "38982710_201146682163251_8612318570192214736_n.png",
             "icon": "38982568_415542390012825_4688046256198897075_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "86873988_864924514186604_5157706230899258381_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fi_FI",
                 "display_name": "Learning Life - Mysteeri 24/7",
                 "keywords": [],
@@ -92,6 +104,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 10,
         "rating": 2.4,
         "weighted_rating": 3.72,

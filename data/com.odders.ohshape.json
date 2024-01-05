@@ -63,14 +63,15 @@
             },
             {
                 "rating": 4,
-                "votes": 172
+                "votes": 171
             },
             {
                 "rating": 5,
-                "votes": 461
+                "votes": 462
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -89,11 +90,22 @@
             "cover_square": "38974450_538731886736333_3995521785280856064_n.png",
             "hero": "38974613_641554903283769_4118445467279294464_n.png",
             "icon": "38982614_126637498693608_963567640750587904_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974638_2516402991936704_990337643625578496_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "OhShape",
                 "keywords": [
@@ -117,8 +129,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 838,
-        "rating": 4.089499,
+        "rating": 4.090692,
         "weighted_rating": 4.06,
         "is_available": true,
         "is_free": false

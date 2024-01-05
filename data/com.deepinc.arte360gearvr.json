@@ -66,6 +66,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,23 @@
             "cover_portrait": "11162751_1190053751022312_1764533534_n.png",
             "cover_square": "12138792_968702646532417_495580942_n.png",
             "hero": "12138839_930466686989488_287118544_n.png",
-            "icon": "12138836_854981094618480_1967847724_n.png"
+            "icon": "12138836_854981094618480_1967847724_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Nomades TV +/- 5 Meter interaktiv VR",
                 "keywords": [],
@@ -93,7 +106,16 @@
                 "short_description": "Joe BUNNI invites you to join him diving in the most beautiful underwater landscapes. He will tell you all about the sensation of diving in 3D and how it feels like flying! You will dive in coral reefs, among sharks and under the ice of the North Pole. This fascinating universe is fragile and Joe will explain how it is being polluted."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Nomades TV +/- 5 mètres interactif VR",
                 "keywords": [],
@@ -105,6 +127,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2328,
         "rating": 3.487543,
         "weighted_rating": 3.5,

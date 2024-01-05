@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -81,11 +82,22 @@
             "cover_square": "57566686_666692091170488_3251436190563150743_n.png",
             "hero": "38974602_1246752362479327_2366517298274135716_n.png",
             "icon": "75395600_489359709332468_147533270035260183_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982598_3214556585539629_7451697314953285014_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "DIVE VR",
                 "keywords": [],
@@ -97,6 +109,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 22,
         "rating": 4.090909,
         "weighted_rating": 3.88,

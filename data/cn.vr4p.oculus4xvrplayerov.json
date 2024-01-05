@@ -7,6 +7,7 @@
         "app_name": "4XVR Video Player",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-09-06T00:00:00",
         "description": "4XVR video player is a local vr video player that plays 3D movies and VR videos with 4x clarity. It is the only VR video player that supports MVC 3D decoding.\n\t\n\t\nFeatures include:\n\t\n- Exclusive video display technology: When watching movies and VR videos, you can enjoy 4x clarity.\n\t\n- The only VR video player that supports MVC 3D decoding; MVC 3D in these file formats can be played smoothly: ISO, SSIF, mkv, m2ts, ts, mts, etc.\n\t\n- Read and play videos on a USB flash drive (FAT32 / exFAT / NTFS support,  multiple partition support,   2T+ even 20T support), \n\n- Network playback support: DLNA, SMB 1.0/2.0/3.0, FTP, SFTP, WebDAV, WebDAVS;  Network module optimization, let you say goodbye to the network congestion.\n\n- Intelligent and accurate recognition of projection types (flat, 180° , 360° ), stereoscopic modes (2D, FSBS 3D, HSBS 3D, FOU 3D, HOU 3D)\n\t\n- Smooth and powerful UI\n\t\n- Immersive, realistic theatres",
         "markdown": false,
@@ -52,7 +53,7 @@
             },
             {
                 "rating": 4,
-                "votes": 32
+                "votes": 33
             },
             {
                 "rating": 5,
@@ -60,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,11 +77,22 @@
             "cover_square": "38982620_314940087699720_4071799768849890499_n.png",
             "hero": "75230040_159400727191454_3097432513552051414_n.png",
             "icon": "75395600_6724111660988356_7294477289810260999_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974750_670558314687650_4351224727893824174_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "4XVR视频播放器",
                 "keywords": [],
@@ -91,8 +104,9 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 116,
-        "rating": 4.077586,
+        "is_demo_of": null,
+        "votes": 117,
+        "rating": 4.076923,
         "weighted_rating": 3.96,
         "is_available": true,
         "is_free": true

@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -79,11 +80,22 @@
             "cover_square": "75221328_2528784887344451_4910259281418256384_n.png",
             "hero": "75326673_1215277395348658_7312448173836861440_n.png",
             "icon": "75458091_2448595928576081_3121839602353045504_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75195911_500631267499232_3657773056136314880_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Centraide – Agir ici, avec cœur",
                 "keywords": [
@@ -107,9 +119,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 19,
         "rating": 3.947368,
-        "weighted_rating": 3.85,
+        "weighted_rating": 3.86,
         "is_available": true,
         "is_free": true
     },

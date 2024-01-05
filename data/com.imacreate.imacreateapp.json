@@ -7,6 +7,7 @@
         "app_name": "ima-create",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-04-19T00:00:00",
         "description": "Unlike \"Viewing XR\" such as 360-degree videos, \"Doing XR\" is an XR that allows users to move their bodies within a virtual space as if it were reality.\nBecause it is a virtual space, various experiences that are impossible in reality are possible through the use of technology, such as visualization and transparency of objects, and manipulation of phenomena and events.\nThe imacreate application allows you to experience such \"XR to do.",
         "markdown": false,
@@ -61,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -79,11 +81,22 @@
             "cover_square": "54770914_1171498036963227_2227250579124485908_n.png",
             "hero": "38974551_1357462061489948_9026322551453332126_n.png",
             "icon": "38974522_1885669395130231_4694918291335359413_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001698_161005759802756_7878264860367789974_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "イマクリエイト",
                 "keywords": [],
@@ -95,6 +108,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.85,

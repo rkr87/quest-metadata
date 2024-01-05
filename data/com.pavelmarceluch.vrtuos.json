@@ -66,6 +66,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -81,11 +82,22 @@
             "cover_square": "38974469_443765793489615_2414528281973950576_n.png",
             "hero": "43931329_845793226279840_5353159345038488122_n.png",
             "icon": "39031363_941088966634660_8354066519633768794_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001691_321944425901587_1025914718710860580_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "cs_CZ",
                 "display_name": "VRtuos",
                 "keywords": [],
@@ -97,6 +109,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 103,
         "rating": 3.009709,
         "weighted_rating": 3.43,

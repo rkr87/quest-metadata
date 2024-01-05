@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -85,11 +86,22 @@
             "cover_square": "39036614_418655566663695_3250770529254675221_n.png",
             "hero": "39001726_3144338155890642_3049642706514232713_n.png",
             "icon": "38974748_3203922549883902_5270960667081155821_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974526_1052505482264125_1151336680264697964_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Vendetta Online",
                 "keywords": [],
@@ -101,6 +113,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 22,
         "rating": 4.863636,
         "weighted_rating": 4.01,

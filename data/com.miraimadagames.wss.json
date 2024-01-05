@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -81,11 +82,22 @@
             "cover_square": "39036665_222921352913723_5459501689658473393_n.png",
             "hero": "38974819_911060566374104_4117306918103965678_n.png",
             "icon": "39003242_2855720174705137_4691301477463724136_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974578_2879509415658088_8118446078285102986_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Waifu's Spooky Space Station VR",
                 "keywords": [],
@@ -97,6 +109,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4,
         "rating": 5.0,
         "weighted_rating": 3.88,

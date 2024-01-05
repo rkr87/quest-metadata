@@ -7,6 +7,7 @@
         "app_name": "ahaus.digital",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-09-25T00:00:00",
         "description": "The app \"ahaus.digital\" allows you to explore the city of Ahaus in a fascinating and interactive way. Immerse yourself in a virtual world where you can experience landmarks, historical buildings, and local highlights up close.\n\nUsing augmented reality (AR) and virtual reality (VR) technologies, the app brings the city of Ahaus to life. You can navigate through the streets and explore virtual representations of well-known landmarks such as Ahaus Castle or St. Marien's Church. Learn more about their history, architecture, and significance to the city.\n\nWhether you're a local looking to discover your city in new ways or a visitor wanting to experience Ahaus virtually, the app \"ahaus.digital\" provides a unique opportunity to get to know this special place. Get ready for an unforgettable adventure full of discoveries and exciting experiences!",
         "markdown": false,
@@ -59,6 +60,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +78,22 @@
             "cover_square": "39031354_337356495301366_2095036027783798102_n.png",
             "hero": "39031322_816427750015350_8847562494836533141_n.png",
             "icon": "39035399_675814311133363_5087899794686286713_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031429_283817034374975_2614325375845835447_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "ahaus.digital",
                 "keywords": [],
@@ -92,6 +105,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 5.0,
         "weighted_rating": 3.86,

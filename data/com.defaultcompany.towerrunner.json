@@ -65,6 +65,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -80,11 +81,22 @@
             "cover_square": "38974604_727697014567136_4796428692315613186_n.png",
             "hero": "39036677_841819879759079_5891152489506760697_n.png",
             "icon": "57566683_897990887710251_843793094950849090_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031484_182874513643172_8230325927548669391_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "WorldTreeClimber",
                 "keywords": [],
@@ -96,9 +108,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 7,
         "rating": 2.142857,
-        "weighted_rating": 3.73,
+        "weighted_rating": 3.74,
         "is_available": true,
         "is_free": true
     },

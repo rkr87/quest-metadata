@@ -7,6 +7,7 @@
         "app_name": "Monkey Sprinters VR",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-07-05T00:00:00",
         "description": "Welcome to the Official Monkey Sprinters. Hey you Yes you if you see 2 Monkey Sprinters The other one is FAKE THEY COPIED US CAUSE THEY ARE BOZOS\n",
         "markdown": false,
@@ -54,10 +55,11 @@
             },
             {
                 "rating": 5,
-                "votes": 28
+                "votes": 29
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +75,22 @@
             "cover_square": "39031626_526040262932469_289653675176705108_n.png",
             "hero": "38974503_961087108509100_7114869409977447465_n.png",
             "icon": "38974500_1986404421529778_8120096964372259640_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982617_1071366277162045_2594499965335361459_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "Monkey Sprinters",
                 "keywords": [],
@@ -89,9 +102,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 41,
-        "rating": 3.926829,
-        "weighted_rating": 3.86,
+        "is_demo_of": null,
+        "votes": 42,
+        "rating": 3.952381,
+        "weighted_rating": 3.87,
         "is_available": true,
         "is_free": true
     },

@@ -59,6 +59,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,11 +75,22 @@
             "cover_square": "39003227_468157000345891_2209908008350121984_n.png",
             "hero": "38974564_2142065755825126_3456869415335755776_n.png",
             "icon": "38974842_235583767138250_3029746582879731712_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39001706_262307874624378_3891232695069442048_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "nl_NL",
                 "display_name": "RelieVR",
                 "keywords": [
@@ -96,6 +108,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 81,
         "rating": 3.950617,
         "weighted_rating": 3.89,

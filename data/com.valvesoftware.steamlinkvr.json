@@ -7,6 +7,7 @@
         "app_name": "Steam Link",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-11-30T00:00:00",
         "description": "Steam Link streams the games you love in your Steam library directly from your computer to your Meta Quest headset. Using the power of your computer, it delivers a high-fidelity and intuitive way to wirelessly play your favorite games, discuss them with your friends, and access your desktop apps.\r\n\r\nTo get started, download and install Steam Link onto your headset. It will walk you through wirelessly connecting to your computer located on the same network as your headset with Steam installed and running.\r\n\r\nInstall the Steam Link app today to experience Steam - the ultimate destination for playing, discussing, and creating games.\r\n\r\nMinimum Requirements\r\n  •\tA computer running Steam and SteamVR\r\n  •\tSupported OS: Windows 10 or newer\r\n  •\tComputer GPUs: NVIDIA (GTX970 or better)\r\n  •\tWireless Router: 5GHz Channel, Wi-Fi 5\r\n  •\tHeadset: Meta Quest 2, 3, or Pro\r\n\r\nRecommended\r\n  •\tComputer Processor: Intel Core i5-4590/AMD FX 8350 equivalent or better\r\n  •\tComputer Memory: 16 GB RAM\r\n  •\tComputer GPUs: NVIDIA (RTX2070 or better)\r\n  •\tNetwork: Broadband Internet connection\r\n  •\tWireless Router: Wi-Fi 6 or Wi-Fi 6E\r\n  •\tComputer using wired network connection\r\n",
         "markdown": false,
@@ -92,7 +93,7 @@
             },
             {
                 "rating": 3,
-                "votes": 80
+                "votes": 82
             },
             {
                 "rating": 4,
@@ -104,6 +105,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -119,11 +121,22 @@
             "cover_square": "75223470_247703651296418_5674744448252579512_n.png",
             "hero": "38974858_353972233735300_71717434851146598_n.png",
             "icon": "39001674_176511848863911_7211169995384003226_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75222941_635317061914735_1444826281890792553_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "sv_SE",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -132,7 +145,16 @@
                 "short_description": "Steam Link streamar spelen i Steam-biblioteket direkt från datorn till Meta Quest-headsetet.\n\nInstallera Steam Link-appen idag och börja spela!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "tr_TR",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -141,7 +163,16 @@
                 "short_description": "Steam Link, Steam kütüphanenizdeki sevdiğiniz oyunları bilgisayarınızdan doğrudan Meta Quest başlığına yayınlar.\n\nSteam Link uygulamasını hemen yükleyin ve oynamaya başlayın!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ro_RO",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -150,7 +181,16 @@
                 "short_description": "Steam Link transmite jocurile pe care le îndrăgești din biblioteca ta Steam direct de pe calculatorul tău către casca ta Meta Quest.\n\nInstalează aplicația Steam Link astăzi și începe să joci!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "cs_CZ",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -159,7 +199,16 @@
                 "short_description": "Aplikace Steam Link umožňuje streamovat hry z počítače přímo do Vašeho headsetu Meta Quest.\n\nNainstalujte si aplikaci Steam Link ještě dnes a pusťte se do hraní!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "nl_NL",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -168,7 +217,16 @@
                 "short_description": "Steam Link streamt je favoriete spellen in je Steam-bibliotheek rechtstreeks van je computer naar je Meta Quest-headset.\n\nInstalleer de Steam Link-app vandaag nog en je kunt meteen spelen!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_BR",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -177,7 +235,16 @@
                 "short_description": "O Steam Link transmite os jogos da sua Biblioteca Steam que você ama diretamente do seu computador para o seu headset Meta Quest.\n\nInstale já o aplicativo do Steam Link e comece a jogar!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "nb_NO",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -186,7 +253,16 @@
                 "short_description": "Steam Link strømmer spillene i Steam-biblioteket direkte fra datamaskinen til Meta Quest-hodesettet.\n\nInstaller Steam Link-appen i dag og begynn å spille!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -195,7 +271,16 @@
                 "short_description": "Steam Link는 Steam 라이브러리에서 즐겨하는 게임을 직접 PC에서 Meta Quest 헤드셋으로 스트리밍합니다.\n\nSteam Link 앱을 설치하고 오늘 바로 플레이해 보세요!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_HK",
                 "display_name": "Steam 串流",
                 "keywords": [],
@@ -204,7 +289,16 @@
                 "short_description": "Steam 串流能將您 Steam 收藏庫中最愛的遊戲直接從電腦串流到您的 Meta Quest 頭戴顯示器上。\n\n立即安裝 Steam 串流應用程式並開始遊玩！"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_TW",
                 "display_name": "Steam 串流",
                 "keywords": [],
@@ -213,7 +307,16 @@
                 "short_description": "Steam 串流能將您 Steam 收藏庫中最愛的遊戲直接從電腦串流到您的 Meta Quest 頭戴顯示器上。\n\n立即安裝 Steam 串流應用程式並開始遊玩！"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pl_PL",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -222,7 +325,16 @@
                 "short_description": "Steam Link strumieniuje twoje ulubione gry z biblioteki Steam na twoim komputerze bezpośrednio do twoich gogli Meta Quest.\n\nZainstaluj aplikację Steam Link i zacznij grać już dziś!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fi_FI",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -231,7 +343,16 @@
                 "short_description": "Steam Link suoratoistaa Steam-kirjastosi suosikkipelit tietokoneelta suoraan Meta Quest -virtuaalitodellisuuslaseihin.\n\nAloita pelaaminen asentamalla Steam Link -sovellus jo tänään!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "vi_VN",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -240,7 +361,16 @@
                 "short_description": "Steam Link truyền phát trò chơi bạn yêu thích trong thư viện Steam, trực tiếp từ máy tính đến mũ chụp Meta Quest.\n\nCài đặt ứng dụng Steam Link hôm nay và chơi ngay!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "Steam 流式应用",
                 "keywords": [],
@@ -249,7 +379,16 @@
                 "short_description": "Steam 流式应用能将您最爱的游戏直接从电脑的 Steam 库中流式传输到您的 Meta Quest 头戴式显示器中。\n\n立即安装 Steam 流式应用并开始游戏吧！"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -258,7 +397,16 @@
                 "short_description": "Steam Link streamt Ihre Lieblingsspiele in Ihrer Steam-Bibliothek direkt von Ihrem Computer auf Ihr Meta-Quest-VR-Headset.\n\nInstallieren Sie heute noch die Steam-Link-App und fangen Sie an zu spielen!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -267,7 +415,16 @@
                 "short_description": "Steam Link permette di riprodurre i tuoi giochi preferiti presenti nella Libreria di Steam direttamente dal computer al visore Meta Quest.\n\nInstalla subito l'app Steam Link e inizia a giocare!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ru_RU",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -276,7 +433,16 @@
                 "short_description": "С помощью Steam Link можно напрямую транслировать любимые игры из библиотеки Steam с компьютера на шлем Meta Quest.\n\nУстановите приложение Steam Link и играйте!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Steamリンク",
                 "keywords": [
@@ -287,7 +453,16 @@
                 "short_description": "Steamリンクを使用すると、Steamライブラリ内のお気に入りのゲームをコンピューターからMeta Questヘッドセットに直接ストリーミングできます。\n\n今すぐSteamリンクアプリをインストールして、プレイしましょう！"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_PT",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -296,7 +471,16 @@
                 "short_description": "O Steam Link transmite os teus jogos favoritos da Biblioteca Steam diretamente do teu computador para o teu headset Meta Quest.\n\nInstala a app do Steam Link já hoje e começa a jogar!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -305,7 +489,16 @@
                 "short_description": "Avez Steam Link, streamez les jeux préférés de votre bibliothèque Steam directement depuis votre ordinateur vers votre casque Meta Quest.\n\nInstallez l'application Steam Link et commencez à jouer !"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "el_GR",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -314,7 +507,16 @@
                 "short_description": "Με το Steam Link, τα αγαπημένα παιχνίδια από τη Συλλογή Steam σας μεταδίδονται απευθείας από τον υπολογιστή στο headset Meta Quest σας.\n\nΕγκαταστήστε τώρα την εφαρμογή Steam Link και ξεκινήστε να παίζετε!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -323,7 +525,16 @@
                 "short_description": "Steam Link retransmite los juegos que te gustan de tu biblioteca de Steam directamente desde tu equipo a tu visor Meta Quest.\n\n¡Instala hoy la aplicación Steam Link y comienza a jugar!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "da_DK",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -332,7 +543,16 @@
                 "short_description": "Steam Link streamer de spil i dit Steam-bibliotek, som du elsker, direkte fra din computer til Meta Quest-headsettet.\n\nInstaller Steam Link-appen i dag og begynd at spille!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Steam Link",
                 "keywords": [],
@@ -350,8 +570,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 990,
-        "rating": 3.589899,
+        "is_demo_of": null,
+        "votes": 992,
+        "rating": 3.58871,
         "weighted_rating": 3.61,
         "is_available": true,
         "is_free": true

@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -76,11 +77,22 @@
             "cover_square": "38982651_2703432586568319_6476579602558138389_n.png",
             "hero": "57572929_270403360868413_7602435505566175273_n.png",
             "icon": "38974836_1110249389360108_3014408212939327849_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38984441_546281139380181_7763519249686106847_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Aceto Balsamico di Modena - VR Experience",
                 "keywords": [
@@ -104,9 +116,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 2,
         "rating": 2.0,
-        "weighted_rating": 3.8,
+        "weighted_rating": 3.81,
         "is_available": true,
         "is_free": true
     },

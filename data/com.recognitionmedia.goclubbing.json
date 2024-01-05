@@ -61,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [],
@@ -79,11 +80,22 @@
             "cover_square": "75443245_487493516030191_7405325397962976755_n.png",
             "hero": "75549077_846527005939213_4253558900339476175_n.png",
             "icon": "75443244_478782426530793_7999834066005664101_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75395422_280254383748588_741753274968684835_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "GO CLUBBING",
                 "keywords": [],
@@ -95,9 +107,10 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 20,
         "rating": 3.05,
-        "weighted_rating": 3.71,
+        "weighted_rating": 3.72,
         "is_available": true,
         "is_free": false
     },

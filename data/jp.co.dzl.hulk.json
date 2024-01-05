@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -75,11 +76,22 @@
             "cover_square": "12386303_1193444240749744_3053895264134758400_n.png",
             "hero": "12410271_1928954540665438_1816663143485538304_n.png",
             "icon": "12138848_719491561559668_6810190592253886464_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12727993_586179931573491_5380981937508712448_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "Ninja and Princess",
                 "keywords": [
@@ -103,6 +115,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 63,
         "rating": 3.333333,
         "weighted_rating": 3.65,

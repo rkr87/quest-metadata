@@ -57,6 +57,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,11 +73,22 @@
             "cover_square": "11162812_1893119480946149_2885864121901776896_n.png",
             "hero": "11162783_198376100663765_6903683801130467328_n.png",
             "icon": "11162814_1875296732727135_2837077807429844992_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162769_1166728790119679_8775789590813343744_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "nl_NL",
                 "display_name": "Nationaal VR Museum",
                 "keywords": [
@@ -98,6 +110,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 21,
         "rating": 3.285714,
         "weighted_rating": 3.75,

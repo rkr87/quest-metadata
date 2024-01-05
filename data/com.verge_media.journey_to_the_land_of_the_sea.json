@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +79,22 @@
             "cover_square": "38982658_312617600486765_3860137773597684449_n.png",
             "hero": "75411994_1105323449967997_1084854634234134134_n.png",
             "icon": "75542959_959271401486314_984961281213416808_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "86610560_512710513214719_1703813524817848663_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fi_FI",
                 "display_name": "Matka meren maahan",
                 "keywords": [],
@@ -91,7 +103,16 @@
                 "short_description": "Matka meren maahan vie sinut elämysmatkalle (Suomen) Saaristomerelle, jonka tuhannet saaret ja moni-ilmeinen kulttuuriperintö ovat maailman ainutlaatuisimpia. Virtuaalikokemus sukeltaa saariston ytimeen, täysin omanlaiseensa kulttuuri- ja elinympäristöön, joka on haavoittuvainen, arvokas, sitkeä, ikiaikainen, kaunis ja osin katoava."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "sv_SE",
                 "display_name": "Resa till havets land",
                 "keywords": [],
@@ -103,6 +124,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 6,
         "rating": 4.166667,
         "weighted_rating": 3.86,

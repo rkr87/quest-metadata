@@ -64,6 +64,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -81,11 +82,22 @@
             "cover_square": "11162687_183366508870740_2510159959308632064_n.png",
             "hero": "11162699_106246460066667_6327644711536295936_n.png",
             "icon": "11162748_327502044342280_4312781042227347456_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162741_1907976972859715_1193392633544704000_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "ComixV - VR Comic / VR Webtoon",
                 "keywords": [
@@ -109,6 +121,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 27,
         "rating": 3.703704,
         "weighted_rating": 3.81,

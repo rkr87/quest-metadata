@@ -72,6 +72,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -92,11 +93,22 @@
             "cover_square": "38974699_278918969683947_3966883093674983424_n.png",
             "hero": "38982445_2255894471393691_543650019660529664_n.png",
             "icon": "38974463_1246206592221288_5750751451731197952_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982653_744771205925407_7727587742594367488_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "ソード・オブ・ガルガンチュア",
                 "keywords": [
@@ -120,6 +132,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1740,
         "rating": 3.57069,
         "weighted_rating": 3.59,

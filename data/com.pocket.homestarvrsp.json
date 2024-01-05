@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -80,11 +81,22 @@
             "cover_square": "75556804_290512588932094_5162678860263524053_n.png",
             "hero": "39031569_1964055283725330_2215591172835056435_n.png",
             "icon": "75210395_203262917781974_1669219595990351890_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031506_877653849393655_3740271929353169103_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "ホームスターVR SPECIAL EDITION",
                 "keywords": [
@@ -108,6 +120,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 46,
         "rating": 3.978261,
         "weighted_rating": 3.88,

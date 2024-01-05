@@ -58,6 +58,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,11 +74,22 @@
             "cover_square": "38974684_308126536531875_8423395749038915584_n.png",
             "hero": "38982441_842644106082611_5502723588672716800_n.png",
             "icon": "38974449_2290367767877282_8722284099420553216_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974614_441895713222512_5879470616569970688_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "en_GB",
                 "display_name": "PregnancyVue",
                 "keywords": [
@@ -101,9 +113,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 11,
         "rating": 4.454545,
-        "weighted_rating": 3.89,
+        "weighted_rating": 3.9,
         "is_available": true,
         "is_free": true
     },

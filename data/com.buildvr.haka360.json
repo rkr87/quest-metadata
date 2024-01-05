@@ -59,15 +59,23 @@
         "comfort": "COMFORTABLE_FOR_MOST",
         "age_rating": "Ages 13+",
         "iarc": {
+            "age_rating": null,
             "descriptors": [],
-            "elements": []
+            "elements": [],
+            "iarc_icon": null
         },
         "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.haka360.com/",
         "app_images": {
             "cover_landscape": "12138837_1563955627259783_1445527842_n.png",
-            "hero": "12138837_1724568857764124_993416907_n.png"
+            "cover_portrait": null,
+            "cover_square": null,
+            "hero": "12138837_1724568857764124_993416907_n.png",
+            "icon": null,
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
         },
         "translations": [],
         "keywords": [
@@ -79,6 +87,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1180,
         "rating": 3.778814,
         "weighted_rating": 3.78,

@@ -63,6 +63,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,11 +79,22 @@
             "cover_square": "38974885_373767623451112_7903362066616942592_n.png",
             "hero": "38974676_2231614623827628_1155915745352220672_n.png",
             "icon": "38974813_522848434874426_3992789477410996224_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974832_2080436142042437_7921977146367541248_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "it_IT",
                 "display_name": "Vertigo!",
                 "keywords": [
@@ -106,6 +118,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 31,
         "rating": 3.193548,
         "weighted_rating": 3.69,

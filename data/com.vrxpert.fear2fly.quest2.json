@@ -7,6 +7,7 @@
         "app_name": "VRferapy Home - Fear2Fly",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-06-14T00:00:00",
         "description": "Fear2Fly provides virtual flying experience for user who want to test if they are afraid of such kind of environment. The application contains different scenarios including walk-in cabin, flight ascending and descending scene. Free to download and allow trial users to test the application with default scenarios. Monthly subscribed user can play more customized scenarios (seating, weather, cabin-steadiness) on different situations and play records management.\n\nWith record management capability, subscribed users can upload their play records for later review over web-login and print out the records history to seek professional help. Monthly subscription can be done via in-app purchase.",
         "markdown": false,
@@ -60,6 +61,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -77,11 +79,22 @@
             "cover_square": "39035412_1308750299712518_1224390041228679651_n.png",
             "hero": "39001682_1994800304207383_6535948753611565430_n.png",
             "icon": "38974796_271066108650744_1762901134901128451_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974709_154290737507613_1377200233202354002_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_HK",
                 "display_name": "Fear2Fly",
                 "keywords": [],
@@ -90,7 +103,16 @@
                 "short_description": "Fear2Fly 讓用家測試是否害怕坐飛機. 它提供虛擬飛行體驗。它包含了不同的場景，包括步入機艙、航班起飛和降落場景。用戶可以免費下載試用默認播放路線場景。包月用戶更可以使用自定義播放路線來設定不同場景的詳細情況（例如座位、天氣、機艙穩定性等）和 播放記錄管理功能。"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "Fear2Fly",
                 "keywords": [],
@@ -102,6 +124,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 4.0,
         "weighted_rating": 3.84,

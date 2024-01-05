@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -80,11 +81,22 @@
             "cover_square": "12602284_728075687368036_2907925118338465792_n.png",
             "hero": "12448923_1923682587851433_3937709944928731136_n.png",
             "icon": "12504696_380912332290814_4958454724354375680_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12139051_389878928041025_1001048450248212480_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "pt_BR",
                 "display_name": "Rock & Rails",
                 "keywords": [
@@ -99,7 +111,16 @@
                 "short_description": "O mundo do rock & roll foi silenciado, então é hora de mudar subindo o volume! Pegue seus instrumentos e detone as Bestas do Silêncio com um bom e alto BAM! Deslize em trilhos por lugares irados, seja solo ou numa jam com amigos, e resgate nosso mundo de volta em nome do Rock!"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Rock & Rails",
                 "keywords": [
@@ -123,6 +144,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 313,
         "rating": 3.913738,
         "weighted_rating": 3.89,

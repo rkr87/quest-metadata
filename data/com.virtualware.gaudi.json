@@ -62,6 +62,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -77,11 +78,22 @@
             "cover_square": "12448937_787810097988475_1951388459310514176_n.png",
             "hero": "12680355_640289842811858_8010207409693786112_n.png",
             "icon": "12386425_198680313898594_5935437446345916416_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "12386474_224423747973719_8114743215711584256_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Gaudí VR Experience",
                 "keywords": [
@@ -105,6 +117,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 53,
         "rating": 3.0,
         "weighted_rating": 3.56,

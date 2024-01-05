@@ -74,6 +74,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -93,11 +94,22 @@
             "cover_square": "39031336_888756238127170_3398247247798861824_n.png",
             "hero": "39031432_683113932142164_5392542799763603456_n.png",
             "icon": "38974596_422226421892958_5284176299529601024_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974850_881154322219269_3019757193323872256_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_ES",
                 "display_name": "Red Matter",
                 "keywords": [
@@ -112,7 +124,16 @@
                 "short_description": "Red Matter es una aventura de puzles que tiene lugar en una Guerra Fría distópica. Tomarás el papel del Agente Épsilon, un astronauta de la Unión Atlántica que será enviado a una base abandonada en Rhea, luna de Saturno. Tu misión: recuperar información sobre las oscuras investigaciones que llevaba a cabo Volgravia en aquel lugar. Pero ten cuidado con lo que te puedas encontrar. Una vez sepas la verdad ¿serás capaz de soportarla?"
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Red Matter",
                 "keywords": [
@@ -136,6 +157,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 4407,
         "rating": 4.623553,
         "weighted_rating": 4.6,

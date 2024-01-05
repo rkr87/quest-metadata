@@ -7,6 +7,7 @@
         "app_name": "XR Designer old",
         "type_name": "Application",
         "appstore_type": "Application",
+        "category": null,
         "release_date": "2023-06-06T00:00:00",
         "description": "XR Designer is a VR game that allows you to design and share rooms.\nYou can visit rooms created by others, or upload your own models and wallpapers for use.\n\n----Functions at a glance ----\nSummon models\nChange the texture of walls, etc.\nVisit other users' rooms\nCheck your own data\nLog in\nSwitch windows\nChange weather\nChange background music\nSave Room\nLoad Room\nVolume control\nChange language\n\n---Controls ----\nMove with the left controller stick.\nRotate with the right controller stick.\nThe upper trigger on the right controller controls the menu panel.\n\n When you open the menu panel of a model and select a model: \n You can summon & hold the model with the upper trigger on the right controller.\n Press A on the right controller to zoom in and out.\n Press B on the right controller to rotate the model.\n Delete a model with the lower trigger of the right controller.\n When you move the model while holding the model, the model will move.\n (More detailed explanation can be found at \"https://xrsns.org/\")\n\n---Special thanks---\nBGM: (C) K.Y., (C) L-side, (C) Sound Effect Lab\nModel: (C) MASAYOSHI, (C) Dimensiva, (C) 3D Shaker\nImage: (C) Pixabay\n",
         "markdown": false,
@@ -63,6 +64,7 @@
             }
         ],
         "comfort": "NOT_RATED",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,6 +80,8 @@
             "cover_square": "38974905_777159494100710_1024994266935109091_n.png",
             "hero": "38982675_1335403677010605_4209208577982739742_n.png",
             "icon": "75416836_1129034781832506_1584739703872643244_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "75294239_826225248361947_4586188057172023929_n.png"
         },
         "translations": [
@@ -88,6 +92,8 @@
                     "cover_square": "39001656_278295291306270_6469229023536558504_n.png",
                     "hero": "38974643_273646311691837_8126173087361746724_n.png",
                     "icon": "38982543_562562759291822_7552467105912398893_n.png",
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
                     "logo_transparent": "39031446_814221226987442_9156478809795113856_n.png"
                 },
                 "locale": "ja_JP",
@@ -101,6 +107,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.85,

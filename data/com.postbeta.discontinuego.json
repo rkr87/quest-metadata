@@ -60,6 +60,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -77,11 +78,22 @@
             "cover_square": "38974452_2504896402911092_7130288418856108032_n.png",
             "hero": "38974622_1325090907654018_44927771687780352_n.png",
             "icon": "38982565_414668895905355_6419532014961033216_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38974808_1315231965331879_6883060974492844032_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "zh_CN",
                 "display_name": "Discontinue",
                 "keywords": [
@@ -105,9 +117,10 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 16,
         "rating": 4.125,
-        "weighted_rating": 3.87,
+        "weighted_rating": 3.88,
         "is_available": true,
         "is_free": true
     },

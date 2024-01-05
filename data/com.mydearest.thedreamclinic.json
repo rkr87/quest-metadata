@@ -66,6 +66,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -81,11 +82,22 @@
             "cover_square": "11162701_507674592934850_9043657797597659136_n.png",
             "hero": "11162732_264204370773256_8012132482755330048_n.png",
             "icon": "11162716_866636396831181_231677502383194112_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "11162717_507374896297616_1627233593715589120_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "夢の相談所",
                 "keywords": [
@@ -109,6 +121,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 43,
         "rating": 4.162791,
         "weighted_rating": 3.93,

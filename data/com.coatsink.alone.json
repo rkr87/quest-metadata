@@ -63,7 +63,7 @@
             },
             {
                 "rating": 3,
-                "votes": 138
+                "votes": 139
             },
             {
                 "rating": 4,
@@ -71,10 +71,11 @@
             },
             {
                 "rating": 5,
-                "votes": 1517
+                "votes": 1518
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -93,11 +94,22 @@
             "cover_square": "75221322_321627635575273_4800614940494788125_n.png",
             "hero": "39035408_362064754961539_7181256332854079453_n.png",
             "icon": "75262741_3884791068203418_1526815717677963328_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "39031334_350682132791191_8431333228401707691_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ko_KR",
                 "display_name": "쥬라기 월드 애프터매스",
                 "keywords": [
@@ -111,7 +123,16 @@
                 "short_description": "쥬라기 월드 애프터매스는 긴장감 넘치는 VR 서바이벌 어드벤처로, 쥬라기 월드의 몰락 2년 후를 배경으로 펼쳐집니다. 살아남아 도망치려면 탐험하고, 수수께끼를 파헤치고, 호시탐탐 당신을 노리는 난폭한 벨로키랍토르의 시선을 따돌릴 방법을 찾으세요."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "fr_FR",
                 "display_name": "Jurassic World Aftermath",
                 "keywords": [
@@ -126,7 +147,16 @@
                 "short_description": "Jurassic World Aftermath est une aventure survival en réalité virtuelle qui se déroule deux ans après la chute de Jurassic World. Pour survivre et vous échapper, vous devrez explorer des environnements truffés de dangers, résoudre des énigmes et trouver des moyens de vous cacher ou de détourner l'attention de vélociraptors féroces qui vous traquent sans relâche."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "es_LA",
                 "display_name": "Jurassic World: El día después",
                 "keywords": [
@@ -141,7 +171,16 @@
                 "short_description": "Jurassic World: El día después es una aventura en RV de suspenso y supervivencia que transcurre dos años después de la caída del Mundo Jurásico. Tendrás que explorar, resolver rompecabezas y encontrar el modo de distraer a los feroces velocirraptores y esconderte de ellos si quieres sobrevivir y escapar."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "Jurassic World Aftermath",
                 "keywords": [
@@ -156,7 +195,16 @@
                 "short_description": "Jurassic World Aftermath ist ein fesselndes Survival-VR-Abenteuer, das zwei Jahre nach dem Untergang von Jurassic World spielt. Um zu überleben und zu entkommen, muss man die Umgebung erkunden, Rätsel lösen und Wege finden, die wilden Velociraptoren, die dir auf Schritt und Tritt nachstellen, abzulenken und sich vor ihnen zu verstecken."
             },
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "ジュラシック・ワールド: アフターマス",
                 "keywords": [
@@ -180,8 +228,9 @@
         ],
         "has_ads": false,
         "sensor_req": false,
-        "votes": 2161,
-        "rating": 4.407219,
+        "is_demo_of": null,
+        "votes": 2163,
+        "rating": 4.406842,
         "weighted_rating": 4.38,
         "is_available": true,
         "is_free": false

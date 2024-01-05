@@ -73,6 +73,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -90,11 +91,22 @@
             "cover_square": "38984465_262315865272466_5194514792432834593_n.png",
             "hero": "38982666_3211573965609514_5082997267281632569_n.png",
             "icon": "75294240_840136133508661_5615142365752637028_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982721_412092779874301_2872600161081679785_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "ja_JP",
                 "display_name": "BEAT ARENA",
                 "keywords": [
@@ -118,6 +130,7 @@
         ],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 201,
         "rating": 4.208955,
         "weighted_rating": 4.08,

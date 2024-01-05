@@ -77,6 +77,7 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -94,11 +95,22 @@
             "cover_square": "39031399_1083468135518012_272131277958243400_n.png",
             "hero": "75429297_841358366490839_8519325899852530519_n.png",
             "icon": "75404233_373414360865122_2419362821377577905_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
             "logo_transparent": "38982454_163904972398544_5841605497447982751_n.png"
         },
         "translations": [
             {
-                "images": {},
+                "images": {
+                    "cover_landscape": null,
+                    "cover_portrait": null,
+                    "cover_square": null,
+                    "hero": null,
+                    "icon": null,
+                    "immersive_layer_backdrop": null,
+                    "immersive_layer_logo": null,
+                    "logo_transparent": null
+                },
                 "locale": "de_DE",
                 "display_name": "PowerBeatsVR",
                 "keywords": [],
@@ -110,6 +122,7 @@
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
+        "is_demo_of": null,
         "votes": 701,
         "rating": 4.651926,
         "weighted_rating": 4.54,
