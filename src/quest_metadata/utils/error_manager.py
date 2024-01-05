@@ -14,9 +14,7 @@ from aiofiles.os import remove
 from pydantic import Field
 
 from base.models import BaseModel, SingletonModel
-
-ERROR_DIR = ".errors"
-LOG_RETENTION_DAYS = 7
+from config.app_config import AppConfig
 
 
 class _ErrorEntry(BaseModel):
@@ -93,14 +91,15 @@ class ErrorManager(SingletonModel):
         Log files are saved with a timestamp, and old log files are removed
         based on the configured log retention period.
         """
+        config = AppConfig()
         date_format = "%Y-%m-%d %H.%M.%S"
         date_string: str = self.timestamp.strftime(date_format)
-        await amakedirs(ERROR_DIR, exist_ok=True)
+        await amakedirs(config.error_path, exist_ok=True)
         if len(self.errors_logged) > 0:
-            await self.save_json(f"{ERROR_DIR}/{date_string}.json")
-        for file in await listdir(ERROR_DIR):
+            await self.save_json(f"{config.error_path}/{date_string}.json")
+        for file in await listdir(config.error_path):
             date_str: str = file.replace(".json", "")
             date_val: datetime = datetime.strptime(date_str, date_format)
             delta: timedelta = datetime.now() - date_val
-            if delta.days > LOG_RETENTION_DAYS:
-                await remove(f"{ERROR_DIR}/{file}")
+            if delta.days > config.error_log_retention:
+                await remove(f"{config.error_path}/{file}")
