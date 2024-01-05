@@ -38,7 +38,7 @@ class Application(Singleton):
     def __init__(self) -> None:
         super().__init__()
         self._app_manager: AppManager = AppManager()
-        async_runner = AsyncRunner()
+        async_runner = AsyncRunner(workers=AppConfig().max_threads)
         self._image_manager = ImageManager(async_runner)
         self._wrapper: Wrapper
         self._updater: Updater

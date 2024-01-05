@@ -8,43 +8,16 @@ Classes:
 - Translation: Model for representing translation details.
 - AppAdditionalDetails: Model for additional details of an application.
 """
+from logging import Logger, getLogger
 from typing import Any
 
-from pydantic import AliasPath, Field, model_serializer, model_validator
+from pydantic import (AliasPath, Field, field_validator, model_serializer,
+                      model_validator)
 
-from base.models import BaseModel
-from config.app_config import AppConfig
-from controller.image_manager import ImageProps
+from base.models import BaseModel, RootDictModel
+from config.app_config import AppConfig, ImageProps
 from helpers.dict import get_nested_keys
-
-IMG_TYPES: dict[str, ImageProps] = {
-    "COVER_LANDSCAPE": ImageProps(max_height=300),
-    "COVER_PORTRAIT": ImageProps(max_height=300),
-    "COVER_SQUARE": ImageProps(max_height=300),
-    "ICON": ImageProps(max_width=64, max_height=64),
-    "HERO": ImageProps(
-        max_width=1600,
-        min_height=480,
-        crop_height=480,
-        crop_width=1600
-    ),
-    "IMMERSIVE_LAYER_BACKDROP": ImageProps(
-        max_width=1600,
-        min_height=480,
-        crop_height=480,
-        crop_width=1600
-    ),
-    "LOGO_TRANSPARENT": ImageProps(
-        max_width=800,
-        max_height=240,
-        min_height=60
-    ),
-    "IMMERSIVE_LAYER_LOGO": ImageProps(
-        max_width=800,
-        max_height=240,
-        min_height=60
-    )
-}
+from utils.error_manager import ErrorManager
 
 
 class AppImage(BaseModel):
@@ -95,36 +68,10 @@ class AppImage(BaseModel):
         return val
 
 
-class AppImages(BaseModel):
+class AppImages(RootDictModel[str, AppImage | None]):
     """
     Model for a collection of application images.
-
-    Attributes:
-    - cover_landscape (AppImage | None): The cover landscape image.
-    - cover_portrait (AppImage | None): The cover portrait image.
-    - cover_square (AppImage | None): The cover square image.
-    - hero (AppImage | None): The hero image.
-    - iarc_icon (AppImage | None): The IARC icon image.
-    - icon (AppImage | None): The icon image.
-    - immersive_layer_backdrop (AppImage | None): The immersive layer
-        backdrop image.
-    - immersive_layer_logo (AppImage | None): The immersive layer logo image.
-    - logo_transparent (AppImage | None): The logo transparent image.
-
-    Methods:
-    - get_images: Gets a list of all non-None images.
-    - list_to_dict: Class method to convert a list of dictionaries to a
-        dictionary.
     """
-    cover_landscape: AppImage | None = None
-    cover_portrait: AppImage | None = None
-    cover_square: AppImage | None = None
-    hero: AppImage | None = None
-    iarc_icon: AppImage | None = None
-    icon: AppImage | None = None
-    immersive_layer_backdrop: AppImage | None = None
-    immersive_layer_logo: AppImage | None = None
-    logo_transparent: AppImage | None = None
 
     def get_images(self) -> list[AppImage]:
         """
@@ -134,14 +81,17 @@ class AppImages(BaseModel):
         - list[AppImage]: The list of non-None images.
         """
         images: list[AppImage] = []
-        for _, x in iter(self):
+        for x in self.values():
             if isinstance(x, AppImage):
                 images.append(x)
         return images
 
-    @model_validator(mode="before")
+    @field_validator("root", mode="before")
     @classmethod
-    def list_to_dict(cls, val: list[dict[str, Any]]) -> dict[str, Any]:
+    def _list_to_dict(
+        cls,
+        val: list[dict[str, Any]]
+    ) -> dict[str, AppImage | None]:
         """
         Class method to convert a list of dictionaries to a dictionary.
 
@@ -151,16 +101,80 @@ class AppImages(BaseModel):
         Returns:
         - dict[str, Any]: The converted dictionary.
         """
-        return {
-            x.lower(): {
-                'uri': i['uri'],
-                'props': IMG_TYPES.get(x),
-                'type': x.lower()
-            }
-            for i in val
-            if (x := i['image_type'].replace("APP_IMG_", ""))
-            and x in IMG_TYPES
+        base: dict[str, AppImage | None] = {
+            x: None
+            for x in AppConfig().images.model_fields
+            if AppConfig().images.include_image(x)
         }
+        base.update({
+            x.type: x
+            for y in val
+            if (x := cls._get_image_props(y)) is not None
+        })
+        return base
+
+    @classmethod
+    def _get_image_props(
+        cls,
+        val_dict: dict[str, str]
+    ) -> AppImage | None:
+        """
+        Get the application image properties based on the provided dictionary.
+
+        Args:
+        - val_dict (dict[str, str]): The dictionary containing image details.
+
+        Returns:
+        - AppImage | None: An instance of AppImage if properties are valid,
+            else None.
+        """
+        if not (image := cls._parse_image_type(val_dict)):
+            return None
+        if AppConfig().images.include_image(image):
+            return AppImage.model_validate({
+                'uri': val_dict['uri'],
+                'props': AppConfig().images.get_properties(image),
+                'type': image
+            })
+        if AppConfig().images.image_type_defined(image):
+            return None
+        error: str = ErrorManager().capture(
+            "ImageTypeNotFound",
+            "Getting config information for image type",
+            f"Image Type not defined in config: {image}",
+            {
+                "ImageType": image
+            }
+        )
+        logger: Logger = getLogger(__name__)
+        logger.warning(error)
+        return None
+
+    @classmethod
+    def _parse_image_type(cls, val_dict: dict[str, str]) -> str | None:
+        """
+        Parse the image type from the provided dictionary.
+
+        Args:
+        - val_dict (dict[str, str]): The dictionary containing image details.
+
+        Returns:
+        - str | None: The parsed image type if successful, else None.
+        """
+        try:
+            return val_dict['image_type'].replace("APP_IMG_", "").lower()
+        except TypeError as e:
+            error = ErrorManager().capture(
+                e,
+                "Getting image type from app response",
+                "Unable to parse image type string",
+                {
+                    "item": val_dict
+                }
+            )
+            logger: Logger = getLogger(__name__)
+            logger.warning(error)
+            return None
 
 
 class Translation(BaseModel):

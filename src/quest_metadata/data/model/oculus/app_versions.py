@@ -11,8 +11,7 @@ from typing import Any
 from pydantic import Field, field_validator
 
 from base.models import BaseModel, RootListModel
-
-BINARY_TYPE = "AndroidBinary"
+from config.app_config import AppConfig
 
 
 class AppVersion(BaseModel):
@@ -59,7 +58,7 @@ class AppVersions(RootListModel[AppVersion]):
         """
         def check_binary(item: dict[str, Any]) -> bool:
             return (
-                item['__typename'] == BINARY_TYPE and
+                item['__typename'] in AppConfig().include_binaries and
                 len(item['binary_release_channels']['nodes']) > 0
             )
 

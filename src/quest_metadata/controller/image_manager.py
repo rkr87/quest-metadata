@@ -7,33 +7,14 @@ Classes:
 """
 
 from io import BytesIO
-from typing import NamedTuple, final
+from typing import final
 
 from PIL.Image import Image
 from PIL.Image import open as open_image
 
 from base.classes import Singleton
+from config.app_config import ImageProps
 from utils.async_runner import AsyncRunner
-
-
-class ImageProps(NamedTuple):
-    """
-    NamedTuple representing properties for image manipulation.
-
-    Attributes:
-    - max_width (int | None): Maximum width of the image.
-    - max_height (int | None): Maximum height of the image.
-    - min_height (int | None): Minimum height of the image.
-    - min_width (int | None): Minimum width of the image.
-    - crop_height (int | None): Height for cropping the image.
-    - crop_width (int | None): Width for cropping the image.
-    """
-    max_width: int | None = None
-    max_height: int | None = None
-    min_height: int | None = None
-    min_width: int | None = None
-    crop_height: int | None = None
-    crop_width: int | None = None
 
 
 @final
