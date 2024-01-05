@@ -10,38 +10,51 @@ jobs:
     permissions: write-all
     runs-on: ubuntu-20.04
     steps:
-      - name: Increase swapfile
+      - name: Increase swapfile size
         run: |
           sudo swapoff -a
-          sudo fallocate -l 15G /swapfile
+          sudo fallocate -l 8G /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
           sudo swapon /swapfile
           sudo swapon --show
 
-      - name: en_US.UTF-8
+      - name: Set locale
         run: |
           sudo locale-gen en_US.UTF-8
           sudo update-locale LANG=en_US.UTF-8
 
-      - uses: actions/checkout@v4
+      - name: Checkout application files
+        uses: actions/checkout@v4
+        with:
+          ref: 'master'
 
-      - uses: actions/setup-python@v4
+      - name: Checkout previously scraped data
+        run: |
+          git fetch --depth=1 --no-tags --prune --no-recurse-submodules origin github/scraped-data-repo:github/scraped-data-repo
+          git checkout --progress --force -B github/scraped-data-repo origin/github/scraped-data-repo
+          git checkout master -- src
+          git checkout master -- .config
+
+      - name: Install python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-          
-      - name: install python packages
+
+      - name: Install python dependencies
         run: pip install -r .config/app/requirements.txt
-          
-      - name: execute script
+
+      - name: Execute script
         run: python src/quest_metadata/main.py -c .config/app/app_config.github.json
         continue-on-error: true
           
-      - name: commit files
+      - name: Commit scraped data
         if: always()
         run: |
+          rm -r src
+          rm -r .config
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add --all
-          git commit -am "update: github action"
+          git add .
+          git commit -am "github_action: update"
           git push
