@@ -1,0 +1,147 @@
+{
+    "logging_config": ".config/app/logging.conf",
+    "scrape_locale": "en_US",
+    "data_path": ".data",
+    "apps_filename": "_apps.json",
+    "resource_path": ".res",
+    "error_path": ".errors",
+    "error_log_retention": 7,
+    "include_binaries": [
+        "AndroidBinary"
+    ],
+    "images": {
+        "cover_landscape": {
+            "include": true,
+            "properties": {
+                "max_width": null,
+                "max_height": 300,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "cover_portrait": {
+            "include": true,
+            "properties": {
+                "max_width": null,
+                "max_height": 300,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "cover_square": {
+            "include": true,
+            "properties": {
+                "max_width": null,
+                "max_height": 300,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "hero": {
+            "include": true,
+            "properties": {
+                "max_width": 1600,
+                "max_height": null,
+                "min_height": 480,
+                "min_width": null,
+                "crop_height": 480,
+                "crop_width": 1600
+            }
+        },
+        "icon": {
+            "include": true,
+            "properties": {
+                "max_width": 64,
+                "max_height": 64,
+                "min_height": 64,
+                "min_width": 64,
+                "crop_height": 64,
+                "crop_width": 64
+            }
+        },
+        "immersive_layer_backdrop": {
+            "include": true,
+            "properties": {
+                "max_width": 1600,
+                "max_height": null,
+                "min_height": 480,
+                "min_width": null,
+                "crop_height": 480,
+                "crop_width": 1600
+            }
+        },
+        "immersive_layer_logo": {
+            "include": true,
+            "properties": {
+                "max_width": 800,
+                "max_height": 240,
+                "min_height": 60,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "logo_transparent": {
+            "include": true,
+            "properties": {
+                "max_width": 800,
+                "max_height": 240,
+                "min_height": 60,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "small_landscape": {
+            "include": false,
+            "properties": {
+                "max_width": null,
+                "max_height": null,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "cubemap_source": {
+            "include": false,
+            "properties": {
+                "max_width": null,
+                "max_height": null,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "immersive_layer_object_left": {
+            "include": false,
+            "properties": {
+                "max_width": null,
+                "max_height": null,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        },
+        "immersive_layer_object_right": {
+            "include": false,
+            "properties": {
+                "max_width": null,
+                "max_height": null,
+                "min_height": null,
+                "min_width": null,
+                "crop_height": null,
+                "crop_width": null
+            }
+        }
+    },
+    "max_threads": null
+}
