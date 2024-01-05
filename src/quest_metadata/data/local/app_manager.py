@@ -18,8 +18,6 @@ from data.model.local.apps import LocalApp, LocalApps
 from data.model.parsed.app_item import ParsedAppItem
 from utils.error_manager import ErrorManager
 
-APPS: str = f"{AppConfig().data_path}/_apps.json"
-
 
 @final
 class AppManager(Singleton):
@@ -53,6 +51,8 @@ class AppManager(Singleton):
     def __init__(self, exclusion_days: int = 7) -> None:
         super().__init__()
         self._logger.info("Initialising app manager")
+        config = AppConfig()
+        self._file: str = f"{config.data_path}/{config.apps_filename}"
         self._apps: LocalApps = self._load_from_file()
         self._exclusion_days: int = exclusion_days
 
@@ -208,7 +208,7 @@ class AppManager(Singleton):
         """
         Save the collection of local apps to a JSON file.
         """
-        await self._apps.save_json(APPS)
+        await self._apps.save_json(self._file)
 
     async def update(
         self,
@@ -241,7 +241,7 @@ class AppManager(Singleton):
         - LocalApps: The loaded collection of local apps.
         """
         try:
-            with open(APPS, encoding="utf8") as file:
+            with open(self._file, encoding="utf8") as file:
                 return LocalApps.model_validate_json(file.read())
         except (FileNotFoundError, ValidationError) as e:
             error: str = ErrorManager().capture(
