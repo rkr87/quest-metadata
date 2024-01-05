@@ -40,8 +40,7 @@ class BaseModel(PydanticBaseModel):
         - file_path (str): The path to the file where the JSON will be saved.
         """
         json_text: str = self.model_dump_json(
-            indent=4,
-            exclude_none=True
+            indent=4
         )
         async with aiofiles.open(file_path, 'w', encoding="utf-8") as file:
             await file.write(json_text)
