@@ -34,7 +34,7 @@ jobs:
         run: pip install -r .config/app/requirements.txt
           
       - name: execute script
-        run: python src/quest_metadata/main.py -c .config/app/github_actions.json
+        run: python src/quest_metadata/main.py -c .config/app/app_config.github.json
         continue-on-error: true
           
       - name: commit files
