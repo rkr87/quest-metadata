@@ -24,17 +24,16 @@ jobs:
           sudo locale-gen en_US.UTF-8
           sudo update-locale LANG=en_US.UTF-8
 
-      - name: Checkout application files
+      - name: Checkout previously scraped data
         uses: actions/checkout@v4
         with:
-          ref: 'master'
+          ref: 'github/scraped-data-repo'
 
-      - name: Checkout previously scraped data
+      - name: Checkout application files
         run: |
-          git fetch --depth=1 --no-tags --prune --no-recurse-submodules origin github/scraped-data-repo:github/scraped-data-repo
-          git checkout --progress --force -B github/scraped-data-repo origin/github/scraped-data-repo
-          git checkout master -- src
-          git checkout master -- .config
+          git fetch --depth=1 --no-tags --prune --no-recurse-submodules origin master
+          git restore --source=origin/master --worktree src
+          git restore --source=origin/master --worktree .config
 
       - name: Install python
         uses: actions/setup-python@v4
@@ -48,13 +47,36 @@ jobs:
         run: python src/quest_metadata/main.py -c .config/app/app_config.github.json
         continue-on-error: true
           
-      - name: Commit scraped data
+      - name: Prepare for commits
         if: always()
         run: |
-          rm -r src
-          rm -r .config
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
-          git commit -am "github_action: update"
+        continue-on-error: true
+
+      - name: Commit Errors
+        if: always()
+        run: |
+          git add errors
+          git diff-index --quiet HEAD || git commit -m 'github_action: update errors'
+        continue-on-error: true
+
+      - name: Commit Data
+        if: always()
+        run: |
+          git add data
+          git diff-index --quiet HEAD || git commit -m 'github_action: update data'
+        continue-on-error: true
+
+      - name: Commit Resources
+        if: always()
+        run: |
+          git add res
+          git diff-index --quiet HEAD || git commit -m 'github_action: update res'
+        continue-on-error: true
+
+      - name: Push commits
+        if: always()
+        run: |
           git push
+        continue-on-error: true
