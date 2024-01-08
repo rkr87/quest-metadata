@@ -8,7 +8,6 @@
 **Performance**
 - move images to google drive
 - implement multiprocessing/concurrency for image manipulation
-- only fetch full version history for new apps and additional ids (fetch released history for all apps)
 
 **Logging/Error Handling**
 - better timeit implementation
