@@ -82,9 +82,7 @@ class Updater(Singleton):
             self._app_manager.add(item)
 
         self._logger.info("Populating missing changelogs")
-        test = self._app_manager.get_needs_changelog().items()
-        print(len(test))
-        for package, app in test:
+        for package, app in self._app_manager.get_needs_changelog().items():
             if (log := await self._wrapper.get_app_changelog(app.id)) is None:
                 continue
             self._app_manager.add_changelog(package, log)
