@@ -15,6 +15,7 @@ from pydantic_core import ValidationError
 from base.classes import Singleton
 from config.app_config import AppConfig
 from data.model.local.apps import LocalApp, LocalApps
+from data.model.oculus.app_changelog import AppChangeLog
 from data.model.parsed.app_item import ParsedAppItem
 from utils.error_manager import ErrorManager
 
@@ -70,6 +71,21 @@ class AppManager(Singleton):
         if exclude_recently_updated:
             return self._filter_recently_updated_apps()
         return self._apps
+
+    def get_app_by_id(self, app_id: str) -> tuple[str, LocalApp] | None:
+        """Retrieve a local app by its unique identifier."""
+        for k, v in self._apps.items():
+            if v.id == app_id:
+                return k, v
+        return None
+
+    def get_needs_changelog(self) -> LocalApps:
+        """Get a collection of local apps that need a changelog update."""
+        output: LocalApps = LocalApps()
+        for key, app in self._apps.items():
+            if app.change_log is None:
+                output[key] = app
+        return output
 
     def _filter_recently_updated_apps(self) -> LocalApps:
         """
@@ -145,9 +161,21 @@ class AppManager(Singleton):
             additional_ids=[],
             app_name=parsed_item.name,
             added=datetime.now().isoformat(),
-            max_version_date=parsed_item.max_version_date
+            max_version_date=parsed_item.max_version_date,
+            max_version=parsed_item.max_version
         )
         self._apps[package] = app
+
+    def add_changelog(self, package: str, change_log: AppChangeLog) -> bool:
+        """
+        Add a changelog to a local app and return a boolean based on whether
+        the changelog was updated since last run.
+        """
+        self._apps[package].change_log = change_log.get_valid_changes()
+        latest: int = change_log.get_latest_version()
+        updated: bool = latest > self._apps[package].max_version
+        self._apps[package].max_version = latest
+        return updated
 
     def _update_existing_local_app(
         self,
@@ -165,7 +193,7 @@ class AppManager(Singleton):
         additional_ids: list[str] = local_app.additional_ids or []
         if parsed_item.id not in additional_ids:
             additional_ids.append(parsed_item.id)
-        if parsed_item.max_version_date >= local_app.max_version_date:
+        if parsed_item.max_version_date > local_app.max_version_date:
             self._update_app_details(local_app, parsed_item, additional_ids)
         self._update_additional_ids(local_app, additional_ids)
 
@@ -184,9 +212,12 @@ class AppManager(Singleton):
         - additional_ids (list[str]): The list of additional IDs.
         """
         local_app.max_version_date = parsed_item.max_version_date
+        local_app.max_version = parsed_item.max_version
         if local_app.id not in additional_ids:
             additional_ids.append(local_app.id)
-        local_app.id = parsed_item.id
+        if local_app.id != parsed_item.id:
+            local_app.change_log = None
+            local_app.id = parsed_item.id
 
     @staticmethod
     def _update_additional_ids(
