@@ -6,7 +6,10 @@ Classes:
 - LocalApps: Dictionary-based model for a collection of local applications.
 """
 
+from pydantic import Field
+
 from base.models import BaseModel, RootDictModel
+from data.model.oculus.app_changelog import AppChangeEntry
 
 
 class LocalApp(BaseModel):
@@ -33,7 +36,9 @@ class LocalApp(BaseModel):
     id: str
     additional_ids: list[str] = []
     app_name: str
+    max_version: int = 0
     max_version_date: int = 0
+    change_log: list[AppChangeEntry] | None = Field(default=None, exclude=True)
     added: str
     updated: str | None = None
     is_available: bool | None = None

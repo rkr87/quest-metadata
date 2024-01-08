@@ -23,6 +23,7 @@ from base.models import BaseModel
 from config.app_config import AppConfig
 from data.model.oculus.app import OculusApp
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
+from data.model.oculus.app_changelog import AppChangeLog
 from data.model.oculus.app_package import AppPackage
 from data.model.oculus.app_versions import AppVersions
 from data.model.oculus.store_section import StoreSection
@@ -341,6 +342,12 @@ class Wrapper(Singleton):
         payload = _Payload(doc_id=2885322071572384)
         payload.variables.application_id = app_id
         return await self._request(payload, AppVersions)
+
+    async def get_app_changelog(self, app_id: str) -> AppChangeLog | None:
+        """Get app changelog."""
+        payload = _Payload(doc_id=1586217024733717)
+        payload.variables.id = app_id
+        return await self._request(payload, AppChangeLog)
 
     async def get_version_package(
         self,

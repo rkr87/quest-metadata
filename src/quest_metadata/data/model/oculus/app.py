@@ -18,6 +18,7 @@ from pydantic import (AliasPath, Field, computed_field, field_validator,
 from base.models import BaseModel
 from data.model.oculus.app_additionals import (AppAdditionalDetails, AppImage,
                                                AppImages, Translation)
+from data.model.oculus.app_changelog import AppChangeEntry
 from utils.error_manager import ErrorManager
 
 
@@ -188,6 +189,7 @@ class Item(BaseModel):
     website: str = Field(validation_alias='website_url')
     app_images: AppImages = AppImages()
     translations: list[Translation] | None = None
+    changelog: list[AppChangeEntry] | None = None
     keywords: list[str] = []
     has_ads: bool = Field(validation_alias='has_in_app_ads')
     sensor_req: bool = Field(validation_alias='is_360_sensor_setup_required')

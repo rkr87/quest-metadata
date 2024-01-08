@@ -42,3 +42,11 @@ class ParsedAppItem(BaseModel):
         if self.versions is None or len(self.versions) == 0:
             return 0
         return max(i.created_date for i in self.versions.root)
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def max_version(self) -> int:
+        """Property to get the maximum version code among the versions."""
+        if self.versions is None or len(self.versions) == 0:
+            return 0
+        return max(i.code for i in self.versions.root)
