@@ -82,6 +82,32 @@
             "logo_transparent": "38982719_772703870992853_4430648575823299108_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1",
+                "change_log": "OculusIntegration_v50.0 으로 다운그레이드 (For Quest 1)"
+            },
+            {
+                "version": "1",
+                "change_log": "최소 Android API 수준 29\n목표 Android API 수준 32\nQuest 1 에서 동작 확인함."
+            },
+            {
+                "version": "0.5",
+                "change_log": "참조한 코드에 대해 라이센스 허가서 추가, 컨트롤러 버튼에 기능 이름 표시"
+            },
+            {
+                "version": "0.4",
+                "change_log": "Add Android Manifest File Read Write permission. \nWhen entering the save file name, the save location is displayed.\nIcon and Splash Image Changed."
+            },
+            {
+                "version": "0.3",
+                "change_log": "Because \"/storage/emulated/0/android/data/\" access is lost after firmware update.\nChanged measurement data storage location to \"/storage/emulated/0/Documents/\". "
+            },
+            {
+                "version": "0.2",
+                "change_log": "Changes\n1. Turn off the left laser when holding the menu board in the left hand\n2.Fixed a new point error when drawing an angle or a circle was canceled\n3. Show Spatial Control Points\n4.Fixed the problem that the continuous option appears in Korean when the system language is English\n5.Fixed an issue where the menu looked askew\n6. Added a function that visually informs the location of the spatial correction point"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

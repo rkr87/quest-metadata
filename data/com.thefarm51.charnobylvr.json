@@ -89,6 +89,52 @@
             "logo_transparent": "12331116_951160645011317_1168978171123466240_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.00",
+                "change_log": "- add close function to movies to ensure they are removed form memory at close/skip"
+            },
+            {
+                "version": "1.00",
+                "change_log": "removed permissions that are not allowed - Accounts info"
+            },
+            {
+                "version": "1.00",
+                "change_log": "removed permissions that are not allowed - Accounts info"
+            },
+            {
+                "version": "1.00",
+                "change_log": "-backbutton take you now to main menu and if it is in mainmenu then to OculusHome with OVRQuit comamnd\r\n\r\n,\r\nwalking widged showin if you can walk or not."
+            },
+            {
+                "version": "1.00",
+                "change_log": "-backbutton take you now to main menu and if it is in mainmenu then to OculusHome with OVRQuit comamnd\r\n\r\n,\r\nwalking widged showin if you can walk or not."
+            },
+            {
+                "version": "1.00",
+                "change_log": "- back button takes you to pausemenu , while in pause menu it takes you to oculus home,\r\n- some bug with fading on schoole level fixed,\r\n- added function to check if movie is ready  to avoid situation when movie is called to play but not yet ready to play\r\n-some colissions fixes on MoscowEye3d level.\r\n- fadeoff narrations, music, ambient"
+            },
+            {
+                "version": "1.00",
+                "change_log": "- back button takes you to pausemenu , while in pause menu it takes you to oculus home,\r\n- some bug with fading on schoole level fixed,\r\n- added function to check if movie is ready  to avoid situation when movie is called to play but not yet ready to play\r\n-some colissions fixes on MoscowEye3d level.\r\n- fadeoff narrations, music, ambient"
+            },
+            {
+                "version": "1.00",
+                "change_log": "- back button takes you to pausemenu , while in pause menu it takes you to oculus home,\r\n- some bug with fading on schoole level fixed,\r\n- added function to check if movie is ready  to avoid situation when movie is called to play but not yet ready to play\r\n-some colissions fixes on MoscowEye3d level.\r\n- fadeoff narrations, music, ambient"
+            },
+            {
+                "version": "1.00",
+                "change_log": "- back button takes you to pausemenu , while in pause menu it takes you to oculus home,\r\n- some bug with fading on schoole level fixed,\r\n- added function to check if movie is ready  to avoid situation when movie is called to play but not yet ready to play\r\n-some colissions fixes on MoscowEye3d level.\r\n- fadeoff narrations, music, ambient"
+            },
+            {
+                "version": "1.00",
+                "change_log": "Fixes:\r\n\r\n-now you can see which levels are walkable,\r\n\r\n-controls screen added in main menu,\r\n\r\n-fade in removed it caused white flashes,\r\n\r\n-distortion problems in the scenes that are cubemaps (non-navigatable) fixed,\r\n\r\n- song of Gienia added with Radio in school music room,\r\n\r\n-narrations in common places are now  played once with reset on app restart,\r\n\r\n- when teleporting from piano or cat, box now you return to your position from where you teleported,\r\n\r\n- crosshair completly removed\r\n\r\n-many minor fixes\r\n\r\n- waiting for movies to load to avoid play function to play movies that isn't ready to play,\r\n\r\n-click/tap/ onhoover  sounds added,"
+            },
+            {
+                "version": "1.02",
+                "change_log": "General build report:\r\n\r\nMany bugs fixed, some content added. This is now full content, except movies that will be streamed later after update.\r\nNow you can tap twice to go to menu, then back to main panorama or continue Journey. Fromtechnical perspective this build still have some issues but should pass submission.\r\nWe are working hard now to make it best before release date, but i need feedback as soon as possible and cooperate with your technical support that ChernobylVR will be ready to  launch at 29.11.\r\nI have also one question regarding next build. Would You like us to add Oculus logo during start?\r\n\r\n\r\n\r\nChanges:\r\n\r\n     - added new 3d level hospital operating room\r\n    -  added audio concurrency to deal with overlaping narration problem.\r\n    -  added menu and opening splash screens\r\n    -  fades between levels\r\n    -  added pause menu activated by double tap.\r\n    -  all maps are sepparate levels streaming independently.\r\n    -  added new interactive pickups in the control room and flat.\r\n    -  switched audio for Ivan's story in village and radio broadcast in flat.\r\n    -  added new narration for pause menu, new sarcofagus panorama.\r\n\r\nKnown issues/errors:\r\n    -  narration triggered by pressing play button overlaps narration triggered by  entering level.\r\n    -  narrations from  interactive objects overlap main location narration\r\n    - In main menu\r\n    - Sound fade outs during teleports/ they are now cut\r\n\r\nplanned features\r\n    -  credits.\r\n    -  video streaming, or adding them as dlc.\r\n    -  new content from the ceremony of sealing the new sarcofagus.\r\n    -  gamepad support"
+            }
+        ],
         "keywords": [
             "Chernobyl",
             "VR",

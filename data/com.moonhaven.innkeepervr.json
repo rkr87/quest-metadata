@@ -84,6 +84,84 @@
             "logo_transparent": "75210389_1369895236751551_8372576588405660590_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.4.6",
+                "change_log": "Christmas update: hotfixes"
+            },
+            {
+                "version": "0.4.5",
+                "change_log": "Christmas update: hotfixes"
+            },
+            {
+                "version": "0.4.4",
+                "change_log": "Christmas update"
+            },
+            {
+                "version": "0.4.3",
+                "change_log": "fix NPC don't fight in the first tavern. Stop spawn Halloween NPC"
+            },
+            {
+                "version": "0.4.2",
+                "change_log": "0.4.2 small hotfixes for Decor System"
+            },
+            {
+                "version": "0.4.1",
+                "change_log": "Patch 0.4.1: hotfixes for Decor system"
+            },
+            {
+                "version": "0.4.0",
+                "change_log": "Added Decor System\nRemastered Maps\nAdded new guests: halloween and special armored\nAdded new sound and visual effects"
+            },
+            {
+                "version": "0.3.0",
+                "change_log": "Added a new type of customers - guests who want to rent rooms for the night.\n\nYou can now find rentable rooms in the Warm Autumn Tavern!\n\nExtra game progress slots are here, and you can even delete them if needed.\n\nFixed the hand stuck that was causing some awkward situations.\n\nTweaked the lighting in the taverns (brighter vibes now).\n\nCustomers won't vanish anymore if you place them on tables or bars. They gracefully get down from the furniture.\n\nMoved around the bar order spots, so our waitress won't touch the barrel taps while taking orders.\n\n Solved the issue where visitors could fall through the floor and stopped spawning\n\nRevamped the doors and upgraded their physics for a smoother swing.\n\nFixed the hiccup where visitors were moonwalking towards the tavern exit\n\nVisitors can no longer leave mud on stairs"
+            },
+            {
+                "version": "0.2.7",
+                "change_log": "Increase Android API target level to 32"
+            },
+            {
+                "version": "0.2.6",
+                "change_log": "In-game Analytics added (FIX)"
+            },
+            {
+                "version": "0.2.5",
+                "change_log": "In-game Analytics added"
+            },
+            {
+                "version": "0.2.4",
+                "change_log": "Fixed a bug where the player's amount of money did not increase after collecting a money pouch\n Fixed material bug with black overlay when opening the menu\n Fixed a bug where when buying a barrel in the tutorial, the visitor would order soup instead of a drink again"
+            },
+            {
+                "version": "0.2.3",
+                "change_log": "Fixed a bug where the player's amount of money did not increase after collecting a money pouch\n\nFixed material bug with black overlay when opening the menu\n\nFixed a bug where when buying a barrel in the tutorial, the visitor would order soup instead of a drink again"
+            },
+            {
+                "version": "0.2.2",
+                "change_log": "New SPECIAL customer\nNew sound effects\nNew lobby and tavern background music\nNew music for a bard"
+            },
+            {
+                "version": "0.2.1",
+                "change_log": "HOT FIXES\n\nfixed bug with the left door in lobby (now it's always open)\n\nsome material changes (for devs)"
+            },
+            {
+                "version": "0.2.0",
+                "change_log": "HUGE UPDATE \n\nnew tavern\n\nhiring system\n\nthe ability to \"close\" the tavern through the menu (will be changed to a more interactive in the future)\n\nFixed a terrible bug that annoyed all of us: crashing out of the game when loading a level!"
+            },
+            {
+                "version": "0.1.6",
+                "change_log": "Added cleaning and a huge update on NPC optimization (so that nothing will prevent you from enjoying the game when the tavern is full)"
+            },
+            {
+                "version": "0.1.6",
+                "change_log": "Added fights between visitors (throwing out such customers increases reputation)\n\nPlayer no longer bounces when colliding with visitors\n\nFixed navigation for visitors\n\nFixed blinking when switching between animations\n\nFixed a bug where after a visitor vomited from a mixed drink, any next visitor left without an order in the same spot also vomited\n\nFixed a bug where grabbing a visitor starting to sit down could cause the game to crash"
+            },
+            {
+                "version": "0.1.5",
+                "change_log": "Purchased barrels are now saved\nFixed tavern lighting\nFixed color of sliders and scroll in the main menu\nReduced time for consuming a ruined drink by visitor\nPlayer start moved to storeroom\nAdded winter in the lobby\nFixed a bug that allowed more than one barrel to be installed in the same slot on the bar\nFixed a bug where a reputation decrease would play the sound of a reputation increase (but only when the player's reputation is 0)"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

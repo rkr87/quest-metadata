@@ -84,6 +84,16 @@
             "logo_transparent": "39035359_889732231632948_8248098419121025163_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2021.12.0b",
+                "change_log": "Minor bugfixes and adjustments"
+            },
+            {
+                "version": "2021.11.0b",
+                "change_log": "Physics now considers friction between ball and racket to enhance topspin and slice simulation\n\nUpgraded physics simulation rate from 60 to 90Hz\n\nAdded more precise elliptical racket collider\n\nIntroduced new service toss mode & visualization\n\nAdjusted various timings for a better match and exercise experience\n\nOptimized exercises, exercise rating & result panel\n\nDynamic banners and court advertisements\n\nAutomatic Ball-in-hand placement in match mode\n\nChanged court design in MirrorPlay to single player lines only\n\nEnhanced automatic avatar scaling\n\nImproved racket collision detection during fast controller movements\n\nPerformance optimizations\n\nFixed occasional auto teleport issues"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

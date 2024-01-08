@@ -82,6 +82,64 @@
             "logo_transparent": "38974698_144818904265403_6757747079553636783_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "3.2.0",
+                "change_log": "Gameplay Optimization\nStutters fixes:\nfreezes when selecting a map\nfreezes when finishing a map\nfreezes when time seeking in the preview\nfreezes when changing a setting"
+            },
+            {
+                "version": "3.1.8",
+                "change_log": "Fixed the issue with emotes only being visible in 1 eye during multiplayer.\nFixed emotes spawn in multiplayer during gameplay.\nNew feature: during multiplayer, players can now select the ready status only once and it will stay until they manually change.\nUpgrade the version of Unity to 2021.\nUpdated Bhaptics SDK.\nBug fixing for multiple minor issues."
+            },
+            {
+                "version": "3.1.1",
+                "change_log": "- Fix pointer in multiplayer"
+            },
+            {
+                "version": "3.0.8",
+                "change_log": "Song difficulty selection will now remember & pick your preferred difficulty\nMap preview will remember your last preview time when changing song difficulty\nPractice mode added\nMultiplayer: N of people in the same room is increased to 20\nMultiplayer: New UI slot\nMultiplayer: added Chat and Emote system\nNew advanced option: Sync notes & environment speed\nFixed \"Draeden\" map on Expert difficulty\nFixed and updated preview of the map\nUpdated Halloween Valley and Spooktober environments\nFixed some achievements & achievement counters\nFixed tutorial icons\nAdded missing translation on result screen"
+            },
+            {
+                "version": "3.0.5",
+                "change_log": "- More community songs\n- New Halloween Environment \n- New DLC \"Energy\""
+            },
+            {
+                "version": "3.0.3",
+                "change_log": "Implemented new Halloween event lobby \nFixed issue with Korean font\nFixed bug with mirror modifier not changing walls\nFixed issue with leaderboard and music preview on remote maps\nFixed issue with modifiers not updating difficulty number"
+            },
+            {
+                "version": "3.0.0",
+                "change_log": "Version 3.0.0\n\n- Fix favorites not properly saving/loading\n- Fix keyboard contrast\n- Add missing translations for Chinese/Korean\n- Minor bug fixes"
+            },
+            {
+                "version": "2.9.8",
+                "change_log": "Quest: BHaptics support!\n\nUI update:\n- Background color: UI color update for better contrast/readability\n- Song filters update: the filters will now stay at the top of the song list\n- Delete Button: added a delete button for community/custom packs\n- Favorites: Added the new favorite system and the basics/foundation for the upcoming playlist system\n- Randomization: added the random/invert sorting button for the songs\n- Color schema: the previously downloaded map will appear grey in Download Community tab\n- Added back the achievement unlocked UI & particles\n- Difficulty Names: the difficulty name of songs will be now visible when you hover over the difficulty number\n- Fixed the missing translations in the UI & hitscores\n\nGame Update:\n- Calibration: fixed the game rotating your VR calibration\n- Fixed the visual bug in the first transition screen\n- Fixed multiplayer result screen issue\n- Fixed mute option for the background audio in the lobby\n- Fixed pause menu being hard to read\n- Fixed the laser pointer precision\nCommunity maps:\n- Fixed some community maps not downloading"
+            },
+            {
+                "version": "2.9.6",
+                "change_log": "BoomBox Full Remake:\n\nNew Lobby Environment\nNew UI\nNew Features\nPerformance Improvement\nAll systems polished and re-worked"
+            },
+            {
+                "version": "2.5.3",
+                "change_log": "- Fix bugs in WTB"
+            },
+            {
+                "version": "2.4.9",
+                "change_log": "Version 2.4.9\n- Fix some bugs related to achievements"
+            },
+            {
+                "version": "2.4.7",
+                "change_log": "Added Semi Automatic tool for Tournament Organizarion (WTB!)"
+            },
+            {
+                "version": "2.4.6",
+                "change_log": "- UI update - to soften edges\n- Minor bug fixes"
+            },
+            {
+                "version": "2.4.5",
+                "change_log": "- Added new environment - Lunar New Year\n- Patched environments that were shorter than the duration of the song\n- Community Maps Update - Now all community maps are correctly displayed\nLobby changes:\n- Drum Room has been replaced by Tournament Room (feature is coming soon)"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

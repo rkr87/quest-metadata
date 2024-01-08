@@ -83,6 +83,32 @@
             "logo_transparent": "38982696_851408789051762_3549800678386109793_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Removed the click sound from the coming soon menu options.\nMoved back a bit the main menu so it's easier to see all the options.\nIncreased the size of the home link so it's easier to click"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Removed unnecesary permissions and fixed the low performance of the main menu."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Modified the application to download the movies from CloudFront and lots of small fixes and improvements.\n\nandroid.permission.READ_EXTERNAL_STORAGE\nandroid.permission.READ_MEDIA_AUDIO\nandroid.permission.READ_MEDIA_VIDEO\nandroid.permission.READ_MEDIA_IMAGES\nandroid.permission.ACCESS_MEDIA_LOCATION\nandroid.permission.WRITE_EXTERNAL_STORAGE\nandroid.permission.INTERNET\nandroid.permission.RECORD_AUDIO\nandroid.permission.MODIFY_AUDIO_SETTINGS\n\nThe application downloads movie files from the internet and stores them in external storage.\nThe SDK is adding permissions that we don't need, like for example the read and access media and record audio permissions.\nNot sure if we need the option to modify audio settings.\nLooking for a way to remove the android.permission.RECORD_AUDIO entry.\nI've read that I only need to remove a class from the SDK but I don't understand why I need to do that."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Modified the application to download the movies from CloudFront and lots of small fixes and improvements.\n\nandroid.permission.READ_EXTERNAL_STORAGE\nandroid.permission.READ_MEDIA_AUDIO\nandroid.permission.READ_MEDIA_VIDEO\nandroid.permission.READ_MEDIA_IMAGES\nandroid.permission.ACCESS_MEDIA_LOCATION\nandroid.permission.WRITE_EXTERNAL_STORAGE\nandroid.permission.INTERNET\nandroid.permission.RECORD_AUDIO\nandroid.permission.MODIFY_AUDIO_SETTINGS\n\nThe application downloads movie files from the internet and stores them in external storage.\nThe SDK is adding permissions that we don't need, like fore example the read and access media and record audio permissions.\nNot sure if we need the option to modify audio settings.\nLooking for a way to remove the android.permission.RECORD_AUDIO entry.\nI've read that I only need to remove a class from the SDK..."
+            },
+            {
+                "version": "1.0",
+                "change_log": "First alpha build of the application"
+            },
+            {
+                "version": "1.0",
+                "change_log": "First alpha build of the application"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

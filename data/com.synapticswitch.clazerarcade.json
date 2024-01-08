@@ -81,6 +81,24 @@
             "logo_transparent": "11162676_1236326519809513_8223712411526365184_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Fix for Total Score display on the leaderboard"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Fixed short and long back button functionality."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Removed development testing features / Code cleanup for publish \r\n\r\n---------------------------------------------------------------------------------------------------------------\r\n- Fixed shotgun reloading mechanic / Automatically reloads after both shells have been used\r\n - Updated shotguns to render in ghost mode by default \r\n - Fixed gun pickup location highlighting \r\n - Fixed back button functionality - A short Back button press now calls Pull\r\n - Misc bug fixes and polish"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Adding back gamepad input detection for GearVR build. \r\n\r\nFixed laser pointer getting stuck on UI after reloading."
+            }
+        ],
         "keywords": [
             "skeet",
             "shooter",

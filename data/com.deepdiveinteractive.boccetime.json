@@ -85,6 +85,76 @@
             "logo_transparent": "39003245_556320269054478_5099793380527546755_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.1",
+                "change_log": "Added support for up to 4 teams. Added match settings such as bonus points for ending a round in contact with the pallino, changing how turn order is handled, and the ability to disable bounds enforcement--allowing players to throw from anywhere and everything to be considered in bounds. Changed the half pipe ramp to allow balls to roll under the central beam."
+            },
+            {
+                "version": "1.23.2",
+                "change_log": "Expanded multiplayer support up to 8 players. Improved discord/quick match functionality."
+            },
+            {
+                "version": "1.23.1",
+                "change_log": "Expanded multiplayer support up to 8 players. Improved discord/quick match functionality."
+            },
+            {
+                "version": "1.23.1",
+                "change_log": "Expanded multiplayer support up to 8 players. Improved discord/quick match functionality."
+            },
+            {
+                "version": "1.23",
+                "change_log": "Expanded multiplayer support up to 8 players."
+            },
+            {
+                "version": "1.22",
+                "change_log": "Player avatars have been added and the UI has been overhauled to allow for multiple new options and community management. Some small physics changes and a change to the propeller court have also been made. Made it easier to apply backspin. Changed the way some collisions are handled.  Corrected a bug that prevented the ball from changing when stepping over the foul line."
+            },
+            {
+                "version": "1.21",
+                "change_log": "Player avatars have been added and the UI has been overhauled to allow for multiple new options and community management. Some small physics changes and a change to the propeller court have also been made. Made it easier to apply backspin. Changed the way some collisions are handled.  Corrected a bug that prevented the ball from changing when stepping over the foul line."
+            },
+            {
+                "version": "1.2",
+                "change_log": "Made it easier to apply backspin. Changed the way some collisions are handled. Player avatars have been added and the UI has been overhauled to allow for multiple new options and community management. Some small physics changes and a change to the propeller court have also been made."
+            },
+            {
+                "version": "1.12",
+                "change_log": "Made some subtle changes to the propeller court on Serafin Pier. The crossbar under the table is now gone and the table has been made slightly shorter and narrower."
+            },
+            {
+                "version": "1.11",
+                "change_log": "Added a second park, Serafin Pier with new courts and unlockable balls. Improved the physics in many ways. Gave Botty a makeover and generally improved his AI. Changed player voice audio to no longer scale volume with distance. Other miscellaneous tweaks and fixes."
+            },
+            {
+                "version": "1.1",
+                "change_log": "Added a second park, Serafin Pier with new courts and unlockable balls. Improved the physics in many ways. Gave Botty a makeover and generally improved his AI. Changed player voice audio to no longer scale volume with distance. Other miscellaneous tweaks and fixes."
+            },
+            {
+                "version": "1.0.32",
+                "change_log": "Lowered the volume of the fountain audio, added a notification if your microphone is inaccessible due to permission settings and tweaked the pallino radius indicator to better reflect ties."
+            },
+            {
+                "version": "1.0.31",
+                "change_log": "Lowered the volume of the fountain audio, added a notification if your microphone is inaccessible due to permission settings and tweaked the pallino radius indicator to better reflect ties."
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "You can now enter queue for a quick match and play against the AI while you wait! Also made some tweaks to notifications and certain visual effects not syncing up sporadically."
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "Improved Botty's AI to make him significantly less likely to throw the ball out of bounds, especially on higher difficulties. Improved the functionality of moving to/from the pallino and fixed a small bug that could declare the wrong team the winner if both teams were over the max score."
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "Added an option to change the default max score in the main settings. Added a max score indicator to the scoreboard. Fixed some small bugs. Changed the nearest ball indicator when a round ends to always show the distance to the loser's nearest ball."
+            },
+            {
+                "version": "0.9",
+                "change_log": "Updated the controller diagrams to reflect one handed mode and swapped throw button settings. Added the controller diagram/gameplay rules to the menu area while in game."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

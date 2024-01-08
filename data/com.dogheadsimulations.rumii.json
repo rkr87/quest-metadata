@@ -84,6 +84,16 @@
             "logo_transparent": "12602096_2024712187746522_556079822518878208_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.05.0",
+                "change_log": "- YouTube widget has been updated to be more stable than previous versions of rumii\n- The utility belt for VR has been moved away from the player, making it easier to access\n- Scene transitions (moving from one room to another) now use fade in/fade out logic in VR to eliminate a disorienting effect when moving the HMD while transitioning between scenes\n- Rumii chat menu can now be opened/closed via the button toggle on the Utility Belt\n- Scrubbing through videos loaded from the Video Player & YouTube widgets no longer cause desync between audio and video\nRoom mode preferences are now saved correctly\n"
+            },
+            {
+                "version": "1.92",
+                "change_log": "RC for Oculus Release"
+            }
+        ],
         "keywords": [
             "education",
             "collaboration",

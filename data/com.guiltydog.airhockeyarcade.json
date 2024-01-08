@@ -81,6 +81,28 @@
             "logo_transparent": "38974469_880197219443230_1321696404664901258_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.6",
+                "change_log": "Invite button will turn grey if you invite a Friend to your game.  The invite will timeout after 60 seconds, so you will have to invite them again.\nI fixed the paddle collision with the sidewalls of the Table and now the paddle should slide along the table edge instead of sticking.\n\nI simplified some of the networking code and as a test tried something a bit radical which seems to improve things over a LAN but may not be as good over a wider area. It's really just a test."
+            },
+            {
+                "version": "1.5",
+                "change_log": "Added experimental support for multiplayer.  It's likely to only work correctly on a very fast network (local) and there are definitely issues that need resolving."
+            },
+            {
+                "version": "1.4",
+                "change_log": "Added a slider to adjust the height of the table by 5cm."
+            },
+            {
+                "version": "1.3",
+                "change_log": "Fixed \"unusual distortion\" issue that was caused by updating the textureSwapchainIndex between submitting eye rendertargets."
+            },
+            {
+                "version": "1.2",
+                "change_log": "Ability to change eye buffer size or FFR level so the player can choose the settings that work best for them."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

@@ -83,6 +83,40 @@
             "logo_transparent": "38974671_1352281355319229_7947445780105876927_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "6.0",
+                "change_log": "Welcome to Arcade v6!\n\n\n\nHappy to bring you a new game: Rocs\n\n\n\nNow it's a total of 6 games!\n\n\n\nHave Fun\n\nNeoPunk"
+            },
+            {
+                "version": "5.2",
+                "change_log": "Hello Folks!\nHere a new version of Arcade!\n\nWhat's new?\nMainly Theme & Mailbox\n\nTheme: variations of a game (ex. levels)\nIt's a start, but the concept will improve over time.\nFor the moment, it's 2 additionnal themes for Match: Christmas & Emoji!\n\nMailbox: a way to give you some infos. Kindo of messages repository.\n\nEnjoy!\n\nNeoPunk!"
+            },
+            {
+                "version": "5.1",
+                "change_log": "Hello Folk!\n\nHello people !\n\nSince I don't know if I will have time to release a new major update before the end of the year, I decided to offer you a very small update to improve your experience!\n\nI guess some people have been waiting for it, and many (like me) will appreciate it!\n\nNow when you pause the game, you have the option to abort and immediately replay without going through the menu again.\n\nVery cool for Match games  :-)\n\nIn addition, in the event of a game over, the return to the menu is much faster, allowing you to replay very quickly.\n\nLet me know what to you think there: www.neopunk.xyz"
+            },
+            {
+                "version": "5.0",
+                "change_log": "Welcome to Match the new game!\n\nMy next regular game will take some months to code, but I wanted to release something before the end of the year.\nSo I here is Match, the litle sister of Blocks.\n\nUnlike other games in Arcade, Match is a blitz game.\nIt means that whatever the level of difficulty, it should not last more than 3 minutes.\n\nSo it's a good way to test reflexes and synchronization!\nAnd It's addictive...\n\nFind the details and rules here:\nhttps://neopunk.xyz/index.php?page=Games&games_detail=Match"
+            },
+            {
+                "version": "4.0",
+                "change_log": "Arcade V4.0!\n\nNew game released : Galactics!\n\nHave Fun!\n\nNeoPunk."
+            },
+            {
+                "version": "3.1",
+                "change_log": "New\n*****\n- As requested, you can now adjust the explosion effect via the 'options' page.\n- Game and difficulty are now persisted to disk, so when you leave the game and come back, they are selected as you left them.\n\nFixed\n******\n- Haptics\n- Sliders in options\n- Some misalignments in the options\n\nOther\n******\n- Refactoring to prepare the next games (Galactics & Match)\n- Adjustment of the content of the website (www.neopunk.xyz)"
+            },
+            {
+                "version": "3.0",
+                "change_log": "Hello folks!\n\nThis is the version 3.0 of Arcade.\n\nHaving received many positive comments and some ideas for improvements, I decided to delay (few weeks) the release of the next game: Blended.\n\nSo I focused my development on improving the user experience, making some major changes:\n* Simplified general behavior (fewer windows)\n* Added leaderboard (scores are shared :-))\n* Fixed a probable bug: the game was intended to run at 72 Hz only. I corrected the code to support any frequency\n* Displayed in real time the frequency in the option menu (before it was a fixed 72 Hz value)\n* Standardized access to the OPTION menu (accessible with the 'menu' button on the left joystick instead of A or X buttons)\n* Removed the RULES button (how to play can be shared through this page)\n* A few improvements here and there\n\nNeoPunk"
+            },
+            {
+                "version": "1.0",
+                "change_log": "First release of Arcade!"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

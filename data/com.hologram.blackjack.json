@@ -82,6 +82,24 @@
             "logo_transparent": "12138842_1250177538386083_1266047769202655232_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.5",
+                "change_log": "+ Adjusted the camera position and orientation\r\n+ Adjusted the scene lighting\r\n+ Adjusted the graphic settings to be better\r\n+ Head and eye tracking to follow player\r\n+ Eye blinks and nuances\r\n+ Added\"security\" animation and VO when game ends\r\n+ Added game over VO and sound FX\r\n+ Fixed a bug where dealer was announcing a bust on soft cards\r\n+ Fixed a bug where dealer was announcing a false blackjack\r\n+ Fixed a bug where split was working only intermittently\r\n+ Fixed a bug where the dealer would simply stop dealing\r\n+ Fixed a bug where the dealer would say \"busted\" when it wasn't a bust.\r\n+ Fixed a bug where the character wasn't being paid out properly for winning\r\n+ Fixed a bug where the music would stop after the first loop\r\n+ Various other minor fixes and optimisations"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Initial Version"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "Initial Version"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "blackjack",
             "21",

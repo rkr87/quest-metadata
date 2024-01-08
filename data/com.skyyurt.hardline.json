@@ -86,6 +86,44 @@
             "logo_transparent": "57569434_1323047195277251_2841487898863416892_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.6.0",
+                "change_log": "Update 8 is now Live!\n\nUpdate log:\n* Added Shotgun: 590A1\n* Added Glock G22\n* Added Knife and stealth takedowns\n* Added the ability to kick in doors and bad guys (press right joystick to kick)\n* Added Riot shield (unlockable after unlocking kevlar lvl 4)\n* Added Voice for when the player gets hit\n* Added setting for swapping left and right controls\n* Enemy might not die, but slowly bleed out now. You can either leave them be or put them out of their misery."
+            },
+            {
+                "version": "0.5.2",
+                "change_log": "Hotfix v0.5.2\nThis update adds some fixes and adds some extra settings to play with.\n\nFull Update log: \n\n* Fixed issue with player arms frequently disappearing for a few frames.\n* Fixed issue with bad guys disappearing when the player got too close to them while they were dead or unconscious.\n* Added icons for all unlockables in the level up screen.\n* Held up bad guys won't begin shooting immediately after taking their hands down when not in the same room as the player. They'll instead investigate where the player went.\n* Added settings option for enabling and choosing which button to use for grabbing magazine from weapon socket.\n* Made sure correct unlocked kevlar is shown on player at spawn.\n* Fixed issue with save file increasing in size.\n* Cleared blood on floor generation.\n* Optimized some of the rooms.\n* Other minor bug fixes.\n\nJoin Discord and let's discuss new features and issues:\nhttps://discord.com/invite/uCm6d3HDxq"
+            },
+            {
+                "version": "0.5.1",
+                "change_log": "This update adds some fixes for the enemy AI and player weapons.\n\nFull Update log: \n\n- The enemy can't see the player anymore through walls.\n- The enemy will now investigate last seen position, if the player has been gone for too long.\n- The enemy will communicate with their buddy to conduct the investigation and other tasks.\n- The enemy might try to flank you, if you kill too many at one spot.\n- Increased velocity of MK18 and AK47\n- Disabled the ability to grab inserted magazines from handguns. You'll need to tap X or A to drop the magazines. Rifles still allow magazine grab."
+            },
+            {
+                "version": "0.5.0",
+                "change_log": "* Added various new weapons, including taser.\n* Added stun grenade and smoke grenade.\n* Added loadout system. You can now choose which weapons you want to use during your run.\n* Added more advanced gore.\n* Added most requested settings:\n     - You can now select primary hand\n     - You can now disable turning or make it snap/smooth turning\n     - You can select whether you want to use your trigger og grip to cock your weapon\n* Added most requested modifiers\n     - You can set number of floors. Default set to 50.\n     - You can select how accurate the enemies shoot. Less accurate less xp, more accurate more xp\n* Increased recoil on all weapons\n* Boss battle now gives XP depending on number of floors cleared beforehand.\n* Added restart button on Game Over and Game Complete popups\n* Added Saving system\n     - The game now saves automatically on each cleared floor\n     - Equipment is saved. You will spawn with the equipped weapons next time you start the game\n     - Unlocked weapons are saved.\n     - current XP, current level is saved.\n     - current floor number is saved. You can exit the game and return to start from the floor you last reached.\n* Added Statistics\n* Fixed issue with the game getting stuck in the elevator, where floor number kept increasing."
+            },
+            {
+                "version": "0.4.1",
+                "change_log": "It is now possible to handcuff enemies. Handcuffed enemies will count as neutralized and will give extra XP."
+            },
+            {
+                "version": "0.3.3",
+                "change_log": "Fixed issue regarding final boss not being reachable"
+            },
+            {
+                "version": "0.3.1",
+                "change_log": "1) The Player can now press B or Y to yell out commands to the enemy. The enemy has a 75% chance of complying. \n2) Bullets now fly faster and don't glitch through walls. \n3) Adjusted rifle grip rotation to make it more pleasant to hold. \n4) Reduced the time it takes the enemy to begin their investigation, after the player disappear. \n5) few other minor bug fixes."
+            },
+            {
+                "version": "0.2.3",
+                "change_log": "The enemy AI should be more aggressive now, investigating sounds, talking with eachother and such.\nAdjusted the rotation offset of the controller while holding the handgun to make it more pleasant."
+            },
+            {
+                "version": "0.2.2",
+                "change_log": "Optimized the weapons system and added in new Voice lines for the hostages"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

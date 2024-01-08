@@ -79,7 +79,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1820
+                "votes": 1821
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -106,6 +106,20 @@
             "logo_transparent": "39003260_622760178350904_9067154284747534645_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.1.183083 (Release_1.3.1)",
+                "change_log": "1.3.1 Hotfix for issue where the game would crash in some regions that use commas (vs periods) for some numbers.\n\nHere's what you will find in the Two-Handed Weapons Update (Version 1.3)...\n\n+ Three new two-handed weapons: Fate’s End, Cold Iron Greataxe, and Captain’s Warhammer\n+ Subtitles for VO with accompanying options in the Settings menu\n+ Localization of UI, game text, and VO subtitles for multiple additional languages: French, Italian, German, Spanish, Chinese Traditional, Chinese Simplified, Korean, and Japanese\n+ Language select in FTUE and settings menu\n+ Smooth turning option which includes 1) a settings option to toggle snap turning and smooth turning and 2) a settings slider to control smooth turn speed\n+ Seven new achievements and an update to the existing achievements to account for new content\n+ Credits for localization and two-handed weapon features\n+ Additional generalized analytics for localization and two-handed weapon usage"
+            },
+            {
+                "version": "1.3.0.182022 (Release_1.3.0)",
+                "change_log": "Here's what you will find in the Two-Handed Weapons Update (Version 1.3)...\n\n+ Three new two-handed weapons: Fate’s End, Cold Iron Greataxe, and Captain’s Warhammer\n+ Subtitles for VO with accompanying options in the Settings menu\n+ Localization of UI, game text, and VO subtitles for multiple additional languages: French, Italian, German, Spanish, Chinese Traditional, Chinese Simplified, Korean, and Japanese\n+ Language select in FTUE and settings menu\n+ Smooth turning option which includes 1) a settings option to toggle snap turning and smooth turning and 2) a settings slider to control smooth turn speed\n+ Seven new achievements and an update to the existing achievements to account for new content\n+ Credits for localization and two-handed weapon features\n+ Additional generalized analytics for localization and two-handed weapon usage"
+            },
+            {
+                "version": "1.2.0.174045 (Release_1.2.0)",
+                "change_log": "The primary goal of this update is to bring various platforms to a synchronized codebase.\n\nNotable Changes\n- Quest version of the game now has all changes/fixes from the 1.1 PC Launch:\n-- Dynamic Range on Enemy Lunge Attacks\n-- Enemy Strafing Behavior\n-- Screen Fade Optimizations\n\nBug Fixes\n- Added a more verbose error screen for when the game runs out of Disk Space\n- Fixed a variety of issues caused by the player being able to Dash before the level is ready\n- Better fix for the \"Unlock 12 Weapons\" and \"Upgrade 12 Weapons to X\" achievements not unlocking immediately / at the right time\n- Fixed an issue where Left-Handed mode would show the wrong grip image in the tutorial\n- Fixed a crash caused by Projectiles being destroyed\n- Fixed a memory leak that could introduce issues after long play sessions\n- Fixed an animation issue for the Battle Tips on the Cashout screen\n- Small audio adjustments (audio popping is still a known issue)\n- Fixed an issue with the Left Eye rendering oddly for one frame when bringing up the Weapon Inspection UI "
+            }
+        ],
         "keywords": [
             "hacknslash",
             "swordfighting",
@@ -116,8 +130,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 2189,
-        "rating": 4.695751,
+        "votes": 2190,
+        "rating": 4.69589,
         "weighted_rating": 4.66,
         "is_available": true,
         "is_free": false

@@ -82,6 +82,32 @@
             "logo_transparent": "38982670_435621134236442_3295762400714368827_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.6.3",
+                "change_log": "\"Cache system for downloaded models is fully working. \n\nAdded information of number of models available for current account. \n\nIncreased max. numbers of faces to 10k. \n\nAdded warning for the user when too many requests are done to Sketchfab’s server. \n\nError management for some faulty models has been improved."
+            },
+            {
+                "version": "0.6.2",
+                "change_log": "Improved graphics performance, minor UI adjustments. Updated Terms&Conditions. Sketchfab still in Alpha stage"
+            },
+            {
+                "version": "0.6.2",
+                "change_log": "“Improved"
+            },
+            {
+                "version": "0.6.1",
+                "change_log": "New Features:\n- Beta access to Sketchfab library.\n\nImprovements/fixes:\n- Improved graphics.\n\nKnown Issues:\n- There is a shader issue with the local library; sometimes assets show behind the Library panel.\n- The Collision setting currently acts only partially on the colliders of an asset. It may happen that an object without collision activated still triggers collisions.\n- Sketchfab: when the limit of downloads (50) has been reached the App loses all connection to Sketchfab (even changing accounts displays the same error).\n- Sketchfab: the cache of downloaded assets does not always retrieve them properly if connection was lost during a session.\n- Sketchfab: sometimes after adding a model from sketchfab, then closing the library, the model disappears. Usually the model is still in the memory but not visible, either go to Play and back to Edit, or kill the App and open it again; you should be able to see your model again. To avoid this, make sure you wait until the preview of the model has loaded AGAIN before selecting another asset or closing the library.\n"
+            },
+            {
+                "version": "0.6",
+                "change_log": "WARNING: Google Poly Library is not supported anymore.\n\nNew Features\nNew Local Library with higher resolution models and a few visual effects.\nNew In-App tutorials to onboard you, explaining the basic functions.\nA low performance indicator shows up when the frame rate drops helping you optimize the assets in your scene.\nEnvironments have been updated and three new ones are available.\nNew demo scenes are available.\n\nImprovements/fixes\nA placeholder shows when an asset is missing (if not available in the Library anymore) instead of having the scene not working.\nFixed Camera orientation difference between Play and Edit modes.\nFixed collision issue when going to Play Mode (this was causing collisions between objects inside others).\n\nKnown Issues\nThere is a shader issue with the local library; sometimes assets show behind the Library panel.\nThe Collision setting currently acts only partially on the colliders of an asset. It may happen that an object without collision activated still triggers collisions.\n"
+            },
+            {
+                "version": "0.5.1",
+                "change_log": "Zoe VR - version 0.5.1"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

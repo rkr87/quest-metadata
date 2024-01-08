@@ -80,6 +80,56 @@
             "logo_transparent": "38982557_859805275006581_2662032428056985060_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.00.96",
+                "change_log": "New\n\n* Firefly now has a round timer\n    Whichever condition is met first ends the game: if you don't catch any fireflies for a while, the firefly timer will end the game. If you continue catching fireflies and there are no more left, the game will end. If you continue catching and the round timer runs out, the game ends.\n* Added indicators if user hasn’t seen a firefly for a while\n\nImprovements\n\n* Improved arm length measurement: more consistent between sessions.\n* Prescribed points now reach at the far end of your arms (sometimes beyond)\n* Tracking point is now consistent across games and is centered in the palm\n* Improved how points are selected when spawning fireflies. We now prioritize points that have picked the least amount of time\n* Firefly finale panel no longer shows % of points.\n\nFixes\n\n* Fixed issue with how dynamic difficulty worked in Space Gunner\n* Fixed bug that would incorrectly show “No Internet” error message\n* Fixed bug where user could touch a point with a firefly but the firefly would not be caught\n* Fixed bug that would end Space Gunner before it starts due to slow internet"
+            },
+            {
+                "version": "1.00.94",
+                "change_log": "Minor bug fixes"
+            },
+            {
+                "version": "1.00.82",
+                "change_log": "* Updated to Unity’s Universal Rendering Pipeline, an improved framework that impacts how visual information is conveyed within Reach experiences.\n* Various bug fixes and enhancements, including: high score display bug in space gunner; Reach Assessment shows congratulations screen at the incorrect time; text crispness on dialogue displays; dialogue display backdrops are now curved."
+            },
+            {
+                "version": "1.00.78",
+                "change_log": "NOTE: With this version, Quest 1 devices are no longer supported\n\n* Major Unity version upgrade to 2022.3.1f1\n* Upgraded to XR Interaction Toolkit from Unity, a system for handling user interactions in virtual reality\n* Upgraded to XR Plugin Management System from Unity for plug-in lifecycle management\n* Fixed various issues with tutorial voiceovers and text\n* TextMeshPro updates to improve text rendering across application UI"
+            },
+            {
+                "version": "1.00.70",
+                "change_log": "Fixed a bug that prevented entering email in the Dashboard signup field."
+            },
+            {
+                "version": "1.00.69",
+                "change_log": "August 2023 Release Notes:\nHello, Reach users! Our summer 2023 release includes quite a few new features and improvements:\n•\tEasy Dashboard Signup - Enter your email to receive a signup link for the Reach Dashboard, where you can view your shoulder health reports detailing your volume, velocity, and accuracy of motion in Reach experiences.\n•\tNew Scoring & Usage Statistics - See your latest game scores, a shoulder health overview, your total daily time spent in Reach experiences, and more.\n•\tInterface & User Experience Improvements - New visual effects; increased consistency in dialogue sizing and layout; reduced text aliasing impact.\n•\tNew Tutorial Content - Added voiceovers and additional contextual instructions across Reach experiences.\n•\tNew & Improved Gaming Elements - Refinements to behind-the-scenes progress algorithms; new game levels and mechanics; standardized UI and audio experiences.\n•\tNew Reach Dashboard Features - New accuracy metric; improved performance; new personal usage summary.\n•\tBug Fixes: Textures, missing audio, level progression and scoring, particle effect, and many small UI bug fixes.\n"
+            },
+            {
+                "version": "1.00.40",
+                "change_log": "* Improvements to UI consistency across games\n* Added UI sound effects\n* Volume slider easier to use\n* Haptic feedback in Star Beams\n* Increased glow on stars in Star Beams\n* Improved legibility of text\n* Numerous additional bug fixes"
+            },
+            {
+                "version": "1.00.37",
+                "change_log": "New game - Star Beams! Get lost in the cosmos and power up by matching vibrant stars of all shapes and colors!\nAdded star rating to Tube Trouble\nUI & performance improvements\nBug fixes"
+            },
+            {
+                "version": "1.00.27",
+                "change_log": "New game, Bullseye!"
+            },
+            {
+                "version": "1.00.22",
+                "change_log": "New in this version:\n\n* Some tubes in Tube Trouble now have fuses that burn the tube from one end!\n* Improvements to tubes to make them less \"bendy\"\n* Reduced the time required to take the Firefly Assessment \n* Minor bug fixes"
+            },
+            {
+                "version": "1.00.19",
+                "change_log": "Reach for Quest 2 Beta Release\n\nShoulder pain, stiffness, or weakness? You’re not alone! One out of three people will develop shoulder strength or mobility issues in their lifetime. If you’re one of them, you know how profoundly shoulder problems can impact your everyday activities.\n\nMovement exercises done regularly can increase a shoulder’s range of motion and strength. Reach is on a mission to create VR experiences that identify your shoulder limitations and recruit movement specific to your strengths and weaknesses, all within immersive VR environments.\n\nReach’s Beta release includes:\n\n* Firefly Assessment: catch fireflies in a quiet forest under a serene, starry sky. Reach will record your motion behind the scenes and create a profile of your shoulder strength & range of motion.\n\n* Space Gunner: protect your spacecraft from an onslaught of hostile forces! In this game, Reach algorithmically generates targets for you to hit based on your shoulder health assessment.\n\n* Tube Trouble: trace the tubes before time runs out! An accuracy-focused experience catered to your shoulder health profile.\n\n* Reach Portal: a web-based reporting view where you can track your progress.\n\nGive Reach a try, and play your way to better shoulder health-- virtually!\n\nFeedback:\nTo get in touch with the Reach team, contact us at: \nsupport@triadlabs.com"
+            },
+            {
+                "version": "1.00.18",
+                "change_log": "Reach for Quest 2 Beta Release\n\nShoulder pain, stiffness, or weakness? You’re not alone! One out of three people will develop shoulder strength or mobility issues in their lifetime. If you’re one of them, you know how profoundly shoulder problems can impact your everyday activities.\n\nMovement exercises done regularly can increase a shoulder’s range of motion and strength. Reach is on a mission to create VR experiences that identify your shoulder limitations and recruit movement specific to your strengths and weaknesses, all within immersive VR environments.\n\nReach’s Beta release includes:\n\n* Firefly Assessment: catch fireflies in a quiet forest under a serene, starry sky. Reach will record your motion behind the scenes and create a profile of your shoulder strength & range of motion.\n\n* Space Gunner: protect your spacecraft from an onslaught of hostile forces! In this game, Reach algorithmically generates targets for you to hit based on your shoulder health assessment.\n\n* Tube Trouble: trace the tubes before time runs out! An accuracy-focused experience catered to your shoulder health profile.\n\n* Reach Portal: a web-based reporting view where you can track your progress.\n\nGive Reach a try, and play your way to better shoulder health-- virtually!\n\nFeedback:\nTo get in touch with the Reach team, contact us at: \nsupport@triadlabs.com"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

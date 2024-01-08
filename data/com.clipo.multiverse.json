@@ -86,6 +86,12 @@
             "logo_transparent": "39035347_214509870559508_5277743440604921769_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "Permissions:\n- android.permission.RECORD_AUDIO\n- android.permission.WRITE_EXTERNAL_STORAGE\n- android.permission.READ_EXTERNAL_STORAGE\n- android.permission.ACCESS_MEDIA_LOCATION\n- android.permission.MODIFY_AUDIO_SETTINGS\" \n- android.permission.WAKE_LOCK\"\nare required for Agora Voice plugin which is used for communication between players in application."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

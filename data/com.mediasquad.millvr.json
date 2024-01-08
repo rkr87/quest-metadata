@@ -108,6 +108,24 @@
                 "short_description": "In Mill VR spielen Sie das beliebte Brettspiel Mühle in einem virtuellen Setting. Dabei treten Sie sowohl gegen computergesteuerte Gegner, wie auch gegen ihre Freunde an. Erfolge schalten neue Spielfiguren und Skins frei und lassen Sie in der globalen Rangliste aufsteigen."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.1",
+                "change_log": "- Added interactive tutorial to the game and updated existing rules\n- Added new sound effects to the game\n- Bugfix: Leaderboard page navigation buttons are working now\n- Bugfix: Visual bug in the stone floor tiles"
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Fixed a wrong translation in the main menu\n- Increased the time for the idle warning (online match, not taking a turn) from 30 seconds to 135 seconds.\n- Fixed a bug where the \"Multiplayer\" option in the main menu was missing after completing a match against a friend."
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Fixed controller handedness change at runtime\n- Fixed controller not being lit and appearing black (now unlit shader)\n- Improved CPU performance by changing scripting backend to IL2CPP"
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Bugfixes and visual improvements"
+            }
+        ],
         "keywords": [
             "mill",
             "merels",

@@ -81,6 +81,24 @@
             "logo_transparent": "38974450_1000699233769469_2121601271468870130_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "10",
+                "change_log": "version 10"
+            },
+            {
+                "version": "9",
+                "change_log": "version 9   The accursed permission issues in manifest.  maybe they are fixed?????\nAdded :\n <uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\n  <uses-feature android:name=\"android.hardware.microphone\" android:required=\"false\" />'\n\n  <uses-permission android:name=\"android.permission.READ_PHONE_STATE\" tools:node=\"remove\"/>\n\n  <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" tools:node=\"remove\"/>\n\n  <uses-permission android:name=\"android.permission.INTERNET\" tools:node=\"remove\"/>\n\n  <uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" tools:node=\"remove\"/>\n\n  <uses-permission android:name=\"android.permission.BRODCAST_STICKY\" tools:node=\"remove\"/>\n\n  <uses-permission android:name=\"android.permission.BLUETOOTH\" tools:node=\"remove\"/>\n"
+            },
+            {
+                "version": "8",
+                "change_log": "version 8\n\n1.8\n-Added game/save tutorial scroll on ledge level\n-Fixed various level colliders.\n-Fixed microphone needed permission in manifest.xml\n-Fixed \"quit\" in main menu\n-Fixed \"restart level\" in main menu\n-Updated text for readability on intro controller mapping graphic.\n-Fixed coin chest pickup on peltons passage level.\n-Added some end monsters to peltons passage.\n-Pulled swing axe traps from level \"tree\" and replaced with firetraps\n-Fought tooth and nail on level “tree”  It is a cursed level, lots to fix then lots fixed that magically became broke” again.\n"
+            },
+            {
+                "version": "2.1",
+                "change_log": "first release candidate upload.    Slight bug fixes on last scene.  Technical VLC's passed.   Whoot whooo!"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

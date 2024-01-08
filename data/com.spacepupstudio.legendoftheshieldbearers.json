@@ -83,6 +83,16 @@
             "logo_transparent": "38974469_3646910225362340_8569254947145213112_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.3",
+                "change_log": "Add new levels, change to 64 bit binaries, add lip syncing for custom avatars. mic access requested"
+            },
+            {
+                "version": "0.2",
+                "change_log": "the reason for requesting android.permission.RECORD_AUDIO is thatusers can update custom models and have lip syncing done"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

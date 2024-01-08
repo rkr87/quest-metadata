@@ -81,6 +81,56 @@
             "logo_transparent": "38974865_1462274617438297_4853960885430094838_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.9.8",
+                "change_log": "The Thermite Lab is now available to play! Experience the fun and danger of thermite without worrying about burning down the house. \n\n- Small bug fixes: setting paper on fire no longer stops the program"
+            },
+            {
+                "version": "0.9.7",
+                "change_log": "Corrected finished molecule angles\n\n- Fixed conflict with Left Trigger pairing, Teleport is now assigned to Y button\n\n- Reduced lag when chemicals are spilled\n\n- Thermite Lab is being developed! Not quite finished but coming soon!"
+            },
+            {
+                "version": "0.9.5",
+                "change_log": "- Fixed bug with pouring water and filling water simultaneously for beaker and Erlenmeyer flask\n\n - Bug with water drops disappearing from Erlenmeyer flask still exists\n\n - Fixed spatula/scupula causing \"kinematic\" and \"useGravity\" to reverse for certain items\n\n - Removed automatic destroy of chemicals on table"
+            },
+            {
+                "version": "0.9.5",
+                "change_log": "- adjusted light settings for better frame rates\n\n- implemented Teleportation as an alternate locomotion method\n\n- fixed bugs with SubMicro Lesson Molecule Desk buttons"
+            },
+            {
+                "version": "0.9.4",
+                "change_log": "- Completed the Molecular World simulation for the Rainbow Flame Lab\n- now it has models of all 7 elements and their particular light frequencies\n- Updated the start menu to be clearer\n- Added a shortcut to the molecular world simulation in the Rainbow Flame Lab\n- Customized the Splash Screen"
+            },
+            {
+                "version": "0.9.3",
+                "change_log": "- Fixed Pause menu issue where Main Menu button wasn't working\n\n- Fixed weighing scale issues with not detecting small chemicals\n\n- collider issues with thermometer\n\n- Fixed Bunsen Burner, now it gives off flame\n\n- audio effects improved"
+            },
+            {
+                "version": "0.9.2",
+                "change_log": "- Fixed problem where hands would sometimes stop being able to grab once a player put on the goggles, gloves, or apron\n\n- Made the thermometer more legible\n\n- Fixed issues with the purple vortex appearing when it shouldn't\n\n- Reduced number of AlCl3 molecules needed to make in the Reaction Game down to 2\n\n- fixed in Rainbow Flame lab when water would ignite without ethanol\n\n- fixed water not changing color when CuCl2 was dropped in\n\n- Added beta version of the Rainbow Flame Sub-micro experience"
+            },
+            {
+                "version": ".9.1",
+                "change_log": "New lab released! The famous (infamous) Rainbow Flame Lab is ready to play. The atomic view/experience is coming soon."
+            },
+            {
+                "version": ".9",
+                "change_log": "Fix notes:\n\n Fixed bugs with pouring water out of beakers\n\n Fixed scaling errors with aluminum foil piece\n\n Added zoom to Molecular level option when chemical reaction in DR lab completes"
+            },
+            {
+                "version": ".9",
+                "change_log": "Fix notes:\n\n Added controls instructions to main menu and wall poster image in all lab scenes\n\n Fixed unintended movement interactions of hand controllers with player colliders\n\n Easier to read font color and spacing in main menu\n\n Fixed problem with touching lab goggles causing the hands to no longer grab objects \n\n Coming soon: A new lab, the Rainbow Flame Lab!"
+            },
+            {
+                "version": "0.9",
+                "change_log": "Updated Privacy Policy according to Oculus requirements.\nMade hand collider interactions more accurate."
+            },
+            {
+                "version": "0.8",
+                "change_log": "Fixed minor bugs with lab objects in Chemistry Lab and user friendliness issues in Molecular Level"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

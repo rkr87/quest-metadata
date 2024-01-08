@@ -98,6 +98,44 @@
             "logo_transparent": "12331258_1279239738844649_7395646363284799488_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.2",
+                "change_log": "- Controlling wheels/dials with an input other than a joystick is now a left-right motion, rather than the circular motion which was causing some difficulty\r\n- Improved anti-aliasing settings\r\n- Fixed: CANDY gumball win-sequence could be fired multiple times\r\n- Fixed: Could tap nose before final burglar animation was finished in HOM-3"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Fixed: Mouse and rabbit in EATER not sync'ing animations properly\r\n- Fixed: Difficulty awarding LAB-O secret achievement\r\n- Fixed: PURP-L front flap could be delayed when opening\r\n- Fixed: soft-lock at end of credits"
+            },
+            {
+                "version": "Oculus Go",
+                "change_log": "Launch build."
+            },
+            {
+                "version": "Oculus Go",
+                "change_log": "Pause the game when removing the HMD."
+            },
+            {
+                "version": "Oculus Go",
+                "change_log": "Stripped a number of unused libraries from the app."
+            },
+            {
+                "version": "Oculus Go",
+                "change_log": "Level select UI update."
+            },
+            {
+                "version": "Oculus Go",
+                "change_log": "Various fixes to address VRC issues; UI and interaction improvements and fixes; other polish work to get ready for store submission."
+            },
+            {
+                "version": "Oculus Go Test",
+                "change_log": "Fixed some button interaction bugs in the menus; fixed ear-flap hints in Intro; fixed game flow bug restarting the game."
+            },
+            {
+                "version": "Oculus Go Test",
+                "change_log": "Fixed progression blockers in Intro; Fixed unresponsive Go controller; Enabled settings interactions with Go controller."
+            }
+        ],
         "keywords": [
             "gnog",
             "doublefine",

@@ -73,7 +73,7 @@
             },
             {
                 "rating": 5,
-                "votes": 10470
+                "votes": 10472
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -199,6 +199,32 @@
                 "short_description": "サバイバルホラーの古典的名作『バイオハザード4』がVR用に完全リニューアル。特別捜査官のレオン・S・ケネディが本格的な一人称視点でプレイ可能になりました。謎めいたヨーロッパの村へと派遣されたレオン。彼はアメリカ大統領の娘を救出することができるのか？"
             }
         ],
+        "changelog": [
+            {
+                "version": "2.3",
+                "change_log": "Bug Fixes - Fixed an issue where users might experience poor performance after certain types of OS updates."
+            },
+            {
+                "version": "2.1",
+                "change_log": "Resident Evil 4 VR - Version 2.1\nBUG FIXES\n– Audio –\nFixed an issue when entering and returning from the Oculus Shell quickly could result in the game’s audio volume being set lower than intended.\n– Krauser –\nFixed specific cases where Krauser’s Special Move haptic vibrations could remain on for longer than intended.\n– Leaderboards –\nFixed issues with players being unable to retrieve scores from Leaderboards."
+            },
+            {
+                "version": "2.0",
+                "change_log": "Resident Evil 4 - Version 2.0 - The Mercenaries Update \n\nThe Mercenaries are back in Resident Evil 4! Our latest update implements Resident Evil 4’s classic “The Mercenaries” game mode, with all new additions for VR – including 20 unique Challenges, online Leaderboards, new Unlockable content, and more!\n\nTHE MERCENARIES\n\n– Classic Mode –\nFight against hordes of Ganados in timed encounters as you rack up high scores with precision gunfire and strategic use of combos! Earn 4 Stars on a Stage to unlock a new Character. Earn 5 Stars on every Stage to unlock a brand new weapon for the Story Campaign!\n\n- 4 Stages (Village, Castle, Island, and Dockside) with distinctive visual styles and layouts to master.\n- 5 Characters (Leon, Ada, HUNK, Krauser, and Wesker) with special weapon sets and combat moves.\n\n– Challenge Mode –\nTake on 20 unique Challenges: twists on the Classic Mercenaries Mode, with alternate weapons, enemies, stage visuals, and game rules. Each Challenge offers its own set of strategies to decipher and skills to master.\n\n– Online Leaderboards –\nEvery Classic Stage and Challenge has its own Online Leaderboard – try to beat the best of the best in world rankings, or just see which of your friends is really the master of The Mercenaries!\n\n– Unlockables –\nEarn Medals by achieving high scores in Challenges, allowing you to unlock all new content for the Story Campaign:\n- Costumes: Dress up your favorite heroes in Leon’s Mafia Outfit and Ashley’s Knight Armor.\n- Weapons: Unleash the power of the heavy-duty Handcannon and the rapid-fire Chicago Typewriter.\n- Enhancements: Activate Big Head Mode, Classic Horror Mode, or Fast Forward Mode in the Story Campaign and enjoy the game in a whole new way  – or combine them all for the wildest run through Resident Evil 4 ever experienced!\n- Golden Guns: Show off your mastery of The Mercenaries with unique golden skins for every weapon in the game.\n\nBUG FIXES\nIn addition to the new “The Mercenaries” game mode, we’ve made a host of fixes and adjustments to the main Story Campaign, including but not limited to:\n\n– Ashley –\n- Improvements to Ashley’s pathfinding around doors and windows as well as certain room-specific situations.\n\n– Audio –\n- Fixed various minor audio issues and audio positioning, as well as improved audio landscape in certain rooms.\n\n– Cinematics –\n- Fixed minor visual issues with some cinematics.\n- Added subtitles for live voice lines in certain rooms.\n- Cinematic shortcut buttons now display proper prompts when the primary controller is set to Left Hand.\n\n– Enemies –\n- Fixed various issues with enemy pathfinding and attack behavior in specific room locations.\n- Fixed an issue where the player could physically put their gun through a shield or enemy body in order to shoot the enemy or a parasite.\n\n– Interactions\n- Improved the behavior of a variety of player interactions with environment props. (example: adjustable paintings)\n\n– Particles –\n- Fixed some issues with particle playback, including Ganado’s glowing eyes missing in some night locations.\n- Improved particle visuals and performance in various locations.\n\n– Player –\n- Player can now physically duck to avoid trip-wires and lasers in the game.\n- Fixed player knockback from explosions or mace hits so that it always knocks the player away from the impact, instead of the direction being determined by the player’s current facing direction.\n- Fixed various ways the player could accidentally get out of the world when climbing ladders or walls.\n- Fixed an animation pop on the player as well as an issue where the camera could clip and spin badly when an enemy slammed the player into the ground.\n\n– Performance –\n- Fixed some rare crash cases.\n- Improved overall performance of the game when enemies are onscreen, as well as when certain particle systems are active.\n\n– Rooms –\n- Improved collision in several rooms to more closely match the visuals.\n- Fixed various minor holes in visual geometry, as well as small texture tweaks and z-fighting in certain areas.\n\n– UI –\n- Improved the feel of picking up and dropping items in the Inventory, as well as positioning large items.\n- Updated the Map to correctly display some differences in map elements based on the floor or location the player is on.\n- Fixed an issue where consuming an item immediately after grabbing it might leave the item visual in the Inventory grid until another item was used.\n- Fixed an issue where under specific circumstances mixed herbs might disappear when created in the same inventory slot as a previously equipped and used healing item.\n- Added “Listen” UI prompt for Shooting Range trophy figurines.\n\n– Weapons –\n- Improved knife hit detection, especially versus Ganado types, Parasites, and Door Locks\n- Adjusted Iron Sights in the game to make them more accurate.\n- Reduced the degree of damage falloff on grenades at certain ranges\n- Grenades now do Line of Sight checks for damage in addition to the original game’s basic radius checks.\n- Adjusted the Grenade fuse countdown during the “throw arc” visual, allowing the player time to aim the Grenade before it explodes when using this system.\n- Fixed an issue where grabbing a grenade with your free hand could cause the grenade in your opposite hand to disappear when in Quick Select Mode, or drop to the ground if it was a live grenade and the player was in Immersive mode.\n- Improved grabbing of the rifle forestock and positioning of interactive elements to make it feel more natural/intuitive and easier to grab.\n- Adjusted Red9, TMP, and Matilda “shouldering” regions, allowing players to hold the guns closer to the center line and still benefit from stocks.\n- Improved the presentation of external UI elements in the Scope view (Blue Medallion Updates, Ashley Dialogue, etc.)"
+            },
+            {
+                "version": "1.1",
+                "change_log": "Resident Evil 4 Options Update (version 1.1)\n\nThank you so much for playing Resident Evil 4 on Quest 2!\n\nWe’ve been thrilled to see all the streams, memes, and reviews for RE4 over the past few months. We’re excited to say that we’ve heard your feedback about additional mobility and comfort settings and are happy to introduce new updates to in-game options in Patch v1.1.\n\nFEATURES AND UPDATES:\n\nOptions\n\n- Added controller-directional movement (“hand steering”) to the “Steering” options.\n- Added the ability to specify which analog stick will be used for movement, separately from the “Dominant Hand” setting.\n- Added the ability to adjust your height when in “Standing” mode.\n- Added waist and chest holster position adjustment options (height, distance from body, and separation).\n- Added an option to disable auto-ejecting of magazines when grabbing ammo from the belt pouch.\n- Added an option to disable auto-pulling the pin on thrown grenades.\n- Added the ability to set the color of the “Laser Sight” line.\n\nSave Game\n\n- Added a warning when attempting to save the game when the device has very low storage space remaining.\n\nBUG FIXES:\n\n- Fixed an issue that can result in the loss of a save game file if the device has very low storage space remaining.\n- Fixed a rare issue that could cause the player to have infinite ammunition and consumables. Users that have already encountered this issue will have their save game repaired on startup.\n- Fixed a rare crash related to entering the Shooting Range.\n- Fixed a rare crash involving the player being knocked back by an external force."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Welcome to Resident Evil 4 for the Oculus Quest 2"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Coming Soon..."
+            }
+        ],
         "keywords": [
             "RE4",
             "Capcom",
@@ -209,8 +235,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 11982,
-        "rating": 4.724337,
+        "votes": 11984,
+        "rating": 4.724383,
         "weighted_rating": 4.72,
         "is_available": true,
         "is_free": false

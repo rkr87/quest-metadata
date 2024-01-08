@@ -82,6 +82,16 @@
             "logo_transparent": "39035428_226488368284588_4892820425706307584_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.2.2",
+                "change_log": "- Show download error if downloading fails in Kiosk mode\n- Improve download stability in Kiosk & Cinema mode by downloading sequentially on Android\n- Made synced video playback (with Contraverse Cinema Remote tablet app) more accurate and robust\n- Fixed some edge cases where app incorrectly appeared to be connected to the Cinema Remote app\n- Updated default environment colour"
+            },
+            {
+                "version": "1.1.31",
+                "change_log": "Update to new PIN code login system."
+            }
+        ],
         "keywords": [
             "cinema",
             "360video",

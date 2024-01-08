@@ -83,6 +83,36 @@
             "logo_transparent": "75234368_1886441791510428_7216576843952147536_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.3.0",
+                "change_log": "Fix for sketch loading with images on layers:\nIn some cases a sketch would fail to load (if the top layer only had reference images on it and no brush strokes). This fixes that by moving them to the main layer. A proper fix will be in the next formal release."
+            },
+            {
+                "version": "2.2.0",
+                "change_log": "New Features\n\n- Bundled \"Featured Sketches\": Since Google Poly closed down, the immediate access to some examples by talented artists was sorely missed.  So we've added some of the classics back in. We have big plans for sharing and viewing artwork so this is just the start.\n- Add a button in Setting to switch handedness: Previously the only way to do this was to tap the bottom of the controllers together. This wasn't easy to discover and was unreliable when using some controllers.  We've kept that in but added a nice clear button the app settings.\n- Add a button in Setting to reset the \"First Time Use\" tutorial: This is something that's especially useful when you want to demo Open Brush to a new user. The current tutorial is very brief but we hope to expand it in the future. Note this button affects the app the next time you launch it.\n\nKnown Issues\n\n- Meta Quest: Incorrect or missing video thumbnails are shown\n- Meta Quest: Gif capture results in just a black image\n- Meta Quest (Quest 1 only): Selection and erase tools are not working\n\n​\n​"
+            },
+            {
+                "version": "2.0.0",
+                "change_log": "Our second anniversary update brings a whooole bunch of powerful new features, including Mixed Reality Passthrough and Layers! 🔥\n\nPowered by OpenXR and ready for the future, and as always, FREE!💪\n\nPassthrough\nLayers\nSnip/Join strokes\nMerged experimental support\nAdvanced camera tool\nNew import options\nPressure sensitive strokes\n\nFull release notes at https://docs.openbrush.app/release-history/2.0"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "In honor of the first anniversary of Tilt Brush becoming open source, we’re releasing Open Brush v1.0! This release is jam packed with new features:\n- Lazy Input\n- Bimanual Input\n- Wand Guide Revolver\n- Unlocked World Axis\n- Grid and Angle Snapping\n- Even more Jitter options\n- Open Brush API\n- New settings for Guides\n"
+            },
+            {
+                "version": "0.3.0",
+                "change_log": "Features\n- Added Fly tool, a new locomotion type. Reach out like your favourite caped hero and pull the trigger to fly around your sketch! Find it on the Advanced Tools panel.\n- Oculus Mixed Reality Capture Tool fixes. The plugin now receives the correct world scale. This also works with the LIV for Quest beta!\n\nFixes\n- Block Poly on Quest 1. Sadly Poly was causing crashes on Quest 1, and due to the short time that Poly will be available, we have chosen to block access. Poly downloads will still work on Quest 2 until the service shuts down. We are creating a Poly replacement service called Icosa Gallery, and once it is up and running we'll make sure Quest 1 (and 2!) will have full support for it!\n- Uploads to SketchFab are now tagged with Open Brush as the creation tool."
+            },
+            {
+                "version": "0.2.0-(menuitem)",
+                "change_log": "Hotfix to remove Google services support due to crashing on Quest 1."
+            },
+            {
+                "version": "0.2.0-(menuitem)",
+                "change_log": "- Re-added Sketchfab login\n- Re-added Google/Poly login\n- Re-added GIF recording"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

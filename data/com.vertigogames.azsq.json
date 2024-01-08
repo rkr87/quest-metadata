@@ -72,7 +72,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3758
+                "votes": 3760
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -299,6 +299,60 @@
                 "short_description": "バーチャル・リアリティ専用のアリゾナ・サンシャインで、プレイヤーはゾンビが溢れるアポカリプスのただ中に入り込みます。実際に体を動かして武器を扱い、人類滅亡後の世界を自由に探索し、バーチャル・リアリティで自分のサバイバルスキルを試しましょう。アンデッドを倒していく体験は、これまでになくスリリングです。"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.6",
+                "change_log": "- Security update\n- ATF teaser scene"
+            },
+            {
+                "version": "1.6",
+                "change_log": "Features:\n- New hordemode: Trailer Park map"
+            },
+            {
+                "version": "1.5",
+                "change_log": "Features/Improvements (Quest 2 specific)\n- HD Zombies\n- Zombies fall in ragdoll on death\n- More mutilation variants on zombies\n- Muzzle flash dynamic light\n- Background zombies\n- Destructable car windows\n- Shader improvements\n\t- Added Normal/Specular\n\t- Extra zombie variations\n\t- Environment details\n- More level decorations\n\t- Blood spots\n\t- Grass/Bushes/tall grass\n\t- Environmental particles\n\t- Birds\n\nFeatures/Improvements (Quest 1 and 2) \n- Improved texture resolutions\n- Improved lightmap resolutions\n- Tweaked intensity of colors (Canyons too red, flora too green)\n- Cybershoes support\n\nFixes\n- Fixed level 04_Caves white background glitch\n- Fixed Quest 2 users being kicked out of multiplayer lobbies"
+            },
+            {
+                "version": "1.5",
+                "change_log": "Features/Improvements (Quest 2 specific)\n- HD Zombies\n- Zombies fall in ragdoll on death\n- More mutilation variants on zombies\n- Muzzle flash dynamic light\n- Background zombies\n- Destructable car windows\n- Shader improvements\n\t- Added Normal/Specular\n\t- Extra zombie variations\n\t- Environment details\n- More level decorations\n\t- Blood spots\n\t- Grass/Bushes/tall grass\n\t- Environmental particles\n\t- Birds\n\nFeatures/Improvements (Quest 1 and 2) \n- Improved texture resolutions\n- Improved lightmap resolutions\n- Tweaked intensity of colors (Canyons too red, flora too green)\n- Cybershoes support\n\nFixes\n- Fixed level 04_Caves white background glitch\n- Color correction"
+            },
+            {
+                "version": "1.5",
+                "change_log": "Features/Improvements (Quest 2 specific)\n- HD Zombies\n- Zombies fall in ragdoll on death\n- More mutilation variants on zombies\n- Muzzle flash dynamic light\n- Background zombies\n- Destructable car windows\n- Shader improvements\n\t- Added Normal/Specular\n\t- Extra zombie variations\n\t- Environment details\n- More level decorations\n\t- Blood spots\n\t- Grass/Bushes/tall grass\n\t- Environmental particles\n\t- Birds\n\nFeatures/Improvements (Quest 1 and 2) \n- Improved texture resolutions\n- Improved lightmap resolutions\n- Tweaked intensity of colors (Canyons too red, flora too green)\n- Cybershoes support\n\nFixes\n- Fixed level 04_Caves white background glitch"
+            },
+            {
+                "version": "1.4",
+                "change_log": "New:\n- Oculus group launch support\n- Added tutorial option\n- Added Circle tooltip option\n- Added hand offset option\n- Added separate voice language option\n- Added 180 flip enabled option\n\nImprovements:\n- Changed lightmap texture compression for all levels, making it less blocky\n- Improved some areas in the campaign to bring them on the same quality as the rest\n- Changed texture filtering from bilinear to trilinear, reducing seams\n\nBug fixes:\n- Fixed tracer appearing to go backwards when shooting something close to the barrel origin\n- Fixed dead players body blocking zombies\n- Fixed pistol not correctly appearing to be empty\n- Fixed an issue that you couldn't switch the console gun with cartridges\n- Fixed damned cartridge not being reset properly in the menu\n- Fixed 'One-Man Militia' and 'Online' Deadman DLC achievements\n- Fixed a lighting bug that most of the time the specular reflections were not properly rendered"
+            },
+            {
+                "version": "1.4",
+                "change_log": "New Campaign DLC added \"The Damned\".\nAdded One-handed weapon only \"Classic\" Horde Mode, includes single-hand versions of Spectre, MP4 and Super Shorty.\nSeperate leaderboards for Classic Horde Mode."
+            },
+            {
+                "version": "1.3",
+                "change_log": "- An all-new campaign mission taking place before the events of Arizona Sunshine\n- Online co-op functionality for up to two players\n- A range of difficulty degrees including the insane Apocalyptic Mode!\n- Six new achievements spread across an infested missile silo\n- Three new weapons: A fully automatic submachine gun, a two-handed shotgun and a tactical handgun"
+            },
+            {
+                "version": "1.0",
+                "change_log": "New Features:\n- Introducing the 'Undead valley' hordemode map\n- Added functionality to drop weapons by holding a 'eject ammo' (A/B/X/Y) button\n\nBug Fixes:\n- Fixed B/Y buttons now properly eject ammo again\n- Tweaked anti-cheat colliders above crates in horde mode"
+            },
+            {
+                "version": "1.0",
+                "change_log": "The update includes the following changes to Arizona Sunshine Quest:\n- Introducing the 'Old mine' horde mode map\n- Notifications are a bit bigger so they are easier to read\n- Fixed crash that sometimes happens in multiplayer games\n- Fixed an error when starting multiplayer games\n- Fixed clip size of the M2 Carbine gun "
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Two handed weapon mode\n\t- Campaign with two handed guns\n\t- Horde mode now has both one-handed and two-handed guns available\n- Tweaked/Improved interactions quality (Interacting with cars/doors/ammo/reloading no longer causes the screen to go black)\n- Fixed bug that sometimes the winch is not present in the level 'Bridge'\n- Fixed achievement 'Quack quack %$#@!'\n- Fixed an issue where players could sit inside the geometry in the horde mode level\n- Fixed an issue where players would get stuck when they teleport down the ladder at the radio in the level 'Trailerpark”"
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Implemented Rich Presence\n- Minor changes to gun raytracing"
+            },
+            {
+                "version": "1.0",
+                "change_log": "AutoBuild (Fri 25 Oct 2019-16:54:24,96)"
+            }
+        ],
         "keywords": [
             "zombies",
             "shooter",
@@ -309,8 +363,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 6270,
-        "rating": 4.239234,
+        "votes": 6272,
+        "rating": 4.239477,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": false

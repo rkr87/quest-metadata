@@ -89,7 +89,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1308
+                "votes": 1309
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -118,6 +118,36 @@
             "logo_transparent": "39031442_2325801174411533_7100144229543837696_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.17.225630-release",
+                "change_log": "Game Updates:\n- Moved tree branches up a bit to avoid obscuring the player view.\n- Moved the initial Start button closer to the player, making it easier to reach.\n- The arrow pointing homeward when holding an acorn is now only visible to the player controlling that squirrel.\n\nBug Fixes:\n- Improved throw velocity calculations when letting go of throwables immediately after grabbing them.\n- The tree/squirrels win text is now correctly sized for Asian languages and updated when changing languages.\n- Fixed an issue where text styles would not be used when changing between certain languages."
+            },
+            {
+                "version": "1.16.217110-release",
+                "change_log": "The game is now available in 10 languages: English, Spanish, German, French, Italian, Portugese, Japanese, Korean, Simplified Chinese and Traditional Chinese! - You can switch language from the game's settings menu!"
+            },
+            {
+                "version": "1.14.94392",
+                "change_log": "Just in time for Halloween, the squirrels have discovered a creepy new level, and it’s nuttin’ but spooky fun! Join the gang as they take on the tree in the “Sulky Swamp,” check out the new 1 vs. 1 gameplay allowing just one player on mobile to take on the tree in VR, and download the Haunted Horrors skins for free!"
+            },
+            {
+                "version": "1.13.93209",
+                "change_log": "Just in time for Halloween, the squirrels have discovered a creepy new level, and it’s nuttin’ but spooky fun! Join the gang as they take on the tree in the “Sulky Swamp,” check out the new 1 vs. 1 gameplay allowing just one player on mobile to take on the tree in VR, and download the Haunted Horrors skins for free!"
+            },
+            {
+                "version": "1.11.68004",
+                "change_log": "The tree can now throw squirrels in order to damage other things, just like any other projectile\n\nStop the match from starting accidentally when the VR headset is not being worn\nURL in VR that informs players where to get the mobile game has been changed to www.acron.game\nSettings menu updated\nAdded links to the troubleshooting guide when encountering issues connecting to a game\n\nFixed bug where settings menu would overlaps other UI\nFixed bug where name tags in lobby were showing when they were meant to be hidden\nFixed bug where tunnels sometimes appeared without entrances or exits\nFixed bug where character portrait did not match chosen skin\nFixed various bugs with networking\nFixed bug that made Chunk's shield able to be planted in mid-air\nFixed bug where squirrels could stop falling by running into walls\nFixed bug where sounds would keep playing after leaving a match"
+            },
+            {
+                "version": "1.10.64940",
+                "change_log": "Fix bug causing lot of name tags"
+            },
+            {
+                "version": "1.8.64189",
+                "change_log": "Updates/Bug fixes\n• Optimized game\n• Fixed some bugs when joining an ongoing game\n• Audio settings are now saved\n• Fixed water not rising during overtime\n• Added handling for some network errors in vr and mobile\n• Quantizing of network traffic, in most cases reducing the traffic by three fourths\n• Improved AI"
+            }
+        ],
         "keywords": [
             "acorn",
             "party",
@@ -128,8 +158,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1741,
-        "rating": 4.58185,
+        "votes": 1742,
+        "rating": 4.58209,
         "weighted_rating": 4.54,
         "is_available": true,
         "is_free": false

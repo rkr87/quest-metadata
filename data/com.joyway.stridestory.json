@@ -50,7 +50,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 43
+                "votes": 44
             },
             {
                 "rating": 2,
@@ -62,7 +62,7 @@
             },
             {
                 "rating": 4,
-                "votes": 122
+                "votes": 123
             },
             {
                 "rating": 5,
@@ -94,6 +94,64 @@
             "logo_transparent": "38974840_2029443334069952_9109746553456219171_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.12",
+                "change_log": "1.12-preship+eeb26bc"
+            },
+            {
+                "version": "1.11",
+                "change_log": "1.11-preship+77e3178"
+            },
+            {
+                "version": "1.10",
+                "change_log": "1.10-preship+4086f23"
+            },
+            {
+                "version": "1.09",
+                "change_log": "1.09-preship+8e44936"
+            },
+            {
+                "version": "1.08",
+                "change_log": "1.08-preship+56256d2"
+            },
+            {
+                "version": "1.07",
+                "change_log": "STRIDE: Fates Update v1.07_942bb07\n\nWe have made a number of sound and gameplay changes:\n- Added a tutorial on how to use hand pockets\n- Added button mapping. Now you can customize and swap the sticks and all active buttons (except the Trigger and Grab buttons)\n- Added music during the timer in the Snakes of the Old Town mission\n- Changed sounds in the Hanzo's Wrath mission\n- Updated music in the arenas\n\nWe also fixed a number of bugs:\n- Fixed a problem with the starting save when replaying missions if the player died during the mission. Now the player is revived at the beginning of the mission\n- Fixed a problem with the mount, which remained hanging in the air after the death of the player in the mission Welcome to Airon City. Now it disappears after the player's death."
+            },
+            {
+                "version": "1.06",
+                "change_log": "STRIDE: Fates Update v1.06_ef67211\n\nWe have fixed a number of bugs:\nFixed an issue where enemies couldn't find the player because of head accessories, now the headwear doesn't interfere with enemies' vision\nFixed a bug with the Fury of the Storm mission could not start if the player skipped a questpoint, now the mission starts correctly\nFixed a bug with weapons disappearing from the upgrade table, now weapons stay on the upgrade table.\nAdded correct door collisions in the Fury of the Storm mission\n\nWe also have made a number of visual, sound and gameplay changes:\nImproved visuals of the bullet trace piercing glass\nAdded the ability for the laser ray to pass through glass\nImproved visuals when killing an enemy who has a headwear on with a knife to the head.\nAdded glass breaking sounds\nImproved enemy behavior. Enemies now react to the noise of breaking glass\nAdded damage decrease on enemies when hitting pieces of headwear / armor  (Enemies will take different damage when they get hit in the body directly or through the headwear / armor)"
+            },
+            {
+                "version": "1.05",
+                "change_log": "STRIDE: Fates update (v 1.05_b957778) \n\nWe fixed a number of bugs and crashes:\nFixed crash when opening the equipment.\nFixed crash when destroying objects.\nFixed crash during the quests to deliver an object.\nFixed crash when destroying enemies in arenas.\nFixed a problem with decay after dying over chasms.\n\nSound changes:\nUpdated the voice acting in the Hanzo's Wrath mission.\nUpdated weapon sounds.\nUpdated the music in the Neuro-Abyss mission.\n\nVisual changes:\nAdjusted the render distance on missions: Fury of the Storm, To the Sky.\nImproved the visuals of glass breaking.\nAdded new weapon skins for everyone (as an apology for issues with save files).\nAdded new accessories for enemies like caps, masks, etc.\n\nPhysics and gameplay changes:\nAdded the ability for enemies to destroy physical objects with shots.\nMade more convenient interaction with all levers.\nMade a more convenient system of climbing in vents.\nRemoved the light quest in the ventilation during the Lethal Treatment Mission."
+            },
+            {
+                "version": "1.04",
+                "change_log": "1.04-preship+a4b0733"
+            },
+            {
+                "version": "1.03",
+                "change_log": "1.03-preship+2257f32"
+            },
+            {
+                "version": "1.02",
+                "change_log": "v1.02\nAdded cheat menu"
+            },
+            {
+                "version": "1.01",
+                "change_log": "The first patch (v1.01)\n\n1. Fixed issues with saves.\n\nThere's a chance that some players may even be able to restore their previous saves. \nPlease update the game and check if you can continue from your last checkpoint. If not, you can also check the cloud saves and try restoring* a save via https://secure.oculus.com/my/cloud-backup/\n\n*Unless you are trying to restore a save made in a beta version of the game. Just please don't do this, the pre-release saves are incompatible with the current build, and we don't know how many potential problems this action can cause. \n\n2. Adjusted pistol shooting angle (will also add a customizable setting for that in the future)\n3. Adjusted pistol recoil\n4. Balanced shotgun damage (reduced it)\n5. Improved the weapon holsters behind your back"
+            },
+            {
+                "version": "1.0",
+                "change_log": "1.0-preship+0e33ea7"
+            },
+            {
+                "version": "TRC",
+                "change_log": "TRC-preship+b79f09b"
+            }
+        ],
         "keywords": [
             "parkour",
             "shooter",
@@ -104,9 +162,9 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 554,
-        "rating": 4.054152,
-        "weighted_rating": 4.02,
+        "votes": 556,
+        "rating": 4.048561,
+        "weighted_rating": 4.01,
         "is_available": true,
         "is_free": false
     },

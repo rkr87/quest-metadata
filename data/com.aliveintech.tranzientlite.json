@@ -85,6 +85,88 @@
             "logo_transparent": "38974621_1908542992660462_5488098236238214731_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.13.00.14",
+                "change_log": "open settings no longer closes scene based world choosers"
+            },
+            {
+                "version": "1.13.00.13",
+                "change_log": "Changed to on rails tutorial"
+            },
+            {
+                "version": "1.13.00.12",
+                "change_log": "Fixed step sequencer note stuck on"
+            },
+            {
+                "version": "1.13.00.10",
+                "change_log": "- v60 Fixed undo load song scale\n- Fast Undo/Redo"
+            },
+            {
+                "version": "1.13.006",
+                "change_log": "- Fixed drag cue into scene cue scale, \n- Extra arm button in tutorials removed. \n- Changed first time intro floor material and optimised loading. \n- Built in video instead of YouTube for main help"
+            },
+            {
+                "version": "1.13.00.04",
+                "change_log": "Links to full version from lite"
+            },
+            {
+                "version": "1.13.00.00",
+                "change_log": "- Harp hand tracked interaction fixed\n- Hand attached menu triggering when system menu up fixed\n- Tweaked waveform min height and clipping on synth"
+            },
+            {
+                "version": "1.12.00.25",
+                "change_log": "Hand occlusion for pass through"
+            },
+            {
+                "version": "1.12.00.23",
+                "change_log": "- New waveform rendering"
+            },
+            {
+                "version": "1.12.00.21",
+                "change_log": "- 90 FPS on Quest 3 \n- Upped the max resolution\n- New onboarding\n- Better hand tracked grab\n- Fixed decks knobs from load"
+            },
+            {
+                "version": "1.12.00.20",
+                "change_log": "- 90 FPS on Quest 3 \n- Upped the max resolution\n- New onboarding\n- Better hand tracked grab"
+            },
+            {
+                "version": "1.12.00.16",
+                "change_log": "Fixed DJ deck grab getting stuck"
+            },
+            {
+                "version": "1.12.00.13",
+                "change_log": "- Fixed tutorial world\n- Fixed hand tracking state against OS v59"
+            },
+            {
+                "version": "1.12.00.12",
+                "change_log": "- Fixed note stuck on with hand tracking\n- Added scale threshold for synth keys, when small finger tips are used for collision when larger, palm collisions are used.\n- Disabled hand overlap triggering arrow buttons such as minimize or change to pads/harp etc."
+            },
+            {
+                "version": "1.12.00.10",
+                "change_log": "Oculus branch new hand tracking and passthrough"
+            },
+            {
+                "version": "1.12.00.06",
+                "change_log": "Fog fixed in Afghan world, UE 5.3.2"
+            },
+            {
+                "version": "1.12.00.05",
+                "change_log": "Fixed hands in tutorials"
+            },
+            {
+                "version": "1.12.00.03",
+                "change_log": "Hand tracking"
+            },
+            {
+                "version": "1.11.00.01",
+                "change_log": "- Quest 3 Support\n- Global themes in settings (transparent cubes, spheres for clips), colour themes for synths and waveforms\n- Fixed bug in step sequencer where steps couldn't be removed if close behind the beat\n- Fixed bug in scene playback where stopping one scene would stop clips in another scene\n- Default to 1.5 super sampling on Quest 3\n- New help system accessible from the arm menu\n- Help from the popup ? button now shows help in app rather than in the OS browser\n- Fixed glitched fingers on ReadyPlayerMe Avatars\n- Better video performance on Quest 3 by using system video player\n- Removed passthrough world, this will be re-added when Meta roll out UE 5.3 support this month"
+            },
+            {
+                "version": "1.10.00.03",
+                "change_log": "- Unreal version 5.3\n- Better performance\n- Video shape chooser\n- Improved animation of avatars\n- Faster timestretch"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

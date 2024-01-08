@@ -91,6 +91,44 @@
             "logo_transparent": "39001692_2911220255673166_1868043972715037280_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "R1.1.13",
+                "change_log": "Add support for offline play\nMigrate save data to Meta servers"
+            },
+            {
+                "version": "R1.1.08",
+                "change_log": "Garden Update Preview"
+            },
+            {
+                "version": "R1.1.07",
+                "change_log": "Garden Update Preview"
+            },
+            {
+                "version": "R1.0.14",
+                "change_log": "Added credits. Added Ground Boundary option in options menu. Added seasonal effects. Replaced tutorial image with an animation. Rotated world 90 degrees to align with default menu scene orientation. Adjusted Depth Buffer Bounds."
+            },
+            {
+                "version": "R1.0.13",
+                "change_log": "•\tIncreased render scale on Quest 2 for greatly improved visuals.\n•\tAdded Time Trial mode and Achievements.\n•\tChanged material on debug menu to be dark themed.\n•\tEnabled AA system for improved visuals on Quest across the board.\n•\tIncreased PLAYER_TAKE_DAMAGE sound effect volume.\n•\tTurned on dynamic Fixed Foveated Rendering to dynamically balance framerate with resolution.\n•\tUpdated handedness check to set the active controller to the one that pulled the trigger last.\n•\tChanged checkpoint unlock waves to be one greater so all prior waves must be cleared before progressing to a checkpoint.\n•\tFixed bug with Linkers` Links remaining linked to objects that respawn on the same frame they are destroyed\n•\tFixed bug where Linkers` Links would link to the center of the dojo's floor if the target they linked to was destroyed the same frame the link was formed.\n•\tUpdated engine version for internal bug fixes.\n•\tChanged Mip Map Aniso Level to reduce noticeable blur on environmental textures.\n•\tChanged Mip Map filter from Box to Kaiser to render sharper details on environmental textures.\n•\tRemoved instance of identical vertices in environmental model to remove z-fighting.\n•\tFixed bug where Linkers would link together before their models became visible.\n•\tFixed bug where Linkers would flash on screen for one frame about half a second before they appear. \n•\tFixed issue with left trigger events being duplicated.\n•\tSpaced data loading over multiple frames to reduce the time loading takes per-frame.\n•\tExtending scene transition time to help cover initialization delays."
+            },
+            {
+                "version": "R1.0.7",
+                "change_log": "Fixed issue with leaderboard updates causing frame drops. Changed player placement on leaderboard."
+            },
+            {
+                "version": "R1.0.3",
+                "change_log": "Post Release Update. Added Social Leaderboards"
+            },
+            {
+                "version": "R1.0.0",
+                "change_log": "QA Final Build"
+            },
+            {
+                "version": "b1.0.0",
+                "change_log": "Updated wave settings to better balance difficulty between waves\nChanged build to beta version code"
+            }
+        ],
         "keywords": [
             "Archery",
             "Hologram",

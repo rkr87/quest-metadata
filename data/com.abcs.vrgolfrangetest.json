@@ -101,6 +101,64 @@
                 "short_description": "自宅でゴルフ練習場が体験できるアプリケーションです。\nボールの挙動などの動作を詳細に調整する前のβ版になることをご了承ください。\n\n利用していただき、改善点などがございましたらコメントに残していただけると幸いです。"
             }
         ],
+        "changelog": [
+            {
+                "version": "0.318",
+                "change_log": "ラウンド機能\n　〇ミニマップ追加\n　　ラウンド全体図と弾道、プレイヤー位置の表示を追加\n\n　〇WaterHazard対応改善\n　　ドロップ位置の追加（特定のドロップ位置がある場合にはそちらに移動します）\n　　動作バグの改善（当たっていないのに池に落ちる判定の修正）\n\nオンライン機能（試験導入中）\n　〇Metaアバターの追加\n　　オンライン機能時にクラブだけだったアバターをMeta社製の\n　　アバターに置き換え\n　〇線共有機能追加\n　　試験的にオンラインユーザ同士で共有できる線（Bボタンで引ける）\n　　を追加、今のところは削除機能は無し\n\n全体\n　〇当たり判定アシスト機能追加\n　　ボールのクラブへの当たりやすさの範囲設定を追加\n　　OFFにすると当たり判定はクラブと同じ大きさとなり\n　　ONにするとクラブよりも当たり判定を大きくできる\n　　数字により大きさを変更\n"
+            },
+            {
+                "version": "0.316",
+                "change_log": "Fixed a bug that clubs that do not match the distance are selected when reset in round mode."
+            },
+            {
+                "version": "0.314",
+                "change_log": "Test implementation of multiplayer mode"
+            },
+            {
+                "version": "0.310",
+                "change_log": "Return to curve treatment of the ball"
+            },
+            {
+                "version": "0.308",
+                "change_log": "Balloon refactoring\nGame mode background music\nBuilding background changes\nRefactoring of HandController"
+            },
+            {
+                "version": "0.305",
+                "change_log": "Putter mode added\nPutter grit added to round mode"
+            },
+            {
+                "version": "0.304",
+                "change_log": "Added swing playback slider in range mode"
+            },
+            {
+                "version": "0.303",
+                "change_log": "Unity version 2020.3.20f1 → 2021.3.9f1\nOculusIntegration 1.52.1 → 1.75.0\nFixed bug with ball movement in round mode\nFixed automatic club change in round mode\nOptimization of driving contests"
+            },
+            {
+                "version": "0.302",
+                "change_log": "Can select which controller to use"
+            },
+            {
+                "version": "0.301",
+                "change_log": "UI transparency process\nPlayer object prefab\nRaised OB line\nFixed Waterhazard processing for Itoigawa 8h"
+            },
+            {
+                "version": "0.3",
+                "change_log": " Addition of Itoigawa Country Club course\n Addition of golf club types\n Detailed specifications of round mode changed.\n Left-handed clubs can be used with right-handed controllers"
+            },
+            {
+                "version": "0.201",
+                "change_log": "Left-handed\nImprovement of round mode hit difficulty\nAdded putting practice to range mode.\nOther minor bug fixes"
+            },
+            {
+                "version": "0.1",
+                "change_log": "Additional holes 8-9 at GDO Chigasaki Golf Links\nDefine the course in round mode."
+            },
+            {
+                "version": "0.1",
+                "change_log": "'Unity's splash is gone."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

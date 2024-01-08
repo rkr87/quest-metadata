@@ -55,19 +55,19 @@
             },
             {
                 "rating": 2,
-                "votes": 304
+                "votes": 305
             },
             {
                 "rating": 3,
-                "votes": 501
+                "votes": 502
             },
             {
                 "rating": 4,
-                "votes": 1279
+                "votes": 1280
             },
             {
                 "rating": 5,
-                "votes": 4259
+                "votes": 4260
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -97,6 +97,88 @@
             "logo_transparent": "75429295_914537828990294_1293018510259126272_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "main-1.6.1.0.41739",
+                "change_log": "Branch: /main/Xmas 2023/Quests - Changeset Number: 41739"
+            },
+            {
+                "version": "main-1.6.1.0.41631",
+                "change_log": "Branch: /main/Xmas2022Fix - Changeset Number: 41631"
+            },
+            {
+                "version": "main-1.6.1.0.41373",
+                "change_log": "Branch: /main/1.6.1 - Changeset Number: 41373"
+            },
+            {
+                "version": "main-1.6.0.0.41151",
+                "change_log": "Branch: /main/TOW-21416 FlashbangBag - Changeset Number: 41151"
+            },
+            {
+                "version": "main-1.6.0.0.41021",
+                "change_log": "Branch: /main/1.6.0 - Changeset Number: 41021"
+            },
+            {
+                "version": "main-1.6.0.0.40980",
+                "change_log": "Branch: /main/1.6.0 - Changeset Number: 40980"
+            },
+            {
+                "version": "main-1.5.4.0.40743",
+                "change_log": "Branch: /main/1.5.4 - Changeset Number: 40743"
+            },
+            {
+                "version": "main-1.5.3.0.40311",
+                "change_log": "Branch: /main/1.5.3 - Changeset Number: 40311"
+            },
+            {
+                "version": "main-1.5.2.2.39839",
+                "change_log": "Branch: /main/1.5.2.2 - Changeset Number: 39839"
+            },
+            {
+                "version": "main-1.5.2.1.39547",
+                "change_log": "Branch: /main - Changeset Number: 39547"
+            },
+            {
+                "version": "main-1.5.2.0.39511",
+                "change_log": "Branch: /main - Changeset Number: 39511"
+            },
+            {
+                "version": "main-1.5.1.1.38923",
+                "change_log": "Branch: /main - Changeset Number: 38923"
+            },
+            {
+                "version": "main-1.5.1.1.38320",
+                "change_log": "Branch: /main - Changeset Number: 38320"
+            },
+            {
+                "version": "main-0.1.5.38156",
+                "change_log": "Branch: /main/1.5.2/remove sdk upgrade - Changeset Number: 38156"
+            },
+            {
+                "version": "main-0.1.5.38023",
+                "change_log": "Branch: /main - Changeset Number: 38023"
+            },
+            {
+                "version": "main-0.1.5.37820",
+                "change_log": "Branch: /main - Changeset Number: 37820"
+            },
+            {
+                "version": "main-0.1.5.37585",
+                "change_log": "Branch: /main - Changeset Number: 37585"
+            },
+            {
+                "version": "main-0.1.5.37420",
+                "change_log": "Branch: /develop/FeatureLock_0.1.5/1.5.1.1 cosmetics update - Changeset Number: 37420"
+            },
+            {
+                "version": "main-0.1.5.37216",
+                "change_log": "Fixes\n- Quest photos are in an easy-to-access location for players to share\n- Max health no longer gets reset\n- Climbing-zone loot rebalance\n- Building items in the town no longer create 'doubles'"
+            },
+            {
+                "version": "main-0.1.5.37117",
+                "change_log": "Update 0.1.5 introduces a new seasonal experience, fixes quality-of-life issues and enhances the previous climbing release!\n\nImportant\n- A bug in 0.1.4 means that even if you completed the climbing tower, you probably don't have full stamina unlocked. You will need to re-complete the tower in 0.1.5.\n- We disabled drop your gear and bag when you die on all servers today; see the last blog for details on how to re-enable it.\n\n\nAdditions\n- Christmas festive zone with a seasonal quest where you can get a free cosmetic item\n- Four new climbing areas\n- A floating orb that will help players on new servers identify the most important resource boxes\n- A new loading screen\n- Death ferns in the Quest version of the game\n- Visual indicators for grab assist\n- Labels for the quick-access menu items\n- The camera now works on Quest\n- Repair boxes and actions that require resources are easier to use\n- Server search\n- Redwood Cores added to Quest (in the chests in the new climbing areas)\n- New Hebios towers and climbing ropes\n\nChanges\n- Shaking your hands to regain stamina is now based on a % of max stamina per second, rather than a flat rate.\n- Handhover interactions should have more obvious visual feedback\n- Stamina, health, and hunger UI is cleaner\n- Accessibility settings are on by default\n\nFixes\n- You no longer regain stamina while climbing at speed (it starts refilling after 0.3 seconds of staying still)\n- Player bags have friction now\n- The \"you got kicked\" message is displayed correctly on the client\n- Various small issues"
+            }
+        ],
         "keywords": [
             "Multiplayer",
             "Fantasy",
@@ -105,8 +187,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 7250,
-        "rating": 4.059172,
+        "votes": 7254,
+        "rating": 4.058864,
         "weighted_rating": 4.06,
         "is_available": true,
         "is_free": false

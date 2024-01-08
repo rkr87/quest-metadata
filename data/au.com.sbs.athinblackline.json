@@ -90,6 +90,12 @@
             "logo_transparent": "11162763_1883763618621035_7026703329619083264_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1",
+                "change_log": "A Thin Black Line - January 2018 Modifications\r\nBuild v27 - 15/01/2018\r\n\r\nOculus Test Issues & Resolutions\r\n● VRC.Mobile.Security.1\r\n○ Resolved via adding Oculus platform SDK and invoking AppID check on\r\nstartup.\r\n● VRC.Mobile.Input.1\r\n○ Resolved via improvements to HMD control in section below. (Now we\r\nexplicitly support HMD and GearVR controller inputs so message is no longer\r\nrequired)\r\n● App Installation Test\r\n○ Resolved via changing Unity minimum API to Lollipop (previously set to\r\nMarshmallow)\r\n● Reserved Interactions Test\r\n○ Resolved via addition of Oculus Platform Menu script to Master scene.\r\n● Graphics Test & Functional Test\r\n○ Resolved via fix to App Installation Test.\r\n\r\nImprovements\r\n● Support for HMD control\r\n○ App detects presence/absence of GearVR controller and falls back to HMD if\r\nrequired.\r\n○ Instructional graphics for controller changes between HMD/Controller\r\ndepending on which is active and available (preference to GearVR controller).\r\n○ Interactions throughout experience able to be advanced via HMD input.\r\n● Updates to all interactions\r\n○ Pick up Picture\r\n○ Pick up Doll from father\r\n○ Look at family in crowd\r\n○ Look at father on gangplank\r\n○ Look into window on deck\r\n○ Pick up father\r\n○ Pickup doll in cairns\r\n● \"Speed line\" signposting appears if interaction is not completed in a timely fashion.\r\n● All interactions (except look at father on gangplank) require pressing the touchpad of\r\nController or HMD to invoke, replacing the temporal trigger in previous version.\r\n● Hands turned off during Intro Credits\r\n○ Hands fade in from black so that transition is not too severe."
+            }
+        ],
         "keywords": [
             "Animation",
             "Documentary",

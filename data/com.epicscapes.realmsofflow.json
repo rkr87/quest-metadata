@@ -79,6 +79,44 @@
             "logo_transparent": "39031636_6060752907370241_7711013442721188115_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.16",
+                "change_log": "Realms of Flow 1.0.16 | Changelog - 10.12.2023\n\n- Added two new experiences: \"Vivid Flow\" and \"Edge of Now\"\n- Added six new German voice-overs (all 12 experiences have an English and German version now) and a German version of the tutorial\n- Added selectable spatial sound types (5 categories additional to the respective experience-specific tones as well as a \"Mix All\" option - more categories will follow)\n- Added two new styles for the visual breath focus object and a new breath-timing sound-indicator type\n- Quest standalone version: Eliminated the need to download experiences in-app. All content will now automatically be downloaded during installation time. 🎉\n- Added a \"Mirror\" Option to vertically mirror the upper or lower half of the main and/or secondary peripheral visuals. Which half is mirrorred depends on the \"Flip\" setting.\nThis gives some very interesting effects in some experiences e.g. the sky being above and beneath you in \"Timeless Being\".\n- The main visuals can now be set closer than before and will also automatically be closer than before with higher \"Extra Depth\" values. The recommended defaults for \"Distance\" and \"Extra Depth\" are marked on the sliders with green dots while using the right thumbstick control.\n- Added \"Extended Out-Breath\" option for the \"Auto\" breath tempo mode, which makes the out-breath phase twice as long as the in-breath phase. This is very effective in lowering heart rate and increasing heart rate variability (HRV). If coupled with an Auto Tempo of ~10s (= 6 breaths per minute) you are using a calm-inducing breathing technique called \"Resonance Breathing\".\nIf you are interested in the science you can read more about it e.g. here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8924557/\n- Added \"Follow View\" option, which makes the scene follow your head's rotation with a smooth lag. Useful e.g. of you are lying in bed and want to able to turn around without having to reset the view manually. \n- Added \"Opacity\" slider for the humming visuals\n- Improved comfort with the \"Circular\" humming visual style by slowing down it's expansion at the periphery \n- Improved adaption of the humming rumble effect to different scene-depth/distance settings\n- Improved alignment of the triangular breath focus object to the scene with the \"Reset includes Roll Axis\" option enabled (now called \"Optimised Reset for Reclining\") \n- Improvements to the spatial sound visuals \n- Improved the transition out of an experience when \"Open-End\" is disabled. There is now a 30 sec. cool down, where music, environment sounds and visuals will fade away one after another, before re-entering the Home menu.\n- Fixed an issue with spatial sounds occasionally disappearing abruptly \n- Fixed an issue with the spatial sound visuals not featuring all available types when set to \"Mix\"\n- Added a short sound preview in the menu when selecting any menu option that is related to choosing a sound type\n- Improved initial appearance/timing of the visual breath focus object\n- Fixed an occasional black intersection artifact for the main visuals with high settings of \"Distance\" and \"Extra Depth\" combined\n- Fixed: Tutorial was not working correctly if user previously changed and saved certain settings (e.g. disabled voice-over)\n- Improved visibility of the Tutorial button if not yet completed \n- Fixed a bug where the volume slider for the voice-over would not work correctly when the volume was previously set to 0 by disabling voice in the Session Timing options\n- Fixed particle effects randomly appearing (popping in/out) when starting a further experience\n- Fixed (hopefully) occasional white flickering artifacts (strange bug on Quest with some system versions)\n- Removed \"Resume\" option in the Home menu, since it caused too many issues down the line and was not very useful. On Oculus headsets you can still automatically pause and resume an experience anytime by removing the headset and putting back on or by opening/closing the system menu overlay.\n- various other tweaks and fixes"
+            },
+            {
+                "version": "0.9.10.11",
+                "change_log": "The new experience \"Bliss of the Quest\" and three new German voice-overs (experiences 4-6) have been added."
+            },
+            {
+                "version": "0.9.9.10",
+                "change_log": "New experience \"Light of Life\" and German voice-overs for the first three experiences."
+            },
+            {
+                "version": "0.9.8.9",
+                "change_log": "230717_0.9.8.9_DL-ability"
+            },
+            {
+                "version": "0.9.6.5",
+                "change_log": "0.9.6.5"
+            },
+            {
+                "version": "0.9.8.6",
+                "change_log": "230716_0.9.6.8"
+            },
+            {
+                "version": "0.9.6.4",
+                "change_log": "0.9.6.4"
+            },
+            {
+                "version": "0.9.6.3",
+                "change_log": "0.9.6.3_3"
+            },
+            {
+                "version": "0.9.6.1",
+                "change_log": "0.9.6.1_2"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

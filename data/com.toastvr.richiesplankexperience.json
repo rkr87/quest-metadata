@@ -53,11 +53,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 493
+                "votes": 494
             },
             {
                 "rating": 2,
-                "votes": 260
+                "votes": 261
             },
             {
                 "rating": 3,
@@ -69,7 +69,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1687
+                "votes": 1688
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -96,6 +96,60 @@
             "logo_transparent": "38974672_205219830392831_1495976339428081664_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.0.6",
+                "change_log": "* Made gifts spawn in exact starting positions and start simulating in virtual space immediately to eliminated any physics issues\n* Reduced respawn time of gifts\n* Removed any physics starting issues with change to simulation architecture\n* Further tweaked colliders to clear the exit button regardless of what gifts might be there\n* Moved velocity calculations to lateupdate to remove race conditions\n* Re-baked canyon to allow build\n* Removed probuilder mesh from RPE scene that was causing build issue due to malformed color array\n* Made clear separation of resetting gifts and respawning gifts\n* Gave gifts the authority to handle the behaviour of their reset and respawn orientation\n* Fixed bug where hand interaction pinch was working intermittently for UI elements such as \"next\" button\n* Fixed bug where going back to EULA 2nd time would not show next button, making user stuck\n* Fixed bad scale on the dlc panel in some edge cases\n* Fixed issue where dlc panel incorrectly opens when leaving hero academy instead of on arrive at plank\n* Replaced shooting star particle shader in order to fix culling / weird render order issue"
+            },
+            {
+                "version": "2.0.2",
+                "change_log": "Hot fix to address mipmapping issues."
+            },
+            {
+                "version": "2.0.1",
+                "change_log": "Hotfix to remove FFR effect on Quest 3."
+            },
+            {
+                "version": "2.0",
+                "change_log": "🔸Added Mixed Reality plank setup. \n🔸Added passthrough elevator mode. With option to turn it on and off inside the elevator. \n🔸Added optional Canyon DLC\n\nCity Graphics Improvements:\n🔸Stronger fog\n🔸Fog clamped to max 80% influence.\n🔸Improved the road textures\n🔸Much Larger AO distance. This gives nicer AO from whole buildings. Not just nooks.\n🔸Increase light strength to compensate for larger AO distance.\n🔸Photoscan elements added under plank top floor and to the right top floor.\n🔸Lower horizon on sky box.\n🔸Added mountains to sky box to blend in better with mesh mountains and add extra layer.\n🔸Scaled down terrain height on Y axis. Didn't think it'd work, but it did! Especially with improved mountains.\n🔸Removed plants either side of plank on ground floor.\n🔸Made elevator use light probes instead of light bake.\n🔸Added light casting on to ground from the elevator.\n🔸Added more vertex colouring to more buildings.\n🔸Added tree back in the park.\n🔸More clouds at various heights between plank and ground.\n🔸Desaturated colours in atlas texture.\n🔸Changed some of the old building textures to more modern glass building layouts. Main one was building to the immediate left of the plank.\n🔸Added better noise detail to the normal map for glass of buildings. This gives the bowing glass effect that happens in real life. Either from wind or from age or from mounting flex.\n🔸Added slight variation to the base normal map colour of some windows using photoshop. This adds a slight variation in angle to the base layer of each pane of glass. This simulates the slight variation in mounting angle of glass. This added a weakness of some showing relfection as smaller or bigger sometimes. I feel like the benefit still outweighed this negative.\n🔸Added bin to the right of ground floor to hide weaknesses in the building join.\n🔸Added low fence to the park. Huge improvement!\n🔸Added low railing to roofs of buildings closest to the plank.\n🔸Reduced overhang of building across from plank. This exposes more nice glass.\n🔸3x higher quality light bake.\n🔸Added more fake shadows to break up boring street to the left of the plank.\n🔸Bigger god ray on top floor. Adjusted colour and strength."
+            },
+            {
+                "version": "1.9.1",
+                "change_log": "Free Christmas Update! On the ground floor, next to the elevator, you'll find a bell. Give it a ring to take a sleigh ride from the North Pole to the city. \nEnjoy the scenery or become Santa and deliver presents to everyone on your good list."
+            },
+            {
+                "version": "1.8.47",
+                "change_log": "Fixed the crash bug for some users who haven't got the Oculus System update yet.\nFixed the right controller bug when hand tracking is enabled.\nRe-enabled the re-centering option. (Still use plank setup if using a real plank)\nAdjusted lighting of hand tracking shader.\n\n\n"
+            },
+            {
+                "version": "1.8.46",
+                "change_log": "Crash bug is fixed.\nHand tracking re-enabled. \nQuest 2 controller positions are fixed."
+            },
+            {
+                "version": "1.8.45",
+                "change_log": "Crashing on Launch bug is fixed. It was due to the headset not having the latest Oculus system update V23\nAdded \"swap behind your head\" to the Fire Fighting mission."
+            },
+            {
+                "version": "1.8.44",
+                "change_log": "Update 1.8.44 on 18th December 2020\n\nVISUAL\nBigger city. 20 new buildings.\n4k textures for Roads and footpaths.\nLinear color space.\nMore clouds.\nPhoto-sourced terrain texture.\nFake bloom directional light. (Gives a slight sun-burned glow to everything)\nReplaced low poly tree with a high poly statue for nice lighting.\nGravity Radio billboard.\nColorful flags on ground floor.\nAdjusted aircon vent vapor intensity.\nBigger god ray on ground floor.\nMore god ray particles.\nHigher res cars.\nMore reflections on more buildings.\nImproved building shader with stronger reflections and even more performant.\nPhoto-real texture for roads.\nFixed reflection bug in elevator. (not sure how)\nAdded more shadow trickery to break up bright areas.\nUsed more use of vertex colors for more pops of color.\nIncreased saturation of hot air balloon color.\nRemastered aircon blades.\nNew texture for rooftop details.\nRemastered building to the left of the plank.\nAdjusted position of wind generators.\nGravity Signs.\nRemastered park texture.\nSmaller birds. (They were too big)\n\nSOUND\nIncreased helicoptor volume distance.\n\n\nUI\nRearranged UI text to be a bit more neater\n\nUX\nRecentering isn't advised. Use plank setup!\nRecentering message won't happen when you take the headset off anymore. This may lead to drift in the plank position sometimes.\n\nJoin the developers on Discord at: toast.gg/discord\n"
+            },
+            {
+                "version": "1.8.42",
+                "change_log": "Changlog 1.8.42:\nBug fixes\n- Fixed a bug where the nightmare mode phone table appears purple\n- Fixed a bug where the Hero Academy podiums appear in incorrect modes."
+            },
+            {
+                "version": "1.8.40",
+                "change_log": "Bug fixes:\n- Anti Aliasing is now re-enabled.\n- The invisible button on the Safety Warning is now removed."
+            },
+            {
+                "version": "1.8.37",
+                "change_log": "- Hand tracking now available.\n- Added Grip detection for grabbing. Now grabbing can be performed by naturally gripping your hands as well as pinching the index finger.\n- Hand no longer pushes objects away when attempting to grab.\n- Added a \"Recenter\" button in the game menu.\n- New hand appearance (blue)\n- System gesture hand appearance (yellow) to indicate that system gestures can be performed (menu button and Oculus Home button)\n- Fixed a bug where multiple select sounds play when the hand enters the nightmare mode elevator panel.\n- Fixed a bug where the Quest controllers appear on the calibration room screen.\n- Fixed a bug where selecting lasers appear between the player's eyes when a hand loses tracking."
+            },
+            {
+                "version": "1.8.34",
+                "change_log": "Updated the billboard with the DIGNITY message."
+            }
+        ],
         "keywords": [
             "richie",
             "plank",
@@ -106,8 +160,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 3567,
-        "rating": 3.80628,
+        "votes": 3570,
+        "rating": 3.805322,
         "weighted_rating": 3.81,
         "is_available": true,
         "is_free": false

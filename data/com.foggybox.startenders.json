@@ -219,6 +219,56 @@
                 "short_description": "Prepárate para un reclutamiento inesperado en la Academia de Startenders. Tu meta es crear bebidas extrañas para tus pintorescos clientes con la esperanza de que nadie descubra que no tienes la menor idea de lo que está sucediendo.\n\nDate rienda suelta con la coctelera, una colección de máquinas locas y montones de ingredientes para mezclar, ábrete paso por el universo agitando el sirviendo."
             }
         ],
+        "changelog": [
+            {
+                "version": "2.0.5855_2cc1f3466",
+                "change_log": "Release 2.0.5855_2cc1f3466"
+            },
+            {
+                "version": "2.0.5820_51e121a36",
+                "change_log": "Release 2.0.5820_51e121a36\nProgression Changes - \nSpecial ingredients are now given to you on completing certain shifts. This is awarded to you with a brief explanation of how the ingredient can be used. (If you haven’t purchased these in the store before this update you will auto unlock the items you would have with the new progression changes)\n\nPlayers are still able to buy ingredient variants in the store, fruits, sodas, bartaps and canisters.\n\nNew Music Tracks - \nTwo new music tracks added to the bar and habitat\n\nBar Tap Snap Zones - \nPlacing cups under the bar taps will now socket them. This means you do not have to accurately position the cup under the tap. Increasing player flow.\n\nFluidizer Mk1 Snap Zones - \nPlacing cups under the fluidizer Mk1 will now socket them. This means you do not have to accurately position the cup under the tap. Increasing player flow.\n\nObjects falling through bar - \nExtra colliders have been added to the bar which should help stop small items falling through the bar sometimes.\n\nWorkshop Fix - \nThe workshop will now close when you leave it, this was causing a bug where it wouldn’t update new blueprint purchases if you had previously been to the workshop.\n\nIf you find any bugs or have suggestions feel free to reach out to contact@foggybox.co.uk or join our discord via Joinstartenders.com"
+            },
+            {
+                "version": "2.0.5806_1b6d46930",
+                "change_log": "Hotfix\nBeteljuice fix to ensure correct unlock"
+            },
+            {
+                "version": "2.0.5787_572f4fffb",
+                "change_log": "[Hotfix]\nFixed Startenders not starting if device has no internet connection\nIncreased tracked grabbables to mitigate \"Infinite Fountain Spawning\" on grabbables."
+            },
+            {
+                "version": "2.0.5702_da02f2cc8",
+                "change_log": "ADDED\nHands 2.0\nEndless Mode\nTimers On - Allows you to put your drinks served on a persistent global leaderboard\nTimers Off - Laid back and casual endless mode\n\nStar Tokens\nStar tokens will be awarded to you when serving a perfect 100% accurate drink. These can be earned in Campaign or Endless Modes\n\nLucky Stars Machine\nSpend your tokens on the chance to unlock cosmetics\n\nCosmetics\nEquip RILEE with hats\nCap\nCat Ears\nCopter Hat\nAdventurer Hat\nDisguise\nDunce Cap\nAlien Eyes\nFrosted Tips\nMohawk\nParty Hat\nSombrero\nTop Hat\nTricorn\nWoolly Hat\nWitch Hat\nPumpkin Hat\n\nPlace bobbleheads on your Barship bar\nAquasian\nGranitian\nGrondian\nMantoid\nSiimalon\nAcademy\nRILEE\nBarship\nTim\n\nGive yourself some new Startender gloves\nRobot Hands + variants \nCrab Claws + variants \nWolvian Hands + variants \nAstronaut Gloves + variants \nWashing up gloves + variants \nGrondian Claws + variants \nStartender Gloves + variants \n\nNew Secret Ingredient\n\nMk2 Decontaminated Cup Return\nMk3 Decontaminated Cup Return\n\nUnbreakable Glasses Upgrade\n\nMK3 Fluidiser will now display the icon of the item that is fluidised\n\nNoot Alien will now display the action command when it is ready to be squeezed\n\nIngredients in shop will now show a brief description of the actions needed to use the item in shifts, also clearer if purchased\n\nToken and Kredit VFX on served drinks\n\nNew Music Track\n\nCHANGES \nSettings - \nNew Settings Layout\nRotate on Teleport - Turn on/off auto rotation on teleporting\nRILEE VO - turn on/off RILEE’s idle VO\nSnap Turning modes - Switch between snap turning rotation via the head position or the Playspace origin (This should help seated players maintain their position in the bar)\n\nImpressing customers fully will give a bigger boost to waiting time.\nBarship UI Changes\nHUB Overhaul\nShop Overhaul\nBarship machine selector\nCustomers can dance whilst waiting for drinks\nMachines built achievement now requires MK2/3 Contaminated Return machines\nTweaked tutorial lines to try and better explain impressions and timers of customers\nIon Grease will now reset after 10 seconds if not grabbed once used.\nFree Mix Overhaul\nMore Freemix slots (99)\nShift 13 replaced with infinity symbol to help represent infinite shifts\nPricing on Blueprints and Machines\nBottle caps left on floor will auto destroy after 20 seconds\nButtons and Scrolling entirely re-done and more accurate\nDorts Overhaul\nCustomers' walk speed has increased\nLayout changes for customers in Ninsiima Outpost\n\nFIXES\nDoor SFX\nDorts lag fixes\nDrink accuracy calculation\nDrink reward calculation\nThrottle HFX/SFX\nDifficulty choice selector bug\nGarnishes are now locked when trying to remove the shaker\nTotal Kredits Earned - Now actually tracked\nTotal Kredits Spent - Now actually tracked\nTotal Drinks Served - Now correctly tracked\nFinoleum can now be put back in the Quantum Cupboard\nSparkler SFX not stopping on destroy\nAnti Matter/ Anti Anti Matter SFX not stopping on destroy\nQuantum Mass SFX not stopping on destroy\nSoft Particles being invisible sometimes\nSubtitles break when disabled in settings when active in scene\nSome Items not correctly spawning in the delivery crates\nSpraying MK3 guns upwards and depleting them causes null reference error\n\nRelease 2.0.5702_da02f2cc8"
+            },
+            {
+                "version": "1.5.5253_7db041191",
+                "change_log": "Release 1.5.5253_7db041191\nFixes custom drinks not being accepted"
+            },
+            {
+                "version": "1.5.5193_5ce301f12",
+                "change_log": "Release 1.5.5193_5ce301f12\nHotfix 4 - \nCanister opener will stop spawning underneath the counter if you have raised the height before entering a bar."
+            },
+            {
+                "version": "1.4.5176_e7a031fe9",
+                "change_log": "Release 1.4.5176_e7a031fe9\nHot Fix 3 -\nAdded\nAnalytics\n\nChanges\nShift balancing - Progression Ramp should be much nicer for newer players\nLoading Bar flipped - Because it looks better\n\nFixes\nCanister Breaching Unit now resets when lost\nSockets are now more reactive to fast paced players\nGarnishes easier to put on and remove\n"
+            },
+            {
+                "version": "1.4.4762_07a906671",
+                "change_log": "Release 1.4.4762_07a906671\n\nStartenders Minor Update 2\nFixed - Thumbs up icon not appearing in tutorial when in hands mode\nFixed - Fluidiser Mk3 guns not longer appear in the middle of the room when not active\nFixed - Decontaminator MK3 hides socketed cups when not active\nAdded - Easy Reach - The player can toggle \"Easy Reach\" to reach less for far away objects (Replacing seated mode toggle)\nAdded - Height offset - Can now adjust \"height offset\" to increase or decrease camera height (Replacing seated mode toggle)\nChanged - Short mode toggle - Removed and split into 2 options\nChanged - Infuser MK3 should now be less prone to accidental button hits\nChanged - Thermo Canisters for Infuser will now auto destroy and respawn after 5 seconds"
+            },
+            {
+                "version": "1.4.4742_708a2afd6",
+                "change_log": "Release 1.4.4742_708a2afd6\n\nStartenders (Minor Update 1)\n- Fixed inaccesible weld points on certain Blueprints in the Workshop\n- Fixed FPS drop on Quest 1 when looking at certain visual effects\n- Fixed Rocket Fuel bottle cap being hard to grab\n- Fixed some visual artifacts on containers in the Bar Ship\n- Fixed an issue with the Consider Me Impressed Achievement\n- Fixed waiting customers not performing talk animation when playing voice lines\n- Fixed some haptics being so strong they visibly vibrate objects in game\n- Fixed Infuser allowing to infuse with no glass\n- Fixed no music during credits\n- Updated several translations causing incorrect voice lines"
+            },
+            {
+                "version": "1.3.4698_3177d8086",
+                "change_log": "Release 1.3.4698_3177d8086\n\nStartenders Minor Update 2\nFixed - Thumbs up icon not appearing in tutorial when in hands mode\nFixed - Fluidiser Mk3 guns not longer appear in the middle of the room when not active\nFixed - Decontaminator MK3 hides socketed cups when not active\nAdded - Easy Reach - The player can toggle \"Easy Reach\" to reach less for far away objects (Replacing seated mode toggle)\nAdded - Height offset - Can now adjust \"height offset\" to increase or decrease camera height (Replacing seated mode toggle)\nChanged - Short mode toggle - Removed and split into 2 options\nChanged - Infuser MK3 should now be less prone to accidental button hits\nChanged - Thermo Canisters for Infuser will now auto destroy and respawn after 5 seconds"
+            },
+            {
+                "version": "0.1.4429_da3f60b09",
+                "change_log": "Release 0.1.4429_da3f60b09"
+            }
+        ],
         "keywords": [
             "Bartender",
             "Space",

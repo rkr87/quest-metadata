@@ -84,6 +84,76 @@
             "logo_transparent": "75269300_383151143699006_8888224846304353460_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.3",
+                "change_log": "Winter Update Patch 2"
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "Winter Update Patch"
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "Winter Update Patch"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "Winter Update!"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "New Map!!"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "Early Access Cosmetics!"
+            },
+            {
+                "version": "1.0.9",
+                "change_log": "New Waterslide\n\nAdded back Zones Gamemode\n\nAdded Casual Gamemode\n\nOverhauled Gamemode system\n\nZone Tweaks\n\nBug Fixes"
+            },
+            {
+                "version": "1.0.9",
+                "change_log": "Waterslide\n\nNew Gamemode Switcher\n\nAdded back Zones Gamemode\n\nAdded Casual Gamemode\n\nBug Fixes"
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "Bug Fixes"
+            },
+            {
+                "version": "1.0.7",
+                "change_log": "Added adaptive sounds\n\nFixed room joining\n\nAdded particles\n\nFixed slider behavior"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "Turtle Ball Test"
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "CHANGELOG\n\n- Added Leaderboard\n\n- Players now collide\n\n- Changed sound FX volumes\n\n- Decreased haptic intensity\n\n- Added waterfall sound FX\n\n\nBUG FIXES\n\n- Manhunt game mode should now function\n\n- Fixed hand hitbox\n\n- Fixed hand rotation not syncing between players\n\n- Players out of the map will teleport to spawn"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "CHANGELOG\n\n- New Current Streams\n\n- New setting to mute and report players\n\n- New \"manhunt\" game mode\n\nBUG FIXES\n\n- Players on old versions can no longer join updated servers\n\n- Games ending early should be fixed again\n\n- Patched an out of map exploit\n\n- Matchmaking is more random\n\n- Networking improvements\n\n- Fixed game mode not saving\n\n- Client names now update on room sign"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "CHANGELOG\n\n- New Current Streams\n\n- New setting to mute and report players\n\n- New \"manhunt\" game mode\n\nBUG FIXES\n\n- Players on old versions can no longer join updated servers\n\n- Games ending early should be fixed again\n\n- Patched an out of map exploit\n\n- Matchmaking is more random\n\n- Networking improvements"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "CHANGELOG\n\n- Frozen players are given the 'Ice Turtle' visual\n\n- Last player to zone no longer will become an 'Ice Turtle'\n\n- Any player in the zone will trigger a countdown\n\n- After the countdown, any player outside of zone will become an 'Ice Turtle'\n\n- Countdown progressively speeds up as round continues\n\n- Added leaderboard\n\n- Each round the winning player is given 10 points.\n\n\nBUG FIXES\n\n- 'Ice Turtle' can now freeze players\n\n- Fixed bugs related to rendering order\n\n- Private rooms are now removed from available rooms\n\n- Reduced voice chat bitrate\n\n- Reduced network calls\n\n- Performance improvements"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "CHANGELOG\n\n- Testing new game mode\n\n- Added toggle for joystick turn\n\n\nBUG FIXES\n\n- Tag sound no longer plays for entire server\n\n- If all tagged players leave a new one is selected"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "CHANGELOG\n\n- Implemented snap turn\n- Implemented smooth turn\n- Added tutorial area\n- Added player volume slider\n- Waterfall splash\n- Increased default swim speed\n- Decreased climb friction\n- Players can now see if they are out\n- Out players now have 'frozen' skin\n- Out players no longer slow down players\n- Out players now temporarily freeze players\n- At the start of a round, a random player is automatically 'frozen'\n- Safe zone size changes with remaining players\n- Players out of map will respawn\n- Changed zone warning color to orange\n- Implemented moderate name moderation\n\nBUG FIXES\n\n- Players can no longer get out of map\n- Fixed players freezing when zone resets\n- Players are now visible through water\n- Fixed players spawning under the map\n- Fixed game ending early\n- Added colliders to climbing rocks\n- Performance improvements"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

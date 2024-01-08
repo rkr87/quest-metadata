@@ -60,8 +60,8 @@
         ],
         "tags": [
             "Tag",
-            "Experiences & Narratives",
-            "Entertainment: Top Free"
+            "Entertainment: Top Free",
+            "Experiences & Narratives"
         ],
         "hist": [
             {
@@ -78,7 +78,7 @@
             },
             {
                 "rating": 4,
-                "votes": 196
+                "votes": 197
             },
             {
                 "rating": 5,
@@ -109,6 +109,68 @@
             "logo_transparent": "39035308_2524257097595025_8767967909906481152_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.6.0.3984",
+                "change_log": "Introduce new Prime City environment with day / night cycle. Add new season selector for TV detail pages. Update startup mnemonic. Full Quest 2 support. Fixed bug for viewing content without tracking. Various bug fixes and optimizations."
+            },
+            {
+                "version": "1.6.0.3981",
+                "change_log": "Introduce new Prime City environment with day / night cycle. Add new season selector for TV detail pages. Update startup mnemonic. Full Quest 2 support. Various bug fixes and optimizations."
+            },
+            {
+                "version": "1.5.1.3925",
+                "change_log": "Bug fixes and optimizations. Fixed problem where application would sometimes get stuck loading."
+            },
+            {
+                "version": "1.5.0.3756",
+                "change_log": "Bug fixes and optimizations. Fixed problem where application would sometimes get stuck loading"
+            },
+            {
+                "version": "1.5.0.3713",
+                "change_log": "Bug fixes and optimizations."
+            },
+            {
+                "version": "1.5.0.3679",
+                "change_log": "Bug fixes and optimizations."
+            },
+            {
+                "version": "1.5.0.3659",
+                "change_log": "Allow to register device with Code Based Linking on a separate device, bug fixes."
+            },
+            {
+                "version": "1.4.0.3612",
+                "change_log": "Bug fixes and optimizations."
+            },
+            {
+                "version": "1.4.0.3588",
+                "change_log": "Bug fixes and optimizations."
+            },
+            {
+                "version": "1.4.0.3541",
+                "change_log": "Added Skip Intro button while playing TV show Introductions. Display episode progress on next up card. Added support for thumbstick clicks to navigate on Quest. You can now watch ads supported free content."
+            },
+            {
+                "version": "1.3.0.3439",
+                "change_log": "Added Skip Intro button while playing TV show Introductions. Display episode progress on next up card. Added support for thumbstick clicks to navigate on Quest. You can now watch ads supported free content."
+            },
+            {
+                "version": "1.3.0.3321",
+                "change_log": "Add support to bypass Parental Control using customer's PIN. Added new theater. Enable Lex for English speakers. Ignore swipe input from non-active controller. Fix clipping on Ferris Wheel."
+            },
+            {
+                "version": "1.2.0.3175",
+                "change_log": "Fix parental control playback issue. Removes voice search gesture activation. Removes empty rows on keyboard when not in use. Fixes frame rate drops when scrolling through “see more” grid. Adjustments to clickable area in video playback controls. Prevents swipe up/down events from happening while user is holding a scroll handle. Thumbnail and seek now correctly cancel if controls are hidden while seeking. Correctly re-centers user when changing environments. Optimizes marquee texture."
+            },
+            {
+                "version": "1.2.0.3061",
+                "change_log": "Added fix for 4126 error after login code is invalid.\n\nUpdated collision geometry in theater to prevent dimming during normal use.\n\nFixed issue where voice searches paused audio after first use.\n\nAddressed frame rate drops when scrolling through see more grid.\n\nUpdated boundary system to use environment specific collision geometry.\n\nIntegrated new building mesh in the Prime City environment to prevent z-fighting.\n\nAdded tilting to hover cards based on pointer position.\n\nFixed height of search page input field.\n\nAdded transition animation to 'Add to Watchlist' button.\n\nUpdated the title and placeholder for search.\n\nFixed code-based login timeout and error state.\n\nAdded fix to prevent logical 'press' events while at least one physical button is down.\n\nExtended audio clip for button press sound.\n\nFixed long loading dialog to also denote page loads\n\nAddressed billboards not rendering Amazon logo.\n\nFixed frame hitch from trick play manager."
+            },
+            {
+                "version": "1.1.0.2913",
+                "change_log": "Fixed reported issue affecting some customers where the cursor would disappear preventing further use of the application. Fixed issue where Customer unable to exit theater after watch next during move screen. Fixed issue where Customer gets trapped in Prime City environment with no UI showing after accessing subtitle menu in Theater. Fixed issue where audio is disabled and framerate greatly decreases after accessing Voice Search."
+            }
+        ],
         "keywords": [
             "amazon",
             "prime",
@@ -118,8 +180,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 2712,
-        "rating": 2.095501,
+        "votes": 2713,
+        "rating": 2.096203,
         "weighted_rating": 2.16,
         "is_available": true,
         "is_free": true

@@ -86,6 +86,20 @@
             "logo_transparent": "75230047_4115422611860199_57539064172693234_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1021",
+                "change_log": "This update adds a new area “beyond the booth”, as well as three new longarms - a devastating high-capacity semi-automatic shotgun with detachable drum magazines for ultra-fast reloads, a classic low-recoiling submachine gun for sustained and concentrated fire, and a low-powered but cheap semi-automatic sniper-rifle for better manoeuvrability and faster long-range action. Some minor adjustments have been made to the unlock sequence of existing weapons and their pricing. Additionally, bandit targets have been added to the challenge mode on assessment A1 and infected targets have been given a new mid-range attack capability - they can now launch a single globule at you from further away. A poster has been added to the booth introducing the new-game-plus functionality, and a welcome screen has been added to the equipment terminal to confirm allocation of new-game-plus funds at the start of the game. Booth wait time has been decreased during the introduction sequence, and the likelihood of general random announcements playing has been increased (they can be still be disabled using the options tablet by changing “all messages” to “key messages only”). Finally some of the underlying codebase has been refactored to increase performance, and various minor bugs have been resolved. This update (as with all Shotwood updates) is fully compatible with existing save-states from any previous version of the game."
+            },
+            {
+                "version": "1014",
+                "change_log": "Added a new random-targets mode, Blitz, to all assessment floors. Added casual and intense modes to the Balloon Stabber and Brick Shield floors, and re-balanced the rewards, duration, and difficulty of both. Added new game plus functionality - you will now restart with 250 credits for each percent complete in your previous game. Extended the weapon retention system to allow you to toss weapons between hands. Removed the empty-hands requirement for sprinting, you can now run and gun! Relaxed the scope alignment, aiming through scopes is now far easier. Fixed collision issues with tool stands and grenade refund boxes, dropping items here is now much more reliable. Replaced assessment feedback percentages with exact figures for eliminated friendlies and broken enemies. Significantly reduced the likelihood and frequency of random announcements. Added a controller-distance check to the shotgun's pump-action unlock. Added a mechanism that backs up save-data before wiping when raising a grievance. Added an additional announcement for reaching 100% completion after beating the special challenge, and vice versa. Reduced the likelihood of a frame drop when entering the control room. Eliminated a bug that caused booth doors to cycle repeatedly during the introduction sequence, in some rare edge-cases. Manually pre-merged decorative meshes throughout all levels to reduce visible occlusion faults and improve performance. Upgraded the underlying engine and integration packages for improved performance and stability."
+            },
+            {
+                "version": "1009",
+                "change_log": "Improved level textures and lighting. Added decorative objects to lobby areas and opened lobby doors prior to player arrival. Added decorative and explosive objects to the range. Improved the flow of the strike minigame. Pruned several target sets and repositioned some explosive objects to be more effective. Fixed a rare issue where booth doors would cycle continuously when raising a grievance during the intro sequence. Improved the level loader system to eliminate texture loading stutters during play. Removed the unnecessary permission requests that were added by the engine build process."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

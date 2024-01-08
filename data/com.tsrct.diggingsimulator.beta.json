@@ -81,6 +81,20 @@
             "logo_transparent": "39031412_4077819032264770_4527479495026805225_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "6",
+                "change_log": "TOXICFOX UPDATE - the most requested feature - saving! A / X open save modal. Currently allows for one hole to be saved, I preferred the idea of one eternal hole than multiple for now. | Refactored all dig types to make them serialisable | Fixed dynamite collisions | Fixed screen fader for intro | Added hole save menus and prompt"
+            },
+            {
+                "version": "3",
+                "change_log": "Fixing bugs identified by power user SpiderSean. \n\nIssues resolved \n\n- dirt now back, I actually turned it off because the velocity was a bit funky\n- quest and feedback prompts returned, love gettin those trumpets\n\nWhat went wrong\n\n - Basically upgrade for app lab caused issues, I upgraded unity to upgrade oculus etc and caused some issues I didn't catch. \n\nThere's still lots of improvements I could make, but planning an overhaul as part of adding new mechanics and full quest, so don't want to rework this too much. This was a concept build from 2019, that has had good feedback in the past and I would love to spend some more time on it, but pushing this build to fix the bugs identified now. \n\nKirby I'll definitely add smooth locomotion and climbing soon! ToxicFox you'll be able to save your hole (and a whole new dungeon) as soon as possible! I'm working on a new system inside another project that I'll bring in to this too, so can make much more cool stuff! \n\nThanks everyone for your patience."
+            },
+            {
+                "version": "1.01",
+                "change_log": "First build for App Lab, added thumbstick rotation requested on sidequest two years ago. You're welcome stranger. Revived to add ability to save hole and experiment with multiplayer hole."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

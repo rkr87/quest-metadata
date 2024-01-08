@@ -72,7 +72,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3423
+                "votes": 3425
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -532,6 +532,68 @@
                 "short_description": "さあさあ「Vacation Simulator」の世界にようこそ。「バケーション」の定義…それは本物の人間が「ジョブ（仕事）」以外にすること、かの「Job Simulator」を作ったロボットはそう結論付けた。さてメモリを再割り当てしようか、バシャバシャしたり雪玉投げたりセルフィー撮ったり、最適なるリラックスのその向こうへ！"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.3.0.39342",
+                "change_log": " New Features\n• Support for Quest 3"
+            },
+            {
+                "version": "1.3.0-38104",
+                "change_log": "Support for updated hand tracking - Hands 2.0!!"
+            },
+            {
+                "version": "1.3.0-38033",
+                "change_log": "Major Bug / Crash Fixes\n• Reverted Oculus Integration update due to start-up crashes reported by some users"
+            },
+            {
+                "version": "1.3.0-38026",
+                "change_log": "Vacation Simulator - High Frequency Hand Tracking Patch #2\n\nMajor Bug / Crash Fixes\n• Photo sharing to Facebook via the backpack is now re-enabled on Quest 2\n\nGameplay Fixes\n• Added hand tracking smoothing to portable radio and rock climbing\n• Improved hand tracking interaction with avatar customizer buttons\n\nOther\n• Updated to latest Oculus Integration\n• Fixed various minor issues"
+            },
+            {
+                "version": "1.3.0-38014",
+                "change_log": "High Frequency Hand Tracking Support\n• Now supports new High Frequency Hand Tracking on Quest 2!\n• Improved tracking and lower latency\n• Performance improvements to allow for overhead of updated hand tracking\n• Possible slight increase in jitter (particularly under low light), will be addressed in future Oculus updates\n• More details: https://developer.oculus.com/blog/high-frequency-hand-tracking/\n\nVisual Fixes\n• Avatar bust changes save correctly\n\nOther\n• Updates to credits"
+            },
+            {
+                "version": "1.3.0-37980",
+                "change_log": "Major Bug / Crash Fixes\n• Corrected a save crash issue due to recursive save data references\n\nHand Tracking Fixes\n• Improved timing of re-enabling of finger colliders on release so fingers are less likely to become stuck inside cups\n• Improved on/off dials so they are easier to turn\n• Updated stowing logic for the backpack to make items easier to stow over the shoulder\n• Increased StoryParentBot’s acceptance radius for items so it is easier to hand things to bots using hand tracking\n• Rock skipping is now slightly easier to do when using hand tracking\n• Tweaked the Ukulele setup so it can be played more easily when using hand tracking\n\nGameplay Fixes\n• Hot, hot tub water put into a cup is now hot\n• OpsBot Screen is now referred to correctly in picture descriptions\n• Pie photo descriptions no longer have “and”s with missing spaces\n• Ice pick can now break objects out of ice blocks, including break out the hot tub controls\n• Gravity no longer remains low if the exit burrito is used in the DiveSite\n• Butter bottle no longer pours when not held\n• Hotdog and sausage 3-packs now count properly as Hotdog Weiner Waffle in Infinite Waffle\n• Items saved to backpack in melting state no longer get stuck in backpack\n\nVisual Fixes\n• Knitted books no longer turn black\n• First DiveSite zone no longer has black outline in photos\n\nOther\n• Fixed various minor issues"
+            },
+            {
+                "version": "1.3.0-37919",
+                "change_log": "New Features\n• Experimental Hand Tracking Support!\n\nFeature Update\n• Full support for 90hz enabled on Quest 2\n• Added recentering option in the backpack settings\n\nOther\n• Fixed various minor issues\n\nHotfix\n• Fixes physics timing issue on Quest 2 if running 72hz instead of 90hz"
+            },
+            {
+                "version": "1.3.0-37917",
+                "change_log": "New Features\n• Experimental Hand Tracking Support!\n\nFeature Update\n• Full support for 90hz enabled on Quest 2\n• Added recentering option in the backpack settings\n\nOther\n• Fixed various minor issues"
+            },
+            {
+                "version": "1.2.1-37562",
+                "change_log": "New Features\n• Full support for Quest 2!\n• Fixed Foveated Rendering is turned off by default on Quest 2\n• Future support for 90fps on Quest 2 when fully enabled by the Oculus platform\n• Quest 2 controllers shown when using a Quest 2\n\nMajor Bug / Crash Fixes\n• Player will no longer teleport below ground during hiking with Smaller Human Mode enabled\n\nGameplay Fixes\n• Using multiple fish mouths to blow on the harmonica no longer prevent harmonica from making sound and no longer causes whistle to loop audio indefinitely \n• Third kid in IceCreamSlinger now has another reject line for something that is not a pie or not ice cream\n• BanditBot will now only accept cheese if it's not frozen\n• OpsBot will now trade camera lenses\n• Carrot now counts a weiner in Endless Hotdog Gig\n• Pulling a can tab and switching hands no longer deletes the hand when the tab vanishes after a few seconds\n• Fixed issue where sometimes the player was unable to complete the Gone Fishes gig in Back to Job\n• Updated the auto-orient when picking up the gaming joystick so the Quest 2 controller rings no longer collide\n• Corrected the starting position of Vacation Bot when first experiencing the Party\n\nOther\n• Fixes some subtitles typos\n• Various performance improvements\n• Fixed various minor issues"
+            },
+            {
+                "version": "1.2.0-37425",
+                "change_log": "Major Bug / Crash Fixes\n• Fixes crashes related to loading between environments\n• Eating the exit burrito while teleporting no longer causes you to be stuck in a void forever\n• If you eat the exit burrito while holding the camera while it is in the pocket of the backpack with the other hand, you no longer become stuck in a void forever\n• Intro task no longer becomes stuck if player waves at GigBot while giving rating\n• Fixes camera becoming unable to take pictures\n• Fixes rare stability issues due to subtitles\n• Bots no longer accept business credit cards and exit burritos, which caused crashes\n• Waving no longer cancels BaristaBot’s burger request in ‘Back to Job’\n• Feature Improvements\n• TempBot now requests 1 to 4 star items in the Infinite StarScanner gig\n\nVisual Fixes\n• Soap bar displays appropriate highlights when half eaten\n• Improved visual quality of VacationBot’s ‘Back to Job’ costume\n• Various Port-A-Shrub issues have been fixed\n• Font visibility for some video games and the GigBoard is improved\n• Camera hover particles no longer separate from camera when relocated by a Bot\n• GigBot no longer transforms into VacationBot if the museum lever is pulled without a passport inserted\n• The size of condiment icons have been slightly increased on the GigBoard for some infinite gigs\n• Bots in ‘Back to Job’ move more natural when transitioning between gigs\n• BanditBot hat now hides player avatar hair correctly\n• Other glasses are no longer visible when looking through the front side of pancake glasses\n• Replacement hat no longer disappears from BabyBot’s head\n• RiverBot glasses no longer move when level of detail increases\n• Forest teleport reminder tablet no longer faces up, instead of facing towards player\n• Flower highlight now appears correct on shrubbed crab shell when animating\n• Fixes rendering on seaweeds\n• Giglr Mix icons for volume and channel are now more clear and distinct\n\nGameplay Fixes\n• StarScanner and TempBot now agree on star ratings for books\n• Breakable items will now break upon impact when used with the slingshot\n• RaftBot dialogue timing now implemented as intended in ‘Back to Job’ \n• Fixed volume of the StarScanner not decreasing when bots are talking\n• Improved the flow of certain infinite gigs if requested items are already liquid or slices\n• Fixes InfluencerBot phone is being removed from backpack after returning to museum\n• FishMaster cartridge no longer unlocks in the main game from ‘Back to Job’\n• JobBot’s business card no longer disappears from backpack\n• Honeymooners now respond to waving when requesting chocolate in ‘Back to Job’\n• Berries and mushrooms no longer enlarge quickly after placing them on certain points\n• OpsBot tube tray now retracts consistently in ‘Back to Job’\n• Certain fruits will no longer be incorrectly identified as “Eaten” by StarScanner\n• OpsBot now gives different items for pancakes and waffles\n• Bots now accept either a chonky choco bar or a chocolate bar when requesting chocolate\n• Bots now able to drink out of both coconut halves\n• GigBot expressions during promotions now working as intended\n• Auto-orientation of dumb-bell, phone, and StarScanner have been improved\n• All cups (not just mugs) now attach to drink floatie\n\nOther\n• GigBoard now plays a sound effect when GigBot gives player their first 5 stars\n• Fixes error with voxel optimization during sandcastle cleanup\n• Fixed various minor issues"
+            },
+            {
+                "version": "1.2.1-37242",
+                "change_log": "Major Bug / Crash Fixes\n-Adds some missing subtitles lines\n-Fixes binary subtitle option in ‘Back to Job’\n-Fixes rare issue where some infinite tasks were evaluating progress -incorrectly\n-Fixes issue where sandwiches disassemble when slices were frozen\n-Fixes softlock caused by exit burritoing and teleporting at the same time\n\nVisual Fixes\n-Photos of infinite bots now show a generated name and description\n-Fixes SandcastleBot costume not appearing in camera\n\nOther\n-Fixes babyBot ejecting incorrect item at dangerously high speeds\n-Fixes drink maker having inconsistent behaviour when mixing drinks and solid items\n-Can no longer destroy camera and other important items by flushing pool\n-Fixes some subtitles typos\n-Fixed various minor issues"
+            },
+            {
+                "version": "1.2.0-37164",
+                "change_log": "Vacation Simulator: Back to Job - New Expansion!\n• New job-style tasks working the new Vacation Island’s Poolside Cabana\n• New infinite mode!\n• New interactions, including Star Scanner, Port-A-Shrub and easy access to most food and food preparation cooking stations from the main game\n\nNew Features\n• Added support for Oculus Mixed Reality Capture\n\nMajor Bug / Crash Fixes\n• Fixed crash with Exit Burrito\n• Fixed various black screen issues\n\nVisual Fixes\n• Fixed subtitles rendering depth issue\n• Fixed auto-orient of ski poles\n• Fixed broken highlight on the Forest rock bridge\n• Fixed ocean foam not rendering around items\n• Item state now shown correctly on the back of photos\n\nOther\n• Various performance improvements\n• Fixed various minor issues"
+            },
+            {
+                "version": "1.1.0-34280",
+                "change_log": "Major Bug / Crash Fixes\n• Major improvements to memory usage to alleviate crash and lock-up issues when backgrounding (pressing the Oculus Home button)\n• Taking photos of photos of photos... no longer stores an unneeded reference to every previous photo, causing memory issues\n• Fixed backpack deleting items if they were stored over your shoulder and your backpack happened to be full and you hadn’t yet taken your backpack out during the play session\n• Fixed very rare rendering crash in the Mountain\nFeature Fixes\n• Eye patches now work on snowman\n• Subtitles typo fixes\n• Fixed issues with stacking multiple sandwiches together\n• Credits in options now correctly resets when loading a new save\n• Hands now making correct sound effects when interacting with river water\n• Taken photo attached to camera now orients the correct direction when taken rather than re-orienting continuously, which made it appear like it was a double sided photo\n• Fixed multiple items not rendering an icon when dehydrated\nGameplay Fixes\n• Fixed randomization timing of retrieving volleyball from river\n• Fixed issue when placing a melting item in your backpack which had resulted in the item not storing in your backpack\n• Fixed targets not appearing after shooting a single target in an area, leaving area and returning to it\n• Fixed an issue with an invisible wall partially blocking one target in the forest\n• Fixed VacationBot VO sometimes playing incorrectly when interacting with resort scanner\n• Resolved an issue where completing a set of photos and leaving zone too quick causes memory to not be correctly received\n• Ski doors now correctly close when immediately releasing ski poles\n• Fixed IceBot sometimes not delivering dialog when pulling “Judge Me” lever\n• Fixed timing of SportsBot giving the memory in relation to their dialog\n• Fixed sports sometimes abruptly ending when player grabs the Beachball\n• ‘Super Untextured Quad’ can now correctly be resumed after playing it the first time\n• Backpack no longer occasionally snaps to the wrong position for one frame when pulling it out\n• Fixed an issue with VacationBot not talking when you swiped your watch at the same time as getting a memory\n• Fixed a rare bug that would cause a hermit crabs’ shell to become permanently highlighted if it hovered up to your hand\n• Fixed a rare issue of VacationBot being in the wrong location during the end of the intro\n• Radio in backpack now continuously plays\n• Numerous misc fixes\nPerformance Fixes\n• Optimize ice sculpting decoration\n• Performance fix for taking off backpack with a dehydrated food item stored in it\n• Optimizations to save file size\n• General game optimizations\nVisual Fixes\n• Fixed issue with dock shop door not visually opening correctly when returning from dock\n• Shrub flowers are now visually shown when you waffle a shrubbed item\n• Fixed hat and glasses lenses visually disappearing on snowman when you teleport away\n• Credits fixes\n• Fixed incorrect teleport highlight on rocks in forest river\n• Fixed grab highlight flicker that sometime appeared on camera and shrubbed paintings\n• Visually improved underwater cutoff in river\n• Photos attached to camera no longer clip through backpack when camera is placed in it\n• Grammatical fixes in “Choose Wisely’ video game\n• Corrected image representation of ‘balloon’ in Vacaypedia\n• More typo fixes in Non-Work Station email than we would like to admit\n• Water splash VFX and SFX no longer incorrectly play when trying to grab anything inside of Fruit Punch container\n• Fixed numerous pieces of geometry not rendering correctly when taking a photo\n• Fixed waterfall speed in the Beach\n• Vanilla ice cream no longer looks like chocolate ice cream when printed from the printer"
+            },
+            {
+                "version": "1.1.0-33943",
+                "change_log": "Bug Fixes\n• Improvements to memory usage to help alleviate some crash and lock-up issues when backgrounding (pressing the Oculus Home button)\n• Fixing rare case of infinitely spawning of radios in the Resort"
+            },
+            {
+                "version": "1.1.0-33879",
+                "change_log": "Change Notes\n• Fixed a possible memory leak when saving\n• Fixed an issue where a saving could fail to save images\n• Fixed the possible memory leaks associated with Dehydrated Food\n• Optimized the dehydrated food textures\n• Optimized the waffled item textures\n• Fixed a possible crash on loading items from memory\n• Removed debug button combination that was causing performance issues\n• Optimized memory usage for various sound effects\n• Fixed an error occurring when too many sounds were playing concurrently\n"
+            }
+        ],
         "keywords": [
             "vacation",
             "simulator",
@@ -542,8 +604,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 4133,
-        "rating": 4.668522,
+        "votes": 4135,
+        "rating": 4.668682,
         "weighted_rating": 4.65,
         "is_available": true,
         "is_free": false

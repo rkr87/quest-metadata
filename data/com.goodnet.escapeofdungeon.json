@@ -81,6 +81,20 @@
             "logo_transparent": "75282161_1003292426868707_7199754245953945950_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.5",
+                "change_log": "We uploaded this new version, it solves this issue: player is stuck in the first start of new Quest/Quest 2 devices of both v33 and v34. "
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "Reply to Test Results:\n1. Trailer is newly modified, now it does not contain non Oculus hardware. \n2. The Stuck Issue is fixed to adapt for all hardware systems: \"VRC.Quest.Functional.3: TEST BLOCKER - After launching from Oculus Home the user is placed in an empty brown area and cannot progress.\" "
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "1. READ_EXTERNAL_STORAGE, \nRead external storage is used to read game configuration files, it's a basic step to start game.\n\n2. ACCESS_MEDIA_LOCATION\nThis is not included in this build.\n\n3. WRITE_EXTERNAL_STORAGE\nWrite external storage is used to write game configuration files, it's a basic step to run game.\n\n4. RECORD_AUDIO\nRecord audio is used for green screen LIV, intercom.\n"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

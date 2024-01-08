@@ -83,6 +83,80 @@
             "logo_transparent": null
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.24",
+                "change_log": "Crash fix for GearVR versions of the game due to recent Oculus Home update conflicting with Unreal Engine games."
+            },
+            {
+                "version": "1.0.23",
+                "change_log": "Unreal Engine version upgrade: Improved Visuals!"
+            },
+            {
+                "version": "1.0.21",
+                "change_log": "Fixed Oculus Go splashscreen sticking bug"
+            },
+            {
+                "version": "1.0.20",
+                "change_log": "Oculus Go support added"
+            },
+            {
+                "version": "1.0.16",
+                "change_log": "Fix:\r\n* Motion Controller fix for bug introduced in the last version update"
+            },
+            {
+                "version": "1.0.15",
+                "change_log": "Improvements:\r\n\r\n* Using shader caching to eliminate first time hitching when the very first UFO is spawned.\r\n \r\n* Engine version upgrade with minor performance improvements."
+            },
+            {
+                "version": "1.0.13",
+                "change_log": "Added 3D audio!! Be sure to wear headphones ;) Additionally some minor tweaks. \nPrevious version added GearVR Controller Support"
+            },
+            {
+                "version": "1.0.12",
+                "change_log": "GearVR Controller support added!!"
+            },
+            {
+                "version": "1.0.11",
+                "change_log": "CRASH FIXED! \r\nThe crash experienced by some uses on S7 devices has been fixed! \r\nFor anyone that previously had this problem thank your for your patience and enjoy the game!\r\n\r\nHuge thanks to Chris Babcock of Epic Games for helping us narrow down where the problem was."
+            },
+            {
+                "version": "1.0.10",
+                "change_log": "NEW: Space dust particles kept 'ingame' for extra immersion and space feeling .\r\nFIX: Back button now no longer causes a crash when returning to the game.\r\n\r\n\r\nNote: This build may potentially fix the issue experienced by some users with a S7 Edge however as it is not reproducible on our S7 Edge we cannot say for sure - so please help us out and if you experience any technical problems, before leaving a bad review, please contact: support@headgear.io and include your Model Number (Settings - About device - Model number) so we can find a fix!"
+            },
+            {
+                "version": "1.0.9",
+                "change_log": "NEW: Space dust particles kept 'ingame' for extra immersion and space feeling .\r\nFIX: Back button now no longer causes a crash when returning to the game.\r\n\r\n\r\nNote: This build may potentially fix the issue experienced by some users with a S7 Edge however as it is not reproducible on our S7 Edge we cannot say for sure - so please help us out and if you experience any technical problems, before leaving a bad review, please contact: support@headgear.io and include your Model Number (Settings - About device - Model number) so we can find a fix!"
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "Bug fix for Drone Upgrades Lost causing planets to be incorrectly cleared - resulted in some beginner players being stuck early on.\r\n\r\n\r\nNote: We are still looking into the issue experienced by some users with a S7 Edge. \r\nIf you experience any technical problems, before leaving a bad review, please contact: support@headgear.io and include your Model Number (Settings - About device - Model number) so we can find a fix!"
+            },
+            {
+                "version": "1.0.7",
+                "change_log": "We Come In Peace... is now a full game!:\r\n* 8 Planets to unlock \r\n* 8 Unique Guns to unlock \r\n* Two upgrade paths to tackle increasingly difficult waves \r\n* 5 Mission types to test your skill and earn additional XP for drone upgrades \r\n* Make Combos for even more XP \r\n* More UFOs than you can handle!\r\n* Oculus SDK 1.0 & Marshmallow support\r\nKeep the solar system safe using all new immersive hologram solar map!"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "Demo version of the soon to be released full game!\r\nFull version has:\r\n* 8 Planets to unlock \r\n* 8 Unique Guns to unlock \r\n* Two upgrade paths to tackle increasingly difficult waves \r\n* 5 Mission types to test your skill and earn additional XP for drone upgrades \r\n* Make Combos for even more XP \r\n* More UFOs than you can handle!\r\n* Oculus SDK 1.0 & Marshmallow support\r\nKeep the solar system safe using all new immersive hologram solar map!\r\n\r\nDisclaimer: 1.0.5 users probably won't like updating to this version ;)"
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "We Come In Peace is now a full game!\r\n* 8 Planets to unlock\r\n* 8 Unique Guns to unlock\r\n* Two upgrade paths to tackle increasingly difficult waves\r\n* 5 Mission types to test your skill and earn additional XP for drone upgrades\r\n* Make Combos for even more XP\r\n* New UFO paths and craziness\r\n* Oculus SDK 1.0\r\nKeep the solar system safe using all new immersive hologram solar map!"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Initial UFO craziness version"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "Initial Version"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

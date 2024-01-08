@@ -79,6 +79,32 @@
             "logo_transparent": "12533901_285755121841392_4428571865878888448_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "115",
+                "change_log": "Manifest updated to exclude Lollipop phones"
+            },
+            {
+                "version": "112",
+                "change_log": "Optimized performance. Now running 60FPS consistently on S6."
+            },
+            {
+                "version": "98",
+                "change_log": "eliminated Exit menu mapping if Universal Menu is active"
+            },
+            {
+                "version": "67",
+                "change_log": "re-activated back button functionality, re-tested on Galaxy S6, still works fine"
+            },
+            {
+                "version": "63",
+                "change_log": "removed all Oculus Platform scripts that were attempting to access the microphone, fixed a bug that was preventing some content from rendering"
+            },
+            {
+                "version": "59",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "Nature",
             "Tuna",

@@ -81,6 +81,28 @@
             "logo_transparent": "12331258_1748846718540866_4961284905938976768_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Public release v1.3"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Removed access photos permission"
+            },
+            {
+                "version": "1.0",
+                "change_log": "* More long back button changes on Go"
+            },
+            {
+                "version": "1.0",
+                "change_log": ".  Back button loads platform confirm quit UI at first level of UI with both controller back short press and back button located on side of headset. The same back button short press goes back one level via a confirmation dialogue.\n.  Entitlement check fixed so that black screen is not held indefinitely when entitlement check fails.  Error message will instead display and the application will quit after 2 seconds."
+            },
+            {
+                "version": "1.0",
+                "change_log": ". Performance improvements\r\n. Improved back button implementation"
+            }
+        ],
         "keywords": [
             "Vodafone",
             "Height",

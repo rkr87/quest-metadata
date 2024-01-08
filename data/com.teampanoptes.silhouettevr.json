@@ -264,6 +264,48 @@
                 "short_description": "かつてなかったようなリラックスできるパズル🧩アドベンチャーに手を貸そう。28のユニークなパズル、心地よいサウンドトラック、穏やかな環境で、手👋を使って（コントローラーは不要！）影を作り、島の優しい生き物たちを安全な場所に誘導します。"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.5.0",
+                "change_log": "Silhouette 1.5.0\n\n- Reverted the levels to their bright, chill vibes!\n- Improved the lightmaps of every level\n- Our 4th Shadowie friend is here to stay"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "Silhouette 1.4.1\n\n- Forgot to turn some lights on!\n- Fixed a few visual glitches with the festive decorations"
+            },
+            {
+                "version": "1.4.0",
+                "change_log": "Silhouette 1.4.0\n\n    - Added Holidays decorations\n    - Added Holidays Shadowies\n    - Made some minor adjustments on a Forest puzzle\n    - Improved the gun (again)\n    - Fixed a shader bug causing the Shadowies to disappear in certain circumstances on Quest 3"
+            },
+            {
+                "version": "1.3.0",
+                "change_log": "Silhouette 1.3.0\n\nThe Halloween update!\n\n- A new friend joins in! A fourth Shadowie has joined its friends, and they all put on spooky costumes!\n- The island has been redecorated to celebrate the spookiest part of the year!\n- Implemented a small secret bonus when finishing the credits in certain conditions\n- Improved the behaviour of the grabbable handles when the hand moves away from them\n- Improved the lighting in the hub area\n- Fixed a bug where you could not go back to the credits scene from the Temple after finishing the last puzzle once\n- Prevent the gun gesture from triggering when not in front of a puzzle, or when not aiming at a shadow surface\n- Made sure the loading screens orient themselves in front of the player\n- Fixed a bug that could lead to rare instances of the player locking themselves out of the Beach area\n- Various other small bugfixes and tweaks"
+            },
+            {
+                "version": "1.2.3",
+                "change_log": "Silhouette 1.2.3\n\n- Fixed a bug where Shadowies were invisible on Quest 3"
+            },
+            {
+                "version": "1.2.2",
+                "change_log": "Silhouette 1.2.2\n\n- Fixed compile symbols to avoid showing debug menu options"
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "Silhouette 1.2.1\n\n- Fix framerate not set to 90fps at startup"
+            },
+            {
+                "version": "1.2.0",
+                "change_log": "- Implementation of the Interaction SDK to improve hand tracking behaviour\n- Improvements to the gesture recognition code, making the \"gun\" gesture especially easier and more consistent to use\n- Fixes to a puzzle in the Cave that could fail to reset or work properly\n- Other minor fixes"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "Hello again, and thanks to everyone who has played Silhouette so far! The love and reception has been amazing �\nFor our first patch of the game, we’ve made some overall polishing and put some well needed band-aids on our shadowy friends. We hope it will make your experience even better.\n\nDon’t forget that you can jump in on our small but growing Discord server if you want to chat about Silhouette (or other things) with other friendly gamers. You’ll find it here � https://discord.gg/teampanoptes\n\nSee you soon! �\n\nPatch notes, Silhouette (client version 1.0 -> 1.1)\n\n    Fixed a bug with Shadowies not jumping far enough in many situations\n    Improved gun gesture recognition\n    Added some missing translation and fixed bugs with text size in some places\n    Reorganized the title screen to display a bigger logo when no menu is open\n    Fixed issue where puzzle elements render in front of water instead of behind it\n    Fixed some visual issues with a puzzle in the Cave\n    Fixed miscellaneous visual glitches and bugs"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "Fix for potential VRC due to the size of Forest Puzzle 5"
+            }
+        ],
         "keywords": [
             "hands",
             "adventure",

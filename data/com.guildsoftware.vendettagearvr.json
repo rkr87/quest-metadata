@@ -86,6 +86,72 @@
             "logo_transparent": "12504775_329511457381044_131841420_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.8.467",
+                "change_log": "- Added mission text to speech for Oculus Go."
+            },
+            {
+                "version": "1.8.462",
+                "change_log": "- Added support for Oculus Go"
+            },
+            {
+                "version": "1.8.416.1",
+                "change_log": "We have worked with Samsung and ARM to help them identify their driver bug in Galaxy S8 and S8+ devices and work around this issue. As a result, we have restored the graphics quality for those devices. If you encounter any problems, please contact us via email."
+            },
+            {
+                "version": "1.8.416",
+                "change_log": "- Temporarily reduced graphical quality defaults on Mali G71 graphics processors (Exynos S8 and S8+) to improve game stability, based on S8 user feedback. Greater debugging process with ARM is on-going."
+            },
+            {
+                "version": "1.8.415",
+                "change_log": "Added crash reporting code. If a crash happens, a crash report will be sent to us the next time the app is run."
+            },
+            {
+                "version": "1.8.405",
+                "change_log": "- Gear VR 'Stop Ship When In PDA' setting is now saved on exit.\n- Fixed issues when resetting calibration of gamepad axes.\n- Improved connection timeout issues.\n- Disabled Text-To-Speech for certain training missions.\n- Music and sound effect volume is now lowered while Speech-To-Text or Text-To-Speech are active."
+            },
+            {
+                "version": "1.8.395",
+                "change_log": "- The Goliath has been added to random NPC convoys.\n- Gear VR version now applies a dead-zone to the analog triggers on gamepads; this mitigates flawed controllers with non-zero \"button-off\" states, and helps prevents spinning in space.\n- Updated Flurry Analytics library."
+            },
+            {
+                "version": "1.8.394.1",
+                "change_log": "- Added Goliath assets for future debut."
+            },
+            {
+                "version": "1.8.392.2",
+                "change_log": "- Performance enhancements."
+            },
+            {
+                "version": "1.8.392.2",
+                "change_log": "- Fixed crash when a gamepad is connected during startup."
+            },
+            {
+                "version": "1.8.392.1",
+                "change_log": "- Confirmation menus can now be closed without having to look directly at the close button.\n- Left/Right shoulder buttons on gamepads now properly change interfaces when looking at the nav map.\n- Selecting news items now automatically bring up the news article instead of having to double-tap or press the 'Read Article' button.\n- The 'Back' button now takes you out of a turret in addition to double-tapping."
+            },
+            {
+                "version": "1.8.392",
+                "change_log": "- Improvements to gamepad detection."
+            },
+            {
+                "version": "1.8.391",
+                "change_log": "- UX improvements"
+            },
+            {
+                "version": "1.8.390",
+                "change_log": "- Changed asset compression from ETC1 to ASTC. Load times have decreased and performance has increased."
+            },
+            {
+                "version": "1.8.389.1",
+                "change_log": "- Fixed a lua error when using a gamepad's Left/Right D-Pad controls in the virtual keyboard for the first time."
+            },
+            {
+                "version": "1.8.389",
+                "change_log": "- Fixed issue with not being able to get to the Universal Menu from the login menu.\n- Improved stability on Galaxy S7 devices.\n- Reduced loading times."
+            }
+        ],
         "keywords": [
             "space",
             "mmo",

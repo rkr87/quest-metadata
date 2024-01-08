@@ -287,6 +287,28 @@
                 "short_description": "Prise au piège à l'intérieur du Paradise Hotel, où une étrange maladie a transformé les gens en créatures sauvages, vous êtes prête à tout pour retrouver votre sœur. Incarnez Emily Diaz, explorez de sombres environnements, récoltez des ressources, et survivez à des rencontres terrifiantes. Cet intense jeu VR d'horreur-survie à la narration riche fera monter votre adrénaline.\n"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.2.4",
+                "change_log": "# Update 1.2.4\n## New features\n- bHaptics support (to enable, go to the Quest Settings->Apps->Permissions->Nearby devices and activate permissions for Propagation: Paradise Hotel)"
+            },
+            {
+                "version": "1.2.2",
+                "change_log": "# Update 1.2.3\n## New features\n- hands now collide with the environment"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "# 1.1.5 - (25)\n## New features\n- Add rats\n- Add lightning strikes through windows\n\n## General updates\n- Nerf door noise alerting enemies\n- Nerf resurrection time for strong enemies\n- Cap max resurrection number according to difficulty\n- Inventory opens on the last visited page\n\n## Balancing\n- Ease zombie punching (extended body hitbox)\n- Can kill zombies with punches (Easy only)\n- Body shots deal more damage to enemies (Easy only)\n- Prevent resource-related soft lock in final boss fight\n\n## Bug fixes\n- Fix minor map discovering issues (Pool & Gym)\n- Account for death in game time\n- Fix continuous rotation pivot issue"
+            },
+            {
+                "version": "1.1.4",
+                "change_log": "# 1.1.4.1-21\n## New features\n- New popup tutorial : Punch\n- New menu option : Controller Vibrations\n- New menu option : Hide wire to interactive objects\n- New menu option : Locomotion mode (\"Continuous only\" / \"Teleport only\" / \"Both\")\n- New help voiceline during the boss fight\n\n## General updates\n- Adjust some teleportation snap points\n- Tutorials better fit the settings (Grabbing Mode, Inverted controls, Locomotion Mode, Firearm side etc...)\n\n## Balancing\n\n## Bug fixes\n- Fix some cropped texts in various languages\n- Non-mandatory tutorial popups disappear after 45s if ignored\n- Fix application icon\n- Alternative/Active grab on inventory and screwdriver (trigger grab is irrelevant in this case)\n- Fix some missed Mip maps (optimization)\n- Forbid backward running exploit when \"Forward direction = Hand\"\n- Fix speed issue when \"Inverted controls = True\"\n- Fix some spelling mistakes\n- Fix remaining gizmo wires issue\n- Fix NPC stuck issue"
+            },
+            {
+                "version": "1.0",
+                "change_log": "1.0.0.0-12 RC1"
+            }
+        ],
         "keywords": [
             "zombie",
             "horror",

@@ -83,6 +83,72 @@
             "logo_transparent": "38974545_1255975225227215_5210423998828213487_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.17",
+                "change_log": "Add voice chat"
+            },
+            {
+                "version": "1.17",
+                "change_log": "Added voice chat"
+            },
+            {
+                "version": "1.16",
+                "change_log": "Add slideshow premium store to the lobby."
+            },
+            {
+                "version": "1.15",
+                "change_log": "1. Changed backend services to allow for better support.\n\n2. Made getting into the leaderboards more rewarding."
+            },
+            {
+                "version": "1.14",
+                "change_log": "Changelog:\n\n1 - New Lobby design.\n\n2 - Added throwing settings to allow advanced players to hook the ball easier.\n\n3 - Added audio settings to control volume of Music, SFX, and UI.\n\n4 - Made it harder to cheat on games."
+            },
+            {
+                "version": "1.13",
+                "change_log": "Updates:\n\n1. Add toggleable animated bumpers to bowling lanes. \n\n2. Block players from interfering with another's ongoing bowling game.\n\n3. Migrated to better audio system."
+            },
+            {
+                "version": "1.12",
+                "change_log": "Thanks to all that reported bugs, I've fixed the following:\n\n1 - Improved server stability.\n\n2 - Bowling scoreboard totals now are accurate.\n\n3 - Frame rate drop issues on multiplayer.\n\n4 - Velcro darts are more precise on scoring.\n\n5 - Better legibility on many of the buttons.\n\n6 - Tutorial won't show up again once you've done it.\n\n7 - Better Audio quality.\n\n8 - No more camera freeze on disconnects."
+            },
+            {
+                "version": "1.11",
+                "change_log": "Added a new premium shop where I sell In App Purchases items like: premium bowling balls, and strike & spare celebrations. Please check it out!"
+            },
+            {
+                "version": "1.10",
+                "change_log": "Migrate from old guest id system, to use Meta's User API system.\n Add an invisible wall that blocks players from walking down the bowling lanes.\n Add a line on the floor for darts distance."
+            },
+            {
+                "version": "1.9",
+                "change_log": "Added much better behavior for throwing objects, now it feels snappier and more precise. Perfect for scoring higher on bowling and basketball arcade"
+            },
+            {
+                "version": "1.8",
+                "change_log": "Added bowling ball attributes for speed, rotation, weight, and center of mass. This gives players more options to choose the right bowling ball for the shot they're making."
+            },
+            {
+                "version": "1.7",
+                "change_log": "Bowling: Make gutter balls disappear faster.\n Ski ball: machines are not walkable, and start button is more comfortable to use.\n Basketball: Hand grab collision now works properly.\n Music: Players can now change to next/previous song."
+            },
+            {
+                "version": "1.6",
+                "change_log": "Add better physics for bowling. Now you can throw a spinning ball that slides, hooks, and rolls!\n Add a bowling ball hand hold pose. \n Add a pin layout UI that shows how many pins were fallen on last shot.\n Add a lane layout UI to show the path your ball took on the last shot."
+            },
+            {
+                "version": "1.5",
+                "change_log": "Added Weekly leaderboards for bowling, basketball, and ski-ball"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Added Prize Shop that allows players to unlock new content for free by earning tickets on the arcade games.\n\nAdd prize inventory.\n\nIncrease key textures resolution.\n\nAnimate Lobby Chamvr Logo.\n\nFix player height issues.\n\nFix bowling machine not counting some balls."
+            },
+            {
+                "version": "1.3",
+                "change_log": "Lobby UI improvements for connecting to server. Highlight rows in bowling scoreboard to indicate current turn. Better network sync on bowling host UI. Fix player height issue on board games. Fix player height issues on teleport movement mode. Fix board games magnifying glasses rotation."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

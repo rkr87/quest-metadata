@@ -64,15 +64,15 @@
             },
             {
                 "rating": 3,
-                "votes": 104
+                "votes": 105
             },
             {
                 "rating": 4,
-                "votes": 374
+                "votes": 372
             },
             {
                 "rating": 5,
-                "votes": 4996
+                "votes": 5001
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -99,6 +99,52 @@
             "logo_transparent": "38974738_451968559735064_1762295971934774535_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.7.2",
+                "change_log": "Update 2.7.2\nIn this minor update we’d like to thank our explorers once again, especially those whose own creativity got fuelled by the game. We’ve added the “Lost Paintings” – 8 artworks created by our players. You can find them scattered throughout the Radius and use them to decorate your hub. This update also includes:\nRevised and fixed texts in all languages.\nCigarette and sunflower seed packs now display the quantity of cigarettes and seeds instead of ammo.\nIncreased the odds of finding sunflower seed packs in the Radius.\nUpdated the bHaptics plugin and fixed related bugs.\nResolved a few visual issues.\nUpdated the game credits."
+            },
+            {
+                "version": "2.7.1",
+                "change_log": "- Fixed issue unlocking Supporter Pack content after purchase."
+            },
+            {
+                "version": "2.7.0",
+                "change_log": "2.7 Release Note\n\nThis latest update is all about “The Little Things”.\nWe’ve added a highly requested weapon by our Explorers – a revolver! Meet the 6-shot .357 Magnum MP412 REX. The Committee strictly forbids using it for playing Russian roulette. As if that’ll stop some of you…\nIn the Radius you can find 3 handmade Pecho toys based on the charming unofficial mascot of the game, that was born within the Explorers community as a reference to one of the game’s monsters.\nA new snack is now available – edible sunflower seeds, adding more flavor to the world of the Radius. Enjoy your new snacking addiction and don’t forget to spit out the shells!\nThe Tide will no longer teleport the player to a random location if they are in a shelter when the Tide occurs.\nThe mission computer now clearly indicates if the player doesn’t have any Top-priority Missions available. Top-priority missions are now also marked with an exclamation point.\nWe’ve improved the missions that require photographing monsters: texts are now easier to understand and these missions are available only for Security Level 2 or higher.\nFixed minor bugs related to PPSh, Glock 17, PM, and IZh-27.\nThe SKS stash at the Kolkhoz location is now reachable without glitches.\nFor dark figures without voice acting, subtitles are now always on.\nWe’ve updated the bHaptics SDK to version 2.0 and improved the functioning of this feature. Activation of bHaptics has been added as a separate option in the game settings.\nFixed visual and audio bugs, Seated Mode bugs, localization issues, and text errors.\nWe’ve added the Camo Supporter Pack to the store. This pack includes camouflage patterns for PM, AKS-74U, IZh-81, OTs-33, and Mosin-Nagant. After purchasing this pack, you will receive a camo PM immediately in the player’s hub if you have completed the first tutorial. To apply camo to other weapons, you must have the appropriate firearms, which are available based on your Security Level. You can apply and remove camo on any of the aforementioned guns using the Upgrade Box in the player’s hub if you have them.\n"
+            },
+            {
+                "version": "2.6.4",
+                "change_log": "2.6.4 Build Note\nThis update contains the following fixes:\nFixed the work of the targets and the computer at the Shooting Range.\nRestored the missing vegetation in the Main Menu scene.\nMade the traces of graphics optimization less noticeable."
+            },
+            {
+                "version": "2.6.3",
+                "change_log": "2.6.3 Build Note\nThis update fixes a number of issues, including the following:\nFixed a bug where enemies occasionally became invisible and non-aggressive but with guns floating next to them.\nTargets in the Shooting Range now always pop up back when the button is pressed.\nAdded save files compression so that they take up less space in the cloud and are always saved.\nFixed a number of visual bugs related to lighting, shadows, fog, and flashlight.\nFixed a bug in the Difficulty Settings.\nThe player can no longer move in the final choice scene if they have opened the pause menu.\nRandom anomalies that are disabled in the settings no longer make sounds.\nFixed localization bugs."
+            },
+            {
+                "version": "2.6.2",
+                "change_log": "2.6.2 Build Note\nThis update fixes a number of issues, including the following:\nFixed the difference between the rotation angle setting and its actual value.\nThe player is no longer thrown up in the air anywhere on the map.\nFixed the bug that wouldn’t let you repair some guns in yellow condition with brush and oil.\nExplosions will no longer damage the player through the walls.\nFlares will now light up the area around them at all times.\nFixed a number of visual bugs, including textures and reflections.\nImproved the use of 4X scope on SKS.\nFixed a number of localization issues."
+            },
+            {
+                "version": "2.6.0",
+                "change_log": "General changes & features\nSignificantly improved visuals of the player’s hub as well as the look and feel of some other locations throughout the game. For esthetic purposes and your convenience, we rearranged the tables at the base a little – please make sure to do your spring cleaning and move your stuff there.\nLocalized in-game and store page texts into eight languages (German, French, Spanish, Italian, Russian, Simplified Chinese, Japanese, and Korean). Now more explorers can enjoy adventures in the Radius in their native language.\nReworked and rebalanced Mimic AI, resulting in more interesting gameplay situations. Monsters move and attack more actively, team up, and adjust to shooting distance.\nImprovements\nReworked the firearms' jamming mechanics – now the weapons can jam in any condition, but rarely in a clean state. The worse the condition, the higher the jamming chances. In addition, different guns now have different jamming probability curves.\nStock folding sound has been added for firearms with folding stocks.\nImproved grenade behavior when thrown.\nMore realistic sound of enemy footsteps.\nMore accurate comments regarding various cases of gun firing issues.\nImproved interaction with tables in the Store.\nImproved product details display when selling in the Store.\nSelected Pocket Flashlight color is saved when moving between locations.\nThe flashlight left on does not turn off when re-entering the base.\nA new option in the game settings lets you turn the fallen objects highlight on and off.\nExit Game option added to Main Menu.\nNew visual and sound effects.\nBug fixes\nFixed bugs when reloading and jamming/false shooting for M4A1, DVL-10, M14, MP5, IZh-81, and PPSh.\nFixed names for both PPSh versions.\nFixed the Repair Box monitor bug.\nFixed food bite size on a knife or machete.\nThe flashlight is no longer on after the purchase.\nFixed posters at the base and added a new one.\nThe Committee’s emblem has been slightly refined.\nThe Night Eye artifact has been fixed.\nLots of visual and audio bug fixes."
+            },
+            {
+                "version": "2.5.1",
+                "change_log": "2.5.1 Build Note\nThis update fixes a number of bugs, including:\nHealing Injectors found on the Christmas Tree no longer respawn.\nThe fog at Kolkhoz Zarya got tuned down to improve usage of sniping weapons.\nFixed lag cases happening sometimes when black figures are broken.\nKatya’s lines are no longer cut off, and their subtitles don’t stay on the screen until the next save.\nFixed an incorrect teleport marker visuals.\nFixed a recurring weapon repair issue with brush and oil.\nThe prices are now displayed correctly for damaged weapons in the Shop.\nRepairing weapons, attachments, and magazines in the Shooting Range no longer requires money.\nAmmo no longer disappears or flickers inside the firearm.\nThe laser beam no longer disappears when the laser pointer is out of the player’s view.\nFixed OC-33 shot sounds."
+            },
+            {
+                "version": "2.5.0",
+                "change_log": "2.5 Release Note\n\nIn the On Target update, all Explorers of the Radius will experience the following changes:\n\n    Significantly improved aiming and adjusted firearms to make the gunplay experience more complete. New aim input smoothing will work with all types of sights and even without them when shooting from the shoulder.\n\n    Added a new, unusual submachine gun rarely seen in games – PP-2000.\n\n    Changed the handling of ammo, boxes, and magazines to make them more realistic: to load magazines from boxes, you need to hold both the magazine and the box; to load the magazine with single ammo, you need to hold both the ammo and the magazine. However, it is still possible to put ammo in boxes even if you are not holding the box.\n\n    Improved the first two missions, according to players’ feedback, to make them more accessible: mission items are now easier to find, the number of monsters and anomalies has been reduced, their location has been changed, and the initial tutorials have been improved.\n\n    The Kolkhoz Zarya and Pechorsk Castle locations have been improved – new environment details and areas for exploration have been added, and now they have more interesting places and loot stashes.\n\n    The Committee has decorated the base for the upcoming holidays. In each location, you’ll find a pack of sparklers that will bring you into a festive mood.\n\n    Ammo boxes placed on fire will explode as many times as many rounds there are in the box. Single rounds always explode; they don’t just disappear in the fire.\n\n    Mechanical sights on some guns now work better and are more accurate.\n\n    Fixed the appearance of jammed weapons.\n\n    Knives thrown at Fragments no longer disappear when a Fragment dies.\n\n    .357 ammo can now be placed into a side pouch.\n\n    Wrapped paper is no longer removed from the ramrod, and the black paper that used to break ramrods has been removed.\n\n    The flashlight no longer causes the fog wall to flicker under certain conditions.\n\n    Cigarette packs no longer get stuck in pouches.\n\n    Improved game audio: added new music for starting locations, important announcements no longer play simultaneously, fixed some sound bugs, added new sound effects: knife hitting wood and plastic, dart falling to the floor.\n\n    The Shine Bright achievement no longer requires an Atom Artifact.\n\n    Support for new effects from BHaptics has been added. Experience your raids in the Pechorsk anomaly in full contact!\n\n    Fixed bugs related to text notes.\n\n    Improved shadow performance.\n\n    Optimized graphics, improved special effects, and improved overall performance."
+            },
+            {
+                "version": "2.4.4",
+                "change_log": "Hotfix 2.4.4\nFixed an issue where save files would take up too much space.\nFixed an issue when the player’s dead body would cause significant FPS drops.\nFixed incorrect displays of 5.56, 5.45 and .357 ammo boxes (again!)\nFixed several issues causing memory leaks.\nFixed several issues causing game crashes."
+            },
+            {
+                "version": "2.4.1",
+                "change_log": "MQ2 2.4.1\nFixed a bug making 5.56 and 5.45 ammo boxes use the same texture\nFixed FN FAL missing a scope mount after an upgrade."
+            }
+        ],
         "keywords": [
             "atmospheric",
             "shooter",
@@ -109,8 +155,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 5676,
-        "rating": 4.76797,
+        "votes": 5680,
+        "rating": 4.768134,
         "weighted_rating": 4.75,
         "is_available": true,
         "is_free": false

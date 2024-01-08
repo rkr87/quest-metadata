@@ -104,6 +104,44 @@
                 "short_description": "Das Spiel ist ein Abenteuer für Jung und Alt. Es überzeugt durch sein immersives VR-Gefühl in Kombination mit beeindruckendem Level-Design und Vertikalität."
             }
         ],
+        "changelog": [
+            {
+                "version": "0.6.79",
+                "change_log": "Controller Compatibility Fix\nWe've identified and resolved an issue where some controllers were not functioning properly. With this update, you should experience seamless compatibility and control.\n\nLatest Meta SDK Support\nOur platform now fully supports the newest Meta SDK, version v59. This integration means better performance, more features, and a smoother overall experience for users engaging with Meta-powered applications."
+            },
+            {
+                "version": "0.6.77",
+                "change_log": "- newest oculus integration for security and feature support\n- supports Quest 2, Quest Pro and upcoming Quest 3\n- supports fixed foveated rendering (FFR) (Quest Pro)"
+            },
+            {
+                "version": "0.6.76",
+                "change_log": "fix for crashes caused by libunity.so"
+            },
+            {
+                "version": "0.6.75",
+                "change_log": "- Updates Oculus SDK\n- Updates UltimateXR Framework"
+            },
+            {
+                "version": "0.6.74",
+                "change_log": "- removes unnecessary android permissions"
+            },
+            {
+                "version": "0.6.71",
+                "change_log": "fix for unsymbolicated SIGSEGV:libunity.so:: bug"
+            },
+            {
+                "version": "0.6.7",
+                "change_log": "- adds support for quest pro\n- upgrades ultimate-xr to v0.9.5\n- upgrades render-pipeline\n- ui improvements"
+            },
+            {
+                "version": "0.6.6",
+                "change_log": "- upgrades ultimate-xr to 0.9.2\n- performance optimizations\n- bugfixing"
+            },
+            {
+                "version": "0.6.5",
+                "change_log": "- level loading based on achievements"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

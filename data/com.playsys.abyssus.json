@@ -88,6 +88,20 @@
             "logo_transparent": "11162695_324106984711160_1401705934744453120_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.1",
+                "change_log": "1.0.1 revision 6\r\n- New entitlement check. User must be logged in in Oculus Home to play.\r\n- The precise location request has been removed as well as other permissions.\r\n- The back button on the Gear VR HMD now behaves as expected (both short and long press).\r\n- Unified manifest~ for platforms\r\n- Gamepad request during the initial splash screen. Explicit confirmation is requested to the user to proceed."
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "revision 5\r\n- New entitlement check. User must be logged in in Oculus Home to play.\r\n- The precise location request has been removed as well as other permissions.\r\n- The back button on the Gear VR HMD now behaves as expected (both short and long press).\r\n- Gamepad check during the initial splash screen. No controller, no game."
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "- minor changes in Oculus Platform compability (init and player entitlement)\n- decreased the amount of permission requests\n- \"new game\" UI & behaviour fixes"
+            }
+        ],
         "keywords": [
             "fear",
             "mystery",

@@ -53,7 +53,7 @@
             },
             {
                 "rating": 4,
-                "votes": 6
+                "votes": 7
             },
             {
                 "rating": 5,
@@ -86,12 +86,30 @@
             "logo_transparent": "38974641_1010740146345213_4916249660747964249_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "7",
+                "change_log": "bHaptics support"
+            },
+            {
+                "version": "5",
+                "change_log": "Thanks to paul420, a CactiBomb handling has been fixed.\nReduced draw calls in game to improve performance"
+            },
+            {
+                "version": "4",
+                "change_log": "Dynamic Player Height got messed up in the last update which made it impossible to proceed for some players."
+            },
+            {
+                "version": "3",
+                "change_log": "Bug Fix: Cubes and Bombs didn't go through portals correctly when attached to the player"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 65,
-        "rating": 3.969231,
+        "votes": 66,
+        "rating": 3.969697,
         "weighted_rating": 3.89,
         "is_available": true,
         "is_free": true

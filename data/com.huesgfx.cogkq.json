@@ -82,6 +82,20 @@
             "logo_transparent": "38974879_981028242638287_3705948107224784341_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "18",
+                "change_log": "Release Notes 1.18\nMajor fixes in version 1.17 (see 1.17 release notes)\nFixed camera issues on level \"tree\"\nAdded smashiable vases with random loot\n\nRelease notes 1.17\nFixed entitlement check by removing script from none destructive object and added to static game object in level two.\nRemoved android.storage and android. phone_manage_calls from app permissions\nTurned on fast turn (40dg)  in joystick movement.  \nEnabled camera smoothing  +5 for fast turn to address reports of motion sickness\nRebaked lighting, bumped up ao 1.85 to mitigate shadow smearing.\nNormalized all monsters and dynamic objects for light probes.\nTweaked various combat A.I. across all levels for playability\nAdded 3 new zombie  motion/animation controllers.\nFixed level E monster/gate collider issue.\nFixed various level collider issues for playbility.\nFixed level 14a secret area occlusion issue.\nFixed some spelling errors in scrolls and added text for quest clarifications.\nFixed all theraic potion pickup bounding boxes.\nOptimized level geometry and picked up 3-5 FPS.\n"
+            },
+            {
+                "version": "16",
+                "change_log": "Fixed various level \ncollider issues.\nfixed android manifest file to allow \"phone_manage_calls\"   Don't ask me why, but this permission is need to run the app on quest 1\nfixed various ai animations.\nupdated final battle.  (needs some work.  balancing, more spectacular eye candy)  "
+            },
+            {
+                "version": "13",
+                "change_log": "First gold build."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

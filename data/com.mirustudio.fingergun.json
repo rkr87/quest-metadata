@@ -84,6 +84,24 @@
             "logo_transparent": "75395604_336861805026064_675586634258462640_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "r1.2",
+                "change_log": "*Game Modes can now be unlocked by progressing in the game, allowing players to play the regular mode, or jump into a specific sector to face enemies in 90, 180 or 360 degrees.\n*New \"Explorer\" and \"Hardcore\" difficulties have been added.\n*Leaderboards have been added for each combination of Game Mode and Difficulty.\n*Doc's new toy in the cave highlights player progression and allows to select the desired Game Mode and Difficulty.\n*The Wave System has been redesigned to allow for a more dynamic experience that adapts to the player. As a part of this change, there are now 5 instead of 6 rounds before each Boss.\n*Scouts and T-RR shooting probability has been redesigned to prevent their attacks from overlapping as much.\n*Overarching balance changes to enemies, weapons, upgrades and score to accommodate the system changes.\n*Minor bug fixes."
+            },
+            {
+                "version": "r1.1.13",
+                "change_log": "* Improved Finger Gun detection when shooting with arms extended.\n* Reworked glove models.\n* Made it harder to accidentally lose Modules. \n* Reworked upgrade slot machine animations.\n* Module Port now opens and lights up when holding a Module.\n* Added new VFX when shooting invulnerable enemies.\n* Minor improvements to hook tutorial.\n* Minor bug fixes."
+            },
+            {
+                "version": "r1.1.5",
+                "change_log": "+ Fixed multiple situations where Guides (previously known as Enforcers) showed at the wrong times.\n+ Gloves now turn red to indicate if tracking was lost (replaces Tracking Lost Enforcer)\n+ Added button panel to start elevator.\n+ Improved textures of the metal pieces in the player's gloves.\n+ Fixed multiple bugs that caused unexpected results in a Ram-Bot's behavior.\n+ Dill-Os now show the correct shader effect when they are damaged.\n+ Tweaked Hook instructions.\n+ Instructions now position dynamically to adapt to the player.\n+ Added a new heart particle when a life is lost. \n+ Added a few missing SFX.\n+ Pop-Ups no longer show the indication to flip the card/object if there's no extra info behind.\n+ Added overheating shader to the Boss's revolver (now matches the player).\n+ Fixed a bug that caused some explosions to be larger than intended.\n+ Other minor bug fixes.\n+ Still repurposing abandoned hats."
+            },
+            {
+                "version": "r1.1.4",
+                "change_log": " + Fixed an issue that prevented users on Quest 2 from playing the highest quality version of the game.\n\n+ Fixed server related connectivity issue.\n\n+ Added a sparks particles to all wagons.\n\n+ Reached and highest rounds are now properly stored and uploaded to the leaderboard.\n\n+ Tweaked enforcer positions.\n\n+ Fixed a bug that caused B.H.B. to move bellow the play\n\n+ Hook instructions now show at the start location of the cave.\n\n+ Repurposed abandoned hats."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

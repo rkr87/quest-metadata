@@ -104,6 +104,16 @@
                 "short_description": "Eres el primer humano en viajar al borde de un agujero negro sin posibilidades de regresar, en esta pequeña aventura espacial enfrentarás situaciones y peligros que nadie ha visto antes."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.3",
+                "change_log": "CHARACTERCONTROLLER OVERRIDES OBJECT'S POSITION WHEN TELEPORTING WITH TRANSFORM.POSITION\nHow to reproduce:\n1. Open attached project (\"CharacterControllerTransform.zip\")\n2. Open SampleScene\n3. Play\n4. Use WASD to move and Space to transform to (0,0,0)\n\nExpected result: Character transforms to (0,0,0).\nActual result: Character sometimes stays in the position it was.\n\nReproducible with - 2017.4.24f1, 2018.3.10f1, 2019.1.0b8, 2019.2.0a9"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "Fixed screen lock error when detecting languages other than English or Spanish."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

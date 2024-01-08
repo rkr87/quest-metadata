@@ -87,6 +87,20 @@
             "logo_transparent": "39031391_453685469285063_699348043577667127_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.2.1",
+                "change_log": "- spawned builds now have realistic weight distribution\n- bearings now have friction\n- structures with many bearings are less likely to continuously gain momentum"
+            },
+            {
+                "version": "0.2.0",
+                "change_log": "Blocks\n- bearings\n- block textures\n- block menu with duplicate, save, break single, break chunk\n- save block builds locally\n- publish you locally saved block builds\n- like and download other peoples' builds\n\nFeatures\n- notifications for public rooms\n- save settings like lights and pinch pull\n- change the way you open menus\n- other peoples hands now disappear when they lose tracking\n- fade hand when menu is open\n- added an Easter egg\n- structures now freeze while attaching block\n\nDe-Jank\n- controllers don't get stuck in your face\n- block are less likely to freak out\n- user teleport is instant when you change layout\n- blocks no longer get stuck flying away\n- more error messages when things go wrong\n- hands less likely to get stuck in table\n- objects reset velocity when they reset teleport\n- prevent interacting with blocks when menu open\n- screen no long deletes itself sometimes"
+            },
+            {
+                "version": "0.1.1",
+                "change_log": "- Added license information for public distribution"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

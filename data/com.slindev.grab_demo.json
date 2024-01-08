@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 220
+                "votes": 221
             },
             {
                 "rating": 5,
-                "votes": 3188
+                "votes": 3196
             }
         ],
         "comfort": "NOT_RATED",
@@ -85,12 +85,94 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.40.3",
+                "change_log": "- Fixed a bug that could cause gravity zones and invisible blocks to stay around after leaving the editor.\n- Fixed jumping off rotating animated blocks.\n- Improved automatic fling mode detection."
+            },
+            {
+                "version": "0.40.2",
+                "change_log": "- PLEASE UPDATE YOUR LEVELS THAT RELY ON THE PLAYER BEING INSIDE OF BLOCKS! These glitches will stop working soon. Use the new gravity block with \"no legs\" mode.\n- Levels using the old fling glitch with the same block around the start and finish are now automatically getting updated to use a gravity zone instead.\n- Changed sliding physics for \"no legs\" mode to better match the behavior of the old glitch.\n- Fixed bug with jumping in no legs mode accumulating endless speed.\n- Fixed group and lock buttons sometimes not working.\n- Fixed object getting created while changing the snapping sliders.\n- Fixed objects moving when cloning (again).\n- Fixed a crash that could happen if preview image data is corrupted.\n- Fixed grapple getting attached to the wrong surface if inside another block and one of them is animated.\n- Locked players can no longer undo and redo in the editor.\n- Fixed objects in the editor losing their collision when kicking or locking someone while they are moving something around."
+            },
+            {
+                "version": "0.40.2",
+                "change_log": "- PLEASE UPDATE YOUR LEVELS THAT RELIE ON THE PLAYER BEING INSIDE OF BLOCKS! These glitches will stop working soon. Use the new gravity block with \"no legs\" mode.\n- Levels using the old fling glitch with the same block around the start and finish are now automatically getting updated to use a gravity zone instead.\n- Changed sliding physics for \"no legs\" mode to better match the behavior of the old glitch.\n- Fixed bug with jumping in no legs mode accumulating endless speed.\n- Fixed group and lock buttons sometimes not working.\n- Fixed object getting created while changing the snapping sliders.\n- Fixed objects moving when cloning (again).\n- Fixed a crash that could happen if preview image data is corrupted.\n- Fixed grapple getting attached to the wrong surface if inside another block and one of them is animated.\n- Locked players can no longer undo and redo in the editor.\n- Fixed objects in the editor losing their collision when kicking or locking someone while they are moving something around."
+            },
+            {
+                "version": "0.40.1",
+                "change_log": "- Added lobby type filtering for the join menu.\n- Added lobby search by name.\n- Fixed a blackscreen that could happen while playing (mostly caused by collisions with thin, long objects)."
+            },
+            {
+                "version": "0.40.0",
+                "change_log": "- New lobby!\n- Objects can no longer be selected if your head is inside of them, making it possible to build inside of big gravity zones.\n- Fixed black screen when switching levels too quickly.\n- Fixed black screen when switching the level in the editor while changing between edit and play mode.\n- API requests can now time out if they take too long, which should fix some common problems."
+            },
+            {
+                "version": "0.39.1",
+                "change_log": "- Added direction sliders for gravity zones.\n- Gravity zone particles will now preview the current direction while moving the sliders.\n- Fixed a crash that could happen on level switching when using the fireworks checkpoint."
+            },
+            {
+                "version": "0.39.0",
+                "change_log": "- Added 2024 cosmetics pack with working fireworks checkpoint!\n- Added gravity zones with a no leg mode. These new cube shaped areas allow you to change the strength of gravity inside them, push players into a direction and disable the players legs. If you have levels with a huge block around them to make players not have legs, please consider updating them with this new block instead, as the old way will stop working soon! Big gravity zones are currently hard to see, I plan to improve that in the future.\n- Fixed objects moving a little when cloning them.\n- Flinging off other players should now give more reliable speeds.\n- Fixed flying glitches involving multiple players holding on to each other.\n- Maybe fixed an issue that would allow to beat and verify levels with a very short amount of time, without actually beating them.\n- Fixed an issue with hands flickering on Quest 3.\n- Fixed a bunch of common crashes."
+            },
+            {
+                "version": "0.38.0",
+                "change_log": "- New lobby!\n- New christmas themed cosmetics, including a free one!\n- Fixed level preview camera positioning for left handed mode.\n- Fixed level preview camera behaving weirdly in some directions.\n- Fixed level search layout being broken.\n- Fixed bad layout when adding favorite levels to the playlist and an image was added to the level.\n- Fixed visor being transparent on preview images.\n- Added a hard limit to the speed you can get from your hands if the arms are unrealistically long.\n- When losing tracking, controller velocity will now be reset to 0 instead of keeping it as it was."
+            },
+            {
+                "version": "0.38.0",
+                "change_log": "- New lobby!\n- New christmas themed cosmetics, including a free one!\n- Fixed level preview camera positioning for left handed mode.\n- Fixed level preview camera behaving weirdly in some directions.\n- Fixed level search layout being broken.\n- Fixed bad layout when adding favorite levels to the playlist and an image was added to the level.\n- Fixed visor being transparent on preview images.\n- Added a hard limit to the speed you can get from your hands if the arms are unrealistically long.\n- When losing tracking, controller velocity will now be reset to 0 instead of keeping it as it was."
+            },
+            {
+                "version": "0.37.0",
+                "change_log": "- Full support for level preview images! When setting a level image, it will be updated immediate if the level has already been published before, otherwise it will happen as part of publishing your level.\n- The windows version now uses the same Vulkan rendering as the Quest version, resulting in much better performance.\n- Networking now always uses a relay server, hopefully fixing connection issues that prevent some people from playing with others.\n- Levels now require a start and an end before they can be verified.\n- Fixed a glitch that allowed players to glitch through a wall with checkpoints.\n- Fixed a very common ghost block bug caused by grappling.\n- When holding on to something with two hands and the hand that grabbed first is too far away from the original grab position, it will now automatically let go. When the first hand was grappling instead, the grapple will break."
+            },
+            {
+                "version": "0.36.0",
+                "change_log": "- New lobby!\n- New item pack with a new type!\n- Separated player position updates from other networking data to reduce lag.\n- Made the grappling rope no longer pull when blocked, reducing the amount of speed being build up for when you let go on one side.\n- Fixed level folder permissions on Quest 3, when trying to access level files using tools like SideQuest.\n- Fixed the game crashing if a local level file can not be opened. (usually due to wrong file permissions, if the file was copied with adb)\n- Changing cosmetics now makes any player holding on to you let go."
+            },
+            {
+                "version": "0.36.0",
+                "change_log": "- New lobby!\n- New item pack with a new type!\n- Separated player position updates from other networking data to reduce lag.\n- Made the grappling rope no longer pull when blocked, reducing the amount of speed being build up for when you let go on one side.\n- Fixed level folder permissions on Quest 3, when trying to access level files using tools like SideQuest.\n- Fixed the game crashing if a local level file can not be opened. (usually due to wrong file permissions, if the file was copied with adb)\n- Changing cosmetics now makes any player holding on to you let go."
+            },
+            {
+                "version": "0.36.0",
+                "change_log": "- New lobby!\n- New item pack with a new type!\n- Separated player position updates from other networking data to reduce lag.\n- Made the grappling rope no longer pull when blocked, reducing the amount of speed being build up for when you let go on one side.\n- Fixed level folder permissions on Quest 3, when trying to access level files using tools like SideQuest.\n- Fixed the game crashing if a local level file can not be opened. (usually due to wrong file permissions, if the file was copied with adb)\n- Changing cosmetics now makes any player holding on to you let go."
+            },
+            {
+                "version": "0.35.2",
+                "change_log": "- Fixed a common crash that could randomly happen while walking around.\n- The editor will now show the backup version of levels in the level list if the latest save file is missing for some reason.\n- Made respawning while inside lava a little less bad by not randomizing the start position in that case.\n- The game now detects if you are inside a lava block and makes you respawn much more reliably.\n- Fixed hand animation getting stuck in an edge case.\n- Fixed the bug that allowed opening the lobby inside the editor."
+            },
+            {
+                "version": "0.35.1",
+                "change_log": "- Performance improvements for animated levels. There might still be some stuttering, but the worst of it is hopefully fixed."
+            },
+            {
+                "version": "0.35.0",
+                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
+            },
+            {
+                "version": "0.35.0",
+                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
+            },
+            {
+                "version": "0.35.0",
+                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
+            },
+            {
+                "version": "0.35.0",
+                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
+            },
+            {
+                "version": "0.34.1",
+                "change_log": "- New cosmetics pack! (Not available on Pico yet, but hopefully soon)\n- Music is now loaded on a background thread for faster startup, hopefully fixing the \"GRAB is not responding\" error message that some have reported.\n- Updated the EOS SDK, hopefully fixing a common crash.\n- Added linebreaks for long item pack titles.\n- Improved how scaling item previews works when scrolling.\n- Made some preparations for the new tutorial, made by BlackCat508, to go live soon."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 3572,
-        "rating": 4.784434,
+        "votes": 3581,
+        "rating": 4.784697,
         "weighted_rating": 4.76,
         "is_available": true,
         "is_free": true

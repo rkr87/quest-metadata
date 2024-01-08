@@ -78,6 +78,36 @@
             "logo_transparent": "38982535_777688752606543_4090121326193278976_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.5.3",
+                "change_log": "- Added support for viewing standard/flat videos on a large virtual screen\n- Updated to latest Headjack SDK and Unity versions"
+            },
+            {
+                "version": "1.5.2",
+                "change_log": "- Added support for viewing standard/flat videos on a large virtual screen\n- Updated to latest Headjack SDK and Unity versions"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "- Improved download stability under various network conditions"
+            },
+            {
+                "version": "1.4.0",
+                "change_log": "- Show download error if downloading fails in Kiosk mode\n- Improve download stability in Kiosk & Cinema mode by downloading sequentially\n- Made synced video playback (with Operator app) more accurate and robust\n- Fixed some edge cases where app incorrectly appeared to be connected to an Operator device"
+            },
+            {
+                "version": "1.3.0",
+                "change_log": "- Added option to load demonstration 360 video content if the user does not (yet) have an app pincode to log in"
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "- Added support for extended Unicode character set\n- Added support for stereoscopic custom background\n- Reduced occurrences of menu flicker"
+            },
+            {
+                "version": "1.2.0",
+                "change_log": "Access Code 580089\n\nRemoved subtext on key art\nOculus: moved entitlement check forward to very first scene load\nOculus: pause VR input in app when user is in Oculus menu"
+            }
+        ],
         "keywords": [
             "Headjack",
             "360video",

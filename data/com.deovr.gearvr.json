@@ -58,7 +58,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 731
+                "votes": 732
             },
             {
                 "rating": 2,
@@ -99,6 +99,80 @@
             "logo_transparent": "38974536_310242866567903_5165723803040350208_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "13.13",
+                "change_log": "#New features:\n  - Enabled linking Meta store and DeoVR subscriptions.\n#Improvements:\n  - Video pause when headset is taken off.\n#Bugfixes:\n  - Fixed controller vibration issue when moving player interface.\n  - Several cases of app freezing resolved.\n  - Pico4 screenshot now working."
+            },
+            {
+                "version": "13.12.4",
+                "change_log": "Minor fixes"
+            },
+            {
+                "version": "13.12.3",
+                "change_log": "New Features:\n  Added the option to clear the browser history & cache when exiting the app.\nBugfixes:\n  Fixed the notification pop-up issues that would occur in some cases.\n  Removed the incorrect error message when enabling the microphone permission."
+            },
+            {
+                "version": "13.12.2.1",
+                "change_log": "New Features: \n- The video timeline on DeoVR now includes a watchtime graph. \n- Added the option to autoplay videos on DeoVR. \nImprovements: \n- Alpha packing is now available for all DLNA videos. \nBugfixes: \n- Fixed the missing info tab for some videos.\n- Fixed the player flashing when switching between videos.\n- The storage permission prompt now appears when opening the file browser.\n- Fixed the Mistika URL history not functioning correctly."
+            },
+            {
+                "version": "13.12.2.1",
+                "change_log": "New Features: \n- The video timeline on DeoVR now includes a watchtime graph. \n- Added the option to autoplay videos on DeoVR. \nImprovements: \n- Alpha packing is now available for all DLNA videos. \nBugfixes: \n- Fixed the missing info tab for some videos.\n- Fixed the player flashing when switching between videos.\n- The storage permission prompt now appears when opening the file browser.\n- Fixed the Mistika URL history not functioning correctly.\n- Addressed thumbstick compatibility problems on Quest 3 with Quest Link."
+            },
+            {
+                "version": "13.12.1.2",
+                "change_log": "New Features:\n\t- Support for Deo short-links\n\nImprovements:\n\t- Support for more global alphabets. (Arabic, Ethiopian, Hebrew,...)\n\nBug fixes:\n\t- Fixed screenshot brightness\n\t- Fixed scrolling sometimes not working correctly\n\t- Custom playback speed is now saved for each video\n        - Fixed settings not loading correctly for local videos"
+            },
+            {
+                "version": "13.12.1.1",
+                "change_log": "New Features:\n\t- Support for Deo short-links\n\nImprovements:\n\t- Support for more global alphabets. (Arabic, Ethiopian, Hebrew,...)\n\nBug fixes:\n\t- Fixed screenshot brightness\n\t- Fixed scrolling sometimes not working correctly\n\t- Custom playback speed is now saved for each video"
+            },
+            {
+                "version": "13.12.0",
+                "change_log": "New Features:\n\t- Support for streaming subtitles.\n\nImprovements:\n\t- Support for many global alphabets. (all European alphabets, all flavors of Cyrillic, Japanese, Chinese, Korean, Armenian, Georgian, Thai & Malayalam)"
+            },
+            {
+                "version": "13.11.1",
+                "change_log": "New Features:\n\t- Passthrough:\n\t\t- It is now possible to select colors to keep instead of exclude from the video.\n\t\nImprovements:\n\t- Improved the UI of certain panels.\n\t- Due to Quest updates a new permission is required to delete files.\n\t\nBug Fixes:\n\t- Vertical and horizontal offset now affect both eyes instead of just the right eye\n\t- Fixed next/previous button in the video player not working in certain situations.\n\t- Fixed video downloads from legacy websites."
+            },
+            {
+                "version": "13.10.1",
+                "change_log": "New Features:\n- It is now possible to select up to 3 different colors for passthrough.\n\nBug fixes:\n- Reverted the range and falloff sliders back to 0-1000."
+            },
+            {
+                "version": "13.10",
+                "change_log": "Bug fixes:\n- Set as defaults wrong behaviour\n- Changing resolution failed\nImprovements:\n- Passthrough:\n  - Colored sliders making it much easier to understand which colour you are setting\n  - Slider ranges adjustment allowing more precision\n- B-Button - Behaviour is reverted to 13.6\n- Player transform settings - Yaw and Roll correct names"
+            },
+            {
+                "version": "13.9.2",
+                "change_log": "Bug fixes:\n- Brightness causing visual artifacts on video switch"
+            },
+            {
+                "version": "13.9.1",
+                "change_log": "Bug fixes:\n- Video switching crash"
+            },
+            {
+                "version": "13.9",
+                "change_log": "Bug fixes:\n- Fixed high bitrate videos crashing\n- Fixed various UI issues\n\nImprovements:\n- Passthrough:\n  - Extended our fisheye layout, so Studios can take advantage and prepare videos with alpha channel - taking passthrough experience to next level\n- UI:\n  - App remembers active tab in player panels\n  - 'Drag video' function was renamed to 'Dome rotation' and got extended, it can consider controller banking rotation and rotate the dome accordingly (in Global settings / Player or in Player settings there's a new option for “Dome rotation with roll”)"
+            },
+            {
+                "version": "13.8",
+                "change_log": "New Features:\n- Introduced categories and filters to DeoVR.com website\n\nBug fixes:\n- Fixed incorrect values of image settings\n- Fixed sorting of videos and adjusted visuals of sort\n- Fixed various UI issues\n\nImprovements:\n- Keyboard:\n  - Now has input field on top to more easily edit typed text\n  - Added a shortcuts to most used email addresses\n- Updated visuals of message box panels"
+            },
+            {
+                "version": "13.7.1",
+                "change_log": "Improvements:\n- Videos tab now shows mixed content - premium and non-premium videos"
+            },
+            {
+                "version": "13.7",
+                "change_log": "New Features:\n  - Autofocus (Experimental) - it works on all videos except flat, 360 and monocular videos\n    - You can enable auto focus inside Autofocus tab in Player Options\n\nBug fixes:\n  - Controllers no longer stay visible when they are not used\n  - Quest Pro now properly shows controller models\n  - UI is no longer freezes while using sliders and next video starts to play\n  - Proper margins around video titles\n\nImprovements:\n  - Premium tab shows premium videos instead of popup - unsubscribed users will get popup, when trying to watch a premium video\n  - Improved clarity of thumbnails on hub\n  - Premium tag is visible on premium videos\n  - B button will now traverse through video history instead of going back to hub\n  - Removed legacy input system and code clean up"
+            },
+            {
+                "version": "13.6.1",
+                "change_log": "Improvements:\n - Removed obsolete features"
+            }
+        ],
         "keywords": [
             "vrplayer",
             "360player",
@@ -110,8 +184,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1660,
-        "rating": 2.840361,
+        "votes": 1661,
+        "rating": 2.839253,
         "weighted_rating": 2.9,
         "is_available": true,
         "is_free": true

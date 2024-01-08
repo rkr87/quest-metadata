@@ -86,6 +86,16 @@
             "logo_transparent": "38982448_446852713228082_3504652566002060064_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.7.0",
+                "change_log": "Daily challenges, new hand graphics, and new soundtrack."
+            },
+            {
+                "version": "1.6.0",
+                "change_log": "Revamped online mode to allow hosting and joining rooms with up to 4 players in co-op and versus modes.\n\nAdded faster movement speed.\n\nAdded smooth jump.\n\nAdded smooth turn.\n\nAdded HUD scoreboard to make it easier to see the score.\n\nOptimized performance for improved framerate and battery time.\n\nMade ball explode and disappear when no longer in play.\n\nFixed audio issue that caused symptoms such as the ball getting stuck.\n\nImproved splash screen texture filtering.\n\nTweaked bot set behavior: Moved set target 0.5 m from the player's head position along the center line towards the middle of the court. Moved set target slightly higher (at 0.5 m instead of 0.3). Moved set target slightly out from the net (0.4 m instead of 0.3). Increased chance of set (if pass) to 100% for pro bots. Removed rule that said that player head had to be higher than 1.5 m above ground."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

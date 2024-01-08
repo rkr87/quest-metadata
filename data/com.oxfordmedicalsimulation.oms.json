@@ -82,6 +82,16 @@
             "logo_transparent": "39003241_192522926380269_4241998041712317853_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "3.7.9",
+                "change_log": "- Fixed bug where the EFM strip image count, timestamp, and X to close were not visible. These are now all visible and interactable. "
+            },
+            {
+                "version": "3.7.7",
+                "change_log": "- Fix for getting stuck after giving shock in SAL001UK/US and ALS001UK/US\n- Fix for Defib screen sizing in on-screen play\n- Fix for extra pop-up messages in MKS001US\n- Fix for missing anaphylaxis guideline in SNP006US\n- Improvement to draw order of character hair vs image/menu UI\n- Feedback re-uploaded to enable Competency Mapping and Tracking functionality\n- Fix for a few robot voices\n- Addition of wristbands, verification of name and date of birth, and 5 Rights Feedback in SNO and SNP libraries\n- Sepsis scenario alignment with current guidance\n- Updating select references to Surviving Sepsis 2021\n-- Changing wording related to 'Urine output and fluid balance'\n-- Updating Catheter feedback to Neutral and changing wording - will match the above but have an additional sentence which reads \"Remember you should only insert a catheter if you feel confident it is indicated and have the correct competencies to do so.\"\n-- Updating IV fluids feedback wording\n-- Updating when certain pieces of feedback appear to better align with the actual feedback\n-- Cleaned up when the feedback \"Urine output and fluid balance\" appear - there were some actions missing in this one\n- SMH Improvements\n-- Additional communication option to ask permission to examine. Feedback is given based on whether the learner asked permission to examine\n-- Addition of audio for sensitive questioning around abuse\n-- SMH001US has been renamed Acute Anxiety to better reflect patient history\n-- Review of auto-generated scorecards for functionality in our mental health scenarios\n- SNO003US changes\n-- Physiology parameters for blood pressure to focus scenario on Gestational Hypertension complicated by Non-Insulin Dependent Diabetes Mellitus (NIDDM)\n-- Gestational age changed to 32 weeks to depict a pregnant patient less likely to give concern around timing of delivery\n-- MgSO4 4 g IV bolus (then 2g/hr) has now been denoted as unindicated\n-- Fix for missing sepsis guideline"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

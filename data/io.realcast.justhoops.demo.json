@@ -193,6 +193,40 @@
                 "short_description": "复古街机篮球体验与全新虚拟技术结合在一起，就是 JUST HOOPS ！\n\n欢迎参加我们的免费演示。\n\n完整游戏：bit.ly/justhoops-quest\n\n通过有史以来第一个模拟现实的投篮游戏，将真人动作的街机篮球带入您的客厅！受 80 年代街机篮球和徒手游戏的启发，JUST HOOPS 提供了一种沉浸式的游戏体验，具有多种游戏模式、挑战，还有 45 多个变化无穷的篮球关卡！JUST HOOPS 的创新功能采用最先进的技术，利用抓球和投球背后的实际物理原理，优化游戏玩法，提供最动态的 VR 篮球体验。\n\n这里能让朋友见识酷炫的球技，与家人一起享受篮球时光，还可以为攀登世界排行榜而奋斗。您可以在使用控制器或使用您的双手（专家模式）之间选择，您的篮筐目标会随着关卡难度的升高而不断变化，从传统的街机模式，到会动的蛇、太空入侵者、带闭合盖子的旋转篮筐等等！"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.6.705",
+                "change_log": "** Demo no longer playable **\nSends to JUST HOOPS store page"
+            },
+            {
+                "version": "1.4.490",
+                "change_log": "JUST HOOPS - BIG UPDATE\n=======================\n\n- Online multiplayer 1vs1\n- Online private room up to 4 players\n- Cross play PICO 3/4 vs QUEST 2/PRO\n- Background matchmaking while playing solo\n- Fast menu & shiny multiplayer room\n- Ready Player Me Avatars\n- fix: point to Playfab production servers\n- fix: haptic feedbacks back\n- fix: online challenges selection\n- fix: background matchmaking cooldown\n\n---\nversion 1.4.491#1c0a26694\n"
+            },
+            {
+                "version": "1.4.444",
+                "change_log": "JUST HOOPS demo - BIG UPDATE\n===========================\n\n- Online multiplayer 1vs1\n- Cross play Pico3/4 vs Quest2/Pro \n- Background matchmaking while playing solo\n- Fast menu & shiny multiplayer room\n- Ready Player Me Avatars\n- Color passthrough on Quest Pro !\n\n*Online multiplayer is not available on Quest1* \n\n---\nversion 1.4.444#99c889b7e"
+            },
+            {
+                "version": "1.3.78",
+                "change_log": "=== v1.3.78, b442db8f6 ===\n\n- Improve access to the store game page"
+            },
+            {
+                "version": "1.3.67",
+                "change_log": "=== 1.3.67, e94d750 ===\nFirst version\nLimited version of the game:\n- controllers only\n- first levels and warm-up challenge\n- leaderboards are read-only\n- passthrough & MRC enabled"
+            },
+            {
+                "version": "1.3.61",
+                "change_log": "0c4366b - Remove Pico plugin package to avoid Manifest warnings from Oculus Store"
+            },
+            {
+                "version": "1.3.61",
+                "change_log": "0c4366b - Oculus: Quit app when login fails to avoid staying in an empty room with no interaction possible...\nrebuild  to be sure DEMO define is on"
+            },
+            {
+                "version": "1.3.044",
+                "change_log": "2ce623f - Merge branch 'feature/Integration' into feature/demo-build"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

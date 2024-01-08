@@ -86,6 +86,40 @@
             "logo_transparent": "39001687_1066050283925963_4105666867544863176_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.1",
+                "change_log": "Improvements:\nImproved license code input for mobile and Quest\nRemoved file permission request on Quest (moved user files to app directory)\nImproved stability when switching between large files\nPlace Revit exports as objects\nStarting orientation to the table front on all VR platforms\nImproved BIM 360 web portal stability and user interface\nEducational license tag\nClick on the license tag to open license settings\nSupport for manually deploying license codes on Windows\nVarious updates and bugfixes"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "New Arkio features:\nMeetings now have edit and viewer rights\nViewers can create temporary sketches in meetings\nFree 1on1 meetings and pro meetings with up to 24 people\nNew license and in-app free trial system\nNew self-service subscription and payment web portal\nEnterprise users can temporarily promote viewers to editors in a meeting\nArkio to Rhino now exports Arkio objects to Rhino blocks\nArkio for Revit 2018 plugin added (import and export)\nSaved views in Arkio can now export back to Revit and Rhino\n\nImprovements:\nSignificant performance increase for Arkio on Oculus Quest and other devices\nSupport for larger Arkio scenes with more movable components\nImproved triangulation when working with complex shapes\nMultiuser editing stability increased\nMeetings audio quality enhancements\nImproved saved views and gathering many users in a meeting\nAutomatic meeting reloading if users get out of sync\nFixed various Revit and Rhino geometry importing and exporting bugs\nSupport for exporting more complex Arkio scenes to native Revit geometry\nAvoid unnecessary scenes duplication during meetings\nAuto expanding and minimized UI based on your edit rights\nPro and Enterprise notifications for paid features\nFixed various Arkio modeling bugs\nFixed various UI bugs"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Minor bug fixes"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "New Arkio features:\nExport from Arkio to SketchUp using our plugin (included in the Windows Installer)\n\nImprovements:\nMinor guide improvements\nRevit export plugin stability\nImproved section placement\nFixed bug with Revit models coming in at the wrong scale\nFixed a startup issue with Oculus for Business Devices"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "New Arkio features:\nThe meeting host can now mute and unmute other users in a meeting\nBIM 360 models can now be directly opened from the cloud panel\n\nImprovements:\n2x faster startup time on Oculus Quest\nFixed an import issue for users with foreign regional time settings (PC, Android, and Quest)\nImproved laser snapping to work in finer detail with more precision\nImproved mic echo cancelation\nFixed an issue with microphones not responding on some PC's\nMaps feature improved to correctly load on devices\nFixed BIM 360 model import bugs\nError note when models failed to import or export\nFixed an issue where imported models could no longer be deleted after modeling\nImproved plane constraining for arrayed geometry\nFixed multiuser copy and undo bug\nVarious bugfixes"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "New Arkio features:\nAll props and imported models can now be painted with Arkio materials\nSketchUp to Arkio export plugin (SketchUp Make 2017, SketchUp Pro 2019, 2020, and 2021)\nArkio is now available for Mac OSX\n\nImprovements:\nImproved tutorial with more in-depth info cards\nImproved copy and arraying of geometry\nModel export notifications\nSection tool placement improvements\nAvoiding the creation of unwanted small geometry\nImproved grabbing of small objects by hand\nFixed maps not loading on some PC's\nFixed various modeling and hosting bugs\nFixed various UI bugs"
+            },
+            {
+                "version": "0.9.8",
+                "change_log": "New Arkio features:\n\nComfort vignette for two-handed grip scaling/rotating\nArkio is now publicly available on the Google Play store\n\nImprovements:\n\nShadow visibility settings (on, off)\nComfort vignette settings (off, low, medium, high)\nRendering and section UI now updates correctly based on meeting settings\nThe main VR menu on the left hand is now less sensitive to open\nFixed Excel program import sizes\nTeleport improvements\nMultiuser avatars no longer casting shadows\nTeleport improvements\nFixed various small UI and modeling bugs"
+            },
+            {
+                "version": "0.9.7",
+                "change_log": "Section and program/material rendering mode now synchronized among all meeting participants. Simplified geometry when exporting from Rhino using the Arkio Rhino Plugin. Export from Arkio to Rhino now available on all platforms. Minor updates and bug fixes."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

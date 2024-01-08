@@ -89,6 +89,28 @@
             "logo_transparent": "38982464_315538380398660_7145852108185430643_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Fixed a bug where Watson videos go out of sync if pausing the app/taking off the headset\n\nTouching clues highlight functionality has been improved, now also vibrates the controller\n\nFinal Tutorial step is not finished by picking up paper, but by actually opening/closing settings\n\nTutorial order of steps has been rearranged to provide a more intuitive progression\n\nTutorial is now skippable\n\nMultiplayer sessions are now saved and can be resumed when starting a new multiplayer game from the lobby\n\nSettings are now saved between sessions, except for Muting and Player Height Increase option\n\nThumbstick movement now has a slider for speed in settings\n\nMinor UI improvements and bugfixes\n\nMinor Audio quality improvements"
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Fixed a bug where sometimes (especially when first running the game) a 360 video wouldn’t load correctly and would cause players to get stuck in a video scene.\n- Added descriptions for the Buttons in the Settings Menu.\n- Added a Setting for 360 videos to view them either in Stereoscopic (different image for each eye, better depth perception at the cost of sharpness in parts of the video) or Monoscopic (single image for both eyes, better sharpness at the cost of depth perception, also more comfortable).\n- You no longer have the 'Continue' button after finishing the game. (clicking it would’ve only brought you to the End Credits scene).\n- Fixed a bug where a player doesn’t receive one of the doctor’s answers which she sends to you.\n- Fixed a bug where clues were sometimes turning blue when placed on the evidence board in multiplayer.\n- Small visual improvements and bugfixes.\n"
+            },
+            {
+                "version": "1.0",
+                "change_log": "- fixed an issue in multiplayer where clues sometimes followed another player inbetween rooms \n - fixed issues where continuing previously saved game progress didn't update timer correctly \n - fixed an issue where sometimes saved game progress didn't load when clickcing Continue \n - minor bugfixes and improvements for messages"
+            },
+            {
+                "version": "0.95",
+                "change_log": "Avatar SDK 2.0 has been implemented"
+            },
+            {
+                "version": "0.9",
+                "change_log": "first working avatar2 obb hack?"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

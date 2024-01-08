@@ -282,6 +282,88 @@
                 "short_description": "Vermillion ist der ultimative VR-Malsimulator, der die volle analoge Freude der Ölmalerei in die digitale Welt bringt. Hole dir das unvergleichliche Erfolgserlebnis, etwas Schönes auf der Leinwand zu schaffen, ohne das dreckige Wohnzimmer."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.5.0f8",
+                "change_log": "Fixed Room setup in passthrough not working correctly, leading to an invisible wall in front of the easel."
+            },
+            {
+                "version": "1.5.0f4",
+                "change_log": "- Fixed the projector slightly resizing over time. \n- The projector position and size is now stored for the browser, the reference image page, and the local image page.\n\n- You can now generate a paint by numbers template from your own images and any image you find online! Vermillion will generate the outlines, which you can show above or below the paint on the canvas. The palette will be automatically filled with the required colors. You can isolate outlines to one color at a time, so you can very easily apply the right color in the right area. Painting has never been more accessible! This will become a paid add-on after the Holiday sale.\n- You can now open files you copied to your Quest over USB, instead of only online. Paint by numbers can also be generated from local images.\n- Reduced memory usage which makes the app more stable on Quest 3, especially in multiplayer.\n- Fixed a bug where for lefties, your hands could swap if you paused the game and resumed.\n- Fixed keyboard sometimes not being complete."
+            },
+            {
+                "version": "1.5.0f3",
+                "change_log": "- The paint by numbers generation for lower levels of details has been greatly improved so it provides concise, clean outlines. Have fun! Previous update notes:\n\n- You can now generate a paint by numbers template from your own images and any image you find online! Vermillion will generate the outlines, which you can show above or below the paint on the canvas. The palette will be automatically filled with the required colors. You can isolate outlines to one color at a time, so you can very easily apply the right color in the right area. Painting has never been more accessible!\n- You can now open files you copied to your Quest over USB, instead of only online. Paint by numbers can also be generated from local images.\n- Reduced memory usage which makes the app more stable on Quest 3, especially in multiplayer.\n- Fixed a bug where for lefties, your hands could swap if you paused the game and resumed.\n- Fixed keyboard sometimes not being complete."
+            },
+            {
+                "version": "1.5.0f2",
+                "change_log": "- You can now generate a paint by numbers template from your own images and any image you find online! Vermillion will generate the outlines, which you can show above or below the paint on the canvas. The palette will be automatically filled with the required colors. You can isolate outlines to one color at a time, so you can very easily apply the right color in the right area. Painting has never been more accessible!\n- You can now open files you copied to your Quest over USB, instead of only online. Paint by numbers can also be generated from local images.\n- Reduced memory usage which makes the app more stable on Quest 3, especially in multiplayer.\n- Fixed a bug where for lefties, your hands could swap if you paused the game and resumed.\n- Fixed keyboard sometimes not being complete."
+            },
+            {
+                "version": "1.5.0f1",
+                "change_log": "- You can now generate a paint by numbers template from your own images and any image you find online! Vermillion will generate the outlines, which you can show above or below the paint on the canvas. The palette will be automatically filled with the required colors. You can isolate outlines to one color at a time, so you can very easily apply the right color in the right area. Painting has never been more accessible!\n- You can now open files you copied to your Quest over USB, instead of only online. Paint by numbers can also be generated from local images.\n- Reduced memory usage which makes the app more stable on Quest 3, especially in multiplayer.\n- Fixed a bug where for lefties, your hands could swap if you paused the game and resumed.\n- Fixed keyboard sometimes not being complete."
+            },
+            {
+                "version": "1.4.3f2",
+                "change_log": "Changed search engine to DuckDuckGo."
+            },
+            {
+                "version": "1.5.0",
+                "change_log": "- You can now generate a paint by numbers template from your own images and any image you find online! Vermillion will generate the outlines, which you can show above or below the paint on the canvas. The palette will be automatically filled with the required colors. You can isolate outlines to one color at a time, so you can very easily apply the right color in the right area. Painting has never been more accessible!\n- You can now open files you copied to your Quest over USB, instead of only online. Paint by numbers can also be generated from local images.\n- Reduced memory usage which makes the app more stable on Quest 3, especially in multiplayer.\n- Fixed a bug where for lefties, your hands could swap if you paused the game and resumed.\n- Fixed keyboard sometimes not being complete."
+            },
+            {
+                "version": "1.4.3f1",
+                "change_log": "Fixed hand stabilizer line not showing on canvas in passthrough. Thanks to Walhallo=DM= for the report!\n\nPrevious update:\n- Colocated multiplayer now shows the physical person in passthrough rather than overlaying their Meta Avatar!\n- Distant grabbing of studio equipment (brushes, palette, easel and stand grips) is now a setting that's disabled by default. You can enable it again from Settings > Controllers\n- Improved framerate when walking to another person's easel in multiplayer\n- Fixed brush disappearing when grabbing someone else's brush and then repositioning an easel or a stand\n- Autosave doesn't happen while painting\n- Fixed 3D model export being 10m under the origin"
+            },
+            {
+                "version": "1.4.3",
+                "change_log": "- Colocated multiplayer now shows the physical person in passthrough rather than overlaying their Meta Avatar!\n- Distant grabbing of studio equipment (brushes, palette, easel and stand grips) is now a setting that's disabled by default. You can enable it again from Settings > Controllers\n- Improved framerate when walking to another person's easel in multiplayer\n- Fixed brush disappearing when grabbing someone else's brush and then repositioning an easel or a stand\n- Autosave doesn't happen while painting\n- Fixed 3D model export being 10m under the origin"
+            },
+            {
+                "version": "1.4.2",
+                "change_log": "Experimental support for co-located multiplayer!"
+            },
+            {
+                "version": "1.4.1f1",
+                "change_log": "- Fixed local avatar and room setup popups potentially overlapping\n- Improved resolution for multiplayer on Quest 3"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "- Added line from hand to distant grab hand to make the remote grabbing intent clearer\n- Added haptic tick when hovering over grabbable object\n- Added loading screen while application is initializing\n- Fixed several small bugs"
+            },
+            {
+                "version": "1.4.0f10",
+                "change_log": "- Mount & fame paintings in passthrough and in VR!\n- Incredibly crisp canvas using Super Resolution.\n- Double the canvas resolution on Quest 3 vs Quest 2.\n- Grab anything from a distance so you don't bump into anything or have to stretch.\n- Painting settings panel on the palette for canvas mixing sensitivity, paint thickness, and the new infinite paint toggle.\n- Two inch brush output is smoother.\n- Dry palette knife is now an excellent tool for smoothing on the canvas."
+            },
+            {
+                "version": "1.3.4",
+                "change_log": "Fixed game audio cutting out when the browser was not on YouTube. "
+            },
+            {
+                "version": "1.3.3f3",
+                "change_log": "Fixed lighting in the loft studio. Previous update:\n\nImproved locomotion! Holding trigger will enable the locomotion mode, showing a panel with the options you have. \n\n- Teleport is now an arc instead of a straight line.\n- Teleport now lets you set the target rotation directly using the thumbstick.\n- Teleport now always puts you exactly where you teleported to.\n- Added snap, quick, and smooth rotation.\n- Added head & controller aimed smooth locomotion.\n- Added grab locomotion, allowing you to position yourself by \"dragging\" the world around. Perfect for positioning yourself just right.\n- You can now move in the entire studio environment, instead of only in the blue area.\n\n- Changed mountain lake studio sky."
+            },
+            {
+                "version": "1.3.3f2",
+                "change_log": "Improved locomotion! Holding trigger will enable the locomotion mode, showing a panel with the options you have. \n\n- Teleport is now an arc instead of a straight line.\n- Teleport now lets you set the target rotation directly using the thumbstick.\n- Teleport now always puts you exactly where you teleported to.\n- Added snap, quick, and smooth rotation.\n- Added head & controller aimed smooth locomotion.\n- Added grab locomotion, allowing you to position yourself by \"dragging\" the world around. Perfect for positioning yourself just right.\n- You can now move in the entire studio environment, instead of only in the blue area.\n\n- Changed mountain lake studio sky."
+            },
+            {
+                "version": "1.3.3f1",
+                "change_log": "- Fixed app not starting on Quest Pro because the permissions dialog wouldn't show up.\n- Storage permission is now only asked when required, not on app start."
+            },
+            {
+                "version": "1.3.3",
+                "change_log": "- A new environment for you to paint in! A serene mountain lake cabin is waiting for you to bring your easel.\n- Precise brush haptics on Quest Pro.\n- Eye tracked foveated rendering on Quest Pro.\n- Local dimming on Quest Pro.\n- Avatars are a bit less bright, since they were popping too much.\n"
+            },
+            {
+                "version": "1.3.2",
+                "change_log": "- Added Oculus multiplayer functionality! You can now invite friends directly into Vermillion's multiplayer using the friends & party UI.\n- You can now report abusive players. \n- When trying to join a public room and none is available, you now automatically create a public room yourself so others can join later.\n- Fixed player moving when going in and out of multiplayer.\n- Fixed issue with layered transparent paint. Only applies to new paintings.\n- Added \"Merge\" label on layer merge button for clarity.\n- Made the easel less heavy to move around.\n- Changed the way thick paint is applied, so you can't get overly thick paint from going over the same bit twice."
+            },
+            {
+                "version": "1.3.1",
+                "change_log": "You requested it, and here it is!\n\n- You can now merge layers down. This allows you to free up layers, so you can make complex compositions without worry.\n- You can now move layers. Gone are the days of forgetting to start on layer 2, and not being able to put in your background afterwards.\n- The longest standing bug in Vermillion is fixed: blurring a paint stroke on a higher layer no longer creates a white halo.\n\nNote that you can only merge layers on new paintings. This is because the way transparent paint used to be shown on the canvas was incorrect, and made it impossible to merge layers down. Your old paintings are not affected by this change, but you therefore also can't merge layers on those.\n\nOther changes:\n\n- You now see the player names above their heads when you're on the multiplayer session page, so you can easily block or mute the right person.\n- The avatar heads are now human-sized by default, rather than the oversize they are normally. You can change this in the Multiplayer > Avatars menu on the floating screen.\n- Fixed spots of opaque paint appearing in the stroke of the dagger brush with thinned paint.\n- Fixed the floating screen lagging behind the item it's docked to."
+            }
+        ],
         "keywords": [
             "painting",
             "creativity",

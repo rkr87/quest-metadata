@@ -61,7 +61,7 @@
             },
             {
                 "rating": 3,
-                "votes": 49
+                "votes": 51
             },
             {
                 "rating": 4,
@@ -69,7 +69,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1001
+                "votes": 1003
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -97,6 +97,48 @@
             "logo_transparent": "38974622_796017918604254_2264792844258297444_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "3.6",
+                "change_log": "Fixed bugs:\n1. trigger may be hard to press\n2. star wars mod issue\n3. grabbing hook can grab like everything\n4. MR mode rescan button and easier to start the fight"
+            },
+            {
+                "version": "3.6",
+                "change_log": "Fixed bugs:\n1. trigger may be hard to press\n2. star wars mod issue\n3. grabbing hook can grab like everything\n4. MR mode rescan button and easier to start the fight"
+            },
+            {
+                "version": "3.6",
+                "change_log": "Changelog for V11P6：\n> New Content\n- Added two weapons: Energy Grappling Hook and Energy Transforming Bow\n- Unlock new, higher-difficulty challenges after completing the Challenge Mode\n  - Added new clear animation in Challenge Mode\n  - Added new Challenge Mode rooms after completing the Challenge Mode\n  - Characters will gain new abilities in higher-difficulty challenges\n- Added new scenes and performances to Challenge Mode\n- Added new challenge Statistics Feedback to Challenge Mode\n- Added a new Christmas-themed castle\n- Added Meta Quest3 MixReality Experimental Mode (Testing Phase)\n  - Construct battlefields in the real world\n  - Move freely and engage in battles\n- Added support for new languages: Spanish, Swedish, French\n> Adjustments\n- Significantly improved usability of the cheat menu for easier implementation of ideas\n  - Added a built-in music player with a range of gaming soundtracks\n- Visual enhancements for Human Warrior characters\n- Reintroduction of old dungeons accessible from Sandbox Mode\n- Improved presentation of the backpack\n- Resolved weapon variety issues in dungeons\n- Enhanced performance and balance of certain weapons\n- Improved NPC's judgment of attack distance\n- Optimized Index controllers\n- Enhanced UI and visual feedback in certain areas"
+            },
+            {
+                "version": "3.5",
+                "change_log": "Small Patch:\n- stun cheat added \n- Index controller optimization\n- hidden weapon unlock bug fixed"
+            },
+            {
+                "version": "3.5",
+                "change_log": "For more details, please check our announcement\n\nChange Log for V11P5:\n> New Content\n- Brand new adventure, sandbox, and challenge modes, with the ability to seamlessly switch between them.\n- Challenge Mode:\n  - Independent random dungeons with a unique economy system and currency called \"Souls\"\n  - New facilities and items, such as the Demon Tablet, merchants, and Decomposition Portal.\n  - New level rooms.\n  - Completely revamped dungeon configurations.\n- Sandbox Mode:\n  - Unlock all content right from the start.\n  - Exclusive Halloween-themed sandbox castle scene.\n- New weapon: HarryPair Shield.\n\n> Adjustments\n- Balanced many weapons for improved gameplay.\n- Some skills that previously required weapon upgrades are now accessible from the beginning.\n- Enhanced the handling of certain weapons.\n- NPCs exhibit more varied and natural behaviors.\n- Adjusted NPC difficulty, including stagger mechanics and attack patterns.\n- Improved hand physics and grip sensations.\n- Player stagger when attacked is now more realistic and natural.\n- Removed dungeon and sandbox levels from the adventure progression.\n- Optimized certain dungeon rooms.\n- Improved UI usability."
+            },
+            {
+                "version": "3.3",
+                "change_log": "fix C3-11"
+            },
+            {
+                "version": "3.2",
+                "change_log": "Change Log for V11P3:\n- Avatar 2.1, supports different scale models\n- Added grab and push away features\n- Improved skeleton revive effect\n- 2 new tutorial levels\n- 10 new rooms\n- Blackhole spell is more powerful\n- Chest may contain more weapons\n- Sandbox scene with item spawner\n- SelfieCam can get blood stains\n- Body parts can be exploded\n- Partially destructible environment\n- 3 legacy robots (still a bit janky, just for fun)\n- 3 new weapons\n- Hints panel for hidden items \nKnown issues (still working on):\n- May lag on laptop\n- May lose save file when battery runs out"
+            },
+            {
+                "version": "3.1",
+                "change_log": "Change Log for V11P2:\n\nHey guys, our first monthly update is just released, hope you enjoy the game so far. Althogh we call it full release, it's still in actively developing, launching on the store is far from the end of our journey!\nOur mod week event is coming on July 16th. Don't forget to give your favorite modder encouragement and support.\nBtw, we added an in-game TV. Upload your clips on Tiktok/Youtube/Twitter with BattleTalentPeak tag, or join our Discord/Reddit to share them. They may be displayed to all players in the Talent Temple with your name!\n\n>Mod\n- Avatar 2.0\n- Custom hand pose support\n- Custom npc in wave\n- ModTk and mod doc moved to new repo(https://github.com/BattleTalent)\n>Combat\n- AI become more aggresive with higher difficulty\n- Two new secret weapons\n- New hand texture\n- Shotgun artwork remade\n- Charge attack is easier\n- Spells are easier to enhance\n>Level\n- Sandbox unlocked eariler\n- Spells unlocked eariler\n- Dungeon with different length selections\n- Shortten the default dungeon length.\n- In-game highlight area\n>Misc\n- Custom key mapping for third party controller(e.g. Htc cosmos)\n- When set fov to 60 on PCVR. It will greatly improve performance.\n- By reducing the frequency of saves, there is much less chance of losing progress."
+            },
+            {
+                "version": "3.0",
+                "change_log": "Just a small patch, hope you enjoy the game so far:\n\n- Improve save system.. again\n- Fixed selfie cam, won't be freeze anymore when enemy's arround\n- Fixed skill - ice spike can hit multiple enemies at the same time\n- Improve the holster area"
+            },
+            {
+                "version": "3.0",
+                "change_log": "Change Log\n- General\n  - better cheat menu\n  - more two handed cast spells\n  - better aerial combo\n  - more loot in sky ruin\n  - more loot in sky ruin\n  - easier to climb and jump\n  - less parkour rooms\n  - removed sword orc's helmet\n  - endless mode\n- Performance & Bug\n  - fixed save file corrupted when out of battery\n  - fixed some animation\n  - optimized final boss fight performance\n  - optimized test scene\n  - fixed real time shadow bug on quest\n- Artwork\n  - replaced stormpistol artwork\n  - replaced ice dagger/sword artwork\n  - replaced goblin armor"
+            }
+        ],
         "keywords": [
             "physics",
             "mod",
@@ -107,8 +149,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1258,
-        "rating": 4.565978,
+        "votes": 1262,
+        "rating": 4.564184,
         "weighted_rating": 4.51,
         "is_available": true,
         "is_free": false

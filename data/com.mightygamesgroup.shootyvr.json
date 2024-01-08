@@ -100,6 +100,16 @@
             "logo_transparent": "75375747_187032495998164_4465224823630023127_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.10.85270",
+                "change_log": "* Updated the game to run at 90hz by default.\n* Added a Graphics tab to the options menu for the Quest 2 that allows the user to toggle between:\n- High Refresh Rate which runs the game at 90hz with enhanced Resolution (1.2x render scale)\n- PostFX which adds Bloom and FXAA to enhance the graphics quality with emissive lighting and runs at 72hz\n- Low Battery mode which runs the game at 72hz with no PostFX\n* Both Quest 1 and 2 versions of the game have been colour graded to enhance the visual quality of our environments\n* Additional graphics optimizations.\n* Assorted bug fixes."
+            },
+            {
+                "version": "1.02.66030",
+                "change_log": "FEATURES:\n- Added ability to toggle on/off the aiming laser during gameplay in the options menu.\n- Added ability to toggle on/off the autofire feature in the options menu.\n- Updated hand switching functionality to support more streamlined hand switching using triggers in the game hub.\n\nVISUALS:\n- Mesh polish pass on selected pilots and enemies\n- Polish pass of visual effects to improve look and performance.\n- New VFX added across the game.\n- Lighting improvements to all worlds.\n- Big improvements to the quality of boss cinematics, animations, visual effects and audio.\n- Polished pilot and world unlocking sequence to improve animations and visual effects.\n\nAUDIO:\n- New sounds added across the game for UI, world sounds, enemies, pilots and player actions.\n- Rebalanced music tracks.\n\nBUGFIXES:\n- Improved mission indicator offsets on some enemies.\n- Balanced enemy collision volumes to better match meshes.\n- Fixed incorrectly coloured voxels and lighting on some enemies.\n- Fixed fog quality in Uncandy Valley.\n- Fixed sound listener balance in final world.\n"
+            }
+        ],
         "keywords": [
             "retro",
             "shooter",

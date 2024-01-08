@@ -61,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 41
+                "votes": 42
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -115,6 +115,28 @@
                 "short_description": "Che tu sia un aspirante professionista o un casual gamer, prova il brivido di mettere a segno l'ace perfetto con Tennis League VR!"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.2.0",
+                "change_log": "Physics tuning: \n- Applied more controls over flick movements and strong shots, allowing for better ball control throughout the game. You'll be in full control of your shots. Tuning applied both for Arcade and Simulation modes!\n- We removed some helpers on serve while in Simulation mode. This will allow more \"straight\" and powerful serve shots (with the proper technique)! In Arcade Mode, those helpers remain: they are applied on more strong shots, helping the ball to stay on the court more often at the price of lower shot speed.\n\nExpanded movement options.\nWe've expanded the selector in the settings panel allowing you to choose your preferred locomotion mode among these 4:\n- Default teleport: press input to teleport to the closest position to catch the ball after or before the bounce\n- Advanced teleport: press input to teleport like in default mode, then press again to switch between forehand and backhand position\n- Auto teleport: you'll be automatically teleported to the closest position to receive the ball. Use the input to switch receive position between after or before the bounce\n- Free movement mode: use the analog sticks to move smoothly on the field. Now you can move smoothly while in the home environment too!\n\nOn the teleport modes, you can also select if you prefer to use the buttons (A, B) or the analog stick (forward, backward)."
+            },
+            {
+                "version": "1.0.1.3",
+                "change_log": "- Improved user profile management to prevent app from crashing upon closing health and safety splashscreen on some devices"
+            },
+            {
+                "version": "1.0.1.2",
+                "change_log": "- Tweaked startup flow to prevent app from crashing upon closing health and safety splashscreen on some devices"
+            },
+            {
+                "version": "1.0.1.1",
+                "change_log": "- Fixed a bug that made the app crash to the dashboard for some players, when closing the health and safety splashscreen\n- Fixed some setting on the new avatar skins so they load and perform better"
+            },
+            {
+                "version": "1.0.1.0",
+                "change_log": "- Enhanced multiplayer game settings\n\nAll multiplayer games are now set as public by default, ensuring that your matches are visible to your regional community. If you prefer to keep your match private, you can easily switch it back using the lock slider located in the top right corner of the panel.\n\n\n- Expanded avatar customization\n\nWe have listened to our users' feedback regarding limited options for skin tones in the avatar customization feature. We understand the importance of inclusivity and representation, so we have added a wider range of skin tones to choose from. This is just a first step, as we plan to include more physiognomies in the future for a more realistic representation.\n\n\n- Updated tennis court visuals\n\nWe have rectified a texture issue with a specific tennis court environment that previously depicted court lines unrealistically.\n\n\n- Improved color management in headset screens\n\nDue to some missing settings, the game environments occasionally appeared overly red. We have addressed this issue, and now the vibrant colors of the game environments are displayed as intended.\n\n\nWe would like to thank everyone who helped the development of Tennis League with their feedback, and encourage you to provide your thoughts on this update in our Discord community. Your input helps us prioritize future updates and improvements!"
+            }
+        ],
         "keywords": [
             "Tennis",
             "Sports",
@@ -125,8 +147,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 75,
-        "rating": 3.706667,
+        "votes": 76,
+        "rating": 3.723684,
         "weighted_rating": 3.79,
         "is_available": true,
         "is_free": false

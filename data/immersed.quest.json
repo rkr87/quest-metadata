@@ -69,7 +69,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1557
+                "votes": 1558
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -97,6 +97,88 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.11.15",
+                "change_log": "Update saving and loading of Voice Volume.\nAdd custom DND voice volume setting in Audio Settings.\nToggling Mixed Reality mode will now show and hide the platform in the new 360 Photo environments."
+            },
+            {
+                "version": "1.11.14",
+                "change_log": "Screens now layer based on distance to you.\nFix instance where leaving a room would get stuck."
+            },
+            {
+                "version": "1.11.13",
+                "change_log": "UI fixes on popups and menu tooltips.\nFix LinkedIn video prompt.\nUpdate to default poses for avatars when far away.\nUpdate public room prompt."
+            },
+            {
+                "version": "1.11.12",
+                "change_log": "Update seating and room logic to improve repositioning when entering a collaboration or public room.\nAdd scrolling to public room menu.\n\nImprovements to hand ray cast when typing."
+            },
+            {
+                "version": "1.11.11",
+                "change_log": "Fix UI for 360 photos. Add support for new 360 environments."
+            },
+            {
+                "version": "1.11.10",
+                "change_log": "Fix lip sync for Quest 3 Meta Avatars.\nImprove misfiring of raycast from hands when typing.\nIncrease webcam resolution on Quest 3.\nBug fixes and improvements."
+            },
+            {
+                "version": "1.11.09",
+                "change_log": "Update profile UI for Pro mode.\nSupport Japanese and Chinese localization in App Preferences menu.\nUpdate whiteboard to now set up as a flat surface and support drawing with bottoms of controllers."
+            },
+            {
+                "version": "1.11.08",
+                "change_log": "Improve seat stacking when joining a collaboration or public room.\nFix bug with disappearing raycast.\nBug fix for resize arrow when hiding screens.\nUpdate sizing for screen handles.\nImprove latency metrics and hide latency when unable to get correct readings."
+            },
+            {
+                "version": "1.11.07",
+                "change_log": "Bug fixes for collaboration timeouts."
+            },
+            {
+                "version": "1.11.06",
+                "change_log": "Fix passthrough misfiring in collaboration spaces.\nFix timeouts in collaboration rooms to properly clean up idle users.\nImprove accuracy of latency metrics for wireless connections.\nUpdate Meta SDK.\nUI fixes."
+            },
+            {
+                "version": "1.11.05",
+                "change_log": "New update for supporting streaks when using Immersed.\nUI updates and bug fixes.\nFixes around USB connection."
+            },
+            {
+                "version": "1.11.04",
+                "change_log": "Improve security for local and remote streaming\nFix bugs with screen sharing not working when joining from another room\nFix floating cursor when changing seats\nSupport shared spatial anchors for the whiteboard\nShow environment download prompt when moving to a scene that has not been downloaded"
+            },
+            {
+                "version": "1.11.03",
+                "change_log": "Reduce misfires with quick action menu when using hands.\nFix saving of brightness setting.\nImprove hearing others when spatial audio set to lowest.\nFix verbose logging with Diagnostic Mode toggle.\nOther bug fixes and optimizations."
+            },
+            {
+                "version": "1.11.02",
+                "change_log": "Remove desk dependency for whiteboard.\nFix RPM editor view.\nFix some UI bugs."
+            },
+            {
+                "version": "1.11.01",
+                "change_log": "Fixes to lighting in environments and Meta avatars.\nFix UI issue with monitor resolutions menu.\nBug fixes for DND button.\nFix pagination on available computers view."
+            },
+            {
+                "version": "1.11.00",
+                "change_log": "Bug fixes for resize handles and mixed reality button on quick menu. Update UI in My Room menu. Environment performance optimizations."
+            },
+            {
+                "version": "1.10.00",
+                "change_log": "Update UI/UX for MyRoom tab and listing of environments.\nDecrease gap between top and bottom monitors in snap grid and fix issues where move bar would be obscured at certain angles."
+            },
+            {
+                "version": "1.9.99",
+                "change_log": "Add option for one-hand resize on screens. Fix issue where reported users were not removed from the room. Minor UI bug fixes"
+            },
+            {
+                "version": "1.9.98",
+                "change_log": "UI fixes and computer name fix.\nFix arrangements and copy link.\nFix friends list confirmation prompt."
+            },
+            {
+                "version": "1.9.97",
+                "change_log": "VR cursor fixes when moving screens and Mac icon fixes. \nAvatar fallback fixes. \nNotification updates when room disconnect occurs."
+            }
+        ],
         "keywords": [
             "vrdesktop",
             "desktop",
@@ -107,8 +189,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 2090,
-        "rating": 4.250239,
+        "votes": 2091,
+        "rating": 4.250598,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": true

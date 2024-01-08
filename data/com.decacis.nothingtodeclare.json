@@ -83,6 +83,36 @@
             "logo_transparent": "38982570_1561677727602849_7286069271682105878_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "DEMO_u49_230430",
+                "change_log": "- Fixed crash on startup (caused by update v51 of the OS)"
+            },
+            {
+                "version": "DEMO_u32_230110",
+                "change_log": "- Fixed incorrect position of the player when teleporting.\n- Fixed initial crash after trying to replay the demo.\n- Fixed a bug that prevented the player to skip dialogs after completing the demo."
+            },
+            {
+                "version": "DEMO_u31_221227",
+                "change_log": "- Stability and performance improvements.\n- Reduced the time per day by 60 seconds.\n- Fixed an issue when teleporting and rotating (incorrect position of the player.)"
+            },
+            {
+                "version": "DEMO_u27_221121",
+                "change_log": "- Fixed a bug that crashed the game on the last day (3)."
+            },
+            {
+                "version": "DEMO_u26_221121",
+                "change_log": "- Added two documents explaining the Contraband Detector and the Megaphone.\n- Added a tip to explain how to use the menu.\n- Limited maximum number of food items to improve performance.\n- Fixing some issues with the door.\n- Fixing a bug that caused a crash on start, seemingly randomly."
+            },
+            {
+                "version": "0.2.9_24_DEMO",
+                "change_log": "- Fixed a bug that made it impossible to grab some items when switching rooms."
+            },
+            {
+                "version": "0.2.9_23_DEMO",
+                "change_log": "- Fixed an issue that prevented the game from starting in some cases.\n- Better feedback for long loading times."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

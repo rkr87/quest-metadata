@@ -87,6 +87,88 @@
             "logo_transparent": "12386285_132780737164255_1678987989_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.11",
+                "change_log": "-Fixed issues with inputs with GearVR Controller and touchpad"
+            },
+            {
+                "version": "1.10.2",
+                "change_log": "Changes:\r\n-Completely new hardcore movement mode"
+            },
+            {
+                "version": "1.10.1",
+                "change_log": "Fixes:\n-Valid teleport range too short when tiny\n-Wrong tooltip on door when all key parts collected\n-No tooltip on Music Box potion when Motion Controller connected\n-Non-interactable Main Menu button when inspecting\n-Possible NullPointer when teleporting"
+            },
+            {
+                "version": "1.10.0",
+                "change_log": "New\n-Direct multiview\n\nChanges\n-Waypoint markers no longer Billboards\n-Various small performance improvements\n-Small package size reduction\n\nFixes\n-Gray Inventory background\n-Out of center teleport (6DOF only)\n-Possible teleport to void\n-Possible NullPointer on inventory inspection\n-Possible New Game with wrong size\n-Duplicate hand\n-Fade sort priority"
+            },
+            {
+                "version": "1.9.9",
+                "change_log": "Changes:\r\n-Hardcore mode disabled when Motion Controller connected\r\n\r\nFixes:\r\n-Possible black screen on some devices"
+            },
+            {
+                "version": "1.9.8",
+                "change_log": "Changes:\r\n-Small apk size reduction\r\n-Flip puzzle inspect after complete is no longer a state\r\n\r\nFixes:\r\n-Invisible items on inventory\r\n-Missing flag pole material on ES2\r\n-Duplicate flip puzzle mesh\r\n-Flip puzzle icons\r\n-Flip puzzle highlights"
+            },
+            {
+                "version": "1.9.7",
+                "change_log": "Fixes:\r\n-Possible teleport to invalid location\r\n-Issues with New Game when character size different than Normal\r\n-Issue that prevented some items being picked up"
+            },
+            {
+                "version": "1.9.4",
+                "change_log": "Fixes:\r\n-a few broken refs"
+            },
+            {
+                "version": "1.8.8",
+                "change_log": "-Hotfix: Having the GearVR controller connected breaks everything"
+            },
+            {
+                "version": "1.8.7",
+                "change_log": "-Players can now manually control brightness\n-Several more bugfixes and small improvements"
+            },
+            {
+                "version": "1.8.2",
+                "change_log": "-Translations available\n-Engine updated\n-Several bugfixes"
+            },
+            {
+                "version": "1.7.1",
+                "change_log": "- Comfort Mode (teleport mechanics and no camera bound transitions)\r\n- Hardcore Mode (free movement to walk around and dynamic camera for important transitions)\r\n- New and improved HUB/Menu with better options, settings and interactions (as well as a new scenario for it)\r\n- A better UI and feedbacks (such as highlights for interacting with game objects)\r\n- More jump scares\r\n- Tons of bug fixes\r\n- Tons of optmization"
+            },
+            {
+                "version": "1.7",
+                "change_log": "- Comfort Mode (teleport mechanics and no camera bound transitions)\r\n- Hardcore Mode (free movement to walk around and dynamic camera for important transitions)\r\n- New and improved HUB/Menu with better options, settings and interactions (as well as a new scenario for it)\r\n- A better UI and feedbacks (such as highlights for interacting with game objects)\r\n- More jump scares\r\n- Tons of bug fixes\r\n- Tons of optmization"
+            },
+            {
+                "version": "1.6",
+                "change_log": "- Comfort Mode (teleport mechanics and no camera bound transitions)\r\n- Hardcore Mode (free movement to walk around and dynamic camera for important transitions)\r\n- New and improved HUB/Menu with better options, settings and interactions (as well as a new scenario for it)\r\n- A better UI and feedbacks (such as highlights for interacting with game objects)\r\n- More jump scares\r\n- Tons of bug fixes\r\n- Tons of optmization"
+            },
+            {
+                "version": "1.6",
+                "change_log": "Update to 4.13 from Oculus Repository.\r\nTested: no \"black screen on start\"\r\nFixed Volume Buttons\r\nNew Oculus Mobile SDK (1.3)\r\nObjects are not too close\r\nDouble Back button closes the game\r\nInitial Version"
+            },
+            {
+                "version": "1.5",
+                "change_log": "Update to 4.13 from Oculus Repository.\r\nTested: no \"black screen on start\"\r\nFixed Volume Buttons\r\nNew Oculus Mobile SDK (1.3)\r\nObjects are not too close\r\nDouble Back button closes the game\r\nInitial Version"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Tested: no \"black screen on start\"\r\nFixed Volume Buttons\r\nNew Oculus Mobile SDK (1.3)\r\nObjects are not too close\r\nDouble Back button closes the game\r\nInitial Version"
+            },
+            {
+                "version": "1.3",
+                "change_log": "Fixed Volume Buttons\r\nNew Oculus Mobile SDK (1.3)\r\nObjects are not too close\r\nDouble Back button closes the game\r\nInitial Version"
+            },
+            {
+                "version": "1.2",
+                "change_log": "Fixed Volume Buttons\r\nNew Oculus Mobile SDK (1.3)\r\nObjects are not too close\r\nDouble Back button closes the game\r\nInitial Version"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "alice",
             "wonderland",

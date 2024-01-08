@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 63
+                "votes": 64
             }
         ],
         "comfort": "NOT_RATED",
@@ -101,13 +101,63 @@
                 "short_description": "4XVR视频播放器是一款以4倍清晰播放3D电影、VR视频的本地VR视频播放器。是唯一支持MVC 3D解码的VR视频播放器。"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.2.10",
+                "change_log": "Improvements:\n- Significantly optimized spatial video playback performance.\t\t \n\t\t \nNew Features:\t\t \n- Supported 2D flat video rotation.\n- Added some options to the settings page."
+            },
+            {
+                "version": "1.2.9",
+                "change_log": "Improvements:\n- Significantly optimized spatial video playback performance.\t\t \n\t\t \nNew Features:\t\t \n- Supported 2D flat video rotation.\n- Added some options to the settings page."
+            },
+            {
+                "version": "1.2.3",
+                "change_log": "New Features:\n- Supported Spatial Video (MV-HEVC).  \nThe only android player that can play spatial videos captured by iPhone 15 Pro/iPhone 15 Pro Max (iOS 17.2+).\n\nImprovements:\n- Optimized playback performance."
+            },
+            {
+                "version": "1.2.2",
+                "change_log": "New Features:\n- Supported Spatial Video (MV-HEVC).  \nThe only android player that can play spatial videos captured by iPhone 15 Pro/iPhone 15 Pro Max (iOS 17.2+).\n\nImprovements:\n- Optimized playback performance."
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "New Features:\n- Supported Spatial Video (MV-HEVC).  \nThe only android player that can play spatial videos captured by iPhone 15 Pro/iPhone 15 Pro Max (iOS 17.2+).\n\nImprovements:\n- Optimized playback performance."
+            },
+            {
+                "version": "1.1.8",
+                "change_log": "Bug Fixes:\n- Fix a bug in av1 playback (Quest 3 only).\n\nNew Features:\n- Single click A/X button to pause/play video.\n- Click thumb stick to reset zooming."
+            },
+            {
+                "version": "1.1.7",
+                "change_log": "Bug Fixes:\n- Fixed bug in unable to connect to MAC via SMB.\n- Fixed some video playback lag bugs.\n- Fixed some WebDAV bugs.\n- Fixed other known bugs.\n\nImprovements:\n- Improved stability of SMB.\n- Improved the image quality of HDR videos and increased HDR brightness adjustment.\n- More audio encoding formats support.\n- Visual Tuning, the video picture is clearer.\n\nNew Features:\n- Supported running when headset tracking is turned off.\n- Supported theatre light brightness adjustment.\n- Supported AV1 decoding (Quest 3 only).\n- When playing 3DVR videos, it Supported zooming UI."
+            },
+            {
+                "version": "1.0.23",
+                "change_log": "Fixes\n- Fixed a USB storage bug.(quest3)"
+            },
+            {
+                "version": "1.0.22",
+                "change_log": "Fixes\n- Fixed a USB storage bug."
+            },
+            {
+                "version": "1.0.21",
+                "change_log": "Fixes\n- Fixed a USB storage bug.\n- Fixed other known bugs."
+            },
+            {
+                "version": "1.0.12",
+                "change_log": "Optimizations:\n- Visual Tuning, the video picture is clearer.\n- Optimized USB storage read, support 2T+, even 20T.\n\nFeatures:\n- Supports Zooming in/out with thumb stick.\n- Supports adjusting saturation, contrast, brightness, and color correction.\n- Supports draging viewpoint for 180/360 VR videos, and adjusting IPD for 180 3DVR videos.\n- Supports Boost Volume."
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "Update:\n\n-Fix:\nUSB drive reading optimized, bugs fixed\nDLNA  optimized, bugs fixed\n"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 120,
-        "rating": 4.108333,
-        "weighted_rating": 3.98,
+        "votes": 121,
+        "rating": 4.115702,
+        "weighted_rating": 3.99,
         "is_available": true,
         "is_free": true
     },

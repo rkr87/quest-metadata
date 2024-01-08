@@ -97,6 +97,16 @@
             "logo_transparent": "39031308_520212515438689_2442310174795366400_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.01",
+                "change_log": "Deactivated Ink reset feature\nFix sign error in drop velocity correction"
+            },
+            {
+                "version": "1.00",
+                "change_log": "Fix issue with cascading pool failures triggered when not collecting drops from the drone in mothership_approach\nRebuilt refinery2 nav mesh, which had been clipped by some refinery3 collision"
+            }
+        ],
         "keywords": [
             "falcon",
             "bird",

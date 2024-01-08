@@ -102,6 +102,44 @@
                 "short_description": "¡El juego de lucha más avanzado hasta la fecha! Pelea contra 12 luchadores únicos con un juego completo de técnicas de artes marciales y combos, y 15 especiales diferentes.\n¡Siente una experiencia de combate increíble que hará morder el polvo a otros juegos de lucha!\nTendrás que entrenar tus habilidades de golpeo, esquiva, bloqueo y especiales para ser el más duro.\nMejora tu estamina, fuerza corporal y técnica mientras disfrutas de un gran tiempo de combate.\n¡Desata el dragón que hay en ti!"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.3d",
+                "change_log": "Leaderboards, haptics improvements and performance improvements"
+            },
+            {
+                "version": "1.0.3c",
+                "change_log": "Add Chinese language"
+            },
+            {
+                "version": "1.0.3b",
+                "change_log": "General optimizations and achievements added to the game"
+            },
+            {
+                "version": "1.0.3a",
+                "change_log": "Improve combat environments and recreated dragon mountains environment, config music flag stops music in all game, stop slash move when hit opponent and you are moving in his direction, correct double player push in some situations, limit the opponents that can be selected at easy and medium levels"
+            },
+            {
+                "version": "1.0.2h",
+                "change_log": "- Increase movement velocity\n- Reduce difficulty of specials:\n\t* allow specials while moving\n\t* increase toguether hands distance\n\t* remove grab buttons from specials\n- Show the status bar continously and allow configurate lookup if desired\n- Reduce number of combats at easy 2 and medium 4"
+            },
+            {
+                "version": "1.0.2g",
+                "change_log": "- Increase movement velocity\n- Reduce difficulty of specials:\n\t* allow specials while moving\n\t* increase toguether hands distance\n\t* remove grab buttons from specials\n- Show the status bar continously and allow configurate lookup if desired\n- Reduce number of combats at easy 2 and medium 4"
+            },
+            {
+                "version": "1.0.2f",
+                "change_log": "- Now the timeout for a special starts when the movement of the hands reach step 2 not when triggers are pressed. This makes much easier to perform specials!\n- Combats start with full mana for player and opponent. Life is nicer with special powers since the begining!\n- Stun effect for player improved"
+            },
+            {
+                "version": "1.0.2c",
+                "change_log": "Listening to users feedback we have:\n\n- Simplified and shorten initial tutorial.\n- Change specials tutorials flow to make clearer the movements required for each special.\n- Make bigger and more visible in combat specials tutorial guide movements to improve the learn curve of specials.\n- Add a voice warning of no mana when you try to execute an special without mana.\n- Make easier to make specials in combat. Now the special is not cancelled when player get hit or hit himself the opponent\n"
+            },
+            {
+                "version": "1.0.2a",
+                "change_log": "- Opponents IA improvements against player high pressure attacks\n- Imporve tutorial\n- Improve user initialization"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

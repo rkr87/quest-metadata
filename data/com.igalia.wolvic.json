@@ -85,6 +85,16 @@
             "logo_transparent": "38974453_684620602673385_4222980707207053963_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Finally 1.0 is here!. This important milestone comes with tons of changes:\n\n## General Fixes\n* Fixed the distortion in XR sessions in Oculus after selecting IPD in positions 1 or 3\n* Fixed the situation in which Wolvic refused to enter WebXR sessions even after restarting\n* Fixed a few regressions caused by the multibackend migration\n* Fixed Wolvic exiting whenever users go out the security zone (HVR only)\n\n## Stability Fixes\n* Fixed a crash in the crash reporting service\n* Fixed a crash in the slow script handler\n\n## Websites Compatibility\n* Popular streaming services are opened automatically in desktop mode. The list of services includes Netflix, HBOMax, Disney+, Hulu, Amazon Prime Video...\n* Several XR experiences work now by pretending to be the Meta browser\n\n## Media Fixes\n* Fixed a hang in YouTube when closing a window while a YouTube video plays\n* Fixed a hang in YouTube when going fullscreen before the video starts to play\n\n## Speech Recognition services\n* Configurable speech recognition service\n* UI only lists the specific list of supported languages for each service\n\n## New Translations\n* Chinese\n* French\n* Japanese\n* Korean\n* Galician\n* Spanish\n* and [many more](https://hosted.weblate.org/projects/wolvic/wolvic/)\n\n## Project infrastructure\n* Cleaned up the [wiki](https://github.com/Igalia/wolvic/wiki)\n* Added switches to the Wolvic start page to filter experiences based of devices/regions\n* Added new experiences to the start page"
+            },
+            {
+                "version": "0.9.5",
+                "change_log": "* Restored Firefox Accounts synchronization. You can now sync your bookmarks and send tabs between devices running Firefox and Wolvic.\n* Ability to select a default search engine. To change your search engine, open the Settings window, select “Privacy & Security”, and then the “Edit” button that accompanies the “Search engine” option. The engine you have set will appear below the “Search engine” label.\n* Added Wolvic's privacy policy.\n"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

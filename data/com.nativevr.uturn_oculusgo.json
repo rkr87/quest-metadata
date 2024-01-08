@@ -84,6 +84,20 @@
             "logo_transparent": "75269157_677776512954612_941889591167321131_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Removed microphone code included with Oculus SDK"
+            },
+            {
+                "version": "1.0",
+                "change_log": "No longer asks for microphone permissions (our app doesn't use the microphone or access any device data)"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Updated with H.264 Video for smoother transport controls"
+            }
+        ],
         "keywords": [
             "360",
             "narrative",

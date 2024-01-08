@@ -68,7 +68,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1110
+                "votes": 1111
             }
         ],
         "comfort": "NOT_RATED",
@@ -93,12 +93,34 @@
             "logo_transparent": "38982699_1083850802214449_3450506832397633543_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.0.205",
+                "change_log": "Maestri! \nWe're excited to announce a new update for Maestro: The Masterclass. We have some improvements for you!\n\n9 new languages:\n- English\n- Spanish\n- Italian\n- French \n- German \n- Japanese \n- Korean \n- Russian  \n- Chinese (trad./simpl.) \n\nPerformance improvements:\n- Musicians are now rendered at different frame rates giving us some extra performance.\n- HMD state polling optimisation, regular checks such as input validity or whether the headset is being worn are done less often.\n\nBug fixes:\n- Input pop-ups can no longer be displayed during level transitions.\n- Fermata and Dynamics validation conditions adjustments.\n- Audio adjustments throughout the game.\n- Interface anti-aliasing visual improvements.\n\nOther updates:\n- New hand tracking system, with new hand models. \n- The baton is now automatically adjusted based on the hand pose. "
+            },
+            {
+                "version": "0.0.101",
+                "change_log": "Updated Credits\nFixed musicians’ red eyes graphical issue\nRemixed and remastered Masterclass pieces:\n\nA BIGGER BAND:\nGenerally: more generous\nJazz parameter was pushed from a 6 to a solid 9\nReinforced the brass\n- Ténors far more confident\n- Switched the lead and second trombone for expressive interpretation\nDrummer is finally at your tempo\nClarinetist stays in… for now.\nMore complicity between the chorus and the accompaniment \n\nCONDUCTOR BOOGIE:\nMore “house” with a new guitar combo\nImproved general balance and equalizing\nLiberated the piano synthesizer behind the bass line following sequencer recommendation\nNew kick (complextro 3)\nViolins now “on beat” with the sforzandos\nWelcomed an additional arpeggiated guitar\nWecomed a muted muted guitar (“cocotte”) to support the groove\nWelcomed a bass player on the bridge\n\nSKY IS THE LIMIT\nFixed the lingering conflict between the wurlitzer piano (too heavy) and the bass player to get substantially more “boogie” from the bassline\nLong awaited / fan favorite Roland 808 came in with its signature kick, snare and charleston\nSinger back 8 meters and put a windscreen on the mic\nSwapped the guitar for a Sunburst to support with steady harmonic riffs\nSlid in a nice “Psychose / Hitchcockian” strings line\nClappers told to clap harder"
+            },
+            {
+                "version": "0.0.100",
+                "change_log": "Updated Credits\nRemixed and remastered Masterclass pieces:\n\nA BIGGER BAND:\nGenerally: more generous\nJazz parameter was pushed from a 6 to a solid 9\nReinforced the brass\n- Ténors far more confident\n- Switched the lead and second trombone for expressive interpretation\nDrummer is finally at your tempo\nClarinetist stays in… for now.\nMore complicity between the chorus and the accompaniment \n\nCONDUCTOR BOOGIE:\nMore “house” with a new guitar combo\nImproved general balance and equalizing\nLiberated the piano synthesizer behind the bass line following sequencer recommendation\nNew kick (complextro 3)\nViolins now “on beat” with the sforzandos\nWelcomed an additional arpeggiated guitar\nWecomed a muted muted guitar (“cocotte”) to support the groove\nWelcomed a bass player on the bridge\n\nSKY IS THE LIMIT\nFixed the lingering conflict between the wurlitzer piano (too heavy) and the bass player to get substantially more “boogie” from the bassline\nLong awaited / fan favorite Roland 808 came in with its signature kick, snare and charleston\nSinger back 8 meters and put a windscreen on the mic\nSwapped the guitar for a Sunburst to support with steady harmonic riffs\nSlid in a nice “Psychose / Hitchcockian” strings line\nClappers told to clap harder"
+            },
+            {
+                "version": "0.0.97",
+                "change_log": "Jazz track updated\nJazz score name updated\nCredits updated"
+            },
+            {
+                "version": "0.0.91",
+                "change_log": "BATON PHYSICS\nBaton now properly collides with the close position objects (podium / book) and opposes supple resistance. A classic ghost representation of the virtual prop was also added and is shown when driven through objects\n\nHIGH FREQUENCY TRACKING\nWe reverted to HFT for tracking performance improvements, and re-optimized for performance - tracking is generally much smoother now."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1205,
-        "rating": 4.86722,
+        "votes": 1206,
+        "rating": 4.86733,
         "weighted_rating": 4.78,
         "is_available": true,
         "is_free": true

@@ -102,6 +102,44 @@
                 "short_description": "ストーリー\n\nクリスマスの夜、王様の秘密を知っているピエロが、脱走する。\n王宮で記憶が戻らないアリス達にピエロの追跡命令が下される。\n\n「ゴーストタウン」…人気がない、さびれた町　ある成分を調べるためにピエロが逃げた場所。特別な人たちがいる。\n震災やガスを大量に流されたかで、ゴースト化している\n\n「ゴブリンタウン（小さい鬼）」…人がいなく、火事場泥棒のゴブリンがたくさんいる。ピエロは吸血鬼になりかけて体をもとの人間に戻したい。\nゴーストタウンに盗人が入り出すとゴブリンタウンになる\n\n「ゾンビタウン」…暴力の街（強い人＝ゾンビ）。解毒剤で人間に戻ったピエロは「ゾンビタウン」で武器を調達。\nゴブリンタウンの弱いゴブリンを強いゾンビが暴力で支配し出すとゾンビタウンになる\n\n「ドラキュラ（吸血鬼）シティー」…市民はみんな詐欺師（口がうまく悪知恵が働く、それで金をせしめる）。そこに宝石店がある。\nゾンビタウンの強者をことば巧みに騙して詐欺師の国ができている\n\n昔のRPGもこの形式で作成すればすぐにVR化できます。"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.33",
+                "change_log": "効果音追加、法線マップ修正、その他バグ修正"
+            },
+            {
+                "version": "1.29",
+                "change_log": "英語に対応しました。UIを改善しました。"
+            },
+            {
+                "version": "1.26",
+                "change_log": "Meta Questでのアップデートにより不具合が生じたので、Unity 2022.3.7f1 LTSの安定板で作成しなおしました。"
+            },
+            {
+                "version": "1.25",
+                "change_log": "エンディングムービーが大きすぎたのを直しました。"
+            },
+            {
+                "version": "1.20",
+                "change_log": "occlusion cullingを修正してFPSを上げました。本棚を元に戻しました。ブリザドをブリザードに変更しました。"
+            },
+            {
+                "version": "1.7",
+                "change_log": "OculusPlatform\\Scripts\\IMicrophone.cs OculusPlatform\\Scripts\\LivestreamingMicrophoneStatus.cs OculusPlatform\\Scripts\\MicrophoneInput.cs OculusPlatform\\Scripts\\MicrophoneInputNative.csを削除して　 OculusPlatform\\Scripts\\CAPI.csを修正して　android.permission.RECORD_AUDIOのパーミッションを削除しました manifestを変更しました"
+            },
+            {
+                "version": "1.6",
+                "change_log": "OculusPlatform\\Scripts\\IMicrophone.cs OculusPlatform\\Scripts\\LivestreamingMicrophoneStatus.cs OculusPlatform\\Scripts\\MicrophoneInput.cs OculusPlatform\\Scripts\\MicrophoneInputNative.csを削除して　 OculusPlatform\\Scripts\\CAPI.csを修正して　android.permission.RECORD_AUDIOのパーミッションを削除しました"
+            },
+            {
+                "version": "1.5",
+                "change_log": "OculusPlatform\\Scripts\\IMicrophone.cs OculusPlatform\\Scripts\\LivestreamingMicrophoneStatus.cs OculusPlatform\\Scripts\\MicrophoneInput.cs OculusPlatform\\Scripts\\MicrophoneInputNative.csを削除して　 OculusPlatform\\Scripts\\CAPI.csを修正して　android.permission.RECORD_AUDIOのパーミッションを削除しました"
+            },
+            {
+                "version": "1.4",
+                "change_log": "ゴーストライブラリーの本棚を削除してバトル時のFPSを上げました。パーティクルレイキャストバジェットを８から2にしました。落ちにくくなります。"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

@@ -98,6 +98,24 @@
             "logo_transparent": "38982706_895477417489401_7710465529051348992_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.0.3+667261.cl.387778",
+                "change_log": "Updated to 64 bit version. "
+            },
+            {
+                "version": "2.0.2",
+                "change_log": "- Implemented French, German, Japanese, Korean, Italian, and Spanish subtitles and menus\n- Fixes to increase stability in the Lady Corvax pinboard hallway\n- Fixed an issue that could lead to a long black screen at startup after an OS update"
+            },
+            {
+                "version": "2.0.2",
+                "change_log": "- PhysX upgrade to 4.21.1.\n- Thread prioritization change to alleviate audio corruption in certain cases.\n- Docking system math error fix.\n- Prevent certain conditions that would stop Dojo rounds from ending.\n- Prevent certain conditions that cause melee droids to lose collision."
+            },
+            {
+                "version": "2.0.0.rc.1",
+                "change_log": "Story: \n- Fixed rare situation where the player could fail to trigger the start of Force Training.    \n- Fixed hitch at beginning of Vader rock fight.\n- Memory reduction to alleviate Quest-only issue in second hallway.\n- Fixed issue where tutorial could remain on-screen in certain cases.\n- Ensured exiting Vader rock fight results in proper streaming behavior in all cases.\n- Fixed hand grab re-enabling while loading during pause in certain cases.\n- Fixed issues on Rift when loading during Dash pause.\n- Prevent backtracking at Crypt in certain cases.\n- Fixed rare situation where player could bypass Reunion trigger volume.\n- Fixed infrequent missing fade-in in Darkghast nest.\n\nDojo:\n- Fixed trap SFX remaining if triggered during fade out"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

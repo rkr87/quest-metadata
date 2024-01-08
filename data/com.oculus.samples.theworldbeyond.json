@@ -83,6 +83,80 @@
             "logo_transparent": "75207238_3015269512119007_6635960411634692854_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.0",
+                "change_log": "patch v44 Voice SDK"
+            },
+            {
+                "version": "1.0.9",
+                "change_log": "Update SDK to v44"
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "improved stability: catch failed Scene mesh creation, catch general initialization errors & quit app gracefully"
+            },
+            {
+                "version": "1.0.7",
+                "change_log": "Update to v43 of VR (Scene improvements)"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "updated voice to v43"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Fix MultiToy bugs & tutorial display"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "Allow dynamic hand/controller switching, prevent MultiToy from spawning outside of Guardian"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "- Fixed a bug which would cause the screen to remain black on startup.\n- Fixed a bug which allowed you to shoot more balls than you had collected.\n- Hide accessories when hand tracking is lost.\n"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "Oppy walks to UFO only from balls shot AFTER a wall was opened (not residual balls)"
+            },
+            {
+                "version": "0.3.0",
+                "change_log": "Only require 2 balls (after opening a wall) before Oppy goes to UFO, and make them easier to find (always spawn in front of player)"
+            },
+            {
+                "version": "0.2.1",
+                "change_log": "Less chance of world cracks, fix audio occlusion bug, fix wrist-locked Multitoy, fix ghost hand when untracked"
+            },
+            {
+                "version": "0.2.0",
+                "change_log": "Fix floor-clipping bug"
+            },
+            {
+                "version": "0.1.9",
+                "change_log": "Ensure Oppy always spawns in room, remove Orb when its passthrough wall has been hidden, hide Doors/Windows during title screen"
+            },
+            {
+                "version": "0.1.8",
+                "change_log": "Use anchor objects directly, gravity align surfaces, proper scaling for 3D objects"
+            },
+            {
+                "version": "0.1.7",
+                "change_log": "Use color Passthrough on Cambria, add ripple effect for easier ball finding, improvements to hands"
+            },
+            {
+                "version": "0.1.5",
+                "change_log": "Remove entitlement check"
+            },
+            {
+                "version": "0.1.4",
+                "change_log": "Fixed room mesh calculation (no huge ceiling/floor gaps)"
+            },
+            {
+                "version": "0.1.3",
+                "change_log": "Support doors/windows (hide them)"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

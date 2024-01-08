@@ -81,6 +81,16 @@
             "logo_transparent": "38974454_3861511977286754_8275704669056108981_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.1.17.3",
+                "change_log": "-removed microphone permissions for AppLab\nKnown Bugs:\n- Low framerate in Open World\n- Crafting a rock slingshot spawns an old version of the slingshot. Grab another item to drop it from your hand"
+            },
+            {
+                "version": "0.1.17",
+                "change_log": "- Removed most VFX that didn't work on a Quest build\n- Fixed  all known inventory bugs\n- Rockers now use AI to control their direction and jump higher\n-Added respawning of players and items when leaving the world"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

@@ -60,7 +60,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1030
+                "votes": 1033
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -91,6 +91,16 @@
             "logo_transparent": "75441579_1395939127998086_1517575766859931023_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.3",
+                "change_log": "-Fixed joining community servers while downloading not waiting the proper amount of time, will now display a popup notifying the user (with the option to cancel) and will retry\n-Added pages to mod browser\n-Added buymenu prefiltering to fix extra pages appearing when there are no selectable items for that page.(mods)\n-Prevent knife damage in the first 4.5 seconds of an SND match, this should allow players to get off spawn without having a knife thrown at them from across the map\n-Adjusted voice audio\n-Fixed some seams showing up in Datacenter\n-Fixed Industry wood collision\n-Adjusted buymenu to grey out empty categories (modding)\n-Optimizations to gore character shader and the bloodsplats shader\n-Fixed issue with trip mines not being able to attach to walls in some circumstances\n-Fixed map exploit in Pinehill\n\nModkit\n-Fixed push announcer only grabbing custom chants (obj lost)\n-Capture The Flag gameplay notify sounds added for defend/taken/capture/return\n\nAdmin Menu (Community Servers)\n-Added Admin menu button for clear vehicles\n\nInfection:\n-Adjusted buymenu gets to be disabled for monsters in preround \n\nRCON\n-added \"ClearEmptyVehicles\" rcon function"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "-Added warning notice to uninstall Applab version of the game  "
+            }
+        ],
         "keywords": [
             "Shooter",
             "FPS",
@@ -101,8 +111,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1477,
-        "rating": 4.232905,
+        "votes": 1480,
+        "rating": 4.234459,
         "weighted_rating": 4.21,
         "is_available": true,
         "is_free": false

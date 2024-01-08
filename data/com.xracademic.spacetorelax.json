@@ -79,6 +79,20 @@
             "logo_transparent": "11162772_342676539504956_7820930863838789632_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "8",
+                "change_log": "Updated Entitlement Checks for OVRPlatform."
+            },
+            {
+                "version": "3",
+                "change_log": "Attached OVRPlatform script to OVRCamerarig to handle short press-back button to address Reserved User Interaction failing."
+            },
+            {
+                "version": "2",
+                "change_log": "androidmanifest.xml is the correct version.\r\n\r\nOVR Framework updated to 1.18.1 - fixes the Reserved Interactions short home button failure.\r\n\r\nAndroid Version was set to 5.1, is now set to 5.0 for S6 Lollipop."
+            }
+        ],
         "keywords": [
             "Relaxing",
             "Relax",

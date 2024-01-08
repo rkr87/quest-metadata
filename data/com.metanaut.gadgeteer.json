@@ -97,6 +97,68 @@
             "logo_transparent": "38982480_2333695096845530_3315602018210414592_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.3",
+                "change_log": "Fixes\n- Updated the save data system to save player data more safely"
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "Fixes\n- Updated the save data system to save player data more safely"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "Fixes\n\n- Fixed bug where the in-game language wasn't being changed for certain OS languages"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "- Fixed collision SFX bug where SFX is triggered multiple times when a grabbed frozen gadget is continuously pushed against something static\n\n- Fixed domino gadgets' bouncing bug that occurs when they are grabbed, frozen, and pushed against something static (affected gadgets: Domino, Domino 200mm, Domino 300mm)"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "Features\n\n- Added 23 new Musical Gadgets, accessible in Sandbox mode\n\n- Added new Sandbox environment named Study\n\n- 3 pre-made Sandbox machines are added (e.g. “Melody #1”, Melody #2”, and “Melody #3”)\n\n\n\nRefinements\n\n- Maker Mode has been re-titled as Sandbox Mode"
+            },
+            {
+                "version": "1.0.16",
+                "change_log": "Addressed startup flicker before loading screen"
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "Features\n - Applied new freeze visual effects to original core gadgets. Previously only available for newer household gadgets. It really makes the pastel wonder of machine ID #036772 pop!\n- Updated how gadget SFXs are emitted to improve performance and sound. You can hear the difference really well in the 'Water Slide Fun' machine ID #802596\n\nFixes\n- Fixed critical issue for headsets running on 144Hz by revising the Start Cube pusher for certain levels in the Puzzle and Tutorial so that they push over the first domino more reliably\n- Gadget library is no longer restricted by the last played Puzzle machine when switching during the Test/Broken state to a (different) Sandbox machine\n- Gadgets in the Home room are properly removed from the scene after a game mode has been selected in the Home room\n- Fixed headsets clipping through walls if head is too close to the wall\n- Removed texture artifacts on the ping pong ball\n\nRefinements\n- Restored the panel closing SFX \n- Added SFXs for each increment/decrement of gadget restrictions in the library panel in Puzzle Designer \n- The game now briefly pauses physics processing during FPS warnings\n- Removed weird looking reflections for the photo frame, saucepan, bowling ball, mallet and wrench gadgets\n- Players didn't look at their non-dominant hand for tutorial labels during certain portions of the tutorial.  Certain tutorial labels now appear in front of the player, guiding them to look at their non-dominant hand\n- Improved catapult's trigger reliability\n- Improved level of detail (LOD) for small ball gadgets so they don't look as blocky when players are close to the ball\n- Reduced the unintentional rotational friction on gadgets that spin for Oculus Quest devices. This was caused by our earlier performance improvements involving sleep thresholds "
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "[Gadgeteer – 1.0 – Release Notes]\n\nFeatures\n\n- Added ‘Online Mode’ functionality, allowing players to play machines (+ puzzles) made by other users and share their own machines online\n- Added Puzzle Designer, which allows users to design their own puzzles for other players to solve. Find it in Maker Mode!\n- Added 40 new household gadgets, including the rubber duck, soap bar and bowling ball\n- The Home Room now includes dioramas for all modes, each with their own interactable machine\n15 new pre-made machines have been added to ‘Online Mode’. You can find them by filtering to Puzzle and looking for Metanaut_VR in the top right corner\n- A new secret button has been added to the Home Room\nAdded the ability to delete gadgets by placing them back in the library panel\n- The library panel now opens to the last tab you were viewing, after being closed\n\nFixes\n\n- Fixed bug that was preventing players from using Oculus Quest + Link\n- Missing ceiling beam has been added to the living room ceiling in ‘Maker Mode’\n\nRefinements\n\n- Sandbox Mode has been renamed to Maker Mode, where players can build both Sandbox machines and Puzzle machines\n- All premade machines (e.g., “Gadgeteer Grand Prix” and “Good Boy”) have been moved to ‘Online Mode’\n- The tutorial has been redesigned to better teach the ‘Freeze’ mechanic\n- Added highlighting to gadgets that have been moved or displaced manually by the player in ‘Puzzle Mode’. Machines in ‘Puzzle Mode’ must be triggered by the Start Cube to prevent cheating\n- Additional tutorialization text for the new features\nSave & Share panel now indicates reasons that might prevent the machine from being published online\n- Re-positioned first domino in Level 1 to ensure it always falls over once the Start Cube has been activated\n- The Library Panel is now unlit to keep the panel visually consistent across all different lightings\n- Standardized various Library Panel UI states"
+            },
+            {
+                "version": "0.5.5",
+                "change_log": "[0.5.5 - Release Notes]\nFeatures:\n- Added a new toolhead to Sandbox Mode. Use the Color Toolhead to paint your machines using 60+ colors! \n- Added Cube gadgets to Sandbox Mode. Start and end your machines in style, or use them to design your own puzzles (and share them online when the online sharing feature is available). You can also now start your machine remotely with the Start Cube.\n- Added a new Sandbox machine: \"Gadgeteer Grand Prix\".\n- Added blinds to the apartment to make it feel more cozy.\n- Added Cube gadgets to pre-loaded Sandbox machines.\n- The Undo button now makes a sound when successfully activated.\n- The Quick Switch button now alternates between the Grabber Toolhead and the last used toolhead.\n- Sandbox mode now places the player at the same ground level as in their last session.\n\nFixes:\n- Fixed legacy PCVR machines that broke after the 0.4.0 update. Load your old machines for the fix to automatically take place.\n- Fixed colliders on the study window frame to match more accurately with its mesh.\n\nRefinements:\n- Extended the play area to support machine building on the wooden ceiling beams.\n- Complete overhaul of the apartment's colliders. They're now as accurate as ever. Also, no more floating dominoes on the floor!\n- Decreased possibility of gadgets to glide in areas where two objects are nearby each other. \n- Adjusted catapult hitbox to prevent accidental activations. Gadgets can now be dropped into the catapult bucket without setting it off.\n- Replaced tab icons on the panel to more accurately describe panel contents. \n- Squash balls no longer appear \"blocky\" when close to the user.\n- Added additional lights to the apartment for Night mode in Sandbox.\n- Minor visual apartment changes."
+            },
+            {
+                "version": "0.4.0p1",
+                "change_log": "[0.4.0p1 - Release Notes]\nFeatures:\n- Updated gadget freeze visuals to make frozen and unfrozen gadgets more distinct. Frozen gadgets now appear to be iced over.\n- Improved gadget texture quality and grid visual quality. Go to Puzzle mode to see all changes.\n- Changed the icon for the gadget library tab on the panel so it is easier to understand.\n- Added build version number in the Drafting Room.\n\nFixes:\n- Fixed flat domino's visuals to match with its colliders. \n\nRefinements:\n- Optimized performance for gadgets rendering.\n- Optimized performance for apartment rendering."
+            },
+            {
+                "version": "0.4.0",
+                "change_log": "[0.4.0 - Release Notes]\nFeatures:\n- Updated gadget freeze visuals to make frozen and unfrozen gadgets more distinct. Frozen gadgets now appear to be iced over.\n- Improved gadget texture quality and grid visual quality. Go to Puzzle mode to see all changes.\n- Changed the icon for the gadget library tab on the panel so it is easier to understand.\n- Added build version number in the Drafting Room.\n\nFixes:\n- Fixed flat domino's visuals to match with its colliders. \n\nRefinements:\n- Enhanced determinism for better physics. No more \"Poltergeist\" dominoes!\n- Optimized performance for gadgets rendering.\n- Optimized performance for apartment rendering."
+            },
+            {
+                "version": "0.3.10p2",
+                "change_log": "[0.3.10 - Release Notes]\nFeatures:\n- Improved reliability of the catapult trigger, particularly for high velocity impacts\n- Loading a sandbox machine will now put the player in the same location and rotation as when the machine was saved. No need to look for the machines anymore\n- Re-oriented spawning angles of the wooden and metal gadgets in the library panel. This change is friendlier on the wrist!\n- Interacting with buttons is now easier and more reliable. The whole controller model can be used to press buttons and the toolheads' models have more accurate hit boxes. Both controllers can now be used as well\n- Rotating gadget joints can now be undone like any other gadget interaction\nBug Fixes\n- Fixed bug where catapult would jitter when locking and catapult would pop open when spawned\n- Fixed endless gadget spawning sound if spawning was interrupted\n- Brought the shine back to the bathroom mirror, fridge, and kitchen sink"
+            },
+            {
+                "version": "0.3.9p7",
+                "change_log": "[0.3.9 – Release Notes]\n\nFeatures:\n- Added lighting to cubes in night levels to indicate the activated gate timer in puzzle mode. Get the rescue balls to the cube in time! \n\nBug Fixes:\n- Improved auto-save so placed gadgets should always be restored\n- Fixed clashing level of detail (LOD) visuals for various gadgets\n- Player movement restrictions throughout puzzle now match unlocked areas\n\nRefinements:\n- Game now compiled with IL2CPP\n- Resolved exceptions relating to freeze graph, panel items, gadget state, storage, and player interactions"
+            },
+            {
+                "version": "0.3.9p6",
+                "change_log": "[0.3.9 – Release Notes]\n\nFeatures:\n- Added lighting to cubes in night levels to indicate the activated gate timer in puzzle mode. Get the rescue balls to the cube in time! \n\nBug Fixes:\n- Improved auto-save so placed gadgets should always be restored\n- Fixed clashing level of detail (LOD) visuals for various gadgets\n- Player movement restrictions throughout puzzle now match unlocked areas\n\nRefinements:\n- Game now compiled with IL2CPP\n- Resolved exceptions relating to freeze graph, panel items, gadget state, storage, and player interactions"
+            },
+            {
+                "version": "0.3.9p4",
+                "change_log": "[0.3.9 – Release Notes]\n\nFeatures:\n- Added lighting to cubes in night levels to indicate the activated gate timer in puzzle mode. Get the rescue balls to the cube in time! \n\nBug Fixes:\n- Improved auto-save so placed gadgets should always be restored\n- Fixed clashing level of detail (LOD) visuals for various gadgets\n- Player movement restrictions throughout puzzle now match unlocked areas\n\nRefinements:\n- Game now compiled with IL2CPP\n- Resolved exceptions relating to freeze graph, panel items, gadget state, storage, and player interactions"
+            }
+        ],
         "keywords": [
             "ruberg",
             "rube",

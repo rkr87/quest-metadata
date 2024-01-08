@@ -88,6 +88,60 @@
             "logo_transparent": "38974510_260792439510779_1966414211188043994_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.6 release - Quest",
+                "change_log": "- Fixed several issues that caused graphical artifacts for Quest 3 users."
+            },
+            {
+                "version": "1.3.4 release - Release",
+                "change_log": "Minor Patch 1.3.4:\n. Fixed bots spawning outside bounds in Botstomp.\n. Improved spawns near boundary edges for Osmium and Palladium.\n. Convoy will now correctly enforce the large boundary.\n. Increased match warmup time to compensate for increased load times.\n. Many small bugfixes."
+            },
+            {
+                "version": "1.3.2 release - Release",
+                "change_log": "Major Patch 1.3.0 additions:\n. All levels will now be playable across sunrise, day, dawn, and night times of day.\n. Grinders will now have lights on them and headlamps will illuminate a player’s surroundings.\n. There are now small, medium and large play boundaries to choose from across all our multiplayer maps.\n. Serpent Plains level has been expanded to include new play regions such as dunes and canyons.\n. Goldrush’s cowcatcher is now completely removable with a separate damage readout indicating its health to the player.\n\nNew weather conditions for all levels featuring...\n. CLEAR - Similar visibility to all levels prior to this update. The player can see quite far into the distance.\n. HAZE - This condition will make it trickier to tell friend from foe at a mid/far distance.\n. OVERCAST - Medium density clouds cover higher altitudes, making navigation and identify high fliers trickier\n. CLOUDS - Narrow high density clouds occupy mid altitude. You see clearly when flying above or below.\n. MIST - A high density fog covers low altitudes, making low areas ideal to hide in and escape battle.\n. SMOG - The whole level is enveloped in an even, medium density coat of smog.\n. STORM - The whole level is enveloped in a high density storm, only lower terrain is visible\n\nMinor Patch 1.3.2:\n. Fixed softlocking issues for some missions."
+            },
+            {
+                "version": "1.3.0 release - Release",
+                "change_log": "Major Patch 1.3.0 additions:\n. All levels will now be playable across sunrise, day, dawn, and night times of day.\n. Grinders will now have lights on them and headlamps will illuminate a player’s surroundings.\n. There are now small, medium and large play boundaries to choose from across all our multiplayer maps.\n. Serpent Plains level has been expanded to include new play regions such as dunes and canyons.\n. Goldrush’s cowcatcher is now completely removable with a separate damage readout indicating its health to the player.\n\nNew weather conditions for all levels featuring...\n. CLEAR - Similar visibility to all levels prior to this update. The player can see quite far into the distance.\n. HAZE - This condition will make it trickier to tell friend from foe at a mid/far distance.\n. OVERCAST - Medium density clouds cover higher altitudes, making navigation and identify high fliers trickier\n. CLOUDS - Narrow high density clouds occupy mid altitude. You see clearly when flying above or below.\n. MIST - A high density fog covers low altitudes, making low areas ideal to hide in and escape battle.\n. SMOG - The whole level is enveloped in an even, medium density coat of smog.\n. STORM - The whole level is enveloped in a high density storm, only lower terrain is visible"
+            },
+            {
+                "version": "1.2.3 release - Quest",
+                "change_log": "Balancing:\n- Chainstorm: Takes less time to reach full spin-up, and it gains accuracy as it spins up. Heat cost has been reduced slightly, while projectiles were sped up a little.\n- Aftershock: shells travel significantly faster. Spread has been tightened a bit, and delay between shots fired has been reduced very slightly. Finally, the total reload time has been reduced while the arming distance was increased significantly.\n- Railgun: Reduced the heat dissipation upon firing.\n- Mallet: Reduced reload time and heat cost. Projectile now accelerate from slow to fast very quickly, making it a little easier to land targets.\n- Skythorn: Reduced reload and the projectile's lifetime.\n\nBugfixes\n- Changed spawning logic so that bots can pick Rook and Overhauls once again.\n- Fixed exit screen's \"don't show again\" toggle to actually work now.\n\nImprovements\n- Aftershock's audio was remastered to have its timing be dynamic relative to gameplay changes."
+            },
+            {
+                "version": "1.2.2 release - Quest",
+                "change_log": "- New exit menu encourages players to join our Discord before quitting, and includes a QR code for convenience.\n- Fixed servers not recognizing comrade/ignore list while in a match.\n- Pulsar balance tweaks: Reduced heat cost and slightly increased fire rate.\n- Created a new \"User Prefs\" settings menu for enabling disabling various menu prompts. (eg. new exit menu)\n- Added a \"disable briefings\" option in user pref menu to disable starting match briefing animations."
+            },
+            {
+                "version": "1.2.2 release - Quest",
+                "change_log": "- New exit menu encourages players to join our Discord before quitting, and includes a QR code for convenience.\n- Fixed servers not recognizing comrade/ignore list while in a match.\n- Pulsar balance tweaks: Reduced heat cost and slightly increased fire rate.\n- Created a new \"User Prefs\" settings menu for enabling disabling various menu prompts. (eg. new exit menu)\n- Added a \"disable briefings\" option in user pref menu to disable starting match briefing animations."
+            },
+            {
+                "version": "1.2.1 release - Quest",
+                "change_log": "- Aftershock impact and whirling sound volumes reduced.\n- Chainstorm impact/launch effects performance dramatically improved to reduce framerate issues when firing at nearby enemies.\n- Fixed account server having issues fetching player comrades lists.\n- Added a minimum effective range reticle visual that shows when a weapon won't arm within the range that's highlighted. This affects the reticle while using Mallet, Hammer, Skyjackers and Aftershock weapons.\n- Drill legs are now more resilient to impacts against terrain.\n- Dredge's legs are more resilient against both terrain and grinder impacts.\n- Weapons with an arming time now play a dud effect when hitting an object under the arm time.\n- Weapon selection menu no longer shows random large icons in the middle of the menu.\n- Hangar geometry for the platform under the grinder lowered so it doesn't clip things."
+            },
+            {
+                "version": "1.2.0 release - Quest",
+                "change_log": "- New Weapon:  - Lay down aerial mines that trigger with the slightest proximity movement\n- New Weapon: Mallet  - Like the dumbfire, hard-hitting and precise cousin of Hammer you never knew you needed\n- New Weapon: Chainstorm  - Say hello to the minigun's big brother. Slow to get going but if you're anywhere near it, watch out once it does!\n- New Weapon: Aftershock  - Rain hellfire on unsuspecting campers. They better run once they start hearing the coming onslaught of boom.\n- New Weapon: Splitfire  - Get that extra range miniguns always lacked, in burst-fire form.\n- SkyJacker will no longer discriminate between friend and foe, so keep an eye out for your poor teammates while firing!\n- New SFX to accomidate all the new weapons.\n- Grinder selection menu now features stat info and pros/cons about each.\n- Weapon selection menu now features stat info, usage, and enhanced presentation\n- Tuned hotspots like feet, hands, claws, cowcatcher, and bodies to behave better on impact\n- Rebalanced every grinder’s damage models to better suite their roles.\n- Velocity impacts now correctly deliver continuous damage to recipients for more predictable transference.\n- Bot AI are once again able to jump down from higher platforms to lower ones. This has improved behaviors, especially near level boundaries."
+            },
+            {
+                "version": "1.1.1 release - Quest",
+                "change_log": "Ver 1.1.1\n- Fixed TTS dialog saying the fuel station has been neutralized for all bases in stockpile.\n- Fixed rook having a damage multiplier applied on its cockpit.\n- Fixed Hoverbrawl matches from getting stuck in overtime with uneven points.\n- Fixed waypoints from hoverbrawl persisting between gamemodes.\n- Fixed missile spread behavior to behave correctly again.\n- Rook training now gives more explicit jumpjet instructions\n- Fixed a spawnpoint in Blast Chamber potentially spawning a grinder in too close to the terrain.\n- Improved the new AI buddy speech variations. They're now less repetitive and have clearer syntax.\n- During Overhaul training's timed section, a countdown timer is now displayed for clarity.\n- Fix for AI buddy dialogue saying the player has lost when they won a free-for-all game mode match.\n- Fix for VoIP screen background images being misaligned in both the hangar and cockpit environments."
+            },
+            {
+                "version": "1.1.0 release - Quest",
+                "change_log": "- All campaign missions now feature a new achievement for completing each one. This will allow players to resume progress if the game needs reinstalling.\n- Hoverbrawl 2.0 - More balls, more fun, now with carriers.\n- Robo Avatars - be the robot. Only for those who've completed SP or our core tutorials.\n- A new AI Buddy is unlocked for MP once players complete the Campaign.\n- New dialogue options for BLUE and RED for multiplayer, plus variations.\n- Adjusted default loadout for mission \"Shipstorm\".\n- Adjusted lightning spires for Topaz Twilight for an easier time getting that sweet lightning buff.\n- In most Intermissions, some quests that were previously mandatory to complete are now optional.\n- The first boss fight now prevents the player from leaving the battle area.\n- Adding VO cast and additional thanks to the credits menu. Titles and names have been updated with depth and colour seperation so they're more clear.\n- Hammers will be feared once more. They benifit from explosion damage consistency, and their health has been increased in all cases.\n- Team 4's colour changed from yellow to orange for legibility.\n- Added support for the latest version of Logitech Extreme 3D Pro.\n- Adjusted ramming collision logic to be more... impactful.\n- Fixed convergence issues, where grinder limbs would lag behind or never fully rotate to look where the player's targeting reticle is.\n- Fixed an uncommon bug where Lasers and Projectiles would not apply force when hitting an object, if that object was not explicitly damageable. \n- Adjusted values for Hopper to reduce the amount of cockpit jitter.\n- After finishing a training mission it no longer brings you to a disconnect screen.\n- Salvage no longer spawns at the very edge of a level causing 1 truck being in a bad spot.\n- Fixed spawns in many levels where the player would spawn facing a wall.\n- Locked headgear once again show a description of how to unlock them. "
+            },
+            {
+                "version": "1.0.4 release - Quest",
+                "change_log": "Work in progress."
+            },
+            {
+                "version": "1.0.0 release - Quest",
+                "change_log": "v1 Launch!\n- Now there is a campaign. Enjoy!"
+            }
+        ],
         "keywords": [
             "fps",
             "action",

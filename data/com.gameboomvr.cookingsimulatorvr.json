@@ -282,6 +282,40 @@
                 "short_description": "Zostań kulinarnym mistrzem w wirtualnej rzeczywistości! Przejmij kontrolę nad kuchnią wyposażoną we wszystko, czego może potrzebować prawdziwy kucharz. Odblokuj i opanuj ponad 80 przepisów lub daj się ponieść wyobraźni i wykorzystaj dziesiątki różnorodnych składników do przyrządzenia czegoś niesamowitego. Wszystko doprawione solidną dawką realistycznej fizyki!"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.4.1",
+                "change_log": "- Added easter decoration"
+            },
+            {
+                "version": "1.3.3",
+                "change_log": "- Added Valentine's decoration\n- Fixed some translations for Japanese\n- Fixed the knives position in leaderboard mode\n- Fixed an issue with the radio song disappearing\n- Added improvements to Cooking School\n- Changed fame popup condition in carrier mode\n- Fixed liquid visibility in some containers"
+            },
+            {
+                "version": "1.2.11",
+                "change_log": "- Fixed game load issue\n- Fixed knives' position in leaderboard mode"
+            },
+            {
+                "version": "1.2.10",
+                "change_log": "Changes:\n- Christmas Event - From now on, you can cook in a kitchen decorated with Christmas decorations\n- Added new game mode - Relax mode! In this game mode, the time of the day flows as usual, but guests' orders have time limits removed, allowing you to take your time and take everything at your own pace. When loading an old save file, you will be prompted to choose whether you want to play the Classic Mode or the Relax Mode\n- Skipping day ahead of time - after half a day has passed, you can choose to skip the rest of the day and cancel existing orders without penalty, so experienced players can progress faster in the early game\n- Clicking the empty mop holder will summon the mop to it, and clicking it again will pick the mop up\n\nFixes:\n- Improved area of maneuver when using spices/liquids on products\n- Fixed bug causing end game view to not display awards earned during contests\n- Fixed products not changing their texture when applying heat\n- Fixed pouring sound not stopping after the jar/bottle is broken\n- Fixed tutorial blocks gameplay progress\n- Fixed some save/load issues\n- Fixed some minor graphical issues\n"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "Changelog:\n- Added Halloween event decorations! Check your PC to decorate your classic or modern kitchen\n- New in-game item. Follow the instructions from the posters in the Halloween kitchen to get it\n- Bug fixes\n"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Snap-rotation is a new default rotation setting now\nFixed issue that sometimes dishes lose taste\nEliminated some save/load crash cases"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "- Eliminate game crash during save\n- Better quality for gas bottle and darts scoreboard\n- Small grabber optimization\n- Better material for burner and tankard"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "- Fix for rare crash during Career Mode\n- Improved products inside mesh forming while cutted\n- Optimized Modern Kitchen lights\n- Modern Kitchen floors can be properly cleansed now\n- Bug fix for \"demon\" levitating laddle issue\n- Fixed black texture water in a burned pot\n- Bucket can now be put in and out of the sink properly\n- Fix for automatically cutted products frying\n- Tutorial tips are more readable now\n- Products highlight fix added\n- Fixed weight of some products\n- Fixed firecrackers firing on their own\n- Few graphical improvements such as burning gas tank\n- Various minor localization fixes\n- Various minor UI fixes"
+            }
+        ],
         "keywords": [
             "simulator",
             "cook",

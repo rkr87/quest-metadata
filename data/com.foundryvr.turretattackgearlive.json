@@ -79,6 +79,64 @@
             "logo_transparent": null
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.0",
+                "change_log": "- Fixed issue that would sometimes cause it to not load the game won scene after the first 10 gates."
+            },
+            {
+                "version": "2.0",
+                "change_log": "- Fixed missing OVR Sound UI on the initial cutscene camera. \r\n- Fixed issue with OVR Sound UI not displaying in certain scenes. \r\n- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "2.0",
+                "change_log": "- Fixed issue with OVR Sound UI not displaying in certain scenes. \r\n- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "2.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "2.0",
+                "change_log": "Version 2.0 Bundle 6 \r\n- Added a version number soit would clear the meta file.\r\n\r\nv5 \r\nLast build had a breaking change in the upgrade scene that had to be addressed\r\n\r\nv4 \r\nForgot to compress some textures.\r\n\r\nV3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "v5 \r\nLast build had a breaking change in the upgrade scene that had to be addressed\r\n\r\nv4 \r\nForgot to compress some textures.\r\n\r\nV3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "v4 \r\nForgot to compress some textures.\r\n\r\nV3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "V3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "Space"
         ],

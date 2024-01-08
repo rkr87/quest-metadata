@@ -81,6 +81,24 @@
             "logo_transparent": "12386284_1381882008552670_5805638153066774528_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.18",
+                "change_log": "THIS GAME REQUIRES A CONTROLLER\nAdded PS4 Bluetooth controller mappings to 'Wireless Controller' to remove spinning effect due to L2 button being mapped to rotate\nMapped camera reset to Right stick button\nAdded Level 1 door that was missing."
+            },
+            {
+                "version": "1.16",
+                "change_log": "Added new button descriptions for Sprint and Recenter view\r\nincreased turn speed slightly."
+            },
+            {
+                "version": "1.12",
+                "change_log": "Update from The Drowning Dungeons, Lost the keystore due to Hdd corruption causing issues with Dropbox.\r\n\r\nFixed:\r\n* There was an issue with level loading where it would try to load the level multiple times causing fps drop along with odd movement issues.\r\n* simplified the character controller to be easier to sort out issues should they arise\r\n* Fixed the \"unescapable\" holes in level 2.\r\n* Added camera reset on level load"
+            },
+            {
+                "version": "1.11",
+                "change_log": "Update from The Drowning Dungeons, Lost the keystore due to Hdd corruption causing issues with Dropbox.\r\n\r\nFixed:\r\n* There was an issue with level loading where it would try to load the level multiple times causing fps drop along with odd movement issues.\r\n* simplified the character controller to be easier to sort out issues should they arise\r\n* Fixed the \"unescapable\" holes in level 2.\r\n* Added camera reset on level load"
+            }
+        ],
         "keywords": [
             "Dungeon",
             "Maze",

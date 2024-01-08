@@ -81,6 +81,40 @@
             "logo_transparent": "57569455_1296796287778674_2184296623382399906_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.54",
+                "change_log": "- Crash prevention when selecting Cast.\n- Fixed wrong version being displayed.\n- \"Edge sensitivity\" adjustments and \"Width\" inverted for color matting.\n- Added a cache deleting button."
+            },
+            {
+                "version": "0.5",
+                "change_log": "- Local streaming support with our new server Touchly Cast\n- Full hand tracking support\n- Haptic glove support for Bhaptics TactGlove\n- Fix menu hiding when pressing anywhere outside menu"
+            },
+            {
+                "version": "0.46",
+                "change_log": "Fix scanning on sd card"
+            },
+            {
+                "version": "0.46",
+                "change_log": "v51 support, bug fixes"
+            },
+            {
+                "version": "0.41",
+                "change_log": "-New format: Use any 2D video instead of only VR180.\n-Resize and rotate with two hand gestures.\n-Bug fixes."
+            },
+            {
+                "version": "0.41",
+                "change_log": "Misc:\n- Fixed UI elements not being rendered always on top of the view.\n\nPassthrough mode improvements:\n- Added a “color matting option”. Now you can key out backgrounds close to a certain color. You can choose the color by pointing to it on the preview screen.\n- Added a “focus” slider, creates a radial gradient from the center of the image.\n\nNew settings:\n- Added settings to resume playback, and set a custom skipping time.\n- Added a “Watch only” mode, where interaction/physics is disabled.\n- New hand model added, you can now choose between “Human” and “Robot” hands.\n- Hand color customization, you can select preset skin color values or choose with a HSV selector."
+            },
+            {
+                "version": "0.4",
+                "change_log": "Fixed compatibility with Renderer 0.3."
+            },
+            {
+                "version": "0.4",
+                "change_log": "Mesh hotfix"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

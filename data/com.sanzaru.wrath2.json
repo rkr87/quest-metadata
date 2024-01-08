@@ -63,7 +63,7 @@
             },
             {
                 "rating": 3,
-                "votes": 142
+                "votes": 144
             },
             {
                 "rating": 4,
@@ -71,7 +71,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1964
+                "votes": 1972
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -212,6 +212,20 @@
                 "short_description": "Loki의 혼돈이 퍼져나가고 있습니다. 고유한 무기와 플레이스타일을 가진 필멸의 영웅들을 조종하여 신들이 기거하는 고대 이집트 영역을 가로질러 그를 추적하고, 사상 최대 규모에 버금가는 장대한 VR ARPG에 도전하세요. 치명적인 신화 속의 생물들과 싸우고, 임무를 완수하고, 장비를 제작하고, 퍼즐을 풀거나 충직한 야수들을 전사의 동료로 길들이면서, 방대하고도 자유로운 이동이 가능한 살아 숨 쉬는 세계를 탐험하세요. 역대 최고의 평가를 받은 VR 게임 중 하나의 속편에서 현실의 운명은 여러분의 손에 달려 있습니다."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.1446896",
+                "change_log": "Asgard’s Wrath 2 - Patch 1\n\nQuest 3 only - initial visual enhancements.\n* Added a toggle in the User Interface section of the settings menu for 90hz\n* Added a toggle in the User Interface section of the settings menu for Enhanced Rendering Features - this will increase resolution and the distance multiplier on LODs (Levels of detail)\nAutomatically change your tracked quest to better guide people from the Inbetween to the Scorpion Lair when it’s time to find medicated bait for Pa-Akhet.\nFixed messaging and functionality around the rewards chest in the Inbetween.\n* To unlock the chest, you need to leave a Divine or Dread Soul on level 3 of an Uncharted Rift, then check back after 4PM, Pacific Time. (Either the same or next day.)\n* You can stack multiple rewards for a max of 5.\n* We will continue to iterate on this feature and are investigating the potential of adding a timer in game to make the countdown more clear.\nThere was a Loki Anomaly chest in Muspelheim that was empty.\nSending resources from Uncharted Rift dungeons back to the main story mode via DM Wells was breaking the counters for Sidequests/Requests.\nFishing bait got a significant buff.\nAdded a settings toggle to enable/disable reminder notifications. These are the ones that include a character portrait. This way the player can turn them off while still getting quest progress notifications.\nFixed a visibility issue when riding Mereret from the Sobek Bathhouse area back to the canal.\nFixed an issue around the calculation of map completion on the Great Sand Sea.\nRemoved a screeching sound on some grapples in the Red Chasm.\nIn the Blistering Vents, if you died after the Ragnarök area, you would always be sent back to this stone forcing unintended re-traversing.\nFixed a corrupt save problem if you quit during the AW1 recap.\nChanged the save file order of operation to complete writing a new save and then overwrite the old one. We previously immediately started overwriting the old save which made it susceptible to corruption if something outside of the game interrupted the operation."
+            },
+            {
+                "version": "1.0.1445011",
+                "change_log": "Asgard's Wrath 2 - Launch build - Version 1.0.1445011"
+            },
+            {
+                "version": "0.0.1444263",
+                "change_log": "Automated Sanzaru Build - For internal testing only. Changelist 1444263"
+            }
+        ],
         "keywords": [
             "Blade",
             "Sword",
@@ -222,8 +236,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 2691,
-        "rating": 4.234857,
+        "votes": 2701,
+        "rating": 4.236209,
         "weighted_rating": 4.22,
         "is_available": true,
         "is_free": false

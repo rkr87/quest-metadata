@@ -81,6 +81,12 @@
             "logo_transparent": "38982553_598258454906373_6225300533063546527_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.2",
+                "change_log": "Removed the unneccesary permissions: \nuses-permission: name='android.permission.RECORD_AUDIO'\nuses-permission: name='android.permission.MODIFY_AUDIO_SETTINGS'\nuses-permission: name='android.permission.BLUETOOTH'"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

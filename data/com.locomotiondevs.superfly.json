@@ -85,6 +85,48 @@
             "logo_transparent": "39036607_696982734724238_479231818041036353_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.1",
+                "change_log": "- Added destructible buildings in construction zones around the city\n- Added cosmetics for power colors and glove colors\n- Added a setting to control the number of fragments\n- Added a setting to swap the grip and touchpad buttons\n- Fixed a bug that could cause the player to slide rapidly forwards, ignoring friction\n- Fixed a bug that occasionally caused stutter when playing sounds"
+            },
+            {
+                "version": "1.2.3",
+                "change_log": "Minor Update: Superfly v1.2.3\nChangelog:\n- Added difficulty selection screen upon first time starting game\n- Added gear collection progress bar for story mode\n- Added new voice lines for progressing in the story mode\n- Added achievements for new enemies\n- Added option to disable controller vibration\n- Added meows to certain Dr. Suffer voice lines\n- Added dragon spawn, death, and engage sounds\n- Added death lines to Juggerbot\n- Updated all tutorial voice lines\n- Updated tutorial to introduce enemy shield mechanic and have the player collect 10 gears instead of 8\n- Fixed bug that would cause some players to get stuck in the main menu\n- Fixed bug that would cause red lighting\n- Fixed bug that would cause subtitles to glitch back and forth\n- Fixed bug between portals and black holes\n- Fixed bug where player would start with no powers after skipping tutorial\n- Fixed boat achievement being unobtainable on Quest\n- Fixed a Juggerbot subtitle line"
+            },
+            {
+                "version": "1.2.2",
+                "change_log": "Minor Update: Superfly v1.2.2\nChangelog:\n- Updated the spider boss to turn invisible and teleport\n- Updated the turret boss forcefields to have better VFX\n- Fixed an error that caused the game to not work after updating for some users"
+            },
+            {
+                "version": "1.1.4",
+                "change_log": "Changelog:\nAdded or updated sounds for every power in the game\nAdded ambient sounds for different regions of the city\nAdded ambient sounds for the cars and blimps\nAdded impact VFX for the blink kunai\nUpdated the claw mode to be stronger\nUpdated the grappling hook sidegrade to have much better physics\nUpdated the powers menu text to be clearer\nFixed a bug where the claw mode would jitter while giant\nFixed a bug where the giant mode used the wrong icon in the help menu\nFixed a bug where the UI pointer would be the wrong size while giant\nFixed a bug where the menu sounds wouldn't play while giant"
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "Minor Update: Superfly v1.1.3\nChangelog:\n- Added a help section to the pause menu to explain power controls\n- Added arrows to the Giant mode to show you when you increase or decrease in size\n- Added sound effects to the UI\n- Added additional sound effects to the tutorial room\n- Updated the Black Hole to spawn from the player's palms\n- Updated the graphics to greatly improve performance, especially on Quest 1\n- Fixed a bug where the screen color didn't change when starting the tutorial on Quest"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Changelog:\n- Added 4 new powers: Blink, Telekinesis, Portals, and Giant!\n- Added a full rework to the UI\n- Added street races, where the rings are on the ground instead of midair\n- Added new audio lines for all small enemies\n- Added (optional) subtitles for all voice lines\n- Added full physics to blimps\n- Added billboard destruction\n- Added new boat graphics\n- Added boat destruction\n- Added achievements for destroying boats\n- Added sounds for swimming in the ocean\n- Added unique unlock effects for all the powers in the game\n- Updated the beacons to be much more visible on Quest\n- Updated graphics in the tutorial room to look better and run faster on Quest\n- Updated the Spider Boss to be much harder to kill\n- Updated Speed mode to let you run on water\n- Updated the mission win VFX and sounds\n- Updated the claw mode to be more exact and responsive\n- Updated punching physics to be much more reliable\n- Removed the Unity splash screen when launching the game\n- Fixed a bug where the tutorial would sometimes get stuck\n- Fixed a bug where the tutorial would sometimes unlock the Web Slinger too early\n- Fixed a bug where tutorial audio lines would sometimes cut off\n- Fixed a bug where tutorial audio would sometimes play repeatedly when reentering the room\n- Fixed a bug where the tutorial tooltips would sometimes appear in Free Play mode\n- Fixed bug where the blue spider would explode into red fragments\n- Fixed an error message in the turret boss kill achievements"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "Changelog:\n\n- Added achievements to the Quest port\n\n- Added race and gear leaderboards to the Quest port\n\n- Added user submitted billboards\n\n- Updated the game to have better FPS on the Quest 1\n\n- Fixed a bug that broke the Lightning Super sidegrade for some users\n\n- Removed the legacy username selector UI"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "- Added achievements to the Quest port\n\n- Added race and gear leaderboards to the Quest port\n\n- Updated the game to have better FPS on the Quest 1\n\n- Fixed a bug that broke the Lightning Super sidegrade for some users"
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "- Added a setting to swap the Grip and Trigger buttons for the lightning mode\n\n- Updated the game to have higher quality and better performance on Quest\n\n- Updated an in-game message to better explain the story mode progression\n\n- Fixed a bug that caused the controls for turning and jumping to sometimes not work\n\n- Fixed a bug that caused the hand to animate incorrectly when you swapped the controls\n\n- Fixed a bug that caused a an error message for PC builds"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "This minor update adds leading messages to Story Mode to help out new players, it adds race missions to make the game more replayable, and it fixes a number of minor bugs.\n\nChangelog:\n- Added messages to Story Mode that lead you to the next unlock or boss fight\n- Added race missions to the Quest port\n- Added some secret Steam achievements...\n- Added a setting to swap the Grip and Trigger buttons\n- Updated the rooftop objects to spawn in more sensible groups\n- Updated the rooftop graphics to fix some level of detail issues\n- Updated the worm and spider bosses to spawn away from the city center\n- Fixed a bug that caused some projectiles to shake in the player's hand\n- Fixed a bug that caused the leaderboard to miss some peoples' information\n- Fixed a bug that caused enemies and blimps to sometimes phase through objects"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

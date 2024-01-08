@@ -84,6 +84,24 @@
             "logo_transparent": "39031519_336530551012201_8525946753121032342_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.2.3",
+                "change_log": "Update 0.2.3 patch notes\n\nNew:\n- Added custom reverb audio per room for more realistic audio. (Expect tweaks to this in the future)\n- New model for Loot crates (they were using an Ammo Box model, which is confusing because they mainly drop Credits)\n- Loot Crates can now drop Health in addition to Credits. \n- WeaponModStation (Chest with \"?\" over it) UI now rotates to face the player.\n\nBugfixes:\n- Fixed issue where enemies would sometimes never die.\n- Fixed issue where rooms visually disappeared and infinite space was visible.\n- Fixed issue where sometimes you could drop the pistol and no longer continue your run\n- Fixed issue where enemies could shoot through door frames\n- Fixed Shield hand position when in Lefty mode.\n- Fixed reload button in Lefty Mode\n- Fixed issue where sometimes there would be invisible walls blocking you."
+            },
+            {
+                "version": "0.2.2",
+                "change_log": "* Reduced App Size greatly (stripped arm32 arch)\n* Proper Pause handling when opening the Universal Menu\n* 14 (!) new Rooms\n* 1 New enemy : SpiderBot"
+            },
+            {
+                "version": "0.2.1",
+                "change_log": "* Initial App Lab release"
+            },
+            {
+                "version": "0.2.1",
+                "change_log": "*Initial App Lab release"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

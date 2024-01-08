@@ -268,6 +268,40 @@
                 "short_description": "Niemand kann ganz ohne Hilfe aus der Unterwelt entkommen. Schnappt euch einen Freund und rennt, springt und löst Rätsel mit ihm auf dem Weg in die Freiheit in diesem preisgekrönten Koop-Rätsel-Platformer!"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.25",
+                "change_log": "*Note: this update will wipe save files due to above necessary changes, we apologies for the inconvenience.\n\n*Fix implemented for reported network issues for some players in multiplayer\n*Reduced latency for multiplayer games\n*Minor graphical fixes and adjustments\n\n*PC/OSx clients updated to 1.25.2\n*These needs to be downloaded and installed to play multiplayer \n*Please uninstall older versions before installing 1.25.2\n*The clients can be found at https://carlyandthereaperman.com/\n\n*MAC OSX users - A warning might show that the installer is unsigned, please follow the OS instructions to allow for installation.\n\n"
+            },
+            {
+                "version": "1.22.124755",
+                "change_log": "- Fixed issue that could cause Voice chat to sometimes not work.\n- Fixed issue causing Carly to sometimes move block she jumps up on in multiplayer.\n- Fixed moving platform in \"Abide the Law\" to work correctly in multiplayer.\n- Fixed issue causing some Fire fly coins to not move for the non host in multiplayer."
+            },
+            {
+                "version": "1.22.116207",
+                "change_log": "- Increased framerate for Oculus Quest 2\n- Added trails showing the direction to the next Door when speaking to Trebuchet\n- Added back Quit To Hub button in menu when replaying levels\n- Changed so you return to the Hub instead of the spirit level when replaying\n- Added graphics for the Carly player's VR head and ability to draw trails to better communicate with the Reaperman player\n- Fixed so Carly is smoother when riding elevators controlled by Reaperman\n- Changed information displayed by save files\n- Fixed bug that caused the game to duplicate saves when playing over network\n- Fixed various graphical and network related bugs"
+            },
+            {
+                "version": "1.22.113212",
+                "change_log": "Fixed crash when displaying certain save files."
+            },
+            {
+                "version": "1.22.112939",
+                "change_log": "Fixed elevators with better sync\nFixed an issue where Carly would sometimes glide off horizontal elevators\nFixed some issues with fade in when loading a level\nReapermans mouth is now moving when the player talks\nFixed issue where Carly's face would disappear after respawning from a door\nSynced some previously unsynced game items\nUpdated visuals on some backgrounds"
+            },
+            {
+                "version": "1.22.111015",
+                "change_log": "Release Notes\n- Fixed a number of audio issues, if you are still having issues, please reach out to us here on Discord or support@resolutiongames.com.\n- Fixed bug causing blocks held in right hand to be slightly offset in multiplayer.\n- Fixed bug causing Carly to sometimes be pushed off blocks when Reaperman pushed them.\n- Fixed bug causing Carly to sometimes be visible under the platform when entering the portal.\n- Fixed bug where Carly would glide when in dialogs\n- Disabled Quit to Hub from pause menu, since this would mean having to replay already cleared levels\n- Disabled 180 degree turn using thumbstick down.\n- Various graphical tweaks and improvements.\n- Carly players on PC/Mac can now point at points of interest\n"
+            },
+            {
+                "version": "1.22.110751",
+                "change_log": "Fixed bug causing some rooms being unable to be joined."
+            },
+            {
+                "version": "1.22.109462",
+                "change_log": "Release candidate"
+            }
+        ],
         "keywords": [
             "VR",
             "platforming",

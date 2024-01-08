@@ -97,6 +97,12 @@
                 "short_description": "Imrsivo player permets d'explorer/visionner les différentes expériences VR réalisé par la communauté."
             }
         ],
+        "changelog": [
+            {
+                "version": "0.3",
+                "change_log": "We corrected the errors in the previous submission.\nWe need this permission : WRITE_EXTERNAL_STORAGE and READ_EXTERNAL_STORAGE, to store data on the device in order to make it easier to load the application."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

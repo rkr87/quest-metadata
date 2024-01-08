@@ -55,7 +55,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 66
+                "votes": 65
             },
             {
                 "rating": 2,
@@ -71,7 +71,7 @@
             },
             {
                 "rating": 5,
-                "votes": 350
+                "votes": 351
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -270,6 +270,48 @@
                 "short_description": "The Cabin ist ein intensives, herausforderndes Spiel. Gehörst du zu den wenigen, die überleben werden? Sammle Vorräte, verstärke die Verteidigung und kämpfe gegen Wellen von wandelnden Toten, die vor einem Experiment aus einem Labor geflohen sind. Mach dir keine Hoffnungen – du wirst sterben, und zwar oft. Jedes Mal, wenn du scheiterst, erhältst du EP, mit denen du deinen Charakter und deine Waffen verbessern kannst, um das Spiel beim nächsten Mal zu meistern."
             }
         ],
+        "changelog": [
+            {
+                "version": "2.1.0",
+                "change_log": "Cabin 2.1.0\n\nWhat's new?\n\n- Brand new 'Leecher' enemy in Home Invasion (MR Mode)\n- New difficulty modes in Home Invasion (MR Mode)\n- Improved onboarding and window scaling in Home Invasion (MR Mode)\n- Festive mode enabled from the 14th of December to 5th of January 2024\n- Bugs, fixes and improvements"
+            },
+            {
+                "version": "2.0.2",
+                "change_log": "Improved Home Invasion onboarding and room setup flow."
+            },
+            {
+                "version": "2.0.1",
+                "change_log": "Added news panel in Home Invasion Mixed Reality mode"
+            },
+            {
+                "version": "2.0.0",
+                "change_log": "- Brand new Mixed Reality mode - Home Invasion!\n- Added further visual enhancements to the Quest 3 version"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "Cabin Quest 3 Update is here:\n\n- Quest 3 Visual and performance improvements\n- NEW Beginner mode\n- NEW Arcade reload option (Drop Dead: Dual Strike inspired), pouch reload and manual reload options available too\n- NEW Teleport movement option\n\nPlus lots of additional bug fixes and improvements\n\nHome Invasion (Mixed Reality) mode launching 25th of October 2023!\n\n\n"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "Patch 1.1.2\n- Fixed a major crash issue\n- A whole host of minor improvements; tweaks and bug fixes"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Introducing brand new sky box variations and fog effects across the new difficulty modes for enhanced visual immersion.\nFine-tuning of 'normal mode' to provide a more accessible and enjoyable experience for all players.\nResolved a critical bug preventing the triggering of the 'Kill All' objective in the Mine Pit, ensuring smooth gameplay progression.\nSuccessfully rectified an imbalance where the 'client' player would endure excessive damage compared to the 'Host,' preventing unfair one-shot situations.\nRifle ammo distribution - You can now acquire rifle ammunition from the random and 'special ammo'  crates."
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Issues fixed in 1.0.4\n\nKnown Improvements:\n\n- Improved melee hit responsiveness\n- Modified lobby options - ‘Quick Play’ and a new ‘Host Friends’ option to avoid random players joining lobbies intended to be closed\n- Re-worked Item grab and visualisation for an improved item pick-up accuracy\n- Improvements to melee throwing mechanics, including velocity, item travel, and item embed.\n- Melee audio revamped to feel more satisfying\n- Added a dot over an item when hovered to indicate where to grasp the item.\n\nKnown Fixes:\n- Fixed an issue where player cosmetics such as golden revolver and laser sight weren't visible to another player.\n- Fixed an issue where players' extraction time was logging incorrectly on the leaderboards\n- Fixed an issue where changing Belt depth past a certain point caused the ammo pouch to lose UI\n- Fixed an exploit where players could stand at the extraction door to outpace zombie spawns\n- Fixed an issue where extraction can fail to trigger\n- Fixed an issue where occasionally weapons could occupy both back holsters\n- Rebalanced Meta Game\n\nWe are continuing to investigate and fix performance related stutters and crashes."
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "- Fixed a critical bug required to run v50 Meta Quest Firmware"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "Fixes and Improvements:\n\n- Performance improvements\n- Network lag (client) interactables improved\n- Fixed crashes when retrying game\n- Fixed an issue where zombies sometimes don’t attack barricades\n- Fixed an issue where the compass does not always point in the right direction\n- Fixed VoIP initialisation when a player is invited to a lobby\n- Fixed cross-region invites\n- Added the full settings menu to the menu inside the game\n- Added a toggle grip option in the settings menu\n- Added smooth turn sliders in the settings menu\n- Improved the responsiveness of interactions around the player inventory (weapon grabbing, ammo, etc.) \n- Improved the grip sensitivity to help stop accidental gun dropping\n- Improvements made to ladder climbing\n- Balancing tweaks for perk and weapon upgrades\n- Moved the location of the battery to a more visible location (roughly the same area as before)\n- Added the ability for users to get more than one revolver or pistol in a session\n- Starting weapons can now include two revolvers or two pistols.\n- Fixed Game Hud/UI stutters that can sometimes occur\n\nPlease update your game to the latest version! Please do keep the feedback coming as it is incredibly valuable to us as we continue to work on and improve the game."
+            }
+        ],
         "keywords": [
             "horror",
             "survival",
@@ -281,8 +323,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "votes": 626,
-        "rating": 4.007987,
-        "weighted_rating": 3.98,
+        "rating": 4.014377,
+        "weighted_rating": 3.99,
         "is_available": true,
         "is_free": false
     },

@@ -88,6 +88,32 @@
             "logo_transparent": "38974865_767251157296176_124568081162196397_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.3",
+                "change_log": "Improvements\n\n·      Haptic feedback and sound when moving the ray trace over an interactable surface was added. This helps users to easily understand which are the interactions in a scene.\n\n·      Performance in the open/close menu transition was improved, providing a better overall user experience.\n\n·      It is now possible to define a custom mesh, or remove it, when using the teleport area gadget.\n\n·      It is now possible to rotate your view using the joysticks controller while using the teleport\n\n \n\nBug Fixing\n\n·      An issue in the keyboard positioning has been fixed.\n\n·      The inverted appearance of the image of the username when looking for the avatar of another user has been fixed.\n\n·      Other performance tweaks and minor improvements"
+            },
+            {
+                "version": "1.3.2",
+                "change_log": "Added support for Ready Player Me avatars\n\nPerformance\n\nVoice synchronization issues have been resolved\n\nFixed an issue in the blackboard gadget that was preventing to use background images"
+            },
+            {
+                "version": "1.3",
+                "change_log": "* Gadgets versioning support\n\n* Adapt to new gadgets setup system\n\n* Videoviewer refreshes the download list when the user leaves\n\n* Fix general synchronization error\n\n* Fix blackboard load from local file\n\n* New AreaTeleport Data\n\n* Fix permissions bug\n\n* Reoder gadgets layers\n\n* Area of AreaTeleport shapes fix\n\n* Fix AreaTeleport Logo load\n\n* Fix webviewer input bug in several instances\n\n* Fix Assistant frames drop bug\n\n* Fix Teleport frames drop bug"
+            },
+            {
+                "version": "1.2.15",
+                "change_log": "Minor bugfix\nImproved stabilization"
+            },
+            {
+                "version": "1.2.14",
+                "change_log": "Improved Video Player\nAdded multilanguage support to gadgets\nMinor fixes and improvements"
+            },
+            {
+                "version": "1.2.11",
+                "change_log": "Changed video sizes to fit previous version\nImproved permission system detection"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

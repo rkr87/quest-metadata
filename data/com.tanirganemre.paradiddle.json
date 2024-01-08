@@ -65,7 +65,7 @@
             },
             {
                 "rating": 5,
-                "votes": 124
+                "votes": 126
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -94,12 +94,22 @@
             "logo_transparent": "38974594_1158949441383747_1917455218788126648_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.9.12",
+                "change_log": "December Stability Update Notes:\n\nBug Fixes:\n- Fixed PDF import crashes on Quest.\n- Fixed a bug where users could accidentally start a lesson even without the lesson menu visible.\n- Fixed a scary bug where the sticks would become unresponsive and would not register any drum hits until deleting the save file.\n- Fixed the lesson text getting hidden behind the full drum kit in the 2 drum fill lessons (drum fill intro & drum fill exercises).\n- Fixed a drum material bug where certain song and kit files would load with drums that looked inside out/see-through.\n- Fixed a bug where the song speed setting would not take effect if it was adjusted prior to starting the song.\n- Fixed the song tempo lines getting off-sync in certain edge cases that involved pausing/rewinding/fast forwarding or frequent tempo changes that could happen in the middle of a beat.\n- Fixed a bug where the kick drum wouldn't make any sounds when a previous kick's default velocity was set to 0, even if that previous kick was deleted from the scene.\n- Fixed a bug where after playing the song at a lower song speed, song achievements wouldn't get unlocked even when the player replayed the song at normal or faster speed.\n- Fixed an issue where the position of the in-game windows and the camera tool wouldn't stay the same upon switching scenes.\n- Fixed the tutorial text not mentioning the correct buttons (trackpad vs thumbsticks) on certain headsets like the Valve Index.\n- Fixed a bug where the drum kit anchor wouldn't get detached if the user clicked the menu/thumbstick button while grabbing the anchor.\n- Fixed certain drum types not playing the drum deletion sound.\n\nFeature Updates\n- If the \"Keep Only Required Drums\" option is not selected, starting a song no longer deletes any extra drums that were already in the scene. In order to prevent performance issues in edge cases where going from song to song could keep creating more and more drums, we've put a limit of 25 drums to this behavior. Feel free to let us know if you could see this being a problem for you.\n- The behavior is the same as before if the \"Keep Only Required Drums\" option is selected - all drums except the ones which have note/hit events in the song will be deleted.\n- Custom songs are now sorted based on artist name.\n- Recordings and custom songs now support drums with override data. (e.g Crocell Snare instead of default Snare)\n- The custom song page will now refresh automatically if new songs are added while the app is running. If you're going to be adding and removing lots of custom songs, we still recommend relaunching the app to make sure all of the data is loaded properly on start.\n- The PDF window now loads files in the background, and will no longer freeze the app while loading a file.\nAdded a timeout while logging in which disables online features if the app is taking too long to log in. This was added to prevent getting stuck at the loading screen.\n\nA huge thank you to everyone who sent a bug report or suggestion on our Discord or the Steam Forums, as your feedback allows us to keep improving the app with each update. If you're enjoying your time with Paradiddle V1, Steam reviews are always appreciated - especially during holiday season where we'll have lots of eyes checking out our Steam page!\n\nThanks,\n- Emre\nLead Developer\nemre@paradiddleapp.com\nJoin us on Discord!: https://discord.gg/paradiddle\nTwitter: @ParadidleVR\nParadiddle drum covers Youtube playlist (your cover could be on here too!)\nOfficial Paradiddle website: http://paradiddleapp.com\nFAQ: http://paradiddleapp.com/faq"
+            },
+            {
+                "version": "0.9.11",
+                "change_log": "Nov 13 Patch Notes:\n\n- Removed some unintentional double notes on some songs: The Lull Before The Storm, The Wave, Subspatial (triple note on this one).\n- Fixed an issue where finishing a lesson wouldn't immediately refresh the lessons page and show the next lesson as unlocked, even though it got unlocked.\n- Fixed an issue on the last page of the Lessons tab where going to page 4, switching to another main menu tab and then switching back to Lessons would cause two extra lesson buttons to appear.\n- Fixed an issue where the autosave kit wasn't getting loaded automatically after skipping the tutorial on standalone Quest.\n- Fixed an issue where loading a kit from the Load Drum Kit button wouldn't end the tutorial when it was supposed to.\n\n\nMore fixes and improvements to come soon!\n\n- Emre\nLead Developer"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 155,
-        "rating": 4.651613,
+        "votes": 157,
+        "rating": 4.656051,
         "weighted_rating": 4.32,
         "is_available": true,
         "is_free": false

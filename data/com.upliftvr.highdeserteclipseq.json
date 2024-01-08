@@ -82,6 +82,16 @@
             "logo_transparent": "38974446_820520605222753_3614142483380254465_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.0.35",
+                "change_log": "Many settings updated on last build and all seemed to work. Better color and resolution except night sky pixelate banding much worse.  Switched linear color back to gamma and now that looks good as well. This should be good enough for Release Candidate after testing."
+            },
+            {
+                "version": "1.0.0.33",
+                "change_log": "added android:taskAffinity=\"\" to android manifest to fix any possible StrandHogg v1.0 malware attack as per oculus recomendation."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

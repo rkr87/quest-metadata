@@ -110,6 +110,64 @@
             "logo_transparent": "39031431_752477005328522_3425429266440119857_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.7.3",
+                "change_log": "- support for MR loading screen on Quest 3\n- replaced 'hand overlay' option in Mixed Reality settings with 'hand style', adding a style which removes hand outlines.\n- improved readability of Settings and Puzzle Editor menus in MR\n- show arrow symbol between hands when moving play area around while making fists\n- fix issue where loading a corrupted save file isn't handled well\n- fixed issue where puzzle pieces could be clipped through the floor and walls in MR"
+            },
+            {
+                "version": "1.7.1",
+                "change_log": "- Added experimental support for Quest’s Space Setup, allowing you to bring in your real walls and furniture into the game\n- Added experimental puzzle persistence between sessions, where the game will try and load the last played puzzle at the last location you were playing on start\n- Added a new recenter button that makes it easier to place the puzzle in front of you when you move around your room, and makes it easier to snap the puzzle to a table surface"
+            },
+            {
+                "version": "1.6.0",
+                "change_log": "Added a local puzzle-editor to allow you to design your own Cubism puzzles. (you can enable it in the settings)\nLearn more about using the editor at: www.cubism-vr.com/editor"
+            },
+            {
+                "version": "1.5.3",
+                "change_log": "Support for Hands 2.0 improved hand tracking\n- turned hand smoothing off by default\n- adjusted the messaging in the hand tracking modal at the start of the game\n\nBugfixes\n- fixed an issue where thrown pieces would appear to stutter\n- fixed an issue where the play area could be spun around during repositioning when advanced controls had previously been turned on\n- fixed an issue where pieces would fly towards your hands when pinching when advanced controls had previously been turned on"
+            },
+            {
+                "version": "1.5.2",
+                "change_log": "- fix issue where held piece could disappear when switching from hands to controllers\n- fix issue where the incorrect localized title would load when restarting a game after switching languages\n- fix issue where debug hand joints would be visible when using controllers"
+            },
+            {
+                "version": "1.5.1",
+                "change_log": "- the puzzle can now be snapped back onto the podium\n- you can now also rotate the playarea when you reposition it \n- the game will fade out when the system menu is opened to help indicate that the game is paused"
+            },
+            {
+                "version": "1.5.0",
+                "change_log": "- Added “Passthrough Mode”, which lets you play Cubism in AR using Quest’s passthrough API\n- Mod support for puzzle file format v2 (learn more at [github.com/](github.com/cubismvr/Mods)cubismvr/mods)\n- The playarea can be repositioned all the way down to the floor, and the menu will automatically flatten itself out when done so. When calibrating the floor height to a table surface, this lets you play in 'tabletop mode'.\n- Several performance improvements on the menu.\n- Regression: shadows quality reduced in 120Hz mode to compensate for the potential lack of FFR support in OpenXR"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "New hand gesture shortcut: make a fists with both hands and move them to reposition the play area."
+            },
+            {
+                "version": "1.4.0",
+                "change_log": "- Added 'Volume 2', a new campaign with 30 puzzles\n- Layout changes to the main menu\n- Switched to linear color space\n- Improved position of 'Reposition Playarea' button higher up in the menu to be easier to reach"
+            },
+            {
+                "version": "1.3.2",
+                "change_log": "- Added ability to 'force pull' distant pieces with hand tracking \n- Added support for 60Hz hand tracking \n- Reduced .apk size from 110Mb to 75Mb \n- Fixed the color gamut to Rec_2020 for more consistent color between PC and Quest\n- Fixed issue where 'continuous music mode' option would not work when replaying solved puzzles"
+            },
+            {
+                "version": "1.3.1",
+                "change_log": "Fixed an issue with localization where text wouldn't display correctly if a user's Quest was set to a language not supported by the game."
+            },
+            {
+                "version": "1.3.0",
+                "change_log": "- added localization in English, French, Spanish, German, Japanese, Korean and Simplified Chinese.\n- added custom title puzzles for Japanese, Korean and Simplified Chinese"
+            },
+            {
+                "version": "1.2.7",
+                "change_log": "- fixed an issue where only one song would play in continuous music mode\n- fixed an issue where the game would lock up if the player variables save file was corrupted\n- small performance improvements to the menu"
+            },
+            {
+                "version": "1.2.3",
+                "change_log": "fix where music fill only fade out when the last piece of a puzzle will actually fit"
+            }
+        ],
         "keywords": [
             "puzzle",
             "minimal",

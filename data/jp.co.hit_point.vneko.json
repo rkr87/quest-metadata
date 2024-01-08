@@ -65,7 +65,7 @@
             },
             {
                 "rating": 4,
-                "votes": 17
+                "votes": 18
             },
             {
                 "rating": 5,
@@ -119,6 +119,16 @@
                 "short_description": "ねことの暮らしをもっと身近に。\n\n『もっと！ ねこあつめ』は46種類のねこが登場するシミュレーションゲームです。\n自由気ままなねこたちをまったり眺めるだけではなく、ねこじゃらしで遊んだり、おなかを撫でたり、抱っこすることができます。\n「みけねこさん」や「おっどさん」「まんぞくさん」など、個性豊かなねこが登場する素敵なにわさきでは、きっとあなた好みの一匹と出会えるでしょう。\n誰にも邪魔されない「ねことの暮らし」をどうぞお楽しみください。\n\n【POINT】\n・MRモード機能の搭載―Meta Questだから実現できたMR体験。VRモードよりも\"もっと！\"ねこに近づくことができます。\n・ねこに対する様々なアクション―ねこじゃらしで遊ぶ、おやつを与える、撫でる、抱っこする･･･など、自由にねこと遊ぶことができます。\n・快適なプレイ環境―このゲームはジェスチャーコントロールに対応しています。\n・コレクション機能―仲良くなったねこから「たからもの」を貰うことができます。たからものはもちろん3D！　様々な角度から観察可能です。\n\n可愛いねこの世界での新しい体験が、あなたを待っています。"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.1",
+                "change_log": "■VR/MR\nTo address the MATNA-75 issue temporarily, we have blocked the functionality of displaying the keyboard.\nThis workaround will persist until the system is updated and the MATNA-75 problem is resolved.\n\n1. Section for changing the cat's name:\nWhen selecting the function, a popup message is displayed.\n\n2. Send button for Password on the Connect screen:\nA popup message is displayed when the button is pressed. Subsequently, measures have been implemented to automatically transition to Password authentication.\n\n\nFixes\n[Quest 3][VRC.Quest.Functional.3] The user will become Soft-Locked when changing a cat's name in the Catbook within the Yard and My Room. \nhttps://universallyspeaking.atlassian.net/browse/MATNA-75\n\nKnown Issues:\nN/A"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "■VR\nFixed render queue settings.(MATNA-58)\nCorrected model update timing after HMD is attached.(MATNA-62)\nFixed an issue where titles would not pause while the Oculus Universal Menu was open.(MATNA-67)\nFixed a problem with the model display for hand tracking.(MATNA-68)\nFixed an issue where system processing callbacks were not working correctly.(MATNA-69)\n\n\nFixes\n[Quest 2] [Quest 3] The user's hands will clip through the title's starting screen overlay when holding the hands too close to the HMD whilst using hand tracking within the Yard.\nhttps://universallyspeaking.atlassian.net/browse/MATNA-58\n\n[Quest 2] [Quest 3] The food bowl will be visibly full instead of empty when returning to the HMD once letting the food bar deplete in the Yard.\nhttps://universallyspeaking.atlassian.net/browse/MATNA-62\n\n[Quest 2] [Quest 3] [VRC.Quest.Functional.2] The title will not pause when opening the Oculus Universal Menu whilst the camera is open during gameplay.\nhttps://universallyspeaking.atlassian.net/browse/MATNA-67\n\n[Quest 2] [Quest 3] Menus will not be visible behind the user's hands when using hand tracking during gameplay.\nhttps://universallyspeaking.atlassian.net/browse/MATNA-68\n\n[Quest 2][Quest 3][VRC.Quest.Functional.3] The user will become Soft-Locked when stepping out of the stationary boundary and returning when progressing throughout setup in My Room. \nhttps://universallyspeaking.atlassian.net/browse/MATNA-69\n\nKnown Issues:\nN/A"
+            }
+        ],
         "keywords": [
             "NekoAtsume",
             "Cat",
@@ -129,8 +139,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 105,
-        "rating": 4.180952,
+        "votes": 106,
+        "rating": 4.179245,
         "weighted_rating": 4.01,
         "is_available": true,
         "is_free": false

@@ -106,6 +106,16 @@
                 "short_description": "보드게임을 VR로 즐기고 싶다면 지금 바로 DIVE VR을 다운로드하세요! \n모두와 함께 멋진 가상 공간에서 다양한 콘텐츠를 즐길 수 있습니다."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.4-alpha",
+                "change_log": "1. All games support single play. \n\n2. Game documentation(how-to-play) added (Korean only yet)"
+            },
+            {
+                "version": "1.0.2-alpha",
+                "change_log": "- 공통\n    - OVR Rig 렌더 스케일 변경\n    - 공 돌아가는 시간 5초로 롤백\n    - UI 클릭 안되는 현상 개선\n    - 테이블에 콜라이더 추가\n- 야추 다이스\n    - 주사위 밉맵 설정\n    - 주사위 셰이더 커스텀 림 라이트로 수정\n    - 주사위 정리 안되는 현상 수정\n    - 주사위 아웃라인 Visible로 변경\n    - 컵을 다른 손으로 옮겨 잡는 경우 기존 아웃라인이 유지되는 현상 2차 수정 \n- 원카드\n    - 진행방향 화살표 파티클 제거\n- 오델로 / 체스\n    - 자신 턴을 나타내는 파티클 추가\n- 블록 쌓기\n    - 싱글 플레이 추가"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

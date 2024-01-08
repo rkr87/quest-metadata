@@ -80,6 +80,16 @@
             "logo_transparent": "38982621_128345561845417_7356974396147236864_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.2.4",
+                "change_log": "* Improved room textures\n* Improved shadows and lighting"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug fixes:\n* Fixed issue where a test avatar was being displayed instead of the your own avatar during the conversation.\n* Fixed issue where the initial request for microphone permission might cause the conversation to get stuck on a blank screen and/or prevent the audio from playing back as expected."
+            }
+        ],
         "keywords": [
             "conversation",
             "perspective",

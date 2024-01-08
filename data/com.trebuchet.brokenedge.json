@@ -62,7 +62,7 @@
             },
             {
                 "rating": 2,
-                "votes": 39
+                "votes": 40
             },
             {
                 "rating": 3,
@@ -101,6 +101,16 @@
             "logo_transparent": "75340705_1618464468536868_1881016278584825147_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.5.2",
+                "change_log": "Bug Fixing:\n- Fixed Duelist axis awaken\n- Fixed ELO lost issue\n- Fixed visual issue with Lobby Spectator/Fighter buttons\n- We also adjusted the ELO leaderboards. There were old scores from before we fixed ELO (that shouldn't display). We kept the same rankings, but ELO values are below 2400. "
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "BALANCING\nAnti-power creep\n-5 Awaken modifier applied on most Blades (except Tyrant Legendary and Legacy blade)\n\nTyrant:\n* Tyrant Main is the previous Tyrant Legendary (easier to pick up): Awaken Nerf -5 (195)\n* Tyrant Legendary (previous Main): Speed Buff 3%\n* Tyrant weird awaken delay is fixed\n\nKnight:\n* Knight Main: Awaken nerf -3 (177)\n* Knight Legendary: Awaken nerf -5 (180)\n* Knight Legacy: Awaken nerf-3 (172)\n\nDuelist:\n* Duelist Main: Smooth Strike weight +6%\n* Duelist Legendary: Smooth Strike weight +9%\n\nPirate:\n* Pirate Main: Speed Buff 7%, Amplitude buff 3%, Awaken nerf -5 (165)\n* Pirate Legendary: Awaken nerf -5 (170)\n\nViking:\n* Blade HP nerf -10 (260)\n* Viking Main: Awaken nerf -10 (155), Speed nerf -10%\n* Viking Legendary: Awaken nerf -8 (167)\n\nBarbarian:\n* Barbarian Main is the previous Barbarian Legendary (easier to pick up), Awaken nerf -5 (183)\n* Barbarian Legendary (previous Main): Speed Buff 4%, Awaken nerf -3 (187)\n* Barbarian Legacy: Speed Buff 12%\n\nPersian:\n* Blade HP nerf -30 (190)\n* Persian Main: Awaken nerf -5 (175), Speed nerf -8%\n* Persian Legendary: Awaken nerf -5 (175), Speed nerf -2%\n\nSamurai:\n* Samurai Main: Awaken window buff 6%, Blade Alignment buff 30%, Awaken nerf -10 (190)\n* Samurai Legendary: Awaken window buff 6%, Blade Alignment buff 12% , Awaken nerf -5 (190)\n* Samurai Legacy: Awaken window buff 6%\n\nRonin:\n* Ronin Main: Awaken 180, Focus Strike: 40(/180), Clean Unsheathe: 15% easier, Penalty Speed: 17 --> 15, Penalty Wiggle: -25% wiggle room\n* Ronin Legendary:  Awaken 190, Focus Strike: 30(/190), Clean Unsheathe: 5%, easier Penalty Speed: 17 --> 15, Penalty Wiggle: -25% wiggle room\n\nGameplay adjustments for Ronin:\n* Katana won't skip out of the scabbard as easily (more forgiving)\n* Putting the katana completely in the Scabbard is now part of both Scabbard and Sheathe/Unsheathe (practice)\n* Pose is active at the start of each rounds (Max Awaken is possible)\n\nBUG FIXING\n* fix when opponent has no weapon and couldn't die\n* fix for weapon not breaking when nub state without critical parry\n* fix sword not breaking on scabbard hit (penalty damage)\n* fix for sword not getting penalty damage on unawakened scabbard hit (new feature)\n* scabbard and shield can now cut candles\n* fix for persian second primary not visible in holster at match start when invisible\n* fix for spectator now see non-host player body pile at the base of the sword\n* potentially fixed issue with sword being un-hittable and phasing through stuff (weapons/character/candle)\n* desync might be fixed, let us know if you still experience it\n* fix for Ronin katana clipping issue in scabbard\n* fix for half-sheathe invincible hit on body/shield/scabbard not removing invincibility\n* fix for some FX issue\n* fix for pose not gained on non lethal body hit (ward, unawakened)\n* fix sword unsnappable after a critical parry killing hit (may have happen in different circumstances too)\n* fix for tie not working"
+            }
+        ],
         "keywords": [
             "swordplay",
             "swordfighting",
@@ -111,8 +121,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 992,
-        "rating": 4.19254,
+        "votes": 993,
+        "rating": 4.190332,
         "weighted_rating": 4.16,
         "is_available": true,
         "is_free": false

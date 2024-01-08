@@ -103,6 +103,44 @@
                 "short_description": "XR Designerとは部屋をデザインしたり共有して遊ぶことのできるVRのゲームです\n他の人が作った部屋に遊びに行くこともできます。自分が作ったモデルや壁紙をアップロードして使用することもできます。"
             }
         ],
+        "changelog": [
+            {
+                "version": "4.2.4",
+                "change_log": "Improved stability of asynchronous-related processing.\n\n非同期関連の処理の安定度を高めました。"
+            },
+            {
+                "version": "4.2.3",
+                "change_log": "Fixed a bug regarding the changes made with the addition of warp and gravity operations. Lightened the laser operation. ワープと重力操作の追加に伴う変更に関してのバグを直しました。レーザー操作を軽くしました。"
+            },
+            {
+                "version": "4.2.2",
+                "change_log": "Fixed a bug regarding the changes made with the addition of warp and gravity operations. ワープと重力操作の追加に伴う変更に関してのバグを直しました。"
+            },
+            {
+                "version": "4.2.1",
+                "change_log": "Fixed a bug regarding the changes made with the addition of warp and gravity operations.\n\nワープと重力操作の追加に伴う変更に関してのバグを直しました。"
+            },
+            {
+                "version": "4.2.0",
+                "change_log": "Warp functionality has been implemented.\nModels can now be selected with or without gravity.\nAnd some bugs have been fixed.\n\nワープ機能を実装しました。\nモデルの重力の有無を選択できるようになりました。\nバグを直しました。"
+            },
+            {
+                "version": "4.1.4",
+                "change_log": "We have improved on some of the finer points.\n細かい点を改善しました。"
+            },
+            {
+                "version": "4.1.3",
+                "change_log": "We added transparency to \"Paint\" so you can create completely empty spaces.\nFixed other minor points.\n「ペイント」に透明を追加して、完全に何もない空間を作れるようにしました。\nその他、細かい点を直しました。"
+            },
+            {
+                "version": "4.1.2",
+                "change_log": "Improved announcements when saving. Compared to \"XR Designer old,\" the number of models per room and the capacity limit are each several times higher. If you are using \"XR Designer old\", please be sure to change to this \"XR Designer\". \n\nセーブ時のアナウンスを改善しました。「XR Designer old」に比べて一部屋当たりのモデル数と容量制限がそれぞれ数倍になってます。 「XR Designer old」をご利用の場合は、必ずこちらの「XR Designer」に変更してください。"
+            },
+            {
+                "version": "4.1.1",
+                "change_log": "Compared to \"XR Designer old,\" the number of models per room and the capacity limit are each several times higher.\nIf you are using \"XR Designer old\", please be sure to change to this \"XR Designer\". \n「XR Designer old」に比べて一部屋当たりのモデル数と容量制限がそれぞれ数倍になってます。\n「XR Designer old」をご利用の場合は、必ずこちらの「XR Designer」に変更してください。"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

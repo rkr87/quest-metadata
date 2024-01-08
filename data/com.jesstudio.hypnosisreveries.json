@@ -136,6 +136,12 @@
                 "short_description": "2021年砂之盒沈浸影像節最佳華語作品獎。\n第十一屆北京國際電影節VR單元官方評選。\n\n基於Jessien過去十年在VR相關領域的跨學科研究，《睡神的遐思》采用了一種抽象和極簡的方法來講述一個關於成長的故事。在20分鐘的探索體驗中，你將步入一個精神迷宮，回顧那些曾改變你的重要瞬間，再次審視自己。"
             }
         ],
+        "changelog": [
+            {
+                "version": "0.2",
+                "change_log": "Important update.\n\nOptimized Movement Mode resolves the following Bugs:\n1. After the player's locomotion, the collider of player does not follow;\n2. When the player rotates, the center of rotation is not at the player's head;\n3. Players occasionally look through walls as they rotate."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

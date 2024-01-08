@@ -90,6 +90,20 @@
             "logo_transparent": "38974801_692178661551299_747505007368077312_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.2.4",
+                "change_log": "Patch 1.2.4\n\nThis is our newest feature release specifically to add a “Skip” feature in our Pause Menu that allows players to skip parts of the story they’ve already experienced. We’ve heard that our replay mechanic in certain story moments can cause some frustration, so hopefully this will alleviate those frustrations. I will go into more detail about the new feature below!\n\n Feature Details\n\n- This release focuses on a “Skip Current Section” feature we’ve added to the Pause Menu.\n- The “Skip” option will only be available after the initial setup of the story and only if you’ve already played through a section at least once (since the patch released).\n- If you haven’t successfully completed a puzzle section, you’ll skip to the beginning of the puzzle section.\n- If you’ve already successfully completed a puzzle section, you’ll skip the success branch of the puzzle section.\n- If you’ve already completed an ending, you’ll skip to the news report (room with the printer).\n \nKnown Issues we’re looking into (contains potential spoilers)\n\n- Sand dunes outside the window during the beach sequence are white instead of their intended shade.\n- Holding items in the comic book shop, persist into the radio station.\n- Attempting to record a commercial during the call-in-show causes the call-in-show to not progress. If you get into this state, just reload your save and you should start right before the call-in-show.\n- Sometimes subtitles do not clear when a character is done speaking and sometimes they do not update with the last line of text.\n- Sometimes one of the hands stops being able to target objects with the laser pointer. Usually picking the object up directly with that hand and dropping it will reset the hand and allow laser pointing again."
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "Patch 1.1\n\nFixes (Spoiler-Free)\n- We’ve made the height more uniform, regardless of standing or sitting. If you’re height feels or looks off, try snap-rotating or teleporting and it should resolve the issue.  If the height remains to feel or look off, try toggling the “Adjust Height” setting by opening the Oculus dash, then go to Settings -> Accessibility -> Mobility. If that fails, try restarting the game.\n- When the Area Man Dies, the incorrect Anchor audio was playing.\n- Fixed various subtitles that did not match the audio that was being spoken.\n- Cleaned up a number of audio cues and dialog to better match the story beats.\n- Fixed an issue with text being low-res on some of the papers hanging on the bulletin board on Rift version.\n- We now hide the players in-game hands when bringing up the Universal Menu on Meta Quest and Rift.\n\nFixes (contains Potential Spoilers)\n- After failing or reaching a false ending, we’ve removed a lot of the repeated dialog as to get the player back to the decision points much quicker.  In many cases, this removed minutes of repeated content that was very frustrating.\n- During the “Mech” sequence, audio was not properly ducking when characters were speaking.\n- The reverse beeps audio could get stuck in a loop. This has now been fixed.\n- Removed the flashing lights while the phenomenon was happening. Both together were too much and an eyesore.\n- Made it so certain objects can be interacted with properly earlier in the story.\n- Made it so the player cannot enter the truck before the phenomenon, which would have resulted in the player being spun around, causing potential discomfort in the experience."
+            },
+            {
+                "version": "1.0.32",
+                "change_log": "fix for RST dialpad reset issue"
+            }
+        ],
         "keywords": [
             "mystery",
             "radio",

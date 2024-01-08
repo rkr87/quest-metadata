@@ -81,6 +81,32 @@
             "logo_transparent": "38982694_1190178372378521_4303966440156152832_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "23.12.22",
+                "change_log": "Small Patch\n- Volume adjustments\n- In game room borders off by default\n\nNote: If your avatar's body was set to Wolf Armor, Dragon, or Gryphon, you may need to reselect it in the Customization menu."
+            },
+            {
+                "version": "23.12.12",
+                "change_log": "Small Patch\n- In-game score panel\n- Atmosphere volume controls\n- Game improvements"
+            },
+            {
+                "version": "23.12.06",
+                "change_log": "Winter Update\n\nWinter games:\n- Santa Claws - open your presents, but don’t break the ornaments!\n- Snow Blast - shoot snowballs at the targets\n- Holiday Forces - decorate the tree, with your mind!\n- Jingle Boom - grenades, but shiny\n- Gift Feeder - deliver presents through the windows!\n\nNew Environment: Winter Scene \nNew Music: Wintery Mix\n\nAccessories:\n- Winter Hat \n- Holly and Juniper Crown\n- Santa Hat\n- Reindeer Antlers\n- Ice Crown\n\nGeneral:\n- Passthrough is now an overlay on your environment selection. What does this mean? You can select both passthrough and an environment, and have elements of the environment appear in passthrough. It’s snowing in your living room!\n\nKnown Issues:\n- With a high latency host (whomever creates the room), some of the game behavior can get less responsive to other players. Whomever has the best connection should host.\n- Scene Understanding couches (barrels) do not scale height correctly at this time.\n- Ice blast can cause issues to the microbot and bouncy ball in your playground room. Blast responsibly."
+            },
+            {
+                "version": "23.10.31",
+                "change_log": "Hotfix:\n- Recenter will regenerate multiplayer rooms. \n- Passthrough optimization. \n- Spikey watch. \n- New reset buttons in playground."
+            },
+            {
+                "version": "23.10.25",
+                "change_log": "New Updates\n- Halloween skins for force and claws out\n- New spooky environment option\n- Your Room updates\n- Updated furniture objects in VR mode\n- Various tweaks and fixes\n\nKnown Issues\n- With a high latency host (whomever creates the room), some of the game behavior can get less responsive to other players. Whomever has the best connection should host.\n- Scene Understanding couches (barrels) do not scale height correctly at this time.\n- If players leave and rejoin a room, or otherwise change the order of player IDs, it can cause strange behavior in some games.\n- Recentering can break multiplayer room layouts.\n- Ice blast can cause issues to the microbot and bouncy ball in your room. Blast responsibly."
+            },
+            {
+                "version": "23.09.15",
+                "change_log": "Currently implemented\n- 6 microgames: CHOMP, Claws Out, Shooter, Grenades, Forces, and Feeder\n-- Feeder now uses the players’ walls to spawn portals\n-- Physics objects will react with your furniture (Shooter, Grenades, Forces, Feeder)\n- Multiplayer with code based room join\n- Connection loss player notifications and exit button\n- Hand-tracking with gesture inputs\n- Environment options\n-- Music\n-- Passthrough and non-passthrough settings\n- Local Scene Understanding\n- Multiplayer Scene Understanding\n- Diegetic UI menus\n- Character customization: Hats, Watches, and Bodies\n- Your Room - a playground area to try out tools and rearrange\n- Game scoring and rounds\n\nKnown Issues\n- With a high latency host (whomever creates the room), some of the game behavior can get less responsive to other players. Whomever has the best connection should host.\n- Scene Understanding couches (barrels) do not scale height correctly at this time.\n- If players leave and rejoin a room, or otherwise change the order of player IDs, it can cause strange behavior in some games.\n- Re-centering can break room layouts."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

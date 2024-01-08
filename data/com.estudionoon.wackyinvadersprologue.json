@@ -81,6 +81,12 @@
             "logo_transparent": "39035309_762615368236129_1553165456783132973_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.1.65",
+                "change_log": "Improvements \n\nModified virtual joystick to not release unless user explicitly releases grip buttons \n\nIncreased gun sensitivity/speed for smoother control \n\n\nAdditions \n\nAdded support for bHaptics Tactosy for Arms \n\nAdded support for bHaptics Tactal face ahptics module. \n\n\nBugs \n\nFixed Bug with menu audio restarting when headset is removed \n\nFixed bug with bHaptics persistant setting not savign when user quits the game"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

@@ -61,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 94
+                "votes": 95
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,48 @@
             "logo_transparent": "39031422_436931181690741_7781895884213725081_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.81",
+                "change_log": "Quest 3 patch"
+            },
+            {
+                "version": "1.8",
+                "change_log": "Move from Vulkan to OpenGL"
+            },
+            {
+                "version": "1.75",
+                "change_log": "Bugfixing concentrating on Niagara particles system"
+            },
+            {
+                "version": "1.72",
+                "change_log": "Crash Fixes for v55. Removed Forcing of GPU and CPU levels"
+            },
+            {
+                "version": "1.7",
+                "change_log": "Crash fixes for Quest OS v55"
+            },
+            {
+                "version": "1.63",
+                "change_log": "Corrected the Hubble Orbit in Sandbox"
+            },
+            {
+                "version": "1.51",
+                "change_log": "Language fixes, Achievements fix"
+            },
+            {
+                "version": "1.2",
+                "change_log": "Hello Astronauts!\n\nWe wish you all the most spooky and enthralling Halloween!\nAfter all, in space no one can hear you scream 🎃 \n\nWe prepared a special treat for you - a new Halloween-themed minigame!\nBe sure to check it out. You can access the smashing pumpkins game through the mission selection menu, under the new ‘Extra’ option.\n\nThis patch also includes:\n- Small festive treat in the cabin\n- Two new secret Achievements for the Sandbox Mode\n- Fix for an issue where the Orbital Transfer maneuver would finish too soon\n\nWith best regards,\nInterkosmos 2000 DevTeam\n"
+            },
+            {
+                "version": "1.1",
+                "change_log": "Hello Astronauts!\n\nToday we’d like to present you with something that we’ve been working on for quite some time. It’s something many of you have asked for, and we think you’ll like it!\n\nSandbox Mode is being released… Today!\n\nSandbox Mode is an additional play mode separate from Training and Mission. For the first time we’ve added an Orbital Maneuver Planner that you can use to calculate and visualize transfers to any target! \n\nThe Sandbox Mode gives you complete freedom of movement. It contains no story or radio talking, and allows you to explore Earth’s orbit at your own pace. Look at the beauty of space, play with your orbit, test orbital mechanics, go where very few have gone before - the sky is yours. \n\nWe’ve also added two historical spacecrafts for you to discover - the first artificial satellite, Sputnik; and the newest NASA capsule for the Artemis mission, Orion.\n\nSandbox Mode comes with some additional features to make your spaceflight a leisure:\n- With some amazing new technology, you can speed up the flow of time! Hold down the X button to fast forward. \n- When starting the playthrough you can opt-out of the resources management part of the gameplay (in addition to the previous two difficulty levels).\n- The Sandbox playthrough can be saved [when exiting to the Main Menu] -  this save is separate from the Mission/Training save, but is made on the same user game profile.\n\nIn addition to the Sandbox Mode, this patch brings several upgrades to the main game:\n\nNew UI:\n- Main Computer has been given a system update, introducing new graphics to our spaceflight software\n- Menus have been given a slight visual overhaul and better resolution\n\nMiscellaneous:\n- Helmet in Menu should be easier to grab\n- Due to new controls, the item-pulling accessibility options work only on the right hand\n\nWe thank you for your continuous support and love for the game!\nWhile we are not revealing what we are working on next, we can say that another exciting update will be coming soon!\n\nWith best regards,\nInterkosmos 2000 DevTeam\n"
+            },
+            {
+                "version": "1.02.1",
+                "change_log": "Hotfix patch 1.02.1\n\nHello Astronauts!\n\nWe’re grateful to all of you for the warm welcome the Interkosmos 2000 space programme has received on the Quest scene! \n\nSimultaneously we apologize for all the issues found in our experimental space capsule. No space programme is without its issues at first launch! [we are looking at you, NASA] \n\nFor this update we have removed two of the most frequent bugs and made one quality-of-life change. We are aware of the range of other issues reported by you, and we are working hard at fixing them (with our dev-wrench)! The next update will add even more quality of life improvements and fix more of the remaining bugs, in addition to adding many more surprises! Stay tuned, pilots! \n\nChangelog:\n- Fixed a bug where the Orbital Transfer system would read the wrong transfer data, leading to blocked progress. (There may still be some issues if you're very far away from FakeStar before starting the Orbital Transfer.) \n- Fixed issue where Scanning sometimes wasn’t properly acknowledged \n- Delays between repetition of radio commands are now increasing with every repetition of the command, to avoid audio overstimulation \n\nThank you for all your feedback! Let us know if these changes resolved your issues, and tell us what you want to see moving forward. \n\n\nWith Best Regards,\nInterkosmos 2000 DevTeam\n"
+            }
+        ],
         "keywords": [
             "space",
             "astronaut",
@@ -98,8 +140,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 183,
-        "rating": 3.967213,
+        "votes": 184,
+        "rating": 3.972826,
         "weighted_rating": 3.92,
         "is_available": true,
         "is_free": false

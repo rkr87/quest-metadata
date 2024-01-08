@@ -100,6 +100,88 @@
             "logo_transparent": "38974527_2068730430101200_7735609349933891584_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "3.831",
+                "change_log": "address Quest/Rift crossplay issue"
+            },
+            {
+                "version": "3.829",
+                "change_log": "now after saving, it should no longer automatically return to the Home menu"
+            },
+            {
+                "version": "3.828",
+                "change_log": "if there's multiple players, it shouldn't return to the home menu after saving"
+            },
+            {
+                "version": "3.827",
+                "change_log": "try to improve performance of the home menu, disable auto-save notification"
+            },
+            {
+                "version": "3.821",
+                "change_log": "address bug with avatar 'mirror mode' button, limit number of players to 5, and possibly address crash"
+            },
+            {
+                "version": "3.820",
+                "change_log": "try saving just the sculpture title, if upload fails"
+            },
+            {
+                "version": "3.819",
+                "change_log": "retry saving sculpture info if upload fails"
+            },
+            {
+                "version": "3.818",
+                "change_log": "address bug where Publish & Save can get accidentally hit"
+            },
+            {
+                "version": "3.815",
+                "change_log": "tweak to home menu etc"
+            },
+            {
+                "version": "3.810",
+                "change_log": "New build 3.87 from May 31st 2022"
+            },
+            {
+                "version": "3.806",
+                "change_log": "New build 3.86 from May 24th 2022"
+            },
+            {
+                "version": "3.804",
+                "change_log": "New build 3.82 from May 17th 2022"
+            },
+            {
+                "version": "3.801",
+                "change_log": "3.81 - Significant Update:\nNew Features:\n1. New Tutorial System\n2. New tips and video tips system\n3. New glide tool\n4. New Home Menu\n5. New Options to like sculptures/avatars\n6. New options to delete sculptures/avatars\n7. New Screenshot previews for sculptures and heads\n8. New sculpture categorization abilities\n9. New sculpture database on the backend\n10. New VR Keyboards to name sculptures/avatars\n11. New default images\n\nOptimizations:\n1. Optimization on the tutorial start video\n2. Optimizations on saving the sculpture flow\n3. Optimizations on create/editing avatars\n4. Optimizations on tool panels\n5. Optimizations on sessions\n6. Optimizations on avatar/sculptures creation flow\n7. Optimizations on sculpture upload capabilities\n\nFixes:\n1. Fixed issue oriented towards multiplayer sessions have wrong LODs on avatars\n2. Fixed issues related to sessions, including failed session join, session search and\nsession create\n3. Fix issues related to broken avatar thumbnail\n"
+            },
+            {
+                "version": "2.99",
+                "change_log": "Includes updates to the analytics system, and the codebase includes some tutorial features that aren't enabled in this version."
+            },
+            {
+                "version": "2.97",
+                "change_log": "Analytics update"
+            },
+            {
+                "version": "2.88",
+                "change_log": "Bugfix on a \"Host Session\" button"
+            },
+            {
+                "version": "2.87",
+                "change_log": "New intro video for new users!\nChanges to the Online Gallery, including making it more family-friendly."
+            },
+            {
+                "version": "2.86",
+                "change_log": "Update SculptrVR to take advantage of the better processing on Quest 2. On Quest 2 SculptrVR renders at a much higher resolution, and displays 30% more triangles. In 90hz mode, SculptrVR should automatically reduce the triangle count to maintain framerate.\n\nAlso fix an input bug with the linear motion tools.\n\nTurn off all analytics since I never used them, and I'm too lazy to make a privacy policy for them."
+            },
+            {
+                "version": "2.80",
+                "change_log": "Added Transparent Layers! Switch a layer to be transparent in the layers settings. Now you can add windows and transparent water to your creations!\n\n-Now the player automatically enters screenshot mode when using the camera, so you always get high-detail screenshots."
+            },
+            {
+                "version": "2.79",
+                "change_log": "Users can now select max players when they host a game. This way they can play with just friends!\nAdded a gravity mode to the linear motion tool!\nAdded a Linear Motion Comfort Mode tool that uses a camera view and infrequent player teleports!\nReduced memory usage and speed up voxels by ~5%.\nFixed joystick tilt direction in game."
+            }
+        ],
         "keywords": [
             "sculpt",
             "art",

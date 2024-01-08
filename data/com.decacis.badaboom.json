@@ -93,6 +93,48 @@
             "logo_transparent": "57569463_185158307799160_7774764616121732524_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.3.3",
+                "change_log": "- Added a special mode for when the player ID is unknown.\n- Fixed player ranking display position (now it should be in the middle)"
+            },
+            {
+                "version": "0.3.2",
+                "change_log": "- Added ranking button to quickly check ranking when you finish a map\n- Changed save system to allow multiple users\n- Made the tutorial a bit quicker"
+            },
+            {
+                "version": "0.3.1",
+                "change_log": "- Added ranking button to quickly check ranking when you finish a map\n- Changed save system to allow multiple users\n- Made the tutorial a bit quicker"
+            },
+            {
+                "version": "0.3.0",
+                "change_log": "- Added ranking button to quickly check ranking when you finish a map\n- Changed save system to allow multiple users\n- Made the tutorial a bit quicker"
+            },
+            {
+                "version": "0.2.6",
+                "change_log": "- Quick patch to remove expansion packs from being uploaded to cloud storage."
+            },
+            {
+                "version": "0.2.5",
+                "change_log": "- The Wild West Expansion Pack! 3 new maps & 3 new songs.\n- Added difficulty/speed indicator to maps.\n- Updated some thumbnails (increased brightness).\n- Fixed visual error with global ranking setting's toggle."
+            },
+            {
+                "version": "0.1.9",
+                "change_log": "- Fixed possible block from leaderboards if user age is unknown."
+            },
+            {
+                "version": "0.1.7",
+                "change_log": "- Added missing translations\n- Adding clipping to ranking names when they are too long"
+            },
+            {
+                "version": "0.1.6",
+                "change_log": "- Improved shader caching... I think\n- Added new initial scene background\n- Changed [logo] loading indicator"
+            },
+            {
+                "version": "0.1.5",
+                "change_log": "- Added loading indicator to ranking menu\n- Changed \"The DJ\" initial spawn position (lowered by ~10 cm)\n- Fixed (occasional) visual bug when marbles reach the end\n- Fixed game version not updating in about section when changing language"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

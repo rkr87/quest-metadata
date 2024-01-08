@@ -77,6 +77,28 @@
             "logo_transparent": "39031505_378293793101340_1661917279991889920_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.7.18",
+                "change_log": "Attempted rotation fix."
+            },
+            {
+                "version": "1.7.16",
+                "change_log": "Reworked analytics event system. Increased fade out time during scene switching to avoid video jumps."
+            },
+            {
+                "version": "1.4.7",
+                "change_log": "Fixes for submission failure. Added entitlement check and removed microphone permissions."
+            },
+            {
+                "version": "1.4.6",
+                "change_log": "Increased display refresh rate and fixed foveated rendering level. Added quit dialog to back button press (as required by Oculus)."
+            },
+            {
+                "version": "1.4.0",
+                "change_log": "Added new decoration assets to scene and replaced some old ones. Added icon to minimized brochure and magazine. Added back button indicator to remote. Fix for Devil's Lake not being counted on tablet."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

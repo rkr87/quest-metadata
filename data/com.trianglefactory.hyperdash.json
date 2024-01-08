@@ -57,8 +57,8 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "Free",
             "xbuy",
+            "Free",
             "offline games"
         ],
         "hist": [
@@ -80,7 +80,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1999
+                "votes": 2000
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -109,6 +109,24 @@
             "logo_transparent": "75230042_823603705122064_2036238505356154875_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.25.10",
+                "change_log": "**v1.25.10 hotfix**\n\n**Fixed**\n- settings: show chevrons setting and hide drones setting would affect each other\n- payload: respawning broken if the game mode makes you switch teams while you were dead\n- spectator: starting spectator in a certain way would make it display 2D in headset\n- would never show \"headset not found\" if there were startup issues\n- sparks sometimes not spawning."
+            },
+            {
+                "version": "1.25.10",
+                "change_log": "**v1.25.10**\n\n**Added**\n- Option to hide dash chevrons\n- Added username locking.  After rename you can't change it for 3 months. clan tags are unaffected\n\n**Fixed**\n- switching team while dead resets re-spawn timer\n- Ball: fixed bounce shots not correctly working on goals\n- Ball: fixed situation where bots didn't throw the ball\n\n**Improved**\n- Beginner servers: level has been raise to 20\n- Dust park: small visual changes\n- Waterway: spawn changes\n- Updated Oculus XR\n- Updated Steam XR"
+            },
+            {
+                "version": "1.24.4",
+                "change_log": "Update v1.24.4\n\nNew\n- Game mode: Ball is back!\n- New map: Dust Park.\n- Alternate spectator control mode (drone controls).\n- spectator hotkeys to toggle between fixed ( Ctrl + 1-9 )\n- Added dedicated payload camera target (press g to activate)\n\nImproved\n- Replaced shock with smg in Abyss\n- Increased minimum character height so player models look better when crouching low to the ground.\n- When crouching too low (red circle) players can no longer use dashes.\n- Modified spawn shield location in waterway and canyon.\n\nFixed\n- Rockets can no longer be spawned inside walls.\n- Collision on doors in Abyss\n- Corrupted unlock list file no longer causes the game to crash on boot.\n- spectator: players don't go invisible when spectator is in a wall."
+            },
+            {
+                "version": "1.23.1",
+                "change_log": "Update v1.23.1\n\nNew\n- Added place to enter gift codes for gifting credits.\n- Banned users can now get a support code.\n- Mutator for dash league payload matches.\n\nImproved\n- Payload Abyss: moved rocket pickup closer to the rail at the second red spawn\n- Slow Motion mutator works better with pistol fire rate limit.\n- SMG increased damage, reduced reloading time.\nbody shots 8 -> 6\nHead shots 4 -> 3\nReload time 2s -> 1.5s\n- Pico neo3 now mutes microphone when going in standby to save battery power.\n\nFixed\n- Changing helmet and body at the same time in the customization menu only changed the helmet.\n- Payload Abyss: fixed places where players could dash through walls.\n- Deathmatch Crater: fixed places where players could dash inside pillars/walls.\n- Data protection screen has wrong size when opening for the first time.\nIssue where players could not start a custom server if the combined data of their name and equipment was too large.\n- Issue where players could not login if they had a slow connection to Paris and needed to update localization files.\n"
+            }
+        ],
         "keywords": [
             "fps",
             "shooter",
@@ -119,8 +137,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 2508,
-        "rating": 4.54067,
+        "votes": 2509,
+        "rating": 4.540853,
         "weighted_rating": 4.51,
         "is_available": true,
         "is_free": true

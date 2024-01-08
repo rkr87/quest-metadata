@@ -87,6 +87,44 @@
             "logo_transparent": "38982576_1082189082263998_9037198517090287405_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.2.40",
+                "change_log": "- Adds brick reflectivity and shininess\n- Adds reflectivity slider in the misc settings\n- Moved player scale slider to the avatar editor\n- Fixed performance regression from last update\n- Adds 1x1 round plate\n- Fixes aliasing issues in main menu river scene\n- Fixes bug where some bricks would disappear after you left a world\n- Fixes collision bugs with 1x3 slope, 3x3 corner slope, 4x4 corner slope, and 1x1x2/3 slope\n- Fixes bug where large worlds could timeout while downloading\n- General performance improvements"
+            },
+            {
+                "version": "0.2.39",
+                "change_log": "Changelog: - Adds the ability to export your world to 3D models. The functionality is found in the room menu. - Adds small imperfections to the brick models - Change brick rendering to be more shiny and specular - Fix bug where usernames above heads weren't rendering in multiplayer - Fix bug where the slider on the brick menu would flicker in the tutorial"
+            },
+            {
+                "version": "0.2.39",
+                "change_log": "Changelog:\n- Adds the ability to export your world to 3D models. The functionality is found in the room menu.\n- Adds small imperfections to the brick models\n- Change brick rendering to be more shiny and specular\n- Fix bug where usernames above heads weren't rendering in multiplayer\n- Fix bug where the slider on the brick menu would flicker in the tutorial"
+            },
+            {
+                "version": "0.2.38",
+                "change_log": "- Fixes bad mesh on 2x2 corner brick\n- Fixes bad mesh on 1x4x2/3 slope\n- Fixes bug where you could grab parts of the brick menu when it was closed\n- Fixes bug where the brick menu category slider could become displaced by grabbing it and then closing the menu\n- Fixes bug where 2x2 corner brick could not be placed sometimes"
+            },
+            {
+                "version": "0.2.37",
+                "change_log": "- Completely revamp the brick menu:\n  - Color sliders are now collapsible \n  - Adds 2 more saved color spots\n  - Brick menu is now smaller\n  - Allow changing between brick categories using a grab slider\n  - Improve aesthetics of brick tiles\n- Adds 2x2 L-shaped brick, plate, and tile\n- Adds 1x1 round tile\n- Adds 2x2 plate with 1 stud\n- Adds 2x1 plate with 1 stud\n- Adds 1x4x2/3 slope\n- Adds new 15% option when adjusting player scale\n- Adjust ambient and directional lighting to improve overall visual quality\n- Fix bug where other players could change the color in your color palette\n- Fix bug where multiple bricks in the brick menu could be hovered at once\n- Fix bug where brick menu would lag 1 frame behind the hand\n- Fix bug where color slider grab knob had a collider that affected bricks\n- Fix aspect ratio on avatar mouths and eyes\n- Fix underside connectors on the 2x8 plate\n- Fix lag spike when loading recent rooms list\n- Fix bug where 1x6 arch wouldn't spawn in your hand when using the hand spawner\n- Other assorted bug fixes and performance improvements"
+            },
+            {
+                "version": "0.2.36",
+                "change_log": "- Add eyes and mouths to the avatar editor\n  - Choose from 12 different eyes and 12 different mouths\n- Add 1x1 pyramid brick\n- Add 1x1 30 degree cheese slope\n- Add 1x4 masonry brick\n- Add 1x4 arch\n- Improve anti-aliasing and flickering on both Quest and PCVR versions\n- Fix bug where you could get stuck in the tutorial\n- Other minor bug fixes."
+            },
+            {
+                "version": "0.2.35",
+                "change_log": "- Added player avatar editor.\n  - Choose from 18 different primary and secondary colors\n  - You can change your player color in the main menu or in the in-game menu.\n- Add 1x3 and 1x6 arch brick\n- Add inverted 1x2 slope brick\n- Add rotation speed setting. This affects both snap turn and smooth turn.\n- Fix broken shadows on masonry bricks\n- Add transparency to the brick menu\n- Add 'Find friends' info page\n- Change player name font to be more legible on different backgrounds\n- Fix bug where losing internet connection would give you an unsupported version error\n- Fix bug where bricks attached to player heads randomly disappeared or become un-attachable when using a non-unlimited render distance.\n- Fix bug where bricks would sometimes duplicate when you grabbed them.\n- Fix frame drop issue when switching between lasers"
+            },
+            {
+                "version": "0.2.34",
+                "change_log": "- Adds new player hands and a player face\n- Adds new masonry brick under Misc bricks\n- Fixes collider on 2x6 tile\n- Improves some copy in the tutorial\n- Increases brick download timeout for large worlds"
+            },
+            {
+                "version": "0.2.32",
+                "change_log": "- Aligns build tables so you can build bridges between them\n- Change room codes to 8 digits long\n- Update plant brick mesh to newer version provided by David184\n- Temporarily remove vignette setting\n- Enable MSAA\n- Disable Z rotation on brick menu\n- Add a screen after creating a room telling you the room code and how to invite friends"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

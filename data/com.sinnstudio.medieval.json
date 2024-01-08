@@ -64,7 +64,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 95
+                "votes": 96
             },
             {
                 "rating": 2,
@@ -80,7 +80,7 @@
             },
             {
                 "rating": 5,
-                "votes": 559
+                "votes": 561
             }
         ],
         "comfort": "NOT_RATED",
@@ -108,12 +108,78 @@
             "logo_transparent": "57566695_377013590677792_5632933840241596704_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.83",
+                "change_log": "TG Hotfix Release"
+            },
+            {
+                "version": "1.83",
+                "change_log": "Quest 3 graphics update"
+            },
+            {
+                "version": "1.83",
+                "change_log": "Release 1.83"
+            },
+            {
+                "version": "1.82",
+                "change_log": "Build from changelist: 6625"
+            },
+            {
+                "version": "1.82",
+                "change_log": "Build from changelist: 6385-Android12"
+            },
+            {
+                "version": "1.79",
+                "change_log": "Major update and two hotfixes consolidated into changelist below\n\n\n- Ranged Combat AI\n- New mode: Archery range (see door by Blacksmith)\n- New ranged weapons and ammo types\n- New player Archer armor and helmet\n\n\n- Opening the PS quick menu paused the game and it could not be unpaused\n- On map load, players could see under the floor sometimes, before being set to a proper height\n- AI could break when parried (and stop performing all actions)\n- Purchased arrow types did not show as unlocked (even though they were)\n- Archery range tried to return holstered weapons back to original location\n- The game frequently crashed for some users in various situations\n- Longbow did not stay purchased and would lock when returning to hub\n- Ranged AI stood up at the end of Finishers and then died immediately\n- The quiver did not hide when the game was paused\n- Arrows could get stuck on enemy bows\n- Enemies stabbed with a loaded crossbow bolt caused glitches\n- Arrows could be used to parry and stagger enemies, as if a regular weapon\n- Crossbow could refuse to accept bolts (causing them to vanish)\n- Returning to hub from combat maps could spawn you by the archery door\n- Player could float out of arenas in Sandbox with 0 gravity\n- Jotunn wings did not despawn in Sandbox mode\n- Dagger flip stopped working for some users\n- Clearing weapons in Sandbox mode could fail to produce H2H enemies\n- Zombie heads could suddenly enlarge when cut off"
+            },
+            {
+                "version": "1.79",
+                "change_log": "Hotfix - Bug Fixes\n\n- AI could break when parried (and stop performing all actions)\n- Archery range tried to return holstered weapons back to original location\n- The game frequently crashed for some users in various situations\n- Longbow did not stay purchased and would lock when returning to hub\n- Ranged AI stood up at the end of Finishers and then died immediately\n- The quiver did not hide when the game was paused\n- Arrows could get stuck on enemy bows\n- Enemies stabbed with a loaded crossbow bolt caused glitches\n- Arrows could be used to parry and stagger enemies, as if a regular weapon\n- Crossbow could refuse to accept bolts (causing them to vanish)\n- Returning to hub from combat maps could spawn you by the archery door"
+            },
+            {
+                "version": "1.79",
+                "change_log": "Major Update: Ranged Combat!"
+            },
+            {
+                "version": "1.79",
+                "change_log": "Major Update: Ranged Combat!"
+            },
+            {
+                "version": "1.77",
+                "change_log": "Hotfix"
+            },
+            {
+                "version": "1.77",
+                "change_log": "Patch notes go here with this much spacing before the line begins.\n- Example\n- Example\n- Example"
+            },
+            {
+                "version": "1.76",
+                "change_log": "Improvements\n- Enemies take some damage when weapons are pulled out of them\n- Added new controller vibration option for UI button hovers\n\nBug Fixes\n- Some axes could over-penetrate\n- Katanas Telekinesis gripped from dead enemies had wrong grip location\n- (Quest) Horde high score text read as Coming Soon\n- Kodoku grip orientation was wrong on player preview character\n- Performance menu could fail to update showing complete story\n- (Quest) Completing 10 waves in Horde failed to unlock Slayer sword\n- Some tabs in the hub menu weren’t highlighting on hover (visual)\n- Pirate armor displayed incorrect material on the preview character\n- Some buttons in the hub didn’t show their hover states"
+            },
+            {
+                "version": "1.75",
+                "change_log": "Improvements / Content Update\n\n- Graphical improvements on all platforms\n- General performance improvements\n- Added new two-handed grip style (one-hand dominant), as DEFAULT\n- Localization / translation improvements for non-English text\n- Nerfed boss weapon recharge rate (and Asterokinesis influence)\n- PSO cached again for QUEST to eliminate jitters caused by new shaders\n\nBug Fixes\n\n- Bjorn still played an unwanted / unused Finisher animation\n- Frostbite was failing to trigger special attacks\n- Hel's giant's ground punch clipped his arm through the floor\n- Horde map was still not accessible for some players\n- Menu sliders stuttered and would not move if hovering directly over them\n- Minor misc. UI fixes / corrections"
+            },
+            {
+                "version": "1.74",
+                "change_log": "Improvements / Content Update\n\n- 2022 Holiday Draw\n- AI can't be stunned by weapons while attacking, prompting you to parry\n- AI attacks less often, but moves around more\n- General performance improvements\n- Some Holiday decorations added\n\nBug Fixes\n\n- Fixed some weapon item descriptions in shop\n- Permadeath failed to delete certain progress\n- Some languages were unable to see some text\n- Doomfist could fail to kill enemies in certain situations\n- Skin color failed to load correctly on VR hands\n- Horde map failed to load on some platforms"
+            },
+            {
+                "version": "1.73",
+                "change_log": "Hotfix\n\n- Improved hit detection"
+            },
+            {
+                "version": "1.72",
+                "change_log": "Hotfix\n\nBug Fixes\n- PSVR page arrows on Campaign map not visible\n- Weapons in hub could spawn sounds even when not visible\n- New boss weapons were not in the correct weapon category in shop\n- Arena victory screen showed contest win screen instead\n- Weapons on the ground could still damage enemies\n- The game crashed without an internet connection"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 961,
-        "rating": 4.10718,
+        "votes": 964,
+        "rating": 4.105809,
         "weighted_rating": 4.08,
         "is_available": true,
         "is_free": false

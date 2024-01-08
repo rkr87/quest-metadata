@@ -81,6 +81,16 @@
             "logo_transparent": "11162702_341914556261975_8511164316265742336_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.72",
+                "change_log": "We addressed the Back Button functionality by using the default Oculus provided handler.\r\n\r\nWe've also rebuilt the app with KitKat level of functionality, so Lollipop tests should succeed at this point.\r\n\r\nLastly we've added the entitlement check per documentation, with an exit should the check fail.  \r\n\r\nthank you."
+            },
+            {
+                "version": "1.71",
+                "change_log": "Updates to permissions, visual adjustments"
+            }
+        ],
         "keywords": [
             "Klax",
             "Tetris",

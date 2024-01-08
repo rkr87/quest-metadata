@@ -81,6 +81,24 @@
             "logo_transparent": "38982514_947642892685352_4385911647015065576_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.5.2",
+                "change_log": "v0.5.2 Release notes\n\nBug Fixes:\n\n- Record Case: Fix audio files not loading correctly on Quest 2 and newer headsets\n- Main Menu: Fix broken link to Discord Server"
+            },
+            {
+                "version": "0.5.1",
+                "change_log": "v0.5.1 Release notes\n\nBug Fixes:\n\n- Record Case: Potential fix for issue with permissions resulting in empty record case"
+            },
+            {
+                "version": "0.5.0",
+                "change_log": "This update adds support for passthrough to the app.\nTo enable it, simple select the Mixed Reality environment from the main menu."
+            },
+            {
+                "version": "0.4.1",
+                "change_log": "Ported several improvements and bug fixes from the PC version\n\nNew Features and Improvements:\n- Turntable: Attach records when thrown onto turntable platter\n- Performance: Several minor performance improvements\n\nBug Fixes:\n- Turntable: Fixed record playback stopping when another record touches the needle\n- Turntable: Fixed tonearm falling through tonearm rest when dropped"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

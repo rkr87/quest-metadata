@@ -79,6 +79,24 @@
             "logo_transparent": "38984472_1461502467550355_339520425656839199_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "0.2.106",
+                "change_log": "- Added more sensitivity levels to joysticks/thumbsticks (2.5, 3.0, 5.0)\n\n- Adjusted network error panel visual\n\n- Fixed issue where network error could show twice if seen in during start-up\n- Fixed typo in legacy odd job description\n- Fixed issue where handbrake and thumstick sens settings affected each other\n- Fixed cases where proc gen crate spawns could be undockable"
+            },
+            {
+                "version": "0.2.105",
+                "change_log": "Bug-Fixes (1.20.7)\n- Fixed issue where leaderboard icons might not be correct\n- Fixed issue with Nuke Crates breaking when loading certain levels via the unlocks menu\n- Fixed menu panel for showing up for a single-frame in front of the player\n- Fixed holographic joysticks not showing up in Controls101\n- Fixed frame-hitch which could happen after loading into a level\n\n- Updated Unity Engine version *(should bring perf improvements, but let us know if you experience any new issues)*\n- Updated Meta Quest plugin and incremented Target Android API level for Meta Quest compliance\n- Updated PlayFab plguin\n- Updated Sirenix plugin"
+            },
+            {
+                "version": "0.2.92",
+                "change_log": "- Added: New Race Map \"SAKUZA\"\n\n- Fixed: Progress blocking issue in Rock Lobster\n- Fixed: Holographic shader (Air Fresheners) not rendering correctly on Quest devices "
+            },
+            {
+                "version": "0.2.90",
+                "change_log": "Unlockables Update!\n- Added \"Unlockables\" - These are a handful of collectible-cockpit-accessories, such as air fresheners:\n- Added \"Unlock Detector\" instrument. This should be available to equip for anyone who has completed \"induction week\"\n- Added \"pointing zones\" to panels to improve push button interactivity\n- Added setting to toggle the \"CRT effect\" on the various cockpit displays (found in \"General Settings\")\n- Added spectator camera preview screen to \"General Settings\"\n\n- Adjusted weekly levels crate maximum from 7 to 4\n- Adjusted default radar \"zoom\" to be more zoomed in\n- Adjusted some level geo in Leyline\n- Adjusted level ordering in \"Advanced Tasking\" to have Rock Lobster come first\n\n- Fixed nuke countdown UI flashing after the nuke has been jettisoned\n- Fixed various minor bugs and visual issues"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

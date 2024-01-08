@@ -87,6 +87,40 @@
             "logo_transparent": "11162698_773340442829737_3631242802630754304_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.7",
+                "change_log": "Reverted to previous version to solve black screen on GearVR."
+            },
+            {
+                "version": "1.4.3",
+                "change_log": "Removed mouse control."
+            },
+            {
+                "version": "1.3.7",
+                "change_log": "Fixed permissions."
+            },
+            {
+                "version": "1.3.6",
+                "change_log": "Remove persistent data"
+            },
+            {
+                "version": "1.1.4",
+                "change_log": "Added error when video playback fails."
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "Fixed memory leak while downloading media."
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "Added custom timeout for download requests"
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "Added error message if no internet is detected or if the device doesn't have enough storage space to install.\r\nFixed error downloading movie on some devices.\r\nFixed reserved back button actions."
+            }
+        ],
         "keywords": [
             "volumetric",
             "cyberwar",

@@ -103,6 +103,20 @@
                 "short_description": "City walk through Tech City mainstreet and beyond."
             }
         ],
+        "changelog": [
+            {
+                "version": "27",
+                "change_log": "Revised main scene loader after 6-second timed splash to eliminate likelihood of crash."
+            },
+            {
+                "version": "26",
+                "change_log": "User prompt screen on launch removed. Application now goes straight to timed splash screen, then main scene after 6 seconds"
+            },
+            {
+                "version": "25",
+                "change_log": "x86 support removed as necessary."
+            }
+        ],
         "keywords": [
             "Samsung",
             "products",

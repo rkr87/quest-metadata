@@ -92,6 +92,48 @@
             "logo_transparent": "38974488_389677711628353_61182384657137664_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "•\tCrimson Fang and Magician added to MR Fights\n•\tAll MR opponents accessible from the start\n•\tReflex Alley mode added to MR training\n•\tImprovements to Focus Mitts Timed mode sequences\n•\tImprovements to Heavy Bag Timed mode target spawning\n•\tImproved aspects of Showtime fight\n•\tNew MR related audio cues\n•\tVisual updates to Crimson Fang model\n•\tOther minor bugs/issues addressed  "
+            },
+            {
+                "version": "1.0",
+                "change_log": "* Additional fix to ensure your achievements sync with the network, particularly for when you're disconnected from wi-fi when they were earned"
+            },
+            {
+                "version": "1.0",
+                "change_log": "* Fixed issue that prevented achievements from registering with Oculus\n* Fixed issue that prevented leaderboards from loading or registering with Oculus"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Knockout League Change Log\n* Adjusted tutorial positioning and added ability to skip tutorial steps\n* Increased timing window for a strong block\n* Adjusted many fighter attack hitboxes\n* Adjusted the interrupt windows for a few moves across the roster\n* Added a feature to assist in player punches reaching opponents\n* Round length increased to 8 minutes\n* Texture quality improvements\n* Various other minor fixes"
+            },
+            {
+                "version": "1.0",
+                "change_log": "PATCH 3 RC 1: Potential fix for Tri-Tip freezing on new installs: \"Moving right jab inactive anim notify further from danger area so that it triggers more reliably.  possible fix for tri tip fight hanging \""
+            },
+            {
+                "version": "1.0",
+                "change_log": "PATCH 2 RC 3: Fixed a bug where captions continued to play after backing out from Focus Mitts. Fixed a typo in drill 3 and a missing caption when starting timed mode. Incremented store version to 33"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Patch 1 RC 3: -Captions system: The user can now turn on English captions for the tutorial and cinematic. Captions are turned on by default. -Tutorial improvements: Doug's pads now flash green when he holds them up during the tutorial, which should clarify what the player is supposed to do after dodging or blocking"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Release candidate 2: Updated the credits to include everyone that worked on the Quest version"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Release candidate 1: Optimized a rare particle that can play when hitting two incorrect portals in a row during the magician's fight, fixed OKL-137, reverted lighting changes in the Stadium that caused OKL-132, updated PSO cache to include Magician optimizations"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Fixes for OKL-73/76/69, fixed weird inconsistancies with Octopunch's camo in grudge match, fixed a bug with the wrong hit effect being played when hitting Showtime under the right circumstances, raised Showtime up a bit so his stuff doesn't clip into the floor during his knockout, fixed a bug where the golden glove materials don't change fast enough when in the zone"
+            }
+        ],
         "keywords": [
             "Fighting",
             "Fitness",

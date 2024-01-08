@@ -66,7 +66,7 @@
             },
             {
                 "rating": 4,
-                "votes": 21
+                "votes": 22
             },
             {
                 "rating": 5,
@@ -244,6 +244,44 @@
                 "short_description": "Spüre das Gewicht der Klinge in deinen Händen und erlebe den befriedigenden Widerstand, wenn du durch die Früchte schneidest und saftige Explosionen und bunte Spritzer erzeugst.\n \n• Die Modi \"Classic\", \"Arcade\" und \"Zen\" sind zurück und saftiger denn je!\n• Benutze den Bogen, um eine ganz neue Technik zum Durchstechen von Früchten zu erlernen \n• Der rasante Rhythmusmodus fordert dich heraus, mit der Musik Schritt zu halten\n• Teste deine Fähigkeiten gegen andere Ninjas!"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.10.2.684509",
+                "change_log": "Hot Fix\n- Fixed a crash when joining multiplayer after ignoring/permanently denying the microphone permission request "
+            },
+            {
+                "version": "1.10.2.684243",
+                "change_log": "Tutorial Changes\n- Changed the position and timing of some tutorial steps\n- Changed the way some mechanics are introduced to the player\n- Added some gameplay opportunities during the tutorial\n\nQuick Play\n- Added a new Quick Play menu that will appear whenever leaving the Dojo\n- Added the ability to quickly teleport to any gameplay area in the game through Quick Play\n- Added the ability to skip the outside tutorial by instantly teleporting to the game mode chosen in the Dojo tutorial\n- Added a home button to the Ninja Scroll's Home Screen to quickly access the Quick Play menu \n\nGeneral\n- Set the initial load position whenever loading up the game to inside the Dojo\n- Made the back door in the Archery Area openable\n- Improved performance while the Ninja Scroll is open\n- Improved performance during Wave Master and Chaos Mode"
+            },
+            {
+                "version": "1.10.1.681486",
+                "change_log": "Build Info:\nStream: //Game_FruitNinjaVR2/FNVR2_Release_1.10.1\nChangelist: 681486\nVersion: 1.10.1.681486\nTriggered By: Dimitri\nTeamCity: https://build.5e-1.net/viewLog.html?buildId=394763\nRelease Notes: 1.10.1.2 Fix to soflt lock happenning when OS is in an unsuported language"
+            },
+            {
+                "version": "1.10.1.680210",
+                "change_log": "1.10.1 Patch Notes\nNew Mission System\nReworked the mission system structure to give more direction and better rewards\nRevamped the mission panel UI\nAdded over forty new missions \n\nAny Weapon Any Mode\nAdded the ability to bring any combination of weapons into any game mode\nAdded indicators to all leaderboard scores to display what weapons were used to set them\n\nNew Weapons\nExtended the racks in the Dojo to hold the new weapons\nAdded two new sais  (Holy Sia and Crescent Sai)\nAdded three new blades (Butterfly Blade, Legendary Blade and Sun Blade)\nAdded a new bow (Butterfly Bow)\nAdded a new crossbow (Cookie Crossbow)\n\nNew Skybox\nAdded a new skybox with more land features to showcase the world of Fruitasia  \n\nBug Fixes\nFixed an issue with the skeet shooting minigame on the Archery Path\nFixed an issue with the golden fruits on the Archery Path\nFixed a hand rotation issue with the bow\nFixed issues with the leaderboard top 50 animation\nFixed visual issues with environment loading"
+            },
+            {
+                "version": "1.10.0.670564",
+                "change_log": "Build Info:\nStream: //Game_FruitNinjaVR2/FNVR2_Release_1.10.0\nChangelist: 670564\nVersion: 1.10.0.670564\nTriggered By: dgavotto\nTeamCity: https://build.5e-1.net/viewLog.html?buildId=369565\nRelease Notes: Release candidate Quest 1.10.0.1"
+            },
+            {
+                "version": "1.10.0.670213",
+                "change_log": "1.10.0 Patch Notes\nAdded the new crossbow weapon \nAdded one collectable crossbow skin (more on the way!)\nAdded crossbows to the dojo\nAdded a new armory tab for crossbows\nAdded crossbow spawners around the world\nAdded a new crossbow area that branches off the archery path\nAdded new golden fruit to find within the area\nAdded the new area and teleport location to the map \nAdded three new crossbow game modes to the new area\nAdded new leaderboards for each game mode\nAdded new missions and achievements for each game mode\nAdded a new screen to the end of all blade/bow challenge levels that will display the Top 50 scores of that level\nAdded an animated sequence for any new scores that progress into the Top 50\nReworked the tutorial to allow new players access to the new crossbow area without needing to select the archery path\nReworked the inventory display on the Ninja Scroll’s home panel\nReplaced armory tab names with relevant sprites\nRebalanced ambient audio around the entire game\nRebalanced audio during gameplay\nFixed a critical issue where fruit could sometimes fall under the map and could cause games to last indefinitely\nFixed an issue that reset the movement setting for players that use Smooth locomotion whenever they entered the Social Hub\nFixed an issue where slicing a bomb in Classic would cause a 0 to appear\nFixed an issue that caused Z-fighting on the Ninja Scroll while in the Dojo"
+            },
+            {
+                "version": "1.9.3.655090",
+                "change_log": "Added in face and skin character customisation options.  \t\nOutfit customisation improvements\nAdded in helpful indicators for various tutorial steps\nAdded in Public and Private Lobbies feature\nAdded invite your friend to lobby feature\nAdded Korean language option\nAdded Chinese language option\nAdded in feature request for offscreen fruit and bomb indicators in gameplay\t\nFixed various Multiplayer bugs and improvements"
+            },
+            {
+                "version": "1.9.1.642441",
+                "change_log": "Build Info:\nStream: //Game_FruitNinjaVR2/FNVR2_Release_Quest_1.9.1_GlobalTesterBuild_03_03_2023\nChangelist: 642441\nVersion: 1.9.1.642441\nTriggered By: Dimitri\nTeamCity: https://build.5e-1.net/viewLog.html?buildId=326768\nRelease Notes: Fruit Ninja VR 2 1.9.1.642441\nGlobalTester build 03_03_2023 v1"
+            },
+            {
+                "version": "1.9.1.641096",
+                "change_log": "Build Info:\nStream: //Game_FruitNinjaVR2/FNVR2_Release_Quest_1.9.1_GlobalTesterBuild_27_02_2023\nChangelist: 641096\nVersion: 1.9.1.641096\nTriggered By: Dimitri\nTeamCity: https://build.5e-1.net/viewLog.html?buildId=325776\nRelease Notes: Fruit Ninja VR 2 1.9.1.641096\nBuild  for  Global Tester 27_02_2023 v1"
+            }
+        ],
         "keywords": [
             "Simulation",
             "Action",
@@ -254,8 +292,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 116,
-        "rating": 4.103448,
+        "votes": 117,
+        "rating": 4.102564,
         "weighted_rating": 3.98,
         "is_available": true,
         "is_free": false

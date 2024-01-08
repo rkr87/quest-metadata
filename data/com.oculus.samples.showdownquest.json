@@ -82,6 +82,12 @@
             "logo_transparent": "38974504_511145177043293_5207888123808704159_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1",
+                "change_log": "Added Eye Tracked Foveated Rendering (ETFR) option accessible from the debug menu. Press B to open the menu, grip trigger to move down to Foveation Method, then press A to toggle on ETFR. Note that enabling ETFR disables the tonemap subpass as the two features aren't yet fully compatible. This will result in the scene appearing much darker when ETFR is initially turned on. "
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

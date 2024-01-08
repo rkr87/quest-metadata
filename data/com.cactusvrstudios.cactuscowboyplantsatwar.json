@@ -88,6 +88,68 @@
             "logo_transparent": "38982658_995275001363650_8143173929861111602_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.2.6",
+                "change_log": "Fix: Bug that made the hand menu unusable\n\nAdd: Quest 3 support\n+higher render res\n+more enviroment details\n+MSAA increaded to 4x"
+            },
+            {
+                "version": "1.2.5",
+                "change_log": "Hot Fix for game breaking bugs in Chapter 6.\n\nNote: bHaptics support is currently deactivated due to Android version issues."
+            },
+            {
+                "version": "1.2.4",
+                "change_log": "+ FIX Game breaking bug in CH02 Lev03\n+ Updated SDKs versions\n+ FIX 90hz support on quest 2\n+ Attempt fix bHaptics support\n+ Add: Hint about next Cactus Cowboy game coming"
+            },
+            {
+                "version": "1.2.3",
+                "change_log": "Minor Bug fixes."
+            },
+            {
+                "version": "1.2.2",
+                "change_log": "Minor fixes: Graphical glitches, startup sequence fix. mp40 mesh fix"
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "QOL Update\n\nAdd:\n* Sticky Hands option\n\nFix:\n* Gun gabbing fix\n* Auto recenter on loading\n* Auto recenter on menu\n* Auto recenter for intro/outro/credits\n* Fix floating objects in Lev 2-2\n* Fix floating objects in Lev 2-5"
+            },
+            {
+                "version": "1.2",
+                "change_log": "* Graphics Update all levels\n* New lighting\n* New main menu\n* New hand menu\n* Recoil improved\n* Pause function\n* MP40 muzzle flash fix\n* NPC talk fix\n* Stronger zoom on Sniper scope\n* Sniper mission easier\n* Left hand fix for two handed weapons"
+            },
+            {
+                "version": "1.1a",
+                "change_log": "New Stuff!\n-Supporters DLC added\n\nYou can now support this free game and get a horde mode. Defend the civilians in a small village from the vicious waves of enemies!\n\nMake use of your collected Medal of Cactus from the main story. The more you find the more companions you get in the Horde Mode!\n\n\n\nBugfixes:\n-Fix Recoil bug\n-Fix critical game crash in Lev 21\n-Fix game crash when dogs attack npc\n-Some ammo boxes couldn't get picked up\n-Fix main menu trigger reload option\n-Fix hand menu not displaying the current settings on some occasions"
+            },
+            {
+                "version": "1.1",
+                "change_log": "New Stuff!\n-Supporters DLC added\n\nYou can now support this free game and get a horde mode. Defend the civilians in a small village from the visious waves of enemies!\n\nMake use of your collected Medal of Cactus from the main story. The more you find the more companions you get in the Horde Mode! \n\n\n\nBugfixes:\n-Fix Recoil bug\n-Fix critical game crash in Lev 21\n-Fix game crash when dogs attack npc\n-Some ammo boxes couldn't get picked up\n-Fix main menu trigger reload option\n-Fix hand menu not displaying the current settings on some occasions"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "Added: Trigger Reload (Using the trigger button instead of grip, optional)\nMinor occlusion fixes.\nMinor gameplay fixes."
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "Fixes: \nGame breaking bug (Thanks John)\nImproved: Deathzones better player check"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "Fixed: \nOcclusion in indoor levels\nEaster Egg now working\nImprovement:\nVarious performance fixes\nEasier mode now a bit easier\nVarious:\nCode consolidation with PC Version"
+            },
+            {
+                "version": "1.0",
+                "change_log": "FinalReleaseHotFix:\nFlamethrower Ammobox Gltich fix\nCounter death dispite successful ending lev34\nEnemy AI Coverspot fixes in Lev10\nMisaligned Objects  fixed\nIntro, Outro, Lev 13, Lev00a  Occlusion fix\nRework Save/Load Floppy\nJump sound less loud\nLev18 Trucks were visible prior attack\nLev28 more enemies during mission"
+            },
+            {
+                "version": "0.99.99",
+                "change_log": "Day1 Patch:\nBetter left handed support\nHand Menu fix\nAudio Mixing\nMinor Balancing fixes\nMax Ammo\nFlamethrower fix\nFinal Boss init loading fix\nGranade Holsters now visible\nHandmenu: Diffculty wasn't set correctly\nMaster Volume in Main Menu\nHandmenu can be operated by trigger button\nSome Enemies couldn't be punched\nFlamethrower had no bhaptics\nMedal of Cactus added"
+            },
+            {
+                "version": "0.99.9",
+                "change_log": "Initial Release."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

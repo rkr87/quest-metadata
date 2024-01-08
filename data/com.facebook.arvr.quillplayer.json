@@ -82,6 +82,52 @@
             "logo_transparent": "38984455_2474447646210412_462888090281705472_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.6.7 10-28-2022 (D40157686) : vr_only",
+                "change_log": "- Redirect to Meta Quest TV on back / home button press\n- Prevent missing audio / rendering freeze system issue\n- Introduces a brief loading indicator before redirecting to Meta Quest TV for browsing VR Animations to avoid some system bugs "
+            },
+            {
+                "version": "1.6.5 07-11-2022 (D36424211) : vr_only",
+                "change_log": "- Fix for file cache not being cleared\n- More bug fixes\n"
+            },
+            {
+                "version": "1.6.4 05-10-2021 (D28338921) : vr_only",
+                "change_log": "Fixed rendering issues."
+            },
+            {
+                "version": "1.6.2 03-19-2021 (D27210257) : vr_only",
+                "change_log": "Fix crash on quit."
+            },
+            {
+                "version": "1.6.1 03-09-2021 (D26927164) : vr_only",
+                "change_log": "Fix JNI crash"
+            },
+            {
+                "version": "1.5.2(rollback) 03-09-2020 (D25129479) : vr_only",
+                "change_log": "Roll back to 1.5.2"
+            },
+            {
+                "version": "1.6.0 03-03-2021 (D26767664) : vr_only",
+                "change_log": "- New localization text rendering\n- Add loop key support\n- Add spawn area default key support\n- Fix audio within span playback issue"
+            },
+            {
+                "version": "1.5.2 11-20-2020 (D25129479) : vr_only",
+                "change_log": "Updated audio engine to 1.10.4\nFixed rendering difference in pretesselated vs static\nFixed individual creators metadata"
+            },
+            {
+                "version": "1.5.0 11-06-2020 (D24787659) : vr_only",
+                "change_log": "Fixed crash exiting without loading a document"
+            },
+            {
+                "version": "1.4.9 11-05-2020 (D24772979) : vr_only",
+                "change_log": "Fixed crash quitting the app during the loading/decoding phase"
+            },
+            {
+                "version": "1.4.8 11-03-2020 (D24710399) : vr_only",
+                "change_log": "Fixed crash using up/next after having changed to a viewpoint index that does not exist in the next file"
+            }
+        ],
         "keywords": [
             "quill",
             "art",

@@ -88,6 +88,12 @@
             "logo_transparent": "39035400_177793947448844_2078192029174152097_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "v0.4.8",
+                "change_log": "New Locomotion\nA lot of people kept asking us for different movement methods in OceanCraft\nfinally the waiting has an end!\n\nYou can now choose between different movement and rotations options:\nSmooth locomotion, smooth rotation, snap rotation, teleport with snap turning\n\nAdditionally we added a dominant hand feature - because you can't always be right...\n\n\nThe Dolphin\n\nThis cute buddy helps you through your first steps in the world of OceanCraft and tells you how to move and how to use the hook.\n\nAdditionally we introduced Tasks/Missions to guide through most of the possibilities you already have within OceanCraft - they are optional ... so ignorance is ok, too!\n\n\n\nNew Stuff in version 0.4.x\n--------------------------\n+ Added new Locomotion methods: Smooth locomotion, smooth rotation, snap rotation, teleport with snap turning\n+ Added dominant hand features\n+ Added tutorial buddy \"the dolphin\"\n+ Changed tutorial system to tasks\n+ New Tool selection - circular menu when holding button\n+ New Tool selection - quick change to hand and last tool when short pressing button\n+ Removed special tool slots in inventory\n+ New Missions / Tasks / Tutorials in menu\n+ Reworked Menu UI\n+ Improved placement behaviour (specially for stairs)\n+ Added sounds to grill and purifier\n+ Changed Input System / Improvements for Knuckles users\n\nFixes\n--------------------------\n+ Fixed issue #27 \"Duplication Glitch\"\n+ Fixed issue #22 - Wood in water purifier renewed after re-building\n+ Fixed issue #23 \"Water boiling (again)\"\n+ Fixed issue #26 \"I copied someone's island\"\n+ Fixed issue where destroyed stairs did not return box\n+ Fixed issue where item rested on crate instead of getting into\n+ Fixed hook speed differences on different platforms\n+ Fixed some networking problems.. now: less disconnects\n+ Fixed default selected region"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

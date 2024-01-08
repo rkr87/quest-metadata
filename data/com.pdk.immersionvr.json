@@ -83,6 +83,40 @@
             "logo_transparent": "11162675_1296328123819610_3950946866631278592_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.0",
+                "change_log": "* Allow file browser access to Oculus GO top level internal storage\n* Minor bug fixes"
+            },
+            {
+                "version": "2.0",
+                "change_log": "* Specular highlights on controller\n* Single page viewing for Comics and PDF\n* Reduced footprint\n* Modified controller pointer\n* Improved theme selection highlights and movement\n* Enable debugging logs"
+            },
+            {
+                "version": "2.0",
+                "change_log": "* Support for kindle formats AZW3 and MOBI\n* Double page PDF book viewing\n* Double page TXT book viewing\n* Full support for controllers and gaze (selectable)\n* New control panel UI\n* Higher resolution environments\n* Multiple new reading environments\n* New Void theme\n* New paging controls \n* New library generation splash\n* New startup instructions panel\n* New PDF document zoom resolution feature\n* Improved music player - album cover display\n* New quick import setting"
+            },
+            {
+                "version": "1.2",
+                "change_log": "* Major memory improvements\r\n* Reduced storage requirements\r\n* Library handling changes\r\n* Large import issues resolved\r\n* Large audiobook issue fixed\r\n* Added Maldives theme\r\n* Removed Mua Mountain theme\r\n* Use of asset bundles instead of resources\r\n* Localization implemented for Chinese and Japanese languages\r\n* Timed gaze on TOC * Minor bug fixes"
+            },
+            {
+                "version": "1.2",
+                "change_log": "* New splash screen * New UI design * New curved reading canvas for comics * Support for webP images within CBR/CBZ * Support for PDF books * Support for PDF bookmarks * Fixes for different media zoom * Updated mp3 tag handling for AudioBooks * Audiobook cover extraction from mp3 added * Moved Audio control to reader * Oculus GO Support for 72hz resolution based on current process * Oculus GO disabled Adaptive Resolution * Performance enhancements for visual quality * New controller functionality * Modified zoom and recline controllers * Provide browsing access to external SD storage * Floating audio player available in all views * Music player power off added * Removal of background audio customisation * Removal of alarm functionality * Comic titles now displayed in library upon selection * Improved control speeds * New theme selection scene * Highlighted current theme * Added 15 new themes and audio * Additional controller functionality * Moved library closer to user * Changed font sizes in browsers to all be 4 * Changed details in browser to be black and highlighted in blue (green was hard to read) * Fix for switch SD to cater for all browsers * Unity 2018.1.7 * OVR Utilities 1.24 * Removed hidden directories from browser details * Merged VR/PC browser methods * Modification on handling of invalid comics * Floating help * Remove monitoring"
+            },
+            {
+                "version": "1.0",
+                "change_log": "*Support for the Gear VR Controller - all gaze based functionality still remains \r\n*The ability for the user to customize their environments dynamically *The addition of a time-based alarm notification alert \r\n*Additional status information related to the import of books, themes and/or audio\r\n*A fix for a shadow artefact that appeared in the library as well as minor cosmetic adjustments\r\n*Updated user documentation"
+            },
+            {
+                "version": "1.0",
+                "change_log": "*Added OVR Platform Menu script to cater for short press on HDR back button *Fixed entitlement check to reduce time error msg displayed to ensure application quits prior to loading main scene"
+            },
+            {
+                "version": "1.0",
+                "change_log": "*Minor changes to sample epubs *Release version"
+            }
+        ],
         "keywords": [
             "reading",
             "book",

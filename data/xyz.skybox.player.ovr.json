@@ -78,7 +78,7 @@
             },
             {
                 "rating": 5,
-                "votes": 5692
+                "votes": 5693
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -103,6 +103,60 @@
             "logo_transparent": "38974460_2224950814210348_4935328503013834752_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.6",
+                "change_log": "* Added multi-language keyboard\n* Supported deleting files over SMB\n* Supported .MPO, .WEBP and .JPS image format\n* Supported auto-detecting Full SBS format using file name\n* Supported adding Network & YouTube videos to Favorites\n* Supported casting videos to headset\n* Fix some bugs"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "[Bug Fix] Wrong texture format with Pro-HD function\n[Bug Fix] Secondary account stuck at loading screen"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "fix airscreen channel files not displayed"
+            },
+            {
+                "version": "1.1.4-quest1",
+                "change_log": "v1.1.4 customized for Quest 1"
+            },
+            {
+                "version": "1.1.4",
+                "change_log": "Quest v1.1.4\n- Supported Passthrough function\n- Supported image format\n- Supported 190° fisheye format\n- Turn on/off network viewing history\n- Optimized controllers & hand tracking function\n- Optimized dynamic lighting"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "log toggle"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "修复崩溃"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "Bug fix: 进入空文件夹返回上一级不记住浏览位置；截图逻辑"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug Fixed: Can't connect to Emby Server"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "解决了dlna切文件夹偶尔崩溃的问题"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug Fixed: 停留在 DLNA 文件路径页面时无法播放历史记录里带密码的SMB视频"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug Fixed: Hidden files not hidden"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Fix bug: folders cannot be sorted by time"
+            }
+        ],
         "keywords": [
             "Player",
             "Movie",
@@ -113,8 +167,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 7632,
-        "rating": 4.473532,
+        "votes": 7633,
+        "rating": 4.473601,
         "weighted_rating": 4.46,
         "is_available": true,
         "is_free": false

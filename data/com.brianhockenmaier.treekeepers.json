@@ -86,6 +86,72 @@
             "logo_transparent": "75282167_788584089144108_6670727130636719709_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.2.04",
+                "change_log": "Treekeepers Graphics Update 1.2.04!\n\nNew!\nEnhanced shadows for most objects (using AI-generated bump maps)\nTexture tile randomizer (medium graphics quality and up)\nSunset and Sunrise lighting color effects\n\n\nFixed:\nMusic tracks incorrectly updating at night"
+            },
+            {
+                "version": "1.2.01",
+                "change_log": "1.2.01:\nFixes: \nFixed teleport ray material glitch\nFixed issue with upgrade bubbles spawning way too high\n\nChanges:\nChanged how teleport works (body to teleport point instead of playspace center to teleport point)\nMoved tutorial to world select"
+            },
+            {
+                "version": "1.2",
+                "change_log": "1.2:\nFeatures:\nNew enemy spawning logic\nPower, metal, and energy upgrades for the engine station\nNew health spawns around each world\nSmall world improvements/updates\n\nFixes:\nUpgrade presents always spawn in line of site\nMinor network fixes"
+            },
+            {
+                "version": "1.1",
+                "change_log": "1.1:\nFeatures:\nA full new world, more that doubling the amount of treekeeping to do featuring:\n\t-New physics-based objectives\n\t-New music and effects\n\t-More game attributes changed by the dynamic difficulty system\n\t-Beautiful new scenery and hand-crafted artwork.\nA new high score system!\n\nFixes:\nSeveral performance improvements for Quest\nSeveral network fixes and netcode improvements"
+            },
+            {
+                "version": "1.0.11",
+                "change_log": "1.0.11\nFeatures:\nAdded more objects to the world for visual interest and cover from enemies\nAdded a smooth/continuous locomotion option to the main settings and watch settings\n\nFixes:\nFixed an issue where some headsets had the wrong saved floor height adjustment, and added a readout in the settings menu to see it"
+            },
+            {
+                "version": "1.0.10",
+                "change_log": "1.0.10: Fixed Watch Menu UI issue"
+            },
+            {
+                "version": "1.0.09",
+                "change_log": "1.0.09: Locks all users to the USW region and adds a connecting status spinner."
+            },
+            {
+                "version": "1.0.08",
+                "change_log": "1.0.08\nFeatures:\nAdded support for more interaction profiles (Windows MR package install, added windows motion controller and khronos simple controller interaction profiles to OpenXR)"
+            },
+            {
+                "version": "1.0.07",
+                "change_log": "1.0.07\nFeatures: \nAdded a wind effect to blow players off the top of the Ferris wheel when the objective is done\n\nFixes: \nFixed some objective spawn issues\nFixed issue where “trap” objectives were not properly triggered by ship crush kills\nFixed issue where “trap” objectives could remain permanently closed\nAdded failsafe code for “trap” objectives to undo after set period of time\nFixed issue with hands sometimes not showing on SteamVR"
+            },
+            {
+                "version": "1.0.05",
+                "change_log": "1.0.05\nFeatures:\nNew Difficulty Calc\n\nFixes\nSome rendering issues on second stage\nEnemy crushing was not registering enemy spawner countdowns"
+            },
+            {
+                "version": "1.0.04",
+                "change_log": "1.0.04\nNew features:\nAbility to leave a review, End of game voice and music fade"
+            },
+            {
+                "version": "1.0.03",
+                "change_log": "Version 1.0.02 &1.0.03\n\nFixes\nFix for network sync of ridable object states\nMobile-performant shader for transparent ship windows to improve performance looking down"
+            },
+            {
+                "version": "1.0.01",
+                "change_log": "Version 1.0.01\n\nNew features:\nRefined Difficulty System\nNew helpful voice lines\nCompass on ground & Ship tweaks\n\nFixes:\nFixed network issues related to health and upgrades not clearing when leaving a game"
+            },
+            {
+                "version": "0.1.88",
+                "change_log": "Version 0.1.88\n\nNew features:\nAbility to quit from a game with a room full of people\nNew tutorial items and explanatory voice lines\nRefined enemy behavior\n\nFixes:\nNetwork issues and menu bugs when quitting from a game\nSome objective not triggering issues"
+            },
+            {
+                "version": "0.1.87",
+                "change_log": "AppLab VRC fix:  Added check for internet connectivity"
+            },
+            {
+                "version": "0.1.85",
+                "change_log": "Verson 0.1.85 is a bugfix release.  Fixes include network session continuity, performance, and disabling some features on mobile."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

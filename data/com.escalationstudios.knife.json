@@ -87,6 +87,40 @@
             "logo_transparent": "12138838_591335127709795_1472151674_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.1",
+                "change_log": "Fixed an issue with max level characters\r\nOther UI bugfixes"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "Added weekly leaderboards\nAdded levels 21-100\nBugfixes"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "* Fixed some UI and audio issues\r\n* Fixed an issue involving reviving other players\r\n* Fixed some joining and leaving game issues\r\n* UI bugfixes and improvements"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "* Initial Public Release"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "Rev 3233\r\n\r\nFixed selections not showing up in player customization\r\n........\r\nRemoved heart containers from title screen\r\n........\r\nMoved Spirit Power Ready icon closer to the camera and lower on the screen; hopefully this fixes image convergence problem\r\n........\r\nRemoved heart related code from title player display\r\n........\r\nremoving gems from player during loss screen \r\n\r\n\r\n\r\n\r\nissue 30689\r\n........\r\n\r\n\r\n\r\n\r\n........\r\nadding oculus sig files for escalation device ID 10692\r\n........\r\nEliminating unused variables from ReviveTrigger\r\n........\r\nEnabling Input until the \"get up\" animation is completed\r\n........\r\nLikely fix for revive heart not going away (no repro for the issue)\r\n\r\n\r\n\r\n\r\nissue 30701\r\n........\r\nSaftey check added\r\n........\r\n- Sending the HealthChanged event to all peers instead of only to the peer that's getting hurt, so that they all update their health correctly.\r\n- Re-enabling the RemotePlayerCharacter's HealthBar when he gets revived.\r\n- Re-enabling the RemotePlayerCharacter's collider when he gets revived.\r\n- Displaying the RemotePlayerCharacter's HealthBar when his health is set.\r\n........\r\nDLL's for \"Sending the HealthChanged event to all peers\".\r\n........\r\nFixed invisible collision on Earth 4. \r\n........\r\nDisabling Spirit Powers when the UIInGameMenu is visible or hiding."
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "Rev 3215\r\nhopefull fix for gems attracting to player when they shouldn't be\r\n\r\nissue 30539\r\n........\r\nCustomization scene says \"No Hat\" in selections and top menu\r\n........\r\nFixed bug that prevented VoIP from working.\r\n........"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "Rev 3202\r\n- Adjusted spirit meter position\r\n- adjusted lighting on player off screen indicators \r\n- adjusted camera in a few places\r\n- fixed gem count not resetting correctly"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "multiplayer",
             "coop",

@@ -96,6 +96,20 @@
             "logo_transparent": "38982513_811605122653134_1317681359229026304_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0-55578",
+                "change_log": "- Fix for defeating the Forest boss achievement not consistently unlocking.\n- Add delay before enemies start attacking when restarting from the checkpoint during the Forest cabin fight.\n- Fix an issue causing the lighter to be out of reach on the death screen in some cases"
+            },
+            {
+                "version": "1.0-55566",
+                "change_log": "- Fixed more cases causing the dreaded 'black screen' to occur when it should not have been."
+            },
+            {
+                "version": "1.0-55558",
+                "change_log": "- Changes to reduce frequency of the forced blinks (black screen) when overlapping with geometry or leaving the playspace\n- Fixed a case where height settings would be invalidated when entering the pause menu\n- Tuned the height calibration logic to only apply when player is moving to eliminate the forced adjustments when attempting to crouch or hide behind cover"
+            }
+        ],
         "keywords": [
             "horror",
             "action",

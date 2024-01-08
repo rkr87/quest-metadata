@@ -70,7 +70,7 @@
             },
             {
                 "rating": 5,
-                "votes": 279
+                "votes": 280
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -100,6 +100,24 @@
             "logo_transparent": "39031373_774037394065615_1351122198664781659_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.7.4",
+                "change_log": "- Added day/night cycle (zombies at night are a little stronger)\n- Increased max level cap 50 -> 60\n- Increased zombies level near military base\n- Added new skills, now you can complete skill tree\n- Added more zombie death animations\n- Fixed that bow cannot be used in offhand if in right holster\n- Fixed weapon's magazine disappears after all ammo is fired\n- Reworked molotov, now it deals damage over time"
+            },
+            {
+                "version": "1.5.4",
+                "change_log": "Update 1.5\n\n- New zombie type - Spitter\n- Poisoning system - Spitters can poison you, causing damage over time. You can craft an Antidote to counter the effect\n- Added the Profiles feature: Players now have multiple save slots for different characters with separate progress\n- Added 8 new interiors - we have opened buildings that were already on the map but without the possibility to enter\n- Improved readability of settings by adding dividers with subcategories\n- Improved many hand poses on weapons\n- We made it a little easier to look at holsters when you have full-body enabled\n- Now you can't put Water Canteen in the storage box\n- Fixed a bug where items would disappear after using the \"Put All\" function on the storage box\n- Fixed problem with too many quest items in a backpack\n- Fixed issues with levers in quests\n- Fixed the issue where mines sometimes wouldn't explode"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "We have listened to your feedback and worked tirelessly to bring you some exciting new features.\nThe new update includes:\n\n-Added full-body IK [BETA]\n-Added holsters [BETA]\n-Added realistic reload [BETA]\n-Added airdrop (only on PVP mode)\n-Extraction crate (only on PVP mode)\n-Other minor fixes and improvements\n\nThe first three features are still in the beta phase, so we apologize for all the imperfections. Our goal was to deliver these additions to you within a short period of time while acknowledging that there is still room for refinement. We encourage you to share your thoughts about these new features and suggestions with us. Your feedback will be invaluable in helping us shape the future of Survival Nation."
+            },
+            {
+                "version": "1.3.11",
+                "change_log": "Update v1.3.11\n\n- Added new enemy - Armored zombie\n- Added stash in camp where players can store items\n- Added private rooms\n- Crossplay\n- Added a few safeguards concerning the saving progress\n- Added a new customization panel and the possibility to change appearance after creating the character\n- Added a few interiors\n- Added a few different ambient sounds\n- Added schematics as a reward for Side Activities milestones (players that completed them before receiving all the schematics after updating the app version)\n- Added possibility to fast travel to placed campfire in the world\n- Added microphone icon indicating when a voice is recorded\n- Adjusted animals (spawners, stats, quests with them)\n- Now damaging zombie limbs is less effective than the torso\n- Rebalanced loot on PVP mode\n- Rebalanced water and thirst\n- Added more places where you can find different loot (e.g. near rubbish bins and various crates)\n- Changed how a crawling zombie works and is spawned\n- Decreased the number of zombies that need to be killed on PVP mode at the starting levels and add new starting items\n- Changed places where you can find loot chests on PVP mode\n- Adjusted MainMenu location\n- Rebalanced fishing loot (e.g. now you can get schematics)\n- Reworked Quests and Errands spawners so that they spawn zombies in reasonable areas\n- Fixed problem with breaking eating/drinking mechanic\n- Fixed wrong hand pose on B5 pistol in left-hand mode and on other items\n- Fixed zombie sounds after death\n- Fixed some fishing issues that made it hard to do on pier\n- Other minor fixes and improvements\n"
+            }
+        ],
         "keywords": [
             "RPG",
             "Multiplayer",
@@ -110,8 +128,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 442,
-        "rating": 4.246606,
+        "votes": 443,
+        "rating": 4.248307,
         "weighted_rating": 4.17,
         "is_available": true,
         "is_free": false

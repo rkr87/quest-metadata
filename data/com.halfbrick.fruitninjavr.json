@@ -77,7 +77,7 @@
             },
             {
                 "rating": 5,
-                "votes": 507
+                "votes": 508
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -367,6 +367,24 @@
                 "short_description": "Wejdź do świata Fruit Ninja i doświadcz swojego ulubionego, wypełnionego owocami chaosu jak nigdy dotąd. Zagraj teraz w grę Fruit Ninja!"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.7.1.579464",
+                "change_log": "General improvements"
+            },
+            {
+                "version": "1.7.0.547288",
+                "change_log": "- Fixed bug where some blades would not always unlock\n- Fixed bug where game would be in German by default if the system language was Dutch\n- New in-game HUD indicators to show fruit, bombs and enemy baskets outside of your field of view\n- New achievements menu\n- New visual effect when deflecting bombs\n- More haptic feedback with blades\n- Tweaked blades to have unique speed requirements to slice or push away fruit with different sides of the blade\n- Settings menu improvements:\n    - A-frame indicates how to open settings menu\n    - Settings menu now shows in front of you instead of showing on your hand\n    - Added Time of day settings\n    - Added HUD indicators settings"
+            },
+            {
+                "version": "1.6.1.532762",
+                "change_log": "Improved bomb slicing accuracy and resolved ground collision issues"
+            },
+            {
+                "version": "1.6.1.532689",
+                "change_log": "Improved bomb slicing accuracy"
+            }
+        ],
         "keywords": [
             "fruit",
             "ninja",
@@ -377,9 +395,9 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 988,
-        "rating": 3.977733,
-        "weighted_rating": 3.96,
+        "votes": 989,
+        "rating": 3.978766,
+        "weighted_rating": 3.97,
         "is_available": true,
         "is_free": false
     },

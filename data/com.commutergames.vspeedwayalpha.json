@@ -65,7 +65,7 @@
             },
             {
                 "rating": 5,
-                "votes": 573
+                "votes": 574
             }
         ],
         "comfort": "NOT_RATED",
@@ -90,12 +90,94 @@
             "logo_transparent": "39035370_1603226033368046_6811012790439841152_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.8",
+                "change_log": "- Updated graphics settings for Quest 3 and Quest Pro\n- Increased loading screen resolution"
+            },
+            {
+                "version": "1.1.8",
+                "change_log": "- Updated graphics settings for Quest 3 and Quest Pro\n- Increased loading screen resolution"
+            },
+            {
+                "version": "1.1.8",
+                "change_log": "- Updated graphics settings for Quest 3 and Quest Pro\n- Increased loading screen resolution"
+            },
+            {
+                "version": "1.1.7",
+                "change_log": "- Fixed missing FFR\n- Fixed newsfeed text spacing issue"
+            },
+            {
+                "version": "1.1.6",
+                "change_log": "- Updated welcome page\n- Updated newsfeed server\n- Added Mastodon social link"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "- Updated welcome screen with more recent informations\n- Updated bHaptics SDK\n- Updated certain localization strings\n- Improved car mirrors alignment"
+            },
+            {
+                "version": "1.1.4",
+                "change_log": "- Fixed some connectivity issues\n- Fixed environment popup issue\n- Added option to swap triggers and buttons in Controls page\n- Updated core SDK\n- Updated Discord integration\n- Rebalanced quality settings for better performance\n- Other minor fixes"
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "- Updated game titles translations for asian localization\n- Fixed a minor issue with fonts"
+            },
+            {
+                "version": "1.1.3",
+                "change_log": "- Updated game titles translations for asian localization\n- Fixed a minor issue with fonts"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "- Wrist rings have been replaced with a small tracking dot, only visible while grabbing car controls\n- Added visual and vibration feedback when the controller is too close to the center of the steering wheel\n- UI pointer looks smoother and is more stable\n- Fixed a minor precision issue with the steering wheel\n- Fixed wrong localization for some languages\n- Fixed distance in Miles always being rounded to an integer in the Profile page\n- Other minor fixes"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "- Wrist rings have been replaced with a small tracking dot, only visible while grabbing car controls\n- Added visual and vibration feedback when the controller is too close to the center of the steering wheel\n- UI pointer looks smoother and is more stable\n- Fixed a minor precision issue with the steering wheel\n- Fixed wrong localization for some languages\n- Fixed distance in Miles always being rounded to an integer in the Profile page\n- Other minor fixes"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "- Fixed progress not being saved after changing Meta username\n- Car dashboard language has been reverted to English, to avoid stuttering caused by languages with special characters\n- Fixed minor localization issues\n- Other minor fixes and system updates"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "- Fixed progress not being saved after changing Meta username\n- Car dashboard has been reverted to English, to avoid stuttering when using languages with special characters\n- Fixed minor localization issues\n- Other minor fixes"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "- V-Speedway is now localized in ten languages! You can change language in Settings > General\n- Fixed major issues with Vignette rendering\n- Fixed AI opponents stopping completely after certain collisions\n- Added some AI behavior variation on race starts\n- To keep informations on Downtown Club always updated, these are now provided through a link to the official website\n- Other minor fixes"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "- V-Speedway is now localized in ten languages! You can change language in Settings > General\n- Fixed major issues wigh Vignette rendering\n- To keep informations on Downtown Club always updated, these are now provided through a link to the official website"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "- Fixed slower gear change when using buttons with Manual transmission\n- Fixed car using the wrong paint when selecting Free Ride in certain conditions"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Fixed logic for posting records on Discord\n- Fixed new Supporter Pack paints not awarded when launching the game offline"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Fixed logic for posting records on Discord\n- Fixed new Supporter Pack paints not awarded when launching the game offline"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "- Supporter Pack: Added four new paints\n- Supporter Pack: All Special paints now have recolored interiors\n- Supporter Pack: Added option to choose which type of paint will be used by opponents\n- Added Driving Tips menu page\n- Shifter now moves to the appropriate gear with Automatic transmission, or when changing gears with buttons in Manual transmission\n- Changed online backend, no more limits to number of players that can be registered online\n- Driver name is now linked to Oculus username due to different online backend functionality\n- Leaderboards have been cleared but local records will be posted again as soon as players log in the game\n- Other minor changes and fixes"
+            },
+            {
+                "version": "0.9.9",
+                "change_log": "- The game has been updated to reflect the latest development plans, please check the newsfeed for all the related informations\n- Updated Downtown Club info page\n- Fixed a major AI bug that made opponents often steer abruptly\n- Restored missing gear labels\n- Other minor fixes"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 928,
-        "rating": 4.189655,
+        "votes": 929,
+        "rating": 4.190527,
         "weighted_rating": 4.15,
         "is_available": true,
         "is_free": true

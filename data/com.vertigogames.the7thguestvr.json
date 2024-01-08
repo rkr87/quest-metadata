@@ -70,7 +70,7 @@
             },
             {
                 "rating": 4,
-                "votes": 32
+                "votes": 33
             },
             {
                 "rating": 5,
@@ -103,6 +103,16 @@
             "logo_transparent": "75441579_220525837356557_745306990922904649_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.2.12061",
+                "change_log": "Fixes blocking bug with Workshop Altar puzzle\nFixes incorrect hand offset after use of tiny hat\nFixes two dolls can be placed in one seat in rare conditions\nFixes Heine floating in front of railing\nFixes rare crashes\nFixes pool table puzzle validating before all balls are sunk\nFixes achievement unlock issues"
+            },
+            {
+                "version": "1.1.0.12021",
+                "change_log": "Quest 3 improvements:\n- Higher resolution textures\n- Full group scenes (no fade in/out of characters)\n- Higher Pixel density\n\nBug fixes and improvements:\n- Fixed Achievements \n- Nursery and Temple's Room are stable now\n- A circular indicator appears where to stand to trigger volumetrics\n- Extended finger position for puzzles, to improve puzzle interaction\n- Hands no longer stuck on snapped objects \n- Added tutorial text on the Spirit board, to explain how to use planchette\n- Martine Burden's body now visibly falls down the stairs\n- More natural timing of VO lines for music boxes & Stauf chronicles\n- Lantern can no longer drop out of players hands\n- Added tips for the loading screen\n- Stauf VO on Start menu\n- Height offset for players\n- Adjustable Vignette speed and radius\n- Music boxes keep their level of volume\n- Menu pointer also adheres to dominant hand selection\n- Profile screen shows progression per profile\n- Faster Smooth Rotation setting\n- Subtitles follow camera movement more quickly\n- Music boxes no longer stop playing when you swap it between hands\n- Smaller head collision so it's more unlikely to trigger the \"out of bounds\" message\n- Clearer \"out of bounds\" message, no longer refers to play space\n- Several texture look sharper (saved child painting, cockroach trail)\n- Spirit Board more legible\n- More atmospheric animations and creepy crawlies\n- Additional set dressing\n- Reliable respawning of items"
+            }
+        ],
         "keywords": [
             "Mystery",
             "Puzzle",
@@ -113,8 +123,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 331,
-        "rating": 4.570997,
+        "votes": 332,
+        "rating": 4.569277,
         "weighted_rating": 4.39,
         "is_available": true,
         "is_free": false

@@ -93,6 +93,80 @@
             "logo_transparent": "57569457_336803844634296_3515702120475228237_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.2",
+                "change_log": "Some issues have been fixed where the ball was not being hit or the controller's speed was not being registered in some games."
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "AIO 1.1.1 Update\n■ General\n- Fixed issue when changing events during multiplayer waiting.\n■Table Tennis\n- Fixed issue where the serve wasn't hitting.\n- Added deuce limit (max 15 points).\n■ Tennis\n- Added deuce limit (max 4 times).\n- Fixed issue with ball floating too high.\n- Removed scoring on ground during rallies.\n■ Volleyball\n- Added deuce limit (max 10 points).\n■ Squash\n- Fixed scoring judgment error.\n- Increased speed of Flame item by 1.5x"
+            },
+            {
+                "version": "0.9.7",
+                "change_log": "Notice!\nSeveral issues have occurred since the V_0.9.7 version update. This issue has been resolved since 2023-02-24. Sorry for the inconvenience.\n- Problems not repositioning\n- Controller is not vibrating\n- a problem that sounds strange to the audio\n\nlong time no See! It's been a while since I've had an update.\nThis update has made several UI improvements and leaderboard improvements. There will be a bigger update soon. Please be looking forward for it!\n\nV_0.9.7 Update\n\nCommon\n- New leaderboard (by season, by event)\n- Notice board added\n- Quick Match UI updates in real time\n- Multiplayer voice chat on/off\n- New character decoration items\n- Improved spectators (animations added)\n- Optimized background graphics\n- General system stabilization and performance improvements.\n- Modified leaderboard title name to show the current season.\n\n\nBugfixes\n- Fixed an issue with the serve in Ping Pong.\n- Fixed weak hit in tennis.\n- Fixed black screen issue during game play.\n\n\nBasketball, baseball, tennis, and table tennis have improved physics\n\nServe methods for table tennis and tennis have been added (throw the ball and hit it)\n\nBilliards\n- Fixed an issue where the free ball was not released after a foul (trigger button not working).\n- Fixed glare issue with the ball.\n- Fixed an issue where opponent's character uniform appeared differently in multiplayer.\n\n\nPing Pong\n- Reduced Paddle vibration time.\n- Reduced ball spin effect.\n\n\nCharacter Customization\n- Fixed a problem where the eye color for female characters could not be changed."
+            },
+            {
+                "version": "0.9.7",
+                "change_log": "long time no See! It's been a while since I've had an update.\nThis update has made several UI improvements and leaderboard improvements. There will be a bigger update soon. Please be looking forward for it!\n\nV_0.9.7 Update\n\nCommon\n- New leaderboard (by season, by event)\n- Notice board added\n- Quick Match UI updates in real time\n- Multiplayer voice chat on/off\n- New character decoration items\n- Improved spectators (animations added)\n- Optimized background graphics\n- General system stabilization and performance improvements.\n- Modified leaderboard title name to show the current season.\n\n\nBugfixes\n- Fixed an issue with the serve in Ping Pong.\n- Fixed weak hit in tennis.\n- Fixed black screen issue during game play.\n\n\nBasketball, baseball, tennis, and table tennis have improved physics\n\nServe methods for table tennis and tennis have been added (throw the ball and hit it)\n\nBilliards\n- Fixed an issue where the free ball was not released after a foul (trigger button not working).\n- Fixed glare issue with the ball.\n- Fixed an issue where opponent's character uniform appeared differently in multiplayer.\n\n\nPing Pong\n- Reduced Paddle vibration time.\n- Reduced ball spin effect.\n\n\nCharacter Customization\n- Fixed a problem where the eye color for female characters could not be changed."
+            },
+            {
+                "version": "0.9.3",
+                "change_log": "Hotfix!\n\nThe matchmaking method has been changed\n-Users' inconvenience was reported due to different network delay rates in the 0.9.2 version. Initial matching is matched to the server with the best network communication, but you can switch servers."
+            },
+            {
+                "version": "0.9.2",
+                "change_log": "0.9.2 Version Update!!\n \n\nEnjoy Multi-Play!\n- Improved multi-matching systems. There is no UI to select a server. People from all over the world gather on the most comfortable server.\n- Added boxing multiplayer. Enjoy a fun boxing game with your friends!\n- We fixed the bug that turns the screen white when the opponent's player's match is disconnected in the online match.\n\n \n\nSome improvements\n- Changed the appearance of several accessory items.\n- Improved the part where loading becomes slow due to overload of the leaderboard.\n\n \n\nBowling\n- Fixed a bug that could steal AI's bowling ball in bowling single game mode.\n- Corrected the part where the bowling pin fell intermittently and the score was calculated incorrectly.\n\n \n\nBadminton\n- The part where the score is calculated incorrectly when the shuttlecock is hit under the badminton net has been corrected.\n\n \n\nTennis\n- When the first ball failed, We corrected the part where the score was calculated incorrectly even though I served the second ball properly."
+            },
+            {
+                "version": "0.9.1",
+                "change_log": "Hotfix!\n\nCommon\n- We revised the case where the Result of the game is judged differently if the opponent's connection is cut off when the match is matched by event in the lobby.\n- We revised the case where the actual results of the game are judged differently in several games, including table tennis games. [We added a protective cord]\n- We fixed the bug that turns the screen white when the opponent's player's match is disconnected in the online match.\n\n\nBadminton, Ping-Pong, Tennis\n- Corrections: Players who played table tennis, tennis, and badminton lost points if they didn't hit the ball for 20 seconds.[Time limit] [2 chances in total]\n\n\nBoxing\n- Fixed the problem that the sound volume does not change even if the sound volume is adjusted in boxing."
+            },
+            {
+                "version": "0.9.0",
+                "change_log": "Hotfix!\n\nBoxing\n- The intensity of the controller vibration has been raised.\n- Changed the behavior of AI. (More dynamic steps, weaving, ducking)\n- Added the behavior of AI behavior. Dash or hit additional hits when the player blocks AI attacks."
+            },
+            {
+                "version": "0.9.0",
+                "change_log": "Now!! “ Real Boxing “ mode added !\n\nV_0.9.0 Update\n\nAre you ready to box with the champ?\n“Float like a Butterfly, Sting like a Bee.”\n\nBoxing\n- 5 levels of AI singleplayer are possible.\n- Featuring ultra-realistic motion capture from real boxers.\n- Dynamic boxing combinations are realistically applied.\n- Stay tuned ! multi-play boxing will be updated soon.\n\n\nPing-Pong\n- corrected the situation in which an error occurs when the table tennis ball hits the net."
+            },
+            {
+                "version": "0.8.1",
+                "change_log": "More powerful Ping-Pong physics!\n\nV_0.8.1 Update\n\nPing-Pong\n- Adjust the color saturation of the table tennis table and table tennis floor.\n- Changed to teleport to the same place when AI is too far from the table when a decision is made in singleplayer.\n- Fixed a bug where the ball was judged intermittently when it hit the edge of the table.\n- Added animation of advertisement banner moving when score is changed.\n- Changed so that the spin particles are generated in the direction in which the spin was placed.\n- Changed the rotation direction of spin particles to be derived separately from the reverse and forward directions.\n\n\nBaseball\n- Fixed hit-related physics.\n- Pitching related physics have been modified so that the ball can be thrown into the strike zone better.\n- Fixed a base play error that occurred when there is a runner on third base and the batter hits a sacrifice fly(SF).\n- Lowered the overall color saturation of the stadium.\n\n\nGolf\n- Set the flag to disappear when putting.\n- Fixed ball trail disappearing when opponent putt in multiplayer.\n- Change the flag to disappear when putting.\n- Fixed the problem that the texture of the club came out black.\n\n\nBasketball\n- Adjusted AI's shot interval time to lower the singleplayer difficulty."
+            },
+            {
+                "version": "0.8.0",
+                "change_log": "New sports, \"Tennis\" added !\nFrom now , 11 Sports in 1 Game\nTennis\n- Tennis, one of the most popular sports in the world, has finally been added to All-In-One Sports VR.\n- Multiplayer and 5 levels of AI singleplayer are possible.\nHolloween event\n- 3 popular Squid Masks have been added to celebrate Halloween.\n- These masks can be worn immediately without any conditions.\nBowling / Basketball\n- Updated to be able to play single player with AI of 5 difficulty level.\nAccessories\n- 2 mask accessories have been added.\n- Gas Mask / Roman Warrior Mask"
+            },
+            {
+                "version": "0.7.7",
+                "change_log": "V_0.7.7 HotFix!!\nModified the case where infinite loading occurs intermittently during multi-play."
+            },
+            {
+                "version": "0.7.6",
+                "change_log": "V_0.7.6 Update\n\nBaseball\nReduced pitch correction range.\nReduced ground ball probability when hitting.\n\n\nBowling\nRevised the judgment on the bowling foul.\nFixed bowling pin physics to be applied naturally.\nRemoved automatic shooting when the ball is accidentally thrown."
+            },
+            {
+                "version": "0.7.5",
+                "change_log": "V_0.7.5 HotFix!!\nFixed the problem of ping pong ball not being hit in ping pong multiplayer mode."
+            },
+            {
+                "version": "0.7.4",
+                "change_log": "Hello, everyone.\n\nThe biggest update is the addition of boxing's \"Heavy-bag\" mode.\nSmash the punching bag with your powerful fist!\n\nV_0.7.4 Update\n\nBaseball\nSlightly adjusted the pitcher's pitching physics.\nReduced pitcher's directional physics correction.\n\n\nGolf\nSet to be ignored small movements of the club in the ready position.\nSmoother ball rolling on the green when putting."
+            },
+            {
+                "version": "0.7.3",
+                "change_log": "V_0.7.3 Update \n\nCross-platform multiplayer matching update!\nNow enjoy multiplayer mode on a variety of platforms!\n\nBaseball\nFixed some betting physics.\nReduce the probability of a ground ball when betting.\nFixed the problem of not hitting the ball when hitting the left hand.\n\n\nBilliards\nFixed AI cue ball position error.\nLevel balancing: Reduced guideline length / AI difficulty correction.\n\n\nPing-pong\nFixed the net to shake naturally in multiplayer.\nFixed a bug that sometimes freezes after scoring.\n\n\nBadminton\nSmashing serve is prohibited.\n\n\nBasketball\nAdjusted basketball reaction time.\nAdjust the laser position and angle to catch the ball.\nRealistically adjusted basketball throwing force.\n\n\nBasketball\nAdjust the laser position and angle to catch the ball.\nFixed a bug where bowling pins were pushed behind.\nFixed bowling ball spin to affect bowling pins more.\n\n\nDart\nSignificant improvement in throwing physics"
+            },
+            {
+                "version": "0.7.3",
+                "change_log": "Ping-pong\n- Fixed the net to shake naturally in multiplayer\n- Fixed a bug that sometimes freezes after scoring\n\nbaseball\n- Fixed some betting physics\n- Reduce the probability of a ground ball when betting\n- Fixed the problem of not hitting the ball when hitting the left hand.\n\nBilliards\n- Fixed AI cue ball position error\n- Level balancing: Reduced guideline length / AI difficulty correction\n\nBadminton\n- Smashing serve is prohibited\n\nbasketball\n- Adjusted basketball reaction time\n- Adjust the laser position and angle to catch the ball\n- Realistically adjusted basketball throwing force\n\nBowling\n- Adjust the laser position and angle to catch the ball\n- Fixed a bug where bowling pins were pushed behind\n- Fixed bowling ball spin to affect bowling pins more\n\ndart\n- Significant improvement in throwing physics"
+            },
+            {
+                "version": "0.7.1",
+                "change_log": "V_0.7.0 Update / BN8\n\nCommon issue\nDepending on the device, the position of hand modeling has been modified to be customized.\nThe position and orientation of the bat or racket have been modified.\n\n\nBaseball\nModified the balance so that user can play the home run mode game longer.\nAdded a home run mode item. (The ball-shaped item reduces one out counter. Life +1)\nAdded strike zone area seen when pitching in league mode.\nModified the balance of hitting in league mode.\nThe Fire Bat has been modified to make a home-run easier.\n\n\n\nDart\nModified hand animation and dart default position."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

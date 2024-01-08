@@ -86,6 +86,16 @@
             "logo_transparent": "38974497_1152413985480615_4546454972446340755_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": ".3",
+                "change_log": "I fixed the problems from previous build.\n1. Updated privacy and terms of use\n2. Fixed alignment of beam\n3. Checked for internet connectivity\n4. No content is downloaded from the internet except for data from private leader board, and thats only done when the leaderboard button is pressed so used cant take off headset in that fraction of time it takes to download the tiny leaderboard data.\n"
+            },
+            {
+                "version": "0.2",
+                "change_log": "1. VRC.Quest.functional.7 - FIXED - Notify user if no internet connectivity\n2. VRC.Quest.Input.3- FIXED - Adjusted alignment of beam from hand\n3. VRC.Quest.functional.8 - FIXED - App does not download any content from the internet (except from private leaderboard)\n4. RECORD_AUDIO and MODIFY_SETTINGS permission will be used for multiplayer microphone"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

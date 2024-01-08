@@ -105,6 +105,16 @@
                 "short_description": "Willkommen zur PiCK UP! Dschungelprüfung! Das Dschungelcamp ist zurück, und du bist mittendrin – in einem spannenden Virtual Reality Erlebnis."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Prompt test: Fixed. Internet connection is not required.\r\nFunctional test: App does not freeze. It changes the scene and tells the user to eject the phone from the gearVr. Added three more info displays in direct sight of the user.\r\nReserved interaction test: Fixed. Added back button functionality by adding the \"ovrPlatformMenu.cs\" from the gearvr unitypackage."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "Dschungel",
             "IBES",

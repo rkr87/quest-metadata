@@ -81,6 +81,12 @@
             "logo_transparent": "38982619_340296150430400_501977311444622313_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.7.0",
+                "change_log": "- Switched from legacy Oculus SDK to OpenXR.\n- Updated Meta Platform SDK.\n- Updated Game Engine for better performance.\n- Enabled Fixed Foveated Rendering.\n- Now using 90Hz if the headset supports it."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

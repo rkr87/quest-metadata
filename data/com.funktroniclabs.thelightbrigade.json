@@ -74,7 +74,7 @@
             },
             {
                 "rating": 5,
-                "votes": 590
+                "votes": 591
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -381,6 +381,88 @@
                 "short_description": "현실적인 총격전과 몰입되는 빛 마법이 혼합된 로그라이크형 전술적 사격 게임입니다. 빛의 여단 내에서 승급하며 부서진 기억들을 따라 여행하면서 어둠을 밝히십시오."
             }
         ],
+        "changelog": [
+            {
+                "version": "576",
+                "change_log": "e885c7f8-0cd4-2bc8-afde-f57086cf3691"
+            },
+            {
+                "version": "572",
+                "change_log": "20593aaf-06cc-93ab-d2b6-033d79d2a690\n- fixed debug settings left on in MR mode"
+            },
+            {
+                "version": "570",
+                "change_log": "85f16b8e-a9ba-684d-5d91-1a01ca2995d2"
+            },
+            {
+                "version": "569",
+                "change_log": "0c8c4126-1fef-885b-8502-038258e4929c\n- Fixed MR not enabled in Quest 2"
+            },
+            {
+                "version": "567",
+                "change_log": "137b6bb9-9c0e-4545-a832-9fb787f45c4c\n- quest3: added high quality and high resolution modes\n- quest3: added mixed reality combat mode\n- quest2: performance and lod improvements"
+            },
+            {
+                "version": "542",
+                "change_log": "2a40050c-6014-b0b2-4ac6-97649b45418f\n\n- critical: fix handling of load failure cases to not lose souls\n- fix boss 2 triggering boss wrongly on spawn\n- fix wrong particle playing on scout crit shots\n- fix drone shot hit playing wrong sound"
+            },
+            {
+                "version": "539",
+                "change_log": "bae4419b-958a-46ab-5ff3-8bcd29c0a28e\n\nFULL CHANGELOG (v523-v537)\nfixed audio positioning/volume issues\nadded lost memory focused sacred memory\nadded memory info to setting info section\nadjusted some forest spawning locations\nadjusted some mountain entrances\nadjusted some necropolis entrances\nadjusted some necropolis spawning locations\nadjusted lost memory enemy counts\nchanged heart to heal same as max hp gain\nfixed wrongly scaled merchant\nfixed assault soldier flare gun\nfixed canteen heal description\nfixed critical hits not working\nfixed engineer passive not upgradable fully\nfixed enviro crystals with no collision\nfixed explosion triggering team kill too easy\nfixed ghost mode not working\nfixed helmet not pouch storable\nfixed item description color inconsistencies\nfixed loot nodes spawning in inaccessible areas\nfixed many spawn-in-wall navmesh issues\nfixed missing rock visual on forest cliff\nfixed self-damage triggering team kill\nfixed some cliff jump nodes missing\nfixed soul deposit handling million+ souls badly\nfixed sound bug on souls cry effect\nfixed wrong text on quit game screen\nimproved laser dot visuals\nimproved lighter swing to be easier\nimproved list scrolling to clamp at last item\nimproved various forest object lod ranges\nincreased drone attack range\nincreased drone vertical move speed\nincreased soul cleanse heal effect\noptimized various forest tiles\noptimized various mountain stage tiles\ntweak enemies in MTN slightly\ntweak enemy reload sounds"
+            },
+            {
+                "version": "522",
+                "change_log": "1b39c979-233b-6386-8a70-fef878e8704e\n(v511 - v522)\n- add cigars to firing range\n- add invincible 0.5s after helmet hit taken\n- add metal hit sound to drone\n- add new fire & ice sacred memory\n- add shotgun hammer assist setting\n- adjust canteen drop rate higher\n- adjust canteen heal to 10hp\n- adjust lost memory difficulty scaling\n- adjust some sacred memory settings\n- adjust stage loot spawning grouping\n- fix audio positioning issue (maybe)\n- fix bear trap visuals after rearm\n- fix enemies stuck in crystal form (hypnotize bug)\n- fix enemy reload sounds on stage start\n- fix gun sights not being synced (m3, mp35)\n- fix incorrect materials in lost memory stages\n- fix incorrect merchant on lost memory stage\n- fix incorrect stage entry text timing\n- fix legendary card not working with shotgun\n- fix lost memory exits navmesh\n- fix menu close sound on stage start\n- fix some ashen mountain chest locations\n- fix syringe double-usage bug\n- fix winchester shell eject position\n- fix wishing well behavior with cigar box\n- fix wolves not being crystalized\n- improve boss scaling on sacred memory runs\n- optimize charm object structure\n- remove all trap rearming\n- remove shotgun disable slide lock setting\n- revert stone heart healing effect\n"
+            },
+            {
+                "version": "518",
+                "change_log": "863f584e-1606-40c1-dada-59e62a6aba8a\n\n- another stage exit hotfix\n- slight increase canteen drop rate"
+            },
+            {
+                "version": "512",
+                "change_log": "381893e7-fb45-97f3-d37a-571312f5f019\n\n- fixed navmesh issue around exit in a Lost Memory stage"
+            },
+            {
+                "version": "510",
+                "change_log": "6bb1f001-7868-1559-c345-8c0b8698b9a2"
+            },
+            {
+                "version": "478",
+                "change_log": "- added extra difficulty tier\n- fixed some difficulty scaling inconsistencies\n- tweaked accuracy scaling for low tier enemies\n- fixed boss 2 not starting fight correctly\n- fixed trigger bolt grab not working on pistols\n\necc8362e-057a-13c2-355d-ddc90b6d4ee2"
+            },
+            {
+                "version": "473",
+                "change_log": "fa25b637-2841-3522-ad3d-e1938b94da32"
+            },
+            {
+                "version": "464",
+                "change_log": "894e1e09-988c-f428-ded9-1186fce9ad7f"
+            },
+            {
+                "version": "462",
+                "change_log": "c7793ed0-25c1-a516-7d39-bd676dc8a965"
+            },
+            {
+                "version": "428",
+                "change_log": "7569474d-0f85-0fd1-a459-7e03509b4f23"
+            },
+            {
+                "version": "391",
+                "change_log": "501095b2-dd1b-1a91-a174-f1976bdc9b31"
+            },
+            {
+                "version": "0.12",
+                "change_log": "fix tutorial, snow volume"
+            },
+            {
+                "version": "0.11",
+                "change_log": "vertical slice build, with splash"
+            },
+            {
+                "version": "0.1",
+                "change_log": "vertical slice build!"
+            }
+        ],
         "keywords": [
             "roguelike",
             "gun",
@@ -391,8 +473,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 772,
-        "rating": 4.559585,
+        "votes": 773,
+        "rating": 4.560155,
         "weighted_rating": 4.47,
         "is_available": true,
         "is_free": false

@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 529
+                "votes": 530
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -91,6 +91,28 @@
             "logo_transparent": "75557067_692860545476809_5376259084082298921_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.12",
+                "change_log": "Performance Update\n* Higher default framerate\n* Improved performance across the board\n* Practice area now far more dense with props\n"
+            },
+            {
+                "version": "1.0.9",
+                "change_log": "* Fixed issue preventing progress from being saved\n* Added back pause functionality\n"
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "* Fixes freezing that affected some users after a Quest OS Update\n* Much stronger haptic feedback\n* Improved accuracy of mapman buttons / teleport markers\n* Improved plant textures on Executive Power levels"
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "* Toggle grip option (both in the menu and in the first-time setup wizard)\n* Fixed the game timer being incorrectly reset on continued saves\n* Added mutator vending machine and shower to practice area\n* Fixed certain mutators making the practice area unusable\n* Fixed single pixel wide z-fighting on seam of ending comic"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "Replaced blue / yellow transparent screen powerup effects of Helmet and Free Reloads with new animations as it was making framerates drop to unacceptable levels in certain situations. "
+            }
+        ],
         "keywords": [
             "roguelite",
             "roguelike",
@@ -101,8 +123,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 600,
-        "rating": 4.805,
+        "votes": 601,
+        "rating": 4.805324,
         "weighted_rating": 4.66,
         "is_available": true,
         "is_free": false

@@ -83,6 +83,24 @@
             "logo_transparent": "39036681_794790885245566_2329387490882907657_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.11",
+                "change_log": "Patch notes 1.11\n\n*Fixed bug that would cause bots to not use all their champion slots\n*Bots signficantly more likely to 2 star champions early game\n*Bots more likely to replace duplicate champions mid game\n*Adjusted bot positioning to priortize safety of their carries\n*Bots slightly more likely to use items and shift them around. \n*Fixed bug that allowed player's to use enemy items.\n*Items attached to champions that increase in star level are now added to the upgraded champion"
+            },
+            {
+                "version": "1.1",
+                "change_log": "Patch 1.1\n\nItems \n* Added items which can be added to champions to provide bonus stats.\n* Adjusted tutorial to include item usage.\n* Added bonus rounds to earn items.\n* Added item usage to bots. \n\n\nAI Fixes\n* Fixed bug that prevented AI from purchasing 2-4 cost champions.\n* AI team compositions diversity significantly increased. \n\nGeneral Changes\n* Reduced spawn distance from northern side of the board to make both sides more consistent.\n* Champion star level now marked on their HP bars and item info.\n* Fixed Luna's walking animation freezing.\n* HP loss now increases as the game continues. \n\nBalance changes\n* Triple threat bonus reduced from 70% to 30%.\n* Increased Dusk tier 1 damage from 5 damage per second to 10 damage per second.\n* Increased Dusk tier 3 damage from 40 damage per second to 60 damage per second.\n* Jug Attack damage reduced from 40 to 30.\n* Finn base health increased from 700 to 800 .\n* Increased luna's Ability power ratio from 0.2--> 0.5.\n* Increased Infernum's Ability power ratio from 0.3-->0.6 on base damage.\n* Increased player start gold from 5 to 6.\n* Reduced first 3 preparation rounds from 30 seconds to 20 seconds. "
+            },
+            {
+                "version": "1.04",
+                "change_log": "Patch notes 1.04\n\n*Added user interface that shows the chance of getting a champion of each cost\n*Fixed bug that prevented 4 cost champion ability description from being displayed \n*Added specific numbers and more details for several abilities based on player feedback"
+            },
+            {
+                "version": "1.03",
+                "change_log": "Patch 1.03\n\n*Added winstreaks/loststreaks bonus gold  \n*Added sound effect for leveling up\n*Added visual indicator when the player has unused champion slots\n*Fixed Jug missing special attack icon\n"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

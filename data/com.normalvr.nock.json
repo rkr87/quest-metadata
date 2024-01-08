@@ -102,6 +102,32 @@
             "logo_transparent": "39003276_496413162056591_3215350679477023559_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.9.2",
+                "change_log": "1.9.2 version with updated network packages"
+            },
+            {
+                "version": "1.8.7",
+                "change_log": "- fix bug with re-centering in a roomscale setup"
+            },
+            {
+                "version": "1.8.7",
+                "change_log": "fixes a bug where some players would lose all audio"
+            },
+            {
+                "version": "1.8.6",
+                "change_log": "bugfixes for 1.8.6"
+            },
+            {
+                "version": "1.8.6",
+                "change_log": "1.8.6\n- Support for crossplay with future platforms 🙂\n- Improved game performance - (we are splitting up the frames in which we do heavy physics rollback / prediction calculations, this should help people on slower connections)\n- Added first batch of 10 Meta platform achievements\n- Nametags now show platform icons, and voice indicators\n- OnFire bots are back to their original glory\n- Add “Move here” and “Jump here” labels to the tutorial to prevent confusion\n- Improved z-fighting (flickering) throughout the app\n- Matchmaking updates to create more balanced matches\n- Improved game startup time\n- Switched to using Vulkan graphics pipeline\n- Switched to using OpenXR\n- Cut runtime memory usage to 1/4\n- Meta Platform Player reporting now available by press the system menu button\n- Bug: Fixed jumper belly\n- Bug: Fixed ragdoll skins not matching players\n- (BETA) New build of the social lobby for Beta testers that allows matchmaking from lobby"
+            },
+            {
+                "version": "1.7.1",
+                "change_log": "bugfixes"
+            }
+        ],
         "keywords": [
             "soccer",
             "bow",

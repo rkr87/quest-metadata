@@ -73,7 +73,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1536
+                "votes": 1537
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -102,12 +102,38 @@
             "logo_transparent": "38974821_5501390133224755_7929844121634526979_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.021",
+                "change_log": "Quest 3 Enhancements:\n- Screen Resolution Upgrade: Dynamic resolution now allows for an upper limit of 3322x3519, a significant increase from the fixed 1226x1440 on Quest 2.\n- 4K Textures: Leveraging Quest 3's enhanced memory, textures have been upgraded to console quality, boasting up to a 16x increase in pixel count.\n- Anisotropic Filtering: On-screen textures now benefit from Aniso 8x, enhancing sharpness dramatically.\n- Dynamic Shadows: Spotlights now cast dynamic shadows, adding a layer of realism to the scene.\n- PCF5x5 Shadow Filtering: Selected surfaces showcase console-quality shadow filtering, producing softer and more lifelike shadows.\n- Mesh LOD Improvements: Enhanced graphics reduce LOD popping, ensuring a more cohesive visual experience.\n- Frame Rate Adaptability: During combat, Quest 3 will dynamically adjust frame rates from 72 fps to 90 fps.\n\nQuest 2 Enhancements:\n- Dynamic Resolution: Quest 2 now supports dynamic resolution, enhancing visual clarity.\n\nGeneral Updates:\n- Achievements: Players can now unlock achievements throughout the game."
+            },
+            {
+                "version": "1.0.009",
+                "change_log": "-Meta Quest Pro Update\n    ·Implemented ETFR: Eye Tracked Foveated Rendering\n    ·Implemented Local Dimming for darker blacks\n    ·Increased pixel density over 30%\n-Added optional traslucent background to subtitles"
+            },
+            {
+                "version": "1.0.006",
+                "change_log": "-Implemented additional subtitles. These are all current subtitles: English, French, German, Spanish, Italian, Portuguese (Brazil), Japanese, Korean, Simplified Chinese\n-Added Spanish voice over\n-Minor bug fixes\n"
+            },
+            {
+                "version": "1.0.005",
+                "change_log": "-Slightly improved performance turning off stereo layers when not in use \n-Fixed very rare bug where train's doors wouldn't open\n-Fixed very rare bug where scanner could disappear from your controller\n-Fixed minor bugs and collisions"
+            },
+            {
+                "version": "1.0.003",
+                "change_log": "-Tuned physics behavior of the gun to improve aim\n-Fixed rare bug where player was being spawned underground\n-Fixed minor bugs and collisions"
+            },
+            {
+                "version": "1.0.002",
+                "change_log": "-Increased speed of gun projectile\n-Added additional environmental hints for certain puzzles\n-Tweaked diffculty of holo-puzzles\n-Fixed minor bugs and collisions\n-Italian subtitles"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1706,
-        "rating": 4.80891,
+        "votes": 1707,
+        "rating": 4.809022,
         "weighted_rating": 4.75,
         "is_available": true,
         "is_free": false

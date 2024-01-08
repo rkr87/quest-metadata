@@ -92,6 +92,36 @@
             "logo_transparent": "38974778_605468666638004_7956835319985209344_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.0.8396",
+                "change_log": "Version 2.0.8396\n\n* Survival/Horde\n    * Fixed issue where players could sometimes not pickup orbs in Survival\n    * Fixed issue where zombies would skate/slide/jitter\n    * Fixed issue where zombies would stack up in a single spot in Horde\n    * Zombies that cannot engage the player will despawn themselves after a short period of time\n* Quickdraw\n    * Fixed issue where players could not join the match late\n    * Better randomization of duel participants\n    * Fixed issue where holding the controller in a certain position would give a player an unfair advantage\n    * Fixed issue where the mini scoreboard would not properly update when there were more than 4 players\n    * Fixed issue where players that joined late were able to draw their weapon early\n* Alpine Deathmatch\n    * Adjusted several spawn points to address player facing\n    * Adjusted several weapon spawns to make them easier to pick up\n* General\n    * Fixed several cases that could result in invisible players and/or bots\n    * Added indicator next to player's name when they are speaking to other game modes\n    * Fixed issue where traps would sometimes not land correctly\n    * Added a second trap type\n    * Miscellaneous other fixes and performance improvements\n"
+            },
+            {
+                "version": "2.0.7534",
+                "change_log": "Version 2.0.7534\n\nDead and Buried 2 has been Reloaded with new free content!\n\n* New Cooperative Modes: band together in free-roaming Survival or classic stationary Horde.\n\t\n* Duel it out: Go 1v1 in a last-man-standing Quickdraw match.\n\n* New Shootout and Deathmatch levels to play with your friends.\n\n* New weapons for all game modes.\n\t\n* New player characters to choose and play as."
+            },
+            {
+                "version": "1.0.4749",
+                "change_log": "* Version 1.0.4749\n* Fixed missing player names in Town\n"
+            },
+            {
+                "version": "1.0.4290",
+                "change_log": "* Version 1.0.4290\n* Added support for some upcoming Oculus features\n* Minor bug fixes\n"
+            },
+            {
+                "version": "1.0.2855",
+                "change_log": "* Version 1.0.2855\n* Added new Locomotion Settings such as smooth turning and handedness\n* Added a new Tutorial with a simple Shooting Range\n* Added support for launching Private Rooms\n    * When checked, a private instance for all the players launching from an event will be created\n    * Private Rooms have the option of disabling bots if there are enough ready players on each side\n* Added support for Oculus Party Chat (if the party has at least two online members)\n    * The party is given a private Town instance so they can easily meet up\n    * Players can choose to use either Oculus Party Chat or in-game chat (see Settings Menu)\n* Added new music to several of the levels\n* Added target name to the kill indicator\n* Added support for muting specific players via the Pause Menu\n    * Can see who is actively talking\n    * NOTE - Muting only lasts for the current game session\n* Re-balanced Shootout levels\n    * Made adjustments to cover\n    * Moved pickup weapons so they are easier to reach\n    * Fixed several exploits\n* Numerous bug fixes and improvements\n    * Fixed several issues that could lead to broken events, invulnerable bots, and invisible players\n    * Fixed several host drop issues that could lead to non-responsive bots\n    * Added auto disconnect for players that are inactive\n    * Added minimum and maximum avatar heights to avoid extreme squats and super tall players\n    * Improved player and weapon models getting culled out when close to camera\n    * Improved bullet accuracy\n    * Improved Dynamite physics and throwing\n    * Fixed bug where Dynamite would explode prematurely after more than 10 were used\n    * Thrown pickup items will now inherit player velocity\n    * Added a new optional tunneling vignette when moving or turning\n    * Can optionally disable laser sights\n    * Many more fixes, polish, and optimizations\n"
+            },
+            {
+                "version": "0.9.2377",
+                "change_log": "Version 0.9.2377"
+            },
+            {
+                "version": "0.9.2322",
+                "change_log": "Version 0.9.2322"
+            }
+        ],
         "keywords": [
             "fps",
             "shooter",

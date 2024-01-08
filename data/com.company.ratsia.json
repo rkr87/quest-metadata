@@ -104,6 +104,16 @@
                 "short_description": "Astu 1920-luvun Helsinkiin ja käy tutkimaan salaperäistä mysteerikahvilaa."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "When lancing the app without a Gear VR Controller connected there's a notification (\"App requires a Controller\") telling the user the app requires the controller to be connected. The notification is also displayed if connection to the controller is lost during gameplay."
+            },
+            {
+                "version": "1.0",
+                "change_log": "1) If entitlement check fails, the app shows a message for 2 seconds and quits\r\n\r\n2) Android manifest created with Oculus manifest tool in Unity"
+            }
+        ],
         "keywords": [
             "speakeasy",
             "1920",

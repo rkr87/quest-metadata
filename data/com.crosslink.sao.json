@@ -82,7 +82,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2919
+                "votes": 2921
             }
         ],
         "comfort": "NOT_RATED",
@@ -110,13 +110,75 @@
             "logo_transparent": "38974558_129228099116541_6293592314574142055_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.8",
+                "change_log": "bugs fixing"
+            },
+            {
+                "version": "2.7",
+                "change_log": "Change Log\n》Combat\n- [changed] Aerial combo easier(still WIP)\n- [added] Armor broken effect\n- [changed] Skeleton break into more pieces\n- [changed] Optimize AI path finding\n- [changed] New background music in the dungeon\n》Mod\n- [added] Custom Avatar Mod\n- [added] Custom Npc Mod \n- [added] Custom Level Mod \n- [changed] ModTK&Doc Updated\n》Misc\n- [fixed] Slow motion fixed\n- [changed] Wall running is easier\n- [changed] Climbing is easier\n- And many subtle changes"
+            },
+            {
+                "version": "2.6",
+                "change_log": "Change Log for V10P5\n- [fixed] Ice sword blade has no texture\n- [fixed] Weapon upgrade hub tips will not disappear\n- [fixed] Wrong sound from mod item"
+            },
+            {
+                "version": "2.5",
+                "change_log": "Change Log for V10P4\n- [added] Mod reset(clear) button \n- [changed] Tutorial improvement \n- [changed] Tomb maze Improvement \n- [added] Minimal story \n- [changed] Slow-mo bug fixed \n- [changed] Boss can be interruptable"
+            },
+            {
+                "version": "2.4",
+                "change_log": "Change Log For V10P3\n\n[fixed] mod loading bug\n[fixed] 'swing arm' could be moving too fast\n[fixed] fighting room may be stuck, no enemy is being spawned.\n[fixed] laser sight was not working."
+            },
+            {
+                "version": "2.3",
+                "change_log": "### ChangeLog for V10P2\n\nHi everyone, now we have a better UI and loading mods on demand should help with the crash problem.\nBtw, the modding toolkit and document will be updated soon.\n\n>> UI\n- [changed] UI Improvement\n\n>> Mod\n- [added] Loading on demand\n\n>> Other\n- [changed] Bullet deals more damage but is less likely to knock down an enemy\n- [changed] Tutorial Update\n- [fixed] Ice Wand Enhance Bug\n- [added] Ear simulation for Goblins on Quest\n- [changed] Throwing is easier\n- [fixed] Spin weapon around your hand"
+            },
+            {
+                "version": "2.2",
+                "change_log": "V10P1 Change Log\n- Optimize the loading speed\n- Slow Motion is back"
+            },
+            {
+                "version": "2.1",
+                "change_log": ">> Level\n- [changed] Hall Remade \n- [changed] Tutorials Update, better voice over\n- [changed] Sandbox Update \n- [added] New Sandbox Scene\n\n>> Npc\n- [changed] Goblin Model Redesigned\n- [changed] Small Goblin Model Redesigned \n- [changed] New Basic Weapons \n- [changed] New Armors for All Npcs\n- [added] Dynamic Tattoo \n- [added] Dynamic Face\n- [added] Cloth Waving\n- [added] New Boss in Dungeon02\n- [added] New Goblin Lv2 x2\n\n>> Other\n- [added] Cut Npc in half alone the waist\n- [changed] UI Update (25%), will be 100% in the next patch.\n- [removed] AI Command is removed (will be back once it's polished)\n- [added] Mod Menu Keyboard\n- [changed] Basic Interaction Improvement \n- [added] Weapon Enhance System, most weapons will be more powerful after several upgrades in dungeon. Such as the fireball spell will leave a burning fire on the ground.\n- [changed] No coding needed for modding basic weapon\n- [changed] Textures Improvement"
+            },
+            {
+                "version": "2.0",
+                "change_log": "just a small bug fix, you can choose not to update if you don't use it.\n* fixed swing arm movement"
+            },
+            {
+                "version": "1.9",
+                "change_log": "1. fixed mod compatiable issue\n2. fixed conflict issue between mods caused by builtinshader. (PS: modder please update your ModProj)"
+            },
+            {
+                "version": "1.8",
+                "change_log": "The main part of this update is the physics improvement, it brings us fast and accurate hit detection. In fact, there're many more changes in this update, but many of them are very subtle, so they're not written in the changelog.\nBtw, our daily players have doubled since the last update, thanks for playing Battle Talent !\n#Changelog for V9P5\n  - AI voice over in tutorial [new]\n  - AI command system [new] [experimental]\n  - Optimize overall physics detection [changed]\n  - Spell can only be cast after putting it in your glove [changed]"
+            },
+            {
+                "version": "1.7",
+                "change_log": "Our daily active players and playtime are creating new records. Thanks for waiting and supporting us for such a long time! And hopefully, we can launch the full version in 2022.\n\nWish you a happy and wonderful new year!\n\n-- by dev and moderator team\n\n\n\nChangeLog for V9P4 \n\n#Level\n\nheight calibrate in home scene [added]\nnew tomb01 scene [changed]\nnew elf archer in sandbox [added]\n\n#Combat\n\nequipable magic stone [added]\nstab can slice after side stabbed[added]\nopmitize call back feature, and it's unlocked by default [changed]\nyou may hit enemy fly away with blunt weapon [added]\nspin spear around your hand is back [changed]\n\n#Mod\n\nadded predefined swing effect button in ModTK [added]\nopen sourced some in-game weapons in ModTK [added]\nadded bgm api for modding [added]\n\n#Other\n\nhand climb support(with wood) [added]\nparkour tutorial updated [changed]\nslow-mo can be stopped [changed]\nsound effect updated [changed]\nfootstep sound for wooden material [added]"
+            },
+            {
+                "version": "1.6",
+                "change_log": "fix modding system"
+            },
+            {
+                "version": "1.5",
+                "change_log": "Hello, the new patch has been released. After I finished refractoring the combat code, I realized there're many old machimics broken. This patch is primarily about fixing those issues under the new code architecture. \n\nChangeLog for V9P3\n- Elf is back\n- Added two levels\n- Combat code improvement\n  - Callback system fixed\n  - Dismember is easier \n  - Throat slicing is easier\n  - Harder to knock down enemies\n  - Fixed shooting weapon with bow\n- New Interrupt system\n  - Interruption is determined by state, body part be hitted, weapon you used and how you used your weapon all together \n- Performance optimized\n- ModToolkit update\n  - It contains new examples with source code: https://github.com/fonzieyang/BTModToolkit\n  - There are more examples coming soon"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Change Log for V0.0.9P2\n\n* modding in pc is fixed\n* easier to punch\n* easier to callback weapons\n* slow-mo stabbing bug is fixed\n* strongmace(hammer) is fixed\n* hp mlp in the sandbox is fixed\n* and ... to make up for the loss of elf, we have goblin Lv3 in the sandbox\n\nChangeLog to V0.0.9P1\n\n* small goblins and small skulls become bigger\n* slow-mo gliding is fixed\n* disarmed by enemy is removed\n* the weapon swing speed is revert back\n* telekinesis throwing glitch is fixed \n* fireball is easier to throw"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 3655,
-        "rating": 4.58632,
-        "weighted_rating": 4.56,
+        "votes": 3657,
+        "rating": 4.586546,
+        "weighted_rating": 4.57,
         "is_available": true,
         "is_free": true
     },

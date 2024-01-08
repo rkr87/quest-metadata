@@ -229,6 +229,40 @@
                 "short_description": "Una comedia de aventuras inspirada en las salas de escape, repleta de más acertijos de los que caben en un ascensor."
             }
         ],
+        "changelog": [
+            {
+                "version": "2.0.1.1358",
+                "change_log": "Added a new, bonus hand present for Floor Plan Remastered players."
+            },
+            {
+                "version": "2.0.1.1268",
+                "change_log": "Graphics update! Improved textures and materials on Quest 2, Quest Pro, and Quest 3. Additional Quest 3 enhancements to resolution, environment density, and shading detail.\n"
+            },
+            {
+                "version": "2.0.1.1141",
+                "change_log": "Improved thumbs-up / thumbs-down detection."
+            },
+            {
+                "version": "2.0.1.1138",
+                "change_log": "This patch contains the following bugfixes:\n- East Tower: fixed an issue where the game could give incorrect hints if a save file was reloaded after the guard went to the bathroom.\n- West Tower: fixed an issue where the fisherman could get stuck moving around in circles while chasing fish.\n- Backside Story: if the cheese knife or water balloons are misplaced, they now reappear in logical positions when reloading a save file.\n- Backside Story: fixed bug that could cause water balloon to fall through the floor if it was popped while pulling it out of the inventory.\n"
+            },
+            {
+                "version": "2.0.1.1123",
+                "change_log": "Hotfix patch #2 for the Backside Story update.\n\nBugfixes:\n- Backside Story: If water balloons got stuck in a loop where they fell through the floor over and over, reloading the level from your save file should now fix it. We are still investigating the cause to prevent this from happening.\n- General: To reduce chance of data loss when the battery dies during Quest cloud save syncing, the game no longer saves data when the battery charge falls below 2%.To avoid save data loss, please keep your headset charged or quit playing before the battery dies. Unfortunately this is a bug with the Quest OS and not specific to our game, so this is as much as we can do to address it for now. We apologize to the players who ran into this!"
+            },
+            {
+                "version": "2.0.1.1113",
+                "change_log": "This version contains hotfixes for the Backside Story update:\n* Backside Story: fixed an issue where the item inside the treasure chest could get stuck after unlocking it. If you ran into this bug, your save file will be fixed after downloading this update.\n* Backside Story: fixed an issue where water balloons from the dispenser could disappear and teleport to a different floor.\n* General: made it easier to grab the waist pouch after adjusting your height to be very tall in seated mode.\n\nOriginal Backside Story patch notes:\n* Major update: added “Backside Story” expansion with 2+ hours of new puzzles and some new achievements. \n* Accessibility: added “Standing Mode” and “Seated Mode” to accessibility options menu, improving how the game plays in small or stationary play areas. \n* Accessibility: redesigned and improved distance grab, now enabled by default. Switch to “Roomscale Mode” or use advanced settings in the accessibility section of the options menu to disable this feature. - Performance: increased framerate on Quest 2 from 72 FPS to 80 FPS. \n* Performance: improved load times on Quest and Quest 2. There is one long load the first time you play the game - but now it is only required once per install! \n* CEO Office: added hints to the final puzzle sequence. Press the call button on the CEO’s desk to get help!\n* Toot Toot: Most characters in the game now react when using Tooty Hands too close to them. In order to better serve players on Quest 2, Quest Pro, and the upcoming Quest 3, the \n\nBackside Story update is the final planned update with Quest 1 support. We'll continue to provide tech support for Quest 1 players to the best of our ability."
+            },
+            {
+                "version": "2.0.1.1109",
+                "change_log": "The Backside Story update.\n- Major update: added “Backside Story” expansion with 2+ hours of new puzzles and some new achievements.\n- Accessibility: added “Standing Mode” and “Seated Mode” to accessibility options menu, improving how the game plays in small or stationary play areas.\n- Accessibility: redesigned and improved distance grab, now enabled by default. Switch to “Roomscale Mode” or use advanced settings in the accessibility section of the options menu to disable this feature.\n- Performance: increased framerate on Quest 2 from 72 FPS to 80 FPS.\n- Performance: improved load times on Quest and Quest 2. There is one long load the first time you play the game - but now it is only required once per install!\n- CEO Office: added hints to the final puzzle sequence. Press the call button on the CEO’s desk to get help!\n- Toot Toot: Most characters in the game now react when using Tooty Hands too close to them.\n\nIn order to better serve players on Quest 2, Quest Pro, and the upcoming Quest 3, the Backside Story update is the final planned update with Quest 1 support. We'll continue to provide tech support for Quest 1 players to the best of our ability."
+            },
+            {
+                "version": "1.0.2.7",
+                "change_log": "Bugfixes and improvements. Fixed a blocker that could occur with an item disappearing in the CEO Office."
+            }
+        ],
         "keywords": [
             "funny",
             "escape",

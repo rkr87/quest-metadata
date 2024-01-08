@@ -79,6 +79,28 @@
             "logo_transparent": null
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.5.1",
+                "change_log": "Adding Oculus 1.1 support"
+            },
+            {
+                "version": "1.5",
+                "change_log": "Update to fix audio issue on S6"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Fixed issue with Note 4 crash coming out of Player house."
+            },
+            {
+                "version": "1.1",
+                "change_log": "Any saves left in a state where the Earth Boss could not be summoned should now be fixed.\nFixed save games restoring incorrectly when the player chooses to return to the main menu.  The current room will now be reset as intended on load.\nScene fades quickly on falling death. Player is now only disabled once the scene fades.\nAdding missing collision in Earth Boss room\nFixed Player deaths not playing at the correct position.\nFixed weapon trail not showing after changing scenes.\nFixed various issues with Air Boss encounter\nFixed various issues with Turtle encounter.  \nFixed hit switch for large mover not resetting properly in water int 02\nFixed various pathing issues for creatures.  \nAdding persistent parents to fix hit switches getting out of sync from gates.  \nFixed hit switch flares not working!\nRemoving persistence on switches and just adding a global fix.  All previous saves should be fixed and any future issues to should be resolved. \nMaking this hero totes adorbs. (Player character will look at the player again)\nFixed player not respecting gravity when dying.\nAdding sound effects to owl tornado\nFixed some input buttons not being setup for platform dependency properly.\nFixed looping sounds without any finish events shutting down immediately."
+            },
+            {
+                "version": "1.3",
+                "change_log": "Fixed issue where player would fall through floor in Fire Dungeon.\nFixed issue where player when leaving Fire Boss room would fall through floor.\nFixed various issues in Water Zone\nFixed various sound issues throughout game. \nFixed chat dialogs sometimes not saving properly. \nFixed issue with Turtle Boss."
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

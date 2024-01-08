@@ -81,6 +81,28 @@
             "logo_transparent": "10000000_927331887983738_4512904213996460536_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.10",
+                "change_log": "Fixed issue with power ups."
+            },
+            {
+                "version": "1.09",
+                "change_log": "Added haptic feedback for asteroid collision to ship.  Added additional drone details for powerup."
+            },
+            {
+                "version": "1.08",
+                "change_log": "Changed cannon shot from projectile to laser for instantaneous hit.  Added reticle.  Set powerups to travel toward player if shot."
+            },
+            {
+                "version": "1.07",
+                "change_log": "Added code to prevent asteroids from becoming \"stuck\" at the edge of the anomaly"
+            },
+            {
+                "version": "1.06",
+                "change_log": "Removed all references to the microphone"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

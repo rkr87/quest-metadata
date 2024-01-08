@@ -109,6 +109,32 @@
             "logo_transparent": "12331258_492732901149498_3281840289613873152_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "I translated all instances of where it says \"phone\" to \"device\". I forgot to make the translations on a previous submission and only did the default text. Also, I made a slight adjustment to get the YES and NO buttons to work correctly when the download music prompt appears."
+            },
+            {
+                "version": "1.0",
+                "change_log": "I emailed submissions@oculus and they verified that the back button implementation is correct. This is because the Oculus Go doesn't have a long button press feature as written in the documentation and I got a request to change that. After letting them know, the Store team verified that the back button implementation is correct. Let me know if anything else is wrong or if you have any questions. Thanks."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Changed where it says \"phone\" to \"device\" so that it makes sense for both the GearVR and the Oculus Go."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Added code to attempt to fix the touchpad issue for the Samsung Galaxy Edge S7."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Added some code that will hopefully allow the touchpad to work on the Samsung Galaxy S7 Edge."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Added the OVRPlatformMenu.cs to the loading scene as well, so that they can click the back button from any scene. The loading scene is just for loading and doesn't serve any other purpose."
+            }
+        ],
         "keywords": [
             "Music",
             "Audio",

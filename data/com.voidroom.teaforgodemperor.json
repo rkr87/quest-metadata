@@ -317,6 +317,48 @@
                 "short_description": "Tea For God ist ein VR-Abenteuer, das unmögliche Räume mit Zufälliger Weltgeneration nutzt, um den Spielern unendliche Bewegung in ihrem eigenen Raum zu ermöglichen. Das Anpassbare Spielerlebnis kann alles sein zwischen einem entspannenden langen Spaziergang, einem intensiven Arcade-Shooter und einem Roguelite-Shooter-Explorer.\n\nEs spielt in einer fernen Zukunft und handelt von einem Mann, der seine Familie verloren hat und sich auf seine letzte Reise begibt, um Antworten und Rache zu suchen."
             }
         ],
+        "changelog": [
+            {
+                "version": "1.0.9",
+                "change_log": "- changed sound volumes to have more even soundscape\n- added compressor for sound effects channel only (before was only a general compressor that was affecting all the channels)\n- modified some sound effects that had discomforting crackling sound\n- fixed bug when some samples were played too loud for a brief moment\n- fixed sound crackling\n- fixed restarting the game from a chapter where the game was interrupted\n- fixed pause when starting the game"
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "- fixed no distance updated when using smooth locomotion\n- changed \"A文\" to make it more clear that it is a language selection\n- added \"or\" between image-based and text-based input prompts (for open overlay info)\n- tweaks for recentering view\n- fixed game switching to demo for older builds"
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "- fixed no distance updated when using smooth locomotion\n- changed \"A文\" to make it more clear that it is a language selection\n- added \"or\" between image-based and text-based input prompts (for open overlay info)\n- tweaks for recentering view\n- the game recognises Quest 3 (doesn't fully use it yet)"
+            },
+            {
+                "version": "1.0.7",
+                "change_log": "- added explicit foveated rendering support for Quest Pro\n- added fail-safe for lost arm past \"up\"\n- fixed creating the same map cell twice when loading particular game saves\n- fixed crashes on loading\n- fixed no enemies when loading a save in \"outer rim\""
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "- restored \"corrosion showers\" in \"beneath\"\n- fixed loading save games at the initial section of \"beneath\"\n- fixed cases when the player could get embedded into ground when using smooth locomotion"
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "- added a blinking effect on shield when it has low level of energy\n- exit in beneath is visible from a greater distance\n- enemies pause for a moment when the player should look at the elevator in \"up\"\n- player is reminded about the elevator in \"up\" after a while\n- fixed horizontal scaling preview - the grid in options always shows how it would look like with the currently selected horizontal scaling\n- fixed missing collision at the train platform in prelude\n- fixed incorrectly ending tasks that could lead to a crash\n- fixed crash on checking if a path is valid when part of the world got removed"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "- fixed proximity mines and shields attached mid-air (where doors appeared)\n- fixed turn counter rendered in the place of real time\n- fixed a few never-ending level generation cases\n- fixed typo for dock screen"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "- added preparing play-area when playing on Quest on PC - this workaround works currently only for SteamVR and OculusAPI\n- fixed \"mean machine\" modifier\n- fixed some game scripts running when exiting game and starting new (or loading game state)\n- fixed bringing permanent EXMs through \"another chance\" chapter\n- fixed metal pilgrims in burial scene to move based on location, not time\n- fixed flashing door to repair hangar in \"prelude\"\n- fixed horizontal scaling preview\n- ammo/health for hit is given only if not given for kill\n- improvements for melee - easier to hit, particle effects on getting ammo/health on every hit added\n- small robots can be used to gain energy/health via melee\n- added weapon sights customisation options (color + outer ring radius)\n- added \"please wait\" info when region is being generated\n- melee kills provide loot"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "- unlocks in run-based mode can't be unlocked mid-run\n- all EXMs that were installed during game are available to be unlocked\n- added \"swap joysticks\" that swaps movement and rotation joysticks for sliding locomotion\n- fixes for unlocks menu\n- fixed \"no crouch allowed\" being replaced with \"auto crouch\"\n- fixed rotating elevators in \"breach\" when no rotating elevators were allowed\n- fixed crash when loading a savegame next to the train station and in there was a platform bridge close to the start of outer rim\n- fixed keeping player from walking through walls code that was actually forcing to be in the wall when exiting turret\n- fixed reading refresh rate for Quest Pro\n- fixed creating new player profile\n- fixed incorrectly displayed \"degree\" symbol\n- more visible exits on map for \"beneath\" and \"breach\"\n- lowered memory used by the game:\n  - music is dynamically loaded (and unloaded) when needed\n  - narration voiceovers are streams instead of samples"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- weapon nodes show what stats do they affect\n- removed \"experience\" leaving just main campaing selection, \"experience\" modified works as demo now\n- in standard rules, \"pick up\" tip appears on all objects that can be picked up, this appears only if haven't been done before or for a few minutes\n- changes for \"move to starting position\" removed turn/move commands and exposed \"move to starting position\"\n- tweaked sizes of play area used by room generators\n- added missing collision for sliding locomotion on teks in preludium and \"tea for god\" chapter\n- proximity mines do not require to be attached to anything to explode, can be used as grenades\n- other minor fixes"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

@@ -258,6 +258,28 @@
                 "short_description": "子どもの空想の友達になり、壮大なVR冒険で一緒に取り組んでいきます！"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.3.2",
+                "change_log": "- Fixed a bug in Level 3-2 where a ladder could get stuck in the wrong position."
+            },
+            {
+                "version": "1.3.1",
+                "change_log": "- Fixed a spot in level 2-2 where the kid could get stuck when trying to get out of the way of a moving minecart.\r\n- Fixed progression blocker in level 3-1 where cars wouldn't respawn after using the car crusher more than 4 times.\r\n- The dog no longer can get stuck on the fence at the end of level 3-1.\r\n- Fixed physics issue where crushed cars could topple and become unusable.\r\n- Fixed cars getting offset from their intended positions when getting magnetized / dropped by cranes in levels 3-1 through 3-4."
+            },
+            {
+                "version": "1.3.0",
+                "change_log": "- Fixed an issue where the player could get stuck in slingshot mode.\n- Fixed issue where platforms could get stuck when using both controller buttons to grab.\n- Fixed rare progression blockers in levels 2-2 and 2-3, where it was possible to climb over fences and get stuck in certain areas.\n- Fixed a few minor audio bugs."
+            },
+            {
+                "version": "1.2.11",
+                "change_log": "- Improved Gear VR compatibility.\r\n- Enabled realtime character shadows on Oculus Go and some Samsung phones."
+            },
+            {
+                "version": "1.2.7",
+                "change_log": "Gear VR compatibility fixes."
+            }
+        ],
         "keywords": [
             "adventure",
             "platformer"

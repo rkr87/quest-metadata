@@ -74,7 +74,7 @@
             },
             {
                 "rating": 5,
-                "votes": 258
+                "votes": 259
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -264,6 +264,44 @@
                 "short_description": "危険に満ちた広大な神殿を探索し、いにしえの伝説である「眼」を解明する冒険に乗り出そう。松明と鞭を手に、動くブロックを絶妙なバランス感覚で突破し、危険な罠をかわしながら、複雑なパズルを解いていきましょう。\n\nEye of the Templeは、ルームスケールVRをユニークに活用し、広大な空間をコントローラーのボタンではなく、自分の身体で操作することができます。テレポートや人工的な移動手段などが一切ない神殿の奥へと進み、体ひとつで神秘の世界へ飛び込んだかのような没入感を楽しみましょう。"
             }
         ],
+        "changelog": [
+            {
+                "version": "1.501",
+                "change_log": "This update adds a new speedrun challenge: Lava Tour! You can find it in the Speedrun Challenges section of the main menu where it will now be available if you’ve completed the corresponding section of the normal game. We’re looking forward to seeing what times you can achieve on the leaderboard!\n\nWe also fixed this issue:\n- Fixed occasional leaderboard display bug when completing a speedrun and obtaining a better score than previously.\n"
+            },
+            {
+                "version": "1.421",
+                "change_log": "This update adds support for Meta Quest Challenges. You can read more about it here: \nhttps://oculus.com/experiences/quest/developer-post/101833292996632/"
+            },
+            {
+                "version": "1.360",
+                "change_log": "Just a few improvements!\n- New hint for the boss fight that’s shown when dying repeatedly from its fire.\n- Added a subtle menu icon hint in the main menu to indicate to the player that an options menu exists.\n"
+            },
+            {
+                "version": "1.334",
+                "change_log": "Just a few fixes!\n- Made our save system more robust with backup saves to handle edge cases if a save file disappears or gets corrupted.\n- Fixed an issue that affected the correct unlocking of the Devotee achievement.\n- Hints are sometimes shown after dying in certain ways. The hints are now shown after fewer consecutive deaths of the same time.\n- Fixed issue where platforms in The Atrium were not visible from an adjacent room."
+            },
+            {
+                "version": "1.317",
+                "change_log": "Just a few fixes!\n- Fixed an issue that would leave some levers in an incorrect state after restarting a completed Speedrun Challenge via the in-game menu.\n- Fixed an issue that prevented unlocking the Hidden Pots achievement.\n"
+            },
+            {
+                "version": "1.307",
+                "change_log": "Official release"
+            },
+            {
+                "version": "1.305",
+                "change_log": "Newest Update"
+            },
+            {
+                "version": "1.303",
+                "change_log": "Newest Update"
+            },
+            {
+                "version": "1.272",
+                "change_log": "Newest Update"
+            }
+        ],
         "keywords": [
             "jones",
             "tomb",
@@ -274,9 +312,9 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 302,
-        "rating": 4.701987,
-        "weighted_rating": 4.47,
+        "votes": 303,
+        "rating": 4.70297,
+        "weighted_rating": 4.48,
         "is_available": true,
         "is_free": false
     },

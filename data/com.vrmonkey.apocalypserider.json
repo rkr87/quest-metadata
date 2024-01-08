@@ -85,6 +85,52 @@
             "logo_transparent": "11162699_126701087935516_1378064514896887808_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.0",
+                "change_log": "Added curves, bugfixes."
+            },
+            {
+                "version": "1.7.5",
+                "change_log": "Changes:\n-Improved garage day lighting\n-Small performance optimizations\n\nFixes:\n-Tires lighting not spinning properly"
+            },
+            {
+                "version": "1.7.4",
+                "change_log": "New:\r\n -Motion Controller left handedness support\r\n \r\n Changes:\r\n -Now possible to skip accelerator setup\r\n -General performance improvements (Garage/HUD)\r\n \r\n Fixes:\r\n -Text overlapping during accelerator setup\r\n -Wrong motion controller state in intermissions\r\n -Possible visible crash texture before gameplay starts"
+            },
+            {
+                "version": "1.7.2",
+                "change_log": "New:\r\n-In-game stage info\r\n\r\nChanges:\r\n-Hand model properly lit\r\n-Major balance changes\r\n\r\nFixes:\r\n-Some clipping in the garage\r\n-Possible visible crash texture when in garage"
+            },
+            {
+                "version": "1.7.0",
+                "change_log": "Changes:\r\n-More intuitive Motion Controller control scheme\r\n-Head tilt influence always enabled (smaller when not main control)\r\n-Target feedback unified across control schemes\r\n\r\nFixes:\r\n-Load screen positioning issue"
+            },
+            {
+                "version": "1.6.0",
+                "change_log": "Fixes:\r\n-Target feedback visible on motion controller before any valid interaction\r\n-All cars white\r\n\r\nChanges:\r\n-Minor rebalance\r\n-Higher gamepad sensitivity\r\n-Performance optimizations\r\n-Small apk size reduction\r\n-Engine updated\r\n-Plugins updated"
+            },
+            {
+                "version": "1.5.2",
+                "change_log": "Changes:\r\n-Dynamic performance reenabled\r\n\r\nFixes:\r\n-Finish line incorrect material on far LODs"
+            },
+            {
+                "version": "1.5.1",
+                "change_log": "Changes:\r\n-Greatly reduced apk size\r\n-Reduced gamepad sensitivity\r\n\r\nFixes:\r\n-Dynamic controller toggling issue (gamepad/Touch)"
+            },
+            {
+                "version": "1.3.2",
+                "change_log": "Update to Unreal Engine 4.17.2 - Possible fix for S7 Edge"
+            },
+            {
+                "version": "1.3.1",
+                "change_log": "v1.3.1/48\n\nBugfixes:\n-Possible invisible car with engine audio playing\n-Some stutter\n-Engine audio loop failing\n-Possible issues when pausing close to losing\n\nChanges:\n-New vespa audio\n\nBalance:\n-Last bike price raised\n-Stage 7 fine tuning"
+            },
+            {
+                "version": "1.3.0",
+                "change_log": "Major changes:\r\n-New audio engine\r\n-Bike audio modulation\r\n\r\nBalance:\r\n-Minor adjustments on stage 7"
+            }
+        ],
         "keywords": [
             "bike",
             "race",

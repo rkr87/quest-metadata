@@ -106,6 +106,20 @@
                 "short_description": "Une expérience interactive où vous mènerez l'enquête au coeur de l'univers de la nouvelle série VORTEX de France TV.\n\nAu côté de Tomer Sisley, résolvez l'enquête en VR !"
             }
         ],
+        "changelog": [
+            {
+                "version": "0.8",
+                "change_log": "We remove the support for Oculus Quest 1\nNow, to keep  Vortex-VR support only the Oculus Quest 2 \n\nThis is a short narrative game only in French\n\nThe manifest included a permission to record audio :  we do not record sound. \n\nWe do not use the mic in this build but in a later update we will use it for a mini-game : blowing on clue - using the mic sound to blow sand/blow vapor on a glass to reveal a fingerprint   .\n\nThank you"
+            },
+            {
+                "version": "0.6",
+                "change_log": "This version is only in French \nReady for distribution \n\nUnity added in the manifest the following permissions restricted by Oculus : \n- android.permission.RECORD_AUDIO\n- android.permission.MODIFY_AUDIO_SETTINGS\n- android.permission.BLUETOOTH_ SCAN\n- android.permission.BLUETOOTH_CONNECT\n- android.permission.BLUETOOTH_ADVERTISE\nThere are not used .\n\nThe game is a single played narrative game without internet or bluetooth accessories.\n\nBest regards"
+            },
+            {
+                "version": "0.5",
+                "change_log": "Ready for production v5"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

@@ -82,6 +82,40 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.8",
+                "change_log": "Fixed a bug that prevented more than one server being listed"
+            },
+            {
+                "version": "1.7",
+                "change_log": "-Fixed the timeline issues from previous build\n-Removed subtitles until a fix is available"
+            },
+            {
+                "version": "1.6",
+                "change_log": "-Fixed a bug in the subtitle rendering\n-Automatically sets aspect ratio for half/full SBS and other videos\n-Made it easier to click on libraries and movies without scrolling\n-Fixed 180 curve settings not being set when you first start playing\n"
+            },
+            {
+                "version": "1.5",
+                "change_log": "-Fixed a bug in the ratings display\n-Added some sounds to the interface"
+            },
+            {
+                "version": "1.4",
+                "change_log": "- Fixed a bug where movies without ratings wouldn't be processed correctly"
+            },
+            {
+                "version": "1.3",
+                "change_log": "-Change some sound effects\n-Improved user interface with buttons that move when you hover\n-Fixed a bug that would prevent movie thumbnails from loading if you changed libraries while they were still loading\n-Made fetching library contents more robust, will continue processing if an error happens with one of the videos\n-Added more debug log info while fetching library contents to track down any issues\n"
+            },
+            {
+                "version": "1.2",
+                "change_log": "-New font and lots of user interface improvements\n-No longer have to sign in with username and password every time\n-Supports secure connections\n-Tries to connect to servers using all connection methods available\n-Added on screen debug log that can help solve connection issues\n-Added login note about how to use 2FA\n"
+            },
+            {
+                "version": "1.1",
+                "change_log": "-Added recentering when long pressing the oculus button and recenter menu from hand controls\n-Added full hand interaction support.\n"
+            }
+        ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,

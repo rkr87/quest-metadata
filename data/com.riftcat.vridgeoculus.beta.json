@@ -82,6 +82,24 @@
             "logo_transparent": "12427480_293619204528080_3437543011691528192_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "2.6.2",
+                "change_log": "VRidge 2.6\n- Improved picture compression quality.\n- Improved color accuracy, especially in dark scenes.\n- Reduced latency on Nvidia cards.\n- Implemented multiple ways to reduce mid-stream artifacting.\n- Reduced continous audio delay that could be triggered by intermittent lags."
+            },
+            {
+                "version": "2.5.0",
+                "change_log": "2.5.0\n- Gamewarp option - new way to interact with non-VR games.\n- Configurable gamma correction.\n- Improved compatibility with new GeForce and Radeon cards.\n\n\nRead about the full list of changes in our most recent blog entry at blog.riftcat.com"
+            },
+            {
+                "version": "2.3.13",
+                "change_log": "Fixed low framerate issue on some Snapdragon devices."
+            },
+            {
+                "version": "2.3.11",
+                "change_log": "2.3.11 - VRidge Tracking Update\n\nNew tracking options, quality of life changes and major improvements. \n\nRead about the full list of changes in our most recent blog entry at blog.riftcat.com"
+            }
+        ],
         "keywords": [
             "vridge",
             "riftcat"

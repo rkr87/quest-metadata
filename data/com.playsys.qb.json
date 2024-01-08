@@ -82,6 +82,60 @@
             "logo_transparent": "12138835_1519435805032907_786918739_n.png"
         },
         "translations": [],
+        "changelog": [
+            {
+                "version": "1.2.2",
+                "change_log": "+ New save system indexing mode\r\n+ Automatic upgrade to the new save system for returning users\r\n- Improved save system initializer to avoid conflicts with the external SD card and more reliable secondary check\r\n- Minor fixes in English and Chinese texts\r\n- Fixed some texts for coherence between Gear VR and other HMD devices"
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "- Minor fixes in Chinese voiceover\n- New save system initializer (thanks to Matt for reporting the bug)\n- Stable save system with secondary check\n- Added manifest permission to use external SD Card"
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "- Chinese voiceover fixes\r\n- Saving system bug fix"
+            },
+            {
+                "version": "1.2.1",
+                "change_log": "- Minor bug fixes\r\n- Platform update\r\n- Improved shading\r\n- Chinese localisation"
+            },
+            {
+                "version": "1.2.0",
+                "change_log": "1.2.0\r\nFollowing the successful release of qb, 3d puzzle game for Samsung Gear VR in June 2016, we have prepared the 2nd pleasant surprise for all the players.\r\n\r\nMajor updates of qb 1.2.0 include:\r\n+ 2nd extra level pack, expanding the game up to 25 levels\r\n+ new gameplay challenges\r\n+ 2nd special boss level\r\n+ improved menu with more levels playable after the initial tutorial\r\n+ new original soundtracks composed for the game\r\n* visual and technical improvements following the platform update\r\n* updated drawcall sorting\r\n* bug fixes in local high score\r\n* vegetation optimizations\r\n* new lightmaps\r\n* improved electricity shaders\r\n* improved image effects and VR camera behaviour\r\n\r\nSuggestions/requests?\r\ncontact us on www.qb-game.com"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "1.1.2\r\nBug fixes in level 15 (thanks to Scott for the feedback)"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "1.1.1\r\n\r\nSame as release 1.1.0 just with some last-minute fixes like platform upgrade to 1.6 (still Unity 5.3 in this release)."
+            },
+            {
+                "version": "1.1",
+                "change_log": "1.1.0\r\n\r\nNEW LEVEL PACK:\r\n+ five new levels and a challenging special boss level!\r\n\r\nCommunity requested features and suggestions:\r\n* Luca promised us that there are no more annoying robots after level 12\r\n* Fixed some glitches in the tutorial level\r\n* Device should get less hot after intense gaming sessions\r\n\r\nFixes and improvements:\r\n+ New visual assets\r\n+ Redesigned lighting and shading system for better looking surfaces and improved frame rate\r\n+ Vegetation and new environments as part of the main story that will evolve in next level packs\r\n+ New soundtracks\r\n+ Added a skippable splash screen\r\n* Upgraded leaderboard platform to 1.5\r\n* Many minor fixes (fade-in/out, sound priority, sprite borders, normal map compression and so on)"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "1.0.4\r\nUser requested features:\r\n+ Extra 3D elements, animations and shading\r\n+ Improved light solution\r\n+ Added optional gamepad support\r\n\r\nFixes and improvements:\r\n* Oculus Universal Menu is now working properly\r\n* Better Antialiasing and texture compression\r\n* Frame rate optimization in some levels"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "1.0.3\n* This set of features is based on additional user test and feedback\n* Minor fixes"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "1.0.2\nnew features:\n* Multi-user on the same device using Oculus ID\n* Leaderboard based on Oculus Platform SDK\n* Added a playable tutorial at the beginning of the game.\n\nadjustments:\n* Contact point of each goal has been shifted closer to the holographic border.\n* New progressively difficulty system: amount of qb is increased and assigned at the beginning of each level using a new algorithm.\n* On the leves 1-4 the success of the game is based on precision. Starting from level 5 the game becomes progressively more difficult, requiring upgrades from the built-in store, adding the strategy component to the gameplay.\n* Minor fixes in some 3D area to prevent a frame rate drop, fixed overlapping models and few intersections."
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "Updated Version"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
         "keywords": [
             "shooter",
             "3d",
