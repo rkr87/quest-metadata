@@ -101,6 +101,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.5.5",
+                "change_log": "v1.5.5.564 (January 8, 2024)\n- Fixed: Player Prefs was setting Dart Throw Power to 1 after reset\n- Added tooltips to menu system\n- Added 'Reset Player Pref and Exit' button to main menu (use this if the main scene won't load).\n- Updated descriptions of Lobby menu options."
+            },
+            {
                 "version": "1.5.4",
                 "change_log": "v1.5.4.563 (January 7, 2024)\n- Happy New Year!\n- Pushed v1.5.4 Hands Beta release to public release channel\n- New Lobby scene allows players to choose between Controller and Hands modes\n- New Hands (Beta) mode in single player with all scenes. Pinch with left hand for in game menu.\n- Updated player prefs for scene loading. Last scene will load on next boot.\n- Upgraded Meta XR SDK to v60, and Meta Avatar SDK to v24.\n- Quest 3 refresh rate set to 90hz and render scale increased to 110%.\n- Added 'Reset Prefs' button in Settings to clear player prefs and exit game.\n- Fixed intermittent Avatar loading in single player modes. Working on multiplayer bug.\n- Updates to localization text and buttons"
             },
@@ -171,10 +175,6 @@
             {
                 "version": "1.4.9",
                 "change_log": "v1.4.9 (April 12, 2022)\n- Small update"
-            },
-            {
-                "version": "1.4.8",
-                "change_log": "v1.4.8 (March 30, 2022)\n- UI Updates\n- Default On Target dart flight updated"
             }
         ],
         "keywords": [],

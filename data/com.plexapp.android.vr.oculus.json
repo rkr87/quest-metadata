@@ -1,0 +1,125 @@
+{
+    "package": "com.plexapp.android.vr.oculus",
+    "data": {
+        "id": "1779825005402730",
+        "additional_ids": [],
+        "name": "Plex VR",
+        "app_name": "Plex VR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2018-04-05T00:00:00",
+        "description": "• Stream shows, movies, and videos from your Plex Media Server or a friend's\n• Simultaneously watch TV and movies together (up to 4 friends) with voice chat and synced video*\n• Full support for 360°/180° and 3D videos\n• Three interactive scenes, including a luxury apartment, the void and a drive-in theater*\n• Save and play videos directly from your device\n• Enable virtual surround sound for simulated 5.1 audio*\n• Point & click to play, or grab videos from the menu to review the cover art and more. You can even place a video next to you to watch later!\n\nPlex VR takes all the movies, TV shows and home movies from your Plex Media Server and launches them into virtual reality. Any video content on a server you control, or that’s shared with you, is available in Plex VR on Oculus Go or a Gear VR headset!\n\nLearn more about Plex at https://www.plex.tv/features/vr\n\n* Plex Pass required for access to Drive-in theatre, Virtual Surround, and for Watching Together after one week free trial period",
+        "markdown": false,
+        "developer": "Plex, Inc.",
+        "publisher": "Plex, Inc.",
+        "genres": [
+            "Casual",
+            "360 Experience (non-game)",
+            "Movie"
+        ],
+        "devices": [
+            "Touchpad",
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 334
+            },
+            {
+                "rating": 2,
+                "votes": 115
+            },
+            {
+                "rating": 3,
+                "votes": 101
+            },
+            {
+                "rating": 4,
+                "votes": 100
+            },
+            {
+                "rating": 5,
+                "votes": 499
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact",
+                "Digital Purchases"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.plex.tv/",
+        "app_images": {
+            "cover_landscape": "12331252_598482987182344_5975875886287683584_n.png",
+            "cover_portrait": "12410355_1767456733308927_5342101466888798208_n.png",
+            "cover_square": "12386401_161722557870938_703273222245711872_n.png",
+            "hero": "12410407_1904006596307331_2032961347234299904_n.png",
+            "icon": "12331252_1304089536358458_6469978845393977344_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "12139007_1862118727194993_3181625044602191872_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.5.0.111",
+                "change_log": "NEW:\n - Add support for audio and subtitle stream selection.\n\nFIXES:\n - Fixed gaze icon visibility.\n - Don't use trigger to select things.\n - Loft: don't move blinds up and down too often."
+            },
+            {
+                "version": "1.4.2.72",
+                "change_log": "- [Gear VR] Fixed gaze icon visibility"
+            },
+            {
+                "version": "1.4.1.71",
+                "change_log": "- Fix playback artifacts playing some 3D videos."
+            },
+            {
+                "version": "1.4.0.61",
+                "change_log": "NEW:\r\n - Added support for the Watch Together feature.\r\n - Virtual surround sound (simulated 5.1) now available for Plex Pass users.\r\n - Allow selection of the right version before playback.\r\n\r\nFIXES:\r\n - The keyboard is now positioned correctly in the Drive In scene.\r\n - Fixed video thumbnail aspect ratios."
+            },
+            {
+                "version": "1.3.0.36",
+                "change_log": "NEW:\n- Darker evening lighting in Luxury Apartment scene, and lights dim when shades come down\n- First run tutorial explaining how to install Plex Media Server\n- Helpful message if no local videos are available\n\nFIXED:\n- Aliasing in Luxury Apartment scene\n- Screen height in Void scene\n- Make sure coffee table doesn't block laser pointer during login.\n- Fix laser pointer selection of buttons in 'Search' dialog\n- Remember previously selected scene when app is restarted"
+            }
+        ],
+        "keywords": [
+            "Stream",
+            "Video",
+            "TV",
+            "Movie",
+            "Media"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "votes": 1149,
+        "rating": 3.274151,
+        "weighted_rating": 3.32,
+        "is_available": false,
+        "is_free": false
+    },
+    "errors": []
+}
