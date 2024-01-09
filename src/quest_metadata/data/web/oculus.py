@@ -150,7 +150,7 @@ class _Payload(BaseModel):
 
 
 @final
-class Wrapper(Singleton):
+class OculusService(Singleton):
     """
     Singleton class for making various API requests.
 

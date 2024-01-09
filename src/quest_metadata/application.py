@@ -16,7 +16,7 @@ from controller.image_manager import ImageManager
 from controller.updater import Updater
 from data.local.app_manager import AppManager
 from data.web.http_client import HttpClient
-from data.web.wrapper import Wrapper
+from data.web.oculus import OculusService
 from utils.async_runner import AsyncRunner
 
 
@@ -40,7 +40,7 @@ class Application(Singleton):
         self._app_manager: AppManager = AppManager()
         async_runner = AsyncRunner(workers=AppConfig().max_threads)
         self._image_manager = ImageManager(async_runner)
-        self._wrapper: Wrapper
+        self._oculus: OculusService
         self._updater: Updater
 
     async def _async_init(self) -> "Application":
@@ -53,9 +53,9 @@ class Application(Singleton):
         await self._setup_environment()
         client = HttpClient()
         await client.open_session()
-        self._wrapper = Wrapper(client)
+        self._oculus = OculusService(client)
         self._updater = \
-            Updater(self._app_manager, self._wrapper, self._image_manager)
+            Updater(self._app_manager, self._oculus, self._image_manager)
         return self
 
     def __await__(self) -> Generator[Any, None, "Application"]:
@@ -104,14 +104,14 @@ class Application(Singleton):
         """
         return self._app_manager
 
-    def get_wrapper(self) -> Wrapper:
+    def get_wrapper(self) -> OculusService:
         """
         Get the Wrapper instance.
 
         Returns:
         Wrapper: The Wrapper instance.
         """
-        return self._wrapper
+        return self._oculus
 
     def get_updater(self) -> Updater:
         """

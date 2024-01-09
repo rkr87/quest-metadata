@@ -25,7 +25,7 @@ from data.model.oculus.app_versions import AppVersions
 from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
-from data.web.wrapper import Wrapper
+from data.web.oculus import OculusService
 from helpers.math import percentile
 from utils.error_manager import ErrorManager
 
@@ -46,20 +46,20 @@ class Updater(Singleton):
     def __init__(
         self,
         app_manager: AppManager,
-        wrapper: Wrapper,
+        oculus: OculusService,
         image_manager: ImageManager
     ) -> None:
         super().__init__()
         self._logger.info("Initializing updater")
         self._app_manager: AppManager = app_manager
-        self._wrapper: Wrapper = wrapper
+        self._oculus: OculusService = oculus
         self._image_manager: ImageManager = image_manager
 
     async def update_local_apps(self) -> None:
         """
         Update local apps by collecting package names and parsing data.
         """
-        oculusdb: OculusDbApps = await self._wrapper.get_oculusdb_apps()
+        oculusdb: OculusDbApps = await self._oculus.get_oculusdb_apps()
         self._logger.info("Collecting package names for each OculusDB app")
         parsed: list[ParsedAppItem] = await asyncio.gather(*[
             self._parse_result(i.id, i.app_name, i.package_name)
@@ -68,7 +68,7 @@ class Updater(Singleton):
 
         parsed_ids: list[str] = [i.id for i in parsed]
 
-        oculus: StoreSection = await self._wrapper.get_store_apps()
+        oculus: StoreSection = await self._oculus.get_store_apps()
         self._logger.info("Collecting package names for each Oculus app")
         parsed += await asyncio.gather(*[
             self._parse_result(i.id, i.display_name)
@@ -83,7 +83,7 @@ class Updater(Singleton):
 
         self._logger.info("Populating missing changelogs")
         for package, app in self._app_manager.get_needs_changelog().items():
-            if (log := await self._wrapper.get_app_changelog(app.id)) is None:
+            if (log := await self._oculus.get_app_changelog(app.id)) is None:
                 continue
             self._app_manager.add_changelog(package, log)
 
@@ -110,13 +110,13 @@ class Updater(Singleton):
         if (app := self._app_manager.get_app_by_id(app_id)) is not None:
             updated: bool = False
             log: AppChangeLog | None = \
-                await self._wrapper.get_app_changelog(app_id)
+                await self._oculus.get_app_changelog(app_id)
             if log is not None and len(log) > 0:
                 updated = self._app_manager.add_changelog(app[0], log)
             if not updated:
                 parsed.packages.extend([known_package, app[0]])
                 return parsed
-        parsed.versions = await self._wrapper.get_app_versions(app_id)
+        parsed.versions = await self._oculus.get_app_versions(app_id)
         if parsed.versions is None:
             return parsed
         parsed.packages = await self._get_version_packages(
@@ -143,7 +143,7 @@ class Updater(Singleton):
         """
         packages: LowerCaseUniqueList = LowerCaseUniqueList()
         for version in versions:
-            pkg: AppPackage | None = await self._wrapper.get_version_package(
+            pkg: AppPackage | None = await self._oculus.get_version_package(
                 app_id,
                 version.code
             )
@@ -223,7 +223,7 @@ class Updater(Singleton):
         result.data.changelog = app.change_log
 
         image_downloads: list[AppImage] = \
-            await self._wrapper.get_resources(result.data.resources)
+            await self._oculus.get_resources(result.data.resources)
         await self._process_images(image_downloads)
         await self._app_manager.update(
             package,
@@ -264,10 +264,10 @@ class Updater(Singleton):
         Optional[OculusApp]: The scraped OculusApp instance or None if no
             response.
         """
-        if (app := await self._wrapper.get_app_details(app_id)) is None:
+        if (app := await self._oculus.get_app_details(app_id)) is None:
             return None
         additionals: AppAdditionalDetails | None = \
-            await self._wrapper.get_app_additionals(app_id)
+            await self._oculus.get_app_additionals(app_id)
         if additionals is not None:
             app.data.set_additional_details(additionals)
 
