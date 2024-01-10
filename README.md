@@ -1,11 +1,12 @@
 **Features**
 - add available_on_rookie flag
-- add review summaries
 - include parsing of google form for rookie multiplayer reports
+- add google form condensed metadata submissions for apps not on the meta store
+  - scrape artwork from steam?
+- add exclusion of google form reports of "bad metadata"
 
 **Performance**
 - move images to google drive
-- implement multiprocessing/concurrency for image manipulation
 
 **Logging/Error Handling**
 - better timeit implementation
