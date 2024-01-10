@@ -15,6 +15,7 @@ from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from controller.updater import Updater
 from data.local.app_manager import AppManager
+from data.web.google import GoogleSheetService
 from data.web.http_client import HttpClient
 from data.web.oculus import OculusService
 from utils.async_runner import AsyncRunner
@@ -22,25 +23,10 @@ from utils.async_runner import AsyncRunner
 
 @final
 class Application(Singleton):
-    """
-    Singleton class for managing and updating Oculus apps.
-
-    Attributes:
-    - _app_manager (AppManager): Instance of AppManager for managing local
-        apps.
-    - _image_manager (ImageManager): Instance of ImageManager for resizing and
-        cropping images.
-    - _wrapper (Wrapper): Instance of Wrapper for making web requests.
-    - _updater (Updater): Instance of Updater for updating and scraping Oculus
-        apps.
-    """
+    """Singleton class for managing and updating Oculus apps."""
 
     def __init__(self) -> None:
         super().__init__()
-        self._app_manager: AppManager = AppManager()
-        async_runner = AsyncRunner(workers=AppConfig().max_threads)
-        self._image_manager = ImageManager(async_runner)
-        self._oculus: OculusService
         self._updater: Updater
 
     async def _async_init(self) -> "Application":
@@ -50,12 +36,15 @@ class Application(Singleton):
         Returns:
         Application: The initialized Application instance.
         """
-        await self._setup_environment()
+        app_manager: AppManager = AppManager()
+        async_runner = AsyncRunner(workers=AppConfig().max_threads)
+        image_manager = ImageManager(async_runner)
         client = HttpClient()
         await client.open_session()
-        self._oculus = OculusService(client)
-        self._updater = \
-            Updater(self._app_manager, self._oculus, self._image_manager)
+        oculus = OculusService(client)
+        sheets = GoogleSheetService()
+        self._updater = Updater(app_manager, oculus, image_manager, sheets)
+        await self._setup_environment()
         return self
 
     def __await__(self) -> Generator[Any, None, "Application"]:
@@ -94,39 +83,3 @@ class Application(Singleton):
             "Finished scraping app data and resources in %s seconds",
             delta.seconds
         )
-
-    def get_app_manager(self) -> AppManager:
-        """
-        Get the AppManager instance.
-
-        Returns:
-        AppManager: The AppManager instance.
-        """
-        return self._app_manager
-
-    def get_wrapper(self) -> OculusService:
-        """
-        Get the Wrapper instance.
-
-        Returns:
-        Wrapper: The Wrapper instance.
-        """
-        return self._oculus
-
-    def get_updater(self) -> Updater:
-        """
-        Get the Updater instance.
-
-        Returns:
-        Updater: The Updater instance.
-        """
-        return self._updater
-
-    def get_image_manager(self) -> ImageManager:
-        """
-        Get the ImageManager instance.
-
-        Returns:
-        ImageManager: The ImageManager instance.
-        """
-        return self._image_manager

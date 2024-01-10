@@ -5,7 +5,8 @@ Classes:
 - Updater: Singleton class for updating and scraping Oculus apps.
 """
 import asyncio
-from typing import final
+from collections.abc import Coroutine
+from typing import Any, final
 
 from aiofiles import open as aopen
 from aiofiles.os import makedirs, path, remove
@@ -25,6 +26,7 @@ from data.model.oculus.app_versions import AppVersions
 from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
+from data.web.google import GoogleSheetService
 from data.web.oculus import OculusService
 from helpers.math import percentile
 from utils.error_manager import ErrorManager
@@ -47,17 +49,32 @@ class Updater(Singleton):
         self,
         app_manager: AppManager,
         oculus: OculusService,
-        image_manager: ImageManager
+        image_manager: ImageManager,
+        sheet_service: GoogleSheetService
     ) -> None:
         super().__init__()
         self._logger.info("Initializing updater")
         self._app_manager: AppManager = app_manager
         self._oculus: OculusService = oculus
         self._image_manager: ImageManager = image_manager
+        self._sheet_service: GoogleSheetService = sheet_service
+        self._parsed_apps: list[ParsedAppItem] = []
 
     async def update_local_apps(self) -> None:
         """
         Update local apps by collecting package names and parsing data.
+        """
+        await self._update_oculusdb_apps()
+        await self._update_store_apps()
+        await self._update_package_mappings()
+        await self._update_local_app_database()
+        await self._populate_missing_changelogs()
+        await self._app_manager.save()
+
+    async def _update_oculusdb_apps(self) -> None:
+        """
+        Update the list of OculusDB apps, collect package names, and parse
+        data.
         """
         oculusdb: OculusDbApps = await self._oculus.get_oculusdb_apps()
         self._logger.info("Collecting package names for each OculusDB app")
@@ -65,29 +82,59 @@ class Updater(Singleton):
             self._parse_result(i.id, i.app_name, i.package_name)
             for i in oculusdb
         ])
+        self._update_parsed_apps(parsed)
 
-        parsed_ids: list[str] = [i.id for i in parsed]
-
+    async def _update_store_apps(self) -> None:
+        """
+        Update the list of Oculus Store apps, collect package names, and parse
+        data.
+        """
         oculus: StoreSection = await self._oculus.get_store_apps()
         self._logger.info("Collecting package names for each Oculus app")
-        parsed += await asyncio.gather(*[
+        parsed: list[ParsedAppItem] = await asyncio.gather(*[
             self._parse_result(i.id, i.display_name)
             for i in oculus
-            if i.id not in parsed_ids
+            if i.id not in self._get_parsed_ids()
         ])
+        self._update_parsed_apps(parsed)
 
+    async def _update_package_mappings(self) -> None:
+        """Update package mappings by collecting data from Google Forms."""
+        if package_mappings := self._sheet_service.get_package_mappings():
+            mapping_tasks: list[Coroutine[Any, Any, ParsedAppItem]] = []
+            self._logger.info("Collecting package mappings from Google Forms")
+            for i in package_mappings.root:
+                if (x := self._get_parsed_ids()) and i.store_id not in x:
+                    mapping_tasks.append(
+                        self._parse_result(i.store_id, i.name, i.package)
+                    )
+                    continue
+                dupe: ParsedAppItem = self._parsed_apps[x.index(i.store_id)]
+                dupe.packages.append(i.package)
+
+            parsed: list[ParsedAppItem] = await asyncio.gather(*mapping_tasks)
+            self._update_parsed_apps(parsed)
+
+    async def _update_local_app_database(self) -> None:
+        """Update the local app database with parsed app data."""
         self._logger.info("Updating local apps database")
-
-        for item in parsed:
+        for item in self._parsed_apps:
             self._app_manager.add(item)
 
+    async def _populate_missing_changelogs(self) -> None:
+        """Populate missing changelogs for local apps."""
         self._logger.info("Populating missing changelogs")
         for package, app in self._app_manager.get_needs_changelog().items():
-            if (log := await self._oculus.get_app_changelog(app.id)) is None:
-                continue
-            self._app_manager.add_changelog(package, log)
+            if log := await self._oculus.get_app_changelog(app.id):
+                self._app_manager.add_changelog(package, log)
 
-        await self._app_manager.save()
+    def _update_parsed_apps(self, parsed: list[ParsedAppItem]) -> None:
+        """Update the list of parsed apps with new data."""
+        self._parsed_apps += parsed
+
+    def _get_parsed_ids(self) -> list[str]:
+        """Get a list of IDs from the parsed apps."""
+        return [i.id for i in self._parsed_apps]
 
     async def _parse_result(
         self,
