@@ -44,6 +44,13 @@ jobs:
         run: pip install -r .config/app/requirements.txt
 
       - name: Execute script
+        env:
+          GOOGLE_PROJECT_ID: ${{ secrets.GOOGLE_PROJECT_ID }}
+          GOOGLE_PRIVATE_KEY_ID: ${{ secrets.GOOGLE_PRIVATE_KEY_ID }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CERT_URL: ${{ secrets.GOOGLE_CERT_URL }}
         run: python src/quest_metadata/main.py -c .config/app/app_config.github.json
         continue-on-error: true
           
@@ -72,7 +79,7 @@ jobs:
         if: always()
         run: |
           git add res
-          git diff-index --quiet HEAD || git commit -m 'github_action: update res'
+          git diff-index --quiet HEAD || git commit -m 'github_action: update resources'
         continue-on-error: true
 
       - name: Push commits
