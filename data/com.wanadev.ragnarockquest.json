@@ -62,7 +62,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 26
+                "votes": 27
             },
             {
                 "rating": 2,
@@ -78,7 +78,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1223
+                "votes": 1224
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -239,6 +239,10 @@
         ],
         "changelog": [
             {
+                "version": "2.3.1",
+                "change_log": "Fixed a crash that could occur on game start"
+            },
+            {
                 "version": "2.3.0",
                 "change_log": "Jonathan Young RAID - Update 2.3.0\n\n - Added Jonathan Young RAID DLC with 6 songs, Kraken boat and Kraken hammer\n - Added shortcut on vote panel to vote for the same song as someone else \n - Fixed issues with podium when a player joins/leaves the game\n - Fixed disappearing beards on podium"
             },
@@ -313,18 +317,14 @@
             {
                 "version": "1.5.1",
                 "change_log": "Update 1.5 - Patch 1\n\n- Fix selecting a drakkar not owned\n- Fixed a freeze happening a few minutes after launching the game (depended on the number of custom songs)\n- Fix focus last song played in song list when in subfolders\n- Fix favorite duplicate if custom song changed folder\n- UI fixes"
-            },
-            {
-                "version": "1.5.0",
-                "change_log": "Update 1.5\nHellfest RAID is now available!\n\nPlay 11 new epic tracks by bands from the 2022 Hellfest line-up, including The Offspring, Nightwish and DragonForce. Discover a new environment, a new longship, and collect the unique Hellfest Hammer by playing all songs from the pack. Go be a rock star on stage!\nIncludes:\n- The Offspring - \"You’re Gonna Go Far, Kid\"\n- Nightwish - \"Tribal\"\n- DragonForce - \"Heart Demolition\"\n- Gojira - \"Born For One Thing\"\n- Helloween - \"Skyfall\"\n- Blind Guardian - \"Battlefield\"\n- Avatar - \"Going Hunting\"\n- The Rumjacks - \"One For The Road\"\n- Therion - \"Great Marquis of Hell\"\n- Disconnected - \"Life Will Always Find Its Way\"\n- Fejd - \"Härjaren\"\n\nAnd cosmetic updates:\n- New Hellfest environment for owners of a song from the Hellfest RAID\n- New Hellfest longship for owners of a song from the Hellfest RAID\n- New Hellfest Hammer skin - Unlocks by playing all songs from the pack at least once.\n\nLongship Customization\n- Added \"Changing Room\" in lobby: A new space to collect and customize your hammers and longships.\n- Added two new longships for everyone: Raven and Wolf\n- Added Gloryhammer longship for owners of a song from the Gloryhammer RAID\n\nOther\n- Added arrows on Drums and hammers settings for more precise changes\n- Fixed free mode of external camera"
             }
         ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 1389,
-        "rating": 4.781138,
+        "votes": 1391,
+        "rating": 4.778577,
         "weighted_rating": 4.71,
         "is_available": true,
         "is_free": false

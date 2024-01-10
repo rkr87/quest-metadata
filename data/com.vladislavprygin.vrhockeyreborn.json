@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 16
+                "votes": 15
             },
             {
                 "rating": 5,
-                "votes": 64
+                "votes": 67
             }
         ],
         "comfort": "NOT_RATED",
@@ -87,6 +87,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.0.38.2",
+                "change_log": "Super experimental early access controller attachment support."
+            },
             {
                 "version": "0.0.38.1",
                 "change_log": "Private lobbies joining should be consistent now\nHopping the boards\nClosed Boards in privates (you still can go through door)\nGoal horn and crowd for a second net in privates\nGoalie jersey is not matches what you selected\nGoalie stick should be less glitchy now"
@@ -154,19 +158,15 @@
             {
                 "version": "0.0.35.18",
                 "change_log": "Voice Chat for multiplayer is here! \nIt is prototype, so there is no Mute options or anything, so please be patient for upcoming updates."
-            },
-            {
-                "version": "0.0.35.17",
-                "change_log": "Add delta for goalie pads moving to post position.\nFix bug when pads are not going down when pressing thumbstick to crouch."
             }
         ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 103,
-        "rating": 4.203883,
-        "weighted_rating": 4.02,
+        "votes": 105,
+        "rating": 4.228571,
+        "weighted_rating": 4.03,
         "is_available": true,
         "is_free": true
     },
