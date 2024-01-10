@@ -14,7 +14,7 @@ from collections.abc import Iterable
 from typing import Any, Generic, Self, SupportsIndex, TypeVar, overload
 
 from pydantic import GetCoreSchemaHandler
-from pydantic_core import CoreSchema, core_schema
+from pydantic_core import SchemaSerializer, core_schema
 
 _VT = TypeVar("_VT")
 
@@ -144,11 +144,11 @@ class ValidatedList(UserList[_VT], Generic[_VT], ABC):
         return [value]
 
     @classmethod
-    def __get_pydantic_core_schema__(  # type: ignore[misc] # pylint: disable=w0613, w3201
+    def __get_pydantic_core_schema__(  # type: ignore[misc] # pylint: disable=w3201
         cls,
         source_type: Any,
         handler: GetCoreSchemaHandler
-    ) -> CoreSchema:
+    ) -> core_schema.CoreSchema:
         """
         Provides Pydantic core schema information for the class.
 
@@ -159,10 +159,19 @@ class ValidatedList(UserList[_VT], Generic[_VT], ABC):
         Returns:
         - CoreSchema: The generated core schema.
         """
-        return core_schema.no_info_after_validator_function(
-            cls,
-            handler(list[_VT])
-        )
+        _ = source_type
+        schema: core_schema.AfterValidatorFunctionSchema = \
+            core_schema.no_info_after_validator_function(
+                cls,
+                handler(set),
+                serialization=core_schema.plain_serializer_function_ser_schema(
+                    set,
+                    info_arg=False,
+                    return_schema=core_schema.set_schema(),
+                ),
+            )
+        cls.__pydantic_serializer__ = SchemaSerializer(schema)  # type: ignore[attr-defined]
+        return schema
 
 
 class UniqueList(ValidatedList[_VT]):
