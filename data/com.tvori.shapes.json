@@ -96,6 +96,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.3.5.9445",
+                "change_log": "Improvements:\n-Improved text display for the Scale Gizmo (now shows scale instead of size).\n-Implemented axis line display on the gizmo handle when touched.\n-Enhanced switching between the surface snapping and world snapping buttons.\n-Added additional import resolution UI options: 0.33, 0.25, 0.1.\n-Implemented extra authentication protection during device pauses.\n-Enabled shadows by default in new spaces.\n\nFixes:\n-Fixed the issue where the \"Increase Quality\" button was on by default for new spaces.\n-Resolved the issue preventing device pairing when the time is set manually.\n-Corrected the malfunction of shadows in Play mode.\n-Fixed several errors occurring during Play mode with interactivity.\n-Resolved incorrect offset in Play mode when content aligns with user space.\n-Fixed the issue where pop-up forms were not interactable in Play mode.\n-Renamed the template for clarity.\n-Improved user authentication analytics processing and transmission.\n-Fixed the issue where the previously selected tool stops working after exiting Play mode.\n-Addressed a specific error occurring during Play mode with interactivity."
+            },
+            {
                 "version": "2.3.4.9441",
                 "change_log": "2.3.3.9328 -> 2.3.4.9441\nImprovements:\n-Attach to hand MVP\n-A core logic support and implementation for the contexed microphone access activation\n-Sign-in flow improvements and fixes\n\nFixes:\n-Fixed when the app is closed after grabbing a missing asset\n-Fixed when there wasn’t a message in gaze&pinch mode if hand tracking was off\n-Fixed incorrect interactivity options are displayed when another user switches the input mode\n-Fixed when interactivity works only on the stage in which Play mode is running\n-Fixed a bug where the non-dominant hand pointer does not work in Play mode\n-Added removal of user info from cache after logging out"
             },

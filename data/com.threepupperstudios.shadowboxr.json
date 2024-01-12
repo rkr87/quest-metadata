@@ -88,6 +88,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.1.33",
+                "change_log": "1)  New stance option \"Horsefoot\". This option prompts a straight on pose. This allows dodge obstacles to appear on either side\n\n2) Bug Fixes:\n\t• Fixed issue causing pop ups to require selecting an option to close them.\n\t• Fixed issue causing playlists to not play delete correctly sometimes.\n\n3) User experience improvements.\n\t• Beats per minute now displayed in song information.\n\t• Added \"Resume button to settings menu in game.\n\t• Height calibration is now more straightforward.\n\t• Overall UI improvements"
+            },
+            {
                 "version": "0.1.32.1",
                 "change_log": "1)  Fixed bug causing the game to get into a locked state requiring players to restart the game when selecting a playlist created prior to version 0.1.32 using a custom environment created prior to 0.1.32. This was caused by an oversight in attempting to load the previous data resulting in unexpected results."
             },
@@ -162,10 +166,6 @@
             {
                 "version": "0.1.19",
                 "change_log": "Fixed bug causing keyboard to type each letter twice.\n\nCommunity content now is an endless scroller instead of having individual pages."
-            },
-            {
-                "version": "0.1.18",
-                "change_log": "Improved performance.\n\nPlayer can select starting forward foot now.\n\nImproved user experience when returning from a workout.\n\nScrollable lists can now be dragged."
             }
         ],
         "keywords": [],

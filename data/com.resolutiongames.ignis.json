@@ -74,7 +74,7 @@
             },
             {
                 "rating": 3,
-                "votes": 81
+                "votes": 82
             },
             {
                 "rating": 4,
@@ -112,6 +112,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.2.240432-release",
+                "change_log": "Hello everyone!\nHere are some additional hotfix changes for the 2.2 patch, primarily concerning passthrough.\nUnfortunately, to fix the passthrough issues we've seen, we've had to reduce the supported refresh rate for Quest 3 from 120 Hz to 90 Hz.\nWe'll see if we can increase the refresh rate on Quest 3 again in the future, without reintroducing any passthrough issues.\nYou can still enforce a 120 Hz refresh rate yourself through external means, like you can on Quest 2.\n\n## Game Updates\n- Reduced the supported refresh rate for Quest 3 from 120 Hz to 90 Hz.\n- Made the Passthrough toggle in the Settings menu toggle passthrough for matches again, rather than simply enabling passthrough-toggling by pressing X+A in matches.\n- Made pressing X+A toggle the passthrough setting when in the main menu too, making it clear that the UI toggle and X+A are equivalent.\n\n## Bug Fixes\n- Fixed an issue where toggling passthrough on Quest 3 could freeze the game.\n- Fixed an issue with passthrough only showing black after visiting the Ozo Lounge.\n- Reduced the risk of the Resolution Discover menu button remaining in matches."
+            },
             {
                 "version": "2.2.239000-release",
                 "change_log": "- Fixed an issue where you couldn't get past the initial announcement, with the game set to a language other than English.\n- Made it more clear that the close button and \"Don't show again\" checkbox on the initial announcement are interactive."
@@ -159,8 +163,8 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 2634,
-        "rating": 4.412301,
+        "votes": 2635,
+        "rating": 4.411765,
         "weighted_rating": 4.39,
         "is_available": true,
         "is_free": true

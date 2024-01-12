@@ -87,6 +87,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.13.00.15",
+                "change_log": "AudioFX popup better location"
+            },
+            {
                 "version": "1.13.00.14",
                 "change_log": "open settings no longer closes scene based world choosers"
             },
@@ -161,10 +165,6 @@
             {
                 "version": "1.11.00.01",
                 "change_log": "- Quest 3 Support\n- Global themes in settings (transparent cubes, spheres for clips), colour themes for synths and waveforms\n- Fixed bug in step sequencer where steps couldn't be removed if close behind the beat\n- Fixed bug in scene playback where stopping one scene would stop clips in another scene\n- Default to 1.5 super sampling on Quest 3\n- New help system accessible from the arm menu\n- Help from the popup ? button now shows help in app rather than in the OS browser\n- Fixed glitched fingers on ReadyPlayerMe Avatars\n- Better video performance on Quest 3 by using system video player\n- Removed passthrough world, this will be re-added when Meta roll out UE 5.3 support this month"
-            },
-            {
-                "version": "1.10.00.03",
-                "change_log": "- Unreal version 5.3\n- Better performance\n- Video shape chooser\n- Improved animation of avatars\n- Faster timestretch"
             }
         ],
         "keywords": [],
