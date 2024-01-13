@@ -24,6 +24,7 @@ from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_changelog import AppChangeLog
 from data.model.oculus.app_package import AppPackage
 from data.model.oculus.app_versions import AppVersions
+from data.model.oculus.store_search import SearchResult
 from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
@@ -76,6 +77,24 @@ class Updater(Singleton):
         await self._populate_missing_changelogs()
         self._parse_rookie_updates()
         await self._app_manager.save()
+
+    async def _identify_missing_apps(self, apps: LocalApps) -> None:
+        """Search the meta store for app names without an identifiable id"""
+        async def search(app: LocalApp) -> None:
+            if app.id is None:
+                search: list[SearchResult] = \
+                    await self._oculus.store_search(app.app_name)
+                rep: str = "-"
+                if len(search) == 0 and rep in app.app_name:
+                    search = await self._oculus.store_search(
+                        app.app_name.replace(rep, ":")
+                    )
+                for result in search:
+                    await self._oculus.oculusdb_report_missing(result.id)
+                    self._logger.info("Identified: %s", result.display_name)
+
+        self._logger.info("Attempting to identify missing apps.")
+        await asyncio.gather(*[search(a) for a in apps.values()])
 
     async def _update_oculusdb_apps(self) -> None:
         """
@@ -231,6 +250,8 @@ class Updater(Singleton):
         ratings.
         """
         apps: LocalApps = self._app_manager.get()
+
+        await self._identify_missing_apps(apps)
         self._logger.info("Fetching %s apps from oculus.com", len(apps))
 
         tasks: list[OculusApp | None] = await asyncio.gather(
