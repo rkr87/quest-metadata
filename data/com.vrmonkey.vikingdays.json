@@ -1,23 +1,28 @@
 {
     "package": "com.vrmonkey.vikingdays",
     "data": {
-        "id": "1379118102193143",
-        "additional_ids": [],
-        "name": "Viking Days",
-        "app_name": "Viking Days",
+        "id": "5058206260875087",
+        "additional_ids": [
+            "1379118102193143"
+        ],
+        "name": "Viking Days Remaster",
+        "app_name": "Viking Days Remaster",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2018-05-15T00:00:00",
-        "description": "Viking Days puts the “reality” in “Virtual Reality” to show, through 10 minigames, the domestic life of the fine upstanding viking. Each mini-game showing clear instructions to the player, and making use of the VR motion controller in different ways for they to interact with the game world.\n\nAt each starting game, a random selection of minigames is sorted for the player. As they progress, more minigames are added to the tier, and the minigames that repeat gets increasingly tougher. After every win, the game will show the player their current winning-streak. The challenge here is to overpass the player’s own high-score. How many days can they survive being a viking?\n\nForge swords, drink lots of mead, throw axes on targets, hunt for dragons, guide viking ships,  cross windy mountains, shield yourself from arrows and more! Live the good old viking days!",
+        "release_date": "2021-11-17T00:00:00",
+        "description": "Face the domestic life of the fine upstanding viking in 17 mini challenges!\n\nInvite your newbie friends to compete with you in a EASY TO PLAY, HARD TO MASTER series of mini-games and show them who is the true Viking Master!\n\nViking Days is a game born to show the amazing and easy aspects of nowadays Virtual Reality! After the success of the game for old 3DOF platforms we bring a renew version for 6DOF exploring more of the freedom we have with 2 controllers and being able to move around the space.\n\nWith extra 7 days from the original game (total of 17), you will now be able to go down mountains skiing, enjoy the peace of fishing, compete in a target practice with arrow and bow and climb your way to obstacles and more!\n",
         "markdown": false,
         "developer": "VRMonkey",
         "publisher": "VRMonkey",
         "genres": [
-            "Action",
-            "Casual"
+            "Arcade",
+            "Casual",
+            "Sports",
+            "Action"
         ],
         "devices": [
+            "Touch Controllers",
             "Touchpad",
             "3DOF Controller"
         ],
@@ -28,15 +33,23 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go",
             "Gear VR"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 11
+                "votes": 12
             },
             {
                 "rating": 2,
@@ -48,50 +61,46 @@
             },
             {
                 "rating": 4,
-                "votes": 20
+                "votes": 24
             },
             {
                 "rating": 5,
-                "votes": 22
+                "votes": 38
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
-                "Use of Alcohol",
-                "Fantasy Violence"
+                "Fantasy Violence",
+                "Use of Alcohol"
             ],
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
-        "website": "http://www.vrmonkey.com.br/projects/vikingdays",
+        "website": "http://vrmonkey.com.br/projects/vikingdays/",
         "app_images": {
-            "cover_landscape": "12410280_132077784285342_2006052307678003200_n.png",
-            "cover_portrait": "12138782_1842106219194667_3208056114427985920_n.png",
-            "cover_square": "12410440_208408176562698_6885874843791654912_n.png",
-            "hero": "12448944_519765991757241_2533889791057985536_n.png",
-            "icon": "12448944_873981496137492_873474113237155840_n.png",
+            "cover_landscape": "38982492_578428819877749_6470813241786879573_n.png",
+            "cover_portrait": "38974883_2749353718693373_3884157039964171477_n.png",
+            "cover_square": "38974875_963584180904144_545446777364198543_n.png",
+            "hero": "38974672_416942533326886_2612734028571528459_n.png",
+            "icon": "38974873_2074555892719489_674143423592015284_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "12482156_993767924109925_5873945892762943488_n.png"
+            "logo_transparent": "38974844_418562146341059_5555955409351064896_n.png"
         },
         "translations": [],
         "changelog": [
             {
-                "version": "1.0",
-                "change_log": "Version 1.0"
+                "version": "2.3",
+                "change_log": "New 2 levels, barbershop and fix the boat.\nLeadeboards\nAchievements"
             },
             {
-                "version": "1.0",
-                "change_log": "Version 1.0"
-            },
-            {
-                "version": "1.0",
-                "change_log": "Version 1.0"
+                "version": "2.2",
+                "change_log": "New 2 games, Cut the Beard and Fix the Ship, plus Leaderboards"
             }
         ],
         "keywords": [
@@ -105,9 +114,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 80,
-        "rating": 3.3875,
-        "weighted_rating": 3.65,
+        "votes": 101,
+        "rating": 3.643564,
+        "weighted_rating": 3.75,
         "is_available": true,
         "is_free": false
     },

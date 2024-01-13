@@ -1,0 +1,140 @@
+{
+    "package": "com.uncloudy.dreamtangoascensiondebugarena",
+    "data": {
+        "id": "4361439910566306",
+        "additional_ids": [],
+        "name": "Dream Tango Ascension",
+        "app_name": "Dream Tango Ascension",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "ENTERTAINMENT",
+        "release_date": "2022-06-27T00:00:00",
+        "description": "Get it now on Early Access (with 30% discount).\n\nTired of all the conventional first person shooters? \nEmbark on a cosmic adventure in this Celestial Wave Shooter: “The ultimate otherworldly experience with unique trippy theme and heart pumping action”!\n\nThe Primordial Gods have hidden away the Powerful Items of Creation at the pinnacle of the Cosmos: the Astral Sanctum. \nAnd you, a young spirit traveller, with a vague memory of who you are, find yourself on the path to get there.\nDream Tango: Ascension is a story driven fast-paced VR wave shooter with melee combat mechanics, set as the prequel to Dream Tango.\nFight your way through the game’s arenas and defeat waves of Hecate-Astraea’s minions. Raise your level by gaining XP, and beat the Celestial Leaderboard by proving your fighting skills.\nDiscover secrets and hidden clues that will reveal your lost origin and purpose. And finally ascend to the Higher Sanctum of the Dream Dimension and face off against a being of cosmic proportions in what is probably one of the most epic final boss battles yet made in VR!\n\nWhether you're a fan of the Dream Tango universe or just love fast-paced VR shooters, Dream Tango: Ascension is a thrilling game that will keep you on the edge of your seat. No prior knowledge of the backstory is required to enjoy this action-packed shooter.",
+        "markdown": false,
+        "developer": "Uncloudy & Co",
+        "publisher": "Uncloudy & Co",
+        "genres": [
+            "Shooter"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE",
+            "STANDING",
+            "SITTING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 1
+            },
+            {
+                "rating": 4,
+                "votes": 1
+            },
+            {
+                "rating": 5,
+                "votes": 11
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://dreamtangovr.com/",
+        "app_images": {
+            "cover_landscape": "39031379_2250316358452730_7901301499290654398_n.png",
+            "cover_portrait": "38982658_992992351582076_946815837674974175_n.png",
+            "cover_square": "38982685_336761378548625_243687895850590146_n.png",
+            "hero": "39031427_713645916657663_7760250854833427434_n.png",
+            "icon": "39031379_717714095921014_7449929970229957263_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75287554_727615198443424_5020277144543104546_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.4.3",
+                "change_log": "Difficulty adjustments."
+            },
+            {
+                "version": "1.4.2",
+                "change_log": "Fixed lighting on first arena."
+            },
+            {
+                "version": "1.4.2",
+                "change_log": "Fixed black screen on launch."
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "Added:\n* Added enemy death effects.\n* Added disc to tutorial.\n* Made discs and critical hits increase XP when defeating enemy.\n* Created new imp variation.\n\nChanged:\n* Start enemy fade-outs directly on death instead of after animation.\n* Adjusted position of discs in corridor.\n\nRemoved:\n* Remove sprinting tutorial screen."
+            },
+            {
+                "version": "1.4",
+                "change_log": "Highlights!\n\nDisc weapons:\n- After defeating a certain amount of high-value enemies, powerful disc weapons will appear in most stages.\n\nSmaller build size:\n- All our videos have been re-encoded with a more efficient encoding, bringing the file size down by over 400 MB.\n\nOptions screen:\n- A new screen has been added to the main menu, currently allowing you to toggle music and rotation method.\n\nMovement updates:\n- Change sprint behaviour to toggle instead of hold.\n- Increased default movement speed and strafe speed.\n\n\nOther changes!\n\nAdded:\n- Added instruction for sprinting to tutorial.\n\nChanged:\n- Baked boss arena mesh, lighting, and reflections.\n- Moved some env items to the right hierarchy in boss arena.\n- Increased the required XP for the highest level.\n\nFixed:\n- Fixed Lethe twin sigil not being outlined properly.\n- Fixed the player deletion bug at the end of the corridor level."
+            },
+            {
+                "version": "1.3.2",
+                "change_log": "Highlights!\n\nDifficulty settings:\n- Upon starting a new game, you can now select between \"Easy\", \"Medium\", and \"Hard\" difficulty levels.\n  The difficulty affects incoming and outgoing damage, amount of enemies spawned per wave, and your score.\n\nShield can now block most melee damage:\n- Simply hold the shield between you and the enemy, and your shield will take the hit for you.\n  Just keep in mind that it might not be able to protect against attacks from larger enemies ;)\n\nAdded more enemy audio cues:\n- Enemies in close proximity to the player will now emit sounds every now and then, to help with spatial awareness.\n  Additionally, an alert will play when enemies spawn closely behind the player, to prevent unintentional jumpscares.\n\n\nOther changes!\n\nAdded:\n- Added critical hits, making most enemies take double damage if shot in the head.\n- Added image to corridor and boss arena skybox.\n\nChanged:\n- Increased player sprint speed (by pressing on the stick).\n- Baked environment of corridor and boss arena to increase performance.\n- Replaced Phobetor Ultra mesh and changed Phobetor Ultra to have bluish dissolve edges.\n- Adjusted position of some reflection probes in corridor level to not render plates twice.\n\nFixed:\n- Fixed the issue with some enemies not dissolving when killed.\n- Fixed the player deletion bug at the end of the corridor level.\n- Fixed some achievements not being tracked.\n- Disabled scroll on highscores and leaderboard as a workaround for a Unity bug that sometimes makes scrolling panels on the Quest disappear."
+            },
+            {
+                "version": "1.2",
+                "change_log": "Fixed:\n- Scrolling highscores or leaderboard could make them disappear. As this is a Unity bug, we were unable to fix it directly, but we have disabled scrolling in those views for now.\n\nChanged:\n- Tweaked enemy cap in first arena.\n- Tweaked some achievement conditions."
+            },
+            {
+                "version": "1.2",
+                "change_log": "Highlights!\n\nMissing game-over screen fixed:\n- Dying sometimes didn't display the game-over screen, thus not letting you restart from the last checkpoint, or go back to the main menu.\nThis has now been fixed, and a timeout has also been added which takes the player back to the main menu if they haven't interacted with the screen for a while.\n\nNew enemy blast appearance:\n- Enemy blasts, such as the ones from Ates and Lethes, now look a lot nicer.\n\nFirst arena performance:\n- The first arena environment has been baked into just two meshes, which helps performance a bit, especially on weaker devices.\n\n\nOther changes!\n\nChanged:\n- Tweaked visuals in the final arena.\n- Improved behaviour of Lethes.\n- Removed duplicate collider on second sword variant.\n- Changed default locomotion method to teleportation.\n- Tweaked player stats.\n- Tweaked enemy waves.\n- Increased animation speed of Echo Imps.\n- Adjusted UI pointer positioning.\n- Increased player laser length.\n\nFixed:\n- Highscores didn't get added upon dying or finishing the game.\n- Enemies and items got a weird colour in final arena sometimes.\n- Player was getting XP from enemies that despawned when the player died."
+            },
+            {
+                "version": "1.1",
+                "change_log": "Greatly improved performance.\nFixed hand positioning.\nVarious other fixes and features."
+            },
+            {
+                "version": "1.0rc3",
+                "change_log": "Hopefully fixed saving.\nHopefully fixed tutorial."
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 14,
+        "rating": 4.5,
+        "weighted_rating": 3.92,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

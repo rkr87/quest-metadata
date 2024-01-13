@@ -1,17 +1,19 @@
 {
     "package": "com.ascentxr.evavr",
     "data": {
-        "id": "2265625690131356",
-        "additional_ids": [],
-        "name": "The Eva Experience - VR Exhibit",
-        "app_name": "The Eva Experience - VR Exhibit",
+        "id": "3678281795589532",
+        "additional_ids": [
+            "2265625690131356"
+        ],
+        "name": "The Eva Experience - VR Exhibit for Quest",
+        "app_name": "The Eva Experience - VR Exhibit for Quest",
         "type_name": "Application",
         "appstore_type": "Application",
-        "category": "ENTERTAINMENT",
-        "release_date": "2019-09-12T00:00:00",
+        "category": "APPS",
+        "release_date": "2021-06-15T00:00:00",
         "description": "The Eva Experience Virtual Reality Tour provides a 360-degree experience at four Auschwitz locations that were central to Eva's story: the selection platform, the barracks, the \"Blood Lab\" where the Mengele Twins were experimented on and the spot outside a crematoria where she announced her forgiveness 50 years after liberation. At each, Eva describes the significance, and accompanying videos add historical context and personal perspective.\n\nFeaturing documentary footage from \"Eva A-7063,\" which won seven regional Emmy Awards and the national Gabriel Award for Human Dignity.\n\n\"Anyone who has gone through Birkenau with Eva Kor had an experience they can never forget,\" said world-renowned Holocaust scholar Michael Berenbaum. \"Alas, Eva is no longer. Yet thanks for the blessing of virtual reality, that experience is available to us. We can hear her voice and be with her virtually in the places that were so formative. It is an unforgettable experience now available for eternity.\"",
         "markdown": false,
-        "developer": "Ascent XR LLC",
+        "developer": "Ascent XR",
         "publisher": "Ascent XR LLC",
         "genres": [
             "Documentary & History",
@@ -19,6 +21,8 @@
             "360 Experience (non-game)"
         ],
         "devices": [
+            "Hand Tracking",
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -28,10 +32,17 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go",
             "Gear VR"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [
             "EDUCATIONAL"
         ],
@@ -54,10 +65,10 @@
             },
             {
                 "rating": 5,
-                "votes": 2
+                "votes": 4
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
@@ -65,18 +76,18 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://www.thestoryofeva.com/",
         "app_images": {
-            "cover_landscape": "38974693_2348025415252289_4156845399778263040_n.png",
-            "cover_portrait": "39003239_2404048109914588_5893705229110607872_n.png",
-            "cover_square": "38982518_2311083619153165_2354487349246689280_n.png",
-            "hero": "38974814_2476213589279709_597756647560970240_n.png",
-            "icon": "38974558_788419838240688_5170493463006806016_n.png",
+            "cover_landscape": "86610708_257755965762969_7456697063305442656_n.png",
+            "cover_portrait": "39003282_1414389388915920_6971065792238483132_n.png",
+            "cover_square": "75404385_249695716625970_4410222701021178963_n.png",
+            "hero": "75388623_888196445345016_5799475242181489395_n.png",
+            "icon": "39031379_3696230203766136_5870515930642592142_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "39031567_416999452269371_5029779274849058816_n.png"
+            "logo_transparent": "38982489_120588310078316_6355869894750761758_n.png"
         },
         "translations": [],
         "changelog": [],
@@ -91,9 +102,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 5,
-        "rating": 3.2,
-        "weighted_rating": 3.82,
+        "votes": 7,
+        "rating": 3.714286,
+        "weighted_rating": 3.84,
         "is_available": true,
         "is_free": false
     },

@@ -1,0 +1,138 @@
+{
+    "package": "com.imeve.avatour.guest",
+    "data": {
+        "id": "4009028839118084",
+        "additional_ids": [],
+        "name": "AVATOUR",
+        "app_name": "AVATOUR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-03-09T00:00:00",
+        "description": "AVATOUR makes real-time remote presence possible for the first time. Using an inexpensive 360° camera and a standard mobile device, an AVATOUR host can invite up to 9 remote guests to a live experience of a real place. Guests may join using this Oculus app, or on desktop or mobile using any web browser. Unlike a standard live stream, an AVATOUR is real time, allowing guests to communicate with each other and with the host user in the real world.\n\nAVATOUR is an innovative new way to talk with people about a space - without having to bring them there in person. It has applications for architecture, retail, property management, real estate, construction, tourism, and much more.\n\nVisit avatour.co for more information, or to register for an AVATOUR Host account.",
+        "markdown": false,
+        "developer": "AVATOUR",
+        "publisher": "AVATOUR",
+        "genres": [
+            "360 Experience (non-game)",
+            "Productivity",
+            "Travel"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Multiplayer",
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "SITTING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 1
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 4
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://avatour.co/",
+        "app_images": {
+            "cover_landscape": "39031496_4014227948607837_822620901625301032_n.png",
+            "cover_portrait": "38974557_1496520347209654_1375702318806332242_n.png",
+            "cover_square": "38982584_1878791345604702_2132028755123238632_n.png",
+            "hero": "38982670_1020950391767059_3342703565990712325_n.png",
+            "icon": "38974908_757876948443762_605308464592831307_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974917_1051752238646605_185538044078462268_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.11.9",
+                "change_log": "## [1.11.9] - 2022-11-15\n\n### Fixed\n\n- (AVA-4680) VR controller raycast intersects with hidden HUD notifications\n- (AVA-4679) User name isn't changed automatically for other guests after VR client updates it\n- (AVA-4686) VR user can't close a Spotlight after Operator starts the session"
+            },
+            {
+                "version": "1.10.4",
+                "change_log": "## [1.10.4] - 2022-10-12\n\n### Fixed\n\n- (AVA-4532) VR user has to restart the app when he joins to the new session from Session list"
+            },
+            {
+                "version": "1.9.8",
+                "change_log": "## [1.9.8] - 2022-08-25\n\n### Fixed\n\n- (Retest) Session list is empty on Quest when users rejoins app (AVA-4301)\n- Second letter default lower case not consistent with Japanese language capitalization rules (AVA-4309)"
+            },
+            {
+                "version": "1.9.6",
+                "change_log": "## [1.9.6] - 2022-08-10\n\n### Fixed\n\n- Chat window isn't closed by clicking 'X' button  (AVA-4233)\n\n### Changed\n\n- Use new getVisitorSessionsByGuestId GraphQL endpoint to optimize VR loading times (AVA-4240)\n- Uppercase keyboard resets to lowercase after a key was pressed"
+            },
+            {
+                "version": "1.8.9",
+                "change_log": "## [1.8.9] - 2022-07-15\n\n### Fixed\n\n- Pointed place on Web and VR are different while performing spotlight over 360 image/video (AVA-4101)\n- Spotlight displays for VR user while switching between different sessions (AVA-4164)"
+            },
+            {
+                "version": "1.7.2",
+                "change_log": "## [1.7.2] - 2022-05-20\n\n### Changed\n\n- Changed: Until further notice always show notification badge as discussed with Joe"
+            },
+            {
+                "version": "1.5.28",
+                "change_log": "## [1.5.28] - 2022-05-04\n\n### Fixed\n\n- Fixed: Port photon connection fixes from host"
+            },
+            {
+                "version": "1.5.21",
+                "change_log": "## [1.5.21] - 2022-04-19\n\n### Fixed\n\n- Fixed: 'Connection failed' modal displays when VR user enters code and joins to the session (AVA-3767)\n- Fixed: Device serial number API returns \"unknown\" and breaks UUID implementation (AVA-3764)"
+            },
+            {
+                "version": "1.4.11",
+                "change_log": "## [1.4.11] - 2022-03-11\n\n### Fixed\n\n- Fixed: Cannot drag screenshot windows\n\n### Changed\n\n- Changed: When an asset is presented that does not exist on the local client, only load the requested asset instead of reloading all assets"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 5,
+        "rating": 4.4,
+        "weighted_rating": 3.87,
+        "is_available": false,
+        "is_free": false
+    },
+    "errors": []
+}

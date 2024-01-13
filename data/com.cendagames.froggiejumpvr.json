@@ -1,26 +1,29 @@
 {
     "package": "com.cendagames.froggiejumpvr",
     "data": {
-        "id": "1881627821956963",
-        "additional_ids": [],
-        "name": "Frog & Froggie",
-        "app_name": "Frog & Froggie",
+        "id": "4231124763680178",
+        "additional_ids": [
+            "1881627821956963"
+        ],
+        "name": "Frog & Froggie ",
+        "app_name": "Frog & Froggie ",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2019-08-08T00:00:00",
+        "release_date": "2022-06-13T00:00:00",
         "description": "Cute platformer game for players with nerves of steel.\n\nLead your frog hero on his odyssey to save the froggy girl. Double jump using your air powered fan-cap and slow your falls.\n\nFill your belly with flies on your journey for maximum satisfaction.\n\nFeatures:\n- Several games in the one\n- Platformer game\n- Labyrinth game\n- Drive your car\n- Become captain on the boat\n- Gamepad support",
         "markdown": false,
         "developer": "Čeněk Štrichel",
         "publisher": "Čeněk Štrichel",
         "genres": [
+            "Adventure",
             "Arcade",
-            "Puzzle",
-            "Adventure"
+            "Puzzle"
         ],
         "devices": [
-            "3DOF Controller",
-            "Gamepad"
+            "Touch Controllers",
+            "Gamepad",
+            "3DOF Controller"
         ],
         "modes": [
             "Single User"
@@ -29,10 +32,17 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go",
             "Gear VR"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [],
         "hist": [
             {
@@ -49,14 +59,14 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
-                "votes": 5
+                "votes": 6
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
@@ -66,46 +76,21 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://cenda.cz/games/",
         "app_images": {
-            "cover_landscape": "38974705_537673670104790_4550057751740416000_n.png",
-            "cover_portrait": "38982666_621084625045772_9100245782723821568_n.png",
-            "cover_square": "38974698_2165790756862644_9073569869697384448_n.png",
-            "hero": "38974914_668425486967036_1379895794462621696_n.png",
-            "icon": "39031439_469210037230928_5395051829463613440_n.png",
+            "cover_landscape": "39031619_717884545924132_958681580154882841_n.png",
+            "cover_portrait": "75608430_1437538293352810_3357741205308499157_n.png",
+            "cover_square": "39031599_559414815815649_8339100476075173799_n.png",
+            "hero": "38982553_436743881625700_1153891921901471061_n.png",
+            "icon": "39031532_798316848269762_8731443468309582213_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "38974725_662921880841649_8731756787230834688_n.png"
+            "logo_transparent": "75297579_536336747715817_7125807852674991544_n.png"
         },
         "translations": [],
-        "changelog": [
-            {
-                "version": "1.0.0",
-                "change_log": "First public version"
-            },
-            {
-                "version": "1.0.0",
-                "change_log": "First public version"
-            },
-            {
-                "version": "1.0.0",
-                "change_log": "First public version"
-            },
-            {
-                "version": "1.0.0",
-                "change_log": "First public version"
-            },
-            {
-                "version": "1.0.0",
-                "change_log": "First public version"
-            },
-            {
-                "version": "1.0.0",
-                "change_log": "First public version"
-            }
-        ],
+        "changelog": [],
         "keywords": [
             "frog",
             "platform",
@@ -117,9 +102,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 6,
-        "rating": 4.333333,
-        "weighted_rating": 3.87,
+        "votes": 8,
+        "rating": 4.375,
+        "weighted_rating": 3.88,
         "is_available": true,
         "is_free": false
     },

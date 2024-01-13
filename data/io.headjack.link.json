@@ -1,14 +1,16 @@
 {
     "package": "io.headjack.link",
     "data": {
-        "id": "2107904142590556",
-        "additional_ids": [],
+        "id": "3916248831731107",
+        "additional_ids": [
+            "2107904142590556"
+        ],
         "name": "Headjack Link",
         "app_name": "Headjack Link",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2019-07-18T00:00:00",
+        "release_date": "2021-03-30T00:00:00",
         "description": "The Link app is designed for frictionless content review of your Headjack apps. Login at https://headjack.io, select one of our Essential Templates and create an app, upload your 360 videos and assets and generate a unique 6 digit pin code on the app page. Enter your pin code in Headjack Link and it will automatically sync all of your app settings and content, granting you immediate access to all of your files for direct content review. Headjack Link is designed for both non-technical users and power users of the Headjack platform and serves as a frictionless alternative to our App Cloud Build solution.\n\n- 6 digit pin code log-in\n- Frictionless content review\n- Easy to share and use for non technical users/clients\n- All in one interface\n- Automatically syncs app with Essential template selected in Headjack CMS\n- No sideloading required \n- Kiosk, Cinema and Grid templates available\n- No set-up time\n- Easy logo placement\n- Easy to use Template Variables",
         "markdown": false,
         "developer": "Headjack",
@@ -19,6 +21,7 @@
             "Utility"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -28,14 +31,21 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 2,
@@ -43,7 +53,7 @@
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 4,
@@ -51,10 +61,10 @@
             },
             {
                 "rating": 5,
-                "votes": 3
+                "votes": 5
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
@@ -62,48 +72,56 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://headjack.io/",
         "app_images": {
-            "cover_landscape": "38974458_2282013858716190_1717496905581199360_n.png",
-            "cover_portrait": "39001678_434503093972239_4410224117777694720_n.png",
-            "cover_square": "38974795_668303890255797_4898526770795380736_n.png",
-            "hero": "38982608_294097238158839_1319893048343134208_n.png",
-            "icon": "38974501_614468045691783_2946566844611297280_n.png",
+            "cover_landscape": "57570299_1282582112119295_5425059180852051881_n.png",
+            "cover_portrait": "75254869_486649282328249_4566024154483667412_n.png",
+            "cover_square": "39031393_419720075757973_3004175344258218739_n.png",
+            "hero": "38974892_749597992643911_4100271986213552153_n.png",
+            "icon": "75210885_415111926370666_3687792340814864594_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "38982535_777688752606543_4090121326193278976_n.png"
+            "logo_transparent": "75339311_278194407067328_340986565422855776_n.png"
         },
         "translations": [],
         "changelog": [
             {
-                "version": "1.5.3",
-                "change_log": "- Added support for viewing standard/flat videos on a large virtual screen\n- Updated to latest Headjack SDK and Unity versions"
+                "version": "4.5.2",
+                "change_log": "Remove second splash screen"
             },
             {
-                "version": "1.5.2",
-                "change_log": "- Added support for viewing standard/flat videos on a large virtual screen\n- Updated to latest Headjack SDK and Unity versions"
+                "version": "4.5.1",
+                "change_log": "- Fixed performance issues with very high resolution videos\n- Updated Quest SDKs\n- Support for Quest 1 is deprecated"
             },
             {
-                "version": "1.4.1",
-                "change_log": "- Improved download stability under various network conditions"
+                "version": "4.0.1",
+                "change_log": "- Support gaze interaction in more menus in the Kiosk menus\n- Add \"Remember\" app pincode option to log into the same app when restarting the Link app\n- Updated text rendering and many text layout fixes, including supporting longer project names\n- Added support for subtitles when streaming video\n- Remember and load previously selected subtitles language when playing subsequent videos\n- Added various new Template Settings, including the ability to disable the \"Delete\" button to protect against accidentally deleting content and to disable the \"Logout\" button to lock in an app login\n- Improved layout and style of video control menus\n- Fixed updating subtitles\n- Updated Headjack SDK to version 5.6.4\n- SDK updated to use latest Unity 2021.3 LTS release\n- Increased Unicode character support to include Latin Extended-A character set\n- Improved readability of some error messaging around video playback settings\n- Fixed edge case issues around app offline mode and offline video playback\n- Various other fixes and improvements"
             },
             {
-                "version": "1.4.0",
-                "change_log": "- Show download error if downloading fails in Kiosk mode\n- Improve download stability in Kiosk & Cinema mode by downloading sequentially\n- Made synced video playback (with Operator app) more accurate and robust\n- Fixed some edge cases where app incorrectly appeared to be connected to an Operator device"
+                "version": "3.0.3",
+                "change_log": "- Improved compatibility with Quest Pro\n- Updated engine version\n- Improved loading performance for large content libraries"
             },
             {
-                "version": "1.3.0",
-                "change_log": "- Added option to load demonstration 360 video content if the user does not (yet) have an app pincode to log in"
+                "version": "2.2.1",
+                "change_log": "fixed bug related to offline mode time out and several other minor improvements"
             },
             {
-                "version": "1.2.1",
-                "change_log": "- Added support for extended Unicode character set\n- Added support for stereoscopic custom background\n- Reduced occurrences of menu flicker"
+                "version": "2.1.1",
+                "change_log": "Improved HLS streaming quality and several other bug fixes"
             },
             {
-                "version": "1.2.0",
-                "change_log": "Access Code 580089\n\nRemoved subtext on key art\nOculus: moved entitlement check forward to very first scene load\nOculus: pause VR input in app when user is in Oculus menu"
+                "version": "2.0.2",
+                "change_log": "- Fixed issue with Quest 2 not always being recognized as separate platform"
+            },
+            {
+                "version": "2.0.1",
+                "change_log": "- Huge update to the overall video quality\n- Granting the external storage permission is no longer required when first launching your app (in most cases)\n- Various smaller improvements and fixes"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Replaced background download library to fix some edge case bugs with video downloads\n- Fixed rare case of video/app audio cutting out suddenly"
             }
         ],
         "keywords": [
@@ -117,9 +135,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 6,
-        "rating": 3.666667,
-        "weighted_rating": 3.84,
+        "votes": 10,
+        "rating": 3.6,
+        "weighted_rating": 3.83,
         "is_available": true,
         "is_free": true
     },

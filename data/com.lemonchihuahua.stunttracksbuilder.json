@@ -1,0 +1,181 @@
+{
+    "package": "com.lemonchihuahua.stunttracksbuilder",
+    "data": {
+        "id": "4397519526943470",
+        "additional_ids": [],
+        "name": "Stunt track builder",
+        "app_name": "Stunt track builder",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2022-01-13T00:00:00",
+        "description": "A mixed-reality physic-simulation game about building giant stunt tracks in your home and collecting all the super looking toy cars. Build the stunt tracks of your dream, in VR, or in your own room.\n\nFeatures:\n+ Stunt track buildings, including turn, slope, curve, loop and wall riding (for cars).\n+ Toy-car physics.\n+ Cars and tracks collection.\n+ Mixed reality mode: play in your own room.\n+ Virtual home-like environment such as bedroom, kitchen, living room, garage\n+ Roller-coaster mode. Jump on your toy cars and cruise around the tracks you have builds.\n+ Laser toy guns: shoot the cars! It's fun.\n+ Community levels. Create and share your builds with the community.\n+ Explore over hundreds and growing number of community builds, ranging from driving test, high-speed crash test, to moon jumping.\n\n",
+        "markdown": false,
+        "developer": "LemonChihuahua",
+        "publisher": "LemonChihuahua",
+        "genres": [
+            "Racing",
+            "Puzzle",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Touch (as Gamepad)"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "SITTING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 2
+            },
+            {
+                "rating": 3,
+                "votes": 15
+            },
+            {
+                "rating": 4,
+                "votes": 94
+            },
+            {
+                "rating": 5,
+                "votes": 548
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://trackbuilder.github.io/",
+        "app_images": {
+            "cover_landscape": "39035424_689108875799255_93840619267811394_n.png",
+            "cover_portrait": "38982500_3092299464392031_5213993093517967602_n.png",
+            "cover_square": "38974469_584685126055985_8936669020604298598_n.png",
+            "hero": "39001726_1310494242800697_6423903973415444093_n.png",
+            "icon": "38974680_486202212867027_2617664783380880380_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39036688_2102803333200129_2646334927417729717_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.109",
+                "change_log": "Add passthrough mode to all VR level. You can play all vr level as miniature in mixed reality."
+            },
+            {
+                "version": "1.0.101",
+                "change_log": "+ Add new level: Mixed reality, allows you to play in your own room. \n+ New rewards: 10 new cars.\n+ Optimize physics engine, you can now play with 5 cars with the highest precision now. Also remove the 2 cars option.\n+ You can now call up the full-car garage in all level. This make switching your layout a lot better.\n+ Re-organize the main level.\n+ Add tracks colors and you can change the color of the tracks with the GAP tracks.\n+ 1.0.101: Fix bug that cause the MR level to stuck.\n+ Fix bug that cause the donuts in the MR level to change position after a reload."
+            },
+            {
+                "version": "1.0.100",
+                "change_log": "+ Add new level: Mixed reality, allows you to play in your own room. \n+ New rewards: 10 new cars.\n+ Optimize physics engine, you can now play with 5 cars with the highest precision now. Also remove the 2 cars option.\n+ You can now call up the full-car garage in all level. This make switching your layout a lot better.\n+ Re-organize the main level.\n+ Add tracks colors and you can change the color of the tracks with the GAP tracks.\n+ 1.0.100: Fix bug that cause the MR level to stuck.\n+ Fix bug that cause the donuts in the MR level to change position after a reload."
+            },
+            {
+                "version": "1.0.99",
+                "change_log": "+ Add new level: Mixed reality, allows you to play in your own room. \n+ New rewards: 10 new cars.\n+ Optimize physics engine, you can now play with 5 cars with the highest precision now. Also remove the 2 cars option.\n+ You can now call up the full-car garage in all level. This make switching your layout a lot better.\n+ Re-organize the main level.\n+ 1.0.99: Fix bug that cause the MR level to stuck.\n+ Fix bug that cause the donuts in the MR level to change position after a reload."
+            },
+            {
+                "version": "1.0.98",
+                "change_log": "+ Add new level: Mixed reality, allows you to play in your own room. \n+ New rewards: 10 new cars.\n+ Optimize physics engine, you can now play with 5 cars with the highest precision now. Also remove the 2 cars option.\n+ You can now call up the full-car garage in all level. This make switching your layout a lot better."
+            },
+            {
+                "version": "0.9a2",
+                "change_log": "Update community builds."
+            },
+            {
+                "version": "0.9a",
+                "change_log": "+ Fix the bug that cause tracks to be in wrong size when placed in the holiday-town map.\n+ Fix the bug where you can not load your builds in the holiday-town map.\n+ Fix the bug where if brake your car in slot-controller mode, it will freeze mid air.\n+ Fix the bug when a car is falling off the map and being respawned, it will retains some of its speed/velocity.\n+ Update community builds for the holiday map. (Please send more builds guys, I love them all)"
+            },
+            {
+                "version": "0.9",
+                "change_log": "New map: Holiday Town - Merry Christmas everyone!\n\nNew game mode: Slot controller - control your car directly now!\nGeneral bug fix and improvements!"
+            },
+            {
+                "version": "0.8v",
+                "change_log": "+ General fix and update"
+            },
+            {
+                "version": "0.8u",
+                "change_log": "+ General quality of life update.\n+ Update community builds."
+            },
+            {
+                "version": "0.8t2",
+                "change_log": "+ Update community builds.\n+ Add shotguns.\n+ General bug fix."
+            },
+            {
+                "version": "0.8t",
+                "change_log": "+ Shotgun added.\n+ General bug fix."
+            },
+            {
+                "version": "0.8s3a",
+                "change_log": "+ Add shotgun!"
+            },
+            {
+                "version": "0.8s3",
+                "change_log": "+ Add shotgun"
+            },
+            {
+                "version": "0.8s2",
+                "change_log": "+ Add a quick startup tutorial to show the new players the control scheme of the game."
+            },
+            {
+                "version": "0.8s",
+                "change_log": "+ All contents in game, including Super donuts, unlimited track building are free.\n+ Add a supporter pack option to support the game, and get some extra cosmestic, nothing too breaking though.\n+ Add a report and like function for custom builds."
+            },
+            {
+                "version": "0.8r",
+                "change_log": "+ Add 20+ new community builds to the game. \n+ Add a quick feature to report broken build as well as to like a new build."
+            },
+            {
+                "version": "0.8q3",
+                "change_log": "+ New monetization scheme. Free to play can only play the Main level (lobby) and the Bedroom. Kitchen, Living room and Garage is only accessible for Full-game-unlock only. \n+ However, the free-tier and full-unlocked tier is now eliminated. Free player, in the bedroom can access the Super Donuts as well as unlimited builds in sandbox as well. \n+ The reason for this change is that I feel like the way having to always separate each level into a free and paid tier is just too much of a limitation on game-design and it makes it quite difficult for me to come up with new gameplay ideas.\n+ Fullgame unlock price increase from $6.99 to $11.99. \n           -> If you haven't bought the full-game-unlock (and you want to with the reduced price), you can launch the game without update and purchase the full-game unlock. This way, you only need to pay $6.99.\n           -> If you already own the full-game-unlock, you don't have to do anything.\n\n+ Adjust garage size, so I can furthermore add more cars to the game.\n+ Update screenshot preview pictures for bedroom, kitchen and living-room level.\n+ Set the default Community-builds sorting to Random. Now that we have lots of builds, it is better to always seeing new builds when entering the level.\n+ Adjust the tutorial so that it's easier for new player to understand the game (and less likely to get stuck).\n+ Re-arrange the position of the UIs element in each level so that they are less clustered."
+            },
+            {
+                "version": "0.8q2",
+                "change_log": "+ New monetization scheme. Free to play can only play the Main level (lobby) and the Bedroom. Kitchen, Living room and Garage is only accessible for Full-game-unlock only. \n+ However, the free-tier and full-unlocked tier is now eliminated. Free player, in the bedroom can access the Super Donuts as well as unlimited builds in sandbox as well. \n+ The reason for this change is that I feel like the way having to always separate each level into a free and paid tier is just too much of a limitation on game-design and it makes it quite difficult for me to come up with new gameplay ideas.\n+ Fullgame unlock price increase from $6.99 to $11.99. \n           -> If you haven't bought the full-game-unlock (and you want to with the reduced price), you can launch the game without update and purchase the full-game unlock. This way, you only need to pay $6.99.\n           -> If you already own the full-game-unlock, you don't have to do anything.\n\n+ Adjust garage size, so I can furthermore add more cars to the game.\n+ Update screenshot preview pictures for bedroom, kitchen and living-room level.\n+ Set the default Community-builds sorting to Random. Now that we have lots of builds, it is better to always seeing new builds when entering the level.\n+ Adjust the tutorial so that it's easier for new player to understand the game (and less likely to get stuck).\n+ Re-arrange the position of the UIs element in each level so that they are less clustered."
+            },
+            {
+                "version": "0.8q",
+                "change_log": "+ Lot's of bug fix and general improvement to the game.\n+ All full-game unlock feature are now available for free-user in the bedroom level."
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 660,
+        "rating": 4.79697,
+        "weighted_rating": 4.66,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

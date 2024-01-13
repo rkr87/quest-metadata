@@ -1,24 +1,28 @@
 {
     "package": "com.cendagames.zshow",
     "data": {
-        "id": "5051863508172341",
-        "additional_ids": [],
+        "id": "6141008485974546",
+        "additional_ids": [
+            "5051863508172341"
+        ],
         "name": "Z Show",
         "app_name": "Z Show",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "GAMES",
-        "release_date": "2020-12-18T00:00:00",
+        "release_date": "2022-05-04T00:00:00",
         "description": "Choose the car, reload your guns, get rid of zombies and take your city back!\n\nAt the beginning of the 21st century, the television used to only broadcast telenovelas, reality shows, singing competitions and fake news. People became fully addicted to these shows.\n\nIn 2036 there was a blackout in Eastern Europe and for the most people the world came crumbling down. They became aggressive, wandered through the streets killing innocent little kittens and in the end became zombies.\n\nThe best brains in the world, scientists, TV moguls, and producers of soft drinks have put their heads together to resolve the situation.\n\nAnd so they started to broadcast a whole new reality show for the rest of the world.",
         "markdown": false,
-        "developer": "Čeněk Štrichel",
+        "developer": "Cenda Games",
         "publisher": "Čeněk Štrichel",
         "genres": [
+            "Arcade",
             "Action",
             "Racing",
             "Shooter"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller",
             "Gamepad"
         ],
@@ -33,9 +37,15 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING"
+        ],
         "tags": [],
         "hist": [
             {
@@ -52,14 +62,14 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 2
             },
             {
                 "rating": 5,
-                "votes": 4
+                "votes": 5
             }
         ],
-        "comfort": "COMFORTABLE_FOR_SOME",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
@@ -70,18 +80,18 @@
             "elements": [],
             "iarc_icon": "12138844_1633334226961183_6470673676613189632_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
-        "website": "http://cenda.cz/games/",
+        "website": "http://www.cenda.cz/",
         "app_images": {
-            "cover_landscape": "75254878_207448767535968_1651225122473317791_n.png",
-            "cover_portrait": "75241701_743067046290717_8092011868508834806_n.png",
-            "cover_square": "75210400_854117335376532_2733415870526083236_n.png",
-            "hero": "75210389_1056453621539126_5645106396731839452_n.png",
-            "icon": "75203627_200444741639086_2608331600533534087_n.png",
+            "cover_landscape": "38982678_7088625684481682_7206337153396405050_n.png",
+            "cover_portrait": "39031440_151524743839254_1378614024357388656_n.png",
+            "cover_square": "39031384_240832617974580_2448601998352780991_n.png",
+            "hero": "38982678_1603561896642545_8446191076963078672_n.png",
+            "icon": "57569445_400834121437156_1441743905049074377_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "38982488_199471161684390_6302871516251103923_n.png"
+            "logo_transparent": "75441579_602034254311363_2859614663853603418_n.png"
         },
         "translations": [],
         "changelog": [],
@@ -96,9 +106,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 4,
-        "rating": 5.0,
-        "weighted_rating": 3.89,
+        "votes": 7,
+        "rating": 4.714286,
+        "weighted_rating": 3.9,
         "is_available": true,
         "is_free": false
     },

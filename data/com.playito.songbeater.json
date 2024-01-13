@@ -1,15 +1,17 @@
 {
     "package": "com.playito.songbeater",
     "data": {
-        "id": "2306542396125503",
-        "additional_ids": [],
-        "name": "Song Beater: Quite My Tempo!",
-        "app_name": "Song Beater: Quite My Tempo!",
+        "id": "3528498613914019",
+        "additional_ids": [
+            "2306542396125503"
+        ],
+        "name": "Song Beater",
+        "app_name": "Song Beater",
         "type_name": "Application",
         "appstore_type": "Application",
-        "category": "EARLY_ACCESS",
-        "release_date": "2019-09-19T00:00:00",
-        "description": "Song Beater is a VR rhythm/fitness game on steroids. Beat 45+ included songs and videos (or add your own) with your bare fist in Fit Boxing mode (singleplayer and multiplayer), wield variety of weapons (blades, tonfas, phasers, staff, saw) in Free Style, or concentrate on uplifting text flow in Letter Hunter mode. Global and friends leaderboards, achievements, calories burnt statistics. Custom songs and videos support.\n\n- 3 game modes, singleplayer and multiplayer\n- 4 game environments (Deep Space, Dark Island, Ancient Egypt, Early Access theme)\n- 5 difficulty levels (light, gentle, normal, intense and... impossible)\n- 30 achievements\n- Family party mode; Song speed settings (90-150%), no-fail option; Color customizations; Several types of laser obstacles, stationary and moving; Hidden and not so hidden cultural references, memes, easter eggs... :)",
+        "category": "GAMES",
+        "release_date": "2021-03-21T00:00:00",
+        "description": "Song Beater is a VR rhythm/fitness game on steroids. Beat 60+ included songs and videos (or add your own) with your bare fists in Fit Boxing mode (singleplayer and multiplayer), wield variety of weapons (blades, tonfas, phasers, staff, saw) in Free Style or dominate the playfield in Real 360 mode. Global and friends leaderboards, achievements, calories burnt statistics. Custom songs and videos support.\n\n- 6 game modes, singleplayer and multiplayer with voice-chat\n- 8 game environments (Space, Dark Island, Ancient Egypt, Early Access theme, Flying Dragon, Winter, Deep Ocean, The Club)\n- 5 difficulty levels (light, gentle, normal, intense and... impossible)\n- 30 achievements\n- Family party mode; Song speed settings (90-150%), one-hand and no-fail options; Color customizations; Several types of laser obstacles, stationary and moving; Level editor available ",
         "markdown": false,
         "developer": "Playito.com",
         "publisher": "Playito.com",
@@ -19,73 +21,89 @@
             "Sports"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
             "Single User",
-            "Multiplayer"
+            "Multiplayer",
+            "Co-op"
         ],
         "languages": [
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go",
             "Gear VR"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 4
+                "votes": 6
             },
             {
                 "rating": 2,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 3
             },
             {
                 "rating": 4,
-                "votes": 8
+                "votes": 23
             },
             {
                 "rating": 5,
-                "votes": 28
+                "votes": 84
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
-            "elements": [],
+            "elements": [
+                "Users Interact"
+            ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://songbeater.com/",
         "app_images": {
-            "cover_landscape": "38982705_2454782941422672_8116386122306682880_n.png",
-            "cover_portrait": "38974496_2127455954024890_6701910691445473280_n.png",
-            "cover_square": "39003284_773365143078947_369249492467187712_n.png",
-            "hero": "38982537_657135951445232_6950549801364619264_n.png",
-            "icon": "38974898_408853016417276_181047912501870592_n.png",
+            "cover_landscape": "38974705_170806324496292_4059737560678487953_n.png",
+            "cover_portrait": "86610712_1859767434177137_5048022951467406741_n.png",
+            "cover_square": "39031630_1063118367502303_7148689163771911823_n.png",
+            "hero": "39036638_410267976931021_7295399724755438621_n.png",
+            "icon": "39003274_223663509450735_5203126356136008007_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "38974487_2373570322865937_2654574918921879552_n.png"
+            "logo_transparent": "38974677_422652215718061_5984641479222354800_n.png"
         },
         "translations": [],
         "changelog": [
             {
-                "version": "3.3",
-                "change_log": "– New challenging \"Real 360\" mode!\n– New themes: deep ocean, flying dragon and 360 space station\n– New color and ball image customizations (including biohazard logo)\n– Download custom songs directly from \"Custom\" tab; or visit our website for more information how to import/create your own http://songbeater.com/custom.html\n– Performance and size optimizations"
+                "version": "4.3.1",
+                "change_log": "Bugfixes in custom videosongs loading"
             },
             {
-                "version": "3.3",
-                "change_log": "– New challenging \"Real 360\" mode!\n– New themes: deep ocean, flying dragon and 360 space station\n– New color and ball image customizations (including biohazard logo)\n– Download custom songs directly from \"Custom\" tab; or visit our website for more information how to import/create your own http://songbeater.com/custom.html\n– Performance and size optimizations"
+                "version": "4.3",
+                "change_log": "Experimental 120 fps support (requires Quest 2 on v28 firmware) – hold your right trigger for 5 seconds in main menu of Song Beater, fps indicator will appear and framerate is set to 120 (if available; also consider lowering graphic settings to medium or low if needed). Hold for 5 seconds again if you want to disable it and revert to 90/72 fps. Bugfixes: custom video songs should display correct length"
+            },
+            {
+                "version": "4.2",
+                "change_log": "Improvements and bugfixes (staff weapon will switch between hands only when both hands are close enough; head and hand collisions vs obstacles active again; real 360 mode with insta shock setting)"
             }
         ],
         "keywords": [
@@ -99,9 +117,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 43,
-        "rating": 4.255814,
-        "weighted_rating": 3.96,
+        "votes": 119,
+        "rating": 4.478992,
+        "weighted_rating": 4.18,
         "is_available": true,
         "is_free": false
     },

@@ -1,24 +1,28 @@
 {
     "package": "com.objectnormal.visitations",
     "data": {
-        "id": "4023694967657163",
-        "additional_ids": [],
+        "id": "3854611534668480",
+        "additional_ids": [
+            "4023694967657163"
+        ],
         "name": "Visitations",
         "app_name": "Visitations",
         "type_name": "Application",
         "appstore_type": "Application",
-        "category": "APPS",
-        "release_date": "2020-11-22T00:00:00",
-        "description": "Ancient shamans intuitively understood the power of the mind and their performances would conjure  the body’s innate ability to heal. Modern medicine accomplishes a similar performance with lab coats and pills. We are beginning to understand that technology can be employed to similar ends.\n\nVisitations makes use of techniques such as binaural beats, strobing, form constants, and includes body scan meditation, dream induction, and music developed by artists skilled in the healing arts.\n\nThese techniques have been shown to directly alter the physiological state of the brain.\n\nUsers may customize experiences to their needs, which may include:\n\n· Inner Journeys\n· Relaxation/Focus\n· Mood Modification\n· Mini-Vacations\n· Mindfulness\n· Distraction Therapy\n· Infusion Therapy\n· Mental Reset\n· Meditation Assistance",
+        "category": "ENTERTAINMENT",
+        "release_date": "2021-03-11T00:00:00",
+        "description": "Aesthetic experiences are brought into the therapeutic realm using lessons from neuroscience and psychology. Visitations makes use of techniques such as binaural beats, subtle strobing, form constants, and includes a guided meditation, a dream induction, and a soundtrack developed by a healer with experience leading traditionally inspired ceremonies. Visitations creates a set & setting which allow users to turn inwards and explore their own stories and mental states.",
         "markdown": false,
         "developer": "Object Normal",
         "publisher": "Light Clinic",
         "genres": [
             "Art/Creativity",
-            "Casual",
-            "Relaxation/Meditation"
+            "Medicine",
+            "Relaxation/Meditation",
+            "Casual"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -28,15 +32,23 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go",
             "Gear VR"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
                 "rating": 1,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 2,
@@ -48,14 +60,14 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
-                "votes": 6
+                "votes": 11
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
@@ -63,26 +75,21 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
-        "website": "http://visitationsvr.com/",
+        "website": "https://visitationsvr.com/",
         "app_images": {
-            "cover_landscape": "39001674_758563731371563_1601490901784061409_n.png",
-            "cover_portrait": "38974747_393320685036203_1177973379635476232_n.png",
-            "cover_square": "39031396_451897125757566_5508740563694341995_n.png",
-            "hero": "39001723_3643071005736968_4246661825507814578_n.png",
-            "icon": "39031363_2660792607569836_808670304776434761_n.png",
+            "cover_landscape": "38982586_2489234978038559_2443984797396946816_n.png",
+            "cover_portrait": "39031581_265146518372004_1909301369722327368_n.png",
+            "cover_square": "38982695_1681608058706233_240396898423727072_n.png",
+            "hero": "39035457_3813662318721326_4905904878725833965_n.png",
+            "icon": "75210896_3680938025323423_8568922364808031583_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "38982547_348671336283929_292790061593575999_n.png"
+            "logo_transparent": "75617324_255490065986960_7271801282041196037_n.png"
         },
         "translations": [],
-        "changelog": [
-            {
-                "version": "1",
-                "change_log": "I added a 'purchase' menu. I would like the base app to be FREE."
-            }
-        ],
+        "changelog": [],
         "keywords": [
             "meditation",
             "therapeutic",
@@ -92,10 +99,10 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 7,
-        "rating": 4.714286,
-        "weighted_rating": 3.9,
-        "is_available": false,
+        "votes": 14,
+        "rating": 4.5,
+        "weighted_rating": 3.92,
+        "is_available": true,
         "is_free": false
     },
     "errors": []

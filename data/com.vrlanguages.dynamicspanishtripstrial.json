@@ -1,24 +1,29 @@
 {
     "package": "com.vrlanguages.dynamicspanishtripstrial",
     "data": {
-        "id": "4698927850180736",
-        "additional_ids": [],
+        "id": "4994271367310383",
+        "additional_ids": [
+            "4698927850180736"
+        ],
         "name": "Dynamic Spanish Trips - Long Weekend in Spain",
         "app_name": "Dynamic Spanish Trips - Long Weekend in Spain",
         "type_name": "Application",
         "appstore_type": "Application",
         "category": "APPS",
-        "release_date": "2020-12-18T00:00:00",
-        "description": "Explore Spain while speaking Spanish!\n\nGo on a \"Long Weekend in Spain\" using your Oculus Go to explore 4 places in a series of 360 videos and photos, using AI speech recognition to practise your pronunciation.\n\nDiscover the culture, history, and language in immersive, interactive videos and photos!\n\nWe have FREE online materials (transcripts, additional activities) that you can access by signing up using the links in the app.\n\nWe also have MORE Trips to explore and you can find out how update your app at VRLanguages.co.uk.\n\nWe also have a beginner Spanish VR course.\n\nVR Languages Co-Founders are HUGE fans of the Oculus Go and will support the brilliant headset through 2022. We also offer cross-buy so if you buy our Full app for Go, then upgrade your headset later, we'll give you access on your new headset.\n\nWe're a small team with big hearts that want to make learning Spanish as fun as possible!",
+        "release_date": "2021-03-11T00:00:00",
+        "description": "Explore Spain while speaking Spanish!\n\nGo on a \"Long Weekend in Spain\" using your Oculus Quest to explore 4 places in a series of 360 videos and photos, using AI speech recognition to practise your pronunciation.\n\nDiscover the culture, history, and language in immersive, interactive videos and photos!\n\nWe have FREE online materials (transcripts, additional activities) that you can access by signing up using the links in the app.\n\nWe also have MORE Trips to explore and you can find out how update your app at VRLanguages.co.uk.\n\nWe also have a beginner Spanish VR course.\n\nWe're a small team with big hearts that want to make learning Spanish as fun as possible!",
         "markdown": false,
         "developer": "VR Languages",
         "publisher": "VR Languages",
         "genres": [
             "Educational",
+            "Exploration",
+            "Travel",
             "Adventure",
             "Documentary & History"
         ],
         "devices": [
+            "Touch Controllers",
             "3DOF Controller"
         ],
         "modes": [
@@ -28,9 +33,16 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest",
             "Go"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [
             "EDUCATIONAL"
         ],
@@ -41,22 +53,22 @@
             },
             {
                 "rating": 2,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 3,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 5,
-                "votes": 1
+                "votes": 2
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
@@ -64,40 +76,31 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
-        "website": "https://www.vrlanguages.co.uk/p/trips",
+        "website": "https://www.vrlanguages.co.uk/",
         "app_images": {
-            "cover_landscape": "39031368_706973940250633_276589913144376044_n.png",
-            "cover_portrait": "38982500_383496832898147_3012808724175001122_n.png",
-            "cover_square": "38974864_366382587761547_535461012822074317_n.png",
-            "hero": "39031589_134046031563498_2840234424574649871_n.png",
-            "icon": "38974574_738124987059490_951972138636746228_n.png",
+            "cover_landscape": "38974738_164683768542982_8786040280667174506_n.png",
+            "cover_portrait": "38974864_1766764783486212_2387944442485202149_n.png",
+            "cover_square": "38974908_430068938048475_724277580937583150_n.png",
+            "hero": "86594847_532727477675230_3577213932629392349_n.png",
+            "icon": "39031446_769255400355623_7771371800720612013_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "38974574_1015543148926311_8612903897454105721_n.png"
+            "logo_transparent": "39001687_3652126534872909_4512141560707158998_n.png"
         },
         "translations": [],
-        "changelog": [
-            {
-                "version": "2.3.6",
-                "change_log": "Oculus Go Store Final Version. Visit VRLanguages.co.uk for MORE Trips, updates, and online materials to help you speak Spanish :D"
-            },
-            {
-                "version": "2.3.4",
-                "change_log": "Oculus Go Store Final Version. \nVisit VRLanguages.co.uk for MORE Trips, updates, and online materials to help you speak Spanish :D"
-            }
-        ],
+        "changelog": [],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 2,
-        "rating": 4.5,
-        "weighted_rating": 3.86,
-        "is_available": true,
-        "is_free": true
+        "votes": 6,
+        "rating": 3.833333,
+        "weighted_rating": 3.85,
+        "is_available": false,
+        "is_free": false
     },
     "errors": []
 }

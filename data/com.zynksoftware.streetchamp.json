@@ -1,27 +1,30 @@
 {
     "package": "com.zynksoftware.streetchamp",
     "data": {
-        "id": "1077649088989110",
-        "additional_ids": [],
+        "id": "5968652596567533",
+        "additional_ids": [
+            "1077649088989110"
+        ],
         "name": "Street Champ",
         "app_name": "Street Champ",
         "type_name": "Application",
         "appstore_type": "Application",
-        "category": "GAMES",
-        "release_date": "2016-09-13T00:00:00",
-        "description": "Experience virtual cross road challenge by trying to avoid collision with the cars.\n\nJust try to go as far as you can by crossing the streets. You think it’s easy?\n\nPlay this challenging game alone or with friends to see who can get the highest score!\n\nFeatures:\n- gamepad supported\n- global leaderboards\n- faster speed by keeping the the button pressed\n- great sounds\n\n\"Street Champ for Samsung Gear VR bring you the great VR 3D experience of crossing street game like never before. This game is better than I expect. It's fun really challenge and a good VR game for everyone in the family. Also good for a VR showcase. You will love it. \" POP 2Review\n\n\"Not only is Street Champ VR worth the money, it is also the best VR frogger game I have played (and to be fair I have played 5 others).  Not all retro game work in VR, but frogger does and Street Champ VR is the very best example of it.\" VR Shop UK ",
+        "category": null,
+        "release_date": "2023-08-09T00:00:00",
+        "description": "Experience virtual cross road challenge by trying to avoid collision with the cars.\n\nJust try to go as far as you can by crossing the streets. You think it’s easy?\n\nPlay this challenging game alone or with friends to see who can get the highest score!\n\n\"It’s fun, challenging and a great VR spin on a classic genre.\" VR Grid\n\n\"Not only is Street Champ VR worth the money, it is also the best VR frogger game I have played (and to be fair I have played 5 others). At times it is utterly terrifying and your heart will be going faster than some of the traffic does. Not all retro game work in VR, but frogger does and Street Champ VR is the very best example of it.\" The VR Shop\n",
         "markdown": false,
         "developer": "Zynk Software Srl",
         "publisher": "Zynk Software Srl",
         "genres": [
-            "Action",
-            "Simulation",
+            "Adventure",
             "Racing",
-            "Adventure"
+            "Action",
+            "Simulation"
         ],
         "devices": [
-            "Touchpad",
-            "Gamepad"
+            "Touch Controllers",
+            "Gamepad",
+            "Touchpad"
         ],
         "modes": [
             "Single User"
@@ -30,10 +33,16 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
             "Go",
             "Gear VR"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE"
+        ],
         "tags": [],
         "hist": [
             {
@@ -50,53 +59,38 @@
             },
             {
                 "rating": 4,
-                "votes": 15
+                "votes": 16
             },
             {
                 "rating": 5,
-                "votes": 24
+                "votes": 25
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "NOT_RATED",
         "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
-            "descriptors": [],
+            "descriptors": [
+                "Mild Fantasy Violence"
+            ],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
+        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://streetchamp.pro/",
         "app_images": {
-            "cover_landscape": "11162681_1810192352548440_871646998_n.png",
-            "cover_portrait": "12522398_545535175571387_1383292022_n.png",
-            "cover_square": "12138894_1097068363672539_288362653_n.png",
-            "hero": "12386425_1761324817460014_2005598019_n.png",
-            "icon": "12410318_1054284431333952_392133347_n.png",
+            "cover_landscape": "39036667_977271020059529_791329755866943822_n.png",
+            "cover_portrait": "38974796_219500054409763_4723467977762524437_n.png",
+            "cover_square": "39003283_974860443846349_5967417253585144853_n.png",
+            "hero": "39031353_176877808740492_6991739684937188874_n.png",
+            "icon": "38974704_955976999019510_1062889694313615822_n.png",
             "immersive_layer_backdrop": null,
             "immersive_layer_logo": null,
-            "logo_transparent": "12680435_1686646781659348_985033716_n.png"
+            "logo_transparent": "39035386_666067638880551_7838229325378143017_n.png"
         },
         "translations": [],
-        "changelog": [
-            {
-                "version": "1.0.3",
-                "change_log": "- added speed boost and energy bar\r\n- improved the environment\r\n- new game sounds\r\n- new special cars: ambulance, police, firetruck\r\n- improved the game randomiser"
-            },
-            {
-                "version": "1.0.2",
-                "change_log": "Initial Version"
-            },
-            {
-                "version": "1.0.1",
-                "change_log": "Support for gamepad\r\nAdded global leaderboards"
-            },
-            {
-                "version": "1.0",
-                "change_log": "Initial Version"
-            }
-        ],
+        "changelog": [],
         "keywords": [
             "crossroad",
             "car",
@@ -108,8 +102,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 52,
-        "rating": 3.846154,
+        "votes": 54,
+        "rating": 3.87037,
         "weighted_rating": 3.85,
         "is_available": true,
         "is_free": false
