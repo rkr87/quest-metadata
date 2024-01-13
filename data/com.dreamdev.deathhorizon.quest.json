@@ -71,7 +71,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2079
+                "votes": 2080
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -100,6 +100,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.9.47",
+                "change_log": "Version 0.9.47\n\nThe Christmas party is over.\n\nThe new update featuring Mixed Reality is on its way and will be available soon.\n\n---\n\nVersion 0.9.46\n\nHoliday Update! Merry Christmas and Happy New Year 2024!\n\nThe new Christmas update is available for download!\n\nIn this update:\n\n- Horizon Lab Station made a lot of preparations for Christmas in Campaign + co-op + Challenges modes.\n\n- For Meta Quest 2 owners, new edged and bladed weapons, as well as a chainsaw, have been added (Meta Quest 3 owners already have these).\n\nIf you have any ideas for game improvement, visit: https://deathhorizon.horizonlab.info/\n\nThank you!\n\n-----\n\nVersion 0.9.45\n\nHalloween's party is over.\n\nThe Horizon Lab station is back to its normal state, eagerly anticipating Christmas.\n\n-----\n\nVersion 0.9.44\n\nHappy Halloween! Get spooked and have fun!\n\nHalloween is celebrated at the Horizon Laboratory.\n\nJust for several weeks, all rooms of the station will be looking in a different way.\n\nJoin the party, our zombies are waiting for you.\n\n-----\n\nVersion 0.9.43\n\nThe exclusive game update for Meta Quest 3!\n\nIn this update:\n\n- Improved visual effects\n- Unlocked 120 FPS for Quest 3\n- Added new edged and bladed weapons: knives, machete, axe, pickaxe...\n- Added chainsaw"
+            },
             {
                 "version": "0.9.46",
                 "change_log": "Holiday Update! Merry Christmas and Happy New Year 2024!\n\nThe new Christmas update is available for download!\n\nIn this update:\n\n- Horizon Lab Station made a lot of preparations for Christmas in Campaign + co-op + Challenges modes.\n\n- For Meta Quest 2 owners, new edged and bladed weapons, as well as a chainsaw, have been added (Meta Quest 3 owners already have these).\n\nIf you have any ideas for game improvement, visit: https://deathhorizon.horizonlab.info/\n\nThank you!\n\n-----\n\nVersion 0.9.45\n\nHalloween's party is over.\n\nThe Horizon Lab station is back to its normal state, eagerly anticipating Christmas.\n\n-----\n\nVersion 0.9.44\n\nHappy Halloween! Get spooked and have fun!\n\nHalloween is celebrated at the Horizon Laboratory.\n\nJust for several weeks, all rooms of the station will be looking in a different way.\n\nJoin the party, our zombies are waiting for you.\n\n-----\n\nVersion 0.9.43\n\nThe exclusive game update for Meta Quest 3!\n\nIn this update:\n\n- Improved visual effects\n- Unlocked 120 FPS for Quest 3\n- Added new edged and bladed weapons: knives, machete, axe, pickaxe...\n- Added chainsaw"
@@ -175,10 +179,6 @@
             {
                 "version": "0.9.30.3",
                 "change_log": "- December 13, 2021 - \n\nImprovements & Bug Fix Update for \"Weapon Upgrade & Manual Reload\".\n\n- Revised the weapon holding system to reduce the number of situations in which a player can’t take the necessary element.\n- Increased the zone for an automatic snap-in of a loading clip on guns, which simplifies the insertion of a clip during manual reloading.\n- Created a smoother animation of a loading clip falling out of a weapon when the button is pressed.\n- Improved the game performance in co-op mode. Eliminated situations in which one player can’t see the second player reload or what he has in his hands.  \n- Reduced the number of situations in which a player can get stuck when jumping.\n- Improved the depiction of a player’s movement in Teleportation mode.\n- Reduced the number of places where a player can bump into “invisible walls.”\n- Added a sound for a weapon with a silencer.\n- Fixed the bug that caused the disappearance of UI in some situations.\n- Fixed the bug causing a pistol slide to end up in a wrong position when a player is out of ammo.\n- Improved FPS throughout the game.\n\n- December 2, 2021 - \n\nNew Update! Weapon Upgrade & Manual Reload. \n\nIn this update:\n\n- Added the possibility of upgrading weapons.\n\nList of modifications:\n\nFlashlight, Collimator Sight, Silencer, Extended Clip, Laser Sight, Tactical Grip...\n\n- Added a new, manual method for reloading.\n- Added the possibility of holding a pistol with two hands.\n- Revised and simplified the “Easy” difficulty mode.\n- Revised and improved player movement and climbing mechanics.\n- Improved player interactions with the environment.\n- Added Chinese language.\n- A lot of other improvements."
-            },
-            {
-                "version": "0.9.30.2",
-                "change_log": "- December 2, 2021 - \n\nNew Update! Weapon Upgrade & Manual Reload. \n\nIn this update:\n\n- Added the possibility of upgrading weapons.\n\nList of modifications:\n\nFlashlight, Collimator Sight, Silencer, Extended Clip, Laser Sight, Tactical Grip...\n\n- Added a new, manual method for reloading.\n- Added the possibility of holding a pistol with two hands.\n- Revised and simplified the “Easy” difficulty mode.\n- Revised and improved player movement and climbing mechanics.\n- Improved player interactions with the environment.\n- Added Chinese language.\n- A lot of other improvements."
             }
         ],
         "keywords": [
@@ -191,8 +191,9 @@
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 3415,
-        "rating": 4.269107,
+        "on_rookie": true,
+        "votes": 3416,
+        "rating": 4.269321,
         "weighted_rating": 4.26,
         "is_available": true,
         "is_free": false
