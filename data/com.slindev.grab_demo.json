@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 221
+                "votes": 222
             },
             {
                 "rating": 5,
-                "votes": 3253
+                "votes": 3264
             }
         ],
         "comfort": "NOT_RATED",
@@ -86,6 +86,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.40.4",
+                "change_log": "- Improved automatic no leg mode detection (it should be much less aggressive now).\n- Fixed moving yourself into a no legs mode area while holding on with both hands losing all your momentum.\n- Fixed pushing off with one hand while grappling with the other not giving any momentum from the push.\n- Fixed checkpoints not working in no legs mode.\n- Fixed checkpoint count on the watch when verifying levels."
+            },
             {
                 "version": "0.40.3",
                 "change_log": "- Fixed a bug that could cause gravity zones and invisible blocks to stay around after leaving the editor.\n- Fixed jumping off rotating animated blocks.\n- Improved automatic fling mode detection."
@@ -161,18 +165,14 @@
             {
                 "version": "0.35.0",
                 "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
-            },
-            {
-                "version": "0.34.1",
-                "change_log": "- New cosmetics pack! (Not available on Pico yet, but hopefully soon)\n- Music is now loaded on a background thread for faster startup, hopefully fixing the \"GRAB is not responding\" error message that some have reported.\n- Updated the EOS SDK, hopefully fixing a common crash.\n- Added linebreaks for long item pack titles.\n- Improved how scaling item previews works when scrolling.\n- Made some preparations for the new tutorial, made by BlackCat508, to go live soon."
             }
         ],
         "keywords": [],
         "has_ads": false,
         "sensor_req": false,
         "is_demo_of": null,
-        "votes": 3639,
-        "rating": 4.787579,
+        "votes": 3651,
+        "rating": 4.788003,
         "weighted_rating": 4.76,
         "is_available": true,
         "is_free": true

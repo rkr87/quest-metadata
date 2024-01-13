@@ -84,6 +84,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.9",
+                "change_log": "- Subtitles are back\n- Added grouping content by server to the library window.  Server can be collapsed or expanded.\n-Changed the time to include the length of the video.\n- MKV and MP4 videos that have the 3D format flag set are now drawing correctly without needing to remove this flag from the headers or possibly re-encoding.\n-Added more controls when you are placing anchor.  Up/down on left joystick changes the\ndistance, while up/down on the right joystick changes the scale.\n-Compressed more textures to reduce the file size"
+            },
+            {
                 "version": "1.8",
                 "change_log": "Fixed a bug that prevented more than one server being listed"
             },
