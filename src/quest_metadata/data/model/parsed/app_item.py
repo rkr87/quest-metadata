@@ -25,10 +25,11 @@ class ParsedAppItem(BaseModel):
     - max_version_date: Property to get the maximum version date among the
         versions.
     """
-    id: str
+    id: str | None = None
     name: str
     packages: LowerCaseUniqueList = LowerCaseUniqueList()
     versions: AppVersions | None = None
+    cl_version: int = 0
 
     @computed_field  # type: ignore[misc]
     @property
@@ -48,5 +49,5 @@ class ParsedAppItem(BaseModel):
     def max_version(self) -> int:
         """Property to get the maximum version code among the versions."""
         if self.versions is None or len(self.versions) == 0:
-            return 0
+            return self.cl_version
         return max(i.code for i in self.versions.root)
