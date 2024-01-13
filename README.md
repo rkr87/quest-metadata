@@ -3,8 +3,8 @@
 - add google form condensed metadata submissions for apps not on the meta store
   - scrape artwork from steam?
 - add exclusion of google form reports of "bad metadata"
-- add applabgamelist items https://applabgamelist.com/action/GetLinks2
 - automatic updates of Rookie data
+- search meta store for unidentified games (and submit to oculusdb?)
 
 **Performance**
 - move images to google drive
