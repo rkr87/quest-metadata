@@ -51,7 +51,6 @@ jobs:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CERT_URL: ${{ secrets.GOOGLE_CERT_URL }}
-          ROOKIE_ZIP_PASSWORD: ${{ secrets.ROOKIE_ZIP_PASSWORD }}
         run: python src/quest_metadata/main.py -c .config/app/app_config.github.json
         continue-on-error: true
           

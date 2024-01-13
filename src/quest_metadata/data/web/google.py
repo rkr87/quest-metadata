@@ -65,7 +65,7 @@ class GoogleSheetService(Singleton):
         """Download data from a Google Sheet."""
         sheet: Spreadsheet = self._client.open_by_key(sheet_id)
         worksheet: Worksheet = sheet.worksheet(worksheet_name)
-        return [x for x in worksheet.get_all_records() if x["Timestamp"]]
+        return worksheet.get_all_records()
 
     def _validate_model(
         self,

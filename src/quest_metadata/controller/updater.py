@@ -12,7 +12,7 @@ from aiofiles import open as aopen
 from aiofiles.os import makedirs, path, remove
 
 from base.classes import Singleton
-from base.lists import LowerCaseUniqueList, UniqueList
+from base.lists import LowerCaseUniqueList
 from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from controller.parser import Parser
@@ -28,7 +28,6 @@ from data.model.oculusdb.apps import OculusDbApps
 from data.model.parsed.app_item import ParsedAppItem
 from data.web.google import GoogleSheetService
 from data.web.oculus import OculusService
-from data.web.rookie import RookieService
 from helpers.math import percentile
 from utils.error_manager import ErrorManager
 
@@ -51,8 +50,7 @@ class Updater(Singleton):
         app_manager: AppManager,
         oculus: OculusService,
         image_manager: ImageManager,
-        sheet_service: GoogleSheetService,
-        rookie_service: RookieService
+        sheet_service: GoogleSheetService
     ) -> None:
         super().__init__()
         self._logger.info("Initializing updater")
@@ -60,7 +58,6 @@ class Updater(Singleton):
         self._oculus: OculusService = oculus
         self._image_manager: ImageManager = image_manager
         self._sheet_service: GoogleSheetService = sheet_service
-        self._rookie: RookieService = rookie_service
         self._parsed_apps: list[ParsedAppItem] = []
 
     async def update_local_apps(self) -> None:
@@ -72,7 +69,6 @@ class Updater(Singleton):
         await self._update_package_mappings()
         await self._update_local_app_database()
         await self._populate_missing_changelogs()
-        self._parse_rookie_updates()
         await self._app_manager.save()
 
     async def _update_oculusdb_apps(self) -> None:
@@ -128,15 +124,9 @@ class Updater(Singleton):
     async def _populate_missing_changelogs(self) -> None:
         """Populate missing changelogs for local apps."""
         self._logger.info("Populating missing changelogs")
-        for p, a in self._app_manager.get_needs_changelog().items():
-            if a.id and (log := await self._oculus.get_app_changelog(a.id)):
-                self._app_manager.add_changelog(p, log)
-
-    def _parse_rookie_updates(self) -> None:
-        """Add Rookie releases to local apps."""
-        self._logger.info("Adding Rookie releases")
-        for package, versions in self._rookie.get_releases().items():
-            self._app_manager.add_rookie_releases(package, versions)
+        for package, app in self._app_manager.get_needs_changelog().items():
+            if log := await self._oculus.get_app_changelog(app.id):
+                self._app_manager.add_changelog(package, log)
 
     def _update_parsed_apps(self, parsed: list[ParsedAppItem]) -> None:
         """Update the list of parsed apps with new data."""
@@ -144,7 +134,7 @@ class Updater(Singleton):
 
     def _get_parsed_ids(self) -> list[str]:
         """Get a list of IDs from the parsed apps."""
-        return [i.id for i in self._parsed_apps if i.id]
+        return [i.id for i in self._parsed_apps]
 
     async def _parse_result(
         self,
@@ -170,7 +160,6 @@ class Updater(Singleton):
                 await self._oculus.get_app_changelog(app_id)
             if log is not None and len(log) > 0:
                 updated = self._app_manager.add_changelog(app[0], log)
-                parsed.cl_version = max(i.code for i in log.root)
             if not updated:
                 parsed.packages.extend([known_package, app[0]])
                 return parsed
@@ -260,8 +249,6 @@ class Updater(Singleton):
         Optional[OculusApp]: The scraped OculusApp instance or None if no
             response.
         """
-        if not app.id:
-            return None
         if (primary := await self._scrape_app_id(app.id)) is None:
             error: str = ErrorManager().capture(
                 "ValidationError",
@@ -281,7 +268,6 @@ class Updater(Singleton):
             await self._get_additional_ids(app.additional_ids)
         result: OculusApp = Parser.parse(primary, additional, package)
         result.data.changelog = app.change_log
-        result.data.on_rookie = app.on_rookie
 
         image_downloads: list[AppImage] = \
             await self._oculus.get_resources(result.data.resources)
@@ -296,7 +282,7 @@ class Updater(Singleton):
 
     async def _get_additional_ids(
         self,
-        id_list: UniqueList[str] | None
+        id_list: list[str] | None
     ) -> list[OculusApp]:
         """
         Get additional OculusApp instances for a list of IDs.

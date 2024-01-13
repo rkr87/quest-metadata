@@ -13,12 +13,10 @@ from typing import final
 from pydantic_core import ValidationError
 
 from base.classes import Singleton
-from base.lists import UniqueList
 from config.app_config import AppConfig
 from data.model.local.apps import LocalApp, LocalApps
 from data.model.oculus.app_changelog import AppChangeLog
 from data.model.parsed.app_item import ParsedAppItem
-from data.model.rookie.releases import RookiePackage
 from utils.error_manager import ErrorManager
 
 
@@ -160,6 +158,7 @@ class AppManager(Singleton):
         """
         app: LocalApp = LocalApp(
             id=parsed_item.id,
+            additional_ids=[],
             app_name=parsed_item.name,
             added=datetime.now().isoformat(),
             max_version_date=parsed_item.max_version_date,
@@ -178,29 +177,6 @@ class AppManager(Singleton):
         self._apps[package].max_version = latest
         return updated
 
-    def add_rookie_releases(
-        self,
-        package_name: str,
-        rookie_package: RookiePackage
-    ) -> None:
-        """
-        Add Rookie release details to local app if package exists, otherwise
-        create a new local app with no version details, this will ensure if
-        a package mapping is added later it will be updated correctly.
-        """
-        if package_name in self._apps:
-            self._apps[package_name].rookie_releases = rookie_package.versions
-        else:
-            app: LocalApp = LocalApp(
-                id=None,
-                app_name=rookie_package.app_name,
-                added=datetime.now().isoformat(),
-                max_version_date=0,
-                max_version=0,
-                rookie_releases=rookie_package.versions
-            )
-            self._apps[package_name] = app
-
     def _update_existing_local_app(
         self,
         package: str,
@@ -214,17 +190,18 @@ class AppManager(Singleton):
         - parsed_item (ParsedAppItem): The parsed app item.
         """
         local_app: LocalApp = self._apps[package]
-        local_app.app_name = parsed_item.name
-        additional_ids: UniqueList[str] = UniqueList(local_app.additional_ids)
-        additional_ids.append(parsed_item.id)
-        self._update_app_details(local_app, parsed_item, additional_ids)
+        additional_ids: list[str] = local_app.additional_ids or []
+        if parsed_item.id not in additional_ids:
+            additional_ids.append(parsed_item.id)
+        if parsed_item.max_version_date > local_app.max_version_date:
+            self._update_app_details(local_app, parsed_item, additional_ids)
         self._update_additional_ids(local_app, additional_ids)
 
     @staticmethod
     def _update_app_details(
         local_app: LocalApp,
         parsed_item: ParsedAppItem,
-        additional_ids: UniqueList[str]
+        additional_ids: list[str]
     ) -> None:
         """
         Update app details for an existing local app.
@@ -234,14 +211,10 @@ class AppManager(Singleton):
         - parsed_item (ParsedAppItem): The parsed app item.
         - additional_ids (list[str]): The list of additional IDs.
         """
-        if (
-            parsed_item.max_version == 0 or
-            parsed_item.max_version_date < local_app.max_version_date
-        ):
-            return
         local_app.max_version_date = parsed_item.max_version_date
         local_app.max_version = parsed_item.max_version
-        additional_ids.append(local_app.id)
+        if local_app.id not in additional_ids:
+            additional_ids.append(local_app.id)
         if local_app.id != parsed_item.id:
             local_app.change_log = None
             local_app.id = parsed_item.id
@@ -249,7 +222,7 @@ class AppManager(Singleton):
     @staticmethod
     def _update_additional_ids(
         local_app: LocalApp,
-        additional: UniqueList[str]
+        additional: list[str]
     ) -> None:
         """
         Update additional IDs for an existing local app.

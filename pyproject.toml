@@ -792,12 +792,12 @@ ignore-long-lines = "^(.*(((#\\s*(pylint|mypy|pyright|type))|(['\"]http)).*))$"
 [tool.pylint.'DESIGN']
 # min-public-methods = 1
 max-statements = 20
-max-args = 6
+max-args = 5
 max-locals = 10
 max-returns = 4
 max-branches = 5
 # max-parents = 4
-max-attributes = 6
+max-attributes = 5
 max-public-methods = 10
 max-complexity = 5
 
