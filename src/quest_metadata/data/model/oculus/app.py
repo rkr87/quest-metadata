@@ -202,6 +202,7 @@ class Item(BaseModel):
         default=None,
         validation_alias=AliasPath("is_demo_of", "id"),
     )
+    on_rookie: bool = False
 
     def set_additional_details(
         self,
