@@ -17,6 +17,7 @@ from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from controller.parser import Parser
 from data.local.app_manager import AppManager
+from data.model.applab.apps import AppLabApps
 from data.model.local.apps import LocalApp, LocalApps
 from data.model.oculus.app import Item, OculusApp
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
@@ -69,6 +70,7 @@ class Updater(Singleton):
         """
         await self._update_oculusdb_apps()
         await self._update_store_apps()
+        await self._update_applab_apps()
         await self._update_package_mappings()
         await self._update_local_app_database()
         await self._populate_missing_changelogs()
@@ -98,6 +100,20 @@ class Updater(Singleton):
         parsed: list[ParsedAppItem] = await asyncio.gather(*[
             self._parse_result(i.id, i.display_name)
             for i in oculus
+            if i.id not in self._get_parsed_ids()
+        ])
+        self._update_parsed_apps(parsed)
+
+    async def _update_applab_apps(self) -> None:
+        """
+        Update the list of applabgamelist apps, collect package names, and
+        parse data.
+        """
+        applab: AppLabApps = await self._oculus.get_applab_apps()
+        self._logger.info("Collecting package names for each applab app")
+        parsed: list[ParsedAppItem] = await asyncio.gather(*[
+            self._parse_result(i.id, i.app_name)
+            for i in applab
             if i.id not in self._get_parsed_ids()
         ])
         self._update_parsed_apps(parsed)
