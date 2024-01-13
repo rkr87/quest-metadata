@@ -1,0 +1,160 @@
+{
+    "package": "com.jjbfourthwallstudios.coastermania",
+    "data": {
+        "id": "7856648691073700",
+        "additional_ids": [],
+        "name": "CoasterMania",
+        "app_name": "CoasterMania",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": null,
+        "release_date": "2023-03-01T00:00:00",
+        "description": "CoasterMania is a physics-based VR rollercoaster game where you create the ride of your life! Use wacky contraptions and elements to fly through the sky, then experience your creation by jumping in the front seat. \n  \nSANDBOX MODE: Build your dream rollercoaster without any rules but the rules of physics. When you're done, share your coaster or experience the engineering marvels of others.  Design your own rides and upload them online\n\nPASSTHROUGH MODE: Place your rollercoaster in the real world & build a track all around your house. \n\nPUZZLE MODE DEMO: Use physics and momentum to fly your cart through dangerous fiery rings procedurally placed around your room!\n\nONLINE SHARING: Infinite replayability with lots of depth. Access unlimited community-made rollercoasters in Online Sharing.   \n\nADDITIONAL FEATURES: \n- Terrain editor. \n- Decorate the environment with trees, rocks, and other props.",
+        "markdown": false,
+        "developer": "4th Wall Breakers",
+        "publisher": "4th Wall Breakers",
+        "genres": [
+            "Casual",
+            "Puzzle",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 3
+            },
+            {
+                "rating": 4,
+                "votes": 2
+            },
+            {
+                "rating": 5,
+                "votes": 29
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://www.coastermaniavr.com/",
+        "app_images": {
+            "cover_landscape": "39031605_812323659771447_6928080209446466315_n.png",
+            "cover_portrait": "39031383_1212324636216620_665139494834825155_n.png",
+            "cover_square": "38974711_388338896612741_1316328052851978424_n.png",
+            "hero": "38974924_761842558211227_7242995403117954779_n.png",
+            "icon": "75326676_775100760491191_8263445416988590562_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974844_1250082958868112_8720808398416025990_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": ".19a",
+                "change_log": "v.19a\n\nNew Features\n- New and improved models for nature\n- Added Passthrough toggle in while riding\n- Added Letters and number props\n- Added Sleigh cart\n\nChanges/Improvements\n- Updated prop system\n- Updated terrain textures to be snowy\n- Update scaling gizmo to be easier to use\n\nBug Fixes\n-Fix issue with chain track where it would get stuck\n- Fix issue deleting track piece ruins curve"
+            },
+            {
+                "version": ".18a",
+                "change_log": "Version: v18a\n\nNew Features\n- Added Puzzle Mode Demo\n- (Experimental) Added Scene Mesh Collision & Occlusion\n- (Experimental) Added Scene Mesh Terrain & First person mode\n- New Art for Station\n- New Art for Cart\n- Added speed indicator inside cart\n- Added real-time lighting\n- Deterministic Physics\n- Added change log\n- Play/Pause controller button\n- Reset Cart controller button\n\nChanges/Improvements\n- Update panel in cart to be more accessible \n- Updated UI\n- Updated Tutorial\n- Station now respects angle the player grabs it\n\nBug Fixes\n- Fix reset world button\n- Fix issue where track turns into jumbled mess when connecting tracks\n- Fix issues with saving/loading coaster in MR\n- Fix issue where snapping to end of track was not working\n- Fix cart flipping when jumping off track backwards\n- Fix issue where player spawned in tiny\n- Fix station nodes not set to edge of station\n- Fix objects rendering black when behind scene defined furniture\n- Fix issue where track type is not set on 2 node tracks\n- Fix issue where station could appear above player’s height\n\nOther\n- Removed Terrain tool while in MR (temporary)"
+            },
+            {
+                "version": ".18c",
+                "change_log": "Version: v18c\nNew Features\n-Multiple Cart support\n\nChanges/Improvements\n-Update chain track to use incoming velocity\n-Update UI for tracks\n-Improve frame rate\n\nBug Fixes\n-Fix issue where deleting track would cause weird artifacts"
+            },
+            {
+                "version": ".18b",
+                "change_log": "**v.18b**\n- Fix zig-zag track appearing when deleting a track\n- Fix weird graphical issue in VR mode when user has a scanned room\n- Fix tunnel not able to fly through"
+            },
+            {
+                "version": ".15a",
+                "change_log": "v.15a\n- Add change log clipboard\n- Fix chain lift track not rendering correctly\n- Fix placement track not rendering correctly\n- Minor bug fixes"
+            },
+            {
+                "version": ".14a",
+                "change_log": "v.14a\n- Drastically improve performance in sandbox, menu, & tutorials.\n- (temporary) Remove background trees\n- Update lighting"
+            },
+            {
+                "version": ".13e",
+                "change_log": "(remove unwanted permissions)"
+            },
+            {
+                "version": ".13e",
+                "change_log": "**v.13e**\n-Add pagination for saved coasters\n-Add confirmation dialog for deleting worlds\n-Update tooltips in world menu\n\n-Fix holes in terrain appearing after manipulating terrain in another scene\n-Fix passthrough mode not being playable due to spammed error\n-Fix tutorial not recognizing track changed to booster\n-Fix issues with delete\n-Fix ability to add a track that has already been completed\n-Fix issues with terrain not saving properly\n-Fix search bar being hidden for community tab\n-Fix cart orientation when jumping off track backwards"
+            },
+            {
+                "version": ".13d",
+                "change_log": "v.13d\n-Fix tracks not loading from sandbox\n-Fix seams between chunks for terrain when saving"
+            },
+            {
+                "version": ".13c",
+                "change_log": "v.13c\n- Fix issues where ghost tracks would appear\n- Fix interaction with start station causing angled tracks\n- Fix issue where error logging would show up in main menu"
+            },
+            {
+                "version": ".13b",
+                "change_log": "v.13b\n-Add support for color passthrough with Quest Pro\n-Add ability to report coasters\n-Add toggle for enabling/disabling error messages\n\n-Move error messages to side of build menu\n-Fix issue with cart throwing error when in passthrough\n-Fix issue not being able to move if loaded passthrough scene\n-Fix issue with music manager throwing error\n-Update UI for downloading showcase"
+            },
+            {
+                "version": ".13a",
+                "change_log": "**v.13a**\n\n-Add main menu scene\n-Add loading scene between loading tracks\n-Add passthrough mode (now it's own mode rather than a setting)\n-Re-enable & Add updated tutorial\n\n-Update build menu to be more user friendly\n-Fix loading community made terrains not working\n-Fix pre-built tracks not loading correctly\n\n-& Much more!"
+            },
+            {
+                "version": ".10a",
+                "change_log": "**v.10a**\n\n-Add loop pre-made element\n-Add corkscrew pre-made element\n-Add hand raising animations to test dummies when going at fast speeds or flying off tracks\n-Add better tooltip indicators for controls\n\n-Update controller model\n-Update Tutorial\n-Make cart explode on impact with props\n\n-Fix issue on first time trying the app showing an error message.\n-Disable scaling for all interactors except the grab tool"
+            },
+            {
+                "version": ".9b",
+                "change_log": "v.9b\n-Fix grabbing last track connected to station causing weird extrusions\n-Fix issues with connecting track to station\n-Disable tools when not needed for tutorial.\n-Fix issue where player would not be rotated in cart if the cart was at an angle"
+            },
+            {
+                "version": ".8b",
+                "change_log": "**v.8b**\n*(v.8a was skipped due to a bug)*\n\n-Add ability to set floor location for passthrough mode\n-Add version number text to main menu\n-Add \"Early Access\" message to title scene\n\n-Fix pressing cart reset only moving the cart 1/2 way the first time.\n-Fix cart rotation to always face the trajectory it's falling\n-Fix issues when deleting tracks\n-Fix undo/redo breaks when undoing after connecting track before station\n-Fix undo/redo not recording when track were moved\n-Fix undo/redo not recording when objects were deleted"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 35,
+        "rating": 4.657143,
+        "weighted_rating": 4.05,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}
