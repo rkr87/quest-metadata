@@ -4,7 +4,6 @@
   - scrape artwork from steam?
 - add exclusion of google form reports of "bad metadata"
 - automatic updates of Rookie data
-- search meta store for unidentified games (and submit to oculusdb?)
 
 **Performance**
 - move images to google drive

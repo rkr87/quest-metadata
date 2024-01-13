@@ -1,14 +1,4 @@
-"""
-Module providing an API wrapper for fetching Oculus and OculusDB data.
-
-Classes:
-- _RequestVars: Internal class representing request variables.
-- _SectionVars: Internal class representing section variables.
-- _MetaSection: Internal class representing meta section variables.
-- _OculusSection: Internal class representing Oculus section variables.
-- _Payload: Internal class representing the payload for GraphQL requests.
-- Wrapper: Singleton class for making various API requests.
-"""
+"""Module providing an API wrapper for fetching Oculus and OculusDB data."""
 import asyncio
 from collections.abc import Callable
 from typing import Any, TypeVar, final
@@ -27,6 +17,7 @@ from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_changelog import AppChangeLog
 from data.model.oculus.app_package import AppPackage
 from data.model.oculus.app_versions import AppVersions
+from data.model.oculus.store_search import SearchResult, StoreSearch
 from data.model.oculus.store_section import StoreSection
 from data.model.oculusdb.apps import OculusDbApps
 from data.web.http_client import HttpClient
@@ -34,7 +25,7 @@ from helpers.string import to_camel
 from utils.error_manager import ErrorManager
 
 OCULUS: str = "https://graph.oculus.com/graphql"
-OCULUSDB: str = "https://oculusdb.rui2015.me/api/v1/allapps"
+OCULUSDB: str = "https://oculusdb.rui2015.me/api/v1/"
 APPLAB: str = "https://applabgamelist.com/action/GetLinks2"
 
 HEADERS: dict[str, str] = {
@@ -46,18 +37,7 @@ RATE_LIMIT: int = 50
 
 
 class _RequestVars(BaseModel):  # pylint: disable=R0902
-    """
-    Internal class representing request variables for GraphQL queries.
-
-    Attributes:
-    - hmd_type (str | None): The HMD type.
-    - id (str | None): The ID.
-    - item_id (str | None): The item ID.
-    - application_id (str | None): The application ID.
-    - params (str | None): Additional parameters.
-    - request_pdp_assets_as_png (bool | None): Flag to request PDP assets
-        as PNG.
-    """
+    """Internal class representing request variables for GraphQL queries."""
     hmd_type: str | None = None
     id: str | None = None
     item_id: str | None = None
@@ -66,6 +46,9 @@ class _RequestVars(BaseModel):  # pylint: disable=R0902
     params: str | None = None
     request_pdp_assets_as_png: bool | None = \
         Field(default=None, serialization_alias="requestPDPAssetsAsPNG")
+    query: str | None = None
+    display_results: int | None = \
+        Field(default=None, serialization_alias="firstSearchResultItems")
 
     class Config:
         """
@@ -79,21 +62,13 @@ class _RequestVars(BaseModel):  # pylint: disable=R0902
 
 
 class _SectionVars(_RequestVars):
-    """
-    Internal class representing section variables for GraphQL queries.
-
-    Attributes:
-    - section_id (str | None): The section ID.
-    """
+    """Internal class representing section variables for GraphQL queries."""
     section_id: str | None = None
 
 
 class _MetaSection(_SectionVars):
     """
     Internal class representing meta section variables for GraphQL queries.
-
-    Attributes:
-    - item_count (int): The item count.
     """
     item_count: int = 10000
 
@@ -101,28 +76,12 @@ class _MetaSection(_SectionVars):
 class _OculusSection(_SectionVars):
     """
     Internal class representing Oculus section variables for GraphQL queries.
-
-    Attributes:
-    - section_item_count (int): The section item count.
     """
     section_item_count: int = 10000
 
 
 class _Payload(BaseModel):
-    """
-    Internal class representing the payload for GraphQL requests.
-
-    Attributes:
-    - access_token (str): The access token.
-    - forced_locale (str): The forced locale.
-    - variables (_RequestVars): The request variables.
-    - doc_id (int | None): The document ID.
-    - doc (str | None): The document.
-    - server_timestamps (bool | None): Flag for server timestamps.
-
-    Methods:
-    - url_encode: Encode the payload into a URL-encoded string.
-    """
+    """Internal class representing the payload for GraphQL requests."""
     access_token: str = "OC|1076686279105243|"
     forced_locale: str = AppConfig().scrape_locale
     variables: _RequestVars = _RequestVars()
@@ -277,11 +236,15 @@ class OculusService(Singleton):
         - OculusDbApps: The list of apps from OculusDB.
         """
         self._logger.info("Fetching app list from OculusDB")
-        if (resp := await self._client.get(OCULUSDB)) is None:
+        if (resp := await self._client.get(f"{OCULUSDB}allapps")) is None:
             return OculusDbApps()
         text = await resp.json(content_type=None)
         data: OculusDbApps = OculusDbApps.model_validate(text)
         return data
+
+    async def oculusdb_report_missing(self, app_id: str) -> None:
+        """Make a report to oculusdb to scrape a missing app id"""
+        await self._client.get(f"{OCULUSDB}reportmissing/{app_id}")
 
     async def get_applab_apps(self) -> AppLabApps:
         """
@@ -364,6 +327,16 @@ class OculusService(Singleton):
         payload = _Payload(doc_id=1586217024733717)
         payload.variables.id = app_id
         return await self._request(payload, AppChangeLog)
+
+    async def store_search(self, query: str) -> list[SearchResult]:
+        """Search for an app."""
+        payload = _Payload(doc_id=24633449332970329)
+        payload.variables.query = f"\"{query}\""
+        payload.variables.hmd_type = "HOLLYWOOD"
+        payload.variables.display_results = 100
+        if results := await self._request(payload, StoreSearch):
+            return results.fetch_exact_results(query)
+        return []
 
     async def get_version_package(
         self,
