@@ -66,11 +66,6 @@ class ValidatedList(UserList[_VT], Generic[_VT], ABC):
     def extend(self, other: Iterable[_VT | None]) -> None:
         super().extend(self._validate_values(other))
 
-    def remove(self, item: _VT | None) -> None:
-        if item is None:
-            return
-        super().remove(item)
-
     def __add__(self, other: Iterable[_VT | None] | None) -> Self:
         validated: list[_VT] = self._validate_values(self._to_list(other))
         return super().__add__(validated)
@@ -203,9 +198,6 @@ class UniqueList(ValidatedList[_VT]):
         if not value or value in self:
             return None
         return value
-
-    def _validate_values(self, values: Iterable[_VT | None]) -> list[_VT]:
-        return super()._validate_values(set(values))
 
 
 class LowerCaseUniqueList(UniqueList[str]):

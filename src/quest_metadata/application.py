@@ -18,7 +18,6 @@ from data.local.app_manager import AppManager
 from data.web.google import GoogleSheetService
 from data.web.http_client import HttpClient
 from data.web.oculus import OculusService
-from data.web.rookie import RookieService
 from utils.async_runner import AsyncRunner
 
 
@@ -44,14 +43,7 @@ class Application(Singleton):
         await client.open_session()
         oculus = OculusService(client)
         sheets = GoogleSheetService()
-        rookie = RookieService()
-        self._updater = Updater(
-            app_manager,
-            oculus,
-            image_manager,
-            sheets,
-            rookie
-        )
+        self._updater = Updater(app_manager, oculus, image_manager, sheets)
         await self._setup_environment()
         return self
 
