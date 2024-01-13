@@ -15,9 +15,9 @@ class PackageMapping(BaseModel):
 
     @field_validator("store_id", mode="before")
     @classmethod
-    def to_str(cls, val: int) -> str:
+    def to_str(cls, val: str) -> str:
         """Convert store_id to string."""
-        return str(val)
+        return val.replace("_", "")
 
     @field_validator("timestamp", mode="before")
     @classmethod
