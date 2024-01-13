@@ -6,10 +6,12 @@ Classes:
 - LocalApps: Dictionary-based model for a collection of local applications.
 """
 
-from pydantic import Field
+from pydantic import Field, computed_field
 
+from base.lists import UniqueList
 from base.models import BaseModel, RootDictModel
 from data.model.oculus.app_changelog import AppChangeEntry
+from data.model.rookie.releases import RookieRelease
 
 
 class LocalApp(BaseModel):
@@ -33,8 +35,8 @@ class LocalApp(BaseModel):
     - is_demo (bool | None): Indicates whether the local application is a demo,
         or None.
     """
-    id: str
-    additional_ids: list[str] = []
+    id: str | None = None
+    additional_ids: UniqueList[str] = UniqueList()
     app_name: str
     max_version: int = 0
     max_version_date: int = 0
@@ -44,6 +46,14 @@ class LocalApp(BaseModel):
     is_available: bool | None = None
     is_free: bool | None = None
     is_demo: bool | None = None
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def on_rookie(self) -> bool:
+        """Indicates whether the local application is available on Rookie"""
+        return len(self.rookie_releases) > 0
+
+    rookie_releases: dict[str, list[RookieRelease]] = {}
 
 
 class LocalApps(RootDictModel[str, LocalApp]):

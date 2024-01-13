@@ -103,6 +103,7 @@ class AppConfig(SingletonModel):
     data_path: str = ".data"
     apps_filename: str = "_apps.json"
     resource_path: str = ".res"
+    rookie_path: str = ".rookie"
     error_path: str = ".errors"
     error_log_retention: int = 7
     constructed: bool = Field(default=False, exclude=True)
