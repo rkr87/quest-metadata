@@ -21,6 +21,7 @@ from pydantic import Field, ValidationError
 from base.classes import Singleton
 from base.models import BaseModel
 from config.app_config import AppConfig
+from data.model.applab.apps import AppLabApps
 from data.model.oculus.app import OculusApp
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_changelog import AppChangeLog
@@ -34,6 +35,7 @@ from utils.error_manager import ErrorManager
 
 OCULUS: str = "https://graph.oculus.com/graphql"
 OCULUSDB: str = "https://oculusdb.rui2015.me/api/v1/allapps"
+APPLAB: str = "https://applabgamelist.com/action/GetLinks2"
 
 HEADERS: dict[str, str] = {
     "Content-Type": "application/x-www-form-urlencoded",
@@ -279,6 +281,20 @@ class OculusService(Singleton):
             return OculusDbApps()
         text = await resp.json(content_type=None)
         data: OculusDbApps = OculusDbApps.model_validate(text)
+        return data
+
+    async def get_applab_apps(self) -> AppLabApps:
+        """
+        Get the list of apps from applabgamelist.com.
+
+        Returns:
+        - AppLabApps: The list of apps from applabgamelist.
+        """
+        self._logger.info("Fetching app list from applabgamelist")
+        if (resp := await self._client.get(APPLAB)) is None:
+            return AppLabApps()
+        text = await resp.json(content_type=None)
+        data: AppLabApps = AppLabApps.model_validate(text)
         return data
 
     async def get_store_apps(self) -> StoreSection:
