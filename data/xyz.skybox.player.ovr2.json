@@ -1,0 +1,172 @@
+{
+    "package": "xyz.skybox.player.ovr2",
+    "data": {
+        "id": "2063931653705427",
+        "additional_ids": [],
+        "name": "SKYBOX VR Video Player",
+        "app_name": "SKYBOX VR Video Player",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2019-05-21T00:00:00",
+        "description": "SKYBOX is an ultimate local VR video player which supports video playback from local storage and network shared servers. \n\n>> Go/Gear Paid users reach us for Quest free version! \n\nAny Feedback is highly appreciated: \nBug Report to Contact@SKYBOX.xyz \nDiscussions: https://forum.SKYBOX.xyz \nFAQ: https://SKYBOX.xyz/en/support/ \n\nWith SKYBOX, enjoy videos from your UPnP/DLNA media server or SMB share in the same Wi-Fi. A easy-to-set-up PC Client is available to support streaming from PC = Save your Storage! \nNo need to manually set the stereo mode such as 180° or 3D side-by-side; SKYBOX would recognize the correct format for you = Save your Time! \n\nFeatures include: \n1. Automatically recognize video stereo mode ( 180° / 360° / 2D / 3D ). \n2. AirScreen: stream videos to VR headsets (download: https://SKYBOX.xyz/en/get/)\n3. Support DLNA media servers and SMB 2.0 shares. \n4. 8k local and streaming playback with Quest 2, 5k for Quest. \n5. Simple and intuitive UI.\n\nRelax and enjoy SKYBOX :)",
+        "markdown": false,
+        "developer": "SKYBOX STUDIO",
+        "publisher": "SKYBOX STUDIO",
+        "genres": [
+            "Productivity",
+            "Media & Streaming"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "English (US)",
+            "Chinese (China)",
+            "Chinese (Hong Kong)",
+            "Chinese (Taiwan)",
+            "French (France)",
+            "German",
+            "Japanese",
+            "Korean",
+            "Russian",
+            "Spanish (Spain)"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [
+            "Under $15",
+            "Under $10",
+            "Holiday Sale 2023 [marathon shelf]",
+            "Holiday Sale 2023 [family shelf]"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 257
+            },
+            {
+                "rating": 2,
+                "votes": 66
+            },
+            {
+                "rating": 3,
+                "votes": 131
+            },
+            {
+                "rating": 4,
+                "votes": 313
+            },
+            {
+                "rating": 5,
+                "votes": 2422
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://SKYBOX.XYZ/",
+        "app_images": {
+            "cover_landscape": "38974891_323599224934323_5748318704945332224_n.png",
+            "cover_portrait": "38974488_313906762816684_895636067175104512_n.png",
+            "cover_square": "38974579_864494630558031_2448540621858668544_n.png",
+            "hero": "39031350_395612481256994_7200392056177426432_n.png",
+            "icon": "38974625_343468176265008_86462287283486720_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974460_2224950814210348_4935328503013834752_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.1.6",
+                "change_log": "* Added multi-language keyboard\n* Supported deleting files over SMB\n* Supported .MPO, .WEBP and .JPS image format\n* Supported auto-detecting Full SBS format using file name\n* Supported adding Network & YouTube videos to Favorites\n* Supported casting videos to headset\n* Fix some bugs"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "[Bug Fix] Wrong texture format with Pro-HD function\n[Bug Fix] Secondary account stuck at loading screen"
+            },
+            {
+                "version": "1.1.5",
+                "change_log": "fix airscreen channel files not displayed"
+            },
+            {
+                "version": "1.1.4-quest1",
+                "change_log": "v1.1.4 customized for Quest 1"
+            },
+            {
+                "version": "1.1.4",
+                "change_log": "Quest v1.1.4\n- Supported Passthrough function\n- Supported image format\n- Supported 190° fisheye format\n- Turn on/off network viewing history\n- Optimized controllers & hand tracking function\n- Optimized dynamic lighting"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "log toggle"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "修复崩溃"
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "Bug fix: 进入空文件夹返回上一级不记住浏览位置；截图逻辑"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug Fixed: Can't connect to Emby Server"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "解决了dlna切文件夹偶尔崩溃的问题"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug Fixed: 停留在 DLNA 文件路径页面时无法播放历史记录里带密码的SMB视频"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Bug Fixed: Hidden files not hidden"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Fix bug: folders cannot be sorted by time"
+            }
+        ],
+        "keywords": [
+            "Player",
+            "Movie",
+            "Video",
+            "Tool",
+            "VR"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 3189,
+        "rating": 4.435246,
+        "weighted_rating": 4.42,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}
