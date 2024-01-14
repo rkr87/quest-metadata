@@ -7,6 +7,7 @@ from typing import Any
 from pydantic import AliasPath, Field, field_validator
 
 from base.models import BaseModel, RootListModel
+from helpers.string import normalised_compare
 
 
 class SearchResult(BaseModel):
@@ -21,6 +22,8 @@ class SearchResult(BaseModel):
         Field(validation_alias=AliasPath("target_object", "display_name"))
     id: str = \
         Field(validation_alias=AliasPath("target_object", "id"))
+    is_concept: bool = \
+        Field(validation_alias=AliasPath("target_object", "is_concept"))
 
 
 class StoreSearch(RootListModel[SearchResult]):
@@ -41,9 +44,19 @@ class StoreSearch(RootListModel[SearchResult]):
             output.extend(i['search_results']['nodes'])
         return output
 
-    def fetch_exact_results(self, search_term: str) -> list[SearchResult]:
+    def filter_results(
+        self,
+        search_term: str,
+        include_all_applab: bool = False
+    ) -> list[SearchResult]:
         """Fetches exact search results based on the provided search term."""
+
+        noise: list[str] = ["VR", "MR-Fix", "Multi-Install"]
+
         return [
             r for r in self.root
-            if r.display_name.lower() == search_term.lower()
+            if (
+                normalised_compare(r.display_name, search_term, noise) or
+                (r.is_concept and include_all_applab)
+            )
         ]

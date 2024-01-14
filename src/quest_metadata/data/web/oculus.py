@@ -332,11 +332,19 @@ class OculusService(Singleton):
         """Search for an app."""
         payload = _Payload(doc_id=24633449332970329)
         payload.variables.query = f"\"{query}\""
-        payload.variables.hmd_type = "HOLLYWOOD"
         payload.variables.display_results = 100
-        if results := await self._request(payload, StoreSearch):
-            return results.fetch_exact_results(query)
-        return []
+
+        results: list[SearchResult] = []
+
+        payload.variables.hmd_type = "HOLLYWOOD"
+        if quest := await self._request(payload, StoreSearch):
+            results.extend(quest.filter_results(query, True))
+
+        payload.variables.hmd_type = "RIFT"
+        if rift := await self._request(payload, StoreSearch):
+            results.extend(rift.filter_results(query, True))
+
+        return results
 
     async def get_version_package(
         self,

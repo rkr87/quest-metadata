@@ -84,14 +84,10 @@ class Updater(Singleton):
             if app.id is None:
                 search: list[SearchResult] = \
                     await self._oculus.store_search(app.app_name)
-                rep: str = "-"
-                if len(search) == 0 and rep in app.app_name:
-                    search = await self._oculus.store_search(
-                        app.app_name.replace(rep, ":")
-                    )
                 for result in search:
-                    await self._oculus.oculusdb_report_missing(result.id)
-                    self._logger.info("Identified: %s", result.display_name)
+                    if result.id not in self._get_parsed_ids():
+                        await self._oculus.oculusdb_report_missing(result.id)
+                        self._logger.info("Report: %s", result.display_name)
 
         self._logger.info("Attempting to identify missing apps.")
         await asyncio.gather(*[search(a) for a in apps.values()])

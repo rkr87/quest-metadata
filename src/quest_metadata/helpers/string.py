@@ -9,6 +9,7 @@ Functions:
 - to_iso: Convert a date string to ISO format.
 
 """
+import re
 from datetime import datetime
 from re import sub
 
@@ -109,3 +110,57 @@ def to_iso(date_str: str, input_format: str) -> str:
         return datetime.strptime(date_str, input_format).isoformat()
     except ValueError:
         return date_str
+
+
+def normalise_text(text: str, strip_words: list[str] | None = None) -> str:
+    """
+    Normalize text by removing non-alphanumeric characters and converting to
+    lowercase.
+
+    Args:
+    - text (str): The input text.
+    - strip_words (list[str] | None): List of words to strip from the text.
+
+    Returns:
+    - str: The normalized text.
+
+    Example:
+    ```python
+    normalise_text("Hello World! 123") > "hello world 123"
+    ```
+    """
+    pattern = "[^a-z0-9\\s]"
+    clean: str = re.sub(pattern, "", text.lower())
+
+    if strip_words is None:
+        return clean
+
+    noise: list[str] = [normalise_text(x) for x in strip_words]
+
+    return " ".join([x for x in clean.split(" ") if x not in noise])
+
+
+def normalised_compare(
+    text_a: str,
+    text_b: str,
+    strip_words: list[str] | None = None
+) -> bool:
+    """
+    Compare two normalized texts.
+
+    Args:
+    - text_a (str): The first text.
+    - text_b (str): The second text.
+    - strip_words (list[str] | None): List of words to strip from the text.
+
+    Returns:
+    - bool: True if the normalized texts are equal, False otherwise.
+
+    Example:
+    ```python
+    normalised_compare("Hello TEST World! 1", "HELLO world 1", ["Test"]) > True
+    ```
+    """
+    compare_a: str = normalise_text(text_a, strip_words)
+    compare_b: str = normalise_text(text_b, strip_words)
+    return compare_a == compare_b
