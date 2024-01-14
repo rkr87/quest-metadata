@@ -235,16 +235,15 @@ class AppManager(Singleton):
         - additional_ids (list[str]): The list of additional IDs.
         """
         if (
-            parsed_item.max_version == 0 or
-            parsed_item.max_version_date < local_app.max_version_date
+            local_app.id is None or
+            parsed_item.max_version_date >= local_app.max_version_date
         ):
-            return
-        local_app.max_version_date = parsed_item.max_version_date
-        local_app.max_version = parsed_item.max_version
-        additional_ids.append(local_app.id)
-        if local_app.id != parsed_item.id:
-            local_app.change_log = None
-            local_app.id = parsed_item.id
+            local_app.max_version_date = parsed_item.max_version_date
+            local_app.max_version = parsed_item.max_version
+            additional_ids.append(local_app.id)
+            if local_app.id != parsed_item.id:
+                local_app.change_log = None
+                local_app.id = parsed_item.id
 
     @staticmethod
     def _update_additional_ids(
