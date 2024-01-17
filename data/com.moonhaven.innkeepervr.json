@@ -45,7 +45,7 @@
             },
             {
                 "rating": 2,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 3,
@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 16
+                "votes": 17
             }
         ],
         "comfort": "NOT_RATED",
@@ -148,18 +148,6 @@
             {
                 "version": "0.2.0",
                 "change_log": "HUGE UPDATE \n\nnew tavern\n\nhiring system\n\nthe ability to \"close\" the tavern through the menu (will be changed to a more interactive in the future)\n\nFixed a terrible bug that annoyed all of us: crashing out of the game when loading a level!"
-            },
-            {
-                "version": "0.1.6",
-                "change_log": "Added cleaning and a huge update on NPC optimization (so that nothing will prevent you from enjoying the game when the tavern is full)"
-            },
-            {
-                "version": "0.1.6",
-                "change_log": "Added fights between visitors (throwing out such customers increases reputation)\n\nPlayer no longer bounces when colliding with visitors\n\nFixed navigation for visitors\n\nFixed blinking when switching between animations\n\nFixed a bug where after a visitor vomited from a mixed drink, any next visitor left without an order in the same spot also vomited\n\nFixed a bug where grabbing a visitor starting to sit down could cause the game to crash"
-            },
-            {
-                "version": "0.1.5",
-                "change_log": "Purchased barrels are now saved\nFixed tavern lighting\nFixed color of sliders and scroll in the main menu\nReduced time for consuming a ruined drink by visitor\nPlayer start moved to storeroom\nAdded winter in the lobby\nFixed a bug that allowed more than one barrel to be installed in the same slot on the bar\nFixed a bug where a reputation decrease would play the sound of a reputation increase (but only when the player's reputation is 0)"
             }
         ],
         "keywords": [],
@@ -167,9 +155,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 30,
-        "rating": 4.0,
-        "weighted_rating": 3.89,
+        "votes": 32,
+        "rating": 3.96875,
+        "weighted_rating": 3.88,
         "is_available": true,
         "is_free": false
     },

@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 35
+                "votes": 36
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.8.12",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \nAdded \"bot speed\" options to Rally and Match modes\nTeleport autorun option\n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\nAllow Y/B to toggle menu in one-controller mode\n\nBugfixes:\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial\nBetter challenge messaging\nFixed one-controller movement direction\nFixed \"random volley\" targets off court"
+            },
             {
                 "version": "1.8.11",
                 "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial\nBetter challenge messaging\nTeleport autorun option\nFixed one-controller movement direction"
@@ -150,10 +154,6 @@
             {
                 "version": "1.7.0",
                 "change_log": "Release 1.7\nFull autorun option\nImproved hitting physics\nPro features changed"
-            },
-            {
-                "version": "1.6.1",
-                "change_log": "Release 1.6\nMULTIPLAYER CHALLENGES\nBug fixes"
             }
         ],
         "keywords": [],
@@ -161,9 +161,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 47,
-        "rating": 4.340426,
-        "weighted_rating": 4.0,
+        "votes": 48,
+        "rating": 4.354167,
+        "weighted_rating": 4.01,
         "is_available": true,
         "is_free": true
     },

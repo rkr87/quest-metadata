@@ -9,10 +9,10 @@
         "appstore_type": "Application",
         "category": null,
         "release_date": "2023-05-31T00:00:00",
-        "description": "Oasis Browser allows you to freely arrange a browser in your own virtual home using hand tracking operation, achieving the best browsing experience in an ideal space. If you're interested, please download and try it out!\n\nBy using Oasis Browser, you can create your ideal virtual home for various uses.\n* Relaxation Space: Choose your favorite space within it for a rich relaxation experience.\n* Work or Study Efficiency: By placing multiple browsers, you can work in a multi-monitor-like environment.\n* Content Appreciation: Prepare your own theater room to watch movies, play browser games on the big screen, and achieve the best entertainment experience.\n* Interior: Browsers can be arranged like a display or a mural.\n\nFeature\n* Browser: Freely place browsers in your virtual home and explore the world of the internet.\n* Room: Choose the skydome and interior according to your preferences and purposes, and customize your ideal virtual space.\n* Hand Tracking: All operations are performed with hand tracking. All you need is to wear your HMD.\n\nPremium Plan\nBy purchasing the premium plan for $9.9, your use of the virtual home will expand dramatically.\nPremium Plan Features:\n* Multiple Rooms: Create multiple rooms, and switch freely according to your needs.\n* Unlimited Browsers: Open as many browsers as the performance of your device allows(up to 2 for the free plan).\n\nAt present, this application is currently in beta. If you have any feedback, please write a review.",
+        "description": "Oasis Browser is an app that allows you to freely place browsers in a virtual space, marking the first step in creating your own ideal virtual space. All you need is to wear a Head-Mounted Display (HMD), and nothing else is necessary.\n\nCurrently, this app is in its beta version, and we are adding new features to enhance usability and increase the freedom of the virtual space. If you have any opinions, please do not hesitate to leave a review.\n\nWith Oasis Browser, you can freely construct your ideal virtual space for various purposes through the browser:\n- Relaxation Space: Choose your favorite space and enjoy a fulfilling relaxation experience with videos and music to soothe your mind.\n- Efficiency in Work and Learning: By placing multiple browsers within the space, you can work in an environment similar to a multi-monitor setup.\n- Ultimate Content Viewing: Enjoy movies in a dedicated theater room or play browser games on a large screen, significantly enhancing your entertainment experience.\n- Customizable Interiors: Arrange browsers like furniture, and display web content (such as images and videos) as virtual space displays or murals.",
         "markdown": false,
         "developer": "Oasis Browser",
-        "publisher": "Oasis Browser",
+        "publisher": "Oasis Browser Site",
         "genres": [
             "Utilities",
             "Media & Streaming"
@@ -101,6 +101,14 @@
             }
         ],
         "changelog": [
+            {
+                "version": "0.4.1",
+                "change_log": "* Fixed app bugs."
+            },
+            {
+                "version": "0.4.0",
+                "change_log": "* Added support for Quest controllers.\n* Improved usability around the browser (elimination of interact mode selection).\n* Updated the virtual keyboard."
+            },
             {
                 "version": "0.3.0",
                 "change_log": "* Added a new interior, \"Forest Camp\".\n* Added a new interior, \"Home\".\n* Updated the \"Island\" interior.\n* Added the ability to position the browser at specific locations within an interior.\n* Fixed an issue related to audio.\n* Fixed a bug related to position memory."

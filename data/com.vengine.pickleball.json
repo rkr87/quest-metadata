@@ -85,7 +85,7 @@
             },
             {
                 "rating": 5,
-                "votes": 146
+                "votes": 147
             }
         ],
         "comfort": "NOT_RATED",
@@ -113,6 +113,14 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "4.2.16",
+                "change_log": "Add light saber to Zombies game. Cut enemies with light saber."
+            },
+            {
+                "version": "4.2.15",
+                "change_log": "Bugfix chair mode not taking effect immediately after checkbox is toggled."
+            },
             {
                 "version": "4.2.14",
                 "change_log": "Bugfix answer call button not showing up in Invite friend flow."
@@ -184,14 +192,6 @@
             {
                 "version": "4.1.7",
                 "change_log": "Add fruits, lightsaber and boxing gloves to paddle ball game"
-            },
-            {
-                "version": "4.1.6",
-                "change_log": "Added paddle yaw slider and button to reset paddle position."
-            },
-            {
-                "version": "4.1.5",
-                "change_log": "Improve physics with more advanced lift assistance. Add more filtering to reduce impact of tracking errors. Add feature to freeze the ball in flight by pressing grip during bot play. Bug fix ball deflecting by hitting player before it hits the paddle during backhand. Further limit lob height for playing with 8 ft ceiling."
             }
         ],
         "keywords": [],
@@ -199,8 +199,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 212,
-        "rating": 4.221698,
+        "votes": 213,
+        "rating": 4.225352,
         "weighted_rating": 4.1,
         "is_available": true,
         "is_free": false

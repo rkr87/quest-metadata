@@ -37,10 +37,10 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Enterprise",
             "Free",
             "xbuy",
             "MR",
-            "Enterprise",
             "Artistic apps",
             "Building",
             "Art",
@@ -68,7 +68,7 @@
             },
             {
                 "rating": 5,
-                "votes": 693
+                "votes": 694
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -94,6 +94,14 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "6.1.10-generalqc",
+                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Subdivision and crease data is now included in FBX control mesh exports. This allows tools like Blender and Alias to apply crease and subd modifiers automatically.\n- Improved stroke performance.\n\n🐛 Bug Fixes\n\n- Fixed ‘Shared With Me’ section in LandingPad Collab menu not showing if the user was not part of any organization teams.\n- Can no longer see grab highlight of objects dropped on to an invisible layer.\n- Closed volumes such as strokes and text objects no longer export as double-sided in FBX exports.\n- Fixed some environments causing LIV avatars to be invisible.\n- Disabled import, save and export for reviewer and viewer licence members in organizations.\n- Fixed measurement readout on import preview being incorrect if you changed the unit and then the value of measurement."
+            },
+            {
+                "version": "6.1.10-generalqog",
+                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Subdivision and crease data is now included in FBX control mesh exports. This allows tools like Blender and Alias to apply crease and subd modifiers automatically.\n- Improved stroke performance.\n\n🐛 Bug Fixes\n\n- Fixed ‘Shared With Me’ section in LandingPad Collab menu not showing if the user was not part of any organization teams.\n- Can no longer see grab highlight of objects dropped on to an invisible layer.\n- Closed volumes such as strokes and text objects no longer export as double-sided in FBX exports.\n- Fixed some environments causing LIV avatars to be invisible.\n- Disabled import, save and export for reviewer and viewer licence members in organizations.\n- Fixed measurement readout on import preview being incorrect if you changed the unit and then the value of measurement."
+            },
             {
                 "version": "6.1.9-generalqog",
                 "change_log": "🐛 Bug Fixes\n\n- Fixed entering a custom measurement value during the import process not being accurate if you did it more than once."
@@ -153,14 +161,6 @@
             {
                 "version": "6.1.1-generalqc",
                 "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Added a new Gloss material.\n- Improved performance of objects locked to the mirror.\n- Moved to Unity’s Universal Render Pipeline, making the appearance of standalone and tethered versions more alike.\n- Combined the Prefabs and Reference Images menu into the new “Import” menu.\n    - The built-in head and torso are now editable.\n    - Added filters for models, images and videos when browsing.\n    - Added precise import for images and videos.\n    - You are now able to rotate all imports around the axes.\n    - Can now choose units (mm, cm, m and inches) before import.\n    - Added a toggle to choose whether to import a file into new layers\n    - Added info panel on the imported model including file format, file size, number of objects, vertices and triangles.\n    - Can now enter measurement values before importing.\n    - Added Home Orientation, Reset Transform and Recalculate Centre buttons to precise import panel.\n- Reworked the Export menu.\n    - Added GRS export.\n    - Added fields to set the file name and export destination before confirming the export.\n    - Added Locate Preview, Zoom to 1:1 Scale, Home Orientation and Reset Transform buttons.\n    - Added Export to quick access buttons.\n- Reordered the submenus of the in-sketch menu.\n- Added a panel to make First Sketch optional for first time users and moved Log In to earlier in the experience.\n- Reworked the Learn panel.\n    - The panel now consists of three panels: tutorial videos, sketch experiences an EDU panel only for educational institutions.\n    - Tutorial videos are now organised by curriculum and groups within those curriculums.\n    - Tutorial video progress is now tracked on both a video and group basis.\n- Removed the “Welcome to 6.0” walkthrough.\n- Implemented a website blocklist for the web browser.\n- Added a new settings toggle on standalone versions “Allow USB File Access” which is off by default for new users. When disabled, this prevents the app requiring storage permissions from the headset but will make it impossible to transfer Gravity Sketch files via USB. When enabled behaviour is the same as in previous versions: the app does require storage permissions and you can transfer Gravity Sketch files via USB.\n- Added Quest 3 controller models.\n- Added shadows on standalone.\n- You can now connect to LandingPad and Collab using a proxy network on standalone headsets.\n- Holding the shift trigger now .shows symbols on top row of keyboard.\n- The Depth of Field setting can now be used in the screenshot tool on standalone headsets.\n- Changed build suffixes from “community” and “enterprise” to “general” and “managed”.\n- Non-essential updates are now optional on the build downloaded from landingpad.me.\n\n🐛 Bug Fixes\n\n- Made it more difficult to create non-manifold geometry using the mirror.\n- Group icon is no longer present when grabbing anchored images.\n- Other user’s Collab menus update changes without needing the “Snap” toggle to be toggled.\n- Fixed some rigged FBX models being imported correctly after closing and reopening the Import menu.\n- Prevented interacting with menu UI while grabbing geometry.\n- Fixed a potential subd error when deleting faces attached to the mirror after adding a loop close to the mirror.\n- “Sided Normals” option is now enabled when exporting NURBS+ FBX.\n- Fixed a crash when connecting or disconnecting a bluetooth audio device to a standalone headset during Collab.\n- Fixed potential text overlap with long email addresses in File Manager\n- Added missing tooltip for round/square/diamond stroke and ink tools.\n- Removed blank redundant keys in various keyboards.\n- Fixed airbrush material objects that were exported from and then imported back into Gravity Sketch being invisible.\n- Spawn Point option slider is no longer always positioned to the right even when not enabled.\n- Changing Tooltips toggle in VR now also changes it on the desktop menu.\n- The “Hide my email display” toggle is now respected on app relaunch.\n- Magic Link log in emails now correctly send if you filled your email before pressing “Sign in without password”.\n- Fixed IGES exports not producing thumbnails.\n- Stopped thin line stroke option appearing in the planar volume edit menu if you were previously editing a stroke.\n- Removed redundant stroke shape slider from polar symmetrical subdivision ribbon edit menu.\n- The UI to indicate depth of field and field of view  in the screenshot menu now scales with the size of the screenshot menu.\n- Fixed tessellation when thickening and baking two subdivision faces joined together by one vertex.\n- Previews in the viewpoints menu now always correctly reflect the workspace environment.\n- Improved app start up times when loading into an organisation with teams.\n- Fixed “My Layers” toggle in Collab sometimes being in the wrong position.\n- The sketch axes no longer lag slightly behind the actual sketch origin when you move the sketch.\n- Orthographic viewpoints now continue to automatically update if they leave the user’s field of view.\n- Comfort Level setting is no longer automatically set to “Blink Move” every time the app is opened.\n- Fixed “Toggle Chassis Block” option not working.\n- The “Restrict Face Movement” subd option is now still respected while moving the drawing hand thumbstick during a grab.\n- Trying to log in in the lobby without an internet connection now provides an actual error rather than a “Loading…” message that never ended.\n- Added proper error messages when trying to delete a Collab room whose launch has been recently cancelled.\n- Images or videos dropped into import panel now properly overwrite existing ones with the same name.\n- Fixed toggle position of “Don’t show again” on clipboard tutorial popup.\n- The UI of videos on a hidden or invisible layer no longer shows.\n- Tooltip in LandingPad Collab menu changed from “New Sketch” to “New Collab Room”.\n- Changed success message when using Contact tab on desktop lobby.\n- Fixed view points failing to be placed when releasing the trigger too quickly.\n- Fixed passthrough being visible through the grab sphere and some other transparent objects even if fully opaque objects were positioned  behind them.\n- Fixed frequent large frame spikes when offline due to DNS failure.\n- Changed wording on pop-up when trying to join a Collab room containing a user with an outdated app version.\n- Viewing a cloud GRS file in File Manager no longer immediately downloads it to your cache.\n- Thumbnails of files overwritten in the Import menu now properly update.\n- “Hide Images in Scene” in Import panel no longer also applies to images in the menu.\n- Collab room thumbnail now immediately disappears if a room is password locked and reappears if a room is unlocked."
-            },
-            {
-                "version": "6.0.13-communityqog",
-                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Added extra diagnostics and logs to help diagnose Collab connectivity issues."
-            },
-            {
-                "version": "6.0.13-communityqc",
-                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Added extra diagnostics and logs to help diagnose Collab connectivity issues."
             }
         ],
         "keywords": [
@@ -174,8 +174,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 1073,
-        "rating": 4.084809,
+        "votes": 1074,
+        "rating": 4.085661,
         "weighted_rating": 4.06,
         "is_available": true,
         "is_free": true
