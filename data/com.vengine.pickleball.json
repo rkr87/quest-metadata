@@ -77,7 +77,7 @@
             },
             {
                 "rating": 3,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 4,
@@ -113,6 +113,14 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "4.2.18",
+                "change_log": "Add light saber sound effects. Bug fixes in roadblock and pickleball court scene in zombies."
+            },
+            {
+                "version": "4.2.17",
+                "change_log": "Bugfixes in Zombies game.  Improve performance of Zombies. Vary difficulty of Zombies with difficulty setting in Pickleball"
+            },
             {
                 "version": "4.2.16",
                 "change_log": "Add light saber to Zombies game. Cut enemies with light saber."
@@ -184,14 +192,6 @@
             {
                 "version": "4.1.9",
                 "change_log": "Bugfix sliders in player tab. Increase max ball speed."
-            },
-            {
-                "version": "4.1.8",
-                "change_log": "Simplified custom grip settings. There are no sliders any more. Select Custom Grip from dropdown. Turn on \"Adjust grip\" switch on the UX and press grip button on the paddle hand to adjust the controllers position with respect to the paddle. When you release the grip button the setting gets saved as custom setting. Turn off the  Adjust Grip UX switch. The custom setting will be remembered by the app. You can customize grip to support any adapter with new interface."
-            },
-            {
-                "version": "4.1.7",
-                "change_log": "Add fruits, lightsaber and boxing gloves to paddle ball game"
             }
         ],
         "keywords": [],
@@ -199,8 +199,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 213,
-        "rating": 4.225352,
+        "votes": 214,
+        "rating": 4.219626,
         "weighted_rating": 4.1,
         "is_available": true,
         "is_free": false

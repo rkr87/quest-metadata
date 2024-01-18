@@ -85,6 +85,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "6.3.1",
+                "change_log": "XR Interaction Overhaul for Hand Tracking!"
+            },
+            {
                 "version": "6.1.0",
                 "change_log": "XRPokeScroll"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "5.10.8",
                 "change_log": "Welcome to Virtual Playbook v5.10.8! Here are our latest changes:\n\nBug fixes:\n - Bugfix for crash if loading a modal multiple times while transitioning\n - Player labels properly show superscripts\n - After practice ends, ball is properly placed at final position\n - Camera views menu no longer layers underneath the menu buttons\n - [Networking] Custom courts loaded over network no longer lag behind by 1\n - [Networking] Observe window no longer shows UI\n - [Networking] Fix for client crash when another client joins\n - [Networking] Increased timeout\n - [Networking] Fix crash when opening a second client's observe window (or re-opening after disconnect)"
-            },
-            {
-                "version": "5.10.6",
-                "change_log": "Welcome to Virtual Playbook v5.10.6! Here are our latest changes:\n\nFeatures:\n     - Better tracking and display of networking status\n     - Ability to edit your VR avatar\n     - Easy to find-and-click button to toggle heads-up menu\n\nBug fixes:\n     - Playlist folder \"All My Plays\" auto-sorts to the top\n     - App can now recover from errors caught within our infrastructure\n     - Keyboard positions itself in front of user when summoned\n     - Practice mode button interactability made more consistent with Team-Up\n     - Ability to quiz a playlist removed while in a networked match\n     - Fix for some unreliable screen orientation presentations\n     - Bugfix for practicing player does not receive jersey\n     - Bugfix for notifications layering behind other UI"
             }
         ],
         "keywords": [],
@@ -164,7 +164,7 @@
         "on_rookie": false,
         "votes": 23,
         "rating": 2.043478,
-        "weighted_rating": 3.54,
+        "weighted_rating": 3.53,
         "is_available": true,
         "is_free": true
     },
