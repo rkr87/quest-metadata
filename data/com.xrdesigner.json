@@ -105,6 +105,10 @@
         ],
         "changelog": [
             {
+                "version": "4.3.1",
+                "change_log": "Removed unnecessary modules that were added with the version upgrade.\n\nバージョンアップに伴い追加されてた不要なモジュールを取り外しました。"
+            },
+            {
                 "version": "4.3.0",
                 "change_log": "This is a major version upgrade.\nMinimum Android API level accordingly has been changed from 23 to 29.\nThe load has been greatly reduced and shadows are now more natural.\n\nメジャーバージョンアップです。\nこれに伴い最小Android APIレベルが23から29に変更されました。\n負荷を大幅に軽減して影をより自然にしました。"
             },

@@ -14,9 +14,9 @@
         "developer": "AppScore",
         "publisher": "Harald Stapfer",
         "genres": [
+            "Sports",
             "Arcade",
-            "Puzzle",
-            "Sports"
+            "Puzzle"
         ],
         "devices": [
             "Touch Controllers",
@@ -35,7 +35,8 @@
             "Meta Quest"
         ],
         "player_modes": [
-            "ROOM_SCALE"
+            "ROOM_SCALE",
+            "STANDING"
         ],
         "tags": [],
         "hist": [
@@ -83,6 +84,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.6.4",
+                "change_log": "+ bHaptics integration\n> Haptics improved\n- Spectator Camera removed (not supported any more)\n* Improvements and bug-fixes"
+            },
             {
                 "version": "0.6.2",
                 "change_log": "+ New environment: The Roof\n+ 9 new challenges\n+ 9 new music tracks\n+ New spawn mechanic (new gameplay)\n+ Spawn effects and sounds added\n+ New equipment: Boxing Gloves\n* Improvements and bug-fixes"
@@ -143,7 +148,7 @@
         "on_rookie": true,
         "votes": 23,
         "rating": 4.434783,
-        "weighted_rating": 3.95,
+        "weighted_rating": 3.96,
         "is_available": true,
         "is_free": false
     },

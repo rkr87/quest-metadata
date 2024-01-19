@@ -117,6 +117,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.2.1",
+                "change_log": "This update has been possible thanks to all of you who have filed bug reports in Discord and helped me track down how to fix them. Teamwork is at the very essence of Kung Fu, so thank you.\n\nGameplay:\n- Fixed issue where mistakes would appear at the start of a level, and failure could happen immediately due to them. (Thanks to Saquial & Duckdoc)\n- Removed exploit where you could gain additional points from hitting the center pad in Train after the level ended if that was the last dummy arm on level end. (Thanks to Dgtlhrt)\n- Fixed issue with Accuracy percentage going above 100% in some instances, even though that's pretty awesome let's be honest. (Thanks to The_Raven_Child).\n- Fixed issue with feedback text being very right hand focused. The feedback should be more accurate now, covering a range for both hands, arms, too soon, late and perfect rounds. (Thanks to The_Raven_Child).\n\nMenu/Visual:\n- Fixed issue in achievements menu where if you went to the last page and closed/reopened the Achievements menu the navigational arrow would be wrong, resulting in not being able to browse achievements anymore. (Thanks to Archangel).\n- Fixed various spelling mistakes accross the game. (Thanks to Archangel).\n- Fixed issue where EVENT would unlock before 3 levels of both TRAIN and FIGHT had been completed. (Thanks to Archangel).\n\nAchievements:\n- Fixed issue with achievements where Destiny, Eternity and Crazy would not unlock. (Thanks to Archangel).\n- Fixed issue with achievements where they would not unlock at the end of the level when they were completed, but instead would unlock after another level is played afterwards. (Thanks to Archangel).\n\nIAPs:\n- Fixed issue where purchased IAPs would not appear in the MY DOJO categories. (Thanks to Ninjaburr"
+            },
+            {
                 "version": "1.2.0",
                 "change_log": "V1.2: Christmas update!\n\n- New mod: NO REGEN.\n- New Multiplayer menu: you can now change cosmetics during multiplayer.\n- Free Xmas themed matching mask and bracers!\n- Fixed issue with tally for calories, punches, blocks and dodges not resetting each day.\n- Various quality of life improvements."
             },
@@ -159,10 +163,6 @@
             {
                 "version": "0.93.14",
                 "change_log": "- Free LIBERATOR bracer unlocked if you leave a review on the Quest Store page. As a thank you for the support! (Please wait around 24 hours for the review to be proccessed)\n\n- Wing Chun Dummy arms now wobble when you make contact :)\n- Fixed issue with red balls floating in mid air in some instances at the start of Expert levels.\n- Fixed issue in Focus mode where punch pads would appear even if you didn't select them."
-            },
-            {
-                "version": "0.93.12",
-                "change_log": "- Free LIBERATOR bracer unlocked if you leave a review on the Qeust Store page. As a thank you for the support! (Please wait around 24 hours for the review to be proccessed)\n\n- Wing Chun Dummy arms now wobble when you make contact :)\n- Fixed issue with red balls floating in mid air in some instances at the start of Expert levels.\n- Fixed issue in Focus mode where punch pads would appear even if you didn't select them."
             }
         ],
         "keywords": [],

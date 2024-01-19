@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 226
+                "votes": 227
             },
             {
                 "rating": 5,
-                "votes": 3338
+                "votes": 3346
             }
         ],
         "comfort": "NOT_RATED",
@@ -86,6 +86,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.40.5",
+                "change_log": "- If gravity blocks overlap, only the smallest one will now affect the player.\n- Fixed all server requests failing after playing for a while.\n- Fixed automatic no leg mode detection replacing blocks from the previous level with gravity blocks in the new level."
+            },
             {
                 "version": "0.40.4",
                 "change_log": "- Improved automatic no leg mode detection (it should be much less aggressive now).\n- Fixed moving yourself into a no legs mode area while holding on with both hands losing all your momentum.\n- Fixed pushing off with one hand while grappling with the other not giving any momentum from the push.\n- Fixed checkpoints not working in no legs mode.\n- Fixed checkpoint count on the watch when verifying levels."
@@ -161,10 +165,6 @@
             {
                 "version": "0.35.0",
                 "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
-            },
-            {
-                "version": "0.35.0",
-                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
             }
         ],
         "keywords": [],
@@ -172,8 +172,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 3732,
-        "rating": 4.788853,
+        "votes": 3741,
+        "rating": 4.789094,
         "weighted_rating": 4.76,
         "is_available": true,
         "is_free": true
