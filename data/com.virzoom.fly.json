@@ -49,7 +49,7 @@
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 4,
@@ -88,6 +88,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.0.4",
+                "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes\n\n--1.0.4--\nClean up cache files to not unnecessarily use up disk space"
+            },
+            {
                 "version": "1.0.3",
                 "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes"
             },
@@ -113,8 +117,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 31,
-        "rating": 4.129032,
+        "votes": 32,
+        "rating": 4.09375,
         "weighted_rating": 3.91,
         "is_available": true,
         "is_free": false

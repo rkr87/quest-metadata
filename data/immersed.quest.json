@@ -99,6 +99,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.11.17",
+                "change_log": "* Bug fixes around screens and snap grid.\n* Add Quest3 controller models\n* Handle case when Full Body ReadyPlayerMe avatars are used, default to Immersed coin.\n* Localization fixes in friend menu\n* Log upload is now a manual process in Help menu"
+            },
+            {
                 "version": "1.11.16",
                 "change_log": "Bug fixes and improvements around screen connectivity."
             },
@@ -173,10 +177,6 @@
             {
                 "version": "1.9.99",
                 "change_log": "Add option for one-hand resize on screens. Fix issue where reported users were not removed from the room. Minor UI bug fixes"
-            },
-            {
-                "version": "1.9.98",
-                "change_log": "UI fixes and computer name fix.\nFix arrangements and copy link.\nFix friends list confirmation prompt."
             }
         ],
         "keywords": [
