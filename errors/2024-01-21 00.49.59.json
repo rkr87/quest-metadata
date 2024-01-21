@@ -1,34 +1,6 @@
 {
-    "timestamp": "2024-01-13T00:44:07.873898",
+    "timestamp": "2024-01-21T00:49:59.763435",
     "errors_logged": [
-        {
-            "context": "Validating Google Sheet response",
-            "error_type": "ValidationError",
-            "error_message": "1 validation error for PackageMappings\n1.Timestamp\n  Value error, time data '' does not match format '%m/%d/%Y %H:%M:%S' [type=value_error, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.5/v/value_error",
-            "log_message": "Captured model validation error: PackageMappings",
-            "error_information": {
-                "data": [
-                    {
-                        "Timestamp": "1/8/2024 16:46:13",
-                        "package_name": "com.theaviary.vermillionbg2",
-                        "meta_store_id": 4900967296622279,
-                        "app_title": "Vermillion"
-                    },
-                    {
-                        "Timestamp": "",
-                        "package_name": "",
-                        "meta_store_id": "",
-                        "app_title": ""
-                    },
-                    {
-                        "Timestamp": "1/12/2024 17:58:28",
-                        "package_name": "com.beatgames.beatpaber",
-                        "meta_store_id": 2448060205267927,
-                        "app_title": "Beat Saber"
-                    }
-                ]
-            }
-        },
         {
             "context": "Validating http response",
             "error_type": "ValidationError",
@@ -295,7 +267,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=ANVC7QxdyEQAX-5CezW&_nc_ht=scontent.oculuscdn.com&oh=00_AfDpQODYFKWaS-UzVPO8iFipY1G3-MHn2gjDfAdMP05kew&oe=65A67185"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=pv1G5BGpLRgAX-8Fit9&_nc_ht=scontent.oculuscdn.com&oh=00_AfAM2wYqAcWw4WoGSWjwPXQ4BlrrEAIfWJJAy_cTPWZS4g&oe=65B24F05"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
