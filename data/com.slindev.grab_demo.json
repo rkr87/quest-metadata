@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 227
+                "votes": 230
             },
             {
                 "rating": 5,
-                "votes": 3358
+                "votes": 3387
             }
         ],
         "comfort": "NOT_RATED",
@@ -86,6 +86,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.40.6",
+                "change_log": "- We have a new EULA and Privacy Policy! The game will prompt you to agree to the new EULA on the first start. Please carefully read and understand these documents!\n- I also put together community guidelines which you can find below the player list when in-game! They are by no means complete, but provide a general idea on how to behave in GRAB.\n- Moved the \"Lock All\" and global undo and redo buttons to the left side.\n- Added a \"Mute All\" button on the top right of the player list."
+            },
             {
                 "version": "0.40.5",
                 "change_log": "- If gravity blocks overlap, only the smallest one will now affect the player.\n- Fixed all server requests failing after playing for a while.\n- Fixed automatic no leg mode detection replacing blocks from the previous level with gravity blocks in the new level."
@@ -161,10 +165,6 @@
             {
                 "version": "0.35.0",
                 "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
-            },
-            {
-                "version": "0.35.0",
-                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
             }
         ],
         "keywords": [],
@@ -172,8 +172,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 3753,
-        "rating": 4.789768,
+        "votes": 3785,
+        "rating": 4.790753,
         "weighted_rating": 4.76,
         "is_available": true,
         "is_free": true
