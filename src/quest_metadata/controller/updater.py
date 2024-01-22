@@ -12,10 +12,9 @@ from aiofiles import open as aopen
 from aiofiles.os import makedirs, path, remove
 
 from base.classes import Singleton
-from base.lists import LowerCaseUniqueList, UniqueList
+from base.lists import LowerCaseUniqueList
 from config.app_config import AppConfig
 from controller.image_manager import ImageManager
-from controller.parser import Parser
 from data.local.app_manager import AppManager
 from data.model.applab.apps import AppLabApps
 from data.model.local.apps import LocalApp, LocalApps
@@ -76,9 +75,10 @@ class Updater(Singleton):
         await self._update_local_app_database()
         await self._populate_missing_changelogs()
         self._parse_rookie_updates()
+        await self._identify_missing_apps()
         await self._app_manager.save()
 
-    async def _identify_missing_apps(self, apps: LocalApps) -> None:
+    async def _identify_missing_apps(self) -> None:
         """Search the meta store for app names without an identifiable id"""
         async def search(app: LocalApp) -> None:
             if app.id is None:
@@ -89,6 +89,7 @@ class Updater(Singleton):
                         await self._oculus.oculusdb_report_missing(result.id)
                         self._logger.info("Report: %s", result.display_name)
 
+        apps: LocalApps = self._app_manager.get()
         self._logger.info("Attempting to identify missing apps.")
         await asyncio.gather(*[search(a) for a in apps.values()])
 
@@ -245,20 +246,19 @@ class Updater(Singleton):
         Scrape apps from oculus.com, update local apps, and calculate average
         ratings.
         """
-        apps: LocalApps = self._app_manager.get()
-
-        await self._identify_missing_apps(apps)
+        apps: dict[str, list[tuple[str, LocalApp]]] = \
+            self._app_manager.get_all_by_id()
         self._logger.info("Fetching %s apps from oculus.com", len(apps))
 
         tasks: list[OculusApp | None] = await asyncio.gather(
-            *[self._scrape_app(p, a) for p, a in apps.items()]
+            *[self._scrape_app(a, p) for a, p in apps.items()]
         )
 
         await self._app_manager.save()
 
         self._calc_average_ratings([i for i in tasks if i])
         await asyncio.gather(*[
-            r.save_json(f"{AppConfig().data_path}/{r.package}.json")
+            r.save_json(f"{AppConfig().data_path}/{r.data.id}.json")
             for r in tasks if r
         ])
 
@@ -279,73 +279,45 @@ class Updater(Singleton):
 
     async def _scrape_app(
         self,
-        package: str,
-        app: LocalApp
+        app: str,
+        packages: list[tuple[str, LocalApp]]
     ) -> OculusApp | None:
         """
-        Scrape details, additional IDs, and images for a specific app.
-
-        Parameters:
-        - package (str): The package name of the app.
-        - app (LocalApp): LocalApp instance representing the app.
+        Scrape details and images for a specific app.
 
         Returns:
         Optional[OculusApp]: The scraped OculusApp instance or None if no
             response.
         """
-        if not app.id:
-            return None
-        if (primary := await self._scrape_app_id(app.id)) is None:
+        if (result := await self._scrape_app_id(app)) is None:
             error: str = ErrorManager().capture(
                 "ValidationError",
                 "Scraping app data",
-                f"No responses for: {app.app_name}",
+                f"No responses for: {app}",
                 error_info={
-                    "package": package,
-                    "app_name": app.app_name,
-                    "id": app.id,
-                    "additional_ids": app.additional_ids
+                    "package": packages,
+                    "id": app
                 }
             )
             self._logger.warning("%s", error)
             return None
 
-        additional: list[OculusApp] = \
-            await self._get_additional_ids(app.additional_ids)
-        result: OculusApp = Parser.parse(primary, additional, package)
-        result.data.changelog = app.change_log
-        result.data.on_rookie = app.on_rookie
+        self._handle_errors(result, packages)
+        result.data.changelog = packages[0][1].change_log
+        result.data.on_rookie = packages[0][1].on_rookie
 
         image_downloads: list[AppImage] = \
             await self._oculus.get_resources(result.data.resources)
         await self._process_images(image_downloads)
-        await self._app_manager.update(
-            package,
-            result.data.is_available,
-            result.data.is_free,
-            result.data.is_demo_of is not None
-        )
+
+        for i in packages:
+            await self._app_manager.update(
+                i[0],
+                result.data.is_available,
+                result.data.is_free,
+                result.data.is_demo_of is not None
+            )
         return result
-
-    async def _get_additional_ids(
-        self,
-        id_list: UniqueList[str] | None
-    ) -> list[OculusApp]:
-        """
-        Get additional OculusApp instances for a list of IDs.
-
-        Parameters:
-        - id_list (List[str] | None): List of app IDs or None.
-
-        Returns:
-        List[OculusApp]: List of additional OculusApp instances.
-        """
-        if id_list is None:
-            return []
-        additional: list[OculusApp | None] = await asyncio.gather(
-            *[self._scrape_app_id(i) for i in id_list]
-        )
-        return [a for a in additional if a is not None]
 
     async def _scrape_app_id(self, app_id: str) -> OculusApp | None:
         """
@@ -435,3 +407,27 @@ class Updater(Singleton):
             self._logger.warning("%s", error)
             return None
         return directory
+
+    def _handle_errors(
+        self,
+        response: OculusApp,
+        packages: list[tuple[str, LocalApp]]
+    ) -> None:
+        """
+        Handle errors in the response and log them.
+        """
+        if len(response.errors) == 0:
+            return
+        for i in packages:
+            error: str = ErrorManager().capture(
+                "ValidationError",
+                "Parsing Oculus App Response",
+                f"App Response contains errors: {i[1].app_name}",
+                error_info={
+                    "package": i[0],
+                    "local_app": i[1],
+                    "errors": response.errors,
+                    "data": response.data.model_dump()
+                }
+            )
+            self._logger.warning("%s", error)
