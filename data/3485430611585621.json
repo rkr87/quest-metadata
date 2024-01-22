@@ -1,0 +1,167 @@
+{
+    "data": {
+        "id": "3485430611585621",
+        "name": "Evryway Visualiser",
+        "app_name": "Evryway Visualiser",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "ENTERTAINMENT",
+        "release_date": "2021-03-11T00:00:00",
+        "description": "Sit back, relax, and listen to your favorite music. Let the audio reactive visuals surround you.\n\nPlay any audio track on your Quest.\nLoads of different effects.\nPlay any audio track from DLNA media servers on your network (including Plex, Synology, QNAP and many more).\nSupports MP3, WAV and selected other formats.\nHearThis.At integration.\nLaid-back mode for when you need to really lay back.\nHand Tracking support - put those controllers down, you don't need them.\nQuest 2 supported - 90Hz mode available!\n",
+        "markdown": false,
+        "developer": "Evryway Ltd",
+        "publisher": "Evryway",
+        "genres": [
+            "Media Player",
+            "Music",
+            "Relaxation/Meditation"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 1
+            },
+            {
+                "rating": 3,
+                "votes": 1
+            },
+            {
+                "rating": 4,
+                "votes": 6
+            },
+            {
+                "rating": 5,
+                "votes": 17
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://www.evryway.com/apps/evrywayvisualiser/",
+        "app_images": {
+            "cover_landscape": "38974503_107163881287687_8499619868708754912_n.png",
+            "cover_portrait": "57569471_1544043255780066_7317818709866273970_n.png",
+            "cover_square": "38982471_952546505149729_4066379092055210253_n.png",
+            "hero": "86620221_411712600132944_3122054083892768902_n.png",
+            "icon": "38982695_3538190069626347_1500353043555921248_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974907_475347240264217_4520794080099464469_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "0.180",
+                "change_log": "# 0.180 (20230830)\n\nNOTICE FOR QUEST 1 USERS\n\ndue to Meta making the Quest 1 hardware obsolete, future updates will most likely be restricted to Quest 2 and\nfuture hardware. This release may well be the last version for Quest 1 hardware. Please do get in touch if you are\nrunning Visualiser on Quest 1 and find any breaking issues!\n\nBug fix: menu system gesture now working again.\nPerformance: lots of performance tweaks.\n\nMaintenance: Unity 2022.3.7, OVR 50 (1.82)"
+            },
+            {
+                "version": "0.175",
+                "change_log": "# 0.175 (20220926)\nMaintenance update. Unity 2022.1.17."
+            },
+            {
+                "version": "0.170",
+                "change_log": "# 0.170 (20220703)\n\nBug Fix: Long tracks (over an hour) played from the Quest filesystem caused an out of memory issue. Thanks to PBenter for\nspotting and providing test tracks.\n\nMaintenance: Unity 2021.3.5, OVR 41 (1.73)"
+            },
+            {
+                "version": "0.163",
+                "change_log": "# 0.163 (20220216)\n\nSwitched to using Unity's Addressables system. This is the first in a set of steps with the goal of allowing plugin effects."
+            },
+            {
+                "version": "0.160",
+                "change_log": "# 0.160 (20220214)\n\nQuest and Quest 2 devices now use the android MediaStore API for on-device tracks. This should work exactly as it\ndid previously, but allows for more restricted permissions (READ rather than WRITE). Lots of changes under the hood,\nso if you find any issues with playing on-device music, please get in touch! If you add new tracks to your device,\nyou'll currently need to restart it for MediaStore to re-index. I may look at adding an option to manually refresh\nif enough folks request it.\nVarious bug fixes, including invisible touch controller hand models (since 0.155).\nUnity version 2021.2.11"
+            },
+            {
+                "version": "0.157",
+                "change_log": "# 0.157 (20220209)\nMaintenance update. Unity 2021.2.10, OVR 37 (1.69)"
+            },
+            {
+                "version": "0.155",
+                "change_log": "# 0.155 (20220112)\nAdded thumb view restrictions. Users who interact with intstruments during a session found the menus triggering intermittently. The new Loose and Tight thumb up view restrictions lock out menu activation if the thumb is not visible directly in front of the user. (Request from KeithH)"
+            },
+            {
+                "version": "0.154",
+                "change_log": "# 0.154 (20211230)\nMaintenance update. Unity 2021.2.7, OVR 35 (1.67)"
+            },
+            {
+                "version": "0.151",
+                "change_log": "Release 0.151:\nUpgrade to Unity 2021.2.\nSwitch to Vulkan\nLatest Oculus Integration plugin (33, 1.65)\nSo many bug fixes, you wouldn't believe. (very few in Visualiser itself)."
+            },
+            {
+                "version": "0.141",
+                "change_log": "Visualiser Release 0.141:\nNew Effect : Heartbeat Hex.\nNew Hand Effect : Smoke.\nPerformance improvements in various effects, bug fixes, latest Unity (21.11) and OVR (29).\n"
+            },
+            {
+                "version": "0.138",
+                "change_log": "0.138 - Switch back to GLES, as Vulkan is causing issues on Quest 1. Added Multitrails effect."
+            },
+            {
+                "version": "0.136",
+                "change_log": "0.136: Maintenance update. Unity 2020.3, OVR integration V25.0, switch to Vulkan."
+            },
+            {
+                "version": "0.135",
+                "change_log": "0.135: Maintenance update. Unity 2020.3, OVR integration V25.0, switch to Vulkan."
+            },
+            {
+                "version": "0.134",
+                "change_log": "0.134: Various bug fixes, including effects enabled/disabled settings."
+            },
+            {
+                "version": "0.132",
+                "change_log": "0.132: Improved permissions handling on Quest when reading local device storage."
+            },
+            {
+                "version": "0.130",
+                "change_log": "0.130 - Maintenance update"
+            },
+            {
+                "version": "0.128",
+                "change_log": "0.128\nFixes for App Lab Submission.\nVRC.Quest.Asset.1 - new Logo provided.\nVRC.Quest.Functional.2 - lots of changes for pausing, headset removal, going outside boundary and interacting with the universal menu.\nVRC.Quest.Security.2 - removed various permissions which were not required.\n"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 25,
+        "rating": 4.56,
+        "weighted_rating": 3.98,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

@@ -1,0 +1,108 @@
+{
+    "data": {
+        "id": "4812663595466206",
+        "name": "Wolvic (outdated App Lab version)",
+        "app_name": "Wolvic (outdated App Lab version)",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2022-02-14T00:00:00",
+        "description": "⚠️IMPORTANT⚠️ : This development version has been retired. It will not be updated and it is not available to new users. Please install the \"Wolvic\" application to get the latest updates and functionality.\n\nWolvic is a secure, open source, and accessible web browser that brings all of the web’s vast information and applications to the world of XR, and enables rich immersive WebXR experiences on the web itself. With interfaces and interaction support designed for immersive headsets, Wolvic brings you the best of both the web and XR.  \n\nInitially developed by Mozilla as Firefox Reality, the project was taken over by Igalia and has become known as Wolvic.  ",
+        "markdown": false,
+        "developer": "Igalia",
+        "publisher": "Igalia",
+        "genres": [
+            "Social",
+            "Productivity",
+            "Media & Streaming"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 53
+            },
+            {
+                "rating": 2,
+                "votes": 11
+            },
+            {
+                "rating": 3,
+                "votes": 12
+            },
+            {
+                "rating": 4,
+                "votes": 8
+            },
+            {
+                "rating": 5,
+                "votes": 31
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Unrestricted Internet"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://wolvic.com/",
+        "app_images": {
+            "cover_landscape": "75580070_361722432090368_2465851486665148625_n.png",
+            "cover_portrait": "39031384_625652095174018_4047610216766833661_n.png",
+            "cover_square": "38982714_4871903609567137_6442449113988856079_n.png",
+            "hero": "38982552_221051780152976_5902036318158479790_n.png",
+            "icon": "39003239_943639853189890_3073114503006722131_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974453_684620602673385_4222980707207053963_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Finally 1.0 is here!. This important milestone comes with tons of changes:\n\n## General Fixes\n* Fixed the distortion in XR sessions in Oculus after selecting IPD in positions 1 or 3\n* Fixed the situation in which Wolvic refused to enter WebXR sessions even after restarting\n* Fixed a few regressions caused by the multibackend migration\n* Fixed Wolvic exiting whenever users go out the security zone (HVR only)\n\n## Stability Fixes\n* Fixed a crash in the crash reporting service\n* Fixed a crash in the slow script handler\n\n## Websites Compatibility\n* Popular streaming services are opened automatically in desktop mode. The list of services includes Netflix, HBOMax, Disney+, Hulu, Amazon Prime Video...\n* Several XR experiences work now by pretending to be the Meta browser\n\n## Media Fixes\n* Fixed a hang in YouTube when closing a window while a YouTube video plays\n* Fixed a hang in YouTube when going fullscreen before the video starts to play\n\n## Speech Recognition services\n* Configurable speech recognition service\n* UI only lists the specific list of supported languages for each service\n\n## New Translations\n* Chinese\n* French\n* Japanese\n* Korean\n* Galician\n* Spanish\n* and [many more](https://hosted.weblate.org/projects/wolvic/wolvic/)\n\n## Project infrastructure\n* Cleaned up the [wiki](https://github.com/Igalia/wolvic/wiki)\n* Added switches to the Wolvic start page to filter experiences based of devices/regions\n* Added new experiences to the start page"
+            },
+            {
+                "version": "0.9.5",
+                "change_log": "* Restored Firefox Accounts synchronization. You can now sync your bookmarks and send tabs between devices running Firefox and Wolvic.\n* Ability to select a default search engine. To change your search engine, open the Settings window, select “Privacy & Security”, and then the “Edit” button that accompanies the “Search engine” option. The engine you have set will appear below the “Search engine” label.\n* Added Wolvic's privacy policy.\n"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 115,
+        "rating": 2.591304,
+        "weighted_rating": 3.2,
+        "is_available": false,
+        "is_free": false
+    },
+    "errors": []
+}

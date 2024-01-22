@@ -1,0 +1,131 @@
+{
+    "data": {
+        "id": "3762343440541585",
+        "name": "Tea For God Demo",
+        "app_name": "Tea For God Demo",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2021-07-21T00:00:00",
+        "description": "Tea For God is a VR adventure that uses impossible spaces with procedural generation to allow players infinite movement within their own room. Customizable gameplay can be anything between a relaxing long walk, an intense arcade shooter (checkpoint based) and a roguelite shooter-explorer.\n\nIn the distant future, humankind has been united, ruled by God Emperor. Endowed with advanced technology we reached stars, colonised new worlds, went onto endless crusades against myriads of civilisations.\n\nPersonal tragedies tend to be meaningless against the time. But once in a while, one person may start a fire that can change the fate of the whole universe. A man who lost his family, who holds God Emperor accountable for their death, seeking answers and vengeance, embarks onto his last journey to the place no human has ever left alive, where God Emperor is believed to reside.\n\nThis is the demo version. The full version is available here: https://www.oculus.com/experiences/quest/6323807174332876/",
+        "markdown": false,
+        "developer": "void room",
+        "publisher": "void room",
+        "genres": [
+            "Adventure",
+            "Shooting",
+            "Action"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 11
+            },
+            {
+                "rating": 2,
+                "votes": 5
+            },
+            {
+                "rating": 3,
+                "votes": 10
+            },
+            {
+                "rating": 4,
+                "votes": 27
+            },
+            {
+                "rating": 5,
+                "votes": 378
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://voidroom.com/",
+        "app_images": {
+            "cover_landscape": "38982600_193577982632724_8715532190768726195_n.png",
+            "cover_portrait": "38982471_2970893233189236_8487677711462373530_n.png",
+            "cover_square": "38974666_559352425052258_6989730089133269733_n.png",
+            "hero": "38982701_757480028278290_9060191356705633323_n.png",
+            "icon": "38982487_590323365265216_3347085858720628209_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982454_819278979018666_4573357060236766114_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.9demo",
+                "change_log": "- changed sound volumes to have more even soundscape\n- added compressor for sound effects channel only (before was only a general compressor that was affecting all the channels)\n- modified some sound effects that had discomforting crackling sound\n- fixed bug when some samples were played too loud for a brief moment\n- fixed sound crackling\n- fixed restarting the game from a chapter where the game was interrupted\n- fixed pause when starting the game"
+            },
+            {
+                "version": "0.8.0demo",
+                "change_log": "  - new game/difficulty setup:\n    - there are now three game modes: experience (new), standard rules, advanced rules\n      - experience rules have linear levels, almost no gameplay systems, start at outer rim, there are no upgrades\n      - standard rules are former arcade mode\n      - advanced rules are former roguelite mode\n    - \"what happens when you fail\" added that makes it possible to play run-based standard rules (simpler roguelite mode)\n      - respawn at spot\n      - restart at the last checkpoint\n      - restart whole run all over\n  - added information about room-scale movement that shows after no movement registered or on joystick stick input detected\n  - when tips are displayed, all other HUD elements are transparent and dimmer\n  - faster game startup (including precompiled shader caches)\n  - reorganised chapter names again (train station is now the ending part of \"Outer Rim\" (I))\n  - added \"Confined in the Air\" chapter (III) (preview only)\n  - new active EXMs:\n    - insight EXM - that might be used to learn about devices and robots\n    - distractor - makes all nearby hostile characters forget about the player\n    - energy manual dispatcher - allows for transfering energy to health or main storages or rebalancing\n    - plasma blast - damages enemies around and confuses them\n  - new passive EXMs:\n    - fast charger - to speed up energy transfer for weapons\n    - super health storage - main and backup storage work as one storage\n    - elevator master - visible elevators operate only for the player\n    - damage rewire - increases inflicted and received damage\n  - for advanced rules, the very first upgrade machine now allows to get all already unlocked EXMs (prioritises not unlocked)\n  - all explosions now confuse enemies\n  - added options to disable voiceovers\n  - new fonts, new door directions, UI uses larger resolution\n  - minor shader improvements (no sharp lights on Quest, adjusted voxel based details)\n  - added lights to some of the objects (energy quantums, charger's reactor core)\n  - changes to light propagation (it extends further but ends when doors face away)\n  - new shield effect (using hex instead of squares + noisy transparency on Quest)\n  - added dust particles going up to \"floors\"\n  - changed scourer's AI - lurks and moves away from its enemy to use its ricocheting projectiles by shooting from behind a corner\n  - added decorations on walls\n  - changed how items are spawned - there are now less items in the level but more may fall out of certain enemies\n  - increased variety of inaccessible rooms\n  - modified how buttons are rendered\n  - fixes for generating corridors (gaps, reversed surfaces)\n  - fixes for AI and AI spawning\n  - fixes for elevators (that could move without the player onboard)\n  - fixed certain robots missing their parts (handles on back etc)\n  - optimisations"
+            },
+            {
+                "version": "0.8.0demo",
+                "change_log": "  - new game/difficulty setup:\n    - there are now three game modes: experience (new), standard rules, advanced rules\n      - experience rules have linear levels, almost no gameplay systems, start at outer rim, there are no upgrades\n      - standard rules are former arcade mode\n      - advanced rules are former roguelite mode\n    - \"what happens when you fail\" added that makes it possible to play run-based standard rules (simpler roguelite mode)\n      - respawn at spot\n      - restart at the last checkpoint\n      - restart whole run all over\n  - added information about room-scale movement that shows after no movement registered or on joystick stick input detected\n  - when tips are displayed, all other HUD elements are transparent and dimmer\n  - faster game startup (including precompiled shader caches)\n  - reorganised chapter names again (train station is now the ending part of \"Outer Rim\" (I))\n  - added \"Confined in the Air\" chapter (III) (preview only)\n  - new active EXMs:\n    - insight EXM - that might be used to learn about devices and robots\n    - distractor - makes all nearby hostile characters forget about the player\n    - energy manual dispatcher - allows for transfering energy to health or main storages or rebalancing\n    - plasma blast - damages enemies around and confuses them\n  - new passive EXMs:\n    - fast charger - to speed up energy transfer for weapons\n    - super health storage - main and backup storage work as one storage\n    - elevator master - visible elevators operate only for the player\n    - damage rewire - increases inflicted and received damage\n  - for advanced rules, the very first upgrade machine now allows to get all already unlocked EXMs (prioritises not unlocked)\n  - all explosions now confuse enemies\n  - added options to disable voiceovers\n  - new fonts, new door directions, UI uses larger resolution\n  - minor shader improvements (no sharp lights on Quest, adjusted voxel based details)\n  - added lights to some of the objects (energy quantums, charger's reactor core)\n  - changes to light propagation (it extends further but ends when doors face away)\n  - new shield effect (using hex instead of squares + noisy transparency on Quest)\n  - added dust particles going up to \"floors\"\n  - changed scourer's AI - lurks and moves away from its enemy to use its ricocheting projectiles by shooting from behind a corner\n  - added decorations on walls\n  - changed how items are spawned - there are now less items in the level but more may fall out of certain enemies\n  - increased variety of inaccessible rooms\n  - fixes for generating corridors (gaps, reversed surfaces)\n  - fixes for AI and AI spawning\n  - fixes for elevators (that could move without the player onboard)\n  - fixed certain robots missing their parts (handles on back etc)\n  - optimisations"
+            },
+            {
+                "version": "0.6.3",
+                "change_log": "  - added \"Interlude I\" level\n  - adding \"Full Throttle\" chapter (II)\n  - added room to \"Outer Rim\" that should help with navigation (two doors to choose from, one leading to a dead end)\n  - added system to block paths that lead away from the objective (only for arcade game mode)\n  - added dithered transparency\n  - added \"1-bit\" aesthetics (optional)\n  - door directions are at eye-level (this changes depending on the level and will be an option coming to set the preferred placement)\n  - changed pacing for \"Outer Rim\" chapter with rearranged enemies\n  - added new iron sights\n  - added experience points granted for finishing a chapter for the first time\n  - added second door to starting/upgrade rooms wherever it made sense (so there's no confusion if moving back or forward)\n  - new death particle/sequence\n  - main menu renders closer and responds to \"recenter\"\n  - HUD (overlay info) can be locked to head (can also be changed to always locked and never locked via options)\n  - more HUD elements follow camera/eye pitch\n  - added hit intensity to tell how much damage has been dealt\n  - added exterior scene for \"Outer Rim\" with a ship with tentacles\n  - changed physics for weapons on elevators\n  - longer day-night cycle\n  - added an option to set time for day-night cycle\n  - \"be at\" shows rings at the ground that should help to navigate towards the right position\n  - weapon parts are visible when glancing at a gun\n  - new weapon parts:\n    - node: damage boosters, they increase damage but also make reloading much slower\n\t- node: base damage booster\n  - spider bots may walk on walls and ceilings when armed"
+            },
+            {
+                "version": "0.6.3",
+                "change_log": "  - added \"Interlude I\" level\n  - adding \"Full Throttle\" chapter (II)\n  - added room to \"Outer Rim\" that should help with navigation (two doors to choose from, one leading to a dead end)\n  - added system to block paths that lead away from the objective (only for arcade game mode)\n  - added dithered transparency\n  - added \"1-bit\" aesthetics (optional)\n  - door directions are at eye-level (this changes depending on the level and will be an option coming to set the preferred placement)\n  - changed pacing for \"Outer Rim\" chapter with rearranged enemies\n  - added new iron sights\n  - added experience points granted for finishing a chapter for the first time\n  - added second door to starting/upgrade rooms wherever it made sense (so there's no confusion if moving back or forward)\n  - new death particle/sequence\n  - main menu renders closer and responds to \"recenter\"\n  - HUD (overlay info) can be locked to head (can also be changed to always locked and never locked via options)\n  - more HUD elements follow camera/eye pitch\n  - added hit intensity to tell how much damage has been dealt\n  - added exterior scene for \"Outer Rim\" with a ship with tentacles\n  - changed physics for weapons on elevators\n  - longer day-night cycle\n  - added an option to set time for day-night cycle\n  - \"be at\" shows rings at the ground that should help to navigate towards the right position\n  - weapon parts are visible when glancing at a gun\n  - new weapon parts:\n    - node: damage boosters, they increase damage but also make reloading much slower\n\t- node: base damage booster\n  - spider bots may walk on walls and ceilings when armed"
+            },
+            {
+                "version": "0.6.3",
+                "change_log": "  - added \"Interlude I\" level\n  - adding \"Full Throttle\" chapter (II)\n  - added room to \"Outer Rim\" that should help with navigation (two doors to choose from, one leading to a dead end)\n  - added system to block paths that lead away from the objective (only for arcade game mode)\n  - added dithered transparency\n  - added \"1-bit\" aesthetics (optional)\n  - door directions are at eye-level (this changes depending on the level and will be an option coming to set the preferred placement)\n  - changed pacing for \"Outer Rim\" chapter with rearranged enemies\n  - added new iron sights\n  - added experience points granted for finishing a chapter for the first time\n  - added second door to starting/upgrade rooms wherever it made sense (so there's no confusion if moving back or forward)\n  - new death particle/sequence\n  - main menu renders closer and responds to \"recenter\"\n  - HUD (overlay info) can be locked to head (can also be changed to always locked and never locked via options)\n  - more HUD elements follow camera/eye pitch\n  - added hit intensity to tell how much damage has been dealt\n  - added exterior scene for \"Outer Rim\" with a ship with tentacles\n  - changed physics for weapons on elevators\n  - longer day-night cycle\n  - added an option to set time for day-night cycle\n  - \"be at\" shows rings at the ground that should help to navigate towards the right position\n  - weapon parts are visible when glancing at a gun\n  - new weapon parts:\n    - node: damage boosters, they increase damage but also make reloading much slower\n\t- node: base damage booster\n  - spider bots may walk on walls and ceilings when armed"
+            },
+            {
+                "version": "0.6.3",
+                "change_log": "  - added \"Interlude I\" level\n  - adding \"Full Throttle\" chapter (II)\n  - added room to \"Outer Rim\" that should help with navigation (two doors to choose from, one leading to a dead end)\n  - added system to block paths that lead away from the objective (only for arcade game mode)\n  - added dithered transparency\n  - added \"1-bit\" aesthetics (optional)\n  - door directions are at eye-level (this changes depending on the level and will be an option coming to set the preferred placement)\n  - changed pacing for \"Outer Rim\" chapter with rearranged enemies\n  - added new iron sights\n  - added experience points granted for finishing a chapter for the first time\n  - added second door to starting/upgrade rooms wherever it made sense (so there's no confusion if moving back or forward)\n  - new death particle/sequence\n  - main menu renders closer and responds to \"recenter\"\n  - HUD (overlay info) can be locked to head (can also be changed to always locked and never locked via options)\n  - more HUD elements follow camera/eye pitch\n  - added hit intensity to tell how much damage has been dealt\n  - added exterior scene for \"Outer Rim\" with a ship with tentacles\n  - changed physics for weapons on elevators\n  - longer day-night cycle\n  - added an option to set time for day-night cycle\n  - \"be at\" shows rings at the ground that should help to navigate towards the right position\n  - weapon parts are visible when glancing at a gun\n  - new weapon parts:\n    - node: damage boosters, they increase damage but also make reloading much slower\n\t- node: base damage booster\n  - spider bots may walk on walls and ceilings when armed"
+            },
+            {
+                "version": "0.6.1",
+                "change_log": "- fixed starting with files from older versions\n- added special handling of older profiles and game slots (will propose restarting the game etc)\n- there is now arcade and roguelite mode (arcade being checkpoint based, roguelite with permadeath)\n- added voiceover (and beggining of the story)\n- your suit now speaks too\n- extended intro sequence\n- weapons may get damaged (they do reduced damage) and have to be replaced\n- added checking if the player goes through walls\n- introduced enemies progression throughout the level\n- dropped weapons are more common\n- new \"go to\" marker (before starting the game)\n- buttons on elevators are always lit up (not on bridges)\n- reintroduced bhaptics for Quest\n- balancing, adding missing infos\n- added prompt to hold gun when not holding\n- forearm displays highlight values that get higher (and when chamber is full)\n- spiderbots stop when someone tries to pick them up\n- corrosion does instant damage instead of drain\n- added a cap for damages from other sources (corrosion effect)\n- faster bug reporting\n- fixes, lots of fixes, optimisations and other improvements\n"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 431,
+        "rating": 4.75406,
+        "weighted_rating": 4.57,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

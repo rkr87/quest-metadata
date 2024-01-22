@@ -1,0 +1,176 @@
+{
+    "data": {
+        "id": "5097554840287261",
+        "name": "Koord Coach",
+        "app_name": "Koord Coach",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2022-04-27T00:00:00",
+        "description": "Train your reflexes, cardio and coordination the fun way with three different game modes, each of which has two or more sub-game modes. \n\nAll events in the game happen randomly, ensuring that no two play sessions are the same, to make sure you stay on your toes.\n\nVarious difficulties and game duration settings allow you to tailor the play sessions to your preferences.\n\nThe game modes are:\n\n1. cube activation - touch game objects when they become active\n2. block incoming objects - block or dodge objects trying to hit you\n3. endurance - touch objects appearing around you before they disappear",
+        "markdown": false,
+        "developer": "Koord Coach Studios",
+        "publisher": "Koord Coach Studios",
+        "genres": [
+            "Sports",
+            "Action",
+            "Casual"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 3
+            },
+            {
+                "rating": 4,
+                "votes": 1
+            },
+            {
+                "rating": 5,
+                "votes": 7
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://koordcoach.com/",
+        "app_images": {
+            "cover_landscape": "39035334_309349071345733_330973567923945871_n.png",
+            "cover_portrait": "57569445_857265302342001_2888121545306362336_n.png",
+            "cover_square": "38982685_1124406318340333_2690185054194779889_n.png",
+            "hero": "38982466_561881895285054_1381782250972072796_n.png",
+            "icon": "39031372_7318186498253751_4045276932984829847_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75588058_792874051689428_3816363610174058860_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.5612",
+                "change_log": "Correct version id"
+            },
+            {
+                "version": "1.5611",
+                "change_log": "Improvement to play area too small text"
+            },
+            {
+                "version": "1.5611",
+                "change_log": "Fixed bug that prevented boundaries check from working correctly"
+            },
+            {
+                "version": "1.561",
+                "change_log": "Reduced volume of object sounds"
+            },
+            {
+                "version": "1.551",
+                "change_log": "New player hand force field materials, fixed raycast drawing"
+            },
+            {
+                "version": "1.54",
+                "change_log": "Target touch game mode now adopts number of objects and container size to play area size"
+            },
+            {
+                "version": "1.49",
+                "change_log": "Endurance game mode now has flat objects for smaller play area sizes"
+            },
+            {
+                "version": "1.48",
+                "change_log": "Fixed bug that unecessary HUD elements show up after pause + continue"
+            },
+            {
+                "version": "1.44",
+                "change_log": "Re-worked tutorials again"
+            },
+            {
+                "version": "1.42",
+                "change_log": "Objects which can be touched with any hand are now green"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Fixed bug with weird rotation when objects to block disappear"
+            },
+            {
+                "version": "1.39",
+                "change_log": "Starting tutorials must now be activated by player, no longer default\nVarious bug fixes"
+            },
+            {
+                "version": "1.38",
+                "change_log": "Simplified gui\nFix for endurance game object positioning\nImproved rendering settings"
+            },
+            {
+                "version": "1.34",
+                "change_log": "Set event camera on canvases of player HUDs"
+            },
+            {
+                "version": "1.33",
+                "change_log": "Added cardio play mode, quick start buttons, short one page tutorials"
+            },
+            {
+                "version": "1.32",
+                "change_log": "Improvements  to cube activation game movement game mode - container show now move much more consistently"
+            },
+            {
+                "version": "1.31",
+                "change_log": "Change default difficulty from very_easy to normal"
+            },
+            {
+                "version": "1.3",
+                "change_log": "Added option to change environment, performance improvements"
+            },
+            {
+                "version": "1.2",
+                "change_log": "Endurance mode game objects now appear fully inside play area boundary, improved player hand collisions"
+            },
+            {
+                "version": "1.1",
+                "change_log": "Shortened the tutorials as several people complained that they are too long"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 11,
+        "rating": 4.363636,
+        "weighted_rating": 3.9,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

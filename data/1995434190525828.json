@@ -1,0 +1,210 @@
+{
+    "data": {
+        "id": "1995434190525828",
+        "name": "Eleven Table Tennis",
+        "app_name": "Eleven Table Tennis",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2020-02-27T00:00:00",
+        "description": "The ultimate Table Tennis simulator. Play opponents in online multiplayer or practice against the advanced AI. With physics designed to be as real as ever achieved in a Table Tennis simulator, you will forget you are in VR.\n\nPhysics Engine :\nFrom the very start, we have been obsessed with creating the most realistic table tennis simulation the World has ever seen. After countless hours of hard work and support from our amazing community, we believe that we accomplished that goal. \n\nWe hope that you enjoy playing Eleven as much as we enjoy working on it. If you run into any issues or if you're interested in joining our ever-growing community of table tennis fanatics, follow the link in the additional details section and join us on our discord.  ",
+        "markdown": false,
+        "developer": "For Fun Labs",
+        "publisher": "For Fun Labs",
+        "genres": [
+            "Sports",
+            "Social",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User",
+            "Multiplayer"
+        ],
+        "languages": [
+            "English",
+            "Chinese (China)",
+            "Dutch",
+            "French (France)",
+            "German",
+            "Hindi",
+            "Hungarian",
+            "Japanese",
+            "Korean",
+            "Polish",
+            "Portuguese (Portugal)",
+            "Russian",
+            "Spanish (Spain)",
+            "Swedish"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "xbuy",
+            "MR",
+            "Fitness Face-Off [Top Fitness]",
+            "Punch and play",
+            "2 Player Games",
+            "offline games",
+            "Holiday Sale 2023 [competitive social shelf]",
+            "Holiday Sale 2023 [resolutions shelf]",
+            "Holiday Sale 2023 [family shelf]",
+            "NUX Fitness",
+            "Fitness"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 417
+            },
+            {
+                "rating": 2,
+                "votes": 141
+            },
+            {
+                "rating": 3,
+                "votes": 256
+            },
+            {
+                "rating": 4,
+                "votes": 924
+            },
+            {
+                "rating": 5,
+                "votes": 8040
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://elevenvr.com/",
+        "app_images": {
+            "cover_landscape": "75388624_523899984922975_1931424905857859584_n.png",
+            "cover_portrait": "75361360_243090603354354_4431796982591258624_n.png",
+            "cover_square": "38982502_510894189804493_9025826244435902464_n.png",
+            "hero": "75394636_182687759653029_532373432701026304_n.png",
+            "icon": "39031497_606655416564484_1998483140783374336_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "0.323.3_2024.1.5.15.59.1.123",
+                "change_log": "0.323.3\n-fix for default rubbers\n-fix typo in calibration page\n\n0.323.1\n-disconnect performance fix (pretty sure i found the reason the frame rate tanks when a user disconnects from you mid match)\n-found a bug that caused some game logic desync. Specifically, if mid point, after you hit the ball, it hits a surface that isn't the table top, and then within the period of time allowed for multi hit, it hits your racket, then both players would disagree on the state of the match. This can happen if you hit the edge of your table and the ball rattles. \n-fixed the issue where for new users, the laser pointer wasn't being rendered at fresh start. \n-fixed the issue where post user report, the message wasn't shown (just a layering issue)"
+            },
+            {
+                "version": "0.323.1_2024.1.5.3.58.48.476",
+                "change_log": "0.323.1\n-disconnect performance fix (pretty sure i found the reason the frame rate tanks when a user disconnects from you mid match)\n-found a bug that caused some game logic desync. Specifically, if mid point, after you hit the ball, it hits a surface that isn't the table top, and then within the period of time allowed for multi hit, it hits your racket, then both players would disagree on the state of the match. This can happen if you hit the edge of your table and the ball rattles. \n-fixed the issue where for new users, the laser pointer wasn't being rendered at fresh start. \n-fixed the issue where post user report, the message wasn't shown (just a layering issue)"
+            },
+            {
+                "version": "0.322.1_2024.1.3.5.32.41.170",
+                "change_log": "0.322.0\n    -fixed issue where clicking on the controller in the paddle adapter page wasn't responsive\n    -fixed issue where the position of the paddle was reverting to the previous state upon return from the paddle adapter selection page\n    -fixed issue where a new rubber could be made with 0'd out values\n    -updated paddle and rubber syncing code. We know there is some issue that has been duplicating the paddles/rubbers for folks. We'll be cleaning it up soon and this release is needed to make sure everyone is on a version that would accept our backend cleanup change when it happens. \n    -for monitor mode, defaulted controllers to not be shown. Press 'H' to toggle showing the controllers. \n    -fixed some issue where having a third player in the room broke some inter-player communications on start of match\n    -improved performance of paddle screen load\n    -fixed issue where paddle size wasn't being sent to the server. \n    -some logging added. \n\n\n..and unrelated to the app version itself, some users had issues logging in. So we fixed something server side. \n\n\n0.322.1  : \n-network stability\n-some prep work for Dusseldorf"
+            },
+            {
+                "version": "0.321.0_2023.12.27.14.56.43.750",
+                "change_log": "0.321.0\n-voip hot fix"
+            },
+            {
+                "version": "0.320.9_2023.12.27.4.26.43.574",
+                "change_log": "0.320.9\n-Updated get gold screen\n-fixed avatar grip for quest pro controllers"
+            },
+            {
+                "version": "0.320.7_2023.12.25.17.11.45.160",
+                "change_log": "0.320.7\n-oversized Holiday Llama fix"
+            },
+            {
+                "version": "0.320.6_2023.12.25.8.39.23.101",
+                "change_log": "0.320.6\n-Holiday Llama is visiting!"
+            },
+            {
+                "version": "0.320.5_2023.12.23.17.23.59.304",
+                "change_log": "0.320.5\n - fixed some paddled having flipped red/black side physics\n - fixed rubber edit page link on paddle edit page\n - updated splash"
+            },
+            {
+                "version": "0.320.3_2023.12.22.21.5.0.29",
+                "change_log": "0.320.3\n - overhaul of left and right panels, including paddle/table/ball flow.\n - backend syncing of paddle presets and rubbers (more to come in the future)\n - fixed bug with ball machine allowing you to save same named presets\n - (as mentioned before) fixed unstable multiplayer pose tracking (your opponent should appear smoother)\n - (as mentioned before) added 11A and \"Ultimate PPP Pro\" quest 3 adapters\n - removed log all outbound/inbound as some users have toggled this and left it on - it logs a lot. \n - fixed a bug that left the paddle in a weird state sometimes after collision with the table. Where to fix it in the past, you went into the position preset menu and re-applied a position.\n - single player reduced mistake toggle fix\n - single player custom difficulty ai name fix\n - fix for some serialization issues pertaining to comma/decimal mismatch by locale\n - various fixes for paddle/rubber panels"
+            },
+            {
+                "version": "0.314.12_2023.11.20.15.36.8.998",
+                "change_log": "0.314.12\n    Connectivity fixes\n    Pickle Ball news event!\n    added solidslime v2 q3 adapter\n   added sanlaki adapter\n   added status icon in left panel\n   fixed some nav panel button positions\n   adjusted app initialization as it was causing issues for users in china\n   various UI updates\n   adjusted 11G-FX-Q3B adapter"
+            },
+            {
+                "version": "0.315.0_2023.12.4.13.53.33.182",
+                "change_log": "0.315.0\n - fixed unstable multiplayer pose tracking (your opponent should appear smoother)\n - added 11A and \"Ultimate PPP Pro\" quest 3 adapters"
+            },
+            {
+                "version": "0.313.13_2023.11.3.3.39.21.400",
+                "change_log": "\t0.313.13\n        -sound fix\n\t0.313.12\n\t- some UI polish\n\t- added back message you see if you are on an unsupported version (this was removed by accident a while ago, and during the last big push, a lot of users were confused as to why they had no access to the server and no error message)\n\t- added AMVR q3 adapter preset\n\t- added history fix - where you were seeing the wrong person's history\n\t- fixed send-all logs functionality\n\t- fixed rubber scroll when having exactly 5 rubbers\n\t- fixed issue where background of menu would vanish on server reconnect events\n\t- fixed issue where people who were banned from online play weren't able to play at all\n\n\n\t0.313.10\n\t- UI updates (environment selection, ranked play / lobby criteria)\n\t- added the ability to use non standard controllers. For example, qPro with q2 or qPro with q3. \n\n\t0.313.5\n\t-added ping and performance testing tools\n\t-fixed MR net\n\t-fixed rubber not saving bug\n\t-fixed the tv showing set set count very small\n\t-updated 11G-FX-Q3B adapter\n\n\t0.313.2\n\t - added q3 LS-EV2 adapters\n\t - added paddle calibration screen to the advanced settings (same functionality as the one found in the old UI)\n\n\t0.313.1\n\t- fixed server indicator on table\n\t- updated lighting in MR scene\n\t- fixed MR scene issue where it wasn't starting at all\n\n\t0.313.0\n\t- a bunch of performance improvements. \n\t"
+            },
+            {
+                "version": "0.312.0_2023.10.18.11.34.19.429",
+                "change_log": "0.312.0\n-fixed issue where paddle collisions were 1 frame behind when using the new \"get pose on render\" toggle (which is on by default in the advanced tracking menu for oculus users)\n-added a check box to toggle on a different spatializer we were experimenting with. It's not it's final state, but the sounds are a bit different. No gaurantees that it will stick around..but play around with it if you'd like (in advanced gfx/audio panel)"
+            },
+            {
+                "version": "0.311.12_2023.10.16.23.46.56.544",
+                "change_log": "0.311.12\n- more voip freeze logging/error handling\n- arena invisible collider fix\n- fix for rubber being set to 0 value at defaults\n- fix for table moving when you move your head (especially visible in mixed reality)\n- slightly improved tracking (this is related to the table movement fix..which involves moving the time at which the head and controller poses are polled to the end of the frame. This reduced render latency relative to the controller pose, and thus means less prediction required...which means less error)\n"
+            },
+            {
+                "version": "0.310.9_2023.10.12.4.37.49.580",
+                "change_log": "0.310.9\nmixed reality environment reverse compatibility when playing users on older app versions"
+            },
+            {
+                "version": "0.310.7_2023.10.10.20.6.58.262",
+                "change_log": "0.310.7\n - moved the mixed reality to the 4th position in the environment selection because people couldn't find it (need to scroll down)\n0.310.6\n - offline / firewall issue fix\n - single player environment fix\n\n0.310.5\n - guest login fix\n - keyboard fix\n - environment load fix\n\n0.310.4\n - quest 3 and pro controllers\n - mixed reality (for quest 2,3,pro)\n - a lot performance improvements\n - new splash screen\n - audio improvements\n - environment collider fixes\n - logging updates\n - some room positioning fixes\n - spin / throw limit functionality\n - overlay fix"
+            },
+            {
+                "version": "0.310.6_2023.10.10.15.37.59.56",
+                "change_log": "0.310.6\n - offline / firewall issue fix\n - single player environment fix\n\n0.310.5\n - guest login fix\n - keyboard fix\n - environment load fix\n\n0.310.4\n - quest 3 and pro controllers\n - mixed reality (for quest 2,3,pro)\n - a lot performance improvements\n - new splash screen\n - audio improvements\n - environment collider fixes\n - logging updates\n - some room positioning fixes\n - spin / throw limit functionality\n - overlay fix"
+            },
+            {
+                "version": "0.274.16_2023.7.28.5.27.36.281",
+                "change_log": "274.16\nfew minor performance improvements, but mostly this version has a tool to let us know about users have the null settings case (where the game loads, but the settings are just a bunch of 0-byte characters. We don't know why this is happening - could just be a fluke of the oculus app update process. We'll keep track. If the % of users this affects is too high, we'll likely do an immediate roll back which is ready. That being said, many users have updated to effectively this version and did not see this issue so this is the only method to measure the extent or lack there of\n\n274.11\n-updated splash screen to be a bit less crisp (too many jaggies)\n-some logging fixes\n-added a mod tool for Sulik :)\n-updated arena preview image to the old image for now\n\n0.274.10\n\nchanges:\n    -splash screen made less blurry\n    -navigation panel updates    \n        -general style update\n        -headset battery display\n        -digital clock added\n    -ball toss screen fixes\n    -some performance fixes\n    -stiga table in arena\n    -profiling functionality\n    -network interplayer ping tester \n    -some logging fixes\n    -fixed multi hit protection not working\n    -added some server connectivity fixes\n    -new panel (when news is available)"
+            },
+            {
+                "version": "0.270.23_2023.5.16.16.54.38.544",
+                "change_log": "0.270.23\n\n-fixed an issue that was causing ping compensation to persist when not in a multiplayer setting (such as free hit against the AI). \nThis also made the AI completely break, so likely fixed the issue that users were complaining about regarding the AI"
+            },
+            {
+                "version": "0.270.20_2023.5.3.18.40.46.356",
+                "change_log": "Music Update And More\nv0.270.20\n\nBig overhaul on music and sfx in the game. A lot of sounds have been added and there is significantly greater diversity of audio effects. \n\t-new music (9 songs replacing the old 4)\n\t-Paddle against table sounds have been updated. \n\t-various UI related sounds\n\t-state change sounds effects - such as leaving and entering a match, winning and losing points, winning and losing a match, getting an invite, etc. \n\n\nBug Fixes:\n\t-fixed opponent skill relax toggle\n\t-fixed menu getting into a stuck state during warmup\n\t-fixed user restrictions not functioning (banned users were able to play or use their mic when they weren't supposed to be able to)\n\t-fixed issue where mic meter wasn't representative of the audio being sent across. You could have set your mic setting to 0 but still see the meter react to your voice. \n\t-fixed the left panel showing the wrong page when you were in a warmup during ranked play. Now you can adjust your ping compensation/pingball settings as you warmup with your opponent. \n\t-fixed a bunch of voip related issues concerning muting opponents and a few cross version issues. \n\t-fixed default ping filter limiting lobby users to only those closest to you\n\t-fixed asian language bolding issue (they should never be bold)\n\t-performance improvements\n\n\nKnown Issues being worked on:\n\t-relay connections: some users are still stuck connecting only through relays. If you are having this issue, please reach out to us so we can troubleshoot with you. Generally, since the last hotfix, the ratio of p2p to relay connections has returned to pre new UI update. \n\t-AI free hit: users are reporting that their free hit AI is not playing at the level set in the free practice UI. We are not able to replicate this ourselves, but we have some leads. If you are experiencing this consistently, please reach out to us. \n\t-the game occasionally gets into a bad state where the frame rate drops significantly during a match. We are looking into this with high priority. This also includes when this sort of situation results in the whole game hanging for a few seconds. \n\t-the UI Clock: coming soon"
+            }
+        ],
+        "keywords": [
+            "ping",
+            "pong",
+            "eleven",
+            "table",
+            "tennis"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 9778,
+        "rating": 4.639292,
+        "weighted_rating": 4.63,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

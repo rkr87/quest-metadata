@@ -1,0 +1,144 @@
+{
+    "data": {
+        "id": "4244393598953009",
+        "name": "Unification",
+        "app_name": "Unification",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2023-01-06T00:00:00",
+        "description": "Unification is a gravity-shifting VR parkour roguevania. Descend from the orbital factory into the layers of the black hole engine. Explore vibrant shifting architectures in a harmony of momentum and destruction... assuming you’re able to overcome the traps and inhabitants in your path.\n\nFeatures:\n- Fluid and powerful physics-based movement: Feel momentum and the wind rushing past while leaping into chasms, vaulting over ledges, weaving around traps, and shifting gravity at will.\n- Kinetic tools propelling you forward: Swing above traps with a grappling hook, or glide past with a parachute. Go in guns blazing with a shotgun, or slice with a katana. Forge a new path with a jackhammer, or warp through with a teleporter.\n- Procedural destructible biomes filled with traps and enemies: Navigate through voxel cave obstacle courses with branching paths that test your reactions, knowledge, and control. Feel free to explore the depths and get lost. The handheld mini-map and conveniently placed teleporters make it easy to quickly get back on track.\n- Dreamlike upgrades: Push the limits of physics and imagination during the journey to the core with fundamental changes to the game mechanics\n- Carefully crafted controls and haptics: Each action is positioned on the controllers to allow effortless simultaneous usage of all movement and tool capabilities, inducing a flow state of control.",
+        "markdown": false,
+        "developer": "Troy Spencer",
+        "publisher": "CrushPoint Games",
+        "genres": [
+            "Action",
+            "Puzzle",
+            "Adventure"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE",
+            "SITTING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 5
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://crushpoint.games/unification/",
+        "app_images": {
+            "cover_landscape": "75658019_4294798387266897_7555804231989284704_n.png",
+            "cover_portrait": "38974680_952982762232949_3532500295330074392_n.png",
+            "cover_square": "38974472_489413859037928_7184740851914195849_n.png",
+            "hero": "38974877_568278630989665_5572637349853228596_n.png",
+            "icon": "75322598_589472745801063_497710972553917787_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982584_143753687891806_315432579153875368_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2023.06.26.1",
+                "change_log": "- seed is now shown above stats on menu, with an initial ? if unseeded or ! if seeded\n- unseeded runs now choose from a valid seed which is hidden during play and revealed upon ejection\n- seed now only regenerates after ejection\n- reduced penalty of death to automatically respawning at the beginning of the current level with full health\n- added death reason subtitle while stunned and awaiting respawn\n- added credits to Options menu\n- enemies are now automatically dropped if they die while grabbed\n- extended range of jackhammer and allowed double block destruction\n- re-enabled collision impact damage, as gravity claws are sufficient to maintain control while falling\n- simplified tutorial\n- added keymap tip to beginning of tutorial"
+            },
+            {
+                "version": "2023.06.23.1",
+                "change_log": "- adjusted event horizon tower to include platforms in the climbing shaft\n- prevented lock-on behind player\n- fixed gem growth disappearing before properly exploding if the block it grows from is destroyed\n- added gravity dashing: while grasping tool hand claw and locked-on to enemy, pull tool trigger to dash towards enemies and pull them off the ground\n- added enemy grabbing: enemies touched by grasping claws will be grabbed in the tool hand and highlighted orange, can be thrown by pulling tool trigger\n- improved teleporter visuals\n- removed whip attack, replaced with laser blaster\n- added delay to energized black hole shot\n- fixed unintended micro rotations in XR by preventing accrual of interpolation offset unless using mouse\n- increased size of snail\n- snail now receives launching knockback upon hit\n- increased enemy health and gems to improve balance with new laser blaster and enemy grabbing options"
+            },
+            {
+                "version": "2023.06.12.3",
+                "change_log": "- fixed grab whip not moving the full distance to the item\n- added auto aiming whip and blaster for closest enemy in sights\n- tuned scorched canyon micro levels for variety and brevity\n- disabled gliding while grounded\n- fixed gravity shifting sometimes not being available while still being able to jump from the ground\n- fixed enemy detection lines staying visible after killing"
+            },
+            {
+                "version": "2023.06.11.9",
+                "change_log": "- decreased EVA braking\n- increased EVA rotation\n- increased EVA base propulsion\n- increased stun time of non-energized fall impact from 0.5 to 2 unless using shock absorbers\n- increased default XR framerate to 120Hz\n- improved XR rotation smoothness when frame timing is inconsistent"
+            },
+            {
+                "version": "2023.06.11.1",
+                "change_log": "- properly disposed of inventory items pushed to storage\n- upgrade menu is skipped on mid-biome levels and after event horizon\n- biome subtitle now only shown on first level of biome\n- upgrade menu list now shows only 3 unchosen upgrades instead of full list\n- removed skip upgrade button\n- fixed simulated hmd rotation locking in menu when pressing inventory swap or gravity toggle buttons\n- prevented inventory swap or gravity toggle while paused"
+            },
+            {
+                "version": "2023.06.10.1",
+                "change_log": "- added intro and enemy micro levels to scorched canyon before full level\n- removed claw force pull effect on player"
+            },
+            {
+                "version": "2023.06.08.01",
+                "change_log": "## Design\n- changed energy orbs to octahedral gems\n- increased gem attraction after getting within close range\n- added energy depletion over time\n- added energy decay buffer which depletes based on energy consumption\n- added energy depletion when blaster is fired\n- added cycling pitch based sound when energized and collecting gems\n- refill energy timer if gravity shifting while energized\n- use up 0.5 energy per gravity shift\n- use up 2 energy per stun\n- added energized version of laser pointer\n- added movement speed buff while energized\n- added black hole shot while energized\n- added boot rockets while energized\n- increased gem attraction while energized\n- added attacking claws\n- added boosting when using claws\n- added angular drag and braking when using claws in EVA\n- activate 0.7 gravity while holding either of the gravity claws down\n- integrated pickup targeting toggle into tool claw grasping\n- added gem suction while using left claw\n- added gravity toggle and energizing toggle on the secondary face button/Z\n- slowed down time during inventory\n- added item selection wheel during inventory swap\n- added shifting to second layer on wheel with tool claw grasp\n- added dedicated blaster selection to wheel with trigger\n- added wall jumping\n- prevented wall jumping when falling too quickly\n- prevented wall drag unless within a range of speed moving upwards\n- increased max airborne gravity rotation cooldown\n- restored gravity shifting upon stomp or walljump\n- disabled stomping while in 0G\n- increased stomp damage to 3\n- removed vertical angle multiplier on right hand for more consistent aiming\n- added back in vertical scaling to speed instead of angle\n- enabled instant control of camera movement in first person xr simulation, instead of smoothing\n- increased vertical range of xr hmd simulation\n- added large sphere for detecting enemies\n- added pointer line for detected enemies\n- added purple highlighting to enemies when detected \n- decreased beast trap damage from instakill to 2, added upwards knockback\n- increased size of hawk, frog, and scorpion\n- added stun period after damage kills player\n- added hp to crates\n- added crates to all dead ends\n- added fallback max hp up to crate if no entities can be generated without duplication\n- enabled randomized choose from 3 upgrades after each level\n- re-enabled prices on shop items\n- added repair to the shop\n- added max hp upgrade to shop\n- increased jackhammer damage to 4\n- prevented items from being destroyed in crush\n- added gem growth which is stompable, 4 health, spawns 30 gems\n- added gem wall greeble to biomes\n- added large gem to jar\n- added stompability to capsules\n- added capsule smoke ring\n- adjusted tutorial sequence flow to account for no key\n- added back in targeting state to tutorial\n- updated text for new Up/Down inputs on gamepad\n- reworked tutorial to teach hotswapping and blaster forcing\n- added separate hit effect sound management\n- adjusted sounds for death and hits\n- changed default menu button to tab\n- added master volume slider to sound menu\n\n## Visuals\n- improved frozen laboratory and gravity grotto colors\n- improved brightness ramp for entities\n- decreased saturation of blue brick colors in gravity grotto\n- added walldragging puffs\n- added screen space stats and energy counter\n- increased contrast on uv ramp materials\n- adjusted teleporter ring to green when active\n- adjusted scorched canyon secondary color to ashy\n- updated colors of capsules\n- prevented rope from rendering on whip\n- changed color of gems and trails\n- added highlight hit effect to cactus\n- changed claws to white\n- changed claw highlight to dark orange\n- changed minecart debris to dark purple\n- inverted cat avatar torso\n- adjusted colors on cat avatar\n- adjusted avatar view to be over the shoulder for better view of right hand\n- added overlay minimap for non-xr\n- added rim lighting effect to entities\n- hide stats and energy wheel on hand in non-xr\n- straightened out left hand in xr simulation, as seeing stats or map is no longer necessary\n- added highlighting to inputs in tutorial tip text\n- added current max hp to stats\n\n## Fixes\n- tuned ambience volume levels per biome\n- improved energy orb collection hitbox\n- prevented grounding while gliding\n- fixed order of grounding detection\n- only show grab whip if in confirmed grab\n- fixed ambient sounds and music while time stopped\n- prevented shots while mid grab or initiating grab\n- fixed cactus not dealing damage when stomped\n- added player velocity to grappling hook shot\n- reset enemy velocity when in hitlag\n- prevented grounding when changing vertical speed across 0\n- fixed gravity grid behavior when swapping to zero g\n- fixed stun highlighting not matching stun time\n- fixed not being able to gravity shift consecutively while grounded and in tight spaces\n- fixed crate not spawning all possible rewards of area\n- generated crate rewards at the level start\n- prevented haptics on controller while using mouse\n- give back gravity shift upon glancing blow of wall\n- always make gravity shift available when grounded\n- corrected gravity realignment direction calculation when using down by reflecting and inverting\n- fixed calculation of downward gravity shift by normalizing vectors\n- ensure gravity shift is returned quickly when using failsafe timer\n- ensured effects are controlled by effects mixer"
+            },
+            {
+                "version": "2023.05.02.1",
+                "change_log": "# Design\n- filling up the energy ring with 10 orbs now gives 1 health back, instead of providing an upgrade point\n- 1 upgrade is now always provided upon level end\n- restricted gravity-shifting to once per air-time\n- prevented climbing while moving upwards quickly\n- removed gold chunks from wall blocks for performance and game balance consistency\n- removed prices from shop items to encourage using items without needing to grind money collection\n- removed item targeting action and replaced with auto continuous pickup\n- increased whip hitbox radius by 50% \n- allowed timekeeper to continue controlling time while swapped to inventory\n- added low-speed hitbox to spikes dealing 1 damage\n- increased minimum death speed for spikes to require falling multiple blocks of distance\n- added 0.1s hitlag locking enemies in place during a damaging hit\n- prevented knockback stacking on enemies when in hitlag\n- frog now explodes upon death\n- frog now always dismounts the ceiling upon receiving damage\n- allowed scorpion to quickly combo into another attack if the player doesn't reposition after getting hit\n# Visuals\n- added smoke trails when enemies are launched\n- changed frog color to orange, added white belly\n- added balled-up rolling stun animation to scorpion\n- added dark accents to scorpion\n- added light accents to hawk\n- replaced matching-wall-color spikes with consistent white\n# Fixes\n- fixed event horizon loop seam timing inconsistency\n- improved smoothness of rotation while climbing\n- improved double jump magnitude consistency\n- enabled interpolation to energy orbs for smooth movement while using timekeeper\n- fixed flickering of menu fade on first opening\n- added trap triggering to grappling hook rope\n- added 1.5s auto reset timer to hammer\n- ensured stats are updated instantly when damaged or collecting money"
+            },
+            {
+                "version": "2023.04.12.1",
+                "change_log": "- added laser pointer to right claw\n- moved scrolling/map rotation to left hand stick\n- changed colors and positions of compass arrows for clarity of orientation (Up/Down -> Up/Forward/Right)\n- added gravity arrow to map\n- added tutorial state for targeting the second item\n- adjusted tutorial tips using current key mapping and controller\n- added icons to simplify minimap tutorial tip\n- replaced rock in tutorial with sword to prevent accidental throws and ensure second item is targeted next\n- fixed enemy hurtboxes activating teleporter\n- applied camera rotation to timekeeper timescale\n- increased volume of floaters"
+            },
+            {
+                "version": "2023.03.13.1",
+                "change_log": "Design\n\n- redesigned tutorial to teach exploration, key collection, teleporter, zero G, and lore\n\n- prevented impact damage in tutorial\n\n- prevented multihits and impact damage from hawks\n\n- hawk now retreats momentarily after attacking\n\n- hawk aggression radius decreased\n\n- collecting money now dynamically generates sound based on a scale\n\nSounds\n\n- swapped ambience and music of Event Horizon and Core Collapse\n\n- pressing \"back\" in menu now plays a different sound\n\n- converted teleporter map visuals to use continuous rotation\n\nVisuals\n\n- swapped biome index and energy level on stats to prevent overlap with player claw base\n\n- removed snap turn arrow indicator on gravity-shifting\n\n- adjusted tutorial colors\n\n- added more vibrant colors to player hand capsules\n\n- fireflies in gravity grotto now glow from dim orange to bright green\n\n- updated energy orb color\n\n- added orange trail to energy orbs\n\n- added collection effect for energy orbs\n\n- recolored gravity grotto low-gravity field to blue\n\n- redesigned minecart rubble to be more chunky\n\n- redesigned spikes to be more gnarly and visible\n\nFixes\n\n- fixed gravity block not being destroyed by Cursed Tomb boss\n\n- eliminated unnecessary function calls on non-zero-gravity climbables\n\n- prevented XR interaction function calls when un-paused\n\n- fixed regression of climbable release event not triggering\n\n- improved rendering performance of Event Horizon control rod tower"
+            },
+            {
+                "version": "2023.03.05.1",
+                "change_log": "Upgraded Unity packages for rendering and input performance optimizations\nEnsured secondary camera and avatar don't render on Quest"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 5,
+        "rating": 5.0,
+        "weighted_rating": 3.9,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

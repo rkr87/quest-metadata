@@ -1,0 +1,150 @@
+{
+    "data": {
+        "id": "2280285932034855",
+        "name": "Waltz of the Wizard",
+        "app_name": "Waltz of the Wizard",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2019-12-05T00:00:00",
+        "description": "🏆 Winner of Best Updated Game - UploadVR\n🏆 Winner of Best Innovation - NYX Game Awards\n\nExperience magical powers in a world inspired by the atmosphere of films like Fantasia and Harry Potter! Combine arcane ingredients into a boiling cauldron with the help of an ancient talking skull, unleashing spells upon a fully interactive and mysterious world using cutting-edge technologies like eye-tracking and voice interaction. You can even do magic in real-life with the MIXED REALITY sandbox!\n\n⭐️ “Aldin helped pioneer VR as we know it today” - Road to VR\n⭐️ “VR already has some exceptionally well-received games, like Waltz of the Wizard” - Rolling Stone Magazine\n\nHighlight features\n- Cutting-edge voice, eyes- and gesture interaction abilities\n- Large campaign with storyline, combat and challenges\n- Hundreds of voice interactions (English)\n- Infinite level generation mode for endless fun\n- Eye-tracking interactions with characters and magic (Meta Quest Pro Only)\n- MR Sandbox mode (Meta Quest 3 and Meta Quest Pro Only)",
+        "markdown": false,
+        "developer": "Aldin",
+        "publisher": "Aldin",
+        "genres": [
+            "Adventure",
+            "RPG (Role Playing Games)",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE",
+            "SITTING"
+        ],
+        "tags": [
+            "Fantasy adventures",
+            "Play with magic",
+            "MR",
+            "offline games",
+            "Holiday Sale 2023 [fitness shelf]",
+            "Hand tracking",
+            "Mixed Reality",
+            "Passthrough",
+            "Meta Quest Pro Launch"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 117
+            },
+            {
+                "rating": 2,
+                "votes": 64
+            },
+            {
+                "rating": 3,
+                "votes": 141
+            },
+            {
+                "rating": 4,
+                "votes": 349
+            },
+            {
+                "rating": 5,
+                "votes": 1697
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Blood",
+                "Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://aldin.io/",
+        "app_images": {
+            "cover_landscape": "39031345_972127966495322_4076933680650518528_n.png",
+            "cover_portrait": "39035349_630327200706981_8892669575221477376_n.png",
+            "cover_square": "75272214_568187283949925_4374875746657632256_n.png",
+            "hero": "75305882_413454566249097_7599366063817490432_n.png",
+            "icon": "75318181_431703884215397_5713832982301638656_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39031511_1422154587933954_5114308886978887680_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.3.1.1133",
+                "change_log": "## Improvements\n\n- Automatons now wake-up later - if you’re sneaky enough you might even kill them before they wake up!\n- Added SFX to Voice Suggestions\n- Added VFX and SFX to level selector\n- “Make that faster” voice modifier now works for Rat, Silverfish and Frogs\n- Improvements to what Voice suggestions are selected for display\n- Added SFX to Telepath\n- The Armor Catcher guy has been removed from the Courtyard (RIP)\n- “Give me Air Drawing” grimoire page has been changed to “Give me Fireball”\n- The Start and End rooms in Infinite Fortress now have a slightly changed look\n- Added VFX when using using Teleport command (e.g. “Take me to the Courtyard”)\n- Skully now repeats himself during the Voice tutorial if the user doesn’t trigger the intended voice commands\n- .. and various other minor improvements\n\n## Fixes\n\n- Fixed “Scavanger Hunter” and “Artifact Connoisseur” potentially not unlocking if you had finished those tasks before\n- Fixed “Make normal” voice command not working on something that has been made bigger/smaller\n- Fixes to various colliders\n- Fixed some voice commands not showing up in subtitles\n- Fixed issue where objects affected by the Bouncy Wand would be bouncy forever.\n- Fixed haptics under very specific circumstances breaking when entering the Observer Fortress\n- You can no longer snap rotate with controllers in Mixed Reality mode, which caused posters being offset\n- Fixed Bat spawning 2 bodies if killed\n- Fixed Voice subtitles possibly getting stuck in wrong scale if user changed his height\n- You can no longer reach assist the same object with both hands simualtenously\n- Fixed some Natural Magic powers accidentally triggering when holding objects\n- Change Pitch voice commands possibly getting too high or too low\n- Fixed running not working in hand-tracking\n- Skully no longer yells his greeting at you when you enter the Tower (i.e. the volume of his greeting has been lowered to a more normal level)\n- Fixed crank wheel for the Well sometimes breaking\n- Fixed hand-tracking slingshot sometimes acting weird\n- .. and various other minor fixes\n\n## Observer Fortress crash\n\nWe are aware of a crash occuring for some users in the Observer Fortress. We’ve added a detection for when this crash is about to occur, which sends us a log with more info about the crash to help us fix this issue."
+            },
+            {
+                "version": "2.3.1.1112",
+                "change_log": "• Fixed freeze issue in Mixed Reality Mode on Quest Pro\n• Further reduced memory footprint in Observer Fortress\n• Fixed an issue where tutorial Skully could appear magenta"
+            },
+            {
+                "version": "2.3.1.1105",
+                "change_log": "Change the World Patch #1 has been released and is now live on the Meta Quest Store.\nIt includes various fixes and improvements.\nFor those of you that had issues with Wards not being unlockable, this patch update includes a fix for that issue. Our apologies for the frustration.\n\n## New\n\n- Added a dynamic map in the Trainstop area that shows what areas you have unlocked (You can use \"Take me to X\" voice command to Teleport straight away to that area)\n\n## Fixes/Improvements\n\n- Fixed Trainstop voice tutorial Ward sometimes not being unlockable\n- Auto-saves now happen more frequently - which should reduce save data loss when game crashes\n- Fixed \"Raise me to the heavens\" Scavenger clue not always unlocking correctly\n- Fixed Tornado cast window after triggering gesture\n- Fixed various particle effects\n- Various material and color fixes\n- Fixes to Spectral Sword and Tornado gestures detections\n- Fixed impact audio on Chair\n- Fixed game crashing if Tutorial Skully was made big\n- Fixed microphone input sometimes breaking if headset went into sleep mode\n- Tweaks to some realtime lights\n- Tweaked look of Air Drawing lines\n- Fixed some haptics being choppy\n- Fixed Grimoire pages being stretchy\n- Fixed some voice commands not working properly on Automatons or Puppet\n- Fixed grab interactions with \"Pinned\" objects\n- Improved gesture detections for Fireball and Air Drawing in hand tracking\n- The Wooden Automaton is now grabbable\n- Changed Cylindera model to a new and improved one\n- Improved Snap explosion effect\n- Added audio effect when Grabbing/Throwing/Reach-assisting\n- Fixed a magenta skybox in one of the new Fortress tiles\n- .. and various other minor fixes/improvements"
+            },
+            {
+                "version": "2.2.2.790",
+                "change_log": "### Fixes\n\n- Fixed crash which was happening frequently in level 40 in the Observer Fortress (was quite possibly also happening in other levels)\n- Fixed not being able to use Telekinesis to conduct multiple objects at a time (this also fixes Automatons sometimes being harder to fling with Telekinesis)\n- Fixed booster visual effect sometimes still being applied to objects, despite the effect itself having worn off"
+            },
+            {
+                "version": "2.2.2.788",
+                "change_log": "### Improvements\n\n- Added menu item for Aldin Newsletter\n\n### Fixes\n\n- Improved freeze/crash frequency when loading between scenes (PC)\n- Fixed Aldin’s Reality ring showing success for specific invalid commands\n- Fixed game sometimes crashing when trying to use Voice Interaction if internet connection was off\n- Fixed Fortress cave lighting being too bright\n- Fixed realtime light for some particle effects sometimes not showing\n- Fixed projectile charge effect sometimes not showing for projectile based enemies (Blaster, Larvops)\n- Fixed user sometimes spawning inside the table in the Tower\n- Fixed Ring of Force being invisible when returning from The Cell\n- Fixed Ring of Force targeting sometimes being buggy\n- Fixed Grenades not orienting to fit users hand when grabbed\n- Fixed enemies sometimes being incapacitated when returning back to them\n- Fixed Skully not reacting when being turned into a butterfly/frog"
+            },
+            {
+                "version": "2.2.1.764",
+                "change_log": "### Voice Recognition\n\n- Added various new voice commands\n- The following transcriptions are now a accepted as a valid alternative of the actual phrases\n- Various fixes to preexisting voice commands\n- Fixed Make me Giant/Little/Normal commands not working under certain circumstances\n- Removing Aldin's Reality Ring now stops the voice tutorial\n\n### Improvements\n\n- Ring of Force can now be equipped on all fingers (like Aldin's Reality Ring), and can also be used in hand-tracking\n- Remodeled Scavenger Hunt cabinet hats to be prettier\n\n### Fixes\n\n- Fixed Skully not gazing at spawned Butterflies/Frog\n- Fixed Skully not reacting to hand tracking gestures\n- Fixed nail on Voice Recognition poster in Lobby environment not being parented to door\n- Fixed Elevated skybox colors\n- Fixed Ear Trumpet device particles not trailing into the device\n- Fixed Symphony touch effect\n- Skully now comments on all items if put in-front of him\n- Fixed Courtyard skybox on PC\n- Fixed Skully eyes not having bloom/glow on PC\n- Fixed discolored visual artifacts appearing on walls/floor in the Observer Fortress\n- Fixed Ring of Force being invisible when returning from The Cell"
+            },
+            {
+                "version": "2.2.0.749",
+                "change_log": "### Voice recognition\n\n- Voice recognition - you can now chat with Skully and issue magical commands using your own voice. This is the first extensive implementation of voice in a VR experience, a game-changing technology that opens new ways to design VR content. We're honored to have the privilege to introduce it and excited to hear what you think (both what you find awesome and what you think sucks).\n- To activate, simply equip Aldin's Reality Ring (next to the Cauldron in the Tower). Voice recognition and networking features are only active when the ring is being worn.\n- Please see #waltz-announcements for more info on features, privacy, update goals and more.\n\n### Improvements\n\n- Skully got a facelift! He now has a new and improved look.\n- Improved lighting in Fortress\n- Butterflies now spawn in various colors, and can land in various spots around the Tower\n- Reworked Spectral Shield to be persistent\n- Changed hand tracking snap explosion effect\n\n### Fixes\n\n- Fixed hand tracking hands sometimes being offset when loading into a new scene\n- Fix visual glitch in Magnetize on PC\n- Fixed Tornado being castable multiple times in a row\n- Fixed Spectral Sword under certain circumstances bugging out and not being usable again\n- Tweaked Lightning in Tower so it doesn't trigger randomly\n- Fixed projectile based enemies sometimes targeting users feet\n- Various tweaks to Neutron Orb casting"
+            },
+            {
+                "version": "2.1.3.633",
+                "change_log": "Fixes\n\n- Significantly reduced memory usage when loading between areas. This should hopefully eliminate Quest 1 crashes when loading between areas. If you are still experiencing crashes, please let us know!\n- Various performance improvements\n- Fixed visual bug on Dandelion\n\nImprovements\n\n- Health item model now breaks on use\n- Automatons now receive a push-back force when hitting Spectral Shield\n- Monkey's Paw is now voice activated\n- Improved texture resolution in a few places\n- Pressing ESC on PC now quits game in all areas\n- Improved Blood Potion liquid to be more visible"
+            }
+        ],
+        "keywords": [
+            "Magic",
+            "Wizard",
+            "Waltz",
+            "Introduction",
+            "Fantasy"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 2368,
+        "rating": 4.454814,
+        "weighted_rating": 4.43,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

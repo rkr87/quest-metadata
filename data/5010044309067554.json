@@ -1,0 +1,170 @@
+{
+    "data": {
+        "id": "5010044309067554",
+        "name": "VReps Basketball",
+        "app_name": "VReps Basketball",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-06-14T00:00:00",
+        "description": "Welcome to Playbook - an immersive experience revolutionizing how teams prepare for competition. Remove tedious play and drill memorization from practice and allow players to take the initiative and study on their own. \n\nCreate plays through our Web Application (vreps.us), and watch them through the app in 3D. Experience plays from the perspective of any player on the court, or roam freely to explore the play from any angle. Interact with your plays in a whole new way, and move from X’s and O’s to a new virtual way to prepare.",
+        "markdown": false,
+        "developer": "Virtual Repetitions",
+        "publisher": "Virtual Repetitions LLC",
+        "genres": [
+            "Sports"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Gamepad",
+            "Touch (as Gamepad)"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE",
+            "STANDING",
+            "SITTING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 16
+            },
+            {
+                "rating": 2,
+                "votes": 1
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 1
+            },
+            {
+                "rating": 5,
+                "votes": 5
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://www.vreps.us/",
+        "app_images": {
+            "cover_landscape": "75195904_776314626628908_3208355047352770549_n.png",
+            "cover_portrait": "39035442_213016203857767_495531402467905799_n.png",
+            "cover_square": "75230052_260270352284326_5532525307973020299_n.png",
+            "hero": "75195904_3710554962332690_222758228548107511_n.png",
+            "icon": "39036685_1152229211873938_8573428100506633744_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75485571_2784444201821737_1630832814148452150_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "6.3.1",
+                "change_log": "XR Interaction Overhaul for Hand Tracking!"
+            },
+            {
+                "version": "6.1.0",
+                "change_log": "XRPokeScroll"
+            },
+            {
+                "version": "6.1.0",
+                "change_log": "Even More XR Poke Improvements"
+            },
+            {
+                "version": "6.1.0",
+                "change_log": "XR Poke Improvements"
+            },
+            {
+                "version": "6.1.0",
+                "change_log": "XRPoke + Practice Enhancements"
+            },
+            {
+                "version": "6.0.12",
+                "change_log": "Fixed a bug where entering First Person sometimes would not pre-orient the user correctly"
+            },
+            {
+                "version": "6.0.12",
+                "change_log": "Welcome to VReps Basketball v6.0.11! This update contains:\n\nFeatures:\n- Lessons can be created by coaches to teach and quiz players! (On the web)\n- Coaches can track their players' learning! (On the web)\n\nBugfixes:\n- Various lessons bugfixes\n- Various VR-specific bugfixes"
+            },
+            {
+                "version": "5.12",
+                "change_log": "Welcome to Virtual Playbook v5.12! Here are our latest changes:\nFeatures: \n   - New Home Screen\n   - New \"On Ball\" camera tracks the game ball\n   - Mods to Practice Mode to ease difficulty curve\n   - Pick your preferred court lines: NBA or NCAA\n\nBug Fixes: \n   - Frame-text and Spotlight UI de-conflicted\n   - Mirrored plays will mirror court items (cones, text, etc.)\n   - Quiz-questions properly de-duplicated for multi-play quizzes\n   - Bugfix for close-proximity passes in practice mode\n   - Bugfix for coach-led film session UI getting stuck at maximized"
+            },
+            {
+                "version": "5.11.1",
+                "change_log": "Welcome to Virtual Playbook v5.11.1! Here are our latest changes:\nBug Fixes: \n   - Fixed FrameText tutorials from overlapping with spotlights\n   - Bugfix for a crash caused by Film Room receiving poor URL\n   - Better error handling in general for Film Room\n   - Login screen error messages no longer overlap other UI elements\n   - In Team-up, Film Room will auto-maximize when host starts a film session\n   - In Team-up, Bugfix for crash when client exits while their player card is active"
+            },
+            {
+                "version": "5.11",
+                "change_log": "Welcome to Virtual Playbook v5.11! Here are our latest changes:\nFeatures:\n - Lessons v1.0\n - Player labels will show in networking observe windows\n\nBug Fixes:\n - Bugfix for watch playlist feature initiated with no plays\n - Bugfix for int'l date standards continuing to re-download plays on account load\n - Bugfix to handle duplicate playlists (only occurs in some team configurations)\n - Bugfix for app-crash when starting a new random option in practice mode\n - Bugfixes for spotlight/frame-text UI layering improperly, or not showing"
+            },
+            {
+                "version": "5.10.16",
+                "change_log": "Welcome to Virtual Playbook v5.10.16! Here are our latest changes:\nFeatures:\n - Spotlights: Highlight important parts of a play with a visual spotlight\n - All new networking user interface\n - Changed 1st-person mode over the network to show a player avatar instead of a floating player indicator\n\nBug fixes:\n - Fixed a bug where the camera views menu could behave unexpectedly\n - Fixed a bug where the loading wheel could look \"tilted\"\n - Fixed a bug where play mirroring could desynchronize between a network host and client"
+            },
+            {
+                "version": "5.10.14",
+                "change_log": "Welcome to Virtual Playbook v5.10.14! Here are our latest changes:\nFeatures:\n - Frame Text! View tips written by your coach in virtual playbook\n - Multi-option quizzes will remove duplicate questions\n - Swapping play options resets play time to 0 for a more predictable experience\n - Region quiz questions will tell you how close your guess was\nBug Fixes:\n - Fixed a bug where player jerseys would show up white when changing plays\n - Improved UI responsiveness on play select"
+            },
+            {
+                "version": "5.10.13",
+                "change_log": "Welcome to Virtual Playbook v5.10.13! Here are some of our recent changes:\nFeatures:\n- Film Room has been extended for use while networked, synchronizing media across devices\n- Improved accessibility for VR users changing first-person perspectives\n\nBugfixes:\n- Fixed a bug where in-app screen recording could persist after logging out\n- Fixed a bug where play dates displayed in an inconsistent manner\n- Fixed a bug where the Restart button may show when Play/Pause was meant to be visible\n- Fixed a bug where the Ball may not be in the right position when exiting Practice Mode - Setup\n- Fixed a bug where players could be selected while the play is being changed, yielding an error message\n- Fixed a bug where changing play option while networked could desynchronize the host and clients\n- Fixed a bug where custom jerseys and courts wouldn't synchronize properly over the network\n- Fixed a bug where Film Room media wouldn't layer properly in VR\n- Changed Jerseys to use a shortened version of a player's label"
+            },
+            {
+                "version": "5.10.12",
+                "change_log": "Welcome to Virtual Playbook v5.10.12! Here are some of our recent changes:\nFeatures:\n- Observe window no longer appears blocked by players being followed\n- Improved the position of the VR keyboard\n- Added new movement tutorial\n- Added network tutorial\n- Adjusted first person cameras movement style\n\nBug Fixes:\n- Fixed a bug where practicing a play with no ball caused unintended camera behavior\n- Fixed a bug where the observe window may not move across the whole screen\n- Fixed a bug where networked clients could start a playlist quiz\n- Fixed a bug where network clients that subsequently host would use incorrect network color IDs\n- Fixed a bug where player jerseys could become one solid color when networking\n- Fixed a bug where a play's \"mirrored\" status could become desynced over the network\n- Fixed a bug where networked clients could refresh their config, locally clearing the active play\n- Fixed a bug where VR networked clients could locally change playback (play/pause/restart/speed)\n- Fixed a bug where VR networked users teleporting would \"swim\" to their new location\n- Fixed a bug where VR networked clients could change their \"networked avatar\" head angle unintentionally"
+            },
+            {
+                "version": "5.10.11",
+                "change_log": "Welcome to Virtual Playbook v5.10.11! Here are our latest changes:\n\nFeatures\n  - Film Room - timer-bar can be used to scrub through video time\n\nBugfixes\n  - Updated several backend drivers\n  - Right joystick now properly faces players during practice mode\n  - Can no longer start a quiz with drawings enabled\n  - Jerseys no longer appear \"scrambled\" on mixed teams\n  - Quiz questions at the end of a play now automatically advance to next play in quiz queue"
+            },
+            {
+                "version": "5.10.10",
+                "change_log": "Welcome to Virtual Playbook v5.10.10! Here are our latest changes:\n\nFeatures\n  - Film Room - attach film URLs to plays and view them in Virtual Playbook\n  - Playlist Quiz tiles show your score when completed\n\nBugfixes\n  - [Practice] Paths corrected to no longer display as a \"dot\" beneath player\n  - [Practice] You can stop a passing motion by releasing the joystick near the center\n  - Ball resets between quizzes in a playlist quiz\n  - Ball resets between plays when using \"Watch Playlist\"\n  - Drawing palette appears when court drawing is enabled\n  - Restored ability to pass the ball in 1st person practice mode"
+            },
+            {
+                "version": "5.10.9",
+                "change_log": "Welcome to Virtual Playbook v5.10.9! Here are our latest changes:\n\nFeatures:\n  - [Practice] Extended Practice \"Bullet Time\" to occur for more scenarios\n  - [Practice] Improved the feel of the Drive camera view\n\nBugfixes:\n  - [General] Fixed text formatting in various places\n  - [Networking] Fixed a bug where Clients could experience an error if the Host selected a play the Client doesn't have\n  - [Practice] Fixed a bug where grades would be scored with the wrong actions\n  - [Practice] Fixed a bug where Actions could be graded multiple times, resulting in failure\n  - [Practice] Fixed a bug where player paths would be visible when they shouldn't be"
+            },
+            {
+                "version": "5.10.8",
+                "change_log": "Welcome to Virtual Playbook v5.10.8! Here are our latest changes:\n\nBug fixes:\n - Bugfix for crash if loading a modal multiple times while transitioning\n - Player labels properly show superscripts\n - After practice ends, ball is properly placed at final position\n - Camera views menu no longer layers underneath the menu buttons\n - [Networking] Custom courts loaded over network no longer lag behind by 1\n - [Networking] Observe window no longer shows UI\n - [Networking] Fix for client crash when another client joins\n - [Networking] Increased timeout\n - [Networking] Fix crash when opening a second client's observe window (or re-opening after disconnect)"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 23,
+        "rating": 2.043478,
+        "weighted_rating": 3.53,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

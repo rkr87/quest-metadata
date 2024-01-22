@@ -1,0 +1,180 @@
+{
+    "data": {
+        "id": "5191119437596810",
+        "name": "SynergyXR",
+        "app_name": "SynergyXR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-07-23T00:00:00",
+        "description": "SynergyXR gives users a DIY XR toolbox that lets them easily create their own VR meeting space and add a wide range of interactive content like 3D models, pdf documents, images, and even videos.  \n\nUsers can interact with the content manager to drop content anywhere in the space. Users can also resize, place and interact with content, including playing videos and writing on virtual whiteboards. Even better, you can step inside 3D models to get a fully immersive experience.​  \n\nSynergyXR is free to download and try out the tutorial. For subscription options, please contact: https://www.synergyxr.com/speakwithsales",
+        "markdown": false,
+        "developer": "SynergyXR",
+        "publisher": "SynergyXR",
+        "genres": [
+            "Productivity",
+            "Social",
+            "Utility"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Multiplayer"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 1
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 4
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.synergyxr.com/",
+        "app_images": {
+            "cover_landscape": "38982448_888146935319329_3201712204723160247_n.png",
+            "cover_portrait": "38974909_837886100137698_4982005167937157894_n.png",
+            "cover_square": "38982471_296531982006046_2609685893377166786_n.png",
+            "hero": "38974448_257406252523292_1395091324615998273_n.png",
+            "icon": "38982489_2775561542704307_1756892602731482439_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982454_1127059964440881_4727637245929140709_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.6.0",
+                "change_log": "Scenario improvements \n•\tThe wrist menu UI has been overhauled to better segment scenarios and normal content.\no\tThe global scenario state is gone.\no\tInstead, users can now add content to the space, while a scenario is active in edit mode. \no\tAdding steps to scenarios is now done from the scenario’s submenu. \n•\tSaving a Space also saves changes to any open scenario.\n•\tLoading a Space that was saved with an open scenario, will also automatically load the scenario.\n•\tEntering spaces with open scenarios starts the scenario from the first step in the scenario sequence. \n•\tWhen loading a scenario, all steps are automatically locked, to ensure users do not move steps around.\n•\tThe list of scenarios available in a Space has seen minor improvements, allowing users to delete scenarios from the Space.\nInternet browser audio\n•\tIt is, unfortunately, not possible to stream the audio in internet browsers to all users to ensure they hear the same.\n•\tWe have now changed this - audio for internet browser content has been enabled locally– it is still not streamed to other users participating in the session, but users currently controlling the browser can hear the audio.\n"
+            },
+            {
+                "version": "2.5.4",
+                "change_log": "2.5.4 \nSmall bug fixes\n2.5.0\nLMS integration\n•\tSynergyXR now offer integration with most major Learning Management Systems (LMS)\n•\tUsers can access training spaces using a PIN code from their LMS system \n•\tThis will automatically launch the user into the SynergyXR Space containing the training\n•\tFour different events are tracked: joined, started, completed, and left\nNew in-app main menu\n•\tWith so many different ways of creating Spaces in SynergyXR we wish to make it easier for users to find their preferred point of entry into SynergyXR.\no\tNew: start a new session, by creating a new Space from a template or empty environment; \no\tSaved: loading a saved Space;\no\tJoin: joining a live session;\no\tTraining: entering an LMS-code;\n•\tLaunching the SynergyXR application and logging in, now takes users to the new main menu where the user can easily choose between these entry points.\nProcedure improvements\n•\tUsers can now control the volume of the voice guidance and sound FX in a procedure, making it easier to communicate with colleagues during collaborative training\n•\tIn addition to skipping to the next step, it is now possible to go back one step in the procedure sequence\n•\tVarious new interactions are now supported in procedures \n"
+            },
+            {
+                "version": "2.5.3",
+                "change_log": "2.5.3 \nSmall bug fixes\n2.5.0\nLMS integration\n•\tSynergyXR now offer integration with most major Learning Management Systems (LMS)\n•\tUsers can access training spaces using a PIN code from their LMS system \n•\tThis will automatically launch the user into the SynergyXR Space containing the training\n•\tFour different events are tracked: joined, started, completed, and left\nNew in-app main menu\n•\tWith so many different ways of creating Spaces in SynergyXR we wish to make it easier for users to find their preferred point of entry into SynergyXR.\no\tNew: start a new session, by creating a new Space from a template or empty environment; \no\tSaved: loading a saved Space;\no\tJoin: joining a live session;\no\tTraining: entering an LMS-code;\n•\tLaunching the SynergyXR application and logging in, now takes users to the new main menu where the user can easily choose between these entry points.\nProcedure improvements\n•\tUsers can now control the volume of the voice guidance and sound FX in a procedure, making it easier to communicate with colleagues during collaborative training\n•\tIn addition to skipping to the next step, it is now possible to go back one step in the procedure sequence\n•\tVarious new interactions are now supported in procedures \n"
+            },
+            {
+                "version": "2.5.1",
+                "change_log": "2.5.1 \nSmall bug fixes\n\n2.5.0\nLMS integration \n•\tSynergyXR now offer integration with most major Learning Management Systems (LMS)\n•\tUsers can access training spaces using a PIN code from their LMS system \n•\tThis will automatically launch the user into the SynergyXR Space containing the training\n•\tFour different events are tracked: joined, started, completed, and left\nNew in-app main menu\n•\tWith so many different ways of creating Spaces in SynergyXR we wish to make it easier for users to find their preferred point of entry into SynergyXR.\no\tNew: start a new session, by creating a new Space from a template or empty environment; \no\tSaved: loading a saved Space;\no\tJoin: joining a live session;\no\tTraining: entering an LMS-code;\n•\tLaunching the SynergyXR application and logging in, now takes users to the new main menu where the user can easily choose between these entry points.\nProcedure improvements\n•\tUsers can now control the volume of the voice guidance and sound FX in a procedure, making it easier to communicate with colleagues during collaborative training\n•\tIn addition to skipping to the next step, it is now possible to go back one step in the procedure sequence\n•\tVarious new interactions are now supported in procedures \n"
+            },
+            {
+                "version": "2.5.0",
+                "change_log": "LMS integration \n•\tSynergyXR now offer integration with most major Learning Management Systems (LMS)\n•\tUsers can access training spaces using a PIN code from their LMS system \n•\tThis will automatically launch the user into the SynergyXR Space containing the training\n•\tFour different events are tracked: joined, started, completed, and left\nNew in-app main menu\n•\tWith so many different ways of creating Spaces in SynergyXR we wish to make it easier for users to find their preferred point of entry into SynergyXR.\no\tNew: start a new session, by creating a new Space from a template or empty environment; \no\tSaved: loading a saved Space;\no\tJoin: joining a live session;\no\tTraining: entering an LMS-code;\n•\tLaunching the SynergyXR application and logging in, now takes users to the new main menu where the user can easily choose between these entry points.\nProcedure improvements\n•\tUsers can now control the volume of the voice guidance and sound FX in a procedure, making it easier to communicate with colleagues during collaborative training\n•\tIn addition to skipping to the next step, it is now possible to go back one step in the procedure sequence\n•\tVarious new interactions are now supported in procedures \n"
+            },
+            {
+                "version": "2.4.2",
+                "change_log": "Release 2.4.2\n•\tFixed an issue preventing free trial signup \nRelease 2.4.1\n•\tFixed a bug preventing IoT dashboards from being shown\nRelease 2.4.0\nSave object state in Space\n•\tWhen saving a Space, all individual states of the objects are also saved\nNew controls for content (video + animation)\n•\tIncluding volume and mute control for video objects\nContent list\n•\tAuthors can bring up a list of all content currently in the Space\n•\tAuthors can delete content directly from this list\n•\tFor 3D objects, these can be made static – read more below.\nStatic 3D objects – make objects part of the environment  \n•\tOther objects can easily be placed on top of these environment models through physics-based collisions\n•\tThis will effectively remove all interaction options with the object. E.g., the scan will be a static part of the environment\nSpace suggestion - select a space to always suggest to individual users\n•\tAn admin can select a specific Space that a selected user should be suggested to enter\nFeatured Spaces\n•\tBy selecting a saved Space, and clicking the star-outline, the Space is featured for all users of the particular Workspace\n•\tFeatured Spaces are automatically placed in a separate category on top of the list of “Saved Spaces”"
+            },
+            {
+                "version": "2.4.1",
+                "change_log": "Release 2.4.1\nFixed a bug preventing IoT dashboards from being shown \n\nRelease 2.4.0\nSave object state in Space\n•\tWhen saving a Space, all individual states of the objects are also saved\nNew controls for content (video + animation)\n•\tIncluding volume and mute control for video objects\nContent list\n•\tAuthors can bring up a list of all content currently in the Space\n•\tAuthors can delete content directly from this list\n•\tFor 3D objects, these can be made static – read more below.\nStatic 3D objects – make objects part of the environment  \n•\tOther objects can easily be placed on top of these environment models through physics-based collisions\n•\tThis will effectively remove all interaction options with the object. E.g., the scan will be a static part of the environment\nSpace suggestion - select a space to always suggest to individual users\n•\tAn admin can select a specific Space that a selected user should be suggested to enter\nFeatured Spaces\n•\tBy selecting a saved Space, and clicking the star-outline, the Space is featured for all users of the particular Workspace\n•\tFeatured Spaces are automatically placed in a separate category on top of the list of “Saved Spaces”\n"
+            },
+            {
+                "version": "2.4.0",
+                "change_log": "Save object state in Space\n•\tWhen saving a Space, all individual states of the objects are also saved\nNew controls for content (video + animation)\n•\tIncluding volume and mute control for video objects\nContent list\n•\tAuthors can bring up a list of all content currently in the Space\n•\tAuthors can delete content directly from this list\n•\tFor 3D objects, these can be made static – read more below.\nStatic 3D objects – make objects part of the environment  \n•\tOther objects can easily be placed on top of these environment models through physics-based collisions\n•\tThis will effectively remove all interaction options with the object. E.g., the scan will be a static part of the environment\nSpace suggestion - select a space to always suggest to individual users\n•\tAn admin can select a specific Space that a selected user should be suggested to enter\nFeatured Spaces\n•\tBy selecting a saved Space, and clicking the star-outline, the Space is featured for all users of the particular Workspace\n•\tFeatured Spaces are automatically placed in a separate category on top of the list of “Saved Spaces”\n"
+            },
+            {
+                "version": "2.3.0",
+                "change_log": "SynergyXR now support Procedures, which are complex pieces of content that our world-class Professional Services team can build to fit your specific training needs. A Procedure consists of a series of steps each giving the user clear guidance to what he/she is expected to do, including:\n- Textual description of the next step\n- Audio guidance of the next step\n- Highlight of objects the user should interact with\n- Highlight of drop zones where objects should be placed\n- Arrows pointing to the next object to interact with\n\nIf a 3D model consists of more than a single object-layer, a new “Model layer” option is available in the content “burger” menu\n- Clicking this, shows a UI panel with each layer of the model as a separate element of a scrollable list\n- When hovering on a layer element in the UI, the corresponding part of the 3D model is highlighted\n- Users can choose to enable or disable rendering of each individual layer of the 3D model\n- The Model Layer UI panel can be moved around freely in the 3D Environment, and pinned in place\n\nThe maximum scale of content is increased from 500% to 2000%\n\nWhen browsing for content, users can now enable/disable built-in content delivered as part of SynergyXR in their search results\n\nVR in-app screenshot feature has been improved ensuring that the camera seeker and the resulting screenshot is better aligned\n\nAnd much more…"
+            },
+            {
+                "version": "2.2.4",
+                "change_log": "•\tFixed issue with the ”Unlock all” feature\n•\tFixed issue with Demos"
+            },
+            {
+                "version": "2.2.3",
+                "change_log": "•\tThe login experience has been reworked with a dedicated first-time setup flow and visual improvements to the lobby area. Additionally, users can request password reset directly in the app and new users can sign up for the free trial from the login screen. \n•\tWe are introducing template and demo spaces, a new way to create experiences from a predesigned space. The selection of templates and demos will be continuously updated. \n•\tObject interaction has been adjusted; users must first select an object before they can manipulate the object and see the object menus. \n•\tThumbnail-centric browsing has been implemented in the application. The menus for selecting sessions, spaces and content have been redesigned and are now more focused on the thumbnails. Sorting and search have also been improved and better integrated in these menus. \n•\tTips and tricks for using SynergyXR have been added to the loading screens and a catalogue with all tips can be found both in the lobby and called from the wrist menu. \n•\tContent descriptions and URL’s can now be viewed in the app. Clicking the URL will create an in-app browser showing that website. \n•\tThe popup system has been improved, popups will be more discrete and integrate better with the experience. "
+            },
+            {
+                "version": "2.1.1",
+                "change_log": "Web browser\n•\tUsers can now add a web browser, located in the wrist menu under “Content”\n•\tA web browser can be moved/rotated/scaled as well as locked in place, as with all other 2D content types in SynergyXR\n•\tWhen a Space is saved, the current URL of each web browser is also saved, making it easy for users to visit the same web pages later\n•\tUsers can choose to “bookmark” the current web page\n•\tUsers can also see a list of “all bookmarks” previously saved\nPortals and group travel\n•\tFrom the wrist menu under “Content”, users can access the “Portal menu”\n•\tA list of all current Spaces is shown. By clicking a Space in the list, the user is shown a preview of the Space\n•\tThe user can choose to “Group Travel” to the chosen Space.\n•\tAlternatively, the user can place a portal in the Space. This portal is a persistent link to the chosen Space, enabling users to travel to this in the future\n•\tMultiple Portals can be placed in a single Space allowing quick access to multiple other Spaces\n•\tLimitations on who can initiate group travel exist based on user permission. \nScenario system improvements\n•\tWhen loading a scenario, all steps are locked for editing \n•\tAuthors can unlock or lock individual steps\n•\tUsers with “Viewer” permissions cannot lock or unlock steps, neither can they save changes to a scenario – these rights are reserved for users with “Author” permissions\n"
+            },
+            {
+                "version": "2.0.1",
+                "change_log": "•\tUsers can add IoT data dashboards to their SynergyXR Spaces. These dashboards can contain several data points showing the data delivered in real-time.\n•\tThe global author/viewer mode has been removed. Authors can now unlock individual content allowing viewers to interact with them. \n•\tAuthors can now access a participant list showing all other participants, their distance to the author and their microphone mute state. \n•\tPresentation tools have been added for all authors, allowing them to mute other participants. \n•\tA ping feature have been added for authors allowing them to draw attention to themselves. \n•\tBeacon visuals have been updated\n•\tSpatial audio has been improved. The falloff is now more realistic. "
+            },
+            {
+                "version": "1.9.18",
+                "change_log": "•\tTo allow for richer object interaction, we introduce the use of the “grip” button in VR in addition to the existing “trigger button”. When users wish to “grab” content and manipulate this, the “grip” button is used, while the “trigger button is used to interact with UI elements\n•\tSupport for 2-hand interaction has been added for both near and far interaction with content. This allows manipulation of position, rotation and scale at the same time. \n•\tAxis-aligned manipulation of content has been improved with axis aligned movement and soft snapping at useful intervals.  \n•\tThe wrist menu is now triggered by looking at your palm instead of your wrist. Users can now activate UI buttons on the wrist menu directly by interacting directly with them with either hand. The buttons have received a transparent volume to resemble a physical button better\n•\tWhen activating the drawing tool from the wrist menu “tools” category, the wrist menu will transition to a brand-new drawing wrist menu. Users can grab the eraser tool directly from the menu by using the “grip” button. This can be used to erase individual line segments by activating the “trigger” button. \n•\tDrawing is supported on 2D surfaces as well as free-form 3D drawing.\n•\tAxis-aligned manipulation of content has been improved with axis aligned movement and soft snapping at useful intervals.  \n•\tImproved positioning of spawned content\n•\tProper support for transparency in .PNG images"
+            },
+            {
+                "version": "1.8.17",
+                "change_log": "Discoloring of 3D objects\nSome objects could catch a slight red color tint when placed close to the floor. This was caused by light- and reflection probes being mixed from various rooms. The VR client application now handles this, ensuring that 3D object react to the lighting and reflection properties of the rooms as intended. \nIn addition to the fix in the client applications, all existing rooms will get an update with properly baked lighting and reflection properties. These rooms will get updated in the days following the patch – so users should expect to see slightly generic lighting properties right after the patch, and once the rooms have been updated 3D objects will react more realistically to the lighting and reflection properties of the individual rooms.\n\nVarious other improvements and bug fixes\nSeveral users have requested the possibility to teleport backwards in VR. This is now possible, by moving the thumb-stick backwards resulting in the user being moved slightly backwards.\nWe have also made a visual update to the “Endless Room” with a much more pleasant horizon – this room will get updated along with the other rooms in the days following the patch."
+            },
+            {
+                "version": "1.8.12",
+                "change_log": "New lobby experience with refreshed avatar configurator\n•\tThe chosen avatar and user display name is persisted for future sessions, and across devices\n\nBuilt-in tutorial teaching novice users the ropes of SynergyXR\n•\tSingle-user experience without needing to login\n•\tGently introducing new users to SynergyXR functionality such as object spawning and interaction, drawing system and more. \n\nAnimation controls for 3D models\n•\tUsers can now play/pause animated 3D models\n•\tUsers can choose to repeat the animation or just play once\n•\tUsers can scrub the animation on an animation timeline. \n\nNew “Notes” functionality\n•\tUsers can now add Notes to a room\n•\tText can be added to the notes using the keyboard\n•\tText font size can be changed to fit user’s needs\n•\tThe size of the notes can be changed\n•\tYou can of course also draw on the notes in addition to writing text using the keyboard\n\nKeyboard improvements\n•\tSpecial characters and numbers have been moved from the slide-out panels to an alternative keyboard accessed by pressing “123”\n•\tArrows to move the cursor, making it easier to change only part of the written text\n•\tSeparate buttons for “RETURN” to make a new line, and “OK” to acknowledge the text input\n"
+            },
+            {
+                "version": "1.8.10",
+                "change_log": "New lobby experience with refreshed avatar configurator\n•\tThe chosen avatar and user display name is persisted for future sessions, and across devices\n\nBuilt-in tutorial teaching novice users the ropes of SynergyXR\n•\tSingle-user experience without needing to login\n•\tGently introducing new users to SynergyXR functionality such as object spawning and interaction, drawing system, and more. \n\nAnimation controls for 3D models\n•\tUsers can now play/pause animated 3D models\n•\tUsers can choose to repeat the animation or just play once\n•\tUsers can scrub the animation on an animation timeline. \n\nNew “Notes” functionality\n•\tUsers can now add Notes to a room\n•\tText can be added to the notes using the keyboard\n•\tText font size can be changed to fit user’s needs\n•\tThe size of the notes can be changed\n•\tYou can of course also draw on the notes in addition to writing text using the keyboard\n\nKeyboard improvements in VR\n•\tSpecial characters and numbers have been moved from the slide-out panels to an alternative keyboard accessed by pressing “ALT”\n•\tArrows to move the cursor, making it easier to change only part of the written text\n•\tSeparate buttons for “RETURN” to make a new line, and “OK” to acknowledge the text input\n"
+            },
+            {
+                "version": "1.8.2",
+                "change_log": "Added completely new Reception with built-in tutorial room for new users to explore without even having a SynergyXR user account. Access the tutorial room from the reception and see all that SynergyXR has to offer."
+            },
+            {
+                "version": "1.6.43",
+                "change_log": "New avatars\nNew virtual rooms to host meetings\nPop-up notifying users of audio permissions\n"
+            },
+            {
+                "version": "1.6.36",
+                "change_log": "New to SynergyXR? \n- Please watch the video tutorial here: https://www.youtube.com/watch?v=OvcgYoNSHq0&\n\nImproved visuals on avatars \n-  The avatar is your digital you in SynergyXR. We now offer more expressive and varied avatars. \n\nNew rooms available for virtual meetings \n- SynergyXR Lounge: a cozy medium sized room with a live fireplace and a view to the surrounding forest \n- SynergyXR Exhibition Space: a large modern airy room with great wall space and a view to the surrounding hilly landscape  "
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 5,
+        "rating": 4.6,
+        "weighted_rating": 3.88,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

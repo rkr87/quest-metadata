@@ -1,0 +1,160 @@
+{
+    "data": {
+        "id": "1978400832224524",
+        "name": "Ultimate Video Player",
+        "app_name": "Ultimate Video Player",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2018-10-17T00:00:00",
+        "description": "Supports 360, 3D 360 (TB), non-360 videos and spatial audio.\n\nFully customisable, perfect to create your own white label app for events and presentations.\n\nOnce the app is installed launch it once, then restart. This will generate the correct folder structure under \"Android/data/com.fieldofvision.UVP/files/\" with folders \"Sounds\", \"Videos\" and \"Images\".\n\nFeatures:\n\n**Hidden settings menu accessible by pulling trigger whilst pointing at the logo, includes the following:\n*Custom menu audio\n*Custom menu background\n*Custom logo in menu\n*Customise what happens when user removes HMD (pause video or restart video)\n*Video controls (disable/enable)\n*Back button to return to menu (disable/enable)\n*Loop video (disable/enable)\n*Gaze selection (disable/enable)\n*Set app into single video mode (skips menu and video automatically plays upon app launch)",
+        "markdown": false,
+        "developer": "Field Of Vision",
+        "publisher": "Field Of Vision",
+        "genres": [
+            "Utility"
+        ],
+        "devices": [
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 11
+            },
+            {
+                "rating": 2,
+                "votes": 2
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 4
+            },
+            {
+                "rating": 5,
+                "votes": 8
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.fieldof.vision/",
+        "app_images": {
+            "cover_landscape": "38984473_2230645697154286_8842415777798684672_n.png",
+            "cover_portrait": "38974490_2134184840159438_132109629202104320_n.png",
+            "cover_square": "38974728_297915187426948_7784674399193399296_n.png",
+            "hero": "12386223_476514162820444_1323832435296698368_n.png",
+            "icon": "12427574_317145782363251_7654205782505816064_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "12504555_292240608199873_6762506903261020160_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "0.36",
+                "change_log": "Spatial audio support! \n-Add \"SP\" to your video file name, and have your .tbe file named exactly the same.\n-Reduce gaze selection time.\n\nPrevious updates:\n-Add \"=\" to your video file name to cut out anything that's after the \"=\".\n-Added option to have gaze selection in video menu.\n-Greatly increased speed of menu loading after watching a video.\n-Updated menu icon design.\n-Fixed menu audio playback issues.\n-Added all instructions to settings menu.\n\nMore to come!"
+            },
+            {
+                "version": "0.35",
+                "change_log": "Spatial audio support! \n-Add \"SP\" to your video file name, and have your .tbe file named exactly the same.\n\nPrevious updates:\n-Add \"=\" to your video file name to cut out anything that's after the \"=\".\n-Added option to have gaze selection in video menu.\n-Greatly increased speed of menu loading after watching a video.\n-Updated menu icon design.\n-Fixed menu audio playback issues.\n-Added all instructions to settings menu.\n\nMore to come!"
+            },
+            {
+                "version": "0.34",
+                "change_log": "Added a new feature to make the menu even cleaner for those production people who like to have long file names:\n\n-Add \"=\" to your video file name to cut out anything that's after the \"=\". For example, if your video is \"AwesomeFilm_H264_Feature_4K_v15.mp4\" simply write \"\"AwesomeFilm=_H264_Feature_4K_V15.mp4\" and the name in the app menu will now be \"AwesomeFilm\". \n\nSo now you can keep your menu nice and clean for presentations whilst not losing any of the important version data.\n\nPrevious update v0.33:\n-Added option to have gaze selection in video menu.\n-Greatly increased speed of menu loading after watching a video.\n-Updated menu icon design.\n-Fixed menu audio playback issues.\n-Added all instructions to settings menu.\n-Added version code to settings menu.\n\nMore to come!"
+            },
+            {
+                "version": "0.32",
+                "change_log": "Thanks for the feedback everyone! Here's a first batch of new features:\n\n-Added option to have gaze selection in video menu.\n-Greatly increased speed of menu loading after watching a video.\n-Updated menu icon design.\n-Fixed menu audio playback issues.\n-Added all instructions to settings menu.\n-Added version code to settings menu.\n\nMore to come! Feel free to email me with any issues, feedback or features: arnaud@fieldof.vision"
+            },
+            {
+                "version": "0.31",
+                "change_log": "Thanks for the feedback everyone! Here's a first batch of new features:\n\n-Added option to have gaze selection in video menu.\n-Greatly increased speed of menu loading after watching a video.\n-Updated menu icon design.\n-Fixed menu audio playback issues.\n-Added all instructions to settings menu.\n-Added version code to settings menu.\n\nMore to come! Feel free to email me with any issues, feedback or features: arnaud@fieldof.vision"
+            },
+            {
+                "version": "0.23",
+                "change_log": "Fixed bug where app would crash on launch for some users."
+            },
+            {
+                "version": "0.22",
+                "change_log": "Can now play non 360 videos in cinema mode. Add \"FL\" to your video file to automatically play it in non 360."
+            },
+            {
+                "version": "0.21",
+                "change_log": "Bug fixes. Added option to hide logo in menu. Added option to change what happens when user removes HMD."
+            },
+            {
+                "version": "0.20",
+                "change_log": "Bug fixes. Added option to hide logo in menu. Added option to change what happens when user removes HMD."
+            },
+            {
+                "version": "0.19",
+                "change_log": "But fixes. Added option to hide logo in menu. Added option to change what happens when user removes HMD."
+            },
+            {
+                "version": "0.18",
+                "change_log": "Bug fixes"
+            },
+            {
+                "version": "0.16",
+                "change_log": "Fixed an issues where the Single Video mode was not working in some instances."
+            },
+            {
+                "version": "0.15",
+                "change_log": "You can now add a custom 360 background to your menu area! Simply put your 360 image \"background.png\" into the \"Images\" folder."
+            },
+            {
+                "version": "0.14",
+                "change_log": "- Added hidden settings menu (accessible by pulling trigger whilst pointing at the logo) with the following settings: *Menu music disable/enable *Video controls disable/enable *Back button disable/enable *Loop video disable/enable *Set app into single video mode (skips menu and video automatically plays upon app launch)"
+            },
+            {
+                "version": "0.08",
+                "change_log": "- Added menu audio. Can add your own audio by adding an audio file named \"audio.mp3\" to the folder \"/Android/data/com.fieldofvision.UVP/files/Sounds/\". \n- Added menu scroll. For those who are adding large quantities of videos to the app, you can now scroll through the list using the track pad."
+            },
+            {
+                "version": "0.07",
+                "change_log": "- Added menu audio. Can add your own audio by adding an audio file named \"audio.mp3\" to the folder \"/Android/data/com.fieldofvision.UVP/files/Sounds/\".\n- Added menu scroll. For those who are adding large quantities of videos to the app, you can now scroll through the list using the track pad."
+            }
+        ],
+        "keywords": [
+            "video",
+            "player",
+            "360",
+            "3d",
+            "kiosk"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 25,
+        "rating": 2.84,
+        "weighted_rating": 3.66,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

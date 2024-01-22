@@ -1,0 +1,100 @@
+{
+    "data": {
+        "id": "4151631101542829",
+        "name": "Field Effect",
+        "app_name": "Field Effect",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2023-07-31T00:00:00",
+        "description": "The Universe is in chaos, the elements are at war with each other. Step in to help the Designer bring balance to the Universe, pitting one element against another in this beautiful and unique board game. Lift the three veils and bring balance back to the Universe.",
+        "markdown": false,
+        "developer": "Edwin Wise",
+        "publisher": "Simreal Studio",
+        "genres": [
+            "Casual",
+            "Strategy"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 0
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.simreal.com/",
+        "app_images": {
+            "cover_landscape": "39036646_718376513271770_5129269768761429676_n.png",
+            "cover_portrait": "75282159_902962391038839_5031728785925467660_n.png",
+            "cover_square": "39003247_1225769138335356_5626383793544290221_n.png",
+            "hero": "38974642_1321892731942312_2507499051923876665_n.png",
+            "icon": "75207242_701261484790697_5074737259064153001_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39031588_866510691105797_3280455558423380934_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.4",
+                "change_log": "A few comments:\n\n1. I am only supporting Quest 2 (and, if it's a safe superset, the Pro) but definitely not the Quest 1. I hope I've found all of the switches to define this.\n\n2. The Reviewer mentioned that I run noticeably lower than 60 FPS - in this version now, I do not (not that I can see), but it does have a rhythmic failure below 72FPS -- every 5 seconds, as indicated on the profiler? No idea what this is about except it's in sync with Eye Buffer Width/Height, Prediction Time, and Time to Render Frame going high in a cyclic manner. Not every one, but many.\n\n3. The reviewer pointed me at using RenderDoc to optimize my rendering, but I am developing on MacOS and RenderDoc does not run on my platform.\n\n4. I tried mesh baking, but that didn't seem to help.\n\nIf there was some reasonable way I could have a conversation or support around optimization, if my FPS is still unacceptable, that would be excellent. I've read and tried nearly everything I could find, and incorporated everything that seemed to help into this.\n\nMy next project will not be done the same way as Field Effect - this was a learning project - and I learned that the various assets in the Unity store do not play nicely with the Oculus."
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 0,
+        "rating": 0.0,
+        "weighted_rating": 3.85,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

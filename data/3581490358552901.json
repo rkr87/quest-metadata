@@ -1,0 +1,153 @@
+{
+    "data": {
+        "id": "3581490358552901",
+        "name": "Connec2",
+        "app_name": "Connec2",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-07-19T00:00:00",
+        "description": "Connec2 is an XR collaboration platform for lifelike designs, review sessions and work instructions. High quality voice, precise movements and a low latency communication provide an endless productive experience.\n\nRecognizability in a virtual environment is important. Both on a personal level and productively. Create your own brand identity within your virtual workspace without effort.\n\nConnec2's 3D Workflow has powerful capabilities to transfer knowledge from one person to another, or even a group. Quickly iterate through designs and share them together with stakeholders.\n\nConnec2 offers an accessible solution. Instead of developing expensive XR software from scratch, Connec2 allows teams to effortlessly meet, publish and share content to start implementing XR today!",
+        "markdown": false,
+        "developer": "Connec2",
+        "publisher": "Connec2 B.V.",
+        "genres": [
+            "Productivity",
+            "Business",
+            "Creativity & Design"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Multiplayer",
+            "Co-op",
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Collaborative"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 8
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.connec2.nl/",
+        "app_images": {
+            "cover_landscape": "75485574_162371522155143_2109847612265457290_n.png",
+            "cover_portrait": "38982658_686552338678061_3266465703973000590_n.png",
+            "cover_square": "75254870_1312164582516393_8328528720588248782_n.png",
+            "hero": "75458099_170122707942198_7369474355581489342_n.png",
+            "icon": "75441581_464823267870620_2947450104128142851_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75314850_1339097549776502_5173611986687540777_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2023.12.6-687",
+                "change_log": "Technical:\n- OpenGLES3 graphics API with opt-in for Vulkan rendering\n- Support for audio file playback in training scenarios\n- Updates in XR interaction framework components\n\nFeatures:\n- Updates in Vision effects\n- Added Mixed Reality settings\n\nFixes:\n- Fixes in Casting mode\n- Tablet guided mode now correctly scales DPI\n- Fix for Quest 3 passthrough\n- Updates in Avatar LOD to prevent excessive color bleeding\n\nUpdates:\n- Meta SDK upgraded\n\n- Other minor fixes and improvements"
+            },
+            {
+                "version": "2023.10.26-659",
+                "change_log": "- Fixed an issue with interactive objects network synchronization\n- Fixed an issue with application restart when logging out of device"
+            },
+            {
+                "version": "2023.10.17-657",
+                "change_log": "Technical improvements\n- Implemented Machine adapter for streaming real-time data from machines to Connec2 (digital twin)\n- Added scriptable components for more complex training scenario’s\n- Introduced a new filesystem back-end and implementation\n \nUpdates\n- Upgrade Meta SDK to v55\n- Upgrade Unity Engine to 2022.3 LTS\n- Switched to Vulkan rendering API\n- Added support for Quest Pro and Quest 3\n \nUX\n- Updates to local avatar hands rendering\n- Added Passthrough as a new Mixed Reality feature\n- Quest Pro users now have eye- and face-tracking on Avatars\n- User interface pointers have been improved\n \nVisual\n- Increased basic rendering quality\n- Reduced frame stutters by reducing overhead and garbage collection\n- Avatar hand colors are now supplied by Ready Player Me\n- Textures are now loaded async providing a more consistent framerate"
+            },
+            {
+                "version": "2023.7.20-570",
+                "change_log": "- Added support for using single controllers in VR mode \n- Fixed casting mode on windows clients \n- Fixes in Zero Code behaviour \n- Fixed a bug causing incorrect behaviour while pausing and resuming\n- Added custom scriptable components for more complex training scenario's"
+            },
+            {
+                "version": "2023.6.13-522",
+                "change_log": "New feature Kiosk Mode:\n- With Kiosk mode you can have more control over demo sessions without having to explain too much of the basics to other participants.\n- Automatically restart the application when a participant takes of the headset for a period of time.\n- Less complex control scheme for teleportation and interaction.\n- Admins can lock/unlock the starting area.\n- Limited teleportation distance for easier navigation.\n\nUser experience:\n- Better visual highlight on interactive objects and improved interaction with interactive objects that have multiple (sub)colliders.\n- Drastically improved loading times during the startup sequence.\n- Improved experience for putting the headset on and taking the headset off.\n- New uniform dialog interface for prompting questions to the user.\n- Simplified Spaces app.\n- Fixes and improvements in teleportation line behavior.\n- Updates in voice distance roll off to improve spatial quality in larger groups.\n- Zero Code scripts are now loaded from a central repository allowing for remote changes.\n- Added functionality for custom Zero Code scenario's.\n- Added real-time shadows option in Graphics settings.\n- Updated shaders for dynamic objects and avatars.\n- Added a visual grid during login to further prevent nausea.\n- Improved user input during login sequence.\n- Resized windows now correctly show on other users.\n- Reduced range on arm buttons to decrease accidental activations.\n\nTechnical improvements:\n- Improved glTF loading stability.\n- Improved stability in Zero Code use cases.\n\nVarious:\n- Upgrade to Android 12L.\n- Bugfixes and minor improvements."
+            },
+            {
+                "version": "2023.4.13-477",
+                "change_log": "- New feature \"Additive 3D\"\n- New feature \"Gyroscope control\"\n- New feature \"Grid control\"\n- Improvements in Zero Code app synchronization\n- Improvements in Spaces app\n- Improved teleportation line handling\n- Bugfixes in BIM issue tracker\n- Improved 3D model outline calculation\n- Improved notification handling\n- Avatars can now be assigned in the user profile\n- Users can now change their namelabel in the Profile app\n- Minor improvements and bugfixes"
+            },
+            {
+                "version": "2022.12.11-439",
+                "change_log": "- Wider microphone support\n- Microphone muted state is now prominently communicated to users\n- Drastically improved avatar rendering performance\n- Avatar downloads are now handled by a queueing system prioritized on distance\n- New LOD system for avatars\n- Render pipeline improvements for corporate branding and avatars\n- Improvements and bugfixes"
+            },
+            {
+                "version": "2022.5.3-325",
+                "change_log": "- Minor changes in BIM Issue Tracker workflow\n- Bugfixes and improvements"
+            },
+            {
+                "version": "2022.4.21-320",
+                "change_log": "- Added BIM Issue Tracker feature in Early Access\n- Bug fixes and improvements"
+            },
+            {
+                "version": "2022.2.17-288",
+                "change_log": "- Fixed the issue where some content could not be loaded due to rights issues\n- Increased Avatar range LOD\n- Index stairs will now redirect teleportation for better visual\n- Improved presentation video playback and synchronization\n- Improved custom model shading\n- Improved 360 visual projection\n- Improved network re-alignment when unmounting and remounting the HMD\n- Bugfixes and other minor improvements"
+            },
+            {
+                "version": "2021.12.6-227",
+                "change_log": "- Fixed a rendering issue of SmartScreens in the Huddle spaces\n- Added Whiteboarding support to Early Access features"
+            },
+            {
+                "version": "2021.12.1-223",
+                "change_log": "- Updated dynamic lighting with custom 3D models\n- Fixed loading custom interactive 3D models with a large vertex count\n- Fixed avatar thumbnails not rendering correctly\n- Changed labels for early access features\n- Other minor bugfixes and improvements"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 8,
+        "rating": 5.0,
+        "weighted_rating": 3.93,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

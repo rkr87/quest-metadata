@@ -1,0 +1,166 @@
+{
+    "data": {
+        "id": "2082595615120854",
+        "name": "Bait!",
+        "app_name": "Bait!",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2019-05-21T00:00:00",
+        "description": "Grab your rod and cast a line in the world’s #1 VR fishing game — enjoyed by more than 10 million players worldwide!\n\nBAIT! FEATURES:\n🌊 8 different lakes and locales\n🐟 60+ types of fish to catch\n🍹 Multiplayer fishing with up to 4 of your friends\n🎣 Choose your own rods, reels, and bobbers\n🧑 Play using your Meta avatar\n\nWHILE YOU’RE ON BAIT ISLAND, WHY NOT STOP BY CASTERS' COVE?\n\nJoin our relaxing social destination for up to 12 virtual anglers. Toss a beach ball, skip stones, compete in RC boat racing, search for treasure, and so much more!\n\nBait! —  a game of rods, reels, and relaxation from the friendly VR fisherfolk at Resolution Games.",
+        "markdown": false,
+        "developer": "Resolution Games",
+        "publisher": "Resolution Games",
+        "genres": [
+            "Sports",
+            "Casual"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User",
+            "Multiplayer"
+        ],
+        "languages": [
+            "English",
+            "Chinese (China)",
+            "French (Belgium)",
+            "French (Canada)",
+            "French (France)",
+            "German",
+            "German (Switzerland)",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Spanish (Argentina)",
+            "Spanish (Chile)",
+            "Spanish (Colombia)",
+            "Spanish (Mexico)",
+            "Spanish (Peru)",
+            "Spanish (Puerto Rico)",
+            "Spanish (Spain)",
+            "Spanish (Venezuela)"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [
+            "wacky sports",
+            "Solo",
+            "Tag"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 333
+            },
+            {
+                "rating": 2,
+                "votes": 118
+            },
+            {
+                "rating": 3,
+                "votes": 241
+            },
+            {
+                "rating": 4,
+                "votes": 551
+            },
+            {
+                "rating": 5,
+                "votes": 1586
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Digital Purchases"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://www.resolutiongames.com/",
+        "app_images": {
+            "cover_landscape": "38974628_584659778707210_5242566029300727808_n.png",
+            "cover_portrait": "38982595_1075288989347346_8361132050530435072_n.png",
+            "cover_square": "39001707_2309446059377191_254645797776261120_n.png",
+            "hero": "38982643_1173731706132785_5367177788065316864_n.png",
+            "icon": "38974555_641323362936831_6008018549652586496_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974477_132217234333927_4264940668532555776_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.15.220084-release",
+                "change_log": "This update includes:\n\n- Improved save file error handling\n\n- Fix for a bug where reeling in could be too fast\n\n- Fix for a bug with avatar hairs\n\n- A slew of minor bugs which could cause UI issues were fixed"
+            },
+            {
+                "version": "1.15.219874-release",
+                "change_log": "This patch contains various bug fixes:\n\n- Improved save file error handling\n\n- Fix for a bug where reeling in could be too fast\n\n- Fix for a bug with avatar hairs\n\n- A slew of minor bugs which could cause UI issues were fixed"
+            },
+            {
+                "version": "1.15.219187-release",
+                "change_log": "- This update contains a fix for save files sometimes being broken in the previous version."
+            },
+            {
+                "version": "1.14.203153-release",
+                "change_log": "- Denying mic permission no longer blocks you from entering multiplayer experience\n\n- Fixed a couple of other situations blocking you from entering multiplayer experience\n\n- Improved Meta Avatar loading\n\n- More consistent Vendomatic behaviour\n\n- Moved the push to talk option toggle to settings window\n\n- Various bug fixes"
+            },
+            {
+                "version": "1.14.196795-release",
+                "change_log": "New features:\n- Toggling 'Push to talk' is now also editable through settings (no longer required going to Casters' Cove)\n- Varying fish sizes in Penguin Point\n\nBugfixes:\n- Players that deny microphone permissions can now enter Penguin Point without crashing\n- Re-enabled Exit Game (Go To Docks) button in settings\n- Improvements to multiplayer inventory coins and items loading between save slots\n- Fixed bug where multiplayer coins and multiplayer items bought  in Penguin Point was not saved until scene change, now also saved when fish is caught and item bought\n- Improvements to Avatar loading when CDN fails\n- Pink gator trash fish no longer counted towards game completion\n- Bugfix where advanced singleplayer items in Jimbob's Shop were not available to buy unless certain singleplayer gear was equipped\n\nKnown issues:\n- Players who deny mic permissions can not hear other players in multiplayer while in Penguin Point"
+            },
+            {
+                "version": "1.14.193452",
+                "change_log": "1.14.193452 patch notes\n\nKnown issues:\n- entering penguin point (multiplayer scene) without allowing microphone access can crash the game.\n\nBug fixing\n- fixed crash caused by joining a multipalyer room with idle host.\n- fixed bug with the mute button not working in penguin point after having used push-to-talk.\n- fixed bug where ther chair would sometimes disapear after having visited the vending machine.\n- fixed missing questline completed popup.\n\nVisual updates\n- fixed trash croc aligenment.\n- fixed snow poof effect.\n- fixed various UI glitches.\n- improved water shader.\n- improved vending machine visuals.\n- added vending machine item rarity effect.\n\nTweaks\n- made return to fishing chair mechanic work similar to other movement.\n\nAdditions\n- added info popup on first visit to penguin point.\n- added info access button on multiplayer page in fish-o-dex."
+            },
+            {
+                "version": "1.13.180580",
+                "change_log": "fixing rod bending"
+            },
+            {
+                "version": "1.13.137059",
+                "change_log": "corrupt save data fix and logging"
+            },
+            {
+                "version": "1.13.134620",
+                "change_log": "- Set 90 Hz refresh rate on Quest 2\n- Improved visual fidelity on Quest 2\n- Improved visual fidelity on Quest 1\n- Improved and more consistent placement in world\n- Faster initial load time\n- Changed rod grip to decrease risk of controllers colliding when cranking\n- Fixed fish not spawning when using certain language device settings"
+            },
+            {
+                "version": "1.13.101326",
+                "change_log": "- Fixed performance issue that could occur when grabbing the handle repeatedly\n- Minor fixes"
+            }
+        ],
+        "keywords": [
+            "collect",
+            "explore",
+            "fish",
+            "free",
+            "lake"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 2829,
+        "rating": 4.038883,
+        "weighted_rating": 4.03,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

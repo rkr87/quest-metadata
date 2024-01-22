@@ -1,0 +1,183 @@
+{
+    "data": {
+        "id": "4586808061416562",
+        "name": "Softspace",
+        "app_name": "Softspace",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2023-08-17T00:00:00",
+        "description": "Softspace is an intuitive AR workspace where you lay out and organize notes, images, and websites. Connect related concepts, search the web for inspiration, and even get creative suggestions from our AI. This powerful productivity and creativity tool helps you develop the ideas at the heart of your best work.\n\nTo get started, visit → docs.soft.space/start\n\nFeatures:\n\n• Fast, intuitive UI for manipulating objects in 3D\n• Work with text, images, and web bookmarks (more soon)\n• Create topics to group and organize your ideas\n• Built-in web browser with image-saving function\n• AI-powered answers, topic suggestions, and clustering\n• Import from and export to Dropbox\n\nFor more info, visit → www.soft.space",
+        "markdown": false,
+        "developer": "Softspace",
+        "publisher": "Softspace Inc.",
+        "genres": [
+            "Productivity",
+            "Creativity & Design"
+        ],
+        "devices": [
+            "Hand Tracking",
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Free",
+            "New Release"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 10
+            },
+            {
+                "rating": 2,
+                "votes": 1
+            },
+            {
+                "rating": 3,
+                "votes": 7
+            },
+            {
+                "rating": 4,
+                "votes": 4
+            },
+            {
+                "rating": 5,
+                "votes": 17
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Unrestricted Internet"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.soft.space/",
+        "app_images": {
+            "cover_landscape": "39036671_1348005442705636_2558962093094364078_n.png",
+            "cover_portrait": "38982646_1627951417646325_8004663114338027430_n.png",
+            "cover_square": "39031346_908175083656943_46113250353806948_n.png",
+            "hero": "75324644_736273628200394_8669961310349321255_n.png",
+            "icon": "39035344_4083726711751566_1152213222805608339_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974681_827090325074093_1372103505317696395_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2024.11",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.11\n\n## Bug Fixes\n\n- Fixed a bug that would cause expanded topics to display the incorrect backing size when the title was edited.\n- Fixed a bug that could cause multiple items to be typed on at the same time.\n- Reverted a setting that was preventing popup-style links (e.g. links out from the Gmail web app) from loading.\n- Fixed issue that was causing newly-selected text fields on websites to stop being selected, preventing the user from typing in them.\n\n## Improvements\n\n- Reduced the pixel density of rendered web content to improve browsing performance and avoid periods of dropped frames.\n- Reduced animations in topic items and their children to make typing more responsive.\n- The entire topic backing is now clickable, which will trigger typing.\n- Arrow keys can now be used to move the typing caret from a topic header to body text and back, reducing friction of text editing.\n- Reduced accidental inputs from tracked hands while typing.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.10",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.10\n\n## Bug Fixes\n\n- Previous update broke website bookmarks. This update implemented a new design for website bookmarks with more metadata and better legibility.\n- AI queries were being created in a collapsed state, hiding their contents. Queries are now created in an expanded state.\n\n## Improvements\n\n- Browser URL field now immediately updates when navigating to new page.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.09",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.09\n\n## Improvements\n\n- Refreshed virtual keyboard design for improved visibility and key press reliability.\n- Virtual keyboard now continuously places itself in an ergonomic position relative to the user and the typing target, unless the user’s hands are detected nearby.\n- Improved virtual key collision detection to reduce failed key presses.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.08",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.08\n\n## Bug Fixes\n\n- Fixed issue that was causing audio echo when using speech-to-text.\n- Trying to use speech-to-text while offline will trigger a warning notification.\n- Speech-to-text feature now adds a leading space in front of transcribed text, and text is now correctly capitalized.\n- Virtual keyboard now properly deactivates if the browser is deactivated while typing in the browser URL field.\n\n## Improvements\n\n- Speech-to-text button is now in a more ergonomic position in the virtual keyboard.\n- Improved the visual design of the speech-to-text button.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.07",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.07\n\n## Improvements\n\n- Re-implemented the spatial cursor positioning algorithm for more ergonomic near-field (e.g. web browser) and far-field interactions.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.06.04",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.06.04\n\n## Bug Fixes\n\n- Fixed a bug that prevented controllers from working if the app started in controller mode.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.06.03",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.06\n\n## Improvements\n\n- Implemented bounds on how much Items auto-scale based on distance from the user.\n- Topics now save their state of being expanded or collapsed.\n- Item auto-rotation to face the user now pauses when the user is very close, to allow viewing different areas of an item.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.06",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.06\n\n## Improvements\n\n- Implemented bounds on how much Items auto-scale based on distance from the user.\n- Topics now save their state of being expanded or collapsed.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.06",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.06\n\n## Improvements\n\n- Implemented bounds on how much Items auto-scale based on distance from the user.\n- Topics now save their state of being expanded or collapsed.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.05",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.05\n\n## Improvements\n\n- Fine-tuned workspace scaling bounds.\n- Increased gripnav leverage factor and reduced coast friction to make it easier to move across the workspace with a single, small motion of your closed hand.\n- Fine-tuned web browser resolution upscaling and per-eye render resolution upscaling on Quest 2 and Quest Pro to reduce dropped frames.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.04",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.04\n\n## Bug Fixes\n\n- Fixed an issue that was causing AI-suggested topic titles to instantiate with 0-width.\n- Re-enabled Command Prompt instructions, which had been accidentally disabled.\n- The Virtual Keyboard will now automatically move toward an ergonomic position when the user is moving the entire workspace with one or both hands.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.03",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.03\n\n## Improvements\n\n- Added a virtual environment to prevent passthrough image making it difficult to see and focus on workspace contents. A “Theme” button in the palm menu allows cycling through different background options.\n- All items now face the user at all times.\n- Items now maintain a semi-constant apparent size, making them easier to see and work with from a distance.\n- Positional snapping has been removed (may be reimplemented later).\n- Topics can now be expanded or collapsed. (They are collapsed by default.) When collapsed, they will display an auto-generated summary when touched.\n- The virtual keyboard’s position is now fixed, making it easier to hit the keys.\n- There is now only one spatial cursor active at a time, based on the last hand to click.\n- The spatial cursor icon has been redesigned to be more visually calming.\n\n## Bug Fixes\n\n- Fixed an issue that was preventing image import from Dropbox.\n- Fixed an issue that was preventing file imports from Dropbox when there were special characters in the file path.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.02",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.02\n\n## Improvements\n\n- Minor under-the-hood fixes.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.01",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.01\n\n## Improvements\n\n- New and cleaner design for web browser and settings window UI.\n- Images now have rounded corners, making them more visually comfortable.\n- “Free mode” and “Fixed mode” have been replaced with “Show Ideas” and “Hide Ideas”, which toggles the AI-suggested topics on and off.\n- Non-suggested items are pinned in place, but can be unpinned and allowed to float.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2023.13",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.13\n\n## Improvements\n\n- Redesigned AI concept-suggesting to reduce failures to produce suggestions.\n- Increased AI-query temperature for more creative and surprising responses.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2023.12",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.12\n\n## Improvements\n\n- Minor under-the-hood improvements.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2023.11",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.11\n\n## Improvements\n\n- Added a speech-to-text button to the virtual keyboard.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2023.10",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.10\n\n## Improvements\n\n- Improved AI prompt construction to better elaborate on topics\n- Improved AI prompt construction to reduce truncated responses\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2023.09",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.09\n\n## Improvements\n\n- Implemented a “Delete” button\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2023.08",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.08\n\n## Improvements\n\n- Minor under-the-hood fixes\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Item deletion is only possible with the use of a physical keyboard."
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 39,
+        "rating": 3.435897,
+        "weighted_rating": 3.74,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

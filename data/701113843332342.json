@@ -1,0 +1,162 @@
+{
+    "data": {
+        "id": "701113843332342",
+        "name": "Dreadhalls",
+        "app_name": "Dreadhalls",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2015-04-30T00:00:00",
+        "description": "Experience a new kind of immersive horror in Dreadhalls!\n\nYou are trapped deep inside a massive dungeon. Explore it, survive it, and find a way to escape. Your only weapons will be stealth, your own courage, and a faint light.\n\nInspired by the survival horror and roguelike genres, Dreadhalls has been terrorizing people ever since its debut at the 2013 Oculus + Indiecade VR Jam.\n\nDreadhalls is an intense and scary experience, not for the faint of heart. You have been warned!",
+        "markdown": false,
+        "developer": "White Door Games",
+        "publisher": "White Door Games",
+        "genres": [
+            "Horror",
+            "Exploration"
+        ],
+        "devices": [
+            "Gamepad",
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "French (France)",
+            "German",
+            "Korean",
+            "Spanish (Mexico)"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [
+            "HORROR",
+            "Horror & Mystery"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 160
+            },
+            {
+                "rating": 2,
+                "votes": 109
+            },
+            {
+                "rating": 3,
+                "votes": 277
+            },
+            {
+                "rating": 4,
+                "votes": 717
+            },
+            {
+                "rating": 5,
+                "votes": 2705
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Blood",
+                "Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.dreadhalls.com/",
+        "app_images": {
+            "cover_landscape": "11162821_951554334865146_1004507317_n.png",
+            "cover_portrait": null,
+            "cover_square": null,
+            "hero": "11162821_951554334865146_1004507317_n.png",
+            "icon": null,
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.6.1",
+                "change_log": "- Fixed issue where players using the Go or Gear VR controller would suddenly stop while walking or running forward"
+            },
+            {
+                "version": "1.6.0",
+                "change_log": "- Fixed player forward facing direction not aligning correctly along corridor walls when playing with a 3DOF controller\r\n- Minor corrections in Chinese translation"
+            },
+            {
+                "version": "1.5.9",
+                "change_log": "- Fixed game not properly detecting controller handedness changes during play\r\n- Improved detection of active controller (either gamepad or 3DOF controller)"
+            },
+            {
+                "version": "1.5.8",
+                "change_log": "- Fixed game freezing when loading the ending scene\r\n- Added Chinese, Japanese, and Italian localizations (text only)\r\n- Added an error message when no controller is connected\r\n- Game will now pause when the headset is removed\r\n- In-game menus and inventory will not clip through walls anymore\r\n- Oculus Go: Improved visual quality. Plus other minor fixes."
+            },
+            {
+                "version": "1.5.5",
+                "change_log": "- Increased dead zone for the \"Sprint\"  button to prevent some controllers from mistakenly detecting it as always pressed.\r\n- Fixed disabling comfort mode during the game not working until the next scene reload."
+            },
+            {
+                "version": "1.5.4",
+                "change_log": "- Fixed minor bug: app icon and name should now display correctly in Android's applications list"
+            },
+            {
+                "version": "1.5.3",
+                "change_log": "- Fixed freezing during load screen on some phones (Galaxy S8, S8+...) due to excessively long shader compilation.\r\n- Fixed some monsters' noises being heard across the entire map."
+            },
+            {
+                "version": "1.5.2",
+                "change_log": "- Added support for Oculus Go\r\n- Updated engine version to fix compatibility errors"
+            },
+            {
+                "version": "1.5",
+                "change_log": "- Added support for Samsung VR Controller\r\n- Updated engine version\r\n- Other minor fixes"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "- Fixed right thumbstick not working if disabling comfort mode while in game"
+            },
+            {
+                "version": "1.4",
+                "change_log": "- Added localization for: French, German, Spanish, Korean. You can change language from the Options menu.\r\n- Improved performance in physics calculations, creature movement and object spawning.\r\n- Many improvements and fixes in map generation, and positioning of decoration elements.\r\n- Fixed bug where sometimes the starting room would have no doors.\r\n- Random Map mode: fixed the calculation of percent of map explored.\r\n- Many, many other minor fixes, adjustments and corrections."
+            },
+            {
+                "version": "1.3",
+                "change_log": "- Updated Oculus SDK\r\n- Fixed sound stutter in some Bluetooth audio devices."
+            },
+            {
+                "version": "1.2",
+                "change_log": "- Integration with Oculus SDK 0.6.2.0\r\n- Added a flicker effect to the player's light right before running out. Visibility on low light conditions has been slightly increased.\r\n- Improvements on User Interface: Selection crosshair is no longer off-center. Text is now easier to read when buttons are selected. Intro menu buttons now play their sound effects correctly.\r\n- Added some new tutorial prompts.\r\n- The particle effect when unlocking doors in a hub map will no longer suddenly disappear.\r\n- Fixed bug where using the headset's Back button also disabled the player's light."
+            },
+            {
+                "version": "1.1",
+                "change_log": "- Improved collection of items inside chest containers. Items inside chests are no longer floating.\n- Ground should no longer be visible clipping through the bottom of chests.\n- Fixed map conflicting with other UI elements in some occasions.\n- Added one starting bottle of oil to the player's inventory on Random Map mode.\n- Integration with Oculus SDK 0.4.3"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Full Game"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 3968,
+        "rating": 4.435988,
+        "weighted_rating": 4.42,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

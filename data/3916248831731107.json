@@ -1,0 +1,133 @@
+{
+    "data": {
+        "id": "3916248831731107",
+        "name": "Headjack Link",
+        "app_name": "Headjack Link",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-03-30T00:00:00",
+        "description": "The Link app is designed for frictionless content review of your Headjack apps. Login at https://headjack.io, select one of our Essential Templates and create an app, upload your 360 videos and assets and generate a unique 6 digit pin code on the app page. Enter your pin code in Headjack Link and it will automatically sync all of your app settings and content, granting you immediate access to all of your files for direct content review. Headjack Link is designed for both non-technical users and power users of the Headjack platform and serves as a frictionless alternative to our App Cloud Build solution.\n\n- 6 digit pin code log-in\n- Frictionless content review\n- Easy to share and use for non technical users/clients\n- All in one interface\n- Automatically syncs app with Essential template selected in Headjack CMS\n- No sideloading required \n- Kiosk, Cinema and Grid templates available\n- No set-up time\n- Easy logo placement\n- Easy to use Template Variables",
+        "markdown": false,
+        "developer": "Headjack",
+        "publisher": "Headjack",
+        "genres": [
+            "360 Experience (non-game)",
+            "Media Player",
+            "Utility"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 1
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 2
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://headjack.io/",
+        "app_images": {
+            "cover_landscape": "57570299_1282582112119295_5425059180852051881_n.png",
+            "cover_portrait": "75254869_486649282328249_4566024154483667412_n.png",
+            "cover_square": "39031393_419720075757973_3004175344258218739_n.png",
+            "hero": "38974892_749597992643911_4100271986213552153_n.png",
+            "icon": "75210885_415111926370666_3687792340814864594_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75339311_278194407067328_340986565422855776_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "4.5.2",
+                "change_log": "Remove second splash screen"
+            },
+            {
+                "version": "4.5.1",
+                "change_log": "- Fixed performance issues with very high resolution videos\n- Updated Quest SDKs\n- Support for Quest 1 is deprecated"
+            },
+            {
+                "version": "4.0.1",
+                "change_log": "- Support gaze interaction in more menus in the Kiosk menus\n- Add \"Remember\" app pincode option to log into the same app when restarting the Link app\n- Updated text rendering and many text layout fixes, including supporting longer project names\n- Added support for subtitles when streaming video\n- Remember and load previously selected subtitles language when playing subsequent videos\n- Added various new Template Settings, including the ability to disable the \"Delete\" button to protect against accidentally deleting content and to disable the \"Logout\" button to lock in an app login\n- Improved layout and style of video control menus\n- Fixed updating subtitles\n- Updated Headjack SDK to version 5.6.4\n- SDK updated to use latest Unity 2021.3 LTS release\n- Increased Unicode character support to include Latin Extended-A character set\n- Improved readability of some error messaging around video playback settings\n- Fixed edge case issues around app offline mode and offline video playback\n- Various other fixes and improvements"
+            },
+            {
+                "version": "3.0.3",
+                "change_log": "- Improved compatibility with Quest Pro\n- Updated engine version\n- Improved loading performance for large content libraries"
+            },
+            {
+                "version": "2.2.1",
+                "change_log": "fixed bug related to offline mode time out and several other minor improvements"
+            },
+            {
+                "version": "2.1.1",
+                "change_log": "Improved HLS streaming quality and several other bug fixes"
+            },
+            {
+                "version": "2.0.2",
+                "change_log": "- Fixed issue with Quest 2 not always being recognized as separate platform"
+            },
+            {
+                "version": "2.0.1",
+                "change_log": "- Huge update to the overall video quality\n- Granting the external storage permission is no longer required when first launching your app (in most cases)\n- Various smaller improvements and fixes"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Replaced background download library to fix some edge case bugs with video downloads\n- Fixed rare case of video/app audio cutting out suddenly"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 4,
+        "rating": 3.5,
+        "weighted_rating": 3.84,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

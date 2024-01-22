@@ -1,0 +1,147 @@
+{
+    "data": {
+        "id": "2031826350263349",
+        "name": "Blade & Sorcery: Nomad",
+        "app_name": "Blade & Sorcery: Nomad",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2021-11-04T00:00:00",
+        "description": "The era of the VR weightless, wiggle-sword combat is over. Blade & Sorcery: Nomad is a medieval fantasy sandbox like no other, focusing on melee, ranged and magic combat that fully utilizes a unique and realistic physics driven interaction and combat system. Built exclusively for VR, collisions are dictated by fine hitboxes, objects have weight and follow the laws of physics, creatures have full body physics and presence, and blades can be used to penetrate soft materials or deflect magic. In Blade & Sorcery: Nomad, the combat is limited only by your own creativity. Choose your weapon, choose your stance, choose your fighting style; Be the powerful warrior, ranger or sorcerer you always dreamed of becoming!",
+        "markdown": false,
+        "developer": "Warpfrog",
+        "publisher": "Warpfrog",
+        "genres": [
+            "Fighting",
+            "Action",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Play with magic",
+            "Made in France",
+            "RPG glory",
+            "Melee Combat",
+            "Tag"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 3910
+            },
+            {
+                "rating": 2,
+                "votes": 1017
+            },
+            {
+                "rating": 3,
+                "votes": 1826
+            },
+            {
+                "rating": 4,
+                "votes": 5448
+            },
+            {
+                "rating": 5,
+                "votes": 29700
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Mature 17+",
+            "descriptors": [
+                "Blood and Gore",
+                "Intense Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12138844_1633334226961183_6470673676613189632_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://warpfrog.com/",
+        "app_images": {
+            "cover_landscape": "38974869_4510370042376166_8181286894859995495_n.png",
+            "cover_portrait": "38982447_2995094890802590_4571110280218816483_n.png",
+            "cover_square": "38982618_245635767597981_1478285280090246989_n.png",
+            "hero": "39031483_4280668052013292_7276741570239730441_n.png",
+            "icon": "39031571_205830301604225_3334746410574385706_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75196224_551361696197045_8536965504334359505_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "0.12.2",
+                "change_log": "U12.2 Changelog\n\n- Fixed home mirror black artifacts\n- Fixed player eyes reflection being wrong when looking our avatar in the mirror\n- Fixed bug where an item breaks and the original doesn't despawn\n- Fixed bug where players inventory wasn't getting saved when going back to home\n- Fixed not being possible to scroll down to read the last mod option tooltip.\n- Fixed broken mod asset bundles causing the game to hang on loading screens\n- Fixed removed modded items not being cleaned from the save file\n- Fixed mod options' categories not being shown in the selected language\n- Potentially fixed an issue where players could hit an invisible barrier in some runs where CliffTerrace was added.\n- Removed dirt from home mirror and reduced distortion effect slightly\n- Fixed weird lighting in some areas of SewerMaintenance\n- Fixed seams in the walls in SewerMaintenance\n- Fixed incorrect skybox in SewerMaintenance\n- Fixed weird water behaviour in SewerMaintenance and UndergroundZipline\n- Fixed clipping issues with the male mercenary gloves\n- Fixed long text values overlapping the new mod options button frame\n- Fixed long mod options tooltips overlapping over the options bellow\n- Fixed bug where handposer tool wasn't mirroring the finger tips position\n- Fixed ModOptionSaveValue attributes not being processes\n- Fixed ModOption(string name) constructor not setting default values\n- Fixed a bug where the defaultValueIndex was sometimes not used\n- Fixed a bug with color and catalogitem modoptions weren't being refreshed by the UI if data was changed at runtime\n- Fixed home wooden planks having black tips\n- Added new QA menu to test levels"
+            },
+            {
+                "version": "0.12.1",
+                "change_log": "U12.1 Changelog\n\nFeatures:\n- Added bhaptics support [PCVR]\n- The player character's eyes move when looking in the mirror or viewing in third person\n- U12 SDK released\n- New ocean shader for home\n\nEnhancements:\n- Changed how telekinesis targeting works so it makes more sense\n- Added hardware info logging to logs\n- Renamed Dismemberment cheat to \"Easy Dismemberment\"\n- Made Easier Dismemberment cheat even easier\n- [Mods] Added optional attributes that can be used to make creating mod options easier\n- [Mods] Added support for buttons on ModOptions\n- [Mods] Added support for mod option category ordering\n\nFixes:\n- Fixed spells being in the wrong order at the end of the tutorial\n- Fixed mod manager button still being active after mods are loaded when returning to the main menu\n- Fixed some tutorial images being incorrect\n- Fixed pink square in Chapel\n- Fixed shore mesh in Nomad home\n- Fixed lightmap problems in Arena\n- Fixed holes in doorways between rooms\n- Adjusted handles on the small wooden crate\n- Fixed tool weapons not sitting on players holsters correctly\n- Fixed room going invisible when in climbing area of SewerGate\n- Fixed touch highlighters displaying when out of range (grab bug)\n- Fixed rock not falling properly in tutorial\n- Fixed punching with free climb cheat on making your fists grip onto things\n- Fixed telekinesis events not being configured correctly\n- Sliced parts are no longer wirelessly connected to the creature's body\n- Fixed an issue where deleting save games would still show the last character made\n- Fixed stinger volume not being linked to music volume\n- Fixed volume sliders not scaling properly\n- [Mods] Reduced some item logging\n- [Mods] Fixed an extended abstract ThunderScript from crashing the game\n- [Mods] Added check to prevent ItemModules loading twice\n- [Mods] Changes mod loading so it loads all mod assemblies, then all mod addressables, then all mod catalogs, then all mod options, then all mod thunderscripts, then the catalog refreshes.\n- [Mods] Fixed character save loading so it happens after mods are loaded - modded spells and equipment now get added to the player properly\n- [Mods] Fixed ContentCustomData from uninstalled mods hanging the game on load\n- [Mods] Fixed mods without errors or modoptions showing on the mod options page"
+            },
+            {
+                "version": "0.12.0",
+                "change_log": "U12 - Full Changelog\n\nFeatures\n\n    Physics-based swimming (with Tutorial)\n    Added water drag area on some items\n    Added Breakable items\n    Overhaul of Shield enemies\n    Dynamic music system for Dungeons\n    Custom-made music tracks for each arena\n    Brand new Menu with Mod Settings Support\n    New dungeon outpost rooms, including underwater sections and new interactive elements\n    In-game mod manager (based on mod.io)\n    New moddable area system (used for dungeon generation)\n    Armour modding support\n    Trap doors\n    Added a shortcut for the player log in the F5 menu\n    Added text for what is being loaded during Game Loaded\n    Added keyboard system which modders can use\n    New cheat - Free climb, enable to climb on any surface\n    New cheat - Easier dismemberment\n    Spell wheel now supports more than 10 spells without overlapping\n    Mod manifests now have icon support\n\n\nEnhancement / Changes\n\n    Updated to Unity 2021.3.17f\n    Added side rooms and doors in some dungeon outpost rooms\n    Updated models for a lot of props (crates, barrels etc)\n    Dungeon areas with Ocean no longer instantly kill player when you fall in to them, added climbable areas to return to the area.\n    Added ocean to Chapel river.\n    Updated some arenas with updated models for minor props (like flags)\n    Adjusted what props spawn in Arenas\n    Tweaked dungeon outpost layout and misc changes about some rooms\n    Shield enemies in general should be more competent, and will opt for a more turtling and riposte fighting style than their non-shield counterparts.\n    New player menu\n    Improve text quality on all the UI (updated texts to TextMeshPro)\n    The rock used for tutorial's wall jump section will break after some time, allowing for a quick and easy climb instead.\n    Adjusted colliders of arrows to have better  piercing.\n    Some props in Arenas and Dungeon now spawn via a loot table.\n    Removed Exterior Doorways (the one which only was in 2 rooms).\n    Improved memory usage by unloading despawned weapons and armour\n    Improved memory usage by optimizing shader loading (expect a 2-3GB memory reduction without mods)\n    Improved level loading times\n    Added EventTime fields to Creature events in the EventManager\n    Added new sandbox options: Breakables, and Free Climb\n    Colour gamut is now fixed on Nomad - No more red tinge\n    'Head' is no longer an option when creating a new character\n    Added screenshot message\n    Pressing grip will now cancel a spell charging (doing a fist to punch should be easier)\n    Screenshot file name now contain level name and dungeon room name if any\n    ColliderGroupData now allows you to filter which spells can imbue a collider group\n\n\nFixes\n\n    Fixed underwater effect not working with spectator camera\n    Fixed underwater caustics being too bright and staying on screen\n    Fixed Ruins terrain having no physics collider\n    Fixed several localization and language bugs\n    Removed \"Reload JSON\" from the Menu.\n    Removed unused props used on the exterior or Market\n    Fixed very rare issue where Dungeon runs would end early and not have an \"End\" room.\n    Dungeon rooms with Sunlight cannot spawn next to eachother, to prevent light darkening on room enter\n    Dungeon rooms with Ocean cannot spawn next to eachother, to prevent Ocean leaking in to other rooms\n    Fixed Wooden pierceables not making sound when stabbing with\n    Improve brain pooling performance\n    Fixed Rugged Trousers and Worn Sandals missing reveal/blood\n    Fixed wrong reveal normal mapping on Mercenary Armour\n    Fixed wrong reveal normal mapping on the Claymore\n    Fixed refresh rate not updating correctly when changed while in-game\n    Fixed memory leak with reveal\n    Fixed physics bodies falling asleep too quickly when pushed slowly\n    Fixed spell wheel locking in place when opening then crouching or jumping\n    Fixed memory allocations from creature navigation every frame.\n    Fixed an issue where NPCs would stretch when sliced on specific parts\n    Fixed memory leak with the mirror in home\n    Fixed rare issue where imbue emission would not light up\n    Fixed issue where the player menu randomly switched the opened sub-menu from the user clicking on another button\n    Fixed light color of Fireball Impact being a wrong tint.\n    Fixed NPCs not defending themselves from one of the easter egg weapons\n    (Quest 2 / Pico) Fixed lightmaps color artifacts\n    (Quest 2 / Pico) Fixed holes around the neck on some clothes\n    Workaround for the \"grab bug\" issue where sometimes pressing grab will cause you to jump to the last thing you had grabbed."
+            },
+            {
+                "version": "0.11.3",
+                "change_log": "Update 0.11.3\n\nFeatures\n- Added new character origin ethnicities (only for player)\n- Reworked the character customization UI\n- Added more colors and new haircuts for character customization\n- Added the home local map, to fast travel toward the world map\n\nChanges / Enhancements\n- Update handle icon and add interactive scrollbars to the item and wave spawner books\n- Wearables have changed internally in regard to edit mode, some mods using this may break\n\nFixes\n- Fixed Post-Processing Profiles not being applied when changed on the options menu, with non-English languages selected\n- Fixed a few localization issues\n- Fixed culling issues in a few dungeon rooms\n- Fixed collision issues with some walls in dungeons\n- Fixed mirror highlighter that may stay enabled when it should not\n- Fixed some door gap between dungeon room\n- Fixed some audio sources not being affected by the options volume audio sliders\n- Fixed options audio sliders numeric value not showing the correct value after dragging the slider\n- Fixed Pointer not swapping when changing side in menu book\n- Fixed armour still being editable when disabling edit mode on the mirror"
+            },
+            {
+                "version": "0.11.3",
+                "change_log": "Update 0.11.3\n\nFeatures\n- Added new character origin ethnicities (only for player)\n- Reworked the character customization UI\n- Added more colors and new haircuts for character customization\n- Added the home local map, to fast travel toward the world map\n\nChanges / Enhancements\n- Update handle icon and add interactive scrollbars to the item and wave spawner books\n- Wearables have changed internally in regard to edit mode, some mods using this may break\n\nFixes\n- Fixed Post-Processing Profiles not being applied when changed on the options menu, with non-English languages selected\n- Fixed a few localization issues\n- Fixed culling issues in a few dungeon rooms\n- Fixed collision issues with some walls in dungeons\n- Fixed mirror highlighter that may stay enabled when it should not\n- Fixed some door gap between dungeon room\n- Fixed some audio sources not being affected by the options volume audio sliders\n- Fixed options audio sliders numeric value not showing the correct value after dragging the slider\n- Fixed Pointer not swapping when changing side in menu book\n- Fixed armour still being editable when disabling edit mode on the mirror"
+            },
+            {
+                "version": "0.11.2",
+                "change_log": "*** Update 11 Full Changelog ***\n\nFeatures\n\n- Added home exterior\n- Added tutorial\n- Added player inventory, (run tutorial for explanation to how to use it)\n- Added clothes changing (using home mirror or “Equip” in item book)\n- Added edible food support (apple)\n- Added doors and levers system (home only for now)\n- Added some new weapons\n- Added two new hair style\n- Added multi-language support\n- Added game translation for French, German, Spanish, Portuguese, Italian, Japanese, Korean, Thai and Chinese (traditional and simplified)\n- Added muffling NPC with your hand to avoid doing noise\n- NPC now react to touch, light, bodies, items being held with telekinesis, and other NPCs being held with telekinesis.\n- Updated NPC combat animation and behavior for one-handed and two-weapon AI to be more dynamic, including parrying and riposting\n- Added rock throwing ****to NPC when the player is not reachable\n- Added water interaction with player hand and items\n- Added underwater effects and drowning when player (or NPC) stay too long underwater\n- Added new spell merge for fire (meteor) and lightning (ion beam)\n- Added new magic abilities to fire, lightning and gravity imbued staff (press spell menu when handled to activate)\n- Added new staff slam effect for Fire and lightning\n- Lightning now chains between metallic objects, imbuing other weapons nearby\n- Lightning can now have a chance to disarm NPC when their weapon is fully imbued\n- Grabbing an NPC and casting the lightning spell will instantly shock them\n- Added gravity hover, charging the Gravity spell while falling slows your fall\n- When gravity push is aimed downwards or when you are airborne, it will push you in the opposite direction\n- Added real-time lighting to spell charges\n- Added effect and mana cost to telekinesis spin\n- Allowed player to tele-grab NPC-thrown fireballs\n- Staffs will now steal energy from NPCs when you hit them, recharging their current imbue\n- Gravity bubble now have an effect on player\n- NPC are able to blink\n- NPCs can now damage each other when they're far away from the player\n\nChanges / Enhancements\n\n- Canyon level update (more details, misc changes and additions)\n- Small touches and lighting changes to Ruins\n- Updated character selection scene with new dungeon assets\n- Added some new rooms to Dungeon\n- New loading music\n- Wave and item selector UI overhaul\n- Improved gravity spell audio effects\n- Improved NPC vision by increasing field of view and how well they can see you in the dark\n- Crouching no longer impacts stealth (stealth influenced by light and darkness, sound, and enemy FOV)\n- NPCs make less noise when killed in stealthy ways\n- Grabbed NPCs now behave differently when grappled so they don't try to move and such like before\n- Archers stow their bows when their targets are too close\n- Warzone is added back on the wave selection menu\n- Improved probe based lighting on characters to be more uniform\n- Improved stealth mechanics: AI detection has been fine tuned for a better experience\n- Added an option to slide with A / X on Oculus touch or touchpad press on Index (so using staves is easier by using trigger)\n- Dual-wielding NPCs swap their left hand weapon to their right hand if they drop their right hand weapon\n- Improved staff gravity shockwave audio\n- Touchpad press is now used to use staff on Index controller.\n- Spells and imbues now stop when in water\n- Moved further invisible walls near ocean in some dungeon rooms\n- Removed ocean kill zones in some dungeon room\n- Improved and changed some dungeon room layout and spawns\n- Chickens’ wings are now physical parts of their body\n- Added handles to most props\n- Show player characters in the menu from the most recently played to the least recently played\n- Reworked torch model\n- Weapons now lose imbue slower\n- Lightning stuns metal-armored enemies for much longer\n- Increased arm stretch length to avoid hand disconnecting from handles when too far\n- Improved spell haptics\n- Small improvements to dying animations\n- Improved collision performance\n- Improved effect spawning performance\n- Clarified the “Max arm length reached behavior” option description, and set the default to “Hold”.\n- Boosted the damage and force behind the player kick.\n- Added audio slider in menu option to increase or reduce the slow motion sound effect\n- New “Clean visible dropped items” option. Which will periodically clean up dropped items even when you can see them, except for ones in your telekinesis range.\n- When cleaning dropped items, only duplicate of the same item will be despawned first, then any will be despawned until the number of items is under the max dropped items limit\n- Added kick audio\n- Added new jump audio\n- Added a compensation force to the player’s hands to stop them from dragging behind when you walk\n- Oar can be put in back holster\n- Minor balance changes\n- Added version revision, game version changed from 11.0.X to **0.**11.0.X (so change mod manifest jsons!)\n- Json file loading time improvements\n- Optimized item spawner book performance\n- Fall damage threshold is lower\n- Added volume to snap/unsnap in ItemData json\n- Added blunt damage to arrows\n- Improved performance of Human/Armor collisions\n- Improved NPCs walking down slopes\n- Fall damage threshold is lower\n- Added volume to snap/unsnap in ItemData json\n- Added blunt damage to arrows\n- Improved performance of Human/Armor collisions\n\nFixes\n\n- Fixed NPCs ganging up to attack corpses\n- Fixed NPCs alerting themselves by knocking over items, and also fixed NPCs getting alerted by sounds from friendly NPCs they can see\n- Fixed NPCs not hearing player weapons hitting certain surfaces\n- Fixed chicken duplication glitch which would spawn broken chickens in the home\n- Fixed a bug where the player could take damage from NPC weapons well after their attack is finished\n- Fixed telekinesis-grabbing an item on two handles, then releasing with both would cause it to float\n- Fixed friendly NPCs treating the player as an enemy if the player makes sound which sets their alertness too high\n- Fixed NPCs being unable to move if trying to test the game without a headset on\n- Fixed player hand phasing through NPC when grabbing/ungrabbing their parts\n- Fixed static items with penetration capabilities having a small chance to move when NPCs are impaled\n- Fixed Jar2H json causing hand to break\n- Fixed navigation issues in maps\n- Fixed broken handles making your hand become unresponsive (detailed log now displayed with how to fix)\n- Fixed loading a level before Warpfrog logo ends doesn’t allow user to use any UI (Books and Menu)\n- Fixed some NPC parts not changing colour with SetColor (sclera/iris/etc)\n- Fixed an issue disabling kick foot collision when grabbing an item\n- Fixed Gravity merge bubble not picking up NPCs unless the player was close\n- Fixed the game attempting to break spacetime when you try to drop an item that has a holder - such as a quiver - inside itself.\n- Fixed missing physics material on Canyon bridge causing no sounds when hit and causing fireballs to glide across the surface.\n- Fixed imbue effects generating a VFX mesh every time a weapon was imbued\n- Fixed lag spike when imbuing weapons\n- Fixed thrown items not been cleaned up when they go outside the map / far away from the player. Like fireballs being shot out the map.\n- Fixed a variety of visual and render order bugs\n- Fixed hard crash on large number of catalog items (big mod packs)\n- Fixed particle pooling not growing efficiently\n- Fixed armour detection sometimes failing on edges\n- Fixed health potion drinking that could cause the character to turn yellow\n- Fixed holster that could cause the weapon to turn yellow after some time\n- Fixed clipping issues with some outfits\n- Fixed some interactables and creatures names’ texts not being localized\n- Fixed handle orientations breaking on some handles when you slide your hand\n- Fixed navigation on XSTransi_10\n- Fixed potential NullRef on holder unsnap\n- Fixed an issue where NPCs would fall from heights, land and jitter in place.\n- Fixed tutorial images showing the Oculus controllers inputs, with non-Oculus headsets, if the game started with the controllers disabled\n- Fixed wave descriptions’ typo\n- Fixed tutorial displaying wrong sentences\n- Fixed chandeliers causing lag spikes on collision with NPCs\n- Fixed some materials being invisible on some maps\n- Fixed an issue preventing air control when too high\n- Fixed navigation issue for the left side stairs in Canyon\n- Fixed ladders being the incorrect rotation in UndergroundParkour\n- Fixed Item/Wave Spawner and Item rack causing Lightmap issues in Arena Survival\n- Fixed potion corks disappearing in dungeons sometimes\n- Fixed some mushroom culling issue near the home cave entry\n- Sticks/Branches can now be held in more rotations\n- Mercenary wave names are now more consistent with other wave names (is now Easy/Medium/Hard rather than Wave I, II, III)\n- Fixed missing mesh under watermill in Canyon\n- Fixed External View Lock not working\n- Fixed handle length on greatswords\n- Leather Nerf ; Made Stabbing/Slashing/Axing easier on Leather\n- Fixed some canyon navmesh issues\n- Fixed potion decals flashing too large\n- Added cosmetic slash and blunt collision effects to leather\n- Added cosmetic slash effects to plate armor\n- Fixed map board options text not resizing\n- Reduced force needed to show blunt impact on armors\n- Added loading progression"
+            },
+            {
+                "version": "10.2",
+                "change_log": "- Fixed an issue preventing the game to launch on secondary accounts"
+            },
+            {
+                "version": "10.2",
+                "change_log": "- Fixed an issue preventing the game to launch on secondary accounts"
+            },
+            {
+                "version": "10.2",
+                "change_log": "**B&S Nomad (Quest version) update 10.2**\n\n**Features**\n> Added an option to disable stick jump and crouch\n> Added an option to toggle crouch\n> Added handle points on chicken body that prevent the chicken to cackle and moving it's wings ( so you can pet it better :p )\n> Added an handle point on the chicken tail\n> Gravity bubble now also affect player\n> Added an \"Alertedness\" level to AI, NPC will no more be able to see you instantly and will need more time to detect you\n> Boat oars can now be used as weapon\n> Minor improvements and additions to some rooms\n> The game now show the full error message when it fail to load\n> Added MSAA (2x)\n> Enabled basic mod support (non scripted mods for now)\n\n**Enhancements**\n> Collision and armor detection performance improvements\n> Increased foveation level for better performance\n> Reduced the chance of NPC doing a jump attack\n> Improved NPC attack range estimation by taking the opponent speed into account\n> Gravity imbue zero-gravity force is now linked to the current imbue level\n> Improved blood visual on weapon in some situations\n> Added a second page for input options\n> Improved torch flame VFX\n> Fixed an issue preventing UI elements to be disabled at distance (performance improvements)\n> Updated to latest Oculus plugin v34\n> Enabled late latching and subsampled layout (improve latency and performance)\n> Added distant boat in lost cove\n> Pressing \"take item\" while your main hand is full will put the item into the other hand\n\n**Fixes**\n> Fixed potion drinking not working correctly\n> Fixed some occlusion culling issue (invisible room) in some dungeon rooms\n> Fixed bow randomly disappearing when being used\n> Fixed arrows sometimes becoming invisible when grabbed from quiver in the dungeon\n> Fixed random body exploding / teleporting when using bow\n> Fixed some issues in dungeon preventing player to progress through dungeon (invisible wall)\n> Potential fix for body clipping through clothes on player character (like breast clipping through clothes)\n> Fixed an issue with the bridge collider in Canyon\n> Removed invisible out of bounds collider in Arena\n> Fixed ocean spawning too late when entering viaduct room\n> Fixed NPCs behaving weirdly when their shield is disarmed\n> Fixed NPC sometimes looking too much at player when dying\n> Ruins and canyon lighting fixes\n> Dungeon room lighting fixes\n> Fixed invisible ladder in home\n> Fixed an issue causing sun light direction to be wrong in some dungeon room\n> Fixed war axe missing from the game"
+            }
+        ],
+        "keywords": [
+            "Sword",
+            "Melee",
+            "Medieval",
+            "Physic",
+            "Magic"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 41901,
+        "rating": 4.336746,
+        "weighted_rating": 4.34,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

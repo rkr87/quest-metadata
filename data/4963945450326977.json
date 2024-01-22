@@ -1,0 +1,119 @@
+{
+    "data": {
+        "id": "4963945450326977",
+        "name": "Survivorman VR: The Descent",
+        "app_name": "Survivorman VR: The Descent",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2023-10-18T00:00:00",
+        "description": "From the makers of the hit TV series “Survivorman”:\nSurvive an Arctic nightmare as the sole survivor of a helicopter crash on a freezing mountain. Lost, cold, and with darkness closing in, can you build a fire and shelter to brave the elements?\n\nTest your survival skills in Survivorman VR: The Descent, an authentic and dynamic experience in the breathtaking Canadian Arctic. Face real-world extreme challenges that push your intellect, emotions, and physical abilities to the limit. Under the expert guidance of legendary survivalist Les Stroud, rely on your skills and resourcefulness to save your own life.\n\nPROGRESSION\nOver six intense levels, confront challenges that test your skills and inch you closer to rescue. From crafting snowshoes to glissading down slopes, navigating glacial crevasses, building hunting traps, rappelling cliffs, and keeping the fire burning - every move counts.\n\nFollow the river to potential rescue, but not without a nerve-wracking encounter with a hungry, irate polar bear.\n\nAUTHENTIC SURVIVAL\nSurvivorman VR is grounded in real, tried-and-true survival techniques and scenarios, delivered by world-renowned survival expert Les Stroud. With over 30 years of wilderness survival experience, Stroud shares his wealth of knowledge. While he guides your expedition, the decisions you make will determine whether you live or die. It's the ultimate test of your survival instincts.\n",
+        "markdown": false,
+        "developer": "Descent VR Productions Inc",
+        "publisher": "Cream Productions Inc.",
+        "genres": [
+            "Travel & Exploration"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "SITTING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Screen-to-VR adaptations",
+            "Survival",
+            "World exploration",
+            "Holiday Sale 2023 [marathon shelf]",
+            "Holiday Sale 2023 [blockbusters shelf]",
+            "Holiday Sale 2023 [fitness shelf]",
+            "NUX Action",
+            "Holiday Sale 2023 [trending shelf]",
+            "Action"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 6
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 11
+            },
+            {
+                "rating": 4,
+                "votes": 8
+            },
+            {
+                "rating": 5,
+                "votes": 28
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_SOME",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Mild Violence",
+                "Blood",
+                "Language"
+            ],
+            "elements": [],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.survivormanvr.com/",
+        "app_images": {
+            "cover_landscape": "38974696_1708088063037645_1264954899133881994_n.png",
+            "cover_portrait": "38982538_331031246077977_7246864877791000147_n.png",
+            "cover_square": "75195908_1656498468175078_4376446184676190894_n.png",
+            "hero": "75520121_607060588170850_621827753624301998_n.png",
+            "icon": "38982585_837871761310183_3524812209581047357_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982538_887792902770274_2362117357191859516_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.8.1",
+                "change_log": "Build 1.8.1 - December 2023 \n\nMajor Changes\n- If the player dies at the beginning of a level the player respawns with 0 calories.\n*fix - the player calories are saved before loading into another level, when the player dies and respawns they get reset with the correct amount of calories based on difficulty.\n\n-  If the player eats a consumable while holding it near the backpack the player proceeds to consume that item but it is also placed in the backpack which the player cannot take out until the next scene is loaded or the game is restarted. This happens with any intractable object that can be placed inside the backpack.\n*fix - The backpack no longer accepts any object that is being used or consumed, avoiding the bug.\n\n- Visual changes in level 3, moved the cabin and canoe to a better location visually.\n\n- Hands jump ahead of player when moving with the pole.\n*fix - Hands collided with objects on belt, they no longer do.\n\n*fix - leaderboard not recordings times and deaths\n\n*fix - main menu flow cleaned up\n\n*fix - when fire is made objects floating on fire \n\n*fix - the fire in level 4 heats up the player now\n\n*fix - Level 3: using the magnifying glass revamped, making it a lot easier\n\n\nMinor Changes\n\n- At the end of level 4 when the helicopter lands the propellers stop spinning while the audio still plays.\n*fix - The propellers keeps spinning until the scene changes.\n\n-  The final avatar performance was too deep into the terrain.\n*fix - Avatar has been raised higher.\n\n- In level 3 when the player break the lens out of the camera, on the watch the “Put seed fluff into the fire pit is checked off as complete.\n*fix - The lens no longer changes the priority list\n\n- In level 3, when making  the rabbit trap the placement objects would turn green showing it accepts the object\n*fix - increased the distance at which the objects are validated, making it easier to place objects into the trap.\n\n*fix - Level 3: Camera smashing clue VO is played after the you place the wood and seed fluff into the fire pit\n\n- In level 1 around the plastic crate interaction the rocks could fall through the ground.\n*fix - updated the collider around that. The rocks no longer go under geo\n\n- there is no audio when the player sees the canoe in level 3.\n*fix - The audio is triggered when the player gets close to the canoe.\n\n- Added secret les performance in level 1\n\n- Added secret granola bars in level 3\n\n"
+            }
+        ],
+        "keywords": [
+            "survivorman",
+            "Stroud",
+            "survival",
+            "survivormanvr"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 53,
+        "rating": 3.981132,
+        "weighted_rating": 3.89,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

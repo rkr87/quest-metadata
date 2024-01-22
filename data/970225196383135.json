@@ -1,0 +1,184 @@
+{
+    "data": {
+        "id": "970225196383135",
+        "name": "Star Chart",
+        "app_name": "Star Chart",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2016-01-07T00:00:00",
+        "description": "Explore our Solar System, view constellations and meteor showers in your night sky, stand in the footsteps of Neil Armstrong & Buzz Aldrin on the Moon, explore Mars with the Curiosity Rover, and hold planets, moons, asteroids and even stars in palm of your hand.\n\nExplore the solar system, from the Sun to the moons of Saturn and out to the farthest reaches of Pluto. Gaze down and marvel at our solar system from above. Look up in wonder at the rings of Uranus. Feel the awe of floating in space around worlds no human has yet set foot on. See how the constellations of our night sky are made up of stars distant to each other in both space and time. Embrace the impossible distances and the inordinate scale of our universe.\n\nStar Chart currently includes:\n- An accurate real-time simulation of the night sky.\n- A 3D solar system to explore.\n- Orrery tour and exploration \n- Moments in Time: set foot on the Moon and Mars, explore the ISS Cupola & visit the New Horizons probe.",
+        "markdown": false,
+        "developer": "Escapist Games Ltd",
+        "publisher": "Escape Velocity Ltd",
+        "genres": [
+            "Space/Universe"
+        ],
+        "devices": [
+            "Touchpad",
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "Chinese (China)",
+            "Chinese (Taiwan)",
+            "Danish",
+            "French (France)",
+            "German",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Norwegian (Nynorsk)",
+            "Russian",
+            "Spanish (Spain)"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [
+            "Learn in VR"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 615
+            },
+            {
+                "rating": 2,
+                "votes": 394
+            },
+            {
+                "rating": 3,
+                "votes": 772
+            },
+            {
+                "rating": 4,
+                "votes": 1361
+            },
+            {
+                "rating": 5,
+                "votes": 2769
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.escapistgames.com/",
+        "app_images": {
+            "cover_landscape": "12138835_1523766494618069_2110681552_n.png",
+            "cover_portrait": "12138838_406212706241594_1078255082_n.png",
+            "cover_square": "12138835_976255779109381_2306415_n.png",
+            "hero": "12138837_1658138201116443_764472596_n.png",
+            "icon": "12138835_1524052881239307_916826262_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.7.6",
+                "change_log": "Bug fixes"
+            },
+            {
+                "version": "1.7.5",
+                "change_log": "Controls consistency improvements."
+            },
+            {
+                "version": "1.7.4",
+                "change_log": "- scene lighting fixes"
+            },
+            {
+                "version": "1.7.3",
+                "change_log": "- Localisation fixes\r\n- crash fix for Orrery\r\n- user location ip-lookup"
+            },
+            {
+                "version": "1.7.2",
+                "change_log": "Oculus Go RC4 (inc. 1.24.2 hotfix, Unity 2017.4.1f1, bugfixes)"
+            },
+            {
+                "version": "1.6.2",
+                "change_log": "- Tutorial bug fixes"
+            },
+            {
+                "version": "1.6.1",
+                "change_log": "- Improvements to navigation, specially in Moments in Time mode.\r\n- Improvements to transitions from Sky View to Explore Mode\r\n- Various bug fixes including correct scale for moons and dwarf planets"
+            },
+            {
+                "version": "1.6",
+                "change_log": "- New GearVR Controller support\r\n - Select and preview 3D planets & stars on your controller\r\n - Point-and-turn teleporting method in Moments In Time scenes\r\n - Swipe to orbit when exploring"
+            },
+            {
+                "version": "1.5",
+                "change_log": "- New Launch Room\r\n- New Moment In Time feature, initially Apollo 11 Moon Landing and Mars Science Lab\r\n- Teleporting and scene object selection in both scenes\r\n- Selectable Messiers\r\n- Selectable Meteor Showers"
+            },
+            {
+                "version": "1.4.1",
+                "change_log": "Bug fixes and improvements, in particular back-button fix."
+            },
+            {
+                "version": "1.4",
+                "change_log": "Bug fixes."
+            },
+            {
+                "version": "1.4",
+                "change_log": "Bug fixes & localisations."
+            },
+            {
+                "version": "1.4",
+                "change_log": "New planet menus"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Now includes localisation"
+            },
+            {
+                "version": "1.2",
+                "change_log": "Initial Version"
+            },
+            {
+                "version": "1.1",
+                "change_log": "- Travel up close to planets and moons to discover named surface features\r\n- Scales and distances re-authored to support viewing surface feature data.\r\n- Textures for Pluto, Charon, and various planets re-authored.\r\n- Gamepad support\r\n- Fixed brightnesses of unresolved planets and moons\r\n- Many other various bug fixes and feature polishes"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Fixed Back button not responding after returning to app from oculus options screen (new version of Unity)\r\nTapping Back when in Skyview now takes you to the quit screen\r\nFixed long Back press not responding when app is in non-interactive state\r\nAdded various data displayed for planets and moons"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Constellations do not display now when travelling"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Holding BACK button now works properly since updating to the latest Unity.\r\nSmoother movement travelling between planets\r\nLabel visibility is affected by planets\r\nLabel code optimisations\r\nTapping Earth when close to the planet now takes you to Sky View\r\nFix for sprites disappearing towards the top of the screen in VR\r\nFix for planet sprites occasionally getting orphaned"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 5911,
+        "rating": 3.892404,
+        "weighted_rating": 3.89,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

@@ -1,0 +1,133 @@
+{
+    "data": {
+        "id": "4245506092131005",
+        "name": "Aim XR",
+        "app_name": "Aim XR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2021-05-27T00:00:00",
+        "description": "Aim XR is a 5v5 fast-paced multiplayer shooter. Play online with people, or play offline against bots. You can also host a LAN server, and play with users on the same WiFi network.\n\nYou can also play sitting down, by using the height adjustment slider.\n\nIn order to maximize comfort, tunnel vision is activated when moving via the joystick. You can disable the tunnel vision via the Settings menu.",
+        "markdown": false,
+        "developer": "Proto XR",
+        "publisher": "Proto XR",
+        "genres": [
+            "Action",
+            "Shooter",
+            "Social"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Multiplayer",
+            "Co-op",
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 76
+            },
+            {
+                "rating": 2,
+                "votes": 26
+            },
+            {
+                "rating": 3,
+                "votes": 57
+            },
+            {
+                "rating": 4,
+                "votes": 131
+            },
+            {
+                "rating": 5,
+                "votes": 555
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Violence",
+                "Blood"
+            ],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://aimxr.com/",
+        "app_images": {
+            "cover_landscape": "39031493_133800721847357_7887277219188529797_n.png",
+            "cover_portrait": "38974827_445052539878535_568629104405720478_n.png",
+            "cover_square": "38974797_216435416866968_8970725105350432957_n.png",
+            "hero": "39001699_175315634390709_1309556061390953393_n.png",
+            "icon": "39003273_409679206788240_4022657776082116921_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39035340_137564518199776_3478351773299541350_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "0.5.1-alpha",
+                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens\n- Added button to clear settings file\n- Increased minimum avatar height scale"
+            },
+            {
+                "version": "0.5.1-alpha",
+                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens"
+            },
+            {
+                "version": "0.5.1-alpha",
+                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens"
+            },
+            {
+                "version": "0.5.1-alpha",
+                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens"
+            },
+            {
+                "version": "0.5.0-alpha",
+                "change_log": "- Fixed local player gunshot/audio being drown out when multiple audio is playing\n- Fixed muting players not persisting\n- New Legend map\n- Added new gun skins (randomly spawned when in singleplayer mode or shooting range)\n  - 3 AK skins\n  - 2 AWM skins\n  - 1 Deagle skin\n  - 3 MM4A1 skins\n  - 2 MAC10 skins\n- Force push-to-talk, to reduce audio noise in high player count games\n- Raise up Player Speaking feed, to more easily see who is speaking\n- Improved performance\n  - Atlased all non-local player guns into a single material\n  - Fixed LODs for guns\n  - Implemented GPU instancing for blood effects\n  - Fixed batching for muzzle flash effects\n"
+            },
+            {
+                "version": "0.5.1-alpha",
+                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens"
+            },
+            {
+                "version": "0.4.6-alpha",
+                "change_log": "- Added Gustavo Map\n- Added view for seeing what players are in a selected server\n- Play different audio whether team mic or all chat mic is enabled\n- Fixed bug where game would freeze completely in home scene if master server is down"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 845,
+        "rating": 4.257988,
+        "weighted_rating": 4.21,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

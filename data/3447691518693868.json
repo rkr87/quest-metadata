@@ -1,0 +1,178 @@
+{
+    "data": {
+        "id": "3447691518693868",
+        "name": "PLAY'A Video Player",
+        "app_name": "PLAY'A Video Player",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-03-29T00:00:00",
+        "description": "Exclusive to users that don’t like complications - PLAY'A is the versatile virtual reality video player created to match a busy lifestyle.  Whether its a simple and intuitive interface, a very hip contemporary design, playback from local file storage or streaming from the network connected servers, PLAY’A does it right and it does it with style! \n\nNavigation is easy in and out of VR. Just jump on a couch and turn it on - you are ready to go!\n\nAt their fingertips, the users like you will find:\n- 2D, 3D, flat, fisheye, 180° and 360° Videos automatically recognized\n- Picture viewer with slideshow\n- 8K video support (Oculus Quest 2)\n- Most video formats supported\n- Intuitive user interface\n- Shake smoothing\n- Privacy modes\n- Convenient folder navigation\n- Picture adjustments: brightness, contrast, saturation, sharpen, tint, temperature\n- VR Video adjustments: tilt, height, zoom, playback speed\n\nJust download and see it for yourself ! ;)",
+        "markdown": false,
+        "developer": "Swearl, LLC",
+        "publisher": "Swearl, LLC",
+        "genres": [
+            "Media & Streaming"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 109
+            },
+            {
+                "rating": 2,
+                "votes": 20
+            },
+            {
+                "rating": 3,
+                "votes": 24
+            },
+            {
+                "rating": 4,
+                "votes": 27
+            },
+            {
+                "rating": 5,
+                "votes": 70
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Unrestricted Internet"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://playavr.com/",
+        "app_images": {
+            "cover_landscape": "75404370_2841490169431928_3970301348783182498_n.png",
+            "cover_portrait": "75221323_2396389180485481_1144800018829137994_n.png",
+            "cover_square": "39035308_2908931336018724_6418101513512440507_n.png",
+            "hero": "38982668_435577774333503_4863596418091726044_n.png",
+            "icon": "57568674_263117435386981_5082803148935907361_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75375083_148485293665504_2274488967646399463_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.2.3",
+                "change_log": "Fixed:\n- Some minor fixes and improvements"
+            },
+            {
+                "version": "2.2.2",
+                "change_log": "Added:\n- Option to change depth in local videos with the tilt hotkey\n- Screengrab by holding the trigger\n- Option to change Aspect Ratio\nChanged:\n- UI Settings panel start place\n- Mute logic - now mute all channels\nFixed:\n- Problem files do not open after searching in “Network”\n- Sounds on Buttons pressed"
+            },
+            {
+                "version": "2.2.1",
+                "change_log": "Added:\n- Patreon banner for support Playa\nFixed:\n- Problems with “spinning” when an unsupported joystick is connected\n- Zoom hotkey for flat screens in local files"
+            },
+            {
+                "version": "2.2.0",
+                "change_log": "Added:\n- New Input system! Now you can configurate your device and save user profiles.\n- Passthrough mode for oculus devices!\n- Some new settings added.\n- Mute indicator under navigate panel.\nReworked:\n- Some Settings pages\nFixed:\n- Fixed not updated progress bar at player.\n- Some minor fixes and improvements."
+            },
+            {
+                "version": "2.1.13",
+                "change_log": "Added:\n- Playa site\n- New Default UI settings\n- Now you can delete files to trash (only for windows)\nFixed:\n- Some minor fixes and improvements"
+            },
+            {
+                "version": "2.1.12",
+                "change_log": "Added:\n- Halloween Event\nFixed:\n- Some UI problems with Subtitles\n- Minor fixes and improvements"
+            },
+            {
+                "version": "2.1.11",
+                "change_log": "Added:\n- Some UI changes in local files\n- Fisheye projection in settings with default projections\nReworked:\n- App font was changed\nFixed:\n- Deep-links parsing when ends with '/' symbol."
+            },
+            {
+                "version": "2.1.10",
+                "change_log": "Added:\n- New Design for playlists in player\n- New UI Dark Theme - added as default\n- New mode for repeat button\n- Some UI effects\nReworked:\n- Player settings panel"
+            },
+            {
+                "version": "2.1.9",
+                "change_log": "Added:\n- Autorecenter function\n- New screen settings\nFixed:\n- Zoom in/out in local video player with new screens"
+            },
+            {
+                "version": "2.1.8",
+                "change_log": "Fixed:\n- Some bugfixes in UI"
+            },
+            {
+                "version": "2.1.7",
+                "change_log": "Added:\n- New video projection - fisheye. Auto-recognition in local files with proper name ending.\n- New video screens in free mode for local files.\n- Setting for turning off eye-click for desktop VR.\n- Some new UI animations.\n\nFixed:\n- Problems with input fields in the login panel.\n- Problems with changing the size of the video subtitles in local files."
+            },
+            {
+                "version": "2.1.6",
+                "change_log": "Added:\n- Wi-Fi icons for different signal levels.\n- EyeClick possibility if no controllers detected.\n- Setting for turning off all UI Animations.\n- Added new tooltip animation in settings.\nChanged:\n- Redesigned sorting buttons.\nFixed:\n- Problems with next/preview video in local files\n- Problem with video quality setting\n- Resume playback after restarting the application"
+            },
+            {
+                "version": "2.1.5",
+                "change_log": "Added:\n- Implemented support for new sites;\n- Added new UI animations;\n- Changed the design of the settings panel;\n- Added a change of environment:\nNow you can change the environment from 3 options: Room, Dark and Void!\n- Changed the logic of the search at Web page:\nNow to update the video list you need to confirm the request by pressing the enter button;\n\nFixed:\n- Fixed AB mode operation when switching videos;\n- Fixed launch of a random video when viewing a WebView\n- Fixed incorrect video viewing date on the HISTORY page"
+            },
+            {
+                "version": "2.1.4",
+                "change_log": "Fixed:\n- Fixed problems with moving or renaming pinned files\n- Fixed some sorting problems\n- Some UI fixes"
+            },
+            {
+                "version": "2.1.3",
+                "change_log": "- Added WebView:\n   Now you can add any website!\n- Added site tabs:\n   Now you can switch between sites without leaving them\n\nFixed:\n- Fixed broken sorting on web tabs after downloads\n- Fixed problems with filling in video information in the player\n- Fixed problems with queue playlist\n- Fixed appearance of the lobby behind the picture in some cases\n- Fixed broken video sorting after visiting the Download page\n- Fixed UI didn't recenter in player\n- Fixed some problems with subtitles depth\n- Some UI fixes"
+            },
+            {
+                "version": "2.1.3",
+                "change_log": "- Added WebView:\n   Now you can add any website!\n- Added site tabs:\n   Now you can switch between sites without leaving them\n\nFixed:\n- Fixed broken sorting on web tabs after downloads\n- Fixed problems with filling in video information in the player\n- Fixed problems with queue playlist\n- Fixed appearance of the lobby behind the picture in some cases\n- Fixed broken video sorting after visiting the Download page\n- Fixed UI didn't recenter in player\n- Fixed some problems with subtitles depth\n- Some UI fixes"
+            },
+            {
+                "version": "2.1.2",
+                "change_log": "Added:\n- Possibility to choose timeline chapters in the web videos\n\nFixed:\n- Fixed not hided video info after switch to Panic Mode\n- Fixed missing file information\n- Fixed missing files when switching to the All Video (Android)\n- Minor UI fixes"
+            },
+            {
+                "version": "2.1.1",
+                "change_log": "Improvements:\n- Improved preview display in the video list in the player\n- Improved files loading at the local page\n\nFixes:\n- Fixed an error filling a queue with an empty video list\n- Fixed  changing the video projection when the LR Inverve function is enabled\n- Fixed duplicating sources after migrating from old data on the downloads page\n- Fixed incorrect display of the number of pages in the local page when using edit mode"
+            },
+            {
+                "version": "2.1.0",
+                "change_log": "Common changes:\n- Redesigned the UI\n- Improved UI quality\n- Added new UI animations\n- Reverted to single active site logic\n- Added reset pincode function\n- Added auto video api mode\n- Added a door to the room\n\nLocal:\n- Added file editing mode for performing operations with them\n- Now you can pin a folder or file in file editing mode\n\nWeb:\n- Now some sites have their own color scheme\n- Added support for model view\n- There are now 2 types for the video preview: grid and list\n- Added video sorting by popularity\n- Added the \"Most recent\" section\n- Added more information about the video\n\nPlaylits:\n- Added preset playlist \"Favorites\"\n- Now the \"queue\" is formed by itself when video playing from a WEB or LOCAL page\n- Changed the logic of adding videos to playlists\n\nSettings:\n- Renamed the settings page from \"Video\" to \"Graphics\"\n- Changing the standard quality and video API is now available on the player page\n- Now UI Settings can be opened from Settings\n- Now you can turn on/off the environment only from the settings from the Graphics page\n- Changing download path moves all downloaded files to the new path\n\nImage view changes:\n- Added the ability to move the image\n- Added the ability to zoom the image\n\nFixes:\n- Fixed \"Watch in app\" mechanic"
+            },
+            {
+                "version": "2.0.26",
+                "change_log": "- Added Exit button\n- Fixed problem with table view in local files\n- Added possibility to zoom in/out pictures \n- Minor bug fixes and improvements"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 250,
+        "rating": 2.716,
+        "weighted_rating": 3.06,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

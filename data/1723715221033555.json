@@ -1,0 +1,113 @@
+{
+    "data": {
+        "id": "1723715221033555",
+        "name": "KIN",
+        "app_name": "KIN",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2017-12-21T00:00:00",
+        "description": "House of Secrets presents a VR puzzle platformer game with combat elements that will have the player traverse the remnants of an ancient civilization on a distant planet. Throughout your journey through alien landscapes, a story will unfold.\n\nThe game holds an abstract aesthetic that has become characteristic for the studio through their earlier VR experiences such as APEX and Surge. Lively colours, intuitive gameplay and interesting level design set the tone for KIN, in which the player moves through the world as a mysterious, tiny girl with big hair clad in a bright dress. Defeating enemies and solving puzzles, she leaps from platform to platform, travelling through different landscapes.\n\n\nFeatures\n\nOriginal setting and storytelling\nExciting combat and challenging puzzles\nGuide your character through beautifully crafted landscapes in virtual reality",
+        "markdown": false,
+        "developer": "House of Secrets",
+        "publisher": "House of Secrets",
+        "genres": [
+            "Action",
+            "Puzzle",
+            "Adventure"
+        ],
+        "devices": [
+            "Gamepad"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "English (US)"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 4
+            },
+            {
+                "rating": 2,
+                "votes": 2
+            },
+            {
+                "rating": 3,
+                "votes": 2
+            },
+            {
+                "rating": 4,
+                "votes": 9
+            },
+            {
+                "rating": 5,
+                "votes": 62
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://kin-game.com/",
+        "app_images": {
+            "cover_landscape": "12427628_696474083885275_7863972247235461120_n.png",
+            "cover_portrait": "11162753_1969396100014710_7259811588687790080_n.png",
+            "cover_square": "12427628_320892185092436_8027525276177006592_n.png",
+            "hero": "12386259_2058131941099067_2949703433457762304_n.png",
+            "icon": "12427636_450721295322177_1533597989493276672_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "11162763_2239635642728823_3925539420656107520_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.9",
+                "change_log": "Merged the following Rift features from 1.0.8:\n- Input remapping codebase\n- Game and Settings save file upgrade.\n- Added difficulty settings for both combat and puzzle timings.\n- Added an information text display for certain menu options.\n- Replaced certain timed pillars with their correct visual counterparts.\n- Fixed bug where the player could keep attacking even when dead.\n\nFixes:\n- Added OVRInput and rebindable controller input mappings for GearVR.\n- Using special OculusInputModule that uses OVRInput as input for GUI events.\n- Enabled better but less performant Nami raytracing code from PC/Rift build.\n- Fixed Snake sub bosses firing beam after player respawn, even when Sphere boss was killed.\n- Removed deprecated attack code from Floater enemies (was the cause of a shader color bug)\n- Fixed rare bug where enemies where not resetting telegraph and status effect colors when the player died/respawned.\n- Fixed Map Select menu item positions not resetting when opening the Map Select menu again after closing.\n- Fixed energy source and energy router pillar prefabs and levels containing them.\n- Fixed energy source and energy router pillar rotation orders.\n- Fixed Creepopus kill stats not being stored\n- Tweaked Creepopus difficulties\n- Fixed Flower boss difficulty settings\n- Fixed Map 502 missing tower mesh\n- Fixed some navigation meshes, preventing enemies from cluttering."
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "- Moved all android Input logic to OVRInput\r\n- Added gamepad controller check and we now show a message when no gamepad is detected.\r\n- Fixed Gear Touch and Gamepad controller support.\r\n- Removed most mappings from Input Manager as this is what creates a lot of double events firing when using touchpad on the Gear.\r\n- Upgraded to Oculus Tools 1.21\r\n- Got touchpad Back working via stupid hack (Input.GetKey(KeyCode.Escape))\r\n- Start button only opens menu now (prevent buggy behaviour with menu closing and opening when pressing start when menu is already open)\r\n- Added menu check around bumper input (for Nami / health UI).\r\n- Added touchpad fixes to MessagePanelInputHandler\r\n- Circumvented Unity EventSystem firing button events double by removing Submit and Cancel from the standard input module and calling the button actions directly.\r\n- Fixed message panel size for new game confirmation.\r\n- Fixed being able to spam level loading (Continue, Restart, New Game) while in fading coroutine.\r\n- Fixed start menu timescale being at 0\r\n- Fixed wrong environment map in map 411."
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "Fixed a show stopping bug in save games.\r\nMake sure to clear the apps cache/data."
+            }
+        ],
+        "keywords": [
+            "KIN",
+            "platformer",
+            "3rd",
+            "action",
+            "Secrets"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 79,
+        "rating": 4.556962,
+        "weighted_rating": 4.15,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

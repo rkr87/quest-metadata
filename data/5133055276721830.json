@@ -1,0 +1,172 @@
+{
+    "data": {
+        "id": "5133055276721830",
+        "name": "Grapple Tournament EA",
+        "app_name": "Grapple Tournament EA",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2021-12-06T00:00:00",
+        "description": "This version of Grapple Tournament is no longer supported.\n\nGrapple Tournament has transitioned to a free-to-play model and lives on in the free Quest version here:\nhttps://www.oculus.com/experiences/quest/4195451623800286/\n\nThank you for your love and support so far and let's continue in the free Grapple Tournament!",
+        "markdown": false,
+        "developer": "Tomorrow Games",
+        "publisher": "Tomorrow Games",
+        "genres": [
+            "Arcade",
+            "Shooting",
+            "Action"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "Chinese (China)",
+            "Chinese (Hong Kong)"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 3
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 2
+            },
+            {
+                "rating": 4,
+                "votes": 4
+            },
+            {
+                "rating": 5,
+                "votes": 30
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Violence"
+            ],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://www.grappletournament.com/",
+        "app_images": {
+            "cover_landscape": "75195902_199633845648791_3909414096206966548_n.png",
+            "cover_portrait": "75210390_591776652138475_440855968648933618_n.png",
+            "cover_square": "75195902_216374750612802_6897461141339811544_n.png",
+            "hero": "57568668_410087117261586_2299949184366213927_n.png",
+            "icon": "38982584_314805203478558_3230880229755906848_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "57569423_345007910731731_2300146814448751584_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.1.0",
+                "change_log": "Sunset build\n\nGrapple Tournament has transitioned to a free-to-play model and lives on in the free Quest version here:\nhttps://www.oculus.com/experiences/quest/4195451623800286/\n\nUnfortunately this also meant that in the transition process we had to sunset this version of the game.\n\nThank you for your love and support so far and let's continue in the free Grapple Tournament!"
+            },
+            {
+                "version": "2.0.0",
+                "change_log": "Update 34 - Early Adopter Rewards!\n\nImportant!\nIf you purchased Grapple Tournament, open the game before the 14th of September to receive your Early Adopter bundle inside the game!\n\nThe Early Adopter Bundle contains:\n- The new Grapple Hat\n- An exclusive skin pack for all weapons in the game\n- 1200 CREDITS\n- All 100+ previous items you already had\n\nPlease note that the Quest paid version will sunset on the 14th of September but the game will live on in the FREE version here:\nhttps://www.oculus.com/experiences/quest/4195451623800286/\n\nNew:\n- Exclusive hat, a weapon skin bundle and all previous items granted for players who purchased the game previously\n\nFixes:\n- Fixed bHaptics integration\n\nWhat's next:\nWe are continuing the transition to free to play in priority. Read more here:\nhttps://www.oculus.com/experiences/quest/developer-post/1010119966807411/"
+            },
+            {
+                "version": "2.0.0",
+                "change_log": "Update 33 - the first step towards Free-To-Play!\n\nImportant! - Log in now to get your CREDITS!\n\nPlease note that the Quest paid version (this one) will be sunset next month and the game will live on in the FREE version here:\nhttps://www.oculus.com/experiences/quest/4195451623800286/\n\nYou can read more about the transition period on going F2P here:\nhttps://www.oculus.com/experiences/quest/developer-post/1010119966807411/\n\nNew:\n- Reworked and extended the customization system\n-- Redesigned the system for wearables\n-- Added Armor Skin customizations, glove skin matches body skin\n-- Added Grappling Hook and Cable customizations\n-- Added Weapon Skins to the system, with a tons of new skins on the way\n- Customization items have two background colors:\n-- Blue: available in the shop\n-- Purple: coming later to the shop, or in a battle pass, or some other way, or timed exclusive\n- Introducing CREDIT(s) as the new ingame currency\n-- You can earn CREDITs with buying the currency in the CREDIT Store\n-- Soon we'll add more ways to earn CREDITS via playing the game and completing challenges\n- Added CREDIT Store\n-- currently only on Meta platforms\n-- work in progress for Steam\n- Added Daily shop for the paid version (coming soon to the free version)\n-- Offering 5 purchasable items every day\n-- With Reroll functionality to refresh the selection of daily offers\n- New pause menu graphics design\n- Added Armory in the entry HUB area to show you current loadout\n\nChanges:\n- Changed the UI in some places for better readability\n- Added randomized customizations for bots\n- Refined enemy coloring to look better close-up\n- Complex got it's final art pass\n\nOptimizations:\n- Optimized complex UI windows in the game for performance improvements\n- Removed drone customizations to gain performance in the Drone Challenge\n- Removed menu coloring option to save on performance on all UI elements\n- Removed some unused assets and codes from the build to save disk space\n\nFixes:\n- Fixed weapon setup when gripping weapon on spawn (in Instagib)\n- Fixed jump sound when using grappling hook after double jump\n- Fixed a bug about FFA HUD not updating at game start\n- Fixed spawn locations and colliders on Icebreaker\n- Fixed typos in some places on UI\n- Fixed a bug that showed other players' menu laser pointers\n\nIn this update, we've made significant enhancements to the underlying systems and as with any major revamp, there's potential for a few hiccups. We appreciate your patience and feedback as we fine-tune everything!\n\nWork-in-progress and known issues:\n- New UI design is not final\n- Some customization item icons are not final\n- Working on a preview for items in the shop\n- Working on the CREDIT store functionality on Steam\n- Some non-English translations might be missing\n- In the weapons list you've probably noticed the new weapon, that is coming soon ;)\n\nWhat's next:\nWe are continuing the transition to free to play in priority. Read more here:\nhttps://www.oculus.com/experiences/quest/developer-post/1010119966807411/\n\nCommunications and marketing around the game being available for everyone is starting. As always we'll listen to the community and will consider your feedback."
+            },
+            {
+                "version": "0.32",
+                "change_log": "Update 32\n\nNew:\n- Icebreaker level got its most anticipated graphics pass, now fully textured.\nEnjoy the ice caves, explore the shipwreck while having a warm drink over some frags on this abandoned mining site. How do you like it?\n\nChanges:\n- Level design changes on Complex based on your feedback, still in Alpha"
+            },
+            {
+                "version": "0.31",
+                "change_log": "Update 31\n\nNew:\n- Reworked the colors of the ingame interface to better represent what is friendly (blue) and what is enemy (red), including character highlights, health bars, player names, UI panels and gameplay elements\n- Added elimination feed with proper team colors and weapon icons\n- Added reworked Drone Challenge:\n  - Added a completely new look and layout for the Drone Challenge to better match the quality of the game\n  - Improved difficulty curve to be more dynamic and smoothly increasing in challenge\n  - Improved the AI of the drones to make them more dynamic\n  - Player gets shield after completing each wave (pickups removed)\n- Added hit/kill indicator for bow\n- Added camera fades and dynamic loading screen between levels\n\nChanges:\n- Improved the animation of drones in the Drone Challenge\n- Improved Firing Range targets visibility\n- Improved level design on Complex (still in Alpha)\n- Improved colliders on Container\n- Replaced the climbing part with double jump in the Tutorial temporarily\n- Parkour level temporarily removed from the game because it isn't on par with the quality of other parts of the game\n\nOptimizations:\n- Optimized some visual elements of the drones\n\nFixes:\n- Fixed a matchmaking bug where players got matched a second time even after already joining a match\n- Fixed some colliders in the Firing Range\n- Fixed pause menu to work properly when server is disconnected\n- Fixed translations on some texts\n- Fixed smooth turn speed on reset to match default value\n- Fixed character overflow on player names above health bars\n- Fixed wall colliders on Temple\n- Fixed Grenade pistol ammo display"
+            },
+            {
+                "version": "0.30",
+                "change_log": "Greetings, champions!\n\nUpdate 30 is live!\n\nWe've added a long awaited feature: the Firing Range. In the Firing Range you can practice your shooting, play multiple minigames and try out all the weapons at your own pace.\n\nNew:\n- Added Firing Range with multiple minigame modes:\n  - Static Practice: Try out all the weapons in the game in a safe environment at your leisure\n  - Reflex Practice: Try to hit the active target with any weapon\n  - Headshot Practice: Deliver as many headshots as you can in the given time\n  - Practice Dummy placed in the Firing Range\n  - With a friendly NPC companion\n\nChanges:\n- Removed winter seasonal decorations from the game\n- Practice Range repurposed to Drone Challenge\n- Practice Dummy moved to the Firing Range from the Drone Challenge\n- Improved color space for the whole game\n\nOptimizations:\n- Optimized grappling hook and bow materials\n\nFixes:\n- Fixed Oculus PC startup crash\n- Fixed rockets in Rocket Launcher to match the current game state and graphics fidelity\n- Fixed Railgun tutorial step not registering damage\n- Fixed hit indicator on headshots"
+            },
+            {
+                "version": "0.29",
+                "change_log": "Update 29 Hotfix:\n- Fixed hand poses on all Oculus platforms\n- Fixed startup crash when playing the Oculus VR version with Quests\n\nUpdate 29 is the biggest update so far in the history of Grapple Tournament. We tried our best to squeeze in as many new features as we could possibly do, all of which you asked for.\n\nNew:\n- Game engine updated to Unreal Engine 4.27 under the hood\n- Added new game mode: Instagib\n  - A Deathmatch variant where players can instantly kill their opponents with the new weapon\n- Added new weapon: Judgement\n  - Instantly kills target on hit (primary fire)\n  - Can penetrate through multiple targets\n  - Hellish headshot damage\n- Added new map: Complex, in Alpha state\n  - Send us your feedback about it!\n- Added Winter decorations, Candy Cane melee weapon and festive hats\n- Added haptic feedback when damaging with melee weapons\n- Reworked ragdolls, now they work according to weapon power and impact direction\n- Minigun secondary shield breaks if suffered too much damage\n\nNew for Meta Quest versions:\n- 90 FPS enabled in the Meta Quest 2 version\n\nChanges:\n- Improved and extended all animations on all weapons\n- Improved Rocket projectile graphics\n- Minor rendering changes due to Unreal Engine update\n\nOptimizations:\n- Made a lot of graphical optimizations for the Meta Quest 2 version\n\nFixes:\n- Fixed false positive already friends error message\n- Fixed melee weapons haptic feedback playing on wrong hand occasionally\n- Fixed Railgun impact effect, now showing properly\n- Fixed backup weapons list missing Neo SMG\n- Fixed a bug which made bots grab too many weapons at once\n\nKnown issues, we are already working on:\n- No crosshair on Judgement when joining an ongoing Instagib match and spawning with it the first time\n- Foveated rendering might not work on Meta Quest 1 which can lead to performance drops"
+            },
+            {
+                "version": "0.29",
+                "change_log": "Update 29 is the biggest update so far in the history of Grapple Tournament. We tried our best to squeeze in as many new features as we could possibly do, all of which you asked for.\n\nNew:\n- Game engine updated to Unreal Engine 4.27 under the hood\n- Added new game mode: Instagib\n  - A Deathmatch variant where players can instantly kill their opponents with the new weapon\n- Added new weapon: Judgement\n  - Instantly kills target on hit (primary fire)\n  - Can penetrate through multiple targets\n  - Hellish headshot damage\n- Added new map: Complex, in Alpha state\n  - Send us your feedback about it!\n- Added Winter decorations, Candy Cane melee weapon and festive hats\n- Added haptic feedback when damaging with melee weapons\n- Reworked ragdolls, now they work according to weapon power and impact direction\n- Minigun secondary shield breaks if suffered too much damage\n\nNew for Meta Quest versions:\n- 90 FPS enabled in the Meta Quest 2 version\n\nChanges:\n- Improved and extended all animations on all weapons\n- Improved Rocket projectile graphics\n- Minor rendering changes due to Unreal Engine update\n\nOptimizations:\n- Made a lot of graphical optimizations for the Meta Quest 2 version\n\nFixes:\n- Fixed false positive already friends error message\n- Fixed melee weapons haptic feedback playing on wrong hand occasionally\n- Fixed Railgun impact effect, now showing properly\n- Fixed backup weapons list missing Neo SMG\n- Fixed a bug which made bots grab too many weapons at once\n\nKnown issues, we are already working on:\n- No crosshair on Judgement when joining an ongoing Instagib match and spawning with it the first time\n- VR hand default pose is not correct on Meta Quest versions\n- Foveated rendering might not work on Meta Quest 1 which can lead to performance drops"
+            },
+            {
+                "version": "0.28",
+                "change_log": "Update 28\n\nUpdate 28 is here to elevate melee combat to the next level, based on your suggestions.\n\nNew:\n- Added Baseball Bat melee weapon\n- Added new Original Soundtrack for Zion\n- Added haptic feedback when damaging enemies with melee\n\nChanges:\n- Reworked Energy Blade graphics\n- Reworked Plasma Sword graphics\n- Bots move more (even easy ones)\n\nOptimizations:\n- Optimized loading of map images in Lobby\n\nFixes:\n- Fixed impact sounds when damaging enemies with melee\n- Fixed floating Control Point on Icebreaker which wasn't reachable by bots"
+            },
+            {
+                "version": "0.27",
+                "change_log": "Update 27\n\nThis update brings you quality of life improvements based on your feedback.\n\nNew:\n- Added a dummy in Practice Range to better understand the weapons' damage\n- Added new original soundtrack for Hydroponics\n\nChanges:\n- Icebreaker level design improved on your feedback\n\nOptimizations:\n- Optimized backend functionalities for a more robust multiplayer experience\n\nFixes:\n- Fixed some translation issues\n- Fixed some issues with player stats not saving correctly\n\nThis update may seem small but the reason behind it is that we are working on challenges under the hood which needs a lot of re-organizations and additions inside the code. The pretty parts come later."
+            },
+            {
+                "version": "0.26",
+                "change_log": "Update 26\n\nThis update brings a new map in pre-alpha state: Icebreaker!\nFeel free to send us your feedback on the map and help us shape it to your liking.\n\nNew:\n- Added Icebreaker map pre-alpha state\n- Added sneak peek in HUB for future features. Can you find it?\n\nChanges:\n- Easter decorations removed\n\nOptimizations:\n- Optimized crosshair materials\n\nFixes:\n- Fixed a rare case when all friends disappeared from the friend list\n- Fixed friends missing in the friend list when the player had too many friends\n- Fixed party invite screen loading indicator\n- Fixed some sounds not playing on the correct output\n- Fixed layout bugs on the player statistics UI\n- Fixed fog effecting crosshairs and some menus"
+            },
+            {
+                "version": "0.25",
+                "change_log": "Update 25\n\nHappy Easter, Champions!\n\nNew:\n- Added Player Statistics, measuring player performance in multiplayer games (kills, deaths, assists, weapon metrics and many more). Check out the summary in the HUB!\n- Added Easter decorations all over the game\n- Added brand new persistent soundtrack for Container\n- Added left handed functionality for using menus - press Trigger to change hand\n- Steam and Oculus friends sync to the ingame Friend List automatically\n\nChanges:\n- Container map received final level design and art touches\n- Online friends appear on the top in the Friend List\n\nOptimizations:\n- Optimized Energy Blade graphics\n\nFixes:\n- Fixed Oculus Quest Full version and Demo version profile synchronization, so you don't loose friends or stats when you switch between them\n- Fixed bot routes on Hydroponics\n- Fixed Music player ending tracks early\n- Fixed Mutant effect colors\n- Fixed some graphical glitches on Practice Range\n\nPlease note that the new systems required the rework of how friends connections are stored on Oculus, leading to the unfortunate side effect of friend connections that were added with friend codes getting deleted. We are sorry for any inconveniences from this."
+            },
+            {
+                "version": "0.24",
+                "change_log": "Update 24\n\nNew:\n- Container map reworked to better fit the game design\n- Added new customization items\n- Added player current health and shield values to the Spectator UI (PC VR only)\n\nOptimizations:\n- Optimized character and hands materials\n- Optimized weapon materials\n- Optimized grappling hook materials\n- Optimized background graphics on open maps to be higher resolution\n- Optimized performance during using the grappling hook and jumping on all maps\n\nFixes:\n- Fixed a lot of colliders on Spiral to prevent stucking while running on stairs\n- Fixed (re-added) a missing customization item\n- Fixed a UI bug on the Multiplayer panel\n- Fixed ambient sound on Rig not effected by volume settings"
+            },
+            {
+                "version": "0.23",
+                "change_log": "Happy new year, Champions!\n\nWe've started working on quality of life enhancements for Grapple Tournament so expect minor additions and performance improvements updates in the following months.\nWe've also started to rework the player progression system with lots of new unlockables coming soon.\n\nNew \n- Oculus friends synchronized in game (if both players logged in at least once)\n\nChanges\n- Winter decorations removed throughout the game"
+            },
+            {
+                "version": "0.21",
+                "change_log": "winter update"
+            },
+            {
+                "version": "0.21",
+                "change_log": "Update 22\n\n- Winter Holidays decorations on maps\n- Festive customization items\n- Santa's Blessings (Laser Beamer skin)\n- Snow Ball Pistol (Grenade Pistol skin)\n- Candy Cane melee weapon\n- Projectiles and explosions impulse settings fixed"
+            },
+            {
+                "version": "0.21",
+                "change_log": "Grapple Tournament App Lab release"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 39,
+        "rating": 4.487179,
+        "weighted_rating": 4.02,
+        "is_available": false,
+        "is_free": false
+    },
+    "errors": []
+}

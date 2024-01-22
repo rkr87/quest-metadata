@@ -1,0 +1,171 @@
+{
+    "data": {
+        "id": "5805597699554909",
+        "name": "Copter Strike VR",
+        "app_name": "Copter Strike VR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": null,
+        "release_date": "2023-03-29T00:00:00",
+        "description": "CopterStrike is a thrilling virtual reality game that immerses players in intense multiplayer helicopter battles in colorful, low poly and highly performant environments. With realistic controls and a complex HUD, players can pilot their choppers with precision as they engage in fast-paced dogfights. The low-poly environment provides a visually stunning backdrop for the action, with the added challenge of avoiding crashes and obstacles.\n\nIn CopterStrike, players have the ability to take out their enemies with a combination of turret control and rocket fire. The intense gameplay is made even more immersive with voice chat, allowing players to coordinate with their team and strategize in real-time. \n\nThe game features a variety of multiplayer game modes, including Football, Racing, Blast On (this game mode is a direct 1v1 or 1v1v1 round based match on a small map with boundaries) , deathmatch, team deathmatch, 3-team deathmatch, domination (capture the flag), 3-team domination and 2 Co-Op game modes: Zombie Outbreak and Desert Strike. The Co-Op game modes can be played solo as well!\n\nThe game also features 30 single player challenges with leaderboards! After the player completes those challenges with 3 stars each they will unlock a special bobble head item!\n\nWhether playing solo or with friends, CopterStrike is a must-play for fans of fun, action-packed virtual reality games.\n\nTo find our Discord or other social media visit the game's website at: https://copterstrikevr.com",
+        "markdown": false,
+        "developer": "Hyper Gamey",
+        "publisher": "Hyper Gamey",
+        "genres": [
+            "Shooting",
+            "Action",
+            "Flying"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User",
+            "Multiplayer",
+            "Co-op"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 1
+            },
+            {
+                "rating": 5,
+                "votes": 8
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Violence",
+                "Blood"
+            ],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://copterstrikevr.com/",
+        "app_images": {
+            "cover_landscape": "38974862_1261265114747471_8057980398313455505_n.png",
+            "cover_portrait": "38982688_750968166743354_7882224925123412472_n.png",
+            "cover_square": "75422377_1559257587877153_3183033518636132807_n.png",
+            "hero": "38982714_1650959052008811_940223423681635226_n.png",
+            "icon": "38982492_1295699630977229_121931986968240038_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39001677_594740035431533_7200940727750073831_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.80.5",
+                "change_log": "Copter Strike VR [1.80.5] [22-May-2023]\n\n-turns out there is a bug in the Unity's OpenXR package that makes touch controllers not work if we enable the support for Quest Pro controllers. Therefore we dropped support for Quest Pro controllers for now, prioritizing Touch Controllers. We apologise for the inconvenience and we are looking for a workaround."
+            },
+            {
+                "version": "1.80.4",
+                "change_log": "Copter Strike VR [1.80.4] [22-May-2023]\n\n-fixed an issue where Quest Pro controllers wouldn't track"
+            },
+            {
+                "version": "1.80.3",
+                "change_log": "Copter Strike VR [1.80.3] [18-May-2023]\n\n-hotfix to the Linked islands map final LOD being invisible at big distances."
+            },
+            {
+                "version": "1.80.2",
+                "change_log": "Copter Strike VR [1.80.2] [17-May-2023]\n\n-fixed an issue with the new game mode where the sentry guns wouldnt be in sync for all players\n-fixed an issue with the unique spawn system where if the clients connected before the master client the request of spawn would not work and players would remain stuck in the default camera position\n-reworked the LODs on Blast On maps to increase the detail and artifacts of the lower lods\n-did the same as above for Linked Islands map\n-due to this performance might suffer slightly on Quest 1 but the older LODs were looking too bad, unpleasant.\n-reworked our object pooling system to be ultra performant"
+            },
+            {
+                "version": "1.80.1",
+                "change_log": "Copter Strike VR [1.80.1] [16-May-2023]\n\n-quick hotfix on the new Desert Strike game mode. The spawns of the teammate revivals weren't placed correctly, some would be in unreachable places"
+            },
+            {
+                "version": "1.80.0",
+                "change_log": "Copter Strike VR [1.80.0] [16-May-2023]\n\n-added a new desert environment map. It was originally designed for a new game mode only but it was set up for the multiplayer ones as well (well except football)\n-added a new cosmetic setting that allows the player to change their helicopter exterior skin to a digital camo skin (the colors of the teams will remain the same, red green and blue, but there will be a camo pattern on the helicopter)\n-added a new cosmetic setting that allows the player to change the color of some objects from the helicopter cockpit\n-added a new cosmetic setting that allows the player to change the texture pattern of some objects from the helicopter cockpit \n-added a new game mode, Desert Strike, where the players have to destroy the defense AA sentry guns of the 4 bases present on the map. There are 4 difficulties: doable, maybe doable, nuts and insanely nuts. Depending on each there will be more or less sentry guns spawned in each base. The spawn points of the sentry guns are random for each game so that it doesn't feel too repetitive. Each time a sentry gun is destroyed a heal pickup will spawn in its place, allowing the player to restore their health points. Each time a player dies a revive pickup will spawn in the base that was closest to that player. In short, in order to revive your teammate you'd have to destroy all the defense of that base and then pick up the revive pickup. This game mode comes bearing gifts as well. The players who successfully fcomplete the mission on 'insanely nuts' difficulty will unlock the 3 new cosmetic settings mentioned above.\n-fixed an issue with the altitude limit which made the helicopter pop down too fast if it reached the max altitude. Now the altitude limit should be smooth. It is also bigger now, 140 meters above the ground.\n-added map voting screen to Co-Op game modes, so that there is continuity and the players don't have to go to main menu and recreate a lobby after a game\n-made the helicopter sticks hitboxes larger so that they can be grabbed easier\n-various code optimizations\n-various bug fixes"
+            },
+            {
+                "version": "1.20.1",
+                "change_log": "Copter Strike VR [1.20.1] [30-apr-2023]\n\n-hotfix to the challenges leaderboards not working as intended\n-cleared all database entries because of the above reason\n-we apologise for our mistake and hope you won't be too pissed if you don't find your score anymore. The leaderboard should be stable now, you're free to clear them all!\n-added separate label for Steam or Meta players in the leaderboards\n-various more challenges fixes"
+            },
+            {
+                "version": "1.20.0",
+                "change_log": "Copter Strike VR [1.20.0] [28-apr-2023]\n\n-added a new single player mode: Challenges - Part 1. There you can find 30 challenges (part 2 coming soon) that you can complete. Those challenges have individual leaderboards with each player who completed them, their time and stars. The stars are determined by the total amount of time took to complete the challenge relative to the star times\n-added a cosmetic doll charm system. For now there is only one doll and it will unlock and could be used as a cosmetic item in the helicopter cockpit after completing the 'Challenges - Part 1' with 3 stars for each challenge. After unlocking you can equip it by going to Options>Cosmetics\n-various bug fixes and performance improvements\n-various visual artifacts fixes"
+            },
+            {
+                "version": "1.10.4",
+                "change_log": "Copter Strike VR [1.10.4] [13-apr-2023]\n\n-added a \"Game Modes Explained\" menu in home screen. In this menu you can find information on how each game mode should be played\n-fixed an issue with the helicopter stopping between rounds time, the main game mode stage was different to some game modes, therefore at the end of some game modes the helicopter wouldn't stop\n-fixed an issue that was bothering us for a long time, where the camera would be in slight different positions on Y axis between Steam and Standalone. Now they should be exactly the same for both platforms\n-various more bug fixes"
+            },
+            {
+                "version": "1.10.3",
+                "change_log": "Copter Strike VR [1.10.3] [11-apr-2023]\n\n-added shooting mode option in the football hosting menu. Similar to racing players can now pick if they want no shooting, rockets only or both rocket and turret shooting in a football match\n-made the helicopter stop as soon as a round ends, this will avoid unwanted deaths by environment in the between rounds time"
+            },
+            {
+                "version": "1.10.2",
+                "change_log": "Copter Strike VR [1.10.2] [08-apr-2023]\n\n-quick hotfix of some spawns being too low and making the helicopter spawn in the ground, making it impossible to lift off in Pixel Metropolis map"
+            },
+            {
+                "version": "1.10.1",
+                "change_log": "Copter Strike VR [1.10.1] [08-apr-2023]\n\n-repositioned the spawns in Football so that the ball would not be shootable immediately after the round start because it could result in an instant goal and that is not really fun\n-fixed an issue where spectating wouldnt work in Blast On and Football\n-fixed an issue where Stadium2 map would have a missing collider on an object and the ball could go through it\n-added a highlight mesh and text that would turn on when someone scored a goal in football\n-fixed an issue where the scoreboard type would be a racing scoreboard in football game mode\n-fixed an issue in football where the force added to the ball would be 0 on Y axis. Now it's even more fun to shoot the ball!\n-reworked the pre-round time to 10 seconds instead of 30"
+            },
+            {
+                "version": "1.10.0",
+                "change_log": "Copter Strike VR [1.00.5] [06-apr-2023]\n\n-added a new game mode - Heli Football - this game mode turned out to be funner than expected. Let us know what you think! The game mode is similar to Rocket League but you shoot or rocket the ball on the field. You can push it with your helicopter directly too. One match lasts 5 minutes and if the score is tied then an extra round will start where first goal scorer team wins.\n-added a debug text in Region menu with the count of players in the currently connected region\n-various performance optimizations for the standalone version\n-fixed an issue where if 2 helis would crash into each other only one would die, now both will die\n-various more bug fixes"
+            },
+            {
+                "version": "1.00.5",
+                "change_log": "Copter Strike VR [1.00.5] [06-apr-2023]\n\n-added a new game mode - Heli Football - this game mode turned out to be funner than expected. Let us know what you think! The game mode is similar to Rocket League but you shoot or rocket the ball on the field. You can push it with your helicopter directly too. One match lasts 5 minutes and if the score is tied then an extra round will start where first goal scorer team wins.\n-added a debug text in Region menu with the count of players in the currently connected region\n-various performance optimizations for the standalone version\n-fixed an issue where if 2 helis would crash into each other only one would die, now both will die\n-various more bug fixes"
+            },
+            {
+                "version": "1.00.4",
+                "change_log": "Copter Strike VR [1.00.4] [04-apr-2023]\n\n-added a new game mode - Blast On - this game mode is a direct 1v1 or 1v1v1 fight on small stylized hexagonal tiled maps. This game mode is round based, so if you're playing let's say 1v1 and you kill the enemy then you win the round, and another round will start after. The round limit for winning the game is 5.\n-made a night version of Blast On maps too\n-added light effects on rockets. This can be turned off from Options>Graphics\n-added a light effect on rocket explosions. This can be turned off from Options>Graphics\n-added a light effect on turret firing muzzle flash. This can be turned off from Options>Graphics\n-fixed an options menu issue where not all available options would show for the Quest standalone builds"
+            },
+            {
+                "version": "1.00.3",
+                "change_log": "Copter Strike VR [1.00.3] [30-mar-2023]\n\n-quick hotfix for a game-breaking options menu issue that made it unusable at all"
+            },
+            {
+                "version": "1.00.2",
+                "change_log": "Changelog is in-game"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 10,
+        "rating": 4.5,
+        "weighted_rating": 3.9,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

@@ -1,0 +1,153 @@
+{
+    "data": {
+        "id": "5105468496138399",
+        "name": "Be Your Best",
+        "app_name": "Be Your Best",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2022-03-09T00:00:00",
+        "description": "With access to hundreds of moments from professional games, you take to the virtual pitch, putting yourself in the boots of one 11 aside player. Scan the pitch at the right moments, make the correct passing decisions, and react to regular awareness tests, as you work to improve your vision by replicating situations from real games.\n\nWhether you're looking to fit in more training hours from home, stay sharp when injured, or gain an advantage going into your next game, Be Your Best is designed for all players, both professional and amateur.\n\nBe Your Best is a professional training tool and not a game. Improving your performance takes consistent practice and dedication over time.",
+        "markdown": false,
+        "developer": "Be Your Best",
+        "publisher": "Be Your Best",
+        "genres": [
+            "Educational",
+            "Simulation",
+            "Sports"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 22
+            },
+            {
+                "rating": 2,
+                "votes": 8
+            },
+            {
+                "rating": 3,
+                "votes": 3
+            },
+            {
+                "rating": 4,
+                "votes": 10
+            },
+            {
+                "rating": 5,
+                "votes": 27
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.beyourbest.com/",
+        "app_images": {
+            "cover_landscape": "86659800_2360528820753806_2483820611200404227_n.png",
+            "cover_portrait": "75375085_1141172889989446_6031738189080926519_n.png",
+            "cover_square": "75363512_1094035928052298_323250636796771795_n.png",
+            "hero": "75395590_1016023605979802_4453447028356295710_n.png",
+            "icon": "75207238_643968773485135_2786136241840257510_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75542960_619873362410957_8865805999066214505_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.10.5",
+                "change_log": "Reduced instances where Matchplay would run at rapidly accelerated speeds."
+            },
+            {
+                "version": "2.8.24",
+                "change_log": "Added ability to pause experience and exit to main menu by pressing the menu button on the left controller\nAdded ability to retry when network requests failed\nFixed an issue where setting the Meta OS to certain languages would affect the in app keyboard character options"
+            },
+            {
+                "version": "2.10.4",
+                "change_log": "Fixed an issue in Matchplay where goals were not being registered\nFixed an issue in Matchplay where no critical scans were being registered\nFixed an issue in Matchplay where no kicking sounds were playing\nFixed an issue where no sound would play in game after watching videos in bootcamp\nChanged default gender to male for new users\nImproved performance of app\nImproved page transition animations in UI"
+            },
+            {
+                "version": "2.10.3",
+                "change_log": "Updated Career screen to more clearly show score targets and league progress\nUpdated Bootcamp to show instructional videos\nImproved the speed of the BYBPRO mobile app\nFixed an issue in Matchplay where your selected field position did not match your position during play\nFixed an issue where Matchplay sessions would run at extremely fast speeds\nFixed an issue where Matchplay sessions could run indefinitely if the player did not act\nAdjusted how transitions occur between set pieces in Matchplay to reduce visual glitches\nAdded new music tracks to the menu experience"
+            },
+            {
+                "version": "2.10.2",
+                "change_log": "Fixed a rare instance in scenario training where the ball would be not be received by players and be ignored for the remainder of the scenario\nFixed floating white jersey numbers appearing near the player after completing awareness tests\nFixed an issue where replays would not be available for viewing immediately after Matchplay sessions"
+            },
+            {
+                "version": "2.10.1",
+                "change_log": "The Activity history section has been updated in the VR experience. You can now browse your training history in a similar way to the mobile app, including watching replays from past sessions.\n\nFixed an issue where some training sessions were not contributing to career promotion.\n\nFixed an issue where the ball would collide incorrectly with the goals in scenario training, preventing scoring.\n\nUpdated the post-training results screen to match how results are displayed in the activity history.\n\nUpdated activity history to show match play sessions as distinct from practice sessions.\n\nFixed an issue where match play sessions showed as having rating rewards when they did not."
+            },
+            {
+                "version": "2.10.0",
+                "change_log": "Replays are now saved to your profile and can be watched later, either in VR or in the mobile app\nAdded *Scan Rate*, *Scan Timing* and *Critical Scan* measurements to Matchplay\nMatchplay sessions are now recorded as replays\nRemoved requirement for a training session to be fully completed in order for results to be recorded in training history"
+            },
+            {
+                "version": "2.9.8",
+                "change_log": "Added the ability perform a pass into space (through pass) in Matchplay.\nIncreased the spread of the players over the field in Matchplay.\nIncreased the width of wingers when attacking in Matchplay.\nMade defenders press up the field further when attacking in Matchplay.\nMade defenders pressure the player on the ball more aggressively in Matchplay.\nIncreased the amount of passing happening during play in Matchplay.\nAdjusted the controls in Matchplay so that tackle (previously A button) and request ball (previously B button) are on the right grip button."
+            },
+            {
+                "version": "2.9.6",
+                "change_log": "Fixed players not being positioned correctly in replays\nFixed inability to fly around in replay mode\nFixed grid overlay graphic appearing in replay mode\nFixed app lagging when playing a new scenario set after quitting a previous set\nFixed aiming line not appearing in scenarios when shooting\nFixed control hint for sprint action not appearing in Matchplay"
+            },
+            {
+                "version": "2.8.25",
+                "change_log": "Added an aiming line when holding down the shoot button\nFixed issues causing increased network traffic"
+            },
+            {
+                "version": "2.8.23",
+                "change_log": "Added ability to pause experience and exit to main menu by pressing the menu button on the left controller\n\nAdded ability to retry when network requests failed\n\nFixed an issue where setting the Meta OS to certain languages would affect the in app keyboard character options"
+            },
+            {
+                "version": "2.8.21",
+                "change_log": "Fixed an issue where having the headset set to some non-English languages would destabilise the experience"
+            },
+            {
+                "version": "2.8.20",
+                "change_log": "New Features\n- Changed the presentation of performance stats throughout the experience. Stats now have more information about what they are, how they are measured, what exactly you scored and tips on how you can improve your results \n- Added critical scan as a stat to the scoring system \n- Added visual and auditory feedback for when a critical scan is performed during play\n- Made the controllers match your team colour in the training experience\n- Added a new local club pitch environment in a daytime setting\n- Updated large stadium pitch environment with a new look\n- Upgraded the lighting on characters and environments\n- Added new music tracks to the menus\n\nFixes\n- Fixed the UI locking to your head movements when transitioning from the main menu into the training experience\n- Fixed the curtain sometimes not appearing when transitioning from the training experience to the main menu\n- Fixed the peripheral vignette not appearing during awareness tests"
+            },
+            {
+                "version": "2.7.25",
+                "change_log": "- Fixed an issue where app would sometimes freeze during awareness tests\n- Changed awareness tests so laser pointer is visible regardless of where you are aiming to make aiming easier\n- Fixed issue where non-goalkeeper characters could appear as goalkeeper and visa-versa\n- Fixed an issue where pointers would remain floating in the air when switching out of app to the Meta menu\n- Fixed an issue where goal keeper gloves would be visible while playing as the goal keeper\n- Fixed an issue where playback speeds shown in the UI in replay mode were inaccurate"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 70,
+        "rating": 3.171429,
+        "weighted_rating": 3.58,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

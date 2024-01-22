@@ -1,0 +1,176 @@
+{
+    "data": {
+        "id": "1075078902529655",
+        "name": "The Dream Dimension",
+        "app_name": "The Dream Dimension",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2016-09-27T00:00:00",
+        "description": "The Dream Dimension is an immersive exploration game where you enter various dream worlds and collect dream shards. Collecting dream shards will open up new worlds to explore. There are 16 unique dream worlds and 50 dream shards. Discover magical ruins, alien structures, fantasy villages, giant mushrooms, underwater treasure, and much more! The Dream Dimension is not about the destination but the journey. Take your time and enjoy the environments.\n\nThe Dream Dimension supports all input devices. Free movement is the main method of traveling, but if you are more prone to motion sickness there is teleport movement as well.",
+        "markdown": false,
+        "developer": "Infigment Studios",
+        "publisher": "Infigment Studios",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Exploration"
+        ],
+        "devices": [
+            "Gamepad",
+            "Touchpad",
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 51
+            },
+            {
+                "rating": 2,
+                "votes": 29
+            },
+            {
+                "rating": 3,
+                "votes": 49
+            },
+            {
+                "rating": 4,
+                "votes": 82
+            },
+            {
+                "rating": 5,
+                "votes": 205
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://infigmentstudios.com/",
+        "app_images": {
+            "cover_landscape": "12602076_1170007866390107_319051188_n.png",
+            "cover_portrait": "12386283_1223382037712912_1062187030_n.png",
+            "cover_square": "12386283_1553662524942681_557850047_n.png",
+            "hero": "12602333_1082599205166244_1498169543_n.png",
+            "icon": "12727796_1071183989642930_63218058_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "12602110_1141249429231948_518973945_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.03",
+                "change_log": "-Can now rotate with motion controller by pressing on sides."
+            },
+            {
+                "version": "2.02",
+                "change_log": "-Option for tap to move instead of swipe\r\n-Option to hide motion controller\r\n-Added chairs to night village dream\r\n-Added ambient sounds to some dreams\r\n-Bug fixes"
+            },
+            {
+                "version": "2.01",
+                "change_log": "-Fixed bug in night village dream"
+            },
+            {
+                "version": "2.0",
+                "change_log": "-4 new dream worlds\n-expanded and improved existing dream worlds -new hub world design\n-performance improvements -removed the ability to pick up objects\n-many bug fixes\n-new graphics options in the main menu as well as ability to delete data\n"
+            },
+            {
+                "version": "1.14",
+                "change_log": "-Added new motion controller support\r\n-Single Pass rendering enabled for devices that support it\r\n-Requires OpenGLES3\r\n-Performance improvements\r\n-Lighting improvements\r\n-Can now move to SD card\r\n-Removed AA toggle (2x always on)\r\n-Fixed movement issues\r\n-Added reticle in main menu\r\n-Removed water in hub world\r\n-Spec maps added in town dream\r\n-Changed texture compression to ASTC\r\n-Bug Fixes"
+            },
+            {
+                "version": "1.13",
+                "change_log": "New space dream world\r\nBug fixes"
+            },
+            {
+                "version": "1.12",
+                "change_log": "New alien planet dream world\r\nBug Fixes"
+            },
+            {
+                "version": "1.11",
+                "change_log": "New spooky dream world to celebrate Halloween!\r\nBug Fixes"
+            },
+            {
+                "version": "1.1",
+                "change_log": "Changed textures for the castle in the snow dream world\r\nPossible fix for users experiencing crash on startup\r\nBug fixes"
+            },
+            {
+                "version": "1.09",
+                "change_log": "Added a new dream world\r\nAdded a ladder in the lighthouse\r\nSlightly increased movement speed\r\nAdded the option to toggle auto speed up\r\nBug fixes"
+            },
+            {
+                "version": "1.08",
+                "change_log": "Lowered footstep volume\r\nMore informative teleporter text\r\nChanged how swipes are handled to hopefully fix touchpad issues\r\nChanged loading visuals\r\nAdded sprinting"
+            },
+            {
+                "version": "1.07",
+                "change_log": "Added snap rotation for gamepads\r\nImproved touchpad swipe responsiveness\r\nBug fixes"
+            },
+            {
+                "version": "1.06",
+                "change_log": "Bug fixes\r\nWorld optimizations\r\nLightmap improvements\r\nVarious additions\r\nYou can now walk on the water in the magic island dream\r\nChanged robot dream for performance reasons"
+            },
+            {
+                "version": "1.05",
+                "change_log": "When you walk for 5 seconds, you now start to run\r\nPerformance improvements\r\nMinor bug fixes"
+            },
+            {
+                "version": "1.04",
+                "change_log": "Minor bug fixes"
+            },
+            {
+                "version": "1.03",
+                "change_log": "Minor bug fixes"
+            },
+            {
+                "version": "1.02",
+                "change_log": "⦁\tAdded two checks to make sure app closes properly ⦁ Major build size reduction\r\n⦁\tImproved textures in ocean dream\r\n⦁\tImproved movement no longer causes jitter on collisions\r\n⦁\tBug fixes\r\n⦁\tMinor Performance Improvements"
+            },
+            {
+                "version": "1.01",
+                "change_log": "⦁Animated interaction text\r\n\r\n\r\n⦁\tInteractions are now single click instead of double click\r\n\r\n⦁\tMade teleport fade faster\r\n⦁\timproved hub world\r\n⦁\tDisable Anti-Aliasing by default and made it a toggle in the menu\r\n⦁\tImproved lightmaps on some levels\r\n⦁\tBug fixes"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
+        "keywords": [
+            "dream",
+            "explore",
+            "adventure",
+            "immersive",
+            "experience"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 416,
+        "rating": 3.867788,
+        "weighted_rating": 3.86,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

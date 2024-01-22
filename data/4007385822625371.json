@@ -1,0 +1,111 @@
+{
+    "data": {
+        "id": "4007385822625371",
+        "name": "Fencer - Demo",
+        "app_name": "Fencer - Demo",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-07-16T00:00:00",
+        "description": "This is a DEMO including two exercise\n\nVR Fencing Trainer Combines a Virtual or Real Eppie Rapier and Saber with Virtual Exercises\n\nA game complex of exercises aimed at reaction and attention. The athlete learns and practice to attack and defend with sets of challenges.\n\nMuscle memory and motor skills are formed through practice and repetition of exercises in VR with a real or virtual blade\n",
+        "markdown": false,
+        "developer": "Boxglass XR",
+        "publisher": "Boxglass",
+        "genres": [
+            "Sports"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "French (France)",
+            "German",
+            "Russian",
+            "Spanish (Argentina)"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 54
+            },
+            {
+                "rating": 2,
+                "votes": 6
+            },
+            {
+                "rating": 3,
+                "votes": 4
+            },
+            {
+                "rating": 4,
+                "votes": 1
+            },
+            {
+                "rating": 5,
+                "votes": 11
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://fencervr.com/",
+        "app_images": {
+            "cover_landscape": "38974892_395941538029914_793971928582319044_n.png",
+            "cover_portrait": "38982695_272551007768395_3805181916675274469_n.png",
+            "cover_square": "75222943_365350911228072_7332253437010868839_n.png",
+            "hero": "75222943_512039210184119_1595102307282439260_n.png",
+            "icon": "75250458_1372837493094351_1766311612340591613_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39031489_240170197810802_1667165566498342766_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "5",
+                "change_log": "General changes (major):\n\n Updated shader system.\n\n Added new player weapon behavior - physical\n\n Redesigned mannequins and their physical models (used in 4 workouts)\n\n The physics in the project has been changed, all workouts have been optimized for the new physics\n\n Changed the behavior of physical buttons, removed a critical bug\n\n Created a new control - slider\n\n An external tool for creating and editing rhythm training maps has been created\n\n A flexible system for loading cards for rhythm training has been created.\n\n Added many new animations\n\n  \n\n  General changes (minor):\n\n New lighting\n\n Redesigned records storage system\n\n Added new add-ons over the UI (scrolling titles, changed progress bars and other small UX)\n\n Added popups when hitting points.\n\n Many workouts have new UIs that inform the user about accuracy, speed, etc.\n\n Added the ability to move elements in some workouts\n\n  \n\n  Workout updates:\n\n     -Target\n\n Changed (rewritten from scratch) difficulty system\n\n Changed (rewritten from scratch) scoring and hit registration system\n\n Changes in the gameplay and difficulty system of this workout.\n\n Added the ability to adjust the position of the target by the player\n  \n        \n\n     -Protection 6\n\n Fixed critical lag at work\n\n Changes in the leaderboard storage system in this particular workout\n \n    \n\n     -Mannequin (favero)\n\n Changed (rewritten from scratch) scoring system\n\n Gameplay changes in training (no timer now + other minor changes)\n\n Added the ability to adjust the height of the target to the player\n\n  \n\n  -Animations\n\n  Added workout\n\n  Added a new entity - points on the mannequin and areas on the blade\n\n  Added new timer\n\n          \n\n  -Fight with trainer:\n\n  AI base skeleton created\n\n  A system for predicting player strikes has been created\n\n  A system has been created that determines the possibility of an attack (currently not implemented)\n\n  A flexible system for moving and keeping a distance has been created\n\n  Created preliminary movement and dodge animations\n\n  \n\n  -Fruit Ninja\n\n  Created tracks and maps for them\n\n  Changed (rewritten from scratch) spawn system\n\n  Changed (rewritten from scratch) difficulty system\n\n  Changed (rewritten from scratch) scoring system\n\n  Added a system that tells the player in advance where the target will be (light cones with procedural animation, volumetrics).\n\n  Changed (rewritten from scratch) the code of cannons that shoot fruit. Now the system calculates the speed for a shot to a certain height indicated in the map.\n\n      \n\n     -Bit Saber:\n\n  Created tracks and maps for them\n\n  Changed (rewritten from scratch) difficulty system\n\n  Changed (rewritten from scratch) scoring system\n\n  Created track selection system with new UI"
+            },
+            {
+                "version": "4",
+                "change_log": "New:\n-New mannequin model\n-Updated mannequin train, every weapon now have custom points set\n-Added fun weapon trail\n-New balls models in balls train\n-Updated to new shaders with more features and optimisation\n-Train system updated to handle more trains with unique challenges\n\nFixed:\n-Balls train points calculation \n-Mannequin feet positions\n-changes to privacy policy."
+            },
+            {
+                "version": "3",
+                "change_log": "New: \n-added Spanish\n-included 90Hz \n-MSAA x4 anti-aliasing enabled \n-Resolution raised to 1440x1584  \n\nFixes:\n-fixed German language \n-fixed switching of the epee attachment in the settings\n-fixed left-handed mode\n-fixed the sky outside the window \n-fixed the controllers in the menu"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 76,
+        "rating": 1.802632,
+        "weighted_rating": 3.0,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

@@ -1,0 +1,151 @@
+{
+    "data": {
+        "id": "3899112273551602",
+        "name": "ShapesXR",
+        "app_name": "ShapesXR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2021-11-11T00:00:00",
+        "description": "ShapesXR is a design and collaboration platform for remote teams.\n\"Best Collaboration Tool\" Auggie Award, Augmented World Expo 2021.\n\n“ShapesXR Revolutionizes XR Development” - Forbes.\n\nIn ShapesXR anybody can start creating in 3D without prior experience within minutes. You can design and prototype your immersive app, invite others to co-create in real-time, or present your ideas using ShapesXR storyboard feature. You can also share your creation with anybody without a VR headset via Web, the Unity plugin or just a picture for your 2D deck.\n\nShapesXR has powerful MR creation capabilities that especially shine on Meta Quest Pro. It supports avatars with eye and mouth tracking for an enhanced social presence, full-color passthrough for higher fidelity UI and UX design in MR, and Stylus controllers for commenting and quick sketching.\n\nShapesXR allows product owners, business leaders, and designers to finally start thinking and creating spatially together for the future of VR, AR and MR. ",
+        "markdown": false,
+        "developer": "Shapes Corp.",
+        "publisher": "Shapes Corp.",
+        "genres": [
+            "Productivity",
+            "Utilities",
+            "Creativity & Design"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Multiplayer",
+            "Single User",
+            "Co-op"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "MR",
+            "Building",
+            "App Lab Graduates",
+            "Mixed Reality",
+            "Passthrough",
+            "Meta Quest Pro Launch"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 39
+            },
+            {
+                "rating": 2,
+                "votes": 3
+            },
+            {
+                "rating": 3,
+                "votes": 12
+            },
+            {
+                "rating": 4,
+                "votes": 22
+            },
+            {
+                "rating": 5,
+                "votes": 191
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.shapesxr.com/",
+        "app_images": {
+            "cover_landscape": "39031340_139765208333700_6069953893731105299_n.png",
+            "cover_portrait": "57575363_719774565646594_7688727300111327906_n.png",
+            "cover_square": "39031414_303646808004162_2141896500285323139_n.png",
+            "hero": "75375748_530001648212859_7042632999550169650_n.png",
+            "icon": "38974862_278635587496067_6633953956005556609_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.3.5.9445",
+                "change_log": "Improvements:\n-Improved text display for the Scale Gizmo (now shows scale instead of size).\n-Implemented axis line display on the gizmo handle when touched.\n-Enhanced switching between the surface snapping and world snapping buttons.\n-Added additional import resolution UI options: 0.33, 0.25, 0.1.\n-Implemented extra authentication protection during device pauses.\n-Enabled shadows by default in new spaces.\n\nFixes:\n-Fixed the issue where the \"Increase Quality\" button was on by default for new spaces.\n-Resolved the issue preventing device pairing when the time is set manually.\n-Corrected the malfunction of shadows in Play mode.\n-Fixed several errors occurring during Play mode with interactivity.\n-Resolved incorrect offset in Play mode when content aligns with user space.\n-Fixed the issue where pop-up forms were not interactable in Play mode.\n-Renamed the template for clarity.\n-Improved user authentication analytics processing and transmission.\n-Fixed the issue where the previously selected tool stops working after exiting Play mode.\n-Addressed a specific error occurring during Play mode with interactivity."
+            },
+            {
+                "version": "2.3.4.9441",
+                "change_log": "2.3.3.9328 -> 2.3.4.9441\nImprovements:\n-Attach to hand MVP\n-A core logic support and implementation for the contexed microphone access activation\n-Sign-in flow improvements and fixes\n\nFixes:\n-Fixed when the app is closed after grabbing a missing asset\n-Fixed when there wasn’t a message in gaze&pinch mode if hand tracking was off\n-Fixed incorrect interactivity options are displayed when another user switches the input mode\n-Fixed when interactivity works only on the stage in which Play mode is running\n-Fixed a bug where the non-dominant hand pointer does not work in Play mode\n-Added removal of user info from cache after logging out"
+            },
+            {
+                "version": "2.3.3.9328",
+                "change_log": "2.3.2.9012 -> 2.3.3.9328\n-Fixed when snapping to objects orbs doesn't work in some cases\n-Fixed when the viewpoint's head is shown while creating a new space\n-Fixed figma import: sync button disappears and preview image breaks\n-Fixed when resource cleanup does not work when changing spaces on low memory\n-Figma assets and PNG come in with 99% opacity\n-IMG with transparency renders incorrectly in AR mode (headset sim mode)\n-Improved settings for shadows\n-Fixed undo/redo icons rotation\n-Fixed lock/unlock for groups\n-Added dialog window disappearance after pressing trigger outside of the dialog\n-Fixed when some avatar names disappear and related holonote recording issues\n-Additional log system for detecting issues\n-Fixed freezes when the mic is turned off from system settings"
+            },
+            {
+                "version": "2.3.2.9012",
+                "change_log": "2.3.1.8959-2.3.2.9012\nThe scale doesn't work after resetting walls and installing dollhouse\nFixed when teleportation and rotation is not precise\nMR UI improvements\nAdd the copy/paste feature to the plans list on the VR side\nSet unlimited space creation option for Team plan\nThe copy icon is displayed when creating a stage"
+            },
+            {
+                "version": "2.3.1.8959",
+                "change_log": "2.3.0.8954-2.3.1.8959\n- Fixed the issue where grabbing with an activated teleport or eyedropper broke the asset panel.\n- Scaling now works after resetting walls and installing the dollhouse model.\n- Added logic for switching avatar skins in a room while the anchor is shared.\n- Corrected the incorrect count of spaces in the text in the window with examples.\n- Disabled sounds for avatars that are in the local room in Shared Anchors.\n- The window for comment spaces now works correctly.\n- The number of spaces displayed when loading a new space is now calculated correctly (Studio plan).\n- Added an \"X\" button to the examples window when creating a new space.\n- Fixed brush stroke offset in MR (Mixed Reality) mode.\n- Corrected incorrect sample names.\n- Fixed issues with text creation in 1:1 mode, including offset and strange behavior."
+            },
+            {
+                "version": "2.2.0.8599",
+                "change_log": "Improvements:\n-Self-service trial for Studio license\n-Vulkan support / Optimizations\n-Color picking from images\n-Added possibility to logout/unpair a device\n-Cancel Quest 1 support\n-Plans window improvements\n\nFixes:\n-Fixed some issues with snapping to object orbs\n-Fixed the closest object detection while snapping to a surface\n-Fixed when the floor grid interrupts using the menu\n-Fixed highlighting of selected objects added by a commentator\n-Fixed when eyedropper doesn't get material from an object added by a user with comment permission\n-Fixed when the commenter cannot edit his text\n-Fixed a bug in MR after a pause and loss of internet"
+            },
+            {
+                "version": "2.2.0.8598",
+                "change_log": "Improvements:\n-Self-service trial for Studio license\n-Vulkan support / Optimizations\n-Color picking from images\n-Added possibility to logout/unpair a device\n-Cancel Quest 1 support\n-Plans window improvements\n\nFixes:\n-Fixed some issues with snapping to object orbs\n-Fixed the closest object detection while snapping to a surface\n-Fixed when the floor grid interrupts using the menu\n-Fixed highlighting of selected objects added by a commentator\n-Fixed when eyedropper doesn't get material from an object added by a user with comment permission\n-Fixed when the commenter cannot edit his text\n-Fixed a bug in MR after a pause and loss of internet"
+            },
+            {
+                "version": "2.1.3.8399",
+                "change_log": "Improvements:\n-Color tool v2.1 swatches\n-Saving the current input mode as a part of a space settings (interactivity)\n-Added the ability to customize the hover effect in the input mode panel  (interactivity)\n-Gaze & Pinch interactivity polishing in general\n-Expand max Holonotes length to 5 mins\n\nFixes:\n-Exception with interactivity panel after putting down the controllers\n-Grabbing with activated teleport or eyedropper breaks the asset panel\n-Added color tool into 1:1 mode\n-Holonotes avatar freezes when switching stages\n-Holonote avatar hung on stage after copying a stage\n-Fixed problems with snapping when you create or change text\n-Fixed numerous exceptions"
+            },
+            {
+                "version": "2.1.2.8334",
+                "change_log": "IMPROVEMENTS\nAdded hover effect feedback on controller input\nAdded buttons highlighting Quest Pro controllers\nPlans window scrolling improvements\nBUG FIXES\nFixed some exceptions with opened presentation panel, viewpoints, and undo-redo\nFixed when changing permissions via sharing menu in the lobby doesn't work\nFixed when holonotes avatar is not hidden when the Holonotes menu is closed\nSome minor fixes for the same page mode\nFixes for spaces submenu options\nFixes for interactive onboarding"
+            }
+        ],
+        "keywords": [
+            "design",
+            "collaboration",
+            "prototyping",
+            "storytelling",
+            "productivity"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 267,
+        "rating": 4.209738,
+        "weighted_rating": 4.11,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

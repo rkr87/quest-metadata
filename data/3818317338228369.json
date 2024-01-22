@@ -1,0 +1,155 @@
+{
+    "data": {
+        "id": "3818317338228369",
+        "name": "Goalienator",
+        "app_name": "Goalienator",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2021-04-08T00:00:00",
+        "description": "Train your reaction skills in multiple game modes and tweaks training settings to fit your skill level. Prove your skills by competing in leaderboards. Do you have what it takes to be number #1 goalienator in virtual reality?\n\nGAME FEATURES\n- Game modes similiar to hockey and other casual sport-like activities (*)\n- Keep track of your goaltender progress (shots against, total saves, glove saves, blocker saves etc.)\n- Training mode with unique gameplay elements and options to tweak\n- Challenge mode, challenge other players in leaderboard rankings and collect achievements\n- Customize color of your catcher glove, blocker and goalie stick\n\n* Goalienator is not designed to be realistic sport simulator, but casual goaltending game with familiar elements from different sports",
+        "markdown": false,
+        "developer": "RunByCoffee",
+        "publisher": "RunByCoffee",
+        "genres": [
+            "Sports"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 2
+            },
+            {
+                "rating": 3,
+                "votes": 5
+            },
+            {
+                "rating": 4,
+                "votes": 16
+            },
+            {
+                "rating": 5,
+                "votes": 65
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://goalienator.com/",
+        "app_images": {
+            "cover_landscape": "39035399_243094903949130_9040021005750560236_n.png",
+            "cover_portrait": "39031354_500225307627717_3590984305133630355_n.png",
+            "cover_square": "39031315_320794692703622_5904621866476901343_n.png",
+            "hero": "38982464_429206864867040_8308608560920516415_n.png",
+            "icon": "38982678_220777919700374_6867124085392180630_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982488_809135406620212_8586605239516056054_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "0.9.16",
+                "change_log": "0.9.16.1\n\n- Removal of cloud data save code\n- Team page updates"
+            },
+            {
+                "version": "0.9.15.4",
+                "change_log": "- Fixed stick rotation, glove rotation and blocker position options not working.\n- Small updates to shooting directions related to low shots\n- Added \"Loading\" indicator to leaderboard UI when refreshing results\n- Small UI text tweaks.\n\n- You must have over 250 Goalie Points before you can create own team.\n- Removed all teams with less than 350 points (considered as inactive)\n- Opening \"Teams\" section will first show \"Join Team\" page instead \"Create Team\".\n- \"Top Team\" leaderboard now refreshes 30 minutes instead on-demand."
+            },
+            {
+                "version": "0.9.15.3",
+                "change_log": "- Updated Teams page layout\n- Added 20 new words for team creation (10x2)\n- Fixed \"join a team\" page not loading\n- Fixed soccer ball not playing collision sound when colliding with hands"
+            },
+            {
+                "version": "0.9.15.2",
+                "change_log": "- Added teams feature and teams leaderboard\n- Added new \"Futsal Cannon\" game mode and related leaderboard\n- Redesigned \"Goalie Stats\" section layout\n- Redesigned \"options\" section layout including new options to play around\n- Changed glove catching feature (puck/ball no longer bounces off in certain game modes)\n- Fixed home screen not updating \"Goaltender Stats\" in real-time.\n- General fixes and improvements"
+            },
+            {
+                "version": "0.9.14",
+                "change_log": " New Stuff \n- Added \"Gear  Position/rotation\" settings page which includes settings for tweaking blocker position, glove rotation and goalie stick position\n- Added support for bHaptics (requires bHaptic player from SideQuest)\n\n Gamemode Changes\n- Onetimer Trio: Updated Drones positions and shooting directions.\n- OneTimer Hockey: Player now shoots closer to blue line and updated shooting directions, higher chance of lower shots.\n\n Versus Challenges \n- Added \"Color Block\" and Hockey Slapshot\" versus challenges\n- Added \"Play Again\" button to replay current challenge\n- Versus Challenges now selects 21 random challenges when clicking \"filter challenges\", this means all challenges are now available to play\n- Personal highscore will be automatic saved as versus challenge, no need/option to press \"save as versus challenge\" anymore\n- Updated Versus Challenge layout and \"how to play\" instructions\n\n Fixes \n- Fixed \"Color Block\" game mode stop counting \"missed balls\" after 10 missed balls.\n- Color Block training/challenge mode no longer show secondary \"goal marker\" goal at the result screen.\n\n Minor stuff \n- Made tennis balls less bouncy\n- Pucks/balls now disappear after 4 seconds to allow more time to track object after save. if goal, puck/ball is removed in 1 second.\n- Added missing haptic playback to UI elements which had none\n- Quest 1 users no longer see \"Refresh Rate\" optio"
+            },
+            {
+                "version": "0.9.13.1",
+                "change_log": " - Redesigned \"training\" and \"rank challenge\" sections\n- Cross-platform leaderboards, this also means leaderboards and goalie points were wiped.\n- Fixed \"hockey slapshot\" leaderboards not saving records"
+            },
+            {
+                "version": "0.9.12.5",
+                "change_log": "-  Added 120hz support (Quest 2)\n- Hopefully improved \"Glove Catch\" mechanics, now more automatic and hopefully accurate.\n- New training game: Hockey Onetimer, player skating and shooting pucks at you\n- Added \"Versus Challenges\", play same \"rank challenge\" round as another player and try to beat their score\n- Added new option \"Joystick Movement\", joystick locomotion is disabled while playing challenge modes\n- Fixed left goalie stick not updating colors/textures\n- Pausing the game while in challenge mode will automatic end current challenge round\n- Updated training/challenge result screen hopefully making it more clear what numbers means (such as 3 stars requirement)"
+            },
+            {
+                "version": "0.9.11.1",
+                "change_log": "Rollback to fix issues"
+            },
+            {
+                "version": "0.9.12",
+                "change_log": "- Updated training/challenge result screen hopefully making it more clear what numbers means (such as 3 stars requirement)\n- Option \"Refresh Rate Mode\" is now depended on what your headset can provide instead predefined values\n- Added \"Texture Quality\" option, switch between \"Normal\" and \"Low\".\n- Added Color Block challenge achievements\n- Fixed Target Shooting challenge achievement not getting unlocked\n\nGamemode changes:\n- Color block: If you block right color ball, it will no longer disappear upon collisions with glove which allows to make glove catcher easier. Wrong color ball will automatic disappear (once it collides glove or goal) and count as goal."
+            },
+            {
+                "version": "0.9.11",
+                "change_log": " Added\n- \"Legacy RInk\" for \"Rink Type\" selection, especially useful for Quest 1 users. Lower visual quality, more stable performance. This is the old rink from Goaltender VR. Quest 2 users should continue to use new rink and their shiny visuals (as far I know, everything should run smoothly on Quest 2)\n\n Changes - Onetimer Trio\n- Slightly increased all shooting speeds and not so slightly passing speeds (especially in higher speeds)\n- Improved shooting directions, drones should aim more into corners.\n- Moved drones positions, just a little bit.\n\n Fixed \n- Target Shooting training result screen had extra column with message \"Something went wrong :(\", not anymore."
+            },
+            {
+                "version": "0.9.10.1",
+                "change_log": "- Fixed \"Color Block\" challenge page not displaying leaderboard entries"
+            },
+            {
+                "version": "0.9.10",
+                "change_log": "- New gamemode: \"Color Block\", reworked version of old Goaltender VR game mode.\n- Added Color Block challenge with own leaderboard.\n- Added 3 stars rating for challenges, 3 stars will get you achievement related to played challenge. \n- Redesigned result screen (screen after challenge/training rounds)\n- Changed \"Onetime Trio\" ball drones shooting, aiming more higher/lower rather than middle.\n- \"Round countdown audio\" no longer continues playing if you quit gamemode round before countdown reaches to 0."
+            },
+            {
+                "version": "0.9.9",
+                "change_log": "- Added \"level 8\" shooting speed for training mode.\n- Added \"description popups\" when hovering over training settings.\n- Fixed not being able to make glove catches in \"Breakaway Scenarios\" game mode.\n- Fixed \"Hockey Slap Shot\" challenge not updating shot speed and interval.\n- Changed last round (fastest speed) of \"Hockey Slap Shot\" and \"Ball Cannon\" challenges shot interval to 0.5 seconds instead regular 1 second."
+            },
+            {
+                "version": "0.9.8.2",
+                "change_log": "General  \n- Tweaked shooting algorithm and glove catch  detection\n- Decreased ball/puck bounce force when colliding with glove/blocker\n\n  Added \n. Added support for 80 Hz and 90 Hz refresh rate modes (Quest 2 only). Defaults to 72 Hz\n- Added  \"Shooting Style\" training option with new \"Random\" setting to allow more  dynamic shooting angles (Hockey Slap Shot only)\n- Added option to customise goal color\n- Added option to customise goal net color\n\n Game Modes \n- Target Shooting: updated cannon to launch ball in more wider range, including both left and right side\n- Hockey Slap Shot and Ball Cannon: updated all shooting speeds and players aim targets\n- OneTimer Trio: added 8 shooting speeds\n- Breakaway scenarios: added two (2) new scenarios\n\n  Challenges  \n- In \"Hockey Slap Shot\" and \"Ball Cannon\" speed now increases every 5 shot instead 9.\n- Added \"Onetimer Trio\" challenge.\n\n Fixes \n- Fixed \"Goal Trigger\" where shots to (out)side of the goal would be counted as goal (rare, near impossible, situations)\n- Fixed \"Goal Marker Sensor\" to register goals more accurate. Goal markers should no longer appear outside goal"
+            },
+            {
+                "version": "9.0.3",
+                "change_log": "Offline mode improvements"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 89,
+        "rating": 4.595506,
+        "weighted_rating": 4.19,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

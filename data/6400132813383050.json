@@ -1,0 +1,169 @@
+{
+    "data": {
+        "id": "6400132813383050",
+        "name": "Court Time Tennis",
+        "app_name": "Court Time Tennis",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": null,
+        "release_date": "2023-04-23T00:00:00",
+        "description": "Hit with a physics engine that feels more like tennis than any other game.  Move around the entire court while quickly and accurately lining up return shots.  Dominate the bot in drills, rallies, and matches then show your mettle online!\n\nGet started with the basics for free.  When you're ready to unlock everything then upgrade to Pro for $14.99.\n\nCourt Time Tennis is the passion project of Eric Malafeew, who's played tennis consistently since age 10.  He also has 20+ years of game lead and simulation experience including VZfit, Rock Band, Guitar Hero, vehicle trainers and space robotics.\n\n* Practice and play online matches around the world using your Meta avatar\n* Move around the whole court and hit with realistic physics that you can tune\n* Play indoors through a virtual portal or passthrough venue in larger spaces\n* Earn stars and climb leaderboards with 20+ game drills, rallies, and the wall\n* Choose between hardcourt, grass, or clay surfaces in park, club, and arena venues\n* When you have the space to swing, attach your Quest controller to a real racket or extender\n* Get ready for matches against the ball bot, and never have to pick up balls again\n* Customize difficulty settings including wind and design your own drills",
+        "markdown": false,
+        "developer": "ProShot VR",
+        "publisher": "ProShot VR",
+        "genres": [
+            "Sports",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User",
+            "Multiplayer"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 5
+            },
+            {
+                "rating": 2,
+                "votes": 1
+            },
+            {
+                "rating": 3,
+                "votes": 2
+            },
+            {
+                "rating": 4,
+                "votes": 4
+            },
+            {
+                "rating": 5,
+                "votes": 36
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://courttimetennis.com/",
+        "app_images": {
+            "cover_landscape": "38974459_1264351950960101_4653075685768039474_n.png",
+            "cover_portrait": "38974629_764494094894330_1784168396324078563_n.png",
+            "cover_square": "39031376_1382454969223627_6441755947700155737_n.png",
+            "hero": "75195908_1119266242385399_8686300766156513476_n.png",
+            "icon": "38974855_528016956182664_2279219291891469231_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39036703_623407062945184_5106660274115380714_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.8.12",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \nAdded \"bot speed\" options to Rally and Match modes\nTeleport autorun option\n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\nAllow Y/B to toggle menu in one-controller mode\n\nBugfixes:\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial\nBetter challenge messaging\nFixed one-controller movement direction\nFixed \"random volley\" targets off court"
+            },
+            {
+                "version": "1.8.11",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial\nBetter challenge messaging\nTeleport autorun option\nFixed one-controller movement direction"
+            },
+            {
+                "version": "1.8.10",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial\nBetter challenge messaging\nTeleport autorun option\nFixed one-controller movement direction"
+            },
+            {
+                "version": "1.8.9",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial\nBetter challenge messaging"
+            },
+            {
+                "version": "1.8.8",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly\nTweaked tutorial"
+            },
+            {
+                "version": "1.8.7",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets and unlimited rally!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nFixed bug with \"full autorun\" and when point ends quickly"
+            },
+            {
+                "version": "1.8.6",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket\nNew Unlimited Rally"
+            },
+            {
+                "version": "1.8.5",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer\nBrighten assist effect on racket"
+            },
+            {
+                "version": "1.8.5",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"bot speed\" options to Rally and Match modes\nMore accurate line calling\nFix second serves in multiplayer"
+            },
+            {
+                "version": "1.8.3",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nFixed \"nobody today\" on challenge reply menu, which stops match requests from everybody \nPro players can still disable match requests completely"
+            },
+            {
+                "version": "1.8.2",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nFixed \"nobody today\" to challenge reply menu, which stops match requests from everybody \nPro players can still disable match requests completely\n"
+            },
+            {
+                "version": "1.8.1",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas \nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately\n\nHotfixes:\nAdded \"nobody today\" to challenge reply menu, which stops match requests from everybody \nPro players can still disable match requests completely\nMAX footcircle size which disables warnings\nHide footcircle always in Passthrough venue\nPlayer height adjustment for autorun"
+            },
+            {
+                "version": "1.8.0",
+                "change_log": "RELEASE 1.8\n\nPro Mode gets customizable rackets!\n\nNew & Changed Options:\nAdjustable \"foot circle\" option, to make bigger for larger play areas or to turn off\nAdded \"ball trail\" option to dial in the length you want\nLowered \"racket bounce\" minimum and maximum\nRename \"racket grip\" to \"racket friction\" and increase maximum\nIncrease maximum \"random aim\" in drill lab \nIncreased maximum number of drill lab shots to 6\nWiden max portal width by 50%\n\nOther Improvements:\nChanged default racket bounciness and friction\nSupport overheads with autorun and in drill lab\nDraw balls even when they go outside portal\nPrevent overly fast shots in assisted mode\nDisabled virtual controller on racket hand\nSmaller bulleye marker to match ball size\nFix for multiplayer games when point ends and server doesn't get the ball\nFix for rare laser pointer disappearance\nWhen other player leaves multiplayer, return to lobby after 3 seconds\nCorrectly show Quest3 controllers\nAllow multiplayer receiver to move before first serve\nBot waits to serve in passthrough venue match until player is in position\nFixed mixed reality capture support\nFix menu button resume behavior on the drill lab select menu and other places\nSave left and right hand controller offsets separately"
+            },
+            {
+                "version": "1.7.3",
+                "change_log": "RELEASE 1.7\nFull autorun option\nImproved hitting physics\nPro features changed\nMultiplayer protocol optimization\nBetter portal fades\nMixed reality capture support\nBug fixes"
+            },
+            {
+                "version": "1.7.2",
+                "change_log": "RELEASE 1.7\nFull autorun option\nImproved hitting physics\nPro features changed\nMultiplayer protocol optimization\nBug fixes"
+            },
+            {
+                "version": "1.7.2",
+                "change_log": "RELEASE 1.7\nFull autorun option\nImproved hitting physics\nPro features changed\nMultiplayer protocol optimization\nBug fixes"
+            },
+            {
+                "version": "1.7.1",
+                "change_log": "RELEASE 1.7\nFull autorun option\nImproved hitting physics\nPro features changed\n\nHotfixes:\nMultiplayer protocol optimization"
+            },
+            {
+                "version": "1.7.0",
+                "change_log": "Release 1.7\nFull autorun option\nImproved hitting physics\nPro features changed"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 48,
+        "rating": 4.354167,
+        "weighted_rating": 4.0,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

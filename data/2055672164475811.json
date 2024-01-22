@@ -1,0 +1,160 @@
+{
+    "data": {
+        "id": "2055672164475811",
+        "name": "QuiVr Vanguard",
+        "app_name": "QuiVr Vanguard",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2019-02-05T00:00:00",
+        "description": "QuiVr Vanguard brings the best-selling archery mechanics of the original QuiVr into a stand-alone, fast-paced title for the Oculus Go.  Combining cooperative drop-in multiplayer with the critically acclaimed gameplay of QuiVr on desktop, Vanguard allows players to join in one of the most popular VR gaming experiences available today.  Compatible with both Oculus Go and Oculus Quest, play with your friends across platform (once Quest releases), and find out why QuiVr has consistently topped the most popular VR titles since its release.",
+        "markdown": false,
+        "developer": "Luminary Apps, LLC",
+        "publisher": "Alvios, Inc.",
+        "genres": [
+            "Action",
+            "Arcade",
+            "Shooter"
+        ],
+        "devices": [
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Multiplayer",
+            "Single User",
+            "Co-op"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 3
+            },
+            {
+                "rating": 3,
+                "votes": 8
+            },
+            {
+                "rating": 4,
+                "votes": 4
+            },
+            {
+                "rating": 5,
+                "votes": 24
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
+            ],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://quivr.net/",
+        "app_images": {
+            "cover_landscape": "39031391_2165203273798821_5886070460885499904_n.png",
+            "cover_portrait": "38982668_2162464104081729_8854586237646798848_n.png",
+            "cover_square": "38974645_1000722700118942_261375195485306880_n.png",
+            "hero": "39001710_513859435780998_4972914376001454080_n.png",
+            "icon": "38974678_363523027714989_2031392326961594368_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974446_192175891649352_7049592958391156736_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.0.14",
+                "change_log": "- Added instruction banners that appear before and after games.\r\n- Fixed a bug that could cause the gate to become invulnerable after the original host of a multiplayer game leaves."
+            },
+            {
+                "version": "1.0.13",
+                "change_log": "- Fixed a bug that caused the boss to get exponentially stronger each time it appeared within a run of the app (even between games).  You should now never observe the Wave 10 boss with more than 900 hit points.\r\n- (1.0.12) Fixed boss health bar, which was not updating reliably.\r\n- Added a numeric display of the boss hit points.  This is temporary, and will be removed in a future release.\r\n- Removed the Beam Arrow powerup.\r\n- Added a new Crit Arrow powerup (gives you a 10% chance per application to get a critical hit, even when striking a non-critical target)."
+            },
+            {
+                "version": "1.0.12",
+                "change_log": "- Fixed boss health bar, which was not updating reliably.\r\n- Added a numeric display of the boss hit points.  This is temporary, and will be removed in a future release.\r\n- Removed the Beam Arrow powerup.\r\n- Added a new Crit Arrow powerup (gives you a 10% chance per application to get a critical hit, even when striking a non-critical target)."
+            },
+            {
+                "version": "1.0.11",
+                "change_log": "- Adjusted the splash logo to reduce aliasing.\r\n- Added a loading screen with tips to ponder while the game loads.\r\n- Fixed a bug in the previous release preventing the Aim line from being switched off."
+            },
+            {
+                "version": "1.0.10",
+                "change_log": "- Changed thumb disc controls slightly: the whole top half now moves you forward, and whole bottom half now summons an orb.\r\n- Very quick press of the trigger button no longer fires an arrow.\r\n- Orbs can no longer be thrown while disabled by enemy Death Mask or fireball.\r\n- Fixed the Warp enemy's teleport \"poof\" effect.\r\n- Fixed a failure of the boss to appear on Wave 20."
+            },
+            {
+                "version": "1.0.9",
+                "change_log": "- Fixed a bug causing the boss to appear only once per run of the game.  - [1.0.7] Added a boss enemy that appears every 10 waves.  (He's tough.  Bring friends.)\r\n- Added additional audio effects at the start of each wave, end of game, etc.\r\n- Fixed a bug that could cause companion's arrows to sometimes appear frozen in midair where they were fired, instead of flying forward properly.\r\n- Replaced forward tower texture.\r\n- Fixed targeting of gate laser (damages enemies when they hit the gate).\r\n- Quick Draw powerup has been modified so that it applies only to the \"hold\" time after the initial full-draw time."
+            },
+            {
+                "version": "1.0.8",
+                "change_log": "- Added a boss enemy that appears every 10 waves.  (He's tough.  Bring friends.)\r\n- Added additional audio effects at the start of each wave, end of game, etc.\r\n- Fixed a bug that could cause companion's arrows to sometimes appear frozen in midair where they were fired, instead of flying forward properly.\r\n- Replaced forward tower texture.\r\n- Fixed targeting of gate laser (damages enemies when they hit the gate).\r\n- Quick Draw powerup has been modified so that it applies only to the \"hold\" time after the initial full-draw time."
+            },
+            {
+                "version": "1.0.7",
+                "change_log": "- Added a boss enemy that appears every 10 waves.  (He's tough.  Bring friends.)\r\n- Added additional audio effects at the start of each wave, end of game, etc.\r\n- Fixed a bug that could cause companion's arrows to sometimes appear frozen in midair where they were fired, instead of flying forward properly.\r\n- Replaced forward tower texture.\r\n- Fixed targeting of gate laser (damages enemies when they hit the gate).\r\n- Quick Draw powerup has been modified so that it applies only to the \"hold\" time after the initial full-draw time."
+            },
+            {
+                "version": "1.0.6",
+                "change_log": "- Tweaked the scaling of damage applied to the gate on higher waves.\r\n- Optimized textures for improved performance."
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "- Aim Line is now on by default for new players.\r\n- Multiplayer now joins a random room for a maximum of 4 players, instead of throwing everybody into the same room no matter how many that is.\r\n- Beam Arrow now activates only for fully charged (held) arrows."
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "- Aim Line is now properly straight if you activate it _after_ getting the Beam Arrow powerup.\r\n- Death Mask enemies now more reliably target players in multiplayer games."
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "- Added a new powerup, \"Beam Arrow,\" that make your arrows fly very fast and straight.\r\n- Fixed a bug in the Rebuild effect that made it work only for the hosting player.\r\n- Fixed an issue that could cause enemies to fail to sync properly if you waited a long time before joining multiplayer."
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "- Increased strength of Homing Arrow effect, but it now applies only on aimed shots.\r\n- Added colors to the \"light beam\" effect around other players, so it's easier to tell who is who at a distance.\r\n- Fixed several issues with the Death Mask enemy that starts appearing around level 20."
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Added powerups, presented after every three waves; currently 4 different powerups may appear (1 instant, 3 stackable)."
+            }
+        ],
+        "keywords": [
+            "archery",
+            "QuiVr",
+            "wave",
+            "shooter",
+            "fantasy"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 40,
+        "rating": 4.175,
+        "weighted_rating": 3.94,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

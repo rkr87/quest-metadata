@@ -1,0 +1,124 @@
+{
+    "data": {
+        "id": "5372540909498619",
+        "name": "WeezyVR",
+        "app_name": "WeezyVR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2022-08-16T00:00:00",
+        "description": "Weezy VR means travel in Virtual Reality.\nGo on virtual trips in destinations of your choosing.\nFind and explore destinations with simple filters, and pick and choose your favourite hotels, then book them to explore in real life!\n\nJoin us on a trip to the top of the Eiffel Tower, ballooning in a Ugandan safari park or lie down and relax on the white beaches of the Dominican Republic - all from the comfort of your own home.\n\nThrough our comprehensive booking system, you can try your destinations before you fly. Check out hotels, cities and tourist destinations in VR before you commit to your booking. We can help you find your dream holiday by offering you comprehensive 360 views ahead of time - so there are no bad surprises when you arrive.\n\nOur booking system will be procedurally released over the coming months after a successful test phase on AppLab and SideQuest.",
+        "markdown": false,
+        "developer": "WeezyVR_Official",
+        "publisher": "Weezy VR",
+        "genres": [
+            "Travel",
+            "Exploration",
+            "360 Experience (non-game)"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 3
+            },
+            {
+                "rating": 3,
+                "votes": 1
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 3
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "In-App Purchases"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://weezy-vr.com/",
+        "app_images": {
+            "cover_landscape": "38974681_473793307478416_1269338915873626013_n.png",
+            "cover_portrait": "38974504_1410623896090331_2149321307585780366_n.png",
+            "cover_square": "38974824_384797663762172_8947515964477307796_n.png",
+            "hero": "39001685_803595824155467_4832123938568168276_n.png",
+            "icon": "38974593_612347087071457_4917440954173135440_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974792_1689309378100226_7194487744376616745_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.3.1",
+                "change_log": "Release 1.3.1\nFixed the video title showing in the wrong place in the download interface\nRemoved \"remove\" buttons from destination view\nFixed downloaded videos not playing\nReplaced thumbnails with new iterations\nRemoved the external Paris video\nFixed interfaces overlapping Gem text even when they are geometrically behind them\nFixed scroll interfaces having the wrong dimensions\nFixed some texts not being translated\nFixed translations sometimes not fitting into text boxes\nImplemented a UI to provide an overview of purchased videos \nAdded a fix for in-app-purchases not always working\nFixed Downloading screen not showing when a download is finished\nFixed all issues with downloads not syncing between interfaces\nFixed filters not working\nFixed thumbnails overlapping the main image in destination view interface\nFixed the logo overlapping text in the Purchase interface\nFixed video overview not updating after purchase\nImplemented multi-download support\nFixed purchases not working"
+            },
+            {
+                "version": "1.3.0",
+                "change_log": "1.3.0\nExternal video removed from Palma\nAdjusted the advancement popup position in the main scene\nUpdated all documentation\nFixed interface display issues when enabling accessibility mode through the settings interface\nFixed non-initialised controllers showing in app and initialised controllers not showing in editor\nFixed filters showing the wrong results\n\nFixed results buttons staying tinted after being selected\nReintroduced travel and virtual travel gems\nFixed ray interactor not showing as active when hovering over gems\nAdded new Gem visuals\n\nIntegrated In-App Purchases\nFixed ray interactors sometimes reaching past interfaces\nReintegrated the Oculus Plugin\n\nRemoved the \"Virtual Tours\" text from the virtual tours destination view interface\nImplemented new virtual tours UI\nAdded highlighting of hovered Gem text\nShortened video descriptions \n\nImplemented the video download backend\nFixed some language errors\nAdded language elements to Gems\nAdded saved pagination on VT filters\nFixed gems not always behaving properly\nAdjusted the atmosphere shader\nFixed pagination error in accessibility mode\nFixed Gem text colour not working properly\n\nAdded new Hawaii video\nIntegrated new UI design\nMigrated the radio to gems\nUpdated server for file downloads\n\nIntegrated the separate download interface\nFixed some Gem text colour issues\nFixed VT price filters not working\nFixed some video descriptions being too long for the UI\nFixed virtual tour duplicates\nFixed some issues with results buttons\nFixed missing video titles\nFixed the language changing automatically when opening language settings\nFixed buttons/toggles sometimes appearing pressed when they were not selected"
+            },
+            {
+                "version": "1.2.6",
+                "change_log": "Usability changes\n4 new Weezy VR videos in Hawaii, Palma and Calais"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "Fixed bugs with Paris videos\nRemoved Athens (video format issues)"
+            },
+            {
+                "version": "1.0.0pre2",
+                "change_log": "Minor bugfixes, server move"
+            },
+            {
+                "version": "1.0.0pre1",
+                "change_log": "Prerelease 1"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 8,
+        "rating": 3.125,
+        "weighted_rating": 3.8,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

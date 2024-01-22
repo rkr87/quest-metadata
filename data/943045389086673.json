@@ -1,0 +1,161 @@
+{
+    "data": {
+        "id": "943045389086673",
+        "name": "ORBX Media Player",
+        "app_name": "ORBX Media Player",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2015-04-26T00:00:00",
+        "description": "ORBX Media Player displays photorealistic virtual reality scenes and experiences created with OTOY’s rendering and light field technology.  The application can be used to view media published by OTOY’s community of over 100,000 artists, as well as commercial ORBX cinematic content from studio partners such as Warner Bros.  To learn more about OTOY’s tools and services for VR artists and content creators, please visit http://www.otoy.com/.  © MARVEL.",
+        "markdown": false,
+        "developer": "OTOY Inc.",
+        "publisher": "OTOY Inc.",
+        "genres": [
+            "Utility",
+            "Social"
+        ],
+        "devices": [
+            "Touchpad",
+            "Gamepad"
+        ],
+        "modes": [
+            "Single User",
+            "Multiplayer"
+        ],
+        "languages": [],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 332
+            },
+            {
+                "rating": 2,
+                "votes": 204
+            },
+            {
+                "rating": 3,
+                "votes": 303
+            },
+            {
+                "rating": 4,
+                "votes": 309
+            },
+            {
+                "rating": 5,
+                "votes": 688
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
+        "website": "https://www.otoy.com/",
+        "app_images": {
+            "cover_landscape": "11162738_944031065627958_1900984182_n.png",
+            "cover_portrait": null,
+            "cover_square": null,
+            "hero": "11162738_944031065627958_1900984182_n.png",
+            "icon": null,
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "3.2.15",
+                "change_log": "Added Go support, supports stereo from depth scenes, minor bug fixes."
+            },
+            {
+                "version": "3.2.12",
+                "change_log": "Added Go support, supports stereo from depth scenes, minor bug fixes."
+            },
+            {
+                "version": "3.2.8",
+                "change_log": "Added Go support!"
+            },
+            {
+                "version": "3.1.11",
+                "change_log": "- Fully integrated ORBX media file/URL loading and playback in Samsung Internet Browser \n- Oculus Rooms support for shared viewing of ORBX media URL links \n- New GDC17 samples: ORBX embedding of Unity, MP4, MP5 and HTML5 live layers inside local ORBX media file or URL \n- Improved performance and no overheating through GPU/CPU load balancer \n- Improvements for native ORBX playback inside Samsung Internet Browser \n- Various bug fixes"
+            },
+            {
+                "version": "3.1.9",
+                "change_log": "- Fully integrated ORBX media file/URL loading and playback in Samsung Internet Browser\n - Oculus Rooms support for shared viewing of ORBX media URL links\n - New GDC17 samples: ORBX embedding of Unity, MP4, MP5 and HTML5 live layers inside local ORBX media file or URL\n - Improved performance and no overheating through GPU/CPU load balancer\n - Improvements for native ORBX playback inside Samsung Internet Browser\n - Various bug fixes"
+            },
+            {
+                "version": "3.1.0",
+                "change_log": "- Fully integrated ORBX media file/URL loading and playback in Samsung Internet Browser\r\n- Oculus Rooms support for shared viewing of ORBX media URL links\r\n- New GDC17 samples: ORBX embedding of Unity, MP4, MP5 and HTML5 live layers inside local ORBX media file or URL\r\n- Improved performance and no overheating through GPU/CPU load balancer\r\n- Various bug fixes"
+            },
+            {
+                "version": "3.0.18",
+                "change_log": "Minor bug fixes."
+            },
+            {
+                "version": "3.0.3",
+                "change_log": "3.0.3:\r\n- Web browser portals in VR scenes\r\n- Navigable and animated ORBX 'VR Vines' can be launched from URL\r\n- Intent launcher for transparently embedding ORBX media URI links within other apps\r\n- Social Integration \r\n- Preliminary 3D mesh support in ORBX scenes\r\n- ORBX Media Server streaming from local PC  \r\n- Please visit https://home.otoy.com/news/orbx/ for news and updates"
+            },
+            {
+                "version": "2.2.22",
+                "change_log": "- Support for Android 6.0."
+            },
+            {
+                "version": "2.2.21",
+                "change_log": "- Updated to Oculus 1.0 SDK\n- Bluetooth gamepad support\n- Live video texture streaming\n- Minor bug fixes"
+            },
+            {
+                "version": "2.2.20",
+                "change_log": "- Updated to Oculus 1.0 SDK\n- Bluetooth gamepad support\n- Live video texture streaming\n- Minor bug fixes"
+            },
+            {
+                "version": "2.1.15",
+                "change_log": "Minor bug fixes"
+            },
+            {
+                "version": "2.1.13",
+                "change_log": "- Zip file support for packaging project folders\n- VR Cinema scenes - automatic export from Octane \n- VR navigation paths - automatic export from Octane/ORC\n- minor bug fixes"
+            },
+            {
+                "version": "2.1.12",
+                "change_log": "Minor bug fixes\nTBD..."
+            },
+            {
+                "version": "2.0.7",
+                "change_log": "Minor bug fixes"
+            },
+            {
+                "version": "2.0.0",
+                "change_log": "New features to support ORBX videos and interactive media\n\nSupport for 18432x1536 @ 60+ fps stereo cube map videos and navigable walkthroughs, exported from Octane VR or ORC.otoy.com\n\nLua and JSON scene files: playlists, background audio, audio/video event triggers, hotspots, gaze overlays, custom blend modes and cursors, navigation links and logic, asset cache, and dynamic menus \n\nHDR compositor enables live blending of Octane VR cube maps/spherical panos, info channels, beauty passes, multi-light data, multi-view data, MP4 media, post processing layers, pre-multiplied alpha\n\nManifest.json supports thumbnails, startup scripts, content metadata and update URLs for ORBX\\Media\\sub-directory or packaged ORBX media file.\n\nMP4 video/audio and WAV files embedded in ORBX media file package for audio/video elements, backgrounds, overlays and interstitials.\n\nSupport for alpha/depth channels embedded below RGB content in MP4 videos and JPGs.\n\nPNG16 and EXR FP-16 supported by local media browser and HDR compositor"
+            },
+            {
+                "version": "1.119",
+                "change_log": "Supports stereo panoramic images,  movies and ORBX media files dropped in the phone’s ORBX media folder. If no media folder is detected, the app will create this folder on startup and let the viewer optionally download sample content from OTOY.com. Data stored in the ORBX media folder can be managed through the phone’s built in file browser software."
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 1836,
+        "rating": 3.444989,
+        "weighted_rating": 3.47,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

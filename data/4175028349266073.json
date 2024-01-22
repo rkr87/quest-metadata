@@ -1,0 +1,167 @@
+{
+    "data": {
+        "id": "4175028349266073",
+        "name": "Litesport",
+        "app_name": "Litesport",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2022-03-03T00:00:00",
+        "description": "🤸 FUN-FILLED VR FITNESS\nJump into a world of exhilarating fitness where your workouts aren’t just exercises; they're fun! \n\n🥊VARIETY OF WORKOUT TYPES\nChoose from a diverse range of workouts including boxing, strength training, and bootcamp to keep your fitness routine exciting.\n\n🏅 REAL TRAINERS GUIDE YOU\nWorkout alongside real trainers from the comfort of your home. Mixed reality brings expert trainers into your home with motivation and knowledge.\n\n🆕NEW CLASSES ADDED DAILY\nWith a continuously expanding library of over 2000 classes and fresh workouts added daily, there's always something new and exciting to try.\n\n⚡️ ALL LEVELS WELCOME\nWhether you're a beginner who's just starting out or an expert looking to take your workouts to the next level, Litesport has tailored workouts to match your abilities, ensuring everyone can join in the fun.\n\n🎶 TOP HITS TO MOVE TO WHILE HAVING FUN\nChoose from a Premium music library with all your favorite music ranging from top hits to old favorites.\n\n🆓 7-DAY FREE TRIAL\nAre you ready to give it a try? Start your 7-day trial today.",
+        "markdown": false,
+        "developer": "Liteboxer Technologies Inc.",
+        "publisher": "Litesport",
+        "genres": [
+            "Lifestyle",
+            "Sports",
+            "Health & Fitness"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Cardio workouts",
+            "Punch and play",
+            "subs intro offers",
+            "NUX Fitness",
+            "Fitness",
+            "Hand tracking",
+            "Mixed Reality",
+            "Passthrough"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 313
+            },
+            {
+                "rating": 2,
+                "votes": 60
+            },
+            {
+                "rating": 3,
+                "votes": 84
+            },
+            {
+                "rating": 4,
+                "votes": 394
+            },
+            {
+                "rating": 5,
+                "votes": 1125
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Language"
+            ],
+            "elements": [],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://litesport.com/",
+        "app_images": {
+            "cover_landscape": "38974606_1568988766796768_7365126058217145428_n.png",
+            "cover_portrait": "38974447_981175882833186_5777312343572941511_n.png",
+            "cover_square": "38974573_1137994173616824_2819666391415148803_n.png",
+            "hero": "38974523_914064099253422_6203648912632090023_n.png",
+            "icon": "38974676_686285452742480_5218814403529863104_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974672_349244396683350_9222495593214140261_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.12.139",
+                "change_log": "New Feature\nAdded a new Freestyle Workout results screen.\n\nImprovements\nAdded a green outline to the Strength Training weight selection to improve visibility.\nImproved the color uniformity of the workout selection screens.\nAdded an error box to the keyboard to make text field requirements more obvious.\nVarious other UI improvements.\n\nBug Fixes\nFixed an intermittent issue that prevented workout selection.\nFixed a bug that was causing the wrong muscle group tiles to display\nFixed a bug that caused the wrong header tab to appear as selected in some circumstances.\nFixed a bug that prevented matches successfully sending from the results screen.\nFixed some bugs that caused large score values to wrap to a second line.\nFixed some text overlapping issues on the strength training pause screen.\nFixed some issues with workout filtering that caused content to not display.\nFixed a playlist filtering bug.\nFixed a bug that caused some playlists to not proceed to the next track.\nFixed some issues that caused the laser pointers to stop working.\nVarious other minor UI bug fixes."
+            },
+            {
+                "version": "1.11.128",
+                "change_log": "## New Features\n* Added a female muscle diagram for Strength workouts.\n* You can now create a match from a past result in your activity history.\n* Implemented chip filters that show up to 4 selected criteria on content select screens.\n* Created profiles for Litesport trainers’ community pages.\n\n\n## Improvements\n* Revamped post-workout results screens.\n* Improved the pause screen.\n* Rendered a fade transition on the muscle heatmap so you can see it change after a Strength workout.\n* Looped streak celebration colors for more variety at higher punch counts. This does not affect the score. It just looks cooler.\n\n## Bugfixes\n* Decoupled the hands; e.g., if you put your left hand behind your back the right laser pointer will still work.\n* Fixed the Lobby Music coming in after a Punch Track preview even if you had it off.\n* Synchronized the time bar and muscle group widget for Strength workouts."
+            },
+            {
+                "version": "1.10.118",
+                "change_log": "## New Features\n* Rebranded to Litesport throughout the app.\n* Moved from tap/touch input to laser pointer input.\n* Added Strength Training. Bring weights into VR and let our trainers help you focus on key muscles!\n* Added Punch Track song previews.\n* Activity History can now be sorted.\n* You can now check the leaderboard, favorite content, and replay it from Activity History results.\n* Freestyle sessions are now saved to your Activity History.\n\n\n## Improvements\n* Redesigned all menus.\n\n## Bugfixes\n* Prevented input from going through pop ups to click what’s behind them.\n* Addressed issues with the workout pause screen and hand tracking.\n* Fixed the exercise timer sometimes failing to show up during Total Body.\n* Made Trainer Classes have the correct number of total hits in the denominator."
+            },
+            {
+                "version": "1.9.100",
+                "change_log": "Fixed a bug that prevented some users from loading content"
+            },
+            {
+                "version": "1.9.99",
+                "change_log": "New Features\n- Added ability to offer ‘Filmed for VR’ Sparring Sessions and Trainer Classes. This format places the trainer behind the shield as you work out rather than off to the side, like the experience in Total Body and Mitt Drill workouts. This new content is being filmed and will start appearing in the app from early March.\n- Added new countries to the Edit Profile screen in support of expanding into new European markets.\n- Added support for Metric units; you can now select for KM/H for punch velocity via the settings screen, and cm and kg for height and weight in the Edit Profile screen\nImprovements:\n- Improved the feel/responsiveness of Total Body Battle Ropes\n- Adjusted the trainer proportions to be more realistic\n- Improved performance during Total Body workouts\n- Improved the behavior of filtering workouts by length\n- Added a duration label to the workout tiles\nBug Fix\n- Fixed a bug that caused an error when saving profile changes\n"
+            },
+            {
+                "version": "1.9.93",
+                "change_log": "New Feature\n- Improved the location selection on the edit profile screen, and added support for locations in the UK, Canada or Mexico\n\nBug Fixes\n- Removed support for LIV recording, which was causing trainer audio desynchronization during workouts\n- Fixed a bug that caused negative timing scores on Total Body workouts\n"
+            },
+            {
+                "version": "1.9.85",
+                "change_log": "## New Features\n* Updated the default Liteboxer studio environment. \n* AR is now available to all users.\n* A persistent AR toggle and the previous Liteboxer studio environment are available to all users from the Settings menu.\n* The workout calendar now indicates when you worked out using other Liteboxer products.\n* Added a new start animation for Punch Tracks in Playlists.\n* Added an interactive onboarding tutorial for new users prior to account creation.\n* Added a setting to manually adjust the shield height from the Settings menu.\n* Added individual Total Body element breakdowns to Total Body match summaries.\n\n## Improvements\n* Streamlined the user select experience.\n* Revamped the Speedbag element of Total Body workouts.\n* Moved the list of past workouts to a new Activity header.\n* Reduced the amount of time it takes for matches to send.\n* Updated the logic around calculating global rank.\n\n## Bugfixes\n* Prevented a scenario where the profile bubble could spin forever without showing an error.\n* Stopped some login code error messages showing up when they shouldn’t.\n* Removed the ability to follow yourself."
+            },
+            {
+                "version": "1.8.79",
+                "change_log": "Patch Details\n- Improved how pricing information is displayed in-app"
+            },
+            {
+                "version": "1.8.77",
+                "change_log": "New Features\n- Community Hub allows you to see what’s new in the app, find people to follow, and receive matches\n- Home tab: highlights new features in the app, and points to release notes, matches, and followers\n- Matches tab: New Users automatically receive matches from Liteboxer Trainers on account creation\n- Followers tab: Search for any Liteboxer Fighter with username lookup. The Suggested Followers section highlights fighters who get similar scores to you on the leaderboards, are top ranking on the leaderboards, or who are top ranking in the genre you play the most. New Users are automatically following Liteboxer Trainers\n\nImprovements\n- Improved the homepage recommendations for new users\n- Added the ability to view the Terms of Service and Privacy Policy from within the app\n- Added volume sliders to the settings screen, so you can independently change the music and punch SFX volume levels\n- Added LIV video capture support\n- Added support to save more than 6 user profile bubbles\n- Enabled display of profile images for users who created accounts with the Liteboxer mobile app\n\nBug Fixes\n- Fixed a bug/scoring exploit related to Total Body’s Speed Bag\n- Optimized the Boxing Gym environment to improve performance\n- Refined punch timing to allow for better hit detection of notes in rapid succession\n- Fixed a Battle Ropes physics bug that made it difficult to register hits\n- Fixed a Total Body scoring bug related to Battle Ropes\n- Various minor UI bugs and design tweaks\n"
+            },
+            {
+                "version": "1.7.70",
+                "change_log": "Improvements\nImplemented timing bonuses for Total Body elements\n‘Completed’ and ‘Not Completed’ filters are now mutually exclusive\nImproved the accuracy of calorie calculation in Total Body workouts\nVarious Total Body improvements related to gameplay physics and UI\nAdded timing and velocity stats to the Total Body results screen \nMoved the login UI further back, so that it is aligned with the rest of the app UI\nSome UI redesigns and improvements\n\nBug Fixes\nFixed an app crash that occurred after following a user on the preplay leaderboard of a Total Body, Trainer Class or Sparring Session workout\nFixed various bugs/exploits related to Total Body scoring\nFixed a bug that caused the Total Body drones to appear transparent\nFixed various bugs relating to some environment windows rendering over UI and gameplay elements\nFixed several minor UI bugs"
+            },
+            {
+                "version": "1.6.66",
+                "change_log": "New Features\n- Total Body Workouts are a new workout mode led by our Trainer team. Featuring 5 new interactive elements including Duck Ropes, Battle Ropes, and Speed Bag these classes focus on legwork, squats, and movement variety.\n- Added a workout preplay screen to Total Body, Trainer Classes and Sparring Sessions. This screen provides a description about the selected workout, for easier browsing and to help you make the best choice of workout before starting.\n\nImprovements\n- Redesigned the Stat Board. The calendar now starts the week on Monday instead of Sunday, and the Punch Performance tab was consolidated to highlight stats that are relevant across Total Body and Punch based workouts.\n- The pause button has been reworked to avoid accidental presses. It is now hold-to-activate, and has been repositioned to the top right corner.\n- The pause screen has been redesigned, and an AR toggle has been added to allow you to switch to passthrough at any point in the workout. (Premium users only)\n- Improved the appearance of the hands with new materials and poses.\n\nBug Fix\n- Fixed a bug that caused the leaderboard to stay active after replaying a workout.\n- Fixed duck/slip indicators not appearing in Trainer Classes and Sparring Sessions.\n- Fixed Mitt Drills not showing up in user activity.\n"
+            },
+            {
+                "version": "1.5.60",
+                "change_log": "New Features\n- Liteshield 2.0: Revamped the Liteboxer shield with a new 3D design, reactive VFX, physics-based punch interactions, and a unique uppercut pad for Trainer Classes.\n- 150 Punch Tracks now available on the app at any one time for Premium Members, increased from 100.\n\nImprovements\n- Made the pause button easier to see when using passthrough\n- Various login UI improvements\n- Tweaked the punch sound effect to make it more on-beat\n- Moved the video player for Trainer Classes and Sparring Sessions to the right side of the shield as default, so right-handed users in Orthodox stance will not have their backs facing it. For users who have enabled southpaw, (preferable for left-handed users) the video players will remain on the left\n\nBug Fix\n- Fixed a bug that caused long leaderboards to crash the app\n"
+            },
+            {
+                "version": "1.4.53",
+                "change_log": "New Feature\n- Added passwordless login! You will now receive a code to your email rather than using a password whenever you want to log in on a new device. Currently logged-in users can continue tapping their profile bubble like before without hassle. If you've forgotten your password and can’t access the email you log in with, please get in touch with Liteboxer support to get that updated.\n\nImprovements\n- Filters are now persistent during each app session. After completing a workout, you can return to the workout selection screen and your previously selected filters will still be applied.\n"
+            }
+        ],
+        "keywords": [
+            "Fitness",
+            "Boxing",
+            "Exercise",
+            "Music",
+            "Workout"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 1976,
+        "rating": 3.990891,
+        "weighted_rating": 3.98,
+        "is_available": true,
+        "is_free": true
+    },
+    "errors": []
+}

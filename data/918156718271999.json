@@ -1,0 +1,150 @@
+{
+    "data": {
+        "id": "918156718271999",
+        "name": "Turret Attack ",
+        "app_name": "Turret Attack ",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2016-03-09T00:00:00",
+        "description": "Your ship is under attack and you are the only thing that stands between the flood of incoming vessels and the lives of your crewmen... that is, you and your massive turret gun. \n\nDefeat wave after wave of enemy fighters using your intuitive controls to lock on and fire. Upgrade your weapons to maximize the carnage and compete against the player community via weekly/monthly leaderboards.\n\n Do you have what it takes to be a true Space Ace? There has never been a better way to find out: Try Turret Attack VR!",
+        "markdown": false,
+        "developer": "FOUNDRY VR INC",
+        "publisher": "Foundry VR Inc.",
+        "genres": [
+            "Action",
+            "Shooter"
+        ],
+        "devices": [
+            "Touchpad",
+            "Gamepad"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Go",
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 6
+            },
+            {
+                "rating": 2,
+                "votes": 7
+            },
+            {
+                "rating": 3,
+                "votes": 6
+            },
+            {
+                "rating": 4,
+                "votes": 5
+            },
+            {
+                "rating": 5,
+                "votes": 17
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.foundryvr.com/",
+        "app_images": {
+            "cover_landscape": "12138837_913623215394002_1102896355_n.png",
+            "cover_portrait": "12138812_562293923919612_82859770_n.png",
+            "cover_square": "12138816_904540109629386_750541633_n.png",
+            "hero": "12138811_459559024229491_46011923_n.png",
+            "icon": "12138809_1730210600531634_2011478517_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": null
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "2.0",
+                "change_log": "- Fixed issue that would sometimes cause it to not load the game won scene after the first 10 gates."
+            },
+            {
+                "version": "2.0",
+                "change_log": "- Fixed missing OVR Sound UI on the initial cutscene camera. \r\n- Fixed issue with OVR Sound UI not displaying in certain scenes. \r\n- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "2.0",
+                "change_log": "- Fixed issue with OVR Sound UI not displaying in certain scenes. \r\n- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "3.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "2.0",
+                "change_log": "- Added pool manager to handle all explosions and various other game FX to improve performance. \r\n- Fixed Turret slerp rotation so it's running fixeddelta time. \r\n- swapped some more shaders out to improve overall perforamce. \r\n\r\nGeneral Note: I would want to clear the leaderboards before this goes live."
+            },
+            {
+                "version": "2.0",
+                "change_log": "Version 2.0 Bundle 6 \r\n- Added a version number soit would clear the meta file.\r\n\r\nv5 \r\nLast build had a breaking change in the upgrade scene that had to be addressed\r\n\r\nv4 \r\nForgot to compress some textures.\r\n\r\nV3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "v5 \r\nLast build had a breaking change in the upgrade scene that had to be addressed\r\n\r\nv4 \r\nForgot to compress some textures.\r\n\r\nV3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "v4 \r\nForgot to compress some textures.\r\n\r\nV3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "V3\r\n\r\n- Found a few more bad shaders that needed replaced.\r\n\r\n\r\n- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "- Removed all instances of instantiating from the disk. This includes all explosions and weapon effects.\r\n- Swapped out some shaders that were not optimized for mobile. \r\n- Removed some inefficient code that was not required and or optimized. \r\n- Removed the ability to affect the turret by tilting the head as discussed. \r\n- Added the view so the turret can vie seen from all angles. \r\n- Added turret turn speed so it more reflects an actual turret as your head turns. This also adds an extra element to the game play."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Initial Version"
+            }
+        ],
+        "keywords": [
+            "Space"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 41,
+        "rating": 3.487805,
+        "weighted_rating": 3.75,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

@@ -1,0 +1,149 @@
+{
+    "data": {
+        "id": "2202354219893697",
+        "name": "Holopoint",
+        "app_name": "Holopoint",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2020-09-10T00:00:00",
+        "description": "Holopoint is pure archery madness. Fight your way through waves of responsive targets, samurai, and highly dangerous ninjas - all while drawing, nocking, and shooting your arrows as quickly as possible. \n\nHolopoint is a skill based game where progression is based on player skill and training rather than unlocks. Like many arcade style games, personal progress and a high score is the goal. This game quickly becomes difficult and requires an active mindset. Holopoint is designed so that only a few determined archers will reach the last wave.\n\nWARNING: THIS GAME GETS INTENSE. REMEMBER TO BREATH AND TAKE BREAKS.",
+        "markdown": false,
+        "developer": "Alzan Studios, LLC",
+        "publisher": "Alzan Studios, LLC",
+        "genres": [
+            "Sports",
+            "Arcade",
+            "Action"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE"
+        ],
+        "tags": [
+            "Under $15",
+            "Fantasy Workouts [Top Fitness]",
+            "offline games",
+            "Holiday Sale 2023 [fitness shelf]",
+            "Archery",
+            "Tag"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 20
+            },
+            {
+                "rating": 2,
+                "votes": 12
+            },
+            {
+                "rating": 3,
+                "votes": 21
+            },
+            {
+                "rating": 4,
+                "votes": 45
+            },
+            {
+                "rating": 5,
+                "votes": 162
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_FEW",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Violence"
+            ],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.alzanstudios.com/",
+        "app_images": {
+            "cover_landscape": "75210395_339775450522343_2069518919070430029_n.png",
+            "cover_portrait": "75572751_1757146397782933_742575389366565900_n.png",
+            "cover_square": "86655526_251457685995106_64308606777580155_n.png",
+            "hero": "39031485_319850625729983_8679403317703760447_n.png",
+            "icon": "75262744_3542766445756734_4784754758928335845_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39001692_2911220255673166_1868043972715037280_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "R1.1.13",
+                "change_log": "Add support for offline play\nMigrate save data to Meta servers"
+            },
+            {
+                "version": "R1.1.08",
+                "change_log": "Garden Update Preview"
+            },
+            {
+                "version": "R1.1.07",
+                "change_log": "Garden Update Preview"
+            },
+            {
+                "version": "R1.0.14",
+                "change_log": "Added credits. Added Ground Boundary option in options menu. Added seasonal effects. Replaced tutorial image with an animation. Rotated world 90 degrees to align with default menu scene orientation. Adjusted Depth Buffer Bounds."
+            },
+            {
+                "version": "R1.0.13",
+                "change_log": "•\tIncreased render scale on Quest 2 for greatly improved visuals.\n•\tAdded Time Trial mode and Achievements.\n•\tChanged material on debug menu to be dark themed.\n•\tEnabled AA system for improved visuals on Quest across the board.\n•\tIncreased PLAYER_TAKE_DAMAGE sound effect volume.\n•\tTurned on dynamic Fixed Foveated Rendering to dynamically balance framerate with resolution.\n•\tUpdated handedness check to set the active controller to the one that pulled the trigger last.\n•\tChanged checkpoint unlock waves to be one greater so all prior waves must be cleared before progressing to a checkpoint.\n•\tFixed bug with Linkers` Links remaining linked to objects that respawn on the same frame they are destroyed\n•\tFixed bug where Linkers` Links would link to the center of the dojo's floor if the target they linked to was destroyed the same frame the link was formed.\n•\tUpdated engine version for internal bug fixes.\n•\tChanged Mip Map Aniso Level to reduce noticeable blur on environmental textures.\n•\tChanged Mip Map filter from Box to Kaiser to render sharper details on environmental textures.\n•\tRemoved instance of identical vertices in environmental model to remove z-fighting.\n•\tFixed bug where Linkers would link together before their models became visible.\n•\tFixed bug where Linkers would flash on screen for one frame about half a second before they appear. \n•\tFixed issue with left trigger events being duplicated.\n•\tSpaced data loading over multiple frames to reduce the time loading takes per-frame.\n•\tExtending scene transition time to help cover initialization delays."
+            },
+            {
+                "version": "R1.0.7",
+                "change_log": "Fixed issue with leaderboard updates causing frame drops. Changed player placement on leaderboard."
+            },
+            {
+                "version": "R1.0.3",
+                "change_log": "Post Release Update. Added Social Leaderboards"
+            },
+            {
+                "version": "R1.0.0",
+                "change_log": "QA Final Build"
+            },
+            {
+                "version": "b1.0.0",
+                "change_log": "Updated wave settings to better balance difficulty between waves\nChanged build to beta version code"
+            }
+        ],
+        "keywords": [
+            "Archery",
+            "Hologram",
+            "Wave",
+            "Arrow",
+            "Quiver"
+        ],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 260,
+        "rating": 4.219231,
+        "weighted_rating": 4.11,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

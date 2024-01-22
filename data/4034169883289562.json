@@ -1,0 +1,190 @@
+{
+    "data": {
+        "id": "4034169883289562",
+        "name": "On Target VR Darts",
+        "app_name": "On Target VR Darts",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "GAMES",
+        "release_date": "2021-07-30T00:00:00",
+        "description": "The ultimate darts simulation, now with Meta Avatars and Multiplayer! 6 game modes including Cricket, along with 5 AAA quality rooms to play in. Experience the pinpoint accuracy of Quest while challenging your friends online in games of 501, 301, Cricket and 4 player Freethrow.\n\nShow off your fully customized darts by choosing from dozens of tips, barrels, shafts and flights. Create hundreds of combinations in our Dart Customization menu, including a Glow in the Dark set of each part!\n\nSingle Player mode includes Cricket, 501, 301, and Around the world, all vs AI, as well as Freethrow and Speed Darts modes to get you warmed up. Gain achievements, and challenge players from around the world for top spot on one of our many Leaderboards.\n\nPlay in one of five beautifully rendered AAA quality scenes including the Black Hat Tavern, the Tournament Arena, Basement Rec Room, and a Brutalist Default Room that also has a Glow in the Dark theme.\n\nSee you in the Tavern!",
+        "markdown": false,
+        "developer": "Colugo Productions Inc.",
+        "publisher": "Colugo Productions Inc.",
+        "genres": [
+            "Sports",
+            "Casual",
+            "Simulation"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User",
+            "Multiplayer",
+            "Co-op"
+        ],
+        "languages": [
+            "English",
+            "Chinese (China)",
+            "Dutch",
+            "French (France)",
+            "German",
+            "Japanese",
+            "Korean",
+            "Polish",
+            "Russian",
+            "Spanish (Spain)",
+            "Ukrainian"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 6
+            },
+            {
+                "rating": 2,
+                "votes": 2
+            },
+            {
+                "rating": 3,
+                "votes": 3
+            },
+            {
+                "rating": 4,
+                "votes": 7
+            },
+            {
+                "rating": 5,
+                "votes": 20
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [
+                "Alcohol Reference"
+            ],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "https://colugoproductions.com/index.php/otvrd/",
+        "app_images": {
+            "cover_landscape": "38982466_210867180465815_731754803673203395_n.png",
+            "cover_portrait": "38974676_443590860073321_1543812190646194733_n.png",
+            "cover_square": "38974444_326829925530983_5677868618977127178_n.png",
+            "hero": "38974561_3047441912205871_7764754560602118156_n.png",
+            "icon": "38982526_132070522166625_8926288115218629009_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39031613_4165392783495663_2442638352413047922_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "1.5.5",
+                "change_log": "v1.5.5.564 (January 8, 2024)\n- Fixed: Player Prefs was setting Dart Throw Power to 1 after reset\n- Added tooltips to menu system\n- Added 'Reset Player Pref and Exit' button to main menu (use this if the main scene won't load).\n- Updated descriptions of Lobby menu options."
+            },
+            {
+                "version": "1.5.4",
+                "change_log": "v1.5.4.563 (January 7, 2024)\n- Happy New Year!\n- Pushed v1.5.4 Hands Beta release to public release channel\n- New Lobby scene allows players to choose between Controller and Hands modes\n- New Hands (Beta) mode in single player with all scenes. Pinch with left hand for in game menu.\n- Updated player prefs for scene loading. Last scene will load on next boot.\n- Upgraded Meta XR SDK to v60, and Meta Avatar SDK to v24.\n- Quest 3 refresh rate set to 90hz and render scale increased to 110%.\n- Added 'Reset Prefs' button in Settings to clear player prefs and exit game.\n- Fixed intermittent Avatar loading in single player modes. Working on multiplayer bug.\n- Updates to localization text and buttons"
+            },
+            {
+                "version": "1.4.37",
+                "change_log": "v1.4.37.508 (November 25, 2023)\n- Added oche (throw line) to Passthrough scene\n- Code refactor, cleanup and optimizations"
+            },
+            {
+                "version": "1.4.36",
+                "change_log": "v1.4.36.506 (November 23, 2023)\n[Fix] Tournament Scene caused crash due to Webview initialization. \n[Fix] Webview (Youtube Music TV) canvases in all scenes now scale properly and are more legible.\n[Fix] Terms and Settings buttons were unclickable. Both now load the appropriate canvases"
+            },
+            {
+                "version": "1.4.35",
+                "change_log": "v1.4.35.490 (November 19, 2023)\n[Fix] Fixed Passthrough on Quest 3 only showing with a blue hue. Full colour passthrough is really nice!\n[Update] Hand animations now have full range of motions for all buttons, as well as custom dart pose."
+            },
+            {
+                "version": "1.4.33",
+                "change_log": "v1.4.33.477 (November 9, 2023)\n[Bug] Grabbing dart with non throwing hand breaks dart spawning. [Fix] Only one hand can grab the dart. *Handedness can still be switched in Settings.\n[Update] AndroidManifest.xml includes all Meta Quest 2 and above headsets\n[Update] Rendering optimizations"
+            },
+            {
+                "version": "1.4.32",
+                "change_log": "v1.4.32.475 (October 23, 2023)\nBug fix: Updated build settings to allow Quest 3 to fully work"
+            },
+            {
+                "version": "1.4.31",
+                "change_log": "v1.4.31.473 [All Channels] (October 22, 2023)\n- Updated Passthrough scene to default colour scheme"
+            },
+            {
+                "version": "1.4.27",
+                "change_log": "v1.4.27 (April 6, 2023)\n- Added X01 Double Out toggle\n- Players that choose to turn off X01 Double Out will not have stats for or Lowest Thrown in a game.\n- Added battery power indicator on DartCam canvas with button hint text for battery remaining value\n- General performance updates\n- Added skip button to intro\n- Changed in-game menu button to Left Controller Menu button, instead of Y"
+            },
+            {
+                "version": "1.4.23",
+                "change_log": "v1.4.23 (January 16, 2023)\nBug fix: Passthrough scene working again\nBug fix: Tournament scene TV resolution fixed\nEnabled Mixed Reality capture\nAdded battery power indicator with new hover state to DartCam TV\nPerformance optimizations"
+            },
+            {
+                "version": "1.4.19",
+                "change_log": "v1.4.19 457\nBug fix: Fixed Multiplayer P2 not getting darts for X01 and Cricket"
+            },
+            {
+                "version": "1.4.17",
+                "change_log": "v1.4.17 (June 1, 2022):\n- Updated the DartCam. Move the cam with the right thumbstick, and zoom with the left thumbstick after a throw.\n- Bug Fix: Player flags all stay on and don't switch to the player currently throwing"
+            },
+            {
+                "version": "1.4.15",
+                "change_log": "v1.4.15 (May 1, 2022):\n- Updated new Passthrough scene gfx\n- Halftone dart flight gfx fix"
+            },
+            {
+                "version": "1.4.14",
+                "change_log": "v1.4.14 (April 30, 2022):\n- Added new Passthrough scene"
+            },
+            {
+                "version": "1.4.13",
+                "change_log": "v1.4.13 (April 28, 2022):\n- Added 13 new dart flights, and 11 new aluminum and plastic shaft colour variations\n- Bug Fix: Reset all remote avatars when leaving a room or disconnected\n- Bug Fix: Remote Avatar refresh rate setting lowered to help with 4 player games."
+            },
+            {
+                "version": "1.4.12",
+                "change_log": "v1.4.12 (April 22, 2022):\n- Bug Fix: Meta Avatar now works for Quest 1\n- Removed legacy floating hands\n- Minor sfx updates"
+            },
+            {
+                "version": "1.4.11",
+                "change_log": "v1.4.11 (April 21, 2022):\n- Bug Fix: Leaderboard Global Throws and Multiplayer wins not updating properly\n- Added personal leaderboard stats to the Main Menu\n- Moved Welcome page to Onboarding\n- Meta Avatar stability updates, bug fixes, and performance updates for multiplayer\n- System updates"
+            },
+            {
+                "version": "1.4.10",
+                "change_log": "v1.4.10 (April 15, 2022):\n- System updates\n- Meta Avatar update to v12.0\n- UI graphics bug fixes"
+            },
+            {
+                "version": "1.4.9",
+                "change_log": "v1.4.9 (April 12, 2022)\n- Small update"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": true,
+        "votes": 38,
+        "rating": 3.868421,
+        "weighted_rating": 3.85,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}

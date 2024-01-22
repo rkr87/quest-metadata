@@ -1,0 +1,166 @@
+{
+    "data": {
+        "id": "4121567677901213",
+        "name": "Neotrie VR",
+        "app_name": "Neotrie VR",
+        "type_name": "Application",
+        "appstore_type": "Application",
+        "category": "APPS",
+        "release_date": "2022-05-11T00:00:00",
+        "description": "Neotrie VR enables users to create, manipulate, and interact with 3D geometrical objects and 3D models in general, of several types. It also allows teachers to create VR scenes with activities for their math classes.",
+        "markdown": false,
+        "developer": "Diego Cangas, José L. Rodríguez",
+        "publisher": "Virtual Dor, Universidad de Almería",
+        "genres": [
+            "Educational"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 14
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "age_rating": null,
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "platform": "ANDROID_6DOF",
+        "internet_connection": "REQUIRED",
+        "website": "http://www2.ual.es/neotrie",
+        "app_images": {
+            "cover_landscape": "75422370_254244669572600_7482487428367463595_n.png",
+            "cover_portrait": "75375088_827645247937504_3386056112225328116_n.png",
+            "cover_square": "39003242_242626007697552_2041785091865984742_n.png",
+            "hero": "39031330_798822824138600_8986526436315774306_n.png",
+            "icon": "39035370_373583247456937_2469820163147761836_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39035337_371692344311986_1341029909919816937_n.png"
+        },
+        "translations": [],
+        "changelog": [
+            {
+                "version": "4.6.3",
+                "change_log": "Implemented label “Formula” allowing operations with entries other labels.  For this, write in the new label the following text to make the sum of the values on labels e1 and e2:\n\n [Formula= <label=e1>+<label=e2>]\n\nIntersection of STLs and parametric surfaces, available in multiplayer mode.\nNew level curves shown option in the 3d Graphing calculator.\nNew conics tool (advanced license).\n\nFixed bug on saving and loading hidden green points.\nFixed bug on saving and loading points with interpolation."
+            },
+            {
+                "version": "4.6.2",
+                "change_log": "Intersection of figures improved.\nIntersection of STL/Obj improved.\nIntersection of formulas from the 3d graphing calculator improved."
+            },
+            {
+                "version": "4.5.9",
+                "change_log": "New activities available on the website are automatically updated.\nImproved touching of the universal menu buttons.\nFixed bug on loading older files.\nFixed bug on saving files with labels.\nFixed bug on loading clones with labels."
+            },
+            {
+                "version": "4.5.7",
+                "change_log": "Loading pictures, videos, STL/OBJ objects, etc. synchronized in multiplayer mode.\nFixed bug on loading older files."
+            },
+            {
+                "version": "4.5.3",
+                "change_log": "Extrusion with both hands improved to change size. \nUnlink tool with figure option synchronized in multiplayer mode. \nLoading labels of type <button loadfile=...> synchronized in multiplayer mode.\nPasting figures synchronized in multiplayer mode.\n\nWe are working so that the next version will be able to pass neot files, STL, photos, videos, etc. in multiplayer mode. Please stay tuned. In the meantime if you find bugs, let us know."
+            },
+            {
+                "version": "4.5.2",
+                "change_log": "Fixed bug on moving figures with green points.\nImproved rotations with hidden vertices.\nCan_Edit_Labels boolean added in other settings. \nFixed bug loading labels attached to mathitems.\nLoading Neot files and copying figures with hidden elements appear now  hidden."
+            },
+            {
+                "version": "4.5.1",
+                "change_log": "Version work in progress. Some moves of figures can fail."
+            },
+            {
+                "version": "4.4.9",
+                "change_log": "Clones are loaded in multiplayer mode.\nFixed bug on saving and loading neot files with config.\nFixed bug in fractal tool.\nFixed bug in scaled copy tool.\nIncluded scale copy tool in beginner license for testing.\nIf vertices are hidden, figures appear with hidden vertices when copied or uploaded.\nFixed bug on introducing decimal numbers with “,” or “.”."
+            },
+            {
+                "version": "4.4.7",
+                "change_log": "New scrollbar in the menus.\nFixed bug on teleporting to a place.\nFixed bug on deleting objects STL, OBJ, photos, drawings, etc. in multiplayer mode.\nFixed bug on copying objects in multiplayer mode.\nFixed bug on moving drawings in multiplayer mode.\nFixed bug on button down in scale copying tool.\nFixed bug on loading labels assigned to Mathitems and objects.\nAllowed flying speed to be 0.\n"
+            },
+            {
+                "version": "4.4.4",
+                "change_log": "Minor corrections"
+            },
+            {
+                "version": "4.4.3",
+                "change_log": "Jump angle of the rotation tool works with keyboard.\nSelection tool changed to only yellow.\nFixed bug when downloading STL objects.\n"
+            },
+            {
+                "version": "4.4.2",
+                "change_log": "Fixed bug: Fractals.\nFixed bug loading files with STLs."
+            },
+            {
+                "version": "4.4.1",
+                "change_log": "Fixed bug: Free drawings synchronize well in multiplayer mode.\nFractal too is under recovery.\nBe aware that all players in a lobby must be active during the synchronization.\n"
+            },
+            {
+                "version": "4.4.0",
+                "change_log": "Fixed bug importing STL internally.\nFixed bug on the eraser tool.\nFixed bug on the scale copy tool.\nImproved player joystick rotation.\nNew activities in the box of the Erasmus project Geometrician’s Views. For that “clear activities” and download.\n"
+            },
+            {
+                "version": "4.3.9",
+                "change_log": "Trails of points and edges(with the loci pencil) synchronized in multiplayer mode.\nFixed bug when releasing objects.\nFixed bug loading labels assigned to MathItems.\nLabels assigned to images, videos, sounds, drawings, 360 balls, etc., are saved and loaded in Neot files.\nSave and load 360 environment pictures on 360 balls in Neot files."
+            },
+            {
+                "version": "4.3.6",
+                "change_log": "4.3.6 \nImportant bug fixed: using tools and hand actions.\nFixed bug on copy tool.\nFixed bug on calculus of volumes.\nFixed bug on label tool.\nFixed bug on scaling objects with both hands.\nAdded restrictions on scaling of figures in the axis of coordinates (advanced).\n"
+            },
+            {
+                "version": "4.3.5",
+                "change_log": "Fixed bug on copy tool.\nFixed bug on calculus of volumes.\nFixed bug on label tool.\nFixed bug on scaling objects with both hands.\nAdded restrictions on scaling of figures in the axis of coordinates (advanced).\n"
+            },
+            {
+                "version": "4.3.3",
+                "change_log": "Fixed bug: Division tool works well again.\nFixed bug: Information of figures length, area and volume is shown.\nFixed bug: Creating point extrusions\nBug: Rotation and grabbing of big figures is slow.\n"
+            }
+        ],
+        "keywords": [],
+        "has_ads": false,
+        "sensor_req": false,
+        "is_demo_of": null,
+        "on_rookie": false,
+        "votes": 14,
+        "rating": 5.0,
+        "weighted_rating": 3.98,
+        "is_available": true,
+        "is_free": false
+    },
+    "errors": []
+}
