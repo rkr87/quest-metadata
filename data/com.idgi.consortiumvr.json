@@ -89,6 +89,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.1.36",
+                "change_log": "\"CONSORTIUM VR / Remastered: Final BETA 3 (v0.1.36)\n\nMAJOR IMPROVEMENTS:\n\nMusic:\n-2 NEW ambient music tracks now can be heard during the early “Meet The Crew” section. Starts when entering the Hangar Bay for the first time.\n-Various key narrative events that had no score previously are now scored. \n-Missile Defense: If Kiril is killed, new music is heard during the Missile Defense battle.\n-New King Convo now has ambient music.\n\nZenlil Missile Defense:\n-AI can now escalate difficulty during play based on player killing too many fighters with the laser\n-Targetting visualization drastically improved. Stands out better on all backgrounds and missiles VS fighter reticles look more distinct now.\n\nFIXES:\n\n-Choreo fixes (more arms going through chair) and gesture additions to K15’s \"be ready to assist Rook 9 in defending this ship\" bit.\n\n-Fixed issue where F35s in Missile Defense would always be destroyed if shot with laser - now have to laser them for a full second as it should be.\n\n\nTWEAKS:\n\n-Various dialog tweaks throughout the game based on feedback\n\n\nIMPROVEMENTS:\n\n-Lines for starting a convo with an NPC (”Hey there” and “Hello”) now have more variation and include using the person’s title to get their attention. (***feedback requested and welcome for this***) \n-Info Console: ~25 articles updated and improved. 3 “breaking news” articles revised.\n-Updated choreo and fixed “K15 arm through chair” glitch in pre-surrender K15 convo \n-World Clock Times tuned to be more realistic\n-VT tutorial Basic Training level: Removed the \"completed tutorial\" mode for Basic Training that spawned endless baddies if players finished the scenario - only served to confuse and is now depracated by all the other new VT scenarios. Means that Basic Training can now be repeated.\n-Fixed dialog line where R25 talked about hostages where there are none in Basic Training\n-Removed unnessary stats from VT Basic Training scoreboard\""
+            },
+            {
                 "version": "0.1.35",
                 "change_log": "\"v0.1.35  IMPROVEMENTS:\n- Ending flow work\nFIXES:\n- Fixed common crash on Quest devices\""
             },
@@ -163,10 +167,6 @@
             {
                 "version": "0.1.15",
                 "change_log": "\"\nCVR BETA v0.1.15 \n\nFIXES:\n-Fixed CRASH that happened when dying in the VT while holding a CEAR\n-Fixed overlapping text on disclaimer screen.\n-Fixed CivDef3 loading an empty level.\n\nIMPROVEMENTS:\n-Many improvements to various conversations in the last half of the stream.\n- Now showing \"No PCU\" when trying to recycle something with no PCU.\n- FULL UTIL or NO PCU indicator calls added for utility rechargers\n- Removed area alpha parts around the character silhouette on the utility arm\""
-            },
-            {
-                "version": "0.1.14",
-                "change_log": "\"CVR BETA v0.1.14 \n\nFIXES:\n\nC3800 Defense Minigame:\n-Fixed Wade CMC feedback lines not playing during fending off Homeless  Merc fighters.\t\n\nTWEAKS:\n\n-Disclaimer text updated.\n\n\nIMPROVEMENTS:\n\n-Changed the text that overlays the intro dream connection sequence to instead be accurately reflective of the iDGi-1 host connection process.\n\n-The introductory Wade conversation in the cockpit has been fixed up to be less awkward, more fluid, and now ALL players are able to ask about what Wade does. The “More Options” thing is gone for good.\n\n-Wade’s lines will no longer overlap when he is kicking the player out of the cockpit.\n\nC3800 Defense Minigame:\n-Can now hold down trigger when targeting fighters, and EMP missile will fire immediately upon target lock acquiring. \n\nVirtual Trainer:\n-Brand new VT level added (Civilian Defense 3). This is largely still in a test phase of sorts, is not fully playable and is visually not complete.\n-Civilian Defense 2: Soldiers now spawn with weapons - loadouts and soldier strengths changed up. This level should be fully playable and challenging. Would appreciate any and all feedback on this one!\n\n-Polish to the initial Pawn19 reaction to the virus stuff happening.\""
             }
         ],
         "keywords": [],
