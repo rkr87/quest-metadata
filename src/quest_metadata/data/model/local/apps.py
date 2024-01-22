@@ -8,7 +8,6 @@ Classes:
 
 from pydantic import Field, computed_field
 
-from base.lists import UniqueList
 from base.models import BaseModel, RootDictModel
 from data.model.oculus.app_changelog import AppChangeEntry
 from data.model.rookie.releases import RookieRelease
@@ -36,7 +35,6 @@ class LocalApp(BaseModel):
         or None.
     """
     id: str | None = None
-    additional_ids: UniqueList[str] = UniqueList()
     app_name: str
     max_version: int = 0
     max_version_date: int = 0

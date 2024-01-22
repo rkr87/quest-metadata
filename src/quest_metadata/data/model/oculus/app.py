@@ -150,7 +150,6 @@ class Item(BaseModel):
     vote_confidence: ClassVar[float] = 0
 
     id: str
-    additional_ids: list[str] = []
     name: str = Field(validation_alias='display_name')
     app_name: str = Field(validation_alias='appName')
     type_name: str = Field(validation_alias='__typename')
@@ -395,10 +394,8 @@ class OculusApp(BaseModel):
     Model representing the overall details of an Oculus application.
 
     Attributes:
-    - package (str | None): The package name of the application.
     - data (Item): The details of the application.
     - errors (list[Error]): List of errors in the application.
     """
-    package: str | None = None
     data: Annotated[Item, Field(validation_alias=AliasPath("data", "item"))]
     errors: list[Error] = []
