@@ -42,8 +42,7 @@
         "platforms": [
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -78,7 +77,7 @@
             },
             {
                 "rating": 5,
-                "votes": 593
+                "votes": 598
             }
         ],
         "comfort": "NOT_RATED",
@@ -107,6 +106,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.83",
+                "change_log": "Pause Menu 2.0"
+            },
             {
                 "version": "1.83",
                 "change_log": "TG Hotfix Release"
@@ -162,10 +165,6 @@
             {
                 "version": "1.74",
                 "change_log": "Improvements / Content Update\n\n- 2022 Holiday Draw\n- AI can't be stunned by weapons while attacking, prompting you to parry\n- AI attacks less often, but moves around more\n- General performance improvements\n- Some Holiday decorations added\n\nBug Fixes\n\n- Fixed some weapon item descriptions in shop\n- Permadeath failed to delete certain progress\n- Some languages were unable to see some text\n- Doomfist could fail to kill enemies in certain situations\n- Skin color failed to load correctly on VR hands\n- Horde map failed to load on some platforms"
-            },
-            {
-                "version": "1.73",
-                "change_log": "Hotfix\n\n- Improved hit detection"
             }
         ],
         "keywords": [],
@@ -173,8 +172,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 1011,
-        "rating": 4.11276,
+        "votes": 1016,
+        "rating": 4.117126,
         "weighted_rating": 4.09,
         "is_available": true,
         "is_free": false

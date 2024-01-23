@@ -60,7 +60,7 @@
             },
             {
                 "rating": 5,
-                "votes": 45
+                "votes": 46
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -116,6 +116,10 @@
         ],
         "changelog": [
             {
+                "version": "1.1.0",
+                "change_log": "1.1.0\n\n- Add difficulty options!\n -- When you start or continue your Adventure, you can select which difficulty you want to play the game!\n -- There are 4 difficulty options, Story, Easy, Normal and Hard. Details about each mode can be seen on the Adventure menu\n -- We are still going to be fine tuning the difficulties, so do give us your feedback\n\n- Fixing dialogue at end of Kamney Belt (2a):\n -- We received some reports that people are getting incorrect dialogue after shooting down the enemy scanning ship\n -- We've tried to improve this but there's still some edge cases we need to fix, so expect another patch soon to further improve this\n\n- Fixed some miscellaneous Achievements not unlocking\n\n- Reverted the seasonal Christmas cockpit theming\n\n- Added QA playtester names to the game credits"
+            },
+            {
                 "version": "1.0.1",
                 "change_log": "Christmas Update!\nAlso make escaping from Okamahina more consistent\nAnd some other bug fixes"
             },
@@ -135,9 +139,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 69,
-        "rating": 4.391304,
-        "weighted_rating": 4.06,
+        "votes": 70,
+        "rating": 4.4,
+        "weighted_rating": 4.07,
         "is_available": true,
         "is_free": false
     },

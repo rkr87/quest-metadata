@@ -29,8 +29,7 @@
         "platforms": [
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING",
@@ -55,7 +54,7 @@
             },
             {
                 "rating": 3,
-                "votes": 13
+                "votes": 14
             },
             {
                 "rating": 4,
@@ -92,6 +91,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.4.7",
+                "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nVERSION 2.4.7\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nNew Swing Sensitivity Control\nPaddle Settings now offers a \"Swing Sensitivity\" slider of Low, Medium, and High. Use \"Low\" if you like to take longer, or larger swings, use \"High\" if you prefer flicks, or faster chops (like when volleying at the net), and use \"Medium\" if you want the best of both worlds.\n\nOption for Auto-Mute Microphone and Auto-Mute Other Players\nWe heard you - users can now choose to Auto-Mute their own microphones or Auto-Mute other players in Multiplayer as a default setting. This setting is kept under \"Multiplayer Settings\" and can be overridden in-game through the Match Details audio sliders.\n\nMultiplayer - Add friends any time\nYour unique and private User Code is displayed on the profile page and can be shared along with your username to allow others to add you as a friend any time.\n\nEasier Fist Bumps!\nWe heard you - you can initiate a fist bump with your partner by simply holding down the trigger and grip buttons simultaneously when you're not serving. Fewer buttons, more fist bumps!\n\nTraining & Fitness - Training Results Viewer Improvement\nWe heard you - after completing a training session, your detailed visual statistics will be displayed first instead of the summary, and the appropriate shot category will be expanded and highlighted.\n\nPaddle Slaps - Reduced Sound Effect Volume\nWe heard you - when you initiate the Paddle Slap (by both partners extending their paddle arm straight at each other), the resulting sound effect has been reduced.\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nBUG FIXES\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nBug - Fixed issue where player may not be logged in to the game and stuck in a loading screen.\n\nBug - Game got stuck at \"Ready Page \" when a player left after clicking on Play Again in \"1vs1\" public game.\n\nBug - \"Match Played\" statistics are no longer adjusted for spectators.\n\nBug - Resolved several issues related to offline play.\n\nBug - Several UI and backend issues have been resolved.\n\nMultiplayer - Scoreboard now updates properly for spectators.\n\nMultiplayer - Player name display is now consistent across name tags, scoreboard and friends list."
+            },
             {
                 "version": "2.2.4",
                 "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nVERSION 2.2.4\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\n\nNew court  - Gym\nWe heard you - we've added the \"Gym\" court for you to enjoy in single player and multiplayer modes.\n\nCourt upgrade - New \"Festival Mode\" in Forest\nLight up the night in the Forest court by toggling on \"Festival Mode\" using the left-hand controller menu button.\n\nCasual Mode enhancement -  Send AI players back to the baseline\nSend your AI players back to the baseline by pressing the Y button during casual play mode in single or multiplayer.\n\nNew feature -  Paddle rotation\nWe heard you - when you're using the \"Default\" grip setting, hold the paddle-hand grip trigger and tilt the thumbstick left and right to rotate the paddle.\n\nNew grip attachment support - VirtualPrintality VR Sports Grip Adapter (Meta Quest 3) \nUnder Paddle settings, we have added a grip preset for VirtualPrintality VR Sports Grip Adapter for the Meta Quest 3.\n\nNew grip attachment support - SolidSlime Adapter (Meta Quest 3) \nUnder Paddle settings, we have added a grip preset for Solid Slime Adapter for the Meta Quest 3.\n\nNew DLC court + paddle package -  Frostbite Field\nEscape into a winter wonderland surrounded by glacial rocks and ice flows with the Frostbite Field DLC court. Toggle on \"Festival Mode\" using the left-hand controller menu button. This DLC also includes two Frostbite-themed paddles (Tundra Tapper & Snowy Beak).\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nBUG FIXES\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\n\nBug - Fixed AI being put on wrong side of court at end of match.\n\nBug - Fixed player’s paddle being changed when they join a match.\n\nMixed reality (MR) - Fixed MR issues related to UI such as setup instructions spawning behind the player.\n\nMultiplayer - Fixed spectators not being returned to their selected region after leaving multiplayer.\n\nMultiplayer - Fixed player unable to return to menu after losing connection in a multiplayer game.\n\nUser Interface - Fixed kitchen highlight not lining up properly with court lines.\n\nUser Interface - Server tag popup not always going away on AI player.\n\nUser Interface - Fixed player's physics difficulty being set incorrectly when entering a Pro-only match."
@@ -150,8 +153,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 117,
-        "rating": 4.145299,
+        "votes": 118,
+        "rating": 4.135593,
         "weighted_rating": 4.0,
         "is_available": true,
         "is_free": false

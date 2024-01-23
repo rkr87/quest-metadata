@@ -83,6 +83,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "6.3.2",
+                "change_log": "Lesson Path View UI Update"
+            },
+            {
                 "version": "6.3.1",
                 "change_log": "XR Interaction Overhaul for Hand Tracking!"
             },
@@ -149,10 +153,6 @@
             {
                 "version": "5.10.9",
                 "change_log": "Welcome to Virtual Playbook v5.10.9! Here are our latest changes:\n\nFeatures:\n  - [Practice] Extended Practice \"Bullet Time\" to occur for more scenarios\n  - [Practice] Improved the feel of the Drive camera view\n\nBugfixes:\n  - [General] Fixed text formatting in various places\n  - [Networking] Fixed a bug where Clients could experience an error if the Host selected a play the Client doesn't have\n  - [Practice] Fixed a bug where grades would be scored with the wrong actions\n  - [Practice] Fixed a bug where Actions could be graded multiple times, resulting in failure\n  - [Practice] Fixed a bug where player paths would be visible when they shouldn't be"
-            },
-            {
-                "version": "5.10.8",
-                "change_log": "Welcome to Virtual Playbook v5.10.8! Here are our latest changes:\n\nBug fixes:\n - Bugfix for crash if loading a modal multiple times while transitioning\n - Player labels properly show superscripts\n - After practice ends, ball is properly placed at final position\n - Camera views menu no longer layers underneath the menu buttons\n - [Networking] Custom courts loaded over network no longer lag behind by 1\n - [Networking] Observe window no longer shows UI\n - [Networking] Fix for client crash when another client joins\n - [Networking] Increased timeout\n - [Networking] Fix crash when opening a second client's observe window (or re-opening after disconnect)"
             }
         ],
         "keywords": [],
