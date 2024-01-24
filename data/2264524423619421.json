@@ -112,6 +112,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.7.4",
+                "change_log": "- fixed an issue where index and thumb would sometimes deform when switching to controllers and back to hand tracking"
+            },
+            {
                 "version": "1.7.3",
                 "change_log": "- support for MR loading screen on Quest 3\n- replaced 'hand overlay' option in Mixed Reality settings with 'hand style', adding a style which removes hand outlines.\n- improved readability of Settings and Puzzle Editor menus in MR\n- show arrow symbol between hands when moving play area around while making fists\n- fix issue where loading a corrupted save file isn't handled well\n- fixed issue where puzzle pieces could be clipped through the floor and walls in MR"
             },
@@ -162,10 +166,6 @@
             {
                 "version": "1.2.7",
                 "change_log": "- fixed an issue where only one song would play in continuous music mode\n- fixed an issue where the game would lock up if the player variables save file was corrupted\n- small performance improvements to the menu"
-            },
-            {
-                "version": "1.2.3",
-                "change_log": "fix where music fill only fade out when the last piece of a puzzle will actually fit"
             }
         ],
         "keywords": [

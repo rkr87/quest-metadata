@@ -82,6 +82,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.1",
+                "change_log": "- Added Watchlist inside server so you can search watchlist across libraries\n   (Note that watchlist only works for known movies, not TV show episodes)\n- Added 3D props, including sofa and cinema scenes\n- Fixed TV show thumbnail resolution\n- Centered browser title\n- Hid watchlist icons for series since it isn't supported by Plex"
+            },
+            {
                 "version": "2.0",
                 "change_log": "-Added to the movie info page: director name, genres, actor list, runtime, rating icons\n-Added ability to view and set user rating on movie info page\n-Added universal watchlist support\n-Added ability to mark as watched/unwatched\n-Added filters for watchlist, unwatched, and ratings\n-Added viewing offset to thumbnails\n-Playing any video now resumes where you left off\n-Reduced app size further\n-Added Season, Episode, and Year to posters in browser\n-Sped up browser and cleared up images\n-Fixed bug where thumbnails wouldn't load all the time\n-Fix other minor bugs"
             },

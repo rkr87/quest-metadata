@@ -46,7 +46,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 100
+                "votes": 101
             },
             {
                 "rating": 2,
@@ -62,7 +62,7 @@
             },
             {
                 "rating": 5,
-                "votes": 701
+                "votes": 702
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -90,6 +90,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.10.9",
+                "change_log": "- Added Tidal integration\n- Added ability to refresh folders for streaming services\n- Fixed Beatport/Tidal playlists scrolling for large playlists \n- Added copyright notices in music/streaming menus\n- Small Bug Fixes"
+            },
             {
                 "version": "0.10.8",
                 "change_log": "+Visual Packs\n+Custom Skins for Vinyl and Starter Decks\n+Hot Cues displayed on all Waveforms\n+Various Bugfixes"
@@ -165,10 +169,6 @@
             {
                 "version": "0.10.2",
                 "change_log": "- Monstercat: Download 100 new Monstercat tracks\n- Dropbox: Load your own tracks via Dropbox\n- Onboarding: Learn the basics with the new onboarding experience\n- Mentor profile pages: See the mentors' events on their new profile pages\n- Streaming track BPM: See the track BPM and jam along in the video call \n"
-            },
-            {
-                "version": "0.10.1.1",
-                "change_log": "- Added POV camera for showing first person perspective in video calls (press 6 or select in Visuals menu)\n- Fixed RTMP streams not working without Twitch also being active\n- Fixed hot cue and other position changes failing for synced decks without a valid playing master\n- Fixed the recording audio button changing to white after the first recording"
             }
         ],
         "keywords": [
@@ -181,8 +181,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 1004,
-        "rating": 4.283865,
+        "votes": 1006,
+        "rating": 4.281312,
         "weighted_rating": 4.24,
         "is_available": true,
         "is_free": true

@@ -66,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 235
+                "votes": 236
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -97,6 +97,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.0.61",
+                "change_log": "Fixes\n\nSave names are now translated when changing the game language.\nFixed an issue with player-client teleportation during multiplayer inside a boat.\nResolved occasional crashes on Oculus Quest 3 when exiting the boat.\nFixed an issue where a duplicate player would appear when using periscope view.\n\nAdjustments\n\nAdd rotation of the pin used to select the boat emblem.\nImproved AI for aircraft, allowing them to attack players at periscope depth.\nThe sound of deck cannon fire now aids in player detection.\nEnhanced draw distance for many objects inside the boat.\nFixed the snapping box issue on the ladder in a kiosk.\nAdjusted the spawn of armed units in convoys detected using radio.\nCorrected the display of a ping value of 0 for clients during multiplayer.\nAdded regions selection for players from different parts of the world.\nAdded a message about an outdated game version.\n\n"
+            },
+            {
                 "version": "1.0.51",
                 "change_log": "- improved detection of convoys by hydrophone \n- water noise muting in the hydrophone\n- improved detection of our boat by opponents \n- Improved the accuracy of the opponents during high acceleration of the game time \n- improved parameters for the automatic release of objects\n- improved the grip of objects when moving around the boat \n- changed the resolution scaling parameters in the game engine \n- added content to credits list\n- added more level of detail of objects on the boat\n- added collisions on objects in Avatar Shop \n- added an security feature to multiplayer - a six-digit code\n- corrected display of texts in the main menu�\n\n\n- fixed problems with VoIP, players should always be able to hear each other when joining a server \n- fixed bug in the ability to invite other players to play together via oculus systems \n- fixed a bug with the incorrect display of the player list in the multiplayer settings tab of the server during multiplayer play \n- fixed a bug causing opponents in random convoys not to spawn after using FTM \n"
             },
@@ -116,9 +120,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 329,
-        "rating": 4.361702,
-        "weighted_rating": 4.23,
+        "votes": 330,
+        "rating": 4.363636,
+        "weighted_rating": 4.24,
         "is_available": true,
         "is_free": false
     },

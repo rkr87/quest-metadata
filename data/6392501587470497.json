@@ -86,6 +86,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.0.5",
+                "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes\n\n--1.0.4--\nClean up cache files to not unnecessarily use up disk space\n\n--1.0.5--\nPerformance improvements allowing us to run at a higher resolution\nFixed another number formatting crash that had snuck back into the product"
+            },
+            {
                 "version": "1.0.3",
                 "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes"
             },
