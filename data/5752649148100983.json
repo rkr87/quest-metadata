@@ -86,6 +86,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.1.33.2",
+                "change_log": "1) Bug Fixes:\n\t• Fixed issue causing incomplete error logging\n\t• Fixed issue causing incorrectly saved data to break the game.\n\t• Improved YUR watch stability.\n\t• Fixed bug causing glove, target, and obstacle names to not display in some custom environments.\n\t• Fixed issue allowing players to edit the current environment when there isnt one set resulting in errors being thrown.\n\n2) User experience improvements.\n\t• Added Song score display. Currently this only works on songs downloaded  this update or later however re-downloading existing songs will update them."
+            },
+            {
                 "version": "0.1.33.1",
                 "change_log": "1) Bug Fixes:\n\t• Improved custom content page scrolling stability.\n\t• Fixed online scores displaying incorrectly.\n\t• Greatly improved custom song downloading.\n\t• Added additional precautions to prevent getting stuck on loading songs.\n\n2) User experience improvements.\n\t• Added BPM, Recently Downloaded, and Song Score sorting options.\n\t• Updated scrollbars throughout UI to have the same look.\n\t• When Shadow BoXR encounters an error, it will now either prompt players to send error logs to 3PupperStudios LLC or if players have agreed to do so already, automatically send the logs."
             },
@@ -160,10 +164,6 @@
             {
                 "version": "0.1.20.1",
                 "change_log": "Fixed issue causing creating custom workouts to add duplicate and remove duplicate songs."
-            },
-            {
-                "version": "0.1.20",
-                "change_log": "Fixed bug causing community content to display the wrong thumbnail when scrolling.\n\n\nPlayers are now able to set desired Target Side Mode during profile creation. Existing profiles that have not set that are now prompted to upon selection.\n\n\nInput fields now activate system keyboard instead of the custom one previously used.\n\n\nHands and laser pointers are hidden when game loses focus during keyboard or by pressing the system button."
             }
         ],
         "keywords": [],

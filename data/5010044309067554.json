@@ -84,6 +84,10 @@
         "changelog": [
             {
                 "version": "6.3.2",
+                "change_log": "Niche Interaction Bugfixes"
+            },
+            {
+                "version": "6.3.2",
                 "change_log": "Lesson Path View UI Update"
             },
             {
@@ -149,10 +153,6 @@
             {
                 "version": "5.10.10",
                 "change_log": "Welcome to Virtual Playbook v5.10.10! Here are our latest changes:\n\nFeatures\n  - Film Room - attach film URLs to plays and view them in Virtual Playbook\n  - Playlist Quiz tiles show your score when completed\n\nBugfixes\n  - [Practice] Paths corrected to no longer display as a \"dot\" beneath player\n  - [Practice] You can stop a passing motion by releasing the joystick near the center\n  - Ball resets between quizzes in a playlist quiz\n  - Ball resets between plays when using \"Watch Playlist\"\n  - Drawing palette appears when court drawing is enabled\n  - Restored ability to pass the ball in 1st person practice mode"
-            },
-            {
-                "version": "5.10.9",
-                "change_log": "Welcome to Virtual Playbook v5.10.9! Here are our latest changes:\n\nFeatures:\n  - [Practice] Extended Practice \"Bullet Time\" to occur for more scenarios\n  - [Practice] Improved the feel of the Drive camera view\n\nBugfixes:\n  - [General] Fixed text formatting in various places\n  - [Networking] Fixed a bug where Clients could experience an error if the Host selected a play the Client doesn't have\n  - [Practice] Fixed a bug where grades would be scored with the wrong actions\n  - [Practice] Fixed a bug where Actions could be graded multiple times, resulting in failure\n  - [Practice] Fixed a bug where player paths would be visible when they shouldn't be"
             }
         ],
         "keywords": [],
