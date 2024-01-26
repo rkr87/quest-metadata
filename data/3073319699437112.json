@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 112
+                "votes": 113
             },
             {
                 "rating": 5,
-                "votes": 891
+                "votes": 893
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -94,6 +94,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.5",
+                "change_log": "Version 1.5 Release Notes:\nAdded:\nTwo new haven names in honor of our Adventurers of the Month\n\nChanged:\nSeason pass poster end date updated to March 2024\nGame servers rewritten to not depend on Unity, please let us know if you have issues\nLosing a tutorial battle no longer forces you to replay that battle\nRenamed subscribe buttons to monthly, quarterly, and yearly\n\nFixed:\nBlocked players hands becoming visible if they opened the Meta menu\nBlocked players props being visible when spawned\nNot being able to remove duplicate friends in the social menu\nQuill particles sometimes persisting in the haven\nRank decay documentation saying it happens at Platinum, when its actually at Gold II\nSoftlock when a creature dies before triggering its Entrance ability\nBeing able to do double discards when an ability only allowed one discard\nRioting Insider not moving to your opponents side when played\nShredder Beast putting cards in the Graveyard instead of the Reserves when your hand is full\nTombstone Mimic not being able to be stolen with Forceful Acquisition when mimicking a mana cost higher than 8\n\nBalance Changes:\nDungeon Master subtype was renamed to Master\nMonster's Rights Association was renamed to Wild Horde\nOne Man Army attribute renamed to Armored\nAcidic Overlord renamed to Xyron, Acidic Overlord\nAdventurer now has Mercenary Subtype\nAlkar's ability text was altered so Banished is now banished\nAvatar of Peace ability changed to \"Entrance: Give 2 enemy creatures Pacifist\" and now has Multiblocker instead of One Man Army\nBarony Socialite ability changed to \"When you summon a Noble for the first time each turn, Plunder.\"\nBoomstick Ranger now has Mercenary Subtype\nCampaign Prep renamed to Roam the Wild\nCautious Hunting Party ability reworded to \"Summon a Token Copy\" as is new standard.\nCooking the Books Discarded ability changed to \"A random spell in your hand costs 1 less Mana.\"\nCry for Numbers ability changed to \"Move the top 3 Innate creatures from your Deck to your Reserves\" and mana cost is now 3\nCunning Snaremaster now has Mercenary Subtype\nDaring Swindler Enhance ability changed to \"Deathblow / Last Word instead for 1 Coin.\"\nDreaded Corpse-Flinger ability converted to Enrage (Modifier) Keyword\nDreadful Drain ability changed to \"Deal 2 direct damage then gain half that much Life\"\nEquity Enforcer renamed to Serrated Stalker\nGarngian Cutthroat now has Mercenary Subtype\nGelatinous Protestant renamed to Gelatinous Mass\nGoblin Rookie renamed to Goblin\nGlorious Overseer Prepare ability changed to \"Mobilize 2 or less\"\nMercenary Leader now has Mercenary Subtype\nMerchant's Guard now has Mercenary Subtype\nMind Corruptions ability text was altered to \"It is Amped this turn.\"\nMonstrous Recruiter renamed to Monstrous Spore\nMotivational Fervor renamed to Frenzied Fervor\nPact of Non Aggression Condition changed to \"You have 5 or less Life.\"\nParty of the Roaring Mutt ability reworded to \"Summon a Token Copy\" as is new standard.\nPoison Bomb now has Ritual Subtype\nRallying Call renamed to Drakth's Call\nRallying Totem renamed to Totem of Drakth\nRestorative Alchemy ability changed to \"Gain 3 Life and randomly place 3 Life Elixirs into your Deck.\" and now costs 3 Mana.\nRioting Insider renamed to Sporecaster\nRiotous Recruitment renamed to Sudden Onslaught\nRitual of Annihilation is no longer affected by Mastery\nRitual of Annihilation now has Ritual Subtype\nRoyal Filibuster now has Ritual Subtype\nSpring Trap's ability text was altered to \"Tokens are sent to the Graveyard instead.\"\nSpymaster of the Guild now has Mercenary Subtype\nThe Final Spell ability was changed to \"Move all summoned creatures to their owner's Graveyard. Exhaust your Master.\"\nUnion of Monsters renamed to Grow the Horde\nVile Bonesmith ability converted to Enrage (Modifier) Keyword\nWandering Executioner now has Mercenary Subtype\nWings of Vindication buff reduced from +3/+1 to +2/+1 and renamed to Wings of Fury\nZealous Archivist's ability text was altered to \"Aftermath: Regain a random spell from your Graveyard and Banish it when cast.\"\nZealous Ooze ability reworded to \"Summon a Token Copy\" as is new standard."
+            },
             {
                 "version": "1.4.1",
                 "change_log": "Version 1.4.1 Release Notes:\nAdded:\n60 second time limit for redraw phase, it auto accepts after that\nVFX on your deck for when your card hand is full\n\nChanged:\nAbilities that require a selection will now auto select when your turn time ends\nImproved matchmaking to reduce getting matched to the same players repeatedly\nGems can no longer be gifted to players while in the arena\n\nFixed:\nLegit match detection in ranked mode for gold/xp rewards. This applies only to gold/xp rewards, rank will still be adjusted for non-legit battles\nRanked match prompt declined if you were in a battle and that battle ended\nAccepting a ranked match while in a battle failing to start the ranked match\nLosing at skill rating 500 demoting you back to Iron rank\nWeekly rank decay not being able to drop out of Platinum rank\nAltering Fate and Something Wicked Approaches soft-locking if you were at the hand limit\n\nKnown Issues:\nTavern and Arena scenes sometimes loading on top of each other, a restart fixes this\nRioting Insider doesn't automatically move across the table, manually grabbing the creature fixes this"
@@ -157,10 +161,6 @@
             {
                 "version": "0.22",
                 "change_log": "Version 0.22 Release Notes:\nAdded:\nVisual overhaul to most card effects\nSound effects when interacting with doors\nNew accounts can now be created with an email address\n\nChanged:\nUnion of Monsters now allows you to choose the same creature twice\nUpdated the wording on some cards to better reflect how their ability functions\nImproved the timing of effects that were too slow from the previous update\n\nFixed:\nHourglass sometimes not appearing at the start of a battle\nVFX for some card abilities not disappearing at the end of battles\n\nKnown Issues:\nAmped SFX may play when entering the tavern"
-            },
-            {
-                "version": "0.21",
-                "change_log": "Version 0.21 Release Notes:\nAdded:\nIt's the start of a new season! Your previous seasons level is saved, but there is not a way to view it yet\nPurchasing the Season Pass now gives +20% XP until level 100\n3 new outfits (ranger, bard, and cleric)\nStaff props\nD20 props\nEnergized Elemental as a flying pet\nMonstrous Recruiter as a table pet\nDropping weapon and shield props you own over your shoulder will holster that prop on your back. Holstered props cannot be grabbed yet\n\nChanged:\nCards in hand no longer fan out when reaching for a card\nImproved the tavern lighting and removed its yellow hue\nImproved skin, hair, and eye colors. Skin color was reset to default, sorry for the inconvenience\nImproved audio for Plundering Guild creatures\nImproved the VFX for some Plundering Guild cards\nImproved the texture of the animated creature base\nImproved the textures for the D6 and D12 props\nReduced the difficulty of the 4th tutorial battle\n\nFixed:\nCosmic Reanimation's volume"
             }
         ],
         "keywords": [],
@@ -168,8 +168,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 1230,
-        "rating": 4.264228,
+        "votes": 1233,
+        "rating": 4.265207,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": true

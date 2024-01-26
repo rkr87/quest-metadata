@@ -16,7 +16,8 @@
             "Casual"
         ],
         "devices": [
-            "Hand Tracking"
+            "Hand Tracking",
+            "Touch Controllers"
         ],
         "modes": [
             "Single User"
@@ -66,7 +67,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1152
+                "votes": 1154
             }
         ],
         "comfort": "NOT_RATED",
@@ -93,6 +94,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.0.212",
+                "change_log": "Maestri! 🎓​\n\nWe are delighted to announce the release of a new free update!\nWe want to make Culture accessible to everyone, so we have added the option to make the experience fully playable with controllers!​\n\nConcert\n- Updated gameplay score for Verdi - Dies Irae.\n \nSubtitles\n- Added subtitles for the Masterclass and translations for all 10 languages\n- Subtitles can be toggled from the main menu\n \nLocalization\n- Translation fixes in various languages\n- More content was localised (ie: end of concert quotes, game logo)\n\nController support\n- You can now play Maestro: The Masterclass with controllers, and haptics!\n- General bug fixing & improvements\n- Improved audio issue that could cause severe latencies\n- Tweaks to audio effects\n- Tweaks to improve performance\n"
+            },
+            {
                 "version": "0.0.205",
                 "change_log": "Maestri! \nWe're excited to announce a new update for Maestro: The Masterclass. We have some improvements for you!\n\n9 new languages:\n- English\n- Spanish\n- Italian\n- French \n- German \n- Japanese \n- Korean \n- Russian  \n- Chinese (trad./simpl.) \n\nPerformance improvements:\n- Musicians are now rendered at different frame rates giving us some extra performance.\n- HMD state polling optimisation, regular checks such as input validity or whether the headset is being worn are done less often.\n\nBug fixes:\n- Input pop-ups can no longer be displayed during level transitions.\n- Fermata and Dynamics validation conditions adjustments.\n- Audio adjustments throughout the game.\n- Interface anti-aliasing visual improvements.\n\nOther updates:\n- New hand tracking system, with new hand models. \n- The baton is now automatically adjusted based on the hand pose. "
             },
@@ -118,8 +123,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 1252,
-        "rating": 4.865815,
+        "votes": 1254,
+        "rating": 4.866029,
         "weighted_rating": 4.79,
         "is_available": true,
         "is_free": true
