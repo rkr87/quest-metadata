@@ -66,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1594
+                "votes": 1595
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -95,6 +95,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.11.18",
+                "change_log": "Slightly increase default menu size.\nHandle issues when snapgrid and VR cursor wouldn't initialize correctly.\nMinor performance improvements.\nMenu copy updates."
+            },
             {
                 "version": "1.11.17",
                 "change_log": "* Bug fixes around screens and snap grid.\n* Add Quest3 controller models\n* Handle case when Full Body ReadyPlayerMe avatars are used, default to Immersed coin.\n* Localization fixes in friend menu\n* Log upload is now a manual process in Help menu"
@@ -170,10 +174,6 @@
             {
                 "version": "1.10.00",
                 "change_log": "Update UI/UX for MyRoom tab and listing of environments.\nDecrease gap between top and bottom monitors in snap grid and fix issues where move bar would be obscured at certain angles."
-            },
-            {
-                "version": "1.9.99",
-                "change_log": "Add option for one-hand resize on screens. Fix issue where reported users were not removed from the room. Minor UI bug fixes"
             }
         ],
         "keywords": [
@@ -187,8 +187,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 2136,
-        "rating": 4.252341,
+        "votes": 2137,
+        "rating": 4.252691,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": true

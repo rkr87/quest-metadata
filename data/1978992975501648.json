@@ -93,6 +93,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "3.848",
+                "change_log": "build updated"
+            },
+            {
                 "version": "3.847",
                 "change_log": "build updated"
             },
@@ -167,10 +171,6 @@
             {
                 "version": "2.86",
                 "change_log": "Update SculptrVR to take advantage of the better processing on Quest 2. On Quest 2 SculptrVR renders at a much higher resolution, and displays 30% more triangles. In 90hz mode, SculptrVR should automatically reduce the triangle count to maintain framerate.\n\nAlso fix an input bug with the linear motion tools.\n\nTurn off all analytics since I never used them, and I'm too lazy to make a privacy policy for them."
-            },
-            {
-                "version": "2.80",
-                "change_log": "Added Transparent Layers! Switch a layer to be transparent in the layers settings. Now you can add windows and transparent water to your creations!\n\n-Now the player automatically enters screenshot mode when using the camera, so you always get high-detail screenshots."
             }
         ],
         "keywords": [

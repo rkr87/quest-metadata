@@ -86,6 +86,14 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.1.33.3",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again.\n\t• Fixed bug causing \"Latest\" in community songs to not account for user search input."
+            },
+            {
+                "version": "0.1.33.3",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again."
+            },
+            {
                 "version": "0.1.33.2",
                 "change_log": "1) Bug Fixes:\n\t• Fixed issue causing incomplete error logging\n\t• Fixed issue causing incorrectly saved data to break the game.\n\t• Improved YUR watch stability.\n\t• Fixed bug causing glove, target, and obstacle names to not display in some custom environments.\n\t• Fixed issue allowing players to edit the current environment when there isnt one set resulting in errors being thrown.\n\n2) User experience improvements.\n\t• Added Song score display. Currently this only works on songs downloaded  this update or later however re-downloading existing songs will update them."
             },
@@ -156,14 +164,6 @@
             {
                 "version": "0.1.22",
                 "change_log": "1) Super Strike Targets! Some targets will now appear with an additional glow around them. In order to successfully hit them, players are required to strike the targets with much more force. This will help add some additional variance, keep players on their toes, and help improve the workout!\n\n2) Added descriptions to Target Side Mode settings during profile editing.\n\n3) Bug fixes and improvements. \n\t• Fixed bug causing targets to sometimes get repooled prematurely resulting in a registered miss.\n\t• Fixed bug causing some songs to not give the option to select target difficulty.\n\t• Improved feel for striking hooks and uppercuts. Increased collider size slightly resulting in improved hit detection.\n\t• Dodge obstacles now require more movement. They are slightly closer to the middle resulting in requiring the player to move out of the way more.\n\t• Targets appearing during a dodge obstacle will be forced to the opposing hand for a more natural experience."
-            },
-            {
-                "version": "0.1.21",
-                "change_log": "1) Introducing YUR Watch Integration! Track your workouts and gamify getting fit even further!\n\t• Players can access the YUR Watch from their left hand. \n\t• If you are not signed in to YUR, the watch will disappear during gameplay.\n\t• You can disable the YUR Watch from Player Settings.\n\n2) Menu music and sound effects can be changed independently of in game music and sound effects from the settings menu now.\n\n3) Game updates can now be viewed in game. \n\t• Players are notified upon first time playing after updating and can view all updates under the help menu under \"Updates\"."
-            },
-            {
-                "version": "0.1.20.1",
-                "change_log": "Fixed issue causing creating custom workouts to add duplicate and remove duplicate songs."
             }
         ],
         "keywords": [],

@@ -56,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 121
+                "votes": 122
             }
         ],
         "comfort": "NOT_RATED",
@@ -82,6 +82,14 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.4.0",
+                "change_log": "v2.4 \"Prismatic\"\n\nOpen Brush is 3 today! We're celebrating by releasing a new version, packed with tons of new features. We have an even bigger 3.0 release in the works which will add multiplayer, but we wanted to get these features to you as soon as possible!\n\nLocalization\nYou can now use Open Brush in 7 languages:\n- English\n- French\n- Spanish\n- German\n- Chinese\n- Japanese\n- Korean\n\nIf you'd like to help add more languages then please get in touch!\n\nMulti-Mirror\nThe regular Mirror Tool is incredibly useful but for those of you who are interested in symmetry and geometric patterns, you'll find a lot to explore in the new Multi-Mirror Tool.\nIt supports dozens of types of symmetry and has powerful control of color variance for the replicated brush strokes.\n\nXR Keyboard\nDoes your sketches folder contain hundreds of sketches called \"Untitled\"? No more!\nCurrently used for renaming sketches and setting the names of layers - having a built-in keyboard will allow many previously difficult features in the near future.\n\nTransform Panel\nThe new Transform Panel adds some powerful tools to help with building complex scenes. Open Brush has traditionally been aimed at freehand drawing or painting but we've always wanted to improve workflows that require precise control over elements of your sketch.\n\nThere's plenty more in this release, including support for 360 image backgrounds, a new glTF importer, and SVG importer! You can read the full patch notes here: https://docs.openbrush.app/release-history/v2.4\n\nHappy Painting!"
+            },
+            {
+                "version": "2.4.0",
+                "change_log": "v2.4 \"Prismatic\"\n\nOpen Brush is 3 today! We're celebrating by releasing a new version, packed with tons of new features. We have an even bigger 3.0 release in the works which will add multiplayer, but we wanted to get these features to you as soon as possible!\n\nLocalization\nYou can now use Open Brush in 7 languages:\n- English\n- French\n- Spanish\n- German\n- Chinese\n- Japanese\n- Korean\n\nIf you'd like to help add more languages then please get in touch!\n\nMulti-Mirror\nThe regular Mirror Tool is incredibly useful but for those of you who are interested in symmetry and geometric patterns, you'll find a lot to explore in the new Multi-Mirror Tool.\nIt supports dozens of types of symmetry and has powerful control of color variance for the replicated brush strokes.\n\nXR Keyboard\nDoes your sketches folder contain hundreds of sketches called \"Untitled\"? No more!\nCurrently used for renaming sketches and setting the names of layers - having a built-in keyboard will allow many previously difficult features in the near future.\n\nTransform Panel\nThe new Transform Panel adds some powerful tools to help with building complex scenes. Open Brush has traditionally been aimed at freehand drawing or painting but we've always wanted to improve workflows that require precise control over elements of your sketch.\n\nThere's plenty more in this release, including support for 360 image backgrounds, a new glTF importer, and SVG importer! You can read the full patch notes here: https://docs.openbrush.app/release-history/v2.4\n\nHappy Painting!"
+            },
             {
                 "version": "2.3.0",
                 "change_log": "Fix for sketch loading with images on layers:\nIn some cases a sketch would fail to load (if the top layer only had reference images on it and no brush strokes). This fixes that by moving them to the main layer. A proper fix will be in the next formal release."
@@ -116,8 +124,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 154,
-        "rating": 4.636364,
+        "votes": 155,
+        "rating": 4.63871,
         "weighted_rating": 4.31,
         "is_available": true,
         "is_free": true

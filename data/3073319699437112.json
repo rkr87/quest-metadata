@@ -61,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 893
+                "votes": 897
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -94,6 +94,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.5.1",
+                "change_log": "Version 1.5.1 Release Notes\nChanged:\nThe banned message now shows your local time to prevent confusion\nCautious Hunting Parties attack speed improved\nGeneral network improvements to improve performance and reduce latency\n\nFixed:\nReceived Unable to Connect instead of Banned message while banned\nUnable to claim the Season pass Table / Flying pets\nBlocked players joining your Haven causing an error\nStuttering motion of certain objects such as cards changing zones\nSituational softlock when a creature waiting to attack dies before it attacks\nPlay PvP box showing up for a moment as you start an AI battle\nRare error when starting a battle and the cardback wasn’t found in time\nPassive abilities not being affected by Suppression"
+            },
             {
                 "version": "1.5",
                 "change_log": "Version 1.5 Release Notes:\nAdded:\nTwo new haven names in honor of our Adventurers of the Month\n\nChanged:\nSeason pass poster end date updated to March 2024\nGame servers rewritten to not depend on Unity, please let us know if you have issues\nLosing a tutorial battle no longer forces you to replay that battle\nRenamed subscribe buttons to monthly, quarterly, and yearly\n\nFixed:\nBlocked players hands becoming visible if they opened the Meta menu\nBlocked players props being visible when spawned\nNot being able to remove duplicate friends in the social menu\nQuill particles sometimes persisting in the haven\nRank decay documentation saying it happens at Platinum, when its actually at Gold II\nSoftlock when a creature dies before triggering its Entrance ability\nBeing able to do double discards when an ability only allowed one discard\nRioting Insider not moving to your opponents side when played\nShredder Beast putting cards in the Graveyard instead of the Reserves when your hand is full\nTombstone Mimic not being able to be stolen with Forceful Acquisition when mimicking a mana cost higher than 8\n\nBalance Changes:\nDungeon Master subtype was renamed to Master\nMonster's Rights Association was renamed to Wild Horde\nOne Man Army attribute renamed to Armored\nAcidic Overlord renamed to Xyron, Acidic Overlord\nAdventurer now has Mercenary Subtype\nAlkar's ability text was altered so Banished is now banished\nAvatar of Peace ability changed to \"Entrance: Give 2 enemy creatures Pacifist\" and now has Multiblocker instead of One Man Army\nBarony Socialite ability changed to \"When you summon a Noble for the first time each turn, Plunder.\"\nBoomstick Ranger now has Mercenary Subtype\nCampaign Prep renamed to Roam the Wild\nCautious Hunting Party ability reworded to \"Summon a Token Copy\" as is new standard.\nCooking the Books Discarded ability changed to \"A random spell in your hand costs 1 less Mana.\"\nCry for Numbers ability changed to \"Move the top 3 Innate creatures from your Deck to your Reserves\" and mana cost is now 3\nCunning Snaremaster now has Mercenary Subtype\nDaring Swindler Enhance ability changed to \"Deathblow / Last Word instead for 1 Coin.\"\nDreaded Corpse-Flinger ability converted to Enrage (Modifier) Keyword\nDreadful Drain ability changed to \"Deal 2 direct damage then gain half that much Life\"\nEquity Enforcer renamed to Serrated Stalker\nGarngian Cutthroat now has Mercenary Subtype\nGelatinous Protestant renamed to Gelatinous Mass\nGoblin Rookie renamed to Goblin\nGlorious Overseer Prepare ability changed to \"Mobilize 2 or less\"\nMercenary Leader now has Mercenary Subtype\nMerchant's Guard now has Mercenary Subtype\nMind Corruptions ability text was altered to \"It is Amped this turn.\"\nMonstrous Recruiter renamed to Monstrous Spore\nMotivational Fervor renamed to Frenzied Fervor\nPact of Non Aggression Condition changed to \"You have 5 or less Life.\"\nParty of the Roaring Mutt ability reworded to \"Summon a Token Copy\" as is new standard.\nPoison Bomb now has Ritual Subtype\nRallying Call renamed to Drakth's Call\nRallying Totem renamed to Totem of Drakth\nRestorative Alchemy ability changed to \"Gain 3 Life and randomly place 3 Life Elixirs into your Deck.\" and now costs 3 Mana.\nRioting Insider renamed to Sporecaster\nRiotous Recruitment renamed to Sudden Onslaught\nRitual of Annihilation is no longer affected by Mastery\nRitual of Annihilation now has Ritual Subtype\nRoyal Filibuster now has Ritual Subtype\nSpring Trap's ability text was altered to \"Tokens are sent to the Graveyard instead.\"\nSpymaster of the Guild now has Mercenary Subtype\nThe Final Spell ability was changed to \"Move all summoned creatures to their owner's Graveyard. Exhaust your Master.\"\nUnion of Monsters renamed to Grow the Horde\nVile Bonesmith ability converted to Enrage (Modifier) Keyword\nWandering Executioner now has Mercenary Subtype\nWings of Vindication buff reduced from +3/+1 to +2/+1 and renamed to Wings of Fury\nZealous Archivist's ability text was altered to \"Aftermath: Regain a random spell from your Graveyard and Banish it when cast.\"\nZealous Ooze ability reworded to \"Summon a Token Copy\" as is new standard."
@@ -157,10 +161,6 @@
             {
                 "version": "0.22.1",
                 "change_log": "Version 0.22.1 Release Notes:\nChanged:\nImproved the animation speed of some cards\n\nFixed:\nCooking the Books not having any VFX\nDead or Alive and Multiblocker VFX not culling at a distance on Quest\nEscape Clause volume\nLavoraad Whelp not damaging enemy creature before killing itself\nMob Rule missing texture\nSlick Gifter discard ability not debuffing friendly creatures\nAmped SFX playing when entering the tavern\nCard buff effect playing on cards in the graveyard\nContract discard condition check happening outside of the ability queue\nGain life quest progressing while Royal Filibuster is in play\nGain life quest not progressing from Beneficial Agreement being placed on an enemy creature\nPlay spells quest not progressing if that spell won the battle"
-            },
-            {
-                "version": "0.22",
-                "change_log": "Version 0.22 Release Notes:\nAdded:\nVisual overhaul to most card effects\nSound effects when interacting with doors\nNew accounts can now be created with an email address\n\nChanged:\nUnion of Monsters now allows you to choose the same creature twice\nUpdated the wording on some cards to better reflect how their ability functions\nImproved the timing of effects that were too slow from the previous update\n\nFixed:\nHourglass sometimes not appearing at the start of a battle\nVFX for some card abilities not disappearing at the end of battles\n\nKnown Issues:\nAmped SFX may play when entering the tavern"
             }
         ],
         "keywords": [],
@@ -168,8 +168,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 1233,
-        "rating": 4.265207,
+        "votes": 1237,
+        "rating": 4.267583,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": true

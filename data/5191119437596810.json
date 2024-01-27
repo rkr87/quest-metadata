@@ -85,6 +85,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.7.0",
+                "change_log": "Planned Sessions\n•\tAuthors and Admins can now plan a session from the Web Manager through the new “Sessions” tab\n•\tA start and end date and time must be specified\n•\tParticipants can be added to the Session\n•\tA Space must be specified\n•\tAll participants receives an e-mail with information about the planned Session\n•\tWhen starting SynergyXR, users who have an upcoming planned Session are notified\nAvatar Configurator\n•\tThe avatar configurator has been completely reworked\n•\tMore than 60 million combinations not counting hair color and skin tones\nAvatar Personal Protection Equipment\n•\tUsers can now add safety equipment to their avatar during a Session\n•\tThe Equipment menu can be accessed from the wrist-menu, under “User” in the “Equipment” sub-menu\n•\tUsers can select between different options of “Personal Protection Equipment” (PPE)\n•\tIt is possible to integrate the use of PPE in Procedures\nActive Object Menu\n•\tIn previous versions, when selecting an object in the Session a small menu appeared in the top-right corner of the bounding box encircling the object – this is called the “Active Object Menu”\n•\tWe have completely reworked the Active Object Menu\n•\tA small button appears in the far lower part of the visible area. Clicking this button, spawns the Active Object Menu in front of the user. Users can freely grab the Active Object Menu and move it around or leave it hanging in the air.\n"
+            },
+            {
                 "version": "2.6.0",
                 "change_log": "Scenario improvements \n•\tThe wrist menu UI has been overhauled to better segment scenarios and normal content.\no\tThe global scenario state is gone.\no\tInstead, users can now add content to the space, while a scenario is active in edit mode. \no\tAdding steps to scenarios is now done from the scenario’s submenu. \n•\tSaving a Space also saves changes to any open scenario.\n•\tLoading a Space that was saved with an open scenario, will also automatically load the scenario.\n•\tEntering spaces with open scenarios starts the scenario from the first step in the scenario sequence. \n•\tWhen loading a scenario, all steps are automatically locked, to ensure users do not move steps around.\n•\tThe list of scenarios available in a Space has seen minor improvements, allowing users to delete scenarios from the Space.\nInternet browser audio\n•\tIt is, unfortunately, not possible to stream the audio in internet browsers to all users to ensure they hear the same.\n•\tWe have now changed this - audio for internet browser content has been enabled locally– it is still not streamed to other users participating in the session, but users currently controlling the browser can hear the audio.\n"
             },
@@ -159,10 +163,6 @@
             {
                 "version": "1.6.43",
                 "change_log": "New avatars\nNew virtual rooms to host meetings\nPop-up notifying users of audio permissions\n"
-            },
-            {
-                "version": "1.6.36",
-                "change_log": "New to SynergyXR? \n- Please watch the video tutorial here: https://www.youtube.com/watch?v=OvcgYoNSHq0&\n\nImproved visuals on avatars \n-  The avatar is your digital you in SynergyXR. We now offer more expressive and varied avatars. \n\nNew rooms available for virtual meetings \n- SynergyXR Lounge: a cozy medium sized room with a live fireplace and a view to the surrounding forest \n- SynergyXR Exhibition Space: a large modern airy room with great wall space and a view to the surrounding hilly landscape  "
             }
         ],
         "keywords": [],
