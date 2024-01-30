@@ -318,6 +318,10 @@
         "changelog": [
             {
                 "version": "1.0.9",
+                "change_log": "- fixed personnel transport's collision for sliding locomotion\n- fixed placement of dischargers in discharger room on ship for non-default scale"
+            },
+            {
+                "version": "1.0.9",
                 "change_log": "- changed sound volumes to have more even soundscape\n- added compressor for sound effects channel only (before was only a general compressor that was affecting all the channels)\n- modified some sound effects that had discomforting crackling sound\n- fixed bug when some samples were played too loud for a brief moment\n- fixed sound crackling\n- fixed restarting the game from a chapter where the game was interrupted\n- fixed pause when starting the game"
             },
             {

@@ -43,7 +43,7 @@
             },
             {
                 "rating": 2,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 3,
@@ -81,6 +81,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.3",
+                "change_log": "-Fixed a bug with the scene selection that could prevent the app from starting properly"
+            },
             {
                 "version": "2.2",
                 "change_log": "- Added AR (green screen) support\n- Added mono 360 viewing mode\n- Added display of number of matches\n- Improved UI audio so sounds don't get cut off when switching menus"
@@ -135,9 +139,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 10,
-        "rating": 3.4,
-        "weighted_rating": 3.81,
+        "votes": 11,
+        "rating": 3.272727,
+        "weighted_rating": 3.79,
         "is_available": true,
         "is_free": false
     },
