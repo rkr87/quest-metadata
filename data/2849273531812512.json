@@ -50,7 +50,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 283
+                "votes": 282
             },
             {
                 "rating": 2,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 3,
-                "votes": 60
+                "votes": 61
             },
             {
                 "rating": 4,
@@ -66,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1603
+                "votes": 1604
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -95,6 +95,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.11.19",
+                "change_log": "Add support for Freezing streaks and using power ups from Profile Menu.\nBackend change for handling public rooms."
+            },
             {
                 "version": "1.11.18",
                 "change_log": "Slightly increase default menu size.\nHandle issues when snapgrid and VR cursor wouldn't initialize correctly.\nMinor performance improvements.\nMenu copy updates."
@@ -170,10 +174,6 @@
             {
                 "version": "1.11.00",
                 "change_log": "Bug fixes for resize handles and mixed reality button on quick menu. Update UI in My Room menu. Environment performance optimizations."
-            },
-            {
-                "version": "1.10.00",
-                "change_log": "Update UI/UX for MyRoom tab and listing of environments.\nDecrease gap between top and bottom monitors in snap grid and fix issues where move bar would be obscured at certain angles."
             }
         ],
         "keywords": [
@@ -187,8 +187,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 2147,
-        "rating": 4.252445,
+        "votes": 2148,
+        "rating": 4.253724,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": true

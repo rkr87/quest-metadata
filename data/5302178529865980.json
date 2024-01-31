@@ -35,6 +35,8 @@
             "SITTING"
         ],
         "tags": [
+            "Top Rated Games",
+            "Top Rated",
             "Boxing",
             "Fighter",
             "Mechs",
@@ -54,15 +56,15 @@
             },
             {
                 "rating": 3,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 4,
-                "votes": 15
+                "votes": 16
             },
             {
                 "rating": 5,
-                "votes": 244
+                "votes": 264
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,7 +94,12 @@
             "logo_transparent": "39035381_1420290148706386_8007680557970211416_n.png"
         },
         "translations": [],
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.1.6352",
+                "change_log": "FUN\nJungledogs heads now have updated model\n\nBUG FIXES\nOverheat status can carry between fights, causing PWR 0% to show in Garage\nCorruption in save files can happen when starting a new run from Hangar\nRoaches breakdance and glitch all over the arena\nMinor bugfixes to encounters\n\nBALANCING\nRepair Kits heal less\nTweaks to REPAIR encounters balance\nDifficulty level tweaks for first runs in Career"
+            }
+        ],
         "keywords": [
             "physics",
             "mech",
@@ -104,9 +111,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 268,
-        "rating": 4.839552,
-        "weighted_rating": 4.55,
+        "votes": 290,
+        "rating": 4.841379,
+        "weighted_rating": 4.57,
         "is_available": true,
         "is_free": false
     },

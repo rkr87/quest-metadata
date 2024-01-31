@@ -47,7 +47,7 @@
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 0
             },
             {
                 "rating": 4,
@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 19
+                "votes": 20
             }
         ],
         "comfort": "NOT_RATED",
@@ -85,6 +85,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.1.34",
+                "change_log": "1)  Re-worked beatmaping algorithm to ensure a better flow and balanced workout. \n\t• Directional targets will now always appear on the side opposite of the previous target allowing more fluid movement. \n\t• Decreased maximum number of targest allowed on the same side ensuring both sides get a great workout!\n\n2) Player stance now changes during songs!\n\t• Whenever a song is at least 1.55 minutes long, stance change events will occur.\n\t• Stance change events currently occur once every minute.\n\t• When a stance change event fires, the choreography will pause for 5 seconds during which time it will show the stance change indicator. \n\n3) Bug Fixes:\n\t• Improved handing of cancelled delayed events preventing errors to be logged with it is already being handled.\n\t• Fixed issue causing custom songs page to sometimes throw an error when trying to scroll due to a cancelled token."
+            },
             {
                 "version": "0.1.33.3",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again.\n\t• Fixed bug causing \"Latest\" in community songs to not account for user search input."
@@ -160,10 +164,6 @@
             {
                 "version": "0.1.23",
                 "change_log": "1)  Started implementing player statistics tracking. Total number of hit targets, their hit quality, and dodged obstacles is now recorded in player profile for future use in achievements.\n\n2) Improved obstacle visuals. \n\t• Added visual feedback to getting hit by obstacles. The screen will now flash the color of the obstacle when your head collides with obstacles.\n\t• Space arena obstacles now have transparency.\n\n3) Improved audio settings by changing how it is mixed and controlled. \n\t•Menu music and menu sound effects are now controlled completely separately from game music and game sound effects. \n\t•Sound effects now duck music considerably more to ensure they can be heard even during loud points in game music."
-            },
-            {
-                "version": "0.1.22",
-                "change_log": "1) Super Strike Targets! Some targets will now appear with an additional glow around them. In order to successfully hit them, players are required to strike the targets with much more force. This will help add some additional variance, keep players on their toes, and help improve the workout!\n\n2) Added descriptions to Target Side Mode settings during profile editing.\n\n3) Bug fixes and improvements. \n\t• Fixed bug causing targets to sometimes get repooled prematurely resulting in a registered miss.\n\t• Fixed bug causing some songs to not give the option to select target difficulty.\n\t• Improved feel for striking hooks and uppercuts. Increased collider size slightly resulting in improved hit detection.\n\t• Dodge obstacles now require more movement. They are slightly closer to the middle resulting in requiring the player to move out of the way more.\n\t• Targets appearing during a dodge obstacle will be forced to the opposing hand for a more natural experience."
             }
         ],
         "keywords": [],
@@ -172,8 +172,8 @@
         "is_demo_of": null,
         "on_rookie": true,
         "votes": 23,
-        "rating": 4.608696,
-        "weighted_rating": 3.98,
+        "rating": 4.695652,
+        "weighted_rating": 3.99,
         "is_available": true,
         "is_free": false
     },
