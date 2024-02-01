@@ -83,6 +83,13 @@ jobs:
           git diff-index --quiet HEAD || git commit -m 'github_action: update resources'
         continue-on-error: true
 
+      - name: Commit Last Updated
+        if: always()
+        run: |
+          git add _last_updated.json
+          git diff-index --quiet HEAD || git commit -m 'github_action: update last_updated'
+        continue-on-error: true
+
       - name: Push commits
         if: always()
         run: |
