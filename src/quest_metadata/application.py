@@ -15,6 +15,7 @@ from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from controller.updater import Updater
 from data.local.app_manager import AppManager
+from data.model.local.last_updated import LastUpdated
 from data.web.google import GoogleSheetService
 from data.web.http_client import HttpClient
 from data.web.oculus import OculusService
@@ -91,3 +92,4 @@ class Application(Singleton):
             "Finished scraping app data and resources in %s seconds",
             delta.seconds
         )
+        await LastUpdated().save_json(AppConfig().last_updated_filename)
