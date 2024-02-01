@@ -24,9 +24,6 @@ class LocalApp(BaseModel):
     - app_name (str): The name of the local application.
     - max_version_date (Annotated[int, Field]): The maximum version date
         of the local application.
-    - added (str): The date when the local application was added.
-    - updated (str | None): The date when the local application was last
-        updated, or None.
     - is_available (bool | None): Indicates whether the local application is
         available, or None.
     - is_free (bool | None): Indicates whether the local application is free,
@@ -39,8 +36,6 @@ class LocalApp(BaseModel):
     max_version: int = 0
     max_version_date: int = 0
     change_log: list[AppChangeEntry] | None = Field(default=None, exclude=True)
-    added: str
-    updated: str | None = None
     is_available: bool | None = None
     is_free: bool | None = None
     is_demo: bool | None = None
