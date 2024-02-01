@@ -7,7 +7,6 @@ Classes:
 Constants:
 - APPS (str): File path for storing the serialized collection of local apps.
 """
-from datetime import datetime, timedelta
 from typing import final
 
 from pydantic_core import ValidationError
@@ -58,19 +57,13 @@ class AppManager(Singleton):
         self._apps: LocalApps = self._load_from_file()
         self._exclusion_days: int = exclusion_days
 
-    def get(self, exclude_recently_updated: bool = False) -> LocalApps:
+    def get(self) -> LocalApps:
         """
         Get the collection of local apps.
-
-        Args:
-        - exclude_recently_updated (bool): Flag to exclude recently updated
-            apps.
 
         Returns:
         - LocalApps: The collection of local apps.
         """
-        if exclude_recently_updated:
-            return self._filter_recently_updated_apps()
         return self._apps
 
     def get_all_by_id(self) -> dict[str, list[tuple[str, LocalApp]]]:
@@ -102,36 +95,6 @@ class AppManager(Singleton):
             if app.change_log is None:
                 output[key] = app
         return output
-
-    def _filter_recently_updated_apps(self) -> LocalApps:
-        """
-        Filter recently updated apps from the collection.
-
-        Returns:
-        - LocalApps: The filtered collection of local apps.
-        """
-        output: LocalApps = LocalApps()
-        for key, app in self._apps.items():
-            if self._need_update(app):
-                output[key] = app
-        return output
-
-    def _need_update(self, app: LocalApp) -> bool:
-        """
-        Check if an app needs an update based on the exclusion days.
-
-        Args:
-        - app (LocalApp): The local app to check.
-
-        Returns:
-        - bool: True if the app needs an update, False otherwise.
-        """
-        if app.updated is None:
-            return True
-
-        last_update_time: datetime = datetime.fromisoformat(app.updated)
-        delta: timedelta = datetime.now() - last_update_time
-        return delta.days > self._exclusion_days
 
     def add(self, parsed_item: ParsedAppItem) -> None:
         """
@@ -175,7 +138,6 @@ class AppManager(Singleton):
         app: LocalApp = LocalApp(
             id=parsed_item.id,
             app_name=parsed_item.name,
-            added=datetime.now().isoformat(),
             max_version_date=parsed_item.max_version_date,
             max_version=parsed_item.max_version
         )
@@ -208,7 +170,6 @@ class AppManager(Singleton):
             app: LocalApp = LocalApp(
                 id=None,
                 app_name=rookie_package.app_name,
-                added=datetime.now().isoformat(),
                 max_version_date=0,
                 max_version=0,
                 rookie_releases=rookie_package.versions
@@ -275,9 +236,7 @@ class AppManager(Singleton):
         - is_free (bool): The free status of the app.
         - is_demo (bool): The demo status of the app.
         """
-        time: str = datetime.now().isoformat()
         if store_id in self._apps:
-            self._apps[store_id].updated = time
             self._apps[store_id].is_free = is_free
             self._apps[store_id].is_available = is_available
             self._apps[store_id].is_demo = is_demo
