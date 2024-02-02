@@ -82,6 +82,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.4",
+                "change_log": "- Improved browser for handling libraries with almost infinite files. Browser recycles thumbnails and doesn't slow down depending on how many movies you have\n- Browser scrolling at a constant speed using controllers\n- Movie info now shows video resolution\n- Added format to movie titles (3D, 180 or 360)\n"
+            },
+            {
                 "version": "2.3",
                 "change_log": "-Fixed a bug with the scene selection that could prevent the app from starting properly"
             },

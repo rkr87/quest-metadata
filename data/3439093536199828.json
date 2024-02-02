@@ -83,6 +83,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.6.7",
+                "change_log": "- Spatial anchor support for AR objects\n- Updated up trigger angle for AR object manipulation\n- Miscellaneous bugfixes"
+            },
+            {
                 "version": "2.6.6",
                 "change_log": "- Support for multi-floorplan\n- Miscellaneous bugfixes"
             },
@@ -157,10 +161,6 @@
             {
                 "version": "2.5.4",
                 "change_log": "- Miscellaneous bug fixes"
-            },
-            {
-                "version": "2.5.3",
-                "change_log": "- Support for pausing when Dash is opened\n- Removed unnecessary permissions"
             }
         ],
         "keywords": [],
