@@ -52,7 +52,7 @@
             },
             {
                 "rating": 2,
-                "votes": 17
+                "votes": 18
             },
             {
                 "rating": 3,
@@ -92,6 +92,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2024.2.0",
+                "change_log": "Dear Friends of Tennis!\n\nTime for a match point update in your favorite VR tennis world!! This Patch Update 2024.2.0 brings some improvements but also brand new game modes. \nThese are the changes you can expect:\n\nNew Game Modes\nPrepared the next event: Paradise Slice (Start 5th of February)\n\nNew Features\nMovement: Slightly adjusted recovery position during matchplay\nMovement: Tweaked the teleport position to reduce the probability of lower contact points\nHandle Selection: Reworked the handle selection and added ProSwing handles\nMatchPlay: Players can choose their serving and returning positions\n\nImprovement\nAI: Trained AI to play better on the net and far back\nAI: Some minor improvements on hitting animation\n\nBugfixes\nLogin: Fixed some bugs in the final registration process\nTechzone: Evaluation now works correctly with both racket faces\nTechzone: Handled the case where the Techzone panel could be empty\nLeaderboards: Fixed an issue where it wrongly says that the event is over\nGeneral: Handled several edge cases\n\n    \nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
+            },
             {
                 "version": "2023.12.0",
                 "change_log": "Dear Friends of Tennis!\n\nBringing you an ace of an update for your VR tennis extravaganza! This Patch Update 2023.12.0 brings not only small improvements but also brand new game modes. \nThese are the changes you can expect:\n\nNew Game Modes\nMirrorPlay AIM:  Strike different targets for points\nMirrorPlay Express: Speed is key, earn more points with faster hits\nMirrorPlay Training: Play without boundaries\nForehand 101: Learn basic forehand rules\nForehand Test: Evaluate your forehand, and get feedback about your performance\nAdd-On: Techzone Forehand Topspin (incl. new court environment)\nAI Ladder mode: Play and unlock preselected opponents of our AI Squad\n\nNew Features\nSocial: Continue Voice Chatting after the match until the next multiplayer game\nSocial: Control Voice Chat in every environment\nAI Squad Training: A selection of AIs to train with\nTraining: Introducing Training Courses (5 Courses + 30 Exercises)\nBoost Levels: Introducing 3 levels which assist when hitting a ball (AI-Squad, Courses)\nVisuals: Various visual and UI improvements\nAIs: Add more opponents to our AI Squad\n\nImprovement\nPhysics: More realistic spin and improved hit calculations\n\nBugfixes\nMatch: Double bounce on the racket during a rally leads to fault\nMatch Teleport: Teleport is no longer triggered when doing a fake serve\n    \nServing up a big THANK YOU to our community.\nYour Tennis Esports Team"
@@ -167,10 +171,6 @@
             {
                 "version": "2023.4.3",
                 "change_log": "Dear Friends of Tennis!\n\nA swift serve of hotfixes to keep your VR tennis experience in top form! Version 2023.4.3 introduces mainly bug fixes. \n\nBug Fixes:\n\nInstant Match: Fix Instant Match not starting\nPerformance: Reduce jumpy ball \nPerformance: Optimize memory usage to prevent app crashes\n\nWe wish you a lot of fun!\nYour Tennis Esports Team"
-            },
-            {
-                "version": "2023.4.2",
-                "change_log": "Dear Friends of Tennis!\n\nHere's a speedy hotfix update to keep you acing those matches in the virtual court! Version 2023.4.2 introduces mainly bug fixes. \n\nBug Fixes:\n\nInstant Match: Fixed issues with some single-player game modes breaking when leaving guardian while Instant Match is running\nInstant Match: Resolved a rare issue where joining the Instant Match lobby could fail in certain situations\nInstant Match: Improved activity indicator display in the user bar\nGeneral: Internal improvements and code optimizations for a smoother experience\n\nWe wish you a lot of fun!\nYour Tennis Esports Team"
             }
         ],
         "keywords": [],
@@ -178,9 +178,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 357,
-        "rating": 4.397759,
-        "weighted_rating": 4.27,
+        "votes": 358,
+        "rating": 4.391061,
+        "weighted_rating": 4.26,
         "is_available": true,
         "is_free": false
     },

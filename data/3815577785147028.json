@@ -67,7 +67,7 @@
             },
             {
                 "rating": 3,
-                "votes": 240
+                "votes": 239
             },
             {
                 "rating": 4,
@@ -75,7 +75,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2030
+                "votes": 2032
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -396,6 +396,10 @@
         ],
         "changelog": [
             {
+                "version": "1.5.4",
+                "change_log": "Quest (1.5.4):\n\n- Levels won't spawn the player correctly if they move their head during loading - Fixed\n- Some languages not displaying correctly in specific instances during the Spirits of Amazonia storyline - Fixed\n- Collisions of bamboo trees are still present despite cutting down the upper part of the tree - Fixed"
+            },
+            {
                 "version": "1.5.2",
                 "change_log": "Changelog 1.5.2:\n\n- New sound effects to highlight important moments of  gameplay\n- It's now possible to build a campfire in the Mu'agi village fireplace\n- Lighting improvements in dream sequences\n- Overall game stability has been improved\n- Various  performance improvements - especially on SoA levels\n- Visual upgrade to water reservoirs across the game\n- Fixed a bug in which the Sort button in the backpack becomes blocked.\n- Adjustments to player colliders across the Dream sequences\n- Japanese texts in dialogues with Mu'agi display correctly now\n- Bamboo trees can now be cut\n- Copa Hongo that has been put in the dryer no longer breaks the progression of world time\n- Players cannot walk on the bottom of one particular lake anymore\n- Legends stones that have been read are now properly grayed out on the map in the notebook after loading a save file\n- Fixed a bug where players could become stuck on a black screen after finishing the SoA Dream sequence for the second time\n- The \"Vegan!\" achievement now has a more precise description \n"
             },
@@ -455,8 +459,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 3254,
-        "rating": 4.251383,
+        "votes": 3255,
+        "rating": 4.252227,
         "weighted_rating": 4.24,
         "is_available": true,
         "is_free": false

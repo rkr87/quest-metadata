@@ -112,6 +112,14 @@
         "translations": [],
         "changelog": [
             {
+                "version": "5.1.6",
+                "change_log": "Bugfix hold down both grips to swap paddle hand when ambidextrous mode is turned on."
+            },
+            {
+                "version": "5.1.5",
+                "change_log": "Bugfix exception when turning off courts. Bugfix updating ELO score after local data is reset."
+            },
+            {
                 "version": "5.1.4",
                 "change_log": "Enable dynamic resolution to improve graphics"
             },
@@ -182,14 +190,6 @@
             {
                 "version": "4.2.13",
                 "change_log": "Add find match to menu button bar"
-            },
-            {
-                "version": "4.2.12",
-                "change_log": "Add tooltips to menu buttons"
-            },
-            {
-                "version": "4.2.11",
-                "change_log": "Update rewards logic. Written review and points are needed to unlock drills without Pro purchase."
             }
         ],
         "keywords": [],
