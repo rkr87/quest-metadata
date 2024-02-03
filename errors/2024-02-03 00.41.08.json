@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-01-25T00:50:39.695623",
+    "timestamp": "2024-02-03T00:41:08.466166",
     "errors_logged": [
         {
             "context": "Validating http response",
@@ -36,8 +36,6 @@
                             "app_name": "Gorilla Runners",
                             "max_version": 0,
                             "max_version_date": 0,
-                            "added": "2024-01-02T14:14:30.268280",
-                            "updated": null,
                             "is_available": null,
                             "is_free": null,
                             "is_demo": null,
@@ -47,54 +45,6 @@
                     ]
                 ],
                 "id": "5566359733474911"
-            }
-        },
-        {
-            "context": "Validating http response",
-            "error_type": "ValidationError",
-            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
-            "log_message": "Captured model validation error: OculusApp",
-            "error_information": {
-                "data": {
-                    "data": {
-                        "item": null,
-                        "viewer": {
-                            "user": null,
-                            "family_info": {
-                                "members": {
-                                    "nodes": []
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "context": "Scraping app data",
-            "error_type": "ValidationError",
-            "error_message": null,
-            "log_message": "No responses for: 2043845889041446",
-            "error_information": {
-                "package": [
-                    [
-                        "com.zenva.insectsvr",
-                        {
-                            "id": "2043845889041446",
-                            "app_name": "Insect Revolution",
-                            "max_version": 0,
-                            "max_version_date": 0,
-                            "added": "2024-01-02T14:14:30.288692",
-                            "updated": null,
-                            "is_available": null,
-                            "is_free": null,
-                            "is_demo": null,
-                            "rookie_releases": {},
-                            "on_rookie": false
-                        }
-                    ]
-                ],
-                "id": "2043845889041446"
             }
         },
         {
@@ -132,8 +82,6 @@
                             "app_name": "Zenva Sky",
                             "max_version": 0,
                             "max_version_date": 0,
-                            "added": "2024-01-02T14:14:30.288979",
-                            "updated": null,
                             "is_available": null,
                             "is_free": null,
                             "is_demo": null,
@@ -143,6 +91,52 @@
                     ]
                 ],
                 "id": "1732459530190629"
+            }
+        },
+        {
+            "context": "Validating http response",
+            "error_type": "ValidationError",
+            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
+            "log_message": "Captured model validation error: OculusApp",
+            "error_information": {
+                "data": {
+                    "data": {
+                        "item": null,
+                        "viewer": {
+                            "user": null,
+                            "family_info": {
+                                "members": {
+                                    "nodes": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "context": "Scraping app data",
+            "error_type": "ValidationError",
+            "error_message": null,
+            "log_message": "No responses for: 2043845889041446",
+            "error_information": {
+                "package": [
+                    [
+                        "com.zenva.insectsvr",
+                        {
+                            "id": "2043845889041446",
+                            "app_name": "Insect Revolution",
+                            "max_version": 0,
+                            "max_version_date": 0,
+                            "is_available": null,
+                            "is_free": null,
+                            "is_demo": null,
+                            "rookie_releases": {},
+                            "on_rookie": false
+                        }
+                    ]
+                ],
+                "id": "2043845889041446"
             }
         },
         {
@@ -180,8 +174,6 @@
                             "app_name": "Let's Kill Zombies VR",
                             "max_version": 0,
                             "max_version_date": 0,
-                            "added": "2024-01-02T14:14:30.289177",
-                            "updated": null,
                             "is_available": null,
                             "is_free": null,
                             "is_demo": null,
@@ -327,7 +319,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=57jIMbrRLLgAX9Dn5-g&_nc_ht=scontent.oculuscdn.com&oh=00_AfApCKpgnF2la9QIT2BdFFGqy2lrpHnBjFsEIzVC3b5FMA&oe=65B64385"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0eRP6slATmoAX9qjz5b&_nc_ht=scontent.oculuscdn.com&oh=00_AfCCXATxffbZSM_gk-U5l6udbwdC-27yAXi9AtM8EA6_yQ&oe=65C22105"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
