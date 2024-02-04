@@ -36,9 +36,9 @@ class LocalApp(BaseModel):
     max_version: int = 0
     max_version_date: int = 0
     change_log: list[AppChangeEntry] | None = Field(default=None, exclude=True)
-    is_available: bool | None = None
-    is_free: bool | None = None
-    is_demo: bool | None = None
+    is_available: bool = False
+    is_free: bool = False
+    is_demo: bool = False
 
     @computed_field  # type: ignore[misc]
     @property
