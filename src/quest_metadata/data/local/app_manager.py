@@ -189,7 +189,8 @@ class AppManager(Singleton):
         - parsed_item (ParsedAppItem): The parsed app item.
         """
         local_app: LocalApp = self._apps[package]
-        local_app.app_name = parsed_item.name
+        if parsed_item.name != "":
+            local_app.app_name = parsed_item.name
         self._update_app_details(local_app, parsed_item)
 
     @staticmethod
@@ -222,7 +223,8 @@ class AppManager(Singleton):
 
     async def update(
         self,
-        store_id: str,
+        package_name: str,
+        app_name: str,
         is_available: bool,
         is_free: bool,
         is_demo: bool
@@ -236,10 +238,12 @@ class AppManager(Singleton):
         - is_free (bool): The free status of the app.
         - is_demo (bool): The demo status of the app.
         """
-        if store_id in self._apps:
-            self._apps[store_id].is_free = is_free
-            self._apps[store_id].is_available = is_available
-            self._apps[store_id].is_demo = is_demo
+        if package_name in self._apps:
+            self._apps[package_name].is_free = is_free
+            self._apps[package_name].is_available = is_available
+            self._apps[package_name].is_demo = is_demo
+            if app_name != "":
+                self._apps[package_name].app_name = app_name
 
     def _load_from_file(self) -> LocalApps:
         """
