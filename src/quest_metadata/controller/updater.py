@@ -313,6 +313,7 @@ class Updater(Singleton):
         for i in packages:
             await self._app_manager.update(
                 i[0],
+                result.data.app_name,
                 result.data.is_available,
                 result.data.is_free,
                 result.data.is_demo_of is not None
