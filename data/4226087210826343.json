@@ -67,7 +67,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 24
+                "votes": 26
             },
             {
                 "rating": 2,
@@ -83,7 +83,7 @@
             },
             {
                 "rating": 5,
-                "votes": 149
+                "votes": 150
             }
         ],
         "comfort": "NOT_RATED",
@@ -111,6 +111,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "5.1.7",
+                "change_log": "Update target in wall practice. Reduce camera clipping range to improve performance."
+            },
             {
                 "version": "5.1.6",
                 "change_log": "Bugfix hold down both grips to swap paddle hand when ambidextrous mode is turned on."
@@ -186,10 +190,6 @@
             {
                 "version": "4.2.14",
                 "change_log": "Bugfix answer call button not showing up in Invite friend flow."
-            },
-            {
-                "version": "4.2.13",
-                "change_log": "Add find match to menu button bar"
             }
         ],
         "keywords": [],
@@ -197,9 +197,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 215,
-        "rating": 4.24186,
-        "weighted_rating": 4.11,
+        "votes": 218,
+        "rating": 4.215596,
+        "weighted_rating": 4.09,
         "is_available": true,
         "is_free": false
     },
