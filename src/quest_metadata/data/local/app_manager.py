@@ -16,7 +16,7 @@ from config.app_config import AppConfig
 from data.model.local.apps import LocalApp, LocalApps
 from data.model.oculus.app_changelog import AppChangeLog
 from data.model.parsed.app_item import ParsedAppItem
-from data.model.rookie.releases import RookiePackage
+from data.model.rookie.releases import RookieRelease
 from utils.error_manager import ErrorManager
 
 
@@ -157,7 +157,7 @@ class AppManager(Singleton):
     def add_rookie_releases(
         self,
         package_name: str,
-        rookie_package: RookiePackage
+        rookie_package: list[RookieRelease]
     ) -> None:
         """
         Add Rookie release details to local app if package exists, otherwise
@@ -165,14 +165,14 @@ class AppManager(Singleton):
         a package mapping is added later it will be updated correctly.
         """
         if package_name in self._apps:
-            self._apps[package_name].rookie_releases = rookie_package.versions
+            self._apps[package_name].rookie_releases = rookie_package
         else:
             app: LocalApp = LocalApp(
                 id=None,
-                app_name=rookie_package.app_name,
+                app_name=rookie_package[0].app_name,
                 max_version_date=0,
                 max_version=0,
-                rookie_releases=rookie_package.versions
+                rookie_releases=rookie_package
             )
             self._apps[package_name] = app
 
