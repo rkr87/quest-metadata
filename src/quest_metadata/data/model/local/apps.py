@@ -46,7 +46,7 @@ class LocalApp(BaseModel):
         """Indicates whether the local application is available on Rookie"""
         return len(self.rookie_releases) > 0
 
-    rookie_releases: dict[str, list[RookieRelease]] = {}
+    rookie_releases: list[RookieRelease] = []
 
 
 class LocalApps(RootDictModel[str, LocalApp]):
