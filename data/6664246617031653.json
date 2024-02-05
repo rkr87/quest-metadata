@@ -51,7 +51,7 @@
             },
             {
                 "rating": 4,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 5,
@@ -81,6 +81,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.5",
+                "change_log": "- Added round corner mask for thumbnails\n- Cleaned up some UI elements and improved resolution, added mipmaps for less aliasing\n- Changed the shape of the scrollbar handle\n- Fixed a bug playing the wrong audio track when opening the same movie more than once in a row\n- Fixed a bug with aspect ratio when toggling AR mode\n"
+            },
             {
                 "version": "2.4",
                 "change_log": "- Improved browser for handling libraries with almost infinite files. Browser recycles thumbnails and doesn't slow down depending on how many movies you have\n- Browser scrolling at a constant speed using controllers\n- Movie info now shows video resolution\n- Added format to movie titles (3D, 180 or 360)\n"
@@ -143,8 +147,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 14,
-        "rating": 3.285714,
+        "votes": 15,
+        "rating": 3.333333,
         "weighted_rating": 3.78,
         "is_available": true,
         "is_free": false
