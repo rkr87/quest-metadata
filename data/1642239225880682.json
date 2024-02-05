@@ -97,6 +97,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.0.7",
+                "change_log": "Minor art update on main billboard."
+            },
+            {
                 "version": "2.0.6",
                 "change_log": "* Made gifts spawn in exact starting positions and start simulating in virtual space immediately to eliminated any physics issues\n* Reduced respawn time of gifts\n* Removed any physics starting issues with change to simulation architecture\n* Further tweaked colliders to clear the exit button regardless of what gifts might be there\n* Moved velocity calculations to lateupdate to remove race conditions\n* Re-baked canyon to allow build\n* Removed probuilder mesh from RPE scene that was causing build issue due to malformed color array\n* Made clear separation of resetting gifts and respawning gifts\n* Gave gifts the authority to handle the behaviour of their reset and respawn orientation\n* Fixed bug where hand interaction pinch was working intermittently for UI elements such as \"next\" button\n* Fixed bug where going back to EULA 2nd time would not show next button, making user stuck\n* Fixed bad scale on the dlc panel in some edge cases\n* Fixed issue where dlc panel incorrectly opens when leaving hero academy instead of on arrive at plank\n* Replaced shooting star particle shader in order to fix culling / weird render order issue"
             },

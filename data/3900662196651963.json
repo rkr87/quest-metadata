@@ -26,10 +26,10 @@
             "Chinese (Taiwan)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING",
@@ -83,6 +83,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Implement bot spin attack"
+            },
             {
                 "version": "1.0",
                 "change_log": "Fix some localization issue. Fix issue that screen-based effects only played in one eye."

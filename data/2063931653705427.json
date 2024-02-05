@@ -36,10 +36,10 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -67,11 +67,11 @@
             },
             {
                 "rating": 4,
-                "votes": 317
+                "votes": 318
             },
             {
                 "rating": 5,
-                "votes": 2475
+                "votes": 2479
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -97,6 +97,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.1.7",
+                "change_log": "[Feature] Added IMAX theater environment\n[Feature] Supported viewing files on USB flash drives \n[Optimization] Supported adjusting image display time [Optimization] Added Anti-Aliasing and sharpness option [Optimization] Optimized Pro-HD Quality feature \n[Bug Fixes] Fixed the playback problem when using certain Bluetooth earphones"
+            },
             {
                 "version": "1.1.6",
                 "change_log": "* Added multi-language keyboard\n* Supported deleting files over SMB\n* Supported .MPO, .WEBP and .JPS image format\n* Supported auto-detecting Full SBS format using file name\n* Supported adding Network & YouTube videos to Favorites\n* Supported casting videos to headset\n* Fix some bugs"
@@ -144,10 +148,6 @@
             {
                 "version": "1.1.1",
                 "change_log": "Bug Fixed: Hidden files not hidden"
-            },
-            {
-                "version": "1.1.1",
-                "change_log": "Fix bug: folders cannot be sorted by time"
             }
         ],
         "keywords": [
@@ -161,8 +161,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 3253,
-        "rating": 4.438365,
+        "votes": 3258,
+        "rating": 4.43892,
         "weighted_rating": 4.42,
         "is_available": true,
         "is_free": false

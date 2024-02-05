@@ -136,6 +136,10 @@
         ],
         "changelog": [
             {
+                "version": "0.8",
+                "change_log": "Version 0.8\n\n- Fixed bluetooth connection issues\n- Fixed an issue where the app would crash when repeatedly opening the 'New Slideshow' menu\n- Fixed an issue where downloading from 2 separate cameras would show the images from both cameras, not just the most recent one\n- Fixed an issue where downloading from a GoPro would always fail on the the 1st connection\n- Fixed an issue where slideshows were being duplicated\n- Fixed an issue where slideshows weren't being displayed on 1st load"
+            },
+            {
                 "version": "0.7",
                 "change_log": "Version 0.7\n\n\n\n- App now supports downloads for Insta360 cameras\n\n- App now supports downloads from a HTTP file server\n\n  - The server currently must have autoindex on in the config settings for this feature to work"
             },

@@ -82,6 +82,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.10.2",
+                "change_log": "HereSphere update v0.10.2 for Quest headsets is now available. This update adds some quality of life improvements and bug fixes.\n\nQuality of life improvements:\n- Added support for local cmscripts used by Connect & Control.\n- Added \"Toggle AB Loop\" keybinding\n- Searching for tag ratings without a tag name will now match with all tags rather than just tags that have a blank name. For example, searching for \">3\" will match with all tags that have a rating greater than 3.\n\nBug fixes:\n- Fixed bluetooth keyboard issues with missing keys like hyphen, comma, and numpad. Most keys should now work, except for the numpad \"+\" and \"*\" keys, which I haven't figured out how to fix yet.\n"
+            },
+            {
                 "version": "0.10.1",
                 "change_log": "​HereSphere update v0.10.1 is now available. This update fixes issues with the HereSphere web API incorrectly reading in the chromaKeySettings and hspArray fields. New videos that were loaded with the HereSphere web API were always set to chroma key masking and passthrough background in v0.10.0. This issue is now fixed, but in order to remove the bad video settings that have been already saved, you'll need to go to the media library, and manually delete the website's media source (or remove each individual video's settings from the media library). The hspArray field should also now be parsed correctly, and should be applied to both full videos and trailers for websites using the HereSphere web API."
             },
