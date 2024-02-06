@@ -40,7 +40,7 @@
             "Coming Soon",
             "MR",
             "Artistic apps",
-            "Building",
+            "Building with your hands, fiddling, tinkering",
             "Visual arts",
             "Holiday Sale 2023 [casual social shelf]",
             "Holiday Sale 2023 [resolutions shelf]",
@@ -94,6 +94,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.42.0.2",
+                "change_log": "Update 21\n\nMotion editor: Record an object's motion and watch it playback around your room\n\nRelighting: Physics objects can emit light that illuminate your real world room.\n\nHome scene: You can save a scene as \"Home\" and it will load automatically at startup\n\nMinor changes:\n- You can filter Sketchfab search by license\n- You can adjust the cache size for Sketchfab models\n- Hands in playmode will cast shadows"
+            },
             {
                 "version": "1.42.0.0",
                 "change_log": "Update 21\n\nMotion editor: Record object's motion and watch it play back around your room\n\nRelighting: Physics objects can emit light that illuminate your real world room.\n\nHome scene: You can set a scene to be your home and it will load automatically at startup"
