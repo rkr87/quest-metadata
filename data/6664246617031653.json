@@ -82,6 +82,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.6",
+                "change_log": "- Updated to latest Meta SDK for better hand tracking and other features\n- No longer showing synthetic hands when controllers are active\n- Changed color, shape and sound of buttons and other minor UI details\n- Fixed bug from last build where screen was visible behind you when logging in\n- Changed \"Anchor at Hand\" to \"Anchor at Controller\" to avoid confusion since this only works with controllers.  "
+            },
+            {
                 "version": "2.5",
                 "change_log": "- Added round corner mask for thumbnails\n- Cleaned up some UI elements and improved resolution, added mipmaps for less aliasing\n- Changed the shape of the scrollbar handle\n- Fixed a bug playing the wrong audio track when opening the same movie more than once in a row\n- Fixed a bug with aspect ratio when toggling AR mode\n"
             },

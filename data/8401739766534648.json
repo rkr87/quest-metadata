@@ -69,7 +69,7 @@
             },
             {
                 "rating": 5,
-                "votes": 97
+                "votes": 98
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -121,6 +121,10 @@
         ],
         "changelog": [
             {
+                "version": "1.1.0",
+                "change_log": "<English>\n■VR \nUpdate of configuration items!\n - Free movement is now possible.\n - Snap turn is implemented.\n - The cat's name can be changed.\n - Daily Passwd function has been released.\n\n■MR\n - A new \"decor feature\" has been added.\n\n\n<日本語>\n■VR \n・自由移動を実装しました\n・スナップターンを実装しました\n・ねこの名前を変えられるようになりました\n・あいことばの入力ができるようになりました\n\n■MR\n・インテリア機能を実装しました"
+            },
+            {
                 "version": "1.0.1",
                 "change_log": "■VR/MR\nTo address the MATNA-75 issue temporarily, we have blocked the functionality of displaying the keyboard.\nThis workaround will persist until the system is updated and the MATNA-75 problem is resolved.\n\n1. Section for changing the cat's name:\nWhen selecting the function, a popup message is displayed.\n\n2. Send button for Password on the Connect screen:\nA popup message is displayed when the button is pressed. Subsequently, measures have been implemented to automatically transition to Password authentication.\n\n\nFixes\n[Quest 3][VRC.Quest.Functional.3] The user will become Soft-Locked when changing a cat's name in the Catbook within the Yard and My Room. \nhttps://universallyspeaking.atlassian.net/browse/MATNA-75\n\nKnown Issues:\nN/A"
             },
@@ -140,9 +144,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 154,
-        "rating": 4.181818,
-        "weighted_rating": 4.04,
+        "votes": 155,
+        "rating": 4.187097,
+        "weighted_rating": 4.05,
         "is_available": true,
         "is_free": false
     },

@@ -86,6 +86,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.1.34.1",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing YUR watch to throw an error at the beginning of gameplay sometimes.\n\t• Set community content songs search field to only update once the full text has been entered and player selects to close the keyboard to reduce unnecessary bandwith use and improve performance and stability.\n\t• Fixed bug causing Shadow BoXR to fail to track if the game is in focus or not correctly.\n\t• Fixed bug causing community content songs to sometimes throw an error when trying to preview a song."
+            },
+            {
                 "version": "0.1.34",
                 "change_log": "1)  Re-worked beatmaping algorithm to ensure a better flow and balanced workout. \n\t• Directional targets will now always appear on the side opposite of the previous target allowing more fluid movement. \n\t• Decreased maximum number of targest allowed on the same side ensuring both sides get a great workout!\n\n2) Player stance now changes during songs!\n\t• Whenever a song is at least 1.55 minutes long, stance change events will occur.\n\t• Stance change events currently occur once every minute.\n\t• When a stance change event fires, the choreography will pause for 5 seconds during which time it will show the stance change indicator. \n\n3) Bug Fixes:\n\t• Improved handing of cancelled delayed events preventing errors to be logged with it is already being handled.\n\t• Fixed issue causing custom songs page to sometimes throw an error when trying to scroll due to a cancelled token."
             },
@@ -160,10 +164,6 @@
             {
                 "version": "0.1.24",
                 "change_log": "1)  Adaptive Strike Mode! Enabling this setting will cause the difficulty to strike targets to adapt to you! As you strike harder, the difficulty required to hit targets will grow based on your average strike speed. If it gets too hard, don't worry keep punching the targets and the average difficulty will slowly decrease to match your new average speed.\n\n2) Player strike speed and average speed are now displayed using a small bar above the current score display while working out.\n\n3) Improved head detection for better experience dodging obstacles.\n\t•Head collider has been moved down slightly and the radius has been decreased.\n\n4) Bug fixes."
-            },
-            {
-                "version": "0.1.23",
-                "change_log": "1)  Started implementing player statistics tracking. Total number of hit targets, their hit quality, and dodged obstacles is now recorded in player profile for future use in achievements.\n\n2) Improved obstacle visuals. \n\t• Added visual feedback to getting hit by obstacles. The screen will now flash the color of the obstacle when your head collides with obstacles.\n\t• Space arena obstacles now have transparency.\n\n3) Improved audio settings by changing how it is mixed and controlled. \n\t•Menu music and menu sound effects are now controlled completely separately from game music and game sound effects. \n\t•Sound effects now duck music considerably more to ensure they can be heard even during loud points in game music."
             }
         ],
         "keywords": [],
