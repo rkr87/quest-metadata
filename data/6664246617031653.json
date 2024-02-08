@@ -82,6 +82,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "2.7",
+                "change_log": "- Sped up opening and closing media\n- Fixed an issue with resuming videos where you left off being inconsistent\n- May have fixed an issue with some videos not starting\n"
+            },
+            {
                 "version": "2.6",
                 "change_log": "- Updated to latest Meta SDK for better hand tracking and other features\n- No longer showing synthetic hands when controllers are active\n- Changed color, shape and sound of buttons and other minor UI details\n- Fixed bug from last build where screen was visible behind you when logging in\n- Changed \"Anchor at Hand\" to \"Anchor at Controller\" to avoid confusion since this only works with controllers.  "
             },
