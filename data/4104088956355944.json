@@ -40,7 +40,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 107
+                "votes": 108
             },
             {
                 "rating": 2,
@@ -52,11 +52,11 @@
             },
             {
                 "rating": 4,
-                "votes": 235
+                "votes": 236
             },
             {
                 "rating": 5,
-                "votes": 3697
+                "votes": 3713
             }
         ],
         "comfort": "NOT_RATED",
@@ -84,6 +84,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.41.1",
+                "change_log": "- Integrated Modulate's ToxMod system to automatically monitor public lobbies for potential voice chat toxicity, ensuring a more respectful environment."
+            },
             {
                 "version": "0.41.0",
                 "change_log": "- New lobby!\n- New cosmetics!\n- Player positions are now networked relative to whatever they are moving with, reducing the perceived lag on moving objects a lot.\n- Fixed falling when walking over small gaps.\n- Fixed problems when falling off animated ice.\n- Reduced problems when walking on rotating blocks.\n- Fixed falling to the ground on animated objects moving down too fast.\n- Improved falling off rotating objects when holding on with two hands.\n- Fixed holding on with both hands while standing on an animated slope not correctly moving the player with it.\n- Maybe fixed a common crash that could happen when setting a level image."
@@ -159,10 +163,6 @@
             {
                 "version": "0.35.1",
                 "change_log": "- Performance improvements for animated levels. There might still be some stuttering, but the worst of it is hopefully fixed."
-            },
-            {
-                "version": "0.35.0",
-                "change_log": "- Early preview support for animation playback. (You CANNOT make your own yet!)\n- Halloween lobby!\n- Halloween cosmetics pack!\n- Added sound when placing a checkpoint.\n- Added sound when someone joins the server.\n- Made the player respawn if too far away (1000km) from the world origin."
             }
         ],
         "keywords": [],
@@ -170,8 +170,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 4108,
-        "rating": 4.798685,
+        "votes": 4126,
+        "rating": 4.798352,
         "weighted_rating": 4.77,
         "is_available": true,
         "is_free": true

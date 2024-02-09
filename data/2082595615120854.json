@@ -43,16 +43,18 @@
             "Spanish (Venezuela)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
             "STANDING"
         ],
         "tags": [
+            "Top Rated Games",
+            "Top Rated CM",
             "wacky sports",
             "Solo",
             "Tag"
@@ -76,7 +78,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1598
+                "votes": 1601
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -104,6 +106,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.16.244586-release",
+                "change_log": "* Updated Meta Avatars to v24 for increased avatar fidelity.\n\n* Added the Stealth Black \"Wing - Fishin’ Stikk\" premium rod to Jim-Bob's Shop.\n\n* Increased the display refresh rate to 90 Hz in single player for Quest 3 and Pro.\n\n* Fixed a bug where you got stuck in loading when going from Casters' Cove to Penguin Point."
+            },
             {
                 "version": "1.15.220084-release",
                 "change_log": "This update includes:\n\n- Improved save file error handling\n\n- Fix for a bug where reeling in could be too fast\n\n- Fix for a bug with avatar hairs\n\n- A slew of minor bugs which could cause UI issues were fixed"
@@ -156,8 +162,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 2847,
-        "rating": 4.039691,
+        "votes": 2850,
+        "rating": 4.040702,
         "weighted_rating": 4.03,
         "is_available": true,
         "is_free": true

@@ -43,7 +43,7 @@
             },
             {
                 "rating": 2,
-                "votes": 4
+                "votes": 5
             },
             {
                 "rating": 3,
@@ -81,6 +81,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.8",
+                "change_log": "- Added support for external subtitles in .SRT format.  To use, make sure the subtitles contain\na language code before the srt extension in the filename.  (ie MovieName.en.srt)  You can use the\nsubtitle search feature in Plex to download and it should name them correctly for you.\n- Increased the render resolution, fixing clarity and subtitle aliasing issues.\n- Fixed a bug where current subtitle and audio track weren't getting reset when switching videos\n- Fixed default curve not getting set when switching to 180 SBS videos\n"
+            },
             {
                 "version": "2.7",
                 "change_log": "- Sped up opening and closing media\n- Fixed an issue with resuming videos where you left off being inconsistent\n- May have fixed an issue with some videos not starting\n"
@@ -155,9 +159,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 15,
-        "rating": 3.333333,
-        "weighted_rating": 3.78,
+        "votes": 16,
+        "rating": 3.25,
+        "weighted_rating": 3.77,
         "is_available": true,
         "is_free": false
     },

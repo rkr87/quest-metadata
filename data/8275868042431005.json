@@ -80,6 +80,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "1.00.107",
+                "change_log": "New features & improvements:\n* New arm length calibration process to enhance accuracy of prescribed targets\n* New and improved network error handling\n* New particle and sound effects in the Tube Trouble experience\n* Drastic improvements to level load times across all experiences due to optimized API calls\n* Reduced the chance of difficult-to-complete star groups in Star Beams\n* The speed of burning fuses in Tube Trouble now depends on tube complexity, and tubes should no longer pass through your body\n* In Star Beams: added large tolerance to locked stars, and stars should now spawn in more reasonable locations\n* Improved user interface and text instructions on daily progress indicators for better clarity\n* Exit button in main menu is now always visible"
+            },
+            {
                 "version": "1.00.96",
                 "change_log": "New\n\n* Firefly now has a round timer\n    Whichever condition is met first ends the game: if you don't catch any fireflies for a while, the firefly timer will end the game. If you continue catching fireflies and there are no more left, the game will end. If you continue catching and the round timer runs out, the game ends.\n* Added indicators if user hasn’t seen a firefly for a while\n\nImprovements\n\n* Improved arm length measurement: more consistent between sessions.\n* Prescribed points now reach at the far end of your arms (sometimes beyond)\n* Tracking point is now consistent across games and is centered in the palm\n* Improved how points are selected when spawning fireflies. We now prioritize points that have picked the least amount of time\n* Firefly finale panel no longer shows % of points.\n\nFixes\n\n* Fixed issue with how dynamic difficulty worked in Space Gunner\n* Fixed bug that would incorrectly show “No Internet” error message\n* Fixed bug where user could touch a point with a firefly but the firefly would not be caught\n* Fixed bug that would end Space Gunner before it starts due to slow internet"
             },

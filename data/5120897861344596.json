@@ -56,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 145
+                "votes": 146
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.81",
+                "change_log": "In Gorilla Craft:\n- Added LODs for: bow and arrows, grenades, crates, barrels, hologram wisps\n- optimized scroll view\n- hide voxel buttons on hands when not looking at them\n- Trying \"unload far chunks\" optimization again now that the void is gone\n\nIn Rem City maps:\n- Fix for players falling forever\n- Fix pets nav mesh in Rem City Animals\n- Added mines portals to Animal City and Rem City Animals"
+            },
             {
                 "version": "2.80",
                 "change_log": "- Launched Animal City \n- Launched Gorilla Craft PvP \n- Launched BlockIt Western\n- Stone Age now begins in a common building area\n- Pet naming now possible in all spaces that allow pets"
@@ -163,10 +167,6 @@
             {
                 "version": "2.68",
                 "change_log": "- New obstacles and powerups in the Spider Fall Crossroads\n- Fixed Basketball spawning in Rem City Animals\n- Fixed Ray length in Rem City\n- Fixed occlusion culling in Rem City Animals"
-            },
-            {
-                "version": "2.67",
-                "change_log": "- Rem City Animals was launched. Go to the mirror and choose if you want to be a Human, Spider, or Parrot. This means that you can move around like in the game Spider Fall or WingIt\n- We have 5 brand new WingIt avatars, which includes: Moth, Mechanoid, Skeleton, Bald Eagle, and a Plumed Dragon.\n- In BlockIt Unleashed, we went from 1 sword to 2 swords."
             }
         ],
         "keywords": [],
@@ -174,9 +174,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 231,
-        "rating": 3.943723,
-        "weighted_rating": 3.91,
+        "votes": 232,
+        "rating": 3.948276,
+        "weighted_rating": 3.92,
         "is_available": true,
         "is_free": true
     },

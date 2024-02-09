@@ -63,7 +63,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 817
+                "votes": 818
             },
             {
                 "rating": 2,
@@ -75,11 +75,11 @@
             },
             {
                 "rating": 4,
-                "votes": 944
+                "votes": 945
             },
             {
                 "rating": 5,
-                "votes": 2800
+                "votes": 2802
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -110,6 +110,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.9.0+213612",
+                "change_log": "LIMITED TIME EVENT — LIGHTS OUT UPDATE\n\nNEW ROLE: ENGINEER\nCrewmates have a new friend in the form of the Engineer! This new role gives the Crewmate-sided player the ability to vent!\n- New Role added!\n- New Custom Lobby Settings Tab added specifically for Roles and their unique settings\n\nQUICK CHAT IMPROVEMENTS\nSeveral quality of life improvements have been made for Quick Chat communication options\n- Long-pressing the map button opens up the Quick Chat menu or toggles between the map and Quick Chat menu\n- Improved hitboxes for Quick Chat options\n- Updated Quick Chat text options to better reflect useful messages and information for players\n- Improved button detection on player Quick Chat to allow for easier messaging\n- Improved how Quick Chat is drawn to make readability of the Quick Chat interface easier\n- Fixed an issue where Quick Chat options would occasionally not update when new players would enter or leave the lobby\n\n**LIMITED TIME EVENT: LIGHTS OUT**\nOur first-ever Limited Time Event goes live with a brand new gameplay mode: Lights Out\n- All Crewmates become Engineers\n- All vents are interconnected\n- Fluctuating lighting, depending on the state of the game (Every time an Engineer is killed, the lights get dimmer. After Engineers complete a certain number of tasks, the lights get brighter)\n- New Mode accessible from the regular Play Online menu or a new UI element on the Main Menu\n- Mode availability between February 8, 2024 until March 12, 2024\n\n**LIMITED TIME HAT: OVERSCOPED**\nCommemorate our first-ever Limited Time Event with our first-ever fully-animated hat!\n- Limited Time Hat: Overscoped\n- DLC available between February 8, 2024 until March 12, 2024\n\n**FIXES AND IMPROVEMENTS**\nVarious bugs and quick-fixes have been implemented to improve the general gameplay experience\n- Updated nametags to now support longer usernames\n- Tweaked filtered words to avoid hiding some usernames that were not offensive\n- Improved how lobby counts players to avoid issues when starting a new game right when a player is joining\n- Fixed an issue where player names might be occasionally mismatched across host and client players\n- Fixed an issue where match settings would not properly update for non-host players in the lobby\n- Fixed an issue where the game could get confused on the exact number of live players when transitioning between voting and task gameplay states\n- Improved visual states for timer icons such as sabotage to better match their visual timing\n- Fixed an issue where player shadows would not correctly display in some unique networking situations such like when entering/exiting a vent\n- Fixed a small issue when players would not fully disengage from tasks when entering a vent\n- Added in audio caption for venting\n- Fixed a small issue where the vent icons would not correctly display on vents when rapidly switching back and forth\n- Fixed an issue where retina scan timings were different from the first scan compared to others\n- Fixed a small issue where the TV in Polus would not correctly turn off volume depending on the knob setting\n- Minor improvements to various task placements and rotations in Skeld II\n- Improved sizes of kill/vent buttons for better readability\n- Fixed an issue where the UI panels would be improperly-sized with larger text chat window\n- Fixed missing or improperly-sized localization strings in various languages for better readability\n- New failsafes implemented to address an issue where the map would not correctly reload in some instances on host migrations\n- Fixed a rare issue where players could still get stuck in a black void when initially loading a map during a host migration\n- Fixed a rare issue during voting which could prematurely end the game for players"
+            },
             {
                 "version": "1.8.0+212832",
                 "change_log": "* Made adjustments to voice detection to improve voice chat performance"
@@ -162,8 +166,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 5435,
-        "rating": 3.84379,
+        "votes": 5439,
+        "rating": 3.843721,
         "weighted_rating": 3.84,
         "is_available": true,
         "is_free": false

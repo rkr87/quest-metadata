@@ -50,7 +50,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 286
+                "votes": 287
             },
             {
                 "rating": 2,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 3,
-                "votes": 63
+                "votes": 64
             },
             {
                 "rating": 4,
@@ -66,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1621
+                "votes": 1624
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -95,6 +95,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.11.20",
+                "change_log": "Fixes to backend calls to Immersed's api.\nFix log file size getting too large.\nMinor UI fixes.\nUpdate credits reward system."
+            },
             {
                 "version": "1.11.19",
                 "change_log": "Add support for Freezing streaks and using power ups from Profile Menu.\nBackend change for handling public rooms."
@@ -170,10 +174,6 @@
             {
                 "version": "1.11.01",
                 "change_log": "Fixes to lighting in environments and Meta avatars.\nFix UI issue with monitor resolutions menu.\nBug fixes for DND button.\nFix pagination on available computers view."
-            },
-            {
-                "version": "1.11.00",
-                "change_log": "Bug fixes for resize handles and mixed reality button on quick menu. Update UI in My Room menu. Environment performance optimizations."
             }
         ],
         "keywords": [
@@ -187,8 +187,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 2172,
-        "rating": 4.252302,
+        "votes": 2177,
+        "rating": 4.251263,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": true
