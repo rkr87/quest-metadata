@@ -40,7 +40,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 47
+                "votes": 48
             },
             {
                 "rating": 2,
@@ -88,6 +88,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "2.81",
+                "change_log": "Improved LODs on Gorilla Craft PvP"
+            },
             {
                 "version": "2.81",
                 "change_log": "In Gorilla Craft:\n- Added LODs for: bow and arrows, grenades, crates, barrels, hologram wisps\n- optimized scroll view\n- hide voxel buttons on hands when not looking at them\n- Trying \"unload far chunks\" optimization again now that the void is gone\n\nIn Rem City maps:\n- Fix for players falling forever\n- Fix pets nav mesh in Rem City Animals\n- Added mines portals to Animal City and Rem City Animals"
@@ -163,10 +167,6 @@
             {
                 "version": "2.69",
                 "change_log": "Launched Horror Map in The Mines"
-            },
-            {
-                "version": "2.68",
-                "change_log": "- New obstacles and powerups in the Spider Fall Crossroads\n- Fixed Basketball spawning in Rem City Animals\n- Fixed Ray length in Rem City\n- Fixed occlusion culling in Rem City Animals"
             }
         ],
         "keywords": [],
@@ -174,9 +174,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 232,
-        "rating": 3.948276,
-        "weighted_rating": 3.92,
+        "votes": 233,
+        "rating": 3.935622,
+        "weighted_rating": 3.91,
         "is_available": true,
         "is_free": true
     },

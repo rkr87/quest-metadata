@@ -7,7 +7,7 @@
         "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2023-02-09T00:00:00",
-        "description": "Do you have what it takes to be the Mightiest in Barbaria?\n \nWelcome to a brutal world where visceral motion-controlled combat blends seamlessly with god-scale base-building and asynchronous multiplayer raids.\n\nUse fists, axes, swords, bows, rocks, or anything you can grab to dominate your foes in intense 1st-person combat. Then jump out to your immortal form and watch your minions carry on the battle while you rain down meteors from above. Systemic combat, versatile enemy AI, and player-created defenses make every battle unique.\n\nBut remember, you aren’t the only Semigod in Barbaria! Attack other players’ realms to increase your Mightiness, and receive rewards when you successfully repel others. Watch replays in miniature from your Stronghold, then strategically place and upgrade more structures, champions, and minions to keep future attackers at bay.\n\nFeatures:\n● Kill it your way: 1st-person combat with a variety of weapons and minions who can serve as both allies and enemies\n● Asynchronous Multiplayer: Attack player-created realms, and get attack notifications each time you launch the game\n● Realm Building: Snap together realm Fragments and strategically set up your defenses\n● Raid Replay: Watch tabletop replays of attacks on your realm by other players \n● Death from Above: Hop out to god-scale and use Ancient Powers to direct the battle from on high",
+        "description": "** NEW UPDATE!** Explore the Caverns of the Unknown, a NEW ROGUELIKE AREA where you battle through procedurally generated caverns to earn currency and compete on the leaderboard.\n\nBATTLE, BUILD, COLLECT\n \nWelcome to a brutal world where visceral motion-controlled combat blends seamlessly with god-scale base-building and asynchronous multiplayer raids.\n\nUse fists, axes, swords, bows, rocks, or anything you can grab to dominate your foes in intense 1st-person combat. Then jump out to your immortal form and watch your minions carry on the battle while you rain down meteors from above. Systemic combat, versatile enemy AI, and player-created defenses make every battle unique.\n\nBut remember, you aren’t the only Semigod in Barbaria! Attack other players’ realms to increase your Mightiness, and receive rewards when you successfully repel others. Watch replays in miniature from your Stronghold, then strategically place and upgrade more structures, champions, and minions to keep future attackers at bay.\n\nFeatures:\n● Kill it your way: 1st-person combat with a variety of weapons and minions who can serve as both allies and enemies\n● Asynchronous Multiplayer: Attack player-created realms, and get attack notifications each time you launch the game\n● Realm Building: Snap together realm Fragments and strategically set up your defenses\n● Raid Replay: Watch tabletop replays of attacks on your realm by other players \n● Death from Above: Hop out to god-scale and use Ancient Powers to direct the battle from on high",
         "markdown": false,
         "developer": "Stalwart Games, LLC",
         "publisher": "Stalwart Games, LLC",
@@ -63,11 +63,11 @@
             },
             {
                 "rating": 4,
-                "votes": 42
+                "votes": 41
             },
             {
                 "rating": 5,
-                "votes": 338
+                "votes": 343
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -98,6 +98,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.5.0.21397.103.OBERON.Quest.release",
+                "change_log": "Barbaria 1.5 - Age of the Unknown Update\n\n** New Feature: Caverns of the Unknown** Battle through procedurally generated caverns in this new roguelike area to earn currency and compete on the leaderboard.  Buffs and bonuses found between fragments grant additional health, extra arrow damage, allies, divine weapons and more to make every run unique.  Unlock 4 new cosmetic statues for your realm along the way as you venture deeper into the Unknown.\n* New Fragment: UTurn\n* New Caps: Tunnel Tower, Stairway, Cavern of Mystery\n* New Structures: 6 different Party Crashers - Party Crashers provide backup support on your fragment. They wait to spawn in until there are 3 or fewer allies remaining and the fragment has been activated for at least 30s (think reinforcements for your defenses). Crashers come in pairs, and will be outfitted with a random melee or ranged kit depending on the type you place.\n\nImprovements and Fixes:\n- Fix Unbreakable Fences and Walls\n- Poise System: Show poise bar beneath enemy health bar to make it easier to see when your hits will stagger an enemy.\n- Fix moving walls starting in down position\n- Fix Melee boost structure not saving on realm\n- Fix Gladiatrix fighting with no weapon when trying to recall\n- Make NPCs prefer to throw throwing axes.\n- Fix minions getting placed in boons area\n- Fix NPCs not crushing crystals for some structures\n- Fix NPCs on connectors not running onto the active tile\n- Balance: Decrease throwing axe damage multiplier\n- Balance: Increase life steal amount when using Divine Sword\n"
+            },
             {
                 "version": "1.4.2.21037.99.OBERON.Quest.release",
                 "change_log": "Barbaria 1.4.2 Patch Update Notes\n\nMerry Christmas!  We’re including a few bonus items for the mid-age patch update.\n\n** New Reward Level: Batter Up - It may not be baseball season, but in Barbaria you can now get some batting practice in while you wait. This Bonus level will drop randomly as a reward from chests, and a brick oven cannon will pitch rocks to you that you can hit back to flying targets for Violence rewards.\n** New Weapon: Divine Sword - When stabbing with this sword, champions can press trigger to use their Divine Juice and steal a bit of life from an enemy.\n** See Custom Character Names from Other Players - With the Brawns Age Update we introduced the ability to give each champion and minion a custom name and begin tracking their individual kill counts and other stats.  Now when you attack other player realms, those custom names will come through above the health bar of enemy NPCs.\n\nImprovements and Fixes:\n- Zealot placement cost decreased to 3, and slight decrease on his health/damage stats.\n- Show personal bests on the scoreboard for Symphony of Violence, Batter Up, and Ring of Champions.\n- Add line of sight requirements for NPC throwing and shooting, and fix some issues with ranged NPCs not attacking.\n- Add Total Daily Challenges complete board at Rise N Grind station.\n- Imps and Skeletons are now stabbable during idle and attacks.\n- Quest3 Performance Updates: Expanded the dynamic resolution scaling range, added some new character lods, and decreased overall memory usage.\n- Fix named character defensive stats not updating.\n- Fix boon effects not getting cleared after use.\n- Fix reinforcements auto-deploying when disabled in daily challenges.\n- Fix reinforcements getting hidden there and not showing up for later building.\n- Fix thrown weapons falling right next to NPCs after a throw.\n- Fix missing floor piece visibility from god mode on Over Under fragment.\n- Prevent Marauder’s Blade from stabbing.\n"
@@ -173,10 +177,6 @@
             {
                 "version": "1.0.2.18754.61.OBERON.Quest.release",
                 "change_log": "Welcome to Barbaria\n\n1.0.2 Patch Notes:\n\n- Fix crash on long Endless mode Ancient Trial runs\n- Add “I’m Done” button on Endless mode\n- Fix replay corruption issue causing replays not to not show up or only play partially\n- Allow re-possessing a champion before the player’s shield goes away\n- Improve bow rotation to allow full turn around with bow\n- Balance Updates: Make meteor and heal spells more powerful, Increase Gladiatrix damage, a little less health and a little less structure disable time for Krank.\n- Make arrows embedded in the player fall out after a little time\n- Allow triggers to calibrate with Oculus controllers in addition to thumbstick press\n- Fix tile boundary colliders to prevent more statue overlaps\n- Kill inactive enemies far from board after a timeout\n- Disable Options menu while in combat (can always access from god mode or when there are no enemies around)"
-            },
-            {
-                "version": "1.0.1.18725.58.OBERON.Quest.release",
-                "change_log": "Welcome to Barbaria\n\n1.0.1 Patch Notes:\n- Fix statues placed over top of realms\n- Fix scenery spikes overlapping some realm layouts\n- Add “Auto Replays on Boot” toggle in Options Menu\n- Cap custom battle music tracks at 8 to prevent load delays and reduce memory usage\n- Block Krank disabling Deity Disruptor in Ring of Champions\n- Fix missing colliders on Boneyard\n- Increase champion health and damage ramp relative to enemies (~40% boost for Level5 champions)"
             }
         ],
         "keywords": [
@@ -190,9 +190,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 408,
-        "rating": 4.715686,
-        "weighted_rating": 4.53,
+        "votes": 412,
+        "rating": 4.720874,
+        "weighted_rating": 4.54,
         "is_available": true,
         "is_free": false
     },

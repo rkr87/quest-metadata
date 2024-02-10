@@ -62,7 +62,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 112
+                "votes": 121
             },
             {
                 "rating": 2,
@@ -70,7 +70,7 @@
             },
             {
                 "rating": 3,
-                "votes": 82
+                "votes": 83
             },
             {
                 "rating": 4,
@@ -78,7 +78,7 @@
             },
             {
                 "rating": 5,
-                "votes": 619
+                "votes": 621
             }
         ],
         "comfort": "NOT_RATED",
@@ -107,6 +107,14 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "1.83",
+                "change_log": "CL 8928 Shipping/Main 2024-02-09"
+            },
+            {
+                "version": "1.83",
+                "change_log": "Update Main/Beta build CL 8928 2024-02-06"
+            },
             {
                 "version": "1.83",
                 "change_log": "Pause Menu 2.0"
@@ -158,14 +166,6 @@
             {
                 "version": "1.76",
                 "change_log": "Improvements\n- Enemies take some damage when weapons are pulled out of them\n- Added new controller vibration option for UI button hovers\n\nBug Fixes\n- Some axes could over-penetrate\n- Katanas Telekinesis gripped from dead enemies had wrong grip location\n- (Quest) Horde high score text read as Coming Soon\n- Kodoku grip orientation was wrong on player preview character\n- Performance menu could fail to update showing complete story\n- (Quest) Completing 10 waves in Horde failed to unlock Slayer sword\n- Some tabs in the hub menu weren’t highlighting on hover (visual)\n- Pirate armor displayed incorrect material on the preview character\n- Some buttons in the hub didn’t show their hover states"
-            },
-            {
-                "version": "1.75",
-                "change_log": "Improvements / Content Update\n\n- Graphical improvements on all platforms\n- General performance improvements\n- Added new two-handed grip style (one-hand dominant), as DEFAULT\n- Localization / translation improvements for non-English text\n- Nerfed boss weapon recharge rate (and Asterokinesis influence)\n- PSO cached again for QUEST to eliminate jitters caused by new shaders\n\nBug Fixes\n\n- Bjorn still played an unwanted / unused Finisher animation\n- Frostbite was failing to trigger special attacks\n- Hel's giant's ground punch clipped his arm through the floor\n- Horde map was still not accessible for some players\n- Menu sliders stuttered and would not move if hovering directly over them\n- Minor misc. UI fixes / corrections"
-            },
-            {
-                "version": "1.74",
-                "change_log": "Improvements / Content Update\n\n- 2022 Holiday Draw\n- AI can't be stunned by weapons while attacking, prompting you to parry\n- AI attacks less often, but moves around more\n- General performance improvements\n- Some Holiday decorations added\n\nBug Fixes\n\n- Fixed some weapon item descriptions in shop\n- Permadeath failed to delete certain progress\n- Some languages were unable to see some text\n- Doomfist could fail to kill enemies in certain situations\n- Skin color failed to load correctly on VR hands\n- Horde map failed to load on some platforms"
             }
         ],
         "keywords": [],
@@ -173,9 +173,9 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 1057,
-        "rating": 4.087985,
-        "weighted_rating": 4.07,
+        "votes": 1069,
+        "rating": 4.062675,
+        "weighted_rating": 4.04,
         "is_available": true,
         "is_free": false
     },

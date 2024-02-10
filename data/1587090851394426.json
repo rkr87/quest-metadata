@@ -24,10 +24,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -93,6 +93,14 @@
         "translations": [],
         "changelog": [
             {
+                "version": "6.1.13-generalqc",
+                "change_log": "🐛 Bug Fixes\n\n- Fixed an issue where FBX exports that contained multiple objects with the same material name could share the same color even when not the same color in Gravity Sketch.\n- Fixed an issue where connecting subdivision to the mirror, moving it off of the world mirror then baking mirror caused the newly baked copy to behave as if still attached to original.\n- Fixed an issue where connecting subdivison or strokes to the mirror, moving it off the world mirror, baking mirror then remirroring the original caused it to be mirrored on local mirror rather than world mirror."
+            },
+            {
+                "version": "6.1.13-generalqog",
+                "change_log": "🐛 Bug Fixes\n\n- Fixed an issue where FBX exports that contained multiple objects with the same material name could share the same color even when not the same color in Gravity Sketch.\n- Fixed an issue where connecting subdivision to the mirror, moving it off of the world mirror then baking mirror caused the newly baked copy to behave as if still attached to original.\n- Fixed an issue where connecting subdivison or strokes to the mirror, moving it off the world mirror, baking mirror then remirroring the original caused it to be mirrored on local mirror rather than world mirror."
+            },
+            {
                 "version": "6.1.12-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed depth of field slider on screenshot also applying to view points.\n- Crease data is now included in FBX control mesh exports of thickened subdivision objects.\n- Fixed a frequent request to server causing issues."
             },
@@ -155,10 +163,6 @@
             {
                 "version": "6.1.4-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed invisible and inactive layers not being included in autosaves."
-            },
-            {
-                "version": "6.1.2-generalqog",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed being unable to load or display rooms containing strokes moved off the world mirror then disconnected from the mirror."
             }
         ],
         "keywords": [

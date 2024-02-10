@@ -63,23 +63,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 375
+                "votes": 378
             },
             {
                 "rating": 2,
-                "votes": 113
+                "votes": 115
             },
             {
                 "rating": 3,
-                "votes": 188
+                "votes": 190
             },
             {
                 "rating": 4,
-                "votes": 213
+                "votes": 212
             },
             {
                 "rating": 5,
-                "votes": 2328
+                "votes": 2345
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -222,6 +222,10 @@
         ],
         "changelog": [
             {
+                "version": "2.0.1472753",
+                "change_log": "Hotfix for Patch 2 that includes the following fixes:\n- Fixed Tanuu \"Inside the Beast\" quest progression\n- Text update for Inbetween chest.\n- Fixed dismounts not working on certain bridges\n- Fixed Endless Dungeon save bug.\n- Fix for occasional dismounts climbing up on nearby ledges\n- Fixed progression blocker bug where players couldn't give the Ankh to Heru during the 'Peace Offering' side quest\n- Fix missing dialogue in inbetween\n- Fix vfx on mixed reality weapons\n- Fixed incorrect controller instruction in codex entry for Alvilda's claws.\n- Fixing whip slash damage through walls\n- Fix orbital damage relic when socketed to protean sword\n- fixed a bug causing a looping respawn in some hazards when mounted"
+            },
+            {
                 "version": "1.2.1466588",
                 "change_log": "We've been hard at work since our holiday patch on fixes and improvements. Check out the build details below!\nThank you for playing and reporting issues. We hope these changes level up your Wrath experience!  \n\nFIXES AND IMPROVEMENTS\n\n- Fixed progression breaking issues:\n> Completing Tanuu before completing the Observatory\n> Pirate Cove bridge switch not working under some conditions\n> Collecting the Tefnut Sun Disk fragment sometimes didn’t count\n> Sometimes you would get sent back to the beginning of the Duat on death\n\n- Fixed progression bugs that only appeared when playing in a non-English language:\n> Castor will not shake hands with the player.\n> Horus will not accept the Balance Stone from the player\n> Using Djehuty’s head\n\n- Increased the audio sample rate on the Quest 3\n- Added an ON/OFF settings toggle for using the consumable left stick click.\n- Added an ON/OFF settings toggle for displaying the belt menu\n- Remove the hero VO when quick consuming items\n- Reduced difficulty of the Bruiser boss fight at the end of the Scorpion Lair\n- Fixed the controller relative joystick mode setting not working properly.\n- Improve animation for Bone Beads mode changes\n- Auto collect protean sword's attached item when holstering the weapon\n- Improved performance when firing harp projectiles\n- Improved performance for overworlds throughout the game\n- Improved performance on body part explosions from weapons\n- Improved performance when performing the 'Heavenly Havoc' Heroic \n- Fixed issue where players would respawn far away from the spot where they died while inside the Juvenile Feeding Chamber in the Scorpion Lair\n- Fixed a bug where certain dismounts would pass through gates\n- Fixed bug in Sanctuary of Balance where a player could reach a lever early when using the God Grapple to reach a higher platform during the god puzzle\n- Fixed rare Uncharted Rift crash that could occur during the 'Wind Serpopard' finisher sequence\n- Fix for player getting stuck inside of Eythingamathur's model after clipping into it during its dying animation\n- Fixed Giant Cobras failing to dig up during the first combat portion of the Monster Den 'Lost RIdge Camp' preventing full completion\n- Fixed issue where player skin dye and player title resets when returning to the Inbetween from Uncharted Rift\n- Fixed bug when 'Haptics Intensity' is set to 0 yet the player continues to experience haptic feedback during IGCs and specific user actions\n- Fixed localization bug for followers reacting in English when tossed their favorite food\n- Fixed bug where haptics are missing when the player hits enemies or destroys objects using various primordial weapons\n- Fixed bug where the player can be damaged by Abraxas's Bladestorm skill if it is used after the axe is thrown back by an enemy\n- Fixed global bug when using Prosperity relic on ranged weapons\n- Fixed issues where the follower requirements are missing from certain monster dens\n- Fixed bug in Temple of Osiris where players are unable to access an optional chest after completing The Osirion puzzle and obtaining Manu's Shield\n- Fixed bug where the Charged Assault Cosmic Objective does not progress when using certain ranged weapons\n- Fixed bug where the player  is unable to give the Ankh to Heru under rare conditions\n- Fixed bug where players were able to pull the offerings out of their holdings in the Sanctuary of the Royal Family\n- Fixed localization bug where Djehuty's voiceover strings are displayed unlocalized when choosing him for the Uncharted Rift\n- Fixed issue where Final Score displayed with a question mark after finishing an Uncharted Rift in French\n- Fixed scout grapple exploit\n- Fixed a bug where the player could be pushed out of battle barriers\n- Fixed various blockers in Loki Anomalies\n- Fixed exploit allowing crossing of some lava hazards unintentionally\n- Fixed bug where in the pause menu may become unresponsive if the player acquires a follower inspiration skill during combat\n- Fixed a rare issue where the luminous lever is missing from the pedestal during the star-crossed lovers quest\n- Fixed progression blocker in Temple of Tefnut\n- Fixed rare issue of getting stuck during Cosmic Projector tutorial after reloading before tutorial completion\n- Fixed progression skip in Valley of Bones\n- Fixed progression blocker in Oasis of Sorrow\n- Fixed issue when getting stuck as Baba during Monkey Business quest\n- Fixed Tidal Torrent particle effects when resuming from pause menu\n- Fixed codex unlocks for certain initial settings\n- Fixed customization offset to avoid vision clipping.\n- Fixed enemies using knockback attacks in MR anomalies\n- Bug fixes for Into the Darkness quest in the Cisterns\n- Ensure cosmetic armor, skin dyes, and titles are properly equipped for Cosmic Rifts\n- Fixed arena endless mode max wave count\n- Restore absent hallowed equipment if it was missing from inventory\n- Fixed stun knockbacks having double knockbacks\n- Fixed a bug where Kivuli Stones would reset when pausing the game\n- Fixed follower teleport during grapple\n- Fixed quill's release reset location in the Tomb of the Scribe\n- Fixed cosmic quest event for charged projectiles\n- Fixed exploit to teleport through walls using the command beam during dismount\n- Fixed a bug where fast traveling out of a tent or house would lock Follower's command beam from use.\n- Prevent accidental access to Tanuu while still hibernating in Papyrus Swamp.\n- Fixed bug with Abraxas possession in the Great Sand Sea\n- Fixed a bug where Cursed Canopic Jars could be broken with Bonestorm from any distance.\n- Fixed Viggo mount's burn VFX when sinking in lava\n- Fixed bugs during Alvilda's tutorial sequence\n- Fixed some rare cases where the player could fall out of the world when mounting the scout\n- Fixed a graphical issue when changing characters while in front of certain mirrors\n- Fixed bug where players were allowed to grapple Followers during dialog\n- Fixed prosperity relic on staff kill\n- Fixed bounce and split arrow going through enemy shields\n- Fixed player getting pushed out of bounds by 'Skrithan Elder' enemy in 'Blistering Vents'\n- Fixed Djehuty's bone storm activation in silent cavern's trials\n- Fixed issue with cosmetic items sometimes appearing to be missing in inventory\n"
             },
@@ -249,8 +253,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": true,
-        "votes": 3217,
-        "rating": 4.24526,
+        "votes": 3240,
+        "rating": 4.244136,
         "weighted_rating": 4.23,
         "is_available": true,
         "is_free": false
