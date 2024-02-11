@@ -155,8 +155,8 @@ class Item(BaseModel):
     type_name: str = Field(validation_alias='__typename')
     appstore_type: str = Field(validation_alias='__isAppStoreItem')
     category: str | None
-    release_date: datetime = Field(
-        default=datetime(1980, 1, 1),
+    release_date: str = Field(
+        default="1980-01-01T00:00:00.000Z",
         validation_alias=AliasPath('release_info', 'display_date')
     )
     description: str = Field(validation_alias='display_long_description')
@@ -304,7 +304,7 @@ class Item(BaseModel):
 
     @validator("release_date", pre=True)
     @classmethod
-    def to_datetime(cls, val: str | None) -> datetime:
+    def to_datetime(cls, val: str | None) -> str:
         """
         Validator to convert release date to datetime.
 
@@ -314,7 +314,7 @@ class Item(BaseModel):
         Returns:
         - datetime: The converted datetime value.
         """
-        default = datetime(1980, 1, 1)
+        default = "1980-01-01T00:00:00.000Z"
         if val is None:
             return default
 
@@ -325,7 +325,8 @@ class Item(BaseModel):
         ]
         for fmt in date_formats:
             try:
-                return datetime.strptime(val, fmt)
+                date_val: datetime = datetime.strptime(val, fmt)
+                return f"{date_val.isoformat(timespec="milliseconds")}Z"
             except ValueError:
                 pass
         logger: Logger = getLogger(__name__)

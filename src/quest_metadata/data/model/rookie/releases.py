@@ -5,19 +5,9 @@ from pydantic import Field, field_validator
 
 from base.models import BaseModel, RootDictModel
 
-# class RookieRelease(BaseModel):
-
-
-#     class Config:
-#         """
-#         Configurations:
-#         - populate_by_name: Config to populate the model by name.
-#         """
-#         populate_by_name = True
-
 
 class RookieRelease(BaseModel):
-    app_name: str = Field(validation_alias="\ufeffGame Name", exclude=True)
+    app_name: str = Field(validation_alias="\ufeffGame Name")
     versions: str = Field(validation_alias="Version Code")
     release_name: str = Field(validation_alias="Release Name")
     last_updated: str = Field(validation_alias="Last Updated")
@@ -36,15 +26,6 @@ class RookieRelease(BaseModel):
     def set_release_note(self, release_name: str, note: str) -> None:
         if self.release_name == release_name:
             self.notes = note
-
-    # @model_validator(mode="before")
-    # @classmethod
-    # def convert(cls, val: dict[str, str]) -> dict[str, Any]:
-    #     output: dict[str, Any] = {
-    #         "app_name": val["\ufeffGame Name"],
-    #         "versions": {val["Version Code"]: [val]}
-    #     }
-    #     return output
 
     class Config:
         """

@@ -241,7 +241,7 @@ class AppManager(Singleton):
         if package_name in self._apps:
             self._apps[package_name].is_free = is_free
             self._apps[package_name].is_available = is_available
-            self._apps[package_name].is_demo = is_demo
+            self._apps[package_name].is_demo_of = is_demo
             if app_name != "":
                 self._apps[package_name].app_name = app_name
 
