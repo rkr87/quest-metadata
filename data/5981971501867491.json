@@ -6,7 +6,7 @@
         "type_name": "Application",
         "appstore_type": "Application",
         "category": null,
-        "release_date": "2023-01-25T00:00:00",
+        "release_date": "2023-01-25T00:00:00.000Z",
         "description": "Jump into your virtual park to play baseball from the comfort of your home. Play ball with your friends from across the world! Practice your swing, home runs and trick shots. Spawn infinite pitches in this virtual batting cage and take as many swings as you’d like!\n\nDerby uses custom baseball physics, making VR baseball feel more real than ever before!",
         "markdown": false,
         "developer": "Throwback Studios",
@@ -83,6 +83,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.16.0",
+                "change_log": "Networked catching, new leaderboards, new park info sign, local roster now refreshes, neighborhood has thawed, new daily leader on blimp, new rewards, new Valentine's-themed snack shack skins"
+            },
+            {
                 "version": "0.15.1",
                 "change_log": "Catching now available to My Park Gold members, holiday decor and rewards have left park, updated Snack Shack with OG items, fixed bug where field box could pitch balls to players"
             },
@@ -157,10 +161,6 @@
             {
                 "version": "0.9.9.2",
                 "change_log": "Left Handed throwing mode in settings, optimized local leaderboards, added last new summer reward, added 4 new bat skins to shop, updated the blimp, RV's and other park assets are on the move, settings in clipboard now save across game launches"
-            },
-            {
-                "version": "0.9.9.1",
-                "change_log": "Optimized matchmaking, added new local field leaderboard, added moderation controls, added new bat skins to shop, fixed bugs where bat physics wouldn't load correctly"
             }
         ],
         "keywords": [],
