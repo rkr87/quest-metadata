@@ -6,6 +6,8 @@ Classes:
 - LocalApps: Dictionary-based model for a collection of local applications.
 """
 
+import re
+
 from pydantic import Field, computed_field
 
 from base.models import BaseModel, RootDictModel
@@ -38,7 +40,16 @@ class LocalApp(BaseModel):
     change_log: list[AppChangeEntry] | None = Field(default=None, exclude=True)
     is_available: bool = False
     is_free: bool = False
-    is_demo: bool = False
+    is_demo_of: bool = Field(default=False, exclude=True)
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def is_demo(self) -> bool:
+        """Indicates whether the local application is available on Rookie"""
+        return (
+            self.is_demo_of or
+            bool(re.search(r"(?i)\bdemo\b", self.app_name))
+        )
 
     @computed_field  # type: ignore[misc]
     @property
