@@ -56,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3727
+                "votes": 3749
             }
         ],
         "comfort": "NOT_RATED",
@@ -84,6 +84,10 @@
         },
         "translations": [],
         "changelog": [
+            {
+                "version": "0.41.2",
+                "change_log": "- Fixed several common crashes."
+            },
             {
                 "version": "0.41.1",
                 "change_log": "- Integrated Modulate's ToxMod system to automatically monitor public lobbies for potential voice chat toxicity, ensuring a more respectful environment."
@@ -159,10 +163,6 @@
             {
                 "version": "0.36.0",
                 "change_log": "- New lobby!\n- New item pack with a new type!\n- Separated player position updates from other networking data to reduce lag.\n- Made the grappling rope no longer pull when blocked, reducing the amount of speed being build up for when you let go on one side.\n- Fixed level folder permissions on Quest 3, when trying to access level files using tools like SideQuest.\n- Fixed the game crashing if a local level file can not be opened. (usually due to wrong file permissions, if the file was copied with adb)\n- Changing cosmetics now makes any player holding on to you let go."
-            },
-            {
-                "version": "0.35.2",
-                "change_log": "- Fixed a common crash that could randomly happen while walking around.\n- The editor will now show the backup version of levels in the level list if the latest save file is missing for some reason.\n- Made respawning while inside lava a little less bad by not randomizing the start position in that case.\n- The game now detects if you are inside a lava block and makes you respawn much more reliably.\n- Fixed hand animation getting stuck in an edge case.\n- Fixed the bug that allowed opening the lobby inside the editor."
             }
         ],
         "keywords": [],
@@ -170,8 +170,8 @@
         "sensor_req": false,
         "is_demo_of": null,
         "on_rookie": false,
-        "votes": 4144,
-        "rating": 4.796091,
+        "votes": 4166,
+        "rating": 4.797168,
         "weighted_rating": 4.77,
         "is_available": true,
         "is_free": true
