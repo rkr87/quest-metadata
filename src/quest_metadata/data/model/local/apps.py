@@ -15,7 +15,18 @@ from data.model.oculus.app_changelog import AppChangeEntry
 from data.model.rookie.releases import RookieRelease
 
 
-class LocalApp(BaseModel):
+class LocalAppUpdate(BaseModel):
+    """
+    Model for representing a local application update.
+    """
+    app_name: str
+    has_metadata: bool = False
+    is_available: bool = False
+    is_free: bool = False
+    is_demo_of: bool = Field(default=False, exclude=True)
+
+
+class LocalApp(LocalAppUpdate):
     """
     Model for representing a local application.
 
@@ -34,13 +45,9 @@ class LocalApp(BaseModel):
         or None.
     """
     id: str | None = None
-    app_name: str
     max_version: int = 0
     max_version_date: int = 0
     change_log: list[AppChangeEntry] | None = Field(default=None, exclude=True)
-    is_available: bool = False
-    is_free: bool = False
-    is_demo_of: bool = Field(default=False, exclude=True)
 
     @computed_field  # type: ignore[misc]
     @property

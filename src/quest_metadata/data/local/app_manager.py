@@ -13,7 +13,7 @@ from pydantic_core import ValidationError
 
 from base.classes import Singleton
 from config.app_config import AppConfig
-from data.model.local.apps import LocalApp, LocalApps
+from data.model.local.apps import LocalApp, LocalApps, LocalAppUpdate
 from data.model.oculus.app_changelog import AppChangeLog
 from data.model.parsed.app_item import ParsedAppItem
 from data.model.rookie.releases import RookieRelease
@@ -224,10 +224,7 @@ class AppManager(Singleton):
     async def update(
         self,
         package_name: str,
-        app_name: str,
-        is_available: bool,
-        is_free: bool,
-        is_demo: bool
+        update: LocalAppUpdate
     ) -> None:
         """
         Update information for a specific app in the collection.
@@ -239,11 +236,12 @@ class AppManager(Singleton):
         - is_demo (bool): The demo status of the app.
         """
         if package_name in self._apps:
-            self._apps[package_name].is_free = is_free
-            self._apps[package_name].is_available = is_available
-            self._apps[package_name].is_demo_of = is_demo
-            if app_name != "":
-                self._apps[package_name].app_name = app_name
+            self._apps[package_name].is_free = update.is_free
+            self._apps[package_name].is_available = update.is_available
+            self._apps[package_name].is_demo_of = update.is_demo_of
+            self._apps[package_name].has_metadata = update.has_metadata
+            if update.app_name != "":
+                self._apps[package_name].app_name = update.app_name
 
     def _load_from_file(self) -> LocalApps:
         """

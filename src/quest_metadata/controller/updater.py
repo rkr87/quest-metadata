@@ -17,7 +17,7 @@ from config.app_config import AppConfig
 from controller.image_manager import ImageManager
 from data.local.app_manager import AppManager
 from data.model.applab.apps import AppLabApps
-from data.model.local.apps import LocalApp, LocalApps
+from data.model.local.apps import LocalApp, LocalApps, LocalAppUpdate
 from data.model.oculus.app import Item, OculusApp
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_changelog import AppChangeLog
@@ -311,12 +311,16 @@ class Updater(Singleton):
         await self._process_images(image_downloads)
 
         for i in packages:
+            update = LocalAppUpdate(
+                app_name=result.data.app_name,
+                has_metadata=True,
+                is_available=result.data.is_available,
+                is_free=result.data.is_free,
+                is_demo_of=result.data.is_demo_of is not None
+            )
             await self._app_manager.update(
                 i[0],
-                result.data.app_name,
-                result.data.is_available,
-                result.data.is_free,
-                result.data.is_demo_of is not None
+                update
             )
         return result
 
