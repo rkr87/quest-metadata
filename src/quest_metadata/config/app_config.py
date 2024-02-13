@@ -111,6 +111,7 @@ class AppConfig(SingletonModel):
     images: _Images = _Images()
     max_threads: int | None = None
     last_updated_filename: str = "_last_updated.json"
+    dbinit_filename: str = "_dbinit.json"
 
     @classmethod
     async def load_config(cls, override_file: str | None = None) -> Self:
