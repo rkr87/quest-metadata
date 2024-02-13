@@ -17,7 +17,7 @@ from pydantic import (AliasPath, Field, computed_field, field_validator,
 
 from base.models import BaseModel
 from data.model.oculus.app_additionals import (AppAdditionalDetails, AppImage,
-                                               AppImages, Translation)
+                                               AppImages)
 from data.model.oculus.app_changelog import AppChangeEntry
 from utils.error_manager import ErrorManager
 
@@ -152,16 +152,16 @@ class Item(BaseModel):
     id: str
     name: str = Field(validation_alias='display_name')
     app_name: str = Field(validation_alias='appName')
-    type_name: str = Field(validation_alias='__typename')
-    appstore_type: str = Field(validation_alias='__isAppStoreItem')
-    category: str | None
+    # type_name: str = Field(validation_alias='__typename')
+    # appstore_type: str = Field(validation_alias='__isAppStoreItem')
+    category: str
     release_date: str = Field(
         default="1980-01-01T00:00:00.000Z",
         validation_alias=AliasPath('release_info', 'display_date')
     )
     description: str = Field(validation_alias='display_long_description')
-    markdown: bool = Field(validation_alias='long_description_uses_markdown')
-    developer: str | None = Field(validation_alias='developer_name')
+    # markdown: bool = Field(validation_alias='long_description_uses_markdown')
+    developer: str = Field(validation_alias='developer_name')
     publisher: str = Field(validation_alias='publisher_name')
     genres: list[str] = Field(validation_alias='genre_names')
     devices: list[str] = Field(validation_alias='supported_input_device_names')
@@ -175,23 +175,23 @@ class Item(BaseModel):
         Field(validation_alias='quality_rating_histogram_aggregate_all')
     ]
     comfort: str = Field(validation_alias='comfort_rating')
-    age_rating: str | None = Field(
-        default=None,
-        validation_alias=AliasPath('age_rating', 'category_name')
-    )
+    # age_rating: str | None = Field(
+    #     default=None,
+    #     validation_alias=AliasPath('age_rating', 'category_name')
+    # )
     iarc: Annotated[_IarcRating, Field(
         default=_IarcRating(),
         validation_alias=AliasPath('iarc_cert', 'iarc_rating')
     )]
-    platform: str
+    # platform: str
     internet_connection: str | None
     website: str = Field(validation_alias='website_url')
     app_images: AppImages = AppImages()
-    translations: list[Translation] | None = None
-    changelog: list[AppChangeEntry] | None = None
+    # translations: list[Translation] | None = None
+    changelog: list[AppChangeEntry] = []
     keywords: list[str] = []
-    has_ads: bool = Field(validation_alias='has_in_app_ads')
-    sensor_req: bool = Field(validation_alias='is_360_sensor_setup_required')
+    # has_ads: bool = Field(validation_alias='has_in_app_ads')
+    # sensor_req: bool = Field(validation_alias='is_360_sensor_setup_required')
     price: int | None = Field(
         default=None,
         validation_alias=AliasPath("current_offer", "price", "offset_amount"),
@@ -200,6 +200,7 @@ class Item(BaseModel):
     is_demo_of: str | None = Field(
         default=None,
         validation_alias=AliasPath("is_demo_of", "id"),
+        exclude=True
     )
     on_rookie: bool = False
 
@@ -214,7 +215,7 @@ class Item(BaseModel):
         - additionals (AppAdditionalDetails): The AppAdditionalDetails
             instance.
         """
-        self.translations = additionals.translations
+        # self.translations = additionals.translations
         self.app_images = additionals.images
         self.keywords = additionals.keywords
 
@@ -235,8 +236,8 @@ class Item(BaseModel):
         if self.iarc.iarc_icon:
             res.append(self.iarc.iarc_icon)
         add_images(self.app_images)
-        for item in self.translations or []:
-            add_images(item.images)
+        # for item in self.translations or []:
+        #     add_images(item.images)
         return res
 
     @computed_field  # type: ignore[misc]
@@ -280,8 +281,8 @@ class Item(BaseModel):
         v: int = self.votes
         return round((m + r * v + m / 5 * a) / (m + 4 + v + a) * 5, 2)
 
-    @computed_field  # type: ignore[misc]
-    @property
+    # @computed_field  # type: ignore[misc]
+    # @property
     def is_available(self) -> bool:
         """
         Computed property to check if the item is available.
@@ -291,8 +292,8 @@ class Item(BaseModel):
         """
         return self.price is not None
 
-    @computed_field  # type: ignore[misc]
-    @property
+    # @computed_field  # type: ignore[misc]
+    # @property
     def is_free(self) -> bool:
         """
         Computed property to check if the item is free.
@@ -301,6 +302,14 @@ class Item(BaseModel):
         - bool: True if the item is free, False otherwise.
         """
         return self.price is not None and self.price == 0
+
+    @validator("developer", "category", pre=True)
+    @classmethod
+    def set_not_specifid(cls, val: str | None) -> str:
+        """
+        Validator to convert null strings
+        """
+        return val or "NOT_SPECIFIED"
 
     @validator("release_date", pre=True)
     @classmethod
