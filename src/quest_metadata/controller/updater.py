@@ -264,7 +264,7 @@ class Updater(Singleton):
             for r in results.data
         ])
         await results.save_json(
-            f"{AppConfig().data_path}/{AppConfig().dbinit_filename}.json"
+            f"{AppConfig().data_path}/{AppConfig().dbinit_filename}"
         )
 
     @staticmethod
