@@ -18,7 +18,7 @@ from controller.image_manager import ImageManager
 from data.local.app_manager import AppManager
 from data.model.applab.apps import AppLabApps
 from data.model.local.apps import LocalApp, LocalApps, LocalAppUpdate
-from data.model.oculus.app import Item, OculusApp
+from data.model.oculus.app import Item, OculusApp, OculusApps
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_changelog import AppChangeLog
 from data.model.oculus.app_package import AppPackage
@@ -256,11 +256,16 @@ class Updater(Singleton):
 
         await self._app_manager.save()
 
-        self._calc_average_ratings([i for i in tasks if i])
+        results: OculusApps = OculusApps(data=[i for i in tasks if i])
+
+        self._calc_average_ratings(results.data)
         await asyncio.gather(*[
             r.save_json(f"{AppConfig().data_path}/{r.data.id}.json")
-            for r in tasks if r
+            for r in results.data
         ])
+        await results.save_json(
+            f"{AppConfig().data_path}/{AppConfig().dbinit_filename}.json"
+        )
 
     @staticmethod
     def _calc_average_ratings(items: list[OculusApp]) -> None:
