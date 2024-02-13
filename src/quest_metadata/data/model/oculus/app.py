@@ -184,7 +184,7 @@ class Item(BaseModel):
         validation_alias=AliasPath('iarc_cert', 'iarc_rating')
     )]
     # platform: str
-    internet_connection: str | None
+    internet_connection: str
     website: str = Field(validation_alias='website_url')
     app_images: AppImages = AppImages()
     # translations: list[Translation] | None = None
@@ -303,7 +303,7 @@ class Item(BaseModel):
         """
         return self.price is not None and self.price == 0
 
-    @validator("developer", "category", pre=True)
+    @validator("developer", "category", "internet_connection", pre=True)
     @classmethod
     def set_not_specifid(cls, val: str | None) -> str:
         """
