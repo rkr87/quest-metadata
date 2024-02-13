@@ -400,3 +400,10 @@ class OculusApp(BaseModel):
     """
     data: Annotated[Item, Field(validation_alias=AliasPath("data", "item"))]
     errors: list[Error] = []
+
+
+class OculusApps(BaseModel):
+    """
+    Model representing a list of Oculus application.
+    """
+    data: list[OculusApp]
