@@ -3,12 +3,9 @@
         "id": "2245906048808858",
         "name": "VARK",
         "app_name": "VARK",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "ENTERTAINMENT",
         "release_date": "2019-12-03T00:00:00.000Z",
         "description": "VARK offers a variety of entertainment content, including live concerts for virtual artists and events that allow visitors to dive into the world of characters.\nAt live concerts, you can experience artists singing and dancing on a variety of high-quality stages right in front of you.\nAlso, available are Japanese Karaoke anyone can have fun together, and Cinema you can enjoy videos.\nWe will deliver the best entertainment experience by taking full advantage of the possibilities that only virtual can offer.",
-        "markdown": false,
         "developer": "VARK Inc.",
         "publisher": "ActEvolve Inc.",
         "genres": [
@@ -60,7 +57,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -69,7 +65,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://vark.co.jp/",
         "app_images": {
@@ -82,43 +77,15 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031528_2206597786087739_2314312903764738048_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "VARK",
-                "keywords": [
-                    "ライブ",
-                    "Vtuber"
-                ],
-                "long_description": "「VARK」はVR専用ライブサービスです。\nハイクォリティかつ多種多様なステージで歌って踊るアーティスト達の世界を、目の前で体感することができます。\n「隣に来て歌ってくれる」「音楽やMCに合わせて様々なアクションができる」など、\"VR×ライブハウス\"ならではの、素敵な体験をお届けします。",
-                "long_description_uses_markdown": false,
-                "short_description": "「VARK」はVR専用ライブサービスです。\nハイクォリティかつ多種多様なステージで歌って踊るアーティスト達の世界を、目の前で体感することができます。"
-            }
-        ],
         "changelog": [],
         "keywords": [
             "concert",
             "Vtuber"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 344,
         "rating": 2.936047,
-        "weighted_rating": 3.15,
-        "is_available": false,
-        "is_free": false
+        "weighted_rating": 3.15
     },
     "errors": []
 }

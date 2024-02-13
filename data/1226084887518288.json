@@ -3,12 +3,9 @@
         "id": "1226084887518288",
         "name": "UnityChan Flyer",
         "app_name": "UnityChan Flyer",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2017-08-09T00:00:00.000Z",
         "description": "It is Unity-Chan version Flyer.\nYou can steer by looking around.\nGet a score by going through the gate along the guide.\nEven if you destroy the asteroid you will get a little score.\nYou can recover your HP by taking items.\n\nThis game can be played without a controller.\nThe controller is not used during play. It is used only for the start and end buttons.\n\nThis work is provided under Unity-Chan License Terms.\n(c) Unity Technologies Japan/UCL.\nThe flying motion uses Query-Chan asset by Pocket Queries, Inc. is licensed under a Creative Commons Attribution 4.0 international License(CC-BY).\nThis software includes the work that is distributed in the Apache License 2.0.",
-        "markdown": false,
         "developer": "Fantom1x",
         "publisher": "Fantom",
         "genres": [
@@ -56,14 +53,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www43.tok2.com/home/fantom1x/android/",
         "app_images": {
@@ -76,31 +71,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "11162748_120387221927824_6527316882133876736_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "UnityChan Flyer",
-                "keywords": [
-                    "unitychan",
-                    "ユニティちゃん",
-                    "fly",
-                    "飛ぶ"
-                ],
-                "long_description": "ユニティちゃん版Flyerです。\n視線を向けることで操縦できます。\nガイドに沿ってゲートをくぐると得点を取得。\n隕石を破壊しても少し得点が入ります。\nアイテムを取ると体力を回復できます。\n\nこのゲームはコントローラが無くても遊べます。\nコントローラはプレイ中には使用しません。開始や終了ボタンのみに使用します。\n\nこの作品はユニティちゃんライセンス条項の元に提供されています。\n(c) Unity Technologies Japan/UCL.\n飛行モーションはクエリちゃんアセットを利用しています。\nCreative Commons Attribution 4.0 international License(CC-BY) に基づいて配布されています。By Pocket Queries, Inc.\nThis software includes the work that is distributed in the Apache License 2.0.",
-                "long_description_uses_markdown": false,
-                "short_description": "ユニティちゃん版Flyerです。\n視線を向けることで操縦できます。\nガイドに沿ってゲートをくぐると得点を取得。\n隕石を破壊しても少し得点が入ります。\nアイテムを取ると体力を回復できます。\nこのゲームはコントローラが無くても遊べます。"
-            }
-        ],
         "changelog": [
             {
                 "version": "2.0",
@@ -115,15 +85,10 @@
             "unitychan",
             "fly"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 28,
         "rating": 3.535714,
-        "weighted_rating": 3.78,
-        "is_available": false,
-        "is_free": false
+        "weighted_rating": 3.78
     },
     "errors": []
 }

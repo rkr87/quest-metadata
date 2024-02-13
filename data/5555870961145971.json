@@ -3,12 +3,9 @@
         "id": "5555870961145971",
         "name": "Space Dragon",
         "app_name": "Space Dragon",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2022-11-02T00:00:00.000Z",
         "description": "Have you ever wanted to destroy a world? How about a dozen?\n\nTake control of a pair of hatchling space dragons and blast your way through the cosmos with our innovative move-and-warp system. Fight the robotic armadas that have enslaved the massive beasts of the galaxy! Destroy suns, battle monsters hidden within, and leap to new systems through mind-bending wormholes!\n\nDragon Bytes Update 01\n\nYou asked and we listened! The two most common points of feedback we received from the VR community were the short length and the lack of variety. \n\nWe’re proud to announce the first of the free Dragon Bytes updates for Space Dragon, one of many we have planned to expand and improve the game in multiple ways. \n\nHere are just a few of the things we’ve introduced:\n- A major overall performance boost and visual updates\n- New weapons for the AI enemies, including guided missiles, tracking lasers, and more!\n- New level events and points of interest\n- More bullet hell. MORE.\n- Updated boss fights\n- Additional level content leading up to the bosses\n\nThis is just the first of a series of updates coming to Space Dragon in 2023 and beyond. \n\nThank you all for your continued support!\n",
-        "markdown": false,
         "developer": "3lbGames",
         "publisher": "3lbGames, Inc.",
         "genres": [
@@ -59,7 +56,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -69,7 +65,6 @@
             "elements": [],
             "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://3lbgames.com/games/space-dragon/",
         "app_images": {
@@ -82,8 +77,11 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974918_1773804822965792_610650773645964487_n.png"
         },
-        "translations": [],
         "changelog": [
+            {
+                "version": "24.02.12",
+                "change_log": "Year of the Dragon Lunar Festival\n\n- Wormholes updates\n- Health carry over\n- Dragon skin customizations\n- - Original\n- - Lunar New Year\n- - Golden (awarded on game completion)\n- Slow warp near planets\n- Passthrough option enabled\n\nHotfix\nFixed a clipping issue in Leviathan level\nFixed save state issues in customization and AI Core"
+            },
             {
                 "version": "24.02.09",
                 "change_log": "Year of the Dragon Lunar Festival\n\n- Wormholes updates\n- Health carry over\n- Dragon skin customizations\n- - Original\n- - Lunar New Year\n- - Golden (awarded on game completion)\n- Slow warp near planets\n- Passthrough option enabled\n"
@@ -110,15 +108,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": true,
         "votes": 47,
         "rating": 4.914894,
-        "weighted_rating": 4.17,
-        "is_available": true,
-        "is_free": false
+        "weighted_rating": 4.17
     },
     "errors": []
 }

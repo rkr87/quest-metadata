@@ -3,12 +3,9 @@
         "id": "7103415146361501",
         "name": "SkyDome",
         "app_name": "SkyDome",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2024-02-09T00:00:00.000Z",
         "description": "Transform your room into a wonderland with Sky Dome. 🌌\n\n  Features:\n\n- Room Scanning: Simply scan your surroundings using Meta Quest 3. Sky Dome detects your room’s ceiling and works its magic.\n- Customize Your Sky: Transform your ceiling into a breathtaking skyscape! Select from night skies twinkling with stars or day skies adorned with fluffy clouds. You even have the option to upload your own 360° image for a truly personalized touch.\n- Immersive Experience: Feel like you’re under the open sky, day or night. Whether you’re relaxing, working, or dreaming, Sky Dome transports you.\n\n  Why Sky Dome?\n\n- Escape Stress: Gaze up at a serene sky and let your worries fade away.\n- Inspire Creativity: Ignite your imagination with personalized skies.\n- Perfect for All Spaces: From bedrooms to offices and studios, Sky Dome fits everywhere.\n- Use other apps while having your ceiling replaced. \n(you can only use 2d apps that runs on universal menu while having your ceiling replaced) \n\nDownload Sky Dome now and elevate your environment! 🌟",
-        "markdown": false,
         "developer": "AlfredAR",
         "publisher": "AlfredAR",
         "genres": [
@@ -27,7 +24,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest 3"
+            "Meta Quest Pro",
+            "Meta Quest",
+            "Meta Quest 3",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -54,11 +54,10 @@
             },
             {
                 "rating": 5,
-                "votes": 2
+                "votes": 4
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -67,7 +66,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://alfredar8.github.io/SkyDome/index.html",
         "app_images": {
@@ -80,18 +78,17 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39035384_672295891554256_5928603862530570855_n.png"
         },
-        "translations": [],
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.1",
+                "change_log": "* Added support for Meta Quest 2"
+            }
+        ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
-        "votes": 3,
-        "rating": 4.666667,
-        "weighted_rating": 3.87,
-        "is_available": true,
-        "is_free": false
+        "votes": 5,
+        "rating": 4.8,
+        "weighted_rating": 3.89
     },
     "errors": []
 }

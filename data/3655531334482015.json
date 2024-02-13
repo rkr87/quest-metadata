@@ -3,12 +3,9 @@
         "id": "3655531334482015",
         "name": "Blinky",
         "app_name": "Blinky",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2021-03-29T00:00:00.000Z",
         "description": "Enjoy various VR videos delivered from all over the world every day!\nWith this app, you can watch high qualified VR movies made by Blinky and 360-degree cameras.\n\nDISCOVER NEW VR CONTENT\n- Find brand new VR content on Content tab.\n\nADD FAVORITE \n- Make a list that saves your favorite videos.\n\nSUBSCRIBE TO CHANNELS\n- There are various channels about NEWS, 360° factory tour, LIVE Concert, and more.\n- Press Channel Subscribe on the channel detail if you want to watch its content.\n\nIf you have any issues, let us know at support@blinky.jp",
-        "markdown": false,
         "developer": "アルファコード",
         "publisher": "Alpha Code Inc.",
         "genres": [
@@ -60,14 +57,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://blinky.jp/",
         "app_images": {
@@ -80,26 +75,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "57566686_874936169956400_8185434695501652981_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "Blinky",
-                "keywords": [],
-                "long_description": "世界中から日々配信されるVR体験を楽しもう！\nこのアプリは、VRコンテンツの制作や視聴をする為のアプリです。\n\nBlinky アプリの主な特徴\n・最新のVRコンテンツの発見\n   - コンテンツメニューから最新のVRコンテンツを見つけることができます\n\n・チャンネル登録\n   - ニュース、工場見学、360度ライブ等、自分の好きなチャンネルを登録しましょう\n\n・お気に入り登録\n   - 気に入ったコンテンツを登録し、自分だけのプレイリストを作りましょう\n\nBlinky は誰でも簡単に幅広いジャンルのVRコンテンツを制作、配信できる空間プラットフォームです。\nVRコンテンツ制作を始める方はこちら↓\nhttps://blinky.jp\n\n※一部の機能の使用には会員登録及びログインが必要です。\n※一部のコンテンツ及びチャンネルは有料となっております。",
-                "long_description_uses_markdown": false,
-                "short_description": "世界中から日々配信されるVR体験！\nこのアプリは360度カメラとBlinkyをつかって制作、配信したVRコンテンツを視聴する為のアプリです。"
-            }
-        ],
         "changelog": [
             {
                 "version": "1.2.8",
@@ -139,15 +114,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 6,
         "rating": 2.666667,
-        "weighted_rating": 3.79,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.79
     },
     "errors": []
 }

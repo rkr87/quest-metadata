@@ -3,12 +3,9 @@
         "id": "3796117943805205",
         "name": "Imrsivo Player",
         "app_name": "Imrsivo Player",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "ENTERTAINMENT",
         "release_date": "2021-07-23T00:00:00.000Z",
         "description": "Imrsivo player permets d'explorer/visionner les différentes expériences VR réalisé par la communauté.",
-        "markdown": false,
         "developer": "Blumenlab",
         "publisher": "Blumenlab",
         "genres": [
@@ -55,14 +52,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://imrsivo.com/",
         "app_images": {
@@ -75,26 +70,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75451772_156277876546585_7887396618616029488_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "fr_FR",
-                "display_name": "Imrsivo player",
-                "keywords": [],
-                "long_description": "Imrsivo player permets d'explorer/visionner les différentes expériences VR réalisé par la communauté.",
-                "long_description_uses_markdown": false,
-                "short_description": "Imrsivo player permets d'explorer/visionner les différentes expériences VR réalisé par la communauté."
-            }
-        ],
         "changelog": [
             {
                 "version": "0.3",
@@ -102,15 +77,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 4,
         "rating": 2.25,
-        "weighted_rating": 3.79,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.79
     },
     "errors": []
 }

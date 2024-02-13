@@ -3,12 +3,9 @@
         "id": "5904301386352830",
         "name": "HoloATC",
         "app_name": "HoloATC",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2023-02-06T00:00:00.000Z",
         "description": "This app shows live air traffic from a number of airports all around the world. It is indented to be used with hand tracking only. Initially you are asked select an airport, then select a place for the airport center. Press fingers and thumb together to place the airport. Then you can watch air traffic. More options are in the hand menu (hold hand up with palm towards you).\nYou can also see aircraft pictures by looking at a plane for 3 seconds, and select a single airplane to follow. This will be shared in all headsets watching this airport.",
-        "markdown": false,
         "developer": "LocalJoost",
         "publisher": "Joost van Schaik",
         "genres": [
@@ -54,14 +51,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://localjoost.github.io/",
         "app_images": {
@@ -74,7 +69,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75507164_730896425099882_3252550260741817662_n.png"
         },
-        "translations": [],
         "changelog": [
             {
                 "version": "1.0.7.0",
@@ -82,15 +76,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 1,
         "rating": 4.0,
-        "weighted_rating": 3.85,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.85
     },
     "errors": []
 }

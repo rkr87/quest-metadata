@@ -3,12 +3,9 @@
         "id": "4102025809820370",
         "name": "CINEVR",
         "app_name": "CINEVR",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "ENTERTAINMENT",
         "release_date": "2022-03-09T00:00:00.000Z",
         "description": "CINEVR brings the Movie Theater at home to watch premium movies and short formats in 2D, 3D and 360° either on demand, in private rooms with friends or during daily public screenings.\n\nPUBLIC SCREENINGS\nEach week, 4 movies in theaters (2D and 3D) every evening at 9 p.m CET.\n\nPREMIUM MOVIES ON DEMAND\nExplore a catalog of movies on demand in virtual reality, available in 2D and 3D, most of them in several languages and with subtitles. Watch movies alone or create a private room to watch movies with your friends!\n\nAMAZING IMAGE QUALITY\nMovies on demand are encoded by us in 1080p with a very high bitrate to offer the best image quality in VR.\n\nSPATIALIZED AUDIO\nWhatever the number of audio channels, all our environments surround you with spatialized 360° sound.\n\nTHEMATIC THEATERS\nPersonalize your experience with our 6 thematic scenes: • Movie theater • Beach in the moonlight • 60s drive-in • Scary haunted house • Spaceship • Antic theater • Ima",
-        "markdown": false,
         "developer": "One Digital Nation",
         "publisher": "One Digital Nation",
         "genres": [
@@ -55,7 +52,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -64,7 +60,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://cinevr.io/",
         "app_images": {
@@ -77,26 +72,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39001686_1273848789726737_5171966795833993817_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "fr_FR",
-                "display_name": "CINEVR",
-                "keywords": [],
-                "long_description": "SÉANCES PUBLIQUES \nChaque semaine, 4 films en 2D et 3D sont à l'affiche tous les soirs à 21h. \n\nFILMS À LA DEMANDE \nExplorer un catalogue de films à la demande en réalité virtuelle, disponibles en 2D et 3D, dans plusieurs langues et avec des sous-titres. \n\nIMAGE EXCEPTIONNELLE ET SON SPATIALISÉ \nLes films sont encodés par nos soins pour vous offrir la meilleure qualité d'image possible en VR. Tous nos environnements vous enveloppent avec un son spatialisé à 360°. \n\nSOCIAL ET MULTI-PLATEFORME \nCréez ou rejoignez des parties privées/publiques pour regarder des films et des vidéos jusqu'à 9 joueurs, quel que soit votre casque VR. Envoyez des emojis et utilisez votre micro pour interagir avec vos amis. \n\nSCÈNES THÉMATIQUES \nPersonnalisez votre expérience avec nos 7 scènes aux ambiances différentes : salle de cinéma, plage, drive-in, maison hantée, vaisseau spatial, théâtre antique et IMAX.",
-                "long_description_uses_markdown": false,
-                "short_description": "CINEVR est un cinéma virtuel, social et immersif pour voir des films 2D, 3D et 360° seul ou entre amis dans l'une des 7 salles thématiques : salle de cinéma, drive-in des années 60, plage au clair de lune, maison hantée, vaisseau spatial, théâtre antique et IMAX."
-            }
-        ],
         "changelog": [
             {
                 "version": "5.0.0",
@@ -128,15 +103,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 44,
         "rating": 2.022727,
-        "weighted_rating": 3.32,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.32
     },
     "errors": []
 }

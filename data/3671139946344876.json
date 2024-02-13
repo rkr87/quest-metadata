@@ -3,12 +3,9 @@
         "id": "3671139946344876",
         "name": "コミなびVR（COMINAVI VR）",
         "app_name": "コミなびVR（COMINAVI VR）",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2021-07-19T00:00:00.000Z",
         "description": "The World's First Manga Platform for Enjoying Japanese Manga Comics in VR\n\nFeatures.\nThe position and size of the manga can be changed freely.\nYou can switch between various backgrounds in the reading space.\nYou can add new manga in the VR space.\nYou can add new comics in the VR space - Can be used offline (need to download comics in advance)\n\nCominavi account is required. For details, please check (https://mechacomi.jp/).",
-        "markdown": false,
         "developer": "MEDIA DO Co., Ltd.",
         "publisher": "MEDIA DO Co., Ltd.",
         "genres": [
@@ -58,7 +55,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -67,7 +63,6 @@
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://mechacomi.jp/",
         "app_images": {
@@ -80,26 +75,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75222946_407410590427353_6951804871825107837_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "コミなびVR",
-                "keywords": [],
-                "long_description": "あなたの好きな漫画をVRで楽しみましょう！\n\n【機能】\n・漫画の位置と大きさを自由に変えられます\n・読書空間では様々な背景を切り替えることができます\n・VR空間内で漫画を新たに追加することができます\n・オフラインでも使用できます（事前に漫画をダウンロードする必要があります）\n\n※コミなびアカウントが必要です。詳しくは(https://mechacomi.jp/)をご確認ください。",
-                "long_description_uses_markdown": false,
-                "short_description": "あなたの好きな漫画をVRで楽しみましょう！"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.6.1",
@@ -123,15 +98,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 11,
         "rating": 4.272727,
-        "weighted_rating": 3.89,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.89
     },
     "errors": []
 }

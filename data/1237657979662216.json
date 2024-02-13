@@ -3,12 +3,9 @@
         "id": "1237657979662216",
         "name": "VR Vienna",
         "app_name": "VR Vienna",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "ENTERTAINMENT",
         "release_date": "2017-02-21T00:00:00.000Z",
         "description": "Go on an immersive journey of discovery through Vienna and experience Viennese moments in 360°. Waltz to the sounds of the Vienna Philharmonic and take a peek behind the scenes of the Summer Night Concert. Dive into the rhythm of the city and feel the Viennese attitude towards life at various places.\n",
-        "markdown": false,
         "developer": "DEEP Inc.",
         "publisher": "Vienna Tourist Board",
         "genres": [
@@ -62,14 +59,12 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://vienna.info/",
         "app_images": {
@@ -82,32 +77,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "12533842_389687821392041_3126421220061347840_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "de_DE",
-                "display_name": "VR Vienna",
-                "keywords": [
-                    "Wien",
-                    "schönbrunn",
-                    "musik",
-                    "rhythmus",
-                    "WienerPhilharmoniker"
-                ],
-                "long_description": "Begeben Sie sich auf eine immersive Entdeckungsreise durch Wien und erleben Sie Wiener Momente in 360°. Tanzen Sie Walzer zu den Klängen der Wiener Philharmoniker und werfen Sie einen Blick hinter die Kulissen des Sommernachtskonzertes. Tauchen Sie ein in den Rhythmus der Stadt und spüren Sie dem Wiener Lebensgefühl an verschiedenen Orte nach.",
-                "long_description_uses_markdown": false,
-                "short_description": "Begeben Sie sich auf eine immersive Entdeckungsreise durch Wien und erleben Sie Wiener Momente in 360°. Tanzen Sie Walzer zu den Klängen der Wiener Philharmoniker und werfen Sie einen Blick hinter die Kulissen des Sommernachtskonzertes. Tauchen Sie ein in den Rhythmus der Stadt und spüren Sie dem Wiener Lebensgefühl an verschiedenen Orte nach."
-            }
-        ],
         "changelog": [
             {
                 "version": "1.0.2",
@@ -125,15 +94,10 @@
             "rhythm",
             "ViennaPhilharmonic"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 87,
         "rating": 3.172414,
-        "weighted_rating": 3.55,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.55
     },
     "errors": []
 }

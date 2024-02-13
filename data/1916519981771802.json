@@ -3,12 +3,9 @@
         "id": "1916519981771802",
         "name": "Meta Quest Browser",
         "app_name": "Meta Quest Browser",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2019-05-20T00:00:00.000Z",
         "description": "Meta Quest Browser is designed from ground up to provide the ultimate web browsing experience in VR. Multitask by viewing multiple sites side-by-side and using tabs.  Enjoy video in an immersive theater screen. including support for VR and 3D content.  And, experience the next generation of immersive web sites.",
-        "markdown": false,
         "developer": "Meta Quest",
         "publisher": "Oculus",
         "genres": [
@@ -71,7 +68,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -83,7 +79,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://developer.oculus.com/documentation/oculus-browser/browser-intro/",
         "app_images": {
@@ -96,30 +91,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974841_329016394561589_3476464275910819840_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "cs_CZ",
-                "display_name": "Oculus Browser",
-                "keywords": [
-                    "browser",
-                    "web",
-                    "webvr"
-                ],
-                "long_description": "Oculus Browser is designed from the ground up to be the best web browsing experience in VR. Enjoy super sharp text, images, and videos of existing 2D websites, as well as amazing performance of new 3D WebVR content.",
-                "long_description_uses_markdown": false,
-                "short_description": "The best way to browse the web and watch immersive web videos in VR."
-            }
-        ],
         "changelog": [
             {
                 "version": "31.3.0.11.57.563651913",
@@ -207,15 +178,10 @@
             "web",
             "webvr"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 2635,
         "rating": 3.102087,
-        "weighted_rating": 3.13,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.13
     },
     "errors": []
 }

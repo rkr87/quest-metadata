@@ -3,12 +3,9 @@
         "id": "6200509186704334",
         "name": "Oasis Browser",
         "app_name": "Oasis Browser",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2023-05-31T00:00:00.000Z",
         "description": "Oasis Browser is an app that allows you to freely place browsers in a virtual space, marking the first step in creating your own ideal virtual space. All you need is to wear a Head-Mounted Display (HMD), and nothing else is necessary.\n\nCurrently, this app is in its beta version, and we are adding new features to enhance usability and increase the freedom of the virtual space. If you have any opinions, please do not hesitate to leave a review.\n\nWith Oasis Browser, you can freely construct your ideal virtual space for various purposes through the browser:\n- Relaxation Space: Choose your favorite space and enjoy a fulfilling relaxation experience with videos and music to soothe your mind.\n- Efficiency in Work and Learning: By placing multiple browsers within the space, you can work in an environment similar to a multi-monitor setup.\n- Ultimate Content Viewing: Enjoy movies in a dedicated theater room or play browser games on a large screen, significantly enhancing your entertainment experience.\n- Customizable Interiors: Arrange browsers like furniture, and display web content (such as images and videos) as virtual space displays or murals.",
-        "markdown": false,
         "developer": "Oasis Browser",
         "publisher": "Oasis Browser",
         "genres": [
@@ -61,7 +58,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -70,7 +66,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://oasis-browser.com/",
         "app_images": {
@@ -83,26 +78,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974672_564782225783560_7483087305212012539_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": "39035378_1640015423092356_4507430943238908940_n.png",
-                    "cover_portrait": "39036605_1275576789719108_4735332890343089726_n.png",
-                    "cover_square": "227839877_164732753025424_3719969475125911510_n.png",
-                    "hero": "75339310_208889505312860_5092304615783962750_n.png",
-                    "icon": "75222944_1190240848317246_625707758757251907_n.png",
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": "75422387_232632312839670_4318376719579939627_n.png"
-                },
-                "locale": "ja_JP",
-                "display_name": "Oasis Browser",
-                "keywords": [],
-                "long_description": "Oasis Browserは、自分だけの理想的なバーチャルホームを実現します。\n自分だけのバーチャルホームの中にブラウザを自在に配置することができ、理想の空間での最高のブラウジング体験を提供します。\n\nOasis Browserを利用すると、様々な用途に合わせた理想のバーチャルホームを自由に作ることが可能です。\n・リラックス空間：お気に入りの空間を選んで、その中で映像や音楽などを楽しむことで豊かなリラックス体験を実現します。\n・仕事や学習の効率化：複数のブラウザを空間内に配置することにより、マルチモニター環境のように作業を進めることができます。\n・コンテンツ鑑賞：自分だけのシアタールームを用意して映画を鑑賞したり、大画面でブラウザゲームをしたり、最高のエンターテイメント体験を実現します。\n・インテリア：ブラウザを家具のように配置し、Webコンテンツ（画像や動画など）をバーチャルホーム内のディスプレイや壁画として展示できます。\n\n機能紹介\n・ハンドトラッキング操作：直感的なハンドトラッキング操作で全ての操作を行います。HMDさえ装着すれば、他に何も必要ありません。\n・ルーム：自分の好みや用途に合わせてスカイドームとインテリアを選び、理想のバーチャル空間をカスタマイズできます。\n・ブラウザ：バーチャルホーム内にブラウザを自由に配置し、インターネットの世界をかつてないほど自由自在に探索できます。\n\n$9.9のPremium Planを購入することで、あなたのバーチャルホームの利用が飛躍的に広がります。より豊かなブラウジング体験をお楽しみください。\nPremium Planの機能：\n・複数のルーム…複数のルームを作成し、用途に応じて自在に切り替えることが可能になります。\n・ブラウザ無制限…デバイスの性能が許す限り、無制限にブラウザを開き、同時に様々なタスクを処理することが可能になります。（無料版では2枚まで）\n\n現在、このアプリはベータ版の段階であり、ユーザビリティの向上（操作性、安定性、解像度、処理速度など）やバーチャルホームの自由度を高める新機能（ボット、スカイドーム、インテリアの拡張など）を順次追加していきます。ご意見やフィードバックがありましたら、ぜひレビューをお願いします。",
-                "long_description_uses_markdown": false,
-                "short_description": "Oasis Browserは、自分だけの理想的なバーチャルホームを実現します。\n自分だけのバーチャルホームの中にブラウザを自在に配置することができ、理想の空間での最高のブラウジング体験を提供します。"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.4.1",
@@ -130,15 +105,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 9,
         "rating": 2.555556,
-        "weighted_rating": 3.75,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.75
     },
     "errors": []
 }

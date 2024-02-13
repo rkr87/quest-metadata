@@ -3,12 +3,9 @@
         "id": "1923796041074350",
         "name": "Belvédère de dégustation",
         "app_name": "Belvédère de dégustation",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "ENTERTAINMENT",
         "release_date": "2019-01-29T00:00:00.000Z",
         "description": "Try a unique geosensorial tasting experience.\n\nTake your VR headset, a bottle of Beaumes de Venise red wine and/or a Beaumes de Venise Muscat, and set off on an immersive journey to the wine terroirs for a unique guided sensorial tasting experience.",
-        "markdown": false,
         "developer": "Conservatoire des AOC Beaumes de Venise",
         "publisher": "Conservatoire des AOC de Beaumes de Venise",
         "genres": [
@@ -55,7 +52,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -64,7 +60,6 @@
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "https://www.beaumesdevenise-aoc.fr/",
         "app_images": {
@@ -77,32 +72,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974508_353863368495369_8440370198527082496_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "fr_FR",
-                "display_name": "Belvédère de dégustation",
-                "keywords": [
-                    "beaumes",
-                    "venise",
-                    "wine",
-                    "muscat",
-                    "tasting"
-                ],
-                "long_description": "Vivez une expérience géo-sensorielle de dégustation inédite.\n\nÉquipé de votre casque VR et d'une bouteille de vin rouge de Beaumes de Venise et/ou de Muscat de Beaumes de Venise, vous allez partir en immersion dans les Terroirs et vous serez ensuite guidé dans une expérience sensorielle de dégustation inédite.",
-                "long_description_uses_markdown": false,
-                "short_description": "Expérience géo-sensorielle de dégustation"
-            }
-        ],
         "changelog": [],
         "keywords": [
             "beaumes",
@@ -111,15 +80,10 @@
             "muscat",
             "dégustation"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 6,
         "rating": 2.5,
-        "weighted_rating": 3.78,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.78
     },
     "errors": []
 }

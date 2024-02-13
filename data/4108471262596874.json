@@ -3,12 +3,9 @@
         "id": "4108471262596874",
         "name": "Uni Live Viewer",
         "app_name": "Uni Live Viewer",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2021-11-11T00:00:00.000Z",
         "description": "This is a VR live viewer application that allows you to easily check out dance performances by anime-style characters.\nYou can decorate items and enjoy double speed dancing.\nVroid simple load and pass-through functions have also been added.\n※Currently, the application will not start without \"Allow file access\" at startup.\n※Please summon in the playback state, as there is a problem of misalignment during playback if summoned in the stopped state.\n\nIf you have a PC, you can further customize the live performance by loading VRM models, VMD dances, and music files.\n→For detailed instructions, please check the official website or readme.txt in the app's dedicated folder.\n\nThe app is still under development, various updates are planned at irregular intervals.",
-        "markdown": false,
         "developer": "Nana Ciel",
         "publisher": "Nana Ciel",
         "genres": [
@@ -61,14 +58,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://mocatea.github.io/UniLiveViewer/",
         "app_images": {
@@ -81,26 +76,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "43931331_607025334000310_1449990453325689816_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "Uni Live Viewer",
-                "keywords": [],
-                "long_description": "Candy Rock Starのライブステージで、好みのユニティちゃんのダンスを眺めることができます。\n好きなタイミングで止めたり、倍速ダンスも楽しめます。\nViewerシーンでは複数のモデルを確認できます。\n\n現在は非常にシンプルな機能しかありません、今後アップデートで様々な機能を追加予定です。",
-                "long_description_uses_markdown": false,
-                "short_description": "ユニティちゃんのライブステージをお手軽に確認できるツールです。"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.6.9a",
@@ -160,15 +135,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 19,
         "rating": 4.421053,
-        "weighted_rating": 3.94,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.93
     },
     "errors": []
 }

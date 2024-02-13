@@ -3,12 +3,9 @@
         "id": "3918876361516663",
         "name": "Inside player VR",
         "app_name": "Inside player VR",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2020-10-15T00:00:00.000Z",
         "description": "Technical features of Inside player :\n\n- Plays 360 monoscopic videos/photos and flat (2D)  videos/photos\n- Plays the interactive IWD format (proprietary Immersive Ways Data format) with interactive scenes (mouse click, controller and gaze effect triggering). The interactive IWD media can be created by the Inside studio software available on Windows and OSX.\n(www.insidestudio.io)",
-        "markdown": false,
         "developer": "Maxime HELAINE",
         "publisher": "Immersive Ways",
         "genres": [
@@ -53,14 +50,12 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://insidestudio.io/",
         "app_images": {
@@ -73,32 +68,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39001725_313717396362755_2526032873068573171_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "fr_FR",
-                "display_name": "Inside player VR",
-                "keywords": [
-                    "360",
-                    "lecteur",
-                    "video",
-                    "inside",
-                    "interactivité"
-                ],
-                "long_description": "Caractéristiques techniques de Inside player :\n\n- Lecture de 360 vidéos/images monoscopiques et de vidéos/images 2D flat\n- Joue le format IWD (format interactif propriétaire Immersive Ways Data) avec des scènes interactives. Ce format peut être créé par notre autre logiciel Inside studio",
-                "long_description_uses_markdown": false,
-                "short_description": "Inside player est un lecteur interactif à 360, 2D et VR"
-            }
-        ],
         "changelog": [],
         "keywords": [
             "360",
@@ -107,15 +76,10 @@
             "inside",
             "interactive"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 9,
         "rating": 2.333333,
-        "weighted_rating": 3.73,
-        "is_available": false,
-        "is_free": false
+        "weighted_rating": 3.73
     },
     "errors": []
 }

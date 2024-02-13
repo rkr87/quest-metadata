@@ -3,12 +3,9 @@
         "id": "1846476648763111",
         "name": "Mu-tune",
         "app_name": "Mu-tune",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2018-11-01T00:00:00.000Z",
         "description": "All Youtube videos will be rhythm games! Shake your head and carve the beat according to the music! According to the skill of the player, Notes is optimized in real time, anyone can play comfortably!\n\n*Basic mode\nYou can play music with 3 difficulty levels.\nBy clearing, new songs will be unlocked.\n\n*Youtube mode\nYou can search videos from Youtube and play rhythm games with your favorite movies.\n\nAuto Play: You can see that it is played automatically.\nRandom Notes: The arrangement of music is random every time.\nFavorite: You can register your videos as favorites, and you can play from videos you favorite registered.\nHistory: You can check the play history.",
-        "markdown": false,
         "developer": "Tricol Co., Ltd.",
         "publisher": "Tricol Co., Ltd.",
         "genres": [
@@ -56,7 +53,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -65,7 +61,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://tricol.jp/",
         "app_images": {
@@ -78,32 +73,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974908_2649266265297627_5670103631043493888_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "Mu-tune",
-                "keywords": [
-                    "音ゲー",
-                    "リズム",
-                    "ビート",
-                    "ユーチューブ",
-                    "動画"
-                ],
-                "long_description": "Youtubeのすべての動画がリズムゲームになる！音楽に合わせて首を振ってビートを刻め！プレイヤーのスキルに応じてノーツがリアルタイムに最適化され、誰でも気持ちよくプレイ出来る！\n\n・基本モード\n楽曲を３つの難易度から選んでプレイできるモードです。\nクリアすることで、新たな楽曲がアンロックされます。\n\n・Youtubeモード\nYoutubeから動画を検索し、好きな動画でリズムゲームをプレイできるモードです。\n\nAuto Play : 自動でリズムゲームがプレイされるのを見ることができます。\nRandom Notes : 毎回譜面の配置がランダムになります。\nFavorite : 動画をお気に入り登録でき、お気に入り登録した動画からプレイが可能です。\nHistory : プレイ履歴が確認できます。",
-                "long_description_uses_markdown": false,
-                "short_description": "Youtubeのすべての動画がリズムゲームになる！音楽に合わせて首を振ってビートを刻め！プレイヤーのスキルに応じてノーツがリアルタイムに最適化され、誰でも気持ちよくプレイ出来る！"
-            }
-        ],
         "changelog": [
             {
                 "version": "1.4.4",
@@ -125,15 +94,10 @@
             "Movie",
             "Youtube"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 17,
         "rating": 3.411765,
-        "weighted_rating": 3.79,
-        "is_available": false,
-        "is_free": false
+        "weighted_rating": 3.79
     },
     "errors": []
 }

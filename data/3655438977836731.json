@@ -3,12 +3,9 @@
         "id": "3655438977836731",
         "name": "Channel Player",
         "app_name": "Channel Player",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2021-06-14T00:00:00.000Z",
         "description": "Channel Player has two scenes.\n\n- Playback title selection screen at Spacecraft theater.\nDisplay other titles with the left and right sticks and triggers. In the case of a folder or comic book (zip, cbz) where only still images are saved, they will be displayed in the same way as the folder where videos are saved. No need to sort the contents by name or by time, they will be listed in advance. It also has a favorite, history function, and unplayed title display function.\n\n- During playback at outer space.\nYou can intuitively adjust the movement of the camera viewpoint during video playback with the left and right sticks. The AB button is used to start and end playback, and the trigger is to change the playback position, so it can be operated with a single action. You don't have to point the laser at a small button on the screen to operate the app. During video playback, there is a direct jump and a setting option that allows you to move the camera only during pauses.",
-        "markdown": false,
         "developer": "Applet LLC",
         "publisher": "Applet LLC",
         "genres": [
@@ -58,14 +55,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://appletllc.wordpress.com/",
         "app_images": {
@@ -78,26 +73,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75195909_2807274532818690_1782218985123853809_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "Channel Player",
-                "keywords": [],
-                "long_description": "チャンネルプレーヤーには使い勝手を良くするために2つのシーンがあります。\n\n- スペースシップシアターでのタイトル選択シーン\n左右のスティックでタイトルを選択してAボタンで再生開始となります。スクリーンに表示されるサムネイル静止画がフォルダ内に複数ある場合には表示するたびに更新されます。また静止画のみが保存されているフォルダーやコミックブック（zip、cbz）の場合も動画が保存されているフォルダーと同様に表示されます。動画や静止画のタイトル名称を日本語で最大140文字にて格納したフォルダに付けて保存しておくことで名前順や時間順に並べる必要はなく、あらかじめ一覧表示されます。また、お気に入りや履歴機能を備え、ハートとダイアのマークで、お気に入り及び未再生のタイトルが識別可能です。また動画の再生形式(360,180,180fisheyeやTop/Bottom, SBS, Mono)を再生前にプロパティダイアログにてあらかじめ設定可能ですし、再生中に変更も可能です。\n\n- 宇宙空間でのタイトル再生シーン\nスペースシップシアターにて再生開始を指示すると宇宙空間での再生となり、VRの場合には判りませんが2Dの動画や静止画は星空をバックに表示されます。没入感をできるだけ損なわないよう何も表示せずに操作もできます。動画や静止画再生時のカメラ視点の移動は、左右のスティックで直感的に調整でき、向きと前後左右と上下にも変更可能です。また、ABボタンで再生開始とポーズ・終了、トリガーで再生位置の変更を行うため、ワンアクションで操作が可能です。画面上の小さなボタンにレーザーを向けずに、アプリを操作することができます。動画再生中はダイレクトジャンプ機能により複数ファイルの任意の時間位置から再生指示が可能です。またポーズ時にのみサムネイル撮影が可能であり、タイトル選択画面でのサムネイル静止画として表示されます。またポーズ中のみカメラを動かすことができる設定オプションを有効にすると動作再生中はスティックにてトリックプレイが可能となります。",
-                "long_description_uses_markdown": false,
-                "short_description": "フォルダ単位ごとに置かれた複数のmp4形式の2D, 3D(VR)動画ファイルとjpg, png形式の静止画やzip, cbzファイルでのコミックブックの再生プレイヤーアプリです。Quest本体の内部ストレージとローカルネットワークのWindows 10 IISで構成したWebDAVサーバーに置いたコンテンツにアクセスできます。寝転がったままでも使用できるよう腕を上げて操作する必要はありません。"
-            }
-        ],
         "changelog": [
             {
                 "version": "131",
@@ -133,15 +108,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": true,
         "votes": 0,
         "rating": 0.0,
-        "weighted_rating": 3.85,
-        "is_available": true,
-        "is_free": false
+        "weighted_rating": 3.85
     },
     "errors": []
 }

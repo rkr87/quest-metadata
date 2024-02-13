@@ -3,12 +3,9 @@
         "id": "1978400832224524",
         "name": "Ultimate Video Player",
         "app_name": "Ultimate Video Player",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2018-10-17T00:00:00.000Z",
         "description": "Supports 360, 3D 360 (TB), non-360 videos and spatial audio.\n\nFully customisable, perfect to create your own white label app for events and presentations.\n\nOnce the app is installed launch it once, then restart. This will generate the correct folder structure under \"Android/data/com.fieldofvision.UVP/files/\" with folders \"Sounds\", \"Videos\" and \"Images\".\n\nFeatures:\n\n**Hidden settings menu accessible by pulling trigger whilst pointing at the logo, includes the following:\n*Custom menu audio\n*Custom menu background\n*Custom logo in menu\n*Customise what happens when user removes HMD (pause video or restart video)\n*Video controls (disable/enable)\n*Back button to return to menu (disable/enable)\n*Loop video (disable/enable)\n*Gaze selection (disable/enable)\n*Set app into single video mode (skips menu and video automatically plays upon app launch)",
-        "markdown": false,
         "developer": "Field Of Vision",
         "publisher": "Field Of Vision",
         "genres": [
@@ -52,14 +49,12 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.fieldof.vision/",
         "app_images": {
@@ -72,7 +67,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "12504555_292240608199873_6762506903261020160_n.png"
         },
-        "translations": [],
         "changelog": [
             {
                 "version": "0.36",
@@ -146,15 +140,10 @@
             "3d",
             "kiosk"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 25,
         "rating": 2.84,
-        "weighted_rating": 3.66,
-        "is_available": true,
-        "is_free": false
+        "weighted_rating": 3.66
     },
     "errors": []
 }

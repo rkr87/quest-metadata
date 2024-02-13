@@ -3,12 +3,9 @@
         "id": "5245041552210029",
         "name": "Arizona Sunshine® 2",
         "app_name": "Arizona Sunshine® 2",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2023-12-07T00:00:00.000Z",
         "description": "*Includes cross-buy on Rift*\n\nSharpen your machete and load your shotgun: It's time to say hello to your old pal, Fred. Arizona Sunshine® 2, the next-gen sequel to the fan-favorite VR apocalypse, packs even more gore-geous zombie action! \n \nWelcome back to sun-kissed, zombified Arizona. Narrated by the unmistakable quips of our dark-humored protagonist, Arizona Sunshine 2 sets you on an all-new limb-strewn adventure in search of answers. In a post-apocalyptic world where every bullet counts, experience the thrill of realistic combat as you wield all-new and fan-favorite weapons--from shotguns to machetes and flamethrowers. \n\nAnd what's better than braving the end of the f*cking world? Surviving it with your new best friend--Buddy. Not only is Buddy your four-legged companion through thick and thin, he’s also the goodest boy and will help take down those pesky Freds for you.\n\n- Form an unexpected friendship as you set out on a cinematic VR journey of intense survival\n- Experience the thrill of combat as you physically wield weapons, from shotguns to machetes--and flamethrowers\n- Explore gore-geous, next-gen VR environments, all the way to the end of the f*cking world\n- Discover all the ways to slay a Fred through a brand-new, next-gen mutilation and gore system\n- Enjoy the full campaign from a new perspective with a friend in 2-player co-op.\n- Join up to three other players in 4-player co-op Horde mode, with additional free maps dropping across Year 1!",
-        "markdown": false,
         "developer": "Vertigo Games",
         "publisher": "Vertigo Games",
         "genres": [
@@ -42,7 +39,8 @@
         ],
         "player_modes": [
             "SITTING",
-            "STANDING"
+            "STANDING",
+            "ROOM_SCALE"
         ],
         "tags": [
             "xbuy",
@@ -55,7 +53,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 87
+                "votes": 88
             },
             {
                 "rating": 2,
@@ -63,19 +61,18 @@
             },
             {
                 "rating": 3,
-                "votes": 93
+                "votes": 94
             },
             {
                 "rating": 4,
-                "votes": 128
+                "votes": 127
             },
             {
                 "rating": 5,
-                "votes": 592
+                "votes": 594
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -90,7 +87,6 @@
             "elements": [],
             "iarc_icon": "12138844_1633334226961183_6470673676613189632_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://arizona-sunshine.com/",
         "app_images": {
@@ -103,8 +99,11 @@
             "immersive_layer_logo": "39031312_760566722217567_1313202439161750391_n.png",
             "logo_transparent": "57569480_1338308277027999_4090090090678679595_n.png"
         },
-        "translations": [],
         "changelog": [
+            {
+                "version": "1.8714.61438",
+                "change_log": "Quest 3\nMassively improved the zombie visuals, adding both higher quality models & shading.\nAdded 4K textures & improved shading to Buddy, weapons, and player hands!\nImproved the quality of the most prominent VFX, such as blood and impact particles.\nIncreased the render scale compared to Quest 2, natively running the game at a higher resolution.\nAdded full fur support for Buddy, now making him even more of a fuzzy friend. \n\n\nFixes & Tweaks\nAdded an ‘Easy Reload’ option which can be enabled within the Settings Menu. Just bring the gun to your belt and it will automatically reload after a short delay! \nAdded a post-credits scene. Enjoy the sunset of Arizona whilst playing fetch with Buddy.\nBuddy’s front holsters can now also store grenades instead of just weapons. \nAdded 2 additional back holsters to Buddy that can exclusively store grenades, allowing you to craft more explosives and have Buddy bring along a total of 4 items to your next fight! \nAdded Weapon Weight as a user setting to Quest, smoothing out any rapid motion.\nBuddy now no longer runs away after just having interacted with any of his holsters.\nAdded an option for disabling the blood overlay to prevent discomfort for those affected.\nReduced the volume size of zombies, allowing players to get closer to them than before.\nAdded Muzzle Smoke FX to all weapon types, further improving the feel of the gunplay.\nReduced visual issues that occurred when Buddy attacked a zombie mid-animation.\nFixed ammo not always spawning in the first round of a single player Horde match. \nImplemented a shotgun pump lock, preventing you from accidentally ejecting shells.\nFixed a bug where grenades would sometimes be scaled to miniscule sizes. \nFixed a bug where the gamma setting was inverted, making it darker when increasing the gamma.\nAdded a gamma calibration screen when first starting up the game, allowing you to fine-tune it to your liking. \nFixed a bug where the gun rotated around the wrong axis when holding the controllers closely together.\nReduced the snapping when you grabbed a weapon with both hands, in turn making the gunplay feel smoother. \nImproved the belt & holster calibration. Both have been simplified and now have previews, allowing you to precisely calibrate them to your liking.\nAdded configurable offsets for the yaw & pitch of your hand, allowing you to configure the angle you hold items to your liking!\nImproved most tutorials and added a few new ones for previously unexplained features.\nAdded a ragdoll arm to the helicopter pilot at the start, now allowing you to jiggle it around!\nFixed the remote player’s ragdoll flying off whenever they got killed by a zombie.\nDecreased the chance of the game crashing after playing for multiple hours without taking off the headset.\nFixed a few cases where you could accidentally throw away your weapons whilst looting.\nAdded an ‘Unstuck Button’, which you can use to teleport to a valid location if you are too far away from the center of your playspace. \nBoosted the VoIP volume (specifically for Quest 3), making it easier to hear each other when using the in-game communication. \nFixed being able to walk through locked doors when you were holding the door handle.\nFixed the case where mines would explode on any contact, even with limbs & dead bodies.\nAdded rumble whenever you pet Buddy, with the intensity based on how fast you rub.\nAdded haptic clicks whenever you hover and / or click on anything in the user interface.\nFixed Molotovs not always exploding when hitting a surface at a certain angle.\nFixed the “Well That Was Easy!” Achievement not unlocking after completing the campaign on Apocalypse. \nFixed a few instances where the flashlight wouldn’t be enabled after respawning.\nFixed some checkpoints that would respawn you at the start of the level, blocking your progress.\nFixed a bug where handing the shotgun to another player would allow it to hold infinite shells. \nFixed the alarm no longer triggering in the “RUN, LEGS, RUN!!” level after respawning."
+            },
             {
                 "version": "1.8010.57305",
                 "change_log": "Difficulty\n- Rebranded & rebalanced all 4 Difficulties, now having a dedicated screen for it, together with explanations of what to expect!\n- Magazines you'll find in the world won't always be fully filled with rounds on the higher difficulties. You'll need to scavenge more whilst receiving less total ammo!    \n- The highest difficulty spikes have been smoothed out whilst still roughly keeping their original feel. Noticeable changes are the ‘SUNSET RIDERS’ end fight & both the ‘OOPS’ bridge & end fight.\n- Configured Fungus Counts per difficulty with our brand new system, greatly increasing how much fungus spawns on Survival & Apocalypse.\n- The new difficulties are called ‘Story, Adventure, Survival, Apocalypse’. We recommend most players that have prior VR experience to try out Survival! \n- ‘Story’ is meant for players that want to experience the campaign without too much threat or challenge - allowing you to focus on the story and play fetch with Buddy!\n- ‘Adventure’ is for those new to VR. You might like some challenge but prefer it to still be balanced in your favor.\n- ‘Survival’ is how we’ve always envisioned Arizona Sunshine 2 to be experienced. This is the recommended difficulty for those that have prior VR experience. \n- ‘Apocalypse’ is for those that want a hardcore zombie experience. You’ll have to scavenge every nook and cranny to get by and will be dead in just a few hits. \n\nToggle Grip\n- Added a new Grip Mode option. You can now select ‘Toggle Grip’ within your Settings!\n- Toggle Grip will keep your weapon stuck to your hand even after you stop pressing down on the Grip button.\nDropping weapons entirely - for example to share them with your co-op partner - can be done by pressing on the bottom face button for 1 second.\n\nBalancing\n- Changed the Tommy Gun to use rifle ammo instead of pistol ammo, as to make it a more viable option!\n- Health regen is now fixed for all difficulties, preventing the red 'throbbing' vignette from staying on at higher difficulties if you couldn't find any food.  \n- Made the Shotgun deal more damage on higher difficulties, now allowing you to still one-shot zombies when you’re close enough! \n- Reduced the Penetration Force of Shotguns, preventing one pellet from going through 5 zombies at a time.\n- Made the M67 Frag Grenade have a bigger explosion radius, whilst slightly reducing the Stick Grenade’s radius.\n- Zombies’ Attack Impact Fraction should now better match their animations, preventing unfair situations where you'd get damage before the zombie visually hits you.\n- Dynamic ammo Spawning will no longer kick-in as hard when you start running out, preventing some of the fully-stacked ammo crates you would find from time to time.\n\nFixes & Tweaks\n- Added LIV support allowing content creators to better capture their experience!\n- Reduced the respawn delay after dying, now allowing you to reload the level earlier.\n- Fixed the co-op player losing resources and ammo in co-op after a level load.\n- Fixed co-op players spawning at the start of the level after a checkpoint had been loaded.\n- Fixed zombie ragdolls breaking after playing for a long time. \n- Fixed doors not being able to be properly opened due to zombie bodies.\n- Added tooltips to the settings menu to better explain what each option changes.\n- Added a dedicated menu where you can scroll through all your available cosmetics!\n- Fixed snapping points for climbing sections in various levels.\n- Fixed the bloom post processing effect for all Steam versions.\n- Fixed items sometimes not dropping in manual grip mode when releasing the grip button.\n- Fixed when zombies fell down they sometimes used the wrong stand up animation.\n- Fixed Buddy sometimes still wearing his equipment during the hospital cutscene.\n- Fixed the toy helicopter causing your hand to move in slow motion.\n- Fixed that crafted items were not properly saved in checkpoints.\n- Fixed the ammo belt not properly re-enabling after a checkpoint in the level ‘BAD DOG’.\n- Fixed that zombies would already be banging on the windows when entering the gas station.\n- Fixed the orientation of the minigun when the other player was holding it in co-op.\n- Fixed players spawning in the same exact location in the level “BAD DOG’ in co-op.\n- Fixed not all waves properly triggering when dying and reloading the checkpoint in the level ‘BEST FRIENDS FOREVER’.\n- Fixed selection circle lagging behind when holding a grenade.\n- Fixed the heating effect of the minigun. It now only heats up the barrels instead of the entire front part.\n- Fixed not being able to climb back up when respawning at the checkpoint on top of the gas station.\n- Fixed parts of the Canyon culling in the level ‘OOPS’ when Buddy is searching for a weapon.\n- Fixed the gun sometimes not equipping when pressing grip with ‘equip on no target’ enabled.\n- Fixed the ‘Back to menu’ button not working in the score results screen when playing single-player horde mode.\n- Fixed screen staying red when dying in co-op and getting the ‘waiting for players’ screen.\n- Fixed container door handles that were hard to grab in the level ‘CHOO-CHOO, MOTHERF*CKERS’.\n- Fixed offline players not being able to connect to the local server in cases when loading a level happens twice within a second.\n- Fixed zombie animation when they’re hit by a blunt weapon on the legs.\n- Fixed lobby screen not showing correct region when game started without internet access.\n- Fixed PlayStation 5 host not showing the joined player in the lobby screen.\n- Fixed drum-based weapons (e.g. revolver) not always closing by flicking it\n- Fixed player getting stuck in the void after loading a level in co-op occasionally\n"
@@ -117,15 +116,10 @@
             "Shooter",
             "coop"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": true,
-        "votes": 958,
-        "rating": 4.127349,
-        "weighted_rating": 4.1,
-        "is_available": true,
-        "is_free": false
+        "votes": 961,
+        "rating": 4.12487,
+        "weighted_rating": 4.1
     },
     "errors": []
 }

@@ -3,12 +3,9 @@
         "id": "1626660900737280",
         "name": "DN.VR",
         "app_name": "DN.VR",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2018-08-16T00:00:00.000Z",
         "description": "Experience the full picture with VR stories from all around the world. Visit North Korea or get in a fighter jet and experience a secret air force Mission over the Baltic Sea. Go mine diving in cristal clear water in an old mine in Sweden.\n\nVad är virtual reality eller virtuell verklighet?\n\nVirtuell verklighet förflyttar betraktaren till en miljö som kan betraktas i 360 grader. Det gör att du kan ”snurra runt i bilden” och se vad som händer framför, bakom, bredvid, under och över dig. För att kunna uppleva detta behöver du någon form av vr-glasögon som är speciellt formgivna för ändamålet.",
-        "markdown": false,
         "developer": "Dagens Nyheter",
         "publisher": "AB Dagens Nyheter",
         "genres": [
@@ -57,7 +54,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -66,7 +62,6 @@
             "elements": [],
             "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://vr.dn.se/",
         "app_images": {
@@ -79,31 +74,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "12410407_1531364366975440_465995271487094784_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "sv_SE",
-                "display_name": "DN.VR",
-                "keywords": [
-                    "DN",
-                    "Dagens",
-                    "Nyheter",
-                    "Dagensnyheter"
-                ],
-                "long_description": "DN.VR tar dig till platser du annars inte kan besöka. Med vr-berättande skapar vi en annorlunda upplevelse. Besök Nordkorea eller Ukraina. Dyk i kristallklart vatten i en gruva i Dalarna eller hoppa in i ett JAS 39 Gripen och följ med på ett skarpt uppdrag över Östersjön.",
-                "long_description_uses_markdown": false,
-                "short_description": "DN.VR tar dig till platser du annars inte kan besöka. Med vr-berättande skapar vi en annorlunda upplevelse. Besök Nordkorea eller Ukraina. Dyk i kristallklart vatten i en gruva i Dalarna eller hoppa in i ett JAS 39 Gripen och följ med på ett skarpt uppdrag över Östersjön."
-            }
-        ],
         "changelog": [],
         "keywords": [
             "DN",
@@ -112,15 +82,10 @@
             "Dagensnyheter",
             "News"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 20,
         "rating": 3.8,
-        "weighted_rating": 3.84,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.84
     },
     "errors": []
 }

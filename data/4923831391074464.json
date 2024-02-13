@@ -3,12 +3,9 @@
         "id": "4923831391074464",
         "name": "ZOMBIE SURVIVAL",
         "app_name": "ZOMBIE SURVIVAL",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2023-09-19T00:00:00.000Z",
         "description": "Survive the zombie apocalypse in this heart-pumping virtual reality game!\n\nWith hordes of HUNDREDS of zombies attacking you at the same time, you'll need to stay on your toes and use every weapon at your disposal to stay alive! \n\nThe game features a wide range of zombie types, from slow and lumbering to fast and agile, each with their own unique strengths and weaknesses.\nChoose from multiple maps and weapons! \n\nTake on the challenge and see how long you can survive in this thrilling and heart-pumping adventure! Do you have what it takes to survive the undead onslaught?\n\n* More and more updates coming !",
-        "markdown": false,
         "developer": "BENDIS Games",
         "publisher": "BENDIS Games",
         "genres": [
@@ -57,14 +54,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://www.bendisgames.com/",
         "app_images": {
@@ -77,8 +72,11 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982727_615548824110255_6164810693667430661_n.png"
         },
-        "translations": [],
         "changelog": [
+            {
+                "version": "1.2.0",
+                "change_log": "V: 1.2.0\n\n* Zombie AI improved;\n* Weapons mechanics improved;\n\nEnjoy !"
+            },
             {
                 "version": "1.1.9",
                 "change_log": "V: 1.1.9\n\n* Zombie AI improved;\n* Weapons mechanics improved;\n\nEnjoy !"
@@ -157,15 +155,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 13,
         "rating": 5.0,
-        "weighted_rating": 3.97,
-        "is_available": true,
-        "is_free": false
+        "weighted_rating": 3.97
     },
     "errors": []
 }

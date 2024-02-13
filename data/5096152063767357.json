@@ -3,12 +3,9 @@
         "id": "5096152063767357",
         "name": "VR-Gesprekstrainer",
         "app_name": "VR-Gesprekstrainer",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2022-04-20T00:00:00.000Z",
         "description": "In the Hogeschool Utrecht's VR-gesprekstrainer you can practice your conversational skills in two scenario's. Your choices decide the course of the conversation. You can view your feedback online using your HU Account.",
-        "markdown": false,
         "developer": "DEVcakeDeventer",
         "publisher": "DEVcake",
         "genres": [
@@ -58,14 +55,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://hu-gesprekstrainer.nl/",
         "app_images": {
@@ -78,26 +73,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031440_1179741509433321_3010978775688517287_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": "39031337_5599294996753760_7617319005423404367_n.png",
-                    "cover_portrait": "39031501_708028010189783_3140757453102621788_n.png",
-                    "cover_square": "39001663_702421104460723_7401773557739163045_n.png",
-                    "hero": "38984460_4755953857860872_1092156032010034204_n.png",
-                    "icon": "38982552_288295186728147_2223163424218744236_n.png",
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": "38974771_677414399950575_3041386678942540118_n.png"
-                },
-                "locale": "nl_NL",
-                "display_name": "VR-Gesprekstrainer",
-                "keywords": [],
-                "long_description": "In de VR-Gesprekstrainer van de Hogeschool Utrecht kun je jouw gespreksvaardigheden oefenen in twee unieke scenario's. Jouw keuzes beslissen hoe het gesprek verloopt. Bekijk je beoordeling online terug met jouw HU account. ",
-                "long_description_uses_markdown": false,
-                "short_description": "Oefen jouw gespreksvaardigheden in twee scenario's. "
-            }
-        ],
         "changelog": [
             {
                 "version": "1.0",
@@ -105,15 +80,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 1,
         "rating": 2.0,
-        "weighted_rating": 3.83,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.83
     },
     "errors": []
 }

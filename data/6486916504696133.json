@@ -3,12 +3,9 @@
         "id": "6486916504696133",
         "name": "Ilysia",
         "app_name": "Ilysia",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2023-10-11T00:00:00.000Z",
         "description": "Ages ago, the Lagenans corrupted their world, causing a great rift that split the very planet itself. Fearing their own destruction, they created great portals powered by the blood of their gods, seeking to inhabit another nearby planet: Ilysia. Using their portals, the Lagenans entered Ilysia looking to establish a new home for their people where they could continue to practice their dark arts and thrive.\n\nWill you help the Lagenans secure their hold on Ilysia or defend the planet against them? The Choice is yours - fight, explore, and grow in power, alone or alongside your friends and foes, as you face the challenges Ilysia holds.",
-        "markdown": false,
         "developer": "Team 21 Studio",
         "publisher": "Team 21 Studio, Inc",
         "genres": [
@@ -59,7 +56,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -72,7 +68,6 @@
             ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://ilysiavr.com/",
         "app_images": {
@@ -85,44 +80,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031550_828701368585482_2067338091093180397_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "Ilysia",
-                "keywords": [],
-                "long_description": "Ilysia™ は、Team 21 Studio Inc. によって仮想現実 (VR) プラットフォーム向けに開発されている大規模マルチプレイヤー オンライン ロールプレイング ゲーム (MMORPG) です。",
-                "long_description_uses_markdown": false,
-                "short_description": "初めての本格的なVRMMORPGを体験してください"
-            },
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ko_KR",
-                "display_name": "Ilysia",
-                "keywords": [],
-                "long_description": "Ilysia™는 Team 21 Studio Inc.에서 가상 현실(VR) 플랫폼용으로 개발 중인 MMORPG(대규모 멀티플레이어 온라인 롤 플레잉 게임)입니다.",
-                "long_description_uses_markdown": false,
-                "short_description": "최초의 진정한 VRMMORPG를 경험하세요"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.2.2",
@@ -142,15 +99,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 79,
         "rating": 3.518987,
-        "weighted_rating": 3.71,
-        "is_available": true,
-        "is_free": false
+        "weighted_rating": 3.71
     },
     "errors": []
 }

@@ -3,12 +3,9 @@
         "id": "5006398806143670",
         "name": "Vertical-EscapeRoom",
         "app_name": "Vertical-EscapeRoom",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2022-05-12T00:00:00.000Z",
         "description": "Vertical EscapeRoom is a VR tech demo with state-of-the-art grab and manipulation mechanics as well as an avatar. All powered by UltimateXR. You use the elevator to move from level to level, solve tasks and unlock the next level. VR newcomers are introduced to the mechanics bit by bit and experience what the virtual world has to offer.\n\n- find solutions\n- stack dice in the right order\n- clear all cans on can knockdown\n- sweat on the hot-wire\n- play goalkeeper and catch the right balls\n- teleport through hallways and the universe\n- play mini golf to unlock your way",
-        "markdown": false,
         "developer": "Andreas Fuchs",
         "publisher": "Andreas Fuchs - Media Services",
         "genres": [
@@ -62,14 +59,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://anfuchs.de/vertical_escape_room",
         "app_images": {
@@ -82,26 +77,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982678_673851730352064_8998238677692914168_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "de_DE",
-                "display_name": "Vertical-EscapeRoom",
-                "keywords": [],
-                "long_description": "Das Spiel ist ein Abenteuer für Jung und Alt. Es überzeugt durch sein immersives VR-Gefühl in Kombination mit beeindruckendem Level-Design und Vertikalität. Ziel des Spiels ist es, den letzen Raum an der Spitze des Turmes zu erreichen. Hierfür ist es essentiell die diversen, vertikal angeordneten Level zu durchlaufen, Puzzles zu lösen und dabei allerhand unvergessliche VR-Erfahrung zu sammeln.",
-                "long_description_uses_markdown": false,
-                "short_description": "Das Spiel ist ein Abenteuer für Jung und Alt. Es überzeugt durch sein immersives VR-Gefühl in Kombination mit beeindruckendem Level-Design und Vertikalität."
-            }
-        ],
         "changelog": [
             {
                 "version": "0.6.79",
@@ -141,15 +116,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": true,
         "votes": 10,
         "rating": 3.1,
-        "weighted_rating": 3.79,
-        "is_available": true,
-        "is_free": false
+        "weighted_rating": 3.79
     },
     "errors": []
 }

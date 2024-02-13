@@ -3,12 +3,9 @@
         "id": "5936567899722707",
         "name": "4XVR Video Player",
         "app_name": "4XVR Video Player",
-        "type_name": "Application",
-        "appstore_type": "Application",
-        "category": null,
+        "category": "NOT_SPECIFIED",
         "release_date": "2023-09-06T00:00:00.000Z",
         "description": "The only player on the Meta Quest that supports MVC 3D decoding (Blu-ray 3D) and MV-HEVC decoding (Apple Spatial Video),  plays movies and VR videos with 4x clarity.\n\nFeatures include:\n\t\n- Exclusive video display technology: When watching movies and VR videos, you can enjoy 4x clarity.\n\n- The only player on the Meta Quest that supports Apple Spatial Video (MV-HEVC) captured on iPhone 15 Pro, plays directly without transcoding.\n\t\n- The only player on the Meta Quest that supports MVC 3D decoding, supports MVC 3D in the following file formats: Blu-ray 3D ISO, SSIF, mkv, m2ts, ts, mts, etc.\n\t\n- Reads and plays videos on USB-C Flash Drive / SSD / HDD. (supports FAT32 / exFAT / NTFS, supports multiple partitions, supports 2T+ or even 20T).\n\n- Supports network playback of DLNA, SMB 1.0/2.0/3.0, FTP, SFTP, WebDAV, and WebDAVS.\n\n- Intelligent and accurate recognition of projection types (flat, 180° , 360° ), stereoscopic modes (2D, FSBS 3D, HSBS 3D, FOU 3D, HOU 3D).\n\t\n- Smooth and powerful UI.\n\t\n- Immersive, realistic theatres.",
-        "markdown": false,
         "developer": "4X Studio",
         "publisher": "4X Studio",
         "genres": [
@@ -64,18 +61,16 @@
             },
             {
                 "rating": 5,
-                "votes": 87
+                "votes": 88
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://www.4xvr.net/",
         "app_images": {
@@ -88,26 +83,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974750_670558314687650_4351224727893824174_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "zh_CN",
-                "display_name": "4XVR视频播放器",
-                "keywords": [],
-                "long_description": "4XVR视频播放器是一款以4倍清晰度播放3D电影、VR视频的本地VR视频播放器。是唯一支持MVC 3D解码的VR视频播放器。\n\n\n【特色功能】\n \n-独家视频显示技术：看电影、VR视频时，你能享受到4倍清晰。\n \n-唯一支持MVC 3D解码的VR视频播放器；这些文件格式中的MVC 3D都能流畅播放：ISO、SSIF、mkv、m2ts、ts、mts等。\n \n-直接读取并播放U盘上的视频（支持 FAT32、exFAT、NTFS ）\n \n-网络播放支持：DLNA、SMB 1.0/2.0/3.0、FTP、SFTP、WebDAV、WebDAVS；网络模块的优化，让你告别网络卡顿。\n \n-智能准确识别投影类型（平面、180° 、360° ）、立体模式（2D、FSBS 3D、HSBS 3D、FOU 3D、HOU 3D）\n \n-流畅、强大的界面系统\n \n-身临其境的逼真观影环境",
-                "long_description_uses_markdown": false,
-                "short_description": "4XVR视频播放器是一款以4倍清晰播放3D电影、VR视频的本地VR视频播放器。是唯一支持MVC 3D解码的VR视频播放器。"
-            }
-        ],
         "changelog": [
             {
                 "version": "1.3.10",
@@ -183,15 +158,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": true,
-        "votes": 153,
-        "rating": 4.196078,
-        "weighted_rating": 4.05,
-        "is_available": true,
-        "is_free": true
+        "votes": 154,
+        "rating": 4.201299,
+        "weighted_rating": 4.06
     },
     "errors": []
 }

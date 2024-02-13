@@ -3,12 +3,9 @@
         "id": "4168480983209878",
         "name": "PlayAniMaker Beta",
         "app_name": "PlayAniMaker Beta",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2021-09-02T00:00:00.000Z",
         "description": "PlayAniMaker is a creative tool for creating \"Anime\". In the figure mode, you can manipulate and animate the character as if you were moving a doll.",
-        "markdown": false,
         "developer": "MuRo_CG",
         "publisher": "MuRo_CG",
         "genres": [
@@ -59,14 +56,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://sites.google.com/view/playanimaker",
         "app_images": {
@@ -79,26 +74,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982441_527019148378547_6161669637044165933_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "PlayAniMaker Beta",
-                "keywords": [],
-                "long_description": "PlayAniMakerは\"アニメ\"を作るクリエイティブツールです。フィギュアモードでは、人形を動かすようにキャラクターを操作をしてアニメーションを付けることが出来ます。",
-                "long_description_uses_markdown": false,
-                "short_description": "PlayAniMakerはVR空間でアニメを作るクリエイティブツールです"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.9.1",
@@ -106,15 +81,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 49,
         "rating": 4.061224,
-        "weighted_rating": 3.92,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.92
     },
     "errors": []
 }

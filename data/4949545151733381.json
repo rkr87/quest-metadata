@@ -3,12 +3,9 @@
         "id": "4949545151733381",
         "name": "Avatar Physical Touch",
         "app_name": "Avatar Physical Touch",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2022-04-06T00:00:00.000Z",
         "description": "Avatar Physical Touch is an experimental app that brings physical contact to avatar. You can physically touch other avatars. It will bring an unprecedented sense of realism to avatar.\n\nYou can play with a touch controller or hand tracking.\nYou can import your avatar by logging in to DMM VR Connect.",
-        "markdown": false,
         "developer": "TechnologyCafeSingularity",
         "publisher": "TechnologyCafeSingularity",
         "genres": [
@@ -60,7 +57,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [],
@@ -69,7 +65,6 @@
             ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "http://singularity-vrgames.com/",
         "app_images": {
@@ -82,26 +77,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982631_708631210487833_7061397295064387264_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "Avatar Physical Touch",
-                "keywords": [],
-                "long_description": "Avatar Physical Touchは、アバターに物理的な接触をもたらす実験的なアプリです。他人のアバターに物理的に触ることができます。アバターに今までにない実在感をもたらします。\n\nタッチコントローラーやハンドトラッキングで遊ぶことができます。\nDMM VR Connectを利用すれば、あなたのアバターを取り込むことができます。",
-                "long_description_uses_markdown": false,
-                "short_description": "Avatar Physical Touchは、アバターに物理的な接触をもたらす実験的なアプリです。他人のアバターに物理的に触ることができます。アバターに今までにない実在感をもたらします。\n\nタッチコントローラーやハンドトラッキングで遊ぶことができます。\nDMM VR Connectを利用すれば、あなたのアバターを取り込むことができます。"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.4",
@@ -125,15 +100,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 17,
         "rating": 3.411765,
-        "weighted_rating": 3.79,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.79
     },
     "errors": []
 }

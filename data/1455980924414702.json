@@ -3,12 +3,9 @@
         "id": "1455980924414702",
         "name": "PanoMiru",
         "app_name": "PanoMiru",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "ENTERTAINMENT",
         "release_date": "2017-04-11T00:00:00.000Z",
         "description": "\"PanoMiru\" utilizes VR to provide a new visual experience as never before.\n\n* To use this application, Wi-Fi and LTE communication environments are required.\n* Because a large amount of data communication occurs in the video distribution, it is recommended to use Wi-Fi communication.",
-        "markdown": false,
         "developer": "Pixela Corporation",
         "publisher": "Pixela Corporation",
         "genres": [
@@ -53,7 +50,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -64,7 +60,6 @@
             ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "REQUIRED",
         "website": "http://www.pixela.co.jp/products/arvr/panomiru/",
         "app_images": {
@@ -77,31 +72,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "12727868_610170502509052_4544374011064221696_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "パノミル",
-                "keywords": [
-                    "360",
-                    "360video",
-                    "live",
-                    "MagicVision"
-                ],
-                "long_description": "「パノミル」は、VRを活用し、これまでにない\n新しい感覚の映像体験を提供します。\n\n・360度のパノラマ映像\n見たい方向に視点を自由に変えることができます。普通のビデオとは違い、360度見渡すことができる映像を楽しめるので、まるでその世界に訪れたかのような感覚を味わえます。\n\n・ライブ配信\nライブイベントを自宅からでも！\nリアルタイムに、まるでその場にいるかのようにイベントを特等席から体験することができます。\n\n・3D立体視映像\n3D映画のような奥行きのある立体感を味わうことのできる3D映像にも対応し、よりリアリティーのあるVR体験を楽しむことができます。\n\n・4K/HEVCによる高画質対応\n映像配信をこれまでの４倍となる4K解像度に対応することで、より高画質にVR体験を楽しめるようになりました。さらに映像圧縮にHEVCを採用し、通信帯域を抑えながら高画質な配信が可能となりました。\n（4K解像度は、Wi-Fi通信のみ対応）\n\n・新たなVR視聴スタイル「MagicVision」を搭載\n360度のVR映像空間内にバーチャルスクリーンを配置し、関連する映像を同時再生することで、没入感を味わいながら、様々なアングルからの映像や、同時に複数の場所が見られるような、これまでにないVR視聴体験を可能にします。（特許出願中）\n\n※ 本アプリを利用するにはWi-FiやLTEによる通信環境が必要です。\n※ 映像配信には大量のデータ通信が発生するため、Wi-Fi通信での利用を推奨いたします。 ",
-                "long_description_uses_markdown": false,
-                "short_description": "「パノミル」は、VRを活用し、これまでにない\n新しい感覚の映像体験を提供します。\n\n※ 本アプリを利用するにはWi-FiやLTEによる通信環境が必要です。\n※ 映像配信には大量のデータ通信が発生するため、Wi-Fi通信での利用を推奨いたします。 "
-            }
-        ],
         "changelog": [
             {
                 "version": "3.7.7",
@@ -186,15 +156,10 @@
             "live",
             "MagicVision"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 9,
         "rating": 2.444444,
-        "weighted_rating": 3.74,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.74
     },
     "errors": []
 }

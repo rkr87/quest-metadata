@@ -3,12 +3,9 @@
         "id": "1666667546723525",
         "name": "Luna Park",
         "app_name": "Luna Park",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2018-05-17T00:00:00.000Z",
         "description": "Get into the first extraordinary Luna Park on the Oculus store!\n\nEnjoy the wonderful \"Roller Coaster\" for free, or choose among one of the many amusements available, such as the breath taking \"Free Fall Tower\", the challenging \"Crossbow Shooter\", the amazing \"Ferris Wheel\", or the spectacular \"Ride Spider\".\n\nStill hunger of fun? Get ready, because many more are coming soon!",
-        "markdown": false,
         "developer": "KR Games",
         "publisher": "Star Consult S.r.L.",
         "genres": [
@@ -61,7 +58,6 @@
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -70,7 +66,6 @@
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "http://www.krgames.it/en",
         "app_images": {
@@ -83,32 +78,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "12139007_2029412103976472_8484265498731610112_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "it_IT",
-                "display_name": "Luna Park",
-                "keywords": [
-                    "intrattenimento",
-                    "parco",
-                    "giochi",
-                    "ruota",
-                    "montagne"
-                ],
-                "long_description": "Entra nel primo straordinario Luna Park del negozio Oculus!\n\nGoditi le meravigliose \"Montagne Russe\" gratuitamente, o scegli tra uno dei tanti divertimenti disponibili, come la mozzafiato \"Free Fall Tower\", l'avvincente \"Crossbow Shooter\", la straordinaria \"Ruota Panoramica\", o lo spettacolare \"Ride Spider\".\n\nHai ancora fame di divertimento? Preparati, perché molti altri sono in arrivo!",
-                "long_description_uses_markdown": false,
-                "short_description": "Entra nel primo straordinario Luna Park del negozio Oculus!\nGoditi le meravigliose \"Montagne Russe\" gratuitamente, o scegli tra uno dei tanti divertimenti disponibili, come la mozzafiato \"Free Fall Tower\", l'avvincente \"Crossbow Shooter\", la straordinaria \"Ruota Panoramica\", o lo spettacolare \"Ride Spider\"."
-            }
-        ],
         "changelog": [
             {
                 "version": "1.6",
@@ -138,15 +107,10 @@
             "shooter",
             "funfair"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 124,
         "rating": 2.33871,
-        "weighted_rating": 3.04,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.04
     },
     "errors": []
 }

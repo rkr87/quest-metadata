@@ -3,12 +3,9 @@
         "id": "992503684170594",
         "name": "Snake VR",
         "app_name": "Snake VR",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2016-03-22T00:00:00.000Z",
         "description": "One of the most famous retro games SNAKE has now returned with Gear VR! Do not just trap your snake in a small confined screen, now it can freely move around 360 degrees.\n\nFeed the snake a delicious apple and let it grow as long as possible. It's up to you to move around freely, but beware not to twist its body and face a tragic death!",
-        "markdown": false,
         "developer": "5minlab Co., Ltd.",
         "publisher": "5minlab Co., Ltd.",
         "genres": [
@@ -53,14 +50,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID",
         "internet_connection": "NOT_REQUIRED",
         "website": "http://5minlab.com/",
         "app_images": {
@@ -73,32 +68,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": null
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ko_KR",
-                "display_name": "Snake VR",
-                "keywords": [
-                    "뱀",
-                    "스네이크",
-                    "사과",
-                    "Snake",
-                    "Apple"
-                ],
-                "long_description": "옛날에 누구나 한 번 쯤 해봤을 고전게임 스네이크(Snake).\n이제는 삼성 Gear VR에서 원없이 즐겨보자!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이쪽저쪽 내가 원하는대로 뱀을 움직여서 몸을 최대한 길고 키워야 한다.\n사과를 하나 먹을 때마다 몸통이 길어진다.\n단, 자기 몸에 부딪히면 게임오버 되니까 주의할 것!",
-                "long_description_uses_markdown": false,
-                "short_description": "유명한 고전게임 스네이크가 VR로 돌아왔다!\n360도 전 방향으로 뱀을 움직여서 게임을 즐겨보자."
-            }
-        ],
         "changelog": [
             {
                 "version": "1.3",
@@ -132,15 +101,10 @@
             "Sphere",
             "Wrapped"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 838,
         "rating": 3.655131,
-        "weighted_rating": 3.68,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.68
     },
     "errors": []
 }

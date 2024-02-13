@@ -3,12 +3,9 @@
         "id": "4097786826978483",
         "name": "VRGolfRangebeta",
         "app_name": "VRGolfRangebeta",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2021-07-29T00:00:00.000Z",
         "description": "It is a application that allows you to experience the driving range of golf at home. You can check your swing on VR by holding the controller instead of the golf club and swinging. You can also set the controller on a golf club for practice and swing. In that case, use the position adjustment function of the controller.\n\nCurrently installed functions\n\n1. Tutorial\n2. Range mode\n・Swing data display\n・Swing record\n・Swing playback\n・Setting change\n3. Game mode\n・Balloon split\n・Building target\n・Driving contest\n・Closest to the pin\n・play 1 Hole\n4. Lesson mode\n・Slice correction 01\n・Slice correction 02\n・Hand floats\n5. Round Play Mode\n・GDO Chigasaki Golf Links\n6. Optional\n・Vibration setting\n・Club position adjustment\n・Ball＆Ballistic color change\n7.Language change\n・English\n・Japanese\n\nPlease note that everything is under development.",
-        "markdown": false,
         "developer": "Abic System Corp.",
         "publisher": "Abic System Corp.",
         "genres": [
@@ -59,14 +56,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://www.vrgolfrange.abcs.co.jp/",
         "app_images": {
@@ -79,26 +74,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974642_4063676577054673_6395419755917500396_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": "75422375_522206018982436_1386274127943337803_n.png",
-                    "cover_portrait": "75404390_2730464917254341_5136702418237828326_n.png",
-                    "cover_square": "75375764_336652147832243_7690546353479640304_n.png",
-                    "hero": "75411991_169214801845857_8288136699977121735_n.png",
-                    "icon": "75292491_554821152353708_2328777657735194110_n.png",
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": "57569447_301152451711935_1994666266363010959_n.png"
-                },
-                "locale": "ja_JP",
-                "display_name": "VRゴルフレンジβ",
-                "keywords": [],
-                "long_description": "ゴルフのドライビングレンジを自宅で体験できるプリケーションです。\nコントローラーをゴルフクラブの代わりに持ちスイングすることでVR上でご自身のスイングを確認することができます。\nまた、コントローラーを練習用のゴルフクラブなどにセットして、スイングを行うこともできます。\nその場合はコントローラの位置調整機能を利用してください。\n",
-                "long_description_uses_markdown": false,
-                "short_description": "自宅でゴルフ練習場が体験できるアプリケーションです。\nボールの挙動などの動作を詳細に調整する前のβ版になることをご了承ください。\n\n利用していただき、改善点などがございましたらコメントに残していただけると幸いです。"
-            }
-        ],
         "changelog": [
             {
                 "version": "0.318",
@@ -158,15 +133,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 23,
         "rating": 3.652174,
-        "weighted_rating": 3.81,
-        "is_available": false,
-        "is_free": false
+        "weighted_rating": 3.81
     },
     "errors": []
 }

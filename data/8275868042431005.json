@@ -3,12 +3,9 @@
         "id": "8275868042431005",
         "name": "Reach Shoulder Health",
         "app_name": "Reach Shoulder Health",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2023-03-02T00:00:00.000Z",
         "description": "Shoulder pain, stiffness, or weakness? You're not alone! One out of three people will develop shoulder strength or mobility issues in their lifetime. If you’re one of them, you know how profoundly shoulder problems can impact your everyday activities. \n\nMovement exercises done regularly can increase a shoulder's range of motion and strength. Reach is on a mission to create VR experiences that identify your shoulder limitations and recruit movement specific to your strengths and weaknesses, all within immersive VR environments like a quiet, starry evening or a fast-paced galactic battle!\n\nReach’s Beta release includes a Firefly Assessment experience and two games. Each of these experiences tracks your motion progress and provides useful analysis to you in a web-based portal. And, don't forget to check back soon-- more Reach VR experiences are in development!\n\nGive Reach a try, and play your way to better shoulder health-- virtually!",
-        "markdown": false,
         "developer": "Triad Labs Inc.",
         "publisher": "Triad Labs",
         "genres": [
@@ -57,14 +54,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "http://reach-vr.com/",
         "app_images": {
@@ -77,8 +72,11 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982557_859805275006581_2662032428056985060_n.png"
         },
-        "translations": [],
         "changelog": [
+            {
+                "version": "1.00.109",
+                "change_log": "New features & improvements: \n\n* Added crash logging\n* Fixed a bug in Space Gunner that would result in freezing"
+            },
             {
                 "version": "1.00.108",
                 "change_log": "New features & improvements: \n* New arm length calibration process to enhance accuracy of prescribed targets \n* New and improved network error handling \n* New particle and sound effects in the Tube Trouble experience \n* Drastic improvements to level load times across all experiences due to optimized API calls \n* Reduced the chance of difficult-to-complete star groups in Star Beams \n* The speed of burning fuses in Tube Trouble now depends on tube complexity, and tubes should no longer pass through your body \n* In Star Beams: added large tolerance to locked stars, and stars should now spawn in more reasonable locations \n* Improved user interface and text instructions on daily progress indicators for better clarity \n* Exit button in main menu is now always visible"
@@ -137,15 +135,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 3,
         "rating": 3.666667,
-        "weighted_rating": 3.84,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.84
     },
     "errors": []
 }

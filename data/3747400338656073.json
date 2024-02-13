@@ -3,12 +3,9 @@
         "id": "3747400338656073",
         "name": "CYBER TENNIS",
         "app_name": "CYBER TENNIS",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "GAMES",
         "release_date": "2021-02-09T00:00:00.000Z",
         "description": "Enjoy tennis even more with a natural swing by using the controller as a racket. Experienced tennis players in particular will enjoy the very realistic handling. Play in your own style by making detailed adjustments to settings such as player height, ball position, and grip. Strong players can be cultivated by training computer characters. The characters learn through AI, so please develop your players as a great trainer. In addition to network matches, spectator mode enables nearby players to watch the matches. Not only the person wearing the VR goggles, but those in the vicinity can also share in the excitement. ",
-        "markdown": false,
         "developer": "TECHNICAL ARTS",
         "publisher": "TECHNICAL ARTS Corp.",
         "genres": [
@@ -70,7 +67,6 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [
@@ -79,7 +75,6 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "REQUIRED",
         "website": "https://www.cybertennis.jp/",
         "app_images": {
@@ -92,26 +87,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75622023_252709779767947_3022822769201533733_n.png"
         },
-        "translations": [
-            {
-                "images": {
-                    "cover_landscape": null,
-                    "cover_portrait": null,
-                    "cover_square": null,
-                    "hero": null,
-                    "icon": null,
-                    "immersive_layer_backdrop": null,
-                    "immersive_layer_logo": null,
-                    "logo_transparent": null
-                },
-                "locale": "ja_JP",
-                "display_name": "CYBER TENNIS",
-                "keywords": [],
-                "long_description": "コントローラーをラケットに見立てて、自然なスイングによりテニスを楽しむことができます。特に、テニス経験者にはとてもリアルな操作感を楽しめます。プレイヤーの身長や打点の高さ、グリップなど細かな設定ができ、自分のスタイルでプレイができます。コンピューターのキャラクターを育成することで、強いプレイヤーを育てることができます。キャラクターは人工知能により学習していくので、あなたは優れたトレーナーとなってキャラクターを成長させてください。ネットワーク対戦のほか、対戦中の様子を近くのプレイヤーが観戦できる観戦モードを備えています。VRゴーグルを装着している本人だけでなく、周りの人たちも楽しみを共有できます。",
-                "long_description_uses_markdown": false,
-                "short_description": "リアルなテニス体験ができるVRテニスです。通信対戦、キャラクター育成、ツアーへのエントリーでランキングを獲得するなど、さまざまな楽しみ方ができます。"
-            }
-        ],
         "changelog": [
             {
                 "version": "1.8.3",
@@ -195,15 +170,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": true,
         "votes": 26,
         "rating": 4.153846,
-        "weighted_rating": 3.91,
-        "is_available": false,
-        "is_free": false
+        "weighted_rating": 3.91
     },
     "errors": []
 }

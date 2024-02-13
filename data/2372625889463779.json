@@ -3,12 +3,9 @@
         "id": "2372625889463779",
         "name": "OVR Metrics Tool",
         "app_name": "OVR Metrics Tool",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "1980-01-01T00:00:00.000Z",
         "description": "OVR Metrics Tool provides performance metrics for Oculus mobile applications, including frame rate, heat, GPU and CPU throttling values, and the number of tears and stale frames per second.\n\nIn Report Mode, the tool displays a performance report about a VR session after it has concluded. Report data can be easily exported as a CSV with PNG graphs. In Performance HUD Mode, OVR Metrics Tool provides performance graphs over running Oculus applications as a HUD overlay.\n\nOVR Metrics Tool may be used with any Oculus mobile application, including those built with Unity, Unreal, or our native mobile SDK.\n\nFor more information, see OVR Metrics Tool in our Mobile SDK Developer Guide.",
-        "markdown": false,
         "developer": "Oculus",
         "publisher": "Oculus",
         "genres": [
@@ -56,14 +53,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://developer.oculus.com/documentation/mobilesdk/latest/concepts/mobile-ovrmetricstool/",
         "app_images": {
@@ -76,7 +71,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031350_584453885365215_6866282143585140736_n.png"
         },
-        "translations": [],
         "changelog": [
             {
                 "version": "5.0.0.1.0",
@@ -118,15 +112,10 @@
             "Overlay",
             "FPS"
         ],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 39,
         "rating": 4.615385,
-        "weighted_rating": 4.05,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 4.05
     },
     "errors": []
 }

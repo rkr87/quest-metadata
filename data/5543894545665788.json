@@ -3,12 +3,9 @@
         "id": "5543894545665788",
         "name": "Graphics Showcase",
         "app_name": "Graphics Showcase",
-        "type_name": "Application",
-        "appstore_type": "Application",
         "category": "APPS",
         "release_date": "2023-02-08T00:00:00.000Z",
         "description": "This application is a technical demo intended for Quest developers using Unreal Engine 5. \n\nTone mapping is an important artistic tool for developers. Graphics Showcase features a Vulkan subpass-based tone mapping solution that is much more performant than traditional techniques.\n\nPress B to cycle through these effects:\n- Day / Night cycle\n- Sepia LUT\n- Reddish LUT\n\nPress A to toggle tonemap subpass off / on\n\nPress Right Trigger to toggle FFR off / high\n\nPress Right Grip to toggle MSAA 1/2/4",
-        "markdown": false,
         "developer": "Oculus Samples",
         "publisher": "Meta",
         "genres": [
@@ -57,14 +54,12 @@
             }
         ],
         "comfort": "NOT_RATED",
-        "age_rating": null,
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "platform": "ANDROID_6DOF",
         "internet_connection": "NOT_REQUIRED",
         "website": "https://developer.oculus.com/blog/graphics-showcase-using-vulkan-subpasses-in-ue4-for-performant-tone-mapping-on-quest/",
         "app_images": {
@@ -77,7 +72,6 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031448_1189484135013469_1309278959763801198_n.png"
         },
-        "translations": [],
         "changelog": [
             {
                 "version": "1.0",
@@ -85,15 +79,10 @@
             }
         ],
         "keywords": [],
-        "has_ads": false,
-        "sensor_req": false,
-        "is_demo_of": null,
         "on_rookie": false,
         "votes": 4,
         "rating": 5.0,
-        "weighted_rating": 3.89,
-        "is_available": true,
-        "is_free": true
+        "weighted_rating": 3.89
     },
     "errors": []
 }
