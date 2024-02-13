@@ -86,6 +86,10 @@
         "translations": [],
         "changelog": [
             {
+                "version": "0.1.35",
+                "change_log": "1) Reworked creating and editing playlists!\n\t• Re-ordered planels to improve editing and creating workflow. Panels are now, from left to right, Available Songs, Songs in Playlist, and Playlist Settings.\n\t• Moved customizing individual songs to the Songs in Playlists. Players can now just add the songs and then edit what has been added.\n\t• Added option to preview a song by selecting the play button for each song on Available Songs.\n\t• Playlists can now be re-ordered by clicking and dragging the song you want to edit.\n\n2) More flow improvements!\n\t• Improved algorithm and changed how targets after a duck obtacle are handled.\n\n3) Bug Fixes:\n\t• Fixed bug causing viewing next page in community content to throw an error sometimes.\n\t• Fixed bug causing previewing communinty content song to throw an error sometimes.\n\t• Improved error reporting to give more detailed information.\n\t• Fixed bug causing community content search page to not work correctly sometimes."
+            },
+            {
                 "version": "0.1.34.1",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing YUR watch to throw an error at the beginning of gameplay sometimes.\n\t• Set community content songs search field to only update once the full text has been entered and player selects to close the keyboard to reduce unnecessary bandwith use and improve performance and stability.\n\t• Fixed bug causing Shadow BoXR to fail to track if the game is in focus or not correctly.\n\t• Fixed bug causing community content songs to sometimes throw an error when trying to preview a song."
             },
@@ -160,10 +164,6 @@
             {
                 "version": "0.1.24.1",
                 "change_log": "1)  Fixed issue causing profile editor to display multiple screens at once. Fixed bug causing profile selection to activate when returning from a workout. Fixed bug causing profile settings to be reset or not set at all when updating or creating a new profile.\n\n2) Average strike speed when missed is now added to the total instead of subtracted from causing the average speed to be less volatile and less likely to reduce to 0 over time.\n\n3) Added option to change minimum strike speed between 1.5-10. Default is 1.5 meters per second. This setting can be found under the Gameplay Settings tab. \n\t•Due to the increase in settings, the Gameplay Settings are now in a scrollable field."
-            },
-            {
-                "version": "0.1.24",
-                "change_log": "1)  Adaptive Strike Mode! Enabling this setting will cause the difficulty to strike targets to adapt to you! As you strike harder, the difficulty required to hit targets will grow based on your average strike speed. If it gets too hard, don't worry keep punching the targets and the average difficulty will slowly decrease to match your new average speed.\n\n2) Player strike speed and average speed are now displayed using a small bar above the current score display while working out.\n\n3) Improved head detection for better experience dodging obstacles.\n\t•Head collider has been moved down slightly and the radius has been decreased.\n\n4) Bug fixes."
             }
         ],
         "keywords": [],
