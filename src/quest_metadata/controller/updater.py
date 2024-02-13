@@ -308,7 +308,7 @@ class Updater(Singleton):
             return None
 
         self._handle_errors(result, packages)
-        result.data.changelog = packages[0][1].change_log
+        result.data.changelog = packages[0][1].change_log or []
         result.data.on_rookie = packages[0][1].on_rookie
 
         image_downloads: list[AppImage] = \
@@ -319,8 +319,8 @@ class Updater(Singleton):
             update = LocalAppUpdate(
                 app_name=result.data.app_name,
                 has_metadata=True,
-                is_available=result.data.is_available,
-                is_free=result.data.is_free,
+                is_available=result.data.is_available(),
+                is_free=result.data.is_free(),
                 is_demo_of=result.data.is_demo_of is not None
             )
             await self._app_manager.update(
