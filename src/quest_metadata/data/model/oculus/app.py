@@ -320,7 +320,7 @@ class Item(BaseModel):
     @validator(
         "developer",
         "internet_connection",
-        "publisher_name",
+        "publisher",
         "comfort",
         "website",
         pre=True
