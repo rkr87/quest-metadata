@@ -49,11 +49,11 @@
             },
             {
                 "rating": 4,
-                "votes": 819
+                "votes": 821
             },
             {
                 "rating": 5,
-                "votes": 4879
+                "votes": 4880
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,6 +79,10 @@
             "logo_transparent": "38974805_752350998814087_8222648725834070393_n.png"
         },
         "changelog": [
+            {
+                "version": "0.7.1",
+                "change_log": "IMPROVED\n- Added option in NPC spawn menu to use original Dummy NPC model.\n- Improved menu interaction while moving midair.\n\nFIXED\n- Banana gun stutter on grab and ungrab."
+            },
             {
                 "version": "0.7.0",
                 "change_log": "NEW\n- Weapon: Banana Gun.\n- Weapon: Grenade.\n\nIMPROVED\n- Optimized player rig, ragdoll physics, player model, and user interface.\n- Enabled Super Resolution on Quest.\n- Increased Resolution on Quest 3.\n- Added new difficulty option. (Hard is now harder)\n- Added smooth rotation speed and snap rotation degrees options.\n- Added option to reset settings.\n- Hand poses for all interactables.\n- Updated to Unity 2021 LTS and Oculus Integration SDK v57.\n\nFIXED\n- Smooth rotation hand jitter.\n- Bullet collision effects.\n- Prevented removing gun attachments while gun is holstered.\n- Hand collider position.\n- Player physics overshoot when going on and off a ramp.\n- Inaccurate statistics.\n- NPCs bouncing after standing up."
@@ -154,16 +158,12 @@
             {
                 "version": "0.3.1",
                 "change_log": "v0.3.1 RC2"
-            },
-            {
-                "version": "0.3.1",
-                "change_log": "ADDED\n- Gun: DT22.\n- Gun: AKM.\n- Gun: Revolver.\n- Prop: Office Table.\n- Modifier: Slow Motion.\n- Customizable Modifiers.\n- New Challenges.\n\nIMPROVED\n- Hand poses on all interactables.\n- Dynamic grab poses for pistol slides.\n- Stabbing multiple objects at once.\n- Different creator tools/spawns for each hand.\n- AI Pathfinding.\n- Melee dummies will now only attack with available hand if other is dismembered.\n- Option in NPC spawn menu for enemies to ignore player.\n- Persistent notifications. Click to clear.\n\nFIXED\n- Magazines sometimes lacking collision/have weird physics.\n- Force grab lag when locomoting.\n- Balloon lines not disappearing when connected body respawns.\n- Thruster remote connections not removing from removed/respawned thrusters.\n- Being able to attach objects to menus."
             }
         ],
         "keywords": [],
         "on_rookie": true,
-        "votes": 6051,
-        "rating": 4.690795,
+        "votes": 6054,
+        "rating": 4.690618,
         "weighted_rating": 4.68
     },
     "errors": []
