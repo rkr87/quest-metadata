@@ -3,7 +3,6 @@
         "id": "4321051927921217",
         "name": "Forest Farm",
         "app_name": "Forest Farm",
-        "category": "GAMES",
         "release_date": "2021-06-04T00:00:00.000Z",
         "description": "Open World Farming Sandbox\nWork your overgrown forest into a thriving farm! Clear the forests, grow crops, keep animals, craft fences and more! Turn a wild landscape into your dream farmstead.\n\nFeed the Citadel\nComplete Quests for the citizens of the Citadel to earn their respect.\n\nGrow a Bountiful Harvest\nSelect from 21 plants, vegetables and fruit to grow, from 7 different layers - trees, fruit trees, bushes, herbaceous, ground covers, roots, vegetables and vines.\n\nDesign Your Garden Layout\nDo you prefer your garden in tidy rows, many small gardens, or one large plot? Layout your garden in your own custom design.\n\nSwing Your Tools into Action\nLevel up your tools with every use - Use your shovel, axe, pick axe, fishing rod and bucket\n\nUpgrade and Improve\nUpgrade your farm by crafting or purchasing fences and much more!\n\nVisit The Market\nTrade your fruit and vegetables at the local market to earn gold coins.\n\nSnap, Smooth and Teleport\nUse your favourite locomotion style",
         "developer": "Nic Schubert",
@@ -76,6 +75,10 @@
             "logo_transparent": "38974466_256510442508480_8624205426909583308_n.png"
         },
         "changelog": [
+            {
+                "version": "71",
+                "change_log": "Massive Localization Update!!!\nNow Supporting:\n-Chinese Traditional\n-Chinese Simplified\n-French\n-German\n-Italian\n-Japanese\n-Korean\n-Portuguese\n-Russian\n-Spanish"
+            },
             {
                 "version": "70",
                 "change_log": "Fixed Startup\nFixed Performance Bottlenecks"
@@ -151,14 +154,11 @@
             {
                 "version": "52",
                 "change_log": "Fixed House Building\nDecoupled Inventory from player movement\nAdded more Inventory Spheres"
-            },
-            {
-                "version": "51",
-                "change_log": "Massive Performance Update\nUI Interaction Improved\nDistance Grab Improved\nHighlight Improved\nTeleport Improved"
             }
         ],
         "keywords": [],
         "on_rookie": false,
+        "category": "GAMES",
         "votes": 9,
         "rating": 3.444444,
         "weighted_rating": 3.82

@@ -3,7 +3,6 @@
         "id": "3758954627491820",
         "name": "Naer",
         "app_name": "Naer",
-        "category": "APPS",
         "release_date": "2023-10-10T00:00:00.000Z",
         "description": "Create high energy encounters with Naer – the Mixed Reality productivity app where colleagues collaborate in a truly hybrid, immersive workplace.\n\nSet the timer and share ideas as fast as you can express them with telekinetic sticky notes. Your work merges directly into Miro, so you don’t have to worry about documentation.\n\nWherever you are, gather your team in one place, for fun, fast and intuitive workshops. \n\nStuff you can do in Naer\n- Mixed Reality for co-located and hybrid workshops\n- Talk to your sticky notes (no need for a keyboard, they’ll listen)\n- Integrate with Miro in realtime\n- Share your computer screen\n- Be fast with telekinetic superpowers\n- Smooth vector drawing\n- Keep track with a workshop timer\n- Adjust the time of day to set the mood\n- Bring your Meta Avatar",
         "developer": "Naer AS",
@@ -81,9 +80,15 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75221318_453752902527160_8172050423385717362_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.3+3601",
+                "change_log": "Fixes & Improvements\nBengt Ove rewrote pretty much our whole Miro integration from scratch, making sure it exceeds your expectations. It’s much more stable than before adding support for images, plain text, many shapes, and of course the humble sticky note.\n\nThanks to Ingrid, you can now create Miro boards directly from the web app. Newly created boards will automatically be added to your list of boards. She also made the onboarding super fast with auto-accepting invites if you already have an account.\n\nAlso, now might be a good time to beam your computer screen into Naer! \nStig has made screen sharing much more reliable, and updated our dependencies to the latest and greatest to ensure we’re using their latest and most bug free features. And, if you enable screen sharing in VR before casting from the web app, Bengt Ove added some instructions on how to cast your screen. \n\nLastly, Antonis has made improvements to super powers like telekinetic pulling, making it feel much more natural (really, try it. thank him later). Learning how to use Naer is now also easier since we have added videos to the tutorial, along with the already brilliant voice over. We also thought to align that mirror a bit better (mirror mirror on the wall, who is the best facilitator of them all?)."
+            }
+        ],
         "keywords": [],
         "on_rookie": false,
+        "category": "APPS",
         "votes": 8,
         "rating": 4.75,
         "weighted_rating": 3.91
