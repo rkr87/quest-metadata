@@ -154,7 +154,11 @@ class Item(BaseModel):
     app_name: str = Field(validation_alias='appName')
     # type_name: str = Field(validation_alias='__typename')
     # appstore_type: str = Field(validation_alias='__isAppStoreItem')
-    category: str
+    category_id: Annotated[
+        str | None,
+        Field(default=None, validation_alias='category', exclude=True)
+    ]
+    category_name: Annotated[str | None, Field(default=None, exclude=True)]
     release_date: str = Field(
         default="1980-01-01T00:00:00.000Z",
         validation_alias=AliasPath('release_info', 'display_date')
@@ -242,6 +246,16 @@ class Item(BaseModel):
 
     @computed_field  # type: ignore[misc]
     @property
+    def category(self) -> str:
+        """
+        Computed category
+        """
+        return (
+            self.category_id or self.category_name or "NOT_SPECIFIED"
+        ).upper()
+
+    @computed_field  # type: ignore[misc]
+    @property
     def votes(self) -> int:
         """
         Computed property to get the sum of votes.
@@ -303,7 +317,14 @@ class Item(BaseModel):
         """
         return self.price is not None and self.price == 0
 
-    @validator("developer", "category", "internet_connection", pre=True)
+    @validator(
+        "developer",
+        "internet_connection",
+        "publisher_name",
+        "comfort",
+        "website",
+        pre=True
+    )
     @classmethod
     def set_not_specifid(cls, val: str | None) -> str:
         """
