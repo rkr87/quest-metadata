@@ -47,7 +47,7 @@
             },
             {
                 "rating": 4,
-                "votes": 4
+                "votes": 5
             },
             {
                 "rating": 5,
@@ -74,6 +74,10 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "changelog": [
+            {
+                "version": "3.0",
+                "change_log": "- Added login method startup menu\n- Added option to authorize using a 4 letter code instead of email/password\n- Added Browser and Controls distance settings in system options\n- Reduced the number of options panels that are visible at once\n- Fixed bugs related to logging out\n- Fixed a bug and added more debug information if you log but don't have any users\n"
+            },
             {
                 "version": "2.9",
                 "change_log": "- Added \"Recently Added\" section.  Results are limited to the first 20 matches in each library on the server.\n- Fixed some minor bugs with the browser\n- Made the debug log longer \n- Now ignoring unsupported subtitle formats"
@@ -154,8 +158,8 @@
         "keywords": [],
         "on_rookie": false,
         "category": "APPS",
-        "votes": 23,
-        "rating": 3.130435,
+        "votes": 24,
+        "rating": 3.166667,
         "weighted_rating": 3.72
     },
     "errors": []
