@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "2024.2.2",
+                "change_log": "Dear Friends of Tennis!\n\nSmall update for lost rackets! This Patch Update 2024.2.2 brings a bugfix.\n\nBugfixes\nCustom Offset: Ajusting the offste was still possible outside of the settings, which could cause loosing the racket.\n    \nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
+            },
+            {
                 "version": "2024.2.1",
                 "change_log": "Dear Friends of Tennis!\n\nWe're smashing out a hotfix update to keep your VR tennis game running smoothly! This Patch Update 2024.2.1 brings a bugfix and some minor improvements. This is what you can expect:\n\nImprovements:\nHandle selection: Changing a handle needs to be confirmed\nMovement: Minor tweaks for the teleport position for low bouncing balls\n\nBugfixes:\nLeft Hand: Some exercises placed left handed players to the wrong spot\n    \nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
             },
@@ -160,10 +164,6 @@
             {
                 "version": "2023.6.1",
                 "change_log": "Dear Friends of Tennis!\n\nTime for a match point bug fix in your favorite VR tennis world! Some things just need to be fixed asap! This Version 2023.6.1 brings the following improvements. \n\nBug Fixes:\nUsing the app with no mic permission is now possible\nNew mic permission handling in the match lobby\n\nStay tuned next update is already in the pipeline."
-            },
-            {
-                "version": "2023.6.0",
-                "change_log": "Dear Friends of Tennis!\n\nThis update is a game, set, and match win for your VR tennis experience! \n\nNew Features:\nLocomotion: Added a hit decision system to \"Auto Teleport\".\nTutorial: Added toss modes to the tutorial.\nMatch: Handling a fair teleportation when playing a match. If one person selects Auto Teleport, both players get Auto Teleport. If both players have \"running,\" we take the smaller running distance.\n\nImprovements:\nDisconnection handling: Enabled reconnects to matches when possible.\nVisual: Starting directly into the main environment\nUI: Handled online status of the user\nPerformance: Restructured code for faster execution\nGraphics: Improved opponent avatar and racket movement for a more natural experience\nGraphics: Handled left-handed opponent avatar\nTossMode: Reduced maximum distance when choosing a ball above head serve\nTossMode: Added visual hints\nUI: Added various minor UI changes\nMatch: Improved distance calculation for hitting a winner for a more realistic outcome\nAudio: Added voice in tutorial\n\nBug Fixes:\nVoice: Re-connection handling\nPhysics: Fixed jumping ball on the net\nTutorial: Fixed occasional wrong teleportation behind the fence\nMatchmaking: Improved reliability of finding a match due to the new disconnection handling\nUI: Fixed leaderboard sometimes showing incorrect numbers.\nUI: Fixed the unit system not being saved permanently.\n"
             }
         ],
         "keywords": [],

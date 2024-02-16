@@ -72,7 +72,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1605
+                "votes": 1608
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -97,6 +97,10 @@
             "logo_transparent": "38974477_132217234333927_4264940668532555776_n.png"
         },
         "changelog": [
+            {
+                "version": "1.16.1.245427-release",
+                "change_log": "- Blocked IAP (in-app purchases) for users below the age of 13 years old.\n- Made descriptions for IAP gear and bait show even without an internet connection.\n- Moved rods in the Vend-O-Matic slightly, to prevent long handles from clipping into the floor.\n- Fixed an issue where the promo for other Resolution Games titles would not appear after changing system language.\n\n"
+            },
             {
                 "version": "1.16.244586-release",
                 "change_log": "* Updated Meta Avatars to v24 for increased avatar fidelity.\n\n* Added the Stealth Black \"Wing - Fishin’ Stikk\" premium rod to Jim-Bob's Shop.\n\n* Increased the display refresh rate to 90 Hz in single player for Quest 3 and Pro.\n\n* Fixed a bug where you got stuck in loading when going from Casters' Cove to Penguin Point."
@@ -151,8 +155,8 @@
         ],
         "on_rookie": false,
         "category": "GAMES",
-        "votes": 2856,
-        "rating": 4.040966,
+        "votes": 2859,
+        "rating": 4.041973,
         "weighted_rating": 4.03
     },
     "errors": []

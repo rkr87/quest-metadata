@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.170",
+                "change_log": "Update 1.30.1\n- Added seat forwards/backwards adjustment setting (controls menu)\n- Added option to turn off automatic Hi-Lo switching (general menu)\n- Added pulsating arrow pointing at \"Quit Level\" button for relevant tutorial missions\n\n- Adjusted docking crate position tolerance from 30cm to 35cm\n- Adjusted proc-gen levels to use random music\n- Adjusted time-attack-tools unlock to show in weekly level\n- Adjusted \"gravity zone\" of cargo holds to be a bit more powerful\n- Adjusted Scrapyard II contents slightly\n\n- Fixed typo in \"The Pit\" description\n- Fixed warship drop-off behaviour so high-speed nukes are less likely to fly out the other side\n\nPSVR2 Only\n- Added \"touch\" grip option - is on by default\n\nPC ONLY\n- Added vive/WMR specific binding image to controls menu\n- Adjusted default vive/WMR controls (right menu button does actions, left menu button does recenter, right trackpad does HiLo switching)\n- Fixed smoothed FPV preview screen"
+            },
+            {
                 "version": "0.2.167",
                 "change_log": "- Added 'Week 2' missions\n- Added new racing tracks\n- Added an ultra-hard unpaid-overtime mission\n- Added new air-freshener unlockables\n- Added docker license unlockable\n- Added mining torpedo unlockable\n- Added racing cockpit unlockable\n- Added 'Remove Thrust Assist' unlock\n- Added 'Time Attack Helper' unlockable\n- Added new music tracks\n- Added optional in-cockpit frame-rate readout\n- Added red/green docking port light to help judge distance and alignment\n- Added mothership camera to track inbound crates\n- Added optional comfort vignette\n- Added many more proc-gen prefabs\n\nAdjustments and Fixes:\n- Various visual improvements\n- Unlock detector now gives a 'less-than-X' readout\n- Spacebrake can now bring ship to complete stop\n- Unlock feedback now plays in cockpit when conditional unlockables unlock\n- Forward and velocity indicators also show on radar\n- Fixed asymmetrical thrust bug caused by previous 'Thrust Assist' implementation\n- Made warships much bigger\n- Gave third-person pilot legally-safe goggles\n- Made docking TV bigger\n- Added option to enable second docking TV that will take over radar screen\n- Fixed many other bugs\n- Adjusted many other things\n\nPC Only:\n- Added graphics scaling options for resolution, AA, bloom\n- Added new HOTAS control binds related to limpets/torpedos/launcher etc.\n- Added bindable HOTAS 'cursor' which can navigate and press the in-game buttons\n\nPSVR Only:\n- Native 120hz support\n- Added ability for secondary button to rapid fire limpets\n\nQuest Only:\n- Added graphics scaling options for resolution, AA, and refresh rate"
             },
@@ -97,7 +101,7 @@
         "category": "GAMES",
         "votes": 32,
         "rating": 4.96875,
-        "weighted_rating": 4.1
+        "weighted_rating": 4.11
     },
     "errors": []
 }
