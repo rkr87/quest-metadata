@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 84
+                "votes": 87
             },
             {
                 "rating": 2,
@@ -50,15 +50,15 @@
             },
             {
                 "rating": 3,
-                "votes": 37
+                "votes": 38
             },
             {
                 "rating": 4,
-                "votes": 124
+                "votes": 127
             },
             {
                 "rating": 5,
-                "votes": 840
+                "votes": 850
             }
         ],
         "comfort": "NOT_RATED",
@@ -84,6 +84,10 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "[ Arena Editor (Beta) ]\nCreate arenas on existing scenes or from scratch. Host solo practice, online practice, or private lobbies on custom arenas. Share arena codes. Build simultaneously on the same scene by sharing a private code with collaborators. This mode will improve based on your feedback.\n\n[ Physics Engine Update ]\nSignificantly enhanced ball control, short passing, and power shots. Mechanics remain unchanged, but accuracy in low and high power impacts has improved drastically.  Introduced new head physics for performing headers (not easily though).\n\n[ Stadium Upgrade and Locker Rooms ]\nThe enlarged stadium now supports 8v8 games with the largest pitch. Players in private and practice games can gather in locker rooms and exit through the gate. Locker rooms are currently non-interactive but will be updated based on feedback.\n\n[ Major Bots Update ]\nImproved logic and lifelike animations for in-field bots. The botkeeper in solo practice can switch to the main goal. You can play matches with bots with any of your balls (but don’t expect them to handle the rugby ball correctly, we haven’t even tried). Bots are still under active development.\n\n[ Anti \"Height Glitching\" ]\nSprinting capacity now adjusts based on in-game leg length, rendering “height glitching” useless. \n\n[ Sound FX ]\nSound effect updates include air flows and ball sounds. A new FX system aiming for real-life sound accuracy is in development, in partnership with a renowned sound design studio.\n\n[ Private Lobbies Update ]\nLobby creators can now adjust after-goal time, pause/start, and restart games. Introduced a new ruleset 'Light rules + Offsides' for private lobbies.\n\n[ Penalty Series ]\nPenalty series now use identical goals for both teams, aiming for bug-free gameplay. Rapid bug fixes promised.\n\n[ Scenes Updates ]\nNew larger goals in some stadiums and minor enhancements, including new ads.\n\n[ In-Game Interface ]\n1v1 and ranked games feature a new GUI, displaying player names and ELOs.\n\n[ New Settings ]\nYou can now set up to 100 balls in solo practice and choose the ‘random ball’ option.  Choose between match rating and score display. New volume setting for voice chat and an option to hide player names above avatars.\n\n[ VRFS Camera App ]\nCustomize overlay designs like score, timers, and team names. Enhanced player movement smoothness. MacOS and Quest versions coming soon.\n\n[ Bugfix ]\nWe've worked hard to ensure stability and had to rebuild the whole thing. The ball may still get out of sync occasionally, but various bugs related to rules detection, goal tracking, penalties, gloves exploits, and offsides bugs are hopefully fixed forever. A lot has been done to increase stability for players with poor internet connection. \n\n[ Optimizations ]\nSmoother multiplayer gameplay with reduced frame drops. Faster custom jersey loading with additional regional servers.\n\n[ Minor Enhancements ]\nImproved ball lighting, avatar materials, and various small game elements.\n\n[ New Ball Forms ]\nNew ball types, including mini, rugby, and tennis balls, available in the store following the physics update.\n\n[ Juggling Counter ]\nA counter appears during solo practice juggling.\n\n[ Increased Mod Team ]\nWe thank everyone who contributes to improving our community by making reports. We are actively working on moderation, including AI tools, so your reports are valuable even if offending players are not immediately banned."
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 19 Patch\n\n- Light rules option is returned\n- Fixed offside issue\n- Fixed issues in VRFS Park\n- Enhanced sound effects\n- Fixed body collisions in solo practice\n\n\nIn previous update:\n\nBOTS\n- Major update to the match with bots\n- Raise your hand to request a pass\n- New bots logic and animations in matches\n- No more lag and newly optimized models\n- Access match with bots from the ‘Solo Practice’ menu\n- Bot keeper optimized and updated\n\nWINTER PARTY ARENA\n- Covered with ice\n- Available for online practice and matches\n\nOFFSIDES\n- Offsides available in large arenas only (Strict rules +) \n\nENHANCEMENTS\n- No more rebound goals in penalty series\n- Volume settings for voice chat\n- Added recent codes for custom jerseys\n- More detailed jersey codes statuses \n- New default boots\n- Optimized online practice mode\n- Optimized VRFS Park and other arenas\n- Sound effects improvements\n- No lag when new players enter the lobby\n- Reports improved with extra live moderation team\n- In-game menu now opens and works faster\n- Optimized solo practice arena\n- Mannequin reset button\n- Some free Christmas items in the store\n- Running speed now adjusts to negate real-life movement\n- Reduced app size\n- Dynamic ball shadows\n- New boots and winter cosmetics in the store\n- New ball physics: Glider 2 (Glider physics variation), \nSkyscraper (easily gain altitude) \n\nBUGFIX\n- Resolved known bugs in penalty series\n- Gloves exploit fixed\n- Fixed some rare bugs with disappearing rule restrictions\n- Fixed minor bugs with ball synchronization\n- Potentially fixed accidental slowdown of the ball on ground\n- Potentially fixed minimap problems"
@@ -159,18 +163,14 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 10 RELEASED\n\n-  Goalies can now catch, hold, and throw the ball\n-  New diving mechanics added (press trigger as goalie)\n-  Radar (can be hidden in settings)\n-  New 1v1 and 3v3 maps\n-  Add players to favorites and see them in public lobbies list\n-  UX improvements: easily mute, block, and report players\n-  Set match duration in private lobbies\n-  Sprint bar now visible (sprinting bugs fixed)\n\nFixes and enhancements:\n\n-  Graphics optimizations\n-  Almost all multiplayer bugs potentially fixed\n-  Some UX improvements\n-  Additional minor bug fixes\n\nIn the next update: physics engine v.2, strict rules option for matches (offsides, outs, free kicks, corners), new game modes, skills card and skills evaluation system."
-            },
-            {
-                "version": "0.1",
-                "change_log": "New features and locations:\n\n- Goalie mode in matches\n- Goalie training in solo practice\n- New movement mechanics: hold grip to sprint\n- New 1v1, 2v2, and 4v4 arenas\n- Large stadium for matches\n- Join specific public games using the 'Lobby ID'\n- Referee mode in private games\n\n\nFixes and enhancements:\n\n- Increased thumbstick turning speed\n- Legs no longer get stuck in walls\n- Ball physics fixes\n- Multiplayer enhancements\n- Multiplayer bug fixes \n\n- Update 9 hotfix 2\n- More slots in private rooms (up to 15)"
             }
         ],
         "keywords": [],
         "on_rookie": false,
         "category": "GAMES",
-        "votes": 1106,
-        "rating": 4.460217,
-        "weighted_rating": 4.41
+        "votes": 1123,
+        "rating": 4.45325,
+        "weighted_rating": 4.4
     },
     "errors": []
 }

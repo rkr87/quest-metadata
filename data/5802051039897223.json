@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "0.76",
+                "change_log": "Improvements:\n\n*Player options (left hand, MSAA, ground shadows) persist after reloading the game.\n*More tracks are displayed in Community tracks.\n*Smoother movement of cars has been implemented.\n*Minor performance improvements have been made in multiplayer.\nBug Fixes:\n*Replay saving should now be more reliable.\n*An issue that would allow driving a car without timer to start has been fixed.\n*High scores that took advantage of bugs have been cleared.\n"
+            },
+            {
                 "version": "0.73",
                 "change_log": "Improvements\n*Multiplayer now has voice chat\n*New matchmaking notification which will notify you if a multiplayer game is in progress so you can quickly join\n\nBugfixes\n*Fixed score highlight in live ranking\n*Room mesh would be used where it should  in some cases"
             },
