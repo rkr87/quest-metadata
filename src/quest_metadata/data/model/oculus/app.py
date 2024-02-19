@@ -19,6 +19,7 @@ from base.models import BaseModel
 from data.model.oculus.app_additionals import (AppAdditionalDetails, AppImage,
                                                AppImages)
 from data.model.oculus.app_changelog import AppChangeEntry
+from utils.constants import GENRE_MAPPING
 from utils.error_manager import ErrorManager
 
 
@@ -331,6 +332,18 @@ class Item(BaseModel):
         Validator to convert null strings
         """
         return val or "NOT_SPECIFIED"
+
+    @validator("genres", pre=True)
+    @classmethod
+    def genre_cleanup(cls, val: list[str]) -> list[str]:
+        """
+        Validator to clean_up genres
+        """
+        output: list[str] = []
+        for v in val:
+            if v in GENRE_MAPPING and (x := GENRE_MAPPING[v]) not in output:
+                output.append(x)
+        return output
 
     @validator("release_date", pre=True)
     @classmethod
