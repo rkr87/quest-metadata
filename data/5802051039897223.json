@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 72
+                "votes": 73
             }
         ],
         "comfort": "NOT_RATED",
@@ -78,6 +78,10 @@
             "logo_transparent": "38974777_604945281685800_2956375268975241351_n.png"
         },
         "changelog": [
+            {
+                "version": "0.77",
+                "change_log": "Fixed bug with replay"
+            },
             {
                 "version": "0.76",
                 "change_log": "Improvements:\n\n*Player options (left hand, MSAA, ground shadows) persist after reloading the game.\n*More tracks are displayed in Community tracks.\n*Smoother movement of cars has been implemented.\n*Minor performance improvements have been made in multiplayer.\nBug Fixes:\n*Replay saving should now be more reliable.\n*An issue that would allow driving a car without timer to start has been fixed.\n*High scores that took advantage of bugs have been cleared.\n"
@@ -134,8 +138,8 @@
         "keywords": [],
         "on_rookie": false,
         "category": "GAMES",
-        "votes": 75,
-        "rating": 4.946667,
+        "votes": 76,
+        "rating": 4.947368,
         "weighted_rating": 4.3
     },
     "errors": []

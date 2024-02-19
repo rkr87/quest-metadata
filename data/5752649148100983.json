@@ -32,28 +32,7 @@
             "ROOM_SCALE"
         ],
         "tags": [],
-        "hist": [
-            {
-                "rating": 1,
-                "votes": 0
-            },
-            {
-                "rating": 2,
-                "votes": 2
-            },
-            {
-                "rating": 3,
-                "votes": 0
-            },
-            {
-                "rating": 4,
-                "votes": 1
-            },
-            {
-                "rating": 5,
-                "votes": 20
-            }
-        ],
+        "hist": [],
         "comfort": "NOT_RATED",
         "iarc": {
             "age_rating": "Teen",
@@ -162,9 +141,21 @@
         "keywords": [],
         "on_rookie": true,
         "category": "GAMES",
-        "votes": 23,
-        "rating": 4.695652,
-        "weighted_rating": 4.0
+        "votes": 0,
+        "rating": 0.0,
+        "weighted_rating": 3.85
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "9b904f7fc9e3092a2827cd580fdbe853"
+            ],
+            "path": [
+                "item",
+                "quality_rating_histogram_aggregate_all"
+            ]
+        }
+    ]
 }
