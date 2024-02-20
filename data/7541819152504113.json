@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.8",
+                "change_log": "Added VR Settings menu (in game menu -> settings) with:\n- Volume\n- Smooth/snap turn option\n- Smooth turn speed"
+            },
+            {
                 "version": "0.1.7",
                 "change_log": "- Height is now the same for all players\n- Added connection error handling\n- Changed buffs application logic\n- Earth quake is no longer disables player move provider\n- Turning with joystick should now work when restarting host/client"
             },
