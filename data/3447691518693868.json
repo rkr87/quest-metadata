@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "2.2.5",
+                "change_log": "Added:\r\n- Displaying up to 5 last search results\r\n- Improved passthrough functionality\r\n\r\nFixed:\r\n- Duplication added SMB devices\r\n- Managing local files on android\r devices\n- Some issues with text scrolling\r\n- Some minor fixes and improvements"
+            },
+            {
                 "version": "2.2.4",
                 "change_log": "Added:\r\n- Passthrough for videos! Now you can use new settings from video player.\r\nFixed:\r\n- Tracking requirement for Meta Quest.\n- Some minor fixes and improvements."
             },
@@ -150,10 +154,6 @@
             {
                 "version": "2.1.1",
                 "change_log": "Improvements:\n- Improved preview display in the video list in the player\n- Improved files loading at the local page\n\nFixes:\n- Fixed an error filling a queue with an empty video list\n- Fixed  changing the video projection when the LR Inverve function is enabled\n- Fixed duplicating sources after migrating from old data on the downloads page\n- Fixed incorrect display of the number of pages in the local page when using edit mode"
-            },
-            {
-                "version": "2.1.0",
-                "change_log": "Common changes:\n- Redesigned the UI\n- Improved UI quality\n- Added new UI animations\n- Reverted to single active site logic\n- Added reset pincode function\n- Added auto video api mode\n- Added a door to the room\n\nLocal:\n- Added file editing mode for performing operations with them\n- Now you can pin a folder or file in file editing mode\n\nWeb:\n- Now some sites have their own color scheme\n- Added support for model view\n- There are now 2 types for the video preview: grid and list\n- Added video sorting by popularity\n- Added the \"Most recent\" section\n- Added more information about the video\n\nPlaylits:\n- Added preset playlist \"Favorites\"\n- Now the \"queue\" is formed by itself when video playing from a WEB or LOCAL page\n- Changed the logic of adding videos to playlists\n\nSettings:\n- Renamed the settings page from \"Video\" to \"Graphics\"\n- Changing the standard quality and video API is now available on the player page\n- Now UI Settings can be opened from Settings\n- Now you can turn on/off the environment only from the settings from the Graphics page\n- Changing download path moves all downloaded files to the new path\n\nImage view changes:\n- Added the ability to move the image\n- Added the ability to zoom the image\n\nFixes:\n- Fixed \"Watch in app\" mechanic"
             }
         ],
         "keywords": [],

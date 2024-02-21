@@ -79,6 +79,14 @@
         },
         "changelog": [
             {
+                "version": "0.1.35.1",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing some built in songs to throw an error when playing one handed mode.\n\t• Fixed bug causing community content search page to not work correctly sometimes.\n\t• Fixed bug previewing a custom song to sometimes throw an error.\n\t• Fixed bug causing some custom songs to fail to save due to \"illegal\" characters.\n\t• Temporarily disabled images in custom songs to fix a bug causing loading custom songs to sometimes get stuck."
+            },
+            {
+                "version": "0.1.35.1",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing some built in songs to throw an error when playing one handed mode.\n\t• Fixed bug causing community content search page to not work correctly sometimes.\n\t• Fixed bug previewing a custom song to sometimes throw an error.\n\t• Fixed bug causing some custom songs to fail to save due to \"illegal\" characters.\n\t• Temporarily disabled images in custom songs to fix a bug causing loading custom songs to sometimes get stuck."
+            },
+            {
                 "version": "0.1.35",
                 "change_log": "1) Reworked creating and editing playlists!\n\t• Re-ordered planels to improve editing and creating workflow. Panels are now, from left to right, Available Songs, Songs in Playlist, and Playlist Settings.\n\t• Moved customizing individual songs to the Songs in Playlists. Players can now just add the songs and then edit what has been added.\n\t• Added option to preview a song by selecting the play button for each song on Available Songs.\n\t• Playlists can now be re-ordered by clicking and dragging the song you want to edit.\n\n2) More flow improvements!\n\t• Improved algorithm and changed how targets after a duck obtacle are handled.\n\n3) Bug Fixes:\n\t• Fixed bug causing viewing next page in community content to throw an error sometimes.\n\t• Fixed bug causing previewing communinty content song to throw an error sometimes.\n\t• Improved error reporting to give more detailed information.\n\t• Fixed bug causing community content search page to not work correctly sometimes."
             },
@@ -149,14 +157,6 @@
             {
                 "version": "0.1.25",
                 "change_log": "1) New environment using passthrough mode. Environments are now sorted alphabetically. Passthrough is now an available environment.\n\n2) Improved performance in main menu.\n\n3) Fixed bug causing memory leak and loss of performance when returning from game back to main menu."
-            },
-            {
-                "version": "0.1.24.2",
-                "change_log": "Fixed bug causing bottom buttons in main menu to not be interactable.\n\nFixed bug causing new players to have to enable or enable and then disable adaptive strike mode."
-            },
-            {
-                "version": "0.1.24.1",
-                "change_log": "1)  Fixed issue causing profile editor to display multiple screens at once. Fixed bug causing profile selection to activate when returning from a workout. Fixed bug causing profile settings to be reset or not set at all when updating or creating a new profile.\n\n2) Average strike speed when missed is now added to the total instead of subtracted from causing the average speed to be less volatile and less likely to reduce to 0 over time.\n\n3) Added option to change minimum strike speed between 1.5-10. Default is 1.5 meters per second. This setting can be found under the Gameplay Settings tab. \n\t•Due to the increase in settings, the Gameplay Settings are now in a scrollable field."
             }
         ],
         "keywords": [],
