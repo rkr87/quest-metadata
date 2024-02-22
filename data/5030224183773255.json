@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 54
+                "votes": 55
             },
             {
                 "rating": 2,
@@ -41,7 +41,7 @@
             },
             {
                 "rating": 3,
-                "votes": 17
+                "votes": 18
             },
             {
                 "rating": 4,
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 206
+                "votes": 207
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "2.0.9",
+                "change_log": "* Removed need to set up scene for Mixed Reality sections as it forced users to switch to controllers\n* Providing a popup message to switch to controller play during street scene if users are not able to successfully use the teleport hand gesture\n* Fixes for microphone access issues related to voice commands if user has microphone disabled\n* Improved voice command handling for better accuracy\n* Bug fixes and graphical improvements\n"
+            },
+            {
                 "version": "1.1",
                 "change_log": "* Polygon reductions on some models for reducing overdraw\n* Sprite mipmapping\n* Controllers-as-hands fixes\n"
             },
@@ -84,8 +88,8 @@
         "keywords": [],
         "on_rookie": false,
         "category": "SYSTEM",
-        "votes": 339,
-        "rating": 3.973451,
+        "votes": 342,
+        "rating": 3.964912,
         "weighted_rating": 3.94
     },
     "errors": []

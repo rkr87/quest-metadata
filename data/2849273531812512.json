@@ -49,11 +49,11 @@
             },
             {
                 "rating": 2,
-                "votes": 79
+                "votes": 81
             },
             {
                 "rating": 3,
-                "votes": 68
+                "votes": 70
             },
             {
                 "rating": 4,
@@ -61,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1661
+                "votes": 1664
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -87,6 +87,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "1.12.0",
+                "change_log": "Improve saving and loading of screen layouts between sessions and installs.\nFix UI refreshing in profile menu."
+            },
             {
                 "version": "1.11.21",
                 "change_log": "Fix issue with bluetooth mouse incorrectly being detected."
@@ -162,10 +166,6 @@
             {
                 "version": "1.11.03",
                 "change_log": "Reduce misfires with quick action menu when using hands.\nFix saving of brightness setting.\nImprove hearing others when spatial audio set to lowest.\nFix verbose logging with Diagnostic Mode toggle.\nOther bug fixes and optimizations."
-            },
-            {
-                "version": "1.11.02",
-                "change_log": "Remove desk dependency for whiteboard.\nFix RPM editor view.\nFix some UI bugs."
             }
         ],
         "keywords": [
@@ -177,8 +177,8 @@
         ],
         "on_rookie": false,
         "category": "APPS",
-        "votes": 2234,
-        "rating": 4.242167,
+        "votes": 2241,
+        "rating": 4.240071,
         "weighted_rating": 4.22
     },
     "errors": []

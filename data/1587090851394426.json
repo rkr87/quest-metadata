@@ -62,7 +62,7 @@
             },
             {
                 "rating": 5,
-                "votes": 698
+                "votes": 699
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,6 +85,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.1.14-generalqc",
+                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Logging in to a different LandingPad account than the previously logged in account will now give the user a choice to delete autosaves on the device or cancel the login."
+            },
+            {
+                "version": "6.1.14-generalqog",
+                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Logging in to a different LandingPad account than the previously logged in account will now give the user a choice to delete autosaves on the device or cancel the login."
+            },
             {
                 "version": "6.1.13-generalqc",
                 "change_log": "🐛 Bug Fixes\n\n- Fixed an issue where FBX exports that contained multiple objects with the same material name could share the same color even when not the same color in Gravity Sketch.\n- Fixed an issue where connecting subdivision to the mirror, moving it off of the world mirror then baking mirror caused the newly baked copy to behave as if still attached to original.\n- Fixed an issue where connecting subdivison or strokes to the mirror, moving it off the world mirror, baking mirror then remirroring the original caused it to be mirrored on local mirror rather than world mirror."
@@ -167,8 +175,8 @@
         ],
         "on_rookie": false,
         "category": "APPS",
-        "votes": 1078,
-        "rating": 4.091837,
+        "votes": 1079,
+        "rating": 4.092678,
         "weighted_rating": 4.07
     },
     "errors": []

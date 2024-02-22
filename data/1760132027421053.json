@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "36.0.0",
+                "change_log": "-Add tutorial room\n\n-Change application to utilize the new web platform\n\n-Improve throw to delete detection\n\n-Update Meta subscription users to support all team features\n\n-Fix bugs in environment switching feature\n\n-Fix notes menu not refreshing on changes\n\n-Improve multiple buttons that were hard to select\n\n-Add watermark for trial users\n\n-Add watermark for guest users\n\n-Improved team selection screen\n\n-Add feature for linking/unlinking Meta account to existing account\n\n-Fix an authorization issue that could occur when the app was running for a long time\n\n-Add a more helpful message when your are logged into an account twice\n\n-Fix avatar heads blocking controller beams\n\n-Dozens of generic UI and networking fixes"
+            },
+            {
                 "version": "35.2.0",
                 "change_log": "- Quest 3 compatibility\n\n- Whiteboard visibility improvements\n\n- Reconnection fixes\n\n- Fixed occasional wrong color of avatar hands and sleeves\n\n- Note text overflow fixes\n\n- Room thumbnail fixes\n\n- More consistent throwing, less accidental drops\n\n- Pen spawning fixes\n\n- Avatar selection screen fixes\n\n- Improved system for updating rooms\n\n- Can no longer destroy the tablet while logging in\n\n- Reduce app download size by around 200MB"
             },
