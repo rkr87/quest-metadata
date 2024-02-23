@@ -69,7 +69,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2054
+                "votes": 2051
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -97,6 +97,10 @@
             "logo_transparent": "38974526_340021101486490_2561512452449065472_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.6",
+                "change_log": "- Player cannot pick up a weapon from the backpack if the dominant hand is set to left - fixed\n- Waraha warrior may become immortal after shooting him with a bow - fixed"
+            },
             {
                 "version": "1.5.5",
                 "change_log": "- Hand stays as partially closed after putting back the backpack - Fixed\n- SoA - Dirt and moss on legend stones looks better now\n- Adjustments to level of details settings"
@@ -163,8 +167,8 @@
         ],
         "on_rookie": true,
         "category": "GAMES",
-        "votes": 3288,
-        "rating": 4.254258,
+        "votes": 3285,
+        "rating": 4.253577,
         "weighted_rating": 4.24
     },
     "errors": []

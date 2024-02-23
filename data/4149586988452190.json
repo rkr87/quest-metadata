@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.175",
+                "change_log": "(Currently PC and Quest  Only - PSVR to come later)\n\n- Added optional Primary Button functions in controls menu (press to undock, hold to reset level when using time-attack-helper)\n- Added slider to general menu to adjust button snapping distance (lower percentage means you have to get the tip of your finger closer to the button)\n\n- Adjusted \"arm geometry\" for menu panel (is no longer just random cylinders)\n- Adjusted crate collision behaviour when docking at high speeds (reduces chances of backflipping)\n\n- Fixed issue where missile wouldn't detonate when resetting level via race restart\n- Fixed issue where missile particles would persist between level restarts\n- Fixed issue where Vive controller image wouldn't show correctly on the \"race restart\" hint panel"
+            },
+            {
                 "version": "0.2.170",
                 "change_log": "Update 1.30.1\n- Added seat forwards/backwards adjustment setting (controls menu)\n- Added option to turn off automatic Hi-Lo switching (general menu)\n- Added pulsating arrow pointing at \"Quit Level\" button for relevant tutorial missions\n\n- Adjusted docking crate position tolerance from 30cm to 35cm\n- Adjusted proc-gen levels to use random music\n- Adjusted time-attack-tools unlock to show in weekly level\n- Adjusted \"gravity zone\" of cargo holds to be a bit more powerful\n- Adjusted Scrapyard II contents slightly\n\n- Fixed typo in \"The Pit\" description\n- Fixed warship drop-off behaviour so high-speed nukes are less likely to fly out the other side\n\nPSVR2 Only\n- Added \"touch\" grip option - is on by default\n\nPC ONLY\n- Added vive/WMR specific binding image to controls menu\n- Adjusted default vive/WMR controls (right menu button does actions, left menu button does recenter, right trackpad does HiLo switching)\n- Fixed smoothed FPV preview screen"
             },
