@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "0.6.5",
+                "change_log": "New Features:\n- Brand New Environment: Immerse yourself in a fresh, stylized, and colorful art direction. Enjoy stunning panoramas featuring water cascades and encounter delightful creatures known as Kodama.\n- Free Play Mode: Unleash your creativity! Play all your favorite songs without following any notes. Hit the Taiko as you wish and feel the freedom of rhythm expression.\n- Variable BPM Support: Now, custom song support extends to handle BPM changes within the same song. Experience a more dynamic and versatile drumming experience.\n- Height Calibration Tool: Achieve optimal comfort. The new tool automatically adjusts your vertical position, ensuring you are perfectly set in front of the Taiko.\n- Metronome: Keep your rhythm in check. Set up metronome ticks that play along with all songs, providing helpful cues for your drumming precision.\n\nChanges:\n- New UI Flow: Experience a more ergonomic Home and accessible settings, enhancing your overall user interface experience.\n- New Taiko and Sticks: Enjoy an updated visual experience with a new art direction for Taiko and sticks.\n\nOptimization / Bug Fixes:\n- Improvement of click detection in UI: Detection when the trigger is pressed rather than when it is released, should facilitate interactions with the UI.\n- Force Custom Songs to Output in Stereo: Ensure a consistent audio experience with stereo output for custom songs.\n- Better Stereo Panning on All Songs: Enhance the stereo panning across all songs for a more immersive audio experience.\n- Fix Custom Song Previews: Resolve issues where custom song previews were unable to launch under certain conditions. Enjoy a smoother preview experience."
+            },
+            {
                 "version": "0.5.8",
                 "change_log": "Language support added for: Chinese Traditional (Taiwan), Chinese Simplified, Japanese and Korean"
             },

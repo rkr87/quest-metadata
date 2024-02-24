@@ -84,6 +84,10 @@
         },
         "changelog": [
             {
+                "version": "2.5.13960018",
+                "change_log": "23 Feb 2024\n\nFixed\n-Issue where axes in BATL and Axe Master sometimes had 0 gravity / got stuck in the air\n\nKnown Issues\n-Sometimes the axe in a remote player's hand (ie, a friend in multiplayer) won't move while they're holding it. After being thrown, the axe teleports to the correct position."
+            },
+            {
                 "version": "2.5.13890101",
                 "change_log": "15 February 2024\n\nNew\n-Arcade Collections: Bay Tek Pack 2\n--Grand Piano Keys!\n--Axe Master!\n--Spin-N-Win!\n-Leaderboards have been rolled out to more games \n--Chicken Farm\n--Quik Drop\n--Sink It\n--Skee-Ball Modern\n--Skee-Ball Glow\n--Skee-Ball Classic\n--Skee-Ball Ultra\n\nImproved\n-Scores will now contribute to leaderboards, whether you’re in your own arcade or someone elses\n-When the lighting in the arcade is dimmed, arcade cabinets will also appear dimmer\n-Screens around the arcade will activate from further away so players don’t need to get as close to use them\n\nFixed\n-Bowling balls clipping into the surface of the bowling alley\n-Jitter when magnetting items into the players hand from far away\n-Mega Spin won’t cause noticeable lag spikes, especially when playing in multiplayer\n\nKnown Issues\n-MCML still has occasional issues in multiplayer, these can often be resolved by the player experiencing the issue leaving the room and rejoining. We will further improve the stability of MCML in future updates."
             },

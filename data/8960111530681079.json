@@ -4,7 +4,7 @@
         "name": "GUNS",
         "app_name": "GUNS",
         "release_date": "2023-01-15T00:00:00.000Z",
-        "description": "Welcome to shooting in 120 fps at our target-rich farm! This fun sandbox range gives you 22 weapons and various targets. Blast and fight with accurate ballistics and weapon mechanics!\n\nAssault rifles (full auto): M4 5.56 - AK-47 7.62x39 - L85a3 5.56\nSubmachineguns (full auto): MAC-10 .45ACP - MP5A3 9mm - MP5SD variant 9mm - Thompson M1928A1 .45\nSupport: M203 40mm under-barrel - M67 Hand grenade\nRifles: AR-15 semi-auto 5.56 - Dragunov semi-auto 7.62 - M24 bolt action .308 - Barrett M107 semi-auto .50-cal\nShotguns: SPAS-12 12G - Benelli M4 12G - Sawn-off 12G - AA12 12G (full auto)\nHandguns: M1911 .45 - Glock 17 9mm - Desert Eagle .50 - Beretta M9 9mm - Glock 44 .22lr - Colt Python 6-inch .357\nRed dot optics, scopes, bipods, lasers and suppressors can be fitted.\n\nShort and long ranges with:\n- scarecrows that got loose and can hunt you,\n- a ShootBarn - clear enemies from rooms and corridors,\n- plinking, spinning, and destructible targets,\n- scoring targets, moving or stationary,\n  (bullseye, IPSC, and silhouette targets)\n- clay pigeons, trap and skeet,\n- the farmer's truck,\n- some chickens,\n- a 3-gun range,\n- shot timer,\nand more!\n\nGame Discord invite: https://discord.gg/r3JYKWMYME\nGame e-mail: gunsgame-1@yahoo.com\nGame subreddit: reddit.com/r/gunsgame\n\nAccurate ballistics (per ammunition type) and loading mechanics. 120 Hz works on the Quest 2  and 3 if enabled there in Settings/Experimental features! Install size is around 140 MB.\n\nThis game has a free demo to try  - GUNSdemo on App Lab.",
+        "description": "Welcome to shooting in 120 fps at our target-rich farm! This fun sandbox range gives you 25 weapons and various targets. Blast and fight with accurate ballistics and weapon mechanics!\n\nAssault rifles (full auto): M4 5.56 - AK-47 7.62x39 - L85a3 5.56\nSubmachineguns (full auto): MAC-10 .45ACP - MP5A3 9mm - MP5SD 9mm - Thompson M1928A1 .45ACP\nSupport: M203 40mm under-barrel - M67 Hand grenade\nRifles: AR-15 semi-auto 5.56 - Dragunov semi-auto 7.62 - M24 bolt action .308 - Barrett M107 semi-auto .50-cal\nShotguns (12G): SPAS-12 - Benelli M4 - Mossberg Side-by-side - Beretta Over/under - \"Mad Max\" - Sawn-off pump - AA12 (full auto)\nHandguns: M1911 .45ACP - Glock 17 9mm - Desert Eagle .50 - Beretta M9 9mm - Glock 44 .22lr - Colt Python 6-inch .357\nRed dot optics, scopes, bipods, lasers and suppressors can be fitted.\n\nShort and long ranges with:\n- scarecrows that can hunt you,\n- a ShootBarn - clear rooms and corridors,\n- plinking, spinning, and destructible targets,\n- scoring targets, moving or stationary,\n  (bullseye, IPSC, and silhouette targets)\n- clay pigeons, trap and skeet,\n- the farmer's truck,\n- chickens and hogs,\n- a 3-gun range,\nand more!\n\nDiscord invite: https://discord.gg/r3JYKWMYME\nE-mail: gunsgame-1@yahoo.com\nSubreddit: reddit.com/r/gunsgame\n\nAccurate ballistics and loading mechanics. 120 Hz works on the Quest 2  and 3 if enabled there in Settings/Experimental features! Install size is around 140MB.\n\nThis game has a free demo to try  - GUNSdemo on App Lab.",
         "developer": "Pellas Innovation",
         "publisher": "Pellas Innovation",
         "genres": [
@@ -22,10 +22,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -77,6 +77,10 @@
             "logo_transparent": "38974515_3229921540606428_8896121781449907512_n.png"
         },
         "changelog": [
+            {
+                "version": "0.784",
+                "change_log": "V. 0,784:\nNew weapons: 3 shotguns!\n- Mossberg Side-by-side 12G,\n- Beretta Over-under 12G,\n- \"Mad Max\" sawn-off side-by side 12G.\n\nNew attachment: shotgun chokes!\n+++++\nBug fixes and framerate improvements,\nBetter secondary grip function,\nBetter clay pigeons,\nClay pigeon launch by trigger touch option,\nSupport for ForceTube force feedback hardware."
+            },
             {
                 "version": "0.756",
                 "change_log": "V. 0.756:\n\nNew SMG: the Thompson M1928A1 .45ACP!\n\nNew attachment: bipods for rifles! Grab with secondary hand to activate \"stick-to-surface\".\n\nAlso: Performance tweaks to improve frame rates, some bug fixes."
@@ -148,10 +152,6 @@
             {
                 "version": "0.522",
                 "change_log": "V. 0.522: Ballistics tweaks!"
-            },
-            {
-                "version": "0.521",
-                "change_log": "V 0.521: \nNew assets for store page"
             }
         ],
         "keywords": [],

@@ -42,7 +42,7 @@
             },
             {
                 "rating": 3,
-                "votes": 6
+                "votes": 4
             },
             {
                 "rating": 4,
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 32
+                "votes": 36
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
             "logo_transparent": "39031643_1390528165167372_1886784839638768749_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.10",
+                "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes\n\n--1.0.4--\nClean up cache files to not unnecessarily use up disk space\n\n--1.0.5--\nPerformance improvements allowing us to run at a higher resolution\nFixed another number formatting crash that had snuck back into the product\n\n--1.0.6--\nMore performance tuning for a smoother experience\nRe-enabled country and state boundary lines\n\n--1.0.7--\nVisual improvements to the UI\nFix for atmospheric flashing at jet altitude\nMore efficient Point of Interest requests to reduce network calls\n\n--1.0.9--\nNew beta Search functionality added under the Pick a Destination menu\nCity borders are now drawn in yellow to indicate locations with Google 3D building and terrain data\nImproved a problem with teleporting to high altitude cities and find yourself below the terrain\n\n--1.0.10--\nPause screen now has an Options Menu (click on the gear icon)\nFull joystick control options for Steering and Rotation added\nYou may now Hide the drone vehicle\nOptionally change the balance between performance and resolution with a Level of Detail setting"
+            },
             {
                 "version": "1.0.9",
                 "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes\n\n--1.0.4--\nClean up cache files to not unnecessarily use up disk space\n\n--1.0.5--\nPerformance improvements allowing us to run at a higher resolution\nFixed another number formatting crash that had snuck back into the product\n\n--1.0.6--\nMore performance tuning for a smoother experience\nRe-enabled country and state boundary lines\n\n--1.0.7--\nVisual improvements to the UI\nFix for atmospheric flashing at jet altitude\nMore efficient Point of Interest requests to reduce network calls\n\n--1.0.9--\nNew beta Search functionality added under the Pick a Destination menu\nCity borders are now drawn in yellow to indicate locations with Google 3D building and terrain data\nImproved a problem with teleporting to high altitude cities and find yourself below the terrain"
@@ -125,9 +129,9 @@
         "keywords": [],
         "on_rookie": false,
         "category": "APPS",
-        "votes": 56,
-        "rating": 4.071429,
-        "weighted_rating": 3.92
+        "votes": 58,
+        "rating": 4.172414,
+        "weighted_rating": 3.96
     },
     "errors": []
 }

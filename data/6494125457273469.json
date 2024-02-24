@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 10
+                "votes": 11
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,13 +79,18 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75485578_847217680118224_7117437177122250919_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.0.9.0",
+                "change_log": "# Strayed Update 0.0.9.0  is LIVE!\n\n# Added\n- Automatic height calibration upon loading into a server or the main menu\n- Map compass (and setting to enable/disable it)\n- Map clock (and setting to enable/disable it)\n- Base piece pooling\n- Deployable pooling\n- LODs for radio tower\n- Under map detection. Player will now snap to terrain if detected under the map\n- New turn mode setting option “None”. This blocks turning with your dominant hand joystick and instead only uses your head forward direction for movement.\n- Movement deadzone setting\n- Turning deadzone setting\n\n# Fixed\n- Stutters on PC\n- Team map indicators\n- Rendering issues with nodes and cloth pickups\n- Airdrops sometimes dropping in the ocean\n- Some improperly assigned materials\n- Quit button actually quits now\n- Player connection handling improved\n- Missing sleeping bag health bar text\n- Radio tower lights rendering even when towers were invisible\n- Dropped objects falling through map\n\n# Changed\n- Various performance enhancements\n- Player / Sleeping player health values are now synchronized\n- Grass height decreased\n- Grass radius decreased\n- Grass density increased\n- Increased radio tower render distance\n- Loading screen UI modified\n- Base pieces spawn with a demolish timer equal to 0 after server restart\n- Base piece health UI now hides if inventory or radial UI is open\n- Deployable object highlight hides if inventory or radial UI is open\n- Grabbing a gun grip with your map open now hides map. The same behavior occurs when you open an inventory.\n- Map now opens if you release a gun grip with non-dominant hand index trigger held down. The same behavior occurs when you close an inventory.\n- Unified some LOD groups in monuments, resulting in better performance\n\n# Known Issues\n- A few players have reported their player inventory was cleared of loot after a server restart. We have not yet been able to reproduce this. It is possible that improved player connection handling may solve this issue. If you experience a cleared inventory (player or any deployable) please submit a bug report with as much detail as possible.\n- Force quitting the game does not disconnect you properly from the server. The next time you join the server you will be rejected, sent back to the main menu, and receive a message stating an unknown error had occurred. The next time you rejoin the server you will be good to go as normal. To avoid this issue please return to the main menu prior to force quitting the game. We will be working on an improved solution to this soon."
+            }
+        ],
         "keywords": [],
         "on_rookie": false,
         "category": "GAMES",
-        "votes": 13,
-        "rating": 4.461538,
-        "weighted_rating": 3.91
+        "votes": 14,
+        "rating": 4.5,
+        "weighted_rating": 3.92
     },
     "errors": []
 }
