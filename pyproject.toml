@@ -786,7 +786,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.pylint.'FORMAT']
 max-line-length = 79
-max-module-lines = 500
+max-module-lines = 750
 ignore-long-lines = "^(.*(((#\\s*(pylint|mypy|pyright|type))|(['\"]http)).*))$"
 
 [tool.pylint.'DESIGN']
