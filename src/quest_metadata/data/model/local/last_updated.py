@@ -1,15 +1,12 @@
 """
 Module providing model for last update time.
 """
-
-
-from datetime import datetime
+from math import ceil
+from time import time
 
 from base.models import BaseModel
 
 
 class LastUpdated(BaseModel):
-    """
-    Model for last update time.
-    """
-    last_updated: str = f"{datetime.now().isoformat(timespec="milliseconds")}Z"
+    """Model for last update time."""
+    epoch_hours: int = ceil(time() / 60 / 60)
