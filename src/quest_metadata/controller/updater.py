@@ -10,6 +10,7 @@ from typing import Any, final
 
 from aiofiles import open as aopen
 from aiofiles.os import makedirs, path, remove
+from pydantic import ValidationError
 
 from base.classes import Singleton
 from base.lists import LowerCaseUniqueList
@@ -18,6 +19,7 @@ from controller.image_manager import ImageManager
 from data.local.app_manager import AppManager
 from data.model.applab.apps import AppLabApps
 from data.model.local.apps import LocalApp, LocalApps, LocalAppUpdate
+from data.model.local.processed_app import ProcessedApp
 from data.model.oculus.app import Item, OculusApp, OculusApps
 from data.model.oculus.app_additionals import AppAdditionalDetails, AppImage
 from data.model.oculus.app_changelog import AppChangeLog
@@ -241,7 +243,7 @@ class Updater(Singleton):
                 packages.append(pkg.name)
         return packages
 
-    async def scrape_apps(self) -> None:
+    async def scrape_apps(self, update_time: int) -> None:
         """
         Scrape apps from oculus.com, update local apps, and calculate average
         ratings.
@@ -259,13 +261,43 @@ class Updater(Singleton):
         results: OculusApps = OculusApps(data=[i for i in tasks if i])
 
         self._calc_average_ratings(results.data)
-        await asyncio.gather(*[
-            r.save_json(f"{AppConfig().data_path}/{r.data.id}.json")
+        results.data = await asyncio.gather(*[
+            self._compare_and_save_previous(r, update_time)
             for r in results.data
         ])
         await results.save_json(
             f"{AppConfig().data_path}/{AppConfig().dbinit_filename}"
         )
+
+    async def _compare_and_save_previous(
+        self,
+        app: OculusApp,
+        update_time: int
+    ) -> OculusApp:
+        """determines update dates to be added to file"""
+        file_path: str = f"{AppConfig().data_path}/{app.data.id}.json"
+        prev_app: ProcessedApp | None = await self._get_prev_app(file_path)
+        app.data.set_update_details(update_time, prev_app)
+        await app.save_json(file_path)
+        return app
+
+    async def _get_prev_app(self, file_path: str) -> ProcessedApp | None:
+        """
+        Gets the previously saved version of an app
+        """
+        try:
+            with open(file_path, encoding="utf8") as file:
+                return ProcessedApp.model_validate_json(file.read())
+        except FileNotFoundError:
+            return None
+        except ValidationError as e:
+            error: str = ErrorManager().capture(
+                e,
+                f"{file_path}.json",
+                log_message=f"Error opening saved app data: {file_path}"
+            )
+            self._logger.warning("%s", error)
+            return None
 
     @staticmethod
     def _calc_average_ratings(items: list[OculusApp]) -> None:

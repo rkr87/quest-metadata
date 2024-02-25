@@ -78,6 +78,7 @@ class Application(Singleton):
         """
         Run the application, updating local apps and scraping app data.
         """
+        update: LastUpdated = LastUpdated()
         start: datetime = datetime.now()
         await self._updater.update_local_apps()
         delta: timedelta = datetime.now() - start
@@ -86,10 +87,10 @@ class Application(Singleton):
             delta.seconds
         )
         start = datetime.now()
-        await self._updater.scrape_apps()
+        await self._updater.scrape_apps(update.epoch_hours)
         delta = datetime.now() - start
         self._logger.info(
             "Finished scraping app data and resources in %s seconds",
             delta.seconds
         )
-        await LastUpdated().save_json(AppConfig().last_updated_filename)
+        await update.save_json(AppConfig().last_updated_filename)

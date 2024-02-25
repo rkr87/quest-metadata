@@ -86,6 +86,13 @@ class AppImages(RootDictModel[str, AppImage | None]):
                 images.append(x)
         return images
 
+    def get_serialised_object(self) -> dict[str, str | None]:
+        """create an object matching serialized output"""
+        output: dict[str, str | None] = {}
+        for k, v in self.root.items():
+            output[k] = v if v is None else v.serialize()
+        return output
+
     @field_validator("root", mode="before")
     @classmethod
     def _list_to_dict(
