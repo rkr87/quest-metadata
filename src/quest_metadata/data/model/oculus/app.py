@@ -16,6 +16,7 @@ from pydantic import (AliasPath, Field, computed_field, field_validator,
                       model_validator, validator)
 
 from base.models import BaseModel
+from data.model.local.processed_app import ProcessedApp
 from data.model.oculus.app_additionals import (AppAdditionalDetails, AppImage,
                                                AppImages)
 from data.model.oculus.app_changelog import AppChangeEntry
@@ -89,7 +90,7 @@ class RatingHist(BaseModel):
     votes: int = Field(validation_alias='count')
 
 
-class Item(BaseModel):
+class Item(BaseModel):  # pylint: disable=R0902,R0904
     """
     Model for representing an Oculus application item.
 
@@ -151,7 +152,7 @@ class Item(BaseModel):
     vote_confidence: ClassVar[float] = 0
 
     id: str
-    name: str = Field(validation_alias='display_name')
+    # name: str = Field(validation_alias='display_name')
     app_name: str = Field(validation_alias='appName')
     # type_name: str = Field(validation_alias='__typename')
     # appstore_type: str = Field(validation_alias='__isAppStoreItem')
@@ -208,6 +209,133 @@ class Item(BaseModel):
         exclude=True
     )
     on_rookie: bool = False
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def last_update(self) -> int:
+        """field representing most recent update"""
+        return max(
+            [
+                self.general_update,
+                self.genre_update,
+                self.device_update,
+                self.mode_update,
+                self.language_update,
+                self.platform_update,
+                self.player_mode_update,
+                self.keyword_update,
+                self.tag_update
+                # self.changelog_update
+            ]
+        )
+
+    general_update: int = 0
+    genre_update: int = 0
+    device_update: int = 0
+    mode_update: int = 0
+    language_update: int = 0
+    platform_update: int = 0
+    player_mode_update: int = 0
+    keyword_update: int = 0
+    tag_update: int = 0
+    # changelog_update: datetime = datetime(2024, 1, 1)
+
+    def set_update_details(
+        self,
+        new_date: int,
+        prev_app: ProcessedApp | None = None
+    ) -> None:
+        """
+        Method to determine last date of change for various data elements.
+        """
+        if prev_app is None:
+            self.general_update = new_date
+            self.genre_update = new_date
+            self.device_update = new_date
+            self.mode_update = new_date
+            self.language_update = new_date
+            self.platform_update = new_date
+            self.player_mode_update = new_date
+            self.keyword_update = new_date
+            self.tag_update = new_date
+            # self.changelog_update = new_date
+            return
+        self.general_update = self._get_general_update(new_date, prev_app)
+    # self.changelog_update = self._get_changelog_update(new_date, prev_app)
+        self.genre_update = self._prev_list_update(
+            prev_app.genres, self.genres, prev_app.genre_update) or new_date
+        self.device_update = self._prev_list_update(
+            prev_app.devices, self.devices, prev_app.device_update) or new_date
+        self.mode_update = self._prev_list_update(
+            prev_app.modes, self.modes, prev_app.mode_update) or new_date
+        self.language_update = self._prev_list_update(
+            prev_app.languages, self.languages, prev_app.language_update
+        ) or new_date
+        self.platform_update = self._prev_list_update(
+            prev_app.platforms, self.platforms, prev_app.platform_update
+        ) or new_date
+        self.player_mode_update = self._prev_list_update(
+            prev_app.player_modes,
+            self.player_modes,
+            prev_app.player_mode_update
+        ) or new_date
+        self.keyword_update = self._prev_list_update(
+            prev_app.keywords, self.keywords, prev_app.keyword_update
+        ) or new_date
+        self.tag_update = self._prev_list_update(
+            prev_app.tags, self.tags, prev_app.tag_update
+        ) or new_date
+
+    def _get_general_update(
+        self,
+        new_date: int,
+        prev_app: ProcessedApp
+    ) -> int:
+        """determine if previous update date should be used"""
+        if (
+            self.app_name != prev_app.app_name or  # pylint: disable=R0916
+            self.release_date != prev_app.release_date or
+            self.description != prev_app.description or
+            self.developer != prev_app.developer or
+            self.publisher != prev_app.publisher or
+            self.comfort != prev_app.comfort or
+            self.internet_connection != prev_app.internet_connection or
+            self.website != prev_app.website or
+            self.on_rookie != prev_app.on_rookie or
+            self.category != prev_app.category or
+            self.votes != prev_app.votes or
+            self.rating != prev_app.rating or
+            self.weighted_rating != prev_app.weighted_rating or
+            # self.iarc.model_dump_json() != prev_app.iarc.model_dump_json() or
+            self.app_images.get_serialised_object() != prev_app.app_images
+        ):
+            # print(f"Some general data changed: {self.app_name}")
+            return new_date
+        return prev_app.general_update
+
+    # def _get_changelog_update(
+    #     self,
+    #     new_date: datetime,
+    #     prev_app: ProcessedApp
+    # ) -> datetime:
+    #     """determine if previous update date should be used"""
+    #     curr: int = max(x.code for x in self.changelog)
+    #     prev: int = max(x.code for x in prev_app.changelog)
+    #     if curr > prev:
+    #         return new_date
+    #     return prev_app.changelog_update
+
+    @staticmethod
+    def _prev_list_update(
+        list_1: list[str],
+        list_2: list[str],
+        prev_date: int
+    ) -> int | None:
+        """determine if previous update date should be used"""
+        if set(list_1) == set(list_2):
+            return prev_date
+        print(f"list change: \n old {list_1} \n new {list_2}")
+        return None
 
     def set_additional_details(
         self,
@@ -327,7 +455,7 @@ class Item(BaseModel):
         pre=True
     )
     @classmethod
-    def set_not_specifid(cls, val: str | None) -> str:
+    def set_not_specified(cls, val: str | None) -> str:
         """
         Validator to convert null strings
         """
