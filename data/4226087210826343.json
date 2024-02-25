@@ -105,6 +105,10 @@
         },
         "changelog": [
             {
+                "version": "5.1.21",
+                "change_log": "Update teleport distance calculation when smart volley is on. Increase camera culling max distance."
+            },
+            {
                 "version": "5.1.20",
                 "change_log": "Use HDR green field skybox"
             },
@@ -179,10 +183,6 @@
             {
                 "version": "5.1.1",
                 "change_log": "Bugfix crash in matchmaking. Add toggle for courts interface."
-            },
-            {
-                "version": "5.1.0",
-                "change_log": "Enable starting multiplayer games through courts interface. You can join a court with another person to start a game. Improve performance and reduce CPU usage level. Randomize bot position at baseline for serve and serve return."
             }
         ],
         "keywords": [],
