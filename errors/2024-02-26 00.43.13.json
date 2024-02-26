@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-02-18T00:43:32.804937",
+    "timestamp": "2024-02-26T00:43:13.379727",
     "errors_logged": [
         {
             "context": "Validating http response",
@@ -46,6 +46,53 @@
                     ]
                 ],
                 "id": "5566359733474911"
+            }
+        },
+        {
+            "context": "Validating http response",
+            "error_type": "ValidationError",
+            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
+            "log_message": "Captured model validation error: OculusApp",
+            "error_information": {
+                "data": {
+                    "data": {
+                        "item": null,
+                        "viewer": {
+                            "user": null,
+                            "family_info": {
+                                "members": {
+                                    "nodes": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "context": "Scraping app data",
+            "error_type": "ValidationError",
+            "error_message": null,
+            "log_message": "No responses for: 2043845889041446",
+            "error_information": {
+                "package": [
+                    [
+                        "com.zenva.insectsvr",
+                        {
+                            "app_name": "Insect Revolution",
+                            "has_metadata": false,
+                            "is_available": false,
+                            "is_free": false,
+                            "id": "2043845889041446",
+                            "max_version": 0,
+                            "max_version_date": 0,
+                            "rookie_releases": [],
+                            "is_demo": false,
+                            "on_rookie": false
+                        }
+                    ]
+                ],
+                "id": "2043845889041446"
             }
         },
         {
@@ -140,53 +187,6 @@
                     ]
                 ],
                 "id": "1599493453504097"
-            }
-        },
-        {
-            "context": "Validating http response",
-            "error_type": "ValidationError",
-            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
-            "log_message": "Captured model validation error: OculusApp",
-            "error_information": {
-                "data": {
-                    "data": {
-                        "item": null,
-                        "viewer": {
-                            "user": null,
-                            "family_info": {
-                                "members": {
-                                    "nodes": []
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "context": "Scraping app data",
-            "error_type": "ValidationError",
-            "error_message": null,
-            "log_message": "No responses for: 2043845889041446",
-            "error_information": {
-                "package": [
-                    [
-                        "com.zenva.insectsvr",
-                        {
-                            "app_name": "Insect Revolution",
-                            "has_metadata": false,
-                            "is_available": false,
-                            "is_free": false,
-                            "id": "2043845889041446",
-                            "max_version": 0,
-                            "max_version_date": 0,
-                            "rookie_releases": [],
-                            "is_demo": false,
-                            "on_rookie": false
-                        }
-                    ]
-                ],
-                "id": "2043845889041446"
             }
         },
         {
@@ -323,7 +323,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tg1P6VHLAE0AX8T0FRm&_nc_ht=scontent.oculuscdn.com&oh=00_AfAT-VdyZv4sEMIO5d8mkM0eXLSCjwB82qlkiy5TnYueXw&oe=65D5E785"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=2Eucmgyfbr8AX9FOJ-t&_nc_ht=scontent.oculuscdn.com&oh=00_AfBhI34PbKgoRZG06i_wL78ssTgcC0dHBj_tiqu6Q_pVPQ&oe=65E1C505"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -748,7 +748,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974746_3621311184766540_3477533808660916196_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qCgViLEHER4AX9O0v07&_nc_ht=scontent.oculuscdn.com&oh=00_AfDDJyJxXxlO0EdQK2d1xqD5Gbji0VM1-njagZsIGcxaUw&oe=65D736E7"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974746_3621311184766540_3477533808660916196_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=dP2Ip8iLErEAX-K47LS&_nc_ht=scontent.oculuscdn.com&oh=00_AfB65agQYB04mXtxtgICgDJvxXGd2Iy-dE_OQoaOwqyd7w&oe=65E11A27"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
