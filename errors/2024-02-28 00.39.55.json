@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-02-19T17:24:28.854552",
+    "timestamp": "2024-02-28T00:39:55.475160",
     "errors_logged": [
         {
             "context": "Validating http response",
@@ -46,53 +46,6 @@
                     ]
                 ],
                 "id": "5566359733474911"
-            }
-        },
-        {
-            "context": "Validating http response",
-            "error_type": "ValidationError",
-            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
-            "log_message": "Captured model validation error: OculusApp",
-            "error_information": {
-                "data": {
-                    "data": {
-                        "item": null,
-                        "viewer": {
-                            "user": null,
-                            "family_info": {
-                                "members": {
-                                    "nodes": []
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "context": "Scraping app data",
-            "error_type": "ValidationError",
-            "error_message": null,
-            "log_message": "No responses for: 1732459530190629",
-            "error_information": {
-                "package": [
-                    [
-                        "com.zenva.sky",
-                        {
-                            "app_name": "Zenva Sky",
-                            "has_metadata": false,
-                            "is_available": false,
-                            "is_free": false,
-                            "id": "1732459530190629",
-                            "max_version": 0,
-                            "max_version_date": 0,
-                            "rookie_releases": [],
-                            "is_demo": false,
-                            "on_rookie": false
-                        }
-                    ]
-                ],
-                "id": "1732459530190629"
             }
         },
         {
@@ -167,6 +120,53 @@
             "context": "Scraping app data",
             "error_type": "ValidationError",
             "error_message": null,
+            "log_message": "No responses for: 1732459530190629",
+            "error_information": {
+                "package": [
+                    [
+                        "com.zenva.sky",
+                        {
+                            "app_name": "Zenva Sky",
+                            "has_metadata": false,
+                            "is_available": false,
+                            "is_free": false,
+                            "id": "1732459530190629",
+                            "max_version": 0,
+                            "max_version_date": 0,
+                            "rookie_releases": [],
+                            "is_demo": false,
+                            "on_rookie": false
+                        }
+                    ]
+                ],
+                "id": "1732459530190629"
+            }
+        },
+        {
+            "context": "Validating http response",
+            "error_type": "ValidationError",
+            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
+            "log_message": "Captured model validation error: OculusApp",
+            "error_information": {
+                "data": {
+                    "data": {
+                        "item": null,
+                        "viewer": {
+                            "user": null,
+                            "family_info": {
+                                "members": {
+                                    "nodes": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "context": "Scraping app data",
+            "error_type": "ValidationError",
+            "error_message": null,
             "log_message": "No responses for: 1599493453504097",
             "error_information": {
                 "package": [
@@ -187,114 +187,6 @@
                     ]
                 ],
                 "id": "1599493453504097"
-            }
-        },
-        {
-            "context": "Parsing Oculus App Response",
-            "error_type": "ValidationError",
-            "error_message": null,
-            "log_message": "App Response contains errors: Shadow BoXR",
-            "error_information": {
-                "package": "com.threepupperstudios.shadowboxr",
-                "local_app": {
-                    "app_name": "Shadow BoXR",
-                    "has_metadata": true,
-                    "is_available": true,
-                    "is_free": false,
-                    "id": "5752649148100983",
-                    "max_version": 61,
-                    "max_version_date": 1707802215,
-                    "rookie_releases": [
-                        {
-                            "app_name": "Shadow BoXR",
-                            "versions": "53",
-                            "release_name": "Shadow BoXR v53+0.1.32.1 -VRP",
-                            "last_updated": "2023-12-26T23:54:00.000Z",
-                            "size_mb": 228,
-                            "notes": null
-                        }
-                    ],
-                    "is_demo": false,
-                    "on_rookie": true
-                },
-                "errors": [
-                    {
-                        "message": "A server error field_exception occured. Check server logs for details.",
-                        "severity": "ERROR",
-                        "mids": [
-                            "9b904f7fc9e3092a2827cd580fdbe853"
-                        ],
-                        "path": [
-                            "item",
-                            "quality_rating_histogram_aggregate_all"
-                        ]
-                    }
-                ],
-                "data": {
-                    "id": "5752649148100983",
-                    "name": "Shadow BoXR",
-                    "app_name": "Shadow BoXR",
-                    "release_date": "2022-11-02T00:00:00.000Z",
-                    "description": "Get fit while rocking out to your favorite music. Shadow BoXR is a rhythm boxing game intended to make working out fun. With a massive library of community content music, you are sure to find what you love. Each song offers 7 different modes and difficulties for everyone this game is sure to knock your socks off.\nPunch the targets and dodge the obstacles all while rocking out to your favorite music. This is your workout built by you for you.",
-                    "developer": "Three Pupper Studios",
-                    "publisher": "Three Pupper Studios LLC",
-                    "genres": [
-                        "Arcade",
-                        "Fighting"
-                    ],
-                    "devices": [
-                        "Touch Controllers"
-                    ],
-                    "modes": [
-                        "Single User"
-                    ],
-                    "languages": [
-                        "English"
-                    ],
-                    "platforms": [
-                        "Meta Quest 3",
-                        "Meta Quest Pro",
-                        "Meta Quest 2",
-                        "Meta Quest"
-                    ],
-                    "player_modes": [
-                        "SITTING",
-                        "STANDING",
-                        "ROOM_SCALE"
-                    ],
-                    "tags": [],
-                    "hist": [],
-                    "comfort": "NOT_RATED",
-                    "iarc": {
-                        "age_rating": "Teen",
-                        "descriptors": [
-                            "Fantasy Violence",
-                            "Suggestive Themes",
-                            "Drug Reference"
-                        ],
-                        "elements": [],
-                        "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
-                    },
-                    "internet_connection": "REQUIRED_FOR_DOWNLOAD",
-                    "website": "https://BenBryanRicks.com/",
-                    "app_images": {
-                        "cover_landscape": "39031355_734608577627068_3184229170217592567_n.png",
-                        "cover_portrait": "38974680_1091670091772553_8120510771759510724_n.png",
-                        "cover_square": "38974760_457583249413148_4675740947314549733_n.png",
-                        "hero": "75556281_796242641731309_2574148154347670348_n.png",
-                        "icon": "38982699_5494732953896140_5852697231736822593_n.png",
-                        "immersive_layer_backdrop": null,
-                        "immersive_layer_logo": null,
-                        "logo_transparent": "38974854_1693137841055746_4734116240647278441_n.png"
-                    },
-                    "changelog": [],
-                    "keywords": [],
-                    "on_rookie": false,
-                    "category": "GAMES",
-                    "votes": 0,
-                    "rating": 0,
-                    "weighted_rating": 0.0
-                }
             }
         },
         {
@@ -431,7 +323,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tg1P6VHLAE0AX82QIU2&_nc_ht=scontent.oculuscdn.com&oh=00_AfCAnNSifx9gunhGEXt_uhvjOcogBKi2_eBiZE9A4DoDqw&oe=65D7E1C5"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=2Eucmgyfbr8AX8UE-Y1&_nc_ht=scontent.oculuscdn.com&oh=00_AfBp-p-aHSYJhWYe342nP0IpaT2tJFvwtUx9zVe49w2Y6w&oe=65E3BF45"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -856,7 +748,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974746_3621311184766540_3477533808660916196_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=qCgViLEHER4AX9iWtZY&_nc_ht=scontent.oculuscdn.com&oh=00_AfBkhOm5XcttEfdmQjjKA29Le7YKZpQhOzWd5gypEjzdfA&oe=65D93127"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974746_3621311184766540_3477533808660916196_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=IruffRpXABEAX-dOmRJ&_nc_ht=scontent.oculuscdn.com&oh=00_AfCvVPkXE8WHmGlmHKVqSp-uRlS6-kDFMIVJlviSmu0BUw&oe=65E31467"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
