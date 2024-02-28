@@ -46,11 +46,11 @@
             },
             {
                 "rating": 4,
-                "votes": 3
+                "votes": 2
             },
             {
                 "rating": 5,
-                "votes": 20
+                "votes": 21
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
             "logo_transparent": "38974854_1693137841055746_4734116240647278441_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.36",
+                "change_log": "1) Mp3 files stored in your downloads folder can now be automatically converted into Shadow BoXR supported songs.\n\t• The current implementation is powered by BeatSage and does require an active internet connection. This is primarily to improve in game performance and allow song conversion without interrupting gameplay.\n\n3) Bug Fixes:\n\t• Fixed bug causing sound settings and target FPS to revert to their default values upon startup.\n\t• Fixed bug causing the playlist maker tool to return an error sometimes when saving an empty list or causing it to say changes have been made when the list is empty.\n\t• Fixed bug causing community songs to sometimes throw an error when attempting to download a community song.\n\t• Fixed bug causing environment and game mode overrides to reset when playing a single song.\n\t• Fixed bug causing songs being previewed in the workout editing menu to continue to play after closing or moving to a different menu."
+            },
             {
                 "version": "0.1.35.1",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing some built in songs to throw an error when playing one handed mode.\n\t• Fixed bug causing community content search page to not work correctly sometimes.\n\t• Fixed bug previewing a custom song to sometimes throw an error.\n\t• Fixed bug causing some custom songs to fail to save due to \"illegal\" characters.\n\t• Temporarily disabled images in custom songs to fix a bug causing loading custom songs to sometimes get stuck."
@@ -152,15 +156,11 @@
             {
                 "version": "0.1.26",
                 "change_log": "1) Added option to listen to each song under the All Songs page. Once selected, a song will automatically start playing after 2.5 seconds. It can be stopped or restarted by selecting the \"Listen\"/\"Stop\" button found next to the play button.\n\n2) Added two new songs!\n\t• Dance by Luke Bergs (Jazz)\n\t• Sky (feat. Matty M.) by DEgITx (Elecrto-Metal)\n\n3) Fixed bug causing community content songs to randomly stop downloading and becoming unavailable to download. \n\t• Songs will no longer randomly stop and if internet connection is lost or a download fails, it will remove it from the active downloads list and allow you to try again."
-            },
-            {
-                "version": "0.1.25",
-                "change_log": "1) New environment using passthrough mode. Environments are now sorted alphabetically. Passthrough is now an available environment.\n\n2) Improved performance in main menu.\n\n3) Fixed bug causing memory leak and loss of performance when returning from game back to main menu."
             }
         ],
         "keywords": [],
         "on_rookie": true,
-        "general_update": 0,
+        "general_update": 474745,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -169,10 +169,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474685,
+        "last_update": 474745,
         "category": "GAMES",
         "votes": 25,
-        "rating": 4.64,
+        "rating": 4.68,
         "weighted_rating": 4.0
     },
     "errors": []

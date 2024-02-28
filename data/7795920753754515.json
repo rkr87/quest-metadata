@@ -11,7 +11,7 @@
             "Puzzle"
         ],
         "devices": [
-            "Hand Tracking"
+            "Touch Controllers"
         ],
         "modes": [
             "Single User"
@@ -24,7 +24,10 @@
             "Meta Quest Pro",
             "Meta Quest 2"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "STANDING",
+            "SITTING"
+        ],
         "tags": [],
         "hist": [
             {
@@ -45,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 4
+                "votes": 3
             }
         ],
         "comfort": "NOT_RATED",
@@ -57,8 +60,8 @@
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "internet_connection": "NOT_REQUIRED",
-        "website": "http://somniumporta.com/",
+        "internet_connection": "REQUIRED",
+        "website": "https://www.somniumporta.com/game",
         "app_images": {
             "cover_landscape": "75411988_904512571276258_3432446423059377664_n.png",
             "cover_portrait": "38982587_390746820143199_6554884495675173028_n.png",
@@ -77,20 +80,20 @@
         ],
         "keywords": [],
         "on_rookie": false,
-        "general_update": 474721,
+        "general_update": 474745,
         "genre_update": 474685,
-        "device_update": 474685,
+        "device_update": 474745,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
-        "player_mode_update": 474685,
+        "player_mode_update": 474745,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474721,
+        "last_update": 474745,
         "category": "GAMES",
-        "votes": 7,
-        "rating": 4.285714,
-        "weighted_rating": 3.87
+        "votes": 6,
+        "rating": 4.166667,
+        "weighted_rating": 3.86
     },
     "errors": []
 }

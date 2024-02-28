@@ -43,6 +43,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Spring promo 2024 - Sports",
             "xbuy",
             "MR",
             "2 Player Games",
@@ -76,7 +77,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8113
+                "votes": 8118
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -101,6 +102,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.324.0_2024.2.27.5.11.19.435",
+                "change_log": "0.324.0\n-added hotfix to app to lock wifi hardware to help stabilize the connection (many users were experiencing cyclical ping spikes)"
+            },
             {
                 "version": "0.323.3_2024.1.5.15.59.1.123",
                 "change_log": "0.323.3\n-fix for default rubbers\n-fix typo in calibration page\n\n0.323.1\n-disconnect performance fix (pretty sure i found the reason the frame rate tanks when a user disconnects from you mid match)\n-found a bug that caused some game logic desync. Specifically, if mid point, after you hit the ball, it hits a surface that isn't the table top, and then within the period of time allowed for multi hit, it hits your racket, then both players would disagree on the state of the match. This can happen if you hit the edge of your table and the ball rattles. \n-fixed the issue where for new users, the laser pointer wasn't being rendered at fresh start. \n-fixed the issue where post user report, the message wasn't shown (just a layering issue)"
@@ -176,10 +181,6 @@
             {
                 "version": "0.270.23_2023.5.16.16.54.38.544",
                 "change_log": "0.270.23\n\n-fixed an issue that was causing ping compensation to persist when not in a multiplayer setting (such as free hit against the AI). \nThis also made the AI completely break, so likely fixed the issue that users were complaining about regarding the AI"
-            },
-            {
-                "version": "0.270.20_2023.5.3.18.40.46.356",
-                "change_log": "Music Update And More\nv0.270.20\n\nBig overhaul on music and sfx in the game. A lot of sounds have been added and there is significantly greater diversity of audio effects. \n\t-new music (9 songs replacing the old 4)\n\t-Paddle against table sounds have been updated. \n\t-various UI related sounds\n\t-state change sounds effects - such as leaving and entering a match, winning and losing points, winning and losing a match, getting an invite, etc. \n\n\nBug Fixes:\n\t-fixed opponent skill relax toggle\n\t-fixed menu getting into a stuck state during warmup\n\t-fixed user restrictions not functioning (banned users were able to play or use their mic when they weren't supposed to be able to)\n\t-fixed issue where mic meter wasn't representative of the audio being sent across. You could have set your mic setting to 0 but still see the meter react to your voice. \n\t-fixed the left panel showing the wrong page when you were in a warmup during ranked play. Now you can adjust your ping compensation/pingball settings as you warmup with your opponent. \n\t-fixed a bunch of voip related issues concerning muting opponents and a few cross version issues. \n\t-fixed default ping filter limiting lobby users to only those closest to you\n\t-fixed asian language bolding issue (they should never be bold)\n\t-performance improvements\n\n\nKnown Issues being worked on:\n\t-relay connections: some users are still stuck connecting only through relays. If you are having this issue, please reach out to us so we can troubleshoot with you. Generally, since the last hotfix, the ratio of p2p to relay connections has returned to pre new UI update. \n\t-AI free hit: users are reporting that their free hit AI is not playing at the level set in the free practice UI. We are not able to replicate this ourselves, but we have some leads. If you are experiencing this consistently, please reach out to us. \n\t-the game occasionally gets into a bad state where the frame rate drops significantly during a match. We are looking into this with high priority. This also includes when this sort of situation results in the whole game hanging for a few seconds. \n\t-the UI Clock: coming soon"
             }
         ],
         "keywords": [
@@ -190,7 +191,7 @@
             "tennis"
         ],
         "on_rookie": true,
-        "general_update": 474721,
+        "general_update": 474745,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -198,11 +199,11 @@
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474721,
+        "tag_update": 474745,
+        "last_update": 474745,
         "category": "GAMES",
-        "votes": 9872,
-        "rating": 4.638472,
+        "votes": 9877,
+        "rating": 4.638655,
         "weighted_rating": 4.63
     },
     "errors": []

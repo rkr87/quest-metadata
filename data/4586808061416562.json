@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "2024.15.1",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.15.1\n\n## Improvements\n\n- Spatial computing with a physical keyboard is a completely different experience than without. We know that the vast majority of users do not have a spare Bluetooth keyboard to pair with their headset. Even those who do occasionally forget to bring the it. That’s why we’ve built the Softspace Network Keyboard: a web app that lets you use a laptop, desktop, or even iPad as a physical keyboard for text input in Softspace.\n- The buttons for deleting and copying TopicItems are now easier to select and switch between without accidentally selecting UI elements behind them, because the gap between them has been closed.\n- Workspaces are now associated with a specific logged-in user. Signing out of a Softspace account will remove access to those workspaces until that account is signed in again. Note: Workspaces are still only stored locally. Workspaces are not synced across devices, and deleting the Softspace app from your headset will delete all workspace data.\n- More robust handling of and support for browser popup windows.\n\n## Bug Fixes\n\n- Settings and account management UI is prevented from appearing too far below eye-level.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.14",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.14\n\n## Improvements\n\n- Paused browser instances are more-subtly darkened, making them easier to view.\n- Text item body text has a lighter-weight font, which is more visually.\n\n## Bug Fixes\n\n- Clicking on and unpausing a paused browser will now also start typing on it.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -154,10 +158,6 @@
             {
                 "version": "2023.13",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.13\n\n## Improvements\n\n- Redesigned AI concept-suggesting to reduce failures to produce suggestions.\n- Increased AI-query temperature for more creative and surprising responses.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2023.12",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.12\n\n## Improvements\n\n- Minor under-the-hood improvements.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "keywords": [],

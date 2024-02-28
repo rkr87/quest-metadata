@@ -58,7 +58,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 416
+                "votes": 417
             },
             {
                 "rating": 2,
@@ -70,11 +70,11 @@
             },
             {
                 "rating": 4,
-                "votes": 244
+                "votes": 247
             },
             {
                 "rating": 5,
-                "votes": 2506
+                "votes": 2517
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -105,6 +105,10 @@
         },
         "changelog": [
             {
+                "version": "3.0.1481276",
+                "change_log": "Here are the release notes for the next AW2 patch, version 3.0.1481276.\n\nWe are still working on support for multiple save games and the high resolution texture pack for Quest 3.  I expect support for multiple saves to ship before the texture pack, as going through the entire game and ensuring that perf holds is proving to take a good chunk of time.\n\nWe continue to investigate issues reported by the community and are thankful for your ongoing support! Please keep the feedback coming.\n\n- Added three new Loki anomalies.\n- Fixed Cosmic Events progression and objective tracking issues.\n- Duplicate/unused codex entries have been removed from Bestiary.\n- Fixed an exploit that allowed players to bypass thin walls in some cases.\n- Fixed respawn loop in some rare cases when riding mounts over hazards.\n- Pressing pause while a Cosmic Event notification is showing now opens the Cosmic Event menu.\n- Players can no longer grapple items they are holding.\n- Additional progression fixes for Tannu's Belly.\n\n- Fixed bug where player could get stuck in MR anomalies.\n- Fixed issues with floating wildlife.\n- Fixed a bug where enemies could spawn in without visible weak points when using the Bow.\n- Fixed issues where the player gets stuck and unable to dismount Bruiser.\n- Fixed Hidden Folk respawning behavior.\n- Updated Pa’ahket’s mounted behavior to prevent swapping from Mortal to God form while mounted.\n- Fixed Cosmic Events rewards showing potential rewards for completed quests.\n- Fixed a bug where Bestial Blade could push enemies around as it moves.\n- Fixed Cosmic Event objective locking/unlocking.\n- Fixed incorrect collision observed blocking the entrance towards Monster Den 'Infested Temple Overflow' near 'Temple of Osiris’.\n- Fixed issue where enemies could spawn in terrain in Uncharted Rift’s Nest levels. \n- Fixed several instances of incorrect collision observed in the Drekahraun Lava Fields.\n\n- Fixed issue where God Puzzle's Statue is rotated towards the wall when reloading the level during the puzzle's vase phase in the 'Tomb of the Scribe'.\n- Fixed issue where rarely, some objectives of \"[S2M03] Elegy for the Fallen King\" may fail to progress when completing the required steps.\n- Fixed issue where Mereret will rarely spawn in invisible and become locked after being transformed to cross the Flooded Canal, blocking progression.\n- Fixed issue where the player would become soft locked when fast traveling back to the 'Astrolabe Core' travel stone after recruiting Thoth in the Saga 3 Quest: 'The Way Forward'.\n- Fixed issue where Travel Stone percentage does not reach 100% after discovering all Travel Stones in 'Tomb of the Scribe'.\n- Fixed progression blocker when player is able to exit the elevator in Temple of Shu early onto a higher floor skipping a portion of the area during S2M11 'Son of the Ennead'.\n- Fixed progression blocker by missing grab points when reloading after retrieving ‘Surtur's Bow’ in the Blistering Vents.\n- Fixed progression blocker where the objective related to 'Collecting the Tools to Help Abraxas Scale the Waterfall' can be completed before freeing the 'Godly Chisel' breaking the logic.\n- Fixed issue where some objectives of the Saga 2 quest, ‘Elegy for the Fallen King’, may fail to progress when completing the required steps.\n- Fixed issue where Divine Artifacts fail to be collected if the player immediately lets go upon grabbing one throughout the title. \n- Fixed issue where player was able to fast travel to ‘Temple of Atum’ during the fast travel tutorial, which potentially broke progression. \n- Fixed progression blocker caused by reloading after retrieving ‘Sutur’s Bow’. \n- Fixed issue where players could forward dismount through The Shallows exit cave, breaking 'The Cursed One' Main Quest's logic and blocking progression.\n- Fixed issue where it's impossible to access the Corpse Eater Feather Tip loot after defeating the Corpse Eater.\n- Fixed issue where Monster Den percentage fails to reach 100% when all of them have been found and completed in the 'Papyrus Swamp’.\n\n- Various minor bug fixes and performance improvements. \n"
+            },
+            {
                 "version": "2.0.1472753",
                 "change_log": "Hotfix for Patch 2 that includes the following fixes:\n- Fixed Tanuu \"Inside the Beast\" quest progression\n- Text update for Inbetween chest.\n- Fixed dismounts not working on certain bridges\n- Fixed Endless Dungeon save bug.\n- Fix for occasional dismounts climbing up on nearby ledges\n- Fixed progression blocker bug where players couldn't give the Ankh to Heru during the 'Peace Offering' side quest\n- Fix missing dialogue in inbetween\n- Fix vfx on mixed reality weapons\n- Fixed incorrect controller instruction in codex entry for Alvilda's claws.\n- Fixing whip slash damage through walls\n- Fix orbital damage relic when socketed to protean sword\n- fixed a bug causing a looping respawn in some hazards when mounted"
             },
@@ -133,7 +137,7 @@
             "Roguelike"
         ],
         "on_rookie": true,
-        "general_update": 474721,
+        "general_update": 474745,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -142,10 +146,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474721,
+        "last_update": 474745,
         "category": "GAMES",
-        "votes": 3507,
-        "rating": 4.223838,
+        "votes": 3522,
+        "rating": 4.225156,
         "weighted_rating": 4.21
     },
     "errors": []
