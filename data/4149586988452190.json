@@ -71,6 +71,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.188",
+                "change_log": "- Added \"Employees of the Month\" and \"Hall of Fame\" leaderboards to the main menu (this shows on the clipboard and tracks crate deliveries)\n- Added crate multiplier buttons to random level panel (1x->4x)\n- Added functionality to allow dockers with >2,000 crate deliveries to receive a personalized docker rank\n\n- Adjusted limit to which you can adjust the joysticks laterally\n- Adjusted torpedo lifespan to 60 seconds\n\n- Fixed memory leak caused by air fresheners\n- Fixed bug where proc-gen could get stuck when spawning nuke carriers\n- Fixed bug where a crate would spawn inside the \"radar base\" proc-gen prefab\n\nQUEST ONLY\n- Added 120hz support to all compatible devices \n\nPSVR2 ONLY\n- Added support for Thrustmaster T.Flight 4 HOTAS\n- Added support for eye tracking UI selection when using HOTAS"
+            },
+            {
                 "version": "0.2.175",
                 "change_log": "(Currently PC and Quest  Only - PSVR to come later)\n\n- Added optional Primary Button functions in controls menu (press to undock, hold to reset level when using time-attack-helper)\n- Added slider to general menu to adjust button snapping distance (lower percentage means you have to get the tip of your finger closer to the button)\n\n- Adjusted \"arm geometry\" for menu panel (is no longer just random cylinders)\n- Adjusted crate collision behaviour when docking at high speeds (reduces chances of backflipping)\n\n- Fixed issue where missile wouldn't detonate when resetting level via race restart\n- Fixed issue where missile particles would persist between level restarts\n- Fixed issue where Vive controller image wouldn't show correctly on the \"race restart\" hint panel"
             },

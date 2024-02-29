@@ -47,23 +47,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 680
+                "votes": 687
             },
             {
                 "rating": 2,
-                "votes": 212
+                "votes": 213
             },
             {
                 "rating": 3,
-                "votes": 303
+                "votes": 302
             },
             {
                 "rating": 4,
-                "votes": 736
+                "votes": 737
             },
             {
                 "rating": 5,
-                "votes": 4979
+                "votes": 4982
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -110,10 +110,6 @@
             {
                 "version": "1.3.1.45350",
                 "change_log": "Minor 1.3.1 Update 1: \n\n- Fixed Skyland EM epic armor unlock not giving the craft epic wood skill\n- Made critical hits easier to distinguish. Crit hits are now colored red, normal hits are colored yellow.\n- Fixed exceptions throwing when processing enemy hits\n- Fixed various terrain holes and assets around Skyland\n- Fixed how floating ruins bridge structures look from afar\n- Fixed various low resolution proxy geometry not swapping out as the player approaches in Skyland.\n- Fixed grass floating above terrain in Lake Ruins.\n- Various lighting improvements\n- VFX polishing\n\nFor full Minor 1.3.1 Release Notes, see: \nhttps://zenithmmo.com/blogs/news/minor-patch-1-3-1-new-area-and-bug-fixes\n\nGo to: zenithmmo.com \nNews and Blog \nMinor Patch 1.3.1 - New Area and Bug Fixes"
-            },
-            {
-                "version": "1.3.1.45018",
-                "change_log": "Minor 1.3.1: \n\nWarnings/Cautions\nWe have made changes to some of the Cyber Ninja major godstone modifiers.\n\n- Updated Deadshot modifier\n  + Old - Has [50%] chance to gain [20% Crit Chance] for [4s] on enemy kills\n  + New - Gain [25% Crit Chance] for [5s] on enemy kills\n- Updated Staggerizer modifier\n  + Old - Has [25%] chance to instantly stagger enemies hit at [>40m]\n  + New - Has [40%] chance to instantly stagger enemies hit at [>20m]\n- Updated Hawk-Eyed modifier\n  + Old - Has [75%] chance to deal [50] damage per second for [8s] for hits [>35m]\n  + New - Has [75%] chance to deal [10%AP] damage over [8s] for hits [>25m]\n\nNew Content\n\n- The wall in Skyland has now shifted, unlocking a brand new area to explore filled with new challenges to overcome and enemies to fight!\n  + Developer's Note: Player stats in the upcoming area being added in Minor Patch 1.3.1 are going to be different than the values that players saw in the Skyland areas introduced in 1.3. While we've gone through and done some initial testing on these values, we are open to player feedback on how the classes feel in the new area, and we will make adjustments as needed in future updates.\n- Added a new monster type - Exiled Spellcasters.\n- Added a new monster type - Exiled Shieldbearers.\n- Added in the new Rockroach & Dazzling Rockroach catchable creature & pet.\n\n- Added in the new Springbo pet from the Skyward Summit pre-launch event.\n  + Note that Springbo will not be present on the 1.3.1 beta server, but will be available when Minor Patch 1.3.1 releases.\n\nFeature/System Updates\n\n- Made changes to the Tekbrid Brute to make them a bit easier to fight.\n- Added a new mechanic to the grapple hook to allow you to \"push off\" from a wall.\n- Added Kama Cadence patterns to more monster types.\n\nResolved Issues\n\n- Fixed an issue where copying characters to a test server breaks all their quests.\n- Fixed an issue where crafting T3 food power item recipes was impossible if you had a material discount.\n- Significantly changed the way networked data is handled to improve performance.\n- Fixed an error which could cause \"E_EX_IN_LOCATE\" errors during first-time setup on quest for some users.\n- Decreased how intensely buildings shake when they are damaged.\n- Fixed trees having a \"glossy\" appearance.\n- Updated the visual appearance of Essodust and Essobits, as well as updated their icons.\n- Tekbrids and Exileds armor popping sound fixed\n- Added Skydew and Skyseed currency to missions in Lake and Forest that weren't granting any (Down and Dirty, Do You Even Carrot?, Skyland 'shrooms Sound Scrumptious)\n- Updated objectives for Soiled Foods quest to no longer mention Dirt\n- Moved a Telos Tear that could not be reached when playing on Quest\n\nKnown Issues\n\n- The floor doesn't fully load when approaching the barrier on the hill in Skyland.\n- Resources spawn inside of structures when traveling up the mountain in Skyland.\n- The ruins underneath the waterway in Skyland may appear to be flashing/blinking.\n- The ground appears misshapen and has no collision while exploring around the \"Siege - Tekbrid Device\" public event in Skyland.\n- Some resources float above the ground on the path leading up the hill near the barrier in Skyland.\n- A chest underneath the waterway in Skyland will appear to have abnormally bright lighting when approaching.\n- Cato appears during the Draw Bow and Shoot tutorial video when completing Ellie's Basic Training quest in the Academy.\n- A tree is missing its trunk when navigating towards the Ravine Camp within Skyland.\n- A hole in the floor can be seen when navigating to the exiled camp during the Ravine Roundup quest in Skyland.\n- A hole in the floor can be seen at the back of the exiled camp visited during the Ravine Roundup quest in Skyland.\n- Players may see the Skyland area to appear in the Start menu.\n- Grass near the barrier appears to be floating off the ground when approaching the barrier in Skyland.\n- A hole in the terrain is visible near the edge of the cliff next to the castle inside the barrier in Skyland.\n- A gap between the grass and the ground can be observed near the castle inside the barrier.\n- A hole in the cliff can be entered near the camp that is beneath the waterway in Skyland. \n\nFor full Minor 1.3.1 Release Notes, see: https://zenithmmo.com/blogs/news/minor-patch-1-3-1-new-area-and-bug-fixes\n\nGo to: zenithmmo.com \nNews and Blog \nMinor Patch 1.3.1 - New Area and Bug Fixes"
             }
         ],
         "keywords": [
@@ -124,7 +120,7 @@
             "social"
         ],
         "on_rookie": false,
-        "general_update": 474745,
+        "general_update": 474769,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -133,10 +129,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474745,
+        "last_update": 474769,
         "category": "GAMES",
-        "votes": 6910,
-        "rating": 4.320116,
+        "votes": 6921,
+        "rating": 4.316862,
         "weighted_rating": 4.31
     },
     "errors": []

@@ -76,7 +76,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39035450_669145738404713_921181309252381949_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "64",
+                "change_log": "New:\n\n- Blobs now stick around even if they are not grouped\n- Exiting edit mode now keeps you in the current position (it used to reset you)\n\nFixed:\n\n- Hopefully fixed a crash when someone in the room opens the phone\n- Added some logic that clean up blobs that cause the room not to load\n- Fixed issue when going to another room while in edit mode"
+            }
+        ],
         "keywords": [],
         "on_rookie": false,
         "general_update": 474745,

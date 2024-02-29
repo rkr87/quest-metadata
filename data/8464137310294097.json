@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 902
+                "votes": 907
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 20.3\n\n[ CUSTOM ARENAS ]\nArena Info now displays in the menu within a custom arena lobby, showing the arena creator, rating, options to add to favorites, rate, and report the arena.\nA new 'Custom Arenas' menu section is introduced for accessing your arenas, favorites, and a 'Featured Arenas' tab for exploring all publicly available arenas.\nArena creator has to host at least one public lobby in order to have that arena be eligible for the ‘Featured’ list.\n\n[ FIXES ]\nResolved an issue preventing more than 16 players from joining custom arena private lobbies. Fixed a bug where jerseys sometimes failed to load. Overall performance optimizations. Fixed minor issues related to ball physics and potentially resolved controller problems.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 20.3\n\n[ CUSTOM ARENAS ]\nArena Info now displays in the menu within a custom arena lobby, showing the arena creator, rating, options to add to favorites, rate, and report the arena.\nA new 'Custom Arenas' menu section is introduced for accessing your arenas, favorites, and a 'Featured Arenas' tab for exploring all publicly available arenas.\nArena creator has to host at least one public lobby in order to have that arena be eligible for the ‘Featured’ list.\n\n[ FIXES ]\nResolved an issue preventing more than 16 players from joining custom arena private lobbies. Fixed a bug where jerseys sometimes failed to load. Overall performance optimizations. Fixed minor issues related to ball physics and potentially resolved controller problems.\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "Quest 1 fix"
@@ -154,19 +162,11 @@
             {
                 "version": "0.1",
                 "change_log": "This is not a full-scale update, but rather a response to the community requests regarding the new physics \n\nPHYSICS ENGINE UPDATE\n- Significantly improved ball control on the ground and in the air\n- Enhanced shooting\n- Fixed ground friction (better ground physics is still in development)\n- Added ‘old physics’ balls to the free equipment\n\nBOTKEEPER UPDATE\n- Some enhancements to the bot goalie AI\n- Added botkeeper to the online practice arena\n\nONLINE PRACTICE\n- Now, you can choose any arena for online practice in either public or private mode\n\nFIXES AND OTHER\n- Fixed lag issues occurring when new players join\n- Sound FX for the botkeeper\n- New items in the store"
-            },
-            {
-                "version": "0.1",
-                "change_log": "PHYSICS ENGINE v.2\nThe updated physics engine now processes more than 40 custom-made parameters and physical phenomena, such as vortex air flows. All simulations are based on scientific experiments and research. We continue to work on further physics simulation enhancements.\n\nNEW EQUIPMENT STORE\nWe've added over 90 new items, including caps, hats, masks, and glasses. Also, different types of balls exhibit different physics behaviors.\n\nTHE BOTKEEPER (ALPHA)\nExperience the robot goalie in its early development stage. The bot is only accessible in the solo practice for now. It will be gradually enhanced, and the field players bots will also be introduced in the future.\n\nENHANCED LOBBY CAPACITY\nPrivate lobbies can now accommodate up to 24 players. However, this feature is experimental and may likely cause lag, so use it wisely.\n\nNEW LOCATIONS\nNew 2v2, 4v4 arenas\n\nIMPROVEMENTS \nMinor bug fixes and optimization. Sound FX update. Added user interface translations for Spanish, German, French, Japanese, and Korean."
-            },
-            {
-                "version": "0.1",
-                "change_log": "PHYSICS ENGINE v.2\nThe updated physics engine now processes more than 40 custom-made parameters and physical phenomena, such as vortex air flows. All simulations are based on scientific experiments and research. We continue to work on further physics simulation enhancements.\n\nNEW EQUIPMENT STORE\nWe've added over 90 new items, including caps, hats, masks, and glasses. Also, different types of balls exhibit different physics behaviors.\n\nTHE BOTKEEPER (ALPHA)\nExperience the robot goalie in its early development stage. The bot is only accessible in the solo practice for now. It will be gradually enhanced, and the field players bots will also be introduced in the future.\n\nENHANCED LOBBY CAPACITY\nPrivate lobbies can now accommodate up to 24 players. However, this feature is experimental and may likely cause lag, so use it wisely.\n\nNEW LOCATIONS\nNew 2v2, 4v4 arenas\n\nIMPROVEMENTS \nMinor bug fixes and optimization. Sound FX update. Added user interface translations for Spanish, German, French, Japanese, and Korean."
             }
         ],
         "keywords": [],
         "on_rookie": false,
-        "general_update": 474745,
+        "general_update": 474769,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -175,10 +175,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474745,
+        "last_update": 474769,
         "category": "GAMES",
-        "votes": 1193,
-        "rating": 4.446773,
+        "votes": 1198,
+        "rating": 4.449082,
         "weighted_rating": 4.4
     },
     "errors": []

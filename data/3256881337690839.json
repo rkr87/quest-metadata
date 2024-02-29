@@ -22,10 +22,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING",
@@ -77,6 +77,10 @@
             "logo_transparent": "39036630_448021899592227_4995346803103404463_n.png"
         },
         "changelog": [
+            {
+                "version": "2.5813",
+                "change_log": "Patch Notes (v2.5813):\nBug Fixes:\nSpecial pitches no longer randomly show the same pitch option twice in a row.\nResolved an issue causing headlock from the microphone conflicting with external voice chat apps.\nFixed an issue causing the ball to randomly pop up off the ground when rolling from dirt to grass and vice versa.\nAI runners in 1v1 no longer maintain their forced run state when they are no longer being forced forward.\nThe ball landing marker in 1v1 is now properly disabled if it is disabled in the settings.\nThe ball is no longer treated as a fair ball when it is fumbled by an AI in foul territory in single player.\nImprovements:\nNew bat skin.\nNew ball skin.\nNew mitt skin.\nChanged the style of crowds in the stadiums.\nAdjusted the position of the cursor for special pitches.\nUpdated some nameplates in the locker room.\nAdded a cast shadow to the ball in all game modes.\nThe bigger locker room is here to stay as the only locker room.\nArt improvements made to stadiums.\nReduced the size of hands and mitts.\nChanged the audio for the Radio on top of the Lockers.\nNew and Removed Features:\nBatter up! Offense players now have batting gloves. Be sure to choose yours in the customizer before stepping up to the plate!\nHey batter, batter! Switching to pro batting mode now switches for a smaller bat to feel more pro.\nHave you got the blues? Not anymore! Your chosen skin color is now applied to your hands!\nImplemented Meta’s age requirement backend.\nQuest 1 is no longer supported as a device."
+            },
             {
                 "version": "2.5801",
                 "change_log": "Patch Notes (Beta v2.5801):\nBug Fixes:\nFixed an issue causing the ball to get stuck on the wall above the mini-scoreboard in Single Player Mid Stadium and Zevo Dome.\nFixed the positioning of the strike zone when batting and set to a sitting position.\nAI batters now adjust their batting angle to properly collide with the ball from pitches they hit in single player.\nImprovements:\nThe Foxes team has gone through some winter training and their efforts have resulted in faster run speeds.\nAll teams have decided to steal half as often as before."
@@ -152,10 +156,6 @@
             {
                 "version": "2.5614",
                 "change_log": "Patch Notes (v2.5614):\nBug Fixes:\nThe ball now properly bounces off the walls in Koshien Stadium multiplayer.\nAll players can now see the jersey change when a player changes it while on the field in Free Roam.\nImprovements:\nImproved the AI’s reaction to the ball when it is on the ground in 1v1.\nAdjusted single player teleportation mechanics so medium teleports to infield more and high teleports more often.\nNew Features:\nAdded teleportation settings and descriptions to the chalkboard menu at the beginning of the game."
-            },
-            {
-                "version": "2.5612",
-                "change_log": "Patch Notes (v2.5612):\nBug Fixes:\nFixed an issue causing several fields to be unplayable in single player.\nFixed an issue causing runners to remain after they score in 1v1.\nThe player now properly resets as a batter after they score in 1v1.\nFixed an issue preventing the cannon from firing in the Dirtlot after certain conditions are met."
             }
         ],
         "keywords": [
