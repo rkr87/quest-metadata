@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "36.0.1",
+                "change_log": "- Fix occasional freezes\n- Fix occasional lines not synchronizing properly\n- Fix issues when trying to cast when someone else was already casting\n- Fix support for legacy 3D models"
+            },
+            {
                 "version": "36.0.0",
                 "change_log": "-Add tutorial room\n\n-Change application to utilize the new web platform\n\n-Improve throw to delete detection\n\n-Update Meta subscription users to support all team features\n\n-Fix bugs in environment switching feature\n\n-Fix notes menu not refreshing on changes\n\n-Improve multiple buttons that were hard to select\n\n-Add watermark for trial users\n\n-Add watermark for guest users\n\n-Improved team selection screen\n\n-Add feature for linking/unlinking Meta account to existing account\n\n-Fix an authorization issue that could occur when the app was running for a long time\n\n-Add a more helpful message when your are logged into an account twice\n\n-Fix avatar heads blocking controller beams\n\n-Dozens of generic UI and networking fixes"
             },

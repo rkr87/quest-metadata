@@ -58,11 +58,11 @@
             },
             {
                 "rating": 4,
-                "votes": 44
+                "votes": 43
             },
             {
                 "rating": 5,
-                "votes": 345
+                "votes": 346
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -90,6 +90,10 @@
             "logo_transparent": "38974606_1616568852051417_4748903909820829929_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.1.21461.104.OBERON.Quest.release",
+                "change_log": "Barbaria 1.5.1 Patch Update\n\nCaverns of the Unknown Balance Updates: \n- Allies from shrines now spawn with weapons\n- Shrine equipment and ally minion level increases on pace with cavern enemy level progression rather than always starting at Level 1\n- Decrease difficulty jump every 4th room\n- Increase random shrine drop percentage\n- Increase final room violence bonus\n\nAdditional Changes:\n- Divine Sword now steals a fixed 10% of the stabbing champion’s health, or all the remaining health of the enemy if the remaining health is less than 10% of the stabbing champion’s health.\n- Moving Wall Behavior Change: Based on player feedback and discussion in Discord, moving walls will now start down for 2s when entering a fragment before raising and resuming their normal cycle.\n- Decrease placement radius restrictions around non-entrance fragment connectors.\n- When “Auto Replays on Boot” option is disabled, do not download replay until manually selected in History station to improve time to gameplay in slow server connection situations.\n- Adjust early realm match making buckets to smooth out difficulty jump around Fortitude 100\n- Fix allies getting destroyed when moving between areas in Caverns of the Unknown\n- Fix placement cost for Cavern of Mystery Cap\n- Fix Gladiatrix weapon recall not staggering Zealots and champions\n- Fix spawner animation reset after replays\n- Fix fragment placement overlapping caps in some situations\n- Fix Test My Base replays getting uploaded and potentially causing failed replay downloads from other player attacks.\n\nJoin us on Discord and let us know what you think!\nhttps://discord.gg/ZyGzJRQURm"
+            },
             {
                 "version": "1.5.0.21397.103.OBERON.Quest.release",
                 "change_log": "Barbaria 1.5 - Age of the Unknown Update\n\n** New Feature: Caverns of the Unknown** Battle through procedurally generated caverns in this new roguelike area to earn currency and compete on the leaderboard.  Buffs and bonuses found between fragments grant additional health, extra arrow damage, allies, divine weapons and more to make every run unique.  Unlock 4 new cosmetic statues for your realm along the way as you venture deeper into the Unknown.\n* New Fragment: UTurn\n* New Caps: Tunnel Tower, Stairway, Cavern of Mystery\n* New Structures: 6 different Party Crashers - Party Crashers provide backup support on your fragment. They wait to spawn in until there are 3 or fewer allies remaining and the fragment has been activated for at least 30s (think reinforcements for your defenses). Crashers come in pairs, and will be outfitted with a random melee or ranged kit depending on the type you place.\n\nImprovements and Fixes:\n- Fix Unbreakable Fences and Walls\n- Poise System: Show poise bar beneath enemy health bar to make it easier to see when your hits will stagger an enemy.\n- Fix moving walls starting in down position\n- Fix Melee boost structure not saving on realm\n- Fix Gladiatrix fighting with no weapon when trying to recall\n- Make NPCs prefer to throw throwing axes.\n- Fix minions getting placed in boons area\n- Fix NPCs not crushing crystals for some structures\n- Fix NPCs on connectors not running onto the active tile\n- Balance: Decrease throwing axe damage multiplier\n- Balance: Increase life steal amount when using Divine Sword\n"
@@ -165,10 +169,6 @@
             {
                 "version": "1.0.3.18818.64.OBERON.Quest.release",
                 "change_log": "Welcome to Barbaria 1.0.3\n\nPatch Notes:\n- Faster post-round replay processing times\n- Improve arrow nocking on the bow (wider distance check, relax look requirement)\n- Do not auto-equip bow if already holding something (when grabbing an arrow, you will no longer drop the weapon in your opposite hand. Opposite hand must be empty to equip bow.)\n- Show health bars from god mode when spell targeting\n- Improved AI decision speed when entering a tile\n- Reduce memory usage for custom music\n- Fix drift/player champion getting pulled to a location bug\n- Fix structures placed at an angle on realms\n- Fix bug causing items to disappear sometimes in the Stronghold\n- Fix Quiver and Bags getting stuck on hands or equipped to hip instead of back\n- Fix skeleton bones getting offset sometimes\n- Fix player champion dying when not inhabited for a long period\n- Fix clouds and scenery pieces overlapping board in certain layouts\n- Fix enemies piling up on spring traps in Symphony of Violence\n- Fix NPCs walking through fences\n- Fix champions getting possessed while flying through the air\n- Fix torch not breaking in 1 hit\n- Fix ally indicator being inside Cyclotaur\n- Fix missing display attributes and level heads on sword\n- Fix crystal getting equipped to hip\n- Fix invisible reinforcements in replay\n"
-            },
-            {
-                "version": "1.0.2.18754.61.OBERON.Quest.release",
-                "change_log": "Welcome to Barbaria\n\n1.0.2 Patch Notes:\n\n- Fix crash on long Endless mode Ancient Trial runs\n- Add “I’m Done” button on Endless mode\n- Fix replay corruption issue causing replays not to not show up or only play partially\n- Allow re-possessing a champion before the player’s shield goes away\n- Improve bow rotation to allow full turn around with bow\n- Balance Updates: Make meteor and heal spells more powerful, Increase Gladiatrix damage, a little less health and a little less structure disable time for Krank.\n- Make arrows embedded in the player fall out after a little time\n- Allow triggers to calibrate with Oculus controllers in addition to thumbstick press\n- Fix tile boundary colliders to prevent more statue overlaps\n- Kill inactive enemies far from board after a timeout\n- Disable Options menu while in combat (can always access from god mode or when there are no enemies around)"
             }
         ],
         "keywords": [
@@ -179,7 +179,7 @@
             "Funny"
         ],
         "on_rookie": true,
-        "general_update": 474769,
+        "general_update": 474793,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -188,10 +188,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474769,
+        "last_update": 474793,
         "category": "GAMES",
         "votes": 418,
-        "rating": 4.715311,
+        "rating": 4.717703,
         "weighted_rating": 4.54
     },
     "errors": []

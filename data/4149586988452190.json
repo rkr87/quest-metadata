@@ -71,6 +71,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.190",
+                "change_log": "- Added direction labels for radar\n\n- Adjusted how job id's are generated for procedural jobs (now includes settings)\n\n- Fixed bug where crates sometimes spawned inside proc gen prefabs"
+            },
+            {
                 "version": "0.2.188",
                 "change_log": "- Added \"Employees of the Month\" and \"Hall of Fame\" leaderboards to the main menu (this shows on the clipboard and tracks crate deliveries)\n- Added crate multiplier buttons to random level panel (1x->4x)\n- Added functionality to allow dockers with >2,000 crate deliveries to receive a personalized docker rank\n\n- Adjusted limit to which you can adjust the joysticks laterally\n- Adjusted torpedo lifespan to 60 seconds\n\n- Fixed memory leak caused by air fresheners\n- Fixed bug where proc-gen could get stuck when spawning nuke carriers\n- Fixed bug where a crate would spawn inside the \"radar base\" proc-gen prefab\n\nQUEST ONLY\n- Added 120hz support to all compatible devices \n\nPSVR2 ONLY\n- Added support for Thrustmaster T.Flight 4 HOTAS\n- Added support for eye tracking UI selection when using HOTAS"
             },

@@ -65,7 +65,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1667
+                "votes": 1668
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -94,6 +94,10 @@
             "logo_transparent": "38974722_287407345455803_4844576724517650432_n.png"
         },
         "changelog": [
+            {
+                "version": "1.11.85",
+                "change_log": "Full Release Notes for Espire 1 v1.11 \"New Recruits\" update version 1.11.85\nDevice Support: Meta Quest 2, Meta Quest Pro, Meta Quest 3, Future Devices\n\n**VR Hardware support**\n- Espire 1 has been updated to support Meta Quest Pro and Meta Quest 3 on the Quest platform and on the PC Platform via PC Link.\n- Espire 1’s XR device Initialisation logic has been completely rewritten to better support existing headsets and more easily add support for devices that may be released in the future.\n- We have removed support for the Meta Quest 1 headset on the Quest platform. Quest 1 users will still have access to Espire 1 version 1.9.202. Note: Espire 1 still supports players that use Quest 1 to play Espire 1 on the PC platform via the PC Link feature.\n\n**Visual improvements**\n- Espire 1 will render at a higher pixel resolution on the Quest 3 headset.\n- Textures for key character, environment and interactable assets have been increased by 4x Quality on the Quest platform. These texture improvements are supported by Quest 2, Quest Pro and Quest 3.\n- The Texture RAM cache has been increased for Quest 2, Quest Pro and Quest 3 to each device’s available RAM.\n- Fixed Foveated Rendering is now set to Dynamic on all Quest devices (Quest Platform only).\n- On the Quest Platform, Espire 1 now uses 4x MSAA instead of 2x MSAA.\n- NPC guards now have much higher resolution meshes and higher quality BPR materials applied to them on the Quest + PC platforms.\n- NPC support staff including IFA scientists and security staff now render with higher resolution meshes and higher quality BPR materials.\n- Mesh + shadow resolution has been increased for many assets throughout the game. Key meshes include primary weapons, Espire cradle units, cradle panels, cradle podiums, doors, large Espire Batteries, Pallets and other common environmental cover.\n- The Hand-mounted “HandCam” and throwable “RemoteCam” holographic camera feeds now have a higher resolution and refresh rate, depending on the current Quest device you are using.\n- Espire 1 now renders more spent bullet casings and empty weapon magazines on all platforms.\n- The holographic waypoint that guides the player to their next objective renders at a higher resolution on the Quest platform.\n- The User Interface across the title renders at a significantly higher resolution.\n- The User interface across the title has been scaled down and repositioned - much easier to read and navigate.\n- In the main menu, additional background visual elements originally designed for the PC platform will now render on the Quest platform.\n- Various Scientist, security and support NPCs have been added to the main menu environment.\n- Espire 1 frames now have full PBR materials on the Quest platform. \n- The ground in the “Militaris” container site levels now renders at a higher quality on the Quest platform.\n\n**Audio Improvements**\n- On the Quest platform, the amount of ‘random’ audio files that can play throughout gameplay has been increased by 3x.\n- For NPC soldiers, a significant amount of previously unheard lines of dialogue have been added.\n- There are now various versions of the main menu background music that will play.\n- Players that complete Espire 1’s campaign on ‘normal’ or ‘hard’ will unlock a unique splash screen music track.\n- Fixed an issue where an NPC guard’s spoken dialogue may not “slow down” when the player slows down time using Espire Instinct. \n\n**Gameplay improvements**\n- Automated Turrets will now trigger a combat alert the moment they detect the player. Note that the automated turret at the very start of mission #1 Espire Labs is configured to not cause a combat alert when detecting the player. \n- Security cameras will now trigger a combat alert far quicker than before and this detection time is again halved in Hard difficulty.\n- Security camera damage logic has been re-written. It will now take multiple shots to destroy the camera. The lens is a weak spot, with a 1 hit destroy for any bullet - including tranq darts. Explosives and other ‘damage causers' are now able to damage security cameras. The player can only destroy a security camera with a tranq dart if the dart hits the camera's lens.\n- The “venting” behaviour for all explosives in the game has been improved - with more random movement and hecticness, based on the explosive mass\n- Green-variant explosive canisters have been removed from the game, replaced with red canisters.\n- Blue explosive barrels are now red.\n\n**Game Content - Polish Pass**\n- All campaign missions have had a significant polish pass, focused on improving lighting & shadow quality, while addressing collision issues & rendering issues.\n- More bodies of fallen IFA security staff and personnel have been added throughout the campaign.\n- All 53+ virtual challenge missions have had a significant polish pass, focused on improving lighting & shadow quality.\n- The Mitrata virtual challenge is now a ‘shared’ mission between PC and Quest platform with various fixes applied to the environment.\n\n**General Fixes**\n- Various animation issues for guards have been found and removed.\n- Fixed an exploit allowing players to cheat in a weekly challenge or standard virtual challenge, completing much of the mission before the mission even begins. This same fix has recently shipped in Espire 2.\n- Fixed an issue in Mission 2: Reech Division where players are able to glitch through a wall and finish the mission early.\n\n**Misc Changes**\n- Espire 1 key art, launch splash screen and icons have been refreshed as part of this update.\n- Espire 1 is now packaged in larger OBB files of up to 4GB. Previously, the game would be packaged into smaller 2GB OBB files.\n- Added a 1.11 news page to the main menu. The news page will now display on the PC platform too. "
+            },
             {
                 "version": "1.9.202",
                 "change_log": "Espire 1 v1.9 Hotfix #2\nBuild: 1.9.202\nTarget devices: Quest, Quest 2, Quest Pro, Quest 3\n\nWe've just shipped \"Espire 1 v1.9 Hotfix #2'. This hotfix attempts to fix the issue where some players experienced a black screen & the game would freeze when at the 'Agent Select' menu. As part of this hotfix, Espire 1 now targets \"Android 12\" - the latest OS that Meta's Quest 2 and 3 headsets support. We hope this addresses the freezing issue and we thank those players that reached out with detailed steps. \n\nThis is expected to be the final build for Quest 1 users. Quest 1 users will have access to this build for the foreseeable future. We want to take this opportunity to thank everyone who has played Espire 1 on Quest 1 - these Quest 1 players in 2020 were Espire 1’s biggest audience and without you, Lode would not have been able to continue-on beyond 2020. If any users have questions, feel free to reach us via support@espirevr.com, comment below, or chat on our Discord - Discord.gg/EspireVR"
@@ -135,7 +139,7 @@
             "Sneaking"
         ],
         "on_rookie": true,
-        "general_update": 474769,
+        "general_update": 474793,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -144,10 +148,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474769,
+        "last_update": 474793,
         "category": "GAMES",
-        "votes": 2962,
-        "rating": 4.170155,
+        "votes": 2963,
+        "rating": 4.170435,
         "weighted_rating": 4.16
     },
     "errors": []
