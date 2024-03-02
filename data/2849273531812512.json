@@ -44,7 +44,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 304
+                "votes": 308
             },
             {
                 "rating": 2,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 3,
-                "votes": 71
+                "votes": 70
             },
             {
                 "rating": 4,
@@ -60,7 +60,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1692
+                "votes": 1696
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,6 +86,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "1.13.0",
+                "change_log": "Update voice architecture in Collaboration and Public rooms.\nFix ReadyPlayerMe avatars not instantiating.\nAdjustments to spatial audio."
+            },
             {
                 "version": "1.12.01",
                 "change_log": "Fix issue where screen sharing would fail.\nCorrect issue for saving layouts when wired connection disconnects."
@@ -161,10 +165,6 @@
             {
                 "version": "1.11.05",
                 "change_log": "New update for supporting streaks when using Immersed.\nUI updates and bug fixes.\nFixes around USB connection."
-            },
-            {
-                "version": "1.11.04",
-                "change_log": "Improve security for local and remote streaming\nFix bugs with screen sharing not working when joining from another room\nFix floating cursor when changing seats\nSupport shared spatial anchors for the whiteboard\nShow environment download prompt when moving to a scene that has not been downloaded"
             }
         ],
         "keywords": [
@@ -175,7 +175,7 @@
             "whiteboard"
         ],
         "on_rookie": false,
-        "general_update": 474793,
+        "general_update": 474817,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -184,10 +184,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474793,
+        "last_update": 474817,
         "category": "APPS",
-        "votes": 2282,
-        "rating": 4.237949,
+        "votes": 2289,
+        "rating": 4.234163,
         "weighted_rating": 4.22
     },
     "errors": []

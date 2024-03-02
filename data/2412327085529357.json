@@ -32,9 +32,9 @@
             "STANDING"
         ],
         "tags": [
+            "xbuy",
             "Spring promo 2024 - Sports",
             "Spring promo 2024 - Family Friendly",
-            "xbuy",
             "Top Rated Games",
             "Top Rated CM",
             "Fitness Favorites [Top Fitness]",
@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 3326
+                "votes": 3335
             },
             {
                 "rating": 5,
-                "votes": 28937
+                "votes": 28979
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -87,6 +87,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "751.1",
+                "change_log": "**Patch v751.1**\n\n- Fixed an issue where the \"Next Hole\" & \"Play Again\" buttons were blocked by the Power Meter if you were on Physics V1."
+            },
             {
                 "version": "751.08",
                 "change_log": "**New Update v751.08**\n\nNew Course: Bay Hill Club & Lodge\n\nHost of the PGA TOUR’s Arnold Palmer Invitational presented by Mastercard, Bay Hill is known for its demanding layout and beautiful scenery.\nSet amidst Central Florida’s lush rolling hills, the serene yet challenging experience is regarded as one of the harder stops on TOUR, with undulating greens, lengthy par 3s and enticing par 5s. For those who dare to take it on, Bay Hill encourages golfers to think creatively and to play boldly.\n\nNew Bundle Available: The PGA TOUR Bundle\n\nUnlock 4 PGA TOUR venues at a 25% discount!\nTest your game on the island 17th at TPC Sawgrass, soak in the electric atmosphere of TPC Scottsdale's stadium 16th, tackle the demanding layout of Arnold Palmer's Bay Hill Club, and step into golf history at The Riviera Country Club.\n\nGameplay:\n\n- Added a new toggle Setting for \"Always Show Green Contours\" when on the Green.\n- Added some additional degree rotations (5 & 10) for Snap Rotation in the Settings.\n- Added an error message for Topgolf when trying to join a Friend on a different version of the game than you.\n- Addressed frame drops, that would occur between \"Next Hole\" and the following tee box, holing out, and switching your clubs.\n- Adjusted crowd sounds and animations that felt delayed and speed of the end of week GOLF+ TOUR recap upon startup.\n- Players on the tee box in Unrestricted play will now be visible if you are in the waiting position.\n- Reaching the stroke limit on a hole in Battle will only show the \"Next Hole\" button now.\n\nQuality Updates and Bug Fixes:\n\n- Corrected the spacing on the Battle Leaderboard when handling larger numbers.\n- Addressed an issue with Player nametags always displaying and sized incorrectly.\n- Fixed various incorrect player club customizations when playing in offline mode.\n- Fixed an issue where you would see your putter briefly after selecting \"Next Hole\".\n- Fixed an issue in Challenges where the distance to the pin was incorrect on the user interface.\n- Fixed an issue where players could see their ball orient towards the hole when triggering to ball.\n- Fixed an issue where the Tutorial would produce a flashing screen if launched while offline.\n- Fixed an issue where the ball would be further away when teleporting to it after a tee shot.\n- Fixed an issue with the \"Top Shots\" Leaderboard having inaccurate entries.\n- Fixed an issue where the Knockout Leaderboard won't automatically open upon completing a Knockout game.\n- Fixed an issue where the Tournament Leaderboard won't automatically open upon completing a Tournament Round.\n- Fixed the Club Selection interface being unavailable when users Adjust Clubs in Controls under Settings.\n- Fixed the inability to deselect an invited Friend during game creation if they went offline.\n- Fixed some Audio sliders in the Settings adjusting incorrect sound types.\n- Challenges & Mini-Games: Fixed an issue where tapping for a new ball could cause a shot to occur.\n- Swing Analyzer: Fixed an issue where you couldn't view Physics V2 'Advanced Stats' when using trigger.\n- Quick Play: Fixed an issue where the \"Next Hole\" button failed to appear when coming from an active Mini-Game.\n- Topgolf: Players will no longer see other players' avatars and clubs in their Bay Monitor.\n- Topgolf: Fixed an issue with \"Leave Game\" in Public/Private Topgolf lobbies not working on first attempt.\n- Topgolf: Resolved a visual shimmer issue with the club head of the default Driver.\n- Physics V2: Corrected a typo within the Swing Calibration steps."
@@ -158,10 +162,6 @@
             {
                 "version": "737.07",
                 "change_log": "** Minor quality and UI improvements"
-            },
-            {
-                "version": "737.06",
-                "change_log": "**NEW Course: TPC Southwind - Home of the 2023 Fedex St. Jude Classic.**\n\n**Multiplayer Feature Update**\n\n- **Rejoin an active multiplayer game.**\n    - Drop out mid round i.e. internet drops, headset battery dies, leave game voluntarily, take too long to get back from doing something and you get timed out.\n    - Simply re-enter the room name and join right where you left off.\n        - If players have moved on, you will be able to catch up and get right back into rotation. (Standard and Unrestricted turn modes)\n\n\n**Other MP Quality Updates**\n\nPlayer disconnecting\n     - Ability to boot a player timing out and move on.\nWhen player is disconnecting/timing out:\n    - A new notification system alerting players of the disconnect\n    - Avatar icon on main course screen has a timer\n\nMultiplayer messaging:\nMatch Play & Skins\n    - UI message and sound with what is at stake\n        - When a putt is to tie or to win.\n        - If skins, we show the amount of skins on the line.\n\n- Player ‘conceded hole’ notification and sound.\n- +4 stroke limit in Public Games\n- Scorecard now shows ‘active’ stroke for players.\n\n\n**Other Updates**\n\n**Improvements and protections to aid against unintentional mishits**\n\n**New setting under ‘Game’: New rotation degree option.**\nNow you have the option to choose an option with less rotation.\n\n**Lie Type on main course UI.**\nYou can now find your lie labeled under your shot count.\n\n**New Setting under ‘UI’: High Resolution Screens**\nAbility to make your screens HD.\n\n**Media Player bug fix**\nYoutube search results to appear correctly.\n\n**Unrestricted Multiplayer**\nRighty and Lefty players will now be hidden to each other if on the tee shot at the same time.\n\n**TPC Sawgrass**\nCrowds now only in stands."
             }
         ],
         "keywords": [
@@ -172,7 +172,7 @@
             "fun"
         ],
         "on_rookie": false,
-        "general_update": 474793,
+        "general_update": 474817,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -181,10 +181,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474793,
-        "last_update": 474793,
+        "last_update": 474817,
         "category": "GAMES",
-        "votes": 33231,
-        "rating": 4.81105,
+        "votes": 33282,
+        "rating": 4.811069,
         "weighted_rating": 4.81
     },
     "errors": []

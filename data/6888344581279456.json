@@ -3,7 +3,7 @@
         "id": "6888344581279456",
         "app_name": "SuperScreen",
         "release_date": "2024-01-04T00:00:00.000Z",
-        "description": "Super Screen offers VR users a unique and immersive viewing experience. This application creates virtual environments such as cinemas and classrooms within VR, offering users a mixed reality (MR) experience that blends the virtual and real worlds. It supports various video formats including 2D, 3D, 180-degree, and 360-degree videos, and can play videos in resolutions up to 8K, ensuring an ultimate visual experience. Users can also conveniently share media files from computers within the same local area network to their VR devices. Support MVC 3D decoding and playback, such as MVC 3D in the following file formats: Blu-ray 3D ISO, mkv, m2ts, ts, mts, etc.\n\nA notable feature of Super Screen is its multi-platform support, including PC operating systems like Windows and Mac, allowing users to stream video content from their PCs to the big screen in their VR device. This cross-platform capability makes Super Screen suitable not just for entertainment purposes, like watching movies, but also for educational and business environments, such as virtual classrooms and meeting rooms. In education, it offers students a more immersive learning experience; in business, it can be used for virtual meetings, providing a more interactive and immersive meeting experience. Streaming support for the Linux platform is currently under development and will be available in future versions.",
+        "description": "Super Screen offers VR users a unique and immersive viewing experience. This application creates virtual environments such as cinemas and classrooms within VR, offering users a mixed reality (MR) experience that blends the virtual and real worlds. It supports various video formats including 2D, 3D, 180-degree, and 360-degree videos, and can play videos in resolutions up to 8K, ensuring an ultimate visual experience. Users can also conveniently share media files from computers within the same local area network to their VR devices. Support DVD ISO decoding and playback, such as :Blu-ray 3D ISO, mkv, m2ts, ts, mts, etc.\n\nA notable feature of Super Screen is its multi-platform support, including PC operating systems like Windows and Mac, allowing users to stream video content from their PCs to the big screen in their VR device. This cross-platform capability makes Super Screen suitable not just for entertainment purposes, like watching movies, but also for educational and business environments, such as virtual classrooms and meeting rooms. In education, it offers students a more immersive learning experience; in business, it can be used for virtual meetings, providing a more interactive and immersive meeting experience. Streaming support for the Linux platform is currently under development and will be available in future versions.",
         "developer": "superhexa",
         "publisher": "liuwei",
         "genres": [
@@ -17,7 +17,17 @@
             "Single User"
         ],
         "languages": [
-            "English"
+            "English",
+            "Chinese (China)",
+            "Chinese (Taiwan)",
+            "French (France)",
+            "German",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Portuguese (Portugal)",
+            "Russian",
+            "Spanish (Spain)"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -72,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "0.4.4",
+                "change_log": "1. Double speed playback support: Added 0.5 to 2.0 video multiple playback, allowing you to adjust the video playback speed according to your personal preferences, thereby obtaining a more personalized viewing experience.\n2. Optional 3D option: Added the default video 3D option in the settings, whether the video is opened in 3D mode or 2D mode, providing you with more flexibility.\n3. Automatic light adjustment in theater mode: An intelligent light adjustment function is added, which automatically dims the lights when playing content and restores them after the video ends, creating a better viewing atmosphere.\n4. LAN page optimization: Added dlna, smb, ssair type tags to the LAN page to make file sharing and playback more intuitive and convenient."
+            },
+            {
                 "version": "0.4.3",
                 "change_log": "1. Optimized PC streaming mouse control, bringing lower latency and smoother operating experience.\n2. The playback recording function has been enhanced to automatically save the playback progress so that you can continue watching directly next time.\n3. Subtitle file display and management are optimized to provide more flexible subtitle selection and hiding functions.\n4. Fixed some issues that caused crashes and improved the stability of the application."
             },
@@ -102,16 +116,16 @@
         ],
         "keywords": [],
         "on_rookie": false,
-        "general_update": 474793,
+        "general_update": 474817,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
-        "language_update": 474685,
+        "language_update": 474817,
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474793,
+        "last_update": 474817,
         "category": "APPS",
         "votes": 4,
         "rating": 4.25,
