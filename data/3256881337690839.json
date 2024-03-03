@@ -50,7 +50,7 @@
             },
             {
                 "rating": 4,
-                "votes": 372
+                "votes": 373
             },
             {
                 "rating": 5,
@@ -77,6 +77,10 @@
             "logo_transparent": "39036630_448021899592227_4995346803103404463_n.png"
         },
         "changelog": [
+            {
+                "version": "2.5814",
+                "change_log": "Hotfix: Fixed bat collider issue."
+            },
             {
                 "version": "2.5813",
                 "change_log": "Patch Notes (v2.5813):\nBug Fixes:\nSpecial pitches no longer randomly show the same pitch option twice in a row.\nResolved an issue causing headlock from the microphone conflicting with external voice chat apps.\nFixed an issue causing the ball to randomly pop up off the ground when rolling from dirt to grass and vice versa.\nAI runners in 1v1 no longer maintain their forced run state when they are no longer being forced forward.\nThe ball landing marker in 1v1 is now properly disabled if it is disabled in the settings.\nThe ball is no longer treated as a fair ball when it is fumbled by an AI in foul territory in single player.\nImprovements:\nNew bat skin.\nNew ball skin.\nNew mitt skin.\nChanged the style of crowds in the stadiums.\nAdjusted the position of the cursor for special pitches.\nUpdated some nameplates in the locker room.\nAdded a cast shadow to the ball in all game modes.\nThe bigger locker room is here to stay as the only locker room.\nArt improvements made to stadiums.\nReduced the size of hands and mitts.\nChanged the audio for the Radio on top of the Lockers.\nNew and Removed Features:\nBatter up! Offense players now have batting gloves. Be sure to choose yours in the customizer before stepping up to the plate!\nHey batter, batter! Switching to pro batting mode now switches for a smaller bat to feel more pro.\nHave you got the blues? Not anymore! Your chosen skin color is now applied to your hands!\nImplemented Meta’s age requirement backend.\nQuest 1 is no longer supported as a device."
@@ -152,10 +156,6 @@
             {
                 "version": "2.5617",
                 "change_log": "Patch Notes (v2.5617):\nBug Fixes:\nEach character now wears their proper team helmet when batting.\nThe headband on the Headband Hair is now properly sized and positioned.\nFixed an issue causing some banners to be white when they are displayed in front of the announcer booth window.\nThe cancel button now properly closes the code menu in the customizer.\nFixed the white outline on the crowds.\nThe player’s shadow no longer cuts through the top of the baselines\nFixed an issue causing extra fireworks and the homerun screen to endlessly repeat on the scoreboard.\nThe Koshien Stadium button in the menu now has an updated image with the sunset skybox.\nCorrected some material issues.\nImprovements:\nFireworks have been updated.\nNew Features:\nBat flips… nuff said.\nThe new teleportation changes have been added to 1v1."
-            },
-            {
-                "version": "2.5614",
-                "change_log": "Patch Notes (v2.5614):\nBug Fixes:\nThe ball now properly bounces off the walls in Koshien Stadium multiplayer.\nAll players can now see the jersey change when a player changes it while on the field in Free Roam.\nImprovements:\nImproved the AI’s reaction to the ball when it is on the ground in 1v1.\nAdjusted single player teleportation mechanics so medium teleports to infield more and high teleports more often.\nNew Features:\nAdded teleportation settings and descriptions to the chalkboard menu at the beginning of the game."
             }
         ],
         "keywords": [
@@ -166,7 +166,7 @@
             "tournament"
         ],
         "on_rookie": true,
-        "general_update": 474817,
+        "general_update": 474841,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -175,10 +175,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474817,
+        "last_update": 474841,
         "category": "GAMES",
-        "votes": 1735,
-        "rating": 3.883573,
+        "votes": 1736,
+        "rating": 3.883641,
         "weighted_rating": 3.88
     },
     "errors": []

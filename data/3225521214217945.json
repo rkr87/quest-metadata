@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "0.11.2",
+                "change_log": "Improved cueing on short stroke lengths.\nTidied up UI a little."
+            },
+            {
                 "version": "0.11.1",
                 "change_log": "v0.11.0\nUpdated Unity version to 2022.x (from 2019.x!!) and the Meta SDK to 62\nFixed a lot of physics-related problems that threw off the timing of shots on the newer platforms.\nLots of fixes for bugs caused by the above.\nv0.11.1\nFixed a few left-over bugs:\n* Balls not returning to the table when using UNDO or RESTORE STATE\n* Incorrect FPS on Quest 3/Pro (I haven't been able to test on these devices yet)\n"
             },

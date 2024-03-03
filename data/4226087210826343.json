@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "5.1.26",
+                "change_log": "Bugfix regression in picking up the ball with right hand for left handed play during serve."
+            },
+            {
                 "version": "5.1.25",
                 "change_log": "Update preset for SolidSlime adapter for Quest 2 for better alignment."
             },
@@ -178,10 +182,6 @@
             {
                 "version": "5.1.6",
                 "change_log": "Bugfix hold down both grips to swap paddle hand when ambidextrous mode is turned on."
-            },
-            {
-                "version": "5.1.5",
-                "change_log": "Bugfix exception when turning off courts. Bugfix updating ELO score after local data is reset."
             }
         ],
         "keywords": [],
