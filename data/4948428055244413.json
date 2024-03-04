@@ -44,21 +44,14 @@
         ],
         "tags": [
             "Coming Soon",
-            "Under $15",
-            "Under $10",
             "Immersive",
-            "Easy movement, effortless movement",
-            "Accessible games",
             "Monsters",
-            "4+ Player Games",
-            "Holiday Sale 2023 [casual social shelf]",
-            "NUX Social",
-            "Social"
+            "4+ Player Games"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 838
+                "votes": 839
             },
             {
                 "rating": 2,
@@ -151,15 +144,8 @@
                 "change_log": "Stability Refactor Overview\n— Connection/Black Void issues \n— Players not being able to join lobbies \n— Players not being fully visible \n— General connection issues as it relates to network traffic\n— Host migration to no longer cause broken states (Works for both Meta & Steam)\n\nDisplay Name \n— New Users\n— — Hide Username will be unchecked for 16+\n— — Under 16 will not have the option and default to color \n\nSpecific Bug Fixes\nCONNECTION\n— Updated networking logic to reduce data sent and improve performance and reliability in general\n— Made major changes to handling player connecting and spawn in to reduce players getting stuck in a black void while attempting to join a game\n— Adjusted connection logic to reduce the number of times player will experience timeout exceptions\n— Improved host migration process so it's much less common for players to get stuck in a black void during the migration\n— Fixed issue where player could join a lobby and be invisible to other players\n\nAGE CHECK\n— Fixed age check prompt to correctly validate dates based on MM/DD/YYYY regardless of location\n— Fixed age check being repeated asked upon returning back to the menu rather than just once when starting up the game \n\nBLIND VOLUMES\n— Adjusted blind volume positions on the Skeld to avoid accidental blindspots in various locations \n— Fixed an issue where dying inside of a blindbox would disable it\n\nVISUALS\n— Fixed anti-grief volumes would disable after a few seconds when clipping through a player during the pre-game lobby \n— Fixed shadows occasionally not appear on players when they first spawn into a lobby\n— Fixed issue where hands would briefly flash in a different location when releasing a button after an interaction\n— Fixed issue where all hands would appear briefly when reporting a body before returning to the lobby\n— Fixed issue where corpses from previous rounds and games would continue to remain visible for players even when starting a new game\n— Fixed issue where previous victim's name would be displayed when reporting a new body\n— Fixed a minor blip where the Impostor would briefly reappear in front of a vent after exiting another vent \n— Tightened transitions between cutscenes \n\nMINIGAMES\n— Fixed an issue where Impostors would have a yellow highlight around non-completed tasks from a previous game\n— Fixed an issue where getting killed within a minigame would not restart the minigame unless you moved in and out manually \n— Fixed players would snap to tasks in the Cafeteria during emergency meetings\n— Fixed Upload Data task in Admin never resetting if leaving the Admin room while task was still active \n— Fixed Calibrate Distributors not correctly resetting visuals when leaving before completing the task \n— Fixed Align Engines issue where stepping away from the task could change your progress\n— Fixed Chart Course continuing to play a sound even when disengaged with the task \n— Ghosts are no longer able to interact with the O2 sabotage \n— Fixed light sabotages not always correctly turning off in the lobby if timed correctly with a transition \n— Fixed an issue with Reactor sabotage would not resolve if using the trigger/grip button as the host \n— Fixed a rare issue where successfully completing tasks would not win the game for the Crewmates \n\nTUTORIAL\n— Fixed issue where Crewmate death notification would not appear in tutorial \n— Fixed issue where footsteps could continue to play as a ghost in the tutorial \n— Fixed rare cases where you could never fix the O2 sabotage \n— Fixed critical sabotage not appearing on the map while active \n\nUI\n— Settings menu can no longer be toggled on during cutscenes \n— Fixed issue where player reticles would disable early when interacting with multiple overlapping interaction areas \n— Fixed player chat and other UI being visible over the blinders \n— Fixed issue where placeholder text could be seen on the age verification UI \n— Fixed disconnected players still remaining visible on meeting interfaces during an emergency meeting \n— Fixed vote button remaining highlighted after voting when using both hands at the same time \n— Fixed minimap occasionally flickering after stopping or moving into a new room \n— Fixed an issue where the wardrobe button would remain highlighted if clicked repeatedly before it opens \n— Fixed countdown timer not re-appearing if a player had left and rejoined a lobby during a previous countdown \n— Fixed an issue where the holomap would show a player in the Upper Engine position even when no one was there \n— Fixed an issue where the holomap in Admin would not update in real-time with players \n— Fixed an issue where the Crewmate’s body would not be in the correct location if getting killed never leaving the cafeteria \n— Fixed an issue where the buttons on the start screen would make incorrect SFX sounds when hovered \n— Fixed an issue were the countdown timer would be obscured while in the wardrobe \n\nVENTING\n— Fixed vent bars not appearing at the correct position while looking out of the vent in Cafeteria\n— Fixed an issue where player can end up in a black screen when venting when match ends\n— Fixed an issue where you could get stuck in a vent when transitioning while an emergency was called\n— Fixed a rare issue where the Imposter's collision box would stop working if the game ended while in a vent\n\nMISC\n— Fixed rare crash for the game if the HMD device was not found when starting the game \n— Fixed issue where footsteps could play a bit too often even when not moving \n— Fixed issue where player could walk through locked lobby doors if they moved quickly enough when returning back to the lobby \n— Fixed rare issue where leaving the invite player menu on Oculus Quest could cause the controller to rumble indefinitely \n— Fixed issue where no timeout error popup would appear when being disconnected by the host in some instances \n— Fixed host migrations not working on Steam with voice clients \n— Fixed being able to set your Snap Turn setting to 0 degrees \n— Added notification if the game is unable to save any data because the system is out of disk space \n— Added notification when a game window is not focused and is not accepting player input\n— Added missing localization for internet not found message"
             }
         ],
-        "keywords": [
-            "social",
-            "multiplayer",
-            "party",
-            "casual",
-            "deduction"
-        ],
         "on_rookie": false,
-        "general_update": 474865,
+        "general_update": 474880,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -167,11 +153,18 @@
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
-        "tag_update": 474721,
-        "last_update": 474865,
+        "tag_update": 474880,
+        "keywords": [
+            "social",
+            "multiplayer",
+            "party",
+            "casual",
+            "deduction"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
-        "votes": 5556,
-        "rating": 3.839633,
+        "votes": 5557,
+        "rating": 3.839122,
         "weighted_rating": 3.84
     },
     "errors": []

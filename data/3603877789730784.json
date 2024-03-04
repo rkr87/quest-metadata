@@ -157,9 +157,8 @@
                 "change_log": "Got feedback? Check out our Discord server : https://discord.gg/vDqqJBSejd\n\n[0.1.19]\nUpdates\n- \"Pipe Hell\" and \"Gothic Spires\" maps have been adjusted for a two (2) control point Domination game mode.\n- Various changes to matchmaking logic to address network related bugs (see below).\n- The Results Room between matches now shows the name of the next map and time until load.\n\nBug Fixes\nFixes have been implemented to address the following bugs:\n- Players entering the same private room code within a certain time window would sometimes end up in different rooms.\n- New players who tried to join a Quick Match while an existing game was in the Results Room would end up in a room by themselves.\n- A variety of bugs resulting in players being unable to load the Results Room at the end of a match due to network latency issues.\n- Bots and players that would not die or take damage due to desynchronization of a match's player records"
             }
         ],
-        "keywords": [],
         "on_rookie": false,
-        "general_update": 474685,
+        "general_update": 474880,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -168,11 +167,12 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474685,
+        "keywords": [],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 61,
         "rating": 4.47541,
-        "weighted_rating": 4.07
+        "weighted_rating": 4.08
     },
     "errors": []
 }

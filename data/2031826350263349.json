@@ -30,35 +30,30 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "Spring promo 2024 - Action ",
-            "Made in France",
             "Top Rated Games",
-            "Top Rated CM",
-            "Play with magic",
-            "RPG glory",
-            "Melee Combat",
-            "Tag"
+            "Top Rated (Current Month)",
+            "Melee Combat"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 4031
+                "votes": 4033
             },
             {
                 "rating": 2,
-                "votes": 1047
+                "votes": 1048
             },
             {
                 "rating": 3,
-                "votes": 1897
+                "votes": 1898
             },
             {
                 "rating": 4,
-                "votes": 5574
+                "votes": 5575
             },
             {
                 "rating": 5,
-                "votes": 30361
+                "votes": 30363
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -121,27 +116,27 @@
                 "change_log": "**B&S Nomad (Quest version) update 10.2**\n\n**Features**\n> Added an option to disable stick jump and crouch\n> Added an option to toggle crouch\n> Added handle points on chicken body that prevent the chicken to cackle and moving it's wings ( so you can pet it better :p )\n> Added an handle point on the chicken tail\n> Gravity bubble now also affect player\n> Added an \"Alertedness\" level to AI, NPC will no more be able to see you instantly and will need more time to detect you\n> Boat oars can now be used as weapon\n> Minor improvements and additions to some rooms\n> The game now show the full error message when it fail to load\n> Added MSAA (2x)\n> Enabled basic mod support (non scripted mods for now)\n\n**Enhancements**\n> Collision and armor detection performance improvements\n> Increased foveation level for better performance\n> Reduced the chance of NPC doing a jump attack\n> Improved NPC attack range estimation by taking the opponent speed into account\n> Gravity imbue zero-gravity force is now linked to the current imbue level\n> Improved blood visual on weapon in some situations\n> Added a second page for input options\n> Improved torch flame VFX\n> Fixed an issue preventing UI elements to be disabled at distance (performance improvements)\n> Updated to latest Oculus plugin v34\n> Enabled late latching and subsampled layout (improve latency and performance)\n> Added distant boat in lost cove\n> Pressing \"take item\" while your main hand is full will put the item into the other hand\n\n**Fixes**\n> Fixed potion drinking not working correctly\n> Fixed some occlusion culling issue (invisible room) in some dungeon rooms\n> Fixed bow randomly disappearing when being used\n> Fixed arrows sometimes becoming invisible when grabbed from quiver in the dungeon\n> Fixed random body exploding / teleporting when using bow\n> Fixed some issues in dungeon preventing player to progress through dungeon (invisible wall)\n> Potential fix for body clipping through clothes on player character (like breast clipping through clothes)\n> Fixed an issue with the bridge collider in Canyon\n> Removed invisible out of bounds collider in Arena\n> Fixed ocean spawning too late when entering viaduct room\n> Fixed NPCs behaving weirdly when their shield is disarmed\n> Fixed NPC sometimes looking too much at player when dying\n> Ruins and canyon lighting fixes\n> Dungeon room lighting fixes\n> Fixed invisible ladder in home\n> Fixed an issue causing sun light direction to be wrong in some dungeon room\n> Fixed war axe missing from the game"
             }
         ],
-        "keywords": [
-            "Sword",
-            "Melee",
-            "Medieval",
-            "Physic",
-            "Magic"
-        ],
         "on_rookie": true,
-        "general_update": 474865,
+        "general_update": 474880,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474745,
-        "last_update": 474865,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "sword",
+            "melee",
+            "medieval",
+            "physics",
+            "magic"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
-        "votes": 42910,
-        "rating": 4.33272,
+        "votes": 42917,
+        "rating": 4.332502,
         "weighted_rating": 4.33
     },
     "errors": []

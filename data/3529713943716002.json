@@ -36,15 +36,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "MR",
-            "Action",
-            "Made in Australia",
-            "Holiday Sale 2023 [competitive social shelf]",
-            "Holiday Sale 2023 [blockbusters shelf]",
-            "Holiday Sale 2023 [fitness shelf]",
-            "NUX Action",
-            "better on quest 3",
-            "Level editor"
+            "Mixed Reality"
         ],
         "hist": [
             {
@@ -131,13 +123,6 @@
                 "change_log": "ESPIRE 2 - version 1.1 - Tactile Update. Full Release Notes for build #: 1.1.3\nSupported Platforms: Quest (2, Pro)\nRelease Date: November 22, 2022 4PM EST\n\n**Feature Improvements**\n- Added bHaptics support for Espire 2, including support for the haptic vest, chest, and face accessories for many different actions, in single player and multiplayer game mode. We added many different haptic events and had a blast working on this integration! \n- Added a feature where the Lobe dialog sequence in Operation Sky High is shortened when playing the shorter ‘Quarantine’ mission\n- Adjusted player inventory - if the player’s ammo is low, the ‘grip priority’ of the ammo bag will be higher, increasing the ease in which a player can grab a new magazine from their ammo bag without looking down \n\n\n**Performance Improvements**\n- Reduced the case where players may experience a short frame pacing ‘hitch’ during gameplay. This is done by adding a switch to Background PSO collection to reduce hitching with PSO misses. \n- Enabled garbage collection on level load and on Espire frame possession events to reduce hitches during gameplay\n- Collected more PSOs, allowing for more shaders to be pre-cached before gameplay begins\n\n**Visual improvements**\n- Visual polish pass of every mission in the game to remove gaps, improve texture fidelity, improve the detail of some key meshes, and remove ‘z-fighting’. \n- Lighting quality pass of the campaign maps (Singleplayer campaign)\n- Visual improvement pass for the “IK arm meshes” that the player sees during the opening “neurospace nightmare” level\n- Fixed an issue where some snow meshes would not render correctly while the player was using the Espire VIsion night vision view mode in Operation Snow Blind\n- Added new Espire crate thumbnails across all campaign maps, seen when the player is in the pause menu\n- Updated Sinder hand textures and animations\n- Disabled HUD visibility during mid-mission load screens\n- Updated graphics for the master lever monitor in Bole's war room in Operation Snow Blind\n\n**Physics Improvements**\n- Improved ragdoll physics for heavy weapon guards and Tox's body in Operation Polygon\n- Improved the velocity/angular momentum that is applied o a gun when a guard drops it from their hands, or if the player shoots the gun out of a guard’s hand.\n\n**Audio improvements**\n- Adjusted priority for main story voiceover lines so they would not be cut off by guard conversations\n- Fixed incorrect sound classes on several sound effects (causing them to play too loud or soft)\n- Fixed an issue where dialogue and SFX could sometimes be heard when transitioning between co-op missions\n- Adjusted audio volume of quieter Voiceover dialogue lines in Operation Thirty-Three and Dead City. \n- Deleted the \"hold on\" line from Operation Dead City and cut down Dechter's line to no longer say \"Good work Poe\" at the end\n- Improved and balanced the volume for firearm unlock SFX\n- Fixed instances where certain sound events would play the wrong effect\n- Fixed voice over balance issues in multiplayer\n- Updated the impact SFX that would play when bullets hit metal containers\n\n**A.I Improvements**\n- Fixed an occluder issue where guards couldn’t spot the player or dead bodies in one area of the environment in Operation Sky High L34\n- Fixed an issue where Mk.1 tracking lasers would sometimes go through walls in Operation Snow Blind\n- Fixed an issue where an incorrect “ZZZ” marker would appear on guards that have been woken up\n- Fixed an issue in Operation Thirty Three where guards could walk through a particular closed door\n- Fixed an issue in Operation Sky High where guards could walk through a particular closed elevator door\n- Improved Banking and movement behavior for the flying gunship\n- Improved an issue where the final boss would get too close to the player, and not back up\n\n**General bug fixes and changes**\n- Added safeguards to prevent a user reported PrecomputedVolumetricLightmap Crash\n- Removed damage events that players would receive when attempting to climb the outer fence in the MP Fox Hole mission\n- Fixed edge case issues where player may not obtain the Sky High MK1 death achievement correctly\n- Various failsafes have been added for some Achievements & Cheats which would sometimes not correctly unlock\n- Added logic to display the player's touch controller meshes in MP Lobby Menu\n- Fixed a collision issue in MP Red Line mission where you could stick your hand through geometry and disarm tripmines.\n- Added default grip pose sockets for the Qulama building prop, a narrative item found in the Sky High mission.\n- Fixed an issue where pressing the MP leaderboards and retry buttons at the same time could cause a crash\n- Added logic to hide and show objective markers when pausing the game or going into mission summary\n- Fixed an issue in Operation Sky High where elevators would sending you back up to the top floor if you held or spammed the button\n- Added a camera fade effect when the player presses the skip debriefing button\n- Raised the podium lever in Operation Snake Den so Sinder doesn't need to crouch when interacting with it.\n- Fixed a distance grip issue in the last possession crate in Operation Thirty-Three\n- Fixed a floating recycle bin Operation Polygon\n- Fixed an issue with player movement acceleration after the player is revived in MP\n- Made minor adjustment to the marker location on Spotter units\n- Fixed an issue where a scientist was being highlighted in Espire Vision in Operation Thirty-Three’s Pilot Chamber environment\n- Fixed an issue where duplicate Lobe meshes were visible in the vents towards the end of Operation Sky High\n- Fixed an issue where players with the Invincibility cheat enabled would not be able to get past Lobe's force kill in Operation Sky High\n- Localisation fixes for all supported languages\n- Fixed an issue where the voice commands ‘processing’ icon may appear to spin in the HUD for too long\n- Fixed issue where when trying to zap a guard with the repair tool you would knock them with melee physics instead\n- Fixed an issue where a turret’s laser and movement would become blocked in Operation Snow Blind\n- Fixed an issue where floating guns could be seen after the \"void out\" sequence in Operation Sky High\n- Fixed an issue where player selection lasers could interact with guards when the game was paused during a multiplayer match\n- Fixed a rare issue where the game would not correctly be paused when activating the Quest system menu or taking off the headset during multiplayer\n- Fixed an issue where Bole Units in Operation Snake Den would not count in the end-mission expenditure breakdown\n- Fixed an issue where multiplayer mission briefing & debriefing subtitles would not display correctly in some languages\n- Fixed issues where tripmines could not be placed on certain surfaces in the campaign\n- Fixed an issue where tripmines would sometimes ‘stretch’ in size when attaching to various parts of the environment in multiplayer mode\n- Fixed an issue where the rocket launcher would display the wrong ammo reserve when you first pick it up\n- Fixed an issue where players could distance-grip objects through a wall in Operation Sky High embassy area\n- Fixed an issue where the 'Best Stats' display in the multiplayer lobby would not update correctly when you changed the current difficulty selection\n- Fixed an issue where an unintended scene would load if the player repossessed a new Espire right after the \"void out\" sequence in Operation Sky High\n- Fix an issue where the weapon slide may not correctly update after ejecting a bullet for some weapons\n- Updated final “Skip Debriefing” button to display only after you've seen the debriefing once before\n- Fixed an issue where the level would not correctly load if the player attempted to repossess a new Espire just as they triggered an airlock\n- Fixed an issue where an invisible “loading airlock” could be triggered if the player repossessed a new Espire while standing inside the airlock\n\n"
             }
         ],
-        "keywords": [
-            "Sneaking",
-            "FPS",
-            "Stealth",
-            "Multiplayer",
-            "Campaign"
-        ],
         "on_rookie": true,
         "general_update": 474865,
         "genre_update": 474685,
@@ -146,9 +131,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474865,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "sneaking",
+            "fps",
+            "stealth",
+            "multiplayer",
+            "campaign"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 499,
         "rating": 4.232465,

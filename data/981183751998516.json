@@ -107,13 +107,6 @@
                 "change_log": "Release 0.4.5.0\r\n11/23/2016\r\nChangelist #861\r\n\r\nDEVELOPER\t\r\nChess: \t        [861] Changed timing when stockfish return an invalid move. When that happens we give stockfish a full second to calculate it's next move and remove the 2 second wait time before it can move (until a valid move is found).\r\nChess: \t        [860] Fix for bug #58. Chess visualization reset now handles resetting of promoted pieces properly.\r\nAdded check for insufficient material draw condition when only pieces left are: two kings, two kings and a bishop or two kings and a knight."
             }
         ],
-        "keywords": [
-            "Chess",
-            "Board",
-            "Free",
-            "Relax",
-            "Casual"
-        ],
         "on_rookie": false,
         "general_update": 0,
         "genre_update": 474685,
@@ -122,9 +115,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
+        "keyword_update": 474880,
         "tag_update": 474685,
-        "last_update": 474685,
+        "keywords": [
+            "chess",
+            "board",
+            "free",
+            "relax",
+            "casual"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 214,
         "rating": 4.088785,

@@ -37,12 +37,7 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [
-            "Under $15",
-            "Under $7",
-            "Under $10",
-            "Tag"
-        ],
+        "tags": [],
         "hist": [
             {
                 "rating": 1,
@@ -162,13 +157,6 @@
                 "change_log": "New Features\n============\n- 180, 360 and 180 fisheye images and videos are now rendered to the spherical timewarp layer for better image clarity.\n- Added option in \"Player Settings\" to re-enable/fallback to the legacy eye buffer rendering mode (see note 1 below).\n- Device refresh rate now auto syncs as best it can to video frame rate for smoother playback (most noticeable during long panning shots).\n- Added recognition of .iso files as valid video files.\n- Added support for SMB3.1.1\n- Updated internal libvlc video decoding library to latest build to take advantage of all updates/bug fixes done to the library over the last year.\n- Added support to manually specify optional port number to use in SMB connections.\n\nQuest2 specific updates\n=======================\n- App should now be fully aware if its running on Quest2 or Quest1.\n- Enable 90Hz refresh mode as default if running on Quest2.\n- Show Quest2 controller model if running on Quest2.\n- Show Quest2 controller help screen if running on Quest2.\n\nBug fixes\n=========\n- Fixed small bug with subtitle scale slider.\n- Fixed small gui bug in SMB login screen.\n- Fix video rotation detection bug for smb shared videos.\n- Other misc minor bug fixes.\n\nNote 1: Zooming and height adjustment in VR 180/360 mode is temporarily removed to support spherical timewarp layers as this layer uses in infinite radius which negates out any zooming and height adjustment capabilities. However, the legacy eye buffer method of rendering 180/360 views can be re-enabled again via the \"Use legacy eye buffer... \" option in the Player Settings menu, which will then also re-enable the zooming and height adjustment feature again when in 180/360 view mode.\n\nNote 2: Those using their own custom build of the libvlc library should still be able to continue using their current custom build without any side effects. However, it is highly recommended to update your personal libvlc build to be built from the latest libvlc code base linked from the Pigasus FAQ so as to take advantage of any updates and/or bug fixes made to the library over the last year and if nothing else, to ensure better sync to what Pigasus expects from the library."
             }
         ],
-        "keywords": [
-            "dlna",
-            "upnp",
-            "player",
-            "samba",
-            "video"
-        ],
         "on_rookie": true,
         "general_update": 474769,
         "genre_update": 474685,
@@ -178,8 +166,15 @@
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474769,
+        "tag_update": 474880,
+        "keywords": [
+            "dlna",
+            "upnp",
+            "player",
+            "samba",
+            "video"
+        ],
+        "last_update": 474880,
         "category": "APPS",
         "votes": 376,
         "rating": 3.433511,

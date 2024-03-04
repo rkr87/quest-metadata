@@ -77,7 +77,6 @@
                 "change_log": "A few comments:\n\n1. I am only supporting Quest 2 (and, if it's a safe superset, the Pro) but definitely not the Quest 1. I hope I've found all of the switches to define this.\n\n2. The Reviewer mentioned that I run noticeably lower than 60 FPS - in this version now, I do not (not that I can see), but it does have a rhythmic failure below 72FPS -- every 5 seconds, as indicated on the profiler? No idea what this is about except it's in sync with Eye Buffer Width/Height, Prediction Time, and Time to Render Frame going high in a cyclic manner. Not every one, but many.\n\n3. The reviewer pointed me at using RenderDoc to optimize my rendering, but I am developing on MacOS and RenderDoc does not run on my platform.\n\n4. I tried mesh baking, but that didn't seem to help.\n\nIf there was some reasonable way I could have a conversation or support around optimization, if my FPS is still unacceptable, that would be excellent. I've read and tried nearly everything I could find, and incorporated everything that seemed to help into this.\n\nMy next project will not be done the same way as Field Effect - this was a learning project - and I learned that the various assets in the Unity store do not play nicely with the Oculus."
             }
         ],
-        "keywords": [],
         "on_rookie": false,
         "general_update": 0,
         "genre_update": 474685,
@@ -88,6 +87,7 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [],
         "last_update": 474685,
         "category": "GAMES",
         "votes": 0,

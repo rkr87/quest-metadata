@@ -114,13 +114,6 @@
                 "change_log": "This is an identical build to the last one submitted, but with the minimum supported Android level reduced to 5.0 from 7.0. The previous submitted build passed all tests except a query about support for Lollipop and Marshmallow. I am concerned that older hardware might not reach the desired frame rate, however I submit this version to test out. If it fails, is it acceptable to Oculus to restore the minimum Android level to 7.0 and therefore choose not to support Lollipop and Marshmallow?"
             }
         ],
-        "keywords": [
-            "space",
-            "spacewalk",
-            "shuttle",
-            "earth",
-            "astronaut"
-        ],
         "on_rookie": false,
         "general_update": 474721,
         "genre_update": 474685,
@@ -131,6 +124,13 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [
+            "space",
+            "spacewalk",
+            "shuttle",
+            "earth",
+            "astronaut"
+        ],
         "last_update": 474721,
         "category": "GAMES",
         "votes": 261,

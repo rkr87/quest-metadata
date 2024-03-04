@@ -120,7 +120,6 @@
                 "change_log": "--------- - 0.0.20 - AppLab Submission Build - ------------------\n-Upgraded Unity from 2019 to 2020 LTS\n\n-Apk now signed and ARM64 instead of ARMv7 (whoopsie!). Steps required for AppLab submission. This means you will need to uninstall Revria before installing the new version. This unfortunately will clear your settings, credits, and fines since I'm using Unity's built-in PlayerPrefs to save data for now. \n\n-Changing to ARM64 was a huge performance boost! Quest 2 now has two quick graphical improvements as a result:\n\n-Quest 2: Realtime shadows!\n\nQuest 2: Accent/point lights apply to all objects instead of just static/world objects.\n\n-Navigation-graph for AI is now pre-generated and included in the build, instead of regenerating it every time a scene/planet loads. Operations related to LOD grouping and static colliders were similarly removed from scene-load process.\n\n-Added effect over windshield w/ blue light during Drum/jump-gate transit. (Was previously full view fade-to-black) Scenes/planets now load asynchronously in an attempt to maintain fluid camera movement during scene-load. Still one spot where it’s freezing in the load/init process, despite the efforts mentioned in the previous item. Will smooth it out if I can determine what step is making the GPU/CPU hang. Grumble.\n\n-A few NPC/background-sim performance optimizations.\n\n-Replaced some plants/trees on Revria with the transparent/cutout ones I was using previously (seen in announcement teaser from January). Also finally found a suitable Unity shader for cutouts to avoid pixellated edges on Quest. (Legacy>Transparent>Cutout>VertexLit)\n\n-Swapped some terrain textures on Revria. Felt it looked a bit cartoony with too much green everywhere. I only get four terrain textures per planet, so it's tough making decisions. It’ll probably take a while to land on my final choices for all planets.\n\n-Disabled particle/volumetric clouds on Seftos. Most likely neither Aiduq nor Seftos will be able to have volumetric clouds. Too much transparency has a heavy performance-cost and leads to more stuttering than I can abide.\n\n-Fixed positioning of Faders and Screen inside Optera Duo\n\n-Fixed some task-target pointers on HoloTracker not getting deactivated when they should\n\n-Added menu interaction audio with placeholder sounds\n"
             }
         ],
-        "keywords": [],
         "on_rookie": true,
         "general_update": 474745,
         "genre_update": 474685,
@@ -131,6 +130,7 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [],
         "last_update": 474745,
         "category": "GAMES",
         "votes": 52,

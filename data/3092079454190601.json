@@ -37,7 +37,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "MR",
+            "Mixed Reality",
             "Enterprise",
             "Collaborative"
         ],
@@ -92,13 +92,6 @@
                 "change_log": "NEW\n\nMetatraversal\n- Added the ability to create portals to partnered metaverse applications on Meta Quest headsets. If you want to add inter-app travel between your application and ENGAGE, please contact sales@engageplc.com.\n\nPersistent Sessions\n- Added an option for hosts to restrict access to a persistent Session so that only members of the owning group can join.\n\nMixed Reality\n- Added a mixed reality passthrough window on Meta Quest headsets that users can position in any Session and shows a view of their surrounding physical environment.\n\n\nIMPROVED\n\nSecurity and performance\n- Added an ENGAGE prefix to the file name of downloaded 2FA recovery codes so that they are easier to identify.\n- Implemented multiple error messages to communicate the different reasons why someone who used the Remember Me option must log in again.\n\nSessions\n- Implemented a maximum password length of 16 characters.\n\nMixed reality\n- Added an icon to a user's name tag to indicate when they are in mixed reality mode.\n\nVoice communication\n- Upgraded the voice communication service.\n\n\nFIXED\n\nAvatars\n- Fixed an issue where if a user entered away mode, the Away tag obscured icons in the name tag.\n- Fixed an issue that could cause an avatar's name tag to be incorrectly placed.\n- Fixed an issue that could cause multiple avatars to occupy the same seat.\n\nAccount creation\n- Fixed an issue where if a user didn't enter a username at account creation, the resulting error message incorrectly referenced the last name field.\n\nLocalization\n- Added translations to some unlocalized areas of the application.\n\nMeta headsets\n- Fixed the ability to perform a search from the address bar of the in-session web browser. \n\nCloud File Manager\n- Fixed an issue that prevented users from being able to load video files that were uploaded before the v3.6 release.\n- Fixed an issue that prevented users from being able to copy a sequence file to Cloud File Manager immediately after they saved it to their device in the Content Editor.\n\nContent Editor\n- Fixed an issue where if keyframes were added to an IFX and then deleted, a user could not reposition the IFX until after they added another keyframe.\n- Fixed an issue that prevented the deletion of keyframes.\n- Fixed an issue that could cause keys at the location of the playhead to be deleted instead of only the keys that were selected.\n\nVR headsets\n- Fixed the title of the virtual keyboard when a user enters their password to view their 2FA recovery codes.\n\nIFX\n- Fixed an issue that reverted object bubbles to appear on hover instead of on selection.\n- Fixed issues with filter settings in the IFX library so that applied tags are always visible, and the removal of tags immediately updates search results.\n\nMixed reality\n- Fixed an issue where if a user changed from MR mode to VR mode, thumb controls could cause their avatar to rotate around a point other than the center of their body.\n- Fixed the playback of a demonstration video for Location Anchor placement on Meta Quest 3 and Quest Pro headsets.\n\nConnections\n- Fixed an issue that could cause a user who is not logged in to show with an online status.\n\nMenu\n- Fixed an issue that could cause some menu screens to appear blank.\n\nSecurity and performance\n- Added a specific error message to communicate when a user is logged out of the ENGAGE application due to inactivity.\n\nDeep links\n- Fixed deep links to correctly open the intended Session or Event.\n\nSticky notes\n- Fixed an issue where locked sticky notes could still be moved."
             }
         ],
-        "keywords": [
-            "Events",
-            "Collaboration",
-            "Social",
-            "Education",
-            "Engage"
-        ],
         "on_rookie": false,
         "general_update": 474817,
         "genre_update": 474685,
@@ -107,9 +100,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474817,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "events",
+            "collaboration",
+            "social",
+            "education",
+            "engage"
+        ],
+        "last_update": 474880,
         "category": "APPS",
         "votes": 140,
         "rating": 3.664286,

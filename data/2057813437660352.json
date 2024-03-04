@@ -79,13 +79,6 @@
                 "change_log": "This build addresses the following issues: \nInput.1: Displays a message at startup if no controller is detected.  Message stays up until a controller is attached, then the app continues\n\nInput.3: Made the back button bring up the platform quit dialog when on the main menu.  While playing a movie, it still brings up the jump menu\n\nInput.6: Fixed an issue where the ray casting wouldn't work for left-handed controllers.  Also fixed the tooltips on the left-handed controller.  Tested this by switching hands while the app was running and it seems to work"
             }
         ],
-        "keywords": [
-            "Eleven",
-            "Narrative",
-            "SYFY",
-            "Cinematic",
-            "Storytelling"
-        ],
         "on_rookie": false,
         "general_update": 0,
         "genre_update": 474685,
@@ -94,9 +87,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
+        "keyword_update": 474880,
         "tag_update": 474685,
-        "last_update": 474685,
+        "keywords": [
+            "eleven",
+            "narrative",
+            "syfy",
+            "cinematic",
+            "storytelling"
+        ],
+        "last_update": 474880,
         "category": "ENTERTAINMENT",
         "votes": 20,
         "rating": 2.7,

@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.15.00.02",
+                "change_log": "collision on toggle switch"
+            },
+            {
                 "version": "1.15.00.01",
                 "change_log": "Delay permissions check"
             },
@@ -151,13 +155,8 @@
             {
                 "version": "1.12.00.12",
                 "change_log": "- Fixed note stuck on with hand tracking\n- Added scale threshold for synth keys, when small finger tips are used for collision when larger, palm collisions are used.\n- Disabled hand overlap triggering arrow buttons such as minimize or change to pads/harp etc."
-            },
-            {
-                "version": "1.12.00.10",
-                "change_log": "Oculus branch new hand tracking and passthrough"
             }
         ],
-        "keywords": [],
         "on_rookie": false,
         "general_update": 474817,
         "genre_update": 474685,
@@ -168,6 +167,7 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [],
         "last_update": 474817,
         "category": "APPS",
         "votes": 8,

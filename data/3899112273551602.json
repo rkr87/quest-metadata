@@ -33,13 +33,10 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "MR",
-            "Enterprise",
-            "Building with your hands, fiddling, tinkering",
-            "App Lab Graduates",
             "Mixed Reality",
-            "Passthrough",
-            "Meta Quest Pro Launch"
+            "Enterprise",
+            "App Lab Graduates",
+            "Passthrough"
         ],
         "hist": [
             {
@@ -85,6 +82,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.4.1.9478",
+                "change_log": "2.4.0.9475 -> 2.4.1.9478\n-Shared folder fixes and polishing\n-New selection fixes and polishing"
+            },
             {
                 "version": "2.4.0.9473",
                 "change_log": "- New Selection (experimental feature)\n- New Gizmo (experimental feature)\n- Shared assets (paid feature)\n- New templates"
@@ -134,13 +135,6 @@
                 "change_log": "IMPROVEMENTS\nAdded hover effect feedback on controller input\nAdded buttons highlighting Quest Pro controllers\nPlans window scrolling improvements\nBUG FIXES\nFixed some exceptions with opened presentation panel, viewpoints, and undo-redo\nFixed when changing permissions via sharing menu in the lobby doesn't work\nFixed when holonotes avatar is not hidden when the Holonotes menu is closed\nSome minor fixes for the same page mode\nFixes for spaces submenu options\nFixes for interactive onboarding"
             }
         ],
-        "keywords": [
-            "design",
-            "collaboration",
-            "prototyping",
-            "storytelling",
-            "productivity"
-        ],
         "on_rookie": false,
         "general_update": 474865,
         "genre_update": 474685,
@@ -150,8 +144,15 @@
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474865,
+        "tag_update": 474880,
+        "keywords": [
+            "design",
+            "collaboration",
+            "prototyping",
+            "storytelling",
+            "productivity"
+        ],
+        "last_update": 474880,
         "category": "APPS",
         "votes": 279,
         "rating": 4.157706,

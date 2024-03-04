@@ -101,7 +101,6 @@
                 "change_log": "Currently implemented\n- 6 microgames: CHOMP, Claws Out, Shooter, Grenades, Forces, and Feeder\n-- Feeder now uses the players’ walls to spawn portals\n-- Physics objects will react with your furniture (Shooter, Grenades, Forces, Feeder)\n- Multiplayer with code based room join\n- Connection loss player notifications and exit button\n- Hand-tracking with gesture inputs\n- Environment options\n-- Music\n-- Passthrough and non-passthrough settings\n- Local Scene Understanding\n- Multiplayer Scene Understanding\n- Diegetic UI menus\n- Character customization: Hats, Watches, and Bodies\n- Your Room - a playground area to try out tools and rearrange\n- Game scoring and rounds\n\nKnown Issues\n- With a high latency host (whomever creates the room), some of the game behavior can get less responsive to other players. Whomever has the best connection should host.\n- Scene Understanding couches (barrels) do not scale height correctly at this time.\n- If players leave and rejoin a room, or otherwise change the order of player IDs, it can cause strange behavior in some games.\n- Re-centering can break room layouts."
             }
         ],
-        "keywords": [],
         "on_rookie": false,
         "general_update": 474817,
         "genre_update": 474685,
@@ -112,6 +111,7 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [],
         "last_update": 474817,
         "category": "GAMES",
         "votes": 23,

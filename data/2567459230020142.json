@@ -45,12 +45,8 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "xbuy",
-            "Cardio workouts",
-            "Fitness Favorites [Top Fitness]",
-            "Fantasy Workouts [Top Fitness]",
+            "Fitness",
             "Roguelikes",
-            "offline games",
             "Melee Combat"
         ],
         "hist": [
@@ -72,7 +68,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1835
+                "votes": 1836
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -110,15 +106,8 @@
                 "change_log": "The primary goal of this update is to bring various platforms to a synchronized codebase.\n\nNotable Changes\n- Quest version of the game now has all changes/fixes from the 1.1 PC Launch:\n-- Dynamic Range on Enemy Lunge Attacks\n-- Enemy Strafing Behavior\n-- Screen Fade Optimizations\n\nBug Fixes\n- Added a more verbose error screen for when the game runs out of Disk Space\n- Fixed a variety of issues caused by the player being able to Dash before the level is ready\n- Better fix for the \"Unlock 12 Weapons\" and \"Upgrade 12 Weapons to X\" achievements not unlocking immediately / at the right time\n- Fixed an issue where Left-Handed mode would show the wrong grip image in the tutorial\n- Fixed a crash caused by Projectiles being destroyed\n- Fixed a memory leak that could introduce issues after long play sessions\n- Fixed an animation issue for the Battle Tips on the Cashout screen\n- Small audio adjustments (audio popping is still a known issue)\n- Fixed an issue with the Left Eye rendering oddly for one frame when bringing up the Weapon Inspection UI "
             }
         ],
-        "keywords": [
-            "hacknslash",
-            "swordfighting",
-            "sword",
-            "rougelite",
-            "fitness"
-        ],
         "on_rookie": true,
-        "general_update": 474865,
+        "general_update": 474880,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -126,11 +115,18 @@
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474865,
+        "tag_update": 474880,
+        "keywords": [
+            "hacknslash",
+            "swordfighting",
+            "sword",
+            "rougelite",
+            "fitness"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
-        "votes": 2210,
-        "rating": 4.69276,
+        "votes": 2211,
+        "rating": 4.692899,
         "weighted_rating": 4.65
     },
     "errors": []

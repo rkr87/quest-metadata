@@ -30,10 +30,8 @@
             "STANDING"
         ],
         "tags": [
-            "MR",
-            "Enterprise",
-            "Meta Quest Pro Launch",
             "Mixed Reality",
+            "Enterprise",
             "Passthrough",
             "Collaborative"
         ],
@@ -86,13 +84,6 @@
                 "change_log": "* Added tracked keyboard support for Logitech K830 and Apple Magic keyboard\n* Added keyboard type Passthrough, to see into your environment to use any mouse/keyboard\n* Virtual mic/webcam premium feature is now enabled for free\n* Monitors and apps resume streaming much faster now when changing Windows resolution settings (still takes a little while though)\n* Added settings to enable/disable remote mouse/keyboard control\n* Remote desktop now listens for holding the Shift/Ctrl/Alt keys for Insert, End, Home, PageUp, PageDown, and arrow keys\n* App streaming initial resolution set to max\n* Added enter focus mode button to carousel controls\n* Screens are now launched at a consistent size in focus mode\n* Environment updates\n* Users are now notified when they're in focus mode, and its purpose\n* Monitor DPI scaling now only occurs when experimental streaming apps setting is enabled, override to stop changing DPI scaling in all cases\n* Updated tutorial content\n* Improved z-fighting\n* Fixed a bug that could cause the carousel toggle to not do anything\n* Fixed a bug that could cause the controller models to stay visible when they should be hidden\n* Keyboard bug fixes\n* Many minor bug fixes\n* Many minor optimizations"
             }
         ],
-        "keywords": [
-            "remote",
-            "desktop",
-            "stream",
-            "collaboration",
-            "productivity"
-        ],
         "on_rookie": false,
         "general_update": 474769,
         "genre_update": 474685,
@@ -101,9 +92,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474769,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "remote",
+            "desktop",
+            "streaming",
+            "collaboration",
+            "productivity"
+        ],
+        "last_update": 474880,
         "category": "APPS",
         "votes": 251,
         "rating": 2.98008,

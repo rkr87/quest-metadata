@@ -77,7 +77,6 @@
                 "change_log": "Fixed Security vulnerabilities per VRC.Quest.Security.2\n- Removed android.permission.WRITE_EXTERNAL_STORAGE\n- READ_EXTERNAL_STORAGE is hardcoded into Engine\n- Prevent Cleartext Traffic by enabling Android NSC\n- Set android:allowBackup to False to prevent app data being exposed through backups\nPermissions Warnings not addressed:\n- OpenSSL Vulnerabilities flagged\n\t- Our APK contains OpenSSL libraries 1.0.1s, 1.1.1 and 1.1.1c, NONE of our libraries have (1.0.1 - 1.0.1f) heartbleed in them\n\nFixed experience pause per VRC.Quest.Functional.2\n- Pause experience when headset loses focus or opens the Dash\n\nRemoved 32 Bit compatibility and Enabled Arm64 Support"
             }
         ],
-        "keywords": [],
         "on_rookie": true,
         "general_update": 0,
         "genre_update": 474685,
@@ -88,6 +87,7 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [],
         "last_update": 474685,
         "category": "GAMES",
         "votes": 2,

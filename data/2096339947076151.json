@@ -36,11 +36,7 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [
-            "xbuy",
-            "Play with magic",
-            "Award-winning"
-        ],
+        "tags": [],
         "hist": [
             {
                 "rating": 1,
@@ -108,13 +104,6 @@
                 "change_log": "Improved features\n-Matchmaking is not stopped by dueling the AI\n-Added a casting animation when 6DoF characters use tile-based spells\n-Added Teleport to the off-hand for 6DoF players\n-Improved the AI's animations\n-Loading has been improved (the game should load more smoothly)\n-Brightened Lightning Strike's VFX on Quest\n\nGame balancing\nThere are numerous balance changes to account for platform differences, including:\n-3DoF mana regen increased from 10/s to 15/s\n-6DoF mana regen increased from 10/s to 12/s\n-Acid Cloud: Cost increased 35 to 40, can be active on a maximum of 3 tiles at the same time\n-Armor of the Sun: Cost increased from 40 to 50\n-Chaos Leap: Cost increased from 25 to 40\n-Dragons Breath: Startup cost increased from 10 to 25, cost per second reduced from 15 to 5\n-Electric Fist: Amount of bolts increased from 5 to 8, damage per bolt reduced from 8 to 5\n-Hail of Death: Firing rate increased by 0.05s\n-Heavenly Dome: Startup cost increased from 15 to 20, cost per second increased from 5 to 20\n-Shield of Light: Startup cost increased from 15 to 20\n-Petrifying Prison: Cost increased from 30 to 35, duration reduced to 3s\n-Teleport: Cost increased from 20 to 25\n\n\nBug fixes\n-Numerous bugs involving tile-based spells have been fixed\n-Skull Specter no longer attacks its caster when its tile is occupied\n-Your first match is no longer an exhibition match\n-Skill ratings are now properly displayed on the Monolith\n-Fixed a bug that made matchmaking take longer for first-time players\n-The Celestial Halls portal tile effects do not follow a player who is bounced off it"
             }
         ],
-        "keywords": [
-            "competitive",
-            "multiplayer",
-            "magic",
-            "online",
-            "wands"
-        ],
         "on_rookie": true,
         "general_update": 474841,
         "genre_update": 474685,
@@ -124,8 +113,15 @@
         "platform_update": 474685,
         "player_mode_update": 474685,
         "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474841,
+        "tag_update": 474880,
+        "keywords": [
+            "competitive",
+            "multiplayer",
+            "magic",
+            "online",
+            "wands"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 538,
         "rating": 3.925651,

@@ -42,13 +42,7 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [
-            "xbuy",
-            "Screen-to-VR adaptations (840)",
-            "Screen-to-VR adaptations",
-            "Holiday Sale 2023 [hidden gems shelf]",
-            "psychological thrillers"
-        ],
+        "tags": [],
         "hist": [
             {
                 "rating": 1,
@@ -99,13 +93,6 @@
                 "change_log": "Overview:\n\nMassive texture update, improved resolution, shaders and lighting\nQuest 2 90hz update\nNew animations, texture effects and scaled resolution on all demons\nImproved physics interactions and ported in the PC version of the Torch in Chapter 5\nOut of bounds now resets position after countdown\nVarious bug fixes and quality of life updates\n\nDetails: \n\nRendering update:\n\nIncreased texture resolution throughout\nImproved lighting throughout\nVarious updates to shaders and particles\nVarious animation and art improvements\nImproved readability of ingame documents\n\nOut of bounds System:\nPlayer position is now reset to a safe position if out of the play area for over 5 seconds\nCountdown and UI to explain repositioning\n\nPhysics:\n90hz physics refresh for Quest 2 users to smooth all interactions and movements\nImproved interaction pickup and release\nGeneral locomotion improvements\nSmooth crouching improvements\n\nDevelopment:\nMove forwards, backwards and diagonally while the menu is open - Strafe is blocked due to menu interactions.\nImproved memory management\nGeneral teleport improvements: player no longer has to look directly down at the floor to teleport.\n\nFixes:\nAdd fail-safes for the cross occasionally disconnecting from the kit and becoming unusable.\nBug where hands would sometimes get stuck in the hover state and the player would not be able to make a fist.\nGeneral fixes and additional rules to catch any potential issues\n"
             }
         ],
-        "keywords": [
-            "Exorcist",
-            "Horror",
-            "Movie",
-            "Demon",
-            "Scary"
-        ],
         "on_rookie": true,
         "general_update": 474865,
         "genre_update": 474793,
@@ -114,9 +101,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474865,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "exorcist",
+            "horror",
+            "movie",
+            "demon",
+            "scary"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 858,
         "rating": 4.068765,

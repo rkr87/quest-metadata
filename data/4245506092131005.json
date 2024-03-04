@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "0.6.0-alpha",
+                "change_log": "- New BlackMage map\n- New stats and rankings\n- Ammo exploit is fixed"
+            },
+            {
                 "version": "0.5.1-alpha",
                 "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens\n- Added button to clear settings file\n- Increased minimum avatar height scale"
             },
@@ -110,7 +114,6 @@
                 "change_log": "- Added Gustavo Map\n- Added view for seeing what players are in a selected server\n- Play different audio whether team mic or all chat mic is enabled\n- Fixed bug where game would freeze completely in home scene if master server is down"
             }
         ],
-        "keywords": [],
         "on_rookie": false,
         "general_update": 474865,
         "genre_update": 474685,
@@ -121,6 +124,7 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "keywords": [],
         "last_update": 474865,
         "category": "GAMES",
         "votes": 902,

@@ -35,17 +35,7 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [
-            "Action",
-            "Elite espionage",
-            "Quest Classics v2",
-            "Made in Australia",
-            "Holiday Sale 2023 [competitive social shelf]",
-            "Holiday Sale 2023 [blockbusters shelf]",
-            "Holiday Sale 2023 [fitness shelf]",
-            "NUX Action",
-            "Solo"
-        ],
+        "tags": [],
         "hist": [
             {
                 "rating": 1,
@@ -131,13 +121,6 @@
                 "change_log": "Implemented a setting to change between hold-to-grip and toggle grip.\nFixed an issue where players were still seeing their motion controller in-game.\nAdded a Brightness option to the Display menu, allowing players to adjust overall brightness.\nFixed an issue where environmental objects were stunning guards without being, first, disturbed by a player.\nFixed an issue where players could incorrectly pause the game while inside the checkpoint airlock after reloading their saved mission progress.\nFixed an issue where the user would fall through the world after possessing certain Espire units while in the checkpoint Airlock after reloading saved mission progress.\nFixed lighting issues in the Radiata Virtual Challenge.\nImproved the ease of use for “slider bars” in the game’s UI.\n\nFor Oculus Quest players, this update includes the above changes as well as the previous changes from Update 1.1, these notes can be found below:\n\nPlatform Improvements\nCorrected instances where the user is instructed to use the “watch” pause menu.\n\nAudio\nAdded an option to disable voice lines for the repair/damage notifications.\nAdjusted the frequency at which voice lines for repair/damage notifications play, while enabled.\n\nA.I\nAdjusted AI sight-lines so that it's more difficult for the guards to spot the player during the \"Search\" stage.\nAdded more shadowed hiding spots in various areas of the Espire Labs mission.\nExplosives no longer apply stun damage to guards unless they have been first been hit by another object, or the player has gripped the explosive.\nFixed an issue where guards woken by an ally would be abnormally hard to stun.\nFixed an issue where guards were taking incorrect stun damage based on the limb that was shocked.\nFixed an issue where guards would become unresponsive when stunned or killed while waking up.\n\nInput & Customization\nAdded an option in the Display Settings to disable the blue detection level HUD lines.\nRedesigned the Comfort Settings UI, such that it is clear how to disable our comfort mode (The Espire Control Theater).\nRedesigned the Smooth/Snap turn settings so that players now switch between smooth and snap turn modes and adjust the speed/intensity of each.\nImplemented a setting to change between hold-to-grip and toggle grip.\nThe \"Direction for movement\" (HMD based / Controller based) option is not being applied until after a mission restart. It is not 'sticky' in the UI either.\nImproved “slider bars” in the game’s UI. They are now much easier to interact with. \n\nFeature Improvements:\nRadiata Virtual Challenge: Lighting is over-bright. Re-light the challenge.\nDisabled the \"Ghost Hand\" feature, where motion controllers render on top of weapons if Espire's Hand doesn't match the real-world location of the player's hand. Will be brought back as an option in a future update.\n\nBugs\nFixed an issue where the blue holographic belt would remain visible when the player recalibrates during Mission 1.1.\nFixed an issue where players could incorrectly pause the game while inside the checkpoint airlock after reloading their saved mission progress.\nFixed an issue where the user would fall through the world after possessing certain Espire units while in the checkpoint Airlock after reloading saved mission progress.\nFixed an issue where some items could fall through the world on the Aquatica map.\nFixed and issue where a blast door reappears without collision when back-tracking to the Command Center on Mission 1.6.\nFixed an issue where the user's hands are not aligned with their in-game counterparts when grabbing a certain assault rifle in Mission 1.3.\nFixed an issue where the Espire Trial 'Electrocutioner' is unattainable after fulfilling its requirement in Mission 1.3.\nFixed an issue where a user could become stuck in a wall in the caves of Mission 1.3\nFixed an issue in Mission 1.1 where a hanging black pipe could not be climbed.\nFixed an issue in Mission 1.1 where a certain voice line was being triggered too late\nFixed a lighting issue Mission 1.3\nFixed collision issues with some railings in Mission 1.4\nFixed a visible gap in the map of Mission 1.4\n"
             }
         ],
-        "keywords": [
-            "Stealth",
-            "Espire",
-            "Espionage",
-            "Infiltration",
-            "Sneaking"
-        ],
         "on_rookie": true,
         "general_update": 474841,
         "genre_update": 474685,
@@ -146,9 +129,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474841,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "stealth",
+            "espire",
+            "espionage",
+            "infiltration",
+            "sneaking"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 2964,
         "rating": 4.17004,

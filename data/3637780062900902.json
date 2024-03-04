@@ -39,9 +39,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "Coming Soon",
-            "Play with magic",
-            "Accessible games"
+            "Coming Soon"
         ],
         "hist": [
             {
@@ -122,13 +120,6 @@
                 "change_log": "* Improved matchmaking to better accommodate for the players’ skill level\n* Increased activation time for Sledgehammer's passive ability from 3.5 seconds to 5 seconds and decreased cooldown reduction from 50 % to 40 %.\n* Implemented a more stable way of counting stats for won and lost matches. If you leave a game early it will count as a loss from now on, and if you join during the final round the match will not count.\n* Increased diameter of Gravity Well from 4 meters to 6 meters\n* Life Seed now also collides with caster, allowing users to heal themselves and teammates more consistently\n* When removing the wand from The Omega during arming/disarming, progress now diminishes slower, mitigating the issue with lost progress\n* Tweaked the armed countdown-sound for The Omega to better indicate the remaining time until detonation\n* Fixed bug where you weren’t able to move The Omega onto one lantern on The Rookery\n* Fixed bug where Sledgehammer's passive would sometimes activate too early\n* Added highlighted (colored) numerical parameters in class description\n* Added visuals for spell reticles as well as notifications to better indicate when a spell is off coooldown.\n* Fixed the warning message not showing when stepping outside the light of the lantern you're on\n* Renamed “Story” to “Lore” in the main menu to better explain the purpose of the button\n* Rare bug fixed where loading of the next level after a rematch could fail (and where the match played out in the post match room).\n* Unlocked spell cards now rotate 180 degrees allowing the player to view the back of the card in the lobby"
             }
         ],
-        "keywords": [
-            "PvP",
-            "Multiplayer",
-            "shooter",
-            "competitive",
-            "magic"
-        ],
         "on_rookie": true,
         "general_update": 0,
         "genre_update": 474685,
@@ -137,9 +128,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474685,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "pvp",
+            "multiplayer",
+            "shooter",
+            "competitive",
+            "magic"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 230,
         "rating": 4.347826,

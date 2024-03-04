@@ -34,11 +34,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 47
+                "votes": 48
             },
             {
                 "rating": 2,
-                "votes": 18
+                "votes": 17
             },
             {
                 "rating": 3,
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1415
+                "votes": 1418
             }
         ],
         "comfort": "NOT_RATED",
@@ -85,9 +85,8 @@
                 "change_log": "UPDATE 2 (Massive update)\n\nNPC:\n- Replaced every blue pedestrian with detailed and interactive NPCs.\n- NPCs can be pulled using ropes.\n- NPCs with automatic weapons can fire in burst mode.\n- Added a faction system that allows NPCs to pick sides and fight each other.\n- NPCs will react to sound and dead bodies.\n- NPCs can flee combat depending on their courage level.\n- NPCs now have facial expressions.\n- Weapons used by NPCs are now the same level of detail as the players'.\n- Improved the combat positioning for NPCs. They no longer stay in the same spots while fighting the player.\n- Improved the visuals for criminals.\n\nWEAPONS:\n- Added 2 new weapons: Pump-action shotgun, Suppressed submachine gun.\n- Added 2 new physics weapons: Fire extinguisher, office chair.\n- Added a spawn menu to the spawngun, which lets you spawn every type of NPCs and objects.\n- Added silencers for every weapon in the game.\n- Placing a magazine near a weapon automatically removes the previous magazine.\n- Blocking a gunshot with an object will cause the holding hands to vibrate.\n- Increased the spawngun spawn limit to 100 scene objects (items/npcs).\n\nWORLD:\n- Added a new time of day: Dusk.\n- Added random criminal gunfights in the city.\n- Added \"hater pedestrians\" that will attack the player at random times.\n- Increased car density by 33%.\n- Increased car rendering distance by 39%.\n- Added fake distant traffic everywhere in the city.\n- Moved the player start to a new location for an easier first-time swinging experience.\n\nMISC:\n- You can spawn magazines by reaching into your backpack with the trigger.\n- Hands and rope color can now be selected using a color wheel.\n- Added a joystick flipping option.\n- Added a turn intensity option.\n- Weapons are now categorized in the menu.\n- Replaced the difficulty system with a global difficulty slider.\n- Hitting something with an NPC will play haptics on the controllers.\n\nBUG FIXES:\n- Fixed criminals appearing low quality for Quest 3 users.\n- Fixed unnatural NPC rotations.\n- Fixed an issue that prevents the player from flipping.\n- Fixed NPC ragdoll rolling on the floor.\n- Fixed movement sensitivity for some users who experience joystick drift.\n- Fixed rope not applying force immediately to ragdolls and items.\n- Fixed accidental rope pulls while rotating or flipping.\n- Fixed a memory leak with the pedestrian spawn system.\n- Fixed rope not applying force to NPCs in some cases.\n- Fixed rope shoot animation playing when attaching two ropes together.\n- Fixed automatic weapons shooting while in the menu.\n\nPERFORMANCE:\n- Optimized the number of physics joints for NPCs.\n- Added a culling distance for multiple small objects, which should reduce the number of draw calls.\n- Added a system that automatically optimizes NPCs' physics and ticking depending on distance.\n- Replaced some unnecessary stationary lights with static lights in combat levels.\n- Reduced ticking on some items."
             }
         ],
-        "keywords": [],
         "on_rookie": true,
-        "general_update": 474865,
+        "general_update": 474880,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -96,10 +95,11 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474865,
+        "keywords": [],
+        "last_update": 474880,
         "category": "GAMES",
-        "votes": 1716,
-        "rating": 4.698718,
+        "votes": 1719,
+        "rating": 4.698662,
         "weighted_rating": 4.65
     },
     "errors": []

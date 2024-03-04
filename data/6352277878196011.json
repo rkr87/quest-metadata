@@ -38,12 +38,7 @@
             "STANDING"
         ],
         "tags": [
-            "Coming Soon",
-            "Action",
-            "Retro revival",
-            "Arvore",
-            "Holiday Sale 2023 [hidden gems shelf]",
-            "NUX Action"
+            "Coming Soon"
         ],
         "hist": [
             {
@@ -103,13 +98,6 @@
                 "change_log": "Patch Notes - v1.1.0.375 (03/07/2023)\n\nHey there, heroes of the gaming world!\n\nIt’s been a couple of weeks since we released our groovy game Pixel Ripped 1978! Things have been great, with new players coming in daily! But you know, our game is about getting bugs fixed so what’s better than us fixing some tiny stuff as well?\n\nOn this first patch, we have not only bug fixes but also some balancing and things to get the Pixel ‘78 even more polished. Why not?\n\nSo, without further ado, on patch 1.1.0.375 we’ll get:\n\nBalancing\nThird Boss balancing\nMade the third chapter boss a bit easier to avoid frustration. The main change was a 25% increase in barrier respawn time to give the player a bigger window to hit the boss.\nFinal Boss Meteor Delay\nIncreased last boss' meteor shot delay.\nRemoved slower movement speed\nWell, that’s kinda self-explanatory.\n\nBug Fixing\nGrowing Trees\nFixed a bug that allowed players to walk through pixelable palm trees before the object was completed.\nFarofa 83 Temples\nFixed Far-of-a-Land temple having no collider.\nTeleport Progression\nFixed an issue that could halt Grave Yar progression when using the teleport movement.\nMission Object Release\nFixed an issue that could cause mission objects to be released when they shouldn’t.\nProgression Inconsistencies\nFixed an issue where players needed to deliver a mission object again if they left the scene before grabbing the reward, among other inconsistencies when changing between worlds.\nGrab pose on Dot's Toy\nTweaked the grab pose on Dot's Doll.\nGrab Pose on Michelle's Distraction Stamp\nTweaked the grab pose on Michelle's Distraction Stamp.\nGrab pose on Melee Weapons\nTweaked the grab pose on a few melee weapons.\nDuplicated dog\nFixed an issue where after delivering the Code Stone, a duplicated dog appears inside a rock in Far-of-a-Land (we still love dogs tho. Dogs are never enough in real life!).\nNPC blocking house\nFixed NPC not properly blocking the entrance to the house next to the Tavern in Far-of-a-Land.\nMissing Subtitles\nFixed missing subtitles for some office voice lines.\nOpenings in Grave Yar\nBlocked passages next to the collectable baseball bat and near the end of the level.\nSilence at the end of voice cameo calls\nRemoved silence at the end of voice cameo calls affecting subtitle duration.\nOpenings in Bentley’s Quest\nFixed player being able to walk behind the Castle and fixed some overlapping objects.\nEnemy moving through walls\nFixed Red Robot ignoring walls when returning to its original position.\nPersistent Progress Bar in final scene\nFixed persistent player sync progress bar after defeating the boss.\nEnemies Final Boss\nFixed enemies not resetting after player death in Final Boss.\nSound Pixel Stone Forged\nFixed sound of the Pixel Stone being forged occurring every time you return to Far-of-a-Land after the credits.\nDot puke\nAdded the sound of Dot puking after drinking beer.\nWrong SFX in Intro\nRemoved wrong SFX playing when Master arrives in the intro scene.\nGeneral code fixes\nCode fixes to prevent errors. \nFar-of-a-Land Music Area Bounds\nFixed triggers that changed music in Far-of-a-Land.\nFrog Shadow\nFixed frog in Bentley’s Quest having a static shadow when moving.\nHaptics speech box\nRemoved the haptic feedback that occurred when advancing a speech box while jump was unavailable.\nFinal Boss Meteor\nFixed the meteor being interrupted and falling elsewhere after canceling the Boss's special attack.\nWrong Cartridge in the final scene\nFixed the wrong cartridge art and title screen for Pixel Ripped in the final Basement scene.\nDestruction Particles\nFixed missing VFX when destroying objects in the 3D world.\nStamp Release\nFixed hand glitching when the stamp object was disabled while being held.\nDot Frilly Thrills song\nFixed missing background music in Far-of-a-Land during the final mission.\nBentley Material\nFixed some z-order issues with Bentley.\nFood Fight Timer\nFixed timer appearing on top of Dot's head right when the game starts.\nHand Prompt position\nFixed wrong Hand Prompt position for cartridges in the office.\nPaper Ball Throw\nFixed paper balls being thrown with the right trigger even after being released.\nFar-of-a-Land Signpost\nHouse sign still had \"...\" on top, even after interacting with it.\nSecond Boss dragons\nFixed dragons straying too far from the player.\nHouse sign\nFixed the house sign speech box color in Far-of-a-Land.\nChicken grab\nFixed an issue with grabbing the chicken when already too close to it in Far-of-a-Land.\nNoah Dialogue\nFixed Noah not talking anymore after the initial interaction.\nTelephone Audio End\nRemoved long delays before the end of most phone calls.\nRepeating Distractions\nFixed repeating distractions in the office during the second and third missions.\nDuplicated Chicken\nFixed an issue that caused two chickens to be briefly visible in Far-of-a-Land.\n\n\nPolishing\nFar-of-a-Land NPCs Dialogues\nTweaked NPCs dialogues in Far-of-a-Land to update along with the town and not before it.\nOffice NPC Mixing Changes\nLowered the volume of the voice-over and footsteps of NPCs in the office, and tweaked spatialization to a few phone calls.\nBoss Music Volume\nFixed balance between  boss’ music volumes.\nUpdate Credits\nCredits updated with testers' names.\nOut-of-Bounds Check\nPolished out-of-bounds check in the 3D world to be more consistent.\nObject Throw SFX\nAdded missing SFX when throwing some objects in the office.\nBug Hunt SFX\nAdded SFX to real-world bugs during the Bug Hunts.\nIntro 96 haptics\nRemoved jump haptic feedback from the 2D game in the first scene.\nPaper drawings\nDisplay a random selection of drawings in the notepad when grabbing a paper ball.\nHead Collision\nAdded colliders to objects that didn't have them and polished darkening vision when putting your head inside objects or straying too far from the center.\nYar Wings Feedback Sound\nYar's wings had no audio feedback after being grabbed.\nDelivering Objects\nFixed issues that could cause difficulty when delivering some objects to office characters when asked.\n\n\nNew Feature\nDeep Link With Pixel Ripped 1995 (only on Meta Quest)\nAdded button in Main Menu to open Pixel Ripped 1995 (or its store page if not installed) - Btw, here it is in case you don’t have it yet ;)\n\nThat was quite a list huh?\nIf you have any issue not listed in this patch note please feel free to join our discord server, where you can get in touch with the Pixel Ripped team and get help as fast as possible! And of course, keep an eye on new patch notes that could pop up in the future."
             }
         ],
-        "keywords": [
-            "retro",
-            "arvore",
-            "1980s",
-            "1970s",
-            "indie"
-        ],
         "on_rookie": true,
         "general_update": 0,
         "genre_update": 474685,
@@ -118,9 +106,14 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "keyword_update": 474685,
-        "tag_update": 474685,
-        "last_update": 474685,
+        "keyword_update": 474880,
+        "tag_update": 474880,
+        "keywords": [
+            "retro",
+            "arvore",
+            "indie"
+        ],
+        "last_update": 474880,
         "category": "GAMES",
         "votes": 53,
         "rating": 4.377358,
