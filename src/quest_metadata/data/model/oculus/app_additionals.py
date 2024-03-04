@@ -19,6 +19,7 @@ from pydantic import (AliasPath, Field, field_validator, model_serializer,
 from base.models import BaseModel, RootDictModel
 from config.app_config import AppConfig, ImageProps
 from helpers.dict import get_nested_keys
+from utils.constants import KEYWORD_USAGE_REQ
 from utils.error_manager import ErrorManager
 
 
@@ -214,6 +215,14 @@ class Translation(BaseModel):
     short_description: str
 
 
+class _StemParents(BaseModel):
+    """
+    model for tracking stem word parents
+    """
+    root_count: int
+    parents: dict[str, int]
+
+
 class AppAdditionalDetails(BaseModel):
     """
     Model for additional details of an application.
@@ -223,7 +232,7 @@ class AppAdditionalDetails(BaseModel):
     - images (AppImages): The collection of application images.
     - keywords (list[str]): The list of keywords.
     """
-    stem_parents: ClassVar[dict[str, dict[str, int]]] = {}
+    stem_parents: ClassVar[dict[str, _StemParents]] = {}
 
     translations: list[Translation] = []
     images: AppImages = AppImages()
@@ -251,15 +260,32 @@ class AppAdditionalDetails(BaseModel):
         """
         output: list[str] = []
         for stem in self.keywords:
-            parents: dict[str, int] = AppAdditionalDetails.stem_parents[stem]
-            parent: str = ""
-            max_val: int = 0
-            for k, v in parents.items():
-                if v > max_val:
-                    max_val = v
-                    parent = k
-            output.append(parent)
+            parents: _StemParents = AppAdditionalDetails.stem_parents[stem]
+            if parents.root_count < KEYWORD_USAGE_REQ:
+                continue
+
+            parent: str | None = self._find_most_common_parent(stem, parents)
+            if parent and parent not in output:
+                output.append(parent)
         return output
+
+    @staticmethod
+    def _find_most_common_parent(
+        stem: str,
+        parents: _StemParents
+    ) -> str | None:
+        """
+        Find the most common parent for a given stem.
+        """
+        max_parent: str = stem
+        max_val: int = parents.parents.get(stem, 0)
+        for k, v in parents.parents.items():
+            if k == stem:
+                return k
+            if v > max_val:
+                max_val = v
+                max_parent = k
+        return max_parent
 
     @staticmethod
     def _update_stem_parents(stem: str, parent: str) -> None:
@@ -267,11 +293,14 @@ class AppAdditionalDetails(BaseModel):
         track word stem parents
         """
         if stem not in AppAdditionalDetails.stem_parents:
-            AppAdditionalDetails.stem_parents[stem] = {parent: 1}
-        elif parent not in AppAdditionalDetails.stem_parents[stem]:
-            AppAdditionalDetails.stem_parents[stem][parent] = 1
+            AppAdditionalDetails.stem_parents[stem] = \
+                _StemParents(root_count=1, parents={parent: 1})
+        elif parent not in AppAdditionalDetails.stem_parents[stem].parents:
+            AppAdditionalDetails.stem_parents[stem].root_count += 1
+            AppAdditionalDetails.stem_parents[stem].parents[parent] = 1
         else:
-            AppAdditionalDetails.stem_parents[stem][parent] += 1
+            AppAdditionalDetails.stem_parents[stem].root_count += 1
+            AppAdditionalDetails.stem_parents[stem].parents[parent] += 1
 
     @model_validator(mode="before")
     @classmethod
