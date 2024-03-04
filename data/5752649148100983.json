@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.36.1",
+                "change_log": "1) Added option to set default environment in player settings\n\n3) Bug Fixes:\n\t• Fixed bug causing available local MP3s to not display their name correcly sometimes.\n\t• Fixed bug causing the loading displays to sometimes throw an error when activated too quickly.\n\t• Fixed bug causing invalid game modes to display as an option causing further bugs when selected.\n\t• Fixed bug causing songs converted from MP3s to incorrectly compare to other songs resulting in unexpected results such as removing the wrong song from a playlist.\n\t• Fixed bug causing an error to be thrown when trying to determine players scores for a playlist sometimes.\n\t• Fixed bug causing some targets and obstacles to appear too closely together at the beginning of a song sometimes.\n\t• Fixed bug causing some users to experience songs not showing as available on the Convert Local Mp3s page."
+            },
+            {
                 "version": "0.1.36",
                 "change_log": "1) Mp3 files stored in your downloads folder can now be automatically converted into Shadow BoXR supported songs.\n\t• The current implementation is powered by BeatSage and does require an active internet connection. This is primarily to improve in game performance and allow song conversion without interrupting gameplay.\n\n3) Bug Fixes:\n\t• Fixed bug causing sound settings and target FPS to revert to their default values upon startup.\n\t• Fixed bug causing the playlist maker tool to return an error sometimes when saving an empty list or causing it to say changes have been made when the list is empty.\n\t• Fixed bug causing community songs to sometimes throw an error when attempting to download a community song.\n\t• Fixed bug causing environment and game mode overrides to reset when playing a single song.\n\t• Fixed bug causing songs being previewed in the workout editing menu to continue to play after closing or moving to a different menu."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.26.1",
                 "change_log": "1) Improved creating and updating playlist workflow. If players select home button after making changes they will be prompted to save before returning.\n\t• Updating a playlist will no longer create duplicate playlist.\n\t• When playlists are updated, they maintain their sorted position.\n\n2) Bug fixes.\n\t• Song previews stop loading when returning to main menu.\n\t• Fixed issue causing an error to be thrown when deleting a playlist from the view playlist page.\n\t• Improved custom song support to support songs that by default do not have a normal mode but do have a one handed mode. This removes infinite loading screen after downloading them."
-            },
-            {
-                "version": "0.1.26",
-                "change_log": "1) Added option to listen to each song under the All Songs page. Once selected, a song will automatically start playing after 2.5 seconds. It can be stopped or restarted by selecting the \"Listen\"/\"Stop\" button found next to the play button.\n\n2) Added two new songs!\n\t• Dance by Luke Bergs (Jazz)\n\t• Sky (feat. Matty M.) by DEgITx (Elecrto-Metal)\n\n3) Fixed bug causing community content songs to randomly stop downloading and becoming unavailable to download. \n\t• Songs will no longer randomly stop and if internet connection is lost or a download fails, it will remove it from the active downloads list and allow you to try again."
             }
         ],
         "keywords": [],

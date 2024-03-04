@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 107
+                "votes": 108
             },
             {
                 "rating": 2,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 590
+                "votes": 591
             }
         ],
         "comfort": "NOT_RATED",
@@ -81,6 +81,10 @@
             "logo_transparent": "39035370_1603226033368046_6811012790439841152_n.png"
         },
         "changelog": [
+            {
+                "version": "1.1.9",
+                "change_log": "- Fixed a very rare bug affecting track records and online leaderboards\n- Fixed an issue with Internet connectivity\n- Fixed missing bHaptics UI elements\n- Improved certain behaviors of AI opponents\n- Increased starting grid spacing\n- Updated Social links and welcome screen\n- Other minor fixes and updates"
+            },
             {
                 "version": "1.1.9",
                 "change_log": "- Fixed a very rare bug affecting track records and online leaderboards\n- Fixed an issue with Internet connectivity\n- Fixed missing bHaptics UI elements\n- Improved certain behaviors of AI opponents\n- Increased starting grid spacing\n- Updated Social links and welcome screen\n- Other minor fixes and updates"
@@ -156,15 +160,11 @@
             {
                 "version": "1.0.1",
                 "change_log": "- Fixed logic for posting records on Discord\n- Fixed new Supporter Pack paints not awarded when launching the game offline"
-            },
-            {
-                "version": "1.0.0",
-                "change_log": "- Supporter Pack: Added four new paints\n- Supporter Pack: All Special paints now have recolored interiors\n- Supporter Pack: Added option to choose which type of paint will be used by opponents\n- Added Driving Tips menu page\n- Shifter now moves to the appropriate gear with Automatic transmission, or when changing gears with buttons in Manual transmission\n- Changed online backend, no more limits to number of players that can be registered online\n- Driver name is now linked to Oculus username due to different online backend functionality\n- Leaderboards have been cleared but local records will be posted again as soon as players log in the game\n- Other minor changes and fixes"
             }
         ],
         "keywords": [],
         "on_rookie": false,
-        "general_update": 474841,
+        "general_update": 474865,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -173,10 +173,10 @@
         "player_mode_update": 474685,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "last_update": 474841,
+        "last_update": 474865,
         "category": "GAMES",
-        "votes": 956,
-        "rating": 4.177824,
+        "votes": 958,
+        "rating": 4.175365,
         "weighted_rating": 4.14
     },
     "errors": []
