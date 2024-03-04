@@ -20,7 +20,8 @@ from data.model.local.processed_app import ProcessedApp
 from data.model.oculus.app_additionals import (AppAdditionalDetails, AppImage,
                                                AppImages)
 from data.model.oculus.app_changelog import AppChangeEntry
-from utils.constants import GENRE_MAPPING
+from utils.constants import (GENRE_MAPPING, MODE_MAPPING, TAG_MAPPING,
+                             TAG_TRENDING)
 from utils.error_manager import ErrorManager
 
 
@@ -195,7 +196,7 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
     app_images: AppImages = AppImages()
     # translations: list[Translation] | None = None
     changelog: list[AppChangeEntry] = []
-    keywords: list[str] = []
+
     # has_ads: bool = Field(validation_alias='has_in_app_ads')
     # sensor_req: bool = Field(validation_alias='is_360_sensor_setup_required')
     price: int | None = Field(
@@ -209,6 +210,21 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         exclude=True
     )
     on_rookie: bool = False
+    app_additionals: Annotated[
+        AppAdditionalDetails | None,
+        Field(
+            default=None,
+            exclude=True
+        )
+    ]
+
+    @computed_field  # type: ignore[misc]
+    @property
+    def keywords(self) -> list[str]:
+        """get stem parent"""
+        if self.app_additionals is None:
+            return []
+        return self.app_additionals.get_keywords()
 
     @computed_field  # type: ignore[misc]
     @property
@@ -334,7 +350,6 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         """determine if previous update date should be used"""
         if set(list_1) == set(list_2):
             return prev_date
-        print(f"list change: \n old {list_1} \n new {list_2}")
         return None
 
     def set_additional_details(
@@ -350,7 +365,7 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         """
         # self.translations = additionals.translations
         self.app_images = additionals.images
-        self.keywords = additionals.keywords
+        self.app_additionals = additionals
 
     @property
     def resources(self) -> list[AppImage]:
@@ -473,6 +488,14 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
                 output.append(x)
         return output
 
+    @validator("modes", pre=True)
+    @classmethod
+    def mode_cleanup(cls, val: list[str]) -> list[str]:
+        """
+        Validator to clean_up modes
+        """
+        return [x for x in val if x in MODE_MAPPING]
+
     @validator("release_date", pre=True)
     @classmethod
     def to_datetime(cls, val: str | None) -> str:
@@ -511,24 +534,21 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
 
     @validator("tags", pre=True)
     @classmethod
-    def parse_tags(cls, val: list[dict[str, str]]) -> list[str]:
+    def tag_cleanup(cls, val: list[dict[str, str]]) -> list[str]:
         """
-        Validator to parse and filter tags.
-
-        Args:
-        - val (list[dict[str, str]]): The list of tag dictionaries.
-
-        Returns:
-        - list[str]: The filtered list of tag names.
+        Validator to clean_up tags
         """
-        remove: list[str] = [
-            "browse all",
-            "try before you buy",
-            "nik_test",
-            "stephrhee"
-        ]
+        output: list[str] = []
         key = 'display_name'
-        return [x[key] for x in val if x[key].lower() not in remove]
+        for v in val:
+            if (
+                (z := v[key]) in TAG_MAPPING and
+                (x := TAG_MAPPING[z]) not in output
+            ):
+                output.append(x)
+            if TAG_TRENDING in z.lower() and (y := "Trending") not in output:
+                output.append(y)
+        return output
 
     @validator("languages", pre=True)
     @classmethod

@@ -8,11 +8,13 @@ Classes:
 - Translation: Model for representing translation details.
 - AppAdditionalDetails: Model for additional details of an application.
 """
+import re
 from logging import Logger, getLogger
-from typing import Any
+from typing import Any, ClassVar
 
+from nltk.stem import PorterStemmer
 from pydantic import (AliasPath, Field, field_validator, model_serializer,
-                      model_validator)
+                      model_validator, validator)
 
 from base.models import BaseModel, RootDictModel
 from config.app_config import AppConfig, ImageProps
@@ -221,9 +223,55 @@ class AppAdditionalDetails(BaseModel):
     - images (AppImages): The collection of application images.
     - keywords (list[str]): The list of keywords.
     """
+    stem_parents: ClassVar[dict[str, dict[str, int]]] = {}
+
     translations: list[Translation] = []
     images: AppImages = AppImages()
     keywords: list[str] = []
+
+    @validator("keywords", pre=True)
+    @classmethod
+    def keyword_cleanup(cls, val: list[str]) -> list[str]:
+        """
+        Validator to clean_up keywords
+        """
+        output: list[str] = []
+        pattern: re.Pattern[str] = re.compile('[^a-zA-Z]')
+        stemmer = PorterStemmer()
+        for v in val:
+            if not pattern.search(v):
+                if (stem := stemmer.stem(v, True)) not in output:
+                    output.append(stem)
+                    AppAdditionalDetails._update_stem_parents(stem, v.lower())
+        return output
+
+    def get_keywords(self) -> list[str]:
+        """
+        convert stem to most common parent
+        """
+        output: list[str] = []
+        for stem in self.keywords:
+            parents: dict[str, int] = AppAdditionalDetails.stem_parents[stem]
+            parent: str = ""
+            max_val: int = 0
+            for k, v in parents.items():
+                if v > max_val:
+                    max_val = v
+                    parent = k
+            output.append(parent)
+        return output
+
+    @staticmethod
+    def _update_stem_parents(stem: str, parent: str) -> None:
+        """
+        track word stem parents
+        """
+        if stem not in AppAdditionalDetails.stem_parents:
+            AppAdditionalDetails.stem_parents[stem] = {parent: 1}
+        elif parent not in AppAdditionalDetails.stem_parents[stem]:
+            AppAdditionalDetails.stem_parents[stem][parent] = 1
+        else:
+            AppAdditionalDetails.stem_parents[stem][parent] += 1
 
     @model_validator(mode="before")
     @classmethod
