@@ -2,6 +2,8 @@
 
 TAG_TRENDING: str = "best of "
 
+KEYWORD_USAGE_REQ: int = 5
+
 TAG_MAPPING: dict[str, str] = {
     'Coming Soon': 'Coming Soon',
     'MR': 'Mixed Reality',
