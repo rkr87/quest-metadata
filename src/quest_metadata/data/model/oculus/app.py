@@ -434,7 +434,7 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         """
         m: float = Item.global_average_rating
         c: float = Item.vote_confidence
-        a: float = max(100, c)
+        a: float = max(20, c)
         r: float = self.rating / 5
         v: int = self.votes
         return round((m + r * v + m / 5 * a) / (m + 2 + v + a) * 5, 2)
