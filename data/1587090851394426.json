@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -78,6 +78,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.1.15-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that caused personal accounts that were deactivated from an organization to be locked out of their personal workspace if the organization was the last workspace they accessed prior to deactivation."
+            },
+            {
+                "version": "6.1.15-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that caused personal accounts that were deactivated from an organization to be locked out of their personal workspace if the organization was the last workspace they accessed prior to deactivation."
+            },
             {
                 "version": "6.1.14-generalqc",
                 "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Logging in to a different LandingPad account than the previously logged in account will now give the user a choice to delete autosaves on the device or cancel the login."
@@ -149,14 +157,6 @@
             {
                 "version": "6.1.5-generalqc",
                 "change_log": "🐛 Bug Fixes\n\n- Reverted the main environment light to a white light instead of a yellow light.\n- Fixed some memory leaks in edit mode.\n- Fixed a crash on load with some sketch files."
-            },
-            {
-                "version": "6.1.4-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed invisible and inactive layers not being included in autosaves."
-            },
-            {
-                "version": "6.1.4-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed invisible and inactive layers not being included in autosaves."
             }
         ],
         "on_rookie": false,

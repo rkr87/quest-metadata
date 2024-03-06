@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "2.6.8",
+                "change_log": "- Support for custom colour hotspots"
+            },
+            {
                 "version": "2.6.7",
                 "change_log": "- Spatial anchor support for AR objects\n- Updated up trigger angle for AR object manipulation\n- Miscellaneous bugfixes"
             },
@@ -149,10 +153,6 @@
             {
                 "version": "2.5.6",
                 "change_log": "- Support for object hotspots\n- Miscellaneous bug fixes"
-            },
-            {
-                "version": "2.5.4",
-                "change_log": "- Miscellaneous bug fixes"
             }
         ],
         "on_rookie": false,
