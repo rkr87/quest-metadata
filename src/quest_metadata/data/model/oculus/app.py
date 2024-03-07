@@ -10,6 +10,7 @@ Classes:
 """
 from datetime import datetime
 from logging import Logger, getLogger
+from math import floor
 from typing import Annotated, Any, ClassVar
 
 from pydantic import (AliasPath, Field, computed_field, field_validator,
@@ -436,7 +437,7 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         c: float = Item.vote_confidence
         r: float = self.rating / 5
         v: int = self.votes
-        return round((m + r * v + m / 5 * c) / (m + 2 + v + c) * 5, 2)
+        return floor((m + r * v + m / 5 * c) / (m + 2 + v + c) * 5 * 10) / 10
 
     # @computed_field  # type: ignore[misc]
     # @property
