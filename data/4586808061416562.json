@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.16",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.16\n\n## Improvements\n\n- AI queries now include contextual information about other content in the workspace to improve the specificity and usefulness of responses. Continuing to improve the AI features is an ongoing effort!\n\n## Bug Fixes\n\n- Fixed a bug that was preventing web browsers from being activated after one had been deleted from the workspace.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.15.1",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.15.1\n\n## Improvements\n\n- Spatial computing with a physical keyboard is a completely different experience than without. We know that the vast majority of users do not have a spare Bluetooth keyboard to pair with their headset. Even those who do occasionally forget to bring the it. That’s why we’ve built the Softspace Network Keyboard: a web app that lets you use a laptop, desktop, or even iPad as a physical keyboard for text input in Softspace.\n- The buttons for deleting and copying TopicItems are now easier to select and switch between without accidentally selecting UI elements behind them, because the gap between them has been closed.\n- Workspaces are now associated with a specific logged-in user. Signing out of a Softspace account will remove access to those workspaces until that account is signed in again. Note: Workspaces are still only stored locally. Workspaces are not synced across devices, and deleting the Softspace app from your headset will delete all workspace data.\n- More robust handling of and support for browser popup windows.\n\n## Bug Fixes\n\n- Settings and account management UI is prevented from appearing too far below eye-level.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,14 +155,10 @@
             {
                 "version": "2024.01",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.01\n\n## Improvements\n\n- New and cleaner design for web browser and settings window UI.\n- Images now have rounded corners, making them more visually comfortable.\n- “Free mode” and “Fixed mode” have been replaced with “Show Ideas” and “Hide Ideas”, which toggles the AI-suggested topics on and off.\n- Non-suggested items are pinned in place, but can be unpinned and allowed to float.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2023.13",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2023.13\n\n## Improvements\n\n- Redesigned AI concept-suggesting to reduce failures to produce suggestions.\n- Increased AI-query temperature for more creative and surprising responses.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
-        "general_update": 474882,
+        "general_update": 474937,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -168,11 +168,11 @@
         "keyword_update": 474685,
         "tag_update": 474880,
         "keywords": [],
-        "last_update": 474882,
+        "last_update": 474937,
         "category": "APPS",
         "votes": 52,
         "rating": 3.365385,
-        "weighted_rating": 3.4
+        "weighted_rating": 3.41
     },
     "errors": []
 }
