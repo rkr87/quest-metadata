@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.00.111",
+                "change_log": "* Improved overall performance, especially noticeable on Quest 2, which reduces visual “stuttering”\n* Added additional diagnostic logging\n* Fixed an issue that may have caused improper arm length calibration for some users"
+            },
+            {
                 "version": "1.00.110",
                 "change_log": "Fixed an small issue with initial arm length measurement\nAdded additional error logging"
             },

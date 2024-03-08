@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 940
+                "votes": 943
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "Minor bug fixes. Connecting to lobbies will now be more stable"
+            },
+            {
+                "version": "0.1",
+                "change_log": "Minor bug fixes. Connecting to lobbies will now be more stable"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 20.3\n\n[ CUSTOM ARENAS ]\nArena Info now displays in the menu within a custom arena lobby, showing the arena creator, rating, options to add to favorites, rate, and report the arena.\nA new 'Custom Arenas' menu section is introduced for accessing your arenas, favorites, and a 'Featured Arenas' tab for exploring all publicly available arenas.\nArena creator has to host at least one public lobby in order to have that arena be eligible for the ‘Featured’ list.\n\n[ FIXES ]\nResolved an issue preventing more than 16 players from joining custom arena private lobbies. Fixed a bug where jerseys sometimes failed to load. Overall performance optimizations. Fixed minor issues related to ball physics and potentially resolved controller problems.\n"
@@ -154,18 +162,10 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 14 RELEASED\n\n- Strict rules mode (For now, just corner/goal kicks and starting positions. Switch on in match settings. This mode is experimental and will be updated according to feedback)\n\n- New multiplayer ball sync architecture\n\n- Ranked mode (ELO-rating-based, only 1v1 for now)\n\n- New arenas (including a new large stadium)\n\n- Updates to existing arenas\n\n- Footzone training room\n\n- Improved bot keeper (difficulty settings will be introduced later)\n\n- New bot assist (currently in alpha, just to gain feedback)\n\n- Notification center in the menu\n\n- Ambient sounds (you can switch these off in the settings)\n\n- Connection quality indicators\n\n- Resolved known bugs (there may be some new for a while)\n\n- Slight enhancements to shooting physics\n\n- Potentially fixed sprint and movement issues (such as sudden stops, etc.)\n\n- Potentially fixed bugs related to goals tracking\n\n- Fixed FPS drops on Quest 1\n\n- Improved rendering distance\n\n- Many new items in the store\n\n- New default balls\n\nPlease kindly report bugs to vrfs.gg/discord or team@vrfs.gg"
-            },
-            {
-                "version": "0.1",
-                "change_log": "This update contains bug fixes and improvements\n\n- Enhanced smoothness of avatars' movement\n- Fixed some bugs (e.g. ball won’t spawn)\n- Slight improvements to the physics\n- Botkeeper AI fixes\n- New textures for the free balls \n- Visual fixes on some of the arenas \n\nAlso we’ve deployed a team of moderators as the first step towards making public lobbies a better place. \n\nStay tuned as we keep working on the major update that is expected in 3 weeks."
-            },
-            {
-                "version": "0.1",
-                "change_log": "This is not a full-scale update, but rather a response to the community requests regarding the new physics \n\nPHYSICS ENGINE UPDATE\n- Significantly improved ball control on the ground and in the air\n- Enhanced shooting\n- Fixed ground friction (better ground physics is still in development)\n- Added ‘old physics’ balls to the free equipment\n\nBOTKEEPER UPDATE\n- Some enhancements to the bot goalie AI\n- Added botkeeper to the online practice arena\n\nONLINE PRACTICE\n- Now, you can choose any arena for online practice in either public or private mode\n\nFIXES AND OTHER\n- Fixed lag issues occurring when new players join\n- Sound FX for the botkeeper\n- New items in the store"
             }
         ],
         "on_rookie": false,
-        "general_update": 474948,
+        "general_update": 474961,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -175,10 +175,10 @@
         "keyword_update": 474685,
         "tag_update": 474685,
         "keywords": [],
-        "last_update": 474948,
+        "last_update": 474961,
         "category": "GAMES",
-        "votes": 1240,
-        "rating": 4.446774,
+        "votes": 1243,
+        "rating": 4.448109,
         "weighted_rating": 4.4
     },
     "errors": []
