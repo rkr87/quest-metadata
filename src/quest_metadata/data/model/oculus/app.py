@@ -241,21 +241,25 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
                 self.platform_update,
                 self.player_mode_update,
                 self.keyword_update,
-                self.tag_update
-                # self.changelog_update
+                self.tag_update,
+                self.rating_update,
+                self.iarc_detail_update,
+                self.changelog_update
             ]
         )
 
-    general_update: int = 0
-    genre_update: int = 0
-    device_update: int = 0
-    mode_update: int = 0
-    language_update: int = 0
-    platform_update: int = 0
-    player_mode_update: int = 0
-    keyword_update: int = 0
-    tag_update: int = 0
-    # changelog_update: datetime = datetime(2024, 1, 1)
+    general_update: int = 475000
+    genre_update: int = 475000
+    device_update: int = 475000
+    mode_update: int = 475000
+    language_update: int = 475000
+    platform_update: int = 475000
+    player_mode_update: int = 475000
+    changelog_update: int = 475000
+    keyword_update: int = 475000
+    tag_update: int = 475000
+    rating_update: int = 475000
+    iarc_detail_update: int = 475000
 
     def set_update_details(
         self,
@@ -275,10 +279,82 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
             self.player_mode_update = new_date
             self.keyword_update = new_date
             self.tag_update = new_date
-            # self.changelog_update = new_date
+            self.rating_update = new_date
+            self.iarc_detail_update = new_date
+            self.changelog_update = new_date
             return
         self.general_update = self._get_general_update(new_date, prev_app)
-    # self.changelog_update = self._get_changelog_update(new_date, prev_app)
+        self.rating_update = self._get_rating_update(new_date, prev_app)
+        self.iarc_detail_update = self._get_iarc_detail_update(
+            new_date,
+            prev_app
+        )
+        self.changelog_update = self._get_changelog_update(new_date, prev_app)
+        self._check_details_update(new_date, prev_app)
+
+    def _get_general_update(
+        self,
+        new_date: int,
+        prev_app: ProcessedApp
+    ) -> int:
+        """determine if previous update date should be used"""
+        if (
+            self.app_name != prev_app.app_name or  # pylint: disable=R0916
+            self.release_date != prev_app.release_date or
+            self.description != prev_app.description or
+            self.developer != prev_app.developer or
+            self.publisher != prev_app.publisher or
+            self.comfort != prev_app.comfort or
+            self.internet_connection != prev_app.internet_connection or
+            self.website != prev_app.website or
+            self.on_rookie != prev_app.on_rookie or
+            self.category != prev_app.category or
+            self.weighted_rating != prev_app.weighted_rating or
+            self.app_images.get_serialised_object() != prev_app.app_images
+        ):
+            return new_date
+        return prev_app.general_update
+
+    def _get_rating_update(
+        self,
+        new_date: int,
+        prev_app: ProcessedApp
+    ) -> int:
+        """determine if previous update date should be used"""
+        if (self.votes != prev_app.votes or self.rating != prev_app.rating):
+            return new_date
+        return prev_app.rating_update
+
+    def _get_iarc_detail_update(
+        self,
+        new_date: int,
+        prev_app: ProcessedApp
+    ) -> int:
+        """determine if previous update date should be used"""
+        if (
+            self.iarc.descriptors != prev_app.iarc.descriptors or
+            self.iarc.elements != prev_app.iarc.elements
+        ):
+            return new_date
+        return prev_app.iarc_detail_update
+
+    def _get_changelog_update(
+        self,
+        new_date: int,
+        prev_app: ProcessedApp
+    ) -> int:
+        """determine if previous update date should be used"""
+        new: list[str] = [x.model_dump_json() for x in self.changelog]
+        prev: list[str] = [x.model_dump_json() for x in prev_app.changelog]
+        if new != prev:
+            return new_date
+        return prev_app.changelog_update
+
+    def _check_details_update(self,
+                              new_date: int,
+                              prev_app: ProcessedApp
+                              ) -> None:
+        """determine if previous update date should be used"""
         self.genre_update = self._prev_list_update(
             prev_app.genres, self.genres, prev_app.genre_update) or new_date
         self.device_update = self._prev_list_update(
@@ -302,33 +378,6 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         self.tag_update = self._prev_list_update(
             prev_app.tags, self.tags, prev_app.tag_update
         ) or new_date
-
-    def _get_general_update(
-        self,
-        new_date: int,
-        prev_app: ProcessedApp
-    ) -> int:
-        """determine if previous update date should be used"""
-        if (
-            self.app_name != prev_app.app_name or  # pylint: disable=R0916
-            self.release_date != prev_app.release_date or
-            self.description != prev_app.description or
-            self.developer != prev_app.developer or
-            self.publisher != prev_app.publisher or
-            self.comfort != prev_app.comfort or
-            self.internet_connection != prev_app.internet_connection or
-            self.website != prev_app.website or
-            self.on_rookie != prev_app.on_rookie or
-            self.category != prev_app.category or
-            self.votes != prev_app.votes or
-            self.rating != prev_app.rating or
-            self.weighted_rating != prev_app.weighted_rating or
-            # self.iarc.model_dump_json() != prev_app.iarc.model_dump_json() or
-            self.app_images.get_serialised_object() != prev_app.app_images
-        ):
-            # print(f"Some general data changed: {self.app_name}")
-            return new_date
-        return prev_app.general_update
 
     # def _get_changelog_update(
     #     self,

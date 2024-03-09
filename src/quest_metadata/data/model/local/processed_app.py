@@ -7,16 +7,18 @@ from pydantic import model_validator
 
 from base.models import BaseModel
 
-# class ProcessedAppChangeEntry(BaseModel):
-#     """Model for representing an application changelog entry."""
-#     version: str
-#     change_log: str | None
 
-# class ProcessedIarc(BaseModel):
-#     """Model for IARC rating details."""
-#     age_rating: str | None
-#     descriptors: list[str]
-#     elements: list[str]
+class ProcessedAppChangeEntry(BaseModel):
+    """Model for representing an application changelog entry."""
+    version: str
+    change_log: str | None
+
+
+class ProcessedIarc(BaseModel):
+    """Model for IARC rating details."""
+    age_rating: str | None
+    descriptors: list[str]
+    elements: list[str]
 
 
 class ProcessedApp(BaseModel):
@@ -35,28 +37,30 @@ class ProcessedApp(BaseModel):
     player_modes: list[str]
     tags: list[str]
     comfort: str
-    # iarc: ProcessedIarc
+    iarc: ProcessedIarc
     internet_connection: str
     website: str
     app_images: dict[str, str | None]
-    # changelog: list[ProcessedAppChangeEntry]
+    changelog: list[ProcessedAppChangeEntry]
     keywords: list[str]
     on_rookie: bool
     category: str
     votes: int
     rating: float
     weighted_rating: float
-    last_update: int = 0
-    general_update: int = 0
-    device_update: int = 0
-    genre_update: int = 0
-    keyword_update: int = 0
-    language_update: int = 0
-    mode_update: int = 0
-    platform_update: int = 0
-    player_mode_update: int = 0
-    tag_update: int = 0
-    # changelog_update: datetime = datetime(2024,1,1)
+    last_update: int = 475000
+    general_update: int = 475000
+    device_update: int = 475000
+    genre_update: int = 475000
+    keyword_update: int = 475000
+    language_update: int = 475000
+    mode_update: int = 475000
+    platform_update: int = 475000
+    player_mode_update: int = 475000
+    tag_update: int = 475000
+    rating_update: int = 475000
+    iarc_detail_update: int = 475000
+    changelog_update: int = 475000
 
     @model_validator(mode="before")
     @classmethod
