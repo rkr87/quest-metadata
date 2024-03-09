@@ -47,11 +47,11 @@
             },
             {
                 "rating": 4,
-                "votes": 100
+                "votes": 99
             },
             {
                 "rating": 5,
-                "votes": 214
+                "votes": 217
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -76,6 +76,10 @@
             "logo_transparent": "38982723_617363793518487_4441675536268939352_n.png"
         },
         "changelog": [
+            {
+                "version": "2.6.14102342",
+                "change_log": "8 March 2024\n\nImproved\n- Audio balancing of the ambient music from BATL and Arcade Galactic in the street\n\nFixed\n- Leaving the arcade before placing your second game and going to Arcade Galactic would cause the task for your second task to not be completable\n- Changing audio settings on retro games in the arcade triggering errors that caused various bugs\n\nKnown Issues\n- Moving games in your arcade after someone else has joined, sometimes may make that game unplayable for that visitor"
+            },
             {
                 "version": "2.6.14100340",
                 "change_log": "7 March 2024\n\nNew\n- Arcade Galactic has come to Arcade Legend!\n- Added 18 brand new retro indie games!\n- Banana Chase\n- Birds With Guns\n- Deer Santa\n- Distant Galaxy\n- Dominion Ex\n- Dragon's Playground\n- Froggy Road\n- Golf Sunday\n- Harold's Bad Day\n- Marble Merger\n- Pico Dino\n- Polar Panic\n- Pony 9000\n- RGB Zero\n- Scrap Boy\n- Stuck in the Sewers\n- Sub-Uber Marine\n- Whiplash Taxi Co\n\nImproved\n- Increased capacity from 450-500!\n\nFixed\n- Instant and blink teleport settings could put you in the wrong position after teleporting\n- NPCs playing Axe Master backwards\n- Bowling lane reinstation task sometimes not being completable\n\nKnown Issue\n- Moving games in your arcade after someone else has joined, sometimes may make that game unplayable for that visitor\n- In multiplayer, it’s possible that local cabinet leaderboards will be incorrect if you go from your own arcade to Arcade Galactic"
@@ -137,17 +141,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
+        "changelog_update": 475001,
         "keyword_update": 474881,
         "tag_update": 474880,
+        "rating_update": 475001,
+        "iarc_detail_update": 475000,
         "keywords": [
             "arcade",
             "social",
             "parti"
         ],
-        "last_update": 474961,
+        "last_update": 475001,
         "category": "GAMES",
-        "votes": 397,
-        "rating": 4.146096,
+        "votes": 399,
+        "rating": 4.152882,
         "weighted_rating": 4.1
     },
     "errors": []

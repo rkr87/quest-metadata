@@ -54,7 +54,7 @@
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 5,
@@ -81,6 +81,10 @@
             "logo_transparent": "38974551_848896883648623_6631899972921791962_n.png"
         },
         "changelog": [
+            {
+                "version": "0.4.5",
+                "change_log": "1. Added audio track selection function: Added audio track selection, you can freely select the audio track according to your preference, which improves the flexibility of watching movies.\n2 New player control function: Added previous and next buttons to the player to facilitate quick switching to the next video in the folder, improving operational convenience.\n3 Optimize the screen display effect: The screen color streamer overflow effect improves the screen display effect. This is an experimental function and may increase performance consumption and cause lag. You can turn it on in the settings for early adopters.\n4 Solve the problem of video proportion: Fixed the problem that the original proportion cannot be maintained when playing files, ensuring the correct display and viewing experience of the video.\n5 Fixed the display problem of Hebrew and other subtitles to meet the text display needs of more users."
+            },
             {
                 "version": "0.4.4",
                 "change_log": "1. Double speed playback support: Added 0.5 to 2.0 video multiple playback, allowing you to adjust the video playback speed according to your personal preferences, thereby obtaining a more personalized viewing experience.\n2. Optional 3D option: Added the default video 3D option in the settings, whether the video is opened in 3D mode or 2D mode, providing you with more flexibility.\n3. Automatic light adjustment in theater mode: An intelligent light adjustment function is added, which automatically dims the lights when playing content and restores them after the video ends, creating a better viewing atmosphere.\n4. LAN page optimization: Added dlna, smb, ssair type tags to the LAN page to make file sharing and playback more intuitive and convenient."
@@ -122,13 +126,16 @@
         "language_update": 474817,
         "platform_update": 474685,
         "player_mode_update": 474685,
+        "changelog_update": 475001,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "rating_update": 475001,
+        "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 474961,
+        "last_update": 475001,
         "category": "APPS",
-        "votes": 12,
-        "rating": 3.75,
+        "votes": 13,
+        "rating": 3.769231,
         "weighted_rating": 3.6
     },
     "errors": []

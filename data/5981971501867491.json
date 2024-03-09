@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "0.17.1",
+                "change_log": "Fixed invite friends bug for non-members, upgraded Normcore to latest package"
+            },
+            {
                 "version": "0.17.0",
                 "change_log": "Added My Park Diamond tier membership option, new pitch panel in lanes for controls over velo, distance, and location, pitching mounds now available for all lanes, hit stats now require at least a My Park Gold subscription, private parks are now FREE for all players, Snack Shack refreshed, fixed bugs including UI selection and membership detection, improved lighting and shadows on neighborhood"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "0.9.9.4",
                 "change_log": "Ball trails for all players, new ball trail colors, hit sounds for all players, variable hit volume, new geometric bat skins, moon phase updated"
-            },
-            {
-                "version": "0.9.9.3",
-                "change_log": "New Only Strikes pitching mode, teleport to the mound on the field, look at the home plate, and move hand away to throw (no more force field punching). HR’s now register on the field if a ball is hit past fence and counts towards career stats\nChanged Rewards tab to Bat Pass in clipboard, for incoming subscription tiers. Added a full moon to the park. Removed Summer Dogs event decorations. Updated blimp to celebrate new HR leader Yazzy. Brought back 4 requested bats to the Snack Shack. Re-opened the Derby Dog Stand for reactive condiments, fixed a bug where condiments weren’t registering correctly. Optimized performance for moving between glove and hit modes"
             }
         ],
         "on_rookie": false,
@@ -162,10 +162,13 @@
         "language_update": 474685,
         "platform_update": 474817,
         "player_mode_update": 474685,
+        "changelog_update": 475001,
         "keyword_update": 474685,
         "tag_update": 474685,
+        "rating_update": 475000,
+        "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 474948,
+        "last_update": 475001,
         "category": "APPS",
         "votes": 404,
         "rating": 4.269802,
