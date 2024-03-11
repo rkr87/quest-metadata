@@ -45,7 +45,7 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
@@ -74,6 +74,10 @@
             "logo_transparent": "38984449_1047663469769291_8950391588772485089_n.png"
         },
         "changelog": [
+            {
+                "version": "1.4.20",
+                "change_log": "-Added \"BUY\" text for the Map and Sandbox DLC \n-Fixed the Weapons DLC items not being the same in the Sandbox mode \n-Added items to the book case in the living room map \n-Made the TV Screen less reflective \n-Added Flower, Paint Canvas, Paint holder, Paint Brush, and Gold Bar as new breakable objects in maps"
+            },
             {
                 "version": "1.4.15",
                 "change_log": "-Fixed the turret head not rotating when it was gold\n-Added a golden version do the mace with chain\n-Fixed the holsters for the weapons DLC\n-Fixed the lightsaber models\n-Fixed the game not saving your turning mode\n-Made the painintg image not stay if the frame is deystoryed \n-Fixed vase always being broken when loading into the museum map\n-Changed max broken pieces to 350 instead of 400, should boost performance \n-Decreased garage maps lag"
@@ -137,31 +141,27 @@
             {
                 "version": "0.9.7",
                 "change_log": "Added Sprint button \nAdded Muzzle flash to guns \nAdded Gun sounds \nMade it so you can pick up some breakable objects \nFixed Glass in Museum map \nMade sound scale with impact \nMade particles scale with impact\nAdded no turn option\nFixed lots of fracturing for models\nFixed Hand Positions on some models\nFixed some picking up objects"
-            },
-            {
-                "version": "0.9.6",
-                "change_log": "Added Sprint button\nAdded Muzzle flash to guns\nAdded Gun sounds \nMade it so you can pick up some breakable objects\nFixed Glass in Museum map\nMade sound scale with impact\nMade particles scale with impact"
             }
         ],
         "on_rookie": false,
-        "general_update": 474948,
+        "general_update": 475033,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475033,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475000,
+        "rating_update": 475033,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475000,
+        "last_update": 475033,
         "category": "GAMES",
-        "votes": 11,
-        "rating": 5.0,
-        "weighted_rating": 4.3
+        "votes": 12,
+        "rating": 4.916667,
+        "weighted_rating": 4.2
     },
     "errors": []
 }
