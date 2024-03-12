@@ -3,7 +3,7 @@
         "id": "5722114367801351",
         "app_name": "Hubris",
         "release_date": "2023-06-22T00:00:00.000Z",
-        "description": "🚨 Meta Quest 3 update live now! 🚨\n\n⭐ “An epic sci-fi adventure that no VR gamer should miss out playing” - VR Without Parole\n\nTake on the mantle of an unseasoned recruit with the task of finding a high-profile agent who went missing on a strange and highly inhospitable alien planet. \n\n 🏆 WN Unreal Engine best VR Game\n 🏆 UploadVR's best desktop game\n 🏆 Belgium Game Awards Best XR game\n\nFeatures:\n\n— Immerse yourself in one of the most visually stunning games on Quest, beautifully crafted to captivate and transport you into a meticulously realized sci-fi world.\n— Experience the freedom of running, jumping, climbing, swimming, shooting & more with deep mechanics built from the ground up for VR\n— Explore to find valuable resources used to craft new weapons, tools & upgrades to gain an edge\n— Multiple difficulties to make the game the right fit for you, whether you’re wanting a challenge or a more story & explorative experience\n— Excellent sound design & an epic soundtrack that bring the rich world to life\n— Get lost in a full-featured story campaign that takes you across a beautiful but deadly alien world\n\n⭐ \"Most Visually STUNNING PC VR Game is Now on Meta Quest 2!\" - BMFVR\n\n⭐ \"We are looking at some of the best Meta Quest 2 Graphics ever!\" - Matteo311\n\nHubris is an experience, a journey, a visual marvel that will redefine what you thought was possible in VR. Dive into the universe of Hubris today and embark on an adventure that will be hard to forget!",
+        "description": "🚨 Patch 2.0 Arena mode live now! 🚨\n\nEven more Meta Quest 3 enhancements added!\n\n⭐ “An epic sci-fi adventure that no VR gamer should miss out playing” - VR Without Parole\n\nTake on the mantle of an unseasoned recruit with the task of finding a high-profile agent who went missing on a strange and highly inhospitable alien planet. \n\n 🏆 WN Unreal Engine best VR Game\n 🏆 UploadVR's best desktop game\n 🏆 Belgium Game Awards Best XR game\n\nFeatures:\n\n— Immerse yourself in one of the most visually stunning games on Quest, beautifully crafted to captivate and transport you into a meticulously realized sci-fi world.\n— Experience the freedom of running, jumping, climbing, swimming, shooting & more with deep mechanics built from the ground up for VR\n— Explore to find valuable resources used to craft new weapons, tools & upgrades to gain an edge\n— Multiple difficulties to make the game the right fit for you, whether you’re wanting a challenge or a more story & explorative experience\n— Excellent sound design & an epic soundtrack that bring the rich world to life\n— Get lost in a full-featured story campaign that takes you across a beautiful but deadly alien world\n\n⭐ \"Most Visually STUNNING PC VR Game is Now on Meta Quest 2!\" - BMFVR\n\n⭐ \"We are looking at some of the best Meta Quest 2 Graphics ever!\" - Matteo311\n\nHubris is an experience, a journey, a visual marvel that will redefine what you thought was possible in VR. Dive into the universe of Hubris today and embark on an adventure that will be hard to forget!",
         "developer": "Cyborn BV",
         "publisher": "Cyborn BV",
         "genres": [
@@ -34,9 +34,9 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest 3"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -91,6 +91,14 @@
         },
         "changelog": [
             {
+                "version": "2.0",
+                "change_log": "Q2 - Arena Mode Patch\n\nAdded arena mode.\n\nImproved rendering resolution in menus.\n\ntweaked gun recoil across the board.\n\nPistol will now be much more accurate again when upgraded to level 3.\n\nFixed some ladders bugging out in the terraformer interior."
+            },
+            {
+                "version": "2.0",
+                "change_log": "Q3 - Arena Mode Patch\n\nAdded arena mode.\n\nDrasticly improved resolution in most maps.\n\nImproved texture filtering.\n\nImproved water rendering in the waterpond area.\n\nIncreased rendering resolution in menus.\n\nSlightly increased arms mesh model detail.\n\nIncreased texture resolution of certain foliage.\n\ntweaked gun recoil across the board.\n\nPistol will now be much more accurate again when upgraded to level 3.\n\nFixed some ladders bugging out in the terraformer interior."
+            },
+            {
                 "version": "1.04",
                 "change_log": "Hi All,\n\nThe latest update, Patch 1.03, has been released on the Meta Quest store . We sincerely appreciate all the valuable feedback we've received thus far, and we encourage you to continue providing us with your input. Our team is dedicated to enhancing the game's experience each day, and your contributions play a crucial role in achieving that goal. Thank you for your ongoing support!\n\nGameplay Enhancements and Quality of Life Improvements:\n\n-- Implemented an option for players to force reload the gun by pressing the Right Joystick.\n-- Added a button in the menu that allows for easy return to the start screen, facilitating chapter selection or starting new games.\n-- Upgraded DPI in several scenes\n-- Made it easier to grab ledges.\n-- Made it easier to grab a gun with two hands after reloading.\n\nStability:\n\n-- Addressed numerous crashes to enhance overall stability.\n-- Resolved an issue where players could become stuck on loading screens indefinitely.\n-- Fixed a problem where the food printed by the food printer could disappear.\n-- Resolved an issue where the gun could become trapped in an upgrade loop in the 3D printer.\n-- Corrected an issue where the conservationist achievement did not trigger correctly.\n-- Fixed a bug where Wack's repair tool could vanish before being given to the player.\n-- Improved the movement of Lucia drone in certain scenes to appear smoother.\n-- Rectified an issue where the loading Pods remained open even when starting a new game.\n-- Fixed a problem where players could get stuck in swimming mode while climbing out of the aquarium container.\n-- Corrected an issue where the drop ships in the Loft scene did not fly over correctly.\n\nKind regards,\n\nHubris-dev team"
             },
@@ -100,14 +108,14 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 474948,
+        "general_update": 475057,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475057,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475033,
@@ -118,7 +126,7 @@
             "adventure",
             "epic"
         ],
-        "last_update": 475033,
+        "last_update": 475057,
         "category": "GAMES",
         "votes": 389,
         "rating": 4.177378,

@@ -48,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 75
+                "votes": 74
             }
         ],
         "comfort": "NOT_RATED",
@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.21",
+                "change_log": "Thanks for all the feedback and support everyone! If you can remember to leave a review it'll really help.\n\nv0.1.21\n- Fixed bug in Classic that would prevent the level from loading if no language had been selected before. Now the default in English!\n- Improved Spanish word dictionnary, as previously there were too many particles especially in the 3 letter levels. Thanks for the help on this!\n\nV0.1.20\n- Added 3 new puzzle languages: French, German and Spanish. This is a work in progress!\n- Other languages than English only have CLASSIC mode for now, and do not have definitions.\n- Languages all have their own saves, even in ZEN mode.\n- A new language option is now under SETTINGS. You cannot toggle language mid-level ^^.\n- Cleaned up UI in SETTINGS to make it more consistent with the rest.\n\nv0.1.13\n- Added a wrist watch option to keep track of remaining time and lives. For those of you who like to take a walk around your homes with the puzzle! ^^\n- Moved TUTORIAL and WATCH buttons under OPTIONS in the SETTINGS menu.\n- Reduced the puzzle frame grabbable padding size to help reduce accidentally grabbing it when trying to grab letters.\n- Fixed issue in SUBGRAM where is the group of letters had duplicates, both the duplicates would be removed when that letter is the connecting letter.\n- Fixed issue where you could switch ZEN MODE on/off during a level. Please return to menu before switching!\n\nv0.1.12:\n- Integrated a entirely new dataset for words. There's now roughly 3x more words in all modes!\n- As part of the new dataset there's also now definitions for all words after you have spelt them correctly. Enjoy learning new words!\n- There is now a confirmation to return to the menu, for those of you accidentally pressing the MENU button mid-level.\n- As requested by many of you, the puzzle grid now only returns to it's original position if you return to the menu and not between levels (for example when you press NEXT or RETRY).\n\nPro tip: You can keep playing the same levels even after you have finished them, as they will show different words each time."
+            },
+            {
                 "version": "0.1.20",
                 "change_log": "Thanks for all the feedback and support everyone! If you can remember to leave a review it'll really help.\n\nV0.1.20\n- Added 3 new puzzle languages: French, German and Spanish. This is a work in progress!\n- Other languages than English only have CLASSIC mode for now, and do not have definitions.\n- Languages all have their own saves, even in ZEN mode.\n- A new language option is now under SETTINGS. You cannot toggle language mid-level ^^.\n- Cleaned up UI in SETTINGS to make it more consistent with the rest.\n\nv0.1.13\n- Added a wrist watch option to keep track of remaining time and lives. For those of you who like to take a walk around your homes with the puzzle! ^^\n- Moved TUTORIAL and WATCH buttons under OPTIONS in the SETTINGS menu.\n- Reduced the puzzle frame grabbable padding size to help reduce accidentally grabbing it when trying to grab letters.\n- Fixed issue in SUBGRAM where is the group of letters had duplicates, both the duplicates would be removed when that letter is the connecting letter.\n- Fixed issue where you could switch ZEN MODE on/off during a level. Please return to menu before switching!\n\nv0.1.12:\n- Integrated a entirely new dataset for words. There's now roughly 3x more words in all modes!\n- As part of the new dataset there's also now definitions for all words after you have spelt them correctly. Enjoy learning new words!\n- There is now a confirmation to return to the menu, for those of you accidentally pressing the MENU button mid-level.\n- As requested by many of you, the puzzle grid now only returns to it's original position if you return to the menu and not between levels (for example when you press NEXT or RETRY).\n\nPro tip: You can keep playing the same levels even after you have finished them, as they will show different words each time."
             },
@@ -92,16 +96,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475057,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475009,
+        "rating_update": 475057,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475009,
+        "last_update": 475057,
         "category": "GAMES",
-        "votes": 85,
-        "rating": 4.882353,
+        "votes": 84,
+        "rating": 4.880952,
         "weighted_rating": 4.7
     },
     "errors": []
