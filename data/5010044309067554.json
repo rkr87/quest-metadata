@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "6.4.1",
+                "change_log": "- Several functional improvements to VR UI interactions\n- Improvements to positioning within the VR space\n- Improvements to practice gestures in VR\n- Improvements to quizzing interface in VR\n- Improvements to lessons in VR\n- Player sizes can now be set\n- Various VR package upgrades\n- Various bugfixes"
+            },
+            {
                 "version": "6.3.2",
                 "change_log": "Niche Interaction Bugfixes"
             },
@@ -141,10 +145,6 @@
             {
                 "version": "5.10.11",
                 "change_log": "Welcome to Virtual Playbook v5.10.11! Here are our latest changes:\n\nFeatures\n  - Film Room - timer-bar can be used to scrub through video time\n\nBugfixes\n  - Updated several backend drivers\n  - Right joystick now properly faces players during practice mode\n  - Can no longer start a quiz with drawings enabled\n  - Jerseys no longer appear \"scrambled\" on mixed teams\n  - Quiz questions at the end of a play now automatically advance to next play in quiz queue"
-            },
-            {
-                "version": "5.10.10",
-                "change_log": "Welcome to Virtual Playbook v5.10.10! Here are our latest changes:\n\nFeatures\n  - Film Room - attach film URLs to plays and view them in Virtual Playbook\n  - Playlist Quiz tiles show your score when completed\n\nBugfixes\n  - [Practice] Paths corrected to no longer display as a \"dot\" beneath player\n  - [Practice] You can stop a passing motion by releasing the joystick near the center\n  - Ball resets between quizzes in a playlist quiz\n  - Ball resets between plays when using \"Watch Playlist\"\n  - Drawing palette appears when court drawing is enabled\n  - Restored ability to pass the ball in 1st person practice mode"
             }
         ],
         "on_rookie": false,
@@ -155,13 +155,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475081,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475000,
+        "last_update": 475081,
         "category": "APPS",
         "votes": 23,
         "rating": 2.043478,

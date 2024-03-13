@@ -54,7 +54,7 @@
             },
             {
                 "rating": 5,
-                "votes": 352
+                "votes": 353
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -82,6 +82,10 @@
             "logo_transparent": "38974606_1616568852051417_4748903909820829929_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.1.21478.105.OBERON.Quest.release",
+                "change_log": "Barbaria 1.5.1.21478 Quest Patch Update\n\n- Fix crash when going into the system menu or taking the headset off. "
+            },
             {
                 "version": "1.5.1.21461.104.OBERON.Quest.release",
                 "change_log": "Barbaria 1.5.1 Patch Update\n\nCaverns of the Unknown Balance Updates: \n- Allies from shrines now spawn with weapons\n- Shrine equipment and ally minion level increases on pace with cavern enemy level progression rather than always starting at Level 1\n- Decrease difficulty jump every 4th room\n- Increase random shrine drop percentage\n- Increase final room violence bonus\n\nAdditional Changes:\n- Divine Sword now steals a fixed 10% of the stabbing champion’s health, or all the remaining health of the enemy if the remaining health is less than 10% of the stabbing champion’s health.\n- Moving Wall Behavior Change: Based on player feedback and discussion in Discord, moving walls will now start down for 2s when entering a fragment before raising and resuming their normal cycle.\n- Decrease placement radius restrictions around non-entrance fragment connectors.\n- When “Auto Replays on Boot” option is disabled, do not download replay until manually selected in History station to improve time to gameplay in slow server connection situations.\n- Adjust early realm match making buckets to smooth out difficulty jump around Fortitude 100\n- Fix allies getting destroyed when moving between areas in Caverns of the Unknown\n- Fix placement cost for Cavern of Mystery Cap\n- Fix Gladiatrix weapon recall not staggering Zealots and champions\n- Fix spawner animation reset after replays\n- Fix fragment placement overlapping caps in some situations\n- Fix Test My Base replays getting uploaded and potentially causing failed replay downloads from other player attacks.\n\nJoin us on Discord and let us know what you think!\nhttps://discord.gg/ZyGzJRQURm"
@@ -157,10 +161,6 @@
             {
                 "version": "1.0.3.18824.65.OBERON.Quest.release",
                 "change_log": "Welcome to Barbaria 1.0.3\n\nPatch Notes:\n- Faster post-round replay processing times\n- Improve arrow nocking on the bow (wider distance check, relax look requirement)\n- Do not auto-equip bow if already holding something (when grabbing an arrow, you will no longer drop the weapon in your opposite hand. Opposite hand must be empty to equip bow.)\n- Show health bars from god mode when spell targeting\n- Improved AI decision speed when entering a tile\n- Reduce memory usage for custom music\n- Increased Champion health ramp\n- Add 1 min extra time for 3 and 4 fragment realms\n- Fix drift/player champion getting pulled to a location bug\n- Fix structures placed at an angle on realms\n- Fix bug causing items to disappear sometimes in the Stronghold\n- Fix Quiver and Bags getting stuck on hands or equipped to hip instead of back\n- Fix skeleton bones getting offset sometimes\n- Fix player champion dying when not inhabited for a long period\n- Fix clouds and scenery pieces overlapping board in certain layouts\n- Fix enemies piling up on spring traps in Symphony of Violence\n- Fix NPCs walking through fences\n- Fix champions getting possessed while flying through the air\n- Fix torch not breaking in 1 hit\n- Fix ally indicator being inside Cyclotaur\n- Fix missing display attributes and level heads on sword\n- Fix crystal getting equipped to hip\n- Fix invisible reinforcements in replay\n- Fix disconnected tiles"
-            },
-            {
-                "version": "1.0.3.18818.64.OBERON.Quest.release",
-                "change_log": "Welcome to Barbaria 1.0.3\n\nPatch Notes:\n- Faster post-round replay processing times\n- Improve arrow nocking on the bow (wider distance check, relax look requirement)\n- Do not auto-equip bow if already holding something (when grabbing an arrow, you will no longer drop the weapon in your opposite hand. Opposite hand must be empty to equip bow.)\n- Show health bars from god mode when spell targeting\n- Improved AI decision speed when entering a tile\n- Reduce memory usage for custom music\n- Fix drift/player champion getting pulled to a location bug\n- Fix structures placed at an angle on realms\n- Fix bug causing items to disappear sometimes in the Stronghold\n- Fix Quiver and Bags getting stuck on hands or equipped to hip instead of back\n- Fix skeleton bones getting offset sometimes\n- Fix player champion dying when not inhabited for a long period\n- Fix clouds and scenery pieces overlapping board in certain layouts\n- Fix enemies piling up on spring traps in Symphony of Violence\n- Fix NPCs walking through fences\n- Fix champions getting possessed while flying through the air\n- Fix torch not breaking in 1 hit\n- Fix ally indicator being inside Cyclotaur\n- Fix missing display attributes and level heads on sword\n- Fix crystal getting equipped to hip\n- Fix invisible reinforcements in replay\n"
             }
         ],
         "on_rookie": true,
@@ -171,10 +171,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475081,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475009,
+        "rating_update": 475081,
         "iarc_detail_update": 475000,
         "keywords": [
             "combat",
@@ -182,10 +182,10 @@
             "rpg",
             "funny"
         ],
-        "last_update": 475009,
+        "last_update": 475081,
         "category": "GAMES",
-        "votes": 423,
-        "rating": 4.723404,
+        "votes": 424,
+        "rating": 4.724057,
         "weighted_rating": 4.6
     },
     "errors": []

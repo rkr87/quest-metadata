@@ -39,11 +39,11 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Immersive",
             "Mixed Reality",
             "2 Player Games",
             "Top Rated Games",
             "Top Rated (Current Month)",
-            "Immersive",
             "Roguelikes",
             "Passthrough"
         ],
@@ -91,6 +91,10 @@
             "logo_transparent": "75245824_1713222775524305_444330788222320242_n.png"
         },
         "changelog": [
+            {
+                "version": "1.34.248315-release",
+                "change_log": "Patch Notes\n- Added new auto save system for multiplayer\n- Cards held by other players can now be seen\n- Improved tilt behavior\n- Various bug fixes"
+            },
             {
                 "version": "1.33.237245-release",
                 "change_log": "Added auto saves for Skirmish\nFixed visible eye tiles not glowing in the Curse of the Serpent Lord boss level\nFixed skip turn issues\nFixed display of Cana's attack stat when upgraded\nFixed some inconsistencies with Cana and vitality potions\n"
@@ -142,10 +146,6 @@
             {
                 "version": "1.20.172083",
                 "change_log": "Greetings adventurers,\n\nWe’re back with another patch to improve on your favorite dungeon, sewer, woods and desert crawling game! The update includes the ability to cancel die rolls, viewing your card hands for all heroes in doubles and skirmish and more. Check out the full list below:\n\nAdded the ability to cancel a die roll\nAdded the ability to view card hands for your different heroes at any time in doubles and skirmish mode\nAdded Chinese language support\nAdded unique player colors to doubles mode\nAdded new hero portraits\nLoading a saved game now keeps track of the order of the heroes’ turns\nAdded card hand UI improvements in VR\nFixed the board rotation so it’s no longer inverted when the board is tilted to extreme angles in VR\nUpdated party views to be more reliable and work identically in doubles mode and regular multiplayer in the PC edition\nFixed an issue where the save button would vanish in doubles mode after readying players in the PC edition\nFixed an issue where the game would softlock when entering a shop with unselected heroes in the PC edition\nFeral Charge now properly sets Cána's chase target\nYou can no longer grab the ghost of a piece in VR\nFixed bug where the current turn could end while certain effects were still being resolved\nGuiding Light no longer blinds friendly units\nPieces can no longer spawn on top of portals\nAll potion effects and stats are now retained when saving a game\nUse new 3x1 doors in desert levels\nFix bug with ghost remaining on board if picked up when piece is dying\n\n\n\nWe hope you enjoy the new features and improvements!\n\nUntil next time,\nThe Demeo Team"
-            },
-            {
-                "version": "1.19.165012",
-                "change_log": "Patch notes:\n- Added doubles mode\n- Polished some UI\n- The PC Edition pause menu now displays the floor number and the name of the specific map you're on\n- Fixed an issue where enemies close to the entrance had to be defeated in order to finish the level (Serpent Lord levels only)\n- Fixed bug where the number of enemies to defeat in order to exit a level sometimes was wrong for joining players\n- Pieces which cannot perform actions do no longer run away when panicked\n- Fixed issues with dice getting stuck after rolling\n- Made all healing ability notifications consistent\n- Cána and Verochka no longer attack Spore Fungi and Spider Eggs, unless ordered to do so\n- After breaking a lamp with Master's Call, Cána will no longer walk to where that lamp was placed\n- Players no longer hit themselves when missing a melee attack\n- Invulnerability no longer prevents counter damage from triggering\n- Invulnerability now clears all negative status effects and prevents you from acquiring them\n- The camera has been removed from the painting room in Heroes’ Hangout in VR"
             }
         ],
         "on_rookie": true,
@@ -156,13 +156,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475081,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475057,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475057,
+        "last_update": 475081,
         "category": "GAMES",
         "votes": 6849,
         "rating": 4.68959,

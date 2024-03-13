@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.17",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.17\n\n## Improvements\n\n- Reduced app startup time.\n- When user is logged out or has not yet logged in, a placeholder demo workspace is shown.\n- The Palm Menu now indicated which options are available during various steps of app startup. Unavailable options are grayed out and not pressable.\n- The keyboard setting are now accessible during the app sign-in step, so you can pair a network keyboard to type your login credentials.\n\n## Bug Fixes\n\n- Fixed bug that was causing the demo workspace to load with an incorrect display name.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.16",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.16\n\n## Improvements\n\n- AI queries now include contextual information about other content in the workspace to improve the specificity and usefulness of responses. Continuing to improve the AI features is an ongoing effort!\n\n## Bug Fixes\n\n- Fixed a bug that was preventing web browsers from being activated after one had been deleted from the workspace.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.02",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.02\n\n## Improvements\n\n- Minor under-the-hood fixes.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.01",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.01\n\n## Improvements\n\n- New and cleaner design for web browser and settings window UI.\n- Images now have rounded corners, making them more visually comfortable.\n- “Free mode” and “Fixed mode” have been replaced with “Show Ideas” and “Hide Ideas”, which toggles the AI-suggested topics on and off.\n- Non-suggested items are pinned in place, but can be unpinned and allowed to float.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475081,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475001,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475001,
+        "last_update": 475081,
         "category": "APPS",
         "votes": 53,
         "rating": 3.396226,
