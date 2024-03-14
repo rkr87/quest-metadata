@@ -77,6 +77,18 @@
         },
         "changelog": [
             {
+                "version": "2024.18.2",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.18.2\n\n## Improvements\n\n- The tutorial has been redesigned with a cleaner UI, fewer steps, and locally-packaged videos to eliminate loading delays.\n- The drag interaction now kicks in after a shorter delay, making scrolling websites and selecting text feel much snappier.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.18.1",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.18.1\n\n## Improvements\n\n- The tutorial has been redesigned with a cleaner UI, fewer steps, and locally-packaged videos to eliminate loading delays.\n- The drag interaction now kicks in after a shorter delay, making scrolling websites and selecting text feel much snappier.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.18",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.18\n\n## Improvements\n\n- The tutorial has been redesigned with a cleaner UI, fewer steps, and locally-packaged videos to eliminate loading delays.\n- The drag interaction now kicks in after a shorter delay, making scrolling websites and selecting text feel much snappier.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.17",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.17\n\n## Improvements\n\n- Reduced app startup time.\n- When user is logged out or has not yet logged in, a placeholder demo workspace is shown.\n- The Palm Menu now indicated which options are available during various steps of app startup. Unavailable options are grayed out and not pressable.\n- The keyboard setting are now accessible during the app sign-in step, so you can pair a network keyboard to type your login credentials.\n\n## Bug Fixes\n\n- Fixed bug that was causing the demo workspace to load with an incorrect display name.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -143,18 +155,6 @@
             {
                 "version": "2024.05",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.05\n\n## Improvements\n\n- Fine-tuned workspace scaling bounds.\n- Increased gripnav leverage factor and reduced coast friction to make it easier to move across the workspace with a single, small motion of your closed hand.\n- Fine-tuned web browser resolution upscaling and per-eye render resolution upscaling on Quest 2 and Quest Pro to reduce dropped frames.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.04",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.04\n\n## Bug Fixes\n\n- Fixed an issue that was causing AI-suggested topic titles to instantiate with 0-width.\n- Re-enabled Command Prompt instructions, which had been accidentally disabled.\n- The Virtual Keyboard will now automatically move toward an ergonomic position when the user is moving the entire workspace with one or both hands.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.03",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.03\n\n## Improvements\n\n- Added a virtual environment to prevent passthrough image making it difficult to see and focus on workspace contents. A “Theme” button in the palm menu allows cycling through different background options.\n- All items now face the user at all times.\n- Items now maintain a semi-constant apparent size, making them easier to see and work with from a distance.\n- Positional snapping has been removed (may be reimplemented later).\n- Topics can now be expanded or collapsed. (They are collapsed by default.) When collapsed, they will display an auto-generated summary when touched.\n- The virtual keyboard’s position is now fixed, making it easier to hit the keys.\n- There is now only one spatial cursor active at a time, based on the last hand to click.\n- The spatial cursor icon has been redesigned to be more visually calming.\n\n## Bug Fixes\n\n- Fixed an issue that was preventing image import from Dropbox.\n- Fixed an issue that was preventing file imports from Dropbox when there were special characters in the file path.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.02",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.02\n\n## Improvements\n\n- Minor under-the-hood fixes.\n\n## Known Issues\n\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475081,
+        "changelog_update": 475105,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475001,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475081,
+        "last_update": 475105,
         "category": "APPS",
         "votes": 53,
         "rating": 3.396226,

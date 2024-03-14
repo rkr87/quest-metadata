@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.30",
+                "change_log": "-Changed Weapons DLC text to Trailer instead of Watch Trailer -Fixed Grabbing vase messing up your hand -Made it so you could pick up broken pieces -Fixed grabbing objects shooting you up -Fixed weapons getting stuck in walls"
+            },
+            {
                 "version": "1.4.20",
                 "change_log": "-Added \"BUY\" text for the Map and Sandbox DLC \n-Fixed the Weapons DLC items not being the same in the Sandbox mode \n-Added items to the book case in the living room map \n-Made the TV Screen less reflective \n-Added Flower, Paint Canvas, Paint holder, Paint Brush, and Gold Bar as new breakable objects in maps"
             },
@@ -137,10 +141,6 @@
             {
                 "version": "0.9.85",
                 "change_log": "Fixed fracturing on some objects\nMade fractured objects disapear after 40 seconds\nMade it so you can pick up more objects\nMade it so bullets do more damage to objects (Still needs work)\nFixed Sound Effects"
-            },
-            {
-                "version": "0.9.7",
-                "change_log": "Added Sprint button \nAdded Muzzle flash to guns \nAdded Gun sounds \nMade it so you can pick up some breakable objects \nFixed Glass in Museum map \nMade sound scale with impact \nMade particles scale with impact\nAdded no turn option\nFixed lots of fracturing for models\nFixed Hand Positions on some models\nFixed some picking up objects"
             }
         ],
         "on_rookie": false,
@@ -151,13 +151,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475033,
+        "changelog_update": 475105,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475033,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475033,
+        "last_update": 475105,
         "category": "GAMES",
         "votes": 12,
         "rating": 4.916667,

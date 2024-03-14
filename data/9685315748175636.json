@@ -38,7 +38,7 @@
             },
             {
                 "rating": 2,
-                "votes": 17
+                "votes": 19
             },
             {
                 "rating": 3,
@@ -46,11 +46,11 @@
             },
             {
                 "rating": 4,
-                "votes": 213
+                "votes": 214
             },
             {
                 "rating": 5,
-                "votes": 1469
+                "votes": 1541
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "0.3",
+                "change_log": "PATCH NOTES:\n\nEnhanced Stealth:\n- Introduced a stealth game mode featuring two maps: Bank and Office.\n- Added an indicator that notifies the player when an enemy can be taken down without alerting their allies.\n- NPCs now have a significantly harder time detecting the player in elevated and lower positions.\n- NPCs are now more aware of their nearby allies being taken down.\n- NPCs no longer instantly detect the player after hearing a gunshot from them.\n\nWeapons:\n- Introduced four new weapons: MAC-10, M14 (with an automatic variant), Deagle, and a stun gun.\n\nVehicles:\n- Every vehicle is physically simulated and can be interacted with or destroyed.\n\nCity/Immersion:\n- Introduced a police faction.\n- Added random car chases between the police and criminals.\n- Introduced rainy weather for both daytime and nighttime.\n- Some buildings have been replaced.\n\nCombat:\n- Slightly increased the damage of the hunting shotgun.\n- Explosives can now trigger the detonation of other explosives in a chain reaction.\n- Wood pallets can be destroyed with explosives.\n- Grenades can be detonated by gunfire.\n- Thrown blades now hit their target more frequently instead of bouncing off.\n- Objects will break more easily when thrown with a spin.\n\nMiscellaneous:\n- Enhanced the appearance of the UI.\n- Added a weapon preview in the menus.\n- NPCs can no longer stand up under large objects.\n- Improved the traffic spawning system.\n- Friendly NPCs will become hostile if disarmed by the player.\n- Implemented small enhancements to the tutorial.\n- Changed the automatic 9mm pistol's ironsights' color to red for better distinction from the semi-automatic variant.\n- Civilian NPCs created with the spawn gun will now move autonomously.\n\nAudio:\n- Criminals and police officers now have voice lines.\n- Stepping on metal produces a more realistic sound.\n- Footsteps of NPCs are now audible.\n- Enemies now emit pain sounds when shot.\n- Improved the transition of swinging music to reduce repetitiveness.\n- Added an option to disable swinging music.\n\nPerformance:\n- Enhanced CPU performance for traffic spawning.\n- Improved CPU performance related to NPC behaviour.\n- Made various other CPU performance improvements.\n- Empty magazines now despawn more quickly.\n- Addressed the issue of fleeing pedestrians causing extreme crowd density.\n- Fixed a memory leak caused by attaching ropes.\n\nBug Fixes:\n- Corrected grenade throwing animations.\n- Addressed multiple NPC behavior issues.\n- Fixed the issue where hostage animations randomly stop for a short period.\n- Corrected weapon handling sounds to play in stereo instead of mono.\n- Fixed weapon rotations during slow-motion.\n- Resolved the issue of wall collision haptics activating while grabbing an object.\n- Fixed the appearance of an unnatural resistance in weapon bolts during reloads.\n- Fixed the NPC reloading sound being audible from beyond its hearing radius.\n- Made various fixes to weapon hand placement.\n- Corrected the issue with combat zones not properly despawning NPCs.\n- Addressed a potential issue where a weapon with a silencer attached wouldn't shoot correctly.\n- Fixed a potential problem where combat music would restart randomly.\n- Resolved an issue with saves not loading correctly after changing the game version. (This issue previously allowed some players to unlock weapons without completing the required challenges. Affected players will now need to complete these challenges to unlock weapons properly.)"
+            },
+            {
                 "version": "0.21",
                 "change_log": "PATCH NOTES\n\nWEAPONS:\n- Two new weapons added: a combat knife and a pencil.\n- Shooting an empty firearm will play a dry fire sound effect.\n- Shooting while holding the charging handle will damage the player.\n\nCOMBAT:\n- Added an option to disable automatic slow motion when dodging.\n- NPCs may accidentally fire their weapon when dropped. Tased enemies will continue firing until the firearm is empty.\n- NPCs will reload their weapons if they run out of ammo.\n- Pulling an NPC while in the air will now sling both the player and the NPC.\n\nCITY:\n- A new type of crime in the city: Hostage on rooftop.\n- Added a marker to indicate nearby events.\n- Events can spawn much further from the player.\n\nVISUALS:\n- Player gloves' model and textures are much more detailed.\n- Reduced player hand glow by 50%.\n- Added blood decals for NPCs. You can paint them red with bullets or knives.\n- Reduced camera's near clipping distance for better aiming.\n\nPERFORMANCE:\n- The game now runs at 90hz by default with an option to enable 72hz mode.\n- Added dynamic FFR (fixed foveated rendering).\n- Switched the rendering API from OpenGL to Vulkan.\n- Optimized CPU performance for grabbing.\n- Reduced complexity of smoke and text shaders.\n- Reduced pedestrian rendering priority, improving CPU performance in crowded areas.\n\nMISCELLANEOUS:\n- Added multiple small improvements to the tutorial.\n- The weapon spawn menu has been categorized for easier searches.\n- Destructible objects have more realistic break forces.\n- The player can bounce on walls using grabbed objects.\n- The moon is visible at night.\n- Stars are slightly more visible at dusk.\n- Reduced collision smoke effect to avoid distractions and performance drops.\n- NPCs should now always look at the player when grabbed.\n- Improved haptics for grabbing NPCs.\n\nBUG FIXES:\n- Fixed an issue where the calculated velocity of a grabbed object was lower than its actual velocity.\n- Fixed collision forces between high-speed moving objects.\n- Fixed breakable wood crates not applying the correct velocity to their broken parts upon destruction.\n- Fixed NPC rigging causing head distortion with rotation.\n- Fixed the flying bug caused by attaching objects with ropes (added a secret way of doing it).\n- Fixed an issue where NPCs would not reach the player after being pulled.\n- Fixed the M4 bolt moving while firing.\n- Fixed weapon mags not having collisions while being inserted.\n- Fixed haptics rumbling for too long in slow motion.\n- Fixed rapid slow motion hits not being registered.\n- Fixed some sound effects not playing in slow motion.\n- Fixed the spawn gun circle still showing up after the item is dropped.\n- Fixed weapon fire rate being tied to frame rate."
             },
@@ -93,16 +97,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475105,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475081,
+        "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475081,
+        "last_update": 475105,
         "category": "GAMES",
-        "votes": 1792,
-        "rating": 4.690848,
+        "votes": 1867,
+        "rating": 4.699518,
         "weighted_rating": 4.6
     },
     "errors": []

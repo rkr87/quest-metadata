@@ -22,9 +22,9 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest Pro",
             "Meta Quest 3",
-            "Meta Quest 2",
-            "Meta Quest Pro"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "ROOM_SCALE",
@@ -73,6 +73,10 @@
             "logo_transparent": "39031319_3036704176460633_3303281820579336151_n.png"
         },
         "changelog": [
+            {
+                "version": "1.34",
+                "change_log": "- possibility to select different uniforms in match \n- achievements with collectible badges\n- age group compliance\n"
+            },
             {
                 "version": "1.32",
                 "change_log": "- possibility to select different uniforms in match \n- achievements with collectible badges\n"
@@ -144,10 +148,6 @@
             {
                 "version": "1.12",
                 "change_log": "While it's still recommended to mount controller on the foot - for best shooting experience - you can now mount controller wherever you want and adjust the shoe settings.\nYou can even hold it in hand."
-            },
-            {
-                "version": "1.11",
-                "change_log": "- Added vibration when ball is kicked, to give your foot some kick indication\n- When you tune your shoe, you can return to selected game without restarting it"
             }
         ],
         "on_rookie": true,
@@ -158,13 +158,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475081,
+        "changelog_update": 475105,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475081,
+        "last_update": 475105,
         "category": "GAMES",
         "votes": 5,
         "rating": 4.2,
