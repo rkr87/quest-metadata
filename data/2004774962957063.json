@@ -67,7 +67,7 @@
             },
             {
                 "rating": 5,
-                "votes": 839
+                "votes": 842
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +92,14 @@
             "logo_transparent": "75435282_957640477981367_4746268653272923305_n.png"
         },
         "changelog": [
+            {
+                "version": "1.15.1.248862-release",
+                "change_log": "- Added additional error tracking.\n- Fixed player rotation being offset slightly to the left after recentering.\n- Fixed French being used instead of Spanish in the user reporting menu."
+            },
+            {
+                "version": "1.15.1.248851-release",
+                "change_log": "- Added additional error tracking.\n- Fixed player rotation being offset slightly to the left after recentering.\n- Fixed French being used instead of Spanish in the user reporting menu."
+            },
             {
                 "version": "1.15.228997",
                 "change_log": "* This update fixes a couple of issues with multiplayer performance"
@@ -143,14 +151,6 @@
             {
                 "version": "1.5.99727",
                 "change_log": "Game changes\n---\nThe holidays are now over and the Cozy Village is now back to normal. Creative Mode has now a new unique environment\nFixes\n---\nVarious changes to network code to reduce network traffic\nFixed bug that sometimes could cause all plates to fail to spawn in Endless Mode in multiplayer\nFixed bug that sometimes could cause the pause in Endless Mode to last longer than intended in multiplayer\nFixed bug that could cause the wrong info to be displayed on the open/close room to public button in the wrist menu.\nFixed bugs related to fridge content sometimes not syncing properly in Creative Mode\n"
-            },
-            {
-                "version": "1.3.97509",
-                "change_log": "Game changes\n- The holiday season is here! Enjoy the snowy season with updated environments and a festive soundtrack!\n- Introducing Creative mode to the game in which you are free to make any sandwiches you wish for without any time pressure. You're also able to review photos of your creations or try to discover over 140 secret recipes.\n- Meet Santa and his reindeer in Creative mode and cook with new types of ingredients such as turkeys, gingerbread and candy canes!\n- Updated physics - Grabbing and tossing stuff feels a lot smoother now\n- Quest 2-version of the game is now on par with the Rift version with improved graphics and assets\n- Quest 2 version now has 90hz refresh rate.\n- Condiments now looks smoother on Rift and Quest-2 versions\n- Improvements to the start menu layout, feedback and wording\n\nFixes\n- Fixed bug that sometimes caused the grill to be turned off even when it should be on or super powered\n- Fixed a multiplayer bug that sometimes caused rewards in endless mode to fail to spawn/spawn even when you had already unlocked them.\n- Room codes generated when doing a group launch are now short enough to be able to input when searching for a room.\n- Coin tips are now properly awarded at the end of an endless round.\n- Pausing game in singleplayer now hides the customer recipes since they could be seen on Oculus Quest\n- Fixed various bugs related to pausing the game\n- Removed a few weird hitboxes in the menues that should never had been there\n- Rebalanced the 3rd level in Carrot convention (A-03-03) that was harder than intended.\n- Fixed a bug that could cause customers to fail to spawn in multiplayer games.\n\n"
-            },
-            {
-                "version": "1.2.92260",
-                "change_log": "Cook-Out v1.2 Patch Notes\nChanges\n- Added a button on the wrist menu to toggle a multiplayer room between being private and public\n- Player name is now displayed above each avatar, including who is the current host of the game\n- Added button in the wrist menu to allow to end a round. This is possible in regular levels, endless mode and the tutorial. This can be either done in single player or when you are a host in multiplayer\n- Added leaderboard support for the Endless Mode.\n- Added new game hints\n- Added new spawn points for the Radish Dude.\nFixes\n- Fixed bug that caused rewards in endless mode to not unlock properly. Save files affected by this should be automatically restored after installing the update.\n- Fixed bug that allowed the story voice over to play over itself.\n- Updated the world map to make it clearer how to use it. Also added tooltip on how to replay levels on the map.\n- Rebalanced a couple of early levels that were harder than intended\n- Fixed bug that made it far too easy to knock off newly sliced ingredients off the table\n- Minor stability fixes."
             }
         ],
         "on_rookie": true,
@@ -161,20 +161,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475129,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475081,
+        "rating_update": 475129,
         "iarc_detail_update": 475000,
         "keywords": [
             "multiplay",
             "cook",
             "food"
         ],
-        "last_update": 475081,
+        "last_update": 475129,
         "category": "GAMES",
-        "votes": 1138,
-        "rating": 4.479789,
+        "votes": 1141,
+        "rating": 4.481157,
         "weighted_rating": 4.4
     },
     "errors": []

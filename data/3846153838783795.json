@@ -52,9 +52,9 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "App Lab Graduates",
             "Coming Soon",
-            "Fitness",
-            "App Lab Graduates"
+            "Fitness"
         ],
         "hist": [
             {
@@ -100,6 +100,10 @@
         "changelog": [
             {
                 "version": "1.2.8",
+                "change_log": "v1.2.8\n- Fixed issue with progress not being saved in same instances.\n- Fixed issue with global leaderboard being scrambbled in some instances.\n- Fixed a rare issue where if the Meta menu was opened or the HMD removed during a scene initialising (takes less than a second) saves could be corrupted.\n\nv1.2.7\n- Fixed issue where statistics didn't load at the end of WORKOUT.\n- Fixed issue where no text would appear on any boards in the game in some instances.\n- Added health and safety message during loading to remind you to be aware of your surroundings while training! :)"
+            },
+            {
+                "version": "1.2.8",
                 "change_log": "v1.2.8\n- Fixed issue with progress not being saved in same instances.\n- Fixed issue with global leaderboard being scrambbled in some instances.\n\nv1.2.7\n- Fixed issue where statistics didn't load at the end of WORKOUT.\n- Fixed issue where no text would appear on any boards in the game in some instances.\n- Added health and safety message during loading to remind you to be aware of your surroundings while training! :)"
             },
             {
@@ -141,10 +145,6 @@
             {
                 "version": "1.1.0",
                 "change_log": "v1.1\n- MULTIPLAYER: Engage in thrilling 1-minute rounds against other players. Be the first to win 3 rounds to claim victory.\n- WEEKLY LEADERBOARDS: Most of the game modes now have weekly leaderboards, so stay active to stay on top!\n- MASK COSMETICS: Show off your unique look in multiplayer with the introduction of cosmetic MASKS.\n- PERFORMANCE BOOST: Owners of Quest 2, Quest 3, and Pro models can now enjoy a performance upgrade, making your gameplay smoother than ever!\n- LIGHTNING FAST: For those looking to amp up their workouts, the SPEED setting in the WORKOUT FLOW is now even faster, giving you a thrilling challenge!\n- SHORTCUT TO SUCCESS: Get to your MY DOJO in a flash with a handy shortcut button from game mode pages. \n- FEEL THE KUNG FU: bHaptics has been updated to v2, and redesigned from the ground up. Expect more haptic variety now depending on the dummy arms you hit and with which part of your body!"
-            },
-            {
-                "version": "1.0.1",
-                "change_log": "First patch since exiting Early Access. A few quality of life fixes, enjoy:\n\n- Fixed EVENT menu panel text still showing LOCKED in some instances when it should say ENTER (this is just a text issue, the panel was accessible even when it said LOCKED!)\n- Fixed scores not uploading to leaderboard for TRAIN and FIGHT level 10.\n- Fixed issue where a LEVEL 11 in FIGHT mode would appear at the end of LEVEL 10  (there is no LEVEL 11) ^^\n- Fixed issue where if you played WORKOUT and then afterwards during the same session played a level in TRAIN TIER 2, the dummy wouldn't pivot side to side.\n- Fixed FIGHT stabbing arm (levels 6-10) not rendering correctly.\n- Fixed a font issue in certain languages where some letters would render differently than others.\n- FIGHT mode now has some modifiers available! (more to come)\n- TRAIN TIER 3 no longer has the NoGhost mod available, as there are no ghosts anyway in Tier 3.\n- Fixed issue in FIGHT were in some instances mistakes wouldn't remove hearts."
             }
         ],
         "on_rookie": true,
@@ -155,13 +155,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475105,
+        "changelog_update": 475129,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475105,
+        "last_update": 475129,
         "category": "GAMES",
         "votes": 374,
         "rating": 4.657754,

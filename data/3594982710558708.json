@@ -38,7 +38,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 734
+                "votes": 733
             },
             {
                 "rating": 2,
@@ -46,7 +46,7 @@
             },
             {
                 "rating": 3,
-                "votes": 310
+                "votes": 311
             },
             {
                 "rating": 4,
@@ -93,10 +93,6 @@
             {
                 "version": "1.4.0.49137",
                 "change_log": "New Content\n\n- Conquer your way to the top with the brand new Leaderboard system in the Skyland base camp!\n- Enjoy the completely revamped Skill Tree system:\n  o Visual Progression: Instead of passively unlocking godstones in a list, the new skill tree vividly showcases your journey as you level up.\n  o Empowered Choices: You'll have the freedom to explore godstone abilities before making your choice. Even when two godstones compete for a slot, you decide your path. \n  o Deep Dive: Each ability boasts its own branches and nodes. Customize your character to fit your style, with respec options available if you change your mind.\n  o Any Unique modifiers you collected will also be carried over to the new system and will become available to equip once you unlock Augments.\n  o Existing characters will be converted to the new system and you’ll be awarded points to invest in your skill trees.\n\n\nSkill Tree Conversion Process\n\nAll the Godstones you possess, regardless of their rarity, will have their accumulated XP combined and converted into skill points for the new system. The conversion ratio is such that having a combination of XP equivalent to 3 fully upgraded epic Godstones will maximize the points for that skill tree.\nFor every maxed Godstone's worth of XP, we also roll for an Augment of the same rarity type, and any Unique modifiers you have collected will be directly carried over to the new system as epic Augments. Augment slots, and Augment drops become available once you max out the skill points for an ability.\nFor our veteran players who obtained legendary godstones in the first few weeks of launch, their XP will be considered as epics for Augment rolls, and as a special reward, we will also be granting an exclusive title.\n\n\nFeature/System Updates\n\n- Mini map now opens/closes with quest HUD\n- Brimm is giving away chips. Try them 🙂\n- Various tuning to the early game in Skylands\n  o Reworked main story quest XP and enemy HP / levels / XP rewards for Skyland Lake Ruins area\n  o Moved the Wreckage Recovery and Essotech Research quest locations\n  o Created a new Main Story Quest in between Essotech Research and Purge the Essotech Corruption\n  o Turned the Lake Ruins boss into a public event\n  o Decreased defend duration of the Lake & Forest \"Drill'n Time\" public event\n  o Tuned weakpoints on all Skyland enemies\n  o Increased hit reaction animation on enemies\n  o Adjusted drop rates for crafting materials and gear from enemies and chests in the Lake Ruins and Forest areas\n  o Add crafting material drops to Lake Ruins PEs\n  o Adjusted grapple hook anchor paths for Lake & landing areas\n  o Adjust enemy HP scaling for Lake and Forest areas\n  o Adjust Lake Boss HP and damage\n  o Gated mainland portal behind housing quest\n- Updated crafting area in Skyland base camp\n- Updated video panels in new tutorial\n- Improved visuals and collisions on rocks in Skyland\n- Underlying work on the base character models\n- Added auto-equip functionality to automatically wear gear that is higher level on pickup, if the gear you had equipped was ilvl 1\n\n\nResolved Issues\n\n- Performance and memory optimizations\n- Shard performance improvements\n- Performance optimizations on various character textures\n- Various fixes to the character base model\n- Fixed Skyland reveal music overlapping with other music\n- Fixed out-of-body locomotion not working\n- Fixed tiered gear using incorrect values from its next level tier\n- Fixed some potential issues with accepting the legendary weapon quests from the Surveyor\n- Fixed hit reactions not working on enemies that have destructible armor pieces\n- Fixed hit reactions not working on enemies that are moving\n\n\nKnown Issues\n\n- Some icons in the skill trees may not currently display correctly on Quest 2\n- Lighting is bright in instances like Twilight Athenaeum, Infernal Core, etc.\n- Some armor sets have visual issues (clipping, misalignment, bright green color, etc.)\n"
-            },
-            {
-                "version": "1.3.1.45400",
-                "change_log": "Minor 1.3.1 Update 2 Release Notes: \n- Reduced performance impact of animations\n- Improved stability on all platforms\n- Specifically fixed a sporadic crash on Windows when playing videos (e.g. in Academy)\n- Fixed some oddities with shaders not behaving, causing rendering issues\n- Fixed issue that could cause sudden unpredictable acceleration when traversing the world on Quest 2\n\nMinor 1.3.1 Update 1 Release Notes:\n- Fixed Skyland EM epic armor unlock not giving the craft epic wood skill\n- Made critical hits easier to distinguish. Crit hits are now colored red, normal hits are colored yellow.\n- Fixed exceptions throwing when processing enemy hits\n- Fixed various terrain holes and assets around Skyland\n- Fixed how floating ruins bridge structures look from afar\n- Fixed various low resolution proxy geometry not swapping out as the player approaches in Skyland.\n- Fixed grass floating above terrain in Lake Ruins.\n- Various lighting improvements\n- VFX polishing\n\nFor full Minor 1.3.1 Release Notes, see: \nhttps://zenithmmo.com/blogs/news/minor-patch-1-3-1-new-area-and-bug-fixes\n\nGo to: zenithmmo.com \nNews and Blog \nMinor Patch 1.3.1 - New Area and Bug Fixes"
             }
         ],
         "on_rookie": false,
@@ -107,10 +103,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475129,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475105,
+        "rating_update": 475129,
         "iarc_detail_update": 475000,
         "keywords": [
             "action",
@@ -118,10 +114,10 @@
             "multiplay",
             "social"
         ],
-        "last_update": 475105,
+        "last_update": 475129,
         "category": "GAMES",
         "votes": 6992,
-        "rating": 4.29262,
+        "rating": 4.292906,
         "weighted_rating": 4.2
     },
     "errors": []

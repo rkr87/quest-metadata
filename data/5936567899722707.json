@@ -43,7 +43,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 15
+                "votes": 16
             },
             {
                 "rating": 2,
@@ -82,6 +82,10 @@
             "logo_transparent": "38974750_670558314687650_4351224727893824174_n.png"
         },
         "changelog": [
+            {
+                "version": "1.4.9",
+                "change_log": "Bug Fixes:\n- Fixed some known bugs.\n\nImprovements:\n- Optimized the logic of In-App Purchase (IAP), ensuring seamless offline playback experience without the worry of switching back to the trial version.\n- Optimized intelligent recognition of video types.\n\nNew Features:\n- Supported Hand Tracking feature.\n- Supported ssif.smap format Blu-ray 3D ISO files; however, we still recommend using standard ssif format Blu-ray 3D ISO files for network playback."
+            },
             {
                 "version": "1.4.6",
                 "change_log": "Improvements:\n- Optimized the logic of In-App Purchase (IAP), ensuring seamless offline playback experience without the worry of switching back to the trial version.\n- Optimized intelligent recognition of video types.\n\nNew Features:\n- Supported Hand Tracking feature.\n- Supported ssif.smap format Blu-ray 3D ISO files; however, we still recommend using standard ssif format Blu-ray 3D ISO files for network playback."
@@ -157,10 +161,6 @@
             {
                 "version": "1.0.21",
                 "change_log": "Fixes\n- Fixed a USB storage bug.\n- Fixed other known bugs."
-            },
-            {
-                "version": "1.0.12",
-                "change_log": "Optimizations:\n- Visual Tuning, the video picture is clearer.\n- Optimized USB storage read, support 2T+, even 20T.\n\nFeatures:\n- Supports Zooming in/out with thumb stick.\n- Supports adjusting saturation, contrast, brightness, and color correction.\n- Supports draging viewpoint for 180/360 VR videos, and adjusting IPD for 180 3DVR videos.\n- Supports Boost Volume."
             }
         ],
         "on_rookie": true,
@@ -171,16 +171,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475001,
+        "changelog_update": 475129,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475105,
+        "rating_update": 475129,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475105,
+        "last_update": 475129,
         "category": "APPS",
-        "votes": 198,
-        "rating": 4.181818,
+        "votes": 199,
+        "rating": 4.165829,
         "weighted_rating": 4.1
     },
     "errors": []

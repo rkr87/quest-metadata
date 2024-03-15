@@ -39,10 +39,10 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -68,11 +68,11 @@
             },
             {
                 "rating": 4,
-                "votes": 222
+                "votes": 224
             },
             {
                 "rating": 5,
-                "votes": 2108
+                "votes": 2115
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -110,10 +110,6 @@
             {
                 "version": "1.24.4",
                 "change_log": "Update v1.24.4\n\nNew\n- Game mode: Ball is back!\n- New map: Dust Park.\n- Alternate spectator control mode (drone controls).\n- spectator hotkeys to toggle between fixed ( Ctrl + 1-9 )\n- Added dedicated payload camera target (press g to activate)\n\nImproved\n- Replaced shock with smg in Abyss\n- Increased minimum character height so player models look better when crouching low to the ground.\n- When crouching too low (red circle) players can no longer use dashes.\n- Modified spawn shield location in waterway and canyon.\n\nFixed\n- Rockets can no longer be spawned inside walls.\n- Collision on doors in Abyss\n- Corrupted unlock list file no longer causes the game to crash on boot.\n- spectator: players don't go invisible when spectator is in a wall."
-            },
-            {
-                "version": "1.23.1",
-                "change_log": "Update v1.23.1\n\nNew\n- Added place to enter gift codes for gifting credits.\n- Banned users can now get a support code.\n- Mutator for dash league payload matches.\n\nImproved\n- Payload Abyss: moved rocket pickup closer to the rail at the second red spawn\n- Slow Motion mutator works better with pistol fire rate limit.\n- SMG increased damage, reduced reloading time.\nbody shots 8 -> 6\nHead shots 4 -> 3\nReload time 2s -> 1.5s\n- Pico neo3 now mutes microphone when going in standby to save battery power.\n\nFixed\n- Changing helmet and body at the same time in the customization menu only changed the helmet.\n- Payload Abyss: fixed places where players could dash through walls.\n- Deathmatch Crater: fixed places where players could dash inside pillars/walls.\n- Data protection screen has wrong size when opening for the first time.\nIssue where players could not start a custom server if the combined data of their name and equipment was too large.\n- Issue where players could not login if they had a slow connection to Paris and needed to update localization files.\n"
             }
         ],
         "on_rookie": false,
@@ -124,10 +120,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475129,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475105,
+        "rating_update": 475129,
         "iarc_detail_update": 475000,
         "keywords": [
             "fps",
@@ -135,10 +131,10 @@
             "robot",
             "multiplay"
         ],
-        "last_update": 475105,
+        "last_update": 475129,
         "category": "GAMES",
-        "votes": 2655,
-        "rating": 4.5258,
+        "votes": 2664,
+        "rating": 4.526652,
         "weighted_rating": 4.5
     },
     "errors": []

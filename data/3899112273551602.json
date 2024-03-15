@@ -33,9 +33,9 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "App Lab Graduates",
             "Mixed Reality",
             "Enterprise",
-            "App Lab Graduates",
             "Passthrough"
         ],
         "hist": [
@@ -82,6 +82,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.4.4.9505",
+                "change_log": "2.4.3.9490 => 2.4.4.9505\n\nIMPROVEMENTS\nUpdated samples list\n\nVR BUG FIXES\nPlay mode: the right hand ray collides with all objects (old and new modes)\nFixed the default brush stroke on the brush tool is missing\nFixed when tool switcher without a previous tool switches to a broken empty state\nExported gltf models (from the exported folder) cannot be used in space (only for the new exported files for now)\nFixed when can’t use the volume/sphere select if the short ray is targeting something"
+            },
             {
                 "version": "2.4.3.9490",
                 "change_log": "-Added new templates\n-Single-axis scale gizmo by modifier button"
@@ -147,7 +151,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475001,
+        "changelog_update": 475129,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475033,
@@ -158,7 +162,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 475033,
+        "last_update": 475129,
         "category": "APPS",
         "votes": 279,
         "rating": 4.143369,

@@ -47,15 +47,15 @@
             },
             {
                 "rating": 3,
-                "votes": 245
+                "votes": 246
             },
             {
                 "rating": 4,
-                "votes": 521
+                "votes": 522
             },
             {
                 "rating": 5,
-                "votes": 6480
+                "votes": 6502
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,6 +79,14 @@
         },
         "changelog": [
             {
+                "version": "1.30.4.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option for SteamVR Vive tracker emulation through inside-out full body tracking on Quest\n• Added option to Emulate Index Controllers on Quest; this allows finger tracking in OpenVR games that support it\n• Improved motion extrapolation quality of Synchronous Spacewarp (SSW)\n• Now sending headset battery level and charging state to SteamVR\n• Reduced video compression artifacts with 10-bit codecs\n• Improved desktop streaming latency on macOS\n• Added Wide motion support with hand tracking\n• Switched to recognizing index and finger curl for trigger / grip presses when using regular hand tracking\n• Fixed issue with Unreal/Unity/WebXR where the VR session wasn't ending properly\n• Fixed desktop being cutoff on some resolutions with AMD\n• Fixed game compatibility with: Hard Bullet, Resonite, JKXR, Roblox"
+            },
+            {
+                "version": "1.30.4.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option for SteamVR Vive tracker emulation through inside-out full body tracking on Quest\n• Added option to Emulate Index Controllers on Quest; this allows finger tracking in OpenVR games that support it\n• Improved motion extrapolation quality of Synchronous Spacewarp (SSW)\n• Now sending headset battery level and charging state to SteamVR\n• Reduced video compression artifacts with 10-bit codecs\n• Improved desktop streaming latency on macOS\n• Added Wide motion support with hand tracking\n• Switched to recognizing index and finger curl for trigger / grip presses when using regular hand tracking\n• Fixed issue with Unreal/Unity/WebXR where the VR session wasn't ending properly\n• Fixed desktop being cutoff on some resolutions with AMD\n• Fixed game compatibility with: Hard Bullet, Resonite, JKXR, Roblox"
+            },
+            {
                 "version": "1.30.1.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option to forward tracking data (face/eye/hand/body) to the PC via the VDXR runtime. Games will need to support the required OpenXR extensions to make use of those.\n• Added icon in Performance Overlay when using encrypted traffic\n• Added render resolution percentage and max bitrate to Performance Overlay\n• Added support for TeamBeef modded games to appear in the Games tab\n• Added new music tracks\n• Added ability to change the screenshots folder location (Media tab in the Streamer window)\n• Added option in Input tab to disable menu hold to switch out of VR\n• App will now stay in passthrough mode while loading on Quest\n• Automatic codec will now choose HEVC 10-bit with Nvidia\n• Improved support for Ultrawide monitors \n• Virtual monitor driver now supports up to 4k @ 120 (up from 2560x1440)\n• Now preventing disconnection when videos are being downloaded\n• Hand beams are now hidden when interact with desktop is unchecked\n• Re-added basic hand gestures for trigger and grip when using hand tracking in VR games\n• Fixed GPU memory leak on the PC side\n• Fixed slow decoding when using AMD 6450 and 6550 graphic cards\n• Fixed Turkish keyboard layout\n• Fixed 32-bit compatibility issue with some VR games\n• Fixed missing Korean characters in Videos tab and subtitles\n• Fixed game compatibility with: Tetris Effect, Premium Bowling, Battle Talent, Paradiddle. Hubris will now use VDXR by default\n• Fixed controller offsets with VDXR in Ghosts of Tabor and Contractors VR\n• Fixed issue with X-Plane 12 when re-entering VR\n• Fixed issues with player height with REFramework and UEVR\n• Lowered the trigger activation threshold in VDXR to match Oculus Link's behavior"
             },
@@ -149,14 +157,6 @@
             {
                 "version": "1.29.0.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Screen transparency toggle (above the screen in the first 4 environments)\n• VR Passthrough option (in Streaming tab) with configurable chroma keying\n• Added face/eye tracking with VRChat on Quest Pro\n• Added Quest 3 support\n• Added AV1 and AV1 10-bit support (only for Quest 3 with Nvidia 4000 and AMD 7000 series GPUs)\n• New virtual assistant that can answer questions related to Virtual Desktop in many languages\n• Added Turkish and Russian keyboard layouts\n• Now automatically saving/restoring Nvidia settings\n• Fixed compatibility with Onward (Steam) when launching from GAMES tab"
-            },
-            {
-                "version": "1.28.1.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added HEVC 10-bit support with AMD graphics cards (Radeon 5000 series or newer)\n• Improved quality of Snapdragon Game Super Resolution\n• Added Portmaster to Interfering apps list\n• Fixed issue with Streamer not launching after switching GPUs or using old Nvidia drivers\n• Fixed Oculus virtual audio device state to be restored on disconnect\n• Fixed Dual Sense button mappings\n• Fixed Shift/CapsLock issue with computer keyboard\n• Fixed cursor offset issue after moving floating screen\n• Added status for muted microphone in the Settings tab"
-            },
-            {
-                "version": "1.28.1.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this BETA version:\n• Added HEVC 10-bit support with AMD graphics cards (Radeon 5000 series or newer)\n• Improved quality of Snapdragon Game Super Resolution\n• Added Portmaster to Interfering apps list\n• Fixed issue with Streamer not launching after switching GPUs or using old Nvidia drivers\n• Fixed Oculus virtual audio device state to be restored on disconnect\n• Fixed Dual Sense button mappings\n• Fixed Shift/CapsLock issue with computer keyboard\n• Fixed cursor offset issue after moving floating screen\n• Added status for muted microphone in the Settings tab"
             }
         ],
         "on_rookie": false,
@@ -167,19 +167,19 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475129,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475105,
+        "rating_update": 475129,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "movie"
         ],
-        "last_update": 475105,
+        "last_update": 475129,
         "category": "APPS",
-        "votes": 8576,
-        "rating": 4.285681,
+        "votes": 8600,
+        "rating": 4.287326,
         "weighted_rating": 4.2
     },
     "errors": []
