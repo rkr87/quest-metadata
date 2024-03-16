@@ -78,8 +78,20 @@
         },
         "changelog": [
             {
+                "version": "0.0.40.2f",
+                "change_log": "Optimise private lobbies arena"
+            },
+            {
+                "version": "0.0.40.2e",
+                "change_log": "Floating pads fix\nRobot mask fix\nRandom knockouts fix\nGloves dropping fix"
+            },
+            {
                 "version": "0.0.40.2d",
                 "change_log": "Hey 0.0.40.2 is live. \nCAT EYE cage for goalies\nLot's of new masks for goalies with graphics\nFew goalie gloves customisation options\nLocker rooms for red and blue teams in privates\nTeams are now spawned in their locker room respectively\nBasketball in main locker room for warmup\nReworking the inventory - might lead to glitches\n\n0.0.40.2d \n* Small fixes and improvements"
+            },
+            {
+                "version": "0.0.40.1a",
+                "change_log": "Fixing random hitting sound\nAdd cup to privates\nMinor fixes"
             },
             {
                 "version": "0.0.40.2c",
@@ -92,10 +104,6 @@
             {
                 "version": "0.0.40.2",
                 "change_log": "11 New goalie helmets\nGoalie gloves customization\nLocker rooms in private servers!\nReworking equipment and inventory system"
-            },
-            {
-                "version": "0.0.40.1a",
-                "change_log": "Fixing random hitting sound\nAdd cup to privates\nMinor fixes"
             },
             {
                 "version": "0.0.40.1",
@@ -140,14 +148,6 @@
             {
                 "version": "0.0.39.0",
                 "change_log": "NEW GAME MODES\nDeflection training \nGoalie Screened Training ( 1-3-1 vs 1 + Triangle PK)\n\nDummies in playground replaced with humanoids\nAI in goalie modes replaced with humanoids\nOne timer mode is fixed with bigger delay\nNo more double pass request in One timers\nReal Stick setup has been added to the single player challenges\nReal Stick setup in locker room has been moved to shooting area\nNo more die hard passes when AI in front of you"
-            },
-            {
-                "version": "0.0.38.2",
-                "change_log": "Super experimental early access controller attachment support."
-            },
-            {
-                "version": "0.0.38.1",
-                "change_log": "Private lobbies joining should be consistent now\nHopping the boards\nClosed Boards in privates (you still can go through door)\nGoal horn and crowd for a second net in privates\nGoalie jersey is not matches what you selected\nGoalie stick should be less glitchy now"
             }
         ],
         "on_rookie": false,
@@ -158,13 +158,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475129,
+        "changelog_update": 475153,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475129,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475129,
+        "last_update": 475153,
         "category": "GAMES",
         "votes": 145,
         "rating": 4.193103,

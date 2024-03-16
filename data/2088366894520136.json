@@ -86,6 +86,14 @@
         },
         "changelog": [
             {
+                "version": "3.2.1",
+                "change_log": "--VZfit 3.2--\nList view added to the Find Ride map.  In addition to the existing method to search for rides by panning and zooming to spots on a map, you can now toggle on list mode and page through the rides in a list.\nYou can sort the rides in list view, up or down, by name, length of ride, when you last rode, Ride creation date, and ride progress.\nBug fixes for challenge unlock display\nNew Challenge assets\nBug fixes for sharing/deleting rides\n\n--3.1.2--\nRemoved testing code from release code"
+            },
+            {
+                "version": "3.2.0",
+                "change_log": "--VZfit 3.2--\nList view added to the Find Ride map.  In addition to the existing method to search for rides by panning and zooming to spots on a map, you can now toggle on list mode and page through the rides in a list.\nYou can sort the rides in list view, up or down, by name, length of ride, when you last rode, Ride creation date, and ride progress.\nBug fixes for challenge unlock display\nNew Challenge assets\nBug fixes for sharing/deleting rides"
+            },
+            {
                 "version": "3.1.2",
                 "change_log": "--VZfit 3.1--\nNew Ring Racer cities added for Athens and Manila!\nAssets included for our upcoming Valentine's Day mini-Challenge!\nEasier account creation for first time users\nSeveral minor bug fixes\n\n--3.1.1--\nFixed a bug with notification panels that would cause the menu buttons to become unresponsive\nFixed missing race banners on notification of new RingRacer cities\n\n--3.1.2--\nFixed a bug with Challenge map pins showing in the wrong location\nFixed a crash related to an international date/time format conflict\nFixed a crash that would occur occasionally for new users on automatic account creation\nModified the logic for when we label RingRacer cities as \"New\""
             },
@@ -156,14 +164,6 @@
             {
                 "version": "3.0.3",
                 "change_log": "--VZfit 3.0 Is Here!--\n\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--\n\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes"
-            },
-            {
-                "version": "3.0.2",
-                "change_log": "--VZfit 3.0 Is Here!--\n\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--\n\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build"
-            },
-            {
-                "version": "3.0.1",
-                "change_log": "--VZfit 3.0 Is Here!--\n\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--"
             }
         ],
         "on_rookie": false,
@@ -174,7 +174,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475153,
         "keyword_update": 474913,
         "tag_update": 474880,
         "rating_update": 475000,
@@ -186,7 +186,7 @@
             "workout",
             "travel"
         ],
-        "last_update": 475000,
+        "last_update": 475153,
         "category": "APPS",
         "votes": 665,
         "rating": 3.86015,

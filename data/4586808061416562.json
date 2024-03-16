@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.19",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.19\n\n## Bug Fixes\n\n- Fixed a bug that was causing AI-generated responses to quickly become repetitive as more content was added to a workspace.\n- Fixed a bug that was unexpectedly deleting last empty text item in an untitled topic.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.18.3",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.18.2\n\n## Improvements\n\n- The tutorial has been redesigned with a cleaner UI, fewer steps, and locally-packaged videos to eliminate loading delays.\n- The drag interaction now kicks in after a shorter delay, making scrolling websites and selecting text feel much snappier.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.06",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.06\n\n## Improvements\n\n- Implemented bounds on how much Items auto-scale based on distance from the user.\n- Topics now save their state of being expanded or collapsed.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.06",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.06\n\n## Improvements\n\n- Implemented bounds on how much Items auto-scale based on distance from the user.\n- Topics now save their state of being expanded or collapsed.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475129,
+        "changelog_update": 475153,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475001,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475129,
+        "last_update": 475153,
         "category": "APPS",
         "votes": 53,
         "rating": 3.396226,

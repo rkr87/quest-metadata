@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "0.4.6",
+                "change_log": "1. Experimental support for image formats: Now supports .jpg, .jps, .png and other 2D/3D image formats, allowing you to swim in the ocean of visual art. (Already supports dlna/PC client/U disk)\n2. Experimental support for USB disk video playback: Added support for NTFS format USB disks, making video playback more free and convenient (exFAT format support will be launched soon).\n3. Optimized 4K video Ambilight technology to avoid lagging and make streaming movies smooth and extraordinary."
+            },
+            {
                 "version": "0.4.5",
                 "change_log": "1. Added audio track selection function: Added audio track selection, you can freely select the audio track according to your preference, which improves the flexibility of watching movies.\n2 New player control function: Added previous and next buttons to the player to facilitate quick switching to the next video in the folder, improving operational convenience.\n3 Optimize the screen display effect: The screen color streamer overflow effect improves the screen display effect. This is an experimental function and may increase performance consumption and cause lag. You can turn it on in the settings for early adopters.\n4 Solve the problem of video proportion: Fixed the problem that the original proportion cannot be maintained when playing files, ensuring the correct display and viewing experience of the video.\n5 Fixed the display problem of Hebrew and other subtitles to meet the text display needs of more users."
             },
@@ -126,13 +130,13 @@
         "language_update": 474817,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475001,
+        "changelog_update": 475153,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475081,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475081,
+        "last_update": 475153,
         "category": "APPS",
         "votes": 13,
         "rating": 4.153846,
