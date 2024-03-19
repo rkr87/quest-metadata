@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "0.9",
+                "change_log": "### Version 0.9\n\n- Added support for video\n- Improved UX\n- Added automatic image projection detection\n  - This currently doesn't have a manual override but is planned to in the future\n- Downloads will now happen in the background\n  - The user must currently still wear the headset while downloads are occurring, this will be looked into for a future update\n- Deselecting a slide from a slideshow should now prevent it from being shown when viewing the slideshow\n\n#### Known issues\n\n- Downloading from a GoPro Max will sometimes fail the first time but will succeed on any attempts after\n- Ghosting and fractal effects on equirectangular and dual fisheye projection types"
+            },
+            {
                 "version": "0.8",
                 "change_log": "Version 0.8\n\n- Fixed bluetooth connection issues\n- Fixed an issue where the app would crash when repeatedly opening the 'New Slideshow' menu\n- Fixed an issue where downloading from 2 separate cameras would show the images from both cameras, not just the most recent one\n- Fixed an issue where downloading from a GoPro would always fail on the the 1st connection\n- Fixed an issue where slideshows were being duplicated\n- Fixed an issue where slideshows weren't being displayed on 1st load"
             },
@@ -100,13 +104,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475225,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475000,
+        "last_update": 475225,
         "category": "APPS",
         "votes": 1,
         "rating": 5.0,

@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.4",
+                "change_log": "PATCH 1.6.4\n\nFEATURES\n- Improved Hitreg\n- Platform requirements 13+\n\nBUG FIXES\n- Fixed memory issue\n- Fixed issues in Trials\n- Fixed trial UI appearing on scene load (without adversary)\n- Visual and stability issues\n- Sword gauge UI fix\n- Many Ronin fixes\n- Many optimization\n\nBALANCING\n- Nerf: Duelist, Viking & Pirate\n- Buff: Persian, Samurai, Knight & Ronin\n\nNERF\n- Vik L: -5A (162)\n- Duelist L: -5A (185)\n- Pirate M: -5A (160)\n- Barb M: -3A (178) +100ms Awaken in respite (250ms)\n- Barb L: -2A (182) +100ms Awaken in respite (250ms)\n\nBUFF\n- Persian M: +5A (183) +0.1 Speed (4.35-10.75)\n- Persian L: +3A (182) +0.05 Speed (3.75-10.55)\n- Sam M: +5A (195)\n- Sam L: +2A (192)\n- Ronin M: +2A (182)\n- Ronin L: +5A (195)\n- Knight M: +4A (181)\n- Knight L: +1A (181)\n\nPersian: The edge bonus will be reduced by 25% on main blade to favor the cats claw.\nBarbarian (main): Speed remains unchanged, but adjustments have been made to the respite (when the player loses awaken, there is now a 1/10 second delay before the blade can be awakened again), making it slightly less forgiving. It penalizes players if they lose awaken.\nNote: \"L\" is for Legendary, \"M\" is for Main."
+            },
+            {
                 "version": "1.5.2",
                 "change_log": "Bug Fixing:\n- Fixed Duelist axis awaken\n- Fixed ELO lost issue\n- Fixed visual issue with Lobby Spectator/Fighter buttons\n- We also adjusted the ELO leaderboards. There were old scores from before we fixed ELO (that shouldn't display). We kept the same rankings, but ELO values are below 2400. "
             },
@@ -102,7 +106,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475225,
         "keyword_update": 474881,
         "tag_update": 475177,
         "rating_update": 475201,
@@ -111,7 +115,7 @@
             "pvp",
             "sword"
         ],
-        "last_update": 475201,
+        "last_update": 475225,
         "category": "GAMES",
         "votes": 1078,
         "rating": 4.158627,

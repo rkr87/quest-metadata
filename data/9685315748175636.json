@@ -42,15 +42,15 @@
             },
             {
                 "rating": 3,
-                "votes": 42
+                "votes": 43
             },
             {
                 "rating": 4,
-                "votes": 230
+                "votes": 232
             },
             {
                 "rating": 5,
-                "votes": 1609
+                "votes": 1620
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "0.3.0.1",
+                "change_log": "- Added a movement sensitivity option for users still experiencing joystick drift.\n- Changed the color of the backpack buttons to better match the selection color.\n- Added a new track to play during the tutorial.\n-  Added missing lamps to the Bank level.\n- Made slight improvements to the police vehicle spawning system.\n- Corrected a typo in the stealth mission menu.\n- Fixed spinning wheels on vehicles when they are not moving.\n- Fixed NPC hair not being rendered in X-ray mode.\n- Fixed the color wheel's brightness slider not initializing to the correct value.\n-  Fixed stabbing not functioning as usual with some objects."
+            },
+            {
                 "version": "0.3",
                 "change_log": "PATCH NOTES:\n\nEnhanced Stealth:\n- Introduced a stealth game mode featuring two maps: Bank and Office.\n- Added an indicator that notifies the player when an enemy can be taken down without alerting their allies.\n- NPCs now have a significantly harder time detecting the player in elevated and lower positions.\n- NPCs are now more aware of their nearby allies being taken down.\n- NPCs no longer instantly detect the player after hearing a gunshot from them.\n\nWeapons:\n- Introduced four new weapons: MAC-10, M14 (with an automatic variant), Deagle, and a stun gun.\n\nVehicles:\n- Every vehicle is physically simulated and can be interacted with or destroyed.\n\nCity/Immersion:\n- Introduced a police faction.\n- Added random car chases between the police and criminals.\n- Introduced rainy weather for both daytime and nighttime.\n- Some buildings have been replaced.\n\nCombat:\n- Slightly increased the damage of the hunting shotgun.\n- Explosives can now trigger the detonation of other explosives in a chain reaction.\n- Wood pallets can be destroyed with explosives.\n- Grenades can be detonated by gunfire.\n- Thrown blades now hit their target more frequently instead of bouncing off.\n- Objects will break more easily when thrown with a spin.\n\nMiscellaneous:\n- Enhanced the appearance of the UI.\n- Added a weapon preview in the menus.\n- NPCs can no longer stand up under large objects.\n- Improved the traffic spawning system.\n- Friendly NPCs will become hostile if disarmed by the player.\n- Implemented small enhancements to the tutorial.\n- Changed the automatic 9mm pistol's ironsights' color to red for better distinction from the semi-automatic variant.\n- Civilian NPCs created with the spawn gun will now move autonomously.\n\nAudio:\n- Criminals and police officers now have voice lines.\n- Stepping on metal produces a more realistic sound.\n- Footsteps of NPCs are now audible.\n- Enemies now emit pain sounds when shot.\n- Improved the transition of swinging music to reduce repetitiveness.\n- Added an option to disable swinging music.\n\nPerformance:\n- Enhanced CPU performance for traffic spawning.\n- Improved CPU performance related to NPC behaviour.\n- Made various other CPU performance improvements.\n- Empty magazines now despawn more quickly.\n- Addressed the issue of fleeing pedestrians causing extreme crowd density.\n- Fixed a memory leak caused by attaching ropes.\n\nBug Fixes:\n- Corrected grenade throwing animations.\n- Addressed multiple NPC behavior issues.\n- Fixed the issue where hostage animations randomly stop for a short period.\n- Corrected weapon handling sounds to play in stereo instead of mono.\n- Fixed weapon rotations during slow-motion.\n- Resolved the issue of wall collision haptics activating while grabbing an object.\n- Fixed the appearance of an unnatural resistance in weapon bolts during reloads.\n- Fixed the NPC reloading sound being audible from beyond its hearing radius.\n- Made various fixes to weapon hand placement.\n- Corrected the issue with combat zones not properly despawning NPCs.\n- Addressed a potential issue where a weapon with a silencer attached wouldn't shoot correctly.\n- Fixed a potential problem where combat music would restart randomly.\n- Resolved an issue with saves not loading correctly after changing the game version. (This issue previously allowed some players to unlock weapons without completing the required challenges. Affected players will now need to complete these challenges to unlock weapons properly.)"
             },
@@ -97,16 +101,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475105,
+        "changelog_update": 475225,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475201,
+        "rating_update": 475225,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475201,
+        "last_update": 475225,
         "category": "GAMES",
-        "votes": 1954,
-        "rating": 4.700102,
+        "votes": 1968,
+        "rating": 4.700203,
         "weighted_rating": 4.6
     },
     "errors": []
