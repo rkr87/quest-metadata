@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest",
+            "Meta Quest 3"
         ],
         "player_modes": [
             "SITTING",
@@ -44,7 +44,7 @@
             },
             {
                 "rating": 4,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 5,
@@ -73,6 +73,10 @@
             "logo_transparent": "38974888_734754738030962_3679336169221131020_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "Improved Hand Tracking - Quest 3"
+            },
             {
                 "version": "0.1",
                 "change_log": "new Scene"
@@ -136,10 +140,6 @@
             {
                 "version": "0.1",
                 "change_log": "pokelimit - on and off to keep fingers on the pressed piano keys"
-            },
-            {
-                "version": "0.1",
-                "change_log": "fixed right middle finger bug. Improved menu usability"
             }
         ],
         "on_rookie": false,
@@ -150,16 +150,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475249,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475000,
+        "rating_update": 475249,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475000,
+        "last_update": 475249,
         "category": "ENTERTAINMENT",
-        "votes": 17,
-        "rating": 4.058824,
+        "votes": 18,
+        "rating": 4.055556,
         "weighted_rating": 3.8
     },
     "errors": []

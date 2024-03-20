@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 385
+                "votes": 387
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -85,6 +85,10 @@
             "logo_transparent": "38974908_869912333787514_4118507449974534729_n.png"
         },
         "changelog": [
+            {
+                "version": "3.2.2",
+                "change_log": "--VZfit 3.2--\nList view added to the Find Ride map.  In addition to the existing method to search for rides by panning and zooming to spots on a map, you can now toggle on list mode and page through the rides in a list.\nYou can sort the rides in list view, up or down, by name, length of ride, when you last rode, Ride creation date, and ride progress.\nBug fixes for challenge unlock display\nNew Challenge assets\nBug fixes for sharing/deleting rides\n\n--3.1.2--\nRemoved testing code from release code\n\n--3.2.2--\nFixed bugs related to favoriting/sharing/deleting rides\nFixed a crash that could happen when finishing some tutorials\nFixed bug that occurred when continuing an open-ended ride"
+            },
             {
                 "version": "3.2.1",
                 "change_log": "--VZfit 3.2--\nList view added to the Find Ride map.  In addition to the existing method to search for rides by panning and zooming to spots on a map, you can now toggle on list mode and page through the rides in a list.\nYou can sort the rides in list view, up or down, by name, length of ride, when you last rode, Ride creation date, and ride progress.\nBug fixes for challenge unlock display\nNew Challenge assets\nBug fixes for sharing/deleting rides\n\n--3.1.2--\nRemoved testing code from release code"
@@ -160,10 +164,6 @@
             {
                 "version": "3.0.4",
                 "change_log": "--VZfit 3.0 Is Here!--\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes\n\n--3.0.4--\nFixed the No Person / First Person problem\nSearch by area on map\nHold trigger to switch map joystick control from zoom to pan on either controller\nZoom into cursor location instead of center of map\nFixed the problem where the cursors stop working and you can only ring the bell\n\"Favorite Rides\" instead of \"My Ride List\"\n\"Clear Filters\" instead of \"Show All Rides\"\n\"All Rides\" to \"Find Rides\""
-            },
-            {
-                "version": "3.0.3",
-                "change_log": "--VZfit 3.0 Is Here!--\n\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--\n\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes"
             }
         ],
         "on_rookie": false,
@@ -174,10 +174,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475153,
+        "changelog_update": 475249,
         "keyword_update": 474913,
         "tag_update": 474880,
-        "rating_update": 475177,
+        "rating_update": 475249,
         "iarc_detail_update": 475000,
         "keywords": [
             "bike",
@@ -186,10 +186,10 @@
             "workout",
             "travel"
         ],
-        "last_update": 475177,
+        "last_update": 475249,
         "category": "APPS",
-        "votes": 666,
-        "rating": 3.855856,
+        "votes": 668,
+        "rating": 3.859281,
         "weighted_rating": 3.8
     },
     "errors": []

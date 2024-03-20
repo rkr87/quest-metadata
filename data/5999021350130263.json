@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING"
@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.3",
+                "change_log": "- updated user authorization method;\n- added the function of grasping and interacting objects with hands;\n- added animation wheel in multiplayer via PC and VR headset;\n- add new atmospheric effects;\n- add new animations;\n- optimization updates;\n- visual improvements."
+            },
+            {
                 "version": "0.1.1",
                 "change_log": "Multiplayer:\nadd user nickname\nadd speaker icon when user speak\nadd step sounds\n\nSingleplayer:\nfix UI\nadd private newsfeed\nadd new location effects\nadd new effects\nfix volumetric model size and position\noptimize effects and locations"
             },
@@ -97,13 +101,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475249,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475000,
+        "last_update": 475249,
         "category": "APPS",
         "votes": 3,
         "rating": 2.333333,
