@@ -75,7 +75,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031396_3420406211573513_3029370816106818349_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.1",
+                "change_log": "- [Improvement] Reimagined the visual effect when players are within bushes or trees. Instead of completely obstructing vision, the effect now conceals the object while displaying a transparent overlay, accompanied by a particle effect of leaves.\n- [Improvement] Implemented controller vibration feedback for power-up activations.\n- [New Feature] Introduced an option to restart a level directly from the pause menu.\n- [Fix] Fixed issue where achievement \"Don't look down\" was not triggered."
+            }
+        ],
         "on_rookie": false,
         "general_update": 475081,
         "genre_update": 475001,
@@ -84,13 +89,13 @@
         "language_update": 475001,
         "platform_update": 475001,
         "player_mode_update": 475001,
-        "changelog_update": 475001,
+        "changelog_update": 475273,
         "keyword_update": 475001,
         "tag_update": 475001,
         "rating_update": 475225,
         "iarc_detail_update": 475001,
         "keywords": [],
-        "last_update": 475225,
+        "last_update": 475273,
         "category": "GAMES",
         "votes": 23,
         "rating": 4.826087,
