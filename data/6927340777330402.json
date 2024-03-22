@@ -3,7 +3,7 @@
         "id": "6927340777330402",
         "app_name": "Campfire",
         "release_date": "2023-11-02T00:00:00.000Z",
-        "description": "Campfire is the best way to communicate 3D information throughout the physical product lifecycle. Whether you're streamlining design reviews, training, or troubleshooting, Campfire makes it easier than ever.\n\nA NEW APPROACH \nCampfire takes a new approach to 3D collaboration. It's based on the way people communicate most naturally – around things. Instead of sharing screenfuls of CAD, images, and text, you share interactive 3D content with your team around it, even if they're around the globe.\n\nEASY TO USE \nCampfire uses passthrough on Meta Quest to make 3D collaboration feel even more natural. Users see content in front of them, and remote participants around it - even if they're joining from a desktop or mobile device.\n\nSIMPLE & POWERFUL TOOLS \nChoose from powerful tools accessible from a single button. Use the laser pointer to make your point. Use text and sketch annotations to communicate with colleagues in other time zones. Defy the laws of physics with tools like slice, explode, and grab, to show complex concepts simply.\n\n40+ TYPES OF 3D/CAD  \nCreate scenes on the desktop using your existing CAD/3D files. No optimization or coding required. Campfire Cloud optimizes your scenes for Meta Quest automatically and securely.\n\nFREE STARTER PLAN \nCampfire Starter allows you to share 5 projects of 5 scenes with 5 users. Scenes can be created using files up to 25MB in the following formats: FBX, OBJ, GLB/TF, PLY, STL, USD/Z/A/C. Enterprise plans are available at Campfire3d.com. ",
+        "description": "Campfire is the best way to communicate 3D information across the physical product lifecycle. Whether you're streamlining design reviews, sales presentations, or technical training, Campfire makes it easier than ever.\n\nA NEW APPROACH Campfire is designed for the way people communicate most naturally – around things. Instead of sharing screenfuls of CAD, images, and text, you share interactive 3D content with your team around it, even if they're around the globe.\n\nEASY TO USE Campfire uses passthrough on Meta Quest to make spatial collaboration feel natural. Content is life-size in front of you, and your colleagues are around it – whether they’re in the same room or joining remotely.\n\nSIMPLE & POWERFUL TOOLS Choose from powerful tools with a single button. Use the laser pointer to make your point. Use text, sketch, and measurement annotations to communicate in meetings or offline. Try tools like slice, explode, and grab, to show complex concepts with simplicity not possible in the physical world.\n\n40+ TYPES OF 3D/CAD Create scenes on Mac, PC, or iPad using your existing CAD/3D files. No coding required. Optimize your models automatically and securely for Meta Quest and iPad for the best experience for all users.\n\nA FREE START Share up to 5 projects with 5 scenes with unlimited users. Create scenes using files up to 25MB in FBX, OBJ, GLB/TF, PLY, STL, and USD/Z/A/C formats. Enterprise plans are available at campfire3d.com.",
         "developer": "Campfire 3D Inc",
         "publisher": "Campfire 3D Inc",
         "genres": [
@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.1",
+                "change_log": "March 2024\nNew Features\n•\tIn-Room Collaboration (Quest Preview).  Now multiple Quest users can work on the same project in the same room. Powered by Meta Shared Spatial Anchors, in-room collaboration works seamlessly. To join a project, stand near a colleague and look where they do. You'll be prompted to join if the project has been shared with you.\n\n•\tPoint-to-Point Measurement (All Platforms). You can now make point-to-point measurements with the Measure tool.  Just point at the locations you want to measure between, and the distance between them appears on a connecting line. Measurements update automatically, so it's easy to evaluate gaps while grabbing and moving parts. And because measurements are annotations, you can share them with links as with text and sketches.\n\n•\tPrecision Slice (Mac, PC, iPad). We brought the Slice tool to the desktop, so you can create precise cross sections when creating scenes and then move them freely on Quest. On the desktop, you can lock a cutting plane to a particular axis and use the inspector to control position and rotation on all axes. The Slice plane also now appears in the Hierarchy, allowing a presenter to hide/show it.\n\n•\tEnhanced VR Experience (Quest)\nWe've enhanced the visual experience in VR to make it easier to orient yourself relative to the ground and other users.  \n\n•\tEasier Access to Materials (All Platforms)\nA new section has also been added to Materials tab in the Inspector to make it easier to access general purpose materials.\n\n•\tProject List Updates (All Platforms)\nAll apps now use the tiled project list introduced in the Quest app. Project tiles now include a thumbnail for the first scene, icons for users in the project, and an indicator for whether a project is open nearby (Quest). \nKnown Issues\nAdding Models (Mac, PC, iPad)\n•\tImporting multiple large models simultaneously into different scenes may fail with an error notification. Re-import failed models one at a time.\n•\tIf models require external texture files, the external files must be stored locally – they cannot be links to cloud services. \n\nIn-Room Collaboration (Quest Preview)\n•\tIf you don’t see a shared project after a few seconds, you might need to clear the Point Cloud cache on your Quest with the following steps: 1) Navigate to Settings -> Point Cloud -> Delete shared storage, 2) Click on Delete, 3) Create a new room-scale boundary, 4) Restart your device.\n•\tRoom scale content may make the real world and other users impossible to see. Take care not to bump into physical objects, walls, or people. \n\nMeasure\n•\tPoint-to-point measurements can only be made between points on model surfaces. To measure the distance between a model and an arbitrary point in space or on the ground, add a model with a surface at the point in space or on the ground you want to measure to or from (All Platforms)\n•\tMeasurement units cannot be changed from the Measure tool in AR mode (iPad)\n•\tCannot resolve or copy a link to Measurement annotations in AR mode. (iPad)\n\nSharing\n•\tCampfire links do not open the Quest app. Open projects directly from within the Campfire app. (Quest)\nFixes\n•\tFixed issues related to switching between environment and object scenes. \n•\tQuest VR mode now has color gradient\n"
+            },
+            {
                 "version": "0.10.11",
                 "change_log": "New Features & Bug Fixes\n-------------------------------------------------------------------------------\nQuest. New user tutorial with Spark has improved tool tips. \n\nVoice Chat. Fixed connectivity issues when Quest goes to sleep and resumes.\n\nAccount creation. Miscellaneous bug fixes and clearer error messages.\n\nModel Optimization. Fixed an issue where occasionally models with sub meshes had mismatched textures when viewed on Quest or iPad.\n\nKnown Issues\n-------------------------------------------------------------------------------\nSample projects will take up to 5 minutes to appear in a newly created account.\n\nImporting multiple large models simultaneously into different scenes may cause some failures. Re-import the models that failed one at a time.  \n\nMeasure tool does not work with animated models on Quest devices .\n.\nWhen adding a 3d model that has external texture files, all files must be accessible to Campfire locally, and cannot be links to files on a cloud storage service.\n\n-------------------------------------------------------------------------------\nWe hope these updates and improvements will enhance your experience with Campfire. As always, please let us know if you encounter any issues or have any feedback. Thank you for using Campfire!"
             },
@@ -93,14 +97,14 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 474948,
+        "general_update": 475297,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475297,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475000,
@@ -111,7 +115,7 @@
             "collaboration",
             "visualization"
         ],
-        "last_update": 475000,
+        "last_update": 475297,
         "category": "APPS",
         "votes": 24,
         "rating": 3.958333,

@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.40",
+                "change_log": "-Fixed Broken Pieces shooting you up\n-Made it so you can switch portals with the left hand\n-Fixed being able to glitch out of the wild west map\n-Made physics for fast moving object better"
+            },
+            {
                 "version": "1.4.30",
                 "change_log": "-Changed Weapons DLC text to Trailer instead of Watch Trailer -Fixed Grabbing vase messing up your hand -Made it so you could pick up broken pieces -Fixed grabbing objects shooting you up -Fixed weapons getting stuck in walls"
             },
@@ -137,10 +141,6 @@
             {
                 "version": "0.9.95",
                 "change_log": "Fixed fracturing on some objects\nHighly decreased the chance of the game bugging and not allowing you to break anything\nMade the Axe, Mace, and Sledge Hammer 10%-30% bigger\nFixed weights for some objects\nFixed Chromebook Grabbing bugs\nRaised the roof in Wild West map\nMade hands collide with objects\nMade more objects grabbable\nMade guns shoot fully and not die out"
-            },
-            {
-                "version": "0.9.85",
-                "change_log": "Fixed fracturing on some objects\nMade fractured objects disapear after 40 seconds\nMade it so you can pick up more objects\nMade it so bullets do more damage to objects (Still needs work)\nFixed Sound Effects"
             }
         ],
         "on_rookie": false,
@@ -151,13 +151,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475105,
+        "changelog_update": 475297,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475201,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475201,
+        "last_update": 475297,
         "category": "GAMES",
         "votes": 14,
         "rating": 4.857143,

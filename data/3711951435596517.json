@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "2.1.2",
+                "change_log": "Added coins to pick up under the canopy. (Can be disabled in the options menu)\nAAD is now on by default and can be turned off under the options menu\nAdded age verification API"
+            },
+            {
                 "version": "2.1.1",
                 "change_log": "Added Metric units to preferences (set in the options menu)\nAdded ability to put Altimeter on top of the wrist instead of the bottom (set in the options menu)\nAdded malfunction animation if the user pulls hackie while in sit fly (Beta)\nNew Options menu graphics and UI\nAdded more sounds for realism"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "1.7.0",
                 "change_log": "This update is one of many with the entirely new canopy physics engine! We have revamped canopy flight physics to the next level for even more simulation realism. We've also added a new \"Expert\" preset and we will be adding more presets in the near future. Bug fixes and enhancements."
-            },
-            {
-                "version": "1.6.6",
-                "change_log": "This update is one of many with the entirely new canopy physics engine! We have revamped canopy flight physics to the next level for even more simulation realism. We've also added a new \"Expert\" preset and we will be adding more presets in the near future. Bug fixes and enhancements."
             }
         ],
         "on_rookie": true,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475129,
+        "changelog_update": 475297,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475129,
+        "last_update": 475297,
         "category": "GAMES",
         "votes": 13,
         "rating": 5.0,

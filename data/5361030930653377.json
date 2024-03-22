@@ -30,9 +30,9 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest 3"
         ],
         "player_modes": [
             "ROOM_SCALE"
@@ -61,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 280
+                "votes": 281
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -86,6 +86,14 @@
             "logo_transparent": "38982469_1602307013583843_1137309820040771587_n.png"
         },
         "changelog": [
+            {
+                "version": "1.528",
+                "change_log": "This update improves the Quest 3 version of the game, taking greater advantage of the hardware capabilities:\n- Real-time shadows from your torch.\n- Higher frame rates: 90fps almost everywhere, 80fps in three areas.\n- Improved texture resolutions and anisotropic texture sampling.\n- Foveated rendering disabled, which means higher resolution and greater clarity in areas of the screen that were less clear before.\n\nWe also fixed this issue:\n- Fixed occasional stuck enemy bug.\n\nFor those of you on Quest 3, we hope you’ll enjoy the improvements!\n"
+            },
+            {
+                "version": "1.527",
+                "change_log": "Fixed occasional stuck enemy bug."
+            },
             {
                 "version": "1.501",
                 "change_log": "This update adds a new speedrun challenge: Lava Tour! You can find it in the Speedrun Challenges section of the main menu where it will now be available if you’ve completed the corresponding section of the normal game. We’re looking forward to seeing what times you can achieve on the leaderboard!\n\nWe also fixed this issue:\n- Fixed occasional leaderboard display bug when completing a speedrun and obtaining a better score than previously.\n"
@@ -131,20 +139,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475297,
         "keyword_update": 474881,
         "tag_update": 475177,
-        "rating_update": 475249,
+        "rating_update": 475297,
         "iarc_detail_update": 475000,
         "keywords": [
             "workout",
             "exploration",
             "family"
         ],
-        "last_update": 475249,
+        "last_update": 475297,
         "category": "GAMES",
-        "votes": 332,
-        "rating": 4.662651,
+        "votes": 333,
+        "rating": 4.663664,
         "weighted_rating": 4.6
     },
     "errors": []
