@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "36.0.2",
+                "change_log": "- Significantly improved 2-handed manipulation of objects\n- Improve stability of line synchronization\n- Improved support for locked objects in the room\n- Improved registration flow\n- Several UI improvements and clarifications\n- Several minor bugfixes"
+            },
+            {
                 "version": "36.0.1",
                 "change_log": "- Fix occasional freezes\n- Fix occasional lines not synchronizing properly\n- Fix issues when trying to cast when someone else was already casting\n- Fix support for legacy 3D models"
             },
@@ -102,7 +106,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475321,
         "keyword_update": 474881,
         "tag_update": 474685,
         "rating_update": 475249,
@@ -111,7 +115,7 @@
             "collaboration",
             "meet"
         ],
-        "last_update": 475249,
+        "last_update": 475321,
         "category": "APPS",
         "votes": 83,
         "rating": 3.614458,

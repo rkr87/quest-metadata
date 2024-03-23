@@ -45,7 +45,7 @@
             },
             {
                 "rating": 3,
-                "votes": 13
+                "votes": 14
             },
             {
                 "rating": 4,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 324
+                "votes": 325
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -78,6 +78,10 @@
             "logo_transparent": "39031359_1650954835268881_9047741212152430989_n.png"
         },
         "changelog": [
+            {
+                "version": "2024.3.1",
+                "change_log": "Dear Friends of Tennis!\n\nWe're smashing out a hot-fix update to keep your VR tennis game running smoothly!\nThis Update 2024.3.1 contains:\n\nBugfixes\nCourses/Challenges: Elements did not show up when user has completed a course\nUI: In some cases the Main Menu was on the wrong position\nAbort Match: In some cases the cancle button was behaving wrong.\n\n\nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
+            },
             {
                 "version": "2024.3.0",
                 "change_log": "Dear Friends of Tennis!\n\nPrepare for unparalleled competition and entertainment as we unveil a new game mode that will transform your virtual tennis battles!\nThis major Update 2024.3.0 brings a whole list of new content, play modes and bugfix.\n\nNew Game Modes\nPlayground: Go and fully configure your own BallE workout in this new game mode.\n\nNew Features\nCounting Modes: With AI Training and Custom Matches you can now use 2 more Counting Modes\nSinge Set NoAd: Play one set to 6 games, after 40/40 the next point wins\nBest of 3: Play a full match, first person who wins two sets wins the match\nUI: You can now use the weak hand controller to navigate the menus\nInstant Match: Aborted matches are now counted as retired,the retiring user loses the match\n\nImprovement\nVisual: Main environment tweaks\nPerformance: Lower memory footprint\nPhysics: optimized outgoing spin\nPhysics: more accurate net collision detection\nPhysics: more accurate court reflection\n\nBugfixes\nHandle: Fix handle offset for Helloreal 42 for Quest 2\nAI: Visually tosses the ball again\nAI - Match: Match sometimes stopping after AI serve\n\nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
@@ -153,10 +157,6 @@
             {
                 "version": "2023.6.3",
                 "change_log": "Dear Friends of Tennis!\n\nTime for another match point bugfix! This Version 2023.6.3 brings the following improvements. \n\nBug Fixes:\nLocomotion: Loosing teleport ability after a reconnect in match\nLocomotion: Not able to teleport in Mirrorplay when user is sitting on the floor\nUI improvements for HitEmAll Events\nUI improvements for Instant Match Events\n\nServing up a big THANK YOU for playing and making our community a grand slam!\n\nYour Tennis Esports Team"
-            },
-            {
-                "version": "2023.6.2",
-                "change_log": "Dear Friends of Tennis!\n\nBringing you an ace of an update for your VR tennis extravaganza! This Version 2023.6.2 brings the following new features, improvements and bug-fixes.\n\nNew Features:\nMatch: Upcoming Instant Match Event Logic - Tennis Canada\nMatch: Upcoming HitEmAll Event Logic\nUI: Show number of online players / players in matches\n\nImprovements:\nAI Squad: Improved AI opponent behavior\nPhysics: Much smoother ball flight\nAI Squad: AI now plays stops\nPerformance: Stabilized network connection\nUI: Speedup login process\nRules: Double bounce now results in a fault\nRules: Volley after serve results in a point (however there is still a wrong umpire call in this situation)\n\nBug Fixes:\nPhysics: Ball passes net in certain cases\nUI: Fix not showing the racket of the opponent\nGraphics: Fixed error that caused loading two environments\nLeader boards: Fixed issues with posting values to leader boards\nAuto Teleport: Avoid occasionally happening immediate teleport and wait for opponent to hit\nLocomotion: Fix not being able to teleport in AI match after playing a multiplayer match\nMatch: Handle rejoins after loosing network connection\nVarious minor fixes"
             }
         ],
         "on_rookie": true,
@@ -167,16 +167,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475225,
+        "changelog_update": 475321,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 475297,
+        "rating_update": 475321,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475297,
+        "last_update": 475321,
         "category": "APPS",
-        "votes": 414,
-        "rating": 4.442029,
+        "votes": 416,
+        "rating": 4.439904,
         "weighted_rating": 4.4
     },
     "errors": []

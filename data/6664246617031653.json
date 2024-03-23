@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "3.2",
+                "change_log": "- Added shadows to UI\n- Added ability to show solid panels under UI instead of transparency mode \n- Fixed bug with search filter and TV shows folders\n- When logging in and you are no longer authorized it will return to the login method screen instead of username/password\n- Fixed bug with keyboard not always appearing during search input\n- Fixed some minor UI bugs"
+            },
+            {
                 "version": "3.1",
                 "change_log": "- Added support for music\n- Added support for photos.  Set gamma to 1.0 when viewing\n- Minor bugs fixed related to login UI"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "1.3",
                 "change_log": "-Change some sound effects\n-Improved user interface with buttons that move when you hover\n-Fixed a bug that would prevent movie thumbnails from loading if you changed libraries while they were still loading\n-Made fetching library contents more robust, will continue processing if an error happens with one of the videos\n-Added more debug log info while fetching library contents to track down any issues\n"
-            },
-            {
-                "version": "1.2",
-                "change_log": "-New font and lots of user interface improvements\n-No longer have to sign in with username and password every time\n-Supports secure connections\n-Tries to connect to servers using all connection methods available\n-Added on screen debug log that can help solve connection issues\n-Added login note about how to use 2FA\n"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475321,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475297,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475297,
+        "last_update": 475321,
         "category": "APPS",
         "votes": 49,
         "rating": 3.163265,

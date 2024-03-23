@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "0.4.8",
+                "change_log": "1 Intelligent 3D exploration: The new algorithm automatically identifies the 3D formats of videos and pictures. Because it consumes a certain amount of performance, it is temporarily turned off by default and needs to be started manually in the settings.\n2 Interaction optimization of the interface: 360° rotation of the viewing screen, the joystick can control the front and rear distance when viewing 180° videos and pictures, SBS adds left and right eye perspective swaps, etc."
+            },
+            {
                 "version": "0.4.7",
                 "change_log": "1. Experimental support for image formats: 2D/3D image formats such as .jpg and .png are now supported, allowing you to swim in the ocean of visual art. (Already supports dlna/PC client/U disk)\n2. Experimental support for U disk video playback: Added support for NTFS format U disk, making video playback more free and convenient (exFAT format support will be launched soon).\n3. Optimize 4K video Ambilight technology to avoid lagging and make streaming movies smooth and extraordinary.\n4. Fix the abnormal display problem of FULL-SBS format"
             },
@@ -134,13 +138,13 @@
         "language_update": 474817,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475225,
+        "changelog_update": 475321,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475297,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475297,
+        "last_update": 475321,
         "category": "APPS",
         "votes": 16,
         "rating": 3.8125,
