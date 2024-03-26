@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "2.2.6",
+                "change_log": "Added:\r\n- VSync setting\r\n- FPS Limits setting\r\n- Fisheye projection for pictures\r\n\r\nFixed:\r\n- Video buffering progress bar \r\n- Improved passthrough videos\r\n- Some UI problems with disappearing added SMB devices"
+            },
+            {
                 "version": "2.2.5",
                 "change_log": "Added:\r\n- Displaying up to 5 last search results\r\n- Improved passthrough functionality\r\n\r\nFixed:\r\n- Duplication added SMB devices\r\n- Managing local files on android\r devices\n- Some issues with text scrolling\r\n- Some minor fixes and improvements"
             },
@@ -149,10 +153,6 @@
             {
                 "version": "2.1.2",
                 "change_log": "Added:\n- Possibility to choose timeline chapters in the web videos\n\nFixed:\n- Fixed not hided video info after switch to Panic Mode\n- Fixed missing file information\n- Fixed missing files when switching to the All Video (Android)\n- Minor UI fixes"
-            },
-            {
-                "version": "2.1.1",
-                "change_log": "Improvements:\n- Improved preview display in the video list in the player\n- Improved files loading at the local page\n\nFixes:\n- Fixed an error filling a queue with an empty video list\n- Fixed  changing the video projection when the LR Inverve function is enabled\n- Fixed duplicating sources after migrating from old data on the downloads page\n- Fixed incorrect display of the number of pages in the local page when using edit mode"
             }
         ],
         "on_rookie": false,
@@ -163,13 +163,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475393,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475201,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475201,
+        "last_update": 475393,
         "category": "APPS",
         "votes": 273,
         "rating": 2.739927,
