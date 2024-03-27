@@ -76,7 +76,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974653_1359337888199859_6468380801851585820_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.42.6",
+                "change_log": "The Signifier (VR) - Patch 01\n\n*The standing and sitting modes were corrected, so that the height of the player feels better. \n*The length and shape of the raycasting was adjusted for enhanced teleportation accuracy. Now the position where the player will land is displayed.\n*The dominant hand can now be changed in the Main Menu. \n*The vignette functionality was improved: it is now deactivated when rotating, and customizable in the VR settings. \n*VR settings adjusting was added at the start of a New Game. \n*The control panel UI was enhanced for a smoother experience and to avoid accidental button pressing. \n*The lighting on the Main Menu was fine-tuned to prevent discomfort.\n\nBug fixing: \n-Many issues that caused the player to fall on multiple areas were fixed. \n-The bug that caused the player to be trapped in memories was fixed. \n-Certain areas that were unintentionally walkable now are not.  \n-The bugs that prevented the player from walking in the warehouse and other areas of the game were fixed. \n-The issue allowing the player to interact with objects and casting the teleport ray through walls was fixed. \n-The colliders that made the interaction with the dialog system difficult when talking with Stan were adjusted.\n"
+            }
+        ],
         "on_rookie": true,
         "general_update": 474948,
         "genre_update": 474685,
@@ -85,7 +90,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475417,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475000,
@@ -95,7 +100,7 @@
             "thriller",
             "ai"
         ],
-        "last_update": 475000,
+        "last_update": 475417,
         "category": "GAMES",
         "votes": 43,
         "rating": 2.860465,

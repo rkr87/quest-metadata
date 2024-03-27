@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "3.3",
+                "change_log": "- Added 5 new backgrounds (apocalypse, desert, and 3 sci-fi)\n- Divided Recently Added list by library names\n- Added On Deck, and Continue Watching sections"
+            },
+            {
                 "version": "3.2",
                 "change_log": "- Added shadows to UI\n- Added ability to show solid panels under UI instead of transparency mode \n- Fixed bug with search filter and TV shows folders\n- When logging in and you are no longer authorized it will return to the login method screen instead of username/password\n- Fixed bug with keyboard not always appearing during search input\n- Fixed some minor UI bugs"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "1.4",
                 "change_log": "- Fixed a bug where movies without ratings wouldn't be processed correctly"
-            },
-            {
-                "version": "1.3",
-                "change_log": "-Change some sound effects\n-Improved user interface with buttons that move when you hover\n-Fixed a bug that would prevent movie thumbnails from loading if you changed libraries while they were still loading\n-Made fetching library contents more robust, will continue processing if an error happens with one of the videos\n-Added more debug log info while fetching library contents to track down any issues\n"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475321,
+        "changelog_update": 475417,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475345,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475345,
+        "last_update": 475417,
         "category": "APPS",
         "votes": 50,
         "rating": 3.16,

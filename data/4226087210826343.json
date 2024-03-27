@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.4",
+                "change_log": "Bugfix points scoring after 1st game. Balls hit wasn't getting reset. Remind reviewers inside game that developer is waiting for response."
+            },
+            {
                 "version": "6.0.2",
                 "change_log": "Update lighting in Gym scene. Send transform for hand controllers and headset to support upcoming cross platform avatars."
             },
@@ -178,10 +182,6 @@
             {
                 "version": "5.1.13",
                 "change_log": "Update audio comments"
-            },
-            {
-                "version": "5.1.12",
-                "change_log": "Bugfix full body bot walking animations"
             }
         ],
         "on_rookie": true,
@@ -192,13 +192,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475153,
+        "changelog_update": 475417,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475369,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475369,
+        "last_update": 475417,
         "category": "GAMES",
         "votes": 223,
         "rating": 4.179372,

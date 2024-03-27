@@ -43,7 +43,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 442
+                "votes": 445
             },
             {
                 "rating": 2,
@@ -51,15 +51,15 @@
             },
             {
                 "rating": 3,
-                "votes": 226
+                "votes": 227
             },
             {
                 "rating": 4,
-                "votes": 268
+                "votes": 267
             },
             {
                 "rating": 5,
-                "votes": 2665
+                "votes": 2679
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -89,6 +89,10 @@
             "logo_transparent": "38982706_755386852597005_7993970561627491155_n.png"
         },
         "changelog": [
+            {
+                "version": "3.1.1495959",
+                "change_log": "This update focused on some long requested features - the ability to earn rewards from prior events by using Nova stones and support for multiple game saves.\nWe are still hard at work on the Quest 3 high resolution texture update. We hope to be able to share some example screenshots “soon.” This is taking longer than we had hoped, but it is making solid progress.\nWe have other exciting updates in the works that we will reveal soon. In the meantime please keep the feedback coming on our discord server linked in the store page, and thank you for playing!\n\nNova Stones can now be used to craft items at Bes and Ptah. This allows players to collect rewards from prior events:\n- Bes - Cosmic Event Customizations \n- Ptah - Cosmic Event Armor and Weapons \n\nWe have implemented the Save Menu which will allow players to store up to five save files. \n\n- Achievements - Updated the Librarian achievement icon from 250 to 100.\n- Fixed an issue where the Librarian achievement would get stuck at 99%.\n- Players may need to start a new save file and obtain a Codex entry to trigger the achievement. \n- Fixed issue in Newsfeed where the winning faction is always displayed as player faction in newsfeed after the Cosmic Event ends.\n- Fixed an issue where the Grapple point fails to pull the player forward near the monster den 'Inferno's Leap' in the Drekahraun Lava Fields. \n- Fixed an issue which prevented the anomaly in Papyrus Swamp - Overgrown Reservoir -  'Vicarious Thrills (S5S03)' to properly spawn.\n- Fixed an issue caused by quitting the game before meeting Horus in the Temple Atum which caused the player to start in Ra's Abandoned Outpost unable to progress.\n- Fixed issue where a Cursed Spirit fails to activate when entering and exiting Pause Menu or another room within the level after the spirit is hit by Mereret’s orb\n- Fixed issue where followers are repeatedly quick reset when following the player down the slide traversal in the 'Nubian Shipwreck'.\n- Fixed an issue in Papyrus Swamp - Perplexing Passage - where the bridge connecting the entrance and end of the 'Perplexing Passage' Monster Den will reset after reloading the title - and the lever to activate it will be inaccessible.\n- Fixed an issue in Drekahraun Lava Fields - Fortress of Flames - where the quest marker is misplaced for the first horn piece in 'The Southlands' during 'S5M03 - Battle Cry'.\n- Fixed a text issue in Rift Dungeon - Cyrene - where an inconsistency is visible with Cyrene's 'Electric Discharge' ability on the Skill Tree menu and the 'Tidal Threat' Weaver Trial throughout 'Async Dungeons'.\n- Fixed issue where a player can use a Wahka Totem to bypass a puzzle and retrieve the first gear in the Royal Observatory. \n- Fixed News Feed issue where the text for 'Pushback Surging Chaos Complete! Order Won!' fails to list the items that the winning team obtained in the News Feed.\n- Fixed an issue in Papyrus Swamp - The Shallows - where enemies stop spawning when a specific enemy is eliminated and then the player perishes while in the Fishing Village Ruins causing the gate to remain closed stopping progression.\n- Fixed several issues where Loki Anomaly rifts spawned in the ground. \n- Fixed an issue in The Shallows where enemies may spawn under map making the player unable to progress during The Cursed One quest due to inability to switch to God form.\n- Fixed an issue in Drekahraun Lava Fields - Fortress of Flames - where progression in 'S5M03 - Battle Cry' can become blocked when entering the 'Fortress of Flames' before the final objective is completed.\n- Fixed an issue where the Into the Multiverse Cosmic Event Sword Rewards relics fail to show on any sword rewarded from the 'Into the Multiverse' Cosmic Event throughout the title.\n- Fixed an issue where the Codex entry for Surtur Shocker erroneously is present in the title.\n- Fixed an issue where the Bruiser mini-boss out-heals the damage the player can do when affected by the \"Enemy Heal\" modifier in Uncharted Rift. \n- Fixed an issue where a Fishing Spider enemy is stuck inside a wall on the path left of 'Papyrus Swamp' travel stone.\n- Fixed an issue where players may be unable to see the fish swimming around in the water in the 'Lower Swamp Oasis'.\n- Fixed an issue where Cosmic Guardian's skin clips through the pants of 'Golden Cherub Plate' on the paper doll and the mirror in 'The Inbetween'.\n- Fixed issue where the Curse Spirit fails to trigger a scream to unlock wall switch when hit by Curse Slingshot in 'Sheltered Stash Monster Den' near 'The Red Chasm Gates'.\n- Fixed an issue in Async Dungeons where the Weaver Trials 'Squid Attack'  fails to progress as the user gets kills with the harp throughout Rift Dungeons.\n"
+            },
             {
                 "version": "3.0.1481276",
                 "change_log": "Here are the release notes for the next AW2 patch, version 3.0.1481276.\n\nWe are still working on support for multiple save games and the high resolution texture pack for Quest 3.  I expect support for multiple saves to ship before the texture pack, as going through the entire game and ensuring that perf holds is proving to take a good chunk of time.\n\nWe continue to investigate issues reported by the community and are thankful for your ongoing support! Please keep the feedback coming.\n\n- Added three new Loki anomalies.\n- Fixed Cosmic Events progression and objective tracking issues.\n- Duplicate/unused codex entries have been removed from Bestiary.\n- Fixed an exploit that allowed players to bypass thin walls in some cases.\n- Fixed respawn loop in some rare cases when riding mounts over hazards.\n- Pressing pause while a Cosmic Event notification is showing now opens the Cosmic Event menu.\n- Players can no longer grapple items they are holding.\n- Additional progression fixes for Tannu's Belly.\n\n- Fixed bug where player could get stuck in MR anomalies.\n- Fixed issues with floating wildlife.\n- Fixed a bug where enemies could spawn in without visible weak points when using the Bow.\n- Fixed issues where the player gets stuck and unable to dismount Bruiser.\n- Fixed Hidden Folk respawning behavior.\n- Updated Pa’ahket’s mounted behavior to prevent swapping from Mortal to God form while mounted.\n- Fixed Cosmic Events rewards showing potential rewards for completed quests.\n- Fixed a bug where Bestial Blade could push enemies around as it moves.\n- Fixed Cosmic Event objective locking/unlocking.\n- Fixed incorrect collision observed blocking the entrance towards Monster Den 'Infested Temple Overflow' near 'Temple of Osiris’.\n- Fixed issue where enemies could spawn in terrain in Uncharted Rift’s Nest levels. \n- Fixed several instances of incorrect collision observed in the Drekahraun Lava Fields.\n\n- Fixed issue where God Puzzle's Statue is rotated towards the wall when reloading the level during the puzzle's vase phase in the 'Tomb of the Scribe'.\n- Fixed issue where rarely, some objectives of \"[S2M03] Elegy for the Fallen King\" may fail to progress when completing the required steps.\n- Fixed issue where Mereret will rarely spawn in invisible and become locked after being transformed to cross the Flooded Canal, blocking progression.\n- Fixed issue where the player would become soft locked when fast traveling back to the 'Astrolabe Core' travel stone after recruiting Thoth in the Saga 3 Quest: 'The Way Forward'.\n- Fixed issue where Travel Stone percentage does not reach 100% after discovering all Travel Stones in 'Tomb of the Scribe'.\n- Fixed progression blocker when player is able to exit the elevator in Temple of Shu early onto a higher floor skipping a portion of the area during S2M11 'Son of the Ennead'.\n- Fixed progression blocker by missing grab points when reloading after retrieving ‘Surtur's Bow’ in the Blistering Vents.\n- Fixed progression blocker where the objective related to 'Collecting the Tools to Help Abraxas Scale the Waterfall' can be completed before freeing the 'Godly Chisel' breaking the logic.\n- Fixed issue where some objectives of the Saga 2 quest, ‘Elegy for the Fallen King’, may fail to progress when completing the required steps.\n- Fixed issue where Divine Artifacts fail to be collected if the player immediately lets go upon grabbing one throughout the title. \n- Fixed issue where player was able to fast travel to ‘Temple of Atum’ during the fast travel tutorial, which potentially broke progression. \n- Fixed progression blocker caused by reloading after retrieving ‘Sutur’s Bow’. \n- Fixed issue where players could forward dismount through The Shallows exit cave, breaking 'The Cursed One' Main Quest's logic and blocking progression.\n- Fixed issue where it's impossible to access the Corpse Eater Feather Tip loot after defeating the Corpse Eater.\n- Fixed issue where Monster Den percentage fails to reach 100% when all of them have been found and completed in the 'Papyrus Swamp’.\n\n- Various minor bug fixes and performance improvements. \n"
@@ -122,10 +126,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475417,
         "keyword_update": 474880,
         "tag_update": 474880,
-        "rating_update": 475393,
+        "rating_update": 475417,
         "iarc_detail_update": 475000,
         "keywords": [
             "blade",
@@ -134,10 +138,10 @@
             "fantasy",
             "roguelike"
         ],
-        "last_update": 475393,
+        "last_update": 475417,
         "category": "GAMES",
-        "votes": 3745,
-        "rating": 4.220294,
+        "votes": 3762,
+        "rating": 4.220362,
         "weighted_rating": 4.2
     },
     "errors": []

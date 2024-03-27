@@ -39,11 +39,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1133
+                "votes": 1134
             },
             {
                 "rating": 2,
-                "votes": 206
+                "votes": 207
             },
             {
                 "rating": 3,
@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 524
+                "votes": 525
             },
             {
                 "rating": 5,
-                "votes": 6546
+                "votes": 6555
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,6 +79,14 @@
         },
         "changelog": [
             {
+                "version": "1.30.5.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Optimized Games tab refresh speed for slower hard disk drives\n• Added Spanish keyboard layout\n• Fixed cropped desktop image with Nvidia GPUs at specific resolutions\n• Fixed microphone passthrough on macOS\n• Fixed VR hand tracking grip threshold to reduce early activations\n• Tweaked warning message when using buggy AMD drivers\n• Improved game compatibility with Dirt Rally 2"
+            },
+            {
+                "version": "1.30.5.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Optimized Games tab refresh speed for slower hard disk drives\n• Added Spanish keyboard layout\n• Fixed cropped desktop image with Nvidia GPUs at specific resolutions\n• Fixed microphone passthrough on macOS\n• Fixed VR hand tracking grip threshold to reduce early activations\n• Tweaked warning message when using buggy AMD drivers\n• Improved game compatibility with Dirt Rally 2"
+            },
+            {
                 "version": "1.30.4.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option for SteamVR Vive tracker emulation through inside-out full body tracking on Quest\n• Added option to Emulate Index Controllers on Quest; this allows finger tracking in OpenVR games that support it\n• Improved motion extrapolation quality of Synchronous Spacewarp (SSW)\n• Now sending headset battery level and charging state to SteamVR\n• Reduced video compression artifacts with 10-bit codecs\n• Improved desktop streaming latency on macOS\n• Added Wide motion support with hand tracking\n• Switched to recognizing index and finger curl for trigger / grip presses when using regular hand tracking\n• Fixed issue with Unreal/Unity/WebXR where the VR session wasn't ending properly\n• Fixed desktop being cutoff on some resolutions with AMD\n• Fixed game compatibility with: Hard Bullet, Resonite, JKXR, Roblox"
             },
@@ -145,14 +153,6 @@
             {
                 "version": "1.29.7.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Improved AV1 performance with AMD\n• Improved SSW quality on Quest 2, Pro and 3\n• Increased H.264+ max bitrate to 500 Mbps on Quest 3\n• Increased max desktop resolution to 3840x2160 and optimal resolution to 2560x1440 on Quest 3\n• Added custom OpenXR runtime called VDXR on the PC side providing up to 10% improved performance\n• Added OpenXR runtime selection box in the Streamer window (Automatic, SteamVR or VDXR)\n• Added Exit Game button in the Virtual Desktop menu for non-SteamVR games\n• Added Brazilian Portuguese keyboard layout\n• Removed regular AV1 codec option (only AV1 10-bit now available)\n• Fixed game compatibility with many OpenXR titles on the Rift store: Pistol Whip, Onward, Population One, Zenith, etc.\n• Fixed issues with audio device restoration and monitor resolution change when shutting down/restarting computer in VR\n• Fixed incorrect 5 GHz / 7 GHz appearing in computers tab / performance overlay when using 6 GHz band\n• Fixed Head Lock feature to work when moving around your play space\n• Fixed field of view edges on Quest 3\n• Fixed thumbs up state not being recognized in some games\n• Fixed Vietnamese characters in subtitles\n• Fixed subtitles not appearing with some videos\n• Fixed performance overlay visibility after hiding with thumbsticks\n• Fixed game compatibility with: Automobilista 2 (Steam), 7th Guest"
-            },
-            {
-                "version": "1.29.0.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Screen transparency toggle (above the screen in the first 4 environments)\n• VR Passthrough option (in Streaming tab) with configurable chroma keying\n• Added face/eye tracking with VRChat on Quest Pro\n• Added Quest 3 support\n• Added AV1 and AV1 10-bit support (only for Quest 3 with Nvidia 4000 and AMD 7000 series GPUs)\n• New virtual assistant that can answer questions related to Virtual Desktop in many languages\n• Added Turkish and Russian keyboard layouts\n• Now automatically saving/restoring Nvidia settings\n• Fixed compatibility with Onward (Steam) when launching from GAMES tab"
-            },
-            {
-                "version": "1.29.0.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Screen transparency toggle (above the screen in the first 4 environments)\n• VR Passthrough option (in Streaming tab) with configurable chroma keying\n• Added face/eye tracking with VRChat on Quest Pro\n• Added Quest 3 support\n• Added AV1 and AV1 10-bit support (only for Quest 3 with Nvidia 4000 and AMD 7000 series GPUs)\n• New virtual assistant that can answer questions related to Virtual Desktop in many languages\n• Added Turkish and Russian keyboard layouts\n• Now automatically saving/restoring Nvidia settings\n• Fixed compatibility with Onward (Steam) when launching from GAMES tab"
             },
             {
                 "version": "1.29.0.0",
@@ -167,19 +167,19 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475129,
+        "changelog_update": 475417,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475393,
+        "rating_update": 475417,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "movie"
         ],
-        "last_update": 475393,
+        "last_update": 475417,
         "category": "APPS",
-        "votes": 8656,
-        "rating": 4.287431,
+        "votes": 8668,
+        "rating": 4.287494,
         "weighted_rating": 4.2
     },
     "errors": []

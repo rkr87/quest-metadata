@@ -45,7 +45,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1523
+                "votes": 1525
             },
             {
                 "rating": 2,
@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 1584
+                "votes": 1587
             },
             {
                 "rating": 5,
-                "votes": 10412
+                "votes": 10451
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -90,6 +90,10 @@
             "logo_transparent": "39001695_254778995473396_1121450286364229632_n.png"
         },
         "changelog": [
+            {
+                "version": "1.2.42421",
+                "change_log": "March 26th, 2024, Change List\n\nGameplay\n\nGun balance changes:\n- Tec9: Min Damage increased 10->12\n- DT11: Base Damage decreased 13->12\n- MP9: Base Damage decreased 23->21\n- Uzis: Damage Falloff Distance increased 20->28\n- M60: Min Damage decreased 18->16\n\nSandbox - King of the Hill\n- King of the Hill game mode is now available to build and play in Sandbox\n- In the Sandbox Builder, find it in the Game Type drop-down menu\n- King of the Hill games can be played in hosted rooms and playlists\n- King of the Hill games will now show up in the Discovery Playlist\n\nSandbox Builder\n- Control Point build objects can be found in the Interactive category; use them for King of the Hill maps\n- Scoreboard build object can be found in the Interactive category; use it to display various stats about the match\n- Rules Library for saving custom rules templates\n- Map publishing limit has been increased! Players may now have up to 45 published maps.\n\nSandbox - Advanced Editor\n- The Advanced Editor gives players access to experimental new scripting features that allow the creation of endless new game types within Sandbox.\n- The Advanced Editor is off by default; turn it on by clicking Edit Rules on the Play tab, then setting the Advanced Editor toggle to ON. The “Event Editor” button will then be available on the Play tab.\n- Publish your advanced creations with the new “Custom” game type\n- For further information including documentation and tutorials, check out the most recent post in the #sandbox-announcements section within POP1’s official Discord.\n\nQuality of Life\n- Custom Rooms: Added the ability to permanently kick a player from a room\n- Stability improvements for voice chat\n\nBug Fixes\n- Climbing: Improved climbing depth on Evolving Map\n\nBattle Royale Map Updates\n- A mysterious statue has been added to the Evolving Map\n\nTerms of Service\nBigBox VR’s Terms of Service and Privacy Policy have updated and are available here:\n- https://www.bigboxvr.com/terms-and-conditions\n- https://www.bigboxvr.com/privacy-policy\n\nSupport\n- For support visit http://support.bigboxvr.com to get access to self-help resources or file a ticket.\n\nKnown Issues\n- The reticle will sometimes stay yellow after reloading. Switching guns should fix this.\n- A brief loss of audio is sometimes encountered when joining a voice chat channel on Quest without headphones. This is due to enabling echo and noise cancellation features.\n- Steam VR users playing on an Oculus headset: When Purchasing Bureau Gold, you will need to take off your headset to approve the purchase.\n- If you see a notice that you need to \"update to play\" but don't see it in the store, uninstall and reinstall POP: ONE to force the upgrade to happen. You won't lose any progress or data.\n- In the Sandbox Builder, with the Advanced Editor toggled on, the Event Editor button must be clicked twice to open the Event Editor panel.\n\nSee you in game!"
+            },
             {
                 "version": "1.2.41611",
                 "change_log": "The best version of POP: ONE to date!"
@@ -165,24 +169,20 @@
             {
                 "version": "1.2.27460",
                 "change_log": "May 10th, 2022, Change List\n\n**Neon Dead Drop starts Thursday (May 12) at 12 PM Pacific!**\n\n* Collect Cores to earn rewards.\n* Claim exclusive Neon Dead Drop event rewards including: \n   * Tier 1: Metropolis Spray - 10 Cores\n   * Tier 2: Neon Rider Calling Card - 25 Cores\n   * Tier 3: After Dark .357 - 50 Cores\n   * Tier 4: After Dark M1014 - 75 Cores\n   * Tier 5: After Dark Cx4 - 100 Cores\n   * Tier 6: After Dark UMP - 150 Cores\n   * Tier 7: After Dark AWP - 200 Cores\n   * Tier 8: Metro Royalty - 250 Cores\n   * Tier 9: Roy (Neon Rider) -  325 Cores\n* Select the SCAVENGE tab in the Main Menu to see your progress.\n\n**Event Info**\n\n* Core Deposits are based on teams.\n* All Core Deposits from your entire team count towards your total.\n* Find Power Cores around the arena and bring them to a Core Converter for team rewards.\n* Core Converters will be marked with a YELLOW STAR on the mini-map.\n* Deposit 4 Cores during a match to receive an exclusive 5-Star Red weapon for your squad!\n* Event ends May 31 at 12 PM Pacific!\n\n**Game Modes**\n\n* War Mode starts Thursday (May 12) at 12 PM Pacific!\n* Core Deposits available in Squads and War Mode\n\n**Neon Night Mode**\n\n* Even in darkness this city never sleeps. Neon Night Mode is here.\n* Neon Night Mode can be experienced in all Game Modes for the duration of Neon Dead Drop Event!\n* Neon Night Mode appears in roughly 33% of all matches.\n\n **Voice Communication**\n\n* Improved reconnection attempts when Voice Chat is lost.\n* Voice Communications is very important to us and we are continuing to improve stability in this area with each update. Please file a support ticket if you have issues with voice communications.\n\n**General**\n\n* Several performance and stability improvements.\n* Fixed a variety of environment and collision issues.\n* Main Menu: Fixed minor visual issue in the store where the price number could display incorrectly for players that owned 1 part of a bundle.\n* Fixed announcer repeating voice lines in single player modes (like Bot Battle)\n* Fixed friend status sometimes showing as \"Available\" when they were actually in a match.\n* Fixed a crash when building too many walls.\n* Fixed a case where dying or being revived could get a a player stuck in the walls and ceilings.\n* Fixed an issue where players became invisible when viewed at certain angles.\n* Fixed an issue where occasionally kills would not count towards the weekly stats. \n* Fixed an issue where players were unable to use a jump pad in the Nightclub area of Metropolis.\n* Fixed an issue where the Sanguine AKM and Artillery AKM were not playing reloading animations.\n\n\n**Support**\n \nFor support visit [http://support.bigboxvr.com](http://support.bigboxvr.com) to get access to self-help resources or file a ticket.\n\n**New Known Issues**\n\n* Barrels do not explode in solo bot-battle mode.\n* Shield Shaker charging sound effects remain audible when shaker is fully charged.\n\n**Known Issues**\n\n* A brief loss of audio is sometimes encountered when joining a voice chat channel on Quest 1 & 2 without headphones. This is due to enabling echo and noise cancellation features.\n* Gun reloads can become jammed and prevent the player from being able to reload.\n* Steam VR users playing on an Oculus headset: When Purchasing Bureau Gold, you will need to take off your headset to approve the purchase.\n* If you see a notice that you need to \"update to play\" but don't see it in the store, uninstall and reinstall POP: ONE to force the upgrade to happen. You won't lose any progress or data.\n \n&#x200B;"
-            },
-            {
-                "version": "1.2.26806",
-                "change_log": "April 12th, 2022, Change List\n\n**Cyber Clash starts Thursday (April 14) at 12 PM Pacific!**\n\n* Earn points for kills & match placement.\n* Claim exclusive Cyber Clash event rewards including: \n   * Iron: Conspirator Px4 - Everyone\n   * Bronze: Luster C1911 - Top 85%\n   * Silver: Conspirator S85 - Top 65%\n   * Gold: Luster DT11 - Top 50%\n   * Platinum: Conspirator M60 - Top 35%\n   * Diamond: Luster Mp5 - Top 20%\n   * Master: Millie (Seeker) - Top 10%\n* Select the Leaderboard tab in the Main Menu to see where you stand!\n\n**Level 61: Golden Hattie**\n\n* Achieve the all new level 61 and don the Hattie (Golden) skin with pride.\n* Unlock level 61 at 2,350,000 total XP (350k additional XP).\n\n**Game Modes**\n\n* Metropolis Royale \n* Legions - Starting 4/14 at 12 PM Pacific\n* TDM - Coming soon!\n\n **Voice Communication**\n\n* Fixed an issue with connecting to squad chat channels in the Main Menu.\n* Fixed an issue where incorrect player would get muted and ghosted after reporting someone.\n* Voice Communications is very important to us and we are continuing to improve stability in this area with each update. Please file a support ticket if you have issues with voice communications.\n\n**Custom Rooms**\n\n* Added a new private room option for allowing friends to join without being public.\n* Players joining a custom TDM in progress will now get the correct item restrictions.\n* Player location on launch tower is now more random.\n\n**General**\n\n* Fixed an issue where the game could crash when playing for extended periods of time.\n* Fixed a variety of visual and collision issues in Metropolis.\n* Supply Drop on Metropolis no longer says \"Refinery\".\n* Fixed issue causing players to get stuck in walls when knocked down.\n* Fixed the high falling velocity sound from playing when knocked down.\n* Main Menu: Fixed issue where the cursor could sometimes get hidden when using calling card, title, and spray loadouts.\n* Added a popup to the Main Menu to warn you when you lose internet.\n* Fixed launch pods going backwards if you return to the launch tower and take another one.\n* Fixed being launched up at the start of a match by using a launch pad at the right time in the lobby.\n* Fixed the scope being blocked on the \"End Bringer\" Legendary MK18 skin.\n* Fixed issue where players could permanently be stuck in a T-Pose.\n* Fixed issue where after playing a while, character and gun skins could fail to load properly and never recover.\n* Fixed an issue where players weren't able to see Health and Shield while spectating.\n* Fixed issue where returning to the Level tab after unlocking PJ (Golden) misrepresented not having reward unlocked.\n* Fixed emissive color bugs with the \"Sludge\" family of skins (m60, mp5, 1911)\n\n**Support**\n \nFor support visit [http://support.bigboxvr.com](http://support.bigboxvr.com) to get access to self-help resources or file a ticket.\n\n**Known Issues**\n\n* A brief loss of audio is sometimes encountered when joining a voice chat channel on Quest 1 & 2 without headphones. This is due to enabling echo and noise cancellation features.\n* Players occasionally turn invisible for a short period of time.\n* Gun reloads can become jammed and prevent the player from being able to reload.\n* Steam VR users playing on an Oculus headset: When Purchasing Bureau Gold, you will need to take off your headset to approve the purchase.\n* If you see a notice that you need to \"update to play\" but don't see it in the store, uninstall and reinstall POP: ONE to force the upgrade to happen. You won't lose any progress or data.\n \n&#x200B;\n \n\\~ see you in game!"
             }
         ],
         "on_rookie": false,
-        "general_update": 475369,
+        "general_update": 475417,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475417,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475393,
+        "rating_update": 475417,
         "iarc_detail_update": 475000,
         "keywords": [
             "shooter",
@@ -190,11 +190,11 @@
             "multiplay",
             "game"
         ],
-        "last_update": 475393,
+        "last_update": 475417,
         "category": "GAMES",
-        "votes": 14561,
-        "rating": 4.300117,
-        "weighted_rating": 4.2
+        "votes": 14605,
+        "rating": 4.301472,
+        "weighted_rating": 4.3
     },
     "errors": []
 }
