@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 9651
+                "votes": 9653
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -170,7 +170,7 @@
         "changelog_update": 475393,
         "keyword_update": 474913,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "demo",
@@ -179,11 +179,24 @@
             "rhythm",
             "free"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "APPS",
-        "votes": 12469,
-        "rating": 4.377897,
+        "votes": 12471,
+        "rating": 4.377997,
         "weighted_rating": 4.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

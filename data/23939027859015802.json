@@ -76,6 +76,10 @@
         "changelog": [
             {
                 "version": "0.1.0",
+                "change_log": "Re-uploading guibbys guide to the correct version"
+            },
+            {
+                "version": "0.1.0",
                 "change_log": "Updating guibby's guide version"
             },
             {
@@ -95,17 +99,30 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475441,
+        "changelog_update": 475465,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "APPS",
         "votes": 1,
         "rating": 1.0,
         "weighted_rating": 3.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

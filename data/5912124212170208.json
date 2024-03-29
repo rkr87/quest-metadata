@@ -3,7 +3,7 @@
         "id": "5912124212170208",
         "app_name": "Darksword: Battle Eternity",
         "release_date": "2023-06-22T00:00:00.000Z",
-        "description": "Darksword is an exciting, original non-stop VR action RPG.  Venture deep into the world of the Twisted Corridors and defeat your enemies in style.  Develop your own style of combat, exploit enemy weakness, and collect materials to get more powerful weapons! \n\nPlay the story mode and compete globally through the leaderboard system!  Show off your skills, build teamwork, and get even more rewards in the multiplayer Co-Op mode!\n\n- Fun, entertaining, and enjoyable hack-and-slash experience for all!\n\n- Grow as you play.  Collect items during battle.  Buy, craft, and upgrade weapons to become even more powerful!\n\n- Single-player & Multiplayer Ready: From solo to a 4-person party, Darksword offers players to enjoy the game in any way they can!\n\n- Updates and New Features to Come: Until the curse of the Darksword is lifted, the battle must continue!",
+        "description": "Dive into DARKSWORD: BATTLE ETERNITY, a captivating VR action RPG set within the enigmatic world of the Twisted Corridors. This game offers an unparalleled experience of fast-paced combat in a dark fantasy setting:\n\nUnprecedented VR Combat Experience\n• Engage in exhilarating hack-and-slash battles, where you can develop a unique combat style, take advantage of enemy weaknesses, and amass materials for crafting superior weaponry.\n\nEndless Waves of Monsters\n• Embark on an epic battle against relentless enemies, aiming for the top floor as you grow stronger along the way. Randomized power-up skills render each run different every time.\n\nContinuous Progression\n• Revel in the satisfaction of growth—collect materials, purchase, craft, and upgrade your weapon to enhance your power and combat effectiveness.\n\nVersatile Gameplay\n• Whether you prefer to take on challenges solo or thrive in the camaraderie of a 4-player party, DARKSWORD accommodates all playstyles, offering a diverse gaming experience.\n\nDARKSWORD combines the thrill of VR with the depth of action RPGs, ensuring a rich and varied experience for all players.",
         "developer": "Com2uS ROCA",
         "publisher": "Com2uS ROCA",
         "genres": [
@@ -56,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 110
+                "votes": 111
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.0.2",
+                "change_log": "- Unreal Engine 5.3.2 update\n- Increased player level from 60 to 75\n- New skill: battle axe\n- New legendary weapon set\n- New single-player DLC: Nephilim\n- 3 New boss monsters (DLC)\n- Lobby menu renewal\n- Increased Gold and XP reward\n- Increased movement speed\n- Improved parry success rate\n- Increased weapon upgrade success rate"
+            },
+            {
                 "version": "1.5.1.3",
                 "change_log": "-"
             },
@@ -107,17 +111,17 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 474948,
+        "general_update": 475465,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475465,
         "keyword_update": 474881,
         "tag_update": 475177,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "action",
@@ -126,11 +130,24 @@
             "roguelike",
             "multiplay"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 190,
-        "rating": 4.194737,
+        "votes": 191,
+        "rating": 4.198953,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

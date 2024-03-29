@@ -45,7 +45,7 @@
             },
             {
                 "rating": 4,
-                "votes": 7
+                "votes": 8
             },
             {
                 "rating": 5,
@@ -83,14 +83,27 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "APPS",
-        "votes": 171,
-        "rating": 4.830409,
+        "votes": 172,
+        "rating": 4.825581,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

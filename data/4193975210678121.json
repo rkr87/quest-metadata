@@ -49,11 +49,11 @@
             },
             {
                 "rating": 4,
-                "votes": 915
+                "votes": 914
             },
             {
                 "rating": 5,
-                "votes": 2087
+                "votes": 2088
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -89,18 +89,31 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "nfl",
             "football",
             "sport"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "ENTERTAINMENT",
         "votes": 4114,
-        "rating": 3.97861,
+        "rating": 3.978853,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

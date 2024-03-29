@@ -56,15 +56,15 @@
             },
             {
                 "rating": 3,
-                "votes": 536
+                "votes": 538
             },
             {
                 "rating": 4,
-                "votes": 2434
+                "votes": 2435
             },
             {
                 "rating": 5,
-                "votes": 14317
+                "votes": 14320
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -125,18 +125,31 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "simulator",
             "job",
             "touch"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 17917,
-        "rating": 4.674667,
+        "votes": 17923,
+        "rating": 4.674496,
         "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

@@ -3,7 +3,7 @@
         "id": "7226202844140927",
         "app_name": "All-In-One Summer Sports VR_Demo",
         "release_date": "2024-03-06T00:00:00.000Z",
-        "description": "          ★ All-In-One Summer Sports VR <Full Ver> ★\nhttps://www.meta.com/ko-kr/experiences/5252906291483483/\n\n★ Discode Link: https://discord.gg/cAJShemkw2\n\n■ Various summer sports on the island( 4 sports in 1 )\n   - Jet Ski,  Gun shooting , Water Basketball, Water Park \n\n■ Real time PvP by multiplay\n\n■ Players can enjoy multiplayer\n\n■ Realistic virtual sports experiences by advanced physics\n\n■ Player customization \n\n■ Simple UI and easy control can help anyone to play\n\n■ 5 different difficulties from beginner to professional\n",
+        "description": "  ★ All-In-One Summer Sports VR <Full Ver> ★\nhttps://www.meta.com/ko-kr/experiences/5252906291483483/\n\n★ Discode Link: https://discord.gg/cAJShemkw2\n\n■ Various summer sports on the island( 11 sports in 1 )\n   - Jet Ski, Beach Volleyball, Swimming, Cycling, Frisbee, Fishing, Clay shooting, Waterpolo, Gun shooting , Water Basketball, Water Park \n\n■ Real time PvP by multiplay\n\n■ Five players can enjoy multiplayer\n\n■ Realistic virtual sports experiences by advanced physics\n\n■ Player customization \n\n■ Simple UI and easy control can help anyone to play\n\n■ 5 different difficulties from beginner to professional\n",
         "developer": "APPNORI",
         "publisher": "Appnori Inc.",
         "genres": [
@@ -73,7 +73,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 475441,
+        "general_update": 475465,
         "genre_update": 474948,
         "device_update": 474948,
         "mode_update": 474948,
@@ -86,11 +86,24 @@
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

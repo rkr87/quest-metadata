@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 5350
+                "votes": 5362
             },
             {
                 "rating": 2,
-                "votes": 1209
+                "votes": 1210
             },
             {
                 "rating": 3,
-                "votes": 2240
+                "votes": 2245
             },
             {
                 "rating": 4,
-                "votes": 6434
+                "votes": 6444
             },
             {
                 "rating": 5,
-                "votes": 90380
+                "votes": 90520
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -91,14 +91,27 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 105613,
-        "rating": 4.659692,
+        "votes": 105781,
+        "rating": 4.659561,
         "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

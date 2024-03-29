@@ -50,7 +50,7 @@
             },
             {
                 "rating": 3,
-                "votes": 4
+                "votes": 3
             },
             {
                 "rating": 4,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 109
+                "votes": 118
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,32 +84,49 @@
         },
         "changelog": [
             {
+                "version": "1.0.4i",
+                "change_log": "- Significant resolution scale improvements for Quest 3 users (+54%)\n- Moderate resolution scale improvements for Quest 2 users (+6%)"
+            },
+            {
                 "version": "1.0.4d",
                 "change_log": "* Fixes issue where Stubbins boss loops his intro animation indefinitely for some European languages.\n* Fixes issue where Bee-Butt does not start its initial attack sequence for some European languages.\n* Fixes issue where in “Stubbins HQ” the platforms will not fall down during the boss battle for some European languages.\n* Fixes rare issue where one mudpup cage and the level finish lever appear invisible in “Space Chase”.\n* Fixes issue where Max would get stuck moving from Arc 1 to Arc 4 on the Van Hub map screen if some but not all of Arc 4 is completed."
             }
         ],
         "on_rookie": false,
-        "general_update": 475369,
+        "general_update": 475465,
         "genre_update": 475297,
         "device_update": 475297,
         "mode_update": 475297,
         "language_update": 475297,
         "platform_update": 475297,
         "player_mode_update": 475297,
-        "changelog_update": 475297,
+        "changelog_update": 475465,
         "keyword_update": 475297,
         "tag_update": 475417,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475393,
         "keywords": [
             "platform",
             "interactive"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 143,
-        "rating": 4.657343,
-        "weighted_rating": 4.5
+        "votes": 151,
+        "rating": 4.688742,
+        "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

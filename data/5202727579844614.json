@@ -53,7 +53,7 @@
             },
             {
                 "rating": 4,
-                "votes": 10
+                "votes": 11
             },
             {
                 "rating": 5,
@@ -99,7 +99,7 @@
         "changelog_update": 475081,
         "keyword_update": 474880,
         "tag_update": 475177,
-        "rating_update": 475369,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "fps",
@@ -108,11 +108,24 @@
             "gun",
             "shooter"
         ],
-        "last_update": 475369,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 29,
-        "rating": 4.068966,
+        "votes": 30,
+        "rating": 4.066667,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

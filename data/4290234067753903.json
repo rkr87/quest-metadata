@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 30
+                "votes": 31
             },
             {
                 "rating": 2,
@@ -152,18 +152,31 @@
         "changelog_update": 475417,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475417,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "arcade",
             "social",
             "parti"
         ],
-        "last_update": 475417,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 414,
-        "rating": 4.157005,
+        "votes": 415,
+        "rating": 4.149398,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

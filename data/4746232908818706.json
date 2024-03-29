@@ -3,7 +3,7 @@
         "id": "4746232908818706",
         "app_name": "Ghostbusters: Rise of the Ghost Lord",
         "release_date": "2023-10-26T00:00:00.000Z",
-        "description": "WHO THEY GONNA CALL? YOU!\n\nStrap on your Proton Pack and experience the thrills and fun of bustin’ ghosts with friends in this made-for-VR adventure. \n\nSLIMER HUNT – OUT NOW!\nAnswer the call of legendary Ghostbuster Ray Stantz (voiced by Dan Aykroyd) and step into the original Ghostbusters’ flight suits as you team up to track down Slimer before he can bring his unique brand of mischief to the streets of San Francisco.\n\nBECOME A GHOSTBUSTER\nImmerse yourself within the Ghostbusters universe through the power of Meta Quest. Wield iconic equipment like the PKE Meter and Proton Wand as you locate, blast, and trap ghosts in the ultimate fight against a ghastly new threat.\n\nASSEMBLE YOUR SQUAD\nJoin forces with up to three others across a campaign of gripping ghostly encounters. Revive team-mates with a high five, supercharge your squad’s strength with equipment upgrades, and team up to save the city together.\n\nA GAME MODE FOR EVERY GHOSTBUSTER\nMini-Pufts have invaded your living in Mini-Puft Mayhem! Blast them away with the power of Meta Quest 3’s unique mixed reality capabilities. \n\nJoin our community on the Ghostbusters Discord for info, tips, and game support!\nhttps://discord.gg/ndreams\n\nGhostbusters ™ & © 2023 Columbia Pictures Industries, Inc. All Rights Reserved.",
+        "description": "WHO THEY GONNA CALL? YOU!\n\nStrap on your Proton Pack and experience the thrills and fun of bustin’ ghosts with friends in this made-for-VR adventure. \n\nFROZEN EMPIRE\nAnswer the call from legendary Ghostbuster Ray Stantz (played by Dan Aykroyd) and embark on a series of missions across New York and San Francisco in a bid to defeat the villainous Garraka. Visit the iconic Ghostbusters firehouse in New York, wield the original Ghosbusters’ equipment, bust new ghosts, and prepare for the ultimate test of your ghostbusting skills in a chilling final showdown.\n\nBECOME A GHOSTBUSTER\nImmerse yourself within the Ghostbusters universe through the power of Meta Quest. Wield iconic equipment like the PKE Meter and Proton Wand as you locate, blast, and trap ghosts in the ultimate fight against a ghastly new threat.\n\nASSEMBLE YOUR SQUAD\nJoin forces with up to three others across a campaign of gripping ghostly encounters. Revive team-mates with a high five, supercharge your squad’s strength with equipment upgrades, and team up to save the city together.\n\nA GAME MODE FOR EVERY GHOSTBUSTER\nMini-Pufts have invaded your living in Mini-Puft Mayhem! Blast them away with the power of Meta Quest 3’s unique mixed reality capabilities. \n\nJoin our community on the Ghostbusters Discord for info, tips, and game support!\nhttps://discord.gg/ndreams\n\nGhostbusters ™ & © 2023 Columbia Pictures Industries, Inc. All Rights Reserved.",
         "developer": "nDreams",
         "publisher": "Sony Pictures Virtual Reality (SPVR)",
         "genres": [
@@ -96,7 +96,7 @@
         },
         "changelog": [],
         "on_rookie": true,
-        "general_update": 474948,
+        "general_update": 475465,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -113,11 +113,24 @@
             "coop",
             "horror"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
         "votes": 426,
         "rating": 3.974178,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

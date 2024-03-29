@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 963
+                "votes": 962
             },
             {
                 "rating": 2,
@@ -104,7 +104,7 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "tv",
@@ -113,11 +113,24 @@
             "sport",
             "movie"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "ENTERTAINMENT",
-        "votes": 1607,
-        "rating": 2.246422,
+        "votes": 1606,
+        "rating": 2.247198,
         "weighted_rating": 2.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

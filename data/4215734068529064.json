@@ -37,7 +37,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1049
+                "votes": 1050
             },
             {
                 "rating": 2,
@@ -45,15 +45,15 @@
             },
             {
                 "rating": 3,
-                "votes": 769
+                "votes": 770
             },
             {
                 "rating": 4,
-                "votes": 2176
+                "votes": 2180
             },
             {
                 "rating": 5,
-                "votes": 18108
+                "votes": 18124
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -90,7 +90,7 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "action",
@@ -98,11 +98,24 @@
             "physic",
             "shooter"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 22501,
-        "rating": 4.595262,
+        "votes": 22523,
+        "rating": 4.595214,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

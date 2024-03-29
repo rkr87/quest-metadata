@@ -49,7 +49,7 @@
             },
             {
                 "rating": 4,
-                "votes": 365
+                "votes": 366
             },
             {
                 "rating": 5,
@@ -148,17 +148,30 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475393,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "travel",
             "exploration"
         ],
-        "last_update": 475393,
+        "last_update": 475465,
         "category": "APPS",
-        "votes": 2032,
-        "rating": 3.804134,
+        "votes": 2033,
+        "rating": 3.80423,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

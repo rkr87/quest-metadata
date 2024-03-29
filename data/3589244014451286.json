@@ -53,7 +53,7 @@
             },
             {
                 "rating": 3,
-                "votes": 23
+                "votes": 24
             },
             {
                 "rating": 4,
@@ -61,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 150
+                "votes": 151
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,14 @@
             "logo_transparent": "39031560_151698520744615_8233621077805164480_n.png"
         },
         "changelog": [
+            {
+                "version": "1.4",
+                "change_log": "Hellsweepers, welcome to The Wrath Update, our biggest content drop and improvements to date, featuring a new enemy, weapon, graphical upgrades, and a host of requested QoL improvements, among other surprises! \n\nYour support means a lot to our team and it's what fuels the growth of this game. If you enjoy Hellsweeper VR, consider leaving a positive review and sharing this game with friends. Happy hellsweeping!"
+            },
+            {
+                "version": "1.4",
+                "change_log": "Hellsweepers, welcome to The Wrath Update, our biggest content drop and improvements to date, featuring a new enemy, weapon, graphical upgrades, and a host of requested QoL improvements, among other surprises! \n\nYour support means a lot to our team and it's what fuels the growth of this game. If you enjoy Hellsweeper VR, consider leaving a positive review and sharing this game with friends. Happy hellsweeping!"
+            },
             {
                 "version": "1.3.1",
                 "change_log": "Hi Hellsweepers, the Treachery Content Update is now live, just in time for the holidays! This update brings a new boss, weapon(s), the 3-Act Co-Op mode, endless roguelike mode, and a new blacksmith area where you can customize your loadout before your runs. We've also introduced fresh traits, blessings, and more. Check out the detailed update list below.\n\nStay tuned to our Discord for further updates. Your support and feedback mean the world to us. Thank you!"
@@ -117,21 +125,34 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475465,
         "keyword_update": 474881,
         "tag_update": 475177,
-        "rating_update": 475417,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "roguelike",
             "magic",
             "rpg"
         ],
-        "last_update": 475417,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 238,
-        "rating": 4.210084,
+        "votes": 240,
+        "rating": 4.208333,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

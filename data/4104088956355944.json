@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 4788
+                "votes": 4812
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,14 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.42.3",
+                "change_log": "- New time limited easter checkpoint.\n- 5 eggs have been hidden in the lobby, each one is worth 10 coins!\n- Fixed a crash that prevented some players from playing."
+            },
+            {
+                "version": "0.42.3",
+                "change_log": "- New time limited easter checkpoint.\n- 5 eggs have been hidden in the lobby, each one is worth 10 coins!\n- Fixed a crash that prevented some players from playing."
+            },
             {
                 "version": "0.42.2",
                 "change_log": "- Added GRAB Coins!\n- Updated the store layout, giving a bit more visibility to cosmetic packs.\n- You can now claim 50 GRAB Coins for free every week!\n- Added occlusion culling for all levels (but not in the editor yet) to improve performance in some cases."
@@ -147,14 +155,6 @@
             {
                 "version": "0.40.1",
                 "change_log": "- Added lobby type filtering for the join menu.\n- Added lobby search by name.\n- Fixed a blackscreen that could happen while playing (mostly caused by collisions with thin, long objects)."
-            },
-            {
-                "version": "0.40.0",
-                "change_log": "- New lobby!\n- Objects can no longer be selected if your head is inside of them, making it possible to build inside of big gravity zones.\n- Fixed black screen when switching levels too quickly.\n- Fixed black screen when switching the level in the editor while changing between edit and play mode.\n- API requests can now time out if they take too long, which should fix some common problems."
-            },
-            {
-                "version": "0.39.1",
-                "change_log": "- Added direction sliders for gravity zones.\n- Gravity zone particles will now preview the current direction while moving the sliders.\n- Fixed a crash that could happen on level switching when using the fireworks checkpoint."
             }
         ],
         "on_rookie": false,
@@ -165,17 +165,30 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475441,
+        "changelog_update": 475465,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 5261,
-        "rating": 4.818095,
+        "votes": 5285,
+        "rating": 4.818921,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

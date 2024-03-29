@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 432
+                "votes": 431
             },
             {
                 "rating": 2,
-                "votes": 178
+                "votes": 179
             },
             {
                 "rating": 3,
-                "votes": 377
+                "votes": 378
             },
             {
                 "rating": 4,
-                "votes": 3500
+                "votes": 3504
             },
             {
                 "rating": 5,
-                "votes": 30197
+                "votes": 30241
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -169,7 +169,7 @@
         "changelog_update": 475417,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -177,11 +177,24 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 34684,
-        "rating": 4.812132,
+        "votes": 34733,
+        "rating": 4.812253,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

@@ -41,11 +41,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 240
+                "votes": 241
             },
             {
                 "rating": 2,
-                "votes": 95
+                "votes": 97
             },
             {
                 "rating": 3,
@@ -96,18 +96,31 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475417,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "demo",
             "sport",
             "action"
         ],
-        "last_update": 475417,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 2524,
-        "rating": 4.211965,
+        "votes": 2527,
+        "rating": 4.208943,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

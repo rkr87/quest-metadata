@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 35
+                "votes": 38
             },
             {
                 "rating": 2,
@@ -41,15 +41,15 @@
             },
             {
                 "rating": 3,
-                "votes": 30
+                "votes": 31
             },
             {
                 "rating": 4,
-                "votes": 175
+                "votes": 183
             },
             {
                 "rating": 5,
-                "votes": 3897
+                "votes": 3963
             }
         ],
         "comfort": "NOT_RATED",
@@ -78,7 +78,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 475321,
+        "general_update": 475465,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -88,14 +88,27 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 4142,
-        "rating": 4.905843,
-        "weighted_rating": 4.9
+        "votes": 4220,
+        "rating": 4.90237,
+        "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

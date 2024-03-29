@@ -45,11 +45,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 677
+                "votes": 678
             },
             {
                 "rating": 2,
-                "votes": 333
+                "votes": 332
             },
             {
                 "rating": 3,
@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 759
+                "votes": 761
             },
             {
                 "rating": 5,
-                "votes": 2507
+                "votes": 2506
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -100,16 +100,29 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "survival"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 4784,
-        "rating": 3.854097,
+        "votes": 4785,
+        "rating": 3.85371,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

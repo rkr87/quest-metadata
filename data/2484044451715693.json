@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1184
+                "votes": 1185
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -168,7 +168,7 @@
         "changelog_update": 475000,
         "keyword_update": 474913,
         "tag_update": 474880,
-        "rating_update": 475393,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "dance",
@@ -177,11 +177,24 @@
             "beat",
             "fit"
         ],
-        "last_update": 475393,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 1564,
-        "rating": 4.57289,
+        "votes": 1565,
+        "rating": 4.573163,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

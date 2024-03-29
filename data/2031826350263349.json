@@ -37,23 +37,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 4098
+                "votes": 4103
             },
             {
                 "rating": 2,
-                "votes": 1075
+                "votes": 1077
             },
             {
                 "rating": 3,
-                "votes": 1941
+                "votes": 1943
             },
             {
                 "rating": 4,
-                "votes": 5647
+                "votes": 5652
             },
             {
                 "rating": 5,
-                "votes": 30687
+                "votes": 30710
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -127,18 +127,31 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "sword",
             "physic",
             "magic"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 43448,
-        "rating": 4.329175,
+        "votes": 43485,
+        "rating": 4.328941,
         "weighted_rating": 4.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

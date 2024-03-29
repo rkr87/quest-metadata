@@ -47,7 +47,7 @@
             },
             {
                 "rating": 4,
-                "votes": 9
+                "votes": 10
             },
             {
                 "rating": 5,
@@ -105,17 +105,30 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475417,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "animation",
             "japan"
         ],
-        "last_update": 475417,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 108,
-        "rating": 4.555556,
+        "votes": 109,
+        "rating": 4.550459,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

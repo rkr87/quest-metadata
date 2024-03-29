@@ -58,11 +58,11 @@
             },
             {
                 "rating": 4,
-                "votes": 723
+                "votes": 724
             },
             {
                 "rating": 5,
-                "votes": 5499
+                "votes": 5502
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -98,17 +98,30 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "fish",
             "vr"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 6784,
-        "rating": 4.630307,
+        "votes": 6788,
+        "rating": 4.630377,
         "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

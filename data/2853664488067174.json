@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 190
+                "votes": 191
             },
             {
                 "rating": 2,
@@ -54,7 +54,7 @@
             },
             {
                 "rating": 4,
-                "votes": 90
+                "votes": 91
             },
             {
                 "rating": 5,
@@ -94,7 +94,7 @@
         "changelog_update": 475000,
         "keyword_update": 474913,
         "tag_update": 474880,
-        "rating_update": 475369,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "fit",
@@ -102,11 +102,24 @@
             "bike",
             "competitive"
         ],
-        "last_update": 475369,
+        "last_update": 475465,
         "category": "APPS",
-        "votes": 928,
-        "rating": 3.667026,
+        "votes": 930,
+        "rating": 3.664516,
         "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

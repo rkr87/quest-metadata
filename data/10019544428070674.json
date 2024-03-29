@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 31
+                "votes": 30
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -93,17 +93,30 @@
         "changelog_update": 475129,
         "keyword_update": 475129,
         "tag_update": 475177,
-        "rating_update": 475393,
+        "rating_update": 475465,
         "iarc_detail_update": 475129,
         "keywords": [
             "puzzle",
             "dog"
         ],
-        "last_update": 475393,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 34,
-        "rating": 4.911765,
+        "votes": 33,
+        "rating": 4.909091,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

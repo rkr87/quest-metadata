@@ -49,7 +49,7 @@
             },
             {
                 "rating": 2,
-                "votes": 18
+                "votes": 17
             },
             {
                 "rating": 3,
@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 106
+                "votes": 107
             },
             {
                 "rating": 5,
-                "votes": 1475
+                "votes": 1478
             }
         ],
         "comfort": "NOT_RATED",
@@ -181,7 +181,7 @@
         "changelog_update": 475225,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [
             "shooter",
@@ -190,11 +190,24 @@
             "scifi",
             "fps"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 1659,
-        "rating": 4.785413,
+        "votes": 1662,
+        "rating": 4.787004,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

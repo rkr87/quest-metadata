@@ -3,7 +3,7 @@
         "id": "6894518023998298",
         "app_name": "Unearthed",
         "release_date": "2024-03-14T00:00:00.000Z",
-        "description": "Battle with bears and protect your cubs, become a prowling jaguar, shrink in size to protect your fishy family from marauding piranhas, and even ride beetles into gigantic Amazonian flowers! Unearthed is a funny, impactful and inspirational adventure into the wild like never before, using incredible animal superpowers to find the missing Professor and save the world!\n\nHarness your predator powers, your bow and arrows, and bio scanner in an attempt to complete your vital missions.\n\nDon’t worry, you won’t be alone in this mission. On the journey are your haphazard robot guides, voiced by Richard Ayoade (Soul, The Mandalorian) and Sian Clifford (Fleabag) and the Professor, played by Indira Varma (Game Of Thrones, Obi-Wan Kenobi) as you travel through epic Amazon and Alaskan forests. \n\nThese robots will help you collect the animal and plant information you need to find the Professor. They believe she holds the key to protecting these ecosystems and saving the world... the rest is up to you.\n\nFeaturing: \n• Amazon and Alaskan biomes to explore\n• Animal superpowers to unlock. \n• 6 large animal and plant adventures across every stage of the food chain\n• Free roaming hubs to scan and collect\n• Hilarious and illuminating storylines and dialogue\n• 80+ plants and animals to discover\n• Space age laboratory to store all rewards and discoveries",
+        "description": "Embark on a fantastical journey through the vibrant ecosystems of the Amazon and Tongass with Unearthed. Prepare to be whisked away on a funny, narrative-driven adventure. \n\nUnearthed is an impactful experience grounded in scientific research which has been modelled on the food chain within two distinct biomes. This virtual world reflects the real and incredible world of plants, animals, and ecosystems; empowering you to learn through play. \n\nGuiding you through this immersive journey are two quirky robot companions, Hazzi and Penni, voiced by Richard Ayoade and Sian Clifford. Together, they'll assist you in unravelling the wonders of nature as you strive to rescue the esteemed Professor, portrayed by Indira Varma, and ultimately, save the world!\n\nFeatures include:\n\n⛰️ 2 unique biomes: Amazon and Tongass, crafted with scientific precision, and your cutting-edge Laboratory\n\n🐠 6 captivating levels exploring a different part of the food chain\n\n🐾 Unlock 2 playable animals with super power mechanics to aid in your quest\n\n🔍 Discover and learn about 80+ real plants and animals, each with unique characteristics and behaviours\n\n🍄 Immerse yourself in engaging stories and dialogue that seamlessly blend entertainment with education\n\n🌳 Stylised plants, trees, and animals modelled on those found in the real world\n\nSet out on a journey where entertainment meets education, and adventure meets authenticity. Are you ready to unleash the explorer within and embark on an unforgettable quest?",
         "developer": "Factory 42 Limited",
         "publisher": "Factory 42 Limited",
         "genres": [
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 18
+                "votes": 17
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -77,30 +77,48 @@
             "immersive_layer_logo": "38982514_2464840493720191_8629307387175608142_n.png",
             "logo_transparent": "39031431_1434614090767575_4759227725426456944_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.1",
+                "change_log": "Version 1.1 changes:\n- Enabled a compass on the Scanner tool when exploring the hub areas that can be used to help guide you to the nearest scannable object. \n- The teleport movement grid displayed on the ground has been refined across all areas and visually updated.\n- Various tweaks and bug fixes, including some improvements to performance."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 475345,
+        "general_update": 475465,
         "genre_update": 475129,
         "device_update": 475129,
         "mode_update": 475129,
         "language_update": 475129,
         "platform_update": 475129,
         "player_mode_update": 475129,
-        "changelog_update": 475129,
+        "changelog_update": 475465,
         "keyword_update": 475129,
         "tag_update": 475177,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475129,
         "keywords": [
             "nature",
             "mystery",
             "science"
         ],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 24,
-        "rating": 4.458333,
+        "votes": 23,
+        "rating": 4.434783,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

@@ -47,7 +47,7 @@
             },
             {
                 "rating": 5,
-                "votes": 23
+                "votes": 24
             }
         ],
         "comfort": "NOT_RATED",
@@ -72,6 +72,10 @@
             "logo_transparent": "38982694_1190178372378521_4303966440156152832_n.png"
         },
         "changelog": [
+            {
+                "version": "24.03.28",
+                "change_log": "New games!\n- Claws Out Level 1 - Butterflies!\n- CHOMP Level 2 - Flippin Fish!\n- Dragon Blast Level 1 & 2 - Space Dragon Shooter with asteroids and mines!\n- Force Bees - Beeeeeees!\n\nNew environments and music!\n- Space Dragon inspired environment and music options\n\nPlaylist Creator!\n- Pick whatever games you want to play in a round.\n- Pick how long the games last.\n- Random or in order.\n\nGame intro update!\n- Game intros now include how to play videos.\n- Gesture guides stay up during games.\n\nHand menu gesture!\n- Open the hand menu with a gesture - L-shape with palm towards you\n\nNew Customization!\n- Bodies are now called Heads\n- All heads now have color options!\n\nHotfix 03.28.24\n- Asteroids performance issue fixed\n- Some textures got adjusted to reduce build size"
+            },
             {
                 "version": "24.03.15",
                 "change_log": "New games!\n- Claws Out Level 1 - Butterflies!\n- CHOMP Level 2 - Flippin Fish!\n- Dragon Blast Level 1 & 2 - Space Dragon Shooter with asteroids and mines!\n- Force Bees - Beeeeeees!\n\nNew environments and music!\n- Space Dragon inspired environment and music options\n\nPlaylist Creator!\n- Pick whatever games you want to play in a round.\n- Pick how long the games last.\n- Random or in order.\n\nGame intro update!\n- Game intros now include how to play videos.\n- Gesture guides stay up during games.\n\nHand menu gesture!\n- Open the hand menu with a gesture - L-shape with palm towards you\n\nNew Customization!\n- Bodies are now called Heads\n- All heads now have color options!"
@@ -113,17 +117,30 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475153,
+        "changelog_update": 475465,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "GAMES",
-        "votes": 26,
-        "rating": 4.884615,
+        "votes": 27,
+        "rating": 4.888889,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

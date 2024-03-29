@@ -31,7 +31,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 8
+                "votes": 7
             },
             {
                 "rating": 2,
@@ -39,7 +39,7 @@
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 4,
@@ -47,7 +47,7 @@
             },
             {
                 "rating": 5,
-                "votes": 50
+                "votes": 51
             }
         ],
         "comfort": "NOT_RATED",
@@ -85,14 +85,27 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475441,
+        "rating_update": 475465,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475465,
         "category": "ENTERTAINMENT",
-        "votes": 63,
-        "rating": 4.365079,
+        "votes": 64,
+        "rating": 4.40625,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }

@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "BTVCompagnonUpdate",
+                "change_log": "Ajout des fonctionnalités pour l'application Compagnon"
+            },
+            {
                 "version": "RefonteBeta4Prod",
                 "change_log": "Mise à jour refonte de Bouge ta ville :\n- Refonte visuels et agencement des interfaces\n- Ajouts de consignes et indications venant aider le joueur dans sa progression\n- Refonte du tutoriel avec une section dédié aux interactions en jeu\n- Suppression des écrans de groupes et joueurs, on accède directement au menu après la connexion"
             },
@@ -97,17 +101,30 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475465,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475000,
+        "last_update": 475465,
         "category": "APPS",
         "votes": 2,
         "rating": 3.0,
         "weighted_rating": 3.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "c357d765190aec502f74a9278c5c669f"
+            ],
+            "path": [
+                "item",
+                "current_offer",
+                "buy_button_captions"
+            ]
+        }
+    ]
 }
