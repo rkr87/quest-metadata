@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "3.2.3",
+                "change_log": "--VZfit 3.2--\nList view added to the Find Ride map.  In addition to the existing method to search for rides by panning and zooming to spots on a map, you can now toggle on list mode and page through the rides in a list.\nYou can sort the rides in list view, up or down, by name, length of ride, when you last rode, Ride creation date, and ride progress.\nBug fixes for challenge unlock display\nNew Challenge assets\nBug fixes for sharing/deleting rides\n\n--3.1.2--\nRemoved testing code from release code\n\n--3.2.2--\nFixed bugs related to favoriting/sharing/deleting rides\nFixed a crash that could happen when finishing some tutorials\nFixed bug that occurred when continuing an open-ended ride\n\n--3.2.3--\nApril Fool's Challenge is ready!\nFixed a bug with sharing an open-ended ride after you save it.\nUFO sightings now happen every time you ride one of the routes where they are located."
+            },
+            {
                 "version": "3.2.2",
                 "change_log": "--VZfit 3.2--\nList view added to the Find Ride map.  In addition to the existing method to search for rides by panning and zooming to spots on a map, you can now toggle on list mode and page through the rides in a list.\nYou can sort the rides in list view, up or down, by name, length of ride, when you last rode, Ride creation date, and ride progress.\nBug fixes for challenge unlock display\nNew Challenge assets\nBug fixes for sharing/deleting rides\n\n--3.1.2--\nRemoved testing code from release code\n\n--3.2.2--\nFixed bugs related to favoriting/sharing/deleting rides\nFixed a crash that could happen when finishing some tutorials\nFixed bug that occurred when continuing an open-ended ride"
             },
@@ -160,10 +164,6 @@
             {
                 "version": "3.0.5",
                 "change_log": "--VZfit 3.0 Is Here!--\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes\n\n--3.0.4--\nFixed the No Person / First Person problem\nSearch by area on map\nHold trigger to switch map joystick control from zoom to pan on either controller\nZoom into cursor location instead of center of map\nFixed the problem where the cursors stop working and you can only ring the bell\n\"Favorite Rides\" instead of \"My Ride List\"\n\"Clear Filters\" instead of \"Show All Rides\"\n\"All Rides\" to \"Find Rides\"\n\n--3.0.5--\nTilt/lean steering sensitivity has been adjusted\nMultiplayer icons are now showing accurate information\nAdded some debugging code to track down the panorama stitching problem on high-res images\nMap doesn't change zoom level on multiplayer filter when the live data refreshes\nGaze and controller/hand pointers should no longer be enabled at the same time\nRing Racer riders are no longer showing as joinable on the multiplayer map\nGPS map settings no longer apply to home UI map\nResume Ride doesn't get cleared out from playing PinPoint or RingRacer\nCreate Ride remembers where you were and doesn't start at lat/lon 0,0\nUse hover tips to show distances of Short/Medium/Long options on Find Rides filter\nApp suspend no longer irrevocably mutes the streaming music\nPinPoint will no longer show %Infinity for your overall ranking\nExerboard no longer draws over the map during a map pin refresh\nShow distance below icons on Find Rides filter\nMinimize button on GPS overlay doesn't replace GPS with a white square\nMap filters art changes to make it more readable"
-            },
-            {
-                "version": "3.0.4",
-                "change_log": "--VZfit 3.0 Is Here!--\nRing Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n\nNew Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n\nMixed reality gameplay in all modes on Quest 2, 3, and Pro\n\nController-free support - use only your hands to play\n\n--Please note that VZplay games have been moved back to their own standalone app--\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes\n\n--3.0.4--\nFixed the No Person / First Person problem\nSearch by area on map\nHold trigger to switch map joystick control from zoom to pan on either controller\nZoom into cursor location instead of center of map\nFixed the problem where the cursors stop working and you can only ring the bell\n\"Favorite Rides\" instead of \"My Ride List\"\n\"Clear Filters\" instead of \"Show All Rides\"\n\"All Rides\" to \"Find Rides\""
             }
         ],
         "on_rookie": false,
@@ -174,7 +174,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475249,
+        "changelog_update": 475489,
         "keyword_update": 474913,
         "tag_update": 474880,
         "rating_update": 475297,
@@ -186,24 +186,11 @@
             "workout",
             "travel"
         ],
-        "last_update": 475297,
+        "last_update": 475489,
         "category": "APPS",
         "votes": 671,
         "rating": 3.864382,
         "weighted_rating": 3.8
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

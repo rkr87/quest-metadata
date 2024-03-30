@@ -92,6 +92,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.10",
+                "change_log": "- fixed collision blocking exit at the beggining of chapter IV\n- fixed collisions for the last chapter\n- fixed falling for \"another chance\"\n- fixed narrative blocking combat in the outer rim after loading a save"
+            },
+            {
                 "version": "1.0.9",
                 "change_log": "- fixed personnel transport's collision for sliding locomotion\n- fixed placement of dischargers in discharger room on ship for non-default scale"
             },
@@ -144,30 +148,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475201,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475201,
+        "last_update": 475489,
         "category": "GAMES",
         "votes": 81,
         "rating": 4.888889,
         "weighted_rating": 4.7
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

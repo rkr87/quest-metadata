@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "2.1.1",
+                "change_log": "bugfixes"
+            },
+            {
                 "version": "2.0.1",
                 "change_log": "Added and bugfixed a LOT of things. The revamp was kinda rushed so I wanted to make a new update that is not really rushed! Enjoy!"
             },
@@ -108,10 +112,6 @@
             {
                 "version": "1.0",
                 "change_log": "guess who fixed the game???\n\nME\n\nHOP ON YALL"
-            },
-            {
-                "version": "0.41",
-                "change_log": "less lag!"
             }
         ],
         "on_rookie": false,
@@ -122,30 +122,17 @@
         "language_update": 475081,
         "platform_update": 475081,
         "player_mode_update": 475081,
-        "changelog_update": 475441,
+        "changelog_update": 475489,
         "keyword_update": 475081,
         "tag_update": 475081,
         "rating_update": 475417,
         "iarc_detail_update": 475081,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475489,
         "category": "GAMES",
         "votes": 22,
         "rating": 4.636364,
         "weighted_rating": 4.2
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

@@ -60,7 +60,7 @@
             },
             {
                 "rating": 5,
-                "votes": 617
+                "votes": 619
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -83,6 +83,10 @@
             "logo_transparent": "38974824_2122746267890875_5834903129281007813_n.png"
         },
         "changelog": [
+            {
+                "version": "2024.0.4",
+                "change_log": "- Added Favella DLC\n- General Bug Fixes and Optimisations"
+            },
             {
                 "version": "2024.0.3",
                 "change_log": "Minimum age input on profile in data centre lowered to 10\nNew Acrobatic Strikers Set Play IAP added\nCan start playing a Set Play Training IAP from the locker room\nShot store tab added to the Set Play Pro Store UI (can buy sessions within the scene)\nMultiplayer leaderboard win percentage fixed\nLeave a review notification added"
@@ -138,10 +142,6 @@
             {
                 "version": "2022.2.6",
                 "change_log": "Minor Bug fixes and optimisations\nSet Play trajectories made more challenging across all goal sizes"
-            },
-            {
-                "version": "2022.1.1",
-                "change_log": "Hi Cleansheet Fans,\nThanks for being patient and want to ensure you that we are currently working on updates in line with our development roadmap. This is only a minor update of the game, which required significant development to completely rewrite our code to provide a solid foundation for the development of new future features.\n\n**Release Notes for v2022.1.1**\n-Complete code rewrite for ball trajectory generation to support future updates\n-Increased variability and classification of trajectories\n-Improved and refined AI scaling of trajectories at runtime for user size and arm reach\n-Can switch UI laser interaction on controllers to dominant hand with trigger\n-Bug squashing mainly around the Tutorial and game play.\n\nThe next phase of development (v2022.2.0) will:\n(1) introduce new difficulty levels to allow more experienced users to enter the game at a more challenging levels, \n(2) Addition of user facing global leaderboards to monitor your progress in world ranking. \n\nOnce this is completed we will shift to new features/game modes."
             }
         ],
         "on_rookie": true,
@@ -152,30 +152,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 475417,
+        "rating_update": 475489,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475417,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 721,
-        "rating": 4.74896,
+        "votes": 723,
+        "rating": 4.749654,
         "weighted_rating": 4.7
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

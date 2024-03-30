@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 431
+                "votes": 432
             },
             {
                 "rating": 2,
@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 3504
+                "votes": 3507
             },
             {
                 "rating": 5,
-                "votes": 30241
+                "votes": 30284
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "752.9",
+                "change_log": "Patch v752.9\n\nBug Fix:\n- Fixed an issue in Amateur difficulty, Physics V2 with Shot Shaper not equipped, where the in-round Course screen would sometimes show the incorrect club image and club distance."
+            },
             {
                 "version": "752.6",
                 "change_log": "Patch Update v752.6\n\n**Bug Fixes**\n- Random corrupt replay data in 'Battle' would cause a lockup and result in a Defeat.\n- Kiawah - Hole 4 - Bunkers were triggering OB.\n"
@@ -152,10 +156,6 @@
             {
                 "version": "739.1",
                 "change_log": "Patch Release v739.1\n\n- Fixed bug where the Season Ended UI would briefly flash when selecting Tournament Lobby\n- Fixed Tournament Leaderboard toggle bugs\n- Fixed 'Qualify/Not Qualify' screen issue for when there is no active tournament season resulting in players seeing a message they did not qualify even though they did.\n- Removed Qualifying Points from Playoff round end screens & lobbies\n- Environmental issues addressed on East Lake and Olympia Fields\n- Fixed an issue where Players encounter a blank screen when creating an MP game"
-            },
-            {
-                "version": "739.0",
-                "change_log": "New Update v739.0\n\n1. New Course - East Lake Golf Club\n2. ESPN+ Feature Hole Streaming - Go to media player and select ESPN+ to watch live coverage of the FedExCup Playoffs for the duration of the tournament.\n3. Updated out-of-bounds drop logic\n"
             }
         ],
         "on_rookie": false,
@@ -166,10 +166,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475417,
+        "changelog_update": 475489,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475465,
+        "rating_update": 475489,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -177,24 +177,11 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 475465,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 34733,
-        "rating": 4.812253,
+        "votes": 34780,
+        "rating": 4.812306,
         "weighted_rating": 4.8
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

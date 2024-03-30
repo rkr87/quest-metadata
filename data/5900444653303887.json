@@ -33,6 +33,7 @@
             "STANDING"
         ],
         "tags": [
+            "Trending",
             "Coming Soon",
             "Archery",
             "Melee Combat",
@@ -41,23 +42,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 2
+                "votes": 4
             },
             {
                 "rating": 2,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 5
             },
             {
                 "rating": 4,
-                "votes": 7
+                "votes": 22
             },
             {
                 "rating": 5,
-                "votes": 60
+                "votes": 134
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -94,8 +95,8 @@
         "player_mode_update": 475465,
         "changelog_update": 475465,
         "keyword_update": 475465,
-        "tag_update": 475465,
-        "rating_update": 475465,
+        "tag_update": 475489,
+        "rating_update": 475489,
         "iarc_detail_update": 475465,
         "keywords": [
             "survival",
@@ -104,24 +105,11 @@
             "adventure",
             "build"
         ],
-        "last_update": 475465,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 73,
-        "rating": 4.657534,
+        "votes": 168,
+        "rating": 4.660714,
         "weighted_rating": 4.5
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

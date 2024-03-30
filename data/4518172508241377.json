@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 107
+                "votes": 109
             },
             {
                 "rating": 5,
-                "votes": 1478
+                "votes": 1493
             }
         ],
         "comfort": "NOT_RATED",
@@ -89,6 +89,10 @@
             "logo_transparent": "38982613_1206937539873523_7070343685594707332_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.56033",
+                "change_log": "CL #56033"
+            },
             {
                 "version": "0.1.55622",
                 "change_log": "CL #55622"
@@ -164,10 +168,6 @@
             {
                 "version": "0.1.51876",
                 "change_log": "CL #51876"
-            },
-            {
-                "version": "0.1.51329",
-                "change_log": "CL #51329"
             }
         ],
         "on_rookie": false,
@@ -178,10 +178,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475225,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 475465,
+        "rating_update": 475489,
         "iarc_detail_update": 475000,
         "keywords": [
             "shooter",
@@ -190,24 +190,11 @@
             "scifi",
             "fps"
         ],
-        "last_update": 475465,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 1662,
-        "rating": 4.787004,
+        "votes": 1679,
+        "rating": 4.787969,
         "weighted_rating": 4.7
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

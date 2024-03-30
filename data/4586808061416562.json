@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.20.2",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.20.2\n\n## Bug Fixes\n\n- Fixed a bug that broke AI ideation and mindmapping function.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.20.1",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.20\n\n## Improvements\n\n- In controller mode, pressing the left controller menu button once will toggle the hand menu. Previously, the menu only displayed when the menu button was held down.\n- The positioning of the palm menu is higher up, for better usage ergonomics.\n- In controller mode, the cursor now has the same positioning logic as in tracked hand mode, making the selection of items higher up in the field view possible much more comfortable.\n\n## Bug Fixes\n\n- Fixed: Deleting a workspace was not updating the user’s global item count.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.08",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.08\n\n## Bug Fixes\n\n- Fixed issue that was causing audio echo when using speech-to-text.\n- Trying to use speech-to-text while offline will trigger a warning notification.\n- Speech-to-text feature now adds a leading space in front of transcribed text, and text is now correctly capitalized.\n- Virtual keyboard now properly deactivates if the browser is deactivated while typing in the browser URL field.\n\n## Improvements\n\n- Speech-to-text button is now in a more ergonomic position in the virtual keyboard.\n- Improved the visual design of the speech-to-text button.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.07",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.07\n\n## Improvements\n\n- Re-implemented the spatial cursor positioning algorithm for more ergonomic near-field (e.g. web browser) and far-field interactions.\n\n## Known Issues\n\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,30 +165,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475441,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475417,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475441,
+        "last_update": 475489,
         "category": "APPS",
         "votes": 58,
         "rating": 3.413793,
         "weighted_rating": 3.4
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

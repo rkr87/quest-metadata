@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 942
+                "votes": 943
             },
             {
                 "rating": 2,
-                "votes": 359
+                "votes": 360
             },
             {
                 "rating": 3,
-                "votes": 478
+                "votes": 479
             },
             {
                 "rating": 4,
-                "votes": 1194
+                "votes": 1196
             },
             {
                 "rating": 5,
-                "votes": 7411
+                "votes": 7424
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -84,6 +84,10 @@
             "logo_transparent": "38974830_2882344191909484_5232131403476596252_n.png"
         },
         "changelog": [
+            {
+                "version": "0.7.0.4869.24336",
+                "change_log": "build 0.7.0.4869.24336"
+            },
             {
                 "version": "0.7.0.4852.24255",
                 "change_log": "build 0.7.0.4852.24255"
@@ -159,10 +163,6 @@
             {
                 "version": "0.6.41.4062.20207",
                 "change_log": "build 0.6.41.4062.20207"
-            },
-            {
-                "version": "0.6.4.4055.20163",
-                "change_log": "build 0.6.4.4055.20163"
             }
         ],
         "on_rookie": false,
@@ -173,30 +173,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475465,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 475177,
-        "rating_update": 475465,
+        "rating_update": 475489,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475465,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 10384,
-        "rating": 4.326367,
+        "votes": 10402,
+        "rating": 4.326476,
         "weighted_rating": 4.3
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

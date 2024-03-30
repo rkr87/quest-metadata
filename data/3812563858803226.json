@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 80
+                "votes": 79
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "openxr_2.0.17",
+                "change_log": "Cannot exit games due to UI not opening, the second\nIssues that cause the player to spawn at the enemy team side\nSome undisclosed issues"
+            },
+            {
                 "version": "openxr_2.0.14",
                 "change_log": "fixed bhaptics\nother minor fixes"
             }
@@ -95,30 +99,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475369,
+        "rating_update": 475489,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475369,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 100,
-        "rating": 4.45,
+        "votes": 99,
+        "rating": 4.444444,
         "weighted_rating": 4.3
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

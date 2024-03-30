@@ -34,7 +34,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 60
+                "votes": 62
             },
             {
                 "rating": 2,
@@ -46,11 +46,11 @@
             },
             {
                 "rating": 4,
-                "votes": 38
+                "votes": 39
             },
             {
                 "rating": 5,
-                "votes": 213
+                "votes": 230
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,7 +81,11 @@
         "changelog": [
             {
                 "version": "2.92",
-                "change_log": "Bug fixes and improvements"
+                "change_log": "Fixes to voice in Stone Age"
+            },
+            {
+                "version": "2.92",
+                "change_log": "Stone Age:\n- numbers on blocks\n- hand tap sounds on different blocks\n- voice state screen fixes\n- added timeout to voice connection screen\n- fix speaker icon\n\nWingIt:\n- add 6 new wingit avatars\n\nAnimal City\n- also 6 new flying avatars\n- add dog avatar"
             },
             {
                 "version": "2.91",
@@ -154,10 +158,6 @@
             {
                 "version": "2.78",
                 "change_log": "Rem City Animals:\n- All WingIt avatars are now available\n\nGorilla Craft\n- Make creator panel in lobby visible for super admins\n\nStone Age\n- Fix bug where you fall to the bottom"
-            },
-            {
-                "version": "2.77",
-                "change_log": "Bug fixes and improvements"
             }
         ],
         "on_rookie": false,
@@ -168,30 +168,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475465,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 475177,
-        "rating_update": 475465,
+        "rating_update": 475489,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475465,
+        "last_update": 475489,
         "category": "GAMES",
-        "votes": 331,
-        "rating": 4.02719,
+        "votes": 351,
+        "rating": 4.05698,
         "weighted_rating": 4.0
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }

@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "0.5.1",
+                "change_log": "Added lying mode, the viewing angle can be adjusted freely, making watching movies more comfortable while lying down"
+            },
+            {
                 "version": "0.4.9",
                 "change_log": "1 Add 3D video picture automatic detection settings\n2 Optimize up and down scrolling interaction in files"
             },
@@ -142,30 +146,17 @@
         "language_update": 474817,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475417,
+        "changelog_update": 475489,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475297,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475417,
+        "last_update": 475489,
         "category": "APPS",
         "votes": 16,
         "rating": 3.8125,
         "weighted_rating": 3.7
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "c357d765190aec502f74a9278c5c669f"
-            ],
-            "path": [
-                "item",
-                "current_offer",
-                "buy_button_captions"
-            ]
-        }
-    ]
+    "errors": []
 }
