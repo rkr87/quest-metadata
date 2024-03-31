@@ -22,10 +22,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "ROOM_SCALE",
@@ -77,6 +77,10 @@
             "logo_transparent": "38974460_857389008533659_6624787335358529409_n.png"
         },
         "changelog": [
+            {
+                "version": "112",
+                "change_log": "v1.125b! PATCH! Resolves some issues around DLC doors not loading, restrcutured some door locations and added new optimisations"
+            },
             {
                 "version": "110",
                 "change_log": "v1.125a! UPDATE! New Scenes! New Lighting! New Features, New Fun!!"
@@ -152,10 +156,6 @@
             {
                 "version": "77",
                 "change_log": "v1.113b! PATCH! Fixed issue with VIP keyboard not appearing"
-            },
-            {
-                "version": "76",
-                "change_log": "v1.113a! UPDATE! New Club! THE ARENA! Mirror updated, new public home apartment and more!"
             }
         ],
         "on_rookie": false,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475514,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475417,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475417,
+        "last_update": 475514,
         "category": "ENTERTAINMENT",
         "votes": 79,
         "rating": 4.113924,
