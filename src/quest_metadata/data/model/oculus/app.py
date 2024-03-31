@@ -163,10 +163,10 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         Field(default=None, validation_alias='category', exclude=True)
     ]
     category_name: Annotated[str | None, Field(default=None, exclude=True)]
-    release_date: str = Field(
+    release_date: Annotated[str, Field(
         default="1980-01-01T00:00:00.000Z",
         validation_alias=AliasPath('release_info', 'display_date')
-    )
+    )]
     description: str = Field(validation_alias='display_long_description')
     # markdown: bool = Field(validation_alias='long_description_uses_markdown')
     developer: str = Field(validation_alias='developer_name')
@@ -497,7 +497,10 @@ class Item(BaseModel):  # pylint: disable=R0902,R0904
         Returns:
         - bool: True if the item is available, False otherwise.
         """
-        return self.price is not None
+        return (
+            self.price is not None and
+            datetime.fromisoformat(self.release_date[:-1]) <= datetime.now()
+        )
 
     # @computed_field  # type: ignore[misc]
     # @property
