@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.21",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.21\n\n## Improvements\n\n- At long last: we’ve implemented direct interactions! When UI elements are close enough to touch, you can reach out and press or pinch them to use. This feature does not yet work for starting to type on Topic titles or Text items; nor have direct drag interactions been implemented yet (e.g. scrolling browsers via direct touch does not yet work).\n- Although we strongly recommend that everyone use a physical or web keyboard with Softspace, we know that the virtual keyboard is an important fallback option for getting started or when another keyboard isn’t handy. The virtual keyboard has been redesigned and upgraded to reflect its continued importance as a text input method.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.20.2",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.20.2\n\n## Bug Fixes\n\n- Fixed a bug that broke AI ideation and mindmapping function.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.09",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.09\n\n## Improvements\n\n- Refreshed virtual keyboard design for improved visibility and key press reliability.\n- Virtual keyboard now continuously places itself in an ergonomic position relative to the user and the typing target, unless the user’s hands are detected nearby.\n- Improved virtual key collision detection to reduce failed key presses.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.08",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.08\n\n## Bug Fixes\n\n- Fixed issue that was causing audio echo when using speech-to-text.\n- Trying to use speech-to-text while offline will trigger a warning notification.\n- Speech-to-text feature now adds a leading space in front of transcribed text, and text is now correctly capitalized.\n- Virtual keyboard now properly deactivates if the browser is deactivated while typing in the browser URL field.\n\n## Improvements\n\n- Speech-to-text button is now in a more ergonomic position in the virtual keyboard.\n- Improved the visual design of the speech-to-text button.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475489,
+        "changelog_update": 475537,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475521,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475521,
+        "last_update": 475537,
         "category": "APPS",
         "votes": 59,
         "rating": 3.423729,
