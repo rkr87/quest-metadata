@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 132
+                "votes": 135
             },
             {
                 "rating": 2,
@@ -47,11 +47,11 @@
             },
             {
                 "rating": 4,
-                "votes": 277
+                "votes": 278
             },
             {
                 "rating": 5,
-                "votes": 4902
+                "votes": 4934
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,14 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.42.8",
+                "change_log": "- Santa reached out to me, expressing a rather urgent concern that Christmas might be at risk of cancellation should I not revert the textures to their original state. It seems that their calendar is uniquely tailored to count only the days leading up to Christmas, leaving them oblivious to the concept of April Fools' Day. Considering the gravity of the situation, I concluded that heeding Santa's advice would be the wisest course of action."
+            },
+            {
+                "version": "0.42.7",
+                "change_log": "- Fixed a crash that could happen when reporting a level.\n- Changed the color block texture to be more neutral."
+            },
             {
                 "version": "0.42.6",
                 "change_log": "- After a lot of careful consideration I decided that it's best to switch back to the old textures."
@@ -147,14 +155,6 @@
             {
                 "version": "0.40.4",
                 "change_log": "- Improved automatic no leg mode detection (it should be much less aggressive now).\n- Fixed moving yourself into a no legs mode area while holding on with both hands losing all your momentum.\n- Fixed pushing off with one hand while grappling with the other not giving any momentum from the push.\n- Fixed checkpoints not working in no legs mode.\n- Fixed checkpoint count on the watch when verifying levels."
-            },
-            {
-                "version": "0.40.3",
-                "change_log": "- Fixed a bug that could cause gravity zones and invisible blocks to stay around after leaving the editor.\n- Fixed jumping off rotating animated blocks.\n- Improved automatic fling mode detection."
-            },
-            {
-                "version": "0.40.2",
-                "change_log": "- PLEASE UPDATE YOUR LEVELS THAT RELY ON THE PLAYER BEING INSIDE OF BLOCKS! These glitches will stop working soon. Use the new gravity block with \"no legs\" mode.\n- Levels using the old fling glitch with the same block around the start and finish are now automatically getting updated to use a gravity zone instead.\n- Changed sliding physics for \"no legs\" mode to better match the behavior of the old glitch.\n- Fixed bug with jumping in no legs mode accumulating endless speed.\n- Fixed group and lock buttons sometimes not working.\n- Fixed object getting created while changing the snapping sliders.\n- Fixed objects moving when cloning (again).\n- Fixed a crash that could happen if preview image data is corrupted.\n- Fixed grapple getting attached to the wrong surface if inside another block and one of them is animated.\n- Locked players can no longer undo and redo in the editor.\n- Fixed objects in the editor losing their collision when kicking or locking someone while they are moving something around."
             }
         ],
         "on_rookie": false,
@@ -165,16 +165,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475537,
+        "changelog_update": 475561,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475537,
+        "rating_update": 475561,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475537,
+        "last_update": 475561,
         "category": "GAMES",
-        "votes": 5391,
-        "rating": 4.814506,
+        "votes": 5427,
+        "rating": 4.813341,
         "weighted_rating": 4.8
     },
     "errors": []
