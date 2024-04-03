@@ -30,7 +30,9 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest 3"
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -61,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 90
+                "votes": 92
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,28 +88,33 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75250459_563864705923531_7856984011782124507_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.20",
+                "change_log": "More reliable pointer\nWhen using the build menu, you always had the option to grab the buildings directly with your hand or with the pointer ray. This pointer had some issues that made it a much less reliable tool. Buildings in the build menu rotated faster when you point anywhere on the panel. Now they only rotate faster when you directly point at them to indicate you can now grab them. We also fixed issues that prevented you from picking up construction sites directly after being placed on the ground. This should make readjusting the position and rotation much easier.\n \nShow new buildings\nWhen new buildings are unlocked during tutorials, they are now not just highlighted with a glow effect in the build menu, the build menu now also actively scrolls to the new item. This should help new players who might not have found out yet that there are more than the initial 3 buildings per category to choose from.\n \nBugfixes\n\nAchievement Fixes\n- Fixed issues with achievement Chicken Shaker unlocking too early.\n- Refined progress tracking for achievement Artisan Builder.\n- Fixed issue with achievement Treasure Hunter not being tracked after save & load.\n \nShip fixes\n- Fixed ship navigation issues, optimized ship routes and improved ship landing behavior.\n- Fixed lost trade goods on returning trading ship after loading.\n \nAI fixes\n- Improved movement of ranged units.\n- Made thieves return to enemy base after stealing in Sandbox mode.\n- Fixed missing thief spearmen on Fort Haven (Campaign + Sandbox), Smuggler's Cove, Volcano Island (Campaign + Sandbox).\n- Changed color for thieves back to yellow.\n \nIsland fixes\n- Added highlight to fishing spot on Solitary Island.\n- Unblocked some spots for building placement - especially Volcano Island.\n- Balanced timing of lava streams.\n \nGeneral fixes\n- Fixed highlights on player-interactable objects and made the interactions more robust.\n- Fixed clouds drifting away from play area.\n- Added fallback to english for officially unsupported languages.\n- Fixed an issue where the \"thin chicken\" wasn't ever spawned from the henhouse."
+            }
+        ],
         "on_rookie": false,
         "general_update": 475369,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 474685,
+        "platform_update": 475585,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475585,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475561,
+        "rating_update": 475585,
         "iarc_detail_update": 475000,
         "keywords": [
             "build",
             "simulator"
         ],
-        "last_update": 475561,
+        "last_update": 475585,
         "category": "GAMES",
-        "votes": 117,
-        "rating": 4.487179,
+        "votes": 119,
+        "rating": 4.495798,
         "weighted_rating": 4.4
     },
     "errors": []

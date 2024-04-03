@@ -77,6 +77,14 @@
         },
         "changelog": [
             {
+                "version": "2024.22",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.22\n\n## Improvements\n\n- Introducing: Softspace subscription plans. Softspace Personal is for everyday productivity and creativity. Softspace Pro is for professional research and ideation. Each is available monthlyor annually.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
+                "version": "2024.21.1",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.21.1\n\n## Bug Fixes\n\n- Fixed a bug that was causing browser popup windows to instantiate at the position of the user's head, instead in front.\n\n## Improvements\n\n- At long last: we’ve implemented direct interactions! When UI elements are close enough to touch, you can reach out and press or pinch them to use. This feature does not yet work for starting to type on Topic titles or Text items; nor have direct drag interactions been implemented yet (e.g. scrolling browsers via direct touch does not yet work).\n- Although we strongly recommend that everyone use a physical or web keyboard with Softspace, we know that the virtual keyboard is an important fallback option for getting started or when another keyboard isn’t handy. The virtual keyboard has been redesigned and upgraded to reflect its continued importance as a text input method.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.21",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.21\n\n## Improvements\n\n- At long last: we’ve implemented direct interactions! When UI elements are close enough to touch, you can reach out and press or pinch them to use. This feature does not yet work for starting to type on Topic titles or Text items; nor have direct drag interactions been implemented yet (e.g. scrolling browsers via direct touch does not yet work).\n- Although we strongly recommend that everyone use a physical or web keyboard with Softspace, we know that the virtual keyboard is an important fallback option for getting started or when another keyboard isn’t handy. The virtual keyboard has been redesigned and upgraded to reflect its continued importance as a text input method.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -147,14 +155,6 @@
             {
                 "version": "2024.11",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.11\n\n## Bug Fixes\n\n- Fixed a bug that would cause expanded topics to display the incorrect backing size when the title was edited.\n- Fixed a bug that could cause multiple items to be typed on at the same time.\n- Reverted a setting that was preventing popup-style links (e.g. links out from the Gmail web app) from loading.\n- Fixed issue that was causing newly-selected text fields on websites to stop being selected, preventing the user from typing in them.\n\n## Improvements\n\n- Reduced the pixel density of rendered web content to improve browsing performance and avoid periods of dropped frames.\n- Reduced animations in topic items and their children to make typing more responsive.\n- The entire topic backing is now clickable, which will trigger typing.\n- Arrow keys can now be used to move the typing caret from a topic header to body text and back, reducing friction of text editing.\n- Reduced accidental inputs from tracked hands while typing.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.10",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.10\n\n## Bug Fixes\n\n- Previous update broke website bookmarks. This update implemented a new design for website bookmarks with more metadata and better legibility.\n- AI queries were being created in a collapsed state, hiding their contents. Queries are now created in an expanded state.\n\n## Improvements\n\n- Browser URL field now immediately updates when navigating to new page.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.09",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.09\n\n## Improvements\n\n- Refreshed virtual keyboard design for improved visibility and key press reliability.\n- Virtual keyboard now continuously places itself in an ergonomic position relative to the user and the typing target, unless the user’s hands are detected nearby.\n- Improved virtual key collision detection to reduce failed key presses.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Initial loading of images (e.g. saved from web, from Dropbox) can cause frame drops.\n- Workspaces with large numbers of content items can cause low framerates.\n- Images load in one at a time, so large numbers of images can take a while to load.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475537,
+        "changelog_update": 475585,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475521,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475537,
+        "last_update": 475585,
         "category": "APPS",
         "votes": 59,
         "rating": 3.423729,
