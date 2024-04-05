@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-03-28T00:41:43.492963",
+    "timestamp": "2024-04-05T00:42:47.110809",
     "errors_logged": [
         {
             "context": "Validating http response",
@@ -46,53 +46,6 @@
                     ]
                 ],
                 "id": "5566359733474911"
-            }
-        },
-        {
-            "context": "Validating http response",
-            "error_type": "ValidationError",
-            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
-            "log_message": "Captured model validation error: OculusApp",
-            "error_information": {
-                "data": {
-                    "data": {
-                        "item": null,
-                        "viewer": {
-                            "user": null,
-                            "family_info": {
-                                "members": {
-                                    "nodes": []
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "context": "Scraping app data",
-            "error_type": "ValidationError",
-            "error_message": null,
-            "log_message": "No responses for: 1732459530190629",
-            "error_information": {
-                "package": [
-                    [
-                        "com.zenva.sky",
-                        {
-                            "app_name": "Zenva Sky",
-                            "has_metadata": false,
-                            "is_available": false,
-                            "is_free": false,
-                            "id": "1732459530190629",
-                            "max_version": 0,
-                            "max_version_date": 0,
-                            "rookie_releases": [],
-                            "is_demo": false,
-                            "on_rookie": false
-                        }
-                    ]
-                ],
-                "id": "1732459530190629"
             }
         },
         {
@@ -167,6 +120,53 @@
             "context": "Scraping app data",
             "error_type": "ValidationError",
             "error_message": null,
+            "log_message": "No responses for: 1732459530190629",
+            "error_information": {
+                "package": [
+                    [
+                        "com.zenva.sky",
+                        {
+                            "app_name": "Zenva Sky",
+                            "has_metadata": false,
+                            "is_available": false,
+                            "is_free": false,
+                            "id": "1732459530190629",
+                            "max_version": 0,
+                            "max_version_date": 0,
+                            "rookie_releases": [],
+                            "is_demo": false,
+                            "on_rookie": false
+                        }
+                    ]
+                ],
+                "id": "1732459530190629"
+            }
+        },
+        {
+            "context": "Validating http response",
+            "error_type": "ValidationError",
+            "error_message": "1 validation error for OculusApp\ndata.item\n  Input should be a valid dictionary or instance of Item [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
+            "log_message": "Captured model validation error: OculusApp",
+            "error_information": {
+                "data": {
+                    "data": {
+                        "item": null,
+                        "viewer": {
+                            "user": null,
+                            "family_info": {
+                                "members": {
+                                    "nodes": []
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "context": "Scraping app data",
+            "error_type": "ValidationError",
+            "error_message": null,
             "log_message": "No responses for: 1599493453504097",
             "error_information": {
                 "package": [
@@ -188,13 +188,6 @@
                 ],
                 "id": "1599493453504097"
             }
-        },
-        {
-            "context": "Parsing app release date",
-            "error_type": "ValueError",
-            "error_message": null,
-            "log_message": "Unable to parse date: Spring 2024",
-            "error_information": {}
         },
         {
             "context": "Validating http response",
@@ -416,7 +409,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/75617318_428148439643292_1231802522423642609_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0NA8sf8OtogAX84RcI3&_nc_ht=scontent.oculuscdn.com&oh=00_AfAvlohDyc6i8rJHSjC7uUwf06tKa6qJkaezsKPE6bJZrA&oe=66096CA2"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/75617318_428148439643292_1231802522423642609_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=AODC0Dfte_gAb4j5a8W&_nc_ht=scontent.oculuscdn.com&oh=00_AfBczm6odKevsojb5rJygixLL5gKTSpAuMj6JK1w8-q39w&oe=661511E2"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -1083,7 +1076,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974716_922021222453689_5207926656415222438_n.png?stp=dst-png_s360x360&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1hU6iv21na0AX8wALms&_nc_ht=scontent.oculuscdn.com&oh=00_AfAaFIwYdOkZ_h7iuGspzlQDr8XuK4SKn0lHVcPVfob8Gg&oe=660A38D9"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974716_922021222453689_5207926656415222438_n.png?stp=dst-png_s360x360&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=gLW9HtgBqr0Ab7B0aI-&_nc_ht=scontent.oculuscdn.com&oh=00_AfBmL6BIHMivRewP4Cc7DaXGbR8zNE_KO95Qnho8Cq5FgQ&oe=66153559"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -1722,7 +1715,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/39031628_265777171006007_5401338733872021504_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=pgKYdNKtMJEAX91sCuU&_nc_ht=scontent.oculuscdn.com&oh=00_AfD0-Twrf08kL5bCKa8mrzJH5aI0LThLLWmPDM-fGtwAow&oe=660A75F8"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/39031628_265777171006007_5401338733872021504_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1aK17k8431MAb71NNLU&_nc_ht=scontent.oculuscdn.com&oh=00_AfCi50fQVdpHyLvhVsImAwI3CvQSC2hNt4z62ZCgiOQTMw&oe=661501F8"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -2295,7 +2288,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Lxhbi6ucb9QAX_pineX&_nc_ht=scontent.oculuscdn.com&oh=00_AfDC3WBIFhdFUOECX4m5QxYAevFkV4PYOPAn1oel18eupQ&oe=66095205"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/43931330_1020813392263466_7693357784189002958_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BZ1N-6X4hiUAb5s0RvW&_nc_ht=scontent.oculuscdn.com&oh=00_AfDljpTP52Dek2nw_oGB46ev37ItpIErzxbIu0XTTT2Viw&oe=66152F85"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -2720,7 +2713,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974746_3621311184766540_3477533808660916196_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Yuxg5jnDQ0QAX-52zUR&_nc_ht=scontent.oculuscdn.com&oh=00_AfD4nVdYNt79T1hdcKULizEkmujeSYey2-WSzSDbL2fY2A&oe=660AA167"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38974746_3621311184766540_3477533808660916196_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=29_dPw3dnnsAb5O-5S2&_nc_ht=scontent.oculuscdn.com&oh=00_AfDg5ZPrGTM8TAAZJI5H4ojf6dk8UsdfSYvbtmkBnoVLKQ&oe=66152D67"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -3232,588 +3225,6 @@
                     "data": {
                         "node": {
                             "__typename": "Application",
-                            "id": "24081432281447894",
-                            "organization": null,
-                            "user_interaction_modes": [
-                                "SINGLE_USER"
-                            ],
-                            "is_quest_for_business": false,
-                            "grouping": {
-                                "id": "870300791128472",
-                                "report_method": "E2E"
-                            },
-                            "firstRevision": {
-                                "nodes": [
-                                    {
-                                        "binary_with_fallback": null,
-                                        "created_date": 1707903209,
-                                        "id": "25264102919847485",
-                                        "is_initial_release": false,
-                                        "name_with_fallback": "v2",
-                                        "pdp_metadata_with_fallback": null,
-                                        "reviewable_offer_group_with_fallback": {
-                                            "id": "1070993027424771",
-                                            "worldwide_offer": {
-                                                "__typename": "AppStoreOffer",
-                                                "price": {
-                                                    "formatted_for_lwi": "$19.99"
-                                                },
-                                                "id": "297431139813362"
-                                            },
-                                            "release_status": "SCHEDULED",
-                                            "review_status": "APPROVED"
-                                        },
-                                        "release_date": 1711929540,
-                                        "is_first": false,
-                                        "status": "APPROVED",
-                                        "release_status": "SCHEDULED",
-                                        "release_type": "SCHEDULED",
-                                        "application": {
-                                            "release_date": null,
-                                            "preorder_offers": {
-                                                "nodes": []
-                                            },
-                                            "id": "24081432281447894",
-                                            "liveChannel": {
-                                                "nodes": [
-                                                    {
-                                                        "latest_supported_binary": {
-                                                            "__typename": "AndroidBinary",
-                                                            "binary_test_results": {
-                                                                "nodes": []
-                                                            },
-                                                            "id": "25568044499453324"
-                                                        },
-                                                        "id": "1048383669866233"
-                                                    }
-                                                ]
-                                            }
-                                        },
-                                        "binary": null,
-                                        "pdp_metadata": null,
-                                        "review_messages": [
-                                            ""
-                                        ]
-                                    }
-                                ]
-                            },
-                            "is_concept": true,
-                            "is_blocked_by_verification": false,
-                            "latest_released_offer_group": {
-                                "id": "1070993027424771"
-                            },
-                            "release_date": null,
-                            "release_status": "SCHEDULED",
-                            "revisions": {
-                                "nodes": [
-                                    {
-                                        "reviewable_offer_group_with_fallback": {
-                                            "coming_soon_offer": null,
-                                            "id": "1070993027424771"
-                                        },
-                                        "id": "25264102919847485"
-                                    },
-                                    {
-                                        "reviewable_offer_group_with_fallback": {
-                                            "coming_soon_offer": null,
-                                            "id": "1070993027424771"
-                                        },
-                                        "id": "24081432321447890"
-                                    }
-                                ]
-                            },
-                            "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/75250452_1835088690306504_1093995130398325465_n.png?stp=dst-png_s360x360&_nc_cat=111&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=uQk6hu_vhZsAX87pu_B&_nc_ht=scontent.oculuscdn.com&oh=00_AfAlc2TgaYavb2-POLkwBhfGHDODy42mkbtry-dClYsZfA&oe=660A5A05"
-                            },
-                            "is_test": false,
-                            "is_trial_offer_valid": false,
-                            "display_name": "Hyperuranium",
-                            "platform": "ANDROID_6DOF",
-                            "context_category": {
-                                "context_category": "GAMES",
-                                "id": "2743326035925534"
-                            },
-                            "context_topics": [
-                                {
-                                    "topic_name": "Fighting",
-                                    "id": "2710427532541308"
-                                },
-                                {
-                                    "topic_name": "Action",
-                                    "id": "459781504968480"
-                                },
-                                {
-                                    "topic_name": "Flying",
-                                    "id": "388572352490011"
-                                }
-                            ],
-                            "lastRevision": {
-                                "nodes": [
-                                    {
-                                        "id": "24081432321447890",
-                                        "release_type": "SCHEDULED",
-                                        "application": {
-                                            "release_date": null,
-                                            "preorder_offers": {
-                                                "nodes": []
-                                            },
-                                            "id": "24081432281447894"
-                                        },
-                                        "binary": {
-                                            "__typename": "AndroidBinary",
-                                            "__isAppBinary": "AndroidBinary",
-                                            "binary_application": {
-                                                "__typename": "Application",
-                                                "id": "24081432281447894",
-                                                "is_concept": true,
-                                                "latest_released_binaries": [
-                                                    {
-                                                        "__typename": "AndroidBinary",
-                                                        "id": "25568044499453324"
-                                                    }
-                                                ],
-                                                "release_status": "SCHEDULED",
-                                                "is_blocked_by_verification": false
-                                            },
-                                            "id": "25059434106981035",
-                                            "version": "0.5.0",
-                                            "version_code": 5,
-                                            "release_status": "SCHEDULED",
-                                            "status": "APPROVED",
-                                            "is_pre_download_enabled": false
-                                        },
-                                        "is_initial_release": true,
-                                        "release_date": 1711929480,
-                                        "pdp_metadata": null,
-                                        "status": "APPROVED"
-                                    }
-                                ]
-                            },
-                            "scheduled_offers": {
-                                "count": 1,
-                                "nodes": [
-                                    {
-                                        "status": "PUBLISHED",
-                                        "id": "297431139813362"
-                                    }
-                                ]
-                            },
-                            "baseline_offer": null,
-                            "is_approved": true,
-                            "firstOffer": {
-                                "nodes": [
-                                    {
-                                        "start_time": 1711929480,
-                                        "status": "PUBLISHED",
-                                        "id": "297431139813362"
-                                    }
-                                ]
-                            },
-                            "liveChannel": {
-                                "nodes": [
-                                    {
-                                        "latest_supported_binary": {
-                                            "__typename": "AndroidBinary",
-                                            "binary_test_results": {
-                                                "nodes": []
-                                            },
-                                            "id": "25568044499453324",
-                                            "version": "1.0.0"
-                                        },
-                                        "id": "1048383669866233",
-                                        "channel_name": "LIVE"
-                                    }
-                                ]
-                            },
-                            "is_for_oculus_keys_only": false,
-                            "revisionsIncludingVariantMetadataRevisions": {
-                                "nodes": [
-                                    {
-                                        "pdp_metadata": null,
-                                        "status": "APPROVED",
-                                        "release_status": "SCHEDULED",
-                                        "id": "25264102919847485"
-                                    },
-                                    {
-                                        "pdp_metadata": null,
-                                        "status": "APPROVED",
-                                        "release_status": "SCHEDULED",
-                                        "id": "24081432321447890"
-                                    }
-                                ]
-                            },
-                            "variant_experiments": {
-                                "nodes": []
-                            },
-                            "running_experiment_type": null,
-                            "primary_binaries": {
-                                "nodes": [
-                                    {
-                                        "__typename": "AndroidBinary",
-                                        "__isAppBinary": "AndroidBinary",
-                                        "attestations": {
-                                            "__typename": "AndroidBinaryAttestationsConnection",
-                                            "nodes": []
-                                        },
-                                        "binary_application": {
-                                            "__typename": "Application",
-                                            "id": "24081432281447894",
-                                            "is_device_targeting_enabled": true,
-                                            "is_concept": true,
-                                            "latest_released_binaries": [
-                                                {
-                                                    "__typename": "AndroidBinary",
-                                                    "id": "25568044499453324"
-                                                }
-                                            ],
-                                            "release_status": "SCHEDULED",
-                                            "is_blocked_by_verification": false
-                                        },
-                                        "binary_release_channels": {
-                                            "nodes": [
-                                                {
-                                                    "channel_name": "LIVE",
-                                                    "id": "1048383669866233"
-                                                }
-                                            ]
-                                        },
-                                        "change_log": "",
-                                        "created_date": 1711476989,
-                                        "id": "25568044499453324",
-                                        "size": "828469862",
-                                        "targetable_devices_lock_info": [
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            }
-                                        ],
-                                        "targeted_devices": [
-                                            "HOLLYWOOD",
-                                            "SEACLIFF",
-                                            "EUREKA",
-                                            "FUTURE_DEVICES"
-                                        ],
-                                        "version": "1.0.0",
-                                        "version_code": 51,
-                                        "release_status": "RELEASED",
-                                        "status": "APPROVED",
-                                        "binary_test_results": {
-                                            "nodes": []
-                                        },
-                                        "obb_binary": null,
-                                        "asset_files": {
-                                            "count": 0
-                                        },
-                                        "debug_symbols": {
-                                            "count": 0
-                                        },
-                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
-                                    },
-                                    {
-                                        "__typename": "AndroidBinary",
-                                        "__isAppBinary": "AndroidBinary",
-                                        "attestations": {
-                                            "__typename": "AndroidBinaryAttestationsConnection",
-                                            "nodes": []
-                                        },
-                                        "binary_application": {
-                                            "__typename": "Application",
-                                            "id": "24081432281447894",
-                                            "is_device_targeting_enabled": true,
-                                            "is_concept": true,
-                                            "latest_released_binaries": [
-                                                {
-                                                    "__typename": "AndroidBinary",
-                                                    "id": "25568044499453324"
-                                                }
-                                            ],
-                                            "release_status": "SCHEDULED",
-                                            "is_blocked_by_verification": false
-                                        },
-                                        "binary_release_channels": {
-                                            "nodes": []
-                                        },
-                                        "change_log": null,
-                                        "created_date": 1711476279,
-                                        "id": "25567987906125650",
-                                        "size": "828469850",
-                                        "targetable_devices_lock_info": [
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            }
-                                        ],
-                                        "targeted_devices": [
-                                            "HOLLYWOOD",
-                                            "SEACLIFF",
-                                            "EUREKA",
-                                            "FUTURE_DEVICES"
-                                        ],
-                                        "version": "1.0.0",
-                                        "version_code": 50,
-                                        "release_status": "RELEASED",
-                                        "status": "APPROVED",
-                                        "binary_test_results": {
-                                            "nodes": []
-                                        },
-                                        "obb_binary": null,
-                                        "asset_files": {
-                                            "count": 0
-                                        },
-                                        "debug_symbols": {
-                                            "count": 0
-                                        },
-                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
-                                    },
-                                    {
-                                        "__typename": "AndroidBinary",
-                                        "__isAppBinary": "AndroidBinary",
-                                        "attestations": {
-                                            "__typename": "AndroidBinaryAttestationsConnection",
-                                            "nodes": []
-                                        },
-                                        "binary_application": {
-                                            "__typename": "Application",
-                                            "id": "24081432281447894",
-                                            "is_device_targeting_enabled": true,
-                                            "is_concept": true,
-                                            "latest_released_binaries": [
-                                                {
-                                                    "__typename": "AndroidBinary",
-                                                    "id": "25568044499453324"
-                                                }
-                                            ],
-                                            "release_status": "SCHEDULED",
-                                            "is_blocked_by_verification": false
-                                        },
-                                        "binary_release_channels": {
-                                            "nodes": []
-                                        },
-                                        "change_log": null,
-                                        "created_date": 1711472147,
-                                        "id": "25567623019495472",
-                                        "size": "828622554",
-                                        "targetable_devices_lock_info": [
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            }
-                                        ],
-                                        "targeted_devices": [
-                                            "HOLLYWOOD",
-                                            "SEACLIFF",
-                                            "EUREKA",
-                                            "FUTURE_DEVICES"
-                                        ],
-                                        "version": "0.7.0",
-                                        "version_code": 24,
-                                        "release_status": "RELEASED",
-                                        "status": "APPROVED",
-                                        "binary_test_results": {
-                                            "nodes": []
-                                        },
-                                        "obb_binary": null,
-                                        "asset_files": {
-                                            "count": 0
-                                        },
-                                        "debug_symbols": {
-                                            "count": 0
-                                        },
-                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
-                                    },
-                                    {
-                                        "__typename": "AndroidBinary",
-                                        "__isAppBinary": "AndroidBinary",
-                                        "attestations": {
-                                            "__typename": "AndroidBinaryAttestationsConnection",
-                                            "nodes": []
-                                        },
-                                        "binary_application": {
-                                            "__typename": "Application",
-                                            "id": "24081432281447894",
-                                            "is_device_targeting_enabled": true,
-                                            "is_concept": true,
-                                            "latest_released_binaries": [
-                                                {
-                                                    "__typename": "AndroidBinary",
-                                                    "id": "25568044499453324"
-                                                }
-                                            ],
-                                            "release_status": "SCHEDULED",
-                                            "is_blocked_by_verification": false
-                                        },
-                                        "binary_release_channels": {
-                                            "nodes": [
-                                                {
-                                                    "channel_name": "LIVE",
-                                                    "id": "1048383669866233"
-                                                }
-                                            ]
-                                        },
-                                        "change_log": "",
-                                        "created_date": 1709311387,
-                                        "id": "25389104247347351",
-                                        "size": "825521450",
-                                        "targetable_devices_lock_info": [
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            }
-                                        ],
-                                        "targeted_devices": [
-                                            "HOLLYWOOD",
-                                            "SEACLIFF",
-                                            "EUREKA",
-                                            "FUTURE_DEVICES"
-                                        ],
-                                        "version": "0.7.0",
-                                        "version_code": 27,
-                                        "release_status": "RELEASED",
-                                        "status": "APPROVED",
-                                        "binary_test_results": {
-                                            "nodes": []
-                                        },
-                                        "obb_binary": null,
-                                        "asset_files": {
-                                            "count": 0
-                                        },
-                                        "debug_symbols": {
-                                            "count": 0
-                                        },
-                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
-                                    },
-                                    {
-                                        "__typename": "AndroidBinary",
-                                        "__isAppBinary": "AndroidBinary",
-                                        "attestations": {
-                                            "__typename": "AndroidBinaryAttestationsConnection",
-                                            "nodes": []
-                                        },
-                                        "binary_application": {
-                                            "__typename": "Application",
-                                            "id": "24081432281447894",
-                                            "is_device_targeting_enabled": true,
-                                            "is_concept": true,
-                                            "latest_released_binaries": [
-                                                {
-                                                    "__typename": "AndroidBinary",
-                                                    "id": "25568044499453324"
-                                                }
-                                            ],
-                                            "release_status": "SCHEDULED",
-                                            "is_blocked_by_verification": false
-                                        },
-                                        "binary_release_channels": {
-                                            "nodes": []
-                                        },
-                                        "change_log": null,
-                                        "created_date": 1709310033,
-                                        "id": "25388975830693526",
-                                        "size": "825520710",
-                                        "targetable_devices_lock_info": [
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            },
-                                            {
-                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
-                                            }
-                                        ],
-                                        "targeted_devices": [
-                                            "HOLLYWOOD",
-                                            "SEACLIFF",
-                                            "EUREKA",
-                                            "FUTURE_DEVICES"
-                                        ],
-                                        "version": "0.7.0",
-                                        "version_code": 25,
-                                        "release_status": "RELEASED",
-                                        "status": "APPROVED",
-                                        "binary_test_results": {
-                                            "nodes": []
-                                        },
-                                        "obb_binary": null,
-                                        "asset_files": {
-                                            "count": 0
-                                        },
-                                        "debug_symbols": {
-                                            "count": 0
-                                        },
-                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
-                                    }
-                                ]
-                            },
-                            "requires_audience_attestation": true
-                        },
-                        "viewer": {
-                            "user": null
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "context": "Validating http response",
-            "error_type": "ValidationError",
-            "error_message": "1 validation error for AppAdditionalDetails\n  Input should be a valid dictionary or instance of AppAdditionalDetails [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
-            "log_message": "Captured model validation error: AppAdditionalDetails",
-            "error_information": {
-                "data": {
-                    "data": {
-                        "node": {
-                            "__typename": "Application",
                             "id": "5859919914064843",
                             "organization": null,
                             "user_interaction_modes": [
@@ -3920,7 +3331,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38984463_880416836369423_3311544445829331550_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=c9w40UQW1KsAX-KUvtl&_nc_ht=scontent.oculuscdn.com&oh=00_AfCKuzCH2AGIGjRS9q-o7EKFqxAZv0kBUJheDaGvsviUow&oe=6609616B"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/38984463_880416836369423_3311544445829331550_n.png?stp=dst-png_s360x360&_nc_cat=106&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UtUuPsXPv2QAb7cWjNu&_nc_ht=scontent.oculuscdn.com&oh=00_AfBR_xrt9dw-dSNXdCxRMpawF24HjW61zRu83AYlFzi6BA&oe=661506AB"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -4494,7 +3905,7 @@
                                 ]
                             },
                             "cover_square_image": {
-                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/39003237_771082107802033_3110351989180239290_n.png?stp=dst-png_s360x360&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=XQRbjWNBma4AX8gFuw0&_nc_ht=scontent.oculuscdn.com&oh=00_AfAeP8E5erCIzo3oF-bYrPt6t5UN5cGbisSD89izP8Q10Q&oe=660AA296"
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/39003237_771082107802033_3110351989180239290_n.png?stp=dst-png_s360x360&_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=elv9ob6pPhAAb7ryVTI&_nc_ht=scontent.oculuscdn.com&oh=00_AfCDVTmih-J5njpZ8G0HpGKsnNqUZbATS49mRsIhPseOHQ&oe=66152E96"
                             },
                             "is_test": false,
                             "is_trial_offer_valid": false,
@@ -5025,6 +4436,783 @@
                             ]
                         }
                     ]
+                }
+            }
+        },
+        {
+            "context": "Validating http response",
+            "error_type": "ValidationError",
+            "error_message": "1 validation error for AppAdditionalDetails\n  Input should be a valid dictionary or instance of AppAdditionalDetails [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
+            "log_message": "Captured model validation error: AppAdditionalDetails",
+            "error_information": {
+                "data": {
+                    "data": {
+                        "node": {
+                            "__typename": "Application",
+                            "id": "969518263094532",
+                            "organization": {
+                                "id": "1054757497892331",
+                                "viewer_permissions": [],
+                                "application_groupings": {
+                                    "nodes": [
+                                        {
+                                            "viewer_has_update_access": false,
+                                            "full_applications": {
+                                                "nodes": [
+                                                    {
+                                                        "id": "969518263094532"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "736366279833263"
+                                        }
+                                    ]
+                                }
+                            },
+                            "user_interaction_modes": [
+                                "SINGLE_USER"
+                            ],
+                            "is_quest_for_business": false,
+                            "grouping": {
+                                "id": "736366279833263",
+                                "report_method": "PLATFORM"
+                            },
+                            "firstRevision": {
+                                "nodes": [
+                                    {
+                                        "binary_with_fallback": {
+                                            "__typename": "AndroidBinary",
+                                            "__isAppBinary": "AndroidBinary",
+                                            "binary_application": {
+                                                "__typename": "Application",
+                                                "id": "969518263094532",
+                                                "is_concept": false,
+                                                "latest_released_binaries": [
+                                                    {
+                                                        "__typename": "AndroidBinary",
+                                                        "id": "973153939417137"
+                                                    }
+                                                ],
+                                                "release_status": "RELEASED",
+                                                "is_blocked_by_verification": false
+                                            },
+                                            "id": "973153939417137",
+                                            "version": "1.1",
+                                            "version_code": 2,
+                                            "release_status": "RELEASED",
+                                            "status": "APPROVED"
+                                        },
+                                        "created_date": 1447960580,
+                                        "id": "1080034608697953",
+                                        "is_initial_release": false,
+                                        "name_with_fallback": "v4",
+                                        "pdp_metadata_with_fallback": null,
+                                        "reviewable_offer_group_with_fallback": {
+                                            "id": "724115622848962",
+                                            "worldwide_offer": {
+                                                "__typename": "AppStoreOffer",
+                                                "price": {
+                                                    "formatted_for_lwi": "$0.00"
+                                                },
+                                                "id": "965674893474501"
+                                            },
+                                            "release_status": "RELEASED",
+                                            "review_status": "APPROVED"
+                                        },
+                                        "release_date": 1701290107,
+                                        "is_first": false,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "release_type": "ON_APPROVAL",
+                                        "application": {
+                                            "release_date": 1442905200,
+                                            "preorder_offers": {
+                                                "nodes": []
+                                            },
+                                            "id": "969518263094532",
+                                            "liveChannel": {
+                                                "nodes": [
+                                                    {
+                                                        "latest_supported_binary": {
+                                                            "__typename": "AndroidBinary",
+                                                            "binary_test_results": {
+                                                                "nodes": []
+                                                            },
+                                                            "id": "973153939417137"
+                                                        },
+                                                        "id": "1481234595510897"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "binary": null,
+                                        "pdp_metadata": null,
+                                        "review_messages": []
+                                    }
+                                ]
+                            },
+                            "is_concept": false,
+                            "is_blocked_by_verification": false,
+                            "latest_released_offer_group": {
+                                "id": "724115622848962"
+                            },
+                            "release_date": 1442905200,
+                            "release_status": "RELEASED",
+                            "revisions": {
+                                "nodes": [
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "724115622848962"
+                                        },
+                                        "id": "1080034608697953"
+                                    },
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "724115622848962"
+                                        },
+                                        "id": "1080033562031391"
+                                    },
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "724115622848962"
+                                        },
+                                        "id": "1065209870180427"
+                                    },
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "724115622848962"
+                                        },
+                                        "id": "1054757517892329"
+                                    }
+                                ]
+                            },
+                            "cover_square_image": {
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/12138840_183086962038369_1828896326_n.png?stp=dst-png_s360x360&_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KNaFJRelH2QAb6RulI8&_nc_ht=scontent.oculuscdn.com&oh=00_AfAJumKaFhPxDgCbIZ_3SP7IHxJFEDt8wnhDORIxU1sf2g&oe=661503DA"
+                            },
+                            "is_test": false,
+                            "is_trial_offer_valid": false,
+                            "display_name": "Michigan VR",
+                            "platform": "ANDROID",
+                            "context_category": null,
+                            "context_topics": [],
+                            "lastRevision": {
+                                "nodes": [
+                                    {
+                                        "id": "1054757517892329",
+                                        "release_type": "ON_APPROVAL",
+                                        "application": {
+                                            "release_date": 1442905200,
+                                            "preorder_offers": {
+                                                "nodes": []
+                                            },
+                                            "id": "969518263094532"
+                                        },
+                                        "binary": {
+                                            "__typename": "AndroidBinary",
+                                            "__isAppBinary": "AndroidBinary",
+                                            "binary_application": {
+                                                "__typename": "Application",
+                                                "id": "969518263094532",
+                                                "is_concept": false,
+                                                "latest_released_binaries": [
+                                                    {
+                                                        "__typename": "AndroidBinary",
+                                                        "id": "973153939417137"
+                                                    }
+                                                ],
+                                                "release_status": "RELEASED",
+                                                "is_blocked_by_verification": false
+                                            },
+                                            "id": "894490290619708",
+                                            "version": "1.0",
+                                            "version_code": 1,
+                                            "release_status": "RELEASED",
+                                            "status": "APPROVED",
+                                            "is_pre_download_enabled": false
+                                        },
+                                        "is_initial_release": true,
+                                        "release_date": 1442905200,
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED"
+                                    }
+                                ]
+                            },
+                            "scheduled_offers": {
+                                "count": 1,
+                                "nodes": [
+                                    {
+                                        "status": "PUBLISHED",
+                                        "id": "965674893474501"
+                                    }
+                                ]
+                            },
+                            "baseline_offer": {
+                                "id": "965674893474501"
+                            },
+                            "is_approved": true,
+                            "firstOffer": {
+                                "nodes": [
+                                    {
+                                        "start_time": 1442905200,
+                                        "status": "PUBLISHED",
+                                        "id": "965674893474501"
+                                    }
+                                ]
+                            },
+                            "liveChannel": {
+                                "nodes": [
+                                    {
+                                        "latest_supported_binary": {
+                                            "__typename": "AndroidBinary",
+                                            "binary_test_results": {
+                                                "nodes": []
+                                            },
+                                            "id": "973153939417137",
+                                            "version": "1.1"
+                                        },
+                                        "id": "1481234595510897",
+                                        "channel_name": "LIVE"
+                                    }
+                                ]
+                            },
+                            "is_for_oculus_keys_only": false,
+                            "revisionsIncludingVariantMetadataRevisions": {
+                                "nodes": [
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "1080034608697953"
+                                    },
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "1080033562031391"
+                                    },
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "1065209870180427"
+                                    },
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "1054757517892329"
+                                    }
+                                ]
+                            },
+                            "variant_experiments": {
+                                "nodes": []
+                            },
+                            "running_experiment_type": null,
+                            "primary_binaries": {
+                                "nodes": [
+                                    {
+                                        "__typename": "AndroidBinary",
+                                        "__isAppBinary": "AndroidBinary",
+                                        "attestations": {
+                                            "__typename": "AndroidBinaryAttestationsConnection",
+                                            "nodes": []
+                                        },
+                                        "binary_application": {
+                                            "__typename": "Application",
+                                            "id": "969518263094532",
+                                            "is_device_targeting_enabled": false,
+                                            "is_concept": false,
+                                            "latest_released_binaries": [
+                                                {
+                                                    "__typename": "AndroidBinary",
+                                                    "id": "973153939417137"
+                                                }
+                                            ],
+                                            "release_status": "RELEASED",
+                                            "is_blocked_by_verification": false
+                                        },
+                                        "binary_release_channels": {
+                                            "nodes": [
+                                                {
+                                                    "channel_name": "LIVE",
+                                                    "id": "1481234595510897"
+                                                }
+                                            ]
+                                        },
+                                        "change_log": "Initial Version",
+                                        "created_date": 1445279832,
+                                        "id": "973153939417137",
+                                        "size": "8927724",
+                                        "targetable_devices_lock_info": [
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            }
+                                        ],
+                                        "targeted_devices": [
+                                            "MONTEREY",
+                                            "HOLLYWOOD",
+                                            "SEACLIFF",
+                                            "EUREKA",
+                                            "FUTURE_DEVICES"
+                                        ],
+                                        "version": "1.1",
+                                        "version_code": 2,
+                                        "release_status": "RELEASED",
+                                        "status": "APPROVED",
+                                        "binary_test_results": {
+                                            "nodes": []
+                                        },
+                                        "obb_binary": null,
+                                        "asset_files": {
+                                            "count": 0
+                                        },
+                                        "debug_symbols": {
+                                            "count": 0
+                                        },
+                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
+                                    },
+                                    {
+                                        "__typename": "AndroidBinary",
+                                        "__isAppBinary": "AndroidBinary",
+                                        "attestations": {
+                                            "__typename": "AndroidBinaryAttestationsConnection",
+                                            "nodes": []
+                                        },
+                                        "binary_application": {
+                                            "__typename": "Application",
+                                            "id": "969518263094532",
+                                            "is_device_targeting_enabled": false,
+                                            "is_concept": false,
+                                            "latest_released_binaries": [
+                                                {
+                                                    "__typename": "AndroidBinary",
+                                                    "id": "973153939417137"
+                                                }
+                                            ],
+                                            "release_status": "RELEASED",
+                                            "is_blocked_by_verification": false
+                                        },
+                                        "binary_release_channels": {
+                                            "nodes": [
+                                                {
+                                                    "channel_name": "LIVE",
+                                                    "id": "1481234595510897"
+                                                }
+                                            ]
+                                        },
+                                        "change_log": "Initial Version",
+                                        "created_date": 1442958269,
+                                        "id": "894490290619708",
+                                        "size": "14028218",
+                                        "targetable_devices_lock_info": [
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            }
+                                        ],
+                                        "targeted_devices": [
+                                            "MONTEREY",
+                                            "HOLLYWOOD",
+                                            "SEACLIFF",
+                                            "EUREKA",
+                                            "FUTURE_DEVICES"
+                                        ],
+                                        "version": "1.0",
+                                        "version_code": 1,
+                                        "release_status": "RELEASED",
+                                        "status": "APPROVED",
+                                        "binary_test_results": {
+                                            "nodes": []
+                                        },
+                                        "obb_binary": null,
+                                        "asset_files": {
+                                            "count": 0
+                                        },
+                                        "debug_symbols": {
+                                            "count": 0
+                                        },
+                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
+                                    }
+                                ]
+                            },
+                            "requires_audience_attestation": false
+                        },
+                        "viewer": {
+                            "user": null
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "context": "Validating http response",
+            "error_type": "ValidationError",
+            "error_message": "1 validation error for AppAdditionalDetails\n  Input should be a valid dictionary or instance of AppAdditionalDetails [type=model_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.5/v/model_type",
+            "log_message": "Captured model validation error: AppAdditionalDetails",
+            "error_information": {
+                "data": {
+                    "data": {
+                        "node": {
+                            "__typename": "Application",
+                            "id": "1492778234372114",
+                            "organization": {
+                                "id": "937747249599721",
+                                "viewer_permissions": [],
+                                "application_groupings": {
+                                    "nodes": [
+                                        {
+                                            "viewer_has_update_access": false,
+                                            "full_applications": {
+                                                "nodes": [
+                                                    {
+                                                        "id": "1492778234372114"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "444599562400805"
+                                        }
+                                    ]
+                                }
+                            },
+                            "user_interaction_modes": [
+                                "SINGLE_USER"
+                            ],
+                            "is_quest_for_business": false,
+                            "grouping": {
+                                "id": "444599562400805",
+                                "report_method": "PLATFORM"
+                            },
+                            "firstRevision": {
+                                "nodes": [
+                                    {
+                                        "binary_with_fallback": {
+                                            "__typename": "AndroidBinary",
+                                            "__isAppBinary": "AndroidBinary",
+                                            "binary_application": {
+                                                "__typename": "Application",
+                                                "id": "1492778234372114",
+                                                "is_concept": false,
+                                                "latest_released_binaries": [
+                                                    {
+                                                        "__typename": "AndroidBinary",
+                                                        "id": "1201729006519600"
+                                                    }
+                                                ],
+                                                "release_status": "RELEASED",
+                                                "is_blocked_by_verification": false
+                                            },
+                                            "id": "1201729006519600",
+                                            "version": "2.00",
+                                            "version_code": 200,
+                                            "release_status": "RELEASED",
+                                            "status": "APPROVED"
+                                        },
+                                        "created_date": 1464111564,
+                                        "id": "1085956884778756",
+                                        "is_initial_release": false,
+                                        "name_with_fallback": "v3",
+                                        "pdp_metadata_with_fallback": null,
+                                        "reviewable_offer_group_with_fallback": {
+                                            "id": "206170182127077",
+                                            "worldwide_offer": {
+                                                "__typename": "AppStoreOffer",
+                                                "price": {
+                                                    "formatted_for_lwi": "$0.00"
+                                                },
+                                                "id": "1524197501204509"
+                                            },
+                                            "release_status": "RELEASED",
+                                            "review_status": "APPROVED"
+                                        },
+                                        "release_date": 1701290107,
+                                        "is_first": false,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "release_type": "ON_APPROVAL",
+                                        "application": {
+                                            "release_date": 1442041200,
+                                            "preorder_offers": {
+                                                "nodes": []
+                                            },
+                                            "id": "1492778234372114",
+                                            "liveChannel": {
+                                                "nodes": [
+                                                    {
+                                                        "latest_supported_binary": {
+                                                            "__typename": "AndroidBinary",
+                                                            "binary_test_results": {
+                                                                "nodes": []
+                                                            },
+                                                            "id": "1201729006519600"
+                                                        },
+                                                        "id": "1654721348110215"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "binary": null,
+                                        "pdp_metadata": null,
+                                        "review_messages": []
+                                    }
+                                ]
+                            },
+                            "is_concept": false,
+                            "is_blocked_by_verification": false,
+                            "latest_released_offer_group": {
+                                "id": "206170182127077"
+                            },
+                            "release_date": 1442041200,
+                            "release_status": "RELEASED",
+                            "revisions": {
+                                "nodes": [
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "206170182127077"
+                                        },
+                                        "id": "1085956884778756"
+                                    },
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "206170182127077"
+                                        },
+                                        "id": "939894976051615"
+                                    },
+                                    {
+                                        "reviewable_offer_group_with_fallback": {
+                                            "coming_soon_offer": null,
+                                            "id": "206170182127077"
+                                        },
+                                        "id": "937747416266371"
+                                    }
+                                ]
+                            },
+                            "cover_square_image": {
+                                "uri": "https://scontent.oculuscdn.com/v/t64.5771-25/12427445_397844153719214_955160743_n.png?stp=dst-png_s360x360&_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tGERpdjTrMMAb6XeYcj&_nc_ht=scontent.oculuscdn.com&oh=00_AfDxTsn538jdpYlGniQ_qJTZTwCgLYtqnReHyqqZUsh2yQ&oe=661531DD"
+                            },
+                            "is_test": false,
+                            "is_trial_offer_valid": false,
+                            "display_name": "OrchestraVR",
+                            "platform": "ANDROID",
+                            "context_category": null,
+                            "context_topics": [],
+                            "lastRevision": {
+                                "nodes": [
+                                    {
+                                        "id": "937747416266371",
+                                        "release_type": "ON_APPROVAL",
+                                        "application": {
+                                            "release_date": 1442041200,
+                                            "preorder_offers": {
+                                                "nodes": []
+                                            },
+                                            "id": "1492778234372114"
+                                        },
+                                        "binary": {
+                                            "__typename": "AndroidBinary",
+                                            "__isAppBinary": "AndroidBinary",
+                                            "binary_application": {
+                                                "__typename": "Application",
+                                                "id": "1492778234372114",
+                                                "is_concept": false,
+                                                "latest_released_binaries": [
+                                                    {
+                                                        "__typename": "AndroidBinary",
+                                                        "id": "1201729006519600"
+                                                    }
+                                                ],
+                                                "release_status": "RELEASED",
+                                                "is_blocked_by_verification": false
+                                            },
+                                            "id": "1201729006519600",
+                                            "version": "2.00",
+                                            "version_code": 200,
+                                            "release_status": "RELEASED",
+                                            "status": "APPROVED",
+                                            "is_pre_download_enabled": false
+                                        },
+                                        "is_initial_release": true,
+                                        "release_date": 1442041200,
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED"
+                                    }
+                                ]
+                            },
+                            "scheduled_offers": {
+                                "count": 1,
+                                "nodes": [
+                                    {
+                                        "status": "PUBLISHED",
+                                        "id": "1524197501204509"
+                                    }
+                                ]
+                            },
+                            "baseline_offer": {
+                                "id": "1524197501204509"
+                            },
+                            "is_approved": true,
+                            "firstOffer": {
+                                "nodes": [
+                                    {
+                                        "start_time": 1442041200,
+                                        "status": "PUBLISHED",
+                                        "id": "1524197501204509"
+                                    }
+                                ]
+                            },
+                            "liveChannel": {
+                                "nodes": [
+                                    {
+                                        "latest_supported_binary": {
+                                            "__typename": "AndroidBinary",
+                                            "binary_test_results": {
+                                                "nodes": []
+                                            },
+                                            "id": "1201729006519600",
+                                            "version": "2.00"
+                                        },
+                                        "id": "1654721348110215",
+                                        "channel_name": "LIVE"
+                                    }
+                                ]
+                            },
+                            "is_for_oculus_keys_only": false,
+                            "revisionsIncludingVariantMetadataRevisions": {
+                                "nodes": [
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "1085956884778756"
+                                    },
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "939894976051615"
+                                    },
+                                    {
+                                        "pdp_metadata": null,
+                                        "status": "APPROVED",
+                                        "release_status": "RELEASED",
+                                        "id": "937747416266371"
+                                    }
+                                ]
+                            },
+                            "variant_experiments": {
+                                "nodes": []
+                            },
+                            "running_experiment_type": null,
+                            "primary_binaries": {
+                                "nodes": [
+                                    {
+                                        "__typename": "AndroidBinary",
+                                        "__isAppBinary": "AndroidBinary",
+                                        "attestations": {
+                                            "__typename": "AndroidBinaryAttestationsConnection",
+                                            "nodes": []
+                                        },
+                                        "binary_application": {
+                                            "__typename": "Application",
+                                            "id": "1492778234372114",
+                                            "is_device_targeting_enabled": false,
+                                            "is_concept": false,
+                                            "latest_released_binaries": [
+                                                {
+                                                    "__typename": "AndroidBinary",
+                                                    "id": "1201729006519600"
+                                                }
+                                            ],
+                                            "release_status": "RELEASED",
+                                            "is_blocked_by_verification": false
+                                        },
+                                        "binary_release_channels": {
+                                            "nodes": [
+                                                {
+                                                    "channel_name": "LIVE",
+                                                    "id": "1654721348110215"
+                                                }
+                                            ]
+                                        },
+                                        "change_log": "Initial release",
+                                        "created_date": 1442090116,
+                                        "id": "1201729006519600",
+                                        "size": "564626592",
+                                        "targetable_devices_lock_info": [
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            },
+                                            {
+                                                "__typename": "XOCAppBinaryTargetedDeviceLockInfo"
+                                            }
+                                        ],
+                                        "targeted_devices": [
+                                            "HOLLYWOOD",
+                                            "SEACLIFF",
+                                            "EUREKA",
+                                            "FUTURE_DEVICES"
+                                        ],
+                                        "version": "2.00",
+                                        "version_code": 200,
+                                        "release_status": "RELEASED",
+                                        "status": "APPROVED",
+                                        "binary_test_results": {
+                                            "nodes": []
+                                        },
+                                        "obb_binary": null,
+                                        "asset_files": {
+                                            "count": 0
+                                        },
+                                        "debug_symbols": {
+                                            "count": 0
+                                        },
+                                        "__isAppBinaryWithFileAsset": "AndroidBinary"
+                                    }
+                                ]
+                            },
+                            "requires_audience_attestation": false
+                        },
+                        "viewer": {
+                            "user": null
+                        }
+                    }
                 }
             }
         }
