@@ -1,0 +1,139 @@
+{
+    "data": {
+        "id": "1966140576830508",
+        "app_name": "The Hidden",
+        "release_date": "2019-05-22T00:00:00.000Z",
+        "description": "“The Hidden” is a political thriller that literally drops you in the middle of a high stakes game of cat and mouse without telling you who is hunting whom. The immersive experience takes you inside an ICE raid and forces you to experience first-hand the devastating impact these illegal practices are having on communities and families across the US. For Sophia, her little brother and their undocumented immigrant father, the reality of life in the US. is no longer a dream. In the end the viewer is left with larger questions about the state of social justice in modern America.\n\n*Produced in Partnership with the ACLU",
+        "developer": "Solipsis Development",
+        "publisher": "Vanishing Point Media",
+        "genres": [
+            "Non-Game Experience",
+            "Educational",
+            "Narrative"
+        ],
+        "devices": [
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Go"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 4
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 2
+            },
+            {
+                "rating": 5,
+                "votes": 2
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_SOME",
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [
+                "Language",
+                "Violence"
+            ],
+            "elements": [],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://www.vanishingpointvr.com/the-hidden",
+        "app_images": {
+            "cover_landscape": "38974705_2550160251681895_6395186710103195648_n.png",
+            "cover_portrait": "39001712_2077561515879218_4304592468034191360_n.png",
+            "cover_square": "38974817_451056118990982_665781443401613312_n.png",
+            "hero": "38982554_435791410585555_8008397939971981312_n.png",
+            "icon": "39035396_349490632367481_7757077516329680896_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982619_575927616227558_950244974320943104_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.1.4",
+                "change_log": "- Reduced application download size\n- Fixed crash due to memory leak in \"Uncover the truth\""
+            },
+            {
+                "version": "1.1.2",
+                "change_log": "- Change splash logos, order\n- Animations for Lobby buttons\n- Skip button on Tutorial VO in Learn\n- VO for News stories in Learn\n- Swap \"close\" and \"exit\" icons in Watch controls\n- Swap Hover dialogues in Learn\n- Adjusted navigation arrows in Learn\n- Better font size for some articles in Learn"
+            },
+            {
+                "version": "1.1.0",
+                "change_log": "- VPM logo goes up first. They should both fade in and drop to black.\n- new menu graphics\n- After the film plays - we should be dropped into the first immersive environment (ie. auto load the interactive stuff) and the VO labeled “MattHomescreenVO withoutSpoiler warning” should play on entrance into interactivity. \n- If the viewer choses to enter the interactive experience from the menu, the VO file “MattHomescreenVOwithSpoilerWarning” should play. If, possible, the VO should only play once per load of the application.  So, if a player has been in the interactive backyard once and heard any MattHomscreenVO, (s)he shouldn’t have to sit through it again on returning.  \n- video controls in \"Watch\"\n- The orientation for each environment should always be back to center. \n- animation that accompanies all news stories and shows the viewer how to scroll. \n- Videos seem to blink in in the windows. Can that be fixed? On all the Videos (Cassie & ACLU) we would like them to fade in\n- new \"Cassie\" and \"ACLU\" videos\n- new ambience for Learning   \n- The “Back to Scene”, “Into the News” and “Know Your Rights” are hard to read. All buttons have been updated with dropshadow and/or stroke to make easier to read.\n- The arrows are too far away. Please bring them closer to the actors. Then please rotate them about 90 degrees so they are flat with the plane of action of the actors. (they are great the way they blow up).  Also: raise the arrows up a little bit.  Top of the arrow should basically align with the top of the actor’s shoulders. \n- We noticed the tripod is still in the shot. Annie painted it out (it’s in the drop box). I created a transparent tiff layer of the paint out. Hopefully you can just apply that on top of your work so you don’t have to do anything. I also threw-in the full shot and the PSD just in case you needed any of those.\n- Mike’s legs are cut off. We know his legs are behind Sophia. The work around we want to use please include the blanket and Sophia’s arm (Only the part that is in front of Mike) when you do the cut out. However please keep those parts desaturated. So Mike would be saturated and the arm/blanket would still be desaturated.\n- Lowered NPR Mason audio\n- Updated Hover dialogue in all scenes\n- Fix \"cops\" info box in Front Door scene\n- The back arrow needed to be raised a little higher in Front Door scene\n- move the left arrow to the left of Tony\n- ICE officer that has a gun pointed at the kids, the brim of his hat is cut off. \n- Add return to menu button in scene 3\n- Take down the level on hover dialogue in Scene 3\n- Push the pop-up window  that comes up when we click on Tony back in 3d space "
+            },
+            {
+                "version": "1.0.5",
+                "change_log": "- Fixed entitlement checks\n- Rift support"
+            },
+            {
+                "version": "1.0.4",
+                "change_log": "- Fixed performance issues on scene change"
+            },
+            {
+                "version": "1.0.3",
+                "change_log": "- Fixed issue with some of the content windows in Scene 3 (Inside House)\n"
+            },
+            {
+                "version": "1.0.2",
+                "change_log": "- Improved cut-outs for Front Porch scene"
+            },
+            {
+                "version": "1.0.1",
+                "change_log": "- Fixes out of memory issues caused by Video loading"
+            },
+            {
+                "version": "1.0.0",
+                "change_log": "- Imported rest of \"ACLU\" videos, news graphics"
+            },
+            {
+                "version": "0.1.7",
+                "change_log": "- Added error messages in Watch when video does not load correctly\n"
+            },
+            {
+                "version": "0.1.6",
+                "change_log": "- Fade-in lobby scene\n- Disable warp effect when starting Scene 1 (backyard)\n- Gradual blur/fade of info windows\n- Changed white-outs to black-outs for Lobby to Watch and Lobby to Credits\n- Fix background saturation changing with selection\n"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 475633,
+        "genre_update": 475633,
+        "device_update": 475633,
+        "mode_update": 475633,
+        "language_update": 475633,
+        "platform_update": 475633,
+        "player_mode_update": 475633,
+        "changelog_update": 475633,
+        "keyword_update": 475633,
+        "tag_update": 475633,
+        "rating_update": 475633,
+        "iarc_detail_update": 475633,
+        "keywords": [],
+        "last_update": 475633,
+        "category": "APPS",
+        "votes": 8,
+        "rating": 2.75,
+        "weighted_rating": 3.1
+    },
+    "errors": []
+}

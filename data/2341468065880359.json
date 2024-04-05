@@ -1,0 +1,154 @@
+{
+    "data": {
+        "id": "2341468065880359",
+        "app_name": "VirtualBookViewer",
+        "release_date": "2018-08-22T00:00:00.000Z",
+        "description": "Easy to use image viewer. Virtual Book Viewer has the following features. You can move, rotate or scale the book as you like. Page animation is like an actual book.\n\nDetails:\n- This application is a trial version after installation.You can use all features without restriction even in trial version.\n- If you like this app, you can purchase the product version from the dialog that is automatically displayed in the application.\n- File formats:\n　- pdf(not encrypted only)\n　- png, bmp, jpg, jpeg, gif, tif, tiff\n　- zip, cbz, rar, cbr, 7z, lzma(not encrypted only)\n　- Maximum resolusion is 4096x4096\n　- Maximum archive file size is 256MB",
+        "developer": "矢部良輔",
+        "publisher": "gunsturn app Lab.",
+        "genres": [
+            "Media & Streaming",
+            "Health & Fitness",
+            "Business, Productivity & Utility"
+        ],
+        "devices": [
+            "3DOF Controller"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "Japanese"
+        ],
+        "platforms": [
+            "Go"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 13
+            },
+            {
+                "rating": 2,
+                "votes": 9
+            },
+            {
+                "rating": 3,
+                "votes": 7
+            },
+            {
+                "rating": 4,
+                "votes": 14
+            },
+            {
+                "rating": 5,
+                "votes": 34
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Digital Purchases"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.gunsturn.com/",
+        "app_images": {
+            "cover_landscape": "11162686_1988770621434643_1681116050092982272_n.png",
+            "cover_portrait": "12139429_237527603741277_2124269981125312512_n.png",
+            "cover_square": "12410331_449657428841862_938708524660162560_n.png",
+            "hero": "12410205_228540621110457_7409557796716281856_n.png",
+            "icon": "12680373_240834516640246_7904420415278153728_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "12139433_694587840878917_7080225502664851456_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.12",
+                "change_log": "Fixed minor issues.\nAutomatic display of purchase dialog was disabled.\n\n軽微な不具合を修正しました。\n購入ダイアログの表示仕様を見直しました。"
+            },
+            {
+                "version": "1.11",
+                "change_log": "Fixed the error that occurred when loading some archives.\r\n\r\n特定のアーカイブを読み込んでいた時に発生していたエラーを解消しました。"
+            },
+            {
+                "version": "1.1",
+                "change_log": "Added display of current open content name.\r\nReturn book display by selecting \"Current content\".\r\nEnabled left and right swipe in select content view.\r\n\r\n現在開いているファイル名の表示を追加しました。\r\n「Current content」を選択することで本表示に戻れるようになりました。\r\nコンテンツ選択画面で、左右スワイプでページ送りができるようになりました。"
+            },
+            {
+                "version": "1.09",
+                "change_log": "Support for user documents saved anywhere.\r\nSupport for recentering by long press of home button.\r\n\r\nユーザードキュメントをどこに保存しても参照できるようになりました。\r\nホームボタンの長押しで本を正面に持ってこれるようになりました。\r\nその他、不具合をいくつか修正しました。"
+            },
+            {
+                "version": "1.08",
+                "change_log": "Support for \".rar\" and \".cbr\".\r\n\r\n「.rar」形式と「.cbr」形式へ対応しました。\r\n操作ガイドを修正しました。"
+            },
+            {
+                "version": "1.07",
+                "change_log": "Fixed minor issues.\r\n\r\n軽微な不具合を修正しました。"
+            },
+            {
+                "version": "1.06",
+                "change_log": "Support for CBZ format.\r\nAdded timer display.\r\nBlack background color changed more black.\r\n\r\n＜以下の修正をしました＞\r\n・CBZ形式のサポート\r\n・黒背景をより黒く変更\r\n・時計表示の追加\r\n・解像度の低い画像を拡大した時に、粗さが目立たないよう修正"
+            },
+            {
+                "version": "1.05",
+                "change_log": "Fixed minor issues.\r\n\r\n1ページ表示モードと2ページ表示モードを切り替えた際、まれに表示が崩れていた不具合を修正しました。"
+            },
+            {
+                "version": "1.04",
+                "change_log": "Fixed minor issues.\r\n\r\nアーカイブの読み込み時にエラーが起きた時、エラーダイアログを表示して、正しくアプリが終了するようにしました。"
+            },
+            {
+                "version": "1.03",
+                "change_log": "Fixed minor issues.\r\n\r\nまれにアプリが起動不可になる不具合を修正しました。"
+            },
+            {
+                "version": "1.02",
+                "change_log": "Fixed minor issues.\nアーカイブ内が入れ子状態の時、アプリが停止してしまう不具合を解消しました。\n（とはいえ、入れ子状態のアーカイブは引き続きなるべく避けていただくようお願いいたします）"
+            },
+            {
+                "version": "1.01",
+                "change_log": "画像の拡張子が大文字でも問題なく見れるようにした。"
+            },
+            {
+                "version": "1.0",
+                "change_log": "左利き用設定の修正\r\nスライダーの挙動修正\r\nアプリの安定性向上"
+            },
+            {
+                "version": "1.0",
+                "change_log": "リリース候補版（ver1.0）"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 475633,
+        "genre_update": 475633,
+        "device_update": 475633,
+        "mode_update": 475633,
+        "language_update": 475633,
+        "platform_update": 475633,
+        "player_mode_update": 475633,
+        "changelog_update": 475633,
+        "keyword_update": 475633,
+        "tag_update": 475633,
+        "rating_update": 475633,
+        "iarc_detail_update": 475633,
+        "keywords": [
+            "book",
+            "comic"
+        ],
+        "last_update": 475633,
+        "category": "APPS",
+        "votes": 77,
+        "rating": 3.61039,
+        "weighted_rating": 3.6
+    },
+    "errors": []
+}

@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.1.0",
+                "change_log": "- [New Feature] Players can now choose their server region, either in the settings menu or within the group up room, providing greater control over matchmaking and connectivity.\n- [New Feature] Introducing a new multiplayer level: Split Valley Woods. Explore this exciting new environment with friends in multiplayer mode.\n- [Fix] Addressed minor level issues and implemented internal system enhancements for improved gameplay stability.\n- [Fix] Corrected an issue where appear spikes causing damage did not align correctly with visual cues before initial strike.\n- [Fix] Resolved an exploit where players could become invulnerable by pausing the game immediately after taking damage.\n- [Fix] Resolved an issue where pausing during fog transitions into arena gameplay could cause the transition to become stuck.\n- [Potential Fix] Investigated and addressed reports of players falling through the floor upon respawning at the boss level. Further testing is ongoing to confirm the effectiveness of the solution."
+            },
+            {
                 "version": "1.0.1",
                 "change_log": "- [Improvement] Reimagined the visual effect when players are within bushes or trees. Instead of completely obstructing vision, the effect now conceals the object while displaying a transparent overlay, accompanied by a particle effect of leaves.\n- [Improvement] Implemented controller vibration feedback for power-up activations.\n- [New Feature] Introduced an option to restart a level directly from the pause menu.\n- [Fix] Fixed issue where achievement \"Don't look down\" was not triggered."
             }
@@ -89,13 +93,13 @@
         "language_update": 475001,
         "platform_update": 475001,
         "player_mode_update": 475001,
-        "changelog_update": 475273,
+        "changelog_update": 475633,
         "keyword_update": 475001,
         "tag_update": 475001,
         "rating_update": 475537,
         "iarc_detail_update": 475001,
         "keywords": [],
-        "last_update": 475585,
+        "last_update": 475633,
         "category": "GAMES",
         "votes": 27,
         "rating": 4.740741,

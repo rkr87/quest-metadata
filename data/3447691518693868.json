@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 118
+                "votes": 120
             },
             {
                 "rating": 2,
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 79
+                "votes": 80
             }
         ],
         "comfort": "NOT_RATED",
@@ -74,6 +74,10 @@
             "logo_transparent": "75375083_148485293665504_2274488967646399463_n.png"
         },
         "changelog": [
+            {
+                "version": "2.2.7",
+                "change_log": "Fixed:\n- Some minor fixes and improvements"
+            },
             {
                 "version": "2.2.6",
                 "change_log": "Added:\r\n- VSync setting\r\n- FPS Limits setting\r\n- Fisheye projection for pictures\r\n\r\nFixed:\r\n- Video buffering progress bar \r\n- Improved passthrough videos\r\n- Some UI problems with disappearing added SMB devices"
@@ -149,10 +153,6 @@
             {
                 "version": "2.1.3",
                 "change_log": "- Added WebView:\n   Now you can add any website!\n- Added site tabs:\n   Now you can switch between sites without leaving them\n\nFixed:\n- Fixed broken sorting on web tabs after downloads\n- Fixed problems with filling in video information in the player\n- Fixed problems with queue playlist\n- Fixed appearance of the lobby behind the picture in some cases\n- Fixed broken video sorting after visiting the Download page\n- Fixed UI didn't recenter in player\n- Fixed some problems with subtitles depth\n- Some UI fixes"
-            },
-            {
-                "version": "2.1.2",
-                "change_log": "Added:\n- Possibility to choose timeline chapters in the web videos\n\nFixed:\n- Fixed not hided video info after switch to Panic Mode\n- Fixed missing file information\n- Fixed missing files when switching to the All Video (Android)\n- Minor UI fixes"
             }
         ],
         "on_rookie": false,
@@ -163,16 +163,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475393,
+        "changelog_update": 475633,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475585,
+        "rating_update": 475633,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475585,
+        "last_update": 475633,
         "category": "APPS",
-        "votes": 272,
-        "rating": 2.738971,
+        "votes": 275,
+        "rating": 2.734545,
         "weighted_rating": 2.7
     },
     "errors": []

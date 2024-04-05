@@ -34,8 +34,8 @@
         ],
         "tags": [
             "App Lab Graduates",
-            "Mixed Reality",
             "Enterprise",
+            "Mixed Reality",
             "Passthrough"
         ],
         "hist": [
@@ -82,6 +82,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.4.6.9516",
+                "change_log": "Fixes for some crashes in specific spaces"
+            },
             {
                 "version": "2.4.4.9505",
                 "change_log": "2.4.3.9490 => 2.4.4.9505\n\nIMPROVEMENTS\nUpdated samples list\n\nVR BUG FIXES\nPlay mode: the right hand ray collides with all objects (old and new modes)\nFixed the default brush stroke on the brush tool is missing\nFixed when tool switcher without a previous tool switches to a broken empty state\nExported gltf models (from the exported folder) cannot be used in space (only for the new exported files for now)\nFixed when can’t use the volume/sphere select if the short ray is targeting something"
@@ -137,10 +141,6 @@
             {
                 "version": "2.1.3.8399",
                 "change_log": "Improvements:\n-Color tool v2.1 swatches\n-Saving the current input mode as a part of a space settings (interactivity)\n-Added the ability to customize the hover effect in the input mode panel  (interactivity)\n-Gaze & Pinch interactivity polishing in general\n-Expand max Holonotes length to 5 mins\n\nFixes:\n-Exception with interactivity panel after putting down the controllers\n-Grabbing with activated teleport or eyedropper breaks the asset panel\n-Added color tool into 1:1 mode\n-Holonotes avatar freezes when switching stages\n-Holonote avatar hung on stage after copying a stage\n-Fixed problems with snapping when you create or change text\n-Fixed numerous exceptions"
-            },
-            {
-                "version": "2.1.2.8334",
-                "change_log": "IMPROVEMENTS\nAdded hover effect feedback on controller input\nAdded buttons highlighting Quest Pro controllers\nPlans window scrolling improvements\nBUG FIXES\nFixed some exceptions with opened presentation panel, viewpoints, and undo-redo\nFixed when changing permissions via sharing menu in the lobby doesn't work\nFixed when holonotes avatar is not hidden when the Holonotes menu is closed\nSome minor fixes for the same page mode\nFixes for spaces submenu options\nFixes for interactive onboarding"
             }
         ],
         "on_rookie": false,
@@ -151,7 +151,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475129,
+        "changelog_update": 475633,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475610,
@@ -162,7 +162,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 475610,
+        "last_update": 475633,
         "category": "APPS",
         "votes": 287,
         "rating": 4.15331,
