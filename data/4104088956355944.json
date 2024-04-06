@@ -43,7 +43,7 @@
             },
             {
                 "rating": 3,
-                "votes": 44
+                "votes": 45
             },
             {
                 "rating": 4,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 5012
+                "votes": 5035
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.43.2",
+                "change_log": "- Fixed T-Posing.\n- Performance improvements.\n- The item lists will now show the objects you already own at the top, making it easier to find and equip them.\n- The shop will now hide packs on the front page if you already own them (unless you own all of them) and show packs you don't own instead."
+            },
             {
                 "version": "0.43.1",
                 "change_log": "- Changed wording in the main menu.\n- Removed \"Next Level\" button when in the tutorial.\n- Tweaked the pilot head."
@@ -151,10 +155,6 @@
             {
                 "version": "0.41.1",
                 "change_log": "- Integrated Modulate's ToxMod system to automatically monitor public lobbies for potential voice chat toxicity, ensuring a more respectful environment."
-            },
-            {
-                "version": "0.41.0",
-                "change_log": "- New lobby!\n- New cosmetics!\n- Player positions are now networked relative to whatever they are moving with, reducing the perceived lag on moving objects a lot.\n- Fixed falling when walking over small gaps.\n- Fixed problems when falling off animated ice.\n- Reduced problems when walking on rotating blocks.\n- Fixed falling to the ground on animated objects moving down too fast.\n- Improved falling off rotating objects when holding on with two hands.\n- Fixed holding on with both hands while standing on an animated slope not correctly moving the player with it.\n- Maybe fixed a common crash that could happen when setting a level image."
             }
         ],
         "on_rookie": false,
@@ -165,16 +165,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475610,
+        "changelog_update": 475657,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475633,
+        "rating_update": 475657,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475633,
+        "last_update": 475657,
         "category": "GAMES",
-        "votes": 5508,
-        "rating": 4.816812,
+        "votes": 5532,
+        "rating": 4.817245,
         "weighted_rating": 4.8
     },
     "errors": []

@@ -27,10 +27,10 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest",
+            "Meta Quest 3"
         ],
         "player_modes": [
             "SITTING",
@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 121
+                "votes": 122
             },
             {
                 "rating": 2,
@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 154
+                "votes": 156
             },
             {
                 "rating": 5,
-                "votes": 1136
+                "votes": 1143
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,10 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "Quest 3 update:\n\n- 90 FPS\n- Enhanced render\n- Optimized custom arenas\n- Improved transitions between lobbies\n- Bugfix \n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 20.5 \n\n— New objects in custom arenas, including ball cannons and bot goalies, are now available. Some objects feature settings such as block color or ball cannon power. Double-click an item in the menu list to lock it for repeated use. Some existing objects have also been updated. Overall, graphics have been optimized.\n\n— Updated infield bots logic and bot goalie. It is now possible to play up to 11x11 with bots, including playing as a goalie. Bots have also undergone significant optimization.\n\n— In the penalty series, only one goalkeeper is allowed.\n\n— Introduced crowds and crowd sound effects with reactions as an experimental feature in the large stadium. Activate this feature in the settings - \"Crowd.\"\n\n— Reduced lag when players were entering online practice.\n\n— Bug fixes. Enhanced transitions between lobbies.\n"
@@ -158,10 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "- Strict rules featuring free kicks and penalties. Subject to further enhancements and tuning based on your feedback. Play the ball to not get a penalty.\n\n- Jerseys and a free jersey editor at jerseys.vrfs.gg. Custom jerseys only work in private lobbies and in online practice. You can switch back to simple jerseys in the settings.\n\n- Penalty shootout when the game is a draw (works a bit awkwardly, will be enhanced in future updates).\n\n- Player names and numbers on avatars.\n\n- New gigantic 8v8 arena.\n\n- New location: 'Miami'.\n\n- You can now hide the game interface in the settings.\n\n- Fixed known bugs and enhanced multiplayer ball sync.\n\n- Changed ball bouncing to make it the same as in real life.\n\n- Height glitching prevention (will be activated a bit later).\n\n- Some minor enhancements in sound design and interface. \n\n- Visual improvements on almost all arenas.\n\n- Around 150 new store items. "
-            },
-            {
-                "version": "0.1",
-                "change_log": "Floor calibration hotfix"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475249,
+        "changelog_update": 475657,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475633,
+        "rating_update": 475657,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475633,
+        "last_update": 475657,
         "category": "GAMES",
-        "votes": 1488,
-        "rating": 4.448253,
+        "votes": 1498,
+        "rating": 4.447931,
         "weighted_rating": 4.4
     },
     "errors": []

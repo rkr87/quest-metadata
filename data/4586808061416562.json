@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.23.1",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.23.1\n\n## Improvements\n\n- Reduced resolution supersampling across all devices in the Quest family to maintain high and stable framerate.\n- Reduced sky texture resolution to reduce GPU load with minimal impact on visual quality.\n- Pressing the palm menu settings buttons will recenter that settings window.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.23",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.23\n\n## Improvements\n\n- Added a new, photorealistic sky environment.\n- Sky settings now persist across app sessions.\n- You can now create topics, browsers, and AI queries before signing into a Softspace account.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.14",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.14\n\n## Improvements\n\n- Paused browser instances are more-subtly darkened, making them easier to view.\n- Text item body text has a lighter-weight font, which is more visually.\n\n## Bug Fixes\n\n- Clicking on and unpausing a paused browser will now also start typing on it.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.13.1",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.13.1\n\n## Bug Fixes\n\n- Fixed an error that was preventing image downloads from websites.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475633,
+        "changelog_update": 475657,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475633,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475633,
+        "last_update": 475657,
         "category": "APPS",
         "votes": 59,
         "rating": 3.440678,
