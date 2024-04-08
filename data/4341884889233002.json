@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.9.1",
+                "change_log": "- Adjusted the arc of target flight in American Trap\\n\n- Bug Fix: Party Challenge did not play through if American Trap was selected in practise panel.\\n\n- Sporting Clays Challenge 10 adjusted\n"
+            },
+            {
                 "version": "1.4.9",
                 "change_log": "- American Skeet target launch velocities adjusted: Professional is now 46 mph, Intermediate is 45 mph and beginner is 41 mph.\\n\n- American Trap target launch velocities adjusted: Professional is now 44 mph, Intermediate is 43 mph and beginner is 42 mph. Double trap speeds are: 42mph and 41mph for the beginner and intermediate. Trap oscillates 34 degrees.\\n\n- American Trap Practice: You can now choose between oscillating, hard left, center and hard right targets.\\n\n- Bug fix: External chokes did not follow the reload animation with side-by-side shotgun.\\n\n- Bug fix: Trap practice panel did not initialize correctly when arriving to it from the main menu.\n"
             },
@@ -152,10 +156,6 @@
             {
                 "version": "1.3.9",
                 "change_log": "- Quest 3 optimizations\\n\n- \"Tracking\" mode for secondary controller when using gun stock is not recommended with Quest 3.\\n\n- Updated preset for the Real Stock Pro with Quest 3.\\n\n- Bug fixes"
-            },
-            {
-                "version": "1.3.8",
-                "change_log": "- Quest 3 support!\\n\n- Bug fixes\\n\n- Optimizations"
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475633,
+        "changelog_update": 475705,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475585,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475633,
+        "last_update": 475705,
         "category": "GAMES",
         "votes": 297,
         "rating": 4.83165,
