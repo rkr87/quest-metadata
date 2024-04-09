@@ -33,10 +33,10 @@
             "Spanish (Venezuela)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -88,6 +88,10 @@
             "logo_transparent": "75435282_957640477981367_4746268653272923305_n.png"
         },
         "changelog": [
+            {
+                "version": "1.15.1.251222-release",
+                "change_log": "* This version fixes a bug where the game crashed if you were in a Call while joining a multiplayer session.\n* Please note that other players can not hear players who joined the room while in a Call. If you leave the Call while in a room, you need to re-join the room in order for others to hear you."
+            },
             {
                 "version": "1.15.1.248862-release",
                 "change_log": "- Added additional error tracking.\n- Fixed player rotation being offset slightly to the left after recentering.\n- Fixed French being used instead of Spanish in the user reporting menu."
@@ -157,7 +161,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475129,
+        "changelog_update": 475729,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 475705,
@@ -167,7 +171,7 @@
             "cook",
             "food"
         ],
-        "last_update": 475705,
+        "last_update": 475729,
         "category": "GAMES",
         "votes": 1137,
         "rating": 4.48197,
