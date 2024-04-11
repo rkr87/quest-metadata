@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1748
+                "votes": 1747
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.1.0",
+                "change_log": "Implement real time updates of user account data, features and streaks.\nImprove memory management during screen connection.\nFix freeze on launch caused by disabled microphone permissions.\nUpdate server for coworking and public rooms."
+            },
             {
                 "version": "2.0.2",
                 "change_log": "Revert screen visual updates."
@@ -159,10 +163,6 @@
             {
                 "version": "1.11.09",
                 "change_log": "Update profile UI for Pro mode.\nSupport Japanese and Chinese localization in App Preferences menu.\nUpdate whiteboard to now set up as a flat surface and support drawing with bottoms of controllers."
-            },
-            {
-                "version": "1.11.08",
-                "change_log": "Improve seat stacking when joining a collaboration or public room.\nFix bug with disappearing raycast.\nBug fix for resize arrow when hiding screens.\nUpdate sizing for screen handles.\nImprove latency metrics and hide latency when unable to get correct readings."
             }
         ],
         "on_rookie": false,
@@ -173,18 +173,18 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475297,
+        "changelog_update": 475777,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 475753,
+        "rating_update": 475777,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 475753,
+        "last_update": 475777,
         "category": "APPS",
-        "votes": 2376,
-        "rating": 4.215067,
+        "votes": 2375,
+        "rating": 4.214737,
         "weighted_rating": 4.2
     },
     "errors": []

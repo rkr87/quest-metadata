@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.9.2",
+                "change_log": "- Fixed the Skeet target angles"
+            },
+            {
                 "version": "1.4.9.1",
                 "change_log": "- Adjusted the arc of target flight in American Trap\\n\n- Bug Fix: Party Challenge did not play through if American Trap was selected in practise panel.\\n\n- Sporting Clays Challenge 10 adjusted\n"
             },
@@ -152,10 +156,6 @@
             {
                 "version": "1.3.9.1",
                 "change_log": "- Fixed dropped frames by reverting to an older system SDK.\\n\n- Smoother visuals for Quest 3"
-            },
-            {
-                "version": "1.3.9",
-                "change_log": "- Quest 3 optimizations\\n\n- \"Tracking\" mode for secondary controller when using gun stock is not recommended with Quest 3.\\n\n- Updated preset for the Real Stock Pro with Quest 3.\\n\n- Bug fixes"
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475705,
+        "changelog_update": 475777,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475585,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475705,
+        "last_update": 475777,
         "category": "GAMES",
         "votes": 297,
         "rating": 4.83165,
