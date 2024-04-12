@@ -27,10 +27,10 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest Pro",
-            "Meta Quest 2",
             "Meta Quest",
-            "Meta Quest 3"
+            "Meta Quest 2",
+            "Meta Quest 3",
+            "Meta Quest Pro"
         ],
         "player_modes": [
             "SITTING",
@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 161
+                "votes": 162
             },
             {
                 "rating": 5,
-                "votes": 1164
+                "votes": 1168
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.2.9\n\n- Entering lobbies is now faster\n- Private lobby slots increased to 30 (experimental)\n- Avatars updated\n- Avatars move more smoothly\n- Bug fixes\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.2.9\n\n- Entering lobbies is now faster\n- Private lobby slots increased to 30 (experimental)\n- Avatars updated\n- Avatars move more smoothly\n- Bug fixes\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "Quest 3 update:\n\n- 90 FPS\n- Enhanced render\n- Optimized custom arenas\n- Improved transitions between lobbies\n- Bugfix \n"
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "- MATCH RATING (MR)\n\nMatch Rating (MR) is in early development and subject to refinement. We suggest not taking it too seriously right now. MR is determined by in-game events such as passing, gaining or losing possession. These events will be visible in your interface during gameplay. We'll refine MR based on your feedback and actual gameplay.\n\n- MATCH STATS\n\nGoals, assists, saves, interceptions, tackles, turnovers, and passes are now shown in the post-match screen. Currently, players can only see their personal match stats. Once we've ensured that everything is working correctly, we'll roll out a comprehensive match overview. Additionally, all events, including goal details like distance and shooting position, are now cloud-saved and will soon be accessible in your personal stats.\n\n- VRFS PARK\n\nThis is an experimental free-ride map featuring amenities like basketball and volleyball courts. It is currently quite empty, but more cool things and new mechanics will be added in upcoming updates. Access the park via online practice in the menu. \n\n- MATCH WITH BOTS (DEMO)\n\nBots currently behave strangely, but we have a long-term plan to make them act and look like pro players. For now, they'll tackle, pass to you, and try scoring a goal. This mode is just for fun at the moment. \n\n- BUG FIXES AND ENHANCEMENTS\n\n- - Expanded restriction zones for free-kicks and penalties\n- - Fixed penalty spot camping exploit\n- - Fixed gloves exploit (hopefully)\n- - Fixed issue where score sometimes didn't reset\n- - Reduced cooldown delay for ball spawn (when you couldn’t kick it in the first 2 seconds)\n- - Added time delay for ball re-spawn in corners/goal kicks\n- - Improved goal tracking\n- - You now see who scored a goal and who did assist\n- - New boots and almost all country-themed jerseys in the store"
-            },
-            {
-                "version": "0.1",
-                "change_log": "- Strict rules featuring free kicks and penalties. Subject to further enhancements and tuning based on your feedback. Play the ball to not get a penalty.\n\n- Jerseys and a free jersey editor at jerseys.vrfs.gg. Custom jerseys only work in private lobbies and in online practice. You can switch back to simple jerseys in the settings.\n\n- Penalty shootout when the game is a draw (works a bit awkwardly, will be enhanced in future updates).\n\n- Player names and numbers on avatars.\n\n- New gigantic 8v8 arena.\n\n- New location: 'Miami'.\n\n- You can now hide the game interface in the settings.\n\n- Fixed known bugs and enhanced multiplayer ball sync.\n\n- Changed ball bouncing to make it the same as in real life.\n\n- Height glitching prevention (will be activated a bit later).\n\n- Some minor enhancements in sound design and interface. \n\n- Visual improvements on almost all arenas.\n\n- Around 150 new store items.  \n\n+ Teleport height glitch fix\n+ Other minor hot fixes"
-            },
-            {
-                "version": "0.1",
-                "change_log": "- Strict rules featuring free kicks and penalties. Subject to further enhancements and tuning based on your feedback. Play the ball to not get a penalty.\n\n- Jerseys and a free jersey editor at jerseys.vrfs.gg. Custom jerseys only work in private lobbies and in online practice. You can switch back to simple jerseys in the settings.\n\n- Penalty shootout when the game is a draw (works a bit awkwardly, will be enhanced in future updates).\n\n- Player names and numbers on avatars.\n\n- New gigantic 8v8 arena.\n\n- New location: 'Miami'.\n\n- You can now hide the game interface in the settings.\n\n- Fixed known bugs and enhanced multiplayer ball sync.\n\n- Changed ball bouncing to make it the same as in real life.\n\n- Height glitching prevention (will be activated a bit later).\n\n- Some minor enhancements in sound design and interface. \n\n- Visual improvements on almost all arenas.\n\n- Around 150 new store items. "
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475657,
+        "changelog_update": 475801,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475777,
+        "rating_update": 475801,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475777,
+        "last_update": 475801,
         "category": "GAMES",
-        "votes": 1529,
-        "rating": 4.443427,
+        "votes": 1534,
+        "rating": 4.444589,
         "weighted_rating": 4.4
     },
     "errors": []

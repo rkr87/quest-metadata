@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.36.2",
+                "change_log": "1) Added count down timer after resuming gameplay.\n2) Added an auto convert local songs folder named \"ShadowBoXR-Songs\" to files for easier converting of local songs. This is found at the root of your device or game installation location.\n3) Bug Fixes:\n\t• Fixed multiple bugs causing errors to be thrown sometimes when navigating community content.\n\t• Fixed bug causing re-downloading a song to throw errors.\n\t• Fixed bug causing an error to be thrown when trying to search your device for custom songs.\n\t• Fixed bug causing some saved data to corrupt and throw an error."
+            },
+            {
                 "version": "0.1.36.1",
                 "change_log": "1) Added option to set default environment in player settings\n\n3) Bug Fixes:\n\t• Fixed bug causing available local MP3s to not display their name correcly sometimes.\n\t• Fixed bug causing the loading displays to sometimes throw an error when activated too quickly.\n\t• Fixed bug causing invalid game modes to display as an option causing further bugs when selected.\n\t• Fixed bug causing songs converted from MP3s to incorrectly compare to other songs resulting in unexpected results such as removing the wrong song from a playlist.\n\t• Fixed bug causing an error to be thrown when trying to determine players scores for a playlist sometimes.\n\t• Fixed bug causing some targets and obstacles to appear too closely together at the beginning of a song sometimes.\n\t• Fixed bug causing some users to experience songs not showing as available on the Convert Local Mp3s page."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.27",
                 "change_log": "New \"Dark Waters\" Environment"
-            },
-            {
-                "version": "0.1.26.1",
-                "change_log": "1) Improved creating and updating playlist workflow. If players select home button after making changes they will be prompted to save before returning.\n\t• Updating a playlist will no longer create duplicate playlist.\n\t• When playlists are updated, they maintain their sorted position.\n\n2) Bug fixes.\n\t• Song previews stop loading when returning to main menu.\n\t• Fixed issue causing an error to be thrown when deleting a playlist from the view playlist page.\n\t• Improved custom song support to support songs that by default do not have a normal mode but do have a one handed mode. This removes infinite loading screen after downloading them."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475801,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475369,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475369,
+        "last_update": 475801,
         "category": "GAMES",
         "votes": 28,
         "rating": 4.678571,

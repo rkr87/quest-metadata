@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 986
+                "votes": 987
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,6 +85,10 @@
             "logo_transparent": "39036637_429764504911745_4889807881295605772_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0.1",
+                "change_log": "Version 2.0.1 Release Notes\nAdded:\nA small targeting marker VFX for creatures with the new \"Marked\" status\n\nChanged:\nVFX for the new swords have had major performance adjustments made\nBans are now no longer handled by Unity’s Device feature but a custom solution\n\nFixed:\nBeing able to briefly see opponent’s contracts as they are played\nAaisha’s ability not incrementing the \"Use Master ability\" quest\nEternal Aetherite not incrementing the \"Banish Cards\" quest\nCovert Contractor’s tooltip being a copy of its card text\nIncorrect coloring of Worshiper of Verenthil’s model"
+            },
             {
                 "version": "2.0",
                 "change_log": "Version 2.0 Release Notes\nAdded:\nIt’s the start of a new season! Our first season outside of the core set! As with before, your previous level is saved but still no way to view it yet\n3 new Outfits (Paladin, Bishop, Sentry)\nNew Swords, Dice and Pets\nWhole new set containing 50 new cards (10 in each faction) in a new booster pack\nNew game mechanic called \"Devotion\"\nNew Statuses - Doomed, Stunned,and Marked. Suppressed is now a Status too\nNew Backlash Attribute\nA new VFX to creatures under the effects of \"Defensive Acumen\"\nNew Tavern names in honor of our Adventurers of the Month\n\nChanged:\nCards that refer to Mana spent will take into account cost and their ability\nBone Brute, Mind Corruption and Frenzied Fervor now \"Unexhaust\" instead of giving Amped\nMove has been keyworded as \"Shift\" along with elaboration on what it means\nCreatures can no longer gain/regain an Attribute they already have\nAll self-banishing cards have been updated with \"Doomed\" instead\nAll original sword props have been vaulted and cannot be purchased anymore, if you own any you are still able to summon them\nCards with 0 mana cost now show their mana symbol\n\nFixed:\nBeing unable to play creatures summoned by Global Promotions that were returned to the player’s hand\nBighorn Packbeast’s ability activating after taking 0 damage\nHeraldry of Kradam returning a Suppressed noble to the deck\nGolden Silence being able to target an already-suppressed creature\nNecromancy and Unshackle don’t count towards \"Spent 30 mana on Spells\" Quest\nWild Horde’s starter deck still being named \"Monsters Rights Association\"\nMulligan not leaving a table when no battle starts\nLavoraad Whelp’s attack animation is too long\nChanneled Destruction’s animation is too long\nBooster packs that PC players open sometimes showing in the floor to other players\nPotential fix causing the Ranked Coliseum to remain for some players\n\nBalance Changes:\nAmped no longer unexhausts creatures, only allows creature to be summoned Unexhausted\nSpells Nullified by Breach of Terms are considered as if they weren't played for Quests or Abilities\nDead or Alive now generates 1 coin instead of 2, Enhanced costs 1 less but also deals 1 less damage\nDrakth’s Call now has Doomed\nEternal Aetherite has been raised to 3/3 and it’s ability now only gives +1/+1\nFireball and Meager Misdeed’s abilities now refer to mana spent instead\nImprovised Medic is now \"Mobilize 1 or less\"\nLavoraad Whelp has changed from a 4/3 to a 3/4\nLoyal Spellshaper has had it’s Mastery reduced\nMeager Misdeed’s enhance has been reduced to 1 coin\nNecromancy and Zealous Archivist now add Doomed to their target card\nOverwhelming Magi has been buffed to 7/7 and it’s Entrance now deals damage equal to its attack instead of just 9\nSpymaster of the Guild’s \"Banes deal +1\" has been removed and added to Cunning Snaremaster instead\nSudden Onslaught’s Mobilize triggers are now \"or less\"\nTaunting has been reduced to 2 mana\nZarothrix now gains 1 Mastery for every 10 cards, instead of 5"
@@ -148,10 +152,6 @@
             {
                 "version": "0.23.1",
                 "change_log": "Version 0.23.1 Release Notes:\nAdded:\n1 new prop will now be added every Tuesday, with the first few weeks being new wand props\nVFX for some DM and PG cards\n\nFixed:\nSome Quest players being stuck on the loading screen\nDark Matter Blast dealing the wrong damage to yourself"
-            },
-            {
-                "version": "0.23",
-                "change_log": "Version 0.23 Release Notes:\nAdded:\nBattle modifiers prop which allows you to customize battle rules\nFire Wand prop\nVFX for some PG and MRA cards\n\nChanged:\nMax health is now 99\nProps menu is now organized into tabs\nImproved the animation speed of some cards\nReplaced the collection book textures\n\nFixed:\nProfanity in old deck names is now removed\nProfanity in deck names is now removed as its typed"
             }
         ],
         "on_rookie": false,
@@ -162,16 +162,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475297,
+        "changelog_update": 475801,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 475753,
+        "rating_update": 475801,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475753,
+        "last_update": 475801,
         "category": "GAMES",
-        "votes": 1363,
-        "rating": 4.253118,
+        "votes": 1364,
+        "rating": 4.253666,
         "weighted_rating": 4.2
     },
     "errors": []
