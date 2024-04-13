@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "3.5",
+                "change_log": "-Added battery percentage and current time to 2D interface\n-Added font support for more languages, including Chinese, Korean, Japanese"
+            },
+            {
                 "version": "3.4",
                 "change_log": "-Added 2D user interface for those who prefer one.  Toggle it in the System Settings page (far right).\n"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "1.6",
                 "change_log": "-Fixed a bug in the subtitle rendering\n-Automatically sets aspect ratio for half/full SBS and other videos\n-Made it easier to click on libraries and movies without scrolling\n-Fixed 180 curve settings not being set when you first start playing\n"
-            },
-            {
-                "version": "1.5",
-                "change_log": "-Fixed a bug in the ratings display\n-Added some sounds to the interface"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475681,
+        "changelog_update": 475825,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475777,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475777,
+        "last_update": 475825,
         "category": "APPS",
         "votes": 58,
         "rating": 3.310345,

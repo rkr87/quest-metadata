@@ -95,6 +95,10 @@
         },
         "changelog": [
             {
+                "version": "2.3.2",
+                "change_log": "Fixed a security issue related to Public Multiplayer"
+            },
+            {
                 "version": "2.3.1",
                 "change_log": "Fixed a crash that could occur on game start"
             },
@@ -169,10 +173,6 @@
             {
                 "version": "1.5.2",
                 "change_log": "Update 1.5 - Patch 2\n- Fixed a crash on accessing Favorites\n- Fixed Volume 2 songs sometimes unavailable in multiplayer"
-            },
-            {
-                "version": "1.5.1",
-                "change_log": "Update 1.5 - Patch 1\n\n- Fix selecting a drakkar not owned\n- Fixed a freeze happening a few minutes after launching the game (depended on the number of custom songs)\n- Fix focus last song played in song list when in subfolders\n- Fix favorite duplicate if custom song changed folder\n- UI fixes"
             }
         ],
         "on_rookie": true,
@@ -183,13 +183,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475825,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 475777,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475777,
+        "last_update": 475825,
         "category": "GAMES",
         "votes": 1436,
         "rating": 4.772284,
