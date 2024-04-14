@@ -45,7 +45,7 @@
             },
             {
                 "rating": 2,
-                "votes": 32
+                "votes": 34
             },
             {
                 "rating": 3,
@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1172
+                "votes": 1181
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.3.0\n\n- Enhanced avatar head movements\n- Potentially fixed an issue with joining private lobbies\n- Other minor bug fixes and optimizations\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.3.0\n\n- Enhanced avatar head movements\n- Potentially fixed an issue with joining private lobbies\n- Other minor bug fixes and optimizations\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.2.9\n\n- Entering lobbies is now faster\n- Private lobby slots increased to 30 (experimental)\n- Avatars updated\n- Avatars move more smoothly\n- Bug fixes\n"
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "- FREE Halloween items in the Equipment Store\n- Enhanced goal net physics\n- Optimizations in online practice, VRFS park\n- Enhanced goal tracking\n- Fixed some exploits (e.g., blocking the ball and getting free kicks)\n- Fixed bugs in penalty shootouts\n- Fixed rare bugs in rule sets (e.g., disappearing restriction zones)"
-            },
-            {
-                "version": "0.1",
-                "change_log": "- MATCH RATING (MR)\n\nMatch Rating (MR) is in early development and subject to refinement. We suggest not taking it too seriously right now. MR is determined by in-game events such as passing, gaining or losing possession. These events will be visible in your interface during gameplay. We'll refine MR based on your feedback and actual gameplay.\n\n- MATCH STATS\n\nGoals, assists, saves, interceptions, tackles, turnovers, and passes are now shown in the post-match screen. Currently, players can only see their personal match stats. Once we've ensured that everything is working correctly, we'll roll out a comprehensive match overview. Additionally, all events, including goal details like distance and shooting position, are now cloud-saved and will soon be accessible in your personal stats.\n\n- VRFS PARK\n\nThis is an experimental free-ride map featuring amenities like basketball and volleyball courts. It is currently quite empty, but more cool things and new mechanics will be added in upcoming updates. Access the park via online practice in the menu. \n\n- MATCH WITH BOTS (DEMO)\n\nBots currently behave strangely, but we have a long-term plan to make them act and look like pro players. For now, they'll tackle, pass to you, and try scoring a goal. This mode is just for fun at the moment. \n\n- BUG FIXES AND ENHANCEMENTS\n\n- - Expanded restriction zones for free-kicks and penalties\n- - Fixed penalty spot camping exploit\n- - Fixed gloves exploit (hopefully)\n- - Fixed issue where score sometimes didn't reset\n- - Reduced cooldown delay for ball spawn (when you couldn’t kick it in the first 2 seconds)\n- - Added time delay for ball re-spawn in corners/goal kicks\n- - Improved goal tracking\n- - You now see who scored a goal and who did assist\n- - New boots and almost all country-themed jerseys in the store\n\n+ + VRFS Park lags hotfix\n+ + Other minor hotfixes"
-            },
-            {
-                "version": "0.1",
-                "change_log": "- MATCH RATING (MR)\n\nMatch Rating (MR) is in early development and subject to refinement. We suggest not taking it too seriously right now. MR is determined by in-game events such as passing, gaining or losing possession. These events will be visible in your interface during gameplay. We'll refine MR based on your feedback and actual gameplay.\n\n- MATCH STATS\n\nGoals, assists, saves, interceptions, tackles, turnovers, and passes are now shown in the post-match screen. Currently, players can only see their personal match stats. Once we've ensured that everything is working correctly, we'll roll out a comprehensive match overview. Additionally, all events, including goal details like distance and shooting position, are now cloud-saved and will soon be accessible in your personal stats.\n\n- VRFS PARK\n\nThis is an experimental free-ride map featuring amenities like basketball and volleyball courts. It is currently quite empty, but more cool things and new mechanics will be added in upcoming updates. Access the park via online practice in the menu. \n\n- MATCH WITH BOTS (DEMO)\n\nBots currently behave strangely, but we have a long-term plan to make them act and look like pro players. For now, they'll tackle, pass to you, and try scoring a goal. This mode is just for fun at the moment. \n\n- BUG FIXES AND ENHANCEMENTS\n\n- - Expanded restriction zones for free-kicks and penalties\n- - Fixed penalty spot camping exploit\n- - Fixed gloves exploit (hopefully)\n- - Fixed issue where score sometimes didn't reset\n- - Reduced cooldown delay for ball spawn (when you couldn’t kick it in the first 2 seconds)\n- - Added time delay for ball re-spawn in corners/goal kicks\n- - Improved goal tracking\n- - You now see who scored a goal and who did assist\n- - New boots and almost all country-themed jerseys in the store"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475801,
+        "changelog_update": 475849,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475825,
+        "rating_update": 475849,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475825,
+        "last_update": 475849,
         "category": "GAMES",
-        "votes": 1539,
-        "rating": 4.445744,
+        "votes": 1550,
+        "rating": 4.445806,
         "weighted_rating": 4.4
     },
     "errors": []
