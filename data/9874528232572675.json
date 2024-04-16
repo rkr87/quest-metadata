@@ -47,7 +47,7 @@
             },
             {
                 "rating": 4,
-                "votes": 9
+                "votes": 10
             },
             {
                 "rating": 5,
@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "3.2.0.0",
+                "change_log": "Introduced a new persistent toolstrip with a horizontal reposition handle in both tabletop and immersive modes\nAdded a “Home” button on the new toolstrip that leads to the landing home page\nAdded shortcuts to all the main commands along the new toolstrip, namely “Presentation Mode”, “Passthrough”, “Camera Location”, “Dimensions”, “Reset Table” “Elevator”, and “Return to Tabletop”\nIntroduced a “hamburger button” that displays all menus in an expandable panel.\nIntroduced brand new iconography for all tools hosted along the toolstrip in line with the SketchUp iconography found on Desktop, Web, and Mobile\nIntroduced Passthrough for tabletop and immersive modes\nAdded an onboarding pop-up window that illustrates how to enable the passthrough functionality\nAdded a passthrough shortcut button on the Y button of the left controller that enables and disables the passthrough mode\nAdded haptic response whenever the passthrough mode is enabled or disabled\nMigrated to Universal Rendering Pipeline by Unity3D\nImproved shading for SketchUp models to better represent depth based on viewing angles "
+            },
+            {
                 "version": "3.1.1.0",
                 "change_log": "- Improved the loading time of SketchUp files on the Recent Models page.\n- Improved the loading time of Trimble Connect folders and SketchUp files on the Trimble Connect page.\n- Introduced a Loading animation in the Recent Models page to indicate when more files are being loaded.\n- Removed the model’s bounding box in both tabletop and immersive modes, avoiding its collision with the UI.\n- Extended the controller’s rays to reach the model surface rather than being interrupted by the model’s bounding box. \n- Fixed a bug where texture transformations, such as scale and rotation, were not preserved from other SketchUp clients.\n- Fixed a bug where teleport was not working in immersive mode after navigating to a scene that was far away from the model.\n- Changed the EULA user interface to make it easier to click on the Terms & Conditions “Agree” button and continue to launch the application."
             },
@@ -101,16 +105,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475897,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475801,
+        "rating_update": 475897,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475801,
+        "last_update": 475897,
         "category": "APPS",
-        "votes": 46,
-        "rating": 3.847826,
+        "votes": 47,
+        "rating": 3.851064,
         "weighted_rating": 3.7
     },
     "errors": []
