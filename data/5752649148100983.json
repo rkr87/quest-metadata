@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.36.3",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing an error to occur when trying to download custom songs.\n\t• Fixed bug causing songs to throw errors when containing certain special characters.\n\t• Fixed bug causing the in game timer to pause and not resume after pausing the game.\n\t• Fixed bug causing a three second delay when returning back to main menu."
+            },
+            {
                 "version": "0.1.36.2",
                 "change_log": "1) Added count down timer after resuming gameplay.\n2) Added an auto convert local songs folder named \"ShadowBoXR-Songs\" to files for easier converting of local songs. This is found at the root of your device or game installation location.\n3) Bug Fixes:\n\t• Fixed multiple bugs causing errors to be thrown sometimes when navigating community content.\n\t• Fixed bug causing re-downloading a song to throw errors.\n\t• Fixed bug causing an error to be thrown when trying to search your device for custom songs.\n\t• Fixed bug causing some saved data to corrupt and throw an error."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.28",
                 "change_log": "1) Players can now create custom environments with custom skyboxes. Currently this is limited to only custom skyboxes. Currently custom skyboxes are limited to .Png, .Jpg, and .Jpeg pictures.  Create new environments under custom content.  Images are searched for in the downloads folder.  Simply download the image you want and select to add new skyboxes!\n\n2) Community content loading screen improved. Now simply disables the view and does not block the option select to listen, download, or home button."
-            },
-            {
-                "version": "0.1.27",
-                "change_log": "New \"Dark Waters\" Environment"
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475801,
+        "changelog_update": 475921,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475369,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475801,
+        "last_update": 475921,
         "category": "GAMES",
         "votes": 28,
         "rating": 4.678571,
