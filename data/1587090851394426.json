@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "6.2.2-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
+            },
+            {
+                "version": "6.2.2-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
+            },
+            {
                 "version": "6.2.1-generalqog",
                 "change_log": "🚀 Features & Tweaks\n\n- The Section View tool now snaps to axes by default. Holding the shift trigger now allows for free rotation.\n\n🐛 Bug Fixes\n\n- Fixed export presets sometimes not appearing if loading into a sketch quickly after launching the app.\n- Fixed transparent screenshot background not being transparent.\n- Fixed a case with the Gravity Sketch Launcher which could cause it to fail to update the client to 6.2."
             },
@@ -140,14 +148,6 @@
             {
                 "version": "6.1.10-generalqog",
                 "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Subdivision and crease data is now included in FBX control mesh exports. This allows tools like Blender and Alias to apply crease and subd modifiers automatically.\n- Improved stroke performance.\n\n🐛 Bug Fixes\n\n- Fixed ‘Shared With Me’ section in LandingPad Collab menu not showing if the user was not part of any organization teams.\n- Can no longer see grab highlight of objects dropped on to an invisible layer.\n- Closed volumes such as strokes and text objects no longer export as double-sided in FBX exports.\n- Fixed some environments causing LIV avatars to be invisible.\n- Disabled import, save and export for reviewer and viewer licence members in organizations.\n- Fixed measurement readout on import preview being incorrect if you changed the unit and then the value of measurement."
-            },
-            {
-                "version": "6.1.9-generalqog",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed entering a custom measurement value during the import process not being accurate if you did it more than once."
-            },
-            {
-                "version": "6.1.9-generalqc",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed entering a custom measurement value during the import process not being accurate if you did it more than once."
             }
         ],
         "on_rookie": false,
@@ -158,7 +158,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475921,
+        "changelog_update": 475945,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 475753,
@@ -168,7 +168,7 @@
             "model",
             "design"
         ],
-        "last_update": 475921,
+        "last_update": 475945,
         "category": "APPS",
         "votes": 1073,
         "rating": 4.091333,

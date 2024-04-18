@@ -46,11 +46,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 888
+                "votes": 889
             },
             {
                 "rating": 2,
-                "votes": 342
+                "votes": 344
             },
             {
                 "rating": 3,
@@ -58,11 +58,11 @@
             },
             {
                 "rating": 4,
-                "votes": 987
+                "votes": 988
             },
             {
                 "rating": 5,
-                "votes": 2940
+                "votes": 2944
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -91,6 +91,10 @@
             "logo_transparent": "38974854_983052469269561_8502071290114778667_n.png"
         },
         "changelog": [
+            {
+                "version": "1.11.0+214967",
+                "change_log": "WARDROBE UPDATE\nWe’ve upgraded Crewmate closets, making it easier to customize and put together your perfect beansona!\n- New layout to more easily equip cosmetics\n- More cosmetics (and colors) visible on one page within the Wardrobe\n- New bean animations to showcase cosmetics before final selection\n- Added the ability to spin the Crewmate in the Wardrobe, to be able to view cosmetics from different angles\n- Purchase hats during a live game (while in lobby mode) and then wear it immediately!\n\nADDITIONAL UPDATES\nIt can’t be completely unexpected that we have made adjustments to some behind-the-scenes code. We won’t bore you with the specifics tho!\n- Server-side LTE Support\n- URP upgrades to graphics pipeline\n- Future LTE mysteries\n\nBUG FIXES\n- Improved kill button detection to act more consistently when targeting players and avoiding accidental kills as often\n- Adjusted Retina Scan task to avoid inconsistent times for task completion\n- Fixed an issue where some tasks might trigger in the incorrect area due to aggressive interaction areas\n- Fixed an issue where going in and out of vents could cause some visual issues due to aggressive culling\n- Improved transitions between loading in and out of the lobby to the main menu across different platforms\n- Improved blindboxes in various spots for existing maps\n- Fixed various small graphical issues across Polus Point due to environment and props having small overlap or z-fighting issues\n- Fixed issue where the wardrobe would show another color selected when entering a map with another player already taking that color\n- Pass at making performance more consistent in Polus and other maps with various tech adjustments\n- Small performance optimizations for existing maps to reduce number of drawn doors\n- Fixed an issue where certain regions would have issues with confirming agreements due to improper calendar dates\n- Added missing captions for some map events\n- Fixed an issue where focus lost text would be way too small\n- Fixed and improved localizations including incorrect font sizes and missing translations for various languages"
+            },
             {
                 "version": "1.11.0+214724",
                 "change_log": "WARDROBE UPDATE\nWe’ve upgraded Crewmate closets, making it easier to customize and put together your perfect beansona!\n- New layout to more easily equip cosmetics\n- More cosmetics (and colors) visible on one page within the Wardrobe\n- New bean animations to showcase cosmetics before final selection\n- Added the ability to spin the Crewmate in the Wardrobe, to be able to view cosmetics from different angles\n- Purchase hats during a live game (while in lobby mode) and then wear it immediately!\n\nADDITIONAL UPDATES\nIt can’t be completely unexpected that we have made adjustments to some behind-the-scenes code. We won’t bore you with the specifics tho!\n- Server-side LTE Support\n- URP upgrades to graphics pipeline\n- Future LTE mysteries\n\nBUG FIXES\n- Improved kill button detection to act more consistently when targeting players and avoiding accidental kills as often\n- Adjusted Retina Scan task to avoid inconsistent times for task completion\n- Fixed an issue where some tasks might trigger in the incorrect area due to aggressive interaction areas\n- Fixed an issue where going in and out of vents could cause some visual issues due to aggressive culling\n- Improved transitions between loading in and out of the lobby to the main menu across different platforms\n- Improved blindboxes in various spots for existing maps\n- Fixed various small graphical issues across Polus Point due to environment and props having small overlap or z-fighting issues\n- Fixed issue where the wardrobe would show another color selected when entering a map with another player already taking that color\n- Pass at making performance more consistent in Polus and other maps with various tech adjustments\n- Small performance optimizations for existing maps to reduce number of drawn doors\n- Fixed an issue where certain regions would have issues with confirming agreements due to improper calendar dates\n- Added missing captions for some map events\n- Fixed an issue where focus lost text would be way too small\n- Fixed and improved localizations including incorrect font sizes and missing translations for various languages"
@@ -142,10 +146,6 @@
             {
                 "version": "1.0.3+199448",
                 "change_log": "Free We’re No. WUN! Trophy Hat - GMA"
-            },
-            {
-                "version": "1.0.2+198820",
-                "change_log": "Stability Refactor Overview\n— Connection/Black Void issues \n— Players not being able to join lobbies \n— Players not being fully visible \n— General connection issues as it relates to network traffic\n— Host migration to no longer cause broken states (Works for both Meta & Steam)\n\nDisplay Name \n— New Users\n— — Hide Username will be unchecked for 16+\n— — Under 16 will not have the option and default to color \n\nSpecific Bug Fixes\nCONNECTION\n— Updated networking logic to reduce data sent and improve performance and reliability in general\n— Made major changes to handling player connecting and spawn in to reduce players getting stuck in a black void while attempting to join a game\n— Adjusted connection logic to reduce the number of times player will experience timeout exceptions\n— Improved host migration process so it's much less common for players to get stuck in a black void during the migration\n— Fixed issue where player could join a lobby and be invisible to other players\n\nAGE CHECK\n— Fixed age check prompt to correctly validate dates based on MM/DD/YYYY regardless of location\n— Fixed age check being repeated asked upon returning back to the menu rather than just once when starting up the game \n\nBLIND VOLUMES\n— Adjusted blind volume positions on the Skeld to avoid accidental blindspots in various locations \n— Fixed an issue where dying inside of a blindbox would disable it\n\nVISUALS\n— Fixed anti-grief volumes would disable after a few seconds when clipping through a player during the pre-game lobby \n— Fixed shadows occasionally not appear on players when they first spawn into a lobby\n— Fixed issue where hands would briefly flash in a different location when releasing a button after an interaction\n— Fixed issue where all hands would appear briefly when reporting a body before returning to the lobby\n— Fixed issue where corpses from previous rounds and games would continue to remain visible for players even when starting a new game\n— Fixed issue where previous victim's name would be displayed when reporting a new body\n— Fixed a minor blip where the Impostor would briefly reappear in front of a vent after exiting another vent \n— Tightened transitions between cutscenes \n\nMINIGAMES\n— Fixed an issue where Impostors would have a yellow highlight around non-completed tasks from a previous game\n— Fixed an issue where getting killed within a minigame would not restart the minigame unless you moved in and out manually \n— Fixed players would snap to tasks in the Cafeteria during emergency meetings\n— Fixed Upload Data task in Admin never resetting if leaving the Admin room while task was still active \n— Fixed Calibrate Distributors not correctly resetting visuals when leaving before completing the task \n— Fixed Align Engines issue where stepping away from the task could change your progress\n— Fixed Chart Course continuing to play a sound even when disengaged with the task \n— Ghosts are no longer able to interact with the O2 sabotage \n— Fixed light sabotages not always correctly turning off in the lobby if timed correctly with a transition \n— Fixed an issue with Reactor sabotage would not resolve if using the trigger/grip button as the host \n— Fixed a rare issue where successfully completing tasks would not win the game for the Crewmates \n\nTUTORIAL\n— Fixed issue where Crewmate death notification would not appear in tutorial \n— Fixed issue where footsteps could continue to play as a ghost in the tutorial \n— Fixed rare cases where you could never fix the O2 sabotage \n— Fixed critical sabotage not appearing on the map while active \n\nUI\n— Settings menu can no longer be toggled on during cutscenes \n— Fixed issue where player reticles would disable early when interacting with multiple overlapping interaction areas \n— Fixed player chat and other UI being visible over the blinders \n— Fixed issue where placeholder text could be seen on the age verification UI \n— Fixed disconnected players still remaining visible on meeting interfaces during an emergency meeting \n— Fixed vote button remaining highlighted after voting when using both hands at the same time \n— Fixed minimap occasionally flickering after stopping or moving into a new room \n— Fixed an issue where the wardrobe button would remain highlighted if clicked repeatedly before it opens \n— Fixed countdown timer not re-appearing if a player had left and rejoined a lobby during a previous countdown \n— Fixed an issue where the holomap would show a player in the Upper Engine position even when no one was there \n— Fixed an issue where the holomap in Admin would not update in real-time with players \n— Fixed an issue where the Crewmate’s body would not be in the correct location if getting killed never leaving the cafeteria \n— Fixed an issue where the buttons on the start screen would make incorrect SFX sounds when hovered \n— Fixed an issue were the countdown timer would be obscured while in the wardrobe \n\nVENTING\n— Fixed vent bars not appearing at the correct position while looking out of the vent in Cafeteria\n— Fixed an issue where player can end up in a black screen when venting when match ends\n— Fixed an issue where you could get stuck in a vent when transitioning while an emergency was called\n— Fixed a rare issue where the Imposter's collision box would stop working if the game ended while in a vent\n\nMISC\n— Fixed rare crash for the game if the HMD device was not found when starting the game \n— Fixed issue where footsteps could play a bit too often even when not moving \n— Fixed issue where player could walk through locked lobby doors if they moved quickly enough when returning back to the lobby \n— Fixed rare issue where leaving the invite player menu on Oculus Quest could cause the controller to rumble indefinitely \n— Fixed issue where no timeout error popup would appear when being disconnected by the host in some instances \n— Fixed host migrations not working on Steam with voice clients \n— Fixed being able to set your Snap Turn setting to 0 degrees \n— Added notification if the game is unable to save any data because the system is out of disk space \n— Added notification when a game window is not focused and is not accepting player input\n— Added missing localization for internet not found message"
             }
         ],
         "on_rookie": false,
@@ -156,10 +156,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475801,
+        "changelog_update": 475945,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 475921,
+        "rating_update": 475945,
         "iarc_detail_update": 475657,
         "keywords": [
             "social",
@@ -167,10 +167,10 @@
             "parti",
             "casual"
         ],
-        "last_update": 475921,
+        "last_update": 475945,
         "category": "GAMES",
-        "votes": 5740,
-        "rating": 3.827352,
+        "votes": 5748,
+        "rating": 3.82707,
         "weighted_rating": 3.8
     },
     "errors": []
