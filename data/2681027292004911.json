@@ -90,6 +90,22 @@
         },
         "changelog": [
             {
+                "version": "598",
+                "change_log": "f82d1025-b1ef-c34e-0a88-4f44e3ba8155"
+            },
+            {
+                "version": "597",
+                "change_log": "3e91b4d9-3c47-be0c-79a6-a464c5a85212\n- hotfix for inventory issue"
+            },
+            {
+                "version": "593",
+                "change_log": "946f9205-38fd-cfde-1003-7c395dbced68\n\n- upgraded unity version to 2021.3.35f1\n- new: added hunter class (bow, throwing knife)\n- new: added sunless keep area\n- new: added nature tarot card set\n- added difficulty text popup on run start\n- added xr setting for haptics scale\n- added palm-up quick grab for all sidearms\n- fixed bug handling large donated sun total values\n- fixed class table allowing unlocked class selection\n- fixed damage zones still damaging after boss2 kill\n- fixed insta-kill card effects\n- fixed issues with missing chests in ASH stages\n- fixed kar98k crystal slot position\n- fixed left handed sniper inventory layout\n- fixed random item shrine audio\n- fixed random item shrine purchase price calculation\n- fixed some issues with non-engineer drone going into pouch\n- fixed some missing waypoints in temple on class unlocks\n- fixed soul's light double damage not applying\n- fixed various text errors on class descriptions\n- fixed weapons sometimes not going back to holster\n- improve shader pre-warming code\n- improved placement of random shrines and npcs\n- improved throwing calculations\n- increased merchant room chest spawn rate\n- moved temple sacred memories shrine up the hill\n- optimized equipment lookups\n- optimized save data handling\n- optimized quest rendering\n- optimized quest 2 rendering further\n- split quest2 & quest3 builds to seperate packages"
+            },
+            {
+                "version": "594",
+                "change_log": "6cc72c8e-ebb9-39e8-d784-8401f7fae9c8\n\n- upgraded unity version to 2021.3.35f1\n- new: added hunter class (bow, throwing knife)\n- new: added sunless keep area\n- new: added nature tarot card set\n- added difficulty text popup on run start\n- added xr setting for haptics scale\n- added palm-up quick grab for all sidearms\n- fixed bug handling large donated sun total values\n- fixed class table allowing unlocked class selection\n- fixed damage zones still damaging after boss2 kill\n- fixed insta-kill card effects\n- fixed issues with missing chests in ASH stages\n- fixed kar98k crystal slot position\n- fixed left handed sniper inventory layout\n- fixed random item shrine audio\n- fixed random item shrine purchase price calculation\n- fixed some issues with non-engineer drone going into pouch\n- fixed some missing waypoints in temple on class unlocks\n- fixed soul's light double damage not applying\n- fixed various text errors on class descriptions\n- fixed weapons sometimes not going back to holster\n- improve shader pre-warming code\n- improved placement of random shrines and npcs\n- improved throwing calculations\n- increased merchant room chest spawn rate\n- moved temple sacred memories shrine up the hill\n- optimized equipment lookups\n- optimized save data handling\n- optimized quest rendering\n- optimized quest 2 rendering further\n- split quest2 & quest3 builds to seperate packages"
+            },
+            {
                 "version": "576",
                 "change_log": "e885c7f8-0cd4-2bc8-afde-f57086cf3691"
             },
@@ -152,22 +168,6 @@
             {
                 "version": "428",
                 "change_log": "7569474d-0f85-0fd1-a459-7e03509b4f23"
-            },
-            {
-                "version": "391",
-                "change_log": "501095b2-dd1b-1a91-a174-f1976bdc9b31"
-            },
-            {
-                "version": "0.12",
-                "change_log": "fix tutorial, snow volume"
-            },
-            {
-                "version": "0.11",
-                "change_log": "vertical slice build, with splash"
-            },
-            {
-                "version": "0.1",
-                "change_log": "vertical slice build!"
             }
         ],
         "on_rookie": true,
@@ -178,7 +178,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475969,
         "keyword_update": 474881,
         "tag_update": 475633,
         "rating_update": 475921,
@@ -189,7 +189,7 @@
             "shooter",
             "military"
         ],
-        "last_update": 475921,
+        "last_update": 475969,
         "category": "GAMES",
         "votes": 870,
         "rating": 4.535632,

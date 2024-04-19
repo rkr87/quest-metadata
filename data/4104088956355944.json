@@ -47,11 +47,11 @@
             },
             {
                 "rating": 4,
-                "votes": 290
+                "votes": 291
             },
             {
                 "rating": 5,
-                "votes": 5407
+                "votes": 5428
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.44.2",
+                "change_log": "- Added option to open published levels that are not saved on the headset anymore in the editor.\n- Added option to filter levels in the editor by published and unpublished.\n- Added a search for your levels in editor.\n- You can now complete delete a level from the \"Save\" screen.\n- Fixed a bug with autosaves getting overwritten when they shouldn't.\n- Fixed a rare crash that could happen with coins in the level while loading a new level."
+            },
             {
                 "version": "0.44.1",
                 "change_log": "- The amount of levels and players asking for tips has gotten a bit out of hand and as a result I updated the community guidelines to no longer allow asking for tips in any way. Any new cases after this update will get warnings or bans. Levels that already did it before will be removed if not updated (but without anyone getting bans for it). So please update your levels if needed.\n- Added new report options to report levels and users: Asking for Tips.\n- Fixed some crashes."
@@ -151,10 +155,6 @@
             {
                 "version": "0.42.0",
                 "change_log": "- New Lobby.\n- New wild west cosmetics pack.\n- Made getting crushed by animated blocks more reliable.\n- Changed networked data layout to better handle changes to animations."
-            },
-            {
-                "version": "0.41.4",
-                "change_log": "- Improved collision behavior between fast moving player and static objects.\n- The calculation of how far down you have to fall to respawn now accounts for animations.\n- Fixed in-game music not playing.\n- Fixed creating a checkpoint with the thumbstick not updating the number of checkpoints in the pause menu if it was opened.\n- Fixed a crash that could happen when adding your favorite levels to the playlist.\n- Fixed a crash that could happen if due to connection errors cosmetics data failed loading.\n- Disabled snow particles in the main menu."
             }
         ],
         "on_rookie": false,
@@ -165,16 +165,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475876,
+        "changelog_update": 475969,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 475945,
+        "rating_update": 475969,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475945,
+        "last_update": 475969,
         "category": "GAMES",
-        "votes": 5914,
-        "rating": 4.825161,
+        "votes": 5936,
+        "rating": 4.82564,
         "weighted_rating": 4.8
     },
     "errors": []

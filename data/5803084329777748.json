@@ -52,7 +52,7 @@
             },
             {
                 "rating": 3,
-                "votes": 3
+                "votes": 2
             },
             {
                 "rating": 4,
@@ -60,7 +60,7 @@
             },
             {
                 "rating": 5,
-                "votes": 52
+                "votes": 58
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,29 +86,33 @@
         },
         "changelog": [
             {
+                "version": "1.6.0",
+                "change_log": "Bug fixes:\nOrcs getting trough a floor during death animation\nOrc shaman fireballs getting blocked when defender placed on same tile\nPicking star while game was paused, resulted in hand getting stuck\nReset defender cooldowns on level restart\nLevel floor missing sometimes on restart\nPicking up orc dead orc ragdoll in minigames fix\nHands visual feedback when currency is picked up"
+            },
+            {
                 "version": "1.4.2",
                 "change_log": "Graphical overhaul - new visuals for enemies and defenders (tank, firebreathing dinosaur, and more)\n\nInteractive game map with level progression\n\nImproved tile-based game board with door portals to defend and orcs' gate\n\nNew UI and improved interactions\n\nNew tutorial and wizard companions"
             }
         ],
         "on_rookie": true,
-        "general_update": 475897,
+        "general_update": 475969,
         "genre_update": 475297,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 475801,
         "platform_update": 475297,
         "player_mode_update": 474685,
-        "changelog_update": 475801,
+        "changelog_update": 475969,
         "keyword_update": 474685,
         "tag_update": 475801,
-        "rating_update": 475945,
+        "rating_update": 475969,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475945,
+        "last_update": 475969,
         "category": "GAMES",
-        "votes": 67,
-        "rating": 4.701493,
-        "weighted_rating": 4.5
+        "votes": 72,
+        "rating": 4.75,
+        "weighted_rating": 4.6
     },
     "errors": []
 }
