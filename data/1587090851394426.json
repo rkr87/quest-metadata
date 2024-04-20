@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -78,12 +78,28 @@
         },
         "changelog": [
             {
-                "version": "6.2.2-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
+                "version": "6.2.5-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed being unable to load sketches containing uncreased subdivision objects"
+            },
+            {
+                "version": "6.2.5-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed being unable to load sketches containing uncreased subdivision objects"
             },
             {
                 "version": "6.2.2-generalqc",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
+            },
+            {
+                "version": "6.2.2-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
+            },
+            {
+                "version": "6.2.4-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed different files with the same name sometimes sharing the same locally cached thumbnail.\n- Fixed an issue that caused some creases on creased subdivision objects that were created via a baking or Separate action to persist permanently in Collab.\n- Prefabs made by grabbing and dropping sketch objects into the import panel now correctly retain layer group information.\n- Restrict to Mirror option no longer restricts the movement of unmirrored objects.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed Guest Team room exports saving to personal files."
+            },
+            {
+                "version": "6.2.4-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed different files with the same name sometimes sharing the same locally cached thumbnail.\n- Fixed an issue that caused some creases on creased subdivision objects that were created via a baking or Separate action to persist permanently in Collab.\n- Prefabs made by grabbing and dropping sketch objects into the import panel now correctly retain layer group information.\n- Restrict to Mirror option no longer restricts the movement of unmirrored objects.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed Guest Team room exports saving to personal files."
             },
             {
                 "version": "6.2.1-generalqog",
@@ -132,22 +148,6 @@
             {
                 "version": "6.1.13-generalqog",
                 "change_log": "🐛 Bug Fixes\n\n- Fixed an issue where FBX exports that contained multiple objects with the same material name could share the same color even when not the same color in Gravity Sketch.\n- Fixed an issue where connecting subdivision to the mirror, moving it off of the world mirror then baking mirror caused the newly baked copy to behave as if still attached to original.\n- Fixed an issue where connecting subdivison or strokes to the mirror, moving it off the world mirror, baking mirror then remirroring the original caused it to be mirrored on local mirror rather than world mirror."
-            },
-            {
-                "version": "6.1.12-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed depth of field slider on screenshot also applying to view points.\n- Crease data is now included in FBX control mesh exports of thickened subdivision objects.\n- Fixed a frequent request to server causing issues."
-            },
-            {
-                "version": "6.1.12-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed depth of field slider on screenshot also applying to view points.\n- Crease data is now included in FBX control mesh exports of thickened subdivision objects.\n- Fixed a frequent request to server causing issues."
-            },
-            {
-                "version": "6.1.10-generalqc",
-                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Subdivision and crease data is now included in FBX control mesh exports. This allows tools like Blender and Alias to apply crease and subd modifiers automatically.\n- Improved stroke performance.\n\n🐛 Bug Fixes\n\n- Fixed ‘Shared With Me’ section in LandingPad Collab menu not showing if the user was not part of any organization teams.\n- Can no longer see grab highlight of objects dropped on to an invisible layer.\n- Closed volumes such as strokes and text objects no longer export as double-sided in FBX exports.\n- Fixed some environments causing LIV avatars to be invisible.\n- Disabled import, save and export for reviewer and viewer licence members in organizations.\n- Fixed measurement readout on import preview being incorrect if you changed the unit and then the value of measurement."
-            },
-            {
-                "version": "6.1.10-generalqog",
-                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Subdivision and crease data is now included in FBX control mesh exports. This allows tools like Blender and Alias to apply crease and subd modifiers automatically.\n- Improved stroke performance.\n\n🐛 Bug Fixes\n\n- Fixed ‘Shared With Me’ section in LandingPad Collab menu not showing if the user was not part of any organization teams.\n- Can no longer see grab highlight of objects dropped on to an invisible layer.\n- Closed volumes such as strokes and text objects no longer export as double-sided in FBX exports.\n- Fixed some environments causing LIV avatars to be invisible.\n- Disabled import, save and export for reviewer and viewer licence members in organizations.\n- Fixed measurement readout on import preview being incorrect if you changed the unit and then the value of measurement."
             }
         ],
         "on_rookie": false,
@@ -158,7 +158,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475945,
+        "changelog_update": 475993,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 475969,
@@ -168,7 +168,7 @@
             "model",
             "design"
         ],
-        "last_update": 475969,
+        "last_update": 475993,
         "category": "APPS",
         "votes": 1074,
         "rating": 4.090317,

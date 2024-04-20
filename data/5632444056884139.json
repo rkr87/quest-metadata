@@ -43,11 +43,11 @@
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 4,
-                "votes": 3
+                "votes": 2
             },
             {
                 "rating": 5,
@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.2.0",
+                "change_log": "[Improvement] Added a new option to completely disable joystick turning for players.\n[New Feature] Introducing \"Floor Pop\" arena game mode where players must outlast others by navigating disappearing platforms.\n[Fix] Addressed several minor visual bugs.\n[Fix] Resolved an issue that prevented players from entering the arena in private lobbies with more than four participants.\n[Other] Internal improvements. "
+            },
+            {
                 "version": "1.1.0",
                 "change_log": "- [New Feature] Players can now choose their server region, either in the settings menu or within the group up room, providing greater control over matchmaking and connectivity.\n- [New Feature] Introducing a new multiplayer level: Split Valley Woods. Explore this exciting new environment with friends in multiplayer mode.\n- [Fix] Addressed minor level issues and implemented internal system enhancements for improved gameplay stability.\n- [Fix] Corrected an issue where appear spikes causing damage did not align correctly with visual cues before initial strike.\n- [Fix] Resolved an exploit where players could become invulnerable by pausing the game immediately after taking damage.\n- [Fix] Resolved an issue where pausing during fog transitions into arena gameplay could cause the transition to become stuck.\n- [Potential Fix] Investigated and addressed reports of players falling through the floor upon respawning at the boss level. Further testing is ongoing to confirm the effectiveness of the solution."
             },
@@ -93,16 +97,16 @@
         "language_update": 475001,
         "platform_update": 475001,
         "player_mode_update": 475001,
-        "changelog_update": 475633,
+        "changelog_update": 475993,
         "keyword_update": 475001,
         "tag_update": 475001,
-        "rating_update": 475945,
+        "rating_update": 475993,
         "iarc_detail_update": 475001,
         "keywords": [],
-        "last_update": 475945,
+        "last_update": 475993,
         "category": "GAMES",
         "votes": 30,
-        "rating": 4.766667,
+        "rating": 4.733333,
         "weighted_rating": 4.4
     },
     "errors": []

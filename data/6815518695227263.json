@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.0",
+                "change_log": "Version 1.0\n\nAdditions\n\n- Added haptics for controllers\n- Added support for sorting lists\n- Added button to remove slide from show\n- Can now manually change 3D image projection type\n- Added video controls\n- Added tooltips for controller buttons\n- Added brightness, contrast and saturation controls to image\n- Moved projection and advanced menus into the control bar\n- Slideshows will now automatically prefill their name\n- Added new editor and viewer modes\n  - This will allow an editor to customize the viewable content in a slideshow for a viewer. The viewer mode has reduced functionality and is only able to move through the slideshow\n- Added sort button to \"Create slideshow\" menu\n\nReworks\n\n- Menu movement is snappier and is more tolerent to head movements before moving\n- User can now continue using the app while downloading, clicking on the download bar will return the user to the download menu\n- Made text bigger for easier viewing\n- Menus are now much closer\n\nBug Fixes\n\n- Fixed an issue where permissions would constantly be requested\n- Fixed a few of the visual states for buttons\n- Fixed an issue where all images with dual fisheye projection were flipped\n\nKnown issues\n\n- Downloading from a GoPro Max will sometimes fail the first time but will succeed on any attempts after\n- Video handle won't move while dragging\n- Dual fisheye videos sometimes out of sync\n- Brightness contrast etc sliders don't always get remembered picture to picture\n- White spots at the poles of the viewing area when viewing a video"
+            },
+            {
                 "version": "0.9",
                 "change_log": "### Version 0.9\n\n- Added support for video\n- Improved UX\n- Added automatic image projection detection\n  - This currently doesn't have a manual override but is planned to in the future\n- Downloads will now happen in the background\n  - The user must currently still wear the headset while downloads are occurring, this will be looked into for a future update\n- Deselecting a slide from a slideshow should now prevent it from being shown when viewing the slideshow\n\n#### Known issues\n\n- Downloading from a GoPro Max will sometimes fail the first time but will succeed on any attempts after\n- Ghosting and fractal effects on equirectangular and dual fisheye projection types"
             },
@@ -104,13 +108,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475225,
+        "changelog_update": 475993,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475633,
+        "last_update": 475993,
         "category": "APPS",
         "votes": 1,
         "rating": 5.0,

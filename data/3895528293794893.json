@@ -24,10 +24,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -80,6 +80,10 @@
             "logo_transparent": "39031451_317668176034231_3292549819560905785_n.png"
         },
         "changelog": [
+            {
+                "version": "1.300",
+                "change_log": "Alcove 1.3\n- Added support for Quest 3, Quest Pro. Improved support for Quest 2.\n     - Sunsetting Quest 1 support. Quest 1 users will not receive this update.\n- Fixed several bugs related to controller and hand tracking.\n\n- Dozens of bug fixes and quality of life improvements.\n- Performance improvements.\n- Enabled reporting system.\n- Fixed cloud backup.\n- Fixed downloads not sticking around after restarting.\n\n- Enhanced visuals\n     - Increased resolution.\n     - Improved avatar visuals and support.\n     - Higher quality lighting and reflections.\n     - Refreshed default photo library.\n     - Improved UI visuals.\n     - New sounds too!\n\n- Staying Sharp DLC\n    - Added environment control options.\n          - Available in both paid and free games.\n\nThanks for visiting Alcove!\n\nPlease reach out to alex@rendever.com if you encounter any issues or have feedback."
+            },
             {
                 "version": "1.214",
                 "change_log": "1.214\n- Minor bug fixes\n  - Fixed checkers freeze when AI attempts to capture multiple pieces.\n  - Fixed password reset panel displaying incorrect messaging.\n\n1.211\n- We're back!\n- Added support for Quest Pro\n- Minor visual improvements\n- Third party content fixes\n- Several bug fixes and performance improvements.\n\n- Multiplayer Improvements:\n     • Added support for Meta Avatars\n     • Added support for Meta Invites\n     • Added room code invite option\n     • Improved voice quality\n     • Major bug fixes and performance improvements\n\n- Video Improvements:\n     • Improved performance\n     • Improved buffering speed\n     • Several bug fixes\n\n- UI:\n     • Major bug fixes and improvements\n     • Added alert when internet connection is lost\n     • Account creation fixes\n     • Visual improvements"
@@ -155,10 +159,6 @@
             {
                 "version": "1.151",
                 "change_log": "1.151\n- Major update to Alcove Settings!\n       - Added option for Smooth Locomotion.\n       - Added option for Visible Avatars in Media.\n       - Visual update to improve clarity.\n- Fixed several issues related to account usage.\n- Improved loading times.\n- Fixed missing effects in certain environments.\n- Avatars now fade out within a certain distance.\n- Keyboard improvements.\n- Fixed being unable to interact with UI in certain positions.\n- Several bug fixes and performance improvements.\n\n1.142\n- Minor fixes for in-app account creation.\n\n1.141\n- New experience: MultiBrush by Rendever  - Available on App Lab!\n- Don't have an Alcove account? We've added in-app account creation.\n- Into Space DLC now has preview trailers.\n- Reduced app size.\n- Bug fixes and Optimization.\n\n1.129\n- New experience: Jigsaw 360 - Multiplayer coming soon!\n- New videos from Malta in the travel globe!\n- Fixed issue where multiple avatars would overlap when teleporting\n- Fixed issue where avatar profile icons would load incorrectly"
-            },
-            {
-                "version": "1.142",
-                "change_log": "1.142\n- Minor fixes for in-app account creation.\n\n1.141\n- New experience: MultiBrush by Rendever  - Available on App Lab!\n- Don't have an Alcove account? We've added in-app account creation.\n- Into Space DLC now has preview trailers.\n- Reduced app size.\n- Bug fixes and Optimization.\n\n1.129\n- New experience: Jigsaw 360 - Multiplayer coming soon!\n- New videos from Malta in the travel globe!\n- Fixed issue where multiple avatars would overlap when teleporting\n- Fixed issue where avatar profile icons would load incorrectly\n\n1.126\n- SpeedSort moved from interactive table to Brain Games DLC\n- You can continue to play for free with the preview option!\n\n- Fixed issue with SpeedSort not launching correctly\n- Fixed String Recall locking up in certain situations\n\n1.123\n- Fixed issue with Globe pointing to the wrong version of Wander\n- Fixed issue with quick menu when using Quest 1\n- Fixed issue with Quest 2 pointers\n\n1.121\n- Fixed back button not working on Quest 2\n- Added all Virtuleap games to the cube in the health area\n\n1.120\n- New experience from Virtuleap, Magic Deck!\n- Two new visitation videos from David Lobser!\n- Fixed case where users were unable to interact in the Travel area\n- Fixed chess promotion not updating visuals\n- Adjusted volume and sound for high score in Staying Sharp DLC\n- Fixed case where you could follow a user while leading them\n\n1.115\n- Over 20 new brain games added to the Staying Sharp bundle!\n- Fix for an issue that could cause avatars to appear as only hands without a body \n- Voice communication is now maintained while users are in single player games\n\n1.111\n- Hotfix for missing Brain Games content.\n\n1.110\n- Happy holidays from Alcove!\n- Festive decor has been added to the living room\n- New holiday music videos have been added to the violin\n- Previous Staying Sharp games have returned to the interactive table\n- Performance and memory improvements\n\n1.108\nNew Premium Content:\n- Into Space by Faber Courtial -- Take off into space with 2 gravity-defying expeditions, 14 and 11 minutes each. These award-winning short VR films from Faber Courtial took the world by storm at Cannes XR, Venice Film Festival, Tribeca and many more, by conveying how it must feel to actually be out in the open cosmos. Visit unknown worlds of extraordinary richness, detail and authenticity - perfectly reconstructed in 3D from original NASA and ESA data. \n- AARP Staying Sharp Games --Test your recall, focus, word skills and more with this variety fun-pack of 22 short, 1-minute games! Track your progress and master 3 levels of difficulty in the categories of Logic, Language, Visual, Speed, Focus and Memory, recreated from AARP’s popular Staying Sharp digital program (https://stayingsharp.aarp.org/about/brain-health/games-play/). Season one includes Visual Sudoku, Mahjong Match, Grow Words, Math Bubbles, Pipe Dreams, Secret Symbols, and many more favorites from AARP’s premium content. Have you played the original version? Which one do you like more? \n\nNew Feature:\n- Photo rotation - we've added the ability to rotate photos. Click on each photo to bring up the options."
             }
         ],
         "on_rookie": false,
@@ -169,7 +169,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 475993,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 475897,
@@ -181,7 +181,7 @@
             "social",
             "entertainment"
         ],
-        "last_update": 475897,
+        "last_update": 475993,
         "category": "APPS",
         "votes": 476,
         "rating": 3.739496,
