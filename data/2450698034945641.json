@@ -39,10 +39,10 @@
             "Spanish (Venezuela)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -97,6 +97,10 @@
         },
         "changelog": [
             {
+                "version": "1.11.252956-release",
+                "change_log": "- Added Quest 3 support!\n- Added additional animations for Alva in the title screen.\n- Removed a visual flash that could appear when starting too quickly from the title screen.\n- Hid your virtual hands when opening the system menu and when controllers are turned off.\n- Updated lighting throughout the game.\n\n"
+            },
+            {
                 "version": "1.9.88216",
                 "change_log": "Wonderglade Quest Patch notes\n- Improved frame rate stability in Magic Mayhem\n- Improved frame rate for scene transitions\n- Fixed issue in Tip&Tilt and Tiny Tee causing player to select multiple options on the same button press\n- Flyswatter Wand doesn't stretch when game is paused\n- Pass & Play pause is better placed\n- Pressing Pause brings up pause menu in Tiny Tee\n- Fixed issue causing the Golf Putter to not register hits"
             }
@@ -109,7 +113,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476065,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475000,
@@ -117,7 +121,7 @@
         "keywords": [
             "vr"
         ],
-        "last_update": 475000,
+        "last_update": 476065,
         "category": "GAMES",
         "votes": 47,
         "rating": 3.531915,

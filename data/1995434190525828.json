@@ -50,7 +50,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 418
+                "votes": 417
             },
             {
                 "rating": 2,
@@ -66,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8160
+                "votes": 8162
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -91,6 +91,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.326.9_2024.4.22.3.28.35.831",
+                "change_log": "0.326.9"
+            },
             {
                 "version": "0.324.0_2024.2.27.5.11.19.435",
                 "change_log": "0.324.0\n-added hotfix to app to lock wifi hardware to help stabilize the connection (many users were experiencing cyclical ping spikes)"
@@ -166,10 +170,6 @@
             {
                 "version": "0.274.16_2023.7.28.5.27.36.281",
                 "change_log": "274.16\nfew minor performance improvements, but mostly this version has a tool to let us know about users have the null settings case (where the game loads, but the settings are just a bunch of 0-byte characters. We don't know why this is happening - could just be a fluke of the oculus app update process. We'll keep track. If the % of users this affects is too high, we'll likely do an immediate roll back which is ready. That being said, many users have updated to effectively this version and did not see this issue so this is the only method to measure the extent or lack there of\n\n274.11\n-updated splash screen to be a bit less crisp (too many jaggies)\n-some logging fixes\n-added a mod tool for Sulik :)\n-updated arena preview image to the old image for now\n\n0.274.10\n\nchanges:\n    -splash screen made less blurry\n    -navigation panel updates    \n        -general style update\n        -headset battery display\n        -digital clock added\n    -ball toss screen fixes\n    -some performance fixes\n    -stiga table in arena\n    -profiling functionality\n    -network interplayer ping tester \n    -some logging fixes\n    -fixed multi hit protection not working\n    -added some server connectivity fixes\n    -new panel (when news is available)"
-            },
-            {
-                "version": "0.270.23_2023.5.16.16.54.38.544",
-                "change_log": "0.270.23\n\n-fixed an issue that was causing ping compensation to persist when not in a multiplayer setting (such as free hit against the AI). \nThis also made the AI completely break, so likely fixed the issue that users were complaining about regarding the AI"
             }
         ],
         "on_rookie": true,
@@ -180,20 +180,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476065,
         "keyword_update": 475633,
         "tag_update": 475633,
-        "rating_update": 476041,
+        "rating_update": 476065,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 476041,
+        "last_update": 476065,
         "category": "GAMES",
-        "votes": 9912,
-        "rating": 4.641041,
+        "votes": 9913,
+        "rating": 4.641481,
         "weighted_rating": 4.6
     },
     "errors": []
