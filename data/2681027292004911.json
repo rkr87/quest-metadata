@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 669
+                "votes": 670
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -89,6 +89,14 @@
             "logo_transparent": "38982474_1296557134268952_6431910956937078479_n.png"
         },
         "changelog": [
+            {
+                "version": "606",
+                "change_log": "86560b64-2768-8ee5-7302-392e4ce90163\n\n3.1\n\n- fixed some saves stuck in black screen mid-run\n  - note: this change will cause all mid-run saves to go back to temple once after update\n- cleanup sunless keep double render issues\n- further improvements to quest2 performance\n- laser dot sight laser when attached to bow\n- fix laser dot attachment not adding damage\n- hunter: throwing knife damage increased (+5)\n- hunter: arrow limit increased (24 -> 32)\n- hunter: passive changed to critical hit bonus (10,20,30%)\n- hunter: added bow barrel attachment slot\n- hunter: more arrows given on respawn after death\n- fixed ammo pouch rendering above visual limit\n- fixed arrow homing continuing after arrow reuse\n- fixed various texture import settings (performance+)\n- fixed black screen after death on stages with rats\n- fixed arrows floating after hitting ragdolls\n- improved loot drop location after enemies falls off edge\n- made arrows also move after enemy falls off edge\n- fixed breacher ammo pouch getting hand stuck\n- fixed back arrow pouch grab sometimes grabbing sidearm\n- fixed wrong press used for bow charm update\n- fixed drone hud visible in minimal-ui mode\n- fixed inventory position issue (was hotfixed)"
+            },
+            {
+                "version": "607",
+                "change_log": "33dbabca-059c-4737-988f-4e4cf6025bcb\n\n3.1\n\n- fixed some saves stuck in black screen mid-run\n  - note: this change will cause all mid-run saves to go back to temple once after update\n- cleanup sunless keep double render issues\n- further improvements to quest2 performance\n- laser dot sight laser when attached to bow\n- fix laser dot attachment not adding damage\n- hunter: throwing knife damage increased (+5)\n- hunter: arrow limit increased (24 -> 32)\n- hunter: passive changed to critical hit bonus (10,20,30%)\n- hunter: added bow barrel attachment slot\n- hunter: more arrows given on respawn after death\n- fixed ammo pouch rendering above visual limit\n- fixed arrow homing continuing after arrow reuse\n- fixed various texture import settings (performance+)\n- fixed black screen after death on stages with rats\n- fixed arrows floating after hitting ragdolls\n- improved loot drop location after enemies falls off edge\n- made arrows also move after enemy falls off edge\n- fixed breacher ammo pouch getting hand stuck\n- fixed back arrow pouch grab sometimes grabbing sidearm\n- fixed wrong press used for bow charm update\n- fixed drone hud visible in minimal-ui mode\n- fixed inventory position issue (was hotfixed)"
+            },
             {
                 "version": "598",
                 "change_log": "f82d1025-b1ef-c34e-0a88-4f44e3ba8155"
@@ -160,14 +168,6 @@
             {
                 "version": "464",
                 "change_log": "894e1e09-988c-f428-ded9-1186fce9ad7f"
-            },
-            {
-                "version": "462",
-                "change_log": "c7793ed0-25c1-a516-7d39-bd676dc8a965"
-            },
-            {
-                "version": "428",
-                "change_log": "7569474d-0f85-0fd1-a459-7e03509b4f23"
             }
         ],
         "on_rookie": true,
@@ -178,10 +178,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475969,
+        "changelog_update": 476089,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 476065,
+        "rating_update": 476089,
         "iarc_detail_update": 475000,
         "keywords": [
             "roguelike",
@@ -189,10 +189,10 @@
             "shooter",
             "military"
         ],
-        "last_update": 476065,
+        "last_update": 476089,
         "category": "GAMES",
-        "votes": 877,
-        "rating": 4.539339,
+        "votes": 878,
+        "rating": 4.539863,
         "weighted_rating": 4.5
     },
     "errors": []
