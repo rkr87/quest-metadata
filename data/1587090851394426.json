@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -77,6 +77,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.2.7-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue with normals of subdivision surfaces joined at the mirror which gave the appearance of imperfect surface continuity.\n- Fixed an issue preventing you from performing more than one merge operation per subdivision object in Collab.\n- Fixed the HDR Reflections setting not being properly respected on sketch load until editing a setting in the Workspace menu.\n- Using the selection tool to move an object that was created via duplication with Return After Copy enabled no longer causes the first movement to be reset."
+            },
+            {
+                "version": "6.2.7-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue with normals of subdivision surfaces joined at the mirror which gave the appearance of imperfect surface continuity.\n- Fixed an issue preventing you from performing more than one merge operation per subdivision object in Collab.\n- Fixed the HDR Reflections setting not being properly respected on sketch load until editing a setting in the Workspace menu.\n- Using the selection tool to move an object that was created via duplication with Return After Copy enabled no longer causes the first movement to be reset."
+            },
             {
                 "version": "6.2.5-generalqc",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed being unable to load sketches containing uncreased subdivision objects"
@@ -140,14 +148,6 @@
             {
                 "version": "6.1.14-generalqog",
                 "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Logging in to a different LandingPad account than the previously logged in account will now give the user a choice to delete autosaves on the device or cancel the login."
-            },
-            {
-                "version": "6.1.13-generalqc",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed an issue where FBX exports that contained multiple objects with the same material name could share the same color even when not the same color in Gravity Sketch.\n- Fixed an issue where connecting subdivision to the mirror, moving it off of the world mirror then baking mirror caused the newly baked copy to behave as if still attached to original.\n- Fixed an issue where connecting subdivison or strokes to the mirror, moving it off the world mirror, baking mirror then remirroring the original caused it to be mirrored on local mirror rather than world mirror."
-            },
-            {
-                "version": "6.1.13-generalqog",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed an issue where FBX exports that contained multiple objects with the same material name could share the same color even when not the same color in Gravity Sketch.\n- Fixed an issue where connecting subdivision to the mirror, moving it off of the world mirror then baking mirror caused the newly baked copy to behave as if still attached to original.\n- Fixed an issue where connecting subdivison or strokes to the mirror, moving it off the world mirror, baking mirror then remirroring the original caused it to be mirrored on local mirror rather than world mirror."
             }
         ],
         "on_rookie": false,
@@ -158,7 +158,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475993,
+        "changelog_update": 476114,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 476089,
@@ -168,7 +168,7 @@
             "model",
             "design"
         ],
-        "last_update": 476089,
+        "last_update": 476114,
         "category": "APPS",
         "votes": 1075,
         "rating": 4.089302,

@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.16",
+                "change_log": "Bugfix badminton net. Increase max height of shuttle in Badminton."
+            },
+            {
                 "version": "6.0.12",
                 "change_log": "Unlock PRO for referrals. Minor performance improvement."
             },
@@ -170,10 +174,6 @@
             {
                 "version": "5.1.24",
                 "change_log": "Bugfix Paddleball daily leaderboard score wasn't getting updated correctly sometimes."
-            },
-            {
-                "version": "5.1.23",
-                "change_log": "Raise lift assistance back based on user feedback. Reduce probability of Bot chicken dance based on score. Limit how close the player can go to the net."
             }
         ],
         "on_rookie": true,
@@ -184,13 +184,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476065,
+        "changelog_update": 476114,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476089,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476089,
+        "last_update": 476114,
         "category": "GAMES",
         "votes": 226,
         "rating": 4.168142,

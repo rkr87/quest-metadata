@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "1.7.0",
+                "change_log": "New Arkio features:\nPin geometry to prevent accidental edits\nCo-location group for easier gathering and locking in mixed reality\nAuto gathering of meeting participants to host from wristband or meeting settings\nUp to 2x larger model imports\n6 new sample scenes, welcome video and starting scene\n\nArkio improvements:\nBetter performance and more details are shown for large imported models\nImproved controller and hand models\nImproved wristband UI and controller alignments \nJump to host, gather and open meeting panel now accessible via wristband\nMain menu updated (pin and grouping as main tools)\nAutomatically open the import tab when a new resource is loaded\nSimplified import panel for placement as pinned/movable\nLoad imports in current/new scene\nImproved boundaryless safety blending\nShare mixed reality anchors from the host user to other co-located users\nRemove mixed reality anchors using the delete tool\nEasier grouping of objects (select by centroid and auto-wrapped)\nImproved performance and smoothness while editing/moving shapes\nSmoothed the laser for more precise editing on distance\nEnhanced teleporter allowing teleporting across larger distances\nImproved outlines cages of shapes in complex scenes\nClear & restart button in settings to reimport and troubleshoot issues with imported files\nMixed Reality loading screen"
+            },
+            {
                 "version": "1.6.4",
                 "change_log": "Fixed Revit and Rhino cloud exporting issue\nPerformance improvements when importing many resources to Arkio\nMinor bug fixes"
             },
@@ -147,7 +151,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476114,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 475945,
@@ -158,7 +162,7 @@
             "design",
             "collaboration"
         ],
-        "last_update": 475945,
+        "last_update": 476114,
         "category": "APPS",
         "votes": 197,
         "rating": 3.837563,
