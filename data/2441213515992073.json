@@ -78,7 +78,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974515_445142476779130_9045638959164192765_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.25",
+                "change_log": "Patch 1.25 - Meta Quest\n\n- Added a new enemy in Multiplayer - Shroom King\n- Optimized graphics and improving performance in Singleplayer and coop modes\n- Optimized the number of game setting saves, now the game should load a little faster\n- Changed the way of launching music tracks in multiplayer mode, now more track variety is present\n- Added more exploding vases in multiplayer levels\n- Fixed a problem with the Darkling bomb sound not firing sometimes\n- Disabled friendly fire from darkling bombs, now darklings don't kill each other\n- Fixed the problem with the sound not firing in the UI in multiplayer mode\n- Global increase in texture resolutions and improving the settings of displayed triangles in some meshes\n- Fixed an issue with player speed settings not saving correctly in Singleplayer mode. Now settings from singleplayer mode do not affect settings in multiplayer mode\n- Added the possibility for clients to approve and confirm decisions, now the clients entering the portal can approve/confirm the game and start it\n- Added the possibility for clients to approve the return to HUB\n- Fixed a bug with the indicator displayed in multiplayer mode under the pause menu, now indicator does not display after exiting the pause menu\n- Added burnable flags in multiplayer mode\n- Improved damage mechanics of Meteor Lance spell, now deals damage once instead of multiple times\n- Added an option in Multiplayer to disable above the player's name, especially can be useful when recording footage\n- Changed the way of streaming levels in the Tutorial Level, now it works more smoothly and efficiently\n- Added an additional UI with the player's name above the challenge board in Multiplayer\n- Added signs above the main exits to improve player navigation through the rooms in Multiplayer\n- Added gold color to player names in displayed messages when a player joins the Multiplayer game\n- Improved “small” tutorials in Multiplayer with displayed hand spirits showing how to enchant spells, now they are more dynamic and optimized\n- All Enemies in Multiplayer have their lives reduced by 15% and each player receives 15% more life\n"
+            }
+        ],
         "on_rookie": true,
         "general_update": 474948,
         "genre_update": 474685,
@@ -87,7 +92,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476137,
         "keyword_update": 475633,
         "tag_update": 474880,
         "rating_update": 476089,
@@ -99,7 +104,7 @@
             "magic",
             "spell"
         ],
-        "last_update": 476089,
+        "last_update": 476137,
         "category": "GAMES",
         "votes": 481,
         "rating": 3.877339,

@@ -43,7 +43,7 @@
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 1
             },
             {
                 "rating": 4,
@@ -77,26 +77,31 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031517_383647717952236_1754789386441023854_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.2.0",
+                "change_log": "Changes\nEnemies:\nThe Mudmuncher (the digging enemies):\n\nAttack hitboxes have been reduced in size, allowing you to dodge much easier.\n\nMudmunchers will now also exit the ground much more often, giving more opportunities to hit them.\n\nThe Enemy Waves that spawn during Bosses have been spread out much more, giving breaks between waves and giving you the opportunity to do some heavy damage!\n\nThe Queen’s Stalagmite attack is now the same size as the Mudmuncher Boss’ Stalagmite attack, making it easier to dodge.\n\nThe Spewer now needs to have uninterrupted LOS to a target before attempting to fire a salvo. (This is additionally to also having to succeed an “Arch” check to see if the projectile would reach).\n\nImproved Grunt attacks: They will no longer get stuck outside of attack range when they are close by and can’t attack.\n\nLocomotion\nThe Jetpack now uses less fuel, making it easier to remain afloat and reach some of the higher platforms. (Note: We realized not a lot of players were using the jetpack, so with this tweak we hope to make the overall jetpack experience more forgiving and rewarding).\n\nQuality-of-Life\nWe have added a Recalibrate Button! You are now able to use the in-game menu to recenter yourself in the Mech and the Hangar! (Note: This is only available on the Steam version).\n\nYou can find it immediately in the Mech Menu when in a run, or under “Settings → Gameplay Settings → Recalibrate” in the Hangar.\n\nWe have added a Seated Disclaimer to the start of the game. (Note: we saw a lot of content creators standing up in their footage. Everyone is allowed to play standing, but hopefully this will make it more clear that BIG SHOTS is designed as a seated experience).\n\nMajor fixes\nGame Stability Improvements! We have made dozens of changes that should result in a more stable experience and less issues overall, mostly focused on waves not starting or ending, as well as transitioning between levels.\n\nLosing Upgrades: We have found and solved many issues that may cause players to lose upgrades during a run. That sucks! While we are confident that we have resolved the majority of causes, some edge cases may remain, so make sure to get in touch if this occurs again!\n\nEndless Loading Screens: Fixed various instances of internal errors causing the loading screen to never disable\n\nFixed an issue with the Fire Rate + Upgrades: some combinations caused fire rate to reset, causing you to not have the full benefit of all upgrades. This should no longer be the case.\n\nFixed an issue where Highroll would reset your damage to a lower default value after the effect expired. This should no longer be the case.\n\nFixed an issue where “Healing” permanent upgrades (Vampiric and Lifesteal) in certain scenarios would result in the player losing health instead of gaining health. This should no longer be the case.\n\nMinor fixes\nThe Jetpack handle texture was improved!\n\nCorrected fireworks sounds in the victory celebration level.\n\nIncreased font size of the “Searching for Room” screen.\n\nFixed the Queen’s corpse not despawning in the victory celebration level.\n\nFixed a Vine being untextured in “The Portal” level.\n\nFixed spawnpoints in some levels that caused Bosses to appear inside of walls."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 476114,
+        "general_update": 476137,
         "genre_update": 475993,
         "device_update": 475993,
         "mode_update": 475993,
         "language_update": 475993,
         "platform_update": 475993,
         "player_mode_update": 475993,
-        "changelog_update": 475993,
+        "changelog_update": 476137,
         "keyword_update": 475993,
         "tag_update": 475993,
-        "rating_update": 476114,
+        "rating_update": 476137,
         "iarc_detail_update": 475993,
         "keywords": [],
-        "last_update": 476114,
+        "last_update": 476137,
         "category": "GAMES",
-        "votes": 12,
-        "rating": 4.0,
-        "weighted_rating": 3.7
+        "votes": 11,
+        "rating": 4.090909,
+        "weighted_rating": 3.8
     },
     "errors": []
 }
