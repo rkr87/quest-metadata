@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "0.18.1",
+                "change_log": "Added park location on park info board, upgraded Meta SDK, added iOS support, added info panels, fixed bug where private parks couldn't invite sometimes, fixed bug for auto equipping items"
+            },
+            {
                 "version": "0.18.0",
                 "change_log": "Moved Snack Shack to new board and out of clipboard, members can now claim free Gold and Diamond tier gear, added mirror to Derby Dog stand, new gear will auto equip, new leaderboards for longest hit, font and networking improvements"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "0.9.9.6",
                 "change_log": "Added hats to item lockers, added daily peanut rewards for My Park Gold members, added 8 new bat skins, updated moon phase"
-            },
-            {
-                "version": "0.9.9.5",
-                "change_log": "Added private parks (servers), added My Park Gold subscription to host a private park and invite friends, added group presence for Public/Private parks, updated phase of moon, added back to school bat skins"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474817,
         "player_mode_update": 474685,
-        "changelog_update": 475514,
+        "changelog_update": 476161,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475993,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 475993,
+        "last_update": 476161,
         "category": "APPS",
         "votes": 417,
         "rating": 4.235012,

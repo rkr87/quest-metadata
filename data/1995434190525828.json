@@ -62,11 +62,11 @@
             },
             {
                 "rating": 4,
-                "votes": 929
+                "votes": 930
             },
             {
                 "rating": 5,
-                "votes": 8172
+                "votes": 8173
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -91,6 +91,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.327.2_2024.4.25.11.43.45.665",
+                "change_log": "0.327.2"
+            },
             {
                 "version": "0.326.9_2024.4.22.3.28.35.831",
                 "change_log": "0.326.9"
@@ -166,10 +170,6 @@
             {
                 "version": "0.310.6_2023.10.10.15.37.59.56",
                 "change_log": "0.310.6\n - offline / firewall issue fix\n - single player environment fix\n\n0.310.5\n - guest login fix\n - keyboard fix\n - environment load fix\n\n0.310.4\n - quest 3 and pro controllers\n - mixed reality (for quest 2,3,pro)\n - a lot performance improvements\n - new splash screen\n - audio improvements\n - environment collider fixes\n - logging updates\n - some room positioning fixes\n - spin / throw limit functionality\n - overlay fix"
-            },
-            {
-                "version": "0.274.16_2023.7.28.5.27.36.281",
-                "change_log": "274.16\nfew minor performance improvements, but mostly this version has a tool to let us know about users have the null settings case (where the game loads, but the settings are just a bunch of 0-byte characters. We don't know why this is happening - could just be a fluke of the oculus app update process. We'll keep track. If the % of users this affects is too high, we'll likely do an immediate roll back which is ready. That being said, many users have updated to effectively this version and did not see this issue so this is the only method to measure the extent or lack there of\n\n274.11\n-updated splash screen to be a bit less crisp (too many jaggies)\n-some logging fixes\n-added a mod tool for Sulik :)\n-updated arena preview image to the old image for now\n\n0.274.10\n\nchanges:\n    -splash screen made less blurry\n    -navigation panel updates    \n        -general style update\n        -headset battery display\n        -digital clock added\n    -ball toss screen fixes\n    -some performance fixes\n    -stiga table in arena\n    -profiling functionality\n    -network interplayer ping tester \n    -some logging fixes\n    -fixed multi hit protection not working\n    -added some server connectivity fixes\n    -new panel (when news is available)"
             }
         ],
         "on_rookie": true,
@@ -180,20 +180,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476065,
+        "changelog_update": 476161,
         "keyword_update": 475633,
         "tag_update": 475633,
-        "rating_update": 476137,
+        "rating_update": 476161,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 476137,
+        "last_update": 476161,
         "category": "GAMES",
-        "votes": 9928,
-        "rating": 4.640713,
+        "votes": 9930,
+        "rating": 4.640685,
         "weighted_rating": 4.6
     },
     "errors": []
