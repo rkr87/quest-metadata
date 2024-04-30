@@ -46,7 +46,7 @@
             },
             {
                 "rating": 2,
-                "votes": 90
+                "votes": 89
             },
             {
                 "rating": 3,
@@ -54,7 +54,7 @@
             },
             {
                 "rating": 4,
-                "votes": 138
+                "votes": 139
             },
             {
                 "rating": 5,
@@ -84,6 +84,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.2.1",
+                "change_log": "Do Not Disturb now respects mobile call-in users.\nScreens now hide when keyboard passthrough is enabled and you try to change seats.\nProperly cache offline data to prevent issues entering Immersed when offline.\nFix issue that prevented wired connection when offline.\nMinor updates to screen rendering libraries."
+            },
             {
                 "version": "2.2.0",
                 "change_log": "Remove line from hands and controllers and update cursor.\nAdd new home office environment for Pro users.\nUpdate rendering libraries.\nFix calendar urls."
@@ -159,10 +163,6 @@
             {
                 "version": "1.11.11",
                 "change_log": "Fix UI for 360 photos. Add support for new 360 environments."
-            },
-            {
-                "version": "1.11.10",
-                "change_log": "Fix lip sync for Quest 3 Meta Avatars.\nImprove misfiring of raycast from hands when typing.\nIncrease webcam resolution on Quest 3.\nBug fixes and improvements."
             }
         ],
         "on_rookie": false,
@@ -173,18 +173,18 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475969,
+        "changelog_update": 476233,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 476209,
+        "rating_update": 476233,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 476209,
+        "last_update": 476233,
         "category": "APPS",
         "votes": 2415,
-        "rating": 4.211594,
+        "rating": 4.212422,
         "weighted_rating": 4.2
     },
     "errors": []

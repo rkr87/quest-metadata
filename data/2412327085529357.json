@@ -43,19 +43,19 @@
             },
             {
                 "rating": 2,
-                "votes": 185
+                "votes": 186
             },
             {
                 "rating": 3,
-                "votes": 396
+                "votes": 398
             },
             {
                 "rating": 4,
-                "votes": 3690
+                "votes": 3695
             },
             {
                 "rating": 5,
-                "votes": 31746
+                "votes": 31809
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "753.05",
+                "change_log": "Patch Build v753.05\n\nBug Fix:\n- Due to a timing issue, a player's putter could sometimes not make contact with the ball when putting on the green."
+            },
             {
                 "version": "753.04",
                 "change_log": "New Update v753.04\n\nNew Course: Quail Hollow Golf Club\n\nSteeped in golf history, Quail Hollow Club plays host to the PGA TOUR’s Wells Fargo Championship and soon, the 2025 PGA Championship.  \nQuail Hollow Club also features “The Green Mile”, the three-hole finishing stretch that has become known as one of the most challenging finishes on the PGA TOUR.\n\nNew Feature Update: Add A Friend\nImproved our social feature for adding friends.  New main menu notifications for friends request and an updated post-round interface.\n\nBug Fixes & Quality:\n- Fixed an issue where incorrect yardage distances could be shown in Practice mode\n- Fixed an issue when subscribing to the G+ Pass via the footer would throw an 'offline' error\n- Fixed an issue when adding friends post round that would cause an infinite loading screen\n- Fixed an issue where game invites are sent again to the player/s when modifying a multiplayer game\n- Fixed an issue in Battle where the UI would show incorrect club and yardage when changing courses\n- Fixed an issue in Battle where your opponent could have a ball marker underneath their ball\n- Fixed an issue where the leaderboard could go all white\n- Fixed an issue with the Media Player will be in the way for Left Handed players when triggering to follow their ball\n- Fixed an issue with accidental hits occurring when the controller becomes active after interacting with Meta overlays\n- Wind direction now matches between Tournament Practice & Tournament Round\n- Harbour Town: Updated the Lighthouse on Hole 18\n- Harbour Town: Fixed a issue that was showing TPC Scottsdale on the leaderboard when playing Harbour Town\n- Harbour Town: Fixed an issue with the flags not matching the wind direction\n- East Lake: Fixed a floating tree left of the fairway on Hole 18\n- Valhalla: Fixed areas of the Hole 13 green registering as OB\n- Valhalla: Fixed cart paths registering as OB if ball came to rest there\n- Yale: Turkeys are back!"
@@ -152,10 +156,6 @@
             {
                 "version": "740.01",
                 "change_log": "Patch Update (v740.01)\n- Fixed a bug where sometimes the GOLF+ TOUR Qualifier leaderboards would crash upon load after completing your round."
-            },
-            {
-                "version": "740.0",
-                "change_log": "New Update (v740.0)\n\n- GOLF+ TOUR Qualifying kickoff\n- Fixed an issue where sometimes in multiplayer if a player lost internet connection and then rejoined, their score would not get posted correctly.\n- Misc Environmental fixes for East Lake\n\n**What is the GOLF+ TOUR?**\nThe GOLF+ TOUR is our new long-term Tournament Season format where players will compete in weekly tournaments in tiers based on your skill level and performance. You will be assigned a GOLF+ World Ranking which will adjust after every weekly event.\n\n**How does it work?**\n- Players can compete on Amateur or Pro difficulty.\n- Over the next 4 weeks, you’ll compete in qualifying tournaments in one of three tiers based on your handicap to establish your GOLF+ World Ranking on the GOLF+ TOUR.\n- When qualifying ends, the number of tiers will expand to 10 and you’ll be placed in an appropriate skill tier to begin your journey on the GOLF+ TOUR.\n- On TOUR you’ll earn points for your Tournament placement and may be promoted or relegated to new tiers based on performance.\n- After every week, your GOLF+ World Ranking will update, regardless if you compete or not.\n- We plan to have elevated events throughout the GOLF+ TOUR season.\n\nGood luck to everyone, and we’ll see you in the qualifiers!"
             }
         ],
         "on_rookie": false,
@@ -166,10 +166,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476114,
+        "changelog_update": 476233,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 476209,
+        "rating_update": 476233,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -177,10 +177,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 476209,
+        "last_update": 476233,
         "category": "GAMES",
-        "votes": 36458,
-        "rating": 4.813457,
+        "votes": 36529,
+        "rating": 4.813491,
         "weighted_rating": 4.8
     },
     "errors": []

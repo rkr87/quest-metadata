@@ -33,10 +33,10 @@
             "Spanish (Venezuela)"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 842
+                "votes": 843
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,14 @@
             "logo_transparent": "75435282_957640477981367_4746268653272923305_n.png"
         },
         "changelog": [
+            {
+                "version": "1.15.3.253653-release",
+                "change_log": "Fixed an issue where old broken save files prevented the game from starting properly."
+            },
+            {
+                "version": "1.15.3.253609-release",
+                "change_log": "Bug fix update 1.15.3\n* Fixed an issue where old broken save files prevented the game from starting properly."
+            },
             {
                 "version": "1.15.1.251222-release",
                 "change_log": "* This version fixes a bug where the game crashed if you were in a Call while joining a multiplayer session.\n* Please note that other players can not hear players who joined the room while in a Call. If you leave the Call while in a room, you need to re-join the room in order for others to hear you."
@@ -147,10 +155,6 @@
             {
                 "version": "1.7.111087",
                 "change_log": "Game updates:\n- New animal avatars –  join the kitchen as one of six new exclusive Cook-Out avatars.\n- Steam version released and cross-platform support –  Oculus and Steam VR chefs can now cook together!\nBug fixes:\n- Fixed a bug related to the safety bubble system that sometimes made a player invisible until re-joining the kitchen.\n- Fixed bug that caused the goals to remain after starting the final level and ending prematurely.\n- Fixed a bug that was preventing the deer customer to be unlocked in creative mode.\nGame changes:\n- Made it slightly easier to place ingredients perfectly centered\n- Slightly increased Rob-bot’s stamina\n- Adjusted balancing on several customers\n- Adjusted several levels to make them more balanced \n\n"
-            },
-            {
-                "version": "1.5.99727",
-                "change_log": "Game changes\n---\nThe holidays are now over and the Cozy Village is now back to normal. Creative Mode has now a new unique environment\nFixes\n---\nVarious changes to network code to reduce network traffic\nFixed bug that sometimes could cause all plates to fail to spawn in Endless Mode in multiplayer\nFixed bug that sometimes could cause the pause in Endless Mode to last longer than intended in multiplayer\nFixed bug that could cause the wrong info to be displayed on the open/close room to public button in the wrist menu.\nFixed bugs related to fridge content sometimes not syncing properly in Creative Mode\n"
             }
         ],
         "on_rookie": true,
@@ -161,20 +165,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475729,
+        "changelog_update": 476233,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 476209,
+        "rating_update": 476233,
         "iarc_detail_update": 475000,
         "keywords": [
             "multiplay",
             "cook",
             "food"
         ],
-        "last_update": 476209,
+        "last_update": 476233,
         "category": "GAMES",
-        "votes": 1144,
-        "rating": 4.479021,
+        "votes": 1145,
+        "rating": 4.479476,
         "weighted_rating": 4.4
     },
     "errors": []
