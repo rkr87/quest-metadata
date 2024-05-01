@@ -2,7 +2,7 @@
     "data": {
         "id": "5548503715177686",
         "app_name": "The Signifier",
-        "release_date": "2023-06-15T00:00:00.000Z",
+        "release_date": "1980-01-01T00:00:00.000Z",
         "description": "This story-driven adventure follows a mystery of death and despair from reality into the surreal realms of objective memories and subjective experiences. Search the mind, solve puzzles, and unravel the dark truth in this psychological thriller.\n\nThe Signifier is a first-person tech-noir mystery adventure that blends investigation, experimental psychology, and artificial intelligence. \n\nExplore the real and surreal worlds, become immersed in fringe psychology, solve puzzles, and find the truth as Frederick Russell, an expert in AI and psychology, and the main researcher behind an experimental deep brain scanner called the Dreamwalker. Its controversial technology allows the exploration of the recorded senses and unconscious realms of the mind. He finds himself thrust into a spiral of intrigue when asked to use his creation after the vice president of the world’s biggest tech company turns up dead in her apartment. ",
         "developer": "Playmestudio",
         "publisher": "Raw Fury",
@@ -78,19 +78,23 @@
         },
         "changelog": [
             {
+                "version": "1.0.42.9",
+                "change_log": "● Fixed the bug that caused the Player not to be able to switch to the subjective state, and\nalso to go back to the starting point when switching to the objective state in the Club.\n● Fixed a bug causing various issues on New and Saved Games due to variables not\nbeing reset, such as the Control Panel not appearing on the wrist - Note: For games saved before this hotfix, updating and creating a New Game is\nrecommended to avoid potential issues.\n● Fixed a bug that caused the player not to be positioned correctly when teleporting,\nsolving multiple navigation-related issues.\n● Fixed a bug causing an invalid teleport position to bring the player to a position valid on\na previous scene.\n● Adjusted colliders and dialog triggers for smoother operation of dialogs and teleportation.\n● Added new snapping points throughout the game to enhance gameplay.\n● Enhanced the Club’s Masks’ Puzzle with a new snapping mechanic, fixed colliders, and\nadjusted position for the eye icon for entering the puzzle.\n● Enhanced the Control Panel slot system, improving usability and correcting issues\ncausing buttons to move unexpectedly.\n● Improved the Memories Menu: Improved the Exit to Lab and Recall Raw Data buttons. Added highlight when releasing Raw Data to save it on a slot for easier\ninteraction.\n● Corrected the highlight for grabbable objects, ensuring they are highlighted at the correct\ndistance for grabbing.\n● Fixed a bug causing player height to change when cycling through VR settings.\n● Improved functionality of on-screen buttons in the lab for smoother operation.\n● Enhanced readability of the dialog alternatives panel (UI).\n● Improved the resolution of multiple textures.\n● Adjusted certain areas in the Childhood scene to prevent them from being walkable.\n● The Resume option on the Main Menu now only appears when a saved game is present.\n● The Resume option now appears on the Pause Menu even if there is no save file.\n● Fixed the Pause Menu not to appear when pausing while playing a New Game after\nuninstalling and reinstalling the game.\n● Game objectives are now completely marked when completed.\n● Added a delay in the Childhood scene to allow players to see the cat running away.\n● Corrected the position of the entrance dialog to prevent reading from the inside.\n● Adjusted position of Johanna’s drawing on the box for easier pickup.\n● Resolved bugs that made navigating stairs in the Childhood scene difficult or impossible.\n● Fixed subtitles not working correctly on Warehouse PC videos.\n● Fixed Russell entering the Home and GOAT scenes looking in the wrong direction.\n● Fixed issues with backwards teleporting leaving you out of bounds.\n● Known issues (will be fixed soon!): It is possible to fall while in the GOAT elevators if moving too much. If this\nhappens, you may need to reload the scene."
+            },
+            {
                 "version": "1.0.42.6",
                 "change_log": "The Signifier (VR) - Patch 01\n\n*The standing and sitting modes were corrected, so that the height of the player feels better. \n*The length and shape of the raycasting was adjusted for enhanced teleportation accuracy. Now the position where the player will land is displayed.\n*The dominant hand can now be changed in the Main Menu. \n*The vignette functionality was improved: it is now deactivated when rotating, and customizable in the VR settings. \n*VR settings adjusting was added at the start of a New Game. \n*The control panel UI was enhanced for a smoother experience and to avoid accidental button pressing. \n*The lighting on the Main Menu was fine-tuned to prevent discomfort.\n\nBug fixing: \n-Many issues that caused the player to fall on multiple areas were fixed. \n-The bug that caused the player to be trapped in memories was fixed. \n-Certain areas that were unintentionally walkable now are not.  \n-The bugs that prevented the player from walking in the warehouse and other areas of the game were fixed. \n-The issue allowing the player to interact with objects and casting the teleport ray through walls was fixed. \n-The colliders that made the interaction with the dialog system difficult when talking with Stan were adjusted.\n"
             }
         ],
         "on_rookie": true,
-        "general_update": 475561,
+        "general_update": 476257,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475417,
+        "changelog_update": 476257,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 476017,
@@ -100,7 +104,7 @@
             "thriller",
             "ai"
         ],
-        "last_update": 476017,
+        "last_update": 476257,
         "category": "GAMES",
         "votes": 46,
         "rating": 2.782609,

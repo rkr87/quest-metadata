@@ -2,7 +2,7 @@
     "data": {
         "id": "4586808061416562",
         "app_name": "Softspace",
-        "release_date": "2023-08-17T00:00:00.000Z",
+        "release_date": "1980-01-01T00:00:00.000Z",
         "description": "Softspace is an intuitive AR workspace where you lay out and organize notes, images, and websites. Connect related concepts, search the web for inspiration, and even get creative suggestions from our AI. This powerful productivity and creativity tool helps you develop the ideas at the heart of your best work.\n\nTo get started, visit → docs.soft.space/start\n\nFeatures:\n\n• Fast, intuitive UI for manipulating objects in 3D\n• Work with text, images, and web bookmarks (more soon)\n• Create topics to group and organize your ideas\n• Built-in web browser with image-saving function\n• AI-powered answers, topic suggestions, and clustering\n• Import from and export to Dropbox\n\nFor more info, visit → www.soft.space",
         "developer": "Softspace",
         "publisher": "Softspace Inc.",
@@ -76,6 +76,10 @@
             "logo_transparent": "38974681_827090325074093_1372103505317696395_n.png"
         },
         "changelog": [
+            {
+                "version": "2024.25",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.25\n\n## Bug Fixes\n\n- Fixed issue that would occasionally prevent links from rendering properly.\n- Fixed issue that was causing the text selection caret to draw over topic title text.\n- Fixed incorrect Softspace Pro plan ordering in plan selection page.\n\n## Improvements\n\n- Enabled multiple web browsers.\n- Enabled Boundaryless mode.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
             {
                 "version": "2024.24",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.24\n\n## Improvements\n\n- Added support for WebP image file support.\n- Simplified skysphere options.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
@@ -151,27 +155,23 @@
             {
                 "version": "2024.16",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.16\n\n## Improvements\n\n- AI queries now include contextual information about other content in the workspace to improve the specificity and usefulness of responses. Continuing to improve the AI features is an ongoing effort!\n\n## Bug Fixes\n\n- Fixed a bug that was preventing web browsers from being activated after one had been deleted from the workspace.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.15.1",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.15.1\n\n## Improvements\n\n- Spatial computing with a physical keyboard is a completely different experience than without. We know that the vast majority of users do not have a spare Bluetooth keyboard to pair with their headset. Even those who do occasionally forget to bring the it. That’s why we’ve built the Softspace Network Keyboard: a web app that lets you use a laptop, desktop, or even iPad as a physical keyboard for text input in Softspace.\n- The buttons for deleting and copying TopicItems are now easier to select and switch between without accidentally selecting UI elements behind them, because the gap between them has been closed.\n- Workspaces are now associated with a specific logged-in user. Signing out of a Softspace account will remove access to those workspaces until that account is signed in again. Note: Workspaces are still only stored locally. Workspaces are not synced across devices, and deleting the Softspace app from your headset will delete all workspace data.\n- More robust handling of and support for browser popup windows.\n\n## Bug Fixes\n\n- Settings and account management UI is prevented from appearing too far below eye-level.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
-        "general_update": 476185,
+        "general_update": 476257,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475945,
+        "changelog_update": 476257,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 476185,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476185,
+        "last_update": 476257,
         "category": "APPS",
         "votes": 64,
         "rating": 3.5,

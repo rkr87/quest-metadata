@@ -2,7 +2,7 @@
     "data": {
         "id": "6621849171203339",
         "app_name": "BIG SHOTS",
-        "release_date": "2024-04-17T00:00:00.000Z",
+        "release_date": "1980-01-01T00:00:00.000Z",
         "description": "Take Back Our Gosh Darn Planet\n\nAn experiment gone wrong unleashed a relentless alien invasion, plunging humanity into chaos. Price Inc. initiated the BIG SHOTS Initiative to fight the invaders; this is where you come in, rookie. Become a Big Shot and take on the pivotal role of an alien exterminator. As you gear up and evolve your mech, you’ll venture deeper into infested areas in search of the source of all this mayhem.\n\nSolo or Cross-Platform Co-op\n\nExterminations can be done solo or side by side with a fellow big shot. When teamed up, working together is key to holding off alien scum and getting the job done. Cross-platform play is supported, so none of your friends will be left out!\n\nBuild Your Ultimate Mech\n\nEvolve your humble mech with upgrades during runs, becoming the ultimate alien exterminator in your crazy rogue-lite adventure. Explore the possibilities and combinations from the upgrades presented to you, or change your loadout with the permanent upgrades that you can acquire in the shop back at the hangar!\n\nUnlimited Mobility\n\nBIG SHOTS® is a fresh take on the popular wave shooter & roguelite genre in virtual reality. Take advantage of our innovative movement system to move around freely in a swift, immersive, and comfortable manner. No more standing in predefined positions or being restricted by teleportation, but unlimited mobility and opportunities at your disposal.\n",
         "developer": "AlterEyes",
         "publisher": "MyDearest",
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 6
+                "votes": 7
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,29 +79,33 @@
         },
         "changelog": [
             {
+                "version": "1.2.1",
+                "change_log": "“Visit all maps” achievement has been fixed. This should now unlock correctlty.\n\nSome more fixes to do with waves not starting/ending have been resolved. (As a backup we’ve also implemented a failsafe to catch issues and make losing runs like this much less likely.)\n\nFixed an instance of mudmuncher getting stuck in specific situations.\n\nThe issues with upgrades getting randomly removed are also resolved!"
+            },
+            {
                 "version": "1.2.0",
                 "change_log": "Changes\nEnemies:\nThe Mudmuncher (the digging enemies):\n\nAttack hitboxes have been reduced in size, allowing you to dodge much easier.\n\nMudmunchers will now also exit the ground much more often, giving more opportunities to hit them.\n\nThe Enemy Waves that spawn during Bosses have been spread out much more, giving breaks between waves and giving you the opportunity to do some heavy damage!\n\nThe Queen’s Stalagmite attack is now the same size as the Mudmuncher Boss’ Stalagmite attack, making it easier to dodge.\n\nThe Spewer now needs to have uninterrupted LOS to a target before attempting to fire a salvo. (This is additionally to also having to succeed an “Arch” check to see if the projectile would reach).\n\nImproved Grunt attacks: They will no longer get stuck outside of attack range when they are close by and can’t attack.\n\nLocomotion\nThe Jetpack now uses less fuel, making it easier to remain afloat and reach some of the higher platforms. (Note: We realized not a lot of players were using the jetpack, so with this tweak we hope to make the overall jetpack experience more forgiving and rewarding).\n\nQuality-of-Life\nWe have added a Recalibrate Button! You are now able to use the in-game menu to recenter yourself in the Mech and the Hangar! (Note: This is only available on the Steam version).\n\nYou can find it immediately in the Mech Menu when in a run, or under “Settings → Gameplay Settings → Recalibrate” in the Hangar.\n\nWe have added a Seated Disclaimer to the start of the game. (Note: we saw a lot of content creators standing up in their footage. Everyone is allowed to play standing, but hopefully this will make it more clear that BIG SHOTS is designed as a seated experience).\n\nMajor fixes\nGame Stability Improvements! We have made dozens of changes that should result in a more stable experience and less issues overall, mostly focused on waves not starting or ending, as well as transitioning between levels.\n\nLosing Upgrades: We have found and solved many issues that may cause players to lose upgrades during a run. That sucks! While we are confident that we have resolved the majority of causes, some edge cases may remain, so make sure to get in touch if this occurs again!\n\nEndless Loading Screens: Fixed various instances of internal errors causing the loading screen to never disable\n\nFixed an issue with the Fire Rate + Upgrades: some combinations caused fire rate to reset, causing you to not have the full benefit of all upgrades. This should no longer be the case.\n\nFixed an issue where Highroll would reset your damage to a lower default value after the effect expired. This should no longer be the case.\n\nFixed an issue where “Healing” permanent upgrades (Vampiric and Lifesteal) in certain scenarios would result in the player losing health instead of gaining health. This should no longer be the case.\n\nMinor fixes\nThe Jetpack handle texture was improved!\n\nCorrected fireworks sounds in the victory celebration level.\n\nIncreased font size of the “Searching for Room” screen.\n\nFixed the Queen’s corpse not despawning in the victory celebration level.\n\nFixed a Vine being untextured in “The Portal” level.\n\nFixed spawnpoints in some levels that caused Bosses to appear inside of walls."
             }
         ],
         "on_rookie": false,
-        "general_update": 476209,
+        "general_update": 476257,
         "genre_update": 475993,
         "device_update": 475993,
         "mode_update": 475993,
         "language_update": 475993,
         "platform_update": 475993,
         "player_mode_update": 475993,
-        "changelog_update": 476137,
+        "changelog_update": 476257,
         "keyword_update": 475993,
         "tag_update": 475993,
-        "rating_update": 476209,
+        "rating_update": 476257,
         "iarc_detail_update": 475993,
         "keywords": [],
-        "last_update": 476209,
+        "last_update": 476257,
         "category": "GAMES",
-        "votes": 12,
-        "rating": 4.0,
-        "weighted_rating": 3.7
+        "votes": 13,
+        "rating": 4.076923,
+        "weighted_rating": 3.8
     },
     "errors": []
 }

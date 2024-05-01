@@ -2,7 +2,7 @@
     "data": {
         "id": "1587090851394426",
         "app_name": "Gravity Sketch",
-        "release_date": "2019-07-18T00:00:00.000Z",
+        "release_date": "1980-01-01T00:00:00.000Z",
         "description": "Gravity Sketch is the immersive 3D design tool that empowers you to create, share and collaborate on your best design ideas. Go beyond the bounds of 2D sketching to express yourself in a virtual studio and explore iterations of designs. Communicate design intent with greater clarity, and invite others to help shape your ideas and decision-making.\n\nKey Features:\n\nIntuitive 3D expression: Express your ideas at 1:1 scale in a virtual studio, just as you imagined them. Gestural actions and simple tools open up infinite possibilities.\n\nRefinement tooling: Take sketches further with surfacing and sculpting tools. Adjust shapes, proportions, textures, and lighting to capture the right details you need to communicate your idea.\n\nCollaboration: Invite colleagues, friends, or clients to join your virtual space in-headset or on screen to work together in real-time. Make faster decisions together on design direction, reducing your product’s time to market by 70+%.\n\nOrganization and storage: Access an extensive library of ready-to-use 3D assets, including models, materials, and environments. Import and export your own creations, incorporate them into workflows effortlessly via LandingPad.\n\nCommunity: Join a passionate community of designers. Explore comprehensive tutorials, learn from experts, and get inspired by others’ Gravity Sketch projects.\n\nHelp email: support@gravitysketch.com \nGeneral inquiries: hello@gravitysketch.com\nTo unlock our enterprise capabilities please contact us",
         "developer": "Gravity Sketch ",
         "publisher": "Gravity Sketch",
@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -77,6 +77,10 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.2.8-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Single-sided imported meshes are now automatically double-sided on import.\n- Added haptic feedback to the Crease, Separate Edge and Edge Cut subdivision tools.\n\n🐛 Bug Fixes\n\n- Improved appearance of normals on creased subdivision edges.\n- Fixed syncing of light rotation when anchored and using a preset environment in Collab.\n- Fixed being unable to slide points on ink and strokes.\n- Fixed invisible strokes still being exported when they were made invisible through being part of an invisible group.\n- Fixed file format tags in the export menu being transparent when in passthrough.\n- Improved Collab networking conditions on some networks."
+            },
             {
                 "version": "6.2.7-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue with normals of subdivision surfaces joined at the mirror which gave the appearance of imperfect surface continuity.\n- Fixed an issue preventing you from performing more than one merge operation per subdivision object in Collab.\n- Fixed the HDR Reflections setting not being properly respected on sketch load until editing a setting in the Workspace menu.\n- Using the selection tool to move an object that was created via duplication with Return After Copy enabled no longer causes the first movement to be reset."
@@ -140,25 +144,17 @@
             {
                 "version": "6.1.15-generalqc",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that caused personal accounts that were deactivated from an organization to be locked out of their personal workspace if the organization was the last workspace they accessed prior to deactivation."
-            },
-            {
-                "version": "6.1.14-generalqc",
-                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Logging in to a different LandingPad account than the previously logged in account will now give the user a choice to delete autosaves on the device or cancel the login."
-            },
-            {
-                "version": "6.1.14-generalqog",
-                "change_log": "VR\n\n🚀 Features & Tweaks\n\n- Logging in to a different LandingPad account than the previously logged in account will now give the user a choice to delete autosaves on the device or cancel the login."
             }
         ],
         "on_rookie": false,
-        "general_update": 474948,
+        "general_update": 476257,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476114,
+        "changelog_update": 476257,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 476209,
@@ -168,7 +164,7 @@
             "model",
             "design"
         ],
-        "last_update": 476209,
+        "last_update": 476257,
         "category": "APPS",
         "votes": 1076,
         "rating": 4.090149,

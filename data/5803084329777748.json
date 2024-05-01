@@ -2,7 +2,7 @@
     "data": {
         "id": "5803084329777748",
         "app_name": "Toy Monsters",
-        "release_date": "2024-04-11T00:00:00.000Z",
+        "release_date": "1980-01-01T00:00:00.000Z",
         "description": "Toy Monsters is a mixed-reality tabletop tower defense game inspired by other classic titles in the genre. Built from the ground up with hand-tracking and mixed reality passthrough in mind.  \n\nDefend yourself against the hordes across 3 worlds, 33+ levels and bonus levels, bosses, and an endless mode.  \n\nAs you progress through the levels, you'll unlock new toys with unique special powers. You can enhance your toys with magical potions and use crystal power to unleash magic beams from your hands, transform your fingers into flamethrowers, and more.  \n\nFeatures:   \n\n👉 Defend against hordes of incoming monsters \n👉 Unlock new defenders and special abilities, like magic beams and bombs \n👉 Experience the freedom of playing with just your hands, without the need for controllers \n👉 Challenge yourself to achieve a high score on each level \n👉 Play from anywhere in your environment, whether standing up or comfortably seated on your couch \n👉 Enjoy an evolving gameplay experience, with regular updates and new features  \n\nToy Monsters is playable with hand-tracking and mixed reality, supporting optional controller support, and a fully immersive option.",
         "developer": "Habaduda Games",
         "publisher": "Beyond Frames Entertainment",
@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.1",
+                "change_log": "-added controller haptic feedback\n-reworked collecting currencies (multiple collectibles at once, collecting while holding defender, added visual feedback)"
+            },
+            {
                 "version": "1.6.0",
                 "change_log": "Bug fixes:\nOrcs getting trough a floor during death animation\nOrc shaman fireballs getting blocked when defender placed on same tile\nPicking star while game was paused, resulted in hand getting stuck\nReset defender cooldowns on level restart\nLevel floor missing sometimes on restart\nPicking up orc dead orc ragdoll in minigames fix\nHands visual feedback when currency is picked up"
             },
@@ -95,20 +99,20 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 475969,
+        "general_update": 476257,
         "genre_update": 475297,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 475801,
         "platform_update": 475297,
         "player_mode_update": 474685,
-        "changelog_update": 475969,
+        "changelog_update": 476257,
         "keyword_update": 474685,
         "tag_update": 475801,
         "rating_update": 476209,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476209,
+        "last_update": 476257,
         "category": "GAMES",
         "votes": 81,
         "rating": 4.777778,

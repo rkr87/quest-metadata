@@ -2,7 +2,7 @@
     "data": {
         "id": "6211388292305549",
         "app_name": "The Break-In",
-        "release_date": "2023-09-25T00:00:00.000Z",
+        "release_date": "1980-01-01T00:00:00.000Z",
         "description": "The Break-In is a 4 player online co-op burglary game about sneaking into houses, stores, and casino vaults to steal everything that isn't bolted down. (And maybe some of the things which are bolted down)\n\nIf you can get it into your van, you can sell it for a profit. And you can use the money you make to purchase new thief equipment, to help you take on riskier heists\n\nUse a wide range of equipment to help you to extract the most valuable items from your target. Ladders and climbing picks can help you get in, then use attachable items like airbags and pistons to safely get your stolen items to your van\n⠀\nOther items like hammers, firecrackers, and wearable head lampshades can help you deal with any residents, either by knocking them out, distracting them, or hiding from them.\n\nThe climbing freedom gives you full freedom to get around. Clamber up drainpipes, crawl through windows, or even stealthily make your way to the roof to scout the area\n\nJust be careful to make sure that nobody is waiting for you on the other side of the window, it's a long way down and you didn't bring a trampoline. Or maybe you did, and this is all part of your plan?\n\nEvery mission you enter has randomised room varieties including different points of entry, so you'll have to make a new plan for each place you infiltrate\n\nNPCs are also randomised, so make sure you scout the area well before going in. You never know what might be guarding that jewelry, an angry resident, a trained guard, or a camera?",
         "developer": "Jorgen Games Ltd",
         "publisher": "Jorgen Games Ltd.",
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 215
+                "votes": 217
             }
         ],
         "comfort": "NOT_RATED",
@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": ".41",
+                "change_log": "Update 3\nBank Level with vault\nNew Ambulance getaway vehicle\nNew unlockable secret getaway vehicle\nNew Gear:\nRope Launcher, creates climbable wires to help you reach higher locations. Can also be used to break down doors or snipe cameras\nAttachable Wheels, stick to heavy items to make them easy to wheel away to your getaway vehicle\nBall and Chain, attach to a KO’d resident to slow them down significantly when they wake up. Ball can be used to break stuff\nNew multi-lock vault system implemented in bank and mansion to make it more challenging to open the vault.\nEnterable vents added to mall and bank levels which can be used to infiltrate, hide, or escape.\nFunctional chimneys added to bungalow, house, and mansion levels to give new ways to enter the building.\nSecurity lasers and alarm systems added to mall, mansion, bank, and casino to provide an extra challenge in getting inside high-value areas\nBreaker switches added to all levels to allow players to cut power to the lights, cameras, and lasers. Some breaker switches can be alarmed, check for intel to see which one.\nMade AI able to lock doors after going through them.\nRedesigned lighting on all levels to make outdoor areas darker and encourage use of flashlights\nChanged mission intel UI in lobby to make it easier to understand.\nRebalanced gear item costs"
+            },
+            {
                 "version": ".36",
                 "change_log": "Added new VR move animations\n\nAdded ability for VR players to lean over objects to make it easier to reach stuff\n\nMade climbing axes easier to latch into walls, and fixed some unstabbable areas in missions\n\nMade VR toolbelt easier to see when looking down\n\nChanged cosmetics saving to be in the same place as other save info\n\nFixed smii7y bug where non VR players could grab the same one handed item with both hands when it is held by a teammate, causing physics glitches \n\nFixed highlights disappearing in non VR when entering a MP lobby\n\nFixed residents playing alerted animation again for every new player they see after fleeing\n\nImproved stability of ragdolls maybe\n\nFixed vault door always being unlocked\n\nFixed hardest locks spawning on easiest difficulty\n\nFixed AI getting stuck in a loop in casino office room\n\nFixed AI hanging around in the mansion basement forever\n\nFixed purchased female cosmetics not saving properly\n\nSmoothed out jittery movement in multiplayer physics\n\nPossible fix to stealables teleporting to the center of the map\n\nFixed VR climbing axes being able to attach to walls when still on toolbelt if the player releases the trigger after toolbelting them\n\nFixed non VR players using a climbing axe while their hands are about to grab onto another climbable, causing the climbable to be unusable after\n\nFixed non VR players sometimes seeing phantom watches flying around in multiplayer\n\nFixed VR body not appearing on quest until the menu option is toggled again"
             },
@@ -93,23 +97,23 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 475801,
+        "general_update": 476257,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476257,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476209,
+        "rating_update": 476257,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476209,
+        "last_update": 476257,
         "category": "GAMES",
-        "votes": 263,
-        "rating": 4.714829,
+        "votes": 265,
+        "rating": 4.716981,
         "weighted_rating": 4.6
     },
     "errors": []
