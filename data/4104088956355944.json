@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 141
+                "votes": 143
             },
             {
                 "rating": 2,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 5728
+                "votes": 5740
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.45.0",
+                "change_log": "- New lobby with 3 stacks of GRAB Coins!\n- New cosmetics pack!"
+            },
             {
                 "version": "0.44.5",
                 "change_log": "- The level browser now supports filtering by tags.\n- You can now assign up to two tags for your level on the save screen in editor. Saving will immediately update the tags on the server if it was already published.\n- Reduced the maximum number of characters for level descriptions from 300 to 200.\n- Added a warning to not ask for tips on the level publish confirmation. DO NOT ASK TO BE TIPPED IN YOUR LEVELS!\n- Moved the \"Submit for Verification\" button out of the save menu into the pause menu of the host in editor to make it easier to find.\n- \"No Legs\" mode is now called \"Fling\" mode.\n- The game now pings the server every 5 minutes to get better analytics data on concurrent user numbers."
@@ -151,10 +155,6 @@
             {
                 "version": "0.42.6",
                 "change_log": "- After a lot of careful consideration I decided that it's best to switch back to the old textures."
-            },
-            {
-                "version": "0.42.4",
-                "change_log": "- More crash fixes.\n- The game now shows the server error if publishing a level fails, indicating the reason.\n- Removed \"Low Effort\" level report option.\n- When trying to publish a level the server now checks the level for profanity and complexity (minimum is 10!).\n- Please let me know if you run into cases that the server prevents even though they should be fine!"
             }
         ],
         "on_rookie": false,
@@ -165,16 +165,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476257,
+        "changelog_update": 476281,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476257,
+        "rating_update": 476281,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 476281,
         "category": "GAMES",
-        "votes": 6255,
-        "rating": 4.828617,
+        "votes": 6269,
+        "rating": 4.827724,
         "weighted_rating": 4.8
     },
     "errors": []

@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "2.3.2",
+                "change_log": "Added custom canopy settings. You can now dial in your own settings for canopy flight characteristics!\nAdded Field Of View Limiter. (Reduces motion sickness.)"
+            },
+            {
                 "version": "2.2.5",
                 "change_log": "Added Jet Packs! You now have the ability to fly around using Jet Packs. This feature allows you to go into Jet Pack mode after landing or during free fall. You can take off with Jet Packs after landing and practice landings and accuracy without restarting the level.\nFor instructions on how to use Jet Packs please visit our website: https://www.skydivesim.com/videos"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "1.7.3",
                 "change_log": "This update is one of many with the entirely new canopy physics engine! We have revamped canopy flight physics to the next level for even more simulation realism. We've also added a new \"Expert\" preset and we will be adding more presets in the near future. Bug fixes and enhancements to the environment."
-            },
-            {
-                "version": "1.7.2",
-                "change_log": "This update is one of many with the entirely new canopy physics engine! We have revamped canopy flight physics to the next level for even more simulation realism. We've also added a new \"Expert\" preset and we will be adding more presets in the near future. Bug fixes and enhancements to the environment."
             }
         ],
         "on_rookie": true,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476161,
+        "changelog_update": 476281,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476233,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 476281,
         "category": "GAMES",
         "votes": 16,
         "rating": 5.0,

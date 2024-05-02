@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -38,7 +38,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 145
+                "votes": 146
             },
             {
                 "rating": 2,
@@ -77,6 +77,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.2.9-generalqog",
+                "change_log": "🚀 Features & Improvements\n- Improved Memory usage of image imports - most workflows will only use half as much memory\n\n🐛 Bug Fixes\n- On standalone headsets, export preset options no longer adopt the file format of your custom slot.\n- Fixed issue that caused some files made before GS 6.2.4 to trigger error “invalid object data was found and repaired in the loaded file. Recovered objects were placed on new layers” which placed parts of the file on a new layer.\n- Fixed memory usage calculation for images"
+            },
+            {
+                "version": "6.2.9-generalqc",
+                "change_log": "🚀 Features & Improvements\n- Improved Memory usage of image imports - most workflows will only use half as much memory\n\n🐛 Bug Fixes\n- On standalone headsets, export preset options no longer adopt the file format of your custom slot.\n- Fixed issue that caused some files made before GS 6.2.4 to trigger error “invalid object data was found and repaired in the loaded file. Recovered objects were placed on new layers” which placed parts of the file on a new layer.\n- Fixed memory usage calculation for images"
+            },
             {
                 "version": "6.2.8-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- Single-sided imported meshes are now automatically double-sided on import.\n- Added haptic feedback to the Crease, Separate Edge and Edge Cut subdivision tools.\n\n🐛 Bug Fixes\n\n- Improved appearance of normals on creased subdivision edges.\n- Fixed syncing of light rotation when anchored and using a preset environment in Collab.\n- Fixed being unable to slide points on ink and strokes.\n- Fixed invisible strokes still being exported when they were made invisible through being part of an invisible group.\n- Fixed file format tags in the export menu being transparent when in passthrough.\n- Improved Collab networking conditions on some networks."
@@ -136,14 +144,6 @@
             {
                 "version": "6.1.16-generalqc",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Minor bug fixes and performance improvements."
-            },
-            {
-                "version": "6.1.15-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that caused personal accounts that were deactivated from an organization to be locked out of their personal workspace if the organization was the last workspace they accessed prior to deactivation."
-            },
-            {
-                "version": "6.1.15-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that caused personal accounts that were deactivated from an organization to be locked out of their personal workspace if the organization was the last workspace they accessed prior to deactivation."
             }
         ],
         "on_rookie": false,
@@ -154,20 +154,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476257,
+        "changelog_update": 476281,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 476209,
+        "rating_update": 476281,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 476257,
+        "last_update": 476281,
         "category": "APPS",
-        "votes": 1076,
-        "rating": 4.090149,
+        "votes": 1077,
+        "rating": 4.087279,
         "weighted_rating": 4.0
     },
     "errors": []

@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 298
+                "votes": 301
             },
             {
                 "rating": 2,
@@ -44,7 +44,7 @@
             },
             {
                 "rating": 3,
-                "votes": 147
+                "votes": 149
             },
             {
                 "rating": 4,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1973
+                "votes": 1980
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -83,6 +83,10 @@
         "changelog": [
             {
                 "version": "1.0.3",
+                "change_log": "Core\n-Added bHaptics support\n-Added haptic pulsing if your gun is inside a wall\n-Adjusted automatic height calibration\n\nAudio\n-Fixed switching to ww2 skin changing the radio sounds until you respawn\n\nUI\n-Fixed server browser custom gamemodes not showing the gamemode label\n\nModkit\n-Added ability to make content mods dependent on each other\n-Added on killed delegate to pawn\n-Added IsCompMode function\n-Added function to enable/disable team switching (SetTeamSwitchEnabled, IsTeamSwitchEnabled)\n-Added function to update an items details (damage values, buy price, etc)\n-Fixed issue where you couldn't use grip on a VRHandle\n-Fixed issue with playerproxy attaching to avatar, now that the avatar pooled this will no longer work properly\n-Fixed custom weapon reloading issue\n-Fixed ungrabbing handle when dropping item (Pavlov Kart mod)\n\nTTT\n-Added tttgoldengun variant\n-Adjusted TTT role selection algorithm\n-Adjusted Ballistics Shields to drop on direct newton launcher hit\n-Added Stealth Device gadget for Traitors and Mercenary\n-Adjusted Hypnotizer to revive players where the body is instead of where the player died\n-Adjusted golden gun to not kill victims\n-Adjusted TTT radar item code to fix UI issues when shot\n-Fixed Monocular UI sorting issue "
+            },
+            {
+                "version": "1.0.3",
                 "change_log": "-Fixed joining community servers while downloading not waiting the proper amount of time, will now display a popup notifying the user (with the option to cancel) and will retry\n-Added pages to mod browser\n-Added buymenu prefiltering to fix extra pages appearing when there are no selectable items for that page.(mods)\n-Prevent knife damage in the first 4.5 seconds of an SND match, this should allow players to get off spawn without having a knife thrown at them from across the map\n-Adjusted voice audio\n-Fixed some seams showing up in Datacenter\n-Fixed Industry wood collision\n-Adjusted buymenu to grey out empty categories (modding)\n-Optimizations to gore character shader and the bloodsplats shader\n-Fixed issue with trip mines not being able to attach to walls in some circumstances\n-Fixed map exploit in Pinehill\n\nModkit\n-Fixed push announcer only grabbing custom chants (obj lost)\n-Capture The Flag gameplay notify sounds added for defend/taken/capture/return\n\nAdmin Menu (Community Servers)\n-Added Admin menu button for clear vehicles\n\nInfection:\n-Adjusted buymenu gets to be disabled for monsters in preround \n\nRCON\n-added \"ClearEmptyVehicles\" rcon function"
             },
             {
@@ -98,10 +102,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476281,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 476257,
+        "rating_update": 476281,
         "iarc_detail_update": 475000,
         "keywords": [
             "shooter",
@@ -110,10 +114,10 @@
             "pvp",
             "combat"
         ],
-        "last_update": 476257,
+        "last_update": 476281,
         "category": "GAMES",
-        "votes": 2796,
-        "rating": 4.27897,
+        "votes": 2808,
+        "rating": 4.276353,
         "weighted_rating": 4.2
     },
     "errors": []
