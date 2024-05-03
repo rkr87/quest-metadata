@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.18",
+                "change_log": "Improved smart volley now takes player height into account to decide whether to auto-teleport the player to volley position."
+            },
+            {
                 "version": "6.0.17",
                 "change_log": "Update unity version. Use new input system. Improve frame rate consistency and physics. Bugfix zombies."
             },
@@ -170,10 +174,6 @@
             {
                 "version": "5.1.26",
                 "change_log": "Bugfix regression in picking up the ball with right hand for left handed play during serve."
-            },
-            {
-                "version": "5.1.25",
-                "change_log": "Update preset for SolidSlime adapter for Quest 2 for better alignment."
             }
         ],
         "on_rookie": true,
@@ -184,13 +184,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476281,
+        "changelog_update": 476305,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476161,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476281,
+        "last_update": 476305,
         "category": "GAMES",
         "votes": 227,
         "rating": 4.171806,
