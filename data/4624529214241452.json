@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "1.4",
+                "change_log": "Fixed video display bug and added bundle number to UI."
+            },
+            {
                 "version": "1.0",
                 "change_log": "Fixed a bug where Watson videos go out of sync if pausing the app/taking off the headset\n\nTouching clues highlight functionality has been improved, now also vibrates the controller\n\nFinal Tutorial step is not finished by picking up paper, but by actually opening/closing settings\n\nTutorial order of steps has been rearranged to provide a more intuitive progression\n\nTutorial is now skippable\n\nMultiplayer sessions are now saved and can be resumed when starting a new multiplayer game from the lobby\n\nSettings are now saved between sessions, except for Muting and Player Height Increase option\n\nThumbstick movement now has a slider for speed in settings\n\nMinor UI improvements and bugfixes\n\nMinor Audio quality improvements"
             },
@@ -108,13 +112,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476329,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 476329,
         "category": "ENTERTAINMENT",
         "votes": 13,
         "rating": 4.769231,

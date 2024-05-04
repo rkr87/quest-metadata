@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.27",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.27\n\n## Improvements\n\n- Further optimized web browser display shader.\n- AI-suggested topics no longer duplicate existing topics with the same name but different capitalization.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
+            },
+            {
                 "version": "2024.26",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.26\n\n## Bug Fixes\n\n- Fixed issue that was causing major performance deterioration with browsers: coast scrolling was never being stopped, even after the coast speed was zero.\n\n## Improvements\n\n- Increased pixel density of browsers for much improved visual quality (possible due to performance optimizations elsewhere).\n- Reimposing limit in number of unpaused browser windows due to performance issues. Quest 2 and Pro: limit = 1. Quest 3: limit = 3;\n- Reduced browser scrolling frequency from 72 times to 36 times per second for smoother browser performance with minimal visible impact.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.18",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.18\n\n## Improvements\n\n- The tutorial has been redesigned with a cleaner UI, fewer steps, and locally-packaged videos to eliminate loading delays.\n- The drag interaction now kicks in after a shorter delay, making scrolling websites and selecting text feel much snappier.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.17",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.17\n\n## Improvements\n\n- Reduced app startup time.\n- When user is logged out or has not yet logged in, a placeholder demo workspace is shown.\n- The Palm Menu now indicated which options are available during various steps of app startup. Unavailable options are grayed out and not pressable.\n- The keyboard setting are now accessible during the app sign-in step, so you can pair a network keyboard to type your login credentials.\n\n## Bug Fixes\n\n- Fixed bug that was causing the demo workspace to load with an incorrect display name.\n\n## Known Issues\n\n- Unpairing a network keyboard does not correctly update the keyboard status.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476305,
+        "changelog_update": 476329,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 476185,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476305,
+        "last_update": 476329,
         "category": "APPS",
         "votes": 64,
         "rating": 3.5,
