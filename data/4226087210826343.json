@@ -104,6 +104,14 @@
         },
         "changelog": [
             {
+                "version": "6.0.22",
+                "change_log": "Make Bot AI faster and more precise so its harder to beat.\nUpdated setting for SolidSlime Q3 version 2 adapter.\nAllow magnus effect slider to go down to zero."
+            },
+            {
+                "version": "6.0.21",
+                "change_log": "Add support for SolidSlime Quest 3 Version 2 adapter.\nTwo separate custom adapter settings can be stored now. One for each hand.\nShow adapter setting dropdown for the active hand only. i.e. When right/left  hand is selected then only the adapter setting dropdown for right/left hand is shown."
+            },
+            {
                 "version": "6.0.19",
                 "change_log": "Improve Bot AI so it makes less mistakes and is tougher to beat."
             },
@@ -162,14 +170,6 @@
             {
                 "version": "6.0.1",
                 "change_log": "Bugfix orientation of cross platform leaderboard entries in curved menu"
-            },
-            {
-                "version": "6.0.0",
-                "change_log": "Switch P2P data transfer from deprecated Oculus P2P to Epic Online Services P2P data. Please update as previous versions aren't compatible with this version for playing multiplayer games.\n\nAdd cross platform leaderboard to support non Oculus platforms such as Steam.\n\nUpdate spectator position Gym Scene.\n\nImprove speed of connection establishment in Invite Friend."
-            },
-            {
-                "version": "5.1.28",
-                "change_log": "Improve peer to peer data transfer efficiency in multiplayer"
             }
         ],
         "on_rookie": true,
@@ -180,13 +180,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476353,
+        "changelog_update": 476377,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476161,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476353,
+        "last_update": 476377,
         "category": "GAMES",
         "votes": 227,
         "rating": 4.171806,
