@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.23",
+                "change_log": "Improve AI bots ability to pick up balls from close to ground and make line calls"
+            },
+            {
                 "version": "6.0.22",
                 "change_log": "Make Bot AI faster and more precise so its harder to beat.\nUpdated setting for SolidSlime Q3 version 2 adapter.\nAllow magnus effect slider to go down to zero."
             },
@@ -166,10 +170,6 @@
             {
                 "version": "6.0.2",
                 "change_log": "Update lighting in Gym scene. Send transform for hand controllers and headset to support upcoming cross platform avatars."
-            },
-            {
-                "version": "6.0.1",
-                "change_log": "Bugfix orientation of cross platform leaderboard entries in curved menu"
             }
         ],
         "on_rookie": true,
@@ -180,13 +180,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476377,
+        "changelog_update": 476401,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476161,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476377,
+        "last_update": 476401,
         "category": "GAMES",
         "votes": 227,
         "rating": 4.171806,

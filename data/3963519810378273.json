@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "5.5.3",
+                "change_log": "Bug fixes"
+            },
+            {
                 "version": "5.4.0",
                 "change_log": "This version mostly includes bug fixes, notably:\n- Fixing dependencies randomly and not consistently not triggered\n- Fixing some infinite loading screen\n- Improving media management and 3d object handling in editor\n- Improving behavior on 3D objects when hoovered\n- Fixing tag border that no longer rendered as expected with a wrong opacity"
             },
@@ -94,10 +98,6 @@
             {
                 "version": "3.6.0",
                 "change_log": "• Randomisation des réponses aux quizz\n• Support de la langue Arabe\n• Cliquer une deuxième fois un tag son relance le son au début\n• Optimisation des performances"
-            },
-            {
-                "version": "3.5.0",
-                "change_log": "- Various bug fixes and improvements."
             }
         ],
         "on_rookie": false,
@@ -108,13 +108,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475753,
+        "changelog_update": 476401,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 476401,
         "category": "APPS",
         "votes": 7,
         "rating": 4.571429,
