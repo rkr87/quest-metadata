@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -78,6 +78,14 @@
             "logo_transparent": "38974527_2068730430101200_7735609349933891584_n.png"
         },
         "changelog": [
+            {
+                "version": "3.851",
+                "change_log": "Age Group separate uploads"
+            },
+            {
+                "version": "3.850",
+                "change_log": "Age Group separate uploads"
+            },
             {
                 "version": "3.848",
                 "change_log": "build updated"
@@ -149,14 +157,6 @@
             {
                 "version": "2.88",
                 "change_log": "Bugfix on a \"Host Session\" button"
-            },
-            {
-                "version": "2.87",
-                "change_log": "New intro video for new users!\nChanges to the Online Gallery, including making it more family-friendly."
-            },
-            {
-                "version": "2.86",
-                "change_log": "Update SculptrVR to take advantage of the better processing on Quest 2. On Quest 2 SculptrVR renders at a much higher resolution, and displays 30% more triangles. In 90hz mode, SculptrVR should automatically reduce the triangle count to maintain framerate.\n\nAlso fix an input bug with the linear motion tools.\n\nTurn off all analytics since I never used them, and I'm too lazy to make a privacy policy for them."
             }
         ],
         "on_rookie": true,
@@ -167,7 +167,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476425,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 475897,
@@ -177,7 +177,7 @@
             "build",
             "flying"
         ],
-        "last_update": 476257,
+        "last_update": 476425,
         "category": "APPS",
         "votes": 430,
         "rating": 4.34186,

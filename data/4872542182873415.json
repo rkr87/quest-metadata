@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "2024.5.0",
+                "change_log": "Dear Friends of Tennis,\n\nRallying up some Match Play improvements that make the rally more fluent! This update, 2024.5.0, contains the following improvements:\n\n# Improvements\nServes: Fast serves are better recognized now.\nMatch Play: The correct user is rewarded with the trick shot where the ball spins back over the net.\nMatch Play: Some minor tweaks to opponent avatar movement.\nMovement: Avoid hitting points outside of tracking areas when hitting a winner.\n\n# Bugfixes\nMatch Play: Match play stopped for a short time due to a lost tennis ball.\nOpponent Movement: Opponent Avatar no longer runs into environmental objects.\n\nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
+            },
+            {
                 "version": "2024.4.1",
                 "change_log": "Dear Friends of Tennis!\nRallying up some improvements for a grand slam VR tennis experience! This update 2024.4.1 contains improvements, suggested by our users.\n\n# Improvements\nSettings: Customize ghost avatar visualization in the settings\nMatchPlay: Instead of being teleported to the serve/return position, opponents are actually animated\n\n# Bugfixes\nMatchPlay: Left handed opponents not holding the racket in the wrong hand anymore\nMatchPlay: Improve opponent animations in cases a handle is used.\n\nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
             },
@@ -152,10 +156,6 @@
             {
                 "version": "2023.7.1",
                 "change_log": "Dear Friends of Tennis!\n\nTo keep you moving on the court we deliver Version 2023.7.1.\n\nImprovements:\nAuto-Teleport: Now includes always automatic recovery movement to the center after hitting the ball.\nAuto-Teleport Setting:  Activate/Deactivate camera teleport for the recovery movement (brings no game advantage).\nAuto-Teleport Setting:  Activate/Deactivate camera teleport after thumb-stick release (brings no game advantage).\nAuto-Teleport: Less probability of getting low hit points during a match\n\nBug Fixes:\nHitEmAll: Targets are now closer to the court\nUI: Fixed height detection settings in “Start Wizard”\n\nServing up a big THANK YOU!\n\nYour Tennis Esports Team"
-            },
-            {
-                "version": "2023.7.0",
-                "change_log": "Dear Friends of Tennis!\n\nTo keep your game on point, we've made some timely improvements in Version 2023.7.0.\n\nBug Fixes:\n - Time Zone Triumph: We've corrected discrepancies for Instant Match and Hit'Em All event countdowns.\n - Player Count Precision: Made minor improvements and corrections to the online player count display.\n\nKeep those headsets ready and those virtual rackets swinging!\n\nYour Tennis Esports Team"
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476257,
+        "changelog_update": 476425,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 476401,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476401,
+        "last_update": 476425,
         "category": "APPS",
         "votes": 458,
         "rating": 4.423581,

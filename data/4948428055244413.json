@@ -62,7 +62,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2989
+                "votes": 2991
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -91,6 +91,10 @@
             "logo_transparent": "38974854_983052469269561_8502071290114778667_n.png"
         },
         "changelog": [
+            {
+                "version": "1.11.0+215171",
+                "change_log": "WARDROBE UPDATE\nWe’ve upgraded Crewmate closets, making it easier to customize and put together your perfect beansona!\n- New layout to more easily equip cosmetics\n- More cosmetics (and colors) visible on one page within the Wardrobe\n- New bean animations to showcase cosmetics before final selection\n- Added the ability to spin the Crewmate in the Wardrobe, to be able to view cosmetics from different angles\n- Purchase hats during a live game (while in lobby mode) and then wear it immediately!\n\nADDITIONAL UPDATES\nIt can’t be completely unexpected that we have made adjustments to some behind-the-scenes code. We won’t bore you with the specifics tho!\n- Server-side LTE Support\n- URP upgrades to graphics pipeline\n- Future LTE mysteries\n\nBUG FIXES\n- Improved kill button detection to act more consistently when targeting players and avoiding accidental kills as often\n- Adjusted Retina Scan task to avoid inconsistent times for task completion\n- Fixed an issue where some tasks might trigger in the incorrect area due to aggressive interaction areas\n- Fixed an issue where going in and out of vents could cause some visual issues due to aggressive culling\n- Improved transitions between loading in and out of the lobby to the main menu across different platforms\n- Improved blindboxes in various spots for existing maps\n- Fixed various small graphical issues across Polus Point due to environment and props having small overlap or z-fighting issues\n- Fixed issue where the wardrobe would show another color selected when entering a map with another player already taking that color\n- Pass at making performance more consistent in Polus and other maps with various tech adjustments\n- Small performance optimizations for existing maps to reduce number of drawn doors\n- Fixed an issue where certain regions would have issues with confirming agreements due to improper calendar dates\n- Added missing captions for some map events\n- Fixed an issue where focus lost text would be way too small\n- Fixed and improved localizations including incorrect font sizes and missing translations for various languages"
+            },
             {
                 "version": "1.11.0+214967",
                 "change_log": "WARDROBE UPDATE\nWe’ve upgraded Crewmate closets, making it easier to customize and put together your perfect beansona!\n- New layout to more easily equip cosmetics\n- More cosmetics (and colors) visible on one page within the Wardrobe\n- New bean animations to showcase cosmetics before final selection\n- Added the ability to spin the Crewmate in the Wardrobe, to be able to view cosmetics from different angles\n- Purchase hats during a live game (while in lobby mode) and then wear it immediately!\n\nADDITIONAL UPDATES\nIt can’t be completely unexpected that we have made adjustments to some behind-the-scenes code. We won’t bore you with the specifics tho!\n- Server-side LTE Support\n- URP upgrades to graphics pipeline\n- Future LTE mysteries\n\nBUG FIXES\n- Improved kill button detection to act more consistently when targeting players and avoiding accidental kills as often\n- Adjusted Retina Scan task to avoid inconsistent times for task completion\n- Fixed an issue where some tasks might trigger in the incorrect area due to aggressive interaction areas\n- Fixed an issue where going in and out of vents could cause some visual issues due to aggressive culling\n- Improved transitions between loading in and out of the lobby to the main menu across different platforms\n- Improved blindboxes in various spots for existing maps\n- Fixed various small graphical issues across Polus Point due to environment and props having small overlap or z-fighting issues\n- Fixed issue where the wardrobe would show another color selected when entering a map with another player already taking that color\n- Pass at making performance more consistent in Polus and other maps with various tech adjustments\n- Small performance optimizations for existing maps to reduce number of drawn doors\n- Fixed an issue where certain regions would have issues with confirming agreements due to improper calendar dates\n- Added missing captions for some map events\n- Fixed an issue where focus lost text would be way too small\n- Fixed and improved localizations including incorrect font sizes and missing translations for various languages"
@@ -142,10 +146,6 @@
             {
                 "version": "1.0.4+202365",
                 "change_log": "CUSTOM LOBBY SETTINGS\n- Added 18 different options for Custom Lobby Settings for Among Us VR\n- Hosts can now customize Among Us VR game matches using a variety of different settings in the lobby\n- Players can now select custom or default match settings as a saved toggle during online matchmaking or when hosting a lobby\n- Implemented optimized, single-mesh UI for the match settings page\n- Added a balance indicator to display to players how current match settings will skew gameplay in favor of Impostors or Crewmates\n- Updated match settings logic to allow for more easily transferable information across the network\n\nFIXES\n- Fixed crash where holding a lever while the game ends would cause a crash\n- Fixed issue where cooldown timer visuals did not match the time left\n- Fixed an issue where occasionally trying to host a lobby would return an error\n- Fixed UI issue were critical sabotages would appear outside the Task List while viewing the Player tab\n- Fixed minor visual bug where algae in Oxygen room was incorrectly rendering\n- Fixed Crewmate shadows occasionally flickering in the game during certain moments especially in the lobby\n- Fixed multiple issues where some errors were happening on game shutdown"
-            },
-            {
-                "version": "1.0.3+199448",
-                "change_log": "Free We’re No. WUN! Trophy Hat - GMA"
             }
         ],
         "on_rookie": false,
@@ -156,10 +156,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475945,
+        "changelog_update": 476425,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 476401,
+        "rating_update": 476425,
         "iarc_detail_update": 475657,
         "keywords": [
             "social",
@@ -167,10 +167,10 @@
             "parti",
             "casual"
         ],
-        "last_update": 476401,
+        "last_update": 476425,
         "category": "GAMES",
-        "votes": 5833,
-        "rating": 3.824276,
+        "votes": 5835,
+        "rating": 3.824679,
         "weighted_rating": 3.8
     },
     "errors": []
