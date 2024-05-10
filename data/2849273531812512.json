@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 356
+                "votes": 363
             },
             {
                 "rating": 2,
@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 138
+                "votes": 139
             },
             {
                 "rating": 5,
-                "votes": 1782
+                "votes": 1786
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.3.0",
+                "change_log": "Update room joining and room updates to use WebSockets."
+            },
             {
                 "version": "2.2.2",
                 "change_log": "Fix VR cursor when changing seats.\nFix agent opening incorrect link."
@@ -159,10 +163,6 @@
             {
                 "version": "1.11.13",
                 "change_log": "UI fixes on popups and menu tooltips.\nFix LinkedIn video prompt.\nUpdate to default poses for avatars when far away.\nUpdate public room prompt."
-            },
-            {
-                "version": "1.11.12",
-                "change_log": "Update seating and room logic to improve repositioning when entering a collaboration or public room.\nAdd scrolling to public room menu.\n\nImprovements to hand ray cast when typing."
             }
         ],
         "on_rookie": false,
@@ -173,18 +173,18 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476305,
+        "changelog_update": 476473,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 476449,
+        "rating_update": 476473,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 476449,
+        "last_update": 476473,
         "category": "APPS",
-        "votes": 2443,
-        "rating": 4.186246,
+        "votes": 2455,
+        "rating": 4.178411,
         "weighted_rating": 4.1
     },
     "errors": []

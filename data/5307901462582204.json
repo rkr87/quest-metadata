@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.0.40.2i",
+                "change_log": "Fixed helmet interfering view depends on height\nReverted goalie stick repositioning (might stuck in stick rack again)\nSlightly reduced ownership takeover radius for less rewinding"
+            },
+            {
                 "version": "0.0.40.2h",
                 "change_log": "Added free fishbowl visor\nFixed pads in single player\nImproved puck sync in multiplayer\nImproved arena optimisation in multiplayer\nAdded championship banners for PVHL and VHRL\nFixed goalie stick stuck in the rack\nAdded experimental realistic blade feature"
             },
@@ -132,22 +136,6 @@
             {
                 "version": "0.0.40.0f",
                 "change_log": "Fix bodies in multiplayer"
-            },
-            {
-                "version": "0.0.40.0d",
-                "change_log": "Hotfix for blocker"
-            },
-            {
-                "version": "0.0.40.0c",
-                "change_log": "Hotfix for butterfly height and equipment jittering"
-            },
-            {
-                "version": "0.0.40.0b",
-                "change_log": "Hotfix for glove drop glitch"
-            },
-            {
-                "version": "0.0.40.0a",
-                "change_log": "Hotfix for disappearing gear and sticks"
             }
         ],
         "on_rookie": false,
@@ -158,13 +146,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476449,
+        "changelog_update": 476473,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476425,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476449,
+        "last_update": 476473,
         "category": "GAMES",
         "votes": 163,
         "rating": 4.239264,

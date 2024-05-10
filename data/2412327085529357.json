@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 445
+                "votes": 446
             },
             {
                 "rating": 2,
@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 3764
+                "votes": 3769
             },
             {
                 "rating": 5,
-                "votes": 32251
+                "votes": 32303
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "754.03",
+                "change_log": "Patch 754.03\n- Fix G+ TOUR tournament entry."
+            },
             {
                 "version": "754.01",
                 "change_log": "New Update v754.01\n\n**Updated Course: Valhalla Golf Club**\n- The PGA of America, along with The Nicklaus Design team, added additional championship tees in strategic areas throughout Valhalla. Along with updated tees, work has been done to bring out many of the natural features of the golf course.\n\n**Bug Fixes & Quality Updates**\n- Optimized overall performance on Quail Hollow.\n- Menu button could become unresponsive after changing scenes, or entering/leaving Giant Mode.\n- Advanced Shot Stats for club path and face angle were showing incorrect values for left handed players."
@@ -152,10 +156,6 @@
             {
                 "version": "741.02",
                 "change_log": "**Patch Release v.741.02**\n\n**Updates**\n- Added Golf+ TOUR world rank leaderboard.\n- Improvements for Q2/Q3/Rift overall performance.\n\n**Physics V2 Updates**\n- Tightened up 30 - 50yd range for LW.\n- Tightened up 70 - 90yd range for SW.\n- Added the ability to turn the club’s power assistance negative for a preferred softer feel.\n- Added ‘Bunker Feel’ to Global Settings.\n- V2 stats will now convert to metric.\n\n**Bug Fixes**\n- Fixed a crash that occurred from using the LW off rocks.\n- Fixed an issue where Club Selection was reverting for the player in certain cases.\n- Fixed Topgolf multiplayer bugs.\n- Fixed YouTube search."
-            },
-            {
-                "version": "741.0",
-                "change_log": "New Update v741\n\n- The official GOLF+ TOUR kicks off! Earn your world ranking by competing in weekly tournaments.\n- Course Graphics and Colors Update: End-to-end visual quality and style updates bringing higher contrast and more life-like environments.\n- Physics V2 - Under 'game' in settings as an opt-in experimental feature. Physics engine built based on over 200,000 shots hit on simulators - bringing shot control,  ball flight, spin and roll outs to real world expectations based on your swing. Novice and Amateur have been update to provide a more linear progression Pro, which keeps assistance, but removes the Shot Shaper. Only Novice will have a guideline.\n- TIO Free Drop - If you get stuck behind a structure and do not have a shot to the pin, we will alert you and offer a free of penalty drop.\n- New 'Very Fast' Green Speed that will sit between 'Fast' and 'Pro', along with the removal of 'Slow' green speed.\n- Ability to customize your golf bag and club settings while in practice and non-handicap rounds.\n- New game settings for club selection: 'None' - Pick your club. 'Smart' - Club auto selected with lie and elevation taken into account.\n- Removal of Pro Putt\n- Sunset of Quest 1 standalone updates. \n\n\nQuality and Bug Fixes\n\n- Improved the overall Resume Round functionality\n- Fixed inconsistent drop locations at Wolf Creek\n- Fixed bug that caused the Driver to be adjusted when adjusting the Putter\n- Fixed bug that made it unable to hear other players club sound effects\n- Fixed a UI issue that players would occasionally encounter when resuming a round\n- Fixed a bug that caused the round settings to revert to default when modifying a round\n- Fixed an issue that could cause degraded performance when teleporting\n"
             }
         ],
         "on_rookie": false,
@@ -166,10 +166,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476305,
+        "changelog_update": 476473,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 476449,
+        "rating_update": 476473,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -177,10 +177,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 476449,
+        "last_update": 476473,
         "category": "GAMES",
-        "votes": 37057,
-        "rating": 4.812964,
+        "votes": 37115,
+        "rating": 4.813014,
         "weighted_rating": 4.8
     },
     "errors": []

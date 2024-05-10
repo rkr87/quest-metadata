@@ -3,7 +3,7 @@
         "id": "6664246617031653",
         "app_name": "Movie Deck for Plex",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Movie Deck for Plex is a full featured State-of-the-art 3D Plex client for Oculus headsets.\n\nFeatures:\n- Stream your Plex library from anywhere\n- Browse your library with poster artwork or folders\n- 3D controls with sliders and buttons that can be interacted with using your hands or controllers\n- Full control over the position, size, scale, tilt, aspect ratio, and X/Y curvature of the screen.\n- Full control over hue, brightness, contrast, saturation and gamma.\n- Choose from multiple backgrounds including passthrough\n- Dim your surroundings to focus on the movie\n- Anchor the screen to a position with roomscale tracking lets you walk around, on, or through the screen\n- Supports different subtitles and audio tracks\n- Automatically recognizes projection mode (180, 360, side by side, top/bottom) from filenames\n- Adjust the curve of 180 degree videos\n- Once the movie is playing you can turn off the menus, put the controllers down and just see your hands tracked without interfering with the controls.  Enjoy your food and drinks while watching the movie!\n- 4K and higher resolution support\n- Easy control using joysticks for fast forward, reverse, pause, and step frame\n- User ratings, watchlist, and marking movies as watched/unwatched\n- Easily find movies using filters by text search, user rating, watchlist and watch status\n- AR support. Use with green screen videos in any projection mode to remove the background\n- Virtual seating and cinema scenery\n- Embedded and external SRT subtitle support",
+        "description": "Movie Deck for Plex is a full featured State-of-the-art 3D media player for Oculus headsets.\n\nFeatures:\n- Stream your Plex library from anywhere\n- Also supports DLNA, SMB, and local device playback \n- Browse your library with poster artwork or folders\n- Choose between 2D and 3D user interfaces \n- Full control over the position, size, scale, tilt, aspect ratio, and X/Y curvature of the screen.\n- Full control over hue, brightness, contrast, saturation and gamma.\n- Choose from multiple backgrounds including passthrough\n- Dim your surroundings to focus on the movie\n- Anchor the screen to a position with roomscale tracking lets you walk around, on, or through the screen\n- Supports different subtitles and audio tracks\n- Automatically recognizes projection mode (180, 360, side by side, top/bottom) from filenames\n- Adjust the curve of 180 degree videos\n- Once the movie is playing you can turn off the menus, put the controllers down and just see your hands tracked without interfering with the controls.  Enjoy your food and drinks while watching the movie!\n- 4K and higher resolution support\n- Easy control using joysticks for fast forward, reverse, pause, and step frame\n- User ratings, watchlist, and marking movies as watched/unwatched\n- Easily find movies using filters by text search, user rating, watchlist and watch status\n- AR support. Use with green screen videos in any projection mode to remove the background\n- Virtual seating and cinema scenery\n- Embedded and external SRT subtitle support",
         "developer": "Egerter Software",
         "publisher": "Egerter Software",
         "genres": [
@@ -38,7 +38,7 @@
             },
             {
                 "rating": 2,
-                "votes": 7
+                "votes": 8
             },
             {
                 "rating": 3,
@@ -73,6 +73,10 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "changelog": [
+            {
+                "version": "3.6",
+                "change_log": "-Added playback support for DLNA, SMB, and Local Device Storage, no longer requires Plex to use\n"
+            },
             {
                 "version": "3.5",
                 "change_log": "-Added battery percentage and current time to 2D interface\n-Added font support for more languages, including Chinese, Korean, Japanese"
@@ -148,30 +152,26 @@
             {
                 "version": "1.7",
                 "change_log": "-Fixed the timeline issues from previous build\n-Removed subtitles until a fix is available"
-            },
-            {
-                "version": "1.6",
-                "change_log": "-Fixed a bug in the subtitle rendering\n-Automatically sets aspect ratio for half/full SBS and other videos\n-Made it easier to click on libraries and movies without scrolling\n-Fixed 180 curve settings not being set when you first start playing\n"
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 476473,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475825,
+        "changelog_update": 476473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476449,
+        "rating_update": 476473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476449,
+        "last_update": 476473,
         "category": "APPS",
-        "votes": 62,
-        "rating": 3.403226,
+        "votes": 63,
+        "rating": 3.380952,
         "weighted_rating": 3.4
     },
     "errors": []
