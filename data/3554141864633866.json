@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.18.00.01",
+                "change_log": "- Mic and Storage Permissions early\n- Fixed video stopping when second non beat synced video opened\n- Rewritten audio recording in Avatar recorder\n- User wav files now streamed with low memory footprint\n- 32bit user wav files supported\n- Waveforms fades at each end\n- Fixed waveform position in Monochrome cubes view\n- Fixed too small items spawned in passthrough\n- Better lighting in minimal worlds\n- Removed old tutorial worlds\n- Removed old grime demo"
+            },
+            {
                 "version": "1.17.00.11",
                 "change_log": "- VFX position better \n- Motion control pitch bend fix \n- Video two sided for inside cube or sphere\n- Optimised user audio"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "1.13.006",
                 "change_log": "- Fixed drag cue into scene cue scale, \n- Extra arm button in tutorials removed. \n- Changed first time intro floor material and optimised loading. \n- Built in video instead of YouTube for main help"
-            },
-            {
-                "version": "1.13.00.04",
-                "change_log": "Links to full version from lite"
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476329,
+        "changelog_update": 476497,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476329,
+        "last_update": 476497,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,
