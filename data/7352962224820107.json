@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 0
+                "votes": 2
             },
             {
                 "rating": 2,
@@ -44,7 +44,7 @@
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 3
             },
             {
                 "rating": 5,
@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.4",
+                "change_log": "Fixed join room code input bug where room code is not updating.\nSide Wall is now usable during Pillar Attack!"
+            },
+            {
                 "version": "0.1.3",
                 "change_log": "Fixed region dropdown so user can now scroll down for more options.\nAdded version # on board."
             },
@@ -91,24 +95,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476497,
+        "general_update": 476521,
         "genre_update": 476353,
         "device_update": 476353,
         "mode_update": 476353,
         "language_update": 476353,
         "platform_update": 476353,
         "player_mode_update": 476353,
-        "changelog_update": 476497,
+        "changelog_update": 476521,
         "keyword_update": 476353,
         "tag_update": 476353,
-        "rating_update": 476497,
+        "rating_update": 476521,
         "iarc_detail_update": 476353,
         "keywords": [],
-        "last_update": 476497,
+        "last_update": 476521,
         "category": "GAMES",
-        "votes": 7,
-        "rating": 4.857143,
-        "weighted_rating": 4.0
+        "votes": 11,
+        "rating": 4.0,
+        "weighted_rating": 3.7
     },
     "errors": []
 }
