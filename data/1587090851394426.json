@@ -54,7 +54,7 @@
             },
             {
                 "rating": 5,
-                "votes": 698
+                "votes": 699
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +77,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.2.11-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Made low memory warning message thresholds more accurate.\n- Changed controller models for Quest 2 and Quest 3 to be white.\n- Single-sided rendering is no longer immediately disabled when engaging the tool switcher while the Flip Normals tool is selected. Now you must actually switch to another tool for it to be disabled.\n- Made memory usage more efficient in some scenarios.\n- Made saving of some large sketch files faster.\n\n🐛 Bug Fixes\n\n- Fixed exports having the incorrect thumbnail after joining a Collab room.\n- Removed grab trigger haptics when using SteamVR.\n- Reintroduced missing Please Stand By screen when saving files."
+            },
+            {
+                "version": "6.2.11-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Made low memory warning message thresholds more accurate.\n- Changed controller models for Quest 2 and Quest 3 to be white.\n- Single-sided rendering is no longer immediately disabled when engaging the tool switcher while the Flip Normals tool is selected. Now you must actually switch to another tool for it to be disabled.\n- Made memory usage more efficient in some scenarios.\n- Made saving of some large sketch files faster.\n\n🐛 Bug Fixes\n\n- Fixed exports having the incorrect thumbnail after joining a Collab room.\n- Removed grab trigger haptics when using SteamVR.\n- Reintroduced missing Please Stand By screen when saving files."
+            },
             {
                 "version": "6.2.10-generalqog",
                 "change_log": "🐛 Bug Fixes\n\n- Fixed not being able to open GLB and FBX files containing textures\n- Fixed app hangs when trying to export FBX locally on standalone\n- First Sketch experience is no longer triggered when entering a Collab room in a workspace with no personal files"
@@ -154,20 +162,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476305,
+        "changelog_update": 476569,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 476545,
+        "rating_update": 476569,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 476545,
+        "last_update": 476569,
         "category": "APPS",
-        "votes": 1081,
-        "rating": 4.085106,
+        "votes": 1082,
+        "rating": 4.085952,
         "weighted_rating": 4.0
     },
     "errors": []
