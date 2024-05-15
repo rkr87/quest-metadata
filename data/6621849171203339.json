@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 9
+                "votes": 11
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "1.3.0",
+                "change_log": "MAJOR FIXES\nWe have pre-emptively fixed an issue with the “Buy All Cosmetics” Achievement & Trophy. This should now work even if we remove and add items from the Cosmetics menu.\nWe have fixed issues with the “Explode on Impact” and “Boobytrap” Grenade Launcher upgrades: these should now be much easier to use.\nWe have resolved issues with the “Life Drain” and “Vampiric Damage” permanent upgrades! These should now FOR SURE work as indented:\nLife Drain should have a 50% chance of triggering and give a small amount of HP back.\nVampiric Damage should have a 100% chance of triggering and give a slightly larger amount of HP back, but you also take more damage from enemy attacks.\n\nCHANGES\nWe have added much more sounds in the hangar and in -game, so keep an ear out!\nQueen makes sounds when changing phases.\nHangar buttons now make sounds consistently\nEquipping weapons, cosmetics and upgrades now make some noise!\nThe mechs in the victory scene now make some noise!\nYou will get a unique noise after picking an upgrade in-game depending on their rarity.\nThe Slicer and Droughtwave upgrades now have SFX!\nYou now get a sound when being invited to join a game and receive a friend request!\nWe added a sound to our error pop-up, but hopefully you won’t hear that one a lot :wink:.\nWe have added a new screen to the mech stats panel! You can now see a list of all upgrades you have acquired throughout your Run!\nWe have improved stability across the board (We realize this is vague but it’s just code refactoring and guard clauses: most actual fixes were contained in the previous Hotfix patch.)\nPurchasing an item while having an empty equipment slot equipped now automatically equips that item.\nWe have added lights to the mech’s headlights in the Hangar!\nBugparts now no longer get collected if your tank is full, giving your partner a chance to pick more up!\nNow that Life Drain and Vampiric Damage have been fixed, we’ve tuned their numbers a bit:\nLife Drain has a 50% chance to convert 3% of damage done to mech health. (aka: for each 1000 damage you deal you should heal 15 hp.)\nVampiric damage has 100% chance to convert 10% of damage done to mech health. (aka: for each 1000 damage you deal, you deal 900 damage and heal 100 health.) BUT also enemies do double damage to you. (NOTE: This is meant to give a “safe” and “unsafe” option, one that supports a little bit constantly, and one with high risk-reward.)\nMade it possible to shoot through fences in maps that have fences.\nThe Grenade Launcher has been buffed from 160 to 210 (Note: We received feedback that the Grenade Launcher was quite underpowered compared to the Flak, especially after a few good upgrades. This should make the damage more reliable; from two grenades barely killing a 300hp Grunt to two grenades for sure killing a 300hp Grunt and heavily damaging the ones around it):\nGrenade direct hit damage has been uptuned from 60 to 80.\nGrenade AOE damage has been uptuned from 100 to 130.\n\nMINOR FIXES\nWe have fixed issues with our enemy navigation, which was causing enemies to get stuck in place.\nWe fixed an issue when equipping the “Empty” item: this should now be much easier to use.\nWe have implemented various smaller UI fixes:\nThe microphone icons have gotten an update.\nFixed the Spewer boss missing SFX for their laser attack.\nFixed wall visuals in The Abyss\nFixed an issue with the slicer upgrades no showing particles correctly.\nDrastically reduced the the “Immune” text spam when hitting bosses with weapons like Laser and Flamethrower.\nFixed some surplus text in subtitles.\nDowntuned the particles related to Lifesteal upgrades (they should now accurately convey the amount gained)\nWe have fixed some floor colliders having the wrong mask causing loot to fall through floors (Tangled Nest).\nRemoved a surplus spawn point in The Yard which causing players to spawn outside of the map."
+            },
+            {
                 "version": "1.2.1",
                 "change_log": "“Visit all maps” achievement has been fixed. This should now unlock correctlty.\n\nSome more fixes to do with waves not starting/ending have been resolved. (As a backup we’ve also implemented a failsafe to catch issues and make losing runs like this much less likely.)\n\nFixed an instance of mudmuncher getting stuck in specific situations.\n\nThe issues with upgrades getting randomly removed are also resolved!"
             },
@@ -88,24 +92,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476425,
+        "general_update": 476593,
         "genre_update": 475993,
         "device_update": 475993,
         "mode_update": 475993,
         "language_update": 475993,
         "platform_update": 475993,
         "player_mode_update": 475993,
-        "changelog_update": 476257,
+        "changelog_update": 476593,
         "keyword_update": 475993,
         "tag_update": 475993,
-        "rating_update": 476521,
+        "rating_update": 476593,
         "iarc_detail_update": 475993,
         "keywords": [],
-        "last_update": 476521,
+        "last_update": 476593,
         "category": "GAMES",
-        "votes": 16,
-        "rating": 4.1875,
-        "weighted_rating": 3.9
+        "votes": 18,
+        "rating": 4.277778,
+        "weighted_rating": 4.0
     },
     "errors": []
 }

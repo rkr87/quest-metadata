@@ -6,12 +6,7 @@
         "description": "Unveil the truth about unknown heroes fighting in the aftermath of World War II.\n\nThe war is finally over. Skilled pilots looking for new occupation have spread all over the world. You are one of them, a mercenary, smuggling a mysterious package for an unknown, powerful client. Things go south when you realize that the package contains fake documents for fleeing Nazis. \n\nOverflight Campaign will take you to the uncharted lands of South America to engage in a conflict that can define the final results of World War II. Immerse yourself in a unique story-driven VR experience with fully-fledged characters, intense dogfighting action and take part in the most breathtaking missions ever encountered on Mobile VR.\n\nAfter you save the world, enjoy Overflight for hours in the multiplayer mode. Here, the game changes into a semi-realistic VR dogfight with dynamic action and constant adrenaline rush. Play with your friends or challenge the community! \n\nSee you in the skies of Overflight!",
         "developer": "Gamedust",
         "publisher": "Gamedust Sp. z o.o.",
-        "genres": [
-            "Action",
-            "Arcade",
-            "Simulation",
-            "Shooter"
-        ],
+        "genres": [],
         "devices": [
             "Gamepad",
             "Touchpad",
@@ -148,7 +143,7 @@
         ],
         "on_rookie": false,
         "general_update": 476257,
-        "genre_update": 474685,
+        "genre_update": 476593,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
@@ -166,11 +161,23 @@
             "shoot",
             "flying"
         ],
-        "last_update": 476281,
+        "last_update": 476593,
         "category": "GAMES",
         "votes": 593,
         "rating": 3.779089,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "dce638f01df352fc25969a15fac968c0"
+            ],
+            "path": [
+                "item",
+                "genre_names"
+            ]
+        }
+    ]
 }

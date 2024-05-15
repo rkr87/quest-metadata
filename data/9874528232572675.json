@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "3.2.1.0",
+                "change_log": "Introduced the option to open a Demo File without the need to Sign In.\nAdded a new sequence of onboarding animations for model navigation and manipulation once the Demo File is loaded.\nIncluded a new onboarding card for Passthrough once a model is loaded after Signing In.\nEnabled an Ambient Occlusion post-process effect in both tabletop and immersive modes.\nAdded a new “Styles” Tray in the overflow menu.\nIncluded an on/off toggle for the Ambient Occlusion effect under the new “Styles” tray.\nAdded an Ambient Occlusion shortcut on the “B” button of the right controller that enables and disables the Ambient Occlusion effect.\n"
+            },
+            {
                 "version": "3.2.0.0",
                 "change_log": "Introduced a new persistent toolstrip with a horizontal reposition handle in both tabletop and immersive modes\nAdded a “Home” button on the new toolstrip that leads to the landing home page\nAdded shortcuts to all the main commands along the new toolstrip, namely “Presentation Mode”, “Passthrough”, “Camera Location”, “Dimensions”, “Reset Table” “Elevator”, and “Return to Tabletop”\nIntroduced a “hamburger button” that displays all menus in an expandable panel.\nIntroduced brand new iconography for all tools hosted along the toolstrip in line with the SketchUp iconography found on Desktop, Web, and Mobile\nIntroduced Passthrough for tabletop and immersive modes\nAdded an onboarding pop-up window that illustrates how to enable the passthrough functionality\nAdded a passthrough shortcut button on the Y button of the left controller that enables and disables the passthrough mode\nAdded haptic response whenever the passthrough mode is enabled or disabled\nMigrated to Universal Rendering Pipeline by Unity3D\nImproved shading for SketchUp models to better represent depth based on viewing angles "
             },
@@ -105,13 +109,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475897,
+        "changelog_update": 476593,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476545,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476545,
+        "last_update": 476593,
         "category": "APPS",
         "votes": 56,
         "rating": 3.892857,
