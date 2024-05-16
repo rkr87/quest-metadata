@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.29",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.29\n\n## Bug Fixes\n\n- Re-connecting the network keyboard and headset should be much more robust to network interruptions, closing and re-opening Softspace, etc.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
+            },
+            {
                 "version": "2024.28.3",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.28.3\n\n## Improvements\n\n- Optimized the mesh representation of Topic item body backing and title backing for 89% reduction in draw calls, which greatly reduces the CPU load of rendering scenes with many topics; e.g. the demo scene.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.19.1",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.19.1\n\n## Bug Fixes\n\n- Fixed a bug that was causing AI-generated responses to quickly become repetitive as more content was added to a workspace.\n- Fixed a bug that was unexpectedly deleting last empty text item in an untitled topic.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.19",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.19\n\n## Bug Fixes\n\n- Fixed a bug that was causing AI-generated responses to quickly become repetitive as more content was added to a workspace.\n- Fixed a bug that was unexpectedly deleting last empty text item in an untitled topic.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476497,
+        "changelog_update": 476617,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 476593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476593,
+        "last_update": 476617,
         "category": "APPS",
         "votes": 67,
         "rating": 3.38806,

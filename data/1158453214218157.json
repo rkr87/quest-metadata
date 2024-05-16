@@ -6,7 +6,13 @@
         "description": "The world is crazy about soccer championships! Put on Gear VR and become a goalkeeper! Show the world your capabilities and make your dreams come true! What are you waiting for? Put on your gloves and hit play! Only you can defend the goal! Goalkeeper VR is a truly addictive soccer game. You need quick reactions and great coordination to save the shots. Use your gaze to control your hands and react as quickly possible and stop the ball from getting in the net. Earn more points by blocking balls but remember your time is limited! Share your scores with your friends and find out who is the best keeper!",
         "developer": "yode",
         "publisher": "Yode Group",
-        "genres": [],
+        "genres": [
+            "Action",
+            "Sports",
+            "Simulation",
+            "Casual",
+            "Arcade"
+        ],
         "devices": [],
         "modes": [
             "Single User"
@@ -84,7 +90,7 @@
         ],
         "on_rookie": false,
         "general_update": 476257,
-        "genre_update": 476593,
+        "genre_update": 476617,
         "device_update": 475729,
         "mode_update": 475729,
         "language_update": 475729,
@@ -99,23 +105,11 @@
             "soccer",
             "football"
         ],
-        "last_update": 476593,
+        "last_update": 476617,
         "category": "GAMES",
         "votes": 85,
         "rating": 3.6,
         "weighted_rating": 3.5
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "dce638f01df352fc25969a15fac968c0"
-            ],
-            "path": [
-                "item",
-                "genre_names"
-            ]
-        }
-    ]
+    "errors": []
 }
