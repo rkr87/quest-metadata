@@ -3,7 +3,7 @@
         "id": "3744737298949811",
         "app_name": "DVR Simulator",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "DVR Simulator is a Drone Racing FPV Simulator. It features two flight modes, Freestyle and Racing. Simulates FPV Goggles using your VR headset. Many modes are available.\n\nAn in-game editor allows you to tweak the drone's physics. You can also save your profiles and use them later. The profile format is open so you can share it with your friends.\n\nGamepads are supported and enabled by default. Radio transmitters are currently partially supported.\n\n- 8 levels\n- Many drones\n- 2 game modes: Freestyle and Racing\n- A tons of options",
+        "description": "DVR Simulator is a Drone Racing FPV Simulator. It features two flight modes, Freestyle and Racing. Simulates FPV Goggles using your VR headset. Many modes are available. With Mixed Reality you can control your drone and learn how to pilot without breaking anything. You can also create your own race!\n\nAn in-game editor allows you to tweak the drone's physics. You can also save your profiles and use them later. The profile format is open so you can share it with your friends.\n\nGamepads are supported and enabled by default. Radio transmitters are currently partially supported. You can play with VR controllers but it is recommanded to enable some confort options : Throttle Lag or Sticky Throttle.\n\n- 8 levels\n- Many drones\n- 2 game modes: Freestyle and Racing\n- A tons of options",
         "developer": "Demonixis Games",
         "publisher": "https://www.demonixis.net",
         "genres": [
@@ -12,7 +12,8 @@
         ],
         "devices": [
             "Touch Controllers",
-            "Gamepad"
+            "Gamepad",
+            "Hand Tracking"
         ],
         "modes": [
             "Single User"
@@ -79,9 +80,9 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476401,
+        "general_update": 476641,
         "genre_update": 474685,
-        "device_update": 474685,
+        "device_update": 476641,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
@@ -92,7 +93,7 @@
         "rating_update": 476401,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476401,
+        "last_update": 476641,
         "category": "GAMES",
         "votes": 6,
         "rating": 2.0,

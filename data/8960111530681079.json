@@ -77,6 +77,14 @@
         },
         "changelog": [
             {
+                "version": "0.855",
+                "change_log": "Bug fix update:\n\n- Hogs are now mortal again - a bug stopped them being hit correctly,\n- The bullet link on the M249 could be duplicated and hang weirdly in certain circumstances, now fixed.\n\nPrevious update:\nSAW update for GUNS: the M249 LMG!\n\n- New weapon: the M249 5.56x45 Light Machine Gun,\n- New machine gun targets,\n- New hIt indicators.\n\n\n=====\n\nKnown issues: teleporting may sometimes require two button presses."
+            },
+            {
+                "version": "0.842",
+                "change_log": "SAW update for GUNS: the **M249 LMG**!\n\n- New weapon: the **M249 5.56x45** Light Machine Gun,\n- New **machine gun targets**,\n- New **hIt indicators**.\n\n\n=====\n\nKnown issues: teleporting may sometimes require two button presses."
+            },
+            {
                 "version": "0.816",
                 "change_log": "Update 0.816: Handles & gunsmoke!\n\n- New attachment type: handles!\n- Also: gunsmoke effects, \n- model tweaks, \n- fps improvements!"
             },
@@ -143,10 +151,6 @@
             {
                 "version": "0.548",
                 "change_log": "V. 0.548: \n- Better bullet casings! \n- Scarecrows can roam free,\n- M4 full auto glitch fixed, \n- Glock and Desert Eagle recoil tweaks."
-            },
-            {
-                "version": "0.541",
-                "change_log": "V. 0.541: New guns! \n\nM4 (full auto battle rifle, 5.56) \nBeretta M9 (pistol, 9mm) \n\nAlso: \nScarecrow target tweaks, texture tweaks."
             }
         ],
         "on_rookie": false,
@@ -157,13 +161,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476497,
+        "changelog_update": 476641,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476497,
+        "last_update": 476641,
         "category": "GAMES",
         "votes": 11,
         "rating": 4.727273,

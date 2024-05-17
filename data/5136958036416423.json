@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.5",
+                "change_log": "FEATURES\n- Dynamic Arbitration (Reduces network lag)\n- Anti-Run (Penalizes if you're running too fast)\n\nBUG FIXES\n- Issue with ronin sheathing\n- Offline trials blocking game (not able to continue)\n- Ward issue when done before engagement restart\n- Critical parry (penalty, shield hit)\n- Inverted shield in solo\n- Weapons hit at distance when unholstering\n- Fixed issue with Ronin still being unable to sheathe after dying in half-sheathe\n- Fixed MR calibration and squire dojo\n- Improved body collider on Tyrant\n- Fixed some broken trials\n- Fixed remaining inverted shield in solo\n- Fixed some arena sounds not playing correctly\n\nBALANCING\n- Viking Legendary: +3 Awaken (165)\n- Ronin Main: +2 Awaken (184)\n- Pirate Legendary: -2 Awaken (168)"
+            },
+            {
                 "version": "1.6.4",
                 "change_log": "PATCH 1.6.4\n\nFEATURES\n- Improved Hitreg\n- Platform requirements 13+\n\nBUG FIXES\n- Fixed memory issue\n- Fixed issues in Trials\n- Fixed trial UI appearing on scene load (without adversary)\n- Visual and stability issues\n- Sword gauge UI fix\n- Many Ronin fixes\n- Many optimization\n\nBALANCING\n- Nerf: Duelist, Viking & Pirate\n- Buff: Persian, Samurai, Knight & Ronin\n\nNERF\n- Vik L: -5A (162)\n- Duelist L: -5A (185)\n- Pirate M: -5A (160)\n- Barb M: -3A (178) +100ms Awaken in respite (250ms)\n- Barb L: -2A (182) +100ms Awaken in respite (250ms)\n\nBUFF\n- Persian M: +5A (183) +0.1 Speed (4.35-10.75)\n- Persian L: +3A (182) +0.05 Speed (3.75-10.55)\n- Sam M: +5A (195)\n- Sam L: +2A (192)\n- Ronin M: +2A (182)\n- Ronin L: +5A (195)\n- Knight M: +4A (181)\n- Knight L: +1A (181)\n\nPersian: The edge bonus will be reduced by 25% on main blade to favor the cats claw.\nBarbarian (main): Speed remains unchanged, but adjustments have been made to the respite (when the player loses awaken, there is now a 1/10 second delay before the blade can be awakened again), making it slightly less forgiving. It penalizes players if they lose awaken.\nNote: \"L\" is for Legendary, \"M\" is for Main."
             },
@@ -103,7 +107,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475225,
+        "changelog_update": 476641,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 476617,
@@ -112,7 +116,7 @@
             "pvp",
             "sword"
         ],
-        "last_update": 476617,
+        "last_update": 476641,
         "category": "GAMES",
         "votes": 1113,
         "rating": 4.166217,

@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.3 dev - Quest",
+                "change_log": "Minor patch 1.4.3\n\nNew\n. Added Decker grinder training mission.\n. Weapon mount info tutorial.\n\nDecker Balance Tweaks\n. Slightly reduced max heat tank capacity.\n. Reduced heat cooldown rate.\n. Increased cooldown time for humming shift.\n. Decreased fuel regen rate.\n. Slightly decreased the health of its torso.\n. Decreased the health of its legs.\n\nBug fixes\n. Black stretchy polygon no longer shows when player pulls down main menu.\n. Fixed humming shift inconsistency/using 1st input direction instead of using the forwards facing direction when activating with no input.\n. Fixed other grinders legs exploding unexpectedly when touching a moving Decker's roof.\n. Fixed Humming shift no longer working when using blind fire at the same time."
+            },
+            {
                 "version": "1.4.2 dev - Quest",
                 "change_log": "Major Patch 1.4.0\n\n--- New Stuff ---\n\nNew Grinder: Decker\n. Giant Heavy Grinder with 2 Large and 2 fixed Mounts.\n. Humming Shift: a lateral short duration jet for additional traversal.\n\nSingleplayer Campaign\n. For players interested in only gameplay bits, intermission skipping options are now presented during titlecard sequences.\n. Campaign intermissions characters show helpful visual thought bubbles near their heads to indicate crucial and optional questlines.\n. Characters that require quest objects given to them will show a unique visual thought bubble indication so player knows their status.\n\nQuest3\n. Better terrain texture detail and update speed.\n. Cockpit Glass is visible.\n. Nearby ground details such as rocks and vegetation are present.\n. 1.0 -> 1.2x supersampling, increasing panel resolution.\n. MSAA 4x, which increases edge detailing and also effects transparency quality.\n\n--- Improvements ---\n\nGeneral\n. New missile trail effects that last longer, look better, and are more consistent on Quest vs. PC.\n. Mallet missile is more clearly visible as it approaches with a cloud ring after arming.\n. Terrain texture resolution improved on some levels with blurrier patches.\n. Rook/Drill/Decker stat descriptions now to include extra line for clearer descriptions.\n. Updated Pulsar effects to punch through fog better.\n. Many weapon impact effects render more efficiently on Quest Platforms.\n. Skythorn arm effects more visible through fog from the shooter's perspective.\n. Heavy foot impact effect is now much more efficient to render, esp for Quest users.\n. Jumpjet effect visuals improved.\n. Mallet explosion effects more efficient on Quest.\n\nMount Damage+ (only for weapons on swiveling mounts)\n. Grinder damage readouts screens now show mount health.\n. Disabled mounts will point down. This is visible from both the cockpit and outside.\n. Made it more clear to others when a mount has been disabled with additional FX.\n. Mount health has been balanced across all grinders and mount types.\n\n--- Gameplay ---\n\nCampaign\n. Mission 6: Frank moves quicker through the chase section of the mission.\n. Mission 6: Frank's health gets boosted to a higher minimum after the base defense.\n. Mission 6: One less consistent enemy chasing you during the chase section of the mission.\n. Mission 6: Turret enemies now aim a bit better during chase section to make up for frank moving quicker.\n. Mission 5b: There are a few less little worms to eliminate during boss battle.\n\nGeneral\n. Updated Pulsar effects to punch through fog better.\n. Grinder Stats visuals in grinder selection menu have been altered to make sense relative to Decker's stats.\n. Rook's front bars have been reduced in their dampening effect.\n\n--- Fixes ---\n\n. Fix for hummingbird jet effect not showing up sometimes.\n. Fixed lighting falloff animation on the large cannon impacts so they don't end so abruptly.\n. Boundaries will no longer be set to an incorrect boundary for training missions.\n. Goldrush laser will now properly shoot people at higher angles.\n. Fixed bug in m5a where jones could constantly be reminding to catach up throughout the mission.\n. Fixed some boundaries having holes in them where you could pass through.\n. Fixed an issue where a boundary could appear invisible.\n. Fixed audio issues occurring during higher stages of botstomp.\n\nMinor Patch 1.4.1 +\n\n. Fixed jump jet rumble not occurring.\n. Fixed an issue where quest devices could not select player counts higher than 8 or 12."
             },
@@ -150,7 +154,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476257,
+        "changelog_update": 476641,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 476617,
@@ -162,7 +166,7 @@
             "mech",
             "multiplay"
         ],
-        "last_update": 476617,
+        "last_update": 476641,
         "category": "GAMES",
         "votes": 448,
         "rating": 4.223214,
