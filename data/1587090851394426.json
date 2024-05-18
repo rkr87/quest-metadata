@@ -54,7 +54,7 @@
             },
             {
                 "rating": 5,
-                "votes": 700
+                "votes": 701
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +77,22 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.2.13-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly changed layout of export menu.\n\n🐛 Bug Fixes\n\n- Improves Collab stability in some network conditions."
+            },
+            {
+                "version": "6.2.13-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly changed layout of export menu.\n\n🐛 Bug Fixes\n\n- Improves Collab stability in some network conditions."
+            },
+            {
+                "version": "6.2.14-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that could sometimes cause imported opaque textures to be rendered as transparent."
+            },
+            {
+                "version": "6.2.14-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that could sometimes cause imported opaque textures to be rendered as transparent."
+            },
             {
                 "version": "6.2.12-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed a rendering crash that would sometimes occur on loading a sketch."
@@ -136,22 +152,6 @@
             {
                 "version": "6.2.2-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
-            },
-            {
-                "version": "6.2.4-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed different files with the same name sometimes sharing the same locally cached thumbnail.\n- Fixed an issue that caused some creases on creased subdivision objects that were created via a baking or Separate action to persist permanently in Collab.\n- Prefabs made by grabbing and dropping sketch objects into the import panel now correctly retain layer group information.\n- Restrict to Mirror option no longer restricts the movement of unmirrored objects.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed Guest Team room exports saving to personal files."
-            },
-            {
-                "version": "6.2.4-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed different files with the same name sometimes sharing the same locally cached thumbnail.\n- Fixed an issue that caused some creases on creased subdivision objects that were created via a baking or Separate action to persist permanently in Collab.\n- Prefabs made by grabbing and dropping sketch objects into the import panel now correctly retain layer group information.\n- Restrict to Mirror option no longer restricts the movement of unmirrored objects.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed Guest Team room exports saving to personal files."
-            },
-            {
-                "version": "6.2.1-generalqog",
-                "change_log": "🚀 Features & Tweaks\n\n- The Section View tool now snaps to axes by default. Holding the shift trigger now allows for free rotation.\n\n🐛 Bug Fixes\n\n- Fixed export presets sometimes not appearing if loading into a sketch quickly after launching the app.\n- Fixed transparent screenshot background not being transparent.\n- Fixed a case with the Gravity Sketch Launcher which could cause it to fail to update the client to 6.2."
-            },
-            {
-                "version": "6.2.1-generalqc",
-                "change_log": "🚀 Features & Tweaks\n\n- The Section View tool now snaps to axes by default. Holding the shift trigger now allows for free rotation.\n\n🐛 Bug Fixes\n\n- Fixed export presets sometimes not appearing if loading into a sketch quickly after launching the app.\n- Fixed transparent screenshot background not being transparent.\n- Fixed a case with the Gravity Sketch Launcher which could cause it to fail to update the client to 6.2."
             }
         ],
         "on_rookie": false,
@@ -162,20 +162,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476641,
+        "changelog_update": 476665,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 476617,
+        "rating_update": 476665,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 476641,
+        "last_update": 476665,
         "category": "APPS",
-        "votes": 1083,
-        "rating": 4.086796,
+        "votes": 1084,
+        "rating": 4.087638,
         "weighted_rating": 4.0
     },
     "errors": []
