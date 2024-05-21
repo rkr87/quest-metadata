@@ -111,10 +111,6 @@
             {
                 "version": "2023.04.12.1",
                 "change_log": "- added laser pointer to right claw\n- moved scrolling/map rotation to left hand stick\n- changed colors and positions of compass arrows for clarity of orientation (Up/Down -> Up/Forward/Right)\n- added gravity arrow to map\n- added tutorial state for targeting the second item\n- adjusted tutorial tips using current key mapping and controller\n- added icons to simplify minimap tutorial tip\n- replaced rock in tutorial with sword to prevent accidental throws and ensure second item is targeted next\n- fixed enemy hurtboxes activating teleporter\n- applied camera rotation to timekeeper timescale\n- increased volume of floaters"
-            },
-            {
-                "version": "2023.03.13.1",
-                "change_log": "Design\n\n- redesigned tutorial to teach exploration, key collection, teleporter, zero G, and lore\n\n- prevented impact damage in tutorial\n\n- prevented multihits and impact damage from hawks\n\n- hawk now retreats momentarily after attacking\n\n- hawk aggression radius decreased\n\n- collecting money now dynamically generates sound based on a scale\n\nSounds\n\n- swapped ambience and music of Event Horizon and Core Collapse\n\n- pressing \"back\" in menu now plays a different sound\n\n- converted teleporter map visuals to use continuous rotation\n\nVisuals\n\n- swapped biome index and energy level on stats to prevent overlap with player claw base\n\n- removed snap turn arrow indicator on gravity-shifting\n\n- adjusted tutorial colors\n\n- added more vibrant colors to player hand capsules\n\n- fireflies in gravity grotto now glow from dim orange to bright green\n\n- updated energy orb color\n\n- added orange trail to energy orbs\n\n- added collection effect for energy orbs\n\n- recolored gravity grotto low-gravity field to blue\n\n- redesigned minecart rubble to be more chunky\n\n- redesigned spikes to be more gnarly and visible\n\nFixes\n\n- fixed gravity block not being destroyed by Cursed Tomb boss\n\n- eliminated unnecessary function calls on non-zero-gravity climbables\n\n- prevented XR interaction function calls when un-paused\n\n- fixed regression of climbable release event not triggering\n\n- improved rendering performance of Event Horizon control rod tower"
             }
         ],
         "on_rookie": false,
@@ -125,13 +121,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476713,
+        "changelog_update": 476737,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476713,
+        "last_update": 476737,
         "category": "GAMES",
         "votes": 5,
         "rating": 5.0,

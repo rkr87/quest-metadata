@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "6.2.16-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Updated fix for an issue that could sometimes cause imported opaque textures to be rendered as transparent.\n- Improved Collab connection stability on some networks."
+            },
+            {
+                "version": "6.2.16-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Updated fix for an issue that could sometimes cause imported opaque textures to be rendered as transparent.\n- Improved Collab connection stability on some networks."
+            },
+            {
                 "version": "6.2.13-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly changed layout of export menu.\n\n🐛 Bug Fixes\n\n- Improves Collab stability in some network conditions."
             },
@@ -144,14 +152,6 @@
             {
                 "version": "6.2.5-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed being unable to load sketches containing uncreased subdivision objects"
-            },
-            {
-                "version": "6.2.2-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
-            },
-            {
-                "version": "6.2.2-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed not being able to snap the rotation of images and text objects to axes unless the objects are close to the axes.\n- Fixed not being able to anchor the environment torch in Collab.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Temporarily disabled macOS proxy support to troubleshoot connection issues on some networks."
             }
         ],
         "on_rookie": false,
@@ -162,7 +162,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476665,
+        "changelog_update": 476737,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 476689,
@@ -172,7 +172,7 @@
             "model",
             "design"
         ],
-        "last_update": 476689,
+        "last_update": 476737,
         "category": "APPS",
         "votes": 1083,
         "rating": 4.086796,
