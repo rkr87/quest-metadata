@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.31",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.31\n\n## Improvements\n\n- Changed Fixed Foveation render setting to reduce visible pixellation at top of the field-of-view, while maintaining performance benefits from previous setting.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
+            },
+            {
                 "version": "2024.30",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.30\n\n## Improvements\n\n- Reduced the browser render rate to 1/2 of the headset render rate to lessen the framerate impact of CPU-heavy websites.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.20.1",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.20\n\n## Improvements\n\n- In controller mode, pressing the left controller menu button once will toggle the hand menu. Previously, the menu only displayed when the menu button was held down.\n- The positioning of the palm menu is higher up, for better usage ergonomics.\n- In controller mode, the cursor now has the same positioning logic as in tracked hand mode, making the selection of items higher up in the field view possible much more comfortable.\n\n## Bug Fixes\n\n- Fixed: Deleting a workspace was not updating the user’s global item count.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.20",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.20\n\n## Improvements\n\n- In controller mode, pressing the left controller menu button once will toggle the hand menu. Previously, the menu only displayed when the menu button was held down.\n- The positioning of the palm menu is higher up, for better usage ergonomics.\n- In controller mode, the cursor now has the same positioning logic as in tracked hand mode, making the selection of items higher up in the field view possible much more comfortable.\n\n## Bug Fixes\n\n- Fixed: Deleting a workspace was not updating the user’s global item count.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476641,
+        "changelog_update": 476761,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 476593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476641,
+        "last_update": 476761,
         "category": "APPS",
         "votes": 67,
         "rating": 3.38806,

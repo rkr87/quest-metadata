@@ -75,6 +75,10 @@
         "changelog": [
             {
                 "version": "1.1",
+                "change_log": "Warszawa :  Fixed a problem that tends to hang when selecting waveforms　\n　　　　　　波形選択時にハングしやすい問題に対処\nWarszawa :  Changed the size of the waveform select menu　\n　　　　　　波形選択メニューのサイズ変更"
+            },
+            {
+                "version": "1.1",
                 "change_log": "・10 gadgets have been added\n　以下の10個のGadgetが追加されました\n　Berlin\n　Dublin\n　Wolfsburg\n　Phoenix\n　Marseille\n　Chicago\n　Brussels\n　Tokyo\n　Amsterdam\n　Helsinki\n\n・Move to the Front\" and \"Auto Select\" have been added. You can also restore the previous settings from SETTINGS on the HOME menu (startup menu)\n　「手前で編集」と「自動選択」が追加されました。起動時に表示される「ホームメニュー」内の「設定」で以前の設定に戻すこともできます\n\n・”Confirm” on Gadgets and menus has been changed to the right trigger (previously assigned to the A button on the right controller. Sequence data input on the display remains the same. This will be changed at a later date).\n　ガジェットやメニューでの「確定」が右トリガーに変更されました（以前は右コントローラのAボタンにアサインされていました　ディスプレイ上のシーケンスデータ入力は従来通りです　後日変更予定です）　\n\n・Pointer operation on Gadgets and menus is now supported (Sequence data input on the display is as before. Pointer support will be added at a later date).\n　ガジェットやメニューでのポインタでの操作に対応しました（ディスプレイ上のシーケンスデータ入力は従来通りです　後日ポインタ対応予定です）"
             }
         ],
@@ -86,13 +90,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476449,
+        "changelog_update": 476761,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476473,
+        "last_update": 476761,
         "category": "APPS",
         "votes": 22,
         "rating": 3.136364,

@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2500",
+                "change_log": "v25 is set, your best bet yet 😆 \n\n1.Thanks to the Meta Quest Support team, the Hand Tracking ‘ required ’ issue is now solved !!\n\n2. The Controller ‘Menu’ button and Hand Tracking ‘Pinch to open Menu’ gesture are now both connected to the EarthQuest menu ! - You’ll now have an easier, more efficient & intuitive alternative way of Opening / Closing the Menu !\n\n3. A more concise Hub Menu button layout ( multiplayer section )\n\n3.2. Changed the Multiplayer Button in the Hub for choosing a Room Name from \"Type Room Code\" to \"Type Room Name\" to avoid confusion and for consistency\n\n4. Fixed distance from sea level in meters *glitching out* when going over 9999999m\n\n5. Modified the terrain allocated memory very slightly to potentially completely solve the ' out of memory ' system crash that's happening extremely rarely due to some OS inconsistency.\n\nhttps://youtu.be/mpxN1LxR4KI"
+            },
+            {
                 "version": "2453",
                 "change_log": "v24.53 is Out\n\n**1.** Made a change to potentially fix the rare \"Out of memory\" crash that happened on Q3 when using max settings -** if it still happens, please let me know immediately** so i can make sure it's fully fixed in the next version.\n\n**2.** Introduced the website ( ***earthquest.site***, ***faq.earthquest.site*** ) addresses in the hub, and rewritten a note to be shorter and more concise.\n\n**3.** Rephrased a few notes in the API Setup\n\n--\n\nA Big **Terrain Visual** Upgrade that improves long distance rendering, and multiple **Performance** Improvements - v24.50 is Out !!\n\n**1.** Introduced a Z-Buffer Management System, basically using the Camera Rendering distances ( minimum - maximum ) to their full potential to **maximize rendering accuracy** ( for distant terrain ) based on altitude, player scale, and other factors !!!\n\n**So yes,** terrain flickering is now as low as it can **technically be achieved** with the current player scaling :D\nPreviously, the flickering effect was visible even when using the larger player scales, **now,** you'll notice that the flickering is **barely visible at small player scales** and greatly minimized on very distant landscapes. **In fact, the flickering COMPLETELY disappears after the player scale value of 150 !!**\n\n**1.2.** Thanks to this system, computing performance is also improved due to the less **non-visible** data being rendered on occluded terrain ( like on the other side of Earth ) or very far terrain surfaces that were otherwise not present in the user’s perspective.\n\n**2.** AI Vision should now also be better thanks to improved AI image quality - so AI responses about visual location recognition should now be slightly improved !!!\n\n**3.** Much, **much** Smoother Earth Scaling and Overall Visualization from High Altitudes !!\n\n**4.** **Tons and tons** of code optimizations for computing performance !"
             },
@@ -103,10 +107,6 @@
             {
                 "version": "2220",
                 "change_log": "v22.20 is Out !!\n\n**1.**  The Milky Way Galaxy is now 8 TIMES higher quality than how it was before ( __see vid below__ ) !!\n**2.** Added 7 new colors for Avatar Styles :avatar: \n**3.** The moon is now slightly smaller ( more like real life ) , has a more realistic glow, and it's higher quality !!\n**4.** THE MORNING \"BLUR\" IS NOW GONE !! The processing used for the morning light effects were implemented to render them at half the normal resolution, now everything is running at** MAXIMUM RESOLUTION**, **INCLUDING ALL THE OTHER LIGHTING EFFECTS !!!**\n**5.** Reverted a very small color change in the Middle of Day Light inside of Immersive Sky Mode.  (less yellow) Thanks to @thunderella for the suggestion :heart_2_EQ: \n**6.** Fixed the empty space at the start of some AI Messages.\n**7.** Fixed the music volume not going back to normal volume after a rare scenario where the AI Companion fulfills a teleportation request without providing a message."
-            },
-            {
-                "version": "1962",
-                "change_log": "v19.60 is OUT  !!\n\n1. Updated Sea Level Height (meters and now converted in feet) !\n2. Enabled support for multimodal (but not fully released) !\n3. Optimized for Laying Down Mode (IT ACTUALLY FEELS LIKE FLYING)\n4. Fixed some rare potential crashes\n5. Now able to rotate with both thumbsticks on trigger & grip input modes.\n6. Added 3 Amazing New Soundtracks Made by me using AI.\nthanks for the suggestions ❤️\n\nv19.62 is OUT  !!\n\n1. Added Secondary Boost Button (Trigger) on Right Controller When using Thumbstick Input Mode !\n2. Smoother Speed Change in Space when going higher or lower relative to earth !\n3. Added Performance Warning to Terrain Loading Speed Setting.\n\nthanks for the suggestions ❤️"
             }
         ],
         "on_rookie": true,
@@ -117,13 +117,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 475561,
-        "changelog_update": 476641,
+        "changelog_update": 476761,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476737,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476737,
+        "last_update": 476761,
         "category": "APPS",
         "votes": 86,
         "rating": 3.697674,
