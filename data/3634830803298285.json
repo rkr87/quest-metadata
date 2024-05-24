@@ -47,7 +47,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 204
+                "votes": 205
             },
             {
                 "rating": 2,
@@ -88,6 +88,10 @@
             "logo_transparent": "75245824_1713222775524305_444330788222320242_n.png"
         },
         "changelog": [
+            {
+                "version": "1.36.256320-release",
+                "change_log": "- Improved locomotion\n- Fixed mixed reality tilted dice exploit\n- Improved UI \n- Dice will auto release after 20 seconds when using hand tracking\n- Improved movement visuals of the board pieces\n- Demeo can now be played with users on Apple Vision Pro"
+            },
             {
                 "version": "1.35.249512-release",
                 "change_log": "- Added option in settings to toggle card backs of other players.\n- Changed visuals of other players card fronts.\n- Fixed an instance where a found key would be missing after loading a save.\n- Fixed an instance of a broken end game state.\n- Fixed an instance where the game would stop saving.\n- Fixed an instance where loading a save in doubles mode would end up in a broken state."
@@ -153,16 +157,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475297,
+        "changelog_update": 476809,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 476785,
+        "rating_update": 476809,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476785,
+        "last_update": 476809,
         "category": "GAMES",
-        "votes": 6964,
-        "rating": 4.6861,
+        "votes": 6965,
+        "rating": 4.685571,
         "weighted_rating": 4.6
     },
     "errors": []
