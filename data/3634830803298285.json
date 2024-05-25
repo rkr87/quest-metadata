@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 5791
+                "votes": 5795
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,10 @@
             "logo_transparent": "75245824_1713222775524305_444330788222320242_n.png"
         },
         "changelog": [
+            {
+                "version": "1.36.256496-release",
+                "change_log": "- Restored hand view behavior when using controllers\n- No longer teleported back if game board is out of bounds while tilted\n- Fixed flashing scale issue of grabbed card while tilted\n- Improved and sped up movement of visuals of board pieces"
+            },
             {
                 "version": "1.36.256320-release",
                 "change_log": "- Improved locomotion\n- Fixed mixed reality tilted dice exploit\n- Improved UI \n- Dice will auto release after 20 seconds when using hand tracking\n- Improved movement visuals of the board pieces\n- Demeo can now be played with users on Apple Vision Pro"
@@ -157,16 +161,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476809,
+        "changelog_update": 476833,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 476809,
+        "rating_update": 476833,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476809,
+        "last_update": 476833,
         "category": "GAMES",
-        "votes": 6965,
-        "rating": 4.685571,
+        "votes": 6969,
+        "rating": 4.685751,
         "weighted_rating": 4.6
     },
     "errors": []
