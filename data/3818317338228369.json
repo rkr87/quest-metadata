@@ -20,10 +20,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "ROOM_SCALE",
@@ -59,7 +59,7 @@
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "internet_connection": "REQUIRED",
+        "internet_connection": "NOT_REQUIRED",
         "website": "https://runbycoffee.com/",
         "app_images": {
             "cover_landscape": "39035399_243094903949130_9040021005750560236_n.png",
@@ -72,6 +72,10 @@
             "logo_transparent": "38982488_809135406620212_8586605239516056054_n.png"
         },
         "changelog": [
+            {
+                "version": "0.9.5",
+                "change_log": "Goalienator 0.9.5 update\n\nGeneral:\n\n- Offline support, game no longer requires active online connection\n\n- Shooting mechanics for all gamemodes have been updated\n\n- A new \"game news and messages system\" for latest developments and events\n\n- The new Versus mode allows you to challenge other players’ high scores, with a wider skill level pool.\n\n- 8 new achievements, 4removed (goalie points and color block achievements)\n\nGamemodes:\n\n- Adjusted the position of Ball Cannon and Slapshot shooters to be slightly closer to the goal.\n\n- In the Target Shoot gamemode, players can now change the target’s color and rotation speed.\n\n- In the Onetimer Trio gamemode, you can now change passing speed \n\n- All breakaway mode scenarios have been updated.\n\nUI:\n\n- Redesigned the UI with improved visuals and navigation.\n\n- Added several new UI sections (such beta info, leaderboards, news/messages)\n\n- Redesigned settings page\n\n- Redesigned the round start countdown intro\n\n- Redesigned training, challenge and versus UI sections\n\nVisuals:\n\n- New glove textures for the \"hand training gear\", more closer to the soccer goalie gloves\n\n- Added an option to enable/disable the 'shooter indicator' icon (which shows which player/bot currently has the puck/ball)\n\n- Added an option to customize the ice surface color (indoor/outdoor).\n\n- Added an option to customize the UI pointer color.\n\n- Added an option to customize the puck/ball trails.\n\n- Added new breakaway shooter models.\n\n- Made minor adjustments to the Ball Cannon model.\n\n- Updated the visuals for the “Shooter Indicator icon”\n\n- Slightly slimmed-down color options for all gears, but now with a wider range of contrasting colors.\n\nAudio:\n\n- Updated the audio for UI elements and made small changes to other game audio.\n\n- Fixed the issue where audio settings sometimes failed to load correctly upon game start.\n\n- Added an options to enable or disable round start audio (instead updating volume due to previous mentioned issues)\n\nNotes:\n\n- In rare scenarios, the game might glitch after the end of the round. Reinstalling the game fixes this issue. This has only happened once, but we wanted to give players a fair warning.\n\n- We do not currently use cloud storage, which means reinstalling the game will also reset your stats to zero."
+            },
             {
                 "version": "0.9.16",
                 "change_log": "0.9.16.1\n\n- Removal of cloud data save code\n- Team page updates"
@@ -134,20 +138,20 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 476857,
         "genre_update": 475777,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476857,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476833,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476833,
+        "last_update": 476857,
         "category": "GAMES",
         "votes": 98,
         "rating": 4.520408,

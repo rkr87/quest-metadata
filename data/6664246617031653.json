@@ -34,7 +34,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 8
+                "votes": 9
             },
             {
                 "rating": 2,
@@ -73,6 +73,10 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "changelog": [
+            {
+                "version": "3.7",
+                "change_log": "-Added support for transcoding, choose from a variety of resolutions and bitrates. \n- .TS files from Plex DVR (and maybe more formats) are now playable\n"
+            },
             {
                 "version": "3.6",
                 "change_log": "-Added playback support for DLNA, SMB, and Local Device Storage, no longer requires Plex to use\n"
@@ -148,31 +152,27 @@
             {
                 "version": "1.8",
                 "change_log": "Fixed a bug that prevented more than one server being listed"
-            },
-            {
-                "version": "1.7",
-                "change_log": "-Fixed the timeline issues from previous build\n-Removed subtitles until a fix is available"
             }
         ],
         "on_rookie": false,
-        "general_update": 476473,
+        "general_update": 476857,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476473,
+        "changelog_update": 476857,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476593,
+        "rating_update": 476857,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476593,
+        "last_update": 476857,
         "category": "APPS",
-        "votes": 64,
-        "rating": 3.40625,
-        "weighted_rating": 3.4
+        "votes": 65,
+        "rating": 3.369231,
+        "weighted_rating": 3.3
     },
     "errors": []
 }
