@@ -47,7 +47,7 @@
             },
             {
                 "rating": 5,
-                "votes": 40
+                "votes": 41
             }
         ],
         "comfort": "NOT_RATED",
@@ -70,6 +70,10 @@
             "logo_transparent": "39031636_6060752907370241_7711013442721188115_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.29",
+                "change_log": "// Realms of Flow | 1.0.29 - 26.05.2024 //\t\n\t\n- Added new experience \"Dissolve\"\t\n- The Hookah (last update's Easter egg) is now officially documented in the controls overview - hold right Trigger for 1s to enable / disable it\t\n- Added Hookah Wisdom: When you take a long puff on the Hookah (and the current experience's narration is not playing or about to start playing) you will hear some selected and hopefully inspiring life wisdom\t\n- Fixed some bugs with the Hookah: Haptics were not working with the left controller and sometimes a bright visual artifact would float mid-air\t\n- Added another hopefully relaxing item for you to play with: The Pan Drum - bring it up by pressing the left trigger for 1s (as documented)\t\n- Added a calibration option for the Auto breath tempo - you can use your controller distance to act out the desired Auto breath tempo, either before experience start (click the stopwatch icon for Time 1 and Time 2 in the Breath Settings sub menu) or during the experience (hold the left controller's upper face button for 1s - as documented in the controls overview)\t\n- Added the ability to set longer breath phases for the Auto breath tempo mode (up to 240s as requested by some users - for training of long breath holds)\t\n- Added slider to set the intensity of the haptic breath tempo indicator\t\n- Added new spatial sound type \"Books&Paper\"\t\n- Added new style \"Spiral\" for the main shape of the visual breath focus object\t\n- Added option to use gaze direction to steer the selection pointer, instead of a pointer attached to the controller (can be enabled in the Control Settings sub-menu)\t\n- Fixed: Some frequent crashes that a few users experienced (on Quest standalone) should not occur anymore\t\n- Foveated rendering (Quest standalone) is now adaptive - depending on the processing load, so it will only kick in when needed. Hence it is now also enabled by default on both Quest 2 + 3 and recommended to keep enabled.\t\n- Lots of other small tweaks and fixes"
+            },
             {
                 "version": "1.0.24",
                 "change_log": "// Realms of Flow | 1.0.24  - 28.02.2024 //\n\n- New experience \"Home Within\"\n- Added two new breath tempo control modes:\n-> Head | Control the breath tempo with your natural head movement by slightly tilting your head up when inhaling and down when exhaling\n-> Sound | Create an audible airflow with your lips while you are exhaling, inhale quitely. Closed headphones and a quiet room are recommended. You may have to adjust the sensitivity in the settings menu to your specific microphone.\n- Auto breath tempo mode: Added the ability to define a gradual ramp for the breath tempo with start and end time, as well as to add holds, which can be set to change over time as well. The Auto tempo mode is now also the default mode when starting the app, to create a better experience for new users that skip the tutorial.\n- Improved responsitivity/accuracy of the Belly breath tempo control mode\n- Added sensitivity and speed controls for breath tempo modes Belly, Head and Sound \n- Added the ability to mix and match visuals, voice-over and music for even more customisability and replay value. To do so select the library icon next to \"Narration\" in the Session Timing options. This can only be done before an experience. You will hear audio previews while selecting options.\n- Adjusted the Element of Play mechanics so that it is easier to reach the maximum extent of the success-effects, especially when the duration is set relatively short in the Session Timing options. Moreover adjusted the width-extent of the Element of Play controller paths, so the goals are not as much on the periphery of the field of vision\n- The new breath control modes Head and Sound work a little bit differently with the Element of Play's controller element, since you are creating the paths and timing of the goals on the fly which makes for an interesting (potentially flow-inducing) challenge. Whereas with the control modes Auto and Controller these paths are still created according to the tempo defined in the Breath Guide settings.\n- Updated UI design\n- 🐰Added an easter egg that some of you might be familiar with from Deep States. This also introduces a new temporary breath mode when activated. Hint: You might need a second to Trigger it. 🤓\n- Added style options for the center particle of the visual breath focus object\n- Added sound type options for the Humming Guide reference Omm-sound, some subtle variety to the default Omm-Mix sound, as well as a new style for the Humming visuals.\n- Added two new Spatial Sound type categories \n- Improved settings menu alignment when resetting the view with Optimized Reclining enabled\n- Improved file handling when using a second headset account with App Sharing enabled on Meta Quest standalone - previously only experiences from the first page worked, while the other experiences created a frozen image. Now all experiences are accessible with the second account. However, when using a third, forth etc. account there will be a lock-symbol to indicate that the content has not been found (to avoid freezes).\n- Lots of other small tweaks, fixes and improvements"
@@ -119,15 +123,15 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 476881,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476425,
+        "rating_update": 476881,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476425,
+        "last_update": 476881,
         "category": "APPS",
-        "votes": 40,
+        "votes": 41,
         "rating": 5.0,
         "weighted_rating": 4.7
     },

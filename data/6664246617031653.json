@@ -46,7 +46,7 @@
             },
             {
                 "rating": 4,
-                "votes": 18
+                "votes": 19
             },
             {
                 "rating": 5,
@@ -73,6 +73,10 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "changelog": [
+            {
+                "version": "3.8",
+                "change_log": "-Rolled back .TS support and restored subtitles.  As an alternative, use MKVToolNix to convert TS to MKV.\n-Optimized to make the 3D interface run a lot smoother."
+            },
             {
                 "version": "3.7",
                 "change_log": "-Added support for transcoding, choose from a variety of resolutions and bitrates. \n- .TS files from Plex DVR (and maybe more formats) are now playable\n"
@@ -148,31 +152,27 @@
             {
                 "version": "1.9",
                 "change_log": "- Subtitles are back\n- Added grouping content by server to the library window.  Server can be collapsed or expanded.\n-Changed the time to include the length of the video.\n- MKV and MP4 videos that have the 3D format flag set are now drawing correctly without needing to remove this flag from the headers or possibly re-encoding.\n-Added more controls when you are placing anchor.  Up/down on left joystick changes the\ndistance, while up/down on the right joystick changes the scale.\n-Compressed more textures to reduce the file size"
-            },
-            {
-                "version": "1.8",
-                "change_log": "Fixed a bug that prevented more than one server being listed"
             }
         ],
         "on_rookie": false,
-        "general_update": 476857,
+        "general_update": 476881,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476857,
+        "changelog_update": 476881,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476857,
+        "rating_update": 476881,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476857,
+        "last_update": 476881,
         "category": "APPS",
-        "votes": 65,
-        "rating": 3.369231,
-        "weighted_rating": 3.3
+        "votes": 66,
+        "rating": 3.378788,
+        "weighted_rating": 3.4
     },
     "errors": []
 }

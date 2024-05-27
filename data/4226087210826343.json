@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.36",
+                "change_log": "Move dialogs a bit further away from player.\n Rotate popups if needed when player moves so they are facing the player.\n Speed up some bot animations.\n Bugfix bot movement after player serves from wrong position."
+            },
+            {
                 "version": "6.0.35",
                 "change_log": "Vary Bot Animations based on ball position. Vary accuracy of AI's return based on ball speed."
             },
@@ -174,10 +178,6 @@
             {
                 "version": "6.0.17",
                 "change_log": "Update unity version. Use new input system. Improve frame rate consistency and physics. Bugfix zombies."
-            },
-            {
-                "version": "6.0.16",
-                "change_log": "Bugfix badminton net. Increase max height of shuttle in Badminton."
             }
         ],
         "on_rookie": true,
@@ -188,13 +188,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476857,
+        "changelog_update": 476881,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476713,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476857,
+        "last_update": 476881,
         "category": "GAMES",
         "votes": 228,
         "rating": 4.188596,
