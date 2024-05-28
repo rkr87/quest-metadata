@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.37",
+                "change_log": "1) Improved easy, and normal difficulty automatically generated songs.\n2) New boxing environment \"Boxing Ring\".\n3) Bug Fixes:\n\t• Fixed bug causing mp3s without file information to cause the local mp3 converting to break.\n\t• Updated serialization system to improve settings and data saving."
+            },
+            {
                 "version": "0.1.36.4",
                 "change_log": "1) Improved flow by improving handling of objects near obstacles.\n2) Improved collision detection.\n\t•Adjusted and tweaked target colliders.\n\t•Improved hit quality calculation method for better feedback.\n3) Improved user experience.\n\t•Adjusted correct hit timing indicator on targets to be more readable.\n\t•Added an option in the color set editor to change target and obstacle opacity.\n\t•When creating a new profile, calibrating player height is now required before allowing players to select \"Next\"\n\t•Improved audio cues and sfx to be easier on the ears.\n\t•Added option to adjust target and obstacle opacity.\n4) Bug Fixes:\n\t• Fixed bug causing the correct strike location to be offset resulting in reduced scores."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.30",
                 "change_log": "1) Players can now opt in to participate in online leaderboards that will record their best score. Each leaderboard is specific to a specific song, in a specific game mode, at a specific difficulty just like local leaderboards. \n\n2) Bug Fixes:\n\t• Fixed issue causing some devices to not work\n\t• Fixed issue causing profiles to sometimes create duplicates"
-            },
-            {
-                "version": "0.1.29",
-                "change_log": "1) Players can now play songs directly after downloading them from the same page as well delete them.\n\n2) A song progress display now shows players the progress of the active song using a background that fills as it progresses.\n\n3) Bug Fixes:\n\t•Custom backgrounds are now able to load from the quick play home screen play button.\n\t•Selecting or changing forward foot works correctly when selected from playlists now\n\t•Dark waters visual improvements."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476305,
+        "changelog_update": 476905,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476593,
+        "last_update": 476905,
         "category": "GAMES",
         "votes": 33,
         "rating": 4.69697,

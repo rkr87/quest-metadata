@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "4.0",
+                "change_log": " -Shiny Quest 3 controllers\n -Clicking either thumbstick moves 3D interface to center panel\n -Added tooltips for 2D interface main icons\n -Added scaling effect to 2D interface panels\n -Added reset buttons for 3D UI panels to match the 2D ones\n -Added hover effect to library entries, back button, folder mode button, clear search, close library\n -Changed position of filters on UI"
+            },
+            {
                 "version": "3.8",
                 "change_log": "-Rolled back .TS support and restored subtitles.  As an alternative, use MKVToolNix to convert TS to MKV.\n-Optimized to make the 3D interface run a lot smoother."
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2.0",
                 "change_log": "-Added to the movie info page: director name, genres, actor list, runtime, rating icons\n-Added ability to view and set user rating on movie info page\n-Added universal watchlist support\n-Added ability to mark as watched/unwatched\n-Added filters for watchlist, unwatched, and ratings\n-Added viewing offset to thumbnails\n-Playing any video now resumes where you left off\n-Reduced app size further\n-Added Season, Episode, and Year to posters in browser\n-Sped up browser and cleared up images\n-Fixed bug where thumbnails wouldn't load all the time\n-Fix other minor bugs"
-            },
-            {
-                "version": "1.9",
-                "change_log": "- Subtitles are back\n- Added grouping content by server to the library window.  Server can be collapsed or expanded.\n-Changed the time to include the length of the video.\n- MKV and MP4 videos that have the 3D format flag set are now drawing correctly without needing to remove this flag from the headers or possibly re-encoding.\n-Added more controls when you are placing anchor.  Up/down on left joystick changes the\ndistance, while up/down on the right joystick changes the scale.\n-Compressed more textures to reduce the file size"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476881,
+        "changelog_update": 476905,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476881,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476881,
+        "last_update": 476905,
         "category": "APPS",
         "votes": 66,
         "rating": 3.378788,

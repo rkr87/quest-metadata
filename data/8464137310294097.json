@@ -49,7 +49,7 @@
             },
             {
                 "rating": 3,
-                "votes": 50
+                "votes": 51
             },
             {
                 "rating": 4,
@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1340
+                "votes": 1346
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.3.4\n\nCustom arenas now have auto generated cover images\n\nPrivate lobby creators can kick and block players \n(vote kicks for pubs coming in later updates) \n\nThe camera now disappears when it is too close to the player\n\nSlightly enhanced ball bouncing physics\n\nBotkeepers are available in every arena in private lobbies\n\nFixed some store items following community feedback (but probably not all of them just yet)\n\nFixed known bugs and issues (bugs related to camera mode, rules were sometimes triggered randomly, game loading issues, and more)\n\nIncreased net physics response (still working on enhancing nets).\n\nMore things are in production and testing and will be released soon. Thanks for staying tuned.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.3.4\n\nCustom arenas now have auto generated cover images\n\nPrivate lobby creators can kick and block players \n(vote kicks for pubs coming in later updates) \n\nThe camera now disappears when it is too close to the player\n\nSlightly enhanced ball bouncing physics\n\nBotkeepers are available in every arena in private lobbies\n\nFixed some store items following community feedback (but probably not all of them just yet)\n\nFixed known bugs and issues (bugs related to camera mode, rules were sometimes triggered randomly, game loading issues, and more)\n\nIncreased net physics response (still working on enhancing nets).\n\nMore things are in production and testing and will be released soon. Thanks for staying tuned.\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.3\n\nCamera mode in private lobbies (beta)\n(see the camera icon at the top of the in-game menu)\n\nNew pitch material on all arenas\n\nEmoji reactions (beta)\n(activate in the settings)\n\nEnter the stands in the large stadium for practice and private lobbies\n\nTransparent walls, stadium roofs, and other new objects in the arena editor\n\nRulers on the floor in arena editor mode\n\nFixed known bugs in the rulesets (e.g., corners sometimes not triggering)\n\nNo more glitchy bouncing of the ball when spawned after a goal or placed in the corner\n\nSignificant optimization in all scenes\n\nRefurbished look for default ball skins\n\nPotential fixes for game launch issues and faster loading\n\nOther minor fixes and enhancements\n\nNew items in the store, including the 'Hardcore' ball, which is harder to shoot and curl, probably more realistic, and will evolve in future updates\n\nMore features are in testing and will be released very soon. \nThanks for staying tuned!\n"
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "Quest 1 fix"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 20 PATCH 1 + Dribbling fix\n\n\n- Physics tuned based on community feedback \n('dunking' was not reintroduced due to it being essentially a bug, but a free 'dunking' ball will be added later)\n- Stadium fixes (colliders and locker rooms optimization)\n- General optimizations\n- Pro controllers support\n- Arena editor fix (dumpsters)\n- Fixed offside issue\n- Some other minor fixes\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 20 PATCH 1 + Dribbling fix\n\n\n- Physics tuned based on community feedback \n('dunking' was not reintroduced due to it being essentially a bug, but a free 'dunking' ball will be added later)\n- Stadium fixes (colliders and locker rooms optimization)\n- General optimizations\n- Pro controllers support\n- Arena editor fix (dumpsters)\n- Fixed offside issue\n- Some other minor fixes\n"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476569,
+        "changelog_update": 476905,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476881,
+        "rating_update": 476905,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476881,
+        "last_update": 476905,
         "category": "GAMES",
-        "votes": 1755,
-        "rating": 4.437037,
+        "votes": 1762,
+        "rating": 4.438138,
         "weighted_rating": 4.4
     },
     "errors": []
