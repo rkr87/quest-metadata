@@ -59,7 +59,7 @@
             },
             {
                 "rating": 5,
-                "votes": 729
+                "votes": 737
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "38974815_330154097603796_583183325309435904_n.png"
         },
         "changelog": [
+            {
+                "version": "0.11.1",
+                "change_log": "- Added a stage queue to video calls, which automates DJs in the call taking turns sharing their mix.\n- Added better moderation for multiplayer rooms:\n    - Guests joining the room will be in the audience by default and cannot manipulate the decks\n    - Guests have to request or be invited behind the decks by the room's host before they can DJ\n    - Audience members that walk into the decks or the DJ's space will not be visible to anyone\n- Track folders now remember your last position in the list, so you do not need to scroll from the top again when returning to a large folder\n- Fixed leaderboards taking a long time to refresh when first starting Tribe\n- Misc bug and rare crash fixes"
+            },
             {
                 "version": "0.11.0",
                 "change_log": "+ Pioneer DJ DDJ-FLX4\n+ Leaderboards\n+ Desktop Mode\n+ Redesigned Achievements List\n+ Various Bugfixes"
@@ -159,10 +163,6 @@
             {
                 "version": "0.10.2.1",
                 "change_log": "- Monstercat: Download 100 new Monstercat tracks\n- Dropbox: Load your own tracks via Dropbox\n- Onboarding: Learn the basics with the new onboarding experience\n- Mentor profile pages: See the mentors' events on their new profile pages\n- Streaming track BPM: See the track BPM and jam along in the video call "
-            },
-            {
-                "version": "0.10.2",
-                "change_log": "- Monstercat : Download 100 new Monstercat tracks\n- Dropbox : Load your own tracks via Dropbox\n- Onboarding : Learn the basics with the new onboarding experience\n- Mentor profile pages : See the mentors' events on their new profile pages\n- Streaming track BPM : See the track BPM and jam along in the video call \n"
             }
         ],
         "on_rookie": true,
@@ -173,20 +173,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475993,
+        "changelog_update": 476929,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 476905,
+        "rating_update": 476929,
         "iarc_detail_update": 475000,
         "keywords": [
             "education",
             "learn",
             "music"
         ],
-        "last_update": 476905,
+        "last_update": 476929,
         "category": "APPS",
-        "votes": 1082,
-        "rating": 4.161738,
+        "votes": 1090,
+        "rating": 4.16789,
         "weighted_rating": 4.1
     },
     "errors": []

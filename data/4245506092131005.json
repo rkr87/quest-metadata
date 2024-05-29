@@ -37,7 +37,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 83
+                "votes": 84
             },
             {
                 "rating": 2,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 681
+                "votes": 683
             }
         ],
         "comfort": "NOT_RATED",
@@ -81,6 +81,10 @@
             "logo_transparent": "39035340_137564518199776_3478351773299541350_n.png"
         },
         "changelog": [
+            {
+                "version": "0.6.13-alpha",
+                "change_log": "* Added kill streak announcer\n* Made server list scrollable via thumbstick\n* When crouch too low, reset user to lowest acceptable crouch height\n* Fixed admin audio clips having too long a reverb tail"
+            },
             {
                 "version": "0.6.12-alpha",
                 "change_log": "CHANGE LOG\n* Names of teammates are now always shown. It's also easier to see enemy names if you are close and looking at them\n* Buffed shotgun. Decreased bullet spread and make it eaiser to hold and pump\n* Implemented new height calibration\n* Weapon images are now shown in kill feed instead of silhouette\n* Killer info is shown when killed by enemy\n* Added toggle for Voice Chat in Audio settings. For players that don't want any voice chat active\n* Added sort options for server list\n  * Sort by latency\n  * Sort by players\n* Made server list scrollable via drag"
@@ -158,16 +162,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476857,
+        "changelog_update": 476929,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476905,
+        "rating_update": 476929,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476905,
+        "last_update": 476929,
         "category": "GAMES",
-        "votes": 1014,
-        "rating": 4.301775,
+        "votes": 1017,
+        "rating": 4.299902,
         "weighted_rating": 4.2
     },
     "errors": []

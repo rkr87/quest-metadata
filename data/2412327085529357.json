@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 3987
+                "votes": 3992
             },
             {
                 "rating": 5,
-                "votes": 33953
+                "votes": 34010
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "758.03",
+                "change_log": "Patch Fix Update v758.03\n\n- Fixed an issue causing the Shot Shaper option to become unchecked every time you quit the app."
+            },
             {
                 "version": "758.02",
                 "change_log": "New Update v758.02\n\n⛳️ New Course: Muirfield Village Golf Club ⛳️\n\nForged from the mind of a legend, Muirfield Village's championship pedigree speaks for itself. Designed by the esteemed Jack Nicklaus and continually refined over the years, the challenging course plays host to the PGA TOUR’s prestigious Memorial Tournament. Demanding yet fair, the layout rewards precise shot-making and strategic thinking, inviting players to navigate complex greens, heavy rough, strategic bunkering, and water hazards lurking on 11 of its holes. Playing at Muirfield Village is more than just golf; it's an opportunity to engage with a course that embodies the spirit and history of the game.\n\n**Bug Fixes & Quality:**\n- Players could lose all audio sounds during a round. \n- Performance improvements on Yale Golf Course.\n- Tournament tier badges would not show on Daily & Weekly Leaderboards.\n- Text updates to Daily & Weekly Tournament Leaderboards."
@@ -156,10 +160,6 @@
             {
                 "version": "745.08",
                 "change_log": "New Update v745.08\n\n**New Course! Kapalua - The Plantation Course**\nLocated on the island of Maui, The Plantation Course at Kapalua has been recognized as the best golf course in Hawaii for fifteen consecutive years by Golfweek. \nDesigned by the renowned Ben Crenshaw and Bill Coore, the course offers dramatic ocean views from virtually every hole. \nFor over a quarter century, Kapalua has played host to The Sentry, the PGA TOUR’s season-opening event.\n\n**Topgolf Las Vegas**\nPrivate and Public multiplayer options now available!\n\n**GOLF+ TOUR**\nAbility to play practice rounds in tournament conditions. Select 'practice' in the tournament lobby.\n\n**Club Attachments**\nUpdated collection of attachments increasing preset availability along with device compatibility labeling.\nAdditionally, the ability to save a custom preset with custom offsets to prevent loss of a preferred setting.\n\n**Newly Designed Leaderboards**\nTop Shots - Leaderboard ranked by strokes gained along with player replays.\nSpeed Run - Leaderboard ranked by fastest time to complete a round with lowest score as a tie breaker.\n\n**Quality & Bug Fixes**\n- Physics V2 Swing Settings are now being saved to your Profile. Will not lose setup if you have to uninstall and reinstall app for any reason.\n- 'Sand Feel' slider was being reset on players.\n- Disabled receiving invites while a player is in a Tournament Round.\n- Tournament Par Values were not showing correctly if you transitioned from Quickplay mode.\n- Fixed drop locations on Holes 7 & 8 of Wolf Creek\n- Fixed a crash that could occur after leaving a Multiplayer game\n- Fixed issue where players would see \"Reactivate G+ Pass\" while already subscribed\n- Fixed issue where players could not adjust swing settings while in practice or non-handicap rounds.\n- The keyboard under \"Find Friends\" was missing the special characters button.\n- Fixed issue where players would sometimes encounter a black screen during a practice swing."
-            },
-            {
-                "version": "744.13",
-                "change_log": "**New Update v744.13**\n\n**Topgolf Las Vegas**\nTopgolf Las Vegas is a one-to-one recreation of the real world location.\nTake in the Vegas skyline while listening to your favorite jams and chasing leaderboards!\n\n**Replay Tool**\nLocated in your Profile, you can view your best shots and those of your friends from the past 100 days.\nShots are ranked by 'strokes gained', but we also provide some additional filters!\n\n**Quality & Bug Fixes**\n- Performance updates for Quest 2 and Quest 3.\n- Fixed hard frame drop on Quest 3 that would shift player's environment.\n- Players weren't getting a Next Hole button on Quickplay when coming from a mini-game.\n- In certain instances, an accidental tap would cause a black screen.\n- The 'Resume Round' option would sometimes not trigger on certain Courses.\n- Game UI would flicker upon holing out.\n- Adjusted Leaderboard spacing for settings.\n- Adjusted course selection search parameters.\n- Added a Featured section on course selection for new releases & upcoming.\n\n**Quest 3**\n- Graphics Quality slider added to Game Settings - Provides players the ability to increase visual clarity of the environment.\nPlease note, increasing this may have an impact on gameplay performance on a course by course basis.\n\nOTHER:\n- Rift S issue resulting in a low framerate after a few minutes of play is still being worked on for a permanent fix.\n  The issue can be temporarily fixed by restarting the game or sleeping your headset then resuming the game. "
             }
         ],
         "on_rookie": false,
@@ -170,10 +170,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476833,
+        "changelog_update": 476929,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 476905,
+        "rating_update": 476929,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -181,10 +181,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 476905,
+        "last_update": 476929,
         "category": "GAMES",
-        "votes": 39012,
-        "rating": 4.81439,
+        "votes": 39074,
+        "rating": 4.814557,
         "weighted_rating": 4.8
     },
     "errors": []

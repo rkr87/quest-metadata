@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.19.00.09",
+                "change_log": "fixed rounding error on step seq play start"
+            },
+            {
                 "version": "1.19.00.07",
                 "change_log": "rebuild"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "1.13.00.15",
                 "change_log": "AudioFX popup better location"
-            },
-            {
-                "version": "1.13.00.14",
-                "change_log": "open settings no longer closes scene based world choosers"
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476833,
+        "changelog_update": 476929,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476833,
+        "last_update": 476929,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,
