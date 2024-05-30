@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.9",
+                "change_log": "Bug Fixes:\t\n- Fixed occasional seeking issue in ssif.smap Blu-ray 3D ISO playback.\n- Fixed other known bugs.\n\t\t\nImprovements:\t\t\n- Optimized USB OTG and fixed read failure issue in certain cases.\t\n- Optimized subtitle display and fixed some bugs.\n\nNew Features:\n- Added DLNA Casting from mobile devices to 4XVR on your VR headset.\n- Added 4X Link feature.\n- Added batch change video types in the video list.\n- Added support for Alpha channel video in YUVA444P12LE and YUVA422P12LE formats, and further improvements in upcoming versions."
+            },
+            {
                 "version": "1.4.12",
                 "change_log": "Bug Fixes:\n- Fixed some known bugs.\n\nImprovements:\n- Optimized the logic of In-App Purchase (IAP), ensuring seamless offline playback experience without the worry of switching back to the trial version.\n- Optimized intelligent recognition of video types.\n\nNew Features:\n- Supported Hand Tracking feature.\n- Supported ssif.smap format Blu-ray 3D ISO files; however, we still recommend using standard ssif format Blu-ray 3D ISO files for network playback."
             },
@@ -157,10 +161,6 @@
             {
                 "version": "1.0.23",
                 "change_log": "Fixes\n- Fixed a USB storage bug.(quest3)"
-            },
-            {
-                "version": "1.0.22",
-                "change_log": "Fixes\n- Fixed a USB storage bug."
             }
         ],
         "on_rookie": true,
@@ -171,13 +171,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475153,
+        "changelog_update": 476953,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476857,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476857,
+        "last_update": 476953,
         "category": "APPS",
         "votes": 248,
         "rating": 4.116935,

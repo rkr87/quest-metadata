@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "4.1",
+                "change_log": "-Added support for changing audio and subtitle tracks while transcoding\n-Fixed bug with wrong screen settings 2D popup while using 180 or 360 videos."
+            },
+            {
                 "version": "4.0",
                 "change_log": " -Shiny Quest 3 controllers\n -Clicking either thumbstick moves 3D interface to center panel\n -Added tooltips for 2D interface main icons\n -Added scaling effect to 2D interface panels\n -Added reset buttons for 3D UI panels to match the 2D ones\n -Added hover effect to library entries, back button, folder mode button, clear search, close library\n -Changed position of filters on UI"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2.1",
                 "change_log": "- Added Watchlist inside server so you can search watchlist across libraries\n   (Note that watchlist only works for known movies, not TV show episodes)\n- Added 3D props, including sofa and cinema scenes\n- Fixed TV show thumbnail resolution\n- Centered browser title\n- Hid watchlist icons for series since it isn't supported by Plex"
-            },
-            {
-                "version": "2.0",
-                "change_log": "-Added to the movie info page: director name, genres, actor list, runtime, rating icons\n-Added ability to view and set user rating on movie info page\n-Added universal watchlist support\n-Added ability to mark as watched/unwatched\n-Added filters for watchlist, unwatched, and ratings\n-Added viewing offset to thumbnails\n-Playing any video now resumes where you left off\n-Reduced app size further\n-Added Season, Episode, and Year to posters in browser\n-Sped up browser and cleared up images\n-Fixed bug where thumbnails wouldn't load all the time\n-Fix other minor bugs"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476905,
+        "changelog_update": 476953,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476881,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476905,
+        "last_update": 476953,
         "category": "APPS",
         "votes": 66,
         "rating": 3.378788,

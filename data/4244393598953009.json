@@ -107,10 +107,6 @@
             {
                 "version": "2023.05.02.1",
                 "change_log": "# Design\n- filling up the energy ring with 10 orbs now gives 1 health back, instead of providing an upgrade point\n- 1 upgrade is now always provided upon level end\n- restricted gravity-shifting to once per air-time\n- prevented climbing while moving upwards quickly\n- removed gold chunks from wall blocks for performance and game balance consistency\n- removed prices from shop items to encourage using items without needing to grind money collection\n- removed item targeting action and replaced with auto continuous pickup\n- increased whip hitbox radius by 50% \n- allowed timekeeper to continue controlling time while swapped to inventory\n- added low-speed hitbox to spikes dealing 1 damage\n- increased minimum death speed for spikes to require falling multiple blocks of distance\n- added 0.1s hitlag locking enemies in place during a damaging hit\n- prevented knockback stacking on enemies when in hitlag\n- frog now explodes upon death\n- frog now always dismounts the ceiling upon receiving damage\n- allowed scorpion to quickly combo into another attack if the player doesn't reposition after getting hit\n# Visuals\n- added smoke trails when enemies are launched\n- changed frog color to orange, added white belly\n- added balled-up rolling stun animation to scorpion\n- added dark accents to scorpion\n- added light accents to hawk\n- replaced matching-wall-color spikes with consistent white\n# Fixes\n- fixed event horizon loop seam timing inconsistency\n- improved smoothness of rotation while climbing\n- improved double jump magnitude consistency\n- enabled interpolation to energy orbs for smooth movement while using timekeeper\n- fixed flickering of menu fade on first opening\n- added trap triggering to grappling hook rope\n- added 1.5s auto reset timer to hammer\n- ensured stats are updated instantly when damaged or collecting money"
-            },
-            {
-                "version": "2023.04.12.1",
-                "change_log": "- added laser pointer to right claw\n- moved scrolling/map rotation to left hand stick\n- changed colors and positions of compass arrows for clarity of orientation (Up/Down -> Up/Forward/Right)\n- added gravity arrow to map\n- added tutorial state for targeting the second item\n- adjusted tutorial tips using current key mapping and controller\n- added icons to simplify minimap tutorial tip\n- replaced rock in tutorial with sword to prevent accidental throws and ensure second item is targeted next\n- fixed enemy hurtboxes activating teleporter\n- applied camera rotation to timekeeper timescale\n- increased volume of floaters"
             }
         ],
         "on_rookie": false,
@@ -121,13 +117,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476737,
+        "changelog_update": 476953,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476737,
+        "last_update": 476953,
         "category": "GAMES",
         "votes": 5,
         "rating": 5.0,
