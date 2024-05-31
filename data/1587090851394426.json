@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "6.2.19-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly reworked lobby sign-up UX.\n- ‘Link to Device’ option now explicitly informs you what account you are linking your LandingPad account to (Standalone Quest, Tethered Quest or Steam).\n\n🐛 Bug Fixes\n\n- When importing a model containing transparent textures, transparent rendering is now only applied to parts of the model that have the transparent texture.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some FBX files importing without textures on standalone.\n- Fixed some DAE files failing to import successfully.\n- Fixed environment light pointing forwards by default instead of downwards when creating a new Collab room.\n- Fixed tooltip for Grid Stage Floor option.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Changed default focal length to 50 mm."
+            },
+            {
+                "version": "6.2.19-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly reworked lobby sign-up UX.\n- ‘Link to Device’ option now explicitly informs you what account you are linking your LandingPad account to (Standalone Quest, Tethered Quest or Steam).\n\n🐛 Bug Fixes\n\n- When importing a model containing transparent textures, transparent rendering is now only applied to parts of the model that have the transparent texture.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some FBX files importing without textures on standalone.\n- Fixed some DAE files failing to import successfully.\n- Fixed environment light pointing forwards by default instead of downwards when creating a new Collab room.\n- Fixed tooltip for Grid Stage Floor option.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Changed default focal length to 50 mm."
+            },
+            {
                 "version": "6.2.18-generalqog",
                 "change_log": "🚀 Features & Improvements\n\n- Stage floor now follows center of sketch and more accurately represents its size; introduced experimental “grid” option\n- Collab thumbnails now update on leaving the room\n\n 🐛 Bug Fixes\n\n- Fixed a bug that caused users to be disconnected from Collab on minor connection fluctuations.\n- Fixed wrong light position on environment loading\n- Fixed not being able to log into Google via web browser\n- Fixed not being able to scale some menus and UI elements\n- Fixed jittery headset view when saving/exporting heavy files with SteamVR set as OpenXR Runtime"
             },
@@ -140,10 +148,6 @@
             {
                 "version": "6.2.9-generalqc",
                 "change_log": "🚀 Features & Improvements\n- Improved Memory usage of image imports - most workflows will only use half as much memory\n\n🐛 Bug Fixes\n- On standalone headsets, export preset options no longer adopt the file format of your custom slot.\n- Fixed issue that caused some files made before GS 6.2.4 to trigger error “invalid object data was found and repaired in the loaded file. Recovered objects were placed on new layers” which placed parts of the file on a new layer.\n- Fixed memory usage calculation for images"
-            },
-            {
-                "version": "6.2.8-generalqog",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Single-sided imported meshes are now automatically double-sided on import.\n- Added haptic feedback to the Crease, Separate Edge and Edge Cut subdivision tools.\n\n🐛 Bug Fixes\n\n- Improved appearance of normals on creased subdivision edges.\n- Fixed syncing of light rotation when anchored and using a preset environment in Collab.\n- Fixed being unable to slide points on ink and strokes.\n- Fixed invisible strokes still being exported when they were made invisible through being part of an invisible group.\n- Fixed file format tags in the export menu being transparent when in passthrough.\n- Improved Collab networking conditions on some networks."
             }
         ],
         "on_rookie": false,
@@ -154,7 +158,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476833,
+        "changelog_update": 476977,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 476929,
@@ -164,7 +168,7 @@
             "model",
             "design"
         ],
-        "last_update": 476929,
+        "last_update": 476977,
         "category": "APPS",
         "votes": 1085,
         "rating": 4.085714,

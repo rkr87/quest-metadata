@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.1",
+                "change_log": "Version 1.1 - 30/5/24\n\nAdditions\n\n- Added support for 180 degree media (Single Fisheye)\n- Added support for Insta360 X4\n- Added a button to allow the user to skip the current downloading media\n\nReworks\n\n- Downloads will now show show the following information\n  - Progression of download\n  - Current download speed\n- Downloads that don't finish before closing the app can now be resumed by reconnecting to the camera\n- Swapping a media's projection type has been merged into a multistate button\n- Changed password text to better reflect changes from Insta360 X4\n\nBug Fixes\n\n- Naming a slideshow to the same as an existing slideshow no longer softlocks the user\n- Permissions are now requested consecutively\n- 2D images now resize appropriately when changing projection type\n- 2D images now correctly display portrait images\n- Slideshows now removed from main menu once deleted\n- Large shape that appeared in videos, blocking most of the view, is now gone\n- Fixed memory leak when moving to next slide when a video was playing\n- Fixed an issue that prevented the user from back-tracking after changing connected wifi"
+            },
+            {
                 "version": "1.0",
                 "change_log": "Version 1.0\n\nAdditions\n\n- Added haptics for controllers\n- Added support for sorting lists\n- Added button to remove slide from show\n- Can now manually change 3D image projection type\n- Added video controls\n- Added tooltips for controller buttons\n- Added brightness, contrast and saturation controls to image\n- Moved projection and advanced menus into the control bar\n- Slideshows will now automatically prefill their name\n- Added new editor and viewer modes\n  - This will allow an editor to customize the viewable content in a slideshow for a viewer. The viewer mode has reduced functionality and is only able to move through the slideshow\n- Added sort button to \"Create slideshow\" menu\n\nReworks\n\n- Menu movement is snappier and is more tolerent to head movements before moving\n- User can now continue using the app while downloading, clicking on the download bar will return the user to the download menu\n- Made text bigger for easier viewing\n- Menus are now much closer\n\nBug Fixes\n\n- Fixed an issue where permissions would constantly be requested\n- Fixed a few of the visual states for buttons\n- Fixed an issue where all images with dual fisheye projection were flipped\n\nKnown issues\n\n- Downloading from a GoPro Max will sometimes fail the first time but will succeed on any attempts after\n- Video handle won't move while dragging\n- Dual fisheye videos sometimes out of sync\n- Brightness contrast etc sliders don't always get remembered picture to picture\n- White spots at the poles of the viewing area when viewing a video"
             },
@@ -108,13 +112,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475993,
+        "changelog_update": 476977,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476521,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476521,
+        "last_update": 476977,
         "category": "APPS",
         "votes": 3,
         "rating": 3.0,

@@ -43,7 +43,7 @@
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 0
             },
             {
                 "rating": 4,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2
+                "votes": 3
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.6",
+                "change_log": "Fixed game not loading if microphone permissions are denied."
+            },
+            {
                 "version": "0.1.5",
                 "change_log": "Added link to discord"
             },
@@ -88,24 +92,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476929,
+        "general_update": 476977,
         "genre_update": 476065,
         "device_update": 476065,
         "mode_update": 476065,
         "language_update": 476065,
         "platform_update": 476065,
         "player_mode_update": 476065,
-        "changelog_update": 476905,
+        "changelog_update": 476977,
         "keyword_update": 476065,
         "tag_update": 476065,
-        "rating_update": 476953,
+        "rating_update": 476977,
         "iarc_detail_update": 476065,
         "keywords": [],
-        "last_update": 476953,
+        "last_update": 476977,
         "category": "GAMES",
         "votes": 4,
-        "rating": 4.25,
-        "weighted_rating": 3.7
+        "rating": 4.75,
+        "weighted_rating": 3.8
     },
     "errors": []
 }
