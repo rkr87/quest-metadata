@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "4.2",
+                "change_log": "-Made default screen black instead of white\n-Fixed a bug if a movie had a large number of subtitles it would not display the poster\n-More optimizations and minor improvements\n"
+            },
+            {
                 "version": "4.1",
                 "change_log": "-Added support for changing audio and subtitle tracks while transcoding\n-Fixed bug with wrong screen settings 2D popup while using 180 or 360 videos."
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2.2",
                 "change_log": "- Added AR (green screen) support\n- Added mono 360 viewing mode\n- Added display of number of matches\n- Improved UI audio so sounds don't get cut off when switching menus"
-            },
-            {
-                "version": "2.1",
-                "change_log": "- Added Watchlist inside server so you can search watchlist across libraries\n   (Note that watchlist only works for known movies, not TV show episodes)\n- Added 3D props, including sofa and cinema scenes\n- Fixed TV show thumbnail resolution\n- Centered browser title\n- Hid watchlist icons for series since it isn't supported by Plex"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476953,
+        "changelog_update": 477001,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476881,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476953,
+        "last_update": 477001,
         "category": "APPS",
         "votes": 66,
         "rating": 3.378788,
