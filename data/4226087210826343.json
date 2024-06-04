@@ -104,6 +104,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.41",
+                "change_log": "Update bot hand pose and locomotion"
+            },
+            {
                 "version": "6.0.40",
                 "change_log": "Reduce game load time. Bugfix bot avatar clothes sizing. Update paddle orientation for bot."
             },
@@ -178,10 +182,6 @@
             {
                 "version": "6.0.22",
                 "change_log": "Make Bot AI faster and more precise so its harder to beat.\nUpdated setting for SolidSlime Q3 version 2 adapter.\nAllow magnus effect slider to go down to zero."
-            },
-            {
-                "version": "6.0.21",
-                "change_log": "Add support for SolidSlime Quest 3 Version 2 adapter.\nTwo separate custom adapter settings can be stored now. One for each hand.\nShow adapter setting dropdown for the active hand only. i.e. When right/left  hand is selected then only the adapter setting dropdown for right/left hand is shown."
             }
         ],
         "on_rookie": true,
@@ -192,13 +192,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477001,
+        "changelog_update": 477073,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476713,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477001,
+        "last_update": 477073,
         "category": "GAMES",
         "votes": 228,
         "rating": 4.188596,

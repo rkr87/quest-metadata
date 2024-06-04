@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -78,6 +78,22 @@
         },
         "changelog": [
             {
+                "version": "6.2.21-generalqc",
+                "change_log": "🐛 Bug Fixes\n\n- Automatically log out when user disables link to device."
+            },
+            {
+                "version": "6.2.21-generalqog",
+                "change_log": "🐛 Bug Fixes\n\n- Automatically log out when user disables link to device."
+            },
+            {
+                "version": "6.2.20-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- When video UI is pinned it will now still appear even on a locked layer.\n- Videos that are not set to auto-play are initially set to 50% volume instead of being muted.\n\n🐛 Bug Fixes\n\n- Fixed some .dae imports getting stuck or importing without textures."
+            },
+            {
+                "version": "6.2.20-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- When video UI is pinned it will now still appear even on a locked layer.\n- Videos that are not set to auto-play are initially set to 50% volume instead of being muted.\n\n🐛 Bug Fixes\n\n- Fixed some .dae imports getting stuck or importing without textures."
+            },
+            {
                 "version": "6.2.19-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly reworked lobby sign-up UX.\n- ‘Link to Device’ option now explicitly informs you what account you are linking your LandingPad account to (Standalone Quest, Tethered Quest or Steam).\n\n🐛 Bug Fixes\n\n- When importing a model containing transparent textures, transparent rendering is now only applied to parts of the model that have the transparent texture.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some FBX files importing without textures on standalone.\n- Fixed some DAE files failing to import successfully.\n- Fixed environment light pointing forwards by default instead of downwards when creating a new Collab room.\n- Fixed tooltip for Grid Stage Floor option.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Changed default focal length to 50 mm."
             },
@@ -124,30 +140,6 @@
             {
                 "version": "6.2.12-generalqc",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed a rendering crash that would sometimes occur on loading a sketch."
-            },
-            {
-                "version": "6.2.11-generalqog",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Made low memory warning message thresholds more accurate.\n- Changed controller models for Quest 2 and Quest 3 to be white.\n- Single-sided rendering is no longer immediately disabled when engaging the tool switcher while the Flip Normals tool is selected. Now you must actually switch to another tool for it to be disabled.\n- Made memory usage more efficient in some scenarios.\n- Made saving of some large sketch files faster.\n\n🐛 Bug Fixes\n\n- Fixed exports having the incorrect thumbnail after joining a Collab room.\n- Removed grab trigger haptics when using SteamVR.\n- Reintroduced missing Please Stand By screen when saving files."
-            },
-            {
-                "version": "6.2.11-generalqc",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Made low memory warning message thresholds more accurate.\n- Changed controller models for Quest 2 and Quest 3 to be white.\n- Single-sided rendering is no longer immediately disabled when engaging the tool switcher while the Flip Normals tool is selected. Now you must actually switch to another tool for it to be disabled.\n- Made memory usage more efficient in some scenarios.\n- Made saving of some large sketch files faster.\n\n🐛 Bug Fixes\n\n- Fixed exports having the incorrect thumbnail after joining a Collab room.\n- Removed grab trigger haptics when using SteamVR.\n- Reintroduced missing Please Stand By screen when saving files."
-            },
-            {
-                "version": "6.2.10-generalqog",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed not being able to open GLB and FBX files containing textures\n- Fixed app hangs when trying to export FBX locally on standalone\n- First Sketch experience is no longer triggered when entering a Collab room in a workspace with no personal files"
-            },
-            {
-                "version": "6.2.10-generalqc",
-                "change_log": "🐛 Bug Fixes\n\n- Fixed not being able to open GLB and FBX files containing textures\n- Fixed app hangs when trying to export FBX locally on standalone\n- First Sketch experience is no longer triggered when entering a Collab room in a workspace with no personal files"
-            },
-            {
-                "version": "6.2.9-generalqog",
-                "change_log": "🚀 Features & Improvements\n- Improved Memory usage of image imports - most workflows will only use half as much memory\n\n🐛 Bug Fixes\n- On standalone headsets, export preset options no longer adopt the file format of your custom slot.\n- Fixed issue that caused some files made before GS 6.2.4 to trigger error “invalid object data was found and repaired in the loaded file. Recovered objects were placed on new layers” which placed parts of the file on a new layer.\n- Fixed memory usage calculation for images"
-            },
-            {
-                "version": "6.2.9-generalqc",
-                "change_log": "🚀 Features & Improvements\n- Improved Memory usage of image imports - most workflows will only use half as much memory\n\n🐛 Bug Fixes\n- On standalone headsets, export preset options no longer adopt the file format of your custom slot.\n- Fixed issue that caused some files made before GS 6.2.4 to trigger error “invalid object data was found and repaired in the loaded file. Recovered objects were placed on new layers” which placed parts of the file on a new layer.\n- Fixed memory usage calculation for images"
             }
         ],
         "on_rookie": false,
@@ -158,7 +150,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476977,
+        "changelog_update": 477073,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 476929,
@@ -168,7 +160,7 @@
             "model",
             "design"
         ],
-        "last_update": 476977,
+        "last_update": 477073,
         "category": "APPS",
         "votes": 1085,
         "rating": 4.085714,

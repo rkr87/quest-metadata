@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.5",
+                "change_log": "- Added on/off toggle switch for the Jog In Place traversal mode and turned it off by default for new save files. \nTo access the toggle switch for this control style, access the Inventory Capsule (A/X button) and turn the dial one notch to the left from its straight upward facing position (one position left of the RO notch).\nIf save game data already exists prior to this update, Jog In Place is still turned on be default.\n- Split the movement card into two separate cards to more thoroughly explain the difference between the two different traversal control types.\n- Various bug fixes to Item Bubble behavior to address multiple issues related to grabbing items from bubbles."
+            },
+            {
                 "version": "1.0.4",
                 "change_log": "- Age verification. Children are limited in online features such as leaderboards, scoring, and achievements\n- Item capsule dial re-worked to match Steam version\n- Intro sequence additions\n- Bug Fixes"
             }
@@ -84,13 +88,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475945,
+        "changelog_update": 477073,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 477073,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,

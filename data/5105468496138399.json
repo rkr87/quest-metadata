@@ -42,7 +42,7 @@
             },
             {
                 "rating": 3,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 4,
@@ -73,6 +73,10 @@
             "logo_transparent": "75542960_619873362410957_8865805999066214505_n.png"
         },
         "changelog": [
+            {
+                "version": "2.13.1",
+                "change_log": "Fixed an issue where pointers failed to appear in awareness tests\nFixed an issue where replays would not save correctly for quit sessions\nFixed an issue where too many players appeared in replay after quitting a session\nMade pointers more visible"
+            },
             {
                 "version": "2.13.0",
                 "change_log": "Added feedback in game for scanning, decisions and awareness performance\nAdded a settings screen to adjust audio volume and feedback settings"
@@ -150,16 +154,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476905,
+        "changelog_update": 477073,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 476881,
+        "rating_update": 477073,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476905,
+        "last_update": 477073,
         "category": "APPS",
-        "votes": 81,
-        "rating": 3.160494,
+        "votes": 82,
+        "rating": 3.158537,
         "weighted_rating": 3.2
     },
     "errors": []
