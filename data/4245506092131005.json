@@ -23,10 +23,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 689
+                "votes": 692
             }
         ],
         "comfort": "NOT_RATED",
@@ -81,6 +81,18 @@
             "logo_transparent": "39035340_137564518199776_3478351773299541350_n.png"
         },
         "changelog": [
+            {
+                "version": "0.6.19-alpha",
+                "change_log": "Update to v0.6.19"
+            },
+            {
+                "version": "0.6.18-alpha",
+                "change_log": "* Show friend list\n* Show which servers in the list have friends in them\n* Prevent grabbing ejected magzines\n* Show video for tip about muting players"
+            },
+            {
+                "version": "0.6.16-alpha",
+                "change_log": "* Show friend list\n* Show which servers in the list have friends in them\n* Prevent grabbing ejected magzines\n* Show video for tip about muting players"
+            },
             {
                 "version": "0.6.14-alpha",
                 "change_log": "* Added kill streak announcer\n* Made server list scrollable via thumbstick\n* When crouch too low, reset user to lowest acceptable crouch height\n* Fixed admin audio clips having too long a reverb tail\n* Fixed performance issue with 0.6.13"
@@ -148,14 +160,6 @@
             {
                 "version": "0.5.0-alpha",
                 "change_log": "- Fixed local player gunshot/audio being drown out when multiple audio is playing\n- Fixed muting players not persisting\n- New Legend map\n- Added new gun skins (randomly spawned when in singleplayer mode or shooting range)\n  - 3 AK skins\n  - 2 AWM skins\n  - 1 Deagle skin\n  - 3 MM4A1 skins\n  - 2 MAC10 skins\n- Force push-to-talk, to reduce audio noise in high player count games\n- Raise up Player Speaking feed, to more easily see who is speaking\n- Improved performance\n  - Atlased all non-local player guns into a single material\n  - Fixed LODs for guns\n  - Implemented GPU instancing for blood effects\n  - Fixed batching for muzzle flash effects\n"
-            },
-            {
-                "version": "0.5.1-alpha",
-                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens"
-            },
-            {
-                "version": "0.4.6-alpha",
-                "change_log": "- Added Gustavo Map\n- Added view for seeing what players are in a selected server\n- Play different audio whether team mic or all chat mic is enabled\n- Fixed bug where game would freeze completely in home scene if master server is down"
             }
         ],
         "on_rookie": false,
@@ -166,16 +170,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476953,
+        "changelog_update": 477097,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477049,
+        "rating_update": 477097,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477049,
+        "last_update": 477097,
         "category": "GAMES",
-        "votes": 1027,
-        "rating": 4.299903,
+        "votes": 1030,
+        "rating": 4.301942,
         "weighted_rating": 4.2
     },
     "errors": []

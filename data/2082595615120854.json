@@ -67,7 +67,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1629
+                "votes": 1630
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -93,6 +93,10 @@
             "logo_transparent": "38974477_132217234333927_4264940668532555776_n.png"
         },
         "changelog": [
+            {
+                "version": "1.16.2.257682-release",
+                "change_log": "Solves a game freeze bug when returning from Caster's Cove"
+            },
             {
                 "version": "1.16.2.257362-release",
                 "change_log": "Improved internal diagnostics"
@@ -156,10 +160,6 @@
             {
                 "version": "1.14.193452",
                 "change_log": "1.14.193452 patch notes\n\nKnown issues:\n- entering penguin point (multiplayer scene) without allowing microphone access can crash the game.\n\nBug fixing\n- fixed crash caused by joining a multipalyer room with idle host.\n- fixed bug with the mute button not working in penguin point after having used push-to-talk.\n- fixed bug where ther chair would sometimes disapear after having visited the vending machine.\n- fixed missing questline completed popup.\n\nVisual updates\n- fixed trash croc aligenment.\n- fixed snow poof effect.\n- fixed various UI glitches.\n- improved water shader.\n- improved vending machine visuals.\n- added vending machine item rarity effect.\n\nTweaks\n- made return to fishing chair mechanic work similar to other movement.\n\nAdditions\n- added info popup on first visit to penguin point.\n- added info access button on multiplayer page in fish-o-dex."
-            },
-            {
-                "version": "1.13.180580",
-                "change_log": "fixing rod bending"
             }
         ],
         "on_rookie": false,
@@ -170,20 +170,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477001,
+        "changelog_update": 477097,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 477073,
+        "rating_update": 477097,
         "iarc_detail_update": 475000,
         "keywords": [
             "exploration",
             "fish",
             "free"
         ],
-        "last_update": 477073,
+        "last_update": 477097,
         "category": "GAMES",
-        "votes": 2907,
-        "rating": 4.026832,
+        "votes": 2908,
+        "rating": 4.027166,
         "weighted_rating": 4.0
     },
     "errors": []

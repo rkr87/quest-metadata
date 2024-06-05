@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 14
+                "votes": 15
             }
         ],
         "comfort": "NOT_RATED",
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.234",
+                "change_log": "Hide The Corpse - Early Access v1 - Patch #1\n===============\n\nAdded:\n- Implemented player analytics\n- Added a particles effect to the door explosion at the end of the level timer\n\nModified:\n- Improved the objects selection algorithm during the police investigation scene at the end of a level\n- Improved the walkie-talkie model\n\nFixed:\n- Fixed the player's position during the police investigation scene at the end of a level\n- Fixed the tutorial level's flow\n- Fixed the menu items behaviour when hovering a menu item with both hand lasers\n- Fixed various visual bugs during the police investigation scene at the end of a level\n- Fixed the cropped ground displayed with the level and menu doors at the end of a level\n\n---\nversion 0.1.234#552f108e7"
+            },
+            {
                 "version": "0.1.225",
                 "change_log": "d443f23f7 - Merge branch 'hotfix/early/occluders-during-end-flow' into feature/version-early-access"
             },
@@ -91,16 +95,16 @@
         "language_update": 476761,
         "platform_update": 476761,
         "player_mode_update": 476761,
-        "changelog_update": 476761,
+        "changelog_update": 477097,
         "keyword_update": 476761,
         "tag_update": 476761,
-        "rating_update": 477073,
+        "rating_update": 477097,
         "iarc_detail_update": 476761,
         "keywords": [],
-        "last_update": 477073,
+        "last_update": 477097,
         "category": "GAMES",
-        "votes": 20,
-        "rating": 4.55,
+        "votes": 21,
+        "rating": 4.571429,
         "weighted_rating": 4.2
     },
     "errors": []
