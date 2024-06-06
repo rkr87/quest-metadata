@@ -81,6 +81,10 @@
         "changelog": [
             {
                 "version": "2.00.2",
+                "change_log": "Copter Strike VR [2.00.2] [06-Jun-2024]\n\nFixes:\n\n-Fixed an issue where the right controller would suddenly stop tracking in some very rare cases\n\n-Fixed an issue where sometimes the victory screen would not appear after a challange would be completed, forcing the player to exit the game and launch it again\n\n-Various bug fixes \n\nAdded/Changed:\n\n-Increased the time to Challange 11 and Challange 12 because they were too low and it would be pretty much impossible to complete them on 3 starts\n\n-Reintroduced the Copter Strike bobble head as a reward after players complete all the 30 challenges with 3 stars each! It can also be purchased from the Store menu to show your support for the developer :D\n\n-Various code cleanup and optimization. The game can now run with 72 frames per second even with 8x MSAA on Quest 2 standalone"
+            },
+            {
+                "version": "2.00.2",
                 "change_log": "Copter Strike VR [2.00.1] [31-May-2024]\n\n-Copter Strike challenges leaderboards are back! Now using the Meta servers. This means you can now see how your Meta friends performed in those leaderboards, and if a friend surpasses your position in a leaderboard you will be notified on your headset by Meta. May the best pilot win!!\n\n-major performance improvements\n\n-major other bug fixes\n\n-minor graphics improvements"
             },
             {
@@ -150,10 +154,6 @@
             {
                 "version": "1.00.3",
                 "change_log": "Copter Strike VR [1.00.3] [30-mar-2023]\n\n-quick hotfix for a game-breaking options menu issue that made it unusable at all"
-            },
-            {
-                "version": "1.00.2",
-                "change_log": "Changelog is in-game"
             }
         ],
         "on_rookie": true,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477001,
+        "changelog_update": 477121,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476713,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477001,
+        "last_update": 477121,
         "category": "GAMES",
         "votes": 11,
         "rating": 4.272727,
