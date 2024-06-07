@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "2.1.1.1",
+                "change_log": "* Secret feature added to Richie’s Plank Experience elevator for a limited time only. Think you’ve got what it takes to uncover a hidden surprise?\n* Various minor bug fixes to improve game experience."
+            },
+            {
                 "version": "2.1.0",
                 "change_log": "Addresses issues with EULA/Health & Safety navigation, pause functionality as well as minor optimisation and stability fixes."
             },
@@ -144,10 +148,6 @@
             {
                 "version": "1.8.37",
                 "change_log": "- Hand tracking now available.\n- Added Grip detection for grabbing. Now grabbing can be performed by naturally gripping your hands as well as pinching the index finger.\n- Hand no longer pushes objects away when attempting to grab.\n- Added a \"Recenter\" button in the game menu.\n- New hand appearance (blue)\n- System gesture hand appearance (yellow) to indicate that system gestures can be performed (menu button and Oculus Home button)\n- Fixed a bug where multiple select sounds play when the hand enters the nightmare mode elevator panel.\n- Fixed a bug where the Quest controllers appear on the calibration room screen.\n- Fixed a bug where selecting lasers appear between the player's eyes when a hand loses tracking."
-            },
-            {
-                "version": "1.8.34",
-                "change_log": "Updated the billboard with the DIGNITY message."
             }
         ],
         "on_rookie": true,
@@ -158,7 +158,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475393,
+        "changelog_update": 477145,
         "keyword_update": 474881,
         "tag_update": 475633,
         "rating_update": 477121,
@@ -167,7 +167,7 @@
             "height",
             "flying"
         ],
-        "last_update": 477121,
+        "last_update": 477145,
         "category": "GAMES",
         "votes": 3642,
         "rating": 3.76469,

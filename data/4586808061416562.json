@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.33.1",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.33.1\n\n## Bug Fixes\n\n- [In progress] Fix bug that is causing intermittent crashing on app start.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
+            },
+            {
                 "version": "2024.32",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.32\n\n## Bug Fixes\n\n- Updated certain AI backend API keys to prevent service disruption.\n- Reduced AI API retry attempts to reduce CPU load during network errors.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.21",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.21\n\n## Improvements\n\n- At long last: we’ve implemented direct interactions! When UI elements are close enough to touch, you can reach out and press or pinch them to use. This feature does not yet work for starting to type on Topic titles or Text items; nor have direct drag interactions been implemented yet (e.g. scrolling browsers via direct touch does not yet work).\n- Although we strongly recommend that everyone use a physical or web keyboard with Softspace, we know that the virtual keyboard is an important fallback option for getting started or when another keyboard isn’t handy. The virtual keyboard has been redesigned and upgraded to reflect its continued importance as a text input method.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.20.2",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.20.2\n\n## Bug Fixes\n\n- Fixed a bug that broke AI ideation and mindmapping function.\n\n## Known Issues\n\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476977,
+        "changelog_update": 477145,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 477073,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477073,
+        "last_update": 477145,
         "category": "APPS",
         "votes": 69,
         "rating": 3.405797,

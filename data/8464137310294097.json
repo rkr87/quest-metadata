@@ -28,9 +28,9 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 2",
             "Meta Quest 3",
-            "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest Pro"
         ],
         "player_modes": [
             "SITTING",
@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 154
+                "votes": 156
             },
             {
                 "rating": 2,
@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 181
+                "votes": 182
             },
             {
                 "rating": 5,
-                "votes": 1394
+                "votes": 1400
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.3.5\n\nINTRODUCING REPLAYS: \nNow you can record any multiplayer lobby as a replay, saved in the cloud. Replays capture the position and behavior of all objects and players and can be viewed in the headset’s camera mode (you can watch it flying around the scene). Unlike video recording, replays don’t use heavy hardware resources, so no lags or extra battery drain. \n\nFind the Replays icon at the top of the menu. Replays are currently in beta, with features like auto-saving goals, sharing replays, and stadium screen replays coming soon.\n\nMEET THE NEW BRAND “U19”:\nU19 designers are creating extra detailed cosmetics with unique, slightly futuristic concepts. The brand is launching with a limited offer of three bundles, each consisting of six items. All items are also available for single purchase.\n\nOTHER ENHANCEMENTS:\n- Fixed minor bugs, such as players sometimes appearing in a white t-shirt.\n- Potentially removed lag when other players were switching between custom jerseys or entering the lobby. \n- Fixed the ball rotation sync (previously appeared to rotate slower when kicked by other players). \n- Fixed the ball slightly teleporting when entering the goals.\n- Fixed lag when scrolling through custom arena lists.\n\n\nThank you all for playing VRFS. We are already working on more enhancements and features.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.3.5\n\nINTRODUCING REPLAYS: \nNow you can record any multiplayer lobby as a replay, saved in the cloud. Replays capture the position and behavior of all objects and players and can be viewed in the headset’s camera mode (you can watch it flying around the scene). Unlike video recording, replays don’t use heavy hardware resources, so no lags or extra battery drain. \n\nFind the Replays icon at the top of the menu. Replays are currently in beta, with features like auto-saving goals, sharing replays, and stadium screen replays coming soon.\n\nMEET THE NEW BRAND “U19”:\nU19 designers are creating extra detailed cosmetics with unique, slightly futuristic concepts. The brand is launching with a limited offer of three bundles, each consisting of six items. All items are also available for single purchase.\n\nOTHER ENHANCEMENTS:\n- Fixed minor bugs, such as players sometimes appearing in a white t-shirt.\n- Potentially removed lag when other players were switching between custom jerseys or entering the lobby. \n- Fixed the ball rotation sync (previously appeared to rotate slower when kicked by other players). \n- Fixed the ball slightly teleporting when entering the goals.\n- Fixed lag when scrolling through custom arena lists.\n\n\nThank you all for playing VRFS. We are already working on more enhancements and features.\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.4\n\nCustom arenas now have auto generated cover images\n\nPrivate lobby creators can kick and block players \n(vote kicks for pubs coming in later updates) \n\nThe camera now disappears when it is too close to the player\n\nSlightly enhanced ball bouncing physics\n\nBotkeepers are available in every arena in private lobbies\n\nFixed some store items following community feedback (but probably not all of them just yet)\n\nFixed known bugs and issues (bugs related to camera mode, rules were sometimes triggered randomly, game loading issues, and more)\n\nIncreased net physics response (still working on enhancing nets).\n\nMore things are in production and testing and will be released soon. Thanks for staying tuned.\n"
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 20.3\n\n[ CUSTOM ARENAS ]\nArena Info now displays in the menu within a custom arena lobby, showing the arena creator, rating, options to add to favorites, rate, and report the arena.\nA new 'Custom Arenas' menu section is introduced for accessing your arenas, favorites, and a 'Featured Arenas' tab for exploring all publicly available arenas.\nArena creator has to host at least one public lobby in order to have that arena be eligible for the ‘Featured’ list.\n\n[ FIXES ]\nResolved an issue preventing more than 16 players from joining custom arena private lobbies. Fixed a bug where jerseys sometimes failed to load. Overall performance optimizations. Fixed minor issues related to ball physics and potentially resolved controller problems.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 20.3\n\n[ CUSTOM ARENAS ]\nArena Info now displays in the menu within a custom arena lobby, showing the arena creator, rating, options to add to favorites, rate, and report the arena.\nA new 'Custom Arenas' menu section is introduced for accessing your arenas, favorites, and a 'Featured Arenas' tab for exploring all publicly available arenas.\nArena creator has to host at least one public lobby in order to have that arena be eligible for the ‘Featured’ list.\n\n[ FIXES ]\nResolved an issue preventing more than 16 players from joining custom arena private lobbies. Fixed a bug where jerseys sometimes failed to load. Overall performance optimizations. Fixed minor issues related to ball physics and potentially resolved controller problems.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "Quest 1 fix"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476905,
+        "changelog_update": 477145,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477121,
+        "rating_update": 477145,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477121,
+        "last_update": 477145,
         "category": "GAMES",
-        "votes": 1821,
-        "rating": 4.439868,
+        "votes": 1830,
+        "rating": 4.437705,
         "weighted_rating": 4.4
     },
     "errors": []
