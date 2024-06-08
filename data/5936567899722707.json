@@ -43,7 +43,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 27
+                "votes": 28
             },
             {
                 "rating": 2,
@@ -82,6 +82,10 @@
             "logo_transparent": "38974750_670558314687650_4351224727893824174_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.27",
+                "change_log": "Bug Fixes:\t\n- Fixed occasional seeking issue in ssif.smap Blu-ray 3D ISO playback.\n- Fixed other known bugs.\n\t\t\nImprovements:\t\t\n- Optimized USB OTG and fixed read failure issue in certain cases.\t\n- Optimized subtitle display and fixed some bugs.\n\nNew Features:\n- Added DLNA Casting from mobile devices to 4XVR on your VR headset.\n- Added 4X Link feature.\n- Added batch change video types in the video list.\n- Added support for Alpha channel video in YUVA444P12LE and YUVA422P12LE formats, and further improvements in upcoming versions."
+            },
             {
                 "version": "1.5.22",
                 "change_log": "Bug Fixes:\t\n- Fixed occasional seeking issue in ssif.smap Blu-ray 3D ISO playback.\n- Fixed other known bugs.\n\t\t\nImprovements:\t\t\n- Optimized USB OTG and fixed read failure issue in certain cases.\t\n- Optimized subtitle display and fixed some bugs.\n\nNew Features:\n- Added DLNA Casting from mobile devices to 4XVR on your VR headset.\n- Added 4X Link feature.\n- Added batch change video types in the video list.\n- Added support for Alpha channel video in YUVA444P12LE and YUVA422P12LE formats, and further improvements in upcoming versions."
@@ -157,10 +161,6 @@
             {
                 "version": "1.1.8",
                 "change_log": "Bug Fixes:\n- Fix a bug in av1 playback (Quest 3 only).\n\nNew Features:\n- Single click A/X button to pause/play video.\n- Click thumb stick to reset zooming."
-            },
-            {
-                "version": "1.1.7",
-                "change_log": "Bug Fixes:\n- Fixed bug in unable to connect to MAC via SMB.\n- Fixed some video playback lag bugs.\n- Fixed some WebDAV bugs.\n- Fixed other known bugs.\n\nImprovements:\n- Improved stability of SMB.\n- Improved the image quality of HDR videos and increased HDR brightness adjustment.\n- More audio encoding formats support.\n- Visual Tuning, the video picture is clearer.\n\nNew Features:\n- Supported running when headset tracking is turned off.\n- Supported theatre light brightness adjustment.\n- Supported AV1 decoding (Quest 3 only).\n- When playing 3DVR videos, it Supported zooming UI."
             }
         ],
         "on_rookie": true,
@@ -171,16 +171,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477121,
+        "changelog_update": 477169,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477145,
+        "rating_update": 477169,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477145,
+        "last_update": 477169,
         "category": "APPS",
-        "votes": 256,
-        "rating": 4.078125,
+        "votes": 257,
+        "rating": 4.066148,
         "weighted_rating": 4.0
     },
     "errors": []
