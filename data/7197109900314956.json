@@ -3,7 +3,7 @@
         "id": "7197109900314956",
         "app_name": "CONSORTIUM VR",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Activate an interdimensional satellite to inhabit the mind of a recruit in the Consortium—a supposed peacekeeping force dedicated to global unity and safeguarding Earth's environment in the year 2042.\n\nAs Consortium Bishop Six, you will be expected to solve a cryptic murder, defend the crew from an outlandish attack, uncover hidden conspiracies, and navigate complex interpersonal relationships. Featuring an interactive narrative that allows you to influence the story's direction, offering a richly detailed world that explores the consequences of your decisions and the nature of trust and loyalty.  \n\n# FEATURES:\n\n1. Introducing V.O.I.C.E.: Speak aloud (or not) to interact with fully realized characters aboard a Consortium command vessel.\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/39031609_409626205237300_4575584647389085525_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tuOwGmzb4EUQ7kNvgHocigZ&_nc_ht=scontent.oculuscdn.com&oh=00_AYCzTRSKN1OuwQ0GSX15Zt1hGuwbDKFdVMSAmoY_QxT_pQ&oe=66696F99)\n2. Navigate a nuanced murder mystery in a fully interactive 6-10 hour campaign. Choose diplomacy without drawing a weapon or take a more aggressive route to shape the public's perception of you. This chart shows one possible path of many.\n{825539659622237}\n3. Immerse yourself into a bright future where many of humanity's problems are solved, yet shadows linger. Access an in-world Information Console with ~250 documents and ~170 AI-generated images.\n{425400476905131}\n4. Manage a variety of equipment and features through interactive screens embedded in your virtual arms. \n{409041585300243}\n5. Explore VR gameplay scenarios in the Virtual Trainer (VT) or create your own with our VR-focused VT editor. Share your levels worldwide with full modding support.\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/57574716_425450543607524_742539216672356766_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=_Oo8UKSEle4Q7kNvgEgEH9u&_nc_ht=scontent.oculuscdn.com&oh=00_AYBCq4Cdyvj_1sbmtrTdSxBIUKyqi360JV8s6xWZXRuyxg&oe=66697BB2)",
+        "description": "Activate an interdimensional satellite to inhabit the mind of a recruit in the Consortium—a supposed peacekeeping force dedicated to global unity and safeguarding Earth's environment in the year 2042.\n\nAs Consortium Bishop Six, you will be expected to solve a cryptic murder, defend the crew from an outlandish attack, uncover hidden conspiracies, and navigate complex interpersonal relationships. Featuring an interactive narrative that allows you to influence the story's direction, offering a richly detailed world that explores the consequences of your decisions and the nature of trust and loyalty.  \n\n# FEATURES:\n\n1. Introducing V.O.I.C.E.: Speak aloud (or not) to interact with fully realized characters aboard a Consortium command vessel.\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/39031609_409626205237300_4575584647389085525_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=tuOwGmzb4EUQ7kNvgGu5x7r&_nc_ht=scontent.oculuscdn.com&oh=00_AYB1Iyel0PJlcS3xSiGW-fzX1FIRKSMHYn2kdObZ5XPVZw&oe=666AC119)\n2. Navigate a nuanced murder mystery in a fully interactive 6-10 hour campaign. Choose diplomacy without drawing a weapon or take a more aggressive route to shape the public's perception of you. This chart shows one possible path of many.\n{825539659622237}\n3. Immerse yourself into a bright future where many of humanity's problems are solved, yet shadows linger. Access an in-world Information Console with ~250 documents and ~170 AI-generated images.\n{425400476905131}\n4. Manage a variety of equipment and features through interactive screens embedded in your virtual arms. \n{409041585300243}\n5. Explore VR gameplay scenarios in the Virtual Trainer (VT) or create your own with our VR-focused VT editor. Share your levels worldwide with full modding support.\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/57574716_425450543607524_742539216672356766_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=_Oo8UKSEle4Q7kNvgGYFAMN&_nc_ht=scontent.oculuscdn.com&oh=00_AYBiexobVUjeZtvAEYQJAZZ8UpgW4ZFcvbOW6fXpaxHcRQ&oe=666ACD32)",
         "developer": "Interdimensional Games Inc",
         "publisher": "Interdimensional Games Inc",
         "genres": [
@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.5",
+                "change_log": "\"CONSORTIUM VR V1.0.5\n\nAddressed most Meta Quest performance issues.\n\nFixed crash when loading saved game that could occur. \n\nFIXES:\n\n-Fix for loading game crash which occured in a recent report. The exact cause is still unknown, but fixes and mitigations have been added.\n-Improved end stream text lines for Kiril incapacitated when gassed\""
+            },
+            {
                 "version": "1.0.4",
                 "change_log": "CONSORTIUM VR V1.0.4\n\nIf you report ‘em, we’ll fix ‘em.\n\nFIXES:\n\n-Fixed being able to erreoneously heal Wade after he's rescued by R13\n-Fixed issue where the convo with K15 about dancing could be triggered twice.\n-Fixed traitor battle music not playing correctly\n-Fixed the traitor setting off the first flee elevator logic when attacking from the virtual trainer or Bishop 8s cabin if they accidentally move into the elevator to flee incoming attack\n-Fixed zenlil core health sometimes getting stuck on during save reload"
             },
@@ -153,27 +157,23 @@
             {
                 "version": "0.1.33",
                 "change_log": "\"CONSORTIUM VR Quest BETA v0.1.33\n\nMajor graphics and lighting overhaul. Choreography closer to done…\n\nIMPROVEMENTS:\n\n-Major improvements to lighting and graphics on Quest (2/3) \n-General roughness, carpet, specularity pass on the entire Zenlil interior. \n- GPU generated lightmap polish pass on entire Zenlil interior\n\n-All conversations that can occur in the brig near the end now have newly polished and completed choreography.\n\n-A big percentage of the scenes that can take place in the Barracks near the end have received a major choreography polish pass.  Developing…\n\n-Intro connection sequence visual and sound polish\""
-            },
-            {
-                "version": "0.1.32",
-                "change_log": "\"CONSORTIUM VR / Remastered BETA v0.1.32\n\nA few major fixes. More choreo polish. German narrative translation v1. \n\nFIXES:\n\n-Fixed the NPC vision trace line checks against the player. They were always off. The players collision radius and center are properly calculated for both VR and 2D now.\n-Fixed NPCs being able to see the VR player almost always because of a bloated render bounds on the arms skeleton. (The above fix solves this)\n-Fixed two package build errors in rooms and scripted sequences related to editor only components\n-now controlling when to cache shaders on mobile platforms so the consortium loading dial comes up sooner\n-spaced out some IO operations at boot so they don't slow eachother down all running at once (speech to life, shader cache, save and config)\n\nVirtual Trainer Editor:\n-Fix for toolbar not showing all elements in VR\n\n\nIMPROVEMENTS:\n\n-Experimental German translation of entire narrative. (NPC and player dialog only currently). V.O.I.C.E. supported but as of this release remains virtually untested.  If you speak German, give it a go and kindly pop in and let us know how well it works for you on our Discord server?\n\n-The entire potential “in person” Kiril confrontation in the Hangar Bay has been given a final expression and eye choreography improvement pass.\n\n-The ensemble “brig convo” near the end has started receiving final choreography polish pass.  Developing…\n\n-The final conversation choices improvement pass for the entire narrative has been completed.\""
             }
         ],
         "on_rookie": false,
-        "general_update": 477169,
+        "general_update": 477193,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 476641,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477145,
+        "changelog_update": 477193,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477169,
+        "last_update": 477193,
         "category": "GAMES",
         "votes": 4,
         "rating": 4.5,

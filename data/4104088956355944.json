@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 148
+                "votes": 149
             },
             {
                 "rating": 2,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 7211
+                "votes": 7246
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.46.1",
+                "change_log": "- Fixed a common crash caused by a race condition when asynchronously creating GPU resources.\n- Changed how clicks are propagated through the UI system to be more flexible.\n- Changed how descriptor sets are cached, resulting in more reuse and better performance.\n- Changed how some UI data is send to the GPU for less overhead and improved performance."
+            },
             {
                 "version": "0.46.0",
                 "change_log": "- New lobby!\n- Added a new \"Adventure Pack\".\n- Added a free \"Pride Pin\".\n- Added cosmetics for GAB winners and participants. It will take a day or two after the update until everyone has them!"
@@ -151,10 +155,6 @@
             {
                 "version": "0.43.1",
                 "change_log": "- Changed wording in the main menu.\n- Removed \"Next Level\" button when in the tutorial.\n- Tweaked the pilot head."
-            },
-            {
-                "version": "0.43.0",
-                "change_log": "- New Lobbby!\n- New cosmetics pack!\n- The shop will no longer show items if their timer runs out unless you own them.\n- Added some tracking of button clicks and basic interactions in the tutorial when playing for the first time to improve the game for new players in the future."
             }
         ],
         "on_rookie": false,
@@ -165,16 +165,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477001,
+        "changelog_update": 477193,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477169,
+        "rating_update": 477193,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477169,
+        "last_update": 477193,
         "category": "GAMES",
-        "votes": 7805,
-        "rating": 4.850993,
+        "votes": 7841,
+        "rating": 4.851167,
         "weighted_rating": 4.8
     },
     "errors": []
