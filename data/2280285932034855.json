@@ -3,7 +3,7 @@
         "id": "2280285932034855",
         "app_name": "Waltz of the Wizard",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "🏆 Winner of Best Updated Game - UploadVR\n🏆 Winner of Best Innovation - NYX Game Awards\n\nExperience awesome magical powers in a world inspired by the atmosphere of classic fantasy fiction! Combine arcane ingredients into a boiling cauldron with the help of your torturable skull assistant, embarking on an adventure in an absurdly interactive and mysterious world.\n\n⭐️ “Aldin helped pioneer VR as we know it today” - Road to VR\n⭐️ “VR already has some exceptionally well-received games, like Waltz of the Wizard” - Rolling Stone Magazine\n\nHighlight features\n- Cutting-edge voice, eyes- and gesture interaction abilities\n- Large campaign with storyline, combat and challenges\n- Hundreds of voice interactions (English)\n- Infinite level generation mode for endless fun\n- Eye-tracking interactions with characters and magic (Meta Quest Pro Only)\n- MR Sandbox mode (Meta Quest 3 and Meta Quest Pro Only)\n- Torture your skull assistant, imagination is the only limit",
+        "description": "🏆 Winner of Best Updated Game - UploadVR\n🏆 Winner of Best Innovation - NYX Game Awards\n\nExperience awesome magical powers in a world inspired by the atmosphere of classic fantasy fiction! Combine arcane ingredients into a boiling cauldron with the help of your torturable skull assistant—the most interactive character you can find in VR—embarking on an adventure in an absurdly interactive and mysterious world.\n\n⭐️ “Aldin helped pioneer VR as we know it today” - Road to VR\n⭐️ “VR already has some exceptionally well-received games, like Waltz of the Wizard” - Rolling Stone Magazine\n\nHighlight features\n- Cutting-edge voice, eyes- and gesture interaction abilities\n- Large campaign with storyline, combat and challenges\n- Hundreds of voice interactions (English)\n- Infinite level generation mode for endless fun\n- Eye-tracking interactions with characters and magic (Meta Quest Pro Only)\n- MR Sandbox mode (Meta Quest 3 and Meta Quest Pro Only)\n- Torture your skull assistant, imagination is the only limit",
         "developer": "Aldin",
         "publisher": "Aldin",
         "genres": [
@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1774
+                "votes": 1778
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "3.1.0.1436",
+                "change_log": "Skully’s Unruly Reactions update brings 400+ new voicelines and a whole bunch of new Skully interactions! From entirely new reactions to extensions of what was there before, the update makes Skully feel more alive and responsive to a greater set of things that you do and say. \n\n== New or Improved Skully Interactions ==\n• 👀 When poked in the eye\n• 😬 Biting when finger is held in front of him\n• 🌊 When drowned in pot (short, medium, and long duration)\n• 🪟 When thrown out the window\n• 💥 Hit reactions (low, medium, high, and extreme impact)\n• 🏹 When shot with the crossbow\n• 📍 Various commentary to being placed or held in different locations in the Tower\n• 🪶 Being drawn on with the feather pen\n• 🪄 More spell reactions when being miniaturized, supersized, polymorphed, transmuted, puppetered, made weightless, and turned into a Firework\n• 🫴 When targeted with “Bring-to-me”\n• 💀 Variations when being shown the same thing multiple timess\n• 💋 When kissed on the lips or head (short and long durations)\n• 🎺 When the trumpet is put on him\n• 😵‍💫 After being thrown multiple times in a short time\n• 🤾 When being thrown back and forth with the Armor Catcher\n• 😱 When using the ‘Make everything explode/disappear’ or ‘Turn everything into a butterfly/frog’ voice magic\n• 😮‍💨 When then saying the ‘Make it stop’ voice magic after uttering one of the above commands\n• 👍 When making the ‘thumbs up’, ‘thumbs down’, or ‘peace’ hand gestures\n• 🔫 When being aimed at with crossbow or slingshot\n• 🚪 When Igor/Goliath/Bat enters the Tower\n• 🚑 When Igor/Goliath/Bat are hit or shot\n• 🗣️ Added approximately 50 new questions and phrases that Skully can respond to — including multiple reactions to some of these sentences. Please refer to the blog post for a full list.\n\n\n== General Fixes/Improvements ==\n• Skully now respawns after being thrown out the window\n• Improved Skully’s colliders to make it easier to draw on him\n• Improved Skully’s physics so he doesn’t fall sideways as easily\n• Fixed Skully sometimes saying 'Don’t put me in the pot' after you already did so\n• Skully’s voice is now pitched up when turned into a butterfly/frog\n• Improved timings and priority of various pre-existing Skully dialogues\n• Improved audio mixing on Skully to prevent some audio clips from causing distortion on the Quest speakers\n• Fixed a few bugs in Puppeteer and added interpolation to puppeteered objects so they animate smoother\n• Various improvements to Skully’s gaze behavior\n• Fixed objects being respawned despite being affected by magic\n• Fixed incorrect color hue post-processing effect being applied when loading for the first time into the Tower (Quest only)\n• Improved reliability of some hand gesture detections (namely the middle-finger gesture)"
+            },
+            {
                 "version": "2.3.1.1133",
                 "change_log": "## Improvements\n\n- Automatons now wake-up later - if you’re sneaky enough you might even kill them before they wake up!\n- Added SFX to Voice Suggestions\n- Added VFX and SFX to level selector\n- “Make that faster” voice modifier now works for Rat, Silverfish and Frogs\n- Improvements to what Voice suggestions are selected for display\n- Added SFX to Telepath\n- The Armor Catcher guy has been removed from the Courtyard (RIP)\n- “Give me Air Drawing” grimoire page has been changed to “Give me Fireball”\n- The Start and End rooms in Infinite Fortress now have a slightly changed look\n- Added VFX when using using Teleport command (e.g. “Take me to the Courtyard”)\n- Skully now repeats himself during the Voice tutorial if the user doesn’t trigger the intended voice commands\n- .. and various other minor improvements\n\n## Fixes\n\n- Fixed “Scavanger Hunter” and “Artifact Connoisseur” potentially not unlocking if you had finished those tasks before\n- Fixed “Make normal” voice command not working on something that has been made bigger/smaller\n- Fixes to various colliders\n- Fixed some voice commands not showing up in subtitles\n- Fixed issue where objects affected by the Bouncy Wand would be bouncy forever.\n- Fixed haptics under very specific circumstances breaking when entering the Observer Fortress\n- You can no longer snap rotate with controllers in Mixed Reality mode, which caused posters being offset\n- Fixed Bat spawning 2 bodies if killed\n- Fixed Voice subtitles possibly getting stuck in wrong scale if user changed his height\n- You can no longer reach assist the same object with both hands simualtenously\n- Fixed some Natural Magic powers accidentally triggering when holding objects\n- Change Pitch voice commands possibly getting too high or too low\n- Fixed running not working in hand-tracking\n- Skully no longer yells his greeting at you when you enter the Tower (i.e. the volume of his greeting has been lowered to a more normal level)\n- Fixed crank wheel for the Well sometimes breaking\n- Fixed hand-tracking slingshot sometimes acting weird\n- .. and various other minor fixes\n\n## Observer Fortress crash\n\nWe are aware of a crash occuring for some users in the Observer Fortress. We’ve added a detection for when this crash is about to occur, which sends us a log with more info about the crash to help us fix this issue."
             },
@@ -107,27 +111,27 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476761,
+        "general_update": 477241,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476953,
+        "changelog_update": 477241,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 477217,
+        "rating_update": 477241,
         "iarc_detail_update": 475000,
         "keywords": [
             "magic",
             "wizard",
             "fantasy"
         ],
-        "last_update": 477217,
+        "last_update": 477241,
         "category": "GAMES",
-        "votes": 2478,
-        "rating": 4.444713,
+        "votes": 2482,
+        "rating": 4.445608,
         "weighted_rating": 4.4
     },
     "errors": []
