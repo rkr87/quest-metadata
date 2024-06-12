@@ -100,30 +100,5 @@
         "rating": 2.0,
         "weighted_rating": 3.4
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "1dd0c148511d9d6dec60efa3681dd0de"
-            ],
-            "path": [
-                "item",
-                "grouping",
-                "iap_items_2",
-                "edges"
-            ]
-        },
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "bb33fa0a22563a30c8f4d590dd70e2a5"
-            ],
-            "path": [
-                "item",
-                "pdp_subscription_details"
-            ]
-        }
-    ]
+    "errors": []
 }

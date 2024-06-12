@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -132,14 +132,6 @@
             {
                 "version": "6.2.14-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that could sometimes cause imported opaque textures to be rendered as transparent."
-            },
-            {
-                "version": "6.2.12-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed a rendering crash that would sometimes occur on loading a sketch."
-            },
-            {
-                "version": "6.2.12-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed a rendering crash that would sometimes occur on loading a sketch."
             }
         ],
         "on_rookie": false,
@@ -150,7 +142,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477073,
+        "changelog_update": 477265,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 477169,
@@ -160,7 +152,7 @@
             "model",
             "design"
         ],
-        "last_update": 477169,
+        "last_update": 477265,
         "category": "APPS",
         "votes": 1086,
         "rating": 4.082873,
