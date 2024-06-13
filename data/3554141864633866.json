@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.20.00.01",
+                "change_log": "- New step seq workflow, only clicking the step sequencer items sets the active item\n- Fixed extreme slow down when flat step sequencer clips added to a scene and general slowness with flat step sequencers\n- Drum kit refresh, new kits new kit layouts\n- Fixed some wavetable kits not sustaining drums when hit\n- Avatar recorder fixes - avatar mo-cap not stopping/gets stuck playing\n- Fixed bad button size in save popup\n- Fixed bug in timestretched avatar recorded audio not playing\n- Fixed spatial audio to use binaural instead of panning\n- Fixed clone of synth items\n- Fixed synth not deleted when cloned upon clear scene\n- Faster scene loading"
+            },
+            {
                 "version": "1.19.00.11",
                 "change_log": "Async load, new world browser"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "1.14.00.07",
                 "change_log": "Permissions back to init2"
-            },
-            {
-                "version": "1.14.00.06",
-                "change_log": "Permissions back to init"
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477097,
+        "changelog_update": 477289,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477097,
+        "last_update": 477289,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,

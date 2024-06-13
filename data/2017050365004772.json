@@ -47,15 +47,15 @@
             },
             {
                 "rating": 3,
-                "votes": 256
+                "votes": 255
             },
             {
                 "rating": 4,
-                "votes": 526
+                "votes": 527
             },
             {
                 "rating": 5,
-                "votes": 6649
+                "votes": 6651
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,6 +79,14 @@
         },
         "changelog": [
             {
+                "version": "1.32.5.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR\n• Screens can now be moved without hiding the keyboard\n• Fixed issue with keyboard appearing too far or behind the screen\n• Fixed detection of hardware encoder at startup which could prevent multi-monitor from working\n• Fixed lingering Streamer icon in the system tray when switching users\n• Fixed microphone pops\n• Fixed issue with 32-bit games in VDXR"
+            },
+            {
+                "version": "1.32.5.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR\n• Screens can now be moved without hiding the keyboard\n• Fixed issue with keyboard appearing too far or behind the screen\n• Fixed detection of hardware encoder at startup which could prevent multi-monitor from working\n• Fixed lingering Streamer icon in the system tray when switching users\n• Fixed microphone pops\n• Fixed issue with 32-bit games in VDXR"
+            },
+            {
                 "version": "1.32.4.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR"
             },
@@ -149,14 +157,6 @@
             {
                 "version": "1.29.9.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Improved AV1 performance with AMD\n• Improved SSW quality on Quest 2, Pro and 3\n• Increased H.264+ max bitrate to 500 Mbps on Quest 3\n• Increased max desktop resolution to 3840x2160 and optimal resolution to 2560x1440 on Quest 3\n• Added custom OpenXR runtime called VDXR on the PC side providing up to 10% improved performance\n• Added OpenXR runtime selection box in the Streamer window (Automatic, SteamVR or VDXR)\n• Added Exit Game button in the Virtual Desktop menu for non-SteamVR games\n• Added Brazilian Portuguese keyboard layout\n• Removed regular AV1 codec option (only AV1 10-bit now available)\n• Fixed game compatibility with many OpenXR titles on the Rift store: Pistol Whip, Onward, Population One, Zenith, etc.\n• Fixed issues with audio device restoration and monitor resolution change when shutting down/restarting computer in VR\n• Fixed incorrect 5 GHz / 7 GHz appearing in computers tab / performance overlay when using 6 GHz band\n• Fixed Head Lock feature to work when moving around your play space\n• Fixed field of view edges on Quest 3\n• Fixed thumbs up state not being recognized in some games\n• Fixed Vietnamese characters in subtitles\n• Fixed subtitles not appearing with some videos\n• Fixed performance overlay visibility after hiding with thumbsticks\n• Fixed game compatibility with: Automobilista 2 (Steam), 7th Guest\n• Fixed black screen issue when switching in and out of VR"
-            },
-            {
-                "version": "1.29.9.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Improved AV1 performance with AMD\n• Improved SSW quality on Quest 2, Pro and 3\n• Increased H.264+ max bitrate to 500 Mbps on Quest 3\n• Increased max desktop resolution to 3840x2160 and optimal resolution to 2560x1440 on Quest 3\n• Added custom OpenXR runtime called VDXR on the PC side providing up to 10% improved performance\n• Added OpenXR runtime selection box in the Streamer window (Automatic, SteamVR or VDXR)\n• Added Exit Game button in the Virtual Desktop menu for non-SteamVR games\n• Added Brazilian Portuguese keyboard layout\n• Removed regular AV1 codec option (only AV1 10-bit now available)\n• Fixed game compatibility with many OpenXR titles on the Rift store: Pistol Whip, Onward, Population One, Zenith, etc.\n• Fixed issues with audio device restoration and monitor resolution change when shutting down/restarting computer in VR\n• Fixed incorrect 5 GHz / 7 GHz appearing in computers tab / performance overlay when using 6 GHz band\n• Fixed Head Lock feature to work when moving around your play space\n• Fixed field of view edges on Quest 3\n• Fixed thumbs up state not being recognized in some games\n• Fixed Vietnamese characters in subtitles\n• Fixed subtitles not appearing with some videos\n• Fixed performance overlay visibility after hiding with thumbsticks\n• Fixed game compatibility with: Automobilista 2 (Steam), 7th Guest\n• Fixed black screen issue when switching in and out of VR"
-            },
-            {
-                "version": "1.29.8.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Improved AV1 performance with AMD\n• Improved SSW quality on Quest 2, Pro and 3\n• Increased H.264+ max bitrate to 500 Mbps on Quest 3\n• Increased max desktop resolution to 3840x2160 and optimal resolution to 2560x1440 on Quest 3\n• Added custom OpenXR runtime called VDXR on the PC side providing up to 10% improved performance\n• Added OpenXR runtime selection box in the Streamer window (Automatic, SteamVR or VDXR)\n• Added Exit Game button in the Virtual Desktop menu for non-SteamVR games\n• Added Brazilian Portuguese keyboard layout\n• Removed regular AV1 codec option (only AV1 10-bit now available)\n• Fixed game compatibility with many OpenXR titles on the Rift store: Pistol Whip, Onward, Population One, Zenith, etc.\n• Fixed issues with audio device restoration and monitor resolution change when shutting down/restarting computer in VR\n• Fixed incorrect 5 GHz / 7 GHz appearing in computers tab / performance overlay when using 6 GHz band\n• Fixed Head Lock feature to work when moving around your play space\n• Fixed field of view edges on Quest 3\n• Fixed thumbs up state not being recognized in some games\n• Fixed Vietnamese characters in subtitles\n• Fixed subtitles not appearing with some videos\n• Fixed performance overlay visibility after hiding with thumbsticks\n• Fixed game compatibility with: Automobilista 2 (Steam), 7th Guest"
             }
         ],
         "on_rookie": false,
@@ -167,19 +167,19 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477145,
+        "changelog_update": 477289,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 477265,
+        "rating_update": 477289,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "movie"
         ],
-        "last_update": 477265,
+        "last_update": 477289,
         "category": "APPS",
-        "votes": 8791,
-        "rating": 4.286998,
+        "votes": 8793,
+        "rating": 4.287274,
         "weighted_rating": 4.2
     },
     "errors": []

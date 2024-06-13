@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 35
+                "votes": 36
             },
             {
                 "rating": 2,
@@ -44,7 +44,7 @@
             },
             {
                 "rating": 3,
-                "votes": 16
+                "votes": 17
             },
             {
                 "rating": 4,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 375
+                "votes": 376
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +77,10 @@
             "logo_transparent": "39031359_1650954835268881_9047741212152430989_n.png"
         },
         "changelog": [
+            {
+                "version": "2024.6.0",
+                "change_log": "Dear Friends of Tennis,\n\nWe're excited to bring you some fantastic updates to enhance your match play experience! Our latest update, version 2024.6.0, includes the following improvements:\n\n# Improvements\nTossMode: TossMode switching has been moved to the UI based on player feedback, eliminating the grip button\nTechzoneUI: Optimizations for smoother performance\nMatchPlay: Net recovery position set to 3m away from the net\n\n# New Features\nSpectator: Preparations made to stream matches\nEvent: Get ready for the Sahara Smash Event starting on June 17, 2024\n\n# Bug Fixes\nAIMatch: Fixed an issue where female AI wouldn't play with the left hand if the user is left-handed\nCounting: Corrected an error where serves were sometimes wrongly counted as aces\nMatchPlay: Improvements made to the serve clock\n\nServing up a big THANK YOU to our community\n\nYour Tennis Esports Team"
+            },
             {
                 "version": "2024.5.0",
                 "change_log": "Dear Friends of Tennis,\n\nRallying up some Match Play improvements that make the rally more fluent! This update, 2024.5.0, contains the following improvements:\n\n# Improvements\nServes: Fast serves are better recognized now.\nMatch Play: The correct user is rewarded with the trick shot where the ball spins back over the net.\nMatch Play: Some minor tweaks to opponent avatar movement.\nMovement: Avoid hitting points outside of tracking areas when hitting a winner.\n\n# Bugfixes\nMatch Play: Match play stopped for a short time due to a lost tennis ball.\nOpponent Movement: Opponent Avatar no longer runs into environmental objects.\n\nServing up a big THANK YOU to our community!\nYour Tennis Esports Team"
@@ -152,10 +156,6 @@
             {
                 "version": "2023.7.2",
                 "change_log": "Dear Friends of Tennis!\n\nYour quick serves and rapid returns have not gone unnoticed, and we're here with an immediate response.\nDelivering Version 2023.7.2 as a hotfix that ensures your \"Hit'Em All\" scores reflect your speed and skill on the court.\n\nBug Fixes:\nScore Multiplier Mastery: We've fixed the issue where \"score multipliers\" were not being triggered successfully, particularly for those lightning-fast balls.\n\nYour engagement and sustained feedback are always our game-changers!\nYour Tennis Esports Team"
-            },
-            {
-                "version": "2023.7.1",
-                "change_log": "Dear Friends of Tennis!\n\nTo keep you moving on the court we deliver Version 2023.7.1.\n\nImprovements:\nAuto-Teleport: Now includes always automatic recovery movement to the center after hitting the ball.\nAuto-Teleport Setting:  Activate/Deactivate camera teleport for the recovery movement (brings no game advantage).\nAuto-Teleport Setting:  Activate/Deactivate camera teleport after thumb-stick release (brings no game advantage).\nAuto-Teleport: Less probability of getting low hit points during a match\n\nBug Fixes:\nHitEmAll: Targets are now closer to the court\nUI: Fixed height detection settings in “Start Wizard”\n\nServing up a big THANK YOU!\n\nYour Tennis Esports Team"
             }
         ],
         "on_rookie": true,
@@ -166,16 +166,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476425,
+        "changelog_update": 477289,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 477265,
+        "rating_update": 477289,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477265,
+        "last_update": 477289,
         "category": "APPS",
-        "votes": 481,
-        "rating": 4.43659,
+        "votes": 484,
+        "rating": 4.427686,
         "weighted_rating": 4.4
     },
     "errors": []

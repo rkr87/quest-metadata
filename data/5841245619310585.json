@@ -94,7 +94,7 @@
             },
             {
                 "rating": 5,
-                "votes": 813
+                "votes": 815
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -118,6 +118,10 @@
         },
         "changelog": [
             {
+                "version": "2.0.9",
+                "change_log": "* Fix crash when coming out of standby\n* Fix issue preventing initialization if certain packets get dropped.\n* \"Waiting for host\" screen will now wait before displaying, meaning app will transition straight to stream rather than the UI displaying\n* Add additional errors to display if it's a video code error/video network error\n* Small improvements to stream startup speed\n* Fix a few bugs around stream transitions to UI\n* Fix microstutter (From previous beta)"
+            },
+            {
                 "version": "2.0.8",
                 "change_log": " * Fix crash that can happen in specific pause/resume situations \n * Fix initialization code, that will be able to prevent deadlocking in some situations (but will require a SteamVR Beta Update that will be available after this goes live)\nThis update will pair with SteamVR 2.5 to resolve additional failure-to-stream issues."
             },
@@ -138,19 +142,19 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476425,
+        "changelog_update": 477289,
         "keyword_update": 474881,
         "tag_update": 474685,
-        "rating_update": 477265,
+        "rating_update": 477289,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "game"
         ],
-        "last_update": 477265,
+        "last_update": 477289,
         "category": "APPS",
-        "votes": 1700,
-        "rating": 3.489412,
+        "votes": 1702,
+        "rating": 3.491187,
         "weighted_rating": 3.4
     },
     "errors": []
