@@ -3,7 +3,7 @@
         "id": "7830420446969757",
         "app_name": "Polysketch",
         "release_date": "2022-05-24T00:00:00.000Z",
-        "description": "The ultimate low poly 3D modeling tool! Sketch out your lines and surfaces like drawing on paper, then use a few key tools to add color, detail and modify. Simple, intuitive tools keep you focused and creative - then export a clean, game-ready mesh for prototypes, 3D printing, or just getting creative from the couch.\n\nWe've found Polysketch is great for:\n\n~Game dev and prototyping (Unity, Unreal, etc)\n~Custom objects and worlds in VR Chat and Roblox\n~Tabletop game creatures and props, to be 3D printed\n~Concept art paintovers\n\nInstead of many complex tools, Polysketch focuses on simple, natural 3D sketching to create your shapes. It's like paper, but simpler because you don't have to learn perspective ;)\n\nYou can export your creations as standard \"OBJ\" files for use in almost any app (Unity, Blender, etc). Even better, the line-sketching method ensures a clean and game-ready 3D mesh, so you can use it right away!",
+        "description": "# Creativity for All\n\nUniquely simple and fun 3D creation! Sketch out shapes, add color and style, then export for game engines, 3D printing, social apps, or just for show. You'll be amazed how easily you can create truly original worlds, objects, and even characters.\n\n![{\"height\":400,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/75230050_429633753319452_4272255071443212433_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0b94jybF0eAQ7kNvgEFXi8g&_nc_ht=scontent.oculuscdn.com&oh=00_AYDfXAj7ipkhejZBeqB5bwoUtrg1wQG-ICXWxy_9cZkKTw&oe=667166BD)\n\n# Export and Share\n\n- **Social Creators**, build custom world and avatar art\n- **Game Designers**, sketch levels and prototype objects quickly\n- **3D Artists**, enjoy as a truly awesome retopo tool\n- **Concept Artists**, screenshot your creations for easy paint-overs\n\n# Features\n\n- Simple, intuitive \"sketch\" 3D modeling. Just sketch the lines, connect to form surfaces. No \"relative space axis constraint gizmo handles\" mumbo-jumbo here.\n- Import 3D models and images for reference\n- Export specific objects, or the entire scene, for use with just about any other app (Blender, Unity, Unreal, Roblox, VR Chat, etc)\n- Multiplayer (Alpha) - bring friends into your creations, live!\n\n# Community\n\nJoin any of our communities to discuss new features, share your creations, and get inspired.\n",
         "developer": "Polysketch LLC",
         "publisher": "Polysketch",
         "genres": [
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8
+                "votes": 9
             }
         ],
         "comfort": "NOT_RATED",
@@ -73,6 +73,10 @@
             "logo_transparent": "38982464_584901086000741_1692418055857486687_n.png"
         },
         "changelog": [
+            {
+                "version": "0.64",
+                "change_log": "- made the app free! Limited to 3 saves, but free!\n- added a purchase to get unlimited saves.  Users that bought the app previously should get this for free\n- fixed image references\n- a few additional minor bug fixes"
+            },
             {
                 "version": "0.60",
                 "change_log": "Switching to free app with 3 saves. Buy upgrade for unlimited saves.\nIf you purchased the app previously, you should get the unlimited saves for free. If you do not, tell us on discord https://discord.gg/ZJZqSsEr"
@@ -148,30 +152,26 @@
             {
                 "version": "0.15",
                 "change_log": "- Fixed bug that blocked adding/removing scene files manually from the file system.\n- Fixed bug where some scene file loading would put the app in a bad state (with weird yellow lines all over the place)"
-            },
-            {
-                "version": "0.14",
-                "change_log": "- Better selection when \"vacuuming\" (holding A and moving your hand over many verts to multi-select)\n- Updated extrude to sometimes not keep the source face. Rules are:\n  - if extruding towards your face, the old face stays\n  - if extruding away from your face, the old face goes\n  - if hitting A to multi-extrude, all \"interior\" faces are not created\n- Set up main menu to order files by most-recently-touched\n- Fixed bug where tooltips could get out-of-sync with reality\n- Fixed multi-state buttons in menu to actually reflect their current state.\n- Fixed bug where sometimes drawing a line into the side of an existing face would turn off the face\n- Fixed bugs surrounding the \"show solid\" toggle behavior (faces vs wireframe)\n- Fixed a bug where certain head positions would cause the UI to render on top of itself 100s of times\n- Made the tutorial videos only appear on empty scenes. Can be re-opened form left-hand menu at any time\n- Enabled 90 frames per second on Quest 2"
             }
         ],
         "on_rookie": true,
-        "general_update": 477169,
+        "general_update": 477313,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477265,
+        "changelog_update": 477313,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477169,
+        "rating_update": 477313,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477265,
+        "last_update": 477313,
         "category": "APPS",
-        "votes": 9,
-        "rating": 4.555556,
+        "votes": 10,
+        "rating": 4.6,
         "weighted_rating": 4.0
     },
     "errors": []

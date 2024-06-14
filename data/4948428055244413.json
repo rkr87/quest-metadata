@@ -3,7 +3,7 @@
         "id": "4948428055244413",
         "app_name": "Among Us VR",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "For ages 13 and up.\n\nAmong Us VR is a party game of teamwork and betrayal. Grab your crew and headset and launch into the VR version of this hit multiplayer deduction game. Play with 4 - 10 players as you complete tasks to hold your ship together. But beware! One or more random players among the crew are Impostors bent on sabotaging and killing everyone.\n\nFeatures\n● Gameplay: Experience the core Among Us gameplay you know and love, such as tasks, sabotages, emergency meetings, and venting, but now in VR\n● Chat: Communicate using in-game voice chat (featuring proximity chat) or quick text chat\n● Minigames: Play old favorites and new-for-VR games\n● Customization: Pick your character’s color and hat; the new Hat Pack: Crew Favorites is available for purchase now\n● Comfort and Safety: Adjust your settings to have the best experience possible\n● Cross-Platform in VR: Play with other VR users, even on other VR platforms and headsets\n● Locomotion: Choose single or two-handed options\n● Custom Lobby Settings: 18 settings to customize the game\n\nJoin our Discord!",
+        "description": "**LIMITED TIME EVENT:** Vigilantes join the Crewmates to take justice into their own hands with their own Kill ability! But with Engineers venting right alongside the Impostors… will they put a stop to the right bean?! \n\n{986052392930224}\n\nAmong Us VR is a party game of teamwork and betrayal. Grab your crew and headset and launch into the VR version of this hit multiplayer deduction game. Play with 4 - 10 players as you complete tasks to hold your ship together. But beware! One or more random players among the crew are Impostors bent on sabotaging and killing everyone.\n\n# Features\n- **Gameplay:** Experience the core Among Us gameplay you know and love, such as tasks, sabotages, emergency meetings, and venting, but now in VR\n- **Chat:** Communicate using in-game voice chat (featuring proximity chat) or quick text chat\n- **Minigames:** Play old favorites and new-for-VR games\n- **Customization:** Pick your bean’s color, hat, and gloves — and expand your wardrobe with our growing options of Hat and Glove Packs\n- **Comfort and Safety:** Adjust your settings to have the best experience possible\n- **Cross-Platform in VR:** Play with other VR users, even on other VR platforms and headsets\n- **Locomotion:** Choose single or two-handed options\n- **Custom Lobby Settings:** 18 settings to customize the game\n\nJoin our Discord!",
         "developer": "Schell Games, Innersloth LLC, and Robot Teddy",
         "publisher": "Innersloth LLC",
         "genres": [
@@ -46,7 +46,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 934
+                "votes": 938
             },
             {
                 "rating": 2,
@@ -58,11 +58,11 @@
             },
             {
                 "rating": 4,
-                "votes": 1019
+                "votes": 1021
             },
             {
                 "rating": 5,
-                "votes": 3049
+                "votes": 3053
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -91,6 +91,10 @@
             "logo_transparent": "38974854_983052469269561_8502071290114778667_n.png"
         },
         "changelog": [
+            {
+                "version": "1.12.0+215606",
+                "change_log": "JUNE 2024 UPDATE\n\n**LIMITED TIME EVENT — DUM JUSTICE EVENT**\nThwack! Bam! POW! Don your mask and serve the ultimate vigilante justice with our third Limited Time Event — DUM Justice!\n— New limited time event has been added: Dum Justice is a new mode available where the killing is fast and furious and vengeance can come from any corner.\n— A new role has been added: Vigilante! Take out vengeance on the Impostor (or anyone else) with the ability to kill.\n— The Limited Time Pack: DUM Duo is available to equip your bean with the fashionably fierce and effortlessly edgy Vigilante. Hood and gloves included!\n\n**ADDITIONAL UPDATES**\nWe’re continuing to update and improve the Skeld II and beyond. The following changes have been implemented and will stick around with longevity. So… we hope you enjoy them.\n— The Skeld II has been updated with a functional Security Camera system. Jump into cams across the map to peek at Crewmates all from the comfort of the security office.\n— The Wardrobe has been expanded! We added a new cosmetic type with Gloves, allowing you to show off your fancy hands in style.\n— The Glove Pack: Catch Deez Hands DLC is available for purchase, stocking you up with three hand cosmetics!\n\n**BUG FIXES**\n— A training bag has been added to Skeld for all your aggressive punching needs!\n— Improved how audio positioning is handled for individual Crewmates for better audio location with voice chat and environmental sounds\n— Improved how simultaneous kills are handled so a Crewmate would not get killed “twice” when being targeted by multiple Impostors\n— Fixed a rare crash with the Repair Shields minigame in Skeld II that would cause the game to quit immediately\n— Fixed a minor visual bug where the Retina Scan would continue scanning even after being interrupted by being killed\n— Fixed an issue where the vent icon would get stuck on a vent even when out of range for any vent actions\n— Fixed an issue where if you were previously an Impostor and tried to join a new game as a Spectator you would be blocked\n— Multiple improvements to networking communication to improve and reduce the number of game disconnects that could occur\n— Fixed an issue where players could still invite other players in a full lobby\n— Fixed an issue where an unstable network connection not correctly retrieving store bought DLC could cause the game to not launch properly\n— Fixed issues around the user agreement flow and birthdate input\n— Updated privacy policy with new website URL\n— Made small tweaks to visual and quality settings to slightly adjust performance on Meta Quest and PICO devices\n— Fixed the Japanese localization not correctly translating the audio menu\n— Fixed the simplified and traditional Chinese localization so the privacy policy correctly displays missing text characters\n— Fixed a minor issue on the title screen with rotating Crewmates in space\n"
+            },
             {
                 "version": "1.11.0+215171",
                 "change_log": "WARDROBE UPDATE\nWe’ve upgraded Crewmate closets, making it easier to customize and put together your perfect beansona!\n- New layout to more easily equip cosmetics\n- More cosmetics (and colors) visible on one page within the Wardrobe\n- New bean animations to showcase cosmetics before final selection\n- Added the ability to spin the Crewmate in the Wardrobe, to be able to view cosmetics from different angles\n- Purchase hats during a live game (while in lobby mode) and then wear it immediately!\n\nADDITIONAL UPDATES\nIt can’t be completely unexpected that we have made adjustments to some behind-the-scenes code. We won’t bore you with the specifics tho!\n- Server-side LTE Support\n- URP upgrades to graphics pipeline\n- Future LTE mysteries\n\nBUG FIXES\n- Improved kill button detection to act more consistently when targeting players and avoiding accidental kills as often\n- Adjusted Retina Scan task to avoid inconsistent times for task completion\n- Fixed an issue where some tasks might trigger in the incorrect area due to aggressive interaction areas\n- Fixed an issue where going in and out of vents could cause some visual issues due to aggressive culling\n- Improved transitions between loading in and out of the lobby to the main menu across different platforms\n- Improved blindboxes in various spots for existing maps\n- Fixed various small graphical issues across Polus Point due to environment and props having small overlap or z-fighting issues\n- Fixed issue where the wardrobe would show another color selected when entering a map with another player already taking that color\n- Pass at making performance more consistent in Polus and other maps with various tech adjustments\n- Small performance optimizations for existing maps to reduce number of drawn doors\n- Fixed an issue where certain regions would have issues with confirming agreements due to improper calendar dates\n- Added missing captions for some map events\n- Fixed an issue where focus lost text would be way too small\n- Fixed and improved localizations including incorrect font sizes and missing translations for various languages"
@@ -149,17 +153,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 477313,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476425,
+        "changelog_update": 477313,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 477289,
+        "rating_update": 477313,
         "iarc_detail_update": 475657,
         "keywords": [
             "social",
@@ -167,10 +171,10 @@
             "parti",
             "casual"
         ],
-        "last_update": 477289,
+        "last_update": 477313,
         "category": "GAMES",
-        "votes": 5967,
-        "rating": 3.819005,
+        "votes": 5977,
+        "rating": 3.817969,
         "weighted_rating": 3.8
     },
     "errors": []

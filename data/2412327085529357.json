@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 4091
+                "votes": 4095
             },
             {
                 "rating": 5,
-                "votes": 34669
+                "votes": 34717
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "759.04",
+                "change_log": "Patch v759.04\n\nBug Fixes & Quality Updates:\n- Fixed an issue starting a Tournament or Practice Round causing an infinite loading screen.\n- Another fix for audio loss."
+            },
             {
                 "version": "758.03",
                 "change_log": "Patch Fix Update v758.03\n\n- Fixed an issue causing the Shot Shaper option to become unchecked every time you quit the app."
@@ -152,10 +156,6 @@
             {
                 "version": "746.01",
                 "change_log": "New Update v746.01 is now live!\n\nGOLF+ TOUR:\nThis week's GOLF+ TOUR event is at the Kapalua Plantation Course,\nwhere the pros will also be teeing it up 01.04 for the 2024 PGA TOUR season opener. We've\nadded PGA TOUR treatment to the tournament lobby and updated Kapalua's green flags!\n\nQuality & Bug Fixes:\n- Attachment preset would reset if the custom set up wasn't saved.\n- Leaderboards could sometimes show up fuzzy after completing a game.\n- Pebble Beach - Hole 9 & 10 - Terrain fixes where ball could go under the rough.\n- TPC Sawgrass - Hole 2 - Fixed tree collider on left that was interfering with tee shots.\n- Menus could sometimes fire a web crash in specific game transitions.\n- Fixed an issue with some settings not saving after uninstalling and reinstalling the app."
-            },
-            {
-                "version": "745.1",
-                "change_log": "## Bug Fixes\n⦁ Fixed issue with Quest 3 Graphics Quality slider not functioning for users\n⦁ Fixed issue sometimes causing the fast forward button not to function\n⦁ Fixed issue in Topgolf mode TopPractice where scores were not being kept for Singleplayer & Multiplayer\n⦁ Fixed issue resulting in users being switched to Physics V2 after updating the app\n⦁ Fixed issue where triggering to your ball close to it stopping would position the player away from the ball\n⦁ Various performance improvements for Q2 & Q3"
             }
         ],
         "on_rookie": false,
@@ -166,10 +166,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477121,
+        "changelog_update": 477313,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 477289,
+        "rating_update": 477313,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -177,10 +177,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 477289,
+        "last_update": 477313,
         "category": "GAMES",
-        "votes": 39837,
-        "rating": 4.815222,
+        "votes": 39889,
+        "rating": 4.815363,
         "weighted_rating": 4.8
     },
     "errors": []
