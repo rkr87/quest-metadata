@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.0.21673.131.OBERON.Quest.release",
+                "change_log": "Barbaria 1.6 - Age of Excess Update\n\nThe Age of Excess is expanding across Barbaria!\n\n* Increased Level Cap: Most items now upgradeable to level 6. Realms will go to level 5 (but there will still be a max of 4 fragments).\n* Larger Space for your Realm: Significantly expanded the build area to allow for new configurations of Fragments.\n* Expanded Cosmetics: New Champion Skins, Hats for champions and minions, Fragment connector skinning, IAP currency for cosmetics only.\n* Weekly Challenges and new Daily Challenge types\n* Allow naming and tracking of kills for weapons\n* Flaunt your Wealth: Use your excess Violence to buy your way up the wealth leaderboard\n* Fixed: Reduce memory usage for Quest3\n* Fixed: Statue blocking God Powers\n* Fixed: Statues Overlapping Realms\n* Fixed: Placement exploits blocking progress on certain fragment caps\n* And more!"
+            },
+            {
                 "version": "1.5.1.21478.105.OBERON.Quest.release",
                 "change_log": "Barbaria 1.5.1.21478 Quest Patch Update\n\n- Fix crash when going into the system menu or taking the headset off. "
             },
@@ -154,10 +158,6 @@
             {
                 "version": "1.1.0.19234.68.OBERON.Quest.release",
                 "change_log": "The First Age has ended, and the Age of Retribution has begun!  \n\nBarbaria 1.1 - Age of Retribution Update\n\nNew Features:\n\n* Ages: Every few months, a new Age will dawn in Barbaria.  Participants in each age will be rewarded with a statue for their participation, and trophies based on their Mightiness and Fortitude level at the end of the age. Your trophies will be displayed at the entrance of your Realm to show off your previous Mighty deeds to other players.  Additionally, there will be a tiered soft reset on Mightiness and Fortitude scores each age, so prepare for lots of new attacks and be ready to prove yourself in the new age.\n\n* Revenge Attacks:  When a player is attacked, their attacker’s realm becomes available on the map for a Revenge Attack. When a player takes revenge, the player they took revenge on gets a notification with a replay.  During the Age of Retribution all Revenge attacks receive a currency bonus.\n\n* New Weapons: Divine Hammer, Axe of Retribution, Marauder’s Shield\n* New Fragment: Over Under\n* New Structures: Crystal Protector, Breakable Wall, Additional Weapon Racks\n\nNew AI Behaviors:\n* NPC Crystal Crushing: Ally minions will now crush crystals when there are no higher priority enemies that they can target.\n* NPCs advance to the next Fragment: Once a tile is cleared, NPCs will advance to the entrance of the next Fragment so they can enter along with the player.\n\nImprovements and Fixes:\n* Enemies jump to active tile when they get knocked off\n* Reduce Friendly fire damage from 20% to 10%\n* Reduce moving wall closed time from 10s to 6s\n* Add field of view marker lines for the cannon\n* Larger no-placement zone at entrances to prevent overload when walking onto fragments\n* Moving Walls now have a placement cost of 1\n* Increase Ancient Power recharge rate\n* Balance updates to Brick Oven Cannon, Imp Pride, Skeleton Pride, and Spawner structures.\n* Increase size of Cyclotaur placement radius and increase his run speed\n* Fix Cyclotaur helmet spawning at feet\n* Fix Cyclotaur ancient power color highlighting\n* Fix Cyclotaur ally and bamboozle indicators\n* Fix Cyclotaur and Gladiatrix arrow embeds\n* Fix minions with charged harvester getting stuck when there is no enemy\n* Fix non-attached floating crystals\n* Fix navigation on Four Spikes fragment\n* Fix items catching on fire in Stronghold when not in combat\n* Fix unbreakable fences\n* Fix arms getting frozen in front of player\n* Fix character movement when an NPC is standing on level above\n* Various other performance and polish improvements\n"
-            },
-            {
-                "version": "1.0.3.18824.65.OBERON.Quest.release",
-                "change_log": "Welcome to Barbaria 1.0.3\n\nPatch Notes:\n- Faster post-round replay processing times\n- Improve arrow nocking on the bow (wider distance check, relax look requirement)\n- Do not auto-equip bow if already holding something (when grabbing an arrow, you will no longer drop the weapon in your opposite hand. Opposite hand must be empty to equip bow.)\n- Show health bars from god mode when spell targeting\n- Improved AI decision speed when entering a tile\n- Reduce memory usage for custom music\n- Increased Champion health ramp\n- Add 1 min extra time for 3 and 4 fragment realms\n- Fix drift/player champion getting pulled to a location bug\n- Fix structures placed at an angle on realms\n- Fix bug causing items to disappear sometimes in the Stronghold\n- Fix Quiver and Bags getting stuck on hands or equipped to hip instead of back\n- Fix skeleton bones getting offset sometimes\n- Fix player champion dying when not inhabited for a long period\n- Fix clouds and scenery pieces overlapping board in certain layouts\n- Fix enemies piling up on spring traps in Symphony of Violence\n- Fix NPCs walking through fences\n- Fix champions getting possessed while flying through the air\n- Fix torch not breaking in 1 hit\n- Fix ally indicator being inside Cyclotaur\n- Fix missing display attributes and level heads on sword\n- Fix crystal getting equipped to hip\n- Fix invisible reinforcements in replay\n- Fix disconnected tiles"
             }
         ],
         "on_rookie": true,
@@ -168,7 +168,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475081,
+        "changelog_update": 477337,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 477049,
@@ -179,7 +179,7 @@
             "rpg",
             "funny"
         ],
-        "last_update": 477049,
+        "last_update": 477337,
         "category": "GAMES",
         "votes": 445,
         "rating": 4.705618,

@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "2.14.0",
+                "change_log": "Improved goalkeeper behaviour\nImproved shooting behaviour of players\nAdded Euros jersey colouring support"
+            },
+            {
                 "version": "2.13.3",
                 "change_log": "Fixed an issue where scan rate could be lower in scenarios with awareness tests"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2.8.20",
                 "change_log": "New Features\n- Changed the presentation of performance stats throughout the experience. Stats now have more information about what they are, how they are measured, what exactly you scored and tips on how you can improve your results \n- Added critical scan as a stat to the scoring system \n- Added visual and auditory feedback for when a critical scan is performed during play\n- Made the controllers match your team colour in the training experience\n- Added a new local club pitch environment in a daytime setting\n- Updated large stadium pitch environment with a new look\n- Upgraded the lighting on characters and environments\n- Added new music tracks to the menus\n\nFixes\n- Fixed the UI locking to your head movements when transitioning from the main menu into the training experience\n- Fixed the curtain sometimes not appearing when transitioning from the training experience to the main menu\n- Fixed the peripheral vignette not appearing during awareness tests"
-            },
-            {
-                "version": "2.7.25",
-                "change_log": "- Fixed an issue where app would sometimes freeze during awareness tests\n- Changed awareness tests so laser pointer is visible regardless of where you are aiming to make aiming easier\n- Fixed issue where non-goalkeeper characters could appear as goalkeeper and visa-versa\n- Fixed an issue where pointers would remain floating in the air when switching out of app to the Meta menu\n- Fixed an issue where goal keeper gloves would be visible while playing as the goal keeper\n- Fixed an issue where playback speeds shown in the UI in replay mode were inaccurate"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477169,
+        "changelog_update": 477337,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477073,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477169,
+        "last_update": 477337,
         "category": "APPS",
         "votes": 82,
         "rating": 3.158537,
