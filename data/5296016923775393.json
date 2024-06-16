@@ -56,15 +56,14 @@
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
-            "age_rating": "Mature 17+",
+            "age_rating": "No youth",
             "descriptors": [
-                "Blood and Gore",
-                "Violence"
+                "Explicit Violence"
             ],
             "elements": [
                 "Users Interact"
             ],
-            "iarc_icon": "12138844_1633334226961183_6470673676613189632_n.png"
+            "iarc_icon": "12427469_1095747653856177_7116211285586345984_n.png"
         },
         "internet_connection": "REQUIRED",
         "website": "https://barbariavr.com/",
@@ -79,6 +78,10 @@
             "logo_transparent": "38974606_1616568852051417_4748903909820829929_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6.0.21675.132.OBERON.Quest.release",
+                "change_log": "Barbaria 1.6 - Age of Excess Update\n\nThe Age of Excess is expanding across Barbaria!\n\n* Increased Level Cap: Most items now upgradeable to level 6. Realms will go to level 5 (but there will still be a max of 4 fragments).\n* Larger Space for your Realm: Significantly expanded the build area to allow for new configurations of Fragments.\n* Expanded Cosmetics: New Champion Skins, Hats for champions and minions, Fragment connector skinning, IAP currency for cosmetics only.\n* Weekly Challenges and new Daily Challenge types\n* Allow naming and tracking of kills for weapons\n* Flaunt your Wealth: Use your excess Violence to buy your way up the wealth leaderboard\n* Fixed: Reduce memory usage for Quest3\n* Fixed: Statue blocking God Powers\n* Fixed: Statues Overlapping Realms\n* Fixed: Placement exploits blocking progress on certain fragment caps\n* Fixed: Bank Item Display Issue\n* And more!"
+            },
             {
                 "version": "1.6.0.21673.131.OBERON.Quest.release",
                 "change_log": "Barbaria 1.6 - Age of Excess Update\n\nThe Age of Excess is expanding across Barbaria!\n\n* Increased Level Cap: Most items now upgradeable to level 6. Realms will go to level 5 (but there will still be a max of 4 fragments).\n* Larger Space for your Realm: Significantly expanded the build area to allow for new configurations of Fragments.\n* Expanded Cosmetics: New Champion Skins, Hats for champions and minions, Fragment connector skinning, IAP currency for cosmetics only.\n* Weekly Challenges and new Daily Challenge types\n* Allow naming and tracking of kills for weapons\n* Flaunt your Wealth: Use your excess Violence to buy your way up the wealth leaderboard\n* Fixed: Reduce memory usage for Quest3\n* Fixed: Statue blocking God Powers\n* Fixed: Statues Overlapping Realms\n* Fixed: Placement exploits blocking progress on certain fragment caps\n* And more!"
@@ -154,10 +157,6 @@
             {
                 "version": "1.1.1.19266.71.OBERON.Quest.release",
                 "change_log": "A call to restore your realm!  \n\nSome of our recent balance changes affected the placement radius on tile entrances and some placement costs.  Realms over capacity or with pieces in invalid locations will now be automatically removed, so if you haven’t updated your realm you may need to re-place structures or minions again.\n\nBarbaria 1.1.1.19266 Patch Notes:\n\n- Automatically remove overlapping pieces when a realm is built\n- Automatically remove pieces (lowest cost first) when tiles are over capacity\n- Increase Champion and Zealot piece placement cost to 4\n- Spawners only support 1 active minion at a time\n- Cyclotaur destroys spear traps in 1 hit\n- Fix level not completing after final tile is cleared\n- Fix missing text on first age statue\n- Fix errors when grabbing trophy from Age area\n- Fix Breakable Wall Structure making impassable areas"
-            },
-            {
-                "version": "1.1.0.19234.68.OBERON.Quest.release",
-                "change_log": "The First Age has ended, and the Age of Retribution has begun!  \n\nBarbaria 1.1 - Age of Retribution Update\n\nNew Features:\n\n* Ages: Every few months, a new Age will dawn in Barbaria.  Participants in each age will be rewarded with a statue for their participation, and trophies based on their Mightiness and Fortitude level at the end of the age. Your trophies will be displayed at the entrance of your Realm to show off your previous Mighty deeds to other players.  Additionally, there will be a tiered soft reset on Mightiness and Fortitude scores each age, so prepare for lots of new attacks and be ready to prove yourself in the new age.\n\n* Revenge Attacks:  When a player is attacked, their attacker’s realm becomes available on the map for a Revenge Attack. When a player takes revenge, the player they took revenge on gets a notification with a replay.  During the Age of Retribution all Revenge attacks receive a currency bonus.\n\n* New Weapons: Divine Hammer, Axe of Retribution, Marauder’s Shield\n* New Fragment: Over Under\n* New Structures: Crystal Protector, Breakable Wall, Additional Weapon Racks\n\nNew AI Behaviors:\n* NPC Crystal Crushing: Ally minions will now crush crystals when there are no higher priority enemies that they can target.\n* NPCs advance to the next Fragment: Once a tile is cleared, NPCs will advance to the entrance of the next Fragment so they can enter along with the player.\n\nImprovements and Fixes:\n* Enemies jump to active tile when they get knocked off\n* Reduce Friendly fire damage from 20% to 10%\n* Reduce moving wall closed time from 10s to 6s\n* Add field of view marker lines for the cannon\n* Larger no-placement zone at entrances to prevent overload when walking onto fragments\n* Moving Walls now have a placement cost of 1\n* Increase Ancient Power recharge rate\n* Balance updates to Brick Oven Cannon, Imp Pride, Skeleton Pride, and Spawner structures.\n* Increase size of Cyclotaur placement radius and increase his run speed\n* Fix Cyclotaur helmet spawning at feet\n* Fix Cyclotaur ancient power color highlighting\n* Fix Cyclotaur ally and bamboozle indicators\n* Fix Cyclotaur and Gladiatrix arrow embeds\n* Fix minions with charged harvester getting stuck when there is no enemy\n* Fix non-attached floating crystals\n* Fix navigation on Four Spikes fragment\n* Fix items catching on fire in Stronghold when not in combat\n* Fix unbreakable fences\n* Fix arms getting frozen in front of player\n* Fix character movement when an NPC is standing on level above\n* Various other performance and polish improvements\n"
             }
         ],
         "on_rookie": true,
@@ -168,18 +167,18 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477337,
+        "changelog_update": 477361,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 477049,
-        "iarc_detail_update": 475000,
+        "iarc_detail_update": 477361,
         "keywords": [
             "combat",
             "multiplay",
             "rpg",
             "funny"
         ],
-        "last_update": 477337,
+        "last_update": 477361,
         "category": "GAMES",
         "votes": 445,
         "rating": 4.705618,
