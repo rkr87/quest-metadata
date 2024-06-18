@@ -3,7 +3,7 @@
         "id": "5395586720470296",
         "app_name": "Rogue Ascent VR",
         "release_date": "2023-05-04T00:00:00.000Z",
-        "description": "\n# 👉Save the World with Finger Guns\n\nRogue Ascent VR is a roguelike shooter specially developed for Meta Quest hand-tracking technology.\n\nEquip, craft, and upgrade as you fight to save your homeworld from destruction!\n\n![{\"height\":768,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974758_309379288865212_8085647505397730814_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YJqUxqDSq98Q7kNvgFNMTK9&_nc_ht=scontent.oculuscdn.com&oh=00_AYBcd7NpPjuXFdgbb_aSbr7wIzrxaAMQc4DthrCr6b6WXw&oe=66754AB9)\n\nBlast your way through a hostile space station with intuitive motion controls -- never lifting a controller\n- Make finger guns to shoot\n- Block with your fists\n- Reach out to dash around\n- Control the action entirely with your hands\n\nDynamic bosses chambers, unique character interactions, NPC companions, and online leaderboards will challenge you in new ways for every run.\n\nTwitch Integration allows the audience to help (or hinder) a streamer’s run by spawning items, throwing confetti, and even hiring bounty hunters!\n- Everything is customizable, so it's up to each streamer to choose what their viewers can and can't unleash.\n\n================================\n\n# 🛠️Sandbox Update\n\nYou can now control the pace of the action -- Rogue Ascent’s new sandbox mode lets you experiment with every element of the game’s hand-tracking combat. \n\nPlayers will be given access to a huge training facility equipped with weapon modding stations, quick-play scenarios, and NPC customization terminals. \n\nSerious or silly, The Sandbox is a space to get creative and test your talent. Here are a few of the new features you can expect to find in The Sandbox.\n\n- New NPCS\n- Sandbox Settings\n- Scenario Kiosks\n- Unlocked Crafting Tables\n- Unlocked Item Vending Shop",
+        "description": "\n# 👉Save the World with Finger Guns\n\nRogue Ascent VR is a roguelike shooter specially developed for Meta Quest hand-tracking technology.\n\nEquip, craft, and upgrade as you fight to save your homeworld from destruction!\n\n![{\"height\":768,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974758_309379288865212_8085647505397730814_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YJqUxqDSq98Q7kNvgGnMa8u&_nc_ht=scontent.oculuscdn.com&oh=00_AYDngd0h9ic5FlxpkbMqMMTOTLJh-IXAbN_qlUpWZCszLA&oe=66769C39)\n\nBlast your way through a hostile space station with intuitive motion controls -- never lifting a controller\n- Make finger guns to shoot\n- Block with your fists\n- Reach out to dash around\n- Control the action entirely with your hands\n\nDynamic bosses chambers, unique character interactions, NPC companions, and online leaderboards will challenge you in new ways for every run.\n\nTwitch Integration allows the audience to help (or hinder) a streamer’s run by spawning items, throwing confetti, and even hiring bounty hunters!\n- Everything is customizable, so it's up to each streamer to choose what their viewers can and can't unleash.\n\n================================\n\n# 🛠️Sandbox Update\n\nYou can now control the pace of the action -- Rogue Ascent’s new sandbox mode lets you experiment with every element of the game’s hand-tracking combat. \n\nPlayers will be given access to a huge training facility equipped with weapon modding stations, quick-play scenarios, and NPC customization terminals. \n\nSerious or silly, The Sandbox is a space to get creative and test your talent. Here are a few of the new features you can expect to find in The Sandbox.\n\n- New NPCS\n- Sandbox Settings\n- Scenario Kiosks\n- Unlocked Crafting Tables\n- Unlocked Item Vending Shop",
         "developer": "Nooner Bear Studio LLC",
         "publisher": "Clique Games LLC",
         "genres": [
@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.0",
+                "change_log": "V1.4.0\nNew:\nOpenXR Hand Tracking Support\nModified\nController Shooting (Homing Fire Enabled)\nTutorial enemies set to Crash Dummies\nAdded\nSimple / Decoupled Controller Input Styles (via Gesture Settings Menu)\nSimple Mode: Use either controller to move and turn. Identical controls on both controllers.\nDecoupled mode: Your dominant hand controls movement, your other hand controls turning. An advanced mode that allows for sidestepping.\nEnhanced Controller Support\nAdded Secondary Button for quick fist gesture + Open Holowatch\nFixed\nInput Modality Issues\n"
+            },
+            {
                 "version": "1.3.0",
                 "change_log": "V1.3.0\n\nFeature Highlights:\nSandbox Gamemode\nZombie Sandbox Scenario\nDrone Attack Sandbox Scenario\nMega Monster Sandbox Scenario\nFiring Range Sandbox Scenario\nNew:\nSandbox Gamemode\nZombie Enemies\nDummy Enemy\nSandbox Scenario Kiosks\nPerks (Portable Medkit)\nAdded:\nNew Enemy Types\nSandbox Environment\nSandbox Settings Machine\nUI Text Pulse Effect\nOptimized\nExpanded Character Mesh Support\nModified\nFixed:\nBuffed Fire Speed Bug (Blaze of Glory, etc)"
             },
@@ -153,27 +157,23 @@
             {
                 "version": "1.1.0b14",
                 "change_log": "V1.1.0\nFeature Highlights:\nMarauder Player Class\nNew:\nPlayer Class\nPlayer Weapons\nPlayer Perks\nChain Lightning Effects\nSyringe Gun Model (Medic Starter Weapon)\nAdded:\nMarauder Class Dialogue\nMarauder Class Perks\nChain Lightning Abilities\nCosmic Greed Pistol\nKraken Harpoon Rifle\nClass Unlock Dialogue Events\nHeart of the Electro-Kraken Perk\nLockdown Console Hint Overlay\nNPC Perk System\nNPCs can now grant perks in their interactions\nModified:\nElectro-Kraken Base Health\nMedic Syringe Gun Model\nPrevious Marauder Update Perks are now class progression locked\nAirspace Ultimate Ability\nLockdown Factorize Mini Game UI\nAdded automatic timewarp event on security alerts\nImproved:\nLockdown Factor Minigame Legibility\nOptimized:\nFixed:\nCoin Timer Bug\nLocalization Errors\nCheckpoint Scrap Bug\nLockdown Terminal Ensign Difficulty Bug\nBoss Kill Bug\nHangar Boss Missing Layer 1 Track\nUnimplemented additions:\nKnown Issues:"
-            },
-            {
-                "version": "1.1.0b9",
-                "change_log": "V1.1.0\nFeature Highlights:\nMarauder Player Class\nNew:\nPlayer Class\nPlayer Weapons\nPlayer Perks\nChain Lightning Effects\nSyringe Gun Model (Medic Starter Weapon)\nAdded:\nMarauder Class Dialogue\nMarauder Class Perks\nChain Lightning Abilities\nCosmic Greed Pistol\nKraken Harpoon Rifle\nClass Unlock Dialogue Events\nHeart of the Electro-Kraken Perk\nLockdown Console Hint Overlay\nNPC Perk System\nNPCs can now grant perks in their interactions\nModified:\nElectro-Kraken Base Health\nMedic Syringe Gun Model\nPrevious Marauder Update Perks are now class progression locked\nAirspace Ultimate Ability\nLockdown Factorize Mini Game UI\nAdded automatic timewarp event on security alerts\nImproved:\nLockdown Factor Minigame Legibility\nOptimized:\nFixed:\nCoin Timer Bug\nLocalization Errors\nCheckpoint Scrap Bug\nLockdown Terminal Ensign Difficulty Bug\nBoss Kill Bug\nHangar Boss Missing Layer 1 Track\nUnimplemented additions:\nKnown Issues:"
             }
         ],
         "on_rookie": true,
-        "general_update": 477385,
+        "general_update": 477409,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476353,
+        "changelog_update": 477409,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 477265,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477385,
+        "last_update": 477409,
         "category": "GAMES",
         "votes": 137,
         "rating": 4.708029,
