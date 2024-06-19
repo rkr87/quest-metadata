@@ -3,7 +3,7 @@
         "id": "2681027292004911",
         "app_name": "The Light Brigade",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "The world remains in eternal darkness and only you can bring the dawn. Enlist in the ranks of **The Light Brigade**, humanity’s last line of defense. Journey through procedurally-generated battlegrounds as many times as it takes to free the souls of the fallen in this challenging roguelike shooter.\\\n{354890354229562} \\\n**✧PHYSICS-BASED GUNPLAY**\\\nPhysics-based gunplay creates tense battles against increasingly difficult enemies. Survival depends on your steady hands and mastery over realistic rifles, SMGs, pistols, machine guns, and more.\\\n{7131303716969560}\\\n**✧HARDCORE ROGUELIKE**\\\nRoguelike gameplay features procedurally-generated battlegrounds, an array of gun attachments (such as tactical scopes, silencers and charms), magic spells, buffs, and permadeath.\n\n**✧POWERFUL LIGHT MAGIC**\\\nLight magic pairs beautifully with gunplay, offering new and tactical ways to defeat a wide range of increasingly difficult enemies.\\\n{369106866151240}\\\n**✧MAGICAL TAROT CARDS**\\\nLoot tarot cards from enemies and treasure chests during runs to stack a variety of buffs/debuffs for devastating effects.\\\n{1641435699593727} \\\n**✧ASCEND THE RANKS**\\\nAscend the ranks of The Light Brigade to improve your weapons, spells, character traits, gear, and abilities. Unlock new character classes and playstyles, making each journey unique.\\\n{340496032000943}\\\n**✧UNCOVER THE MYSTERIES**\\\nUncover what led to the world’s downfall as you fight to save it from the darkness.\n\n![{\"height\":301,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/38974626_853549246609604_6944285709050017391_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YpfKFHMP0DgQ7kNvgGy2nqV&_nc_ht=scontent.oculuscdn.com&oh=00_AYDUamjf-vmtwvXQnylf0185mSY4ggmpHVzNGUAKLG0qOg&oe=6676BBC6)\n",
+        "description": "The world remains in eternal darkness and only you can bring the dawn. Enlist in the ranks of **The Light Brigade**, humanity’s last line of defense. Journey through procedurally-generated battlegrounds as many times as it takes to free the souls of the fallen in this challenging roguelike shooter.\\\n{354890354229562} \\\n**✧PHYSICS-BASED GUNPLAY**\\\nPhysics-based gunplay creates tense battles against increasingly difficult enemies. Survival depends on your steady hands and mastery over realistic rifles, SMGs, pistols, machine guns, and more.\\\n{7131303716969560}\\\n**✧HARDCORE ROGUELIKE**\\\nRoguelike gameplay features procedurally-generated battlegrounds, an array of gun attachments (such as tactical scopes, silencers and charms), magic spells, buffs, and permadeath.\n\n**✧POWERFUL LIGHT MAGIC**\\\nLight magic pairs beautifully with gunplay, offering new and tactical ways to defeat a wide range of increasingly difficult enemies.\\\n{369106866151240}\\\n**✧MAGICAL TAROT CARDS**\\\nLoot tarot cards from enemies and treasure chests during runs to stack a variety of buffs/debuffs for devastating effects.\\\n{1641435699593727} \\\n**✧ASCEND THE RANKS**\\\nAscend the ranks of The Light Brigade to improve your weapons, spells, character traits, gear, and abilities. Unlock new character classes and playstyles, making each journey unique.\\\n{340496032000943}\\\n**✧UNCOVER THE MYSTERIES**\\\nUncover what led to the world’s downfall as you fight to save it from the darkness.\n\n![{\"height\":301,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/38974626_853549246609604_6944285709050017391_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=BV8WK2egLwEQ7kNvgH-PEka&_nc_ht=scontent.oculuscdn.com&oh=00_AYCbhMsSW_h0aL4exJDcQju7f0_-I_OArXLkK4HNihb1BQ&oe=66780D46)\n",
         "developer": "Funktronic Labs",
         "publisher": "Funktronic Labs",
         "genres": [
@@ -31,9 +31,9 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest 3"
         ],
         "player_modes": [
             "ROOM_SCALE",
@@ -89,6 +89,14 @@
             "logo_transparent": "38982474_1296557134268952_6431910956937078479_n.png"
         },
         "changelog": [
+            {
+                "version": "614",
+                "change_log": "v3.2 - f1687046-7125-2dbd-6e0a-c0d9bb882da9\n\nadded enemy footsteps on in-place turn shuffles\nadded new hunter passive to stacking damage per hit\nadded sun run offline messages etc\nimproved bow attachment colliders volumes\nimproved bow scope attachment for use clarity\nimproved cover in Frozen Mountain zone worlds\nimproved hunter knife pouch slot position\nimproved throwing knife angle calculations\nfixed ammo pouch not showing all ammos\nfixed colt1911 magazine description bullet count\nfixed guns going into inventory while held in some cases\nfixed haptics scale setting not working\nfixed health syringe being reusable after travel\nfixed hunter bow attachments showing when in inventory\nfixed hunter bow toggle grip setting usage\nfixed hunter bow wrong charm activate button\nfixed hunter knife floating and failing to return to pouch\nfixed issue with difficulty setting when stage generation fails\nfixed kar98k crystal slot rotation\nfixed mixed reality localization issues\nfixed mixed reality position wrong after dying\nfixed money resetting on sun run or daily runs\nfixed obsidian canteen not healing fully\nfixed player invincible on boss3 death sequence\nfixed stone heart healing when health over max\nfixed sun run showing 0% incorrectly\nfixed various enemies in wall issues (Ashen Mountain)\nfixed various enemies in wall issues (Necropolis)\nfixed various handling of stage generation failures\nfixed various issues with loadout table ammo respawns\nfixed wrong wand display on engineer class info\nreduced bow base damage slightly\nreduced charm cooldowns on non-rifle weapons\nreduced enemy accuracy briefly when peeking from cover\nreduced hunter knife drop rate slightly\nreduced opacity on power shield rank 1\nreduced winchester spread and falloff (buff)"
+            },
+            {
+                "version": "615",
+                "change_log": "v3.2 - 85ce3dff-9934-92ee-f3b9-215764d64644\n\nadded enemy footsteps on in-place turn shuffles\nadded new hunter passive to stacking damage per hit\nadded sun run offline messages etc\nimproved bow attachment colliders volumes\nimproved bow scope attachment for use clarity\nimproved cover in Frozen Mountain zone worlds\nimproved hunter knife pouch slot position\nimproved throwing knife angle calculations\nfixed ammo pouch not showing all ammos\nfixed colt1911 magazine description bullet count\nfixed guns going into inventory while held in some cases\nfixed haptics scale setting not working\nfixed health syringe being reusable after travel\nfixed hunter bow attachments showing when in inventory\nfixed hunter bow toggle grip setting usage\nfixed hunter bow wrong charm activate button\nfixed hunter knife floating and failing to return to pouch\nfixed issue with difficulty setting when stage generation fails\nfixed kar98k crystal slot rotation\nfixed mixed reality localization issues\nfixed mixed reality position wrong after dying\nfixed money resetting on sun run or daily runs\nfixed obsidian canteen not healing fully\nfixed player invincible on boss3 death sequence\nfixed stone heart healing when health over max\nfixed sun run showing 0% incorrectly\nfixed various enemies in wall issues (Ashen Mountain)\nfixed various enemies in wall issues (Necropolis)\nfixed various handling of stage generation failures\nfixed various issues with loadout table ammo respawns\nfixed wrong wand display on engineer class info\nreduced bow base damage slightly\nreduced charm cooldowns on non-rifle weapons\nreduced enemy accuracy briefly when peeking from cover\nreduced hunter knife drop rate slightly\nreduced opacity on power shield rank 1\nreduced winchester spread and falloff (buff)"
+            },
             {
                 "version": "606",
                 "change_log": "86560b64-2768-8ee5-7302-392e4ce90163\n\n3.1\n\n- fixed some saves stuck in black screen mid-run\n  - note: this change will cause all mid-run saves to go back to temple once after update\n- cleanup sunless keep double render issues\n- further improvements to quest2 performance\n- laser dot sight laser when attached to bow\n- fix laser dot attachment not adding damage\n- hunter: throwing knife damage increased (+5)\n- hunter: arrow limit increased (24 -> 32)\n- hunter: passive changed to critical hit bonus (10,20,30%)\n- hunter: added bow barrel attachment slot\n- hunter: more arrows given on respawn after death\n- fixed ammo pouch rendering above visual limit\n- fixed arrow homing continuing after arrow reuse\n- fixed various texture import settings (performance+)\n- fixed black screen after death on stages with rats\n- fixed arrows floating after hitting ragdolls\n- improved loot drop location after enemies falls off edge\n- made arrows also move after enemy falls off edge\n- fixed breacher ammo pouch getting hand stuck\n- fixed back arrow pouch grab sometimes grabbing sidearm\n- fixed wrong press used for bow charm update\n- fixed drone hud visible in minimal-ui mode\n- fixed inventory position issue (was hotfixed)"
@@ -160,25 +168,17 @@
             {
                 "version": "478",
                 "change_log": "- added extra difficulty tier\n- fixed some difficulty scaling inconsistencies\n- tweaked accuracy scaling for low tier enemies\n- fixed boss 2 not starting fight correctly\n- fixed trigger bolt grab not working on pistols\n\necc8362e-057a-13c2-355d-ddc90b6d4ee2"
-            },
-            {
-                "version": "473",
-                "change_log": "fa25b637-2841-3522-ad3d-e1938b94da32"
-            },
-            {
-                "version": "464",
-                "change_log": "894e1e09-988c-f428-ded9-1186fce9ad7f"
             }
         ],
         "on_rookie": true,
-        "general_update": 477409,
+        "general_update": 477433,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476089,
+        "changelog_update": 477433,
         "keyword_update": 474881,
         "tag_update": 475633,
         "rating_update": 477289,
@@ -189,7 +189,7 @@
             "shooter",
             "military"
         ],
-        "last_update": 477409,
+        "last_update": 477433,
         "category": "GAMES",
         "votes": 921,
         "rating": 4.539631,
