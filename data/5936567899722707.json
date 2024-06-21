@@ -55,11 +55,11 @@
             },
             {
                 "rating": 4,
-                "votes": 58
+                "votes": 57
             },
             {
                 "rating": 5,
-                "votes": 147
+                "votes": 149
             }
         ],
         "comfort": "NOT_RATED",
@@ -82,6 +82,10 @@
             "logo_transparent": "38974750_670558314687650_4351224727893824174_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.31",
+                "change_log": "Bug Fixes:\t\n- Fixed some bugs."
+            },
             {
                 "version": "1.5.27",
                 "change_log": "Bug Fixes:\t\n- Fixed occasional seeking issue in ssif.smap Blu-ray 3D ISO playback.\n- Fixed other known bugs.\n\t\t\nImprovements:\t\t\n- Optimized USB OTG and fixed read failure issue in certain cases.\t\n- Optimized subtitle display and fixed some bugs.\n\nNew Features:\n- Added DLNA Casting from mobile devices to 4XVR on your VR headset.\n- Added 4X Link feature.\n- Added batch change video types in the video list.\n- Added support for Alpha channel video in YUVA444P12LE and YUVA422P12LE formats, and further improvements in upcoming versions."
@@ -157,10 +161,6 @@
             {
                 "version": "1.2.1",
                 "change_log": "New Features:\n- Supported Spatial Video (MV-HEVC).  \nThe only android player that can play spatial videos captured by iPhone 15 Pro/iPhone 15 Pro Max (iOS 17.2+).\n\nImprovements:\n- Optimized playback performance."
-            },
-            {
-                "version": "1.1.8",
-                "change_log": "Bug Fixes:\n- Fix a bug in av1 playback (Quest 3 only).\n\nNew Features:\n- Single click A/X button to pause/play video.\n- Click thumb stick to reset zooming."
             }
         ],
         "on_rookie": true,
@@ -171,16 +171,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477169,
+        "changelog_update": 477481,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477433,
+        "rating_update": 477481,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477433,
+        "last_update": 477481,
         "category": "APPS",
-        "votes": 267,
-        "rating": 4.059925,
+        "votes": 268,
+        "rating": 4.067164,
         "weighted_rating": 4.0
     },
     "errors": []

@@ -1,7 +1,7 @@
 {
     "data": {
         "id": "4950000178436188",
-        "app_name": "Metaenga",
+        "app_name": "Metaenga — XR Training Platform",
         "release_date": "1980-01-01T00:00:00.000Z",
         "description": "Metaenga — XR Training Platform for managing industrial enterprise immersive learning content at a scale.\n\nXR Training Platform is designed for industrial companies and dedicated training providers focusing on enhancing safety and procedural training for the electric power industry. \n\nVR Training Library:  \nMetaenga offers an expanding library of VR training modules simulating real-world work scenarios and supports uploading custom 360-degree videos. The subscription plans include access to up to 10 VR modules.\n\nAnalytics and Reporting: \nMetaenga offers real-time performance tracking and reporting that provides valuable insights into employee development and measure the impact of training efforts\nThis data can effectively enhance career path development and progression plan for employees.\n\nCollaboration: \nThe platform facilitates collaboration, enabling employees to collaborate in innovative virtual reality 360 video classrooms. \nVR classrooms feature enabling synchronized viewing of 360-degree videos among trainees. An administrator uses a web interface to control the playback of these videos.\n\nUser-Friendly Interface: \nMetaenga provides a user-friendly web interface for managing, deploying, and monitoring XR training content on all available devices and through a web interface remotely. \n\nMetaenga — XR Training Platform operates on a per-user license subscription basis, allowing scalability according to the organization's size. \n\nTo learn more, visit https://metaenga.com",
         "developer": "Digital Engineering and Magic",
@@ -73,6 +73,18 @@
         },
         "changelog": [
             {
+                "version": "0.661",
+                "change_log": "Fixed various bugs"
+            },
+            {
+                "version": "0.660",
+                "change_log": "Fixed some bugs"
+            },
+            {
+                "version": "0.656",
+                "change_log": "[UI]:\n\n- \"Cancel\" button in \"Sign up\" and \"Log in\" windows returns user to previous page.\n- minor changes in design\n\n[Misc]:\n\n- added info about Feeder training\n- logined user won't be suggested to sign up when pressed \"Access with Standart Plan\" button \n- added various errors display"
+            },
+            {
                 "version": "0.655",
                 "change_log": "[UI]:\n\n- added details page for trainings and videos\n- added time and battery info in main menu\n- added battery charging status\n- added color battery level in settings\n- added logic of notifying user email when needed\n- training labels are more colourful \n- Back To Top button is now not above other content\n\n[Misc]:\n\n- added various images\n- added various styles\n- added various button hovers\n- page refreshes after user leaves it\n\n[Bug fixes]:\n\n- fixed issue with incorrect free space display\n- fixed issue with checker email\n- fixed issue with training duplicate when bought a subscription\n- other minor fixes with design"
             },
@@ -86,20 +98,20 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476977,
+        "general_update": 477481,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476929,
+        "changelog_update": 477481,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476977,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477385,
+        "last_update": 477481,
         "category": "APPS",
         "votes": 3,
         "rating": 5.0,

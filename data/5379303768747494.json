@@ -48,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 23
+                "votes": 24
             }
         ],
         "comfort": "NOT_RATED",
@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "0.22.5",
+                "change_log": "Sire! We're back with a mighty update.\n\nv0.22.5\n- Fixed issue with Dungeon Portals where going through a portal would spawn the next dungeon, but it would be empty. (Thanks to @BlackBeard)\n\nv0.22.4\n- Finally fixed the MASSIVE bug that moved/distorted/changed the scene items if you removed your device and it went to sleep. It was definitely annoying when trying to pass your dungeon over to friends and family. Enjoy hassly free dungeon dwelling now!\n\nv0.22.3\n- Meta Spaces is now mandatory for the initial setup. So once you've outlined your walls, and any furniture on your Quest, Dungeon Maker will automatically generate a dungeon framework based on this. Then you can customise to your liking.\n- Color assets for all! Everything is now full color, looks really nice on Quest 3! :)\n- A better selection UI, with outlines and names. So you know what you are selecting and dragging around.\n- And many other quality of life improvements.\n\nQuick tip:\n- I'm going to build a sub menu for quick options, but for now one option which you'll want to use is setting the Meta Scene generated assets like walls and furniture into occlusion. So you can see your real walls/floor/ceiling/couch. For now to do this simply point at a wall for example and pull the grip trigger like you want to grab it. This will toggle between your real wall and the generated wall. So feel free to do this on all the Meta Spaces assets to reveal your home!\n"
+            },
+            {
                 "version": "0.22.4",
                 "change_log": "Sire! We're back with a mighty update.\n\nv0.22.4\n- Finally fixed the MASSIVE bug that moved/distorted/changed the scene items if you removed your device and it went to sleep. It was definitely annoying when trying to pass your dungeon over to friends and family. Enjoy hassly free dungeon dwelling now!\n\nv0.22.3\n- Meta Spaces is now mandatory for the initial setup. So once you've outlined your walls, and any furniture on your Quest, Dungeon Maker will automatically generate a dungeon framework based on this. Then you can customise to your liking.\n- Color assets for all! Everything is now full color, looks really nice on Quest 3! :)\n- A better selection UI, with outlines and names. So you know what you are selecting and dragging around.\n- And many other quality of life improvements.\n\nQuick tip:\n- I'm going to build a sub menu for quick options, but for now one option which you'll want to use is setting the Meta Scene generated assets like walls and furniture into occlusion. So you can see your real walls/floor/ceiling/couch. For now to do this simply point at a wall for example and pull the grip trigger like you want to grab it. This will toggle between your real wall and the generated wall. So feel free to do this on all the Meta Spaces assets to reveal your home!\n"
             },
@@ -93,24 +97,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476881,
+        "general_update": 477481,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 477481,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477433,
+        "rating_update": 477481,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477433,
+        "last_update": 477481,
         "category": "GAMES",
-        "votes": 51,
-        "rating": 3.72549,
-        "weighted_rating": 3.6
+        "votes": 52,
+        "rating": 3.75,
+        "weighted_rating": 3.7
     },
     "errors": []
 }

@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.1.21694.133.OBERON.Quest.release",
+                "change_log": "Barbaria 1.6.1 Patch Update\n\n- Fix naming weapons at the naming station\n- Fix weekly challenges not showing up\n- Fix old award trophies not showing up\n- Fix blocking two tunnels entrances\n- Fix Level 6 Quiver damage\n- Update Party Crashers delay time before spawn from 30s to 20s"
+            },
+            {
                 "version": "1.6.0.21675.132.OBERON.Quest.release",
                 "change_log": "Barbaria 1.6 - Age of Excess Update\n\nThe Age of Excess is expanding across Barbaria!\n\n* Increased Level Cap: Most items now upgradeable to level 6. Realms will go to level 5 (but there will still be a max of 4 fragments).\n* Larger Space for your Realm: Significantly expanded the build area to allow for new configurations of Fragments.\n* Expanded Cosmetics: New Champion Skins, Hats for champions and minions, Fragment connector skinning, IAP currency for cosmetics only.\n* Weekly Challenges and new Daily Challenge types\n* Allow naming and tracking of kills for weapons\n* Flaunt your Wealth: Use your excess Violence to buy your way up the wealth leaderboard\n* Fixed: Reduce memory usage for Quest3\n* Fixed: Statue blocking God Powers\n* Fixed: Statues Overlapping Realms\n* Fixed: Placement exploits blocking progress on certain fragment caps\n* Fixed: Bank Item Display Issue\n* And more!"
             },
@@ -154,10 +158,6 @@
             {
                 "version": "1.1.2.19388.74.OBERON.Quest.release",
                 "change_log": "Barbaria 1.1.2 Patch Update\n\n- Expand placement area around unused fragment connections\n- Do not allow clearing a tile or ending an attack by bamboozling the last enemy\n- Improve Ranged AI's standing around doing nothing when they can't hit the target they want\n- Shorter spawner cooldown for Imp and Skeleton spawners\n- Reduce memory usage\n- Fix sword scale on weapon rack structure\n- Fix item levels on weapon racks\n- Fix info text size for Marauder’s Shield\n\n\n"
-            },
-            {
-                "version": "1.1.1.19266.71.OBERON.Quest.release",
-                "change_log": "A call to restore your realm!  \n\nSome of our recent balance changes affected the placement radius on tile entrances and some placement costs.  Realms over capacity or with pieces in invalid locations will now be automatically removed, so if you haven’t updated your realm you may need to re-place structures or minions again.\n\nBarbaria 1.1.1.19266 Patch Notes:\n\n- Automatically remove overlapping pieces when a realm is built\n- Automatically remove pieces (lowest cost first) when tiles are over capacity\n- Increase Champion and Zealot piece placement cost to 4\n- Spawners only support 1 active minion at a time\n- Cyclotaur destroys spear traps in 1 hit\n- Fix level not completing after final tile is cleared\n- Fix missing text on first age statue\n- Fix errors when grabbing trophy from Age area\n- Fix Breakable Wall Structure making impassable areas"
             }
         ],
         "on_rookie": true,
@@ -168,7 +168,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477361,
+        "changelog_update": 477481,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 477433,
@@ -179,7 +179,7 @@
             "rpg",
             "funny"
         ],
-        "last_update": 477433,
+        "last_update": 477481,
         "category": "GAMES",
         "votes": 446,
         "rating": 4.706278,

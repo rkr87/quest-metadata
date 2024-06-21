@@ -3,7 +3,7 @@
         "id": "5395586720470296",
         "app_name": "Rogue Ascent VR",
         "release_date": "2023-05-04T00:00:00.000Z",
-        "description": "\n# 👉Save the World with Finger Guns\n\nRogue Ascent VR is a roguelike shooter specially developed for Meta Quest hand-tracking technology.\n\nEquip, craft, and upgrade as you fight to save your homeworld from destruction!\n\n![{\"height\":768,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974758_309379288865212_8085647505397730814_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4fMP63Z-E5kQ7kNvgGJCSpv&_nc_ht=scontent.oculuscdn.com&oh=00_AYCWsS1GcgD-lvcHzoIS71aswpYNKBj9hoP7NTMcDWA-oA&oe=6677EDB9)\n\nBlast your way through a hostile space station with intuitive motion controls -- never lifting a controller\n- Make finger guns to shoot\n- Block with your fists\n- Reach out to dash around\n- Control the action entirely with your hands\n\nDynamic bosses chambers, unique character interactions, NPC companions, and online leaderboards will challenge you in new ways for every run.\n\nTwitch Integration allows the audience to help (or hinder) a streamer’s run by spawning items, throwing confetti, and even hiring bounty hunters!\n- Everything is customizable, so it's up to each streamer to choose what their viewers can and can't unleash.\n\n================================\n\n# 🛠️Sandbox Update\n\nYou can now control the pace of the action -- Rogue Ascent’s new sandbox mode lets you experiment with every element of the game’s hand-tracking combat. \n\nPlayers will be given access to a huge training facility equipped with weapon modding stations, quick-play scenarios, and NPC customization terminals. \n\nSerious or silly, The Sandbox is a space to get creative and test your talent. Here are a few of the new features you can expect to find in The Sandbox.\n\n- New NPCS\n- Sandbox Settings\n- Scenario Kiosks\n- Unlocked Crafting Tables\n- Unlocked Item Vending Shop",
+        "description": "\n# 👉Save the World with Finger Guns\n\nRogue Ascent VR is a roguelike shooter specially developed for Meta Quest hand-tracking technology.\n\nEquip, craft, and upgrade as you fight to save your homeworld from destruction!\n\n![{\"height\":768,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974758_309379288865212_8085647505397730814_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4fMP63Z-E5kQ7kNvgGoCpEY&_nc_ht=scontent.oculuscdn.com&oh=00_AYDmenjvs5Ujd7Bsd-mhFu1pQmxQWfGrQz0IOYBuGEHpHQ&oe=667A90B9)\n\nBlast your way through a hostile space station with intuitive motion controls -- never lifting a controller\n- Make finger guns to shoot\n- Block with your fists\n- Reach out to dash around\n- Control the action entirely with your hands\n\nDynamic bosses chambers, unique character interactions, NPC companions, and online leaderboards will challenge you in new ways for every run.\n\nTwitch Integration allows the audience to help (or hinder) a streamer’s run by spawning items, throwing confetti, and even hiring bounty hunters!\n- Everything is customizable, so it's up to each streamer to choose what their viewers can and can't unleash.\n\n================================\n\n# 🛠️Sandbox Update\n\nYou can now control the pace of the action -- Rogue Ascent’s new sandbox mode lets you experiment with every element of the game’s hand-tracking combat. \n\nPlayers will be given access to a huge training facility equipped with weapon modding stations, quick-play scenarios, and NPC customization terminals. \n\nSerious or silly, The Sandbox is a space to get creative and test your talent. Here are a few of the new features you can expect to find in The Sandbox.\n\n- New NPCS\n- Sandbox Settings\n- Scenario Kiosks\n- Unlocked Crafting Tables\n- Unlocked Item Vending Shop",
         "developer": "Nooner Bear Studio LLC",
         "publisher": "Clique Games LLC",
         "genres": [
@@ -80,6 +80,10 @@
         "changelog": [
             {
                 "version": "1.4.0",
+                "change_log": "V1.4.0\n\nNew:\nOpenXR Hand Tracking Support\nModified\nController Shooting (Homing Fire Enabled)\nTutorial enemies set to Crash Dummies\nAdded\nSimple / Decoupled Controller Input Styles (via Gesture Settings Menu)\nSimple Mode: Use either controller to move and turn. Identical controls on both controllers.\nDecoupled mode: Your dominant hand controls movement, your other hand controls turning. An advanced mode that allows for sidestepping.\nEnhanced Controller Support\nAdded Secondary Button for quick fist gesture + Open Holowatch\nFixed\nInput Modality Issues\nHand Pose Issues"
+            },
+            {
+                "version": "1.4.0",
                 "change_log": "V1.4.0\nNew:\nOpenXR Hand Tracking Support\nModified\nController Shooting (Homing Fire Enabled)\nTutorial enemies set to Crash Dummies\nAdded\nSimple / Decoupled Controller Input Styles (via Gesture Settings Menu)\nSimple Mode: Use either controller to move and turn. Identical controls on both controllers.\nDecoupled mode: Your dominant hand controls movement, your other hand controls turning. An advanced mode that allows for sidestepping.\nEnhanced Controller Support\nAdded Secondary Button for quick fist gesture + Open Holowatch\nFixed\nInput Modality Issues\n"
             },
             {
@@ -153,27 +157,23 @@
             {
                 "version": "1.2.0b17",
                 "change_log": "V1.2.0\n\nFeature Highlights:\nHolomage Campaign Boss\nBlind Status Effect\nLow Sensory Mode\nNew Weapons\nNew Perks\n\nNew:\nHolomage Boss Arena\nEnemy Blindness\nObjective Map Icons\nJester-Type Neutral Perks\nLow Sensory Setting Mode\nEnvironment Props\n\nAdded:\nNew Boss\nNew Perks\nNew Weapons\nAtomizer\nPulse Rifle\nWeapon Overheat Mechanics\nWeapon Dialogue Lines\nBird Censor (with SFX)\nHolomage NPC Dialogues\nSensory Mode Settings Toggle\nHoloboard Props\n\nModified:\nMatchbox Perk incendiary effect now applies to base projectile\nAmmo regen now occurs even when the weapon is not equipped\nLowered Kraken Battle Base HP (-5%)\nHydroponics Turret Control Guide Icons\nOnline leaderboards username eligibility\nEnemy chain binds are released when they take damage\nReduced Scan Bind perk duration\nUplink Charge Powerups initiate scans when acquired\nReverted Crystal mission rate (Increased)\nLockdown Spin Timer Default Rotation (Randomized)\n\nImproved:\n\nOptimized:\n\nFixed:\n\nUnimplemented additions:\n\nKnown Issues:"
-            },
-            {
-                "version": "1.1.0b14",
-                "change_log": "V1.1.0\nFeature Highlights:\nMarauder Player Class\nNew:\nPlayer Class\nPlayer Weapons\nPlayer Perks\nChain Lightning Effects\nSyringe Gun Model (Medic Starter Weapon)\nAdded:\nMarauder Class Dialogue\nMarauder Class Perks\nChain Lightning Abilities\nCosmic Greed Pistol\nKraken Harpoon Rifle\nClass Unlock Dialogue Events\nHeart of the Electro-Kraken Perk\nLockdown Console Hint Overlay\nNPC Perk System\nNPCs can now grant perks in their interactions\nModified:\nElectro-Kraken Base Health\nMedic Syringe Gun Model\nPrevious Marauder Update Perks are now class progression locked\nAirspace Ultimate Ability\nLockdown Factorize Mini Game UI\nAdded automatic timewarp event on security alerts\nImproved:\nLockdown Factor Minigame Legibility\nOptimized:\nFixed:\nCoin Timer Bug\nLocalization Errors\nCheckpoint Scrap Bug\nLockdown Terminal Ensign Difficulty Bug\nBoss Kill Bug\nHangar Boss Missing Layer 1 Track\nUnimplemented additions:\nKnown Issues:"
             }
         ],
         "on_rookie": true,
-        "general_update": 477433,
+        "general_update": 477481,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477409,
+        "changelog_update": 477481,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 477265,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477433,
+        "last_update": 477481,
         "category": "GAMES",
         "votes": 137,
         "rating": 4.708029,

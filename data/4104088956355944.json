@@ -35,11 +35,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 154
+                "votes": 156
             },
             {
                 "rating": 2,
-                "votes": 38
+                "votes": 39
             },
             {
                 "rating": 3,
@@ -47,11 +47,11 @@
             },
             {
                 "rating": 4,
-                "votes": 366
+                "votes": 368
             },
             {
                 "rating": 5,
-                "votes": 7557
+                "votes": 7616
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.46.4",
+                "change_log": "- Renamed \"Start Lobby\" to \"Create Lobby\".\n- Added some indicators for new players to press the \"Create Lobby\" button.\n- Added panels into the lobby for all players, explaining what the host can do there.\n- Fixed a crash that could happen when refreshing the server list and closing it before it finishes loading."
+            },
             {
                 "version": "0.46.3",
                 "change_log": "- Unfortuantely the trading of modded colors has gotten a bit out of hand with a lot of scammy behaviour and missinformation going around. As a consequence you will no longer be able to favorite modded colors. But you can keep using those you already have and they will keep working in levels.\n- More smaller crash fixes."
@@ -151,10 +155,6 @@
             {
                 "version": "0.44.0",
                 "change_log": "- Added support for tipping the creator of a level!\n- Levels can now be filtered by difficulty!\n- The \"Random\" button will now only add levels with the selected difficulty.\n- Fixed T-Posing on ice giving a lot of extra speed."
-            },
-            {
-                "version": "0.43.2",
-                "change_log": "- Fixed T-Posing.\n- Performance improvements.\n- The item lists will now show the objects you already own at the top, making it easier to find and equip them.\n- The shop will now hide packs on the front page if you already own them (unless you own all of them) and show packs you don't own instead."
             }
         ],
         "on_rookie": false,
@@ -165,16 +165,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477385,
+        "changelog_update": 477481,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477433,
+        "rating_update": 477481,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477433,
+        "last_update": 477481,
         "category": "GAMES",
-        "votes": 8171,
-        "rating": 4.85216,
+        "votes": 8235,
+        "rating": 4.85173,
         "weighted_rating": 4.8
     },
     "errors": []
