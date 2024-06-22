@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.38",
+                "change_log": "1) Environment and game mode settings now persistent!\n\t• The following settings are now persistent: \n\t\t-Default Environment\n\t\t-Default Forward Foot\n\t\t-One Handed Override\n\t\t-No Obstacles Override\n\t\t-Jabs Only Override\n\t\t-Default Game Mode\n\t\t-Default Difficulty\n\t\t-Default Game Mode\n\t\t-Gloves Environment Override (Connected to each environment)\n\t\t-Targets Environment Override (Connected to each environment)\n\t\t-Obstacles Environment Override (Connected to each environment)\n\n2) Bug Fixes:\n\t• Fixed bug causing an error to be thrown when returning to the main menu when targets or obstacles are active in game sometimes.\n\t• Fixed bug that could cause instability when selecting some songs in community content.\n\t• Fixed bug that could cause the game to lock up completely after downloading a community content song with insufficient or incomplete data."
+            },
+            {
                 "version": "0.1.37",
                 "change_log": "1) Improved easy, and normal difficulty automatically generated songs.\n2) New boxing environment \"Boxing Ring\".\n3) Bug Fixes:\n\t• Fixed bug causing mp3s without file information to cause the local mp3 converting to break.\n\t• Updated serialization system to improve settings and data saving."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.31",
                 "change_log": "1) Gloves, targets, and obstacles are no longer locked per environment and custom sets can be set when creating a custom environment, playlist, or just selecting individual songs.\n\n2) Bug Fixes:\n\t• Fixed issue sometimes requiring both pointers to be pointed at a scroll view in order to scroll via joysticks.\n\t• Fixed issue causing profile options to randomize every time.\n\n3) User experience improvements.\n\t• If player only has one profile, it is now automatically selected to streamline user experience.\n\t• Player is greeted on home screen now and given the option to change their profile by selecting their icon."
-            },
-            {
-                "version": "0.1.30",
-                "change_log": "1) Players can now opt in to participate in online leaderboards that will record their best score. Each leaderboard is specific to a specific song, in a specific game mode, at a specific difficulty just like local leaderboards. \n\n2) Bug Fixes:\n\t• Fixed issue causing some devices to not work\n\t• Fixed issue causing profiles to sometimes create duplicates"
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476905,
+        "changelog_update": 477505,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477481,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477481,
+        "last_update": 477505,
         "category": "GAMES",
         "votes": 36,
         "rating": 4.527778,

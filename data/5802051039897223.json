@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.75",
+                "change_log": "Added more detailed interiors for surf rock cars.\nFixed an issue where the car grab tutorial caused the editor to not work correctly.\nImproved tutorial car physics.\nFixed visuals for the F40 model.\nPerformance improvements (stutter fixes and complex levels should now work better).\nEditor and gameplay bug fixes."
+            },
+            {
                 "version": "1.68",
                 "change_log": "New dialog after finishing game. F40 car fixes. Left hand mode fixes. League points displayed incorrectly sometimes fixed."
             },
@@ -144,10 +148,6 @@
             {
                 "version": "0.47",
                 "change_log": "Track Craft v 0.47 is here: Marry Christmas & Happy Track Crafting!\n\nNew features\n* Added a new Christmas chapter of Razzle Dazzle along with a new car\n* Christmas props are also available in the editor for Christmas Track Crafting\n* A new GamerTag special Panda car skin in Razzle Dazzle as a gift for our favorite content creator ;)\n* New banner prop in specials / Razzle Dazzle - Hello Gamer Tag again!\n\nImprovements\n* Razzle Dazzle start/finish pieces now skin properly based on track materials in editor + community levels\n\nBug fixes\n* Fixed default game position to prevent \"in wall\" stuck states\n"
-            },
-            {
-                "version": "0.41",
-                "change_log": "Improvements\n - Added new Razzle Dazzle portal design + VFX \n- Ground shadows are now on by default, even without room mesh \n- Car now freezes when you change your guardian\n- makes it easier to change scale playtime & no more cheating ;)\n- Gravity on all props & cars - especially on Room Mesh is now more accurate \n- Changed the way props & floating pieces work when using room mesh - they now pivot to room mesh + scale with it \n\nBugfixes\n- The game is now bound properly to the guardian center - so when you go in/out or put the headset from sleep - the level position will not break\n- The turntable in Surf Rock now works properly\n- Editor palette is fixed in big/small scale sizes - The next button in tutorial levels is now visible only after stars are gained \n\nHAPPY TRACK CRAFTING!"
             }
         ],
         "on_rookie": false,
@@ -158,13 +158,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477433,
+        "changelog_update": 477505,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477433,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477433,
+        "last_update": 477505,
         "category": "GAMES",
         "votes": 98,
         "rating": 4.77551,
