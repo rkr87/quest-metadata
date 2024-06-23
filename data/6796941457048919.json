@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "4.5.2",
+                "change_log": "Improved the process when launching the application.\nAn error code is now displayed in case of an error when launching the application.\n\nアプリ起動時の工程を改善しました。\nアプリ起動時にエラーの場合はエラーコードが出るようにしました。"
+            },
+            {
                 "version": "4.5.1",
                 "change_log": "The detailed version is now displayed.\n\n詳細なバージョンが表示されるようにしました。"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "4.2.4",
                 "change_log": "Improved stability of asynchronous-related processing.\n\n非同期関連の処理の安定度を高めました。"
-            },
-            {
-                "version": "4.2.3",
-                "change_log": "Fixed a bug regarding the changes made with the addition of warp and gravity operations. Lightened the laser operation. ワープと重力操作の追加に伴う変更に関してのバグを直しました。レーザー操作を軽くしました。"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477505,
+        "changelog_update": 477529,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477505,
+        "last_update": 477529,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,

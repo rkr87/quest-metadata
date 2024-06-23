@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.5.1",
+                "change_log": "Bug fix: Selecting tower in creative mode broke the user interface"
+            },
+            {
                 "version": "1.5.5",
                 "change_log": "- Option to show distance information in the options: Show distance of hits & throwers\\n\n- Choose if you prefer imperial or metric system in the options\\n\n- Fast bolt action in boar hunting with the default Controller mode: just push the thumb stick up\\n\n- Full Analysis: Recoil filtered from the aim trace\\n\n- Bug fix: American trap high scores weren’t saved\\n\n- Bug fix: It was possible to reload the bolt action rifle too fast\\n\n- Bug fix: Ammo was not decreasing in the rifle hunt\\n\n"
             },
@@ -152,10 +156,6 @@
             {
                 "version": "1.4.3.1",
                 "change_log": "-BUG FIX: Reloading did not work for two barrel shotguns in Boar hunting when auto reload was enabled.\\n\n-Adjusted the flight of the American Trap clay pigeons to be bit lower."
-            },
-            {
-                "version": "1.4.3",
-                "change_log": "Boar Hunting Add-on is now available! Buy it inside the app by selecting “Boar Hunting” in the Hunting menu. Go hunting driven wild boars with buck shots, but be ready as it’s game over if you get knocked out! Multiplayer support will come early next year."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477481,
+        "changelog_update": 477529,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477313,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477481,
+        "last_update": 477529,
         "category": "GAMES",
         "votes": 312,
         "rating": 4.823718,
