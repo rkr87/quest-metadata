@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 713
+                "votes": 714
             }
         ],
         "comfort": "NOT_RATED",
@@ -81,6 +81,10 @@
             "logo_transparent": "39035340_137564518199776_3478351773299541350_n.png"
         },
         "changelog": [
+            {
+                "version": "0.6.27-alpha",
+                "change_log": "Update to v0.6.27"
+            },
             {
                 "version": "0.6.26-alpha",
                 "change_log": "Update to v0.6.26"
@@ -156,10 +160,6 @@
             {
                 "version": "0.6.0-alpha",
                 "change_log": "- New BlackMage map\n- New stats and rankings\n- Ammo exploit is fixed"
-            },
-            {
-                "version": "0.5.1-alpha",
-                "change_log": "- Reverted AWM sniper 1-hand accuracy penalty\n  - Instead added a longer recoil recovery time when sniping with 1 hand\n- Fixed muting not persisting in between map change\n- Implemented sliders for custom left/right ear voice chat balance (thanks I Am Legend for idea)\n- Added UI toggle to change default talk channel (all vs team)\n- In voice chat feed, always show ALL/TEAM to reflect what channel the player was using\n\t- Use slightly different color for ALL vs TEAM\n- Fixed scoreboard showing mute icon for yourself\n- Added transparent black background for players speaking icons to improve visibility\n- Added a warning message in Home if the user does not have mic permissions\n- Added player profile image url in scoreboard (not fully working yet, until next network update)\n- Force player username to be their Meta Quest account DisplayName\n- Lengthened AWM handguard collider, so that can use AWM with two hands with both controllers close to each other\n- Increased max username length from 12 characters to 20 \n- Fixed frag grenades sometimes not dealing damage when exploding right next to someone\n\t- Increased the physics blast force if frag grenade kills someone\n- Increased molotov damage per tick\n- Increased shotgun damage\n- Fixed issue where some times settings file became corrupted. Now it generates a fresh one when this happens\n- Added button to clear settings file\n- Increased minimum avatar height scale"
             }
         ],
         "on_rookie": false,
@@ -170,16 +170,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477529,
+        "changelog_update": 477553,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477529,
+        "rating_update": 477553,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477529,
+        "last_update": 477553,
         "category": "GAMES",
-        "votes": 1052,
-        "rating": 4.312738,
+        "votes": 1053,
+        "rating": 4.31339,
         "weighted_rating": 4.3
     },
     "errors": []
