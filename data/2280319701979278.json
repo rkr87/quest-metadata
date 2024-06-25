@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "1.8.0",
+                "change_log": "- 2-point creation mode for primitive shapes\n- Angular snapping during creation\n- Dynamic guide system\n- Basic reflections for glass materials\n- Auto reduction of large textures\n- Improved gestures for hand tracking mode\n- Co-location and anchor stability improvements\n- Support for loading additional OBJ and GLB data formats\n- Cross-version voice in Arkio meeting rooms\n- Various guide and dimensions line improvements"
+            },
+            {
                 "version": "1.7.1",
                 "change_log": "- Start with a new scene after Arkio crashed to prevent startup issues\n- Improved stability and stickiness while moving geometry in complex intersections\n- Easier to break out of locked mode in mixed reality god scales\n- Improved performance for large models from far away viewpoints\n- Minor UI updates"
             },
@@ -155,7 +159,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476401,
+        "changelog_update": 477577,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 477409,
@@ -166,7 +170,7 @@
             "design",
             "collaboration"
         ],
-        "last_update": 477409,
+        "last_update": 477577,
         "category": "APPS",
         "votes": 199,
         "rating": 3.849246,

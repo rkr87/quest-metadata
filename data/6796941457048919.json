@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "4.5.3",
+                "change_log": "Improved the process when launching the application. An error code is now displayed in case of an error when launching the application.\n\nアプリ起動時の工程を改善しました。 アプリ起動時にエラーの場合はエラーコードが出るようにしました。"
+            },
+            {
                 "version": "4.5.2",
                 "change_log": "Improved the process when launching the application.\nAn error code is now displayed in case of an error when launching the application.\n\nアプリ起動時の工程を改善しました。\nアプリ起動時にエラーの場合はエラーコードが出るようにしました。"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "4.3.0",
                 "change_log": "This is a major version upgrade.\nMinimum Android API level accordingly has been changed from 23 to 29.\nThe load has been greatly reduced and shadows are now more natural.\n\nメジャーバージョンアップです。\nこれに伴い最小Android APIレベルが23から29に変更されました。\n負荷を大幅に軽減して影をより自然にしました。"
-            },
-            {
-                "version": "4.2.4",
-                "change_log": "Improved stability of asynchronous-related processing.\n\n非同期関連の処理の安定度を高めました。"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477529,
+        "changelog_update": 477577,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477529,
+        "last_update": 477577,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,
