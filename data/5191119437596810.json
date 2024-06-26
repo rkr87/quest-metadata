@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "2.8.1",
+                "change_log": "2.8.1\n•\tFixed various bugs in the procedure system. \n2.8.0\nMeasurement Tool\n•\tUsers can add a new distance measurement to the active session\n•\tUsers can choose between 3 different tools: Vertical, Horizontal and Free-form.\n•\tIt is possible to change the measurement between metric and imperial units from the wrist menu. \n•\tUsers can adjust the measurement \nEnvironment Audio Control\n•\tWhen creating a custom Environment using the SynergyXR Environment Tool it is possible to integrate audio sources in the Environment\n•\tUsers can now control the volume of these audio sources\n•\tAll audio sources are scaled between 0% (muted) and 100% (original volume) maintaining the relative volume differences originally set in the Environment\nProcedure Events\n•\tWe introduce “Events” in our Procedures system. Events can be used to model errors in Procedures, or allow users to interact with parts of the Environment not critical to the main Procedure\n•\tSeveral events can be active at once, allowing the user to perform multiple events in parallel with the main Procedure\n•\tAn event can be tagged as being an “error”\nProcedure improvements\n•\tIt is now possible to perform a “Two-hand assembly” allowing users to e.g. pick up an electrical screwdriver with one hand and attaching a battery using the other hand\n•\tWe now store the Procedure state in the Space. The Procedure Panel visibility state is also saved, allowing users e.g., to start a Procedure – hide the panel – and save the Space. \n"
+            },
+            {
                 "version": "2.8.0",
                 "change_log": "Measurement Tool\n•\tUsers can add a new distance measurement to the active session\n•\tUsers can choose between 3 different tools: Vertical, Horizontal and Free-form.\n•\tIt is possible to change the measurement between metric and imperial units from the wrist menu. \n•\tUsers can adjust the measurement \nEnvironment Audio Control\n•\tWhen creating a custom Environment using the SynergyXR Environment Tool it is possible to integrate audio sources in the Environment\n•\tUsers can now control the volume of these audio sources\n•\tAll audio sources are scaled between 0% (muted) and 100% (original volume) maintaining the relative volume differences originally set in the Environment\nProcedure Events\n•\tWe introduce “Events” in our Procedures system. Events can be used to model errors in Procedures, or allow users to interact with parts of the Environment not critical to the main Procedure\n•\tSeveral events can be active at once, allowing the user to perform multiple events in parallel with the main Procedure\n•\tAn event can be tagged as being an “error”\nProcedure improvements\n•\tIt is now possible to perform a “Two-hand assembly” allowing users to e.g. pick up an electrical screwdriver with one hand and attaching a battery using the other hand\n•\tWe now store the Procedure state in the Space. The Procedure Panel visibility state is also saved, allowing users e.g., to start a Procedure – hide the panel – and save the Space. \n"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "1.8.12",
                 "change_log": "New lobby experience with refreshed avatar configurator\n•\tThe chosen avatar and user display name is persisted for future sessions, and across devices\n\nBuilt-in tutorial teaching novice users the ropes of SynergyXR\n•\tSingle-user experience without needing to login\n•\tGently introducing new users to SynergyXR functionality such as object spawning and interaction, drawing system and more. \n\nAnimation controls for 3D models\n•\tUsers can now play/pause animated 3D models\n•\tUsers can choose to repeat the animation or just play once\n•\tUsers can scrub the animation on an animation timeline. \n\nNew “Notes” functionality\n•\tUsers can now add Notes to a room\n•\tText can be added to the notes using the keyboard\n•\tText font size can be changed to fit user’s needs\n•\tThe size of the notes can be changed\n•\tYou can of course also draw on the notes in addition to writing text using the keyboard\n\nKeyboard improvements\n•\tSpecial characters and numbers have been moved from the slide-out panels to an alternative keyboard accessed by pressing “123”\n•\tArrows to move the cursor, making it easier to change only part of the written text\n•\tSeparate buttons for “RETURN” to make a new line, and “OK” to acknowledge the text input\n"
-            },
-            {
-                "version": "1.8.10",
-                "change_log": "New lobby experience with refreshed avatar configurator\n•\tThe chosen avatar and user display name is persisted for future sessions, and across devices\n\nBuilt-in tutorial teaching novice users the ropes of SynergyXR\n•\tSingle-user experience without needing to login\n•\tGently introducing new users to SynergyXR functionality such as object spawning and interaction, drawing system, and more. \n\nAnimation controls for 3D models\n•\tUsers can now play/pause animated 3D models\n•\tUsers can choose to repeat the animation or just play once\n•\tUsers can scrub the animation on an animation timeline. \n\nNew “Notes” functionality\n•\tUsers can now add Notes to a room\n•\tText can be added to the notes using the keyboard\n•\tText font size can be changed to fit user’s needs\n•\tThe size of the notes can be changed\n•\tYou can of course also draw on the notes in addition to writing text using the keyboard\n\nKeyboard improvements in VR\n•\tSpecial characters and numbers have been moved from the slide-out panels to an alternative keyboard accessed by pressing “ALT”\n•\tArrows to move the cursor, making it easier to change only part of the written text\n•\tSeparate buttons for “RETURN” to make a new line, and “OK” to acknowledge the text input\n"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476401,
+        "changelog_update": 477601,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476401,
+        "last_update": 477601,
         "category": "APPS",
         "votes": 5,
         "rating": 4.6,

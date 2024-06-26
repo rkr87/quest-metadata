@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 536
+                "votes": 538
             },
             {
                 "rating": 2,
@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 323
+                "votes": 324
             },
             {
                 "rating": 5,
-                "votes": 3109
+                "votes": 3113
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -85,6 +85,10 @@
             "logo_transparent": "38982706_755386852597005_7993970561627491155_n.png"
         },
         "changelog": [
+            {
+                "version": "6.0.1557690",
+                "change_log": "- Resolved an issue in Uncharted Rift where certain encounters with Dread Souls would not properly end after defeating the Dread Soul which prevented progress and/or opening chests.\n- Resolved rare instance of a crash within Uncharted Rift where a Dread Soul and/or Divine Soul throws their sword into a rope sometimes causing a crash. \n- Resolved issue within the Uncharted Rift when buying multiple Experience Orbs in one purchase from DM Shop gave the same amount of XP as one orb. \n- Resolved issue in Loki Anomaly ‘Bruised and Battered’ where the Bruiser's Health Bar did not display if the player damaged the Bruiser while it was spawning.\n- Improved performance when players are looking directly at Djehuty’s portals. \n- Resolved an issue where vertical saw blade traps in Uncharted Rift - Duat themes would occasionally reset the player out of bounds.\n- Resolved an issue within Uncharted Rift - Duat themes where players could get out of bounds using Djehuty’s portals. \n- Adjusted positioning of certain Spectral Adornments to ensure they were not overlapping with the player's Cosmic Projection name card. \n- Resolved multiple instances where the player could clip through objects within Uncharted Rift - Duat themes. \n- Resolved an issue where Follower mount armor appeared black or lacking lighting when viewing the armor in the inventory.\n"
+            },
             {
                 "version": "5.1.1540066",
                 "change_log": "We’re excited to finally release the Quest 3 enhanced graphics update!  Please note that you can either turn on the enhanced visuals OR 90hz but not both. Running both options caused too much of a framerate hit.\n\nAs an added surprise bonus we’ve also included an all new theme in the Uncharted Rift dungeons, inspired by the Duat overworld.\n\nWe continue to work on content and bug fixes. The bug fixing side of things was lite this month as we were mostly focused on finishing up the new content.\n\nThanks for playing  and we’ll see you next month with another update!\n\n- Graphical enhancements for Meta Quest 3 are now available – settings to enable and disable the graphical enhancements are found in the pause menu under Settings → User Interface → Enhanced Rendering Features.\n- New Uncharted Rift layouts have been added – check out the Duat themed areas on your next run!\n- Applied additional fixes to Monster Den 'Boiling-Bridge Hideaway' in order to address players being unable to complete this den.\n- Applied an additional check on Viggo’s mount gear to assist in unlocking the mount gear for players who have previously already upgraded Viggo’s armor. \n- Resolved an issue where Monster Den 'Dubious Cache' fails to be marked as complete for some players. \n- Resolved an issue where players could be blocked from progressing if they die during Djehuty’s Staff quest step.\n- Resolved an issue in Uncharted Rift - Ruins layouts where some players would become blocked from progressing due to a switch being displaced.\n- Resolved an issue where a voice line would repeat after completing the quest “Hide and Seek” and killing another Smiter. \n- Fixed an issue when encountering a Bruiser in a Loki Anomaly where the Bruiser's health bar would not appear. \n- HOTFIXES: Resolved several progression blockers within the Duat layouts in Uncharted Rift"
@@ -134,10 +138,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477073,
+        "changelog_update": 477601,
         "keyword_update": 474880,
         "tag_update": 475657,
-        "rating_update": 477577,
+        "rating_update": 477601,
         "iarc_detail_update": 477385,
         "keywords": [
             "blade",
@@ -146,10 +150,10 @@
             "fantasy",
             "roguelike"
         ],
-        "last_update": 477577,
+        "last_update": 477601,
         "category": "GAMES",
-        "votes": 4418,
-        "rating": 4.19828,
+        "votes": 4425,
+        "rating": 4.197514,
         "weighted_rating": 4.1
     },
     "errors": []
