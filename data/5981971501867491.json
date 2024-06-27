@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 314
+                "votes": 315
             }
         ],
         "comfort": "NOT_RATED",
@@ -73,6 +73,10 @@
             "logo_transparent": "43997717_2124624081068563_5591934225904861472_n.png"
         },
         "changelog": [
+            {
+                "version": "0.20.1",
+                "change_log": "Added fixes to prevent membership checkout from launching unintentionally while playing Derby"
+            },
             {
                 "version": "0.20.0",
                 "change_log": "Added Player Info board, removed ball pitch cooldown, fixed bugs, refreshed snack shack"
@@ -148,10 +152,6 @@
             {
                 "version": "0.10.2",
                 "change_log": "Optimized neighborhood map, brought back spooky bat skins"
-            },
-            {
-                "version": "0.10.1",
-                "change_log": "Patched GoldDingers reward not calling correctly for members after hitting 100 HR's"
             }
         ],
         "on_rookie": false,
@@ -162,16 +162,16 @@
         "language_update": 474685,
         "platform_update": 474817,
         "player_mode_update": 474685,
-        "changelog_update": 477361,
+        "changelog_update": 477625,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477553,
+        "rating_update": 477625,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477553,
+        "last_update": 477625,
         "category": "APPS",
-        "votes": 433,
-        "rating": 4.198614,
+        "votes": 434,
+        "rating": 4.200461,
         "weighted_rating": 4.1
     },
     "errors": []

@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.0",
+                "change_log": "Changes:\n* cockpit Cosmetics! You can now choose a Hanger and a Trinket to spruce up your mech's interior!\n* Even more cosmetics! We have also added more hats and gun buddies .\n* Multiple tweaks to the Tutorial have been made:\n   * We have added a little extra to the tutorial intro to give some more lore as to what you are doing and why.\n   * Previously we locked the rotation settings to only \"Drag Rotation\" during the tutorial, and allowed more options later after the tutorial. This was to encourage players to use our new (better) system. We have now allowed all rotation options form the very start. Enjoy!\n   * We have removed the 'skip tutorial' option the very first time a new player starts the game, when the tutorial starts automatically. This is because we noticed that a lot of players skipped the tutorial, got frustrated by not knowing the controls in the game, and quit. We understand you guys wanting to get into the action as fast as possible, but please take the 5 minutes to figure the controls out first .\n* We've added functionality to skip the splash screens at the start of the game. Just press any button!\n* We have added our discord code so that more people will be able to join our discord and game together.\n* Made the Mini Bosses more SCARY! They now rumble the ground, shaking your mech and your soul in anticipation!\n\nMajor fixes:\n* We have added some more colliders to still allow you guys to climb and explore, but not soft-lock yourselves. This is for your own protection .\n\nMinor fixes:\n* Applied several balancing tweaks.\n* Some upgrade descriptions had variables that were not filled correctly. This should now be the case.\n* Some posters in the ending scene have been corrected to the correct ones, go check them out (if you can).\n* Some errors were not localized, this should now no longer be the case.\n* Fixed an issue with the Flyer Boss stinger colors not changing as part of the phase changes.\n* There was an issue with the first hit on enemies not updating their healthbar correctly, displaying it as full. This should no longer be the case, and show the correct amount immediately.\n* We have adjusted our haptics system to allow more settings for playstation and other platforms.\n* We fixed an issue where the music would occasionally desync with the action. This should now no longer happen.\n* Previously the Dash indicator light only communicated the cooldown. Now, it also takes fuel into account, as you cannot dash without fuel, so this is now more accurate."
+            },
+            {
                 "version": "1.4.1",
                 "change_log": "Minor fixes"
             },
@@ -114,13 +118,13 @@
         "language_update": 477337,
         "platform_update": 475993,
         "player_mode_update": 475993,
-        "changelog_update": 477433,
+        "changelog_update": 477625,
         "keyword_update": 475993,
         "tag_update": 475993,
         "rating_update": 477265,
         "iarc_detail_update": 475993,
         "keywords": [],
-        "last_update": 477433,
+        "last_update": 477625,
         "category": "GAMES",
         "votes": 23,
         "rating": 4.347826,

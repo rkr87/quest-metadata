@@ -85,6 +85,14 @@
         },
         "changelog": [
             {
+                "version": "1.2.2",
+                "change_log": "1.2.2 Version Update!!\n\nHello, dear players!\n\nThank you for your continuous love and enjoyment of our game. In this update, we have made the following changes:\n\n● Spectator Mode\n1. Added various cheering tools: CheeringSticks, MagicSticks, and Vuvuzela\n2. You can switch between the tools by moving the controller stick up or down.\n\n● Squash\n1. Fixed a bug where the ball was not hit properly in multiplayer, addressing an issue with ball reaction.\n2. Corrected inaccuracies in scoring judgments.\n3. Improved overall game performance for smoother gameplay.\n\n● Billiards\n1. Updated the progress UI graphics for better visualization.\n\n● Golf\n1. Added a new ball camera feature for more accurate tracking of the golf ball's movement.\n\n● Bowling\n1. Fixed an issue where the results screen would not appear after completing a game.\n\n● Baseball\n1. Updated the home run scoreboard animation.\n2. Corrected a bug where first and third basemen would make catches while airborne.\n3. Fixed an issue where the game would not end in the top of the 9th inning when leading.\n4. Addressed the problem of the game not continuing if the pitcher threw the ball behind the catcher."
+            },
+            {
+                "version": "1.2.2",
+                "change_log": "1.2.2 Version Update!!\n\n● Spectator Mode\n\n1. We have added various cheering tools for spectator mode:\nCheering balloons, cheering sticks, cheering trumpets\n\n● Squash Changes\n\n1. Fixed a bug where the ball was not being hit properly in multiplayer\nAddressed an issue where the ball would not react correctly in certain multiplayer situations.\n\n2. Fixed a bug where the scoring was incorrect\nCorrected inaccuracies in scoring judgments.\n\n3. Optimized game progression\nImproved overall game performance for smoother gameplay.\n\n● Billiards\n\n1. Changed the current progress UI graphics\nUpdated the UI graphics for better visualization of game progress.\n\n● Golf\n\n1. Added ball tracking camera\nAdded a new tracking camera feature to more accurately follow the movement of the golf ball.\n\n● Bowling\n\n1. Fixed an issue where the results screen would not appear even after completing the game\nResolved the problem where the results screen would not display after finishing a game.\n\n●Baseball\n1. Changed the home run scoreboard animation\nUpdated the animation that plays on the scoreboard when a home run is hit.\n\n2. Fixed an issue where the first and third basemen would catch the ball in mid-air\nCorrected the bug where first and third basemen would make catches while airborne.\n\n3. Fixed an issue where the game would not end in the top of the 9th inning when winning\nFixed the problem of the game not ending when leading in the top of the 9th inning.\n\n4. Fixed an issue where the game would not progress if the pitcher threw the ball behind the catcher\nAddressed the issue where the game would not continue if the pitcher threw the ball behind the catcher."
+            },
+            {
                 "version": "1.2.1",
                 "change_log": "Hotfix Notice: Version 1.2.1 Update\nHello, gamers.\n\nWe have released a hotfix update for version 1.2.1 of our game. This update addresses and improves the following issues:\n\nFixes and Improvements:\nFixed display error when scrolling the multi-room list UI\nImproved multi-matching error\nWe continuously strive to enhance the stability and quality of our game based on your valuable feedback. We appreciate your ongoing support and interest.\n\nThank you.\n\nSincerely,\nAPPNORI Development Team"
             },
@@ -151,14 +159,6 @@
             {
                 "version": "0.7.5",
                 "change_log": "V_0.7.5 HotFix!!\nFixed the problem of ping pong ball not being hit in ping pong multiplayer mode."
-            },
-            {
-                "version": "0.7.4",
-                "change_log": "Hello, everyone.\n\nThe biggest update is the addition of boxing's \"Heavy-bag\" mode.\nSmash the punching bag with your powerful fist!\n\nV_0.7.4 Update\n\nBaseball\nSlightly adjusted the pitcher's pitching physics.\nReduced pitcher's directional physics correction.\n\n\nGolf\nSet to be ignored small movements of the club in the ready position.\nSmoother ball rolling on the green when putting."
-            },
-            {
-                "version": "0.7.3",
-                "change_log": "V_0.7.3 Update \n\nCross-platform multiplayer matching update!\nNow enjoy multiplayer mode on a variety of platforms!\n\nBaseball\nFixed some betting physics.\nReduce the probability of a ground ball when betting.\nFixed the problem of not hitting the ball when hitting the left hand.\n\n\nBilliards\nFixed AI cue ball position error.\nLevel balancing: Reduced guideline length / AI difficulty correction.\n\n\nPing-pong\nFixed the net to shake naturally in multiplayer.\nFixed a bug that sometimes freezes after scoring.\n\n\nBadminton\nSmashing serve is prohibited.\n\n\nBasketball\nAdjusted basketball reaction time.\nAdjust the laser position and angle to catch the ball.\nRealistically adjusted basketball throwing force.\n\n\nBasketball\nAdjust the laser position and angle to catch the ball.\nFixed a bug where bowling pins were pushed behind.\nFixed bowling ball spin to affect bowling pins more.\n\n\nDart\nSignificant improvement in throwing physics"
             }
         ],
         "on_rookie": true,
@@ -169,13 +169,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477121,
+        "changelog_update": 477625,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477577,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477577,
+        "last_update": 477625,
         "category": "GAMES",
         "votes": 463,
         "rating": 4.470842,

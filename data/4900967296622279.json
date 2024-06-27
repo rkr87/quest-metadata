@@ -85,6 +85,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.2",
+                "change_log": "- Changed tutorial to include calls to action on each step\n- Visualized palette hand controller bindings on the palette\n- Added recenter step to tutorial\n- Removed palette undo and reset steps from tutorial as the input bindings are now shown on the palette"
+            },
+            {
                 "version": "1.5.1",
                 "change_log": "There are now premade paint-by-numbers packs so you can get started with painting without even thinking about it!"
             },
@@ -159,10 +163,6 @@
             {
                 "version": "1.3.3",
                 "change_log": "- A new environment for you to paint in! A serene mountain lake cabin is waiting for you to bring your easel.\n- Precise brush haptics on Quest Pro.\n- Eye tracked foveated rendering on Quest Pro.\n- Local dimming on Quest Pro.\n- Avatars are a bit less bright, since they were popping too much.\n"
-            },
-            {
-                "version": "1.3.2",
-                "change_log": "- Added Oculus multiplayer functionality! You can now invite friends directly into Vermillion's multiplayer using the friends & party UI.\n- You can now report abusive players. \n- When trying to join a public room and none is available, you now automatically create a public room yourself so others can join later.\n- Fixed player moving when going in and out of multiplayer.\n- Fixed issue with layered transparent paint. Only applies to new paintings.\n- Added \"Merge\" label on layer merge button for clarity.\n- Made the easel less heavy to move around.\n- Changed the way thick paint is applied, so you can't get overly thick paint from going over the same bit twice."
             }
         ],
         "on_rookie": false,
@@ -173,7 +173,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 477625,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 477577,
@@ -184,7 +184,7 @@
             "art",
             "relax"
         ],
-        "last_update": 477577,
+        "last_update": 477625,
         "category": "GAMES",
         "votes": 831,
         "rating": 4.777377,

@@ -1,9 +1,9 @@
 {
     "data": {
         "id": "8714253315313680",
-        "app_name": "Hide The Corpse - The Ultimate Arcade VR Body-Hiding Physics Challenge",
+        "app_name": "Hide The Corpse",
         "release_date": "2024-05-17T00:00:00.000Z",
-        "description": "**1ST DISCOUNT - 50% OFF NOW** USE THE CODE: HTCEA150-0835F9 TO GET HIDE THE CORPSE - EARLY ACCESS ONE - FOR $9.99, EXPIRES JUNE 21!\n\nJoin our Discord: **bit.ly/hidethecorpsediscord**\n# ¦\n# Hide the Corpse: Features and Fun Galore! #\n\nRace Against Time!\nLift, manipulate, and get messy to hide the corpse before the cops arrive. Don’t get caught!\n# ¦\n\n# BE SMART & CREATIVE\nUnder the bed? Too simple. In a time machine? Now that's creative!{3651171388479925}\n# ¦\n\n# WILD PHYSICS\nEmbrace the chaos! Throw stuff around and work against the ticking clock.{270931549435552}\n# ¦\n\n# IMPROVE YOUR STRATEGY\nRevisit and explore various hiding spots to perfect your approach.{415290244704316}\n# ¦\n\n# SURPRISING LEVELS\nNavigate through bizarre and unexpected scenarios.\n{2171276666564998}\n# ¦\n\n# KEY FEATURES:\n\n- Time-limited sessions: You have 4 minutes to outsmart the cops!\n\n- Crazy hiding spots: Get creative with where you stash the body.\n\n- Outsmart the cops: Use your wits to evade capture.\n\n- Interactive environments: Manipulate objects and uncover hidden surprises.\n\n- Physics-based challenges: Experience unique physics in multiple areas.\n\n- Personalized gameplay: Will you take the obvious route or challenge yourself with tougher spots?\n\n🚨 Hurry up—the cops are coming! 🚨\n\n# ¦\n\n# Early Access Dev Description #\n\n**Why is Early Access?**\n\n- The aim is to gather feedback from players in order to improve the game.\n\n**How long do you plan to stay in early access?**\n\n- 3 to 4 months, we'll be adding content regularly until we reach GOLD MASTER .\n\n**What is your pricing strategy?**\n- Early Access: $ 9.99\n- Full price for final game: $19.99\n\n\n\n\n",
+        "description": "Join our Discord to stay updated with the latest news and exclusive insights: \n# bit.ly/htcdiscord\n# 🕵️‍♂️\n# Hide the Corpse: Features and Fun Galore! #\n\nRace Against Time!\nLift, manipulate, and get messy to hide the corpse before the cops arrive. Don’t get caught!\n# 👇\n\n# BE SMART & CREATIVE\nUnder the bed? Too simple. In a time machine? Now that's creative!{3651171388479925}\n# 👇\n\n# WILD PHYSICS\nEmbrace the chaos! Throw stuff around and work against the ticking clock.{270931549435552}\n# 👇\n\n# IMPROVE YOUR STRATEGY\nRevisit and explore various hiding spots to perfect your approach.{415290244704316}\n# 👇\n\n# SURPRISING LEVELS\nNavigate through bizarre and unexpected scenarios.\n{2171276666564998}\n# 🚨\n\n# KEY FEATURES:\n\n- Time-limited sessions: You have 4 minutes to outsmart the cops!\n\n- Crazy hiding spots: Get creative with where you stash the body.\n\n- Outsmart the cops: Use your wits to evade capture.\n\n- Interactive environments: Manipulate objects and uncover hidden surprises.\n\n- Physics-based challenges: Experience unique physics in multiple areas.\n\n- Personalized gameplay: Will you take the obvious route or challenge yourself with tougher spots?\n\n Hurry up—the cops are coming!\n\n# 🚧 \n\n# Early Access Dev Description #\n\n**Why is Early Access?**\n\n- The aim is to gather feedback from players in order to improve the game.\n\n**What will be added?**\n- New levels, aiming for a total of 6 in the final game. A scoring and rewards system to enhance replayability.\n\n**How long do you plan to stay in early access?**\n\n- 2-3 months, until Final release.\n\n**What is your pricing strategy?**\n- Early Access: $12.99\n- Full price: $19.99",
         "developer": "Realcast",
         "publisher": "Realcast",
         "genres": [
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.256",
+                "change_log": "Hide The Corpse - Early Access v2\n===============\n\nAdded:\n- Added a new level: The Shipwreck!\n- Added the fingerprints and sponge system\n- Added the incriminating pieces of evidence system\n- Added a brand new scoring system based on elapsed time, cleaned fingerprints, hidden pieces of evidence and Tom broken grabs\n- Added some props in the Garage level\n- Added a completed hiding spots counter display on the level doors in the main menu\n\nModified:\n- Improved the level's hiding spots icons display in the main menu\n- Improved voices and sounds during gameplay\n- Improved the Garage level's vacuum behaviour\n- Improved the Garage level's layout and hiding spots\n\nFixed:\n- Fixed a bug where the Garage level door remains locked in the main menu\n- Fixed a bug where you could open the menu panel in the start scene and in the main menu\n- Fixed the invisible bathtub foam during the police investigation scene in the Flat level\n- Fixed an audio spatialization bug related to the bathtub and the sink in the Flat level\n- Fixed the car elevator's behaviour in the Garage level\n\n---\nversion 0.2.256#89d34999b"
+            },
+            {
                 "version": "0.1.234",
                 "change_log": "Hide The Corpse - Early Access v1 - Patch #1\n===============\n\nAdded:\n- Implemented player analytics\n- Added a particles effect to the door explosion at the end of the level timer\n\nModified:\n- Improved the objects selection algorithm during the police investigation scene at the end of a level\n- Improved the walkie-talkie model\n\nFixed:\n- Fixed the player's position during the police investigation scene at the end of a level\n- Fixed the tutorial level's flow\n- Fixed the menu items behaviour when hovering a menu item with both hand lasers\n- Fixed various visual bugs during the police investigation scene at the end of a level\n- Fixed the cropped ground displayed with the level and menu doors at the end of a level\n\n---\nversion 0.1.234#552f108e7"
             },
@@ -88,20 +92,20 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 477481,
+        "general_update": 477625,
         "genre_update": 477577,
         "device_update": 476761,
         "mode_update": 476761,
         "language_update": 476761,
         "platform_update": 476761,
         "player_mode_update": 476761,
-        "changelog_update": 477097,
+        "changelog_update": 477625,
         "keyword_update": 476761,
         "tag_update": 476761,
         "rating_update": 477529,
         "iarc_detail_update": 476761,
         "keywords": [],
-        "last_update": 477577,
+        "last_update": 477625,
         "category": "GAMES",
         "votes": 32,
         "rating": 4.71875,

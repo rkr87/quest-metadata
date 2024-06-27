@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.5.2",
+                "change_log": "- Fixed Boar Hunting game halt bug\\n\n- Smoothed the aim trace recoil filtering"
+            },
+            {
                 "version": "1.5.5.1",
                 "change_log": "Bug fix: Selecting tower in creative mode broke the user interface"
             },
@@ -152,10 +156,6 @@
             {
                 "version": "1.4.3.2",
                 "change_log": "- Improved the pheasant drive environment.\\n\n- Bug fix: Instructions on how to reload pump action was not shown\n"
-            },
-            {
-                "version": "1.4.3.1",
-                "change_log": "-BUG FIX: Reloading did not work for two barrel shotguns in Boar hunting when auto reload was enabled.\\n\n-Adjusted the flight of the American Trap clay pigeons to be bit lower."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477529,
+        "changelog_update": 477625,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477601,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477601,
+        "last_update": 477625,
         "category": "GAMES",
         "votes": 313,
         "rating": 4.824281,
