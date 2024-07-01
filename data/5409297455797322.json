@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING",
@@ -34,23 +34,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1022
+                "votes": 1034
             },
             {
                 "rating": 2,
-                "votes": 256
+                "votes": 260
             },
             {
                 "rating": 3,
-                "votes": 497
+                "votes": 500
             },
             {
                 "rating": 4,
-                "votes": 826
+                "votes": 829
             },
             {
                 "rating": 5,
-                "votes": 5722
+                "votes": 5742
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,12 +76,8 @@
         },
         "changelog": [
             {
-                "version": "1.2.21",
-                "change_log": "fixed 99% of bugs"
-            },
-            {
-                "version": "1.2.20",
-                "change_log": "remake :0"
+                "version": "1.3.1",
+                "change_log": "Patch 1.3.1\n> Fixed a bug that caused the player to spawn under the map\n> Fixed a bug that prevents the player from rejoining a room after leaving\n> Fixed green and blue being swapped in the color manager\n> Fixed a bug that caused ban reasons to not display properly\n> Hopefully reduced performance issues\n> Added a hotkey to skip the title screen incase the start button does not work (grip + trigger)"
             }
         ],
         "on_rookie": false,
@@ -92,16 +88,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 477721,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477697,
+        "rating_update": 477721,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477697,
+        "last_update": 477721,
         "category": "ENTERTAINMENT",
-        "votes": 8323,
-        "rating": 4.197885,
+        "votes": 8365,
+        "rating": 4.193664,
         "weighted_rating": 4.1
     },
     "errors": []

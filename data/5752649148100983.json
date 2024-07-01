@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.38.1",
+                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing selecting some text fields to be unreliable.\n\t• Fixed bug that could cause songs containing illegal characters in their name to fail to be read.\n\t• Fixed bug causing resuming gameplay from settings to result in unexpected results."
+            },
+            {
                 "version": "0.1.38",
                 "change_log": "1) Environment and game mode settings now persistent!\n\t• The following settings are now persistent: \n\t\t-Default Environment\n\t\t-Default Forward Foot\n\t\t-One Handed Override\n\t\t-No Obstacles Override\n\t\t-Jabs Only Override\n\t\t-Default Game Mode\n\t\t-Default Difficulty\n\t\t-Default Game Mode\n\t\t-Gloves Environment Override (Connected to each environment)\n\t\t-Targets Environment Override (Connected to each environment)\n\t\t-Obstacles Environment Override (Connected to each environment)\n\n2) Bug Fixes:\n\t• Fixed bug causing an error to be thrown when returning to the main menu when targets or obstacles are active in game sometimes.\n\t• Fixed bug that could cause instability when selecting some songs in community content.\n\t• Fixed bug that could cause the game to lock up completely after downloading a community content song with insufficient or incomplete data."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.32",
                 "change_log": "1)  Game mode overrides! Under the Game Mode Overrides section you can now disable obstacles, force jabs only, or force one handed mode.\n\n2)  Passthrough mode in main menu can now be enabled in settings under the Player Settings tab!\n\n2) Bug Fixes:\n\t• Fixed issue causing the game to sometimes crash when trying to view a playlist. (Note Custom Environments and Workouts will need to have their environment overrides re-set. Unfortunately this system required a rework and is incompatible with previous versions.)\n\t• Fixed issue preventing playlist records from being displayed.\n\t• Fixed issue sometimes causing custom environments to cause the game to fail to load.\n\t• Fixed issue causing the black fog of profile selection to always be active or to activate when returning from a workout.\n\t• Removed unnecessary webcalls to reduce data usage.\n\n3) User experience improvements.\n\t• Improved play button visuals and visibility.\n\t• Confirmation now requested when deleting playlists."
-            },
-            {
-                "version": "0.1.31",
-                "change_log": "1) Gloves, targets, and obstacles are no longer locked per environment and custom sets can be set when creating a custom environment, playlist, or just selecting individual songs.\n\n2) Bug Fixes:\n\t• Fixed issue sometimes requiring both pointers to be pointed at a scroll view in order to scroll via joysticks.\n\t• Fixed issue causing profile options to randomize every time.\n\n3) User experience improvements.\n\t• If player only has one profile, it is now automatically selected to streamline user experience.\n\t• Player is greeted on home screen now and given the option to change their profile by selecting their icon."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477505,
+        "changelog_update": 477721,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477481,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477505,
+        "last_update": 477721,
         "category": "GAMES",
         "votes": 36,
         "rating": 4.527778,
