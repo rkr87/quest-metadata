@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "2.2.11",
+                "change_log": "Fixed:\r\n- Reverted adding additional sites\n- Some minor fixes and improvements"
+            },
+            {
                 "version": "2.2.10",
                 "change_log": "Added:\r\n- New Default websites\r\n- Some Ad banners\r\nFixed:\r\n- Some minor fixes and improvements\r\n- AutoResize webview pages depending on the size of the window"
             },
@@ -149,10 +153,6 @@
             {
                 "version": "2.1.5",
                 "change_log": "Added:\n- Implemented support for new sites;\n- Added new UI animations;\n- Changed the design of the settings panel;\n- Added a change of environment:\nNow you can change the environment from 3 options: Room, Dark and Void!\n- Changed the logic of the search at Web page:\nNow to update the video list you need to confirm the request by pressing the enter button;\n\nFixed:\n- Fixed AB mode operation when switching videos;\n- Fixed launch of a random video when viewing a WebView\n- Fixed incorrect video viewing date on the HISTORY page"
-            },
-            {
-                "version": "2.1.4",
-                "change_log": "Fixed:\n- Fixed problems with moving or renaming pinned files\n- Fixed some sorting problems\n- Some UI fixes"
             }
         ],
         "on_rookie": false,
@@ -163,13 +163,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477649,
+        "changelog_update": 477769,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477745,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477745,
+        "last_update": 477769,
         "category": "APPS",
         "votes": 352,
         "rating": 2.954545,

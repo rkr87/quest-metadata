@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "1.631",
+                "change_log": "Reduced volume of block incoming objects hitting player\nFixed issue that quick start was not loading correct infinite energy settings"
+            },
+            {
                 "version": "1.621",
                 "change_log": "Increased block incoming objects tutorial object speed"
             },
@@ -147,10 +151,6 @@
             {
                 "version": "1.34",
                 "change_log": "Set event camera on canvases of player HUDs"
-            },
-            {
-                "version": "1.33",
-                "change_log": "Added cardio play mode, quick start buttons, short one page tutorials"
             }
         ],
         "on_rookie": false,
@@ -161,13 +161,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477505,
+        "changelog_update": 477769,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475945,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477505,
+        "last_update": 477769,
         "category": "GAMES",
         "votes": 12,
         "rating": 4.416667,

@@ -19,7 +19,9 @@
             "Co-op"
         ],
         "languages": [
-            "English"
+            "English",
+            "German",
+            "Polish"
         ],
         "platforms": [
             "Meta Quest 3",
@@ -41,18 +43,18 @@
             },
             {
                 "rating": 3,
-                "votes": 24
+                "votes": 25
             },
             {
                 "rating": 4,
-                "votes": 65
+                "votes": 67
             },
             {
                 "rating": 5,
-                "votes": 171
+                "votes": 175
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_FEW",
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -76,6 +78,10 @@
             "logo_transparent": "39003228_1357621278182174_5839959633489825407_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6.2.4",
+                "change_log": "Version 1.6.2.4 changelog:\n- German and Polish localization.\n- Minor UI tweaks.\n- Added VO informing about the possibility to resupply ammunition.\n- Bug fixes."
+            },
             {
                 "version": "1.5.1",
                 "change_log": "Version 1.5 changelog:\n- New mission type: Soldier Evacuation intended for ND 530C helicopter.\n - Improved weather system offering much more diverse environments.\n - Checkboxes in the “Controls” section for inverting analog sticks (throttle and yoke Y axis).\n - Improved readability of the cockpit map and unit markers on the HUD.\n - Posters in the hangar (it's good to stand up from the monitor once in a while and look around).\n - Bug fixes and other improvements."
@@ -110,23 +116,23 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 477481,
+        "general_update": 477769,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 476305,
-        "language_update": 474685,
+        "language_update": 477769,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475001,
+        "changelog_update": 477769,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477745,
+        "rating_update": 477769,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477745,
+        "last_update": 477769,
         "category": "GAMES",
-        "votes": 298,
-        "rating": 4.154362,
+        "votes": 305,
+        "rating": 4.160656,
         "weighted_rating": 4.1
     },
     "errors": []

@@ -85,6 +85,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.2f1",
+                "change_log": "- You can now keep painting during the saving process\n- You can change the autosave timer, as well as disable it\n- Moved the \"recenter\" tutorial step to be in front of the easel"
+            },
+            {
                 "version": "1.5.2",
                 "change_log": "- Changed tutorial to include calls to action on each step\n- Visualized palette hand controller bindings on the palette\n- Added recenter step to tutorial\n- Removed palette undo and reset steps from tutorial as the input bindings are now shown on the palette"
             },
@@ -159,10 +163,6 @@
             {
                 "version": "1.3.3f1",
                 "change_log": "- Fixed app not starting on Quest Pro because the permissions dialog wouldn't show up.\n- Storage permission is now only asked when required, not on app start."
-            },
-            {
-                "version": "1.3.3",
-                "change_log": "- A new environment for you to paint in! A serene mountain lake cabin is waiting for you to bring your easel.\n- Precise brush haptics on Quest Pro.\n- Eye tracked foveated rendering on Quest Pro.\n- Local dimming on Quest Pro.\n- Avatars are a bit less bright, since they were popping too much.\n"
             }
         ],
         "on_rookie": false,
@@ -173,7 +173,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477625,
+        "changelog_update": 477769,
         "keyword_update": 474881,
         "tag_update": 475657,
         "rating_update": 477721,
@@ -184,7 +184,7 @@
             "art",
             "relax"
         ],
-        "last_update": 477721,
+        "last_update": 477769,
         "category": "GAMES",
         "votes": 832,
         "rating": 4.777644,

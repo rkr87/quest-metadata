@@ -43,7 +43,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 149
+                "votes": 148
             },
             {
                 "rating": 2,
@@ -59,7 +59,7 @@
             },
             {
                 "rating": 5,
-                "votes": 794
+                "votes": 796
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "38974815_330154097603796_583183325309435904_n.png"
         },
         "changelog": [
+            {
+                "version": "0.11.1.2",
+                "change_log": "+ Daily Achievements\n+ Refresh button for local tracks\n+ Moderation improvements\n+ Small Bug Fixes"
+            },
             {
                 "version": "0.11.1.1",
                 "change_log": "**0.11.1.1 Hotfix**\n- Added messaging and restrictions for TIDAL's DJ Extension Requirement\n- Fixed bug that caused lessons to make dashboard disappear\n\n**0.11.0**\n- Added a stage queue to video calls, which automates DJs in the call taking turns sharing their mix.\n- Added better moderation for multiplayer rooms:\n    - Guests joining the room will be in the audience by default and cannot manipulate the decks\n    - Guests have to request or be invited behind the decks by the room's host before they can DJ\n    - Audience members that walk into the decks or the DJ's space will not be visible to anyone\n- Track folders now remember your last position in the list, so you do not need to scroll from the top again when returning to a large folder\n- Fixed leaderboards taking a long time to refresh when first starting Tribe\n- Misc bug and rare crash fixes"
@@ -159,10 +163,6 @@
             {
                 "version": "0.10.3.1",
                 "change_log": "- Sign up for web profile on Steam\n- Steam & Oculus cross-play\n- Fix for sort by BPM\n- Game mode visuals optimizations"
-            },
-            {
-                "version": "0.10.3",
-                "change_log": "-  New deck menu \n-  Animated cameras\n-  Use Epic Online Services for multiplayer\n-  Play game mode while in video calls\n-  New deck visuals in Game Mode\n-  Create your DJ Profile\n-  Continuous movement in game mode"
             }
         ],
         "on_rookie": true,
@@ -173,20 +173,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476977,
+        "changelog_update": 477769,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 477745,
+        "rating_update": 477769,
         "iarc_detail_update": 477385,
         "keywords": [
             "education",
             "learn",
             "music"
         ],
-        "last_update": 477745,
+        "last_update": 477769,
         "category": "APPS",
-        "votes": 1162,
-        "rating": 4.185026,
+        "votes": 1163,
+        "rating": 4.189166,
         "weighted_rating": 4.1
     },
     "errors": []
