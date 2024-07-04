@@ -3,7 +3,7 @@
         "id": "6392501587470497",
         "app_name": "Fly",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# New 1.1 Update: Includes new vehicle, updated menus, music, and more! \n\nEmbark on an extraordinary journey with Fly, and redefine the way you explore our planet. Powered by Google's cutting-edge 3D Maps Tiles, this immersive experience lets you soar through the skies and witness the world's wonders like never before. From the ground all the way to the edge of space, you can truly Fly for the first time.\n\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974902_982449553373158_1253049313026760958_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=iK3Yicfv3n8Q7kNvgGMsM5J&_nc_ht=scontent.oculuscdn.com&oh=00_AYDHW-slcn3u9DjAsO_cC4GNdEnPyelHxoyX7wCIH7QtpQ&oe=668A81F8)\n\n**Global Exploration:** Fly taps into Google's vast repository of 3D tiles, offering a true-to-life representation of Earth. Traverse majestic landscapes, iconic landmarks, and hidden gems from the comfort of your home. Whether it's the towering peaks of the Himalayas, the bustling streets of Tokyo, or triumphs of human engineering like the Eiffel Tower in Paris, the world is yours to discover.\n{1173106120490071}\n**Unique Motion in Flight:** Feel the rush of wind as you take flight on your drone. Utilizing our unique motion controls enjoy a seamless and intuitive flying experience. Control your speed and direction with direct body motion and altitude with the joystick. Soar over mountains, glide through valleys, and experience the thrill of flight.\n\nUnleash your inner adventurer with Fly – the ultimate virtual reality app that brings the world to your fingertips for the first time in a stand alone headset. Elevate your senses, broaden your horizons, and experience the magic of flight in a way you've never imagined.",
+        "description": "# New 1.1 Update: Includes new vehicle, updated menus, music, and more! \n\nEmbark on an extraordinary journey with Fly, and redefine the way you explore our planet. Powered by Google's cutting-edge 3D Maps Tiles, this immersive experience lets you soar through the skies and witness the world's wonders like never before. From the ground all the way to the edge of space, you can truly Fly for the first time.\n\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974902_982449553373158_1253049313026760958_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=iK3Yicfv3n8Q7kNvgGHLC9n&_nc_ht=scontent.oculuscdn.com&oh=00_AYCTSHa_LExscq0kH70uJxcGLzmvh46hKaCG7CFKFg4Eqg&oe=668BD378)\n\n**Global Exploration:** Fly taps into Google's vast repository of 3D tiles, offering a true-to-life representation of Earth. Traverse majestic landscapes, iconic landmarks, and hidden gems from the comfort of your home. Whether it's the towering peaks of the Himalayas, the bustling streets of Tokyo, or triumphs of human engineering like the Eiffel Tower in Paris, the world is yours to discover.\n{1173106120490071}\n**Unique Motion in Flight:** Feel the rush of wind as you take flight on your drone. Utilizing our unique motion controls enjoy a seamless and intuitive flying experience. Control your speed and direction with direct body motion and altitude with the joystick. Soar over mountains, glide through valleys, and experience the thrill of flight.\n\nUnleash your inner adventurer with Fly – the ultimate virtual reality app that brings the world to your fingertips for the first time in a stand alone headset. Elevate your senses, broaden your horizons, and experience the magic of flight in a way you've never imagined.",
         "developer": "VirZOOM",
         "publisher": "VirZOOM",
         "genres": [
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 71
+                "votes": 72
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031643_1390528165167372_1886784839638768749_n.png"
         },
         "changelog": [
+            {
+                "version": "1.1.3",
+                "change_log": "--1.1.0--\nNew look and feel!\n   - Redesigned vehicle to better evoke a near-future tone.\n   - Updated user interface to match.\nImproved audio from the pros at SkewSound!\nWorld capital names painted onto the Earth to help with knowing where you are located.\nPoints of Interest have been redesigned with additional categories of locations selected to better show landmarks of note.\nCountry and state/province boundaries now follow the height of the terrain.\nControls for hands-free play.\nA host of new options in the settings.\n   - Movement controls\n   - Music (including a new sountrack from SkewSound)\n   - Audio mixing\n   - Metric/imperial labeling\n   - Display options\nCrash fix for international users\n\n--1.1.1--\nNew option for hiding the motion controls HUD or moving it to a high position\nDestination Search text field now clears itself correctly in between entries\nNew audio for the engine sound and various other sound effects\nAudio mixing sliders are easier to control and are more effective\nPersonal audio settings are now saved to your local profile\nNow relying on headset guardian definitions instead of fading to passthrough image when the player moves away from center\nMenus now hold their position correctly instead of occasionally rotating out of position\n\n--1.1.2--\nAmbient audio label now includes \"Vechicle\" to be less confusing about what it controls\nNew Ambient/Vehicle audio for altitude changes\nNew SFX for tutorial actions\nArtist names are now shown for soundtrack songs\nLOD slider was recently broken but is now fixed\nFixed a bug with the Reset Audio Settings button\nFixed a bug with the new movement HUD locations option\n\n--1.1.3--\nNew song, Sail, added to the soundtrack\nAdded some new featured destinations and adjusted existing ones\nCleaned up some of the tutorial UI and images\nOptions layout and functionality fixes\nImproved tutorial step transitions\nFixed a bug with ambient audio playing before initial loading is complete\nFixed a bug with alt/lat/lon not updating correctly on the Pause menu\nFixed flight control labels for hands-free mode\nSwapped the Search Again and Teleport buttons to be more intuitive\nChanged the starting location for new users to Amsterdam"
+            },
             {
                 "version": "1.1.2",
                 "change_log": "--v1.1.0--\nNew look and feel!\n   - Redesigned vehicle to better evoke a near-future tone.\n   - Updated user interface to match.\nImproved audio from the pros at SkewSound!\nWorld capital names painted onto the Earth to help with knowing where you are located.\nPoints of Interest have been redesigned with additional categories of locations selected to better show landmarks of note.\nCountry and state/province boundaries now follow the height of the terrain.\nControls for hands-free play.\nA host of new options in the settings.\n   - Movement controls\n   - Music (including a new sountrack from SkewSound)\n   - Audio mixing\n   - Metric/imperial labeling\n   - Display options\nCrash fix for international users\n\n--v1.1.1--\nNew option for hiding the motion controls HUD or moving it to a high position\nDestination Search text field now clears itself correctly in between entries\nNew audio for the engine sound and various other sound effects\nAudio mixing sliders are easier to control and are more effective\nPersonal audio settings are now saved to your local profile\nNow relying on headset guardian definitions instead of fading to passthrough image when the player moves away from center\nMenus now hold their position correctly instead of occasionally rotating out of position\n\n--v1.1.2--\nAmbient audio label now includes \"Vechicle\" to be less confusing about what it controls\nNew Ambient/Vehicle audio for altitude changes\nNew SFX for tutorial actions\nArtist names are now shown for soundtrack songs\nLOD slider was recently broken but is now fixed\nFixed a bug with the Reset Audio Settings button\nFixed a bug with the new movement HUD locations option"
@@ -142,23 +146,23 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 477769,
+        "general_update": 477793,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477649,
+        "changelog_update": 477793,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477769,
+        "rating_update": 477793,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477769,
+        "last_update": 477793,
         "category": "APPS",
-        "votes": 107,
-        "rating": 4.336449,
+        "votes": 108,
+        "rating": 4.342593,
         "weighted_rating": 4.2
     },
     "errors": []
