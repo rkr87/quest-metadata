@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 703
+                "votes": 704
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -76,6 +76,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.2.24-generalqog",
+                "change_log": "🐛 Bug Fixes\n\n- Fixed imported GLB files sometimes incorrectly adopting the textures of previously imported GLB files.\n- Enabling the “Use Gumdrop” option while a custom HDR is in place will no longer prevent you from using passthrough."
+            },
+            {
+                "version": "6.2.24-generalqc",
+                "change_log": "🐛 Bug Fixes\n\n- Fixed imported GLB files sometimes incorrectly adopting the textures of previously imported GLB files.\n- Enabling the “Use Gumdrop” option while a custom HDR is in place will no longer prevent you from using passthrough."
+            },
             {
                 "version": "6.2.21-generalqc",
                 "change_log": "🐛 Bug Fixes\n\n- Automatically log out when user disables link to device."
@@ -123,14 +131,6 @@
             {
                 "version": "6.2.13-generalqc",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly changed layout of export menu.\n\n🐛 Bug Fixes\n\n- Improves Collab stability in some network conditions."
-            },
-            {
-                "version": "6.2.14-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that could sometimes cause imported opaque textures to be rendered as transparent."
-            },
-            {
-                "version": "6.2.14-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue that could sometimes cause imported opaque textures to be rendered as transparent."
             }
         ],
         "on_rookie": false,
@@ -141,20 +141,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477265,
+        "changelog_update": 477817,
         "keyword_update": 474881,
         "tag_update": 477793,
-        "rating_update": 477577,
+        "rating_update": 477817,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 477793,
+        "last_update": 477817,
         "category": "APPS",
-        "votes": 1089,
-        "rating": 4.081726,
+        "votes": 1090,
+        "rating": 4.082569,
         "weighted_rating": 4.0
     },
     "errors": []

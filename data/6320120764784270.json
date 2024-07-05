@@ -95,10 +95,6 @@
             {
                 "version": "2450",
                 "change_log": "A Big **Terrain Visual** Upgrade that improves long distance rendering, and multiple **Performance** Improvements - v24.50 is Out !!\n\n**1.** Introduced a Z-Buffer Management System, basically using the Camera Rendering distances ( minimum - maximum ) to their full potential to **maximize rendering accuracy** ( for distant terrain ) based on altitude, player scale, and other factors !!!\n\n**So yes,** terrain flickering is now as low as it can **technically be achieved** with the current player scaling :D\nPreviously, the flickering effect was visible even when using the larger player scales, **now,** you'll notice that the flickering is **barely visible at small player scales** and greatly minimized on very distant landscapes. **In fact, the flickering COMPLETELY disappears after the player scale value of 150 !!**\n\n**1.2.** Thanks to this system, computing performance is also improved due to the less **non-visible** data being rendered on occluded terrain ( like on the other side of Earth ) or very far terrain surfaces that were otherwise not present in the user’s perspective.\n\n**2.** AI Vision should now also be better thanks to improved AI image quality - so AI responses about visual location recognition should now be slightly improved !!!\n\n**3.** Much, **much** Smoother Earth Scaling and Overall Visualization from High Altitudes !!\n\n**4.** **Tons and tons** of code optimizations for computing performance !"
-            },
-            {
-                "version": "2400",
-                "change_log": "1. Huge Keyboard UPDATE, The keyboard is now equipped with :\n- Numbers Through : 0 - 9\n- Recenter Keyboard Button\n- Recenter Countdown Timer ( 3, 2, 1 ) for easy control over keyboard position\n- Written Note on the top right corner of the Keyboard ( for manual readjustment, in case the recenter button is somehow not reachable )\n\n2. TWO Brand NEW Player Scale Levels :\n- 1000 ( added over the previous scaling system )\n- Human Size - Perfectly & accurately aligned with real life measurements !!!\n\n3. A New Zoom-In Level for the Google Map Feature - Now able to spot tiny points of interest like supermarkets, hotels and other specific building names or even small valley names !!\n\n4. FULLY Integrated Rotation Ability in the Hub ! This will be useful for looking over to the API Step-by-step Instructions, the beautiful Milky Way view, or back to the Video Tutorial \n\n5. Fixed AI Chat not visible in Street View ( Hand Tracking - Multiplayer )\n\n6. Much more naturally balanced flight sound effects and wind volume.\n\n+ MUCH MORE SMALL ADJUSTMENTS AND FIXES TO ENHANCE THE OVERALL EXPERIENCE !\n"
             }
         ],
         "on_rookie": true,
@@ -109,13 +105,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 475561,
-        "changelog_update": 477649,
+        "changelog_update": 477817,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477793,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477793,
+        "last_update": 477817,
         "category": "APPS",
         "votes": 115,
         "rating": 3.991304,
