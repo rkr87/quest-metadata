@@ -3,7 +3,7 @@
         "id": "6320120764784270",
         "app_name": "EarthQuest",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "**( NO SETUP IS NEEDED TO PLAY )**\n\nUpdated with every user suggestion at least twice a week for multiple months in a row, Top Features are:\n\n**3D Coverage Everywhere**\n\n•Almost every identifiable city on earth is in realistic 3D, even my tiny town in a poor side of Romania is covered, so you are probably able to visit your own street in 3D\n\n**ChatGPT Integration: The AI companion can**\n\n•Help with user interface\n\n•Hear, See and Talk in any language\n\n•Offer information about surroundings\n\n•Teleport you anywhere on earth\n\n•Interact with Street View\n\n**Realistic Sky Mode**\n\n•Realistic Real-time Lighting and Day/Night Cycle with no Performance Impact\n\n**Street View**\n\n•Highest 8k resolution quality on the market, with every street on earth and every panorama taken by people\n\n**Multiplayer**\n\n•With friends\n\n**Terrain Quality**\n\n•EarthQuest's 3D Map Quality can go much further than anything else out there and achieve realistic results by pushing the terrain quality to insane detail and range with the best performance in the industry\n\n**Google Maps**\n\n•Intelligent or manual zoom based on altitude\n\n•Switchable Google Maps Interface\n\n•Paired with the compass feature for body orientation\n\n**Consistent Hand Tracking**\n\n•Rotate by Grabbing an Imaginary Steering Wheel\n\n•Fly by Pointing your Index Finger in the Direction of Flight\n\n•Unrestricted menu interaction\n\n**Customizable Flight Controls**\n\n•Button Remapping\n\n•Comfort Settings\n\n•Flight Controls Range from Simple to Complex Cinematic Flying\n\n**..out of space, check \"earthquest.site\" for all features..**",
+        "description": "( NO SETUP REQUIRED )\n\nUpdated with every user suggestion at least twice a week for almost an year, Top Features are:\n\n**3D Coverage Everywhere**\n\n• Almost every recognizable city on earth is in realistic 3D, even my tiny town in a poor side of Romania is covered, so you are probably able to visit your own street in 3D\n\n**ChatGPT Integration: The AI companion can**\n\n• Help with user interface\n\n• Hear, See and Talk in YOUR OWN Language\n\n• Visualize & understand your surroundings to teach facts or information about it\n\n• Teleport you anywhere on earth if asked\n\n**Realistic Graphics**\n\n• Real Life Inspired Lighting based on the Customizable Day/Night Cycle\n\n**Street View**\n\n• Best UNCOMPRESSED 8k Quality on the market, with every street 360 on earth and every panorama taken by people\n\n**Multiplayer**\n\n• With friends\n\n**Terrain Quality**\n\n• EarthQuest's 3D Map Quality can go much further than anything else out there and achieve realistic 3D by pushing the terrain quality to extreme detail with the best performance in the category\n\n**Google Maps Integration**\n\n• Smart or manual zoom based on altitude\n\n• Paired with the compass feature for body orientation\n\n• Full Google Maps functionality on the Map Window feature\n\n**Hand Tracking**\n\n• Fly like a Superhero by pointing your index finger\n\n• Rotate by Grabbing an Imaginary Steering Wheel\n\n**Comfort Settings**\n\n• Comfort Options ( Snap Turning / Flight Vignette ) to eliminate Motion Sickness\n\n• Button Remapping ( Flight Controls Range from Simple to Complex Cinematic Flying )\n\n**.. out of space, check \"earthquest.site\" ..**",
         "developer": "Boe",
         "publisher": "Boe",
         "genres": [
@@ -91,27 +91,23 @@
             {
                 "version": "2453",
                 "change_log": "v24.53 is Out\n\n**1.** Made a change to potentially fix the rare \"Out of memory\" crash that happened on Q3 when using max settings -** if it still happens, please let me know immediately** so i can make sure it's fully fixed in the next version.\n\n**2.** Introduced the website ( ***earthquest.site***, ***faq.earthquest.site*** ) addresses in the hub, and rewritten a note to be shorter and more concise.\n\n**3.** Rephrased a few notes in the API Setup\n\n--\n\nA Big **Terrain Visual** Upgrade that improves long distance rendering, and multiple **Performance** Improvements - v24.50 is Out !!\n\n**1.** Introduced a Z-Buffer Management System, basically using the Camera Rendering distances ( minimum - maximum ) to their full potential to **maximize rendering accuracy** ( for distant terrain ) based on altitude, player scale, and other factors !!!\n\n**So yes,** terrain flickering is now as low as it can **technically be achieved** with the current player scaling :D\nPreviously, the flickering effect was visible even when using the larger player scales, **now,** you'll notice that the flickering is **barely visible at small player scales** and greatly minimized on very distant landscapes. **In fact, the flickering COMPLETELY disappears after the player scale value of 150 !!**\n\n**1.2.** Thanks to this system, computing performance is also improved due to the less **non-visible** data being rendered on occluded terrain ( like on the other side of Earth ) or very far terrain surfaces that were otherwise not present in the user’s perspective.\n\n**2.** AI Vision should now also be better thanks to improved AI image quality - so AI responses about visual location recognition should now be slightly improved !!!\n\n**3.** Much, **much** Smoother Earth Scaling and Overall Visualization from High Altitudes !!\n\n**4.** **Tons and tons** of code optimizations for computing performance !"
-            },
-            {
-                "version": "2450",
-                "change_log": "A Big **Terrain Visual** Upgrade that improves long distance rendering, and multiple **Performance** Improvements - v24.50 is Out !!\n\n**1.** Introduced a Z-Buffer Management System, basically using the Camera Rendering distances ( minimum - maximum ) to their full potential to **maximize rendering accuracy** ( for distant terrain ) based on altitude, player scale, and other factors !!!\n\n**So yes,** terrain flickering is now as low as it can **technically be achieved** with the current player scaling :D\nPreviously, the flickering effect was visible even when using the larger player scales, **now,** you'll notice that the flickering is **barely visible at small player scales** and greatly minimized on very distant landscapes. **In fact, the flickering COMPLETELY disappears after the player scale value of 150 !!**\n\n**1.2.** Thanks to this system, computing performance is also improved due to the less **non-visible** data being rendered on occluded terrain ( like on the other side of Earth ) or very far terrain surfaces that were otherwise not present in the user’s perspective.\n\n**2.** AI Vision should now also be better thanks to improved AI image quality - so AI responses about visual location recognition should now be slightly improved !!!\n\n**3.** Much, **much** Smoother Earth Scaling and Overall Visualization from High Altitudes !!\n\n**4.** **Tons and tons** of code optimizations for computing performance !"
             }
         ],
         "on_rookie": true,
-        "general_update": 477673,
+        "general_update": 477841,
         "genre_update": 476737,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 475561,
-        "changelog_update": 477817,
+        "changelog_update": 477841,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477793,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477817,
+        "last_update": 477841,
         "category": "APPS",
         "votes": 115,
         "rating": 3.991304,

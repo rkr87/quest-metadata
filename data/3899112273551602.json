@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.4.10771",
+                "change_log": "New Features and Improvements\n\nImplemented new objects grabbing mapping.\n-Interactivity sound continues playing even if the stage is switched.\n-Tool switcher is always accessible, even when pointing at the menu or in ray mode.\n-Locomotion system improvements.\n-Support for Gizmo based on size for Procedural Meshes.\n-Added license info to assets in the library.\n-Applied current color only to primitives, not to assets.\n-Edit target scene in interactivity like a numeric scrollable field.\n-Added new setting to enter anchor mode.\n\nBug Fixes\n\n-Fixed labels with text sizes not displaying correctly.\n-Corrected information about the number of available spaces when loading space for free users.\n-Fixed text bounds not being in the correct position.\n-Resolved issue where users could not create new spaces in VR after the trial period ended.\n-Fixed typos in the assets.\n-Fixed slider values not changing with the slider.\n-Material type now updates correctly after changing the material via eyedropper.\n-Resolved issue where free users couldn't create spaces from a sample right after app opening.\n-Reworked text inter + fitting from inspector side.\n-Fixed missing three dots in toast notifications.\n-Prioritized grab for selected objects when one object is inside another.\n-Fixed incorrect visual for different eye-dropper modes.\n-Resolved issue where the old keyboard couldn't be used in the text tool until all hand menu pop-ups were closed.\n-Fixed snapping to walls not working.\n-Resolved issue where the eyedropper didn't work.\n-Fixed selection ray being interrupted by walls.\n-Fixed issue where roomscale mode couldn't be accessed after changing physical space.\n-Corrected permissions shown in Share panel.\n-Sounds uploaded into Shared files now appear while adding an interactivity.\n-Resolved issue where gizmo didn't appear after text creation.\n-Fixed text tool becoming useless after the first text creation.\n-Fixed text size not being applied.\n-Resolved issue where the keyboard didn't close after tool switching.\n-Fixed text moving when changing its boundaries.\n-Resolved issue where the keyboard didn't open during text creation if the Material tab was active in the Text Inspector."
+            },
+            {
                 "version": "4.0.0.10670",
                 "change_log": "Shapes 2.0"
             },
@@ -130,7 +134,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477793,
+        "changelog_update": 477841,
         "keyword_update": 474881,
         "tag_update": 477793,
         "rating_update": 477649,
@@ -141,7 +145,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 477793,
+        "last_update": 477841,
         "category": "APPS",
         "votes": 312,
         "rating": 4.137821,
