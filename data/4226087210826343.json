@@ -58,7 +58,9 @@
             "ROOM_SCALE",
             "SITTING"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -74,11 +76,11 @@
             },
             {
                 "rating": 4,
-                "votes": 26
+                "votes": 27
             },
             {
                 "rating": 5,
-                "votes": 156
+                "votes": 157
             }
         ],
         "comfort": "NOT_RATED",
@@ -103,6 +105,10 @@
             "logo_transparent": "38982666_449350133589696_3811944066712869644_n.png"
         },
         "changelog": [
+            {
+                "version": "6.0.57",
+                "change_log": "Update remote avatar full body avatar racquet pose"
+            },
             {
                 "version": "6.0.55",
                 "change_log": "Bugfix text corruption after language change. Add error notification for WiFi off. Add app icon in Unity."
@@ -174,10 +180,6 @@
             {
                 "version": "6.0.37",
                 "change_log": "Update hand poses for full body avatar"
-            },
-            {
-                "version": "6.0.36",
-                "change_log": "Move dialogs a bit further away from player.\n Rotate popups if needed when player moves so they are facing the player.\n Speed up some bot animations.\n Bugfix bot movement after player serves from wrong position."
             }
         ],
         "on_rookie": true,
@@ -188,16 +190,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477697,
+        "changelog_update": 477913,
         "keyword_update": 474685,
-        "tag_update": 474685,
-        "rating_update": 477481,
+        "tag_update": 477913,
+        "rating_update": 477913,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477697,
+        "last_update": 477913,
         "category": "GAMES",
-        "votes": 231,
-        "rating": 4.194805,
+        "votes": 233,
+        "rating": 4.197425,
         "weighted_rating": 4.1
     },
     "errors": []
