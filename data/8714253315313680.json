@@ -41,7 +41,7 @@
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 4,
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.263",
+                "change_log": "Hide The Corpse - Early Access v2.1\n===============\n\nAdded:\n- Added a “skip” button to the police investigation sequence and to the scoring sequence at the end of a level\n- Added a haptic feedback on grab broken\n- Added dynamic lights to the cops’ flashlights at the end of the level\n\nModified:\n- Optimized the ShipWreck level\n- Pieces of evidence are now rotated by the ShipWreck’s streams instead of being blown away\n- Tweaked the level score average calculations to be slightly more advantageous to the player\n- Improved pieces of evidence randomized placement in the ShipWreck level\n- Improved the bubbles effect of the ShipWreck level’s streams\n- Improved the door explosion effect on time out\n- Increased the tentacle’s object expulsion time and force in the ShipWreck level\n\nFixed:\n- Improved the grab system when both hands are grabbing an object\n- Improved objects collisions on object grabbed\n- Improved the pieces of evidence detection system\n- Improved the player positioning at the end of the level\n- Improved the fingerprints placement system on small surfaces\n- Improved collisions and fingerprints placement in all levels\n- Fixed the Out Of Bounds system in the ShipWreck level\n- Fixed rats escaping from the sewer in the Garage level\n- Fixed a bug where collision sounds would keep playing during the dark phase at the end of a level\n- Fixed a bug where the tentacle could go out again after catching the corpse in the ShipWreck level\n- Fixed the radio and the Flat’s wardrobe textures\n- Removed bubbles still displayed at the end of the ShipWreck level\n\n---\nversion 0.2.263#f45219b9c"
+            },
+            {
                 "version": "0.2.256",
                 "change_log": "Hide The Corpse - Early Access v2\n===============\n\nAdded:\n- Added a new level: The Shipwreck!\n- Added the fingerprints and sponge system\n- Added the incriminating pieces of evidence system\n- Added a brand new scoring system based on elapsed time, cleaned fingerprints, hidden pieces of evidence and Tom broken grabs\n- Added some props in the Garage level\n- Added a completed hiding spots counter display on the level doors in the main menu\n\nModified:\n- Improved the level's hiding spots icons display in the main menu\n- Improved voices and sounds during gameplay\n- Improved the Garage level's vacuum behaviour\n- Improved the Garage level's layout and hiding spots\n\nFixed:\n- Fixed a bug where the Garage level door remains locked in the main menu\n- Fixed a bug where you could open the menu panel in the start scene and in the main menu\n- Fixed the invisible bathtub foam during the police investigation scene in the Flat level\n- Fixed an audio spatialization bug related to the bathtub and the sink in the Flat level\n- Fixed the car elevator's behaviour in the Garage level\n\n---\nversion 0.2.256#89d34999b"
             },
@@ -99,16 +103,16 @@
         "language_update": 476761,
         "platform_update": 476761,
         "player_mode_update": 476761,
-        "changelog_update": 477625,
+        "changelog_update": 477937,
         "keyword_update": 476761,
         "tag_update": 476761,
-        "rating_update": 477913,
+        "rating_update": 477937,
         "iarc_detail_update": 476761,
         "keywords": [],
-        "last_update": 477913,
+        "last_update": 477937,
         "category": "GAMES",
-        "votes": 38,
-        "rating": 4.736842,
+        "votes": 39,
+        "rating": 4.692308,
         "weighted_rating": 4.4
     },
     "errors": []

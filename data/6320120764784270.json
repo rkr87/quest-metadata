@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 72
+                "votes": 73
             }
         ],
         "comfort": "NOT_RATED",
@@ -87,10 +87,6 @@
             {
                 "version": "2500",
                 "change_log": "v25 is set, your best bet yet 😆 \n\n1.Thanks to the Meta Quest Support team, the Hand Tracking ‘ required ’ issue is now solved !!\n\n2. The Controller ‘Menu’ button and Hand Tracking ‘Pinch to open Menu’ gesture are now both connected to the EarthQuest menu ! - You’ll now have an easier, more efficient & intuitive alternative way of Opening / Closing the Menu !\n\n3. A more concise Hub Menu button layout ( multiplayer section )\n\n3.2. Changed the Multiplayer Button in the Hub for choosing a Room Name from \"Type Room Code\" to \"Type Room Name\" to avoid confusion and for consistency\n\n4. Fixed distance from sea level in meters *glitching out* when going over 9999999m\n\n5. Modified the terrain allocated memory very slightly to potentially completely solve the ' out of memory ' system crash that's happening extremely rarely due to some OS inconsistency.\n\nhttps://youtu.be/mpxN1LxR4KI"
-            },
-            {
-                "version": "2453",
-                "change_log": "v24.53 is Out\n\n**1.** Made a change to potentially fix the rare \"Out of memory\" crash that happened on Q3 when using max settings -** if it still happens, please let me know immediately** so i can make sure it's fully fixed in the next version.\n\n**2.** Introduced the website ( ***earthquest.site***, ***faq.earthquest.site*** ) addresses in the hub, and rewritten a note to be shorter and more concise.\n\n**3.** Rephrased a few notes in the API Setup\n\n--\n\nA Big **Terrain Visual** Upgrade that improves long distance rendering, and multiple **Performance** Improvements - v24.50 is Out !!\n\n**1.** Introduced a Z-Buffer Management System, basically using the Camera Rendering distances ( minimum - maximum ) to their full potential to **maximize rendering accuracy** ( for distant terrain ) based on altitude, player scale, and other factors !!!\n\n**So yes,** terrain flickering is now as low as it can **technically be achieved** with the current player scaling :D\nPreviously, the flickering effect was visible even when using the larger player scales, **now,** you'll notice that the flickering is **barely visible at small player scales** and greatly minimized on very distant landscapes. **In fact, the flickering COMPLETELY disappears after the player scale value of 150 !!**\n\n**1.2.** Thanks to this system, computing performance is also improved due to the less **non-visible** data being rendered on occluded terrain ( like on the other side of Earth ) or very far terrain surfaces that were otherwise not present in the user’s perspective.\n\n**2.** AI Vision should now also be better thanks to improved AI image quality - so AI responses about visual location recognition should now be slightly improved !!!\n\n**3.** Much, **much** Smoother Earth Scaling and Overall Visualization from High Altitudes !!\n\n**4.** **Tons and tons** of code optimizations for computing performance !"
             }
         ],
         "on_rookie": true,
@@ -101,16 +97,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 475561,
-        "changelog_update": 477841,
+        "changelog_update": 477937,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477913,
+        "rating_update": 477937,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477913,
+        "last_update": 477937,
         "category": "APPS",
-        "votes": 117,
-        "rating": 4.008547,
+        "votes": 118,
+        "rating": 4.016949,
         "weighted_rating": 3.9
     },
     "errors": []
