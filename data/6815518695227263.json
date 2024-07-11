@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.2",
+                "change_log": "### Version 1.2 - 10/7/24\n\n#### Bug Fixes\n\n- Fixed an issue where the continue button would not show when attempting to connect to GoPro\n- Fixed an issued where no bluetooth device would show when attempting to scan for devices"
+            },
+            {
                 "version": "1.1",
                 "change_log": "Version 1.1 - 30/5/24\n\nAdditions\n\n- Added support for 180 degree media (Single Fisheye)\n- Added support for Insta360 X4\n- Added a button to allow the user to skip the current downloading media\n\nReworks\n\n- Downloads will now show show the following information\n  - Progression of download\n  - Current download speed\n- Downloads that don't finish before closing the app can now be resumed by reconnecting to the camera\n- Swapping a media's projection type has been merged into a multistate button\n- Changed password text to better reflect changes from Insta360 X4\n\nBug Fixes\n\n- Naming a slideshow to the same as an existing slideshow no longer softlocks the user\n- Permissions are now requested consecutively\n- 2D images now resize appropriately when changing projection type\n- 2D images now correctly display portrait images\n- Slideshows now removed from main menu once deleted\n- Large shape that appeared in videos, blocking most of the view, is now gone\n- Fixed memory leak when moving to next slide when a video was playing\n- Fixed an issue that prevented the user from back-tracking after changing connected wifi"
             },
@@ -112,13 +116,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476977,
+        "changelog_update": 477961,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476521,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477673,
+        "last_update": 477961,
         "category": "APPS",
         "votes": 3,
         "rating": 3.0,
