@@ -49,7 +49,7 @@
             },
             {
                 "rating": 3,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 4,
@@ -82,6 +82,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "4.0.5.10835",
+                "change_log": "Improvements\n-Added seconds option to the hover effect\n-Added notifications in Join Space view\n-Changed the input method for interactivity\n-Implemented new objects grabbing mapping\n-Added a toggle in the viewpoint tab to show/hide viewpoints on the scene\n-Made tool switcher always accessible, even when pointing at the menu or in ray mode\n-Allowed users to toggle off teleport to viewpoints in play mode\n-Swapped \"Bend Vertically\" and \"Bend Horizontally\" labels in properties for Procedural Meshes\n-Improved the speed of switching between selection modes\n-Added viewpoint preview when selecting a viewpoint via scrollable field\n-Added dialog to show if unable to connect to shared room-scale session\n\nBug Fixes\n-Fixed exception when deleting viewpoints (in collab ?)\n-Fixed issue where the \"Move to Scene\" button is absent, preventing objects from being moved from the background to the scene\n-Gaze & Pinch now works in the Lobby\n-Fixed paint tool opacity not working\n-Fixed exception while recording a holonote\n-Fixed inability to export selected objects\n-Fixed issue where opacity couldn't be changed via the Inspector\n-Fixed issue where picked color in VR isn't applied to the palette\n-Fixed issue where material type is shown for the previously selected object\n-Fixed issue where material pop-up is useless for text in VR\n-Fixed effect strength slider not working for Prototyping\n-Fixed notification issue where free users were incorrectly notified that they can start the presentation\n-Fixed exception when grabbing objects in a certain space\n-Fixed undo functionality not working properly with colorizing text\n-Fixed issue where the scene card overlaps the UI\n-Fixed issue where interactions stay in the background when the object is transferred to the scene\n-Fixed font size value being out of mask in the Text Inspector\n-Fixed incorrect eye dropper modes from different pop-ups in the Web Editor\n-Fixed exception when grabbing the object with two grips (Ti.Interactions.Grab.GrabInteractor 2\n(Interactable, Target&, SelectionContext))\n-Fixed FPS drops when using gizmo\n-Fixed issue where scene interactivities aren't copied with the scene\n-Fixed issue where text doesn't fit in the dropdown list\n-Fixed issue where the background disappears when hovering over some buttons\n-Pop-up is now placed centered and aligned at the top\n-Polished trigger naming across all areas\n-Fixed error after pause on the client side\n-Fixed issue where different eye dropper modes via controller buttons don't work in VR\n-Restricted holonote recording to only be available if microphone permission is granted\n-Fixed exception with Orientation buttons when there is no preview\n-Fixed exception after entering the space after duplicating an object with interactivity\n-Avatars now turn into headsets in Shared anchors mode\n-Fixed issue where users couldn't join shared room for the second time\n-Fixed issue where UI is not blocked during presentation\n-Fixed issue where large values for aligning boundaries can break everything\n-Fixed non-functional settings in the Prototyping section\n-Fixed issue where showing holonotes in space doesn't work\n-Fixed issue where the keyboard isn't closed after tool switching\n-Fixed issue where one line text moves when symbols are added to it\n-Fixed issue where text flies during creation\n-Fixed issue where text in some samples is shifted\n-Fixed issue where target scene couldn't be chosen except for the first scene for interactivity in the background\n-Fixed issue where text bounds stay in empty air\n-Fixed issue where numpad values aren't applied for target scene in the interactivities\n-Fixed when you switching target scene in the background you leave the background"
+            },
             {
                 "version": "4.0.4.10771",
                 "change_log": "New Features and Improvements\n\nImplemented new objects grabbing mapping.\n-Interactivity sound continues playing even if the stage is switched.\n-Tool switcher is always accessible, even when pointing at the menu or in ray mode.\n-Locomotion system improvements.\n-Support for Gizmo based on size for Procedural Meshes.\n-Added license info to assets in the library.\n-Applied current color only to primitives, not to assets.\n-Edit target scene in interactivity like a numeric scrollable field.\n-Added new setting to enter anchor mode.\n\nBug Fixes\n\n-Fixed labels with text sizes not displaying correctly.\n-Corrected information about the number of available spaces when loading space for free users.\n-Fixed text bounds not being in the correct position.\n-Resolved issue where users could not create new spaces in VR after the trial period ended.\n-Fixed typos in the assets.\n-Fixed slider values not changing with the slider.\n-Material type now updates correctly after changing the material via eyedropper.\n-Resolved issue where free users couldn't create spaces from a sample right after app opening.\n-Reworked text inter + fitting from inspector side.\n-Fixed missing three dots in toast notifications.\n-Prioritized grab for selected objects when one object is inside another.\n-Fixed incorrect visual for different eye-dropper modes.\n-Resolved issue where the old keyboard couldn't be used in the text tool until all hand menu pop-ups were closed.\n-Fixed snapping to walls not working.\n-Resolved issue where the eyedropper didn't work.\n-Fixed selection ray being interrupted by walls.\n-Fixed issue where roomscale mode couldn't be accessed after changing physical space.\n-Corrected permissions shown in Share panel.\n-Sounds uploaded into Shared files now appear while adding an interactivity.\n-Resolved issue where gizmo didn't appear after text creation.\n-Fixed text tool becoming useless after the first text creation.\n-Fixed text size not being applied.\n-Resolved issue where the keyboard didn't close after tool switching.\n-Fixed text moving when changing its boundaries.\n-Resolved issue where the keyboard didn't open during text creation if the Material tab was active in the Text Inspector."
@@ -121,10 +125,6 @@
             {
                 "version": "2.3.6.9449",
                 "change_log": "New sample"
-            },
-            {
-                "version": "2.3.5.9445",
-                "change_log": "Improvements:\n-Improved text display for the Scale Gizmo (now shows scale instead of size).\n-Implemented axis line display on the gizmo handle when touched.\n-Enhanced switching between the surface snapping and world snapping buttons.\n-Added additional import resolution UI options: 0.33, 0.25, 0.1.\n-Implemented extra authentication protection during device pauses.\n-Enabled shadows by default in new spaces.\n\nFixes:\n-Fixed the issue where the \"Increase Quality\" button was on by default for new spaces.\n-Resolved the issue preventing device pairing when the time is set manually.\n-Corrected the malfunction of shadows in Play mode.\n-Fixed several errors occurring during Play mode with interactivity.\n-Resolved incorrect offset in Play mode when content aligns with user space.\n-Fixed the issue where pop-up forms were not interactable in Play mode.\n-Renamed the template for clarity.\n-Improved user authentication analytics processing and transmission.\n-Fixed the issue where the previously selected tool stops working after exiting Play mode.\n-Addressed a specific error occurring during Play mode with interactivity."
             }
         ],
         "on_rookie": false,
@@ -135,10 +135,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477841,
+        "changelog_update": 478009,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 477985,
+        "rating_update": 478009,
         "iarc_detail_update": 475000,
         "keywords": [
             "design",
@@ -146,10 +146,10 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 477985,
+        "last_update": 478009,
         "category": "APPS",
-        "votes": 313,
-        "rating": 4.140575,
+        "votes": 314,
+        "rating": 4.136943,
         "weighted_rating": 4.1
     },
     "errors": []
