@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "6.3.0-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Added two sliders to the color menu when grabbing a textured object that allow you to adjust the scale and rotation of textures applied to objects.\n- (Enterprise feature) Introduced a beta feature for some organizations where very high-poly FBX, STL and DAE files imported from LandingPad will now import decimated versions to improve performance.\n- Made various visual and functional improvements to the lobby File Manager:\n    - (Enterprise feature) Can now move Collab rooms into folders.\n    - Collab rooms can now exist in Personal Files.\n    - Collab rooms can be moved with the clipboard.\n    - Added a purple highlight when hovering over files.\n    - Added a prompt when creating a new file asking whether you’d like to create a sketch or Collab room.\n    - Unified what was previously called “Personal Files” and “My Files”\n    - Added a filter for Collab rooms which is enabled by default in the LandingPad Collab menu.\n    - All types of files and rooms can now be accessed from either the File Manager or LandingPad Collab menu.\n    - Merged the \"Shared with me\" tab, which is now always present and shows all shared Collab rooms, regardless of if they are from community users or from different organizations.\n- Added a Settings cog icon to the bottom bar in the lobby.\n- Added a way for community users who are in too many Collab rooms to bulk remove themselves from rooms.\n- Added Community Designs menu to lobby.\n- Objects can now snap to their original position when moving them via Smart Move or the Selection tool.\n- Increased the default size of tutorial videos.\n- Renamed “Link to Device” option to “Link to Account”  and added a popup further explaining the option.\n- Added measurement readouts to the bounding box edges when grabbing and moving objects with the shift trigger.\n- Improved appearance of the first and last segments of strokes on standalone.\n- Added support for MX Ink MR Stylus.\n\n🐛 Bug Fixes\n\n- Fixed an issue that could cause layer groups to become undeletable in Collab.\n- Fixed very large scale imported objects sometimes appearing as completely black.\n- Expired organizations are now marked as such in the lobby.\n- Fixed the “Increment” toggle displaying as on by default when the option is in fact disabled.\n- The Selection gumball now repositions itself correctly when toggling the “Restrict to Mirror” setting.\n- Fixed an issue that could cause users to become stuck at a very small sketch scale.\n- You can now re-order other users layers.\n- Fixed issues with folders in the Import Library containing “+” in their names.\n- Fixed error on recent file in lobby when logging out and back in after accessing a Collab room.\n- Loading a sketch with only one layer no longer creates a second empty layer on load.\n- Added missing videos to various lobby menus when not logged into LandingPad.\n- Fixed thickened subdivision objects exported as control mesh FBX files being uneditable in some third party software.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Numpad keys can now be used to switch between camera views.\n- Can now export rooms as GIF files.\n- Added Timelapse and Viewpoint Flythrough options to MP4 export\n\n🐛 Bug Fixes\n\n- Fixed inaccuracies in presentation and ordering of layers in a followed VR user’s Layers menu.\n- If you manually set an order to viewpoints in a room it now carries across when the room is saved as a sketch.\n- Improved scale of laser pointer.\n- Added line breaks to some export preset names to make them fully readable.\n- The Left and Right camera views are no longer reversed.\n- Fixed sketch geometry z-fighting with the screenshot save menu when in orthographic view on macOS.\n- Double clicking on a mirrored copy of an object now focuses the camera on that object rather than its original."
+            },
+            {
+                "version": "6.3.0-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Added two sliders to the color menu when grabbing a textured object that allow you to adjust the scale and rotation of textures applied to objects.\n- (Enterprise feature) Introduced a beta feature for some organizations where very high-poly FBX, STL and DAE files imported from LandingPad will now import decimated versions to improve performance.\n- Made various visual and functional improvements to the lobby File Manager:\n    - (Enterprise feature) Can now move Collab rooms into folders.\n    - Collab rooms can now exist in Personal Files.\n    - Collab rooms can be moved with the clipboard.\n    - Added a purple highlight when hovering over files.\n    - Added a prompt when creating a new file asking whether you’d like to create a sketch or Collab room.\n    - Unified what was previously called “Personal Files” and “My Files”\n    - Added a filter for Collab rooms which is enabled by default in the LandingPad Collab menu.\n    - All types of files and rooms can now be accessed from either the File Manager or LandingPad Collab menu.\n    - Merged the \"Shared with me\" tab, which is now always present and shows all shared Collab rooms, regardless of if they are from community users or from different organizations.\n- Added a Settings cog icon to the bottom bar in the lobby.\n- Added a way for community users who are in too many Collab rooms to bulk remove themselves from rooms.\n- Added Community Designs menu to lobby.\n- Objects can now snap to their original position when moving them via Smart Move or the Selection tool.\n- Increased the default size of tutorial videos.\n- Renamed “Link to Device” option to “Link to Account”  and added a popup further explaining the option.\n- Added measurement readouts to the bounding box edges when grabbing and moving objects with the shift trigger.\n- Improved appearance of the first and last segments of strokes on standalone.\n- Added support for MX Ink MR Stylus.\n\n🐛 Bug Fixes\n\n- Fixed an issue that could cause layer groups to become undeletable in Collab.\n- Fixed very large scale imported objects sometimes appearing as completely black.\n- Expired organizations are now marked as such in the lobby.\n- Fixed the “Increment” toggle displaying as on by default when the option is in fact disabled.\n- The Selection gumball now repositions itself correctly when toggling the “Restrict to Mirror” setting.\n- Fixed an issue that could cause users to become stuck at a very small sketch scale.\n- You can now re-order other users layers.\n- Fixed issues with folders in the Import Library containing “+” in their names.\n- Fixed error on recent file in lobby when logging out and back in after accessing a Collab room.\n- Loading a sketch with only one layer no longer creates a second empty layer on load.\n- Added missing videos to various lobby menus when not logged into LandingPad.\n- Fixed thickened subdivision objects exported as control mesh FBX files being uneditable in some third party software.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Numpad keys can now be used to switch between camera views.\n- Can now export rooms as GIF files.\n- Added Timelapse and Viewpoint Flythrough options to MP4 export\n\n🐛 Bug Fixes\n\n- Fixed inaccuracies in presentation and ordering of layers in a followed VR user’s Layers menu.\n- If you manually set an order to viewpoints in a room it now carries across when the room is saved as a sketch.\n- Improved scale of laser pointer.\n- Added line breaks to some export preset names to make them fully readable.\n- The Left and Right camera views are no longer reversed.\n- Fixed sketch geometry z-fighting with the screenshot save menu when in orthographic view on macOS.\n- Double clicking on a mirrored copy of an object now focuses the camera on that object rather than its original."
+            },
+            {
                 "version": "6.2.24-generalqog",
                 "change_log": "🐛 Bug Fixes\n\n- Fixed imported GLB files sometimes incorrectly adopting the textures of previously imported GLB files.\n- Enabling the “Use Gumdrop” option while a custom HDR is in place will no longer prevent you from using passthrough."
             },
@@ -116,22 +124,6 @@
             {
                 "version": "6.2.18-generalqc",
                 "change_log": "🚀 Features & Improvements\n\n- Stage floor now follows center of sketch and more accurately represents its size; introduced experimental “grid” option\n- Collab thumbnails now update on leaving the room\n\n 🐛 Bug Fixes\n\n- Fixed a bug that caused users to be disconnected from Collab on minor connection fluctuations.\n- Fixed wrong light position on environment loading\n- Fixed not being able to log into Google via web browser\n- Fixed not being able to scale some menus and UI elements\n- Fixed jittery headset view when saving/exporting heavy files with SteamVR set as OpenXR Runtime"
-            },
-            {
-                "version": "6.2.16-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Updated fix for an issue that could sometimes cause imported opaque textures to be rendered as transparent.\n- Improved Collab connection stability on some networks."
-            },
-            {
-                "version": "6.2.16-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Updated fix for an issue that could sometimes cause imported opaque textures to be rendered as transparent.\n- Improved Collab connection stability on some networks."
-            },
-            {
-                "version": "6.2.13-generalqog",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly changed layout of export menu.\n\n🐛 Bug Fixes\n\n- Improves Collab stability in some network conditions."
-            },
-            {
-                "version": "6.2.13-generalqc",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly changed layout of export menu.\n\n🐛 Bug Fixes\n\n- Improves Collab stability in some network conditions."
             }
         ],
         "on_rookie": false,
@@ -142,7 +134,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477817,
+        "changelog_update": 478105,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 478081,
@@ -152,7 +144,7 @@
             "model",
             "design"
         ],
-        "last_update": 478081,
+        "last_update": 478105,
         "category": "APPS",
         "votes": 1093,
         "rating": 4.088747,

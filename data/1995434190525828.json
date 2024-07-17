@@ -51,7 +51,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 432
+                "votes": 433
             },
             {
                 "rating": 2,
@@ -63,11 +63,11 @@
             },
             {
                 "rating": 4,
-                "votes": 941
+                "votes": 942
             },
             {
                 "rating": 5,
-                "votes": 8295
+                "votes": 8296
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +92,14 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.332.3_2024.7.16.1.1.29.708",
+                "change_log": "0.332.3\n-improved lighting on ball in all environments\n-prep work for voip fix. (it's technically in the app, and you can test it if the other person is on the same version, but I need to get everyone on the new voip system and then I'll flip a server-side switch to flip everyone over)\n-for 2d mode, updated log flush to instant (from 10 seconds). some users were asking for this change for some live shot metrics analysis via logs. \n-for 2d mode, Join Room feature is now available if you click on a user in your friends list\n-brighter arena\n-friend status improvement\n"
+            },
+            {
+                "version": "0.274.51_2024.7.16.5.12.26.350",
+                "change_log": "0.274.51"
+            },
             {
                 "version": "0.327.2_2024.4.25.11.43.45.665",
                 "change_log": "0.327.2"
@@ -163,14 +171,6 @@
             {
                 "version": "0.310.9_2023.10.12.4.37.49.580",
                 "change_log": "0.310.9\nmixed reality environment reverse compatibility when playing users on older app versions"
-            },
-            {
-                "version": "0.310.7_2023.10.10.20.6.58.262",
-                "change_log": "0.310.7\n - moved the mixed reality to the 4th position in the environment selection because people couldn't find it (need to scroll down)\n0.310.6\n - offline / firewall issue fix\n - single player environment fix\n\n0.310.5\n - guest login fix\n - keyboard fix\n - environment load fix\n\n0.310.4\n - quest 3 and pro controllers\n - mixed reality (for quest 2,3,pro)\n - a lot performance improvements\n - new splash screen\n - audio improvements\n - environment collider fixes\n - logging updates\n - some room positioning fixes\n - spin / throw limit functionality\n - overlay fix"
-            },
-            {
-                "version": "0.310.6_2023.10.10.15.37.59.56",
-                "change_log": "0.310.6\n - offline / firewall issue fix\n - single player environment fix\n\n0.310.5\n - guest login fix\n - keyboard fix\n - environment load fix\n\n0.310.4\n - quest 3 and pro controllers\n - mixed reality (for quest 2,3,pro)\n - a lot performance improvements\n - new splash screen\n - audio improvements\n - environment collider fixes\n - logging updates\n - some room positioning fixes\n - spin / throw limit functionality\n - overlay fix"
             }
         ],
         "on_rookie": true,
@@ -181,20 +181,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476161,
+        "changelog_update": 478105,
         "keyword_update": 475633,
         "tag_update": 477913,
-        "rating_update": 478081,
+        "rating_update": 478105,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 478081,
+        "last_update": 478105,
         "category": "GAMES",
-        "votes": 10085,
-        "rating": 4.637977,
+        "votes": 10088,
+        "rating": 4.637589,
         "weighted_rating": 4.6
     },
     "errors": []

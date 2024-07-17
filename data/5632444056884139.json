@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 43
+                "votes": 44
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031396_3420406211573513_3029370816106818349_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.0",
+                "change_log": "[Improvement] Enabled the ability to reconnect to a multiplayer game after disconnection.\n[Improvement] Ensured the menu consistently faces the player after resetting the VR space in the main menu.\n[Improvement] Made the pause menu accessible during the intro sequence.\n[Improvement] Added a notification when entering multiplayer mode without a network connection.\n[Other] Extended the AFK timer in multiplayer from 60 seconds to 90 seconds."
+            },
             {
                 "version": "1.4.0",
                 "change_log": "[New Feature] Added Assist Mode, offering a set of customizable settings to enhance your gameplay experience:\n- Unlimited Respawns: Respawn without the need for stamps.\n- Add Assist Elements: Adds extra platforms to make difficult sections easier and provides hints for mandatory puzzles.\n- Highlight Pickup Items: Beams of light will highlight every gift and key, making them easier to find.\n- Timeless Challenges: Removes timers from all time-based challenges.\n- Power-Up Shield: Prevents loss of power-ups when taking damage.\n- Game Over Shop: Choose any power-up from the shop when you die, instead of receiving a random one.\n[New Feature] Added a shooting challenge to the lobby. Shoot all targets and compete for the best time.\n[New Feature] Added musical instruments to the lobby for players to interact with.\n[New Feature] Added a rabbit character that hides somewhere in the lobby. Find it, and it will hide again.\n[Fix] Resolved white noise flickering on edges.\n[Improvement] Redesigned the game over screen button layout for better clarity and usability.\n[Other] Changed the random power-up selection on the game over screen to occur after purchase instead of before.\n[Improvement] Enhanced the random selection process for game sets in the multiplayer arena to ensure a more even distribution of game modes. It now selects three different random game modes first and then chooses random levels that correspond to each mode.\n[Improvement] Minor performance optimization's.\n[Improvement] Added a dynamic refresh rate feature that allows the game to step down from 90Hz to 72Hz in demanding situations, ensuring a stable framerate."
@@ -105,16 +109,16 @@
         "language_update": 475001,
         "platform_update": 475001,
         "player_mode_update": 475001,
-        "changelog_update": 477985,
+        "changelog_update": 478105,
         "keyword_update": 475001,
         "tag_update": 475001,
-        "rating_update": 478009,
+        "rating_update": 478105,
         "iarc_detail_update": 475001,
         "keywords": [],
-        "last_update": 478009,
+        "last_update": 478105,
         "category": "GAMES",
-        "votes": 49,
-        "rating": 4.816327,
+        "votes": 50,
+        "rating": 4.82,
         "weighted_rating": 4.6
     },
     "errors": []
