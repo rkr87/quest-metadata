@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -77,6 +77,10 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.3.2-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an occasional error that could prevent the user from performing most sketch actions."
+            },
             {
                 "version": "6.3.0-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- Added two sliders to the color menu when grabbing a textured object that allow you to adjust the scale and rotation of textures applied to objects.\n- (Enterprise feature) Introduced a beta feature for some organizations where very high-poly FBX, STL and DAE files imported from LandingPad will now import decimated versions to improve performance.\n- Made various visual and functional improvements to the lobby File Manager:\n    - (Enterprise feature) Can now move Collab rooms into folders.\n    - Collab rooms can now exist in Personal Files.\n    - Collab rooms can be moved with the clipboard.\n    - Added a purple highlight when hovering over files.\n    - Added a prompt when creating a new file asking whether you’d like to create a sketch or Collab room.\n    - Unified what was previously called “Personal Files” and “My Files”\n    - Added a filter for Collab rooms which is enabled by default in the LandingPad Collab menu.\n    - All types of files and rooms can now be accessed from either the File Manager or LandingPad Collab menu.\n    - Merged the \"Shared with me\" tab, which is now always present and shows all shared Collab rooms, regardless of if they are from community users or from different organizations.\n- Added a Settings cog icon to the bottom bar in the lobby.\n- Added a way for community users who are in too many Collab rooms to bulk remove themselves from rooms.\n- Added Community Designs menu to lobby.\n- Objects can now snap to their original position when moving them via Smart Move or the Selection tool.\n- Increased the default size of tutorial videos.\n- Renamed “Link to Device” option to “Link to Account”  and added a popup further explaining the option.\n- Added measurement readouts to the bounding box edges when grabbing and moving objects with the shift trigger.\n- Improved appearance of the first and last segments of strokes on standalone.\n- Added support for MX Ink MR Stylus.\n\n🐛 Bug Fixes\n\n- Fixed an issue that could cause layer groups to become undeletable in Collab.\n- Fixed very large scale imported objects sometimes appearing as completely black.\n- Expired organizations are now marked as such in the lobby.\n- Fixed the “Increment” toggle displaying as on by default when the option is in fact disabled.\n- The Selection gumball now repositions itself correctly when toggling the “Restrict to Mirror” setting.\n- Fixed an issue that could cause users to become stuck at a very small sketch scale.\n- You can now re-order other users layers.\n- Fixed issues with folders in the Import Library containing “+” in their names.\n- Fixed error on recent file in lobby when logging out and back in after accessing a Collab room.\n- Loading a sketch with only one layer no longer creates a second empty layer on load.\n- Added missing videos to various lobby menus when not logged into LandingPad.\n- Fixed thickened subdivision objects exported as control mesh FBX files being uneditable in some third party software.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Numpad keys can now be used to switch between camera views.\n- Can now export rooms as GIF files.\n- Added Timelapse and Viewpoint Flythrough options to MP4 export\n\n🐛 Bug Fixes\n\n- Fixed inaccuracies in presentation and ordering of layers in a followed VR user’s Layers menu.\n- If you manually set an order to viewpoints in a room it now carries across when the room is saved as a sketch.\n- Improved scale of laser pointer.\n- Added line breaks to some export preset names to make them fully readable.\n- The Left and Right camera views are no longer reversed.\n- Fixed sketch geometry z-fighting with the screenshot save menu when in orthographic view on macOS.\n- Double clicking on a mirrored copy of an object now focuses the camera on that object rather than its original."
@@ -134,7 +138,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478105,
+        "changelog_update": 478129,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 478081,
@@ -144,7 +148,7 @@
             "model",
             "design"
         ],
-        "last_update": 478105,
+        "last_update": 478129,
         "category": "APPS",
         "votes": 1093,
         "rating": 4.088747,
