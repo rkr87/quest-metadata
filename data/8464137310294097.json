@@ -27,10 +27,10 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 189
+                "votes": 190
             },
             {
                 "rating": 2,
@@ -49,15 +49,15 @@
             },
             {
                 "rating": 3,
-                "votes": 68
+                "votes": 71
             },
             {
                 "rating": 4,
-                "votes": 203
+                "votes": 204
             },
             {
                 "rating": 5,
-                "votes": 1641
+                "votes": 1650
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,10 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "All recent VRFS updates"
+            },
             {
                 "version": "0.1",
                 "change_log": "# PATCH-UPDATE 0.3.8\n\n- Enhanced and fixed multiplayer sync \n(we're still looking for ways to make it better, and we appreciate your feedback)\n- Major optimizations for custom arenas\n- Fixed block colors in the arena editor\n- Adjusted ball bouncing off walls in custom arenas\n- Fixed issue with creating public lobbies from custom arena codes\n"
@@ -158,10 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.2.9\n\n- Entering lobbies is now faster\n- Private lobby slots increased to 30 (experimental)\n- Avatars updated\n- Avatars move more smoothly\n- Bug fixes\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.2.9\n\n- Entering lobbies is now faster\n- Private lobby slots increased to 30 (experimental)\n- Avatars updated\n- Avatars move more smoothly\n- Bug fixes\n"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478129,
+        "changelog_update": 478166,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478129,
+        "rating_update": 478166,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478129,
+        "last_update": 478166,
         "category": "GAMES",
-        "votes": 2146,
-        "rating": 4.426841,
+        "votes": 2160,
+        "rating": 4.425463,
         "weighted_rating": 4.4
     },
     "errors": []

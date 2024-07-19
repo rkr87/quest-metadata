@@ -106,6 +106,14 @@
         },
         "changelog": [
             {
+                "version": "6.0.73",
+                "change_log": "Bugfix return to idle animation"
+            },
+            {
+                "version": "6.0.71",
+                "change_log": "Improve bot animations for locomotion."
+            },
+            {
                 "version": "6.0.70",
                 "change_log": "Update bot animation logic for overhead shots"
             },
@@ -168,18 +176,6 @@
             {
                 "version": "6.0.43",
                 "change_log": "Bugfix Meta Avatar assets not loading for bot"
-            },
-            {
-                "version": "6.0.42",
-                "change_log": "Update serve prepare animation"
-            },
-            {
-                "version": "6.0.41",
-                "change_log": "Update bot hand pose and locomotion"
-            },
-            {
-                "version": "6.0.40",
-                "change_log": "Reduce game load time. Bugfix bot avatar clothes sizing. Update paddle orientation for bot."
             }
         ],
         "on_rookie": true,
@@ -190,13 +186,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478129,
+        "changelog_update": 478166,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 478081,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478129,
+        "last_update": 478166,
         "category": "GAMES",
         "votes": 234,
         "rating": 4.200855,

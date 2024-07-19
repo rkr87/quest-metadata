@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 10
+                "votes": 11
             }
         ],
         "comfort": "NOT_RATED",
@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.1",
+                "change_log": "Fix a bug causing problems when launching the app while not connected to the internet"
+            },
+            {
                 "version": "1.4.0",
                 "change_log": "WildXR 1.4.0 Release Notes\nWe're excited to announce the release of WildXR 1.4.0, featuring a significant upgrade to our video streaming service. This update will allow us to provide higher-resolution videos in the future, allowing for an even more immersive wildlife experience. To ensure the best possible performance, we recommend downloading videos rather than streaming them, as this will provide a smoother viewing experience regardless of internet speeds or connectivity issues.\nTo take full advantage of these improvements, we suggest uninstalling your current WildXR application (version 1.3.1) and performing a clean installation of version 1.4.0. This process will ensure you have the most stable and feature-rich version of WildXR.\nPreserving Your Downloaded Videos\nIf you have previously downloaded videos and wish to keep them:\nBefore uninstalling, move the \"downloads\" folder from \"C:\\Users[YourUserNameHere]\\AppData\\LocalLow\\Wildlife Protection Solutions\\WildXR\" to your desktop.\nUninstall WildXR 1.3.1, install version 1.4.0, and then move the \"downloads\" folder back to its original location.\nThis will allow you to retain all your favorite wildlife content while enjoying the benefits of the latest version."
             },
@@ -82,24 +86,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 477673,
+        "general_update": 478166,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478129,
+        "changelog_update": 478166,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477673,
+        "rating_update": 478166,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478129,
+        "last_update": 478166,
         "category": "APPS",
-        "votes": 20,
-        "rating": 3.25,
-        "weighted_rating": 3.3
+        "votes": 21,
+        "rating": 3.333333,
+        "weighted_rating": 3.4
     },
     "errors": []
 }
