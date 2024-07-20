@@ -106,6 +106,14 @@
         },
         "changelog": [
             {
+                "version": "6.0.75",
+                "change_log": "Bugfix doubles regression. Default bot avatars are full body for doubles."
+            },
+            {
+                "version": "6.0.74",
+                "change_log": "Bugfix doubles initial positions"
+            },
+            {
                 "version": "6.0.73",
                 "change_log": "Bugfix return to idle animation"
             },
@@ -168,14 +176,6 @@
             {
                 "version": "6.0.46",
                 "change_log": "Add checkbox enable/disable end of game celebration."
-            },
-            {
-                "version": "6.0.44",
-                "change_log": "Make youtube the default webpage for browser"
-            },
-            {
-                "version": "6.0.43",
-                "change_log": "Bugfix Meta Avatar assets not loading for bot"
             }
         ],
         "on_rookie": true,
@@ -186,13 +186,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478166,
+        "changelog_update": 478177,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 478081,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478166,
+        "last_update": 478177,
         "category": "GAMES",
         "votes": 234,
         "rating": 4.200855,

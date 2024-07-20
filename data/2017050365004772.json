@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 6760
+                "votes": 6762
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -95,6 +95,14 @@
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Guardian boundary will now be hidden in the Passthrough environment on Quest\n• Added option to show/hide the boundary with the VR Passthrough feature on Quest\n• Screens will now be snapped together when they are arranged\n• Removed gap between fully curved floating screens\n• 'A' button now interacts with menus/toolbars in addition to trigger\n• Keyboard improvements including ISO layout support and Azerty remapping\n• Fixed keyboard movement at non-leveled orientations\n• Added Media key binding to Xbox guide with gamepad emulation\n• Fixed ability to grab screen with grip when watching videos\n• Fixed black screen issue on macOS with some AMD graphics cards\n• Improved streaming performance with 2 or 3 monitors on macOS\n• Fixed issues with OpenKneeboard\n• Fixed issue with WebXR controller orientation with VDXR\n• Fixed loading UI disappearing in Asgard's Wrath\n• Fixed game compatibility with: Contractors showdown (when launched from games tab)"
             },
             {
+                "version": "1.32.9.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Guardian boundary will now be hidden in the Passthrough environment on Quest\n• Added option to show/hide the boundary with the VR Passthrough feature on Quest\n• Screens will now be snapped together when they are arranged\n• Removed gap between fully curved floating screens\n• 'A' button now interacts with menus/toolbars in addition to trigger\n• Keyboard improvements including ISO layout support and Azerty remapping\n• Fixed keyboard movement at non-leveled orientations\n• Added Media key binding to Xbox guide with gamepad emulation\n• Fixed ability to grab screen with grip when watching videos\n• Fixed black screen issue on macOS with some AMD graphics cards\n• Improved streaming performance with 2 or 3 monitors on macOS\n• Fixed issues with OpenKneeboard\n• Fixed issue with WebXR controller orientation with VDXR\n• Fixed loading UI disappearing in Asgard's Wrath\n• Fixed game compatibility with: Contractors showdown (when launched from games tab)"
+            },
+            {
+                "version": "1.32.9.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Guardian boundary will now be hidden in the Passthrough environment on Quest\n• Added option to show/hide the boundary with the VR Passthrough feature on Quest\n• Screens will now be snapped together when they are arranged\n• Removed gap between fully curved floating screens\n• 'A' button now interacts with menus/toolbars in addition to trigger\n• Keyboard improvements including ISO layout support and Azerty remapping\n• Fixed keyboard movement at non-leveled orientations\n• Added Media key binding to Xbox guide with gamepad emulation\n• Fixed ability to grab screen with grip when watching videos\n• Fixed black screen issue on macOS with some AMD graphics cards\n• Improved streaming performance with 2 or 3 monitors on macOS\n• Fixed issues with OpenKneeboard\n• Fixed issue with WebXR controller orientation with VDXR\n• Fixed loading UI disappearing in Asgard's Wrath\n• Fixed game compatibility with: Contractors showdown (when launched from games tab)"
+            },
+            {
                 "version": "1.32.5.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR\n• Screens can now be moved without hiding the keyboard\n• Fixed issue with keyboard appearing too far or behind the screen\n• Fixed detection of hardware encoder at startup which could prevent multi-monitor from working\n• Fixed lingering Streamer icon in the system tray when switching users\n• Fixed microphone pops\n• Fixed issue with 32-bit games in VDXR"
             },
@@ -149,14 +157,6 @@
             {
                 "version": "1.30.0.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option to forward tracking data (face/eye/hand/body) to the PC via the VDXR runtime. Games will need to support the required OpenXR extensions to make use of those.\n• Added icon in Performance Overlay when using encrypted traffic\n• Added render resolution percentage and max bitrate to Performance Overlay\n• Added support for TeamBeef modded games to appear in the Games tab\n• Added new music tracks\n• Added ability to change the screenshots folder location (Media tab in the Streamer window)\n• Added option in Input tab to disable menu hold to switch out of VR\n• Improved support for Ultrawide monitors \n• Virtual monitor driver now supports up to 4k @ 120 (up from 2560x1440)\n• Now preventing disconnection when videos are being downloaded\n• Hand beams are now hidden when interact with desktop is unchecked\n• Re-added basic hand gestures for trigger and grip when using hand tracking in VR games\n• Fixed GPU memory leak on the PC side\n• Fixed slow decoding when using AMD 6450 and 6550 graphic cards\n• Fixed Turkish keyboard layout\n• Fixed 32-bit compatibility issue with some VR games\n• Fixed missing Korean characters in Videos tab and subtitles\n• Fixed game compatibility with: Tetris Effect, Premium Bowling, Battle Talent, Paradiddle. Hubris will now use VDXR by default\n• Fixed controller offsets with VDXR in Ghosts of Tabor and Contractors VR\n• Fixed issue with X-Plane 12 when re-entering VR\n• Fixed issues with player height with REFramework and UEVR\n• Lowered the trigger activation threshold in VDXR to match Oculus Link's behavior"
-            },
-            {
-                "version": "1.29.10.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added a 'Show Games tab on connect' option in the Settings tab\n• Added AV1 playback of local videos on Quest 3\n• Increased SSW area radius on Quest 3\n• Remapped Menu button to X+Y (pressed simultaneously) for OpenXR games running through SteamVR (useful for Zenith & Ghosts of Tabor)\n• Fixed desktop streaming issue with Windows 11 23H2\n• Fixed high network latency when streaming remotely\n• Fixed name sorting in Videos tab to be more natural\n• Fixed VDXR compatibility with Minecraft bedrock and UWP apps on Windows\n• Fixed compatibility with vrperfkit in Oculus mode\n• Fixed game compatibility with: Dreadhalls, FNAF intro screens, Pulsar: Lost Colony, Star Wars Pinball VR"
-            },
-            {
-                "version": "1.29.10.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added a 'Show Games tab on connect' option in the Settings tab\n• Added AV1 playback of local videos on Quest 3\n• Increased SSW area radius on Quest 3\n• Remapped Menu button to X+Y (pressed simultaneously) for OpenXR games running through SteamVR (useful for Zenith & Ghosts of Tabor)\n• Fixed desktop streaming issue with Windows 11 23H2\n• Fixed high network latency when streaming remotely\n• Fixed name sorting in Videos tab to be more natural\n• Fixed VDXR compatibility with Minecraft bedrock and UWP apps on Windows\n• Fixed compatibility with vrperfkit in Oculus mode\n• Fixed game compatibility with: Dreadhalls, FNAF intro screens, Pulsar: Lost Colony, Star Wars Pinball VR"
             }
         ],
         "on_rookie": false,
@@ -167,19 +167,19 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478105,
+        "changelog_update": 478177,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 478166,
+        "rating_update": 478177,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "movie"
         ],
-        "last_update": 478166,
+        "last_update": 478177,
         "category": "APPS",
-        "votes": 8924,
-        "rating": 4.290901,
+        "votes": 8926,
+        "rating": 4.29106,
         "weighted_rating": 4.2
     },
     "errors": []
