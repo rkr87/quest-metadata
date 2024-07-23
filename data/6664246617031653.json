@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "4.4",
+                "change_log": "-Added sorting option to Plex library movie listings.   Now you can sort by date added, duration, critic rating, etc.  Not available for all other modes\n"
+            },
+            {
                 "version": "4.3",
                 "change_log": " -Added 3D frame option\n -Fixed some memory leaks\n -Minor bug fixes\n\n"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2.4",
                 "change_log": "- Improved browser for handling libraries with almost infinite files. Browser recycles thumbnails and doesn't slow down depending on how many movies you have\n- Browser scrolling at a constant speed using controllers\n- Movie info now shows video resolution\n- Added format to movie titles (3D, 180 or 360)\n"
-            },
-            {
-                "version": "2.3",
-                "change_log": "-Fixed a bug with the scene selection that could prevent the app from starting properly"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477097,
+        "changelog_update": 478249,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478201,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478201,
+        "last_update": 478249,
         "category": "APPS",
         "votes": 73,
         "rating": 3.328767,

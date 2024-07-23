@@ -3,7 +3,7 @@
         "id": "5395586720470296",
         "app_name": "Rogue Ascent VR",
         "release_date": "2023-05-04T00:00:00.000Z",
-        "description": "\n# 👉Save the World with Finger Guns\n\nRogue Ascent VR is a roguelike shooter specially developed for Meta Quest hand-tracking technology.\n\nEquip, craft, and upgrade as you fight to save your homeworld from destruction!\n\n![{\"height\":768,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974758_309379288865212_8085647505397730814_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=j1M5oHcz9nQQ7kNvgESZQ86&_nc_ht=scontent.oculuscdn.com&oh=00_AYCnPHkkjXgX3UF6X9l3nG8y2xC-06OfauItzv17CRrcyQ&oe=66A36F39)\n\nBlast your way through a hostile space station with intuitive motion controls -- never lifting a controller\n- Make finger guns to shoot\n- Block with your fists\n- Reach out to dash around\n- Control the action entirely with your hands\n\nDynamic bosses chambers, unique character interactions, NPC companions, and online leaderboards will challenge you in new ways for every run.\n\nTwitch Integration allows the audience to help (or hinder) a streamer’s run by spawning items, throwing confetti, and even hiring bounty hunters!\n- Everything is customizable, so it's up to each streamer to choose what their viewers can and can't unleash.\n\n================================\n\n# 🛠️Sandbox Update\n\nYou can now control the pace of the action -- Rogue Ascent’s new sandbox mode lets you experiment with every element of the game’s hand-tracking combat. \n\nPlayers will be given access to a huge training facility equipped with weapon modding stations, quick-play scenarios, and NPC customization terminals. \n\nSerious or silly, The Sandbox is a space to get creative and test your talent. Here are a few of the new features you can expect to find in The Sandbox.\n\n- New NPCS\n- Sandbox Settings\n- Scenario Kiosks\n- Unlocked Crafting Tables\n- Unlocked Item Vending Shop",
+        "description": "\n# 👉Save the World with Finger Guns\n\nRogue Ascent VR is a roguelike shooter specially developed for Meta Quest hand-tracking technology.\n\nEquip, craft, and upgrade as you fight to save your homeworld from destruction!\n\n![{\"height\":768,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974758_309379288865212_8085647505397730814_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=j1M5oHcz9nQQ7kNvgEFFWPB&_nc_ht=scontent.oculuscdn.com&oh=00_AYAtNNWS8fH9wCSFCTBPNIYw-fPTZvtkUAZd2Ju_vUwKJw&oe=66A4C0B9)\n\nBlast your way through a hostile space station with intuitive motion controls -- never lifting a controller\n- Make finger guns to shoot\n- Block with your fists\n- Reach out to dash around\n- Control the action entirely with your hands\n\nDynamic bosses chambers, unique character interactions, NPC companions, and online leaderboards will challenge you in new ways for every run.\n\nTwitch Integration allows the audience to help (or hinder) a streamer’s run by spawning items, throwing confetti, and even hiring bounty hunters!\n- Everything is customizable, so it's up to each streamer to choose what their viewers can and can't unleash.\n\n================================\n\n# 🛠️Sandbox Update\n\nYou can now control the pace of the action -- Rogue Ascent’s new sandbox mode lets you experiment with every element of the game’s hand-tracking combat. \n\nPlayers will be given access to a huge training facility equipped with weapon modding stations, quick-play scenarios, and NPC customization terminals. \n\nSerious or silly, The Sandbox is a space to get creative and test your talent. Here are a few of the new features you can expect to find in The Sandbox.\n\n- New NPCS\n- Sandbox Settings\n- Scenario Kiosks\n- Unlocked Crafting Tables\n- Unlocked Item Vending Shop",
         "developer": "Nooner Bear Studio LLC",
         "publisher": "Clique Games LLC",
         "genres": [
@@ -80,6 +80,10 @@
         "changelog": [
             {
                 "version": "1.4.1",
+                "change_log": "V1.4.1\nModified:\nController-based UI Raycasting\nController input trigger to click UI\nEstablished separate PCVR leaderboards\nRemoved economy modifier from Sandbox Mode\nReduced default music volume\nIncreased recoil strength on crits\nIncreased weapon recoil recovery speed\n\nAdded:\nLocalization: Chinese, Japanese, Korean, German\n\nFixed:\nInvulnerable cheat preventing Sandbox quit\nSaved Run data being unloaded onto gamemode sessions\nHoly Medallion Wing Decal Placement\nModded weapon recoil bug"
+            },
+            {
+                "version": "1.4.1",
                 "change_log": "V1.4.1\nNew:\nModified:\nRemoved economy modifier from Sandbox Mode\nReduced default music volume\nIncreased recoil strength on crits\nIncreased weapon recoil recovery speed\nAdded:\nLocalization: Chinese, Japanese, Korean, German\nFixed:\nSaved Run data being unloaded onto gamemode sessions\nHoly Medallion Wing Decal Placement\nModded weapon recoil bug"
             },
             {
@@ -153,27 +157,23 @@
             {
                 "version": "1.2.0b21",
                 "change_log": "V1.2.0\nFeature Highlights:\nHolomage Campaign Boss\nBlind Status Effect\nLow Sensory Mode\nNew Weapons\nNew Perks\nNew:\nHolomage Boss Arena\nEnemy Blindness\nObjective Map Icons\nJester-Type Neutral Perks\nLow Sensory Setting Mode\nEnvironment Props\nAdded:\nNew Boss\nNew Perks\nNew Weapons:\nAtomizer\nPulse Rifle\nWeapon Overheat Mechanics\nWeapon Dialogue Lines\nBird Censor (with SFX)\nHolomage NPC Dialogues\nSensory Mode Settings Toggle\nHoloboard Props\nModified:\nMatchbox Perk incendiary effect now applies to base projectile\nAmmo regen now occurs even when the weapon is not equipped\nLowered Kraken Battle Base HP (-5%)\nHydroponics Turret Control Guide Icons\nOnline leaderboards username eligibility\nEnemy chain binds are released when they take damage\nReduced Scan Bind perk duration\nUplink Charge Powerups initiate scans when acquired\nReverted Crystal mission rate (Increased)\nLockdown Spin Timer Default Rotation (Randomized)\nImproved:\nOptimized:\nFixed:\nHydroponics Projectiles Bug\nUnimplemented additions:\nKnown Issues:"
-            },
-            {
-                "version": "1.2.0b20",
-                "change_log": "V1.2.0*\nFeature Highlights:\nHolomage Campaign Boss\nBlind Status Effect\nLow Sensory Mode\nNew Weapons\nNew Perks\nNew:\nHolomage Boss Arena\nEnemy Blindness\nObjective Map Icons\nJester-Type Neutral Perks\nLow Sensory Setting Mode\nEnvironment Props\nAdded:\nNew Boss\nNew Perks\nNew Weapons:\nAtomizer\nPulse Rifle\nWeapon Overheat Mechanics\nWeapon Dialogue Lines\nBird Censor (with SFX)\nHolomage NPC Dialogues\nSensory Mode Settings Toggle\nHoloboard Props\nModified:\nMatchbox Perk incendiary effect now applies to base projectile\nAmmo regen now occurs even when the weapon is not equipped\nLowered Kraken Battle Base HP (-5%)\nHydroponics Turret Control Guide Icons\nOnline leaderboards username eligibility\nEnemy chain binds are released when they take damage\nReduced Scan Bind perk duration\nUplink Charge Powerups initiate scans when acquired\nReverted Crystal mission rate (Increased)\nLockdown Spin Timer Default Rotation (Randomized)\nImproved:\nOptimized:\nFixed:\nHydroponics Projectiles Bug\nUnimplemented additions:\nKnown Issues:"
             }
         ],
         "on_rookie": true,
-        "general_update": 478225,
+        "general_update": 478249,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478177,
+        "changelog_update": 478249,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 478009,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478225,
+        "last_update": 478249,
         "category": "GAMES",
         "votes": 139,
         "rating": 4.71223,
