@@ -72,6 +72,14 @@
         },
         "changelog": [
             {
+                "version": "1.672",
+                "change_log": "Forgot to remove loading of a no longer used setting"
+            },
+            {
+                "version": "1.661",
+                "change_log": "Fixed bug in global tutorial, fine-tuned some menus"
+            },
+            {
                 "version": "1.631",
                 "change_log": "Reduced volume of block incoming objects hitting player\nFixed issue that quick start was not loading correct infinite energy settings"
             },
@@ -142,14 +150,6 @@
             {
                 "version": "1.39",
                 "change_log": "Starting tutorials must now be activated by player, no longer default\nVarious bug fixes"
-            },
-            {
-                "version": "1.38",
-                "change_log": "Simplified gui\nFix for endurance game object positioning\nImproved rendering settings"
-            },
-            {
-                "version": "1.34",
-                "change_log": "Set event camera on canvases of player HUDs"
             }
         ],
         "on_rookie": false,
@@ -160,13 +160,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477769,
+        "changelog_update": 478273,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475945,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477913,
+        "last_update": 478273,
         "category": "GAMES",
         "votes": 12,
         "rating": 4.416667,

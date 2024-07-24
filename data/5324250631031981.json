@@ -43,11 +43,11 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
-                "votes": 8
+                "votes": 9
             }
         ],
         "comfort": "NOT_RATED",
@@ -71,29 +71,33 @@
         },
         "changelog": [
             {
+                "version": "0.2.2.2",
+                "change_log": "Version 0.2.2.2:\n\nBug Fixes:\n- Fixed an issue with pouring into a full cup, causing existing ingredients to get messed up and order to get rejected.\n- Fixed a minor bug with the sipping sound effect when player tries to drink from a milk bottle.\n- Fixed a minor but in Tutorials where players could server the order before the serve order step starts."
+            },
+            {
                 "version": "0.2.1.9",
                 "change_log": "Change Log v0.2.1.8:\n\nNew Features and Improvements:\n- Added a way to Open/Close Coffee Shop, this will give the player time to clean the shop, restock, and plan purchasing new equipment whenever they like\n- Added Food item indicator icons to help players identify which item they have to serve by matching the icon on the order\n- Added better walking animations\n- Changed main door from hinge-based to automatic sliding door with new sound effect\n\nBug Fixes:\n- Fixed drinking animations\n\n\nChange Log v0.2.1.9:\n\n- Minor bug fixes"
             }
         ],
         "on_rookie": false,
-        "general_update": 478249,
+        "general_update": 478273,
         "genre_update": 478249,
         "device_update": 478249,
         "mode_update": 478249,
         "language_update": 478249,
         "platform_update": 478249,
         "player_mode_update": 478249,
-        "changelog_update": 478249,
+        "changelog_update": 478273,
         "keyword_update": 478249,
         "tag_update": 478249,
-        "rating_update": 478249,
+        "rating_update": 478273,
         "iarc_detail_update": 478249,
         "keywords": [],
-        "last_update": 478249,
+        "last_update": 478273,
         "category": "GAMES",
-        "votes": 9,
-        "rating": 4.666667,
-        "weighted_rating": 4.0
+        "votes": 11,
+        "rating": 4.636364,
+        "weighted_rating": 4.1
     },
     "errors": []
 }

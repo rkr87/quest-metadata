@@ -50,11 +50,11 @@
             },
             {
                 "rating": 4,
-                "votes": 119
+                "votes": 120
             },
             {
                 "rating": 5,
-                "votes": 708
+                "votes": 709
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +77,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.3.3-generalqog",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue sometimes causing Collab rooms to run out of memory.\n- Switching between export presets now properly updates the the Units, Mirror Plane and Up Axis options.\n- The playback speed options on the video player UI are now easier to select."
+            },
+            {
+                "version": "6.3.3-generalqc",
+                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue sometimes causing Collab rooms to run out of memory.\n- Switching between export presets now properly updates the the Units, Mirror Plane and Up Axis options.\n- The playback speed options on the video player UI are now easier to select."
+            },
             {
                 "version": "6.3.2-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an occasional error that could prevent the user from performing most sketch actions.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Improved appearance of highlights around sketch objects."
@@ -124,14 +132,6 @@
             {
                 "version": "6.2.19-generalqc",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly reworked lobby sign-up UX.\n- ‘Link to Device’ option now explicitly informs you what account you are linking your LandingPad account to (Standalone Quest, Tethered Quest or Steam).\n\n🐛 Bug Fixes\n\n- When importing a model containing transparent textures, transparent rendering is now only applied to parts of the model that have the transparent texture.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some FBX files importing without textures on standalone.\n- Fixed some DAE files failing to import successfully.\n- Fixed environment light pointing forwards by default instead of downwards when creating a new Collab room.\n- Fixed tooltip for Grid Stage Floor option.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Changed default focal length to 50 mm."
-            },
-            {
-                "version": "6.2.18-generalqog",
-                "change_log": "🚀 Features & Improvements\n\n- Stage floor now follows center of sketch and more accurately represents its size; introduced experimental “grid” option\n- Collab thumbnails now update on leaving the room\n\n 🐛 Bug Fixes\n\n- Fixed a bug that caused users to be disconnected from Collab on minor connection fluctuations.\n- Fixed wrong light position on environment loading\n- Fixed not being able to log into Google via web browser\n- Fixed not being able to scale some menus and UI elements\n- Fixed jittery headset view when saving/exporting heavy files with SteamVR set as OpenXR Runtime"
-            },
-            {
-                "version": "6.2.18-generalqc",
-                "change_log": "🚀 Features & Improvements\n\n- Stage floor now follows center of sketch and more accurately represents its size; introduced experimental “grid” option\n- Collab thumbnails now update on leaving the room\n\n 🐛 Bug Fixes\n\n- Fixed a bug that caused users to be disconnected from Collab on minor connection fluctuations.\n- Fixed wrong light position on environment loading\n- Fixed not being able to log into Google via web browser\n- Fixed not being able to scale some menus and UI elements\n- Fixed jittery headset view when saving/exporting heavy files with SteamVR set as OpenXR Runtime"
             }
         ],
         "on_rookie": false,
@@ -142,20 +142,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478166,
+        "changelog_update": 478273,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 478177,
+        "rating_update": 478273,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 478177,
+        "last_update": 478273,
         "category": "APPS",
-        "votes": 1093,
-        "rating": 4.088747,
+        "votes": 1095,
+        "rating": 4.089498,
         "weighted_rating": 4.0
     },
     "errors": []
