@@ -43,7 +43,7 @@
             },
             {
                 "rating": 2,
-                "votes": 203
+                "votes": 205
             },
             {
                 "rating": 3,
@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 4329
+                "votes": 4338
             },
             {
                 "rating": 5,
-                "votes": 36719
+                "votes": 36795
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "762.40",
+                "change_log": "New Update v762.40\n\nNew Course: Sweetens Cove Golf Club\n\nBeautiful. Strategic. Fun. Sweetens Cove, a masterpiece crafted by visionary designers Rob Collins and Tad King, epitomizes the essence of modern golf. Nestled in the foothills of Appalachia, just 30 minutes from Chattanooga, Tennessee, its unique nine-hole, 18-pin routing ensures endless variety and challenge for each hole. There’s no lavish clubhouse or driving range—just a trailer, a few carts, and a playground for golfers to unleash their imagination and creativity.\n\nQuality Updates and Bug Fixes:\n- Closest To The Pin - Entering this mode from another mode would show your previous lie in the course screen.\n- Tournaments - Leaving a tournament round on Hole 1 would not offer you a resume tournament and result in a DNF.\n- If you did not update the app to the latest version, trying to start a Tournament Round or Challenge on a newly released course would cause a soft crash. Now you will not be allowed to start and will be prompted to update the app. \n- Fixed the G+ Credit balance from showing too many decimal places in your Profile.\n- Updated Quickplay to remember the Green Speed from your last played session.\n- Holding side trigger or raising the club to see the UI above the hole, will now show 'Wrong Pin' on courses with greens that have 2 holes.\n- Giant Mode positioning updates.\n\nCourse Updates: Spyglass\n- Tee Markers now have collision.\n- Hole 9: Aligned a tree model to not interfere with tee shots.\n- Hole 14: Adjusted the OB on the left side of the fairway.\n- Hole 16: Fixed a stake that was floating on the left side of green."
+            },
             {
                 "version": "761.2",
                 "change_log": "New Update v761.2\n\nNew Course: Spyglass Hill\n\nJust a few miles north of the iconic Pebble Beach Golf Links, Spyglass Hill is celebrated as the toughest test on the Monterey Peninsula. Crafted by renowned designer Robert Trent Jones Sr., this course boasts a unique dual personality. The first five holes play along the coastal dunes, offering breathtaking Pacific Ocean views, before transitioning into the serene and challenging Del Monte Forest. Known affectionately as \"Spy,\" this course co-hosts the prestigious AT&T Pebble Beach Pro-Am on the PGA TOUR.\n\nBug Fixes & Quality Updates:\n\n- The course settings 'holes selection' would not reset to 'Full 18' after playing Butler Pitch and Putt.\n- A specific UX flow would prevent players from entering Butler Pitch and Putt in Quick Play mode.\n- A navigation issue in Challenges where the top menu bar back arrow wouldn't appear after going to another mode.\n- In Clubhouse practice mode, when tapping 'new ball', the new ball was not lined up towards the hole.\n- Updated green fringe physics."
@@ -152,10 +156,6 @@
             {
                 "version": "751.08",
                 "change_log": "**New Update v751.08**\n\nNew Course: Bay Hill Club & Lodge\n\nHost of the PGA TOUR’s Arnold Palmer Invitational presented by Mastercard, Bay Hill is known for its demanding layout and beautiful scenery.\nSet amidst Central Florida’s lush rolling hills, the serene yet challenging experience is regarded as one of the harder stops on TOUR, with undulating greens, lengthy par 3s and enticing par 5s. For those who dare to take it on, Bay Hill encourages golfers to think creatively and to play boldly.\n\nNew Bundle Available: The PGA TOUR Bundle\n\nUnlock 4 PGA TOUR venues at a 25% discount!\nTest your game on the island 17th at TPC Sawgrass, soak in the electric atmosphere of TPC Scottsdale's stadium 16th, tackle the demanding layout of Arnold Palmer's Bay Hill Club, and step into golf history at The Riviera Country Club.\n\nGameplay:\n\n- Added a new toggle Setting for \"Always Show Green Contours\" when on the Green.\n- Added some additional degree rotations (5 & 10) for Snap Rotation in the Settings.\n- Added an error message for Topgolf when trying to join a Friend on a different version of the game than you.\n- Addressed frame drops, that would occur between \"Next Hole\" and the following tee box, holing out, and switching your clubs.\n- Adjusted crowd sounds and animations that felt delayed and speed of the end of week GOLF+ TOUR recap upon startup.\n- Players on the tee box in Unrestricted play will now be visible if you are in the waiting position.\n- Reaching the stroke limit on a hole in Battle will only show the \"Next Hole\" button now.\n\nQuality Updates and Bug Fixes:\n\n- Corrected the spacing on the Battle Leaderboard when handling larger numbers.\n- Addressed an issue with Player nametags always displaying and sized incorrectly.\n- Fixed various incorrect player club customizations when playing in offline mode.\n- Fixed an issue where you would see your putter briefly after selecting \"Next Hole\".\n- Fixed an issue in Challenges where the distance to the pin was incorrect on the user interface.\n- Fixed an issue where players could see their ball orient towards the hole when triggering to ball.\n- Fixed an issue where the Tutorial would produce a flashing screen if launched while offline.\n- Fixed an issue where the ball would be further away when teleporting to it after a tee shot.\n- Fixed an issue with the \"Top Shots\" Leaderboard having inaccurate entries.\n- Fixed an issue where the Knockout Leaderboard won't automatically open upon completing a Knockout game.\n- Fixed an issue where the Tournament Leaderboard won't automatically open upon completing a Tournament Round.\n- Fixed the Club Selection interface being unavailable when users Adjust Clubs in Controls under Settings.\n- Fixed the inability to deselect an invited Friend during game creation if they went offline.\n- Fixed some Audio sliders in the Settings adjusting incorrect sound types.\n- Challenges & Mini-Games: Fixed an issue where tapping for a new ball could cause a shot to occur.\n- Swing Analyzer: Fixed an issue where you couldn't view Physics V2 'Advanced Stats' when using trigger.\n- Quick Play: Fixed an issue where the \"Next Hole\" button failed to appear when coming from an active Mini-Game.\n- Topgolf: Players will no longer see other players' avatars and clubs in their Bay Monitor.\n- Topgolf: Fixed an issue with \"Leave Game\" in Public/Private Topgolf lobbies not working on first attempt.\n- Topgolf: Resolved a visual shimmer issue with the club head of the default Driver.\n- Physics V2: Corrected a typo within the Swing Calibration steps."
-            },
-            {
-                "version": "749.0",
-                "change_log": "New Update v749.0\n\n**Updated Course: Pebble Beach Golf Links**\n\nExperience the legendary Pebble Beach, with an updated look, for the AT&T Pebble Beach Pro-Am happening this week.\nPebble Beach has been temporarily updated with tour signage, stands, and crowds to cheer you on during your rounds. \n\nThe VR AT&T Pebble Beach Pro-Am will start on the GOLF+ TOUR this Thursday, Feb 1st.\nComplete all rounds in your tier and automatically be entered into a drawing for a chance to win the course of your choice.\nWe will have a drawing for each tier, 20 winners! \n\n**Other Updates**\n- Optimized crowd cheering sounds and reactions.\n"
             }
         ],
         "on_rookie": false,
@@ -166,10 +166,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477793,
+        "changelog_update": 478297,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 478273,
+        "rating_update": 478297,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -177,10 +177,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 478273,
+        "last_update": 478297,
         "category": "GAMES",
-        "votes": 42164,
-        "rating": 4.817285,
+        "votes": 42251,
+        "rating": 4.817306,
         "weighted_rating": 4.8
     },
     "errors": []

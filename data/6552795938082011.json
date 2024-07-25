@@ -41,23 +41,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 6
+                "votes": 2
             },
             {
                 "rating": 2,
-                "votes": 7
+                "votes": 2
             },
             {
                 "rating": 3,
-                "votes": 21
+                "votes": 3
             },
             {
                 "rating": 4,
-                "votes": 25
+                "votes": 6
             },
             {
                 "rating": 5,
-                "votes": 57
+                "votes": 11
             }
         ],
         "comfort": "NOT_RATED",
@@ -85,24 +85,20 @@
             {
                 "version": "1.1.0",
                 "change_log": "Patch 1.1.0 \n\n \n\nWe continue to investigate issues reported by the community and are thankful for your support! Please keep the feedback coming.  \n\n\nMain blockers  \n- Fixed the cutscene trigger in the final level of Chapter 2 that sometimes didn’t start and block access to Chapter 3.  \n- Fixed creatures disappearing before being killed and blocking some event triggers such as doors. This specifically fixes the blocker on the Arena in the final level of Chapter 2.  \n- Fixed the generation of levels that sometimes didn’t spawn between 2 chapters or after the intro.  \n\n \nRoom scale  \n- Boundless option added to allow the player to play outside the guardian at full room scale.  \n- Restrictions on room generation at startup reworked.  \n- Changed the criteria for creating levels and their location in space.  \n\n\nAccessibility  \n- Accessibility mode Reworked.  \n- Added tutorial panels as permanent visuals in accessibility mode.  \n- Added joystick controls for accessibility mode (left one to move the level, right to rotate).  \n\n \nWorld/Levels  \n- Wrong glyph symbols on some teleporters have been fixed.  \n- Changed the visibility of the holes in the laser walls at the end of chapter 2.  \n- Collectibles saves fixed.  \n- Various collision mesh reworked.  \n\n \nCombat  \n- Position of creatures after using accessibility mode fixed.   \n- Creatures telegraph that was above the ground when jumping fixed.  \n- Creatures respawn VFX after using accessibility fixed.  \n\n \nAudio  \n-  Audio priority in dialogues & tutorial fixed.   \n- Missing audio sentence in Spanish on the last level of Chapter 2 fixed.  \n\n\nVFX  \n- Prismatic laser VFX bug fixed.  \n- Effects on prismatic particles and lavafall fixed.  \n\n \nTutorials  \n- Starting tutorial panels reworked (Menu / Accessibility / Inception Portal).  \n- Add of a Sap counter above shipwreck (chapter 1) to help the player to complete the first mission.  \n \n\nMisc  \n- Inception Portal fixed (wasn’t centred on Atalante).  \n- Various text and localisation improvements.  \n- Various minor bug fixes and performance improvements.  \n\n\nKnown Issues  \n- Rarely, the power of prismalight is not acquired after freeing it from the corrupted pyramid at the end of Chapter 1. Only current workaround: stop the game and reload the last save.  \n- We know, sadly, it is still impossible to pet animals...  \n- Players have not found hidden narrative texts so far... If you decipher one of them, contact us (demeter@novelab.net) with the name of the author!  \n\n \nThanks a lot for all your help, this game was a real challenge for us as it is our first game; and MR brought so many challenges uncharted so far. We are proud some enjoyed the game, the art and the narrative.  \n\n<3  \n\n "
-            },
-            {
-                "version": "1.0.1",
-                "change_log": "Demeter, the Asklepios Chronicles\nv1.0.1"
             }
         ],
         "on_rookie": false,
-        "general_update": 477745,
+        "general_update": 478297,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475033,
+        "changelog_update": 478297,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 477745,
+        "rating_update": 478297,
         "iarc_detail_update": 477385,
         "keywords": [
             "mr",
@@ -111,11 +107,11 @@
             "platform",
             "puzzle"
         ],
-        "last_update": 477913,
+        "last_update": 478297,
         "category": "GAMES",
-        "votes": 116,
-        "rating": 4.034483,
-        "weighted_rating": 3.9
+        "votes": 24,
+        "rating": 3.916667,
+        "weighted_rating": 3.8
     },
     "errors": []
 }
