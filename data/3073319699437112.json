@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 130
+                "votes": 129
             },
             {
                 "rating": 5,
-                "votes": 1028
+                "votes": 1029
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,6 +85,10 @@
             "logo_transparent": "39036637_429764504911745_4889807881295605772_n.png"
         },
         "changelog": [
+            {
+                "version": "2.2.1",
+                "change_log": "Version 2.2.1 Release Notes\nAdded:\nFlatscreen game zones highlight when holding a card over them similar to VR to provide visual feedback to the player\nThe ability to skip voice lines during the tutorial\n\nChanged:\nAttack button is no longer presented to flatscreen players if a creature is unable to attack\nFlatscreen playing spells now requires dropping it on the spell area\nFlatscreen summoning creatures adjusted to a higher screen position to reduce accidental discards/enhances/summons\nSeveral tutorial instructions to better reflect the new flatscreen control scheme\nOnly the Core Booster pack is visible during the tutorial\n\nFixed:\nCreature models not returning to the table after being thrown\nBeing able to accidentally flip the hourglass on flatscreen while moving cards in the hand"
+            },
             {
                 "version": "2.2",
                 "change_log": "Version 2.2 Release Notes\nAdded:\nClosed Beta testing for our Android Mobile Port\nAmbient SFX to Lair’s torches\nSubscription status text on Subscription Interface\nEcho cancellation for voice communications\nNew claim reward animation for the Season Pass\n\nChanged:\nUpdated Unity Engine: Please report bugs in Discord\nReduced download size by compressing textures and removing unused animations\nImproved animations for Mobilizing\nImproved animations when Mulligan blocks\nImproved \"Under 13\" warning to be more clear about why that player cannot join\nImproved the Lair’s Skybox\nImproved horn position on Devilish Devourer armor\nImproved shader on Devilish Devourer armor\nBrightened Tavern and Private Room lighting\nPC Cosmetic Interface now includes fully visible Avatar\nPC Object and Interface interaction now has wider selection area\nPC Attacking Mechanic uses single left click instead of dragging\nPC Blocking Mechanic uses left clicks on Blocker then Attacker instead of dragging\nPC Activate Mechanic now a choice to Activate or Attack when left clicked\nPC card dragging to Cast, Summon, Discard, or Reserve was adjusted for consistency\nPC Discard & Reserve Mechanic were adjusted with better confirmation VFXs\nPC Enhance Mechanic now requires dragging card to Coin instead of Coin to card\n\nFixed:\nPossible fix for freezing card animation softlocking battles\nPossible fix for overlapping Havens when joining server\nPlayers gaining ghost copies of Endless Merc Band in their hand, reducing hand limit\nPC players spilling their tankards as they grab them\n\n\nBalance Changes:\nAdept Gunsmith’s ability is now \"Mark another friendly non-Ranged creature and give it Ranged. Last Word: Suppress that creature\"\nAnimated Weaponry Mana Cost raised from 6 to 8, Attack from 4 to 6, Health from 4 to 8, and now gives +3/+0 to adjacent creatures\nAvian Murder’s old Devotion is now its inherent ability, and its new Devotion adds \"and Graveyard\"\nBoons to Bones now only summons a Bone Amalgamate if an Undead was discarded.\nCooking the Books now Fetches 1 non-Legendary spell\nCosmic Reanimation’s Mana Cost reduced from 8 to 6\nEnergized Elemental Health raised from 1 to 2, but no longer has Amped. Its Mobilized ability Unexhausts it instead of gaining +1/+1\nGelatinize now Mobilizes a second time if the first is an Ooze\nGrand Tutoring now Fetches 1 to banish instead of the top creature\nGreat Revitalization can now only sacrifice Innate friendly creatures\nKiller Bee of Urwuste’s Attack reduced from 4 to 3. Now has \"When Mobilized, gain +1/+0\"\nMana Break’s Devotion is now \"Repeat once\"\nThe Reconstructor now only adds 1 Bone Amalgamate to your Graveyard by default, but adds 1 more if the sacrifice was Undead\nMarrow Harvester’s Devotion is now \"Entrance/Deathblow instead\"\nPotion of the Weald now also banishes non-Innate cards in your Graveyard\nWraith’s Wrath’s Damage raised from 5 to 6 and reduces its Mana Cost for each Innate card in your Graveyard\nOrallus Healer is now a Crusader\nZealous Archivist is now an Undead\nAlkar, the Former Master is now an Undead"
@@ -136,10 +140,6 @@
             {
                 "version": "0.25.2",
                 "change_log": "Version 0.25.2 Release Notes:\nAdded:\nSupport for LIV on SteamVR\n\nChanged:\nImproved handling losing internet/disconnecting from the servers\nImproved the visibility of Flight VFX\n\nFixed:\nPerformance improvements"
-            },
-            {
-                "version": "0.25.1",
-                "change_log": "Version 0.25.1 Release Notes:\nChanged:\nCards & Tankards loading screen is now animated on the Quest\nImprovements to the tutorial\nUpdated the watch menu documentation to include Augur Order and missing keywords\n\"Sign in through Oculus\" button was renamed to \"Sign in through Meta\"\n\nFixed:\nPerformance improvements\nCollection books and decks sometimes not disappearing\nFriends list now correctly updates when you open the watch menu\nDistance grabbing props sometimes sticking to your hand\nKing of Altaran's ability breaking if he died during it happening\nMulligan softlocking when his Trap Engineer died to it's own ability\nSwapping accounts during the tutorial causing a constant black screen\nSome players being unable to edit their deck in the tutorial when instructed"
             }
         ],
         "on_rookie": false,
@@ -150,16 +150,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478166,
+        "changelog_update": 478321,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 478273,
+        "rating_update": 478321,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478273,
+        "last_update": 478321,
         "category": "GAMES",
         "votes": 1454,
-        "rating": 4.187758,
+        "rating": 4.188446,
         "weighted_rating": 4.1
     },
     "errors": []
