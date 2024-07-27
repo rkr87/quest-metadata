@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.3.62",
+                "change_log": "Added Labels to Interactables in Cessna 172 Airfield\nNew Bloggsy Added for Cessna 172 Hangar\nUpdate to playback avatar to support new models\n\nBugs Fixed:\n* Bool PullSwitch bug\n* gauge over rotating\n* button go to park zone\n* P68 flaps networking\n* iCast avatars for Airfield\n"
+            },
+            {
                 "version": "1.3",
                 "change_log": "C172, Da42 and P68 fixes"
             },
@@ -142,10 +146,6 @@
             {
                 "version": "1.1",
                 "change_log": "changed layout of hand menu"
-            },
-            {
-                "version": "1.1",
-                "change_log": "Updated hand menu and changed the back switch activation"
             }
         ],
         "on_rookie": false,
@@ -156,13 +156,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478009,
+        "changelog_update": 478345,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478297,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478297,
+        "last_update": 478345,
         "category": "APPS",
         "votes": 356,
         "rating": 1.688202,

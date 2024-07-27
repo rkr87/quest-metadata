@@ -55,7 +55,7 @@
             },
             {
                 "rating": 2,
-                "votes": 150
+                "votes": 149
             },
             {
                 "rating": 3,
@@ -67,7 +67,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8317
+                "votes": 8321
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +92,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.334.0_2024.7.26.0.25.25.221",
+                "change_log": "0.334.0"
+            },
             {
                 "version": "0.332.3_2024.7.16.1.1.29.708",
                 "change_log": "0.332.3\n-improved lighting on ball in all environments\n-prep work for voip fix. (it's technically in the app, and you can test it if the other person is on the same version, but I need to get everyone on the new voip system and then I'll flip a server-side switch to flip everyone over)\n-for 2d mode, updated log flush to instant (from 10 seconds). some users were asking for this change for some live shot metrics analysis via logs. \n-for 2d mode, Join Room feature is now available if you click on a user in your friends list\n-brighter arena\n-friend status improvement\n"
@@ -167,10 +171,6 @@
             {
                 "version": "0.311.12_2023.10.16.23.46.56.544",
                 "change_log": "0.311.12\n- more voip freeze logging/error handling\n- arena invisible collider fix\n- fix for rubber being set to 0 value at defaults\n- fix for table moving when you move your head (especially visible in mixed reality)\n- slightly improved tracking (this is related to the table movement fix..which involves moving the time at which the head and controller poses are polled to the end of the frame. This reduced render latency relative to the controller pose, and thus means less prediction required...which means less error)\n"
-            },
-            {
-                "version": "0.310.9_2023.10.12.4.37.49.580",
-                "change_log": "0.310.9\nmixed reality environment reverse compatibility when playing users on older app versions"
             }
         ],
         "on_rookie": true,
@@ -181,20 +181,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478105,
+        "changelog_update": 478345,
         "keyword_update": 475633,
         "tag_update": 477913,
-        "rating_update": 478321,
+        "rating_update": 478345,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 478321,
+        "last_update": 478345,
         "category": "GAMES",
-        "votes": 10112,
-        "rating": 4.637955,
+        "votes": 10115,
+        "rating": 4.638359,
         "weighted_rating": 4.6
     },
     "errors": []

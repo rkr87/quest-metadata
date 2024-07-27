@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.6.10955",
+                "change_log": "4.0.5->4.0.6\n\n\nImprovements\n\n\n-Made it possible to grab procedural primitives from the Shape Menu.\n\n-Changed the default value for Follow to +Z.\n\n-Added a highlight effect to scrollbars when scrolling content and improved asset visuals.\n\n-Returned the inverted box to the library.\n\n-Enabled passthrough during loading.\n\n-Added additional analytics for Presentation.\n\n-Gizmos can now be used to edit text bounds.\n\n-The distance now changes through meters instead of pixel density per meter.\n\n-Activate teleportation by pressing up on the thumbstick in teleport mode.\n\n-Improved floor grid and hid it when passthrough is on.\n\n-Disabled switching to direct mode from raycast/sphere mode of selection.\n\n\n\nBug Fixes\n\n-Fixed issue where user position changes after returning from play mode.\n\n-Implemented snapping algorithm to the surface in gizmo Plane mode.\n\n-Fixed exception while recording a holonote.\n\n-Resolved Z-fighting for text snapped to the surface.\n\n-Added collider to the hammer model so it can be grabbed.\n\n-Dimmed hover effect setting when the toggle is off.\n\n-Fixed UI elements jerking in Prototyping settings and FPS drops in collaboration.\n\n-Fixed disappearing interactivity from object interactivity.\n\n-Corrected button movement in Plans pop-up when hovering.\n\n-Resolved NaN and null reference exceptions when grabbing space link.\n\n-Disabled arrows and numpad when the scrollable field is disabled.\n\n-Fixed Teleport Service exceptions on app start.\n\n-Resolved object shifting when switching surface and rotation modes.\n\n-Fixed exception when clicking on Mute without mic permission.\n\n-Set minimum distance for UI scaling for images to 10 cm.\n\n-Fixed analytics for Tutorials/video player.\n\n-Fixed issue in the grabbing interactor system.\n\n-Corrected issues with normals when bend is applied.\n\n-Fixed bounds editing for text in WebEditor.\n\n-Fixed issue where holonote and its viewpoint couldn't be grabbed.\n\n-Fixed exception when playing holonote.\n\n-Resolved exception when trying to record a holonote without mic permission.\n\n-Verified keyboard with Hex color field.\n\n-Made teleport tool unavailable in room scale mode.\n\n-Fixed loading problem with exception.\n\n-Resolved issues with non-functional settings in Prototyping section.\n\n-Fixed various visual bugs.\n\n-Fixed strange behavior when transform scale is set to 0.\n\n-Restored teleportation to view-only/comments modes.\n\n-Fixed bug with certain tooltips while loading.\n\n-Fixed lobby tilting when grab from different sides\n\n-Assets names and texts in templates and Samples were polished\n\n-Fixed FPS drops when grabbing group with procedural primitives\n\n-Fixed problem when there is no Switch from Background button in the Scene context menu.\n"
+            },
+            {
                 "version": "4.0.5.10835",
                 "change_log": "Improvements\n-Added seconds option to the hover effect\n-Added notifications in Join Space view\n-Changed the input method for interactivity\n-Implemented new objects grabbing mapping\n-Added a toggle in the viewpoint tab to show/hide viewpoints on the scene\n-Made tool switcher always accessible, even when pointing at the menu or in ray mode\n-Allowed users to toggle off teleport to viewpoints in play mode\n-Swapped \"Bend Vertically\" and \"Bend Horizontally\" labels in properties for Procedural Meshes\n-Improved the speed of switching between selection modes\n-Added viewpoint preview when selecting a viewpoint via scrollable field\n-Added dialog to show if unable to connect to shared room-scale session\n\nBug Fixes\n-Fixed exception when deleting viewpoints\n-Fixed issue where the \"Move to Scene\" button is absent, preventing objects from being moved from the background to the scene\n-Gaze & Pinch now works in the Lobby\n-Fixed paint tool opacity not working\n-Fixed exception while recording a holonote\n-Fixed inability to export selected objects\n-Fixed issue where opacity couldn't be changed via the Inspector\n-Fixed issue where picked color in VR isn't applied to the palette\n-Fixed issue where material type is shown for the previously selected object\n-Fixed issue where material pop-up is useless for text in VR\n-Fixed effect strength slider not working for Prototyping\n-Fixed notification issue where free users were incorrectly notified that they can start the presentation\n-Fixed exception when grabbing objects in a certain space\n-Fixed undo functionality not working properly with colorizing text\n-Fixed issue where the scene card overlaps the UI\n-Fixed issue where interactions stay in the background when the object is transferred to the scene\n-Fixed font size value being out of mask in the Text Inspector\n-Fixed incorrect eye dropper modes from different pop-ups in the Web Editor\n-Fixed exception when grabbing the object with two grips (Ti.Interactions.Grab.GrabInteractor 2\n(Interactable, Target&, SelectionContext))\n-Fixed FPS drops when using gizmo\n-Fixed issue where scene interactivities aren't copied with the scene\n-Fixed issue where text doesn't fit in the dropdown list\n-Fixed issue where the background disappears when hovering over some buttons\n-Pop-up is now placed centered and aligned at the top\n-Polished trigger naming across all areas\n-Fixed error after pause on the client side\n-Fixed issue where different eye dropper modes via controller buttons don't work in VR\n-Restricted holonote recording to only be available if microphone permission is granted\n-Fixed exception with Orientation buttons when there is no preview\n-Fixed exception after entering the space after duplicating an object with interactivity\n-Avatars now turn into headsets in Shared anchors mode\n-Fixed issue where users couldn't join shared room for the second time\n-Fixed issue where UI is not blocked during presentation\n-Fixed issue where large values for aligning boundaries can break everything\n-Fixed non-functional settings in the Prototyping section\n-Fixed issue where showing holonotes in space doesn't work\n-Fixed issue where the keyboard isn't closed after tool switching\n-Fixed issue where one line text moves when symbols are added to it\n-Fixed issue where text flies during creation\n-Fixed issue where text in some samples is shifted\n-Fixed issue where target scene couldn't be chosen except for the first scene for interactivity in the background\n-Fixed issue where text bounds stay in empty air\n-Fixed issue where numpad values aren't applied for target scene in the interactivities\n-Fixed when you switching target scene in the background you leave the background"
             },
@@ -121,10 +125,6 @@
             {
                 "version": "2.3.7.9450",
                 "change_log": "Improvements:\n-Made it possible to drop space links to your teammate’s spaces\n-Viewpoints in the way during holonote playback now are hidden\n-High Quality Mode is saving as a local device setting\n-Near clipping is available for any devices (for paid users)\n-The control stick should control stages switching in presentation mode (wip)"
-            },
-            {
-                "version": "2.3.6.9449",
-                "change_log": "New sample"
             }
         ],
         "on_rookie": false,
@@ -135,7 +135,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478249,
+        "changelog_update": 478345,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 478225,
@@ -146,7 +146,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 478249,
+        "last_update": 478345,
         "category": "APPS",
         "votes": 315,
         "rating": 4.133333,
