@@ -77,7 +77,28 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75222941_603375585081929_4407027821424903437_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.6.10",
+                "change_log": "New:\n- Added a blue overlay tint to indicate geometry that is still loading\nFixes\n- Resolved a crash when user leaves workshop\n- Bug fixes and improvements"
+            },
+            {
+                "version": "1.4.28+1-g8b1e",
+                "change_log": "Bug Fixes:\n- Resolved an issue causing the application to crash when the headset is put to sleep while the voice-to-text feature is still active"
+            },
+            {
+                "version": "1.4.27",
+                "change_log": "Improvements:\n- Optimized device memory usage to prevent crashes from deleted tiles."
+            },
+            {
+                "version": "1.4.26",
+                "change_log": "Bug Fixes:\n- Resolved an issue causing the application to crash while navigating back to the Home Screen or when switching to the Workshop and loading a model.\n- Fixed a crash that occurred when loading SVF2 models with malformed model bounds.\n- Addressed sporadic crashes experienced during the loading or unloading of avatars."
+            },
+            {
+                "version": "1.4.19",
+                "change_log": "Updates\n- Added base color material to all mid-level geometry, removing the gray render.\n- Added ability to search and filter files.\n- Improved initial model position when sharing a model in your Workshop.\n- Enhanced geometry loading indicator for better feedback.\n- Improved functionality for selecting specific 3D views in Workshops.\n\nWhat’s Fixed\n- Creating a Workshop\n  - Resolved issue causing workshop duplication after a failure in VR-home.\n\n- Avatars\n  - Fixed lip-sync and facial expressions for reflection avatar in home space.\n\n- Model Loading\n  - Ensured persistent connection with uploaded models between sessions for newly created workshops.\n  - Fixed issues with incorrect material assignment during geometry loading.\n  - Corrected model visibility on the workshop table after creation.\n\n- Interacting with Model\n  - Objects now correctly highlight when selected.\n  - Fixed rotation issue when aiming at teleportation spots.\n  - Improved collision handling with invisible geometry if model is scaled beyond table bounds.\n\n- Model Visibility and Files\n  - Fixed syncing issues with model visibility in older workshops.\n  - XR admins can now share files directly to the table.\n\n- Issues\n  - Added 'Go-To Issue' Button in issue panel for workshop-related issues on exterior walls.\n\n- Audio\n  - Resolved audio echoing and cutting out in sessions with multiple users.\n\n- UX\n  - Fixed VR app crashes caused by low battery on hand controllers.\n\n- Console\n  - Console button now correctly opens in Workshop XR interface.\n  - Resolved issues with console errors after headset idle time.\n  - Fixed 'Something Went Wrong' message during panel switches.\n  - Fixed disappearing controller pointers after 'go-to user' function.\n\nKnown Issues and Workarounds\n- Files list may appear empty when creating a Workshop until a search is performed.\n- Some users experience quieter audio levels after exiting and re-entering a workshop (resolved by app relaunch).\n- Share to Workshop button may become unresponsive after headset wifi disconnection and reconnection.\n- Console may incorrectly show Workshops under files tab after wifi reconnection.\n- Users may be redirected to authentication screen when switching workshops after exiting.\n- Non-3D file selection issue in WXR web app—files can only be viewed via files panel."
+            }
+        ],
         "on_rookie": false,
         "general_update": 477793,
         "genre_update": 474961,
@@ -86,13 +107,13 @@
         "language_update": 474961,
         "platform_update": 474961,
         "player_mode_update": 474961,
-        "changelog_update": 475000,
+        "changelog_update": 478417,
         "keyword_update": 474961,
         "tag_update": 475489,
         "rating_update": 477793,
         "iarc_detail_update": 475057,
         "keywords": [],
-        "last_update": 477793,
+        "last_update": 478417,
         "category": "APPS",
         "votes": 5,
         "rating": 1.8,

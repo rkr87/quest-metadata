@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 133
+                "votes": 135
             }
         ],
         "comfort": "NOT_RATED",
@@ -74,6 +74,10 @@
             "logo_transparent": "75375083_148485293665504_2274488967646399463_n.png"
         },
         "changelog": [
+            {
+                "version": "2.2.12",
+                "change_log": "Added:\r\n- Input field in the virtual keyboard\r\nChanged:\r\n- Splash screen logo\r\n- Default deadzone setting value\r\nFixed:\r\n- Some problems in Network tab with SMB devices\r\n- Some minor fixes and improvements"
+            },
             {
                 "version": "2.2.11",
                 "change_log": "Fixed:\r\n- Reverted adding additional sites\n- Some minor fixes and improvements"
@@ -149,10 +153,6 @@
             {
                 "version": "2.1.6",
                 "change_log": "Added:\n- Wi-Fi icons for different signal levels.\n- EyeClick possibility if no controllers detected.\n- Setting for turning off all UI Animations.\n- Added new tooltip animation in settings.\nChanged:\n- Redesigned sorting buttons.\nFixed:\n- Problems with next/preview video in local files\n- Problem with video quality setting\n- Resume playback after restarting the application"
-            },
-            {
-                "version": "2.1.5",
-                "change_log": "Added:\n- Implemented support for new sites;\n- Added new UI animations;\n- Changed the design of the settings panel;\n- Added a change of environment:\nNow you can change the environment from 3 options: Room, Dark and Void!\n- Changed the logic of the search at Web page:\nNow to update the video list you need to confirm the request by pressing the enter button;\n\nFixed:\n- Fixed AB mode operation when switching videos;\n- Fixed launch of a random video when viewing a WebView\n- Fixed incorrect video viewing date on the HISTORY page"
             }
         ],
         "on_rookie": false,
@@ -163,16 +163,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477769,
+        "changelog_update": 478417,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478393,
+        "rating_update": 478417,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478393,
+        "last_update": 478417,
         "category": "APPS",
-        "votes": 362,
-        "rating": 2.969613,
+        "votes": 364,
+        "rating": 2.980769,
         "weighted_rating": 2.9
     },
     "errors": []
