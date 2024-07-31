@@ -86,15 +86,15 @@
             },
             {
                 "rating": 3,
-                "votes": 173
+                "votes": 174
             },
             {
                 "rating": 4,
-                "votes": 199
+                "votes": 201
             },
             {
                 "rating": 5,
-                "votes": 886
+                "votes": 888
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -117,6 +117,10 @@
             "logo_transparent": "75222941_635317061914735_1444826281890792553_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0.10",
+                "change_log": "* Disabled 2D mode in preparation to release to public from beta * Override default for transport to current SteamVR Beta Transport * Fix crash that could happen when stopping the stream, which would prevent the 2D panel from displaying * Changed behavior of stream startup so interstitials are only shown after a timeout if the stream hasn't started * Reduce amount information that the headset needs to send to the PC * Fix WiFi always showing up as 2.4GHz * Allow launching with hand tracking on (Does not include hand tracking support) * Fixes possible audio crash on standby * Fix bug that caused incorrect controller presence reporting when switching to volume-buttons-as-steam-button feature."
+            },
             {
                 "version": "2.0.9",
                 "change_log": "* Fix crash when coming out of standby\n* Fix issue preventing initialization if certain packets get dropped.\n* \"Waiting for host\" screen will now wait before displaying, meaning app will transition straight to stream rather than the UI displaying\n* Add additional errors to display if it's a video code error/video network error\n* Small improvements to stream startup speed\n* Fix a few bugs around stream transitions to UI\n* Fix microstutter (From previous beta)"
@@ -142,19 +146,19 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477289,
+        "changelog_update": 478441,
         "keyword_update": 474881,
         "tag_update": 474685,
-        "rating_update": 478417,
+        "rating_update": 478441,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "game"
         ],
-        "last_update": 478417,
+        "last_update": 478441,
         "category": "APPS",
-        "votes": 1871,
-        "rating": 3.468733,
+        "votes": 1876,
+        "rating": 3.470682,
         "weighted_rating": 3.4
     },
     "errors": []

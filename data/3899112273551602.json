@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 222
+                "votes": 224
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -82,6 +82,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "4.0.7.10960",
+                "change_log": "Features\n- New contexted tooltips added\n\nBug  Fixes\n- Made gizmo in direct mode without smooth effect.\n- Hide gizmo when users start to select objects in the continuous\n- Bring back the teleportation to view-only/comments modes additional fixes\n- Viewpoints should be disabled in 1:1 + Play mode\n"
+            },
             {
                 "version": "4.0.6.10955",
                 "change_log": "4.0.5->4.0.6\n\n\nImprovements\n\n\n-Made it possible to grab procedural primitives from the Shape Menu.\n\n-Changed the default value for Follow to +Z.\n\n-Added a highlight effect to scrollbars when scrolling content and improved asset visuals.\n\n-Returned the inverted box to the library.\n\n-Enabled passthrough during loading.\n\n-Added additional analytics for Presentation.\n\n-Gizmos can now be used to edit text bounds.\n\n-The distance now changes through meters instead of pixel density per meter.\n\n-Activate teleportation by pressing up on the thumbstick in teleport mode.\n\n-Improved floor grid and hid it when passthrough is on.\n\n-Disabled switching to direct mode from raycast/sphere mode of selection.\n\n\n\nBug Fixes\n\n-Fixed issue where user position changes after returning from play mode.\n\n-Implemented snapping algorithm to the surface in gizmo Plane mode.\n\n-Fixed exception while recording a holonote.\n\n-Resolved Z-fighting for text snapped to the surface.\n\n-Added collider to the hammer model so it can be grabbed.\n\n-Dimmed hover effect setting when the toggle is off.\n\n-Fixed UI elements jerking in Prototyping settings and FPS drops in collaboration.\n\n-Fixed disappearing interactivity from object interactivity.\n\n-Corrected button movement in Plans pop-up when hovering.\n\n-Resolved NaN and null reference exceptions when grabbing space link.\n\n-Disabled arrows and numpad when the scrollable field is disabled.\n\n-Fixed Teleport Service exceptions on app start.\n\n-Resolved object shifting when switching surface and rotation modes.\n\n-Fixed exception when clicking on Mute without mic permission.\n\n-Set minimum distance for UI scaling for images to 10 cm.\n\n-Fixed analytics for Tutorials/video player.\n\n-Fixed issue in the grabbing interactor system.\n\n-Corrected issues with normals when bend is applied.\n\n-Fixed bounds editing for text in WebEditor.\n\n-Fixed issue where holonote and its viewpoint couldn't be grabbed.\n\n-Fixed exception when playing holonote.\n\n-Resolved exception when trying to record a holonote without mic permission.\n\n-Verified keyboard with Hex color field.\n\n-Made teleport tool unavailable in room scale mode.\n\n-Fixed loading problem with exception.\n\n-Resolved issues with non-functional settings in Prototyping section.\n\n-Fixed various visual bugs.\n\n-Fixed strange behavior when transform scale is set to 0.\n\n-Restored teleportation to view-only/comments modes.\n\n-Fixed bug with certain tooltips while loading.\n\n-Fixed lobby tilting when grab from different sides\n\n-Assets names and texts in templates and Samples were polished\n\n-Fixed FPS drops when grabbing group with procedural primitives\n\n-Fixed problem when there is no Switch from Background button in the Scene context menu.\n"
@@ -121,10 +125,6 @@
             {
                 "version": "2.4.0.9473",
                 "change_log": "- New Selection (experimental feature)\n- New Gizmo (experimental feature)\n- Shared assets (paid feature)\n- New templates"
-            },
-            {
-                "version": "2.3.7.9450",
-                "change_log": "Improvements:\n-Made it possible to drop space links to your teammate’s spaces\n-Viewpoints in the way during holonote playback now are hidden\n-High Quality Mode is saving as a local device setting\n-Near clipping is available for any devices (for paid users)\n-The control stick should control stages switching in presentation mode (wip)"
             }
         ],
         "on_rookie": false,
@@ -135,10 +135,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478345,
+        "changelog_update": 478441,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 478225,
+        "rating_update": 478441,
         "iarc_detail_update": 475000,
         "keywords": [
             "design",
@@ -146,10 +146,10 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 478345,
+        "last_update": 478441,
         "category": "APPS",
-        "votes": 315,
-        "rating": 4.133333,
+        "votes": 317,
+        "rating": 4.138801,
         "weighted_rating": 4.1
     },
     "errors": []

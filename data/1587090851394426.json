@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "6.3.4-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- (Enterprise feature) Added support for decimation of  USDZ and GLTF files.\n\n🐛 Bug Fixes\n\n- Fixed recovery autosaves not triggering if the app closed unexpectedly during a sketch.\n- Fixed ambient occlusion shadows always rendering in front of imported videos.\n- Fixed microphone permissions dialog on first time joining a Collab room failing to properly apply microphone permissions.\n- Fixed the build not updating the launcher if the build was launched directly.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed incorrect appearance of backgrounds and some sketch objects in screenshots.\n- Removed sketch object highlights."
+            },
+            {
+                "version": "6.3.4-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n\n- (Enterprise feature) Added support for decimation of  USDZ and GLTF files.\n\n🐛 Bug Fixes\n\n- Fixed recovery autosaves not triggering if the app closed unexpectedly during a sketch.\n- Fixed ambient occlusion shadows always rendering in front of imported videos.\n- Fixed microphone permissions dialog on first time joining a Collab room failing to properly apply microphone permissions.\n- Fixed the build not updating the launcher if the build was launched directly.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed incorrect appearance of backgrounds and some sketch objects in screenshots.\n- Removed sketch object highlights."
+            },
+            {
                 "version": "6.3.3-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue sometimes causing Collab rooms to run out of memory.\n- Switching between export presets now properly updates the the Units, Mirror Plane and Up Axis options.\n- The playback speed options on the video player UI are now easier to select."
             },
@@ -120,14 +128,6 @@
             {
                 "version": "6.2.20-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- When video UI is pinned it will now still appear even on a locked layer.\n- Videos that are not set to auto-play are initially set to 50% volume instead of being muted.\n\n🐛 Bug Fixes\n\n- Fixed some .dae imports getting stuck or importing without textures."
-            },
-            {
-                "version": "6.2.20-generalqc",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- When video UI is pinned it will now still appear even on a locked layer.\n- Videos that are not set to auto-play are initially set to 50% volume instead of being muted.\n\n🐛 Bug Fixes\n\n- Fixed some .dae imports getting stuck or importing without textures."
-            },
-            {
-                "version": "6.2.19-generalqog",
-                "change_log": "VR\n\n🚀 Features & Improvements\n\n- Slightly reworked lobby sign-up UX.\n- ‘Link to Device’ option now explicitly informs you what account you are linking your LandingPad account to (Standalone Quest, Tethered Quest or Steam).\n\n🐛 Bug Fixes\n\n- When importing a model containing transparent textures, transparent rendering is now only applied to parts of the model that have the transparent texture.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some imported files having untextured or missing thumbnails.\n- Fixed some FBX files importing without textures on standalone.\n- Fixed some DAE files failing to import successfully.\n- Fixed environment light pointing forwards by default instead of downwards when creating a new Collab room.\n- Fixed tooltip for Grid Stage Floor option.\n\nScreen Collab\n\n🚀 Features & Improvements\n\n- Changed default focal length to 50 mm."
             }
         ],
         "on_rookie": false,
@@ -138,7 +138,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478369,
+        "changelog_update": 478441,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 478417,
@@ -148,7 +148,7 @@
             "model",
             "design"
         ],
-        "last_update": 478417,
+        "last_update": 478441,
         "category": "APPS",
         "votes": 1098,
         "rating": 4.091985,

@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2024.37",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.37\n\n## Improvements\n\n- Upgraded Free and Personal plan foundation model from GPT 3.5-Turbo to GPT 4o-mini.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
+            },
+            {
                 "version": "2024.36",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.36\n\n## Improvements\n\n- Switched foundation model from GPT-4 to GPT-4o (Pro plan users only) for faster, higher-quality queries and topic elaborations.\n- Streaming responses implemented (for both GPT-3.5-turbo and GPT-4o).\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             },
@@ -151,10 +155,6 @@
             {
                 "version": "2024.23",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.23\n\n## Improvements\n\n- Added a new, photorealistic sky environment.\n- Sky settings now persist across app sessions.\n- You can now create topics, browsers, and AI queries before signing into a Softspace account.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.23",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.23\n\n## Improvements\n\n- Added a new, photorealistic sky environment.\n- Sky settings now persist across app sessions.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Virtual keyboard audio feedback occasionally stops working, requiring an app restart.\n- AI-features sometimes take a long time to load—we’re looking into faster APIs.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478081,
+        "changelog_update": 478441,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 478297,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478297,
+        "last_update": 478441,
         "category": "APPS",
         "votes": 71,
         "rating": 3.450704,

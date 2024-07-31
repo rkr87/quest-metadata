@@ -99,6 +99,10 @@
         },
         "changelog": [
             {
+                "version": "0.7.1",
+                "change_log": "hAI! MR v0.7.1\n- Updated to GPT-4o mini.\n- Improved avatar/pet spawning locations.\n- Improved app startup speed.\n- Improved avatar loading in AR.\n- Improved real-time depth occlusion calculations.\n- Improved virtual keyboard initialization lag.\n- Fixed bugs related to the avatar creator.\n- Fixed bugs related to the virtual keyboard.\n- Fixed bugs related to the save system.\n\nKnown issues\n- On Quest 3, in the AR environment, if the room has not been set up or the app does not find any free space inside the room, your friend may spawn behind walls which occlude/hide them. As a temporary fix, please look towards an area with free space and recenter to move your friend there."
+            },
+            {
                 "version": "0.7.0",
                 "change_log": "hAI! MR v0.7.0\n- Added the dog!\n- Hand tracking now works in VR!\n-Meta avatars now in every VR scene!"
             },
@@ -173,10 +177,6 @@
             {
                 "version": "0.3.0",
                 "change_log": "hAI! VR v0.3.0\n- Added avatar creator! Now you can customize the appearance of your avatar to your heart's content!\n- Added translation for better multilingual support! Speak to your hAI! Friend in any language you want!"
-            },
-            {
-                "version": "0.2.0",
-                "change_log": "Welcome to the Initial Release!\n\nKnown issues:\n- The system keyboard, which is used for text input fields in setup and settings, will only register input if you click on the enter key first, then close the keyboard. This is only a problem in the input fields used for creating/editing your bio and your friend's bio."
             }
         ],
         "on_rookie": false,
@@ -187,13 +187,13 @@
         "language_update": 475753,
         "platform_update": 475753,
         "player_mode_update": 475753,
-        "changelog_update": 478225,
+        "changelog_update": 478441,
         "keyword_update": 475753,
         "tag_update": 477913,
         "rating_update": 478393,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478393,
+        "last_update": 478441,
         "category": "APPS",
         "votes": 7,
         "rating": 3.428571,
