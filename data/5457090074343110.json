@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.6",
+                "change_log": "Hot fix 1.0.6\n- Removed bugged crab from large room causing soft lock.\n\n- Removed teleporting foglander in panic room causing soft lock \n\n- Light and visual fixes in a few rooms.\n\n- Removed some bugged grenadiers from Panic default layout"
+            },
+            {
                 "version": "1.0.5",
                 "change_log": "\nSome highlights include:\n\n**Haptics for Gunplay, Melee and more on Quest!** \n\n**Clear tabs in the pause menu for easy access to ‘Affinities’ and ‘Stranger Cards’!**\n\n**Story Objectives now available in the pause menu!**\n\n\n# QoL Fixes\n\nMore quest haptics added/tweaked:\n\nFixed weapon haptics\n\nAdded feedback for jump/land\n\nIncreased feedback for melee (punch and wrench)\n\nAdded feedback to inventory holster\n\nReduced feedback for ammo holster\n\nAdded tabs to pause menu for clear access to ‘Affinities’ and ‘Ability Cards’ menus\n\nOptimization pass on several levels across all three biomes\n\nGeneral shader/mesh optimizations throughout game\n\nAdded a tutorial board to check pause menu for more information\n\nStory objectives added to the pause menu\n\n\n# Content Updates\n\nUpdated level layout/design for select rooms\n\nAdded secret rewards in select rooms\n\nAdded more enemy encounters to select rooms\n\n# Bug Fixes\n\nFixed two inaccessible keys \n\nEnemy spawn and lighting fixes in select rooms\n\nMinor tutorial fixes and optimizations\n\nMinor mesh fixes in Barrows room \n\nFixed skybox issue in Foundations biome\n\nLight fixes in several rooms \n\nFixed soft lock in Fringes room\n\nFixed soft lock issue in Foundations room\n\nFixed the story progression issue that causes Shandeen to be invisible in the Archive Room.\n\n# Known Issues\n\nTime-slow during gun recoil still causes rubber effect\n\nGeneral issues with persistence across rooms\n\nSome minor visual bugs\n\nSome bugs with ability cards\n\nLight bleed/flicker in loading airlocks\n\nItems and weapons duplicating between rooms and in elevators\n\nScaling still occurring on gun recoil during time slow\n\nExile player target bugs\n\nGun will sometimes fall through the elevator shaft in Hub if dropped.\n\nGun will disappear if the player is holding it while also trying to access the Hub computer console.\n\n# Upcoming Changes\n\nFurther AI Improvements and difficulty balancing\n\nSettings for turning off eye tracking enemy outlines and subtitles\n\nImproved UX game feedback\n\nLoading room layout improvements\n\n[Quest Only] Visual updates and graphical optimizations\n\n"
             },
@@ -105,7 +109,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477961,
+        "changelog_update": 478489,
         "keyword_update": 474881,
         "tag_update": 475177,
         "rating_update": 477577,
@@ -116,7 +120,7 @@
             "atmospheric",
             "story"
         ],
-        "last_update": 477961,
+        "last_update": 478489,
         "category": "GAMES",
         "votes": 38,
         "rating": 3.105263,

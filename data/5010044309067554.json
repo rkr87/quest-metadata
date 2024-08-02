@@ -11,8 +11,8 @@
         ],
         "devices": [
             "Touch Controllers",
-            "Gamepad",
-            "Touch (as Gamepad)"
+            "Touch (as Gamepad)",
+            "Hand Tracking"
         ],
         "modes": [
             "Single User"
@@ -143,27 +143,23 @@
             {
                 "version": "5.10.12",
                 "change_log": "Welcome to Virtual Playbook v5.10.12! Here are some of our recent changes:\nFeatures:\n- Observe window no longer appears blocked by players being followed\n- Improved the position of the VR keyboard\n- Added new movement tutorial\n- Added network tutorial\n- Adjusted first person cameras movement style\n\nBug Fixes:\n- Fixed a bug where practicing a play with no ball caused unintended camera behavior\n- Fixed a bug where the observe window may not move across the whole screen\n- Fixed a bug where networked clients could start a playlist quiz\n- Fixed a bug where network clients that subsequently host would use incorrect network color IDs\n- Fixed a bug where player jerseys could become one solid color when networking\n- Fixed a bug where a play's \"mirrored\" status could become desynced over the network\n- Fixed a bug where networked clients could refresh their config, locally clearing the active play\n- Fixed a bug where VR networked clients could locally change playback (play/pause/restart/speed)\n- Fixed a bug where VR networked users teleporting would \"swim\" to their new location\n- Fixed a bug where VR networked clients could change their \"networked avatar\" head angle unintentionally"
-            },
-            {
-                "version": "5.10.11",
-                "change_log": "Welcome to Virtual Playbook v5.10.11! Here are our latest changes:\n\nFeatures\n  - Film Room - timer-bar can be used to scrub through video time\n\nBugfixes\n  - Updated several backend drivers\n  - Right joystick now properly faces players during practice mode\n  - Can no longer start a quiz with drawings enabled\n  - Jerseys no longer appear \"scrambled\" on mixed teams\n  - Quiz questions at the end of a play now automatically advance to next play in quiz queue"
             }
         ],
         "on_rookie": false,
         "general_update": 476257,
         "genre_update": 474685,
-        "device_update": 474685,
+        "device_update": 478489,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475081,
+        "changelog_update": 478489,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477913,
+        "last_update": 478489,
         "category": "APPS",
         "votes": 24,
         "rating": 2.0,

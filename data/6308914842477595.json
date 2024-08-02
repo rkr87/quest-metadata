@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "0.11.2",
+                "change_log": "- Fixed issue with video player being unable to open new videos after a playback error occurs."
+            },
+            {
                 "version": "0.11.0",
                 "change_log": "HereSphere update v0.11.0 is now available. This update adds support for DLNA streaming, support for more synchronized devices, and some bug fixes\n\nDLNA:\n- Added support for DLNA streaming\n- Click on \"DLNA\" in the left side panel. The player will scan your network for DLNA servers. Click on a DLNA server to browse its contents. Currently, only videos are supported.\n- For scripts, you'll need to place the script file in the \"Interactive\" folder on your Quest local storage, and make sure it matches the title of the video.\n- HSP files will be saved/loaded from the \"HereSphere\" folder on your Quest local storage and need to match the title of the video.\n- Subtitle files (.srt, .ssa, and .ass) need to be stored in the \"HereSphere\" folder on your Quest local storage and match the title of the video. \n\nChanges:\n- Added support for more synchronized peripheral devices\n- Added fields \"resource\" and \"identifier\" to the timestamp server message. \"resource\" contains the actual url/path of the currently playing video file. \"identifier\" contains the scene url when using the HereSphere web API. \n\nBug fixes:\n- Fixed issue with video thumbnails continuing to play in the background when menu is hidden.\n- Fixed issue with buffering not triggering playback suspended/resumed events for synchronized peripherals and the event server\n"
             },
@@ -110,13 +114,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478009,
+        "changelog_update": 478489,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478393,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478393,
+        "last_update": 478489,
         "category": "APPS",
         "votes": 69,
         "rating": 4.478261,
