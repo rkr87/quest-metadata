@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "4.5",
+                "change_log": "-Core movie player update with newer codecs\n-TS files now playing correctly\n-Fixed bug with some movies stalling after 15 minutes.\n"
+            },
+            {
                 "version": "4.4",
                 "change_log": "-Added sorting option to Plex library movie listings.   Now you can sort by date added, duration, critic rating, etc.  Not available for all other modes\n"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2.5",
                 "change_log": "- Added round corner mask for thumbnails\n- Cleaned up some UI elements and improved resolution, added mipmaps for less aliasing\n- Changed the shape of the scrollbar handle\n- Fixed a bug playing the wrong audio track when opening the same movie more than once in a row\n- Fixed a bug with aspect ratio when toggling AR mode\n"
-            },
-            {
-                "version": "2.4",
-                "change_log": "- Improved browser for handling libraries with almost infinite files. Browser recycles thumbnails and doesn't slow down depending on how many movies you have\n- Browser scrolling at a constant speed using controllers\n- Movie info now shows video resolution\n- Added format to movie titles (3D, 180 or 360)\n"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478249,
+        "changelog_update": 478513,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478489,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478513,
         "category": "APPS",
         "votes": 75,
         "rating": 3.373333,

@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 396
+                "votes": 395
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +77,10 @@
             "logo_transparent": "39031359_1650954835268881_9047741212152430989_n.png"
         },
         "changelog": [
+            {
+                "version": "2024.8.0",
+                "change_log": "Dear Friends of Tennis,\n\nDelivering a quick volley of hotfixes for your favorite VR tennis app! This version 2024.8.0 contains the following bug fixes:\n\n#Bug Fixes\nMatchMaking: Not being able to get into a match from another game mode\nPlayGround: UI issues when joining a multiplayer match from playground\n\nKeep swinging, and enjoy the upgraded experience!\n\nServing up a big THANK YOU to our community!\n\nYour Tennis Esports Team"
+            },
             {
                 "version": "2024.7.0",
                 "change_log": "Dear Friends of Tennis,\n\nThis time we bring a lot of new exciting features. In this version 2024.7.0\n\nReady for a game-changer? Our new unranked matchmaking is set to redefine your VR tennis experience, bringing friends and beginners together!\nReady for some tennis insights? Techzone One-Handed Backhand shows you how to improve your swing.\nThis update includes the following list of features, improvements, and fixes:\n\n#New Features\nRanking: Introducing ELO for competitive instant matches \nMatchMaking: Introducing new unranked matchmaking\nMatchMaking: Notification system for different match types\nTraining: Added Backhand 101 - explaining the basics of a One-Handed-Backhand TP\nTraining: Added Forehand 101 - explaining the basics of a Forehand TP\nPhysics: Introducing \"Smart Grip\". Separate grip rotations are assigned depending on your stroke - press the trigger to use secondary setting\nEvent: American Strings HEA (Starting: Aug. 12)\n\n#Addon\nNew: Techzone One-Handed Backhand Topspin\nTechZone: Improved user feedback\nUI: Added Statistics\n\n#Improvements\nAIMatch: Balancing AI Opponents\nLocomotion: Fully reworked \"Running Mode\"\nLocomotion: Tweak auto recovery points (Net-Recovery and Base-Line-Recovery)\nPhysics: Improved court reflection according to real-world measurements\nUI: Improved audio and visuals\n\n#Bug Fixes\nPlayground: Selecting \"Backhand\" doesn't break play mode anymore\nPhysics: Ball not passing ground when smashing it down, which caused breaking the match before\nVisual: AI not playing with the wrong hand if the user is left-handed\nMovement: On-court movement was broken if the user activated \"movement teleport\" in settings\nMatch: Avoid opponent teleport if first bounce is on your side\n\nKeep swinging, and enjoy the upgraded experience!\n\nServing up a big THANK YOU to our community!\n\nYour Tennis Esports Team"
@@ -152,10 +156,6 @@
             {
                 "version": "2023.8.0",
                 "change_log": "Dear Friends of Tennis!\n\nThis is another small update to version 2023.8.0.\n\nImprovements:\nEvent: Visual improvements for the next event\n\nBug-fix\nExercises: \"Mixed Bucket\" all balls are evaluated\nEvent: End of Instant Match Event is now in sync world wide\n\nServing up a big THANK YOU!\nYour Tennis Esports Team"
-            },
-            {
-                "version": "2023.7.3",
-                "change_log": "Dear Friends of Tennis!\n\nThis small update to version 2023.7.3 contains minor bugfixes and serves as a preparation for upcoming events.\n\nNew Features:\nGeneral: Prepare App for upcoming events\nTraining: New easy training added \"Mixed Bucket\"\n\nImprovements:\nMatch: Different returning and serving position\nMatch Scoreboard: Minor UI adjustments\nAvatar: Polish opponent avatar movement and outfit\nMirrorplay: Add weekly leaderboard\n\nThank you for your continued support!\nYour Tennis Esports Team"
             }
         ],
         "on_rookie": true,
@@ -166,16 +166,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478417,
+        "changelog_update": 478513,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 478489,
+        "rating_update": 478513,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478513,
         "category": "APPS",
-        "votes": 514,
-        "rating": 4.416342,
+        "votes": 513,
+        "rating": 4.415205,
         "weighted_rating": 4.3
     },
     "errors": []

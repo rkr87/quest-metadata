@@ -76,6 +76,14 @@
         },
         "changelog": [
             {
+                "version": "1.20.00.17",
+                "change_log": "Video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
+            },
+            {
+                "version": "1.20.00.16",
+                "change_log": "High performance video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
+            },
+            {
                 "version": "1.20.00.12",
                 "change_log": "- Avatar recorder embedded in scene fixes\n- Auto Follow scenes allows playback of whole song automatically\n- Automaton recording performance improvements"
             },
@@ -146,14 +154,6 @@
             {
                 "version": "1.17.00.06",
                 "change_log": "New RPM Rig"
-            },
-            {
-                "version": "1.17.00.05",
-                "change_log": "USB MIDI keyboard support"
-            },
-            {
-                "version": "1.16.00.02",
-                "change_log": "RPM left arm jank fixed, RPM mesh fixed, Pass through lighting"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 477937,
         "player_mode_update": 474685,
-        "changelog_update": 478297,
+        "changelog_update": 478513,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478297,
+        "last_update": 478513,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,

@@ -62,7 +62,7 @@
             },
             {
                 "rating": 5,
-                "votes": 25
+                "votes": 26
             }
         ],
         "comfort": "NOT_RATED",
@@ -89,6 +89,10 @@
             "logo_transparent": "39031613_4165392783495663_2442638352413047922_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6.38",
+                "change_log": "v1.6.38 (August 2, 2024)\n* Graphics optimizations resulting in roughly 25% performance gains\n* Enabled fog in all scenes\n* Raised the default Throw Power setting\n* Fix: Lighting in Tournament SinglePlayer, Multiplayer and Hands scenes\n* Fix: DartCam left controller Zoom wasn't working"
+            },
             {
                 "version": "1.6.37",
                 "change_log": "v1.6.37 (July 29, 2024)\n\nCHANGELOG:\n* This is a major Multiplayer overhaul as well as bug fixes and improvements to the core game and Hands throwing mode.\n\nMULTIPLAYER:\n- Multiplayer system upgraded to a new networking solution\n- Fix: Meta Avatars are now fully working with voice in a multiplayer session\n- Fix: Audio syncing issues across the network: dart hit, announcer sounds etc.\n- Fix: Darts no longer offset in multiplayer when adjusting player height\n- Fix: End Game UI name and score updating for all players\n- Fix: Removing the headset breaks voice communication\n- New Multiplayer Lobby allows players to create and join a session, and play single player games while waiting for another player to join\n- New Player Registry UI shows the names of players currently in a session\n- Once P2 joins, P1 can start a new multiplayer game for 2 players\n- New Ready Up UI for 2P games\n- After a game ends, players stay in the same room to play again or exit back to the Lobby to create a new session, or to the Main Menu to play Single Player or Hands (Beta)\n- Lower latency for remote darts, as well as smoother avatar animations across the network\n- Freethrow, X01 and Cricket are ready for Multiplayer\n\nCORE GAME:\n- Fix: Hang-ups and inconsistency when loading the game for some players\n- Fix: Dartboard collision accuracy improvements\n- Fix: Missing the dartboard would not report 0 score, and announcer wouldn't speak hand score\n- Fix: Auto-aim now only uses 1 system, Gaze. The aim spot now shows up on the board if Auto-aim is set to 1 or higher. Off if 0. This system will get additional improvements in subsequent updates, such as a delayed aim spot, and an optional gradual auto-aim for X01 double outs. AutoAim disabled for Multiplayer\n- Fix: HMD Battery Power indicator was broken. It now has multiple levels with colour coding\n- Fix: Fade in/out when switching scenes\n- Fix: Scrollable menus could scroll out of bounds\n- Fix: Avatar lighting in all scenes was blown out, too bright\n- Fix: Headset/board distance detection updated to prevent players from walking up to the board\n- Fix: Leaderboard data is now properly sent for X01 and Cricket Multiplayer\n- New player height adjustment. All players now stand at the same height whether sitting or standing. Push X to re-adjust. Working in Multiplayer as well\n- Added new condition for End Game menus if game exited without a winner\n- Improved dart physics\n- Improved accuracy of dart scoring after darts land on the board\n- Added back the 3 dart average in most game modes, including multiplayer.\n- Updated UI system navigation for Single Player, Multiplayer and Hands modes \n- Added button hover states to provide the user with more info about a feature\n- Added UI menu fading, better UI naming and navigation\n- Improved Avatar loading in all scenes\n- Added new Ambient Sound Player Pref adjustment\n- Removed Video quality adjustment. Handled in the backend\n\nHANDS (Beta):\n- Darts can now be grabbed and thrown with Left and Right hands\n- Core throwing and scoring system fully works with hands\n- Freethrow and X01 game modes fully set up and working\n- Changed dart spawn position\n- Exit back to Main Menu button added\n- Menu/navigation updates"
@@ -160,31 +164,27 @@
             {
                 "version": "1.4.11",
                 "change_log": "v1.4.11 (April 21, 2022):\n- Bug Fix: Leaderboard Global Throws and Multiplayer wins not updating properly\n- Added personal leaderboard stats to the Main Menu\n- Moved Welcome page to Onboarding\n- Meta Avatar stability updates, bug fixes, and performance updates for multiplayer\n- System updates"
-            },
-            {
-                "version": "1.4.10",
-                "change_log": "v1.4.10 (April 15, 2022):\n- System updates\n- Meta Avatar update to v12.0\n- UI graphics bug fixes"
             }
         ],
         "on_rookie": true,
-        "general_update": 478465,
+        "general_update": 478513,
         "genre_update": 474685,
         "device_update": 478465,
         "mode_update": 474685,
         "language_update": 478465,
         "platform_update": 478465,
         "player_mode_update": 474685,
-        "changelog_update": 478465,
+        "changelog_update": 478513,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477553,
+        "rating_update": 478513,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478465,
+        "last_update": 478513,
         "category": "GAMES",
-        "votes": 53,
-        "rating": 3.716981,
-        "weighted_rating": 3.6
+        "votes": 54,
+        "rating": 3.740741,
+        "weighted_rating": 3.7
     },
     "errors": []
 }
