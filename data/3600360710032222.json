@@ -111,14 +111,6 @@
             {
                 "version": "0.3.0",
                 "change_log": "Features\n- Added Fly tool, a new locomotion type. Reach out like your favourite caped hero and pull the trigger to fly around your sketch! Find it on the Advanced Tools panel.\n- Oculus Mixed Reality Capture Tool fixes. The plugin now receives the correct world scale. This also works with the LIV for Quest beta!\n\nFixes\n- Block Poly on Quest 1. Sadly Poly was causing crashes on Quest 1, and due to the short time that Poly will be available, we have chosen to block access. Poly downloads will still work on Quest 2 until the service shuts down. We are creating a Poly replacement service called Icosa Gallery, and once it is up and running we'll make sure Quest 1 (and 2!) will have full support for it!\n- Uploads to SketchFab are now tagged with Open Brush as the creation tool."
-            },
-            {
-                "version": "0.2.0-(menuitem)",
-                "change_log": "Hotfix to remove Google services support due to crashing on Quest 1."
-            },
-            {
-                "version": "0.2.0-(menuitem)",
-                "change_log": "- Re-added Sketchfab login\n- Re-added Google/Poly login\n- Re-added GIF recording"
             }
         ],
         "on_rookie": false,
@@ -129,13 +121,13 @@
         "language_update": 475273,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478537,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 478489,
         "iarc_detail_update": 475273,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478537,
         "category": "APPS",
         "votes": 187,
         "rating": 4.657754,
