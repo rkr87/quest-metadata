@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "5.6",
+                "change_log": "Corrected wrong error message displaying on track list page, intoducing new track's format, for the moment implemented on \"Ballyreagh Wood\""
+            },
+            {
                 "version": "5.5",
                 "change_log": "New track available, corrected potential frame drop in preview and potential waste of space during track download"
             },
@@ -143,10 +147,6 @@
             {
                 "version": "v4.51",
                 "change_log": "Corrected player crash or not starting when device back from sleep mode, fix training not starting when canceled connecting to sensor"
-            },
-            {
-                "version": "v4.5",
-                "change_log": "New track available, hiding controller when riding, correct player not starting immediately on training launch"
             }
         ],
         "on_rookie": false,
@@ -157,13 +157,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478489,
+        "changelog_update": 478561,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478273,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478561,
         "category": "ENTERTAINMENT",
         "votes": 30,
         "rating": 3.133333,

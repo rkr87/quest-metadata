@@ -75,8 +75,16 @@
         },
         "changelog": [
             {
+                "version": "7.7",
+                "change_log": "Why such a fast, unplanned version of arcade 7.7?}\nBecause an Arcade gamer (thanks Julie B.) reminded me that Jack game had certain weaknesses.\n\nWhat has changed?\n- Sounds and music. they coexist very well now.\n- I have added a neon-style effect when the serie is presented.\n\nDoes it really have an impact on the game?\nYes, definitely. I am getting higher scores but more importantly I am having a lot more fun playing!\n\nOther changes?\n- Some texts in the options screen.\n- Tab-style for games category (action/puzzle/demo)."
+            },
+            {
                 "version": "7.6",
                 "change_log": "what is new in 7.6?\n\nI seperated games in 3 sections:\n- action games\n- puzzle games\n- and the new demo games\n\nWhat is the purpose of the demo game section?\nSimply let you try before you buy.\n\nWhat are the limitations of jack and jack spin demos?\nThe only limitation is the number of level you can reach: 10\nIn the paid version you can reach 100 levels.\n\nCheers!"
+            },
+            {
+                "version": "7.7",
+                "change_log": "Why such a fast, unplanned version of arcade 7.7?}\nBecause an Arcade gamer (thanks Julie B.) reminded me that Jack game had certain weaknesses.\n\nWhat has changed?\n- Sounds and music. they coexist very well now.\n- I have added a neon-style effect when the serie is presented.\n\nDoes it really have an impact on the game?\nYes, definitely. I am getting higher scores but more importantly I am having a lot more fun playing!\n\nOther changes?\n- Some texts in the options screen.\n- Tab-style for games category (action/puzzle/demo)."
             },
             {
                 "version": "7.5",
@@ -129,10 +137,6 @@
             {
                 "version": "3.0",
                 "change_log": "Hello folks!\n\nThis is the version 3.0 of Arcade.\n\nHaving received many positive comments and some ideas for improvements, I decided to delay (few weeks) the release of the next game: Blended.\n\nSo I focused my development on improving the user experience, making some major changes:\n* Simplified general behavior (fewer windows)\n* Added leaderboard (scores are shared :-))\n* Fixed a probable bug: the game was intended to run at 72 Hz only. I corrected the code to support any frequency\n* Displayed in real time the frequency in the option menu (before it was a fixed 72 Hz value)\n* Standardized access to the OPTION menu (accessible with the 'menu' button on the left joystick instead of A or X buttons)\n* Removed the RULES button (how to play can be shared through this page)\n* A few improvements here and there\n\nNeoPunk"
-            },
-            {
-                "version": "1.0",
-                "change_log": "First release of Arcade!"
             }
         ],
         "on_rookie": false,
@@ -143,13 +147,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478465,
+        "changelog_update": 478561,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478489,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478561,
         "category": "GAMES",
         "votes": 84,
         "rating": 4.928571,
