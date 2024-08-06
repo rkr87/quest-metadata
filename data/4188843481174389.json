@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 64
+                "votes": 63
             },
             {
                 "rating": 5,
-                "votes": 549
+                "votes": 550
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,8 +85,16 @@
         },
         "changelog": [
             {
+                "version": "1201",
+                "change_log": "* Fixed a crash in the result screen/my progress room.\n* Added support for Chinese and Italian languages."
+            },
+            {
                 "version": "1200",
                 "change_log": "Here are some small fixes :)\n\n- Disabled blocking matchmaking for higher ping players by trying to find lower ping players first, then searching for any ping regardless of the maximum ping threshold.\n- Fixed a bug causing the sandbox modifier to get stuck in multiplayer custom mode.\n\nQuest only\n- Fixed group presence for multiplayer which allows you to see who you are actively playing with in the quest menu."
+            },
+            {
+                "version": "1201",
+                "change_log": "* Fixed a crash in the result screen/my progress room.\n* Added support for Chinese and Italian languages."
             },
             {
                 "version": "1.1108",
@@ -153,10 +161,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478585,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 478561,
+        "rating_update": 478585,
         "iarc_detail_update": 477385,
         "keywords": [
             "roguelite",
@@ -164,10 +172,10 @@
             "crafting",
             "action"
         ],
-        "last_update": 478561,
+        "last_update": 478585,
         "category": "GAMES",
         "votes": 660,
-        "rating": 4.701515,
+        "rating": 4.70303,
         "weighted_rating": 4.6
     },
     "errors": []

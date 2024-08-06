@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 270
+                "votes": 271
             }
         ],
         "comfort": "NOT_RATED",
@@ -82,6 +82,10 @@
             "logo_transparent": "39031387_432303781410746_6349609457837864298_n.png"
         },
         "changelog": [
+            {
+                "version": "2.10.0",
+                "change_log": "Update 47\n\nChanges/Improvements:\n- Removed previous season's decorations\n- Cleaned up previous Battle Pass and hidden the UI until the next season start\n\nFixes:\n- Optimized some code under the hood"
+            },
             {
                 "version": "2.10.0",
                 "change_log": "Update 46\n\nNew:\n- Added Server Browser\n- Added more than 100 new items, weapon skins, Monuments, Grapple Hooks and more\n- Added a new Mythic Grapple Hook. Trust me, it's mighty.\n- Added campfires to King of the Chill mode\n- Added item previews for most of the items in the Shop\n\nChanges/Improvements:\n- Updated item prices\n\nOptimizations:\n- Optimized the file size of item icons reducing the overall game size"
@@ -153,10 +157,6 @@
             {
                 "version": "0.31",
                 "change_log": "Update 31\n\nNew:\n- Reworked the colors of the ingame interface to better represent what is friendly (blue) and what is enemy (red), including character highlights, health bars, player names, UI panels and gameplay elements\n- Added elimination feed with proper team colors and weapon icons\n- Added reworked Drone Challenge:\n  - Added a completely new look and layout for the Drone Challenge to better match the quality of the game\n  - Improved difficulty curve to be more dynamic and smoothly increasing in challenge\n  - Improved the AI of the drones to make them more dynamic\n  - Player gets shield after completing each wave (pickups removed)\n- Added hit/kill indicator for bow\n- Added camera fades and dynamic loading screen between levels\n\nChanges:\n- Improved the animation of drones in the Drone Challenge\n- Improved Firing Range targets visibility\n- Improved level design on Complex (still in Alpha)\n- Improved colliders on Container\n- Replaced the climbing part with double jump in the Tutorial temporarily\n- Parkour level temporarily removed from the game because it isn't on par with the quality of other parts of the game\n\nOptimizations:\n- Optimized some visual elements of the drones\n\nFixes:\n- Fixed a matchmaking bug where players got matched a second time even after already joining a match\n- Fixed some colliders in the Firing Range\n- Fixed pause menu to work properly when server is disconnected\n- Fixed translations on some texts\n- Fixed smooth turn speed on reset to match default value\n- Fixed character overflow on player names above health bars\n- Fixed wall colliders on Temple\n- Fixed Grenade pistol ammo display"
-            },
-            {
-                "version": "0.30",
-                "change_log": "Greetings, champions!\n\nUpdate 30 is live!\n\nWe've added a long awaited feature: the Firing Range. In the Firing Range you can practice your shooting, play multiple minigames and try out all the weapons at your own pace.\n\nNew:\n- Added Firing Range with multiple minigame modes:\n  - Static Practice: Try out all the weapons in the game in a safe environment at your leisure\n  - Reflex Practice: Try to hit the active target with any weapon\n  - Headshot Practice: Deliver as many headshots as you can in the given time\n  - Practice Dummy placed in the Firing Range\n  - With a friendly NPC companion\n\nChanges:\n- Removed winter seasonal decorations from the game\n- Practice Range repurposed to Drone Challenge\n- Practice Dummy moved to the Firing Range from the Drone Challenge\n- Improved color space for the whole game\n\nOptimizations:\n- Optimized grappling hook and bow materials\n\nFixes:\n- Fixed Oculus PC startup crash\n- Fixed rockets in Rocket Launcher to match the current game state and graphics fidelity\n- Fixed Railgun tutorial step not registering damage\n- Fixed hit indicator on headshots"
             }
         ],
         "on_rookie": true,
@@ -167,16 +167,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478585,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478561,
+        "rating_update": 478585,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478561,
+        "last_update": 478585,
         "category": "GAMES",
-        "votes": 339,
-        "rating": 4.622419,
+        "votes": 340,
+        "rating": 4.623529,
         "weighted_rating": 4.5
     },
     "errors": []

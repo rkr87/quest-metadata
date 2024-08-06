@@ -84,6 +84,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.6",
+                "change_log": "IMPROVEMENTS\n   - Fixed many PSVR crashes\n   - Tighter dynamic arbitration\n\nBALANCING\n   - Viking Legendary: +2 Awaken (167)\n   - Viking Main: +2 Awaken (157)\n   - Pirate Legendary: +1 Awaken (169)\n   - Tyrant: Less strict anti-run (10%)\n   - Ronin Legendary: +2 Awaken (197)\n   - Samurai: Stricter anti-run (10%)\n   - Barbarian Legendary: -1 Awaken (181)\n   - Duelist Legendary: -2 Awaken (183)\n   - Persian Legendary: -2 Awaken (180)"
+            },
+            {
                 "version": "1.6.5",
                 "change_log": "FEATURES\n- Dynamic Arbitration (Reduces network lag)\n- Anti-Run (Penalizes if you're running too fast)\n\nBUG FIXES\n- Issue with ronin sheathing\n- Offline trials blocking game (not able to continue)\n- Ward issue when done before engagement restart\n- Critical parry (penalty, shield hit)\n- Inverted shield in solo\n- Weapons hit at distance when unholstering\n- Fixed issue with Ronin still being unable to sheathe after dying in half-sheathe\n- Fixed MR calibration and squire dojo\n- Improved body collider on Tyrant\n- Fixed some broken trials\n- Fixed remaining inverted shield in solo\n- Fixed some arena sounds not playing correctly\n\nBALANCING\n- Viking Legendary: +3 Awaken (165)\n- Ronin Main: +2 Awaken (184)\n- Pirate Legendary: -2 Awaken (168)"
             },
@@ -108,7 +112,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476641,
+        "changelog_update": 478585,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 478417,
@@ -117,7 +121,7 @@
             "pvp",
             "sword"
         ],
-        "last_update": 478417,
+        "last_update": 478585,
         "category": "GAMES",
         "votes": 1141,
         "rating": 4.168273,

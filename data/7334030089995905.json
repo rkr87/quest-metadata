@@ -3,7 +3,7 @@
         "id": "7334030089995905",
         "app_name": "Nova Sol Marine",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "\"Nova Sol Marine\" is an immersive action-adventure game in which you face a versatile single-player campaign featuring different difficulty levels from a first-person perspective. As a space marine in the \"Nova Sol\" system of the year 3012, you immerse yourself in diverse environments and fight against a variety of vicious aliens with your companions \"Violet\" and \"Wildcat\".\n\n- Action adventure\n- Single-player campaign\n- Varied environments\n- Different difficulties\n- Evil aliens\n- Be a Space Marine!\n\nNote: The game does not offer teleport movement, but constant movement optimized for comfort: slowness and smoothness befitting a space marine and a visual anchor through the armor enable this.\n\nThis game is optimized for Meta Quest 2.",
+        "description": "\"Nova Sol Marine\" is an immersive action-adventure game in which you face a versatile single-player campaign featuring different difficulty levels from a first-person perspective or take on action-packed missions together with friends. As a space marine in the \"Nova Sol\" system of the year 3012, you immerse yourself in diverse environments and fight against a variety of vicious aliens with your companions \"Violet\" and \"Wildcat\".\n\n- Action adventure\n- Single-player Campaign\n- Multiplayer: Co-op missions\n- Varied environments\n- Different difficulties\n- Evil aliens\n- Be a Space Marine!\n\nNote: The game does not offer teleport movement, but constant movement optimized for comfort.",
         "developer": "Exystem",
         "publisher": "Exystem UG (haftungsbeschränkt)",
         "genres": [
@@ -15,7 +15,9 @@
             "Touch Controllers"
         ],
         "modes": [
-            "Single User"
+            "Single User",
+            "Multiplayer",
+            "Co-op"
         ],
         "languages": [
             "English",
@@ -53,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 7
+                "votes": 6
             }
         ],
         "comfort": "NOT_RATED",
@@ -66,7 +68,7 @@
             "elements": [],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
-        "internet_connection": "NOT_REQUIRED",
+        "internet_connection": "REQUIRED",
         "website": "https://exystem.eu/games",
         "app_images": {
             "cover_landscape": "75196229_764718208908347_6373790752854104977_n.png",
@@ -79,6 +81,10 @@
             "logo_transparent": "75289719_1071759130719612_1899827101651858741_n.png"
         },
         "changelog": [
+            {
+                "version": "2.00",
+                "change_log": "+ Co-op multiplayer"
+            },
             {
                 "version": "1.04",
                 "change_log": "Fixed magazine reload issues."
@@ -93,24 +99,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 478585,
         "genre_update": 475009,
         "device_update": 475009,
-        "mode_update": 475009,
+        "mode_update": 478585,
         "language_update": 475009,
         "platform_update": 475009,
         "player_mode_update": 475009,
-        "changelog_update": 475105,
+        "changelog_update": 478585,
         "keyword_update": 475009,
         "tag_update": 475009,
-        "rating_update": 476233,
+        "rating_update": 478585,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477385,
+        "last_update": 478585,
         "category": "GAMES",
-        "votes": 8,
-        "rating": 4.875,
-        "weighted_rating": 4.1
+        "votes": 7,
+        "rating": 4.857143,
+        "weighted_rating": 4.0
     },
     "errors": []
 }

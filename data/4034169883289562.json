@@ -46,7 +46,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 10
+                "votes": 9
             },
             {
                 "rating": 2,
@@ -89,6 +89,10 @@
             "logo_transparent": "39031613_4165392783495663_2442638352413047922_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6.39",
+                "change_log": "v1.6.39 (August 5, 2024)\n* Fix: Multiplayer X01 Bust for Remote player breaks game. StartingRoundScore now sets properly and Remote players turn ends as soon as they bust.\n* Added Passthrough scene to Multiplayer\n* Huge thanks to Peter for the bug reports and suggestions!"
+            },
             {
                 "version": "1.6.38",
                 "change_log": "v1.6.38 (August 2, 2024)\n* Graphics optimizations resulting in roughly 25% performance gains\n* Enabled fog in all scenes\n* Raised the default Throw Power setting\n* Fix: Lighting in Tournament SinglePlayer, Multiplayer and Hands scenes\n* Fix: DartCam left controller Zoom wasn't working"
@@ -160,31 +164,27 @@
             {
                 "version": "1.4.12",
                 "change_log": "v1.4.12 (April 22, 2022):\n- Bug Fix: Meta Avatar now works for Quest 1\n- Removed legacy floating hands\n- Minor sfx updates"
-            },
-            {
-                "version": "1.4.11",
-                "change_log": "v1.4.11 (April 21, 2022):\n- Bug Fix: Leaderboard Global Throws and Multiplayer wins not updating properly\n- Added personal leaderboard stats to the Main Menu\n- Moved Welcome page to Onboarding\n- Meta Avatar stability updates, bug fixes, and performance updates for multiplayer\n- System updates"
             }
         ],
         "on_rookie": true,
-        "general_update": 478537,
+        "general_update": 478585,
         "genre_update": 474685,
         "device_update": 478465,
         "mode_update": 474685,
         "language_update": 478465,
         "platform_update": 478465,
         "player_mode_update": 474685,
-        "changelog_update": 478513,
+        "changelog_update": 478585,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478561,
+        "rating_update": 478585,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478561,
+        "last_update": 478585,
         "category": "GAMES",
-        "votes": 55,
-        "rating": 3.709091,
-        "weighted_rating": 3.6
+        "votes": 54,
+        "rating": 3.759259,
+        "weighted_rating": 3.7
     },
     "errors": []
 }
