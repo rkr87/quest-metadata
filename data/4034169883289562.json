@@ -90,6 +90,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.40",
+                "change_log": "v1.6.40 (August 6, 2024)\n* Fix: X01 Single Player score doesn't update on the scoreboard\n* Added Ambient Crowd noise to the Tournament scene\n* Updated the AI Dart position\n* Updates to the Main Menu UI navigation"
+            },
+            {
                 "version": "1.6.39",
                 "change_log": "v1.6.39 (August 5, 2024)\n* Fix: Multiplayer X01 Bust for Remote player breaks game. StartingRoundScore now sets properly and Remote players turn ends as soon as they bust.\n* Added Passthrough scene to Multiplayer\n* Huge thanks to Peter for the bug reports and suggestions!"
             },
@@ -160,10 +164,6 @@
             {
                 "version": "1.4.13",
                 "change_log": "v1.4.13 (April 28, 2022):\n- Added 13 new dart flights, and 11 new aluminum and plastic shaft colour variations\n- Bug Fix: Reset all remote avatars when leaving a room or disconnected\n- Bug Fix: Remote Avatar refresh rate setting lowered to help with 4 player games."
-            },
-            {
-                "version": "1.4.12",
-                "change_log": "v1.4.12 (April 22, 2022):\n- Bug Fix: Meta Avatar now works for Quest 1\n- Removed legacy floating hands\n- Minor sfx updates"
             }
         ],
         "on_rookie": true,
@@ -174,13 +174,13 @@
         "language_update": 478465,
         "platform_update": 478465,
         "player_mode_update": 474685,
-        "changelog_update": 478585,
+        "changelog_update": 478609,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478585,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478585,
+        "last_update": 478609,
         "category": "GAMES",
         "votes": 54,
         "rating": 3.759259,

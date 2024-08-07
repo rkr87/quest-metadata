@@ -27,7 +27,9 @@
         "player_modes": [
             "STANDING"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -71,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "1.520",
+                "change_log": "August 2024 update: added a save state feature to many levels that allows you to save the position of an object between sessions, this allows you to create a zoo home! Also added a custom mixed reality boundary feature to many levels that allows you to set the view distance of the Passthrough objects (so they don’t appear through your walls). Other performance improvements have also been made."
+            },
+            {
                 "version": "1.439",
                 "change_log": "Added moveable object copy and enlargement rings in the object copy/enlarge levels. This allows much more flexibility to copy and place animals and plants in mixed reality."
             }
@@ -83,13 +89,13 @@
         "language_update": 474685,
         "platform_update": 478009,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478609,
         "keyword_update": 474685,
-        "tag_update": 474685,
+        "tag_update": 478609,
         "rating_update": 477313,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478009,
+        "last_update": 478609,
         "category": "GAMES",
         "votes": 7,
         "rating": 4.857143,
