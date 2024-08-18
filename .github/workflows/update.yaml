@@ -13,7 +13,7 @@ jobs:
       - name: Increase swapfile size
         run: |
           sudo swapoff -a
-          sudo fallocate -l 5G /swapfile
+          sudo fallocate -l 3G /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
           sudo swapon /swapfile
