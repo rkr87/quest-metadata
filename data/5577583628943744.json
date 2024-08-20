@@ -3,7 +3,7 @@
         "id": "5577583628943744",
         "app_name": "Ocean Passthrough",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Experience an ocean in your home!\n- over 100 hundred sea creatures and (updated) bonus level 50+ toy sized land animals/dinosaurs\n- full Passthrough, Handtracking\n- move, delete, spawn animals to create your own ocean home! \n- (updated) bonus experimental levels to select animals to copy and enlarge\n- turtles, sharks, whales, dolphins, clown fish, starfish, crocodiles, octopus, extinct dinosaur fish, piranha, and a wide variety of exotic and common sea creatures! + much more!\n-  bonus toy / table top land animals include:  rhino, elephant, t-rex, deer, crocodile, tiger, leopard, hippo, zebra, dogs, cats, various farms animals and dinosaurs, and more!\n- 10 scenes to explore, all with ability to spawn & delete fish and to move stationary fish:\n— feed swimming fish to a shark, feed fish to swimming sharks\n— swimming fish on random spawn\n— varying pre-made fish scenes\n— 2 scenes full of turtles\n— empty scene to spawn fish\n— mammals only\n\n- updated August 20, 2023: added experimental levels to copy and enlarge animals, bug fixes, added bonus table top sized land animal level / dinosaur level.",
+        "description": "Experience an ocean in your home!\n- over 100 hundred sea creatures and (updated) bonus level 50+ toy sized land animals/dinosaurs\n- August 2024 update: added object s position save state and custom mixed reality visual boundary to various areas and added a bonus jungle area\n- full Passthrough / Mixed Reality, Handtracking\n- move, delete, spawn animals to create your own ocean home! \n- turtles, sharks, whales, dolphins, clown fish, starfish, crocodiles, octopus, extinct dinosaur fish, piranha, and a wide variety of exotic and common sea creatures! + much more!\n-  bonus toy / table top land animals include:  rhino, elephant, t-rex, deer, crocodile, tiger, leopard, hippo, zebra, dogs, cats, various farms animals and dinosaurs, and more!\n- 10 scenes to explore, all with ability to spawn & delete fish and to move stationary fish:\n— feed swimming fish to a shark, feed fish to swimming sharks\n— swimming fish on random spawn\n— varying pre-made fish scenes\n— 2 scenes full of turtles\n— empty scene to spawn fish\n— mammals only",
         "developer": "ZOSU",
         "publisher": "ZOSU Studios LLC",
         "genres": [
@@ -26,7 +26,8 @@
             "Meta Quest"
         ],
         "player_modes": [
-            "STANDING"
+            "STANDING",
+            "SITTING"
         ],
         "tags": [],
         "hist": [
@@ -51,7 +52,7 @@
                 "votes": 9
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,6 +73,14 @@
         },
         "changelog": [
             {
+                "version": "1.538",
+                "change_log": "Major improvement to hand tracking, added another jungle bonus area, minor bug fixes, and global performance improvement"
+            },
+            {
+                "version": "1.524",
+                "change_log": "Added animal save state and custom mixed reality visual boundaries to 2 ocean levels. Added a bonus jungle level where you can save the jungle and animal positions to create a home zoo. Added a new table top animal bonus area where the tables can be toggled off and animal save state is enabled."
+            },
+            {
                 "version": "1.390",
                 "change_log": "Updates\n- bonus level with over 50 small table top sized animals \n- added experimental levels to copy and enlarge animals\n- fixed bug: player now always spawns and correct location\n- fixed minor bugs related to deleting animals and collisions\n- FYI updated SDK version used to build this app"
             },
@@ -85,20 +94,20 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476257,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
-        "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475897,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 12,
         "rating": 4.583333,

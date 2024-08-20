@@ -42,15 +42,15 @@
             },
             {
                 "rating": 3,
-                "votes": 4
+                "votes": 5
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 5,
-                "votes": 88
+                "votes": 87
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,7 +76,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974535_1418659848888827_5329423921064917142_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "2.1.141",
+                "change_log": "Fixed a bug where Concert files were being deleted.\n - A bug that caused downloaded Concert files to be deleted if not viewed for more than a week has been fixed.\n - Please note that after the app update, you will need to delete and re-download the files for the fix to take effect."
+            }
+        ],
         "on_rookie": false,
         "general_update": 477193,
         "genre_update": 474685,
@@ -85,16 +90,16 @@
         "language_update": 474685,
         "platform_update": 478105,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 478513,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478513,
+        "last_update": 478921,
         "category": "ENTERTAINMENT",
-        "votes": 125,
-        "rating": 4.208,
+        "votes": 126,
+        "rating": 4.190476,
         "weighted_rating": 4.1
     },
     "errors": []

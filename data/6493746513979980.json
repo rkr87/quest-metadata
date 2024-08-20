@@ -15,7 +15,8 @@
             "Touch Controllers"
         ],
         "modes": [
-            "Single User"
+            "Single User",
+            "Multiplayer"
         ],
         "languages": [
             "English"
@@ -49,10 +50,10 @@
             },
             {
                 "rating": 5,
-                "votes": 204
+                "votes": 208
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -75,6 +76,10 @@
             "logo_transparent": "57570310_661294489352379_2348863155013126206_n.png"
         },
         "changelog": [
+            {
+                "version": "2.5",
+                "change_log": "Added:\nMultiplayer Skins \nBounciness number\nRemoved Stick Drift in Multiplayer due to Chainsword bug\nMoved Sandbox to unlock at Level 1"
+            },
             {
                 "version": "2.45",
                 "change_log": "Added a 3 second invincibility buffer to Multiplayer respawn\nReordered Level 18, 19, 20 difficulty\nDecreased Gargoyle Flame Breath damage\nIncreased Toilet Crown punishment threshold to a 15 lose streak\nAdded Boss Fight player skin reward"
@@ -150,30 +155,26 @@
             {
                 "version": "1.999",
                 "change_log": "Version 1.999\n\nAdded:\n-Boss Fight PREVIEW after Level 12\n-Added Challenge Reward in Level 7\n-Added optional Score System  \n-Endlesss Mode in Sandbox\n-Player Size control in Sandbox\n-Halloween 2023 Player avatar\n*Sandbox unlocks after Level 5"
-            },
-            {
-                "version": "1.998",
-                "change_log": "Version 1.998\n\nAdded:\n-Added optional Score System  \n-Endlesss Mode in Sandbox\n-Player Size control in Sandbox\n-Halloween 2023 Player avatar\n*Sandbox unlocks after Level 5"
             }
         ],
         "on_rookie": true,
-        "general_update": 478129,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
-        "mode_update": 474685,
+        "mode_update": 478921,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478441,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478465,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478465,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 250,
-        "rating": 4.58,
+        "votes": 254,
+        "rating": 4.586614,
         "weighted_rating": 4.5
     },
     "errors": []

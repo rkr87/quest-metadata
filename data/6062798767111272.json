@@ -1,13 +1,14 @@
 {
     "data": {
         "id": "6062798767111272",
-        "app_name": "Realms Of Flow",
+        "app_name": "Realms of Flow",
         "release_date": "1980-01-01T00:00:00.000Z",
         "description": "'Realms of Flow' is all about calming down and drifting away into deep and soothing states of mind. It utilizes a combination of high-framerate stereoscopic 180°-video and interactive elements for breathing, mindful listening, playfulness, humming, and frequency entrainment.\n\nYou can choose from several experiences, each offering a different scenery, general atmosphere and meditative narration.\nIn the Session Timing options you can set the start time and duration for the different guide features: Voice-over, Breathing Guide, Spatial Sounds, Humming Guide, Frequency Entrainment, and Element of Play.\nEach feature has various settings that you can adjust according to your preferences. For example, the breathing tempo, which affects a customizable visual focus object, can be a fixed user-defined tempo or controlled using your hand or belly movement.\n\nThe focus of this application is less on giving a step-by-step voice guidance, but on creating small cinematic journeys with a poetic and meditative touch.\n\nRealms of Flow strives to offer unique immersive audio-visual atmospheres to provide thoughtful inspiration, evoke emotions, and create interesting, soothing, and meaningful states of mind that will hopefully enrich your palette of being. - Immerse yourself in the infinite Realms of Flow!",
         "developer": "EpicScapes",
         "publisher": "EpicScapes",
         "genres": [
-            "Health & Fitness"
+            "Health & Fitness",
+            "Business, Productivity & Utility"
         ],
         "devices": [
             "Touch Controllers"
@@ -47,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 51
+                "votes": 54
             }
         ],
         "comfort": "NOT_RATED",
@@ -70,6 +71,10 @@
             "logo_transparent": "39031636_6060752907370241_7711013442721188115_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.31",
+                "change_log": "// Realms of Flow | 1.0.31 - 12.08.2024 //\t\n\t\n- Two new experiences: 'Nature's Calling' (regular CGI) and 'Altered States of Mycelia' (experimental AI)\t\n>> Tip: In 'Altered States of Mycelia' try playing with the peripheral instances of the visuals, setting them close to the center for some interesting effects.\n- The experimental experiences (using generative AI for the visuals) are now on Home menu page 4\t\n\n- Added ratio presets (for inhalalation vs. exhalation length) to simplify setting the tempo of the 'Auto' breath mode\t\n- Added an additional 'Simple Mode', which allows setting the 'Auto' tempo using a single slider instead of setting the individual breath phases (for tempo gradient and breath holds use the 'Advanced Mode')\t\n- When using 'Simple Mode', holding the controller button labeled 'Calibrate Breath Tempo' will now allow you to simply nudge the 'Auto' tempo up and down using the triggers. In the 'Advanced Mode' holding the same button will bring up the previously introduced tempo calibration using controller distance to act out the desired tempo incl. breath holds.\t\n- Added an option to visualize the breath hold phases (when set to 2s or longer) to have a better impression of the remaining hold time\n\n- Added a tour to the 'Session Timing Options' as intro for new users\t\n\t\n- Added German versions of the menu tooltips (when hovering options), instructions and help sections\t\n\n- Updated the voice-over of the 'Timeless Being' experience with a more empathic version \n\n- Fixed a bug with the main visuals' distance setting not working as intended, when loading previously saved settings with breath mode 'OFF'\n\t\n- Plenty of other small tweaks and fixes\t\n\n\n>> A little tip for alternative music on Quest (standalone): \nThe latest system software update now allows you to run other music apps (e.g. Spotify Premium in the Quest browser) parallel to other apps without audio degradation. \n\nAn example that I personally enjoy: \nRoF experience 'Home Within' combined with the track 'Sit Around the Fire' (Music: John Hopkins, Narration:Ram Dass) from Spotify.\n\nFor that, set the music and narration volume to 0 in the RoF Sound settings.\nFor some music tracks (which are not in C major scale) I'd recommend to also turn down the volume of other tonal elements (Breath Focus Obj. Noise, Breath Timing Sound, Spatial Sounds, Humming Reference Sound) to avoid disharmony.\n\n\n- Another hint (Quest standalone): For resetting the view, only use the RoF controller shortcut (B button), since using the Meta system button interchangeably with that will cause unwanted offsets, especially when using Meta's experimental lying down mode. (RoF has that functionality built in already)\n"
+            },
             {
                 "version": "1.0.29",
                 "change_log": "// Realms of Flow | 1.0.29 - 26.05.2024 //\t\n\t\n- Added new experience \"Dissolve\"\t\n- The Hookah (last update's Easter egg) is now officially documented in the controls overview - hold right Trigger for 1s to enable / disable it\t\n- Added Hookah Wisdom: When you take a long puff on the Hookah (and the current experience's narration is not playing or about to start playing) you will hear some selected and hopefully inspiring life wisdom\t\n- Fixed some bugs with the Hookah: Haptics were not working with the left controller and sometimes a bright visual artifact would float mid-air\t\n- Added another hopefully relaxing item for you to play with: The Pan Drum - bring it up by pressing the left trigger for 1s (as documented)\t\n- Added a calibration option for the Auto breath tempo - you can use your controller distance to act out the desired Auto breath tempo, either before experience start (click the stopwatch icon for Time 1 and Time 2 in the Breath Settings sub menu) or during the experience (hold the left controller's upper face button for 1s - as documented in the controls overview)\t\n- Added the ability to set longer breath phases for the Auto breath tempo mode (up to 240s as requested by some users - for training of long breath holds)\t\n- Added slider to set the intensity of the haptic breath tempo indicator\t\n- Added new spatial sound type \"Books&Paper\"\t\n- Added new style \"Spiral\" for the main shape of the visual breath focus object\t\n- Added option to use gaze direction to steer the selection pointer, instead of a pointer attached to the controller (can be enabled in the Control Settings sub-menu)\t\n- Fixed: Some frequent crashes that a few users experienced (on Quest standalone) should not occur anymore\t\n- Foveated rendering (Quest standalone) is now adaptive - depending on the processing load, so it will only kick in when needed. Hence it is now also enabled by default on both Quest 2 + 3 and recommended to keep enabled.\t\n- Lots of other small tweaks and fixes"
@@ -116,24 +121,24 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476425,
-        "genre_update": 474685,
+        "general_update": 478921,
+        "genre_update": 478921,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476881,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478441,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478441,
+        "last_update": 478921,
         "category": "APPS",
-        "votes": 51,
+        "votes": 54,
         "rating": 5.0,
-        "weighted_rating": 4.7
+        "weighted_rating": 4.8
     },
     "errors": []
 }

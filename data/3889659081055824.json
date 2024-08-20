@@ -1,0 +1,108 @@
+{
+    "data": {
+        "id": "3889659081055824",
+        "app_name": "SAIVA",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "A technical tool aimed at professional coaches that want a deeper analysis and understanding of their replays\nTraining in 3 steps\n1. Identify the action to train with your team\n2. Create the action with Easy Sports Animation\n3. Upload the file to your online SAIVA account\nBe it a standard play or a 1vs1 situation, feedback quality can be improved by repeating any situation from different perspectives and positions\nStarting from an academy level, all players interact, train, and play on lineal training methods. The problem with Lineal training methods is that they are not player specific\n•  SAIVA helps players provide tailored training. Tailored training is designed to interact and provide input to individual players about their specific needs\n•  This allows defining defensive, midfield, and offensive strategies and specific tasks for each of these positions\n•  It gives coaches a wide-angle perspective and helps the players to see their own performance from a third-person perspective",
+        "developer": "TuringAICultures GmbH",
+        "publisher": "Turing AI Cultures GmbH",
+        "genres": [
+            "Sports"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Multiplayer",
+            "Single User"
+        ],
+        "languages": [
+            "English",
+            "German"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 0
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "https://www.saiva.football/",
+        "app_images": {
+            "cover_landscape": "39031341_176616477231259_8221790732286665173_n.png",
+            "cover_portrait": "39031341_974214543108067_9147929592011939545_n.png",
+            "cover_square": "38984460_893919131425205_6482433198148083140_n.png",
+            "hero": "39031428_1545753718948260_4632427042462655103_n.png",
+            "icon": "38974899_248698350160386_6306667883360971067_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982600_445998410085919_3886285086736643626_n.png"
+        },
+        "changelog": [
+            {
+                "version": "0.7.10",
+                "change_log": "English\n\nNew Features\n- Line Drawing Tool \n\t- Allows the user to draw lines on the pitch\n\t\t- User can choose:\n\t\t\t- Line type to be solid, dotted, wavy and double solid\n\t\t\t- Line color out of 10 colors\n\t\t\t- Line width\n\t\t\t- Toggle between a line and an arrow\n\t- Allows the user to stick spotlight circles to players\n\t\t- User can choose the color of the circle\t\t\n       - Allows the user to set offside lines to players\n\t- User can delete lines separatly or all at once\n\t\t- Undo System - User can undo the last lines\n\t\t\t- currently only works for placement of lines and circles   \nChanges\n - Changed layout of the overview cameras\n - Changed color of the goals to be white\nFixes\n - fixed offline user variant still visible in an online training in some cases\n - fixed having multiple invites from the same sender - now only invite from today and only the current invite of a sender is shown\n\nDeutsch\n\nNeuerungen\n - Linien Werkzeug\n\t- Benutzer können Linien direkt auf das Spielfeld zeichnen\n\t\t- Benutzer kann entscheiden über:\n\t\t\t- den Linientyp - durchgehend, gestrichelt, wellig oder doppelt durchgehend\n\t\t\t- die Linienfarbe - aus einer Auswahl von 10 Farben\n\t\t\t- die Linienstärke\n\t\t\t- das Linienende - einfach Linie oder mit Pfeilspitze\n\t- Benutzer kann \"Spotlight\" Kreise an Spieler heften um diese hervor zu heben\n\t\t- Die Farbe dieser Kreise kann vom Benutzer festgelegt werden\n\t- Benutzer kann Abseitslinien an Spieler heften\n\t- Benutzer kann Linien einzeln oder alle gleichzeitig löschen\n\t\t- Undo System - die letzten Aktionen können rückgängig gemacht werden\n\t\t\t- aktuell funktioniert dies nur für das platzieren von Linien und Kreisen\nVeränderungen\n - Layout der Übersichtskameras angepasst\n - Die Farbe der Tore ist nun weiß\nBehobene Fehler\n - es sollte nun nicht mehr passieren das eine \"Offline\" Variante des Benutzers in einem Online Training zu sehen ist\n - veraltete Einladungen, sowie mehrere Einladungen der selben Person werden nun nicht mehr angezeigt - nur die aktuellste Einladung eines jeden Benutzers "
+            },
+            {
+                "version": "0.7.10",
+                "change_log": "English\nNew Features\nQuick Overview\n- Allows the user to elevate yourself in multiple height steps to a max height of 9m\n- Press left stick to increase height\n- Press right stick to decrease height \nInvite & kick users directly from within a loaded training\n- New button in expandable top section of the coach menu \nScrolling with control sticks\n- Aim at a scrollable field and push/pull the stick on your controller to move its content \nUser can now teleport to the ball\n- Aim at the ball and press the trigger to teleport \nAdded a version check\n- If an older version is detected, a prompt will tell the user to update the software \nAdded a new fading shader\n- Objects now become transparent when you come close to them\n\nChanges\nIncreased follow speed of CoachMenu\nUser can now teleport to an NPC by clicking the NPCs name tag\nAdjusted the teleportable area to better fit the pitch size\nNPC name tags now keep their current state (enabled/disabled) when a new scenario is loaded\nAdjusted the aim rays to stay active when default cameras are enabled\nFixes\nfixed NPC transparent look using a wrong texture\nfixed visible edges of the background world\n\nDeutsch\nNeuerungen\nDirekte Übersicht\n- Benutzer können eine erhöhte Position mit unterschiedlichen Höhenstufen einnehmen\n- Linken Analogstick drücken um die Position zu erhöhen\n- Rechten Analogstick drücken um die Position zu verringern\nEinladen und entfernen von Benutzern aus einem geladenem Training heraus\n- Neue Schaltfläche in ausfahrbarem oberen Bereich des Trainermenüs\nScrollen mit Analogsticks\n- Ziele auf ein Scrollfeld und benutze den entsprechenden Analogstick um durch den Inhalt zu  scrollen\nBenutzer können sich nun zum Fußball teleportieren\n- Zielstrahl auf den Ball richten und den Trigger drücken, um zu teleportieren\nVersionscheck hinzugefügt\n- Wird eine ältere Version erkannt, dann wird dem Benutzer ein Update empfohlen \nNeuer Transparenz Effekt\n- Objekte werden transparent, solltest du ihnen zu nah kommen\n\nVeränderungen\nGeschwindigkeit des Trainermenüs erhöht\nBenutzer können sich nun durch einen Klick auf das Namensschild zu Spielern teleportieren\nTeleportierbare Fläche wurden auf die Spielfeldgröße angepasst\nSpieler-Namensschilder bleiben nun aktiviert/deaktiviert, wenn ein neues Szenario geladen wird\nZielstrahlen bleiben nun aktiv, wenn die Übersichtkameras aktiv sind\n\nBehobene Fehler\nTransparenz-Ansicht benutzt nun die richtige Textur\nSichtbare Kanten der Berge im Hintergrund wurden behoben"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 0,
+        "rating": 0.0,
+        "weighted_rating": 3.4
+    },
+    "errors": []
+}

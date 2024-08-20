@@ -41,7 +41,7 @@
             },
             {
                 "rating": 2,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 3,
@@ -49,11 +49,11 @@
             },
             {
                 "rating": 4,
-                "votes": 14
+                "votes": 16
             },
             {
                 "rating": 5,
-                "votes": 93
+                "votes": 104
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "3330",
+                "change_log": "v33.30 is OUT !!\n\nWas previously slightly wrong about the \"bug-free\" statement since I just found a bug related to the wind, which I just fixed !\n\nMore true-to-life wind volume level\n( less noticeably repetitive/unpleasant for a small percentage of users )\n\nFixed flight-wind bug, where the sound would continue playing if continuously attempting to fly into a surface ( and obviously not moving )."
+            },
+            {
                 "version": "3306",
                 "change_log": "-\nv33.06 is RELEASED !!\n\nImmersion is a top priority in EarthQuest, so let's go ALL IN !\n\n1. Realistic Sun, Sunrises, and Sunsets !!!\n\n- The sun has been completely revamped for realism !\n- Sunsets and Sunrises have been overhauled for realism as well, based on real life visuals !\n- The sun will now also get occluded by the clouds, just like in real life !\n\n2. More Quality and Performance feedback to help the user more easily achieve their preferred experience\n\n3. Fixed a Street View problem that turned the Mixed Reality view to black while previously using it"
             },
@@ -98,24 +102,24 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 478249,
+        "general_update": 478921,
         "genre_update": 476737,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 475561,
-        "changelog_update": 478417,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478609,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "APPS",
-        "votes": 138,
-        "rating": 4.130435,
-        "weighted_rating": 4.0
+        "votes": 152,
+        "rating": 4.177632,
+        "weighted_rating": 4.1
     },
     "errors": []
 }

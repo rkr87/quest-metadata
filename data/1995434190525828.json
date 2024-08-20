@@ -51,23 +51,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 433
+                "votes": 436
             },
             {
                 "rating": 2,
-                "votes": 149
+                "votes": 153
             },
             {
                 "rating": 3,
-                "votes": 267
+                "votes": 268
             },
             {
                 "rating": 4,
-                "votes": 947
+                "votes": 948
             },
             {
                 "rating": 5,
-                "votes": 8343
+                "votes": 8358
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +92,26 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.338.5_2024.8.19.2.29.9.609",
+                "change_log": "0.338.5"
+            },
+            {
+                "version": "0.338.0_2024.8.18.2.36.24.101",
+                "change_log": "0.338.0"
+            },
+            {
+                "version": "0.337.0_2024.8.17.20.25.11.633",
+                "change_log": "0.337.0"
+            },
+            {
+                "version": "0.336.6_2024.8.16.13.36.37.712",
+                "change_log": "0.336.6"
+            },
+            {
+                "version": "0.335.2_2024.8.6.20.12.48.95",
+                "change_log": "0.335.2"
+            },
             {
                 "version": "0.334.0_2024.7.26.0.25.25.221",
                 "change_log": "0.334.0"
@@ -151,26 +171,6 @@
             {
                 "version": "0.320.3_2023.12.22.21.5.0.29",
                 "change_log": "0.320.3\n - overhaul of left and right panels, including paddle/table/ball flow.\n - backend syncing of paddle presets and rubbers (more to come in the future)\n - fixed bug with ball machine allowing you to save same named presets\n - (as mentioned before) fixed unstable multiplayer pose tracking (your opponent should appear smoother)\n - (as mentioned before) added 11A and \"Ultimate PPP Pro\" quest 3 adapters\n - removed log all outbound/inbound as some users have toggled this and left it on - it logs a lot. \n - fixed a bug that left the paddle in a weird state sometimes after collision with the table. Where to fix it in the past, you went into the position preset menu and re-applied a position.\n - single player reduced mistake toggle fix\n - single player custom difficulty ai name fix\n - fix for some serialization issues pertaining to comma/decimal mismatch by locale\n - various fixes for paddle/rubber panels"
-            },
-            {
-                "version": "0.314.12_2023.11.20.15.36.8.998",
-                "change_log": "0.314.12\n    Connectivity fixes\n    Pickle Ball news event!\n    added solidslime v2 q3 adapter\n   added sanlaki adapter\n   added status icon in left panel\n   fixed some nav panel button positions\n   adjusted app initialization as it was causing issues for users in china\n   various UI updates\n   adjusted 11G-FX-Q3B adapter"
-            },
-            {
-                "version": "0.315.0_2023.12.4.13.53.33.182",
-                "change_log": "0.315.0\n - fixed unstable multiplayer pose tracking (your opponent should appear smoother)\n - added 11A and \"Ultimate PPP Pro\" quest 3 adapters"
-            },
-            {
-                "version": "0.313.13_2023.11.3.3.39.21.400",
-                "change_log": "\t0.313.13\n        -sound fix\n\t0.313.12\n\t- some UI polish\n\t- added back message you see if you are on an unsupported version (this was removed by accident a while ago, and during the last big push, a lot of users were confused as to why they had no access to the server and no error message)\n\t- added AMVR q3 adapter preset\n\t- added history fix - where you were seeing the wrong person's history\n\t- fixed send-all logs functionality\n\t- fixed rubber scroll when having exactly 5 rubbers\n\t- fixed issue where background of menu would vanish on server reconnect events\n\t- fixed issue where people who were banned from online play weren't able to play at all\n\n\n\t0.313.10\n\t- UI updates (environment selection, ranked play / lobby criteria)\n\t- added the ability to use non standard controllers. For example, qPro with q2 or qPro with q3. \n\n\t0.313.5\n\t-added ping and performance testing tools\n\t-fixed MR net\n\t-fixed rubber not saving bug\n\t-fixed the tv showing set set count very small\n\t-updated 11G-FX-Q3B adapter\n\n\t0.313.2\n\t - added q3 LS-EV2 adapters\n\t - added paddle calibration screen to the advanced settings (same functionality as the one found in the old UI)\n\n\t0.313.1\n\t- fixed server indicator on table\n\t- updated lighting in MR scene\n\t- fixed MR scene issue where it wasn't starting at all\n\n\t0.313.0\n\t- a bunch of performance improvements. \n\t"
-            },
-            {
-                "version": "0.312.0_2023.10.18.11.34.19.429",
-                "change_log": "0.312.0\n-fixed issue where paddle collisions were 1 frame behind when using the new \"get pose on render\" toggle (which is on by default in the advanced tracking menu for oculus users)\n-added a check box to toggle on a different spatializer we were experimenting with. It's not it's final state, but the sounds are a bit different. No gaurantees that it will stick around..but play around with it if you'd like (in advanced gfx/audio panel)"
-            },
-            {
-                "version": "0.311.12_2023.10.16.23.46.56.544",
-                "change_log": "0.311.12\n- more voip freeze logging/error handling\n- arena invisible collider fix\n- fix for rubber being set to 0 value at defaults\n- fix for table moving when you move your head (especially visible in mixed reality)\n- slightly improved tracking (this is related to the table movement fix..which involves moving the time at which the head and controller poses are polled to the end of the frame. This reduced render latency relative to the controller pose, and thus means less prediction required...which means less error)\n"
             }
         ],
         "on_rookie": true,
@@ -181,20 +181,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478345,
+        "changelog_update": 478921,
         "keyword_update": 475633,
         "tag_update": 477913,
-        "rating_update": 478609,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 10139,
-        "rating": 4.639018,
+        "votes": 10163,
+        "rating": 4.637213,
         "weighted_rating": 4.6
     },
     "errors": []

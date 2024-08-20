@@ -2,7 +2,7 @@
     "data": {
         "id": "2412327085529357",
         "app_name": "GOLF+",
-        "release_date": "1980-01-01T00:00:00.000Z",
+        "release_date": "2020-05-28T00:00:00.000Z",
         "description": "The ultimate VR Golf experience and the official VR Golf game of the PGA TOUR!\n\n**Available on QUEST 2, 3, and Pro**\n\n“The GOLF+ VR platform is a forward-thinking way to enjoy the sport that is appealing to gamers and golfers of all levels.” - PGA TOUR\n\n“The visuals are fantastic. It’s like morphing into another universe filled with vibrancy, dynamism and, most important, realism.” - Sports Illustrated\n\n“The putting function — which simulator golf has never quite cracked — is particularly eye-opening.” - GOLF Magazine\n\n\nIncludes:\n\n⛳️ Iconic Courses: 3 Free Courses (Cliffs, Alpine, Castle Links) and 15+ real-world destinations available for purchase including Pebble Beach, The Old Course at St Andrews, TPC Sawgrass and more.\n\n🏌️Multiplayer: Play with your circle of friends, or join public rounds and connect with golf enthusiasts worldwide.\n\n📈 Performance Feedback: Advanced shot stats, strokes gained data, handicap system, and swing analyzer to help you understand and improve your game.\n\n🏆 Competitive Play: Climb the ranks and compete globally on the GOLF+ TOUR, or go head to head in Battle mode.\n\n✅ Real Golf Brands: Experience golf equipment from leading brands like Callaway, TaylorMade, and PXG.\n\n🎯 Diverse Modes: From Match Play to Skins, Weekly Challenges and Topgolf, we have an experience for every player.\n\n🏞 GOLF+ Clubhouse: A place to practice, fine tune your clubs, and play fun mini-games.\n\n🖥 Media Player: Seamlessly enjoy YouTube and other web media right on the course.",
         "developer": "Golf Scope Inc.",
         "publisher": "GolfScope Inc.",
@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 478
+                "votes": 480
             },
             {
                 "rating": 2,
-                "votes": 206
+                "votes": 207
             },
             {
                 "rating": 3,
-                "votes": 450
+                "votes": 458
             },
             {
                 "rating": 4,
-                "votes": 4430
+                "votes": 4527
             },
             {
                 "rating": 5,
-                "votes": 37641
+                "votes": 38440
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,14 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "765.16",
+                "change_log": "New Update v765.16\n\nNew Course: Castle Pines\n\nColorado's stunning Castle Pines Golf Club is set to host the top 50 players at the 2024 BMW Championship, the penultimate event of PGA TOUR's FedExCup Playoffs. \nDesigned by Jack Nicklaus, this private club set against the backdrop of the majestic Rocky Mountains features drastic elevation changes, towering pine trees and native wildlife. \nCastle Pines is a mainstay in Golf Digest's Top 50 Greatest Courses in America list and is proudly home of \"The Best Day of Golf in America.\"\n\nElevation Update:\nBall flight physics have been updated for all courses in-game to take course elevation into account. \nIn higher elevation courses the ball flies further. This change only applies to Physics V2.\n\nBug Fixes:\n- Media Player keyboard not working in text fields of websites.\n- A crash could occur when accepting a Topgolf invite while on the Quickplay start UI."
+            },
+            {
+                "version": "764.0",
+                "change_log": "New Update v764.0\n\nVR FedExCup Playoff Branding:\n- Updated all tee markers, flags and hospitality tents with new branding.\n\nBug Fixes:\n- Fixed an issue where players would see another player's dust effect on their ball in MP.\n- Addressed web crashes that could occur when changing scenes.\n- Addressed web crashes that could occur when filtering thru leaderboards."
+            },
             {
                 "version": "763.05",
                 "change_log": "New Update v763.05\n\n**New Game Mode: Scramble**\nExperience team golf like never before with Scramble. In Scramble, players can play together in teams of 2, 3 or 4 golfers with each player hitting their tee shot, and then the team deciding what shot to play from next. Continue this process until someone on the team holes a putt. Scramble teams can also compete against each other in 2v1, 3v1 or 2v2 formats.\n\nOther Updates:\n- Multiplayer - Updated player head and ball tips.\n- Multiplayer - you can now see other players shots on the main course UI.\n\nQuality and Bug Fixes:\n- Ability to accept an MP game invite while in the 'game mode' select screen.\n- Match Play and Skins had no concede sound playing before scorecard appeared.\n\nCourse fixes:\n- Lighting on Wolf Creek clubhouse\n- Lighting on Houses off Sawgrass Hole 10\n- Out of bounds update on Bay Hill "
@@ -144,28 +152,20 @@
             {
                 "version": "752.6",
                 "change_log": "Patch Update v752.6\n\n**Bug Fixes**\n- Random corrupt replay data in 'Battle' would cause a lockup and result in a Defeat.\n- Kiawah - Hole 4 - Bunkers were triggering OB.\n"
-            },
-            {
-                "version": "752.3",
-                "change_log": "New Update v752.3\n\n**New Course: Harbour Town Golf Links**\nNestled within Hilton Head Island’s Sea Pines Resort, Harbour Town’s lush fairways wind through maritime forest and marsh, offering both beauty and strategic challenge. \nKnown as the crowning achievement of famed designer Pete Dye and design consultant Jack Nicklaus, Harbour Town demands finesse, imagination, and shot making. \nEach spring, the course plays host to the PGA TOUR’s RBC Heritage featuring one of golf’s most recognizable vistas with the iconic lighthouse-framed 18th hole.\n\n**New Feature: Shot Shaper V2**\nThe newly designed Shot Shaper is now available for Novice and Amateur difficulties.\nThe Shot Shaper for Amateur players on Physics V2 is an optional feature. To enable, go into your Settings under 'Game' and check the box for \"Shot Shaper\". This applies to players on Physics V2.\nPlayers on Physics V1 will still automatically have the shot shaper equipped with the new design.\n- There is a short tutorial available by clicking the icon on top left of corner of the Shot Shaper screen.\n\n**Gameplay & Quality**\n- Addressed frame drops that occur in Challenges when getting ball in the hole or tapping for a new ball.\n- Addressed issues regarding resuming a Round after going OB.\n- Addressed some audio distortion when Players come out of the teleport fade.\n- Adjusted the button layout of the Challenges retry screen.\n- Updated flag stick collisions to alleviate accidental bounce offs. \n- Selecting a Friend in Replays under your Profile will now automatically search for their Replays.\n- CLicking 'play' during a Replay will now replay the shot and not require scrubbing playback.\n\n**Bug Fixes**\n- Fixed an issue with the Total Putts stat being incorrect.\n- Fixed an issue where you could not recenter before the start of a Tournament Round or Practice Round.\n- Fixed an issue in Battle that sometimes caused a strobing effect.\n- Fixed practice divot and club impact streaks not aligning with your swing."
-            },
-            {
-                "version": "752.2",
-                "change_log": "New Update v752.2\n\n**New Course: Harbour Town Golf Links**\nNestled within Hilton Head Island’s Sea Pines Resort, Harbour Town’s lush fairways wind through maritime forest and marsh, offering both beauty and strategic challenge. \nKnown as the crowning achievement of famed designer Pete Dye and design consultant Jack Nicklaus, Harbour Town demands finesse, imagination, and shot making. \nEach spring, the course plays host to the PGA TOUR’s RBC Heritage featuring one of golf’s most recognizable vistas with the iconic lighthouse-framed 18th hole.\n\n**New Feature: Shot Shaper V2**\nThe newly designed Shot Shaper is now available for Novice and Amateur difficulties.\nThe Shot Shaper for Amateur players on Physics V2 is an optional feature. To enable, go into your Settings under 'Game' and check the box for \"Shot Shaper\". This applies to players on Physics V2.\nPlayers on Physics V1 will still automatically have the shot shaper equipped with the new design.\n- There is a short tutorial available by clicking the icon on top left of corner of the Shot Shaper screen.\n\n**Gameplay & Quality**\n- Addressed frame drops that occur in Challenges when getting ball in the hole or tapping for a new ball.\n- Addressed issues regarding resuming a Round after going OB.\n- Addressed some audio distortion when Players come out of the teleport fade.\n- Adjusted the button layout of the Challenges retry screen.\n- Updated flag stick collisions to alleviate accidental bounce offs. \n- Selecting a Friend in Replays under your Profile will now automatically search for their Replays.\n- CLicking 'play' during a Replay will now replay the shot and not require scrubbing playback.\n\n**Bug Fixes**\n- Fixed an issue with the Total Putts stat being incorrect.\n- Fixed an issue where you could not recenter before the start of a Tournament Round or Practice Round.\n- Fixed an issue in Battle that sometimes caused a strobing effect.\n- Fixed practice divot and club impact streaks not aligning with your swing.\n"
             }
         ],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478489,
+        "changelog_update": 478921,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 478609,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -173,10 +173,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 43205,
-        "rating": 4.818077,
+        "votes": 44112,
+        "rating": 4.819006,
         "weighted_rating": 4.8
     },
     "errors": []

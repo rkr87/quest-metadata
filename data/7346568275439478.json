@@ -2,7 +2,7 @@
     "data": {
         "id": "7346568275439478",
         "app_name": "Fizz",
-        "release_date": "1980-01-01T00:00:00.000Z",
+        "release_date": "2024-05-02T00:00:00.000Z",
         "description": "Fizz is a music visualizer by Scott Garner, the artist behind Volotic, Ostinato and many other interactive musical experiences. Fizz is currently in Early Access with a small selection of visualizers and a hand-curated streaming library of Lo-Fi tracks.\n\n# Roadmap\n\n* Support for external music sources.\n* Overall work on fit and finish.\n* Expanded visualizer interactivity.\n* More visualizers!",
         "developer": "Scott Garner",
         "publisher": "Scott Made This",
@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "0.0.14",
+                "change_log": "Added a new visualization called Orbit along with various other updates and fixes."
+            },
+            {
                 "version": "0.0.13",
                 "change_log": "* New \"Stream Safe\" playlist in settings.\n* New \"System Audio\" media source in settings which can, for example, visualize music playing in Spotify in the Meta Quest Browser.\n* Refinements to input handling for switching visualizers and tracks.\n* Various other refinements and fixes."
             },
@@ -86,24 +90,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 476329,
         "device_update": 476329,
         "mode_update": 476329,
         "language_update": 476329,
         "platform_update": 476329,
         "player_mode_update": 476329,
-        "changelog_update": 476833,
+        "changelog_update": 478921,
         "keyword_update": 476329,
         "tag_update": 476329,
         "rating_update": 476449,
         "iarc_detail_update": 476329,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478921,
         "category": "ENTERTAINMENT",
         "votes": 3,
         "rating": 4.666667,
-        "weighted_rating": 3.8
+        "weighted_rating": 3.7
     },
     "errors": []
 }

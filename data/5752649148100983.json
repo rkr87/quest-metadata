@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "0.1.39.1",
+                "change_log": "1) Fixed bug causing end of song information to not display after playing at least once.\n\nNote: The current built in songs will be removed in an upcoming update."
+            },
+            {
+                "version": "0.1.39",
+                "change_log": "1) General Choreography flow improvements\n2) Improved Main Menu and Simulator Deck environment.\n3) Bug Fixes:\n\t• Fixed bug causing custom songs converted in game to throw an error due to an unexpected update from third party service.\n\t• Fixed bug causing an error to be thrown sometimes when returning to main menu before a song completes.\n\t• Fixed bug causing hook targets to appear sometimes when players selected Jabs Only mode.\n\t• Fixed bug causing notifications to overlap if more than one is requested."
+            },
+            {
                 "version": "0.1.38.1",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing selecting some text fields to be unreliable.\n\t• Fixed bug that could cause songs containing illegal characters in their name to fail to be read.\n\t• Fixed bug causing resuming gameplay from settings to result in unexpected results."
             },
@@ -148,14 +156,6 @@
             {
                 "version": "0.1.33",
                 "change_log": "1)  New stance option \"Horsefoot\". This option prompts a straight on pose. This allows dodge obstacles to appear on either side\n\n2) Bug Fixes:\n\t• Fixed issue causing pop ups to require selecting an option to close them.\n\t• Fixed issue causing playlists to not play delete correctly sometimes.\n\n3) User experience improvements.\n\t• Beats per minute now displayed in song information.\n\t• Added \"Resume button to settings menu in game.\n\t• Height calibration is now more straightforward.\n\t• Overall UI improvements"
-            },
-            {
-                "version": "0.1.32.1",
-                "change_log": "1)  Fixed bug causing the game to get into a locked state requiring players to restart the game when selecting a playlist created prior to version 0.1.32 using a custom environment created prior to 0.1.32. This was caused by an oversight in attempting to load the previous data resulting in unexpected results."
-            },
-            {
-                "version": "0.1.32",
-                "change_log": "1)  Game mode overrides! Under the Game Mode Overrides section you can now disable obstacles, force jabs only, or force one handed mode.\n\n2)  Passthrough mode in main menu can now be enabled in settings under the Player Settings tab!\n\n2) Bug Fixes:\n\t• Fixed issue causing the game to sometimes crash when trying to view a playlist. (Note Custom Environments and Workouts will need to have their environment overrides re-set. Unfortunately this system required a rework and is incompatible with previous versions.)\n\t• Fixed issue preventing playlist records from being displayed.\n\t• Fixed issue sometimes causing custom environments to cause the game to fail to load.\n\t• Fixed issue causing the black fog of profile selection to always be active or to activate when returning from a workout.\n\t• Removed unnecessary webcalls to reduce data usage.\n\n3) User experience improvements.\n\t• Improved play button visuals and visibility.\n\t• Confirmation now requested when deleting playlists."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477721,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 477481,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 477721,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 36,
         "rating": 4.527778,

@@ -1,0 +1,147 @@
+{
+    "data": {
+        "id": "3777634755681278",
+        "app_name": "Job Interview Humans (Canada + USA)",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "Build confidence with JOB INTERVIEW SIMULATIONS!\n\nA lack of confidence is one of the major reasons why Job Seekers aren't successful in their interviews. With practice interviews, Job Seekers are better prepared and perform confidently in job interviews.  \n\nRefine job interview skills in an immersive practice platform: \n\nTHOUSANDS OF JOBS  \nWith more positions and industries continually being added \n\nVARIOUS CAREER PATHS\nVariety of career levels from Cashier and Software Developer, to Finance Director\n\nEXPERT-CURATED QUESTIONS\nCarefully selected behavioural, situational, and skill-based questions for each interview\n\nVALUABLE FEEDBACK\nFull text transcripts, audio recordings, and analytics of interviews for self-improvement\n\nHIGHLY REPLAYABLE EXPERIENCES\nUnique scenarios every time to encourage repeated practice\n\nElevate your career support initiatives by giving Job Seekers the tools they need to succeed!",
+        "developer": "Virtro Entertainment",
+        "publisher": "Virtro Entertainment Inc.",
+        "genres": [
+            "Educational"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 2
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 2
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "https://www.beconfident.io/",
+        "app_images": {
+            "cover_landscape": "38974630_282590470215356_6119024588684840618_n.png",
+            "cover_portrait": "38974670_1978863585587059_4518993835523239692_n.png",
+            "cover_square": "38974889_318600236653267_2253609524070425726_n.png",
+            "hero": "38974517_178722024102845_457297844251028057_n.png",
+            "icon": "38974860_898234177422461_2484544018017606571_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75222941_305753517845153_8015080091884252517_n.png"
+        },
+        "changelog": [
+            {
+                "version": "4.6.3.0r22Q.CA-CC3",
+                "change_log": "add backtrace so developer can see stacktrace on backend"
+            },
+            {
+                "version": "4.6.1.0r22Q.CA-CC3",
+                "change_log": "UI layering issues"
+            },
+            {
+                "version": "4.5.2.0r22Q.CA-CC3",
+                "change_log": "new scoreboard"
+            },
+            {
+                "version": "4.4.0.2r22Q.CA-CC3",
+                "change_log": "resolve unable to hear audio and analytics getting stuck in review"
+            },
+            {
+                "version": "4.4.0.1r22Q.CA-CC3",
+                "change_log": "resolve end menu getting stuck causing stats to  not appear"
+            },
+            {
+                "version": "4.3.1.0r22Q.CA-CC3",
+                "change_log": "Add AI so program provides users example answers to interview questions. User requires to open/close the mic by clicking on the mic"
+            },
+            {
+                "version": "4.2.0.0r22Q.CA-CC3",
+                "change_log": "User must agree to consent form before playing the game. Backend will track the date user agreed to the consent form"
+            },
+            {
+                "version": "4.1.4.2r22Q.CA-CC3",
+                "change_log": "expand VR maintenance notification bar background and move the text closer to the centre so that the text does not go out of bounds when there are 2 lines of text"
+            },
+            {
+                "version": "4.1.3.4r22Q.CA-CC3",
+                "change_log": "when user selects symbols key on symbols keyboard in vr to go back to alphabet keyboard, the alphabet keyboard will display lower case so that the user does not have to select the shift keyboard twice to go from uppercase to lowercase"
+            },
+            {
+                "version": "4.1.3.1r22Q.CA-CC3",
+                "change_log": "hotfix add annotations to controller so user knows what the controller is used for"
+            },
+            {
+                "version": "4.1.2.0r22Q.CA-CC3",
+                "change_log": "logo center in webgl login. pc overlay icon and text appearing too early.microphone french text too long"
+            },
+            {
+                "version": "4.0.5.0r22Q.CA-CC3",
+                "change_log": "Resolve not ablue to build in VR"
+            },
+            {
+                "version": "3.1.0r22.CA-CC3",
+                "change_log": "Release notes\nBug fixes:\n BCJ-1736 Update Idle1 and idle2 animations, removing disabled pen keyframe for the animation\n BCJ-1736 Updated animation for Connie Idle3. Removed key frame for pen disable\n BCJ-1746: Filip character FBX model replaced to fix the 'missing button on jacket' issue\n BCJ-1744: Replaced Danny FBX to fix the hole in jacket issue\n BCJ-1745 Updated Danny clothing texture to used the double sided shader to prevent the issue of seeing the background through the shirt\n BCJ-1526 added generating stats canvas so we can fake a generating stats for audiostorage and snaplog to complete\nImprovements:\n BCJ-1392 change quit buttons text to quit simulation to stay consistent with quit confirmation window header. Added confirmation view when select return to lobby and restart interview\nOthers:\n BCJ-1747 dll update argo 6.1.0.2\nKnown issues:\n BCJ-1726 No user text or analytics at the end of an interview when user does not respond to any one of the questions"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 4,
+        "rating": 3.0,
+        "weighted_rating": 3.2
+    },
+    "errors": []
+}

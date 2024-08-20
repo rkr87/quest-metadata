@@ -3,7 +3,7 @@
         "id": "5768440233259111",
         "app_name": "Jungle Zoo Ocean Passthrough Handtracking",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Create a Jungle, Zoo, and Ocean in your home with Passthrough augmented reality and optional handtracking.\n\nFeaturing the best of “Jungle Passthrough”, “Ocean Passthrough”, “ZOSU Zoo Home Passthrough” with improvements.\n\nThere are over 60 animals, 100 sea creatures, and 70 plants to move, spawn, and delete.\n\nThere are over 30 premade areas or you can start from an empty scene. Animals and plants can be spawned randomly, or select animals to copy or enlarge in 3 bonus experimental levels.\n\nAnimals include: lions, tigers, bears, dinosaurs, wolves, elephants, rhinos, crocodiles, chickens, sharks, octopus, whales, dolphins, horses, cats, dogs, star fish, leapords, cuttle fish, zebras, owls, seals, lion fish, lizards, goats, sun fish, and many more.",
+        "description": "Create a Jungle, Zoo, and Ocean in your home with Passthrough (augmented reality / mixed reality) and optional handtracking.\n\nFeaturing the best of “Jungle Passthrough”, “Ocean Passthrough”, “ZOSU Zoo Home Passthrough” with improvements.\n\nAugust 2024 Update: added custom mixed reality view boundary to many levels (so you can set Passthrough view distance to keep objects from appearing in walls or too far away) as well as object save state (so you can save your setup between sessions to create a zoo home).\n\nThere are over 60 animals, 100 sea creatures, and 70 plants to move, spawn, and delete.\n\nThere are over 30 premade areas or you can start from an empty scene. Animals and plants can be spawned randomly, or select animals to copy or enlarge in 3 bonus levels.\n\nAnimals include: lions, tigers, bears, dinosaurs, wolves, elephants, rhinos, crocodiles, chickens, sharks, octopus, whales, dolphins, horses, cats, dogs, star fish, leopards, cuttle fish, zebras, owls, seals, lion fish, lizards, goats, sun fish, and many more.",
         "developer": "ZOSU",
         "publisher": "ZOSU Studios LLC",
         "genres": [
@@ -22,14 +22,13 @@
         "platforms": [
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "STANDING"
         ],
-        "tags": [
-            "Mixed Reality"
-        ],
+        "tags": [],
         "hist": [
             {
                 "rating": 1,
@@ -52,7 +51,7 @@
                 "votes": 6
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.535",
+                "change_log": "Major performance update for hand tracking and some minor bug fixes."
+            },
+            {
                 "version": "1.520",
                 "change_log": "August 2024 update: added a save state feature to many levels that allows you to save the position of an object between sessions, this allows you to create a zoo home! Also added a custom mixed reality boundary feature to many levels that allows you to set the view distance of the Passthrough objects (so they don’t appear through your walls). Other performance improvements have also been made."
             },
@@ -82,24 +85,24 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476257,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 478009,
+        "platform_update": 478921,
         "player_mode_update": 474685,
-        "changelog_update": 478609,
+        "changelog_update": 478921,
         "keyword_update": 474685,
-        "tag_update": 478609,
+        "tag_update": 478921,
         "rating_update": 477313,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 7,
         "rating": 4.857143,
-        "weighted_rating": 4.0
+        "weighted_rating": 4.1
     },
     "errors": []
 }

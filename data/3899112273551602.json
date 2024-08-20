@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.9.11003",
+                "change_log": "4.0.8->4.0.9\n\nFEATURES\n-Improved attachment to viewpoints.\n\nIMPROVEMENTS\n\n-Optimized skybox implementation.\n\n-Enhanced Floor Grid Shader performance.\n\n-Updated environment and space pop-ups.\n\nBUG FIXES\n\n-Resolved issue where room walls were visible outside the designated space.\n\n-Fixed visual issues with buttons during new stage creation when certain limits were displayed.\n\n-Implemented a workaround for issues with unavailable room scale mode.\n\n-Addressed missing \"move to scene\" button, ensuring objects can be moved from the background to the scene.\n\n-Corrected issues with space renaming via the share panel.\n\n-Fixed space name overflow on space cards.\n\n-Resolved snapping issues where procedural primitives' boundaries were displayed incorrectly.\n\n-Ensured viewpoints have teleport options after Play mode.\n\n-Fixed tool change behavior when selecting objects for interactivity.\n\n-Corrected snapping display when the beam interacts with the UI near a surface.\n\n-Fixed an issue where the pointer visual was sometimes too large and flickered on objects.\n\n-Resolved issue where room walls were visible during space loading after a pause.\n"
+            },
+            {
                 "version": "4.0.8.10978",
                 "change_log": "4.0.7->4.0.8\n- New tooltips added\n\n- Make logo to Coral color\n\n- Haptic effect when touching any objects in play mode\n\n- Fixed when trial notification for scenes is in the wrong position\n\n- Fixed when frame drops when selection in some cases\n\n- Fixed when teleport is activated after choosing a target in interactivity\n\n- Fixed when the dropdown list shows \"Value\" instead of the export format\n\n- Show the ToolTIp for spaces with a long name"
             },
@@ -135,7 +139,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478609,
+        "changelog_update": 478921,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 478561,
@@ -146,7 +150,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "APPS",
         "votes": 318,
         "rating": 4.13522,

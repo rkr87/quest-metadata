@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 20
+                "votes": 23
             },
             {
                 "rating": 2,
@@ -40,15 +40,15 @@
             },
             {
                 "rating": 3,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 4,
-                "votes": 7
+                "votes": 9
             },
             {
                 "rating": 5,
-                "votes": 42
+                "votes": 51
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,7 +76,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 477169,
         "device_update": 477169,
         "mode_update": 477169,
@@ -86,14 +86,26 @@
         "changelog_update": 478345,
         "keyword_update": 477169,
         "tag_update": 477169,
-        "rating_update": 478561,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478561,
+        "last_update": 478921,
         "category": "ENTERTAINMENT",
-        "votes": 71,
-        "rating": 3.704225,
-        "weighted_rating": 3.6
+        "votes": 86,
+        "rating": 3.744186,
+        "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d8ca058150e9a8ebb2e8fb6852795f2b"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

@@ -2,7 +2,7 @@
     "data": {
         "id": "4887769861342815",
         "app_name": "Police Response VR Disturbance",
-        "release_date": "1980-01-01T00:00:00.000Z",
+        "release_date": "2022-05-16T00:00:00.000Z",
         "description": "\nDo you have the skills to handle high-pressure situations with precision?\n\nIn \"Police Response VR: Disturbance,\" there's no option to run away.\n\nNavigate through intense scenarios where timing and judgment are everything. As an officer, you must assess each situation dynamically and react appropriately, avoiding excessive force to rise through the ranks.\n\nGame Modes:\nEasy Mode - Rookie Training:\n\nPerfect for beginners.\nPractice your weapon-drawing skills without the risk of failure.\nDefault mode to help you get started.\nNormal Mode - Professional Duty:\n\nDesigned for the true professional.\nExperience the game as intended, with rapidly changing circumstances that test your ability to respond to any situation. Draw too soon and you will fail.\n\nGear Up:\nSidearm Pistol\nTaser\nPepper Spray\nHandcuffs\nPolice Dog (Unlocked after 10 years service)\n\nYou have three lives to complete your 30-year career and reach your retirement locker.\n\nAre you ready to respond, officer?",
         "developer": "CaltainVR Ltd",
         "publisher": "https://policeresponsevrdisturbance.wordpress.com/",
@@ -50,10 +50,10 @@
             },
             {
                 "rating": 5,
-                "votes": 59
+                "votes": 60
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -79,6 +79,10 @@
             "logo_transparent": "39031379_4941973665916152_3516731491294749835_n.png"
         },
         "changelog": [
+            {
+                "version": "V1.1.36",
+                "change_log": "Fixed bug that was repeating party in the street scenario at Whiskey Crescent giving false fails when the level loads a second time. Apologies to those Officers affected. You should now get called out to other jobs at that location again."
+            },
             {
                 "version": "V1.1.35",
                 "change_log": "Binary version V1.1.34 Code 134 Release Notes\nMAJOR POLICE DOG UPDATE All Officers will receive a Police Dog Partner after 10 years of service. You can still use your issued equipment of Taser, CS and Pistol. To instruct the dog to attack simply grab your Police Whistle and blow it whilst pointing at your target with your other hand. Your loyal dog will understand your instruction and attack immediately. Your dog is currently added to 33% of the game. We are working to put the dog into 100% of the game. Please give us your feedback after your shift to let us know how it went."
@@ -121,23 +125,23 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 477937,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477985,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478225,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 88,
-        "rating": 4.5,
+        "votes": 89,
+        "rating": 4.505618,
         "weighted_rating": 4.4
     },
     "errors": []

@@ -7,8 +7,8 @@
         "developer": "MaSaitoh",
         "publisher": "MaSaitoh",
         "genres": [
-            "Action",
             "Arcade",
+            "Action",
             "Casual"
         ],
         "devices": [
@@ -53,7 +53,7 @@
                 "votes": 0
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "1.6",
+                "change_log": "very sorry\n・Fixed an issue where it was not possible to progress on stage 6-3.\n・ステージ6-3で進行が出来なくなっていたのを修正させていただきました"
+            },
+            {
                 "version": "1.4",
                 "change_log": "This update/今回のアップデート(1.4Update)\nImproved timing for accepting jumps.\nジャンプを受け付けるタイミングを改善\n\n\nPrevious update/前回のアップデート\nImproved conditions for determining if jumping is possible.\nImproved jump animation not playing depending on timing.\n\nジャンプ可能かの判定条件を改善\nタイミングによってはジャンプアニメが再生されない時があったのを改善"
             },
@@ -83,24 +87,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 0,
         "rating": 0.0,
-        "weighted_rating": 3.5
+        "weighted_rating": 3.4
     },
     "errors": []
 }

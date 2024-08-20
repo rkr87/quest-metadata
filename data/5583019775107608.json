@@ -1,7 +1,7 @@
 {
     "data": {
         "id": "5583019775107608",
-        "app_name": "ZOSU Zoo Home Passthrough",
+        "app_name": "Animalz Mixed Reality",
         "release_date": "1980-01-01T00:00:00.000Z",
         "description": "Create an interactive Zoo in your home with over 60 animals!\n- pass through enabled to see animals in your actual surroundings in mixed reality\n- animals are placeable and moveable with random spawn options and deletion options\n- variety of pre-made and customizable animal placements:\n-- full sized animals\n-- half sized animals\n-- tabletop sized animals\n- animals include: tigers, rhinos, hippos, lions, great white sharks, turtles, bears, zebras, deer, lizards, elephants, mountain goats, farm animals, dogs, cats, many birds, t-Rex and other dinosaurs, boars, leopards, and many more\n\nUpdates:\n- new flying bird level\n- added large animal level with no visual grab aids \n- added ability to switch hand models\n- two new sea turtle levels, they include swimming turtles and baby turtle spawners!\n",
         "developer": "ZOSU",
@@ -51,7 +51,7 @@
                 "votes": 6
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,6 +72,14 @@
         },
         "changelog": [
             {
+                "version": "1.534",
+                "change_log": "Major hand tracking performance update, added another bonus jungle area, minor bug and performance improvements made"
+            },
+            {
+                "version": "1.525",
+                "change_log": "Added bonus jungle home area,  for various areas added the option to save the location of the plants and animals you place to reload when rejoining the area (or to reset) and added custom mixed reality boundaries."
+            },
+            {
                 "version": "1.427",
                 "change_log": "Added:\n- dolphin level\n- cuttle fish level\n- experimental object duplication and enlargement level with slightly larger table top animals\n- option to hide small animal level top tables\n- jungle passthrough samples\n\nBug Fixes:\n- now always have correct lobby spawn position\n- improve FPS of table top level\n- no longer step on animals in lobby and move vertically\n- dialed in some smaller animal hit boxes\n\nChanges:\n- removed redundant blue button levels\n- lobby animals not all floor\n- note updated build SDK version used\n- corrected some app permissions"
             },
@@ -89,20 +97,20 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476257,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475001,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 476257,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 10,
         "rating": 4.5,

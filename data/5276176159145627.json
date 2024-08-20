@@ -45,7 +45,7 @@
             },
             {
                 "rating": 3,
-                "votes": 24
+                "votes": 25
             },
             {
                 "rating": 4,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 98
+                "votes": 101
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,6 +79,10 @@
             "logo_transparent": "75542957_1213374052837880_7986681139275246226_n.png"
         },
         "changelog": [
+            {
+                "version": "2.7.15",
+                "change_log": "2.7.15\nBug Fix: \n- Fixed issue causing a double hit to be called on a low velocity swing"
+            },
             {
                 "version": "2.5.7",
                 "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nVERSION 2.5.7\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nNew Scoring Options for \"Best of 1\", \"Best of 3\", and up to 11, 15, or 21 points per game\nWe heard you - Both single player and multiplayer matches now support different combinations of match length and game scoring options when creating a match.\n\nSolo Emotes with control for disabling and adjusting volume\nWe heard you - In multiplayer, all players and spectators can show their excitement with new gesture-based animations: \"throw your hands up\", \"clap your hands,\" or \"give a thumbs up.\"\n\nKicking, muting and banning specific spectators\nWe heard you - Hosts can now view a list of spectators under \"Match Details -> Spectators\" and can kick and ban individuals. All other players can mute individual spectators as well.\n\nAIs no longer hog the ball in 2v2\nWe heard you - AI players provide a wider variety of shots by hitting the ball more often to human players in both single player and multiplayer games.\n\n*More lenient for the upwards and downwards velocity fault for bounce serves\nWe heard you - the game will only fault egregious upward and downward tosses when bounce serving.\n\nMixed Reality multiplayer full court free play\nWe heard you - If you have a large enough space, you can now do \"Free Play\" in Mixed Reality multiplayer with full court lines. This means you can play an actual game as well, but you'll need to keep your own score and call your own faults. Full court lines are also visible in Mixed Reality Wall Practice and AI Play. Get ready to run!\n\nAdded target boxes to Mixed Reality wall practice\nThree boxes have been painted on the Mixed Reality wall so you can drill with visual targets.\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nBUG FIXES\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- —\nMixed Reality - Fixed player unable to select their wall or floor in MR\n\nBug - Fixed an issue where a spectator would be stuck in the multiplayer game when joining after the host has left.\n\nBug - Fixed bug with players being unable to hit \"play again\" after the host or another player leaves at the end of a match.\n\nBug - Fixed issue with some multiplayer games being stuck at the \"ready up\" screen before a match starts.\n\nBug - Fixed bug where a player would sometimes join an empty room with the menu displaying \"Match Ended.\"\n\nBug - Resolved a number of Mixed Reality and multiplayer bugs and user interface consistency issues."
@@ -144,16 +148,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478441,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 478609,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 172,
-        "rating": 4.093023,
+        "votes": 176,
+        "rating": 4.102273,
         "weighted_rating": 4.0
     },
     "errors": []

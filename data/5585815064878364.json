@@ -1,0 +1,120 @@
+{
+    "data": {
+        "id": "5585815064878364",
+        "app_name": "Mastermind Cognitive Training",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "It takes more than raw talent to get to the next level and achieve your goals. The world's top performers across diverse settings are taking advantage of an untapped edge; THE BRAIN. Mastermind provides individuals at all ages and skill levels access to comprehensive cognitive performance training in one dynamic, engaging, and fun program. Reach peak performance by building foundational skills necessary to maximize your abilities and live a sharper life. Whether an athlete aiming for excellence, a student striving for academic success, or or simply someone looking to stay mentally sharp, we have the program tailored for you. Embrace the journey to a sharper, more capable you with Mastermind.",
+        "developer": "Mastermind Cognitive Training, Inc.",
+        "publisher": "Mastermind Cognitive Training, Inc.",
+        "genres": [
+            "Health & Fitness"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 2
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_SOME",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "https://www.mastermindtraining.com/",
+        "app_images": {
+            "cover_landscape": "38974549_3315399815369124_6453880074286200263_n.png",
+            "cover_portrait": "38974760_1536845770121758_4757310332550717504_n.png",
+            "cover_square": "38974520_905890390791971_1793859705195403574_n.png",
+            "hero": "38974520_712598603216369_5394199554940992520_n.png",
+            "icon": "38974549_1497582524055875_26231318629621979_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75294237_694578741979155_7758608483466931095_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.42.46",
+                "change_log": "- Added audio to last screen of Sales Demo.\n- Saccades and Convergence transition screens at the end of the trial are not displayed when in Sales Demo.\n- Shape and color in Sales demo renamed to Shape Or Color."
+            },
+            {
+                "version": "1.42.45",
+                "change_log": "- Message/Update Notification System implemented.\n- Fixed Login transition canvas not being enabled.\n- Updated MS and SB Metric Systems.\n- Updated Visual Signaling metrics.\n- Integrated new Saccades version.\n- Added Optokinetics target decoration sprite.\n- Fixed Continuous Performance.\n- Removed \"Balance\" skill in skills listings.\n- Updated Sun Blazer \"Listen\" games to be now named \"Hear\".\n- Added song unlock animations for RhythmIQ.\n- Updated \"Lookaround Game\" title to \"Preview\".\n- Fixed HUD colors for listen and order game.\n- Updated Login Demo to include new version of Saccades and have Visual signaling removed.\n- Updated Saccades and Optokinetics videos."
+            },
+            {
+                "version": "1.42",
+                "change_log": "- Updated Quick Start Guide.\n- Updated Usage Screen dialogues (the 3 boxes that appear after the Welcome screen during the Onboarding tutorial).\n- Added Pre-Countdown screen for Continuous Performance.\n- Updated Logos.\n- Updated backend request endpoints."
+            },
+            {
+                "version": "1.42",
+                "change_log": "-Initial Level decrease adjusted: SC => 2, SB => 1, MS => 2.\n-Pause multiplier timers when needed (mostly when waiting for instructions) for Sun Blazer games.\n-Adjustment for target color change in Optokinetics.\n-Adapt boss life in Star Catcher order games based on the level the user reached.\n-Added Guide controller to fixation so it can speak the dialogue in between trials.\n-Updated Local and Server configs for fixation since in the color change time were wrong.\n-Implemented Near Far Distractors system in Saccades game.\n-Added Background Direction field to Fixation configs.\n-Handle user subscriptions, if a dependant account is not active, it will not be displayed in the dependent selection screen.\n-Reduced RhythmIQ training time from 20 mins to 15 mins.\n-Fixed endpoint redirection."
+            },
+            {
+                "version": "1.42",
+                "change_log": "-Initial Level decrease adjusted: SC => 2, SB => 1, MS => 2.\n-Pause multiplier timers when needed (mostly when waiting for instructions) for Sun Blazer games.\n-Adjustment for target color change in Optokinetics.\n-Adapt boss life in Star Catcher order games based on the level the user reached.\n-Added Guide controller to fixation so it can speak the dialogue in between trials.\n-Updated Local and Server configs for fixation since in the color change time were wrong.\n-Implemented Near Far Distractors system in Saccades game.\n-Added Background Direction field to Fixation configs.\n-Handle user subscriptions, if a dependant account is not active, it will not be displayed in the dependent selection screen.\n-Reduced RhythmIQ training time from 20 mins to 15 mins."
+            },
+            {
+                "version": "1.42",
+                "change_log": "- In games that don't have a boss event at the end but had an instruction mentioning the Boss, this instruction has been removed.\n- Moved Moon Shadow calibration wall closer to the user.\n- Fixation and Near Far finished dialogues no longer mention Convergence Divergence.\n- In Sun Blazer Listen games, the targets will spawn only after the instruction has been fully spoken.\n- Fixed RhythmIQ having issues when fetching if the player had played a song before or not, causing to always forcing the player to play the Demo before the Training mode.\n- RhythmIQ now displays the proper correct/incorrect amounts in the resume screens.\n- Tutorial button is now highlighted in the checkpoints flow (This occurs when the user is forced to play the tutorial the very first time).\n- For RhythmIQ training song selection panel, instead of defaulting to select the tutorial it now defaults to select the first song.\n- Reduced RhythmIQ in-game song button sizes so more can be displayed at once on the song selection list after finishing a song during Training.\n\n"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 2,
+        "rating": 5.0,
+        "weighted_rating": 3.7
+    },
+    "errors": []
+}

@@ -99,6 +99,10 @@
         },
         "changelog": [
             {
+                "version": "0.7.2",
+                "change_log": "hAI! MR v0.7.2\n- Added warning for when space for your friend to spawn is not found. The warning will prompt you to disable the real-time depth occlusion (on Quest 3), to look at a suitable space for spawning them and to recenter your view."
+            },
+            {
                 "version": "0.7.1",
                 "change_log": "hAI! MR v0.7.1\n- Updated to GPT-4o mini.\n- Improved avatar/pet spawning locations.\n- Improved app startup speed.\n- Improved avatar loading in AR.\n- Improved real-time depth occlusion calculations.\n- Improved virtual keyboard initialization lag.\n- Fixed bugs related to the avatar creator.\n- Fixed bugs related to the virtual keyboard.\n- Fixed bugs related to the save system.\n\nKnown issues\n- On Quest 3, in the AR environment, if the room has not been set up or the app does not find any free space inside the room, your friend may spawn behind walls which occlude/hide them. As a temporary fix, please look towards an area with free space and recenter to move your friend there."
             },
@@ -173,31 +177,27 @@
             {
                 "version": "0.3.1",
                 "change_log": "hAI! VR v0.3.1\n- Updated keyboard."
-            },
-            {
-                "version": "0.3.0",
-                "change_log": "hAI! VR v0.3.0\n- Added avatar creator! Now you can customize the appearance of your avatar to your heart's content!\n- Added translation for better multilingual support! Speak to your hAI! Friend in any language you want!"
             }
         ],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 475753,
         "device_update": 475753,
         "mode_update": 475753,
         "language_update": 475753,
         "platform_update": 475753,
         "player_mode_update": 475753,
-        "changelog_update": 478441,
+        "changelog_update": 478921,
         "keyword_update": 475753,
         "tag_update": 477913,
         "rating_update": 478489,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478489,
+        "last_update": 478921,
         "category": "APPS",
         "votes": 8,
         "rating": 3.125,
-        "weighted_rating": 3.3
+        "weighted_rating": 3.2
     },
     "errors": []
 }

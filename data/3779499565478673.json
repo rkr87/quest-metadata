@@ -1,0 +1,141 @@
+{
+    "data": {
+        "id": "3779499565478673",
+        "app_name": "Rave Gazebo",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "Rave Gazebo uses your arm gestures to change both the music and the visuals of your environment. Flail wildly and hear the music keep up with your sick moves, and let the visual stimulus wash over you. The whole world is dancing to the music, and you should too. Feel the power of directing an experience desperately waiting for your input.\n\nFeaturing six songs from indie artists this album is the first of its kind, pushing the boundaries of how non-musicans can express themselves musically through dance.\n\nTrack list:\nRave Gazebo - Greg_OS and Ratface\nCondiment Tie Dye - Greg_OS\nAntiparticle Lobster - Ratface\nQuadra Section - Stin\nMoonglade Express - Falling Starheart\nXylitol Isomalt - exjaynine",
+        "developer": "Osborne Audio",
+        "publisher": "Rave Gazebo LLC",
+        "genres": [
+            "Music & Rhythm"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "STANDING",
+            "SITTING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 0
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://www.gosborneaudio.com/rave-gazebo",
+        "app_images": {
+            "cover_landscape": "38974892_3726138627500608_8433951210909105567_n.png",
+            "cover_portrait": "75280981_153195673348092_1814045096640291005_n.png",
+            "cover_square": "75375755_204127611483316_6798413515120473308_n.png",
+            "hero": "38982548_160507019257930_7202266199051633733_n.png",
+            "icon": "38974466_1507502050078613_7419708569622253001_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974736_762886045050648_5280082590189444362_n.png"
+        },
+        "changelog": [
+            {
+                "version": "2.0",
+                "change_log": "Fixed sound bug with tutorial narration. Made it so it immediately stops narration after selecting the menu. Also fixed bug where if you restart the tutorial right after finishing it the sound cuts out and doesn't return."
+            },
+            {
+                "version": "1.9",
+                "change_log": "Tutorial remembers if you've completed it in previous songs.\nTutorial voice over now split into multiple stages for lock and groove panel section.\nFixed bug where panels wouldn't recognize if you were looking at them and would disappear.\nExpanded range of trigger speed to .2, 4\nHaptics default to enabled.\nChanged name \"Lock\" to \"Dance Mode\", removed the big red Xs that make you think you're doing something wrong and replaced with a particle system that matches the color of the current groove."
+            },
+            {
+                "version": "1.8",
+                "change_log": "Fixed bug where tutorial sound would permanently dip if you stopped the tutorial just after passing the high energy requirement."
+            },
+            {
+                "version": "1.7",
+                "change_log": "Added a slider to adjust the trigger speed and updated tutorial to have voice lines."
+            },
+            {
+                "version": "1.6",
+                "change_log": "Added impact text so when your physics object collides with the environment you're rewarded with some cool glitching pop-up text like in comic books."
+            },
+            {
+                "version": "1.4",
+                "change_log": "Updated tutorial dancers explaining energy and added non-intrusive set of \"groove\" stems to xylitol isomalt for small variation."
+            },
+            {
+                "version": "1.1",
+                "change_log": "Changed AndroidManifest.xml to have screen orientation landscape. Intention is to create a build that will be available on the Quest 1, the device I use to develop."
+            },
+            {
+                "version": "1.3",
+                "change_log": "Made updates to tutorial based on playtesting feedback. Looks like using Oculus Integration disables Quest 1 support, so using OpenXR for this build instead."
+            },
+            {
+                "version": "1.0",
+                "change_log": "better gesture tracking, added physics interactions, adjusted tutorial"
+            },
+            {
+                "version": "0.9",
+                "change_log": "Implemented tutorial changes from playtesting on friends. Upgraded unity project and android api to 32."
+            },
+            {
+                "version": "0.4",
+                "change_log": "This version of the app introduces a new tutorial system. In addition, it should all be working above 60 FPS, which as you can tell by the gap since the last submission took me quite a long time. Still missing a couple of music stems and changes, but an entirely playable album."
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "ENTERTAINMENT",
+        "votes": 0,
+        "rating": 0.0,
+        "weighted_rating": 3.4
+    },
+    "errors": []
+}

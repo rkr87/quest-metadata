@@ -1,0 +1,180 @@
+{
+    "data": {
+        "id": "6069863423110286",
+        "app_name": "Tranzient",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "Make music in VR - This is not a rhythm game!\n\nImmerse yourself in live looping and music production in VR.\n\n- Full support for hand tracking and mixed reality/passthrough \n- Synced looping with content library, auto time-stretched and pitch-shifted to fit the song.\n- Record vocals including mo-cap and replay of your avatar.\n- Use your custom Ready Player Me avatar.\n- Set of drum kits/one-shots.\n- Use Decks to create a seamless mix.\n- Full set of audio FX applied per clip or per scene (reverbs, chorus etc). \n- Loop record automation of audio FX parameters and synth parameters.\n- Assignable 3D control of FX and synth parameters.\n- Loop videos synced to the beat.\n- Step sequencer - trigger any item in the world and loop record instruments/drumkits. Edit steps, swing quantize.\n- Built in Analog Synth sim and Wavetable synth with >250 Sounds\n- Spatial Mixing - create a binaural mix based on clip positions.\n- In game camera and screen/mirror.\n- Use you own USB MIDI keyboard or controller\n\nIn the full version you get:\n- Built in 1.5 Gb library of loops and sounds\n- Use any number of synths (up to what the system can handle)\n- Use your own video and loops/samples\n- Export mixes of your performance\n- Lots more built in videos, VFX, Avatars and worlds.",
+        "developer": "AliveIn Tech Ltd.",
+        "publisher": "AliveIn Tech Ltd.",
+        "genres": [
+            "Media & Streaming",
+            "Art & Creativity"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 4
+            }
+        ],
+        "comfort": "COMFORTABLE_FOR_MOST",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://aliveintech.com/",
+        "app_images": {
+            "cover_landscape": "39001719_312919124946604_6976437140025202015_n.png",
+            "cover_portrait": "39003240_364245649465318_2960520904503821855_n.png",
+            "cover_square": "38974868_1070188330993209_6569200542383177389_n.png",
+            "hero": "38982520_169499359580053_3220184279090892312_n.png",
+            "icon": "39031500_3659716411017350_2948376344116437296_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39031629_876249037841735_4324718783200566140_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.20.00.24",
+                "change_log": "- Made hands spawn each time on switch to hand tracking, fixes interaction pointer sometimes not responding on switch to controllers\n- Step seq start quantize fix\n- Fixed synth controls sometimes not created on load saved session\n- Added ability to drag clips above each other to create a song/stack, and drag clip onto scene in a song to add another scene containing the clip"
+            },
+            {
+                "version": "1.20.00.22",
+                "change_log": "video no longer stops on load song"
+            },
+            {
+                "version": "1.20.00.21",
+                "change_log": "- Video sync refactor\n- Small stage and Big stage worlds added\n- New loading screen"
+            },
+            {
+                "version": "1.20.00.19",
+                "change_log": "Android direct video on Quest 2"
+            },
+            {
+                "version": "1.20.00.18",
+                "change_log": "- Android direct video on quest3 only"
+            },
+            {
+                "version": "1.20.00.17",
+                "change_log": "Video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
+            },
+            {
+                "version": "1.20.00.14",
+                "change_log": "High performance video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
+            },
+            {
+                "version": "1.20.00.12",
+                "change_log": "- Avatar recorder embedded in scene fixes\n- Auto Follow scenes allows playback of whole song automatically\n- Automaton recording performance improvements"
+            },
+            {
+                "version": "1.20.00.09",
+                "change_log": "- Added video recorder to camera system\n- Updated DJ Deck models\n- Added dominant hand so arm menu not obstructive"
+            },
+            {
+                "version": "1.20.00.07",
+                "change_log": "RPM new URL2, Step seq instanced optimised"
+            },
+            {
+                "version": "1.20.00.05",
+                "change_log": "New deck models, scroller fix on decks"
+            },
+            {
+                "version": "1.20.00.04",
+                "change_log": "- DJ/Decks refresh\n- New single interface similar to DJ Apps\n- On full version includes User Folders browser\n- Sort by BPM, Key, Name\n- Countdown displays and metering\n- Changed Crossfader gain curves to match popular DJ software"
+            },
+            {
+                "version": "1.20.00.01",
+                "change_log": "- New step seq workflow, only clicking the step sequencer items sets the active item\n- Fixed extreme slow down when flat step sequencer clips added to a scene and general slowness with flat step sequencers\n- Drum kit refresh, new kits new kit layouts\n- Fixed some wavetable kits not sustaining drums when hit\n- Avatar recorder fixes - avatar mo-cap not stopping/gets stuck playing\n- Fixed bad button size in save popup\n- Fixed bug in timestretched avatar recorded audio not playing\n- Fixed spatial audio to use binaural instead of panning\n- Fixed clone of synth items\n- Fixed synth not deleted when cloned upon clear scene\n- Faster scene loading"
+            },
+            {
+                "version": "1.19.00.11",
+                "change_log": "Async load, new world browser"
+            },
+            {
+                "version": "1.19.00.10",
+                "change_log": "- turned off never occlusion test distance\n- glass container for synth waveforms\n- reinstated tutorial main"
+            },
+            {
+                "version": "1.19.00.09",
+                "change_log": "fixed rounding error on step seq play start"
+            },
+            {
+                "version": "1.19.00.06",
+                "change_log": "Clip library fix for stereo layers"
+            },
+            {
+                "version": "1.19.00.03",
+                "change_log": "Video to electra,  stereo layers\nAvatar recorder refresh"
+            },
+            {
+                "version": "1.19.00.05",
+                "change_log": "widget restyle"
+            },
+            {
+                "version": "1.18.00.03",
+                "change_log": "- Fixed double trig of one shots when switching playback between scenes\n- Fixed playback glitch at the start of user audio when not stretched\n- Fixed sky in sky world"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 4,
+        "rating": 5.0,
+        "weighted_rating": 3.9
+    },
+    "errors": []
+}

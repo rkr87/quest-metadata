@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 123
+                "votes": 124
             },
             {
                 "rating": 2,
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 3,
-                "votes": 43
+                "votes": 44
             },
             {
                 "rating": 4,
@@ -85,6 +85,10 @@
             "logo_transparent": "38974908_869912333787514_4118507449974534729_n.png"
         },
         "changelog": [
+            {
+                "version": "3.3.8",
+                "change_log": "--VZfit 3.3.0--\nImproved new user experience with riding and workouts tutorial prioritized\nRing Racer tutorial is now optional at end of the other tutorial or the first time a user selects the map filter for that gameplay\nGeneral bug fixes\n\n--3.3.1--\nShow the proper Challenge dates on the panel when a future Challenge is scheduled\nFixed the \"No Wifi\" message to no longer stay up for an extended period of time\nDon't show the \"New Challenge\" popup until the next one has actually started\nGeneral bug fixes\n\n--3.3.2--\nCinco de Mayo Challenge added!\n\n--3.3.3--\nMother's Day Challenge added!\n\n--3.3.4--\nFather's Day Challenge added!\n\n--3.3.5--\nFixed an issue with saving play sessions when the Oculus menu is brought up\n\n--3.3.6--\nSummer Olympics Challenge added!\nMinor change to device connection plugin that could help with devices that report a Model without a Make\nSlight change in vzCal calculation to allow for high power output from users over brief periods  (sprinting)\nUpsell screen for unsubscribed users now correctly says \"Sign Up Later\" instead of \"Replay Tutorial\"\n\n--3.3.7--\nAdditional diagnostics for device connections\n\n--3.3.8--\nRoad Trip and Halloween Challenges are ready to go!\nChallenge unlocks will now be based on a percentage of total distance completed between all rides within the Challenge\n-This is to avoid any past problems with unlocks being tied to coin collection\nWe've made changes to how often ride progress is saved so that no one loses more than 1km of progress effort in the event of a hard crash\nBetter connection testing for Renpho bikes with newer firmware"
+            },
             {
                 "version": "3.3.7",
                 "change_log": "--VZfit 3.3.0--\nImproved new user experience with riding and workouts tutorial prioritized\nRing Racer tutorial is now optional at end of the other tutorial or the first time a user selects the map filter for that gameplay\nGeneral bug fixes\n\n--3.3.1--\nShow the proper Challenge dates on the panel when a future Challenge is scheduled\nFixed the \"No Wifi\" message to no longer stay up for an extended period of time\nDon't show the \"New Challenge\" popup until the next one has actually started\nGeneral bug fixes\n\n--3.3.2--\nCinco de Mayo Challenge added!\n\n--3.3.3--\nMother's Day Challenge added!\n\n--3.3.4--\nFather's Day Challenge added!\n\n--3.3.5--\nFixed an issue with saving play sessions when the Oculus menu is brought up\n\n--3.3.6--\nSummer Olympics Challenge added!\nMinor change to device connection plugin that could help with devices that report a Model without a Make\nSlight change in vzCal calculation to allow for high power output from users over brief periods  (sprinting)\nUpsell screen for unsubscribed users now correctly says \"Sign Up Later\" instead of \"Replay Tutorial\"\n\n--3.3.7--\nAdditional diagnostics for device connections"
@@ -160,24 +164,20 @@
             {
                 "version": "3.0.10",
                 "change_log": "--VZfit 3.0 Is Here!--\n--Ring Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n--New Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n--Mixed reality gameplay in all modes on Quest 2, 3, and Pro\n--Controller-free support - use only your hands to play\n--Please note that VZplay games have been moved back to their own standalone app--\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes\n\n--3.0.4--\nFixed the No Person / First Person problem\nSearch by area on map\nHold trigger to switch map joystick control from zoom to pan on either controller\nZoom into cursor location instead of center of map\nFixed the problem where the cursors stop working and you can only ring the bell\n\"Favorite Rides\" instead of \"My Ride List\"\n\"Clear Filters\" instead of \"Show All Rides\"\n\"All Rides\" to \"Find Rides\"\n\n--3.0.5--\nTilt/lean steering sensitivity has been adjusted\nMultiplayer icons are now showing accurate information\nAdded some debugging code to track down the panorama stitching problem on high-res images\nMap doesn't change zoom level on multiplayer filter when the live data refreshes\nGaze and controller/hand pointers should no longer be enabled at the same time\nRing Racer riders are no longer showing as joinable on the multiplayer map\nGPS map settings no longer apply to home UI map\nResume Ride doesn't get cleared out from playing PinPoint or RingRacer\nCreate Ride remembers where you were and doesn't start at lat/lon 0,0\nUse hover tips to show distances of Short/Medium/Long options on Find Rides filter\nApp suspend no longer irrevocably mutes the streaming music\nPinPoint will no longer show %Infinity for your overall ranking\nExerboard no longer draws over the map during a map pin refresh\nShow distance below icons on Find Rides filter\nMinimize button on GPS overlay doesn't replace GPS with a white square\nMap filters art changes to make it more readable\n\n--3.0.6--\nEmergency fix for a persistent startup crash that was affecting some players\n\n--3.0.7--\nHome UI space should no longer be rotating occasionally after playing a RingRacer race\nRemoved likely cause of O/S level crashes\n\n--3.0.8--\nMuch more promising fix for the high-res panorama tiling problems\n\n--3.0.9--\nAssets added for next two Challenges\n\n--3.0.10--\nRe-added the $11.99/month with 7-day trial offer"
-            },
-            {
-                "version": "3.0.9",
-                "change_log": "--VZfit 3.0 Is Here!--\n--Ring Racer\n-New racing gameplay in cities across the world\n-Purchase power ups and earn stars to complete cities\n-Top the leaderboards\n--New Home Space\n-Interactive map interface\n-Hang your Ring Racer city banners\n--Mixed reality gameplay in all modes on Quest 2, 3, and Pro\n--Controller-free support - use only your hands to play\n--Please note that VZplay games have been moved back to their own standalone app--\n\n--3.0.2--\nFirst patch since 3.0 launch\nMany quality of life improvements and fixes since the locked launch build\n\n--3.0.3--\nVZplay button is re-enabled to directly launch to it from VZfit\nRing Racer finish line beacon should no longer be showing in other places\nWhen you return to Create Ride you should be in the last location you were\nShow host username under multiplayer icons\nShow percent of ride complete under Challenge ride icons\nBell has been disabled for hand-tracking mode because it was constantly ringing\nYellow panorama dots have been made smaller\nAutosteer path no longer lingers in home space\nMinor crash fixes\n\n--3.0.4--\nFixed the No Person / First Person problem\nSearch by area on map\nHold trigger to switch map joystick control from zoom to pan on either controller\nZoom into cursor location instead of center of map\nFixed the problem where the cursors stop working and you can only ring the bell\n\"Favorite Rides\" instead of \"My Ride List\"\n\"Clear Filters\" instead of \"Show All Rides\"\n\"All Rides\" to \"Find Rides\"\n\n--3.0.5--\nTilt/lean steering sensitivity has been adjusted\nMultiplayer icons are now showing accurate information\nAdded some debugging code to track down the panorama stitching problem on high-res images\nMap doesn't change zoom level on multiplayer filter when the live data refreshes\nGaze and controller/hand pointers should no longer be enabled at the same time\nRing Racer riders are no longer showing as joinable on the multiplayer map\nGPS map settings no longer apply to home UI map\nResume Ride doesn't get cleared out from playing PinPoint or RingRacer\nCreate Ride remembers where you were and doesn't start at lat/lon 0,0\nUse hover tips to show distances of Short/Medium/Long options on Find Rides filter\nApp suspend no longer irrevocably mutes the streaming music\nPinPoint will no longer show %Infinity for your overall ranking\nExerboard no longer draws over the map during a map pin refresh\nShow distance below icons on Find Rides filter\nMinimize button on GPS overlay doesn't replace GPS with a white square\nMap filters art changes to make it more readable\n\n--3.0.6--\nEmergency fix for a persistent startup crash that was affecting some players\n\n--3.0.7--\nHome UI space should no longer be rotating occasionally after playing a RingRacer race\nRemoved likely cause of O/S level crashes\n\n--3.0.8--\nMuch more promising fix for the high-res panorama tiling problems\n\n--3.0.9--\nAssets added for next two Challenges"
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478321,
+        "changelog_update": 478921,
         "keyword_update": 474913,
         "tag_update": 477913,
-        "rating_update": 478513,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [
             "bike",
@@ -186,11 +186,11 @@
             "workout",
             "travel"
         ],
-        "last_update": 478513,
+        "last_update": 478921,
         "category": "APPS",
-        "votes": 695,
-        "rating": 3.807194,
-        "weighted_rating": 3.8
+        "votes": 697,
+        "rating": 3.802009,
+        "weighted_rating": 3.7
     },
     "errors": []
 }

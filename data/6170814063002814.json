@@ -1,0 +1,154 @@
+{
+    "data": {
+        "id": "6170814063002814",
+        "app_name": "Screening Room",
+        "release_date": "2023-05-05T00:00:00.000Z",
+        "description": "Introducing \"Screening Room” - the ultimate Meta Quest application for seamless collaboration on immersive video projects! Speed up your creative process by stepping into a virtual screening room where you can review and comment on your team's work all within the comfort of your headset. Screening Room brings your video content to life in a whole new dimension, connecting to Frame.io to give you instant access to your files.\n\nBrowse your Frame.io teams, projects, and folders in mixed reality. Use the hand tracking navigation to quickly find what you need without fumbling for controllers. Pair a tracked keyboard and effortlessly type timecode stamped notes that get synced with Frame.io’s web interface.  Download files for review later or stream them for instant access. With full support for flat, 360, 180, monoscopic and stereoscopic videos, its versatility lets you focus on the creative work, not the technology.\n\nSay goodbye to tedious downloading, sideloading, and taking your headset on and off repeatedly to make notes. Embrace the future of creative collaboration with Screening Room.\n\nCurrently requires an account with Frame.io.\n\nThis application is not affiliated with Frame.io or Adobe.",
+        "developer": "Light Sail VR",
+        "publisher": "Light Sail VR",
+        "genres": [
+            "Business, Productivity & Utility",
+            "Media & Streaming"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking",
+            "Tracked keyboard"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest",
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING",
+            "ROOM_SCALE"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 1
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Adults Only 18+",
+            "descriptors": [
+                "Diverse Content: Discretion Advised"
+            ],
+            "elements": [],
+            "iarc_icon": "12522493_1643882269242323_1160523334727761920_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "https://www.lightsailvr.com/tools.php",
+        "app_images": {
+            "cover_landscape": "38974882_900539241275658_5942380639002437266_n.png",
+            "cover_portrait": "38974601_503471885143128_3801664537788103426_n.png",
+            "cover_square": "39003225_684863436726630_38088787856519865_n.png",
+            "hero": "38974796_671417848321786_49775926815162971_n.png",
+            "icon": "38974849_2334927340022542_6672961296416650168_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974866_3034902090152237_2593928415678613769_n.png"
+        },
+        "changelog": [
+            {
+                "version": "2.0a",
+                "change_log": "An update or so ago broke the ability to frame forward or backward, this update fixes that with a paired keyboard."
+            },
+            {
+                "version": "2.0a",
+                "change_log": "Increased resolution. Thumbnail support for videos."
+            },
+            {
+                "version": "1.5",
+                "change_log": "NEW:\n\n- Automatic Projection Detection! To use, name your files with a suffix indicating the correct projection type. Supports “_360”, “_180”, “_180_3D”, and “_360_3D”. Otherwise files will be played at the last projection type used.\n- Still images are cached\n- Better download management. Can now delete individual videos.\n- More quick note options\n- Controllers hide when playing video\n\nFIXED:\n\n- Timecode now accurately reflects video timecode on long files"
+            },
+            {
+                "version": "1.3.6",
+                "change_log": "Hotfix to address issues when using on screen keyboard when logging into Frame.io (Thanks for reporting Dirk!)"
+            },
+            {
+                "version": "1.3.5",
+                "change_log": "Hotfix to address issue with controllers after the pause menu has been activated."
+            },
+            {
+                "version": "1.3.3",
+                "change_log": "Fixed a memory leak that could occur when viewing more than 75 images at a time."
+            },
+            {
+                "version": "1.3.2",
+                "change_log": "We released a tad too early!\n\nHotfix:\n- Projection detection bug fixed.\n- Users could get stuck if they hit back while loading an image."
+            },
+            {
+                "version": "1.3.1",
+                "change_log": "NEW:\n- Image projection is now detectable by file name. End your file with _180_3D or _360 before the file extension to automatically have your images load with the correct projection\n\nFIXED:\n- Scrolling items bug when you have too many assets\n- Can no longer hide transport when loading images, which caused issues."
+            },
+            {
+                "version": "1.3",
+                "change_log": "Introducing support for images! Now you can browse, comment, and view still image galleries on Frame.IO in all projection formats! Let us know what you think :)\n\nFixed:\n- If a video didn’t have a 4K encoding, it could cause the app to stop functioning."
+            },
+            {
+                "version": "1.2",
+                "change_log": "Screening Room Update 1.2!\n*** Thanks Kara for the bug reports and feature suggestions! ***\n\nNEW FEATURES\n- We now remember your login information so you don't have to retype it every single time! You can log out using the settings menu.\n- The player will correctly remember your last selection for the projection type so you don't have to reset it all the time.\n- When switching between controllers and hand tracking, the interface will move backwards and forwards respectively in order to make it a bit more comfortable to use.\n\nBUG FIXES\n- When opening the transport controls using your controllers, it was opening them below the player instead of in front. This has now been fixed!\n\n\nKeep the feedback coming and thank you for your support!\n-Matt (The Developer)"
+            },
+            {
+                "version": "1.1.1",
+                "change_log": "Fixed issue relating to 2D content display."
+            },
+            {
+                "version": "1.1",
+                "change_log": "Improved the user interface and squashed some bugs. Also some performance improvements!"
+            },
+            {
+                "version": "1.0",
+                "change_log": "Fix MRC capture to ignore hand mesh"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 1,
+        "rating": 5.0,
+        "weighted_rating": 3.6
+    },
+    "errors": []
+}

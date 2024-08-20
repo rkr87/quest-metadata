@@ -34,7 +34,8 @@
         ],
         "player_modes": [
             "STANDING",
-            "ROOM_SCALE"
+            "ROOM_SCALE",
+            "SITTING"
         ],
         "tags": [],
         "hist": [
@@ -82,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "1.2.3",
+                "change_log": "Changes: \n- Added seated play mode\n- Overhauled the first time user experience! New chefs can now get into action faster and with clearer explanations.\n- Improved Bug Spray & Solar Flare VFX\n- Improved Lunch Rush bell SFX\n- Improved the Customer Dish Review UI\n- Increased the visual variety of processed ingredients. Create dishes that are even more out of this world than ever before.\n- Fixed bugs and polished various items throughout the game"
+            },
+            {
                 "version": "1.0.3",
                 "change_log": "Welcome Astro Chefs! \n We are over the moon with excitement at players finally getting their hands on the game. \n While the game was making its way to you, we have already been working on various improvements to make the play experience even better! \n In our first full patch for the game, you will find the following changes: \n \n \n\nGastron has cleaned up the Dish Dressing area and installed a new Dish Dressing Item Dispenser! (where does he keep finding these machines?) This should make for a smoother and cleaner experience when dressing your dishes. \n \n  Spaceships (and debris) now appear behind the restaurant window. Word of the restaurant’s grand re-opening must have attracted some attention! \n \n Updated a few of the dishes to resolve issues with ingredient requirements and/or improve the plating experience. \n \n Added/improved various VFX. Including for the Nuclear Press, Jet Stove, respawning items & pouring liquids. \n \n Improved Audio & various SFX throughout the game \n \n Fixed various minor bugs & visual issues throughout the game. \n \n Increased version number of the game to 1.0.3"
             }
@@ -93,14 +98,14 @@
         "mode_update": 474769,
         "language_update": 478609,
         "platform_update": 474769,
-        "player_mode_update": 474769,
-        "changelog_update": 475000,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
         "keyword_update": 474769,
         "tag_update": 474769,
         "rating_update": 476857,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 11,
         "rating": 4.454545,

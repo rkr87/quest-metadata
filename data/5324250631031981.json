@@ -35,7 +35,7 @@
             },
             {
                 "rating": 2,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 3,
@@ -47,10 +47,10 @@
             },
             {
                 "rating": 5,
-                "votes": 11
+                "votes": 10
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -71,6 +71,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.2.3",
+                "change_log": "- Added Crouching Feature using Button A\n- Fixed height auto calibration\n- Adjusted Color Saturation"
+            },
+            {
                 "version": "0.2.2.2",
                 "change_log": "Version 0.2.2.2:\n\nBug Fixes:\n- Fixed an issue with pouring into a full cup, causing existing ingredients to get messed up and order to get rejected.\n- Fixed a minor bug with the sipping sound effect when player tries to drink from a milk bottle.\n- Fixed a minor but in Tutorials where players could server the order before the serve order step starts."
             },
@@ -80,24 +84,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 478273,
+        "general_update": 478921,
         "genre_update": 478249,
         "device_update": 478249,
         "mode_update": 478249,
         "language_update": 478249,
         "platform_update": 478249,
         "player_mode_update": 478249,
-        "changelog_update": 478273,
+        "changelog_update": 478921,
         "keyword_update": 478249,
         "tag_update": 478249,
-        "rating_update": 478585,
+        "rating_update": 478921,
         "iarc_detail_update": 478249,
         "keywords": [],
-        "last_update": 478585,
+        "last_update": 478921,
         "category": "GAMES",
         "votes": 14,
-        "rating": 4.642857,
-        "weighted_rating": 4.1
+        "rating": 4.428571,
+        "weighted_rating": 4.0
     },
     "errors": []
 }

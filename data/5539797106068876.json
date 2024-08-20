@@ -3,7 +3,7 @@
         "id": "5539797106068876",
         "app_name": "Arcade",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Welcome to Arcade!\n\n* 11 retro style games & variation including Galactics, Bricks, Blocks, Invasions, Match and Rocs!\n* Support all frame rate frequencies from 72.0 Hz to 120 Hz\n* Support all Quest (1, 2, 3 & Pro)\n* 4 levels of difficulty per game (easy, medium, hard & expert)\n* 20 to 75 waves per game (depending of the game)\n* Vector style graphics\n* Original soundtracks\n* And a leaderboard to share your score across players\n\nI hope you will have a lot of fun playing Arcade ;-)\n\nNeoPunk",
+        "description": "Welcome to Arcade!\n\n* 11 retro style games & variation including Galactics, Bricks, Blocks, Invasions, Match, Rocs & Jack!\n* Support all frame rate frequencies from 72.0 Hz to 120 Hz\n* Support all Quest (1, 2, 3 & Pro)\n* 4 levels of difficulty per game (easy, medium, hard & expert)\n* 20 to 75 waves per game (depending of the game)\n* Vector style graphics\n* Original soundtracks\n* 2 voices\n* And a leaderboard to share your score across players\n\nI hope you will have a lot of fun playing Arcade ;-)\n\nNeoPunk",
         "developer": "NeoPunk",
         "publisher": "NeoPunk",
         "genres": [
@@ -51,10 +51,10 @@
             },
             {
                 "rating": 5,
-                "votes": 78
+                "votes": 80
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,6 +74,10 @@
             "logo_transparent": "38974671_1352281355319229_7947445780105876927_n.png"
         },
         "changelog": [
+            {
+                "version": "7.8",
+                "change_log": "What's new?\nI've added a new voice called Barry.\n\nWhy?\nThe old robotic voice wasn't always clear.\n\nDoes the old voice still exist?\nOf course it does! Go to the options page and choose your preferred voice."
+            },
             {
                 "version": "7.7",
                 "change_log": "Why such a fast, unplanned version of arcade 7.7?}\nBecause an Arcade gamer (thanks Julie B.) reminded me that Jack game had certain weaknesses.\n\nWhat has changed?\n- Sounds and music. they coexist very well now.\n- I have added a neon-style effect when the serie is presented.\n\nDoes it really have an impact on the game?\nYes, definitely. I am getting higher scores but more importantly I am having a lot more fun playing!\n\nOther changes?\n- Some texts in the options screen.\n- Tab-style for games category (action/puzzle/demo)."
@@ -133,31 +137,27 @@
             {
                 "version": "3.1",
                 "change_log": "New\n*****\n- As requested, you can now adjust the explosion effect via the 'options' page.\n- Game and difficulty are now persisted to disk, so when you leave the game and come back, they are selected as you left them.\n\nFixed\n******\n- Haptics\n- Sliders in options\n- Some misalignments in the options\n\nOther\n******\n- Refactoring to prepare the next games (Galactics & Match)\n- Adjustment of the content of the website (www.neopunk.xyz)"
-            },
-            {
-                "version": "3.0",
-                "change_log": "Hello folks!\n\nThis is the version 3.0 of Arcade.\n\nHaving received many positive comments and some ideas for improvements, I decided to delay (few weeks) the release of the next game: Blended.\n\nSo I focused my development on improving the user experience, making some major changes:\n* Simplified general behavior (fewer windows)\n* Added leaderboard (scores are shared :-))\n* Fixed a probable bug: the game was intended to run at 72 Hz only. I corrected the code to support any frequency\n* Displayed in real time the frequency in the option menu (before it was a fixed 72 Hz value)\n* Standardized access to the OPTION menu (accessible with the 'menu' button on the left joystick instead of A or X buttons)\n* Removed the RULES button (how to play can be shared through this page)\n* A few improvements here and there\n\nNeoPunk"
             }
         ],
         "on_rookie": false,
-        "general_update": 477601,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478561,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478489,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478561,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 84,
-        "rating": 4.928571,
-        "weighted_rating": 4.7
+        "votes": 86,
+        "rating": 4.930233,
+        "weighted_rating": 4.8
     },
     "errors": []
 }

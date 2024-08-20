@@ -3,7 +3,7 @@
         "id": "4104088956355944",
         "app_name": "GRAB",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "GRAB is a multiplayer parkour game. Climb, jump, slide and swing through the levels to reach the end, but don't fall or touch the lava!\nCreate your own levels together with your friends and upload them for everyone else to play with the easy to use cooperative level editor..\n\nFeatures:\n- Active and fun physics based controls\n- Play with up to 12 players in cross platform multiplayer\n- Built-in level editor that lets you build levels together with your friends in multiplayer with quick switching between testing and editing\n- Download levels made by the community and upload your own\n- OVER 600000 Community levels! More every day!",
+        "description": "Ready to become a parkour master with your friends? Dive into GRAB, the coolest multiplayer platforming game!\n\n🚀 **UNIQUE MOVEMENT MECHANICS**\nGrab the air to launch yourself in any direction. Swing with grappling hooks, climb impossible walls, and fling yourself through space. Master GRAB's innovative hand-based controls for the ultimate freedom of movement.\n\n🌍 **ENDLESS CHALLENGES**\nWith over 600,000 player-made levels, there's always a new parkour challenge waiting. Race against the clock, solve puzzles, or just enjoy the thrill of motion across a variety of creative courses.\n\n🏗️ **CREATE & SHARE**\nUnleash your inner level design genius! Use the intuitive level editor to bring your wildest ideas to life. Team up with friends to build in real-time, then watch as players worldwide attempt to conquer your creation.\n\n🤝 **MULTIPLAYER MAYHEM**\n- Be part of an active community with thousands of players every day\n- Parkour through mind-bending levels with up to 12 players\n- Race against friends or work together to beat challenges\n- Build and test levels together in real-time\n\n🌈 **EXPRESS YOURSELF**\nCustomize your character and show off your unique style as you swing, climb, and fly through the GRAB universe.",
         "developer": "SlinDev",
         "publisher": "SlinDev",
         "genres": [
@@ -32,39 +32,41 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "Coming Soon",
             "App Lab Graduates"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 182
+                "votes": 198
             },
             {
                 "rating": 2,
-                "votes": 38
+                "votes": 37
             },
             {
                 "rating": 3,
-                "votes": 61
+                "votes": 62
             },
             {
                 "rating": 4,
-                "votes": 403
+                "votes": 408
             },
             {
                 "rating": 5,
-                "votes": 8946
+                "votes": 9464
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_FEW",
         "iarc": {
-            "age_rating": "Everyone",
-            "descriptors": [],
-            "elements": [
-                "Users Interact"
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
             ],
-            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+            "elements": [
+                "Users Interact",
+                "In-Game Purchases"
+            ],
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "internet_connection": "REQUIRED",
         "website": "https://slindev.com/grab",
@@ -78,25 +80,106 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.50.1",
+                "change_log": "- Added option to make colored lava transparent.\n- Specularity is now much stronger (using a darker color reduces it).\n- Fixed favorite colors not syncing correctly when adding new ones between lava and colored blocks.\n- Fixed gravity block particles turning black when effected by fog.\n- Fixed gravity block particles not immediately disappearing after deleting the block in the editor.\n- Fixed report player menu not working when opened from the Quest overlay.\n- Fixed animations for some older cosmetic items."
+            },
+            {
+                "version": "0.50.0",
+                "change_log": "- New lobby with 5 hidden Coin stacks, each worth 20 Coins!\n- Added weekly changing items to the shop. These are randomly selected for every player and you can pay to reroll them.\n- Added support for transparent color blocks (limited to 20 per level).\n- Added a cone shape.\n- The color of lava blocks can now be changed.\n- Increased default maximum level complexity to 2000.\n- Added an \"advanced\" color picker to more freely select colors.\n- Restructured the player customization.\n- Added support for separate grapples.\n- Added support for left and right badges.\n- Added support for backpacks.\n- Added support for different bodies.\n- Updated logo and splash screen.\n- Added a setting to make the game remember your position and rotation snap setting between levels and sessions.\n- Added a setting to disable the new addition position snap steps.\n- Part picker in the editor now shows 4 items per row (was 3 before).\n- The currently active object on the part picker is now highlighted.\n- Several smaller performance improvements."
+            },
+            {
+                "version": "0.47.0",
+                "change_log": "- Added the Summer Pack!\n- Added a free discord badge that you can claim after joining discord.gg/slindev\n- New lobby!\n- Fixed a black screen issue in fling mode that could be easily caused with a shaking animation and strong gravity.\n- Fixed the game not shutting down correctly when you close it.\n- Improved behavior in case of connection issues."
+            },
+            {
+                "version": "0.46.4",
+                "change_log": "- Renamed \"Start Lobby\" to \"Create Lobby\".\n- Added some indicators for new players to press the \"Create Lobby\" button.\n- Added panels into the lobby for all players, explaining what the host can do there.\n- Fixed a crash that could happen when refreshing the server list and closing it before it finishes loading."
+            },
+            {
+                "version": "0.46.3",
+                "change_log": "- Unfortuantely the trading of modded colors has gotten a bit out of hand with a lot of scammy behaviour and missinformation going around. As a consequence you will no longer be able to favorite modded colors. But you can keep using those you already have and they will keep working in levels.\n- More smaller crash fixes."
+            },
+            {
+                "version": "0.46.2",
+                "change_log": "- Fixed a crash that would happen when switching to play mode while animating and holding a block at the tme.\n- Fixed start and stop going crazy when grabbed in editor.\n- Fixed undo causing all kind of issues if selecting a block while undoing it's creation."
+            },
+            {
+                "version": "0.46.2",
+                "change_log": "- Fixed a crash that would happen when switching to play mode while animating and holding a block at the tme.\n- Fixed start and stop going crazy when grabbed in editor.\n- Fixed undo causing all kind of issues if selecting a block while undoing it's creation."
+            },
+            {
+                "version": "0.46.2",
+                "change_log": "- Fixed a crash that would happen when switching to play mode while animating and holding a block at the tme.\n- Fixed start and stop going crazy when grabbed in editor.\n- Fixed undo causing all kind of issues if selecting a block while undoing it's creation."
+            },
+            {
+                "version": "0.46.1",
+                "change_log": "- Fixed a common crash caused by a race condition when asynchronously creating GPU resources.\n- Changed how clicks are propagated through the UI system to be more flexible.\n- Changed how descriptor sets are cached, resulting in more reuse and better performance.\n- Changed how some UI data is send to the GPU for less overhead and improved performance."
+            },
+            {
+                "version": "0.46.0",
+                "change_log": "- New lobby!\n- Added a new \"Adventure Pack\".\n- Added a free \"Pride Pin\".\n- Added cosmetics for GAB winners and participants. It will take a day or two after the update until everyone has them!"
+            },
+            {
+                "version": "0.45.1",
+                "change_log": "- Added 10 slots for custom colors for colored blocks in the editor.\n- Improved snapping in the editor, making it easier to align objects.\n- Performance improvements with lots of blocks."
+            },
+            {
+                "version": "0.45.1",
+                "change_log": "- Added 10 slots for custom colors for colored blocks in the editor.\n- Improved snapping in the editor, making it easier to align objects.\n- Performance improvements with lots of blocks."
+            },
+            {
+                "version": "0.45.0",
+                "change_log": "- New lobby with 3 stacks of GRAB Coins!\n- New cosmetics pack!"
+            },
+            {
+                "version": "0.44.5",
+                "change_log": "- The level browser now supports filtering by tags.\n- You can now assign up to two tags for your level on the save screen in editor. Saving will immediately update the tags on the server if it was already published.\n- Reduced the maximum number of characters for level descriptions from 300 to 200.\n- Added a warning to not ask for tips on the level publish confirmation. DO NOT ASK TO BE TIPPED IN YOUR LEVELS!\n- Moved the \"Submit for Verification\" button out of the save menu into the pause menu of the host in editor to make it easier to find.\n- \"No Legs\" mode is now called \"Fling\" mode.\n- The game now pings the server every 5 minutes to get better analytics data on concurrent user numbers."
+            },
+            {
+                "version": "0.44.5",
+                "change_log": "- The level browser now supports filtering by tags.\n- You can now assign up to two tags for your level on the save screen in editor. Saving will immediately update the tags on the server if it was already published.\n- Reduced the maximum number of characters for level descriptions from 300 to 200.\n- Added a warning to not ask for tips on the level publish confirmation. DO NOT ASK TO BE TIPPED IN YOUR LEVELS!\n- Moved the \"Submit for Verification\" button out of the save menu into the pause menu of the host in editor to make it easier to find.\n- \"No Legs\" mode is now called \"Fling\" mode.\n- The game now pings the server every 5 minutes to get better analytics data on concurrent user numbers."
+            },
+            {
+                "version": "0.44.5",
+                "change_log": "- The level browser now supports filtering by tags.\n- You can now assign up to two tags for your level on the save screen in editor. Saving will immediately update the tags on the server if it was already published.\n- Reduced the maximum number of characters for level descriptions from 300 to 200.\n- Added a warning to not ask for tips on the level publish confirmation. DO NOT ASK TO BE TIPPED IN YOUR LEVELS!\n- Moved the \"Submit for Verification\" button out of the save menu into the pause menu of the host in editor to make it easier to find.\n- \"No Legs\" mode is now called \"Fling\" mode.\n- The game now pings the server every 5 minutes to get better analytics data on concurrent user numbers."
+            },
+            {
+                "version": "0.44.4",
+                "change_log": "- Levels can now be submitted for verification (to get the ok stamp) from the save screen in the editor. This costs a small fee that may change depending on the number of levels that get submitted.\n- The community guidelines now include some additional information about level verification.\n- Changed some wording around publishing levels. It is now just called \"Publish\" and \"Play\" instead of \"Verify\". This is also reflected in the server list filters.\n- Fixed level add buttons in the lobby being visible above the in-game menu.\n- Updated to latest EOS-SDK (used for networking and voice chat)."
+            },
+            {
+                "version": "0.44.4",
+                "change_log": "- Levels can now be submitted for verification (to get the ok stamp) from the save screen in the editor. This costs a small fee that may change depending on the number of levels that get submitted.\n- The community guidelines now include some additional information about level verification.\n- Changed some wording around publishing levels. It is now just called \"Publish\" and \"Play\" instead of \"Verify\". This is also reflected in the server list filters.\n- Fixed level add buttons in the lobby being visible above the in-game menu.\n- Updated to latest EOS-SDK (used for networking and voice chat)."
+            },
+            {
+                "version": "0.44.3",
+                "change_log": "- Fixed setting level images.\n- Fixed several crashes."
+            },
+            {
+                "version": "0.44.2",
+                "change_log": "- Added option to open published levels that are not saved on the headset anymore in the editor.\n- Added option to filter levels in the editor by published and unpublished.\n- Added a search for your levels in editor.\n- You can now complete delete a level from the \"Save\" screen.\n- Fixed a bug with autosaves getting overwritten when they shouldn't.\n- Fixed a rare crash that could happen with coins in the level while loading a new level."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478513,
+        "changelog_update": 478921,
         "keyword_update": 474685,
-        "tag_update": 478585,
-        "rating_update": 478585,
-        "iarc_detail_update": 477385,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 478585,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 9630,
-        "rating": 4.858048,
+        "votes": 10169,
+        "rating": 4.858885,
         "weighted_rating": 4.8
     },
     "errors": []

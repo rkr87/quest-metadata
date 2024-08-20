@@ -28,9 +28,9 @@
         ],
         "platforms": [
             "Meta Quest",
-            "Meta Quest 2",
             "Meta Quest 3",
-            "Meta Quest Pro"
+            "Meta Quest Pro",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -41,23 +41,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 205
+                "votes": 213
             },
             {
                 "rating": 2,
-                "votes": 47
+                "votes": 49
             },
             {
                 "rating": 3,
-                "votes": 77
+                "votes": 82
             },
             {
                 "rating": 4,
-                "votes": 216
+                "votes": 226
             },
             {
                 "rating": 5,
-                "votes": 1782
+                "votes": 1852
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.0\n\nUPDATED ‘FAVELA’ MAP  \n- Revamped and improved\n\nARENA EDITOR ENHANCEMENTS  \n- You can now choose to place objects freely in the air\n- Undo/Redo feature \n- Customizable floor materials\n- New building objects (Favela pack)\n\nNEW THROWING MECHANICS  \n- Switch to gloves and hold the ball by pressing the trigger. This currently works only in practice mode. Throwing physics will be improved in future updates, so we’d appreciate your feedback\n\nSTORE ITEMS & BUNDLES\n- Baseball\n- U19 GT bundle \n- Event collection bundle\n\nPRIVATE LOBBIES  \n- Outs can now be activated in private lobbies (experimental)\n\nBUG FIXES, OPTIMIZATIONS & MORE\n- Custom arenas in public practice rotation\n- Resolved issues with the ball sometimes stuck after spawn\n- Resolved issue with inability to deflect the ball in penalty series sometimes\n- Significantly optimized custom arenas \n- Fixed glitches on scaled scoreboards\n- Something else :)  \n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.0\n\nUPDATED ‘FAVELA’ MAP  \n- Revamped and improved\n\nARENA EDITOR ENHANCEMENTS  \n- You can now choose to place objects freely in the air\n- Undo/Redo feature \n- Customizable floor materials\n- New building objects (Favela pack)\n\nNEW THROWING MECHANICS  \n- Switch to gloves and hold the ball by pressing the trigger. This currently works only in practice mode. Throwing physics will be improved in future updates, so we’d appreciate your feedback\n\nSTORE ITEMS & BUNDLES\n- Baseball\n- U19 GT bundle \n- Event collection bundle\n\nPRIVATE LOBBIES  \n- Outs can now be activated in private lobbies (experimental)\n\nBUG FIXES, OPTIMIZATIONS & MORE\n- Custom arenas in public practice rotation\n- Resolved issues with the ball sometimes stuck after spawn\n- Resolved issue with inability to deflect the ball in penalty series sometimes\n- Significantly optimized custom arenas \n- Fixed glitches on scaled scoreboards\n- Something else :)  \n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.9\n\nCUSTOM ARENAS IN PUBLIC MATCH LOBBIES\nWe have selected 42 arenas that are a perfect fit for the game. More arenas will be added once the community voting is set. The respective authors will receive 'The Architect' bundle, which has a unique design. This bundle will also be sent to all authors whose arenas have gathered more than 500 ratings.\n\nNEW U19 BUNDLES\nCheck out the new U19 items with cool and detailed designs. Get a SUPERKICK BALL when purchasing the 'U19 Mega Bundle 2'. You can guess what this ball does - super kicks 🙂\n\nARENA EDITOR\nAdded new roofs and a windmill to the arena editor. We are also preparing cloud-based storage for items, allowing us to significantly increase objects and overall content (such as weather, more skies, and thousands of building objects).\n\nBUGFIXES\n- Fixed various bugs with bots, such as bots getting stuck. Optimized them so that a scaled bot won't cause any lag.\n- Fixed a rare issue where players sometimes see the same ball in different places.\n- Optimized custom arena loading time.\n"
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.1\n\n- Fixed barriers bug\n- Reduced the issue where the ball would sometimes float above the ground\n- Updated some of the stadium stands in the arena editor\n- Fixed snap-turn kick glitch\n- Updated some items (‘Impossible’ boots)\n- Potentially fixed an issue where the game sometimes won’t launch\n\nThank you all for staying tuned! New features are almost ready for release and we’ll start rolling them out next week.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.1\n\n- Fixed boundaries bug\n- Reduced the issue where the ball would sometimes float above the ground\n- Updated some of the stadium stands\n- Fixed snap-turn kick glitch\n- Updated some items (‘Impossible’ boots)\n- Potentially fixed an issue where the game sometimes won’t launch\n\nThank you all for staying tuned! New features are almost ready for release and we’ll start rolling them out next week.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.0\n\n- Enhanced avatar head movements\n- Potentially fixed an issue with joining private lobbies\n- Other minor bug fixes and optimizations\n"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478321,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478609,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 2327,
-        "rating": 4.428019,
+        "votes": 2422,
+        "rating": 4.426507,
         "weighted_rating": 4.4
     },
     "errors": []

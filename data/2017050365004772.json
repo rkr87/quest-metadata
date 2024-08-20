@@ -2,7 +2,7 @@
     "data": {
         "id": "2017050365004772",
         "app_name": "Virtual Desktop",
-        "release_date": "1980-01-01T00:00:00.000Z",
+        "release_date": "2019-05-21T00:00:00.000Z",
         "description": "Connect wirelessly to your computer(s) to watch movies, browse the web, play games on a giant virtual screen or stream PCVR games. Virtual Desktop is a highly optimized, native application developed for low latency, high quality streaming.\n\n• Computer must be wired with Gigabit Ethernet cable to a 5 GHz router\n• Supports most PCs and laptops running Windows 10 or 11, macOS Mojave or later\n• PCVR game streaming requires a VR Ready PC running Windows 10 or 11\n• Videos tab allows you to download or stream regular/180/360 videos directly from your computer\n• Supports Bluetooth mice, keyboards and gamepads\n• Supports 3D Side-by-Side / Over-Under content on screen\n• Supports multi-monitors (physical and/or virtual)\n• Includes a Microphone passthrough option\n• Supports remote connections over the internet (enable UPnP on your router)",
         "developer": "Virtual Desktop, Inc.",
         "publisher": "Virtual Desktop, Inc.",
@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1166
+                "votes": 1173
             },
             {
                 "rating": 2,
-                "votes": 215
+                "votes": 219
             },
             {
                 "rating": 3,
-                "votes": 265
+                "votes": 268
             },
             {
                 "rating": 4,
-                "votes": 534
+                "votes": 540
             },
             {
                 "rating": 5,
-                "votes": 6806
+                "votes": 6859
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,6 +79,22 @@
         },
         "changelog": [
             {
+                "version": "1.32.13.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added support for VRChat's new hand tracking (enable Forward tracking data to PC in the Streaming tab)\n• Added Passthrough hands feature (option in Input tab and Streaming tab)\n• Reduced volume of background music"
+            },
+            {
+                "version": "1.32.13.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added support for VRChat's new hand tracking (enable Forward tracking data to PC in the Streaming tab)\n• Added Passthrough hands feature (option in Input tab and Streaming tab)\n• Reduced volume of background music"
+            },
+            {
+                "version": "1.32.13.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added support for VRChat's new hand tracking (enable Forward tracking data to PC in the Streaming tab)\n• Added Passthrough hands feature (option in Input tab and Streaming tab)\n• Reduced volume of background music"
+            },
+            {
+                "version": "1.32.13.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added support for VRChat's new hand tracking (enable Forward tracking data to PC in the Streaming tab)\n• Added Passthrough hands feature (option in Input tab and Streaming tab)\n• Reduced volume of background music"
+            },
+            {
                 "version": "1.32.9.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Guardian boundary will now be hidden in the Passthrough environment on Quest\n• Added option to show/hide the boundary with the VR Passthrough feature on Quest\n• Screens will now be snapped together when they are arranged\n• Removed gap between fully curved floating screens\n• 'A' button now interacts with menus/toolbars in addition to trigger\n• Keyboard improvements including ISO layout support and Azerty remapping\n• Fixed keyboard movement at non-leveled orientations\n• Added Media key binding to Xbox guide with gamepad emulation\n• Fixed ability to grab screen with grip when watching videos\n• Fixed black screen issue on macOS with some AMD graphics cards\n• Improved streaming performance with 2 or 3 monitors on macOS\n• Fixed issues with OpenKneeboard\n• Fixed issue with WebXR controller orientation with VDXR\n• Fixed loading UI disappearing in Asgard's Wrath\n• Fixed game compatibility with: Contractors showdown (when launched from games tab)"
             },
@@ -141,45 +157,29 @@
             {
                 "version": "1.30.4.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option for SteamVR Vive tracker emulation through inside-out full body tracking on Quest\n• Added option to Emulate Index Controllers on Quest; this allows finger tracking in OpenVR games that support it\n• Improved motion extrapolation quality of Synchronous Spacewarp (SSW)\n• Now sending headset battery level and charging state to SteamVR\n• Reduced video compression artifacts with 10-bit codecs\n• Improved desktop streaming latency on macOS\n• Added Wide motion support with hand tracking\n• Switched to recognizing index and finger curl for trigger / grip presses when using regular hand tracking\n• Fixed issue with Unreal/Unity/WebXR where the VR session wasn't ending properly\n• Fixed desktop being cutoff on some resolutions with AMD\n• Fixed game compatibility with: Hard Bullet, Resonite, JKXR, Roblox"
-            },
-            {
-                "version": "1.30.1.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option to forward tracking data (face/eye/hand/body) to the PC via the VDXR runtime. Games will need to support the required OpenXR extensions to make use of those.\n• Added icon in Performance Overlay when using encrypted traffic\n• Added render resolution percentage and max bitrate to Performance Overlay\n• Added support for TeamBeef modded games to appear in the Games tab\n• Added new music tracks\n• Added ability to change the screenshots folder location (Media tab in the Streamer window)\n• Added option in Input tab to disable menu hold to switch out of VR\n• App will now stay in passthrough mode while loading on Quest\n• Automatic codec will now choose HEVC 10-bit with Nvidia\n• Improved support for Ultrawide monitors \n• Virtual monitor driver now supports up to 4k @ 120 (up from 2560x1440)\n• Now preventing disconnection when videos are being downloaded\n• Hand beams are now hidden when interact with desktop is unchecked\n• Re-added basic hand gestures for trigger and grip when using hand tracking in VR games\n• Fixed GPU memory leak on the PC side\n• Fixed slow decoding when using AMD 6450 and 6550 graphic cards\n• Fixed Turkish keyboard layout\n• Fixed 32-bit compatibility issue with some VR games\n• Fixed missing Korean characters in Videos tab and subtitles\n• Fixed game compatibility with: Tetris Effect, Premium Bowling, Battle Talent, Paradiddle. Hubris will now use VDXR by default\n• Fixed controller offsets with VDXR in Ghosts of Tabor and Contractors VR\n• Fixed issue with X-Plane 12 when re-entering VR\n• Fixed issues with player height with REFramework and UEVR\n• Lowered the trigger activation threshold in VDXR to match Oculus Link's behavior"
-            },
-            {
-                "version": "1.30.1.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option to forward tracking data (face/eye/hand/body) to the PC via the VDXR runtime. Games will need to support the required OpenXR extensions to make use of those.\n• Added icon in Performance Overlay when using encrypted traffic\n• Added render resolution percentage and max bitrate to Performance Overlay\n• Added support for TeamBeef modded games to appear in the Games tab\n• Added new music tracks\n• Added ability to change the screenshots folder location (Media tab in the Streamer window)\n• Added option in Input tab to disable menu hold to switch out of VR\n• Improved support for Ultrawide monitors \n• Virtual monitor driver now supports up to 4k @ 120 (up from 2560x1440)\n• Now preventing disconnection when videos are being downloaded\n• Hand beams are now hidden when interact with desktop is unchecked\n• Re-added basic hand gestures for trigger and grip when using hand tracking in VR games\n• Fixed GPU memory leak on the PC side\n• Fixed slow decoding when using AMD 6450 and 6550 graphic cards\n• Fixed Turkish keyboard layout\n• Fixed 32-bit compatibility issue with some VR games\n• Fixed missing Korean characters in Videos tab and subtitles\n• Fixed game compatibility with: Tetris Effect, Premium Bowling, Battle Talent, Paradiddle. Hubris will now use VDXR by default\n• Fixed controller offsets with VDXR in Ghosts of Tabor and Contractors VR\n• Fixed issue with X-Plane 12 when re-entering VR\n• Fixed issues with player height with REFramework and UEVR\n• Lowered the trigger activation threshold in VDXR to match Oculus Link's behavior"
-            },
-            {
-                "version": "1.30.0.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option to forward tracking data (face/eye/hand/body) to the PC via the VDXR runtime. Games will need to support the required OpenXR extensions to make use of those.\n• Added icon in Performance Overlay when using encrypted traffic\n• Added render resolution percentage and max bitrate to Performance Overlay\n• Added support for TeamBeef modded games to appear in the Games tab\n• Added new music tracks\n• Added ability to change the screenshots folder location (Media tab in the Streamer window)\n• Added option in Input tab to disable menu hold to switch out of VR\n• App will now stay in passthrough mode while loading on Quest\n• Automatic codec will now choose HEVC 10-bit with Nvidia\n• Improved support for Ultrawide monitors \n• Virtual monitor driver now supports up to 4k @ 120 (up from 2560x1440)\n• Now preventing disconnection when videos are being downloaded\n• Hand beams are now hidden when interact with desktop is unchecked\n• Re-added basic hand gestures for trigger and grip when using hand tracking in VR games\n• Fixed GPU memory leak on the PC side\n• Fixed slow decoding when using AMD 6450 and 6550 graphic cards\n• Fixed Turkish keyboard layout\n• Fixed 32-bit compatibility issue with some VR games\n• Fixed missing Korean characters in Videos tab and subtitles\n• Fixed game compatibility with: Tetris Effect, Premium Bowling, Battle Talent, Paradiddle. Hubris will now use VDXR by default\n• Fixed controller offsets with VDXR in Ghosts of Tabor and Contractors VR\n• Fixed issue with X-Plane 12 when re-entering VR\n• Fixed issues with player height with REFramework and UEVR\n• Lowered the trigger activation threshold in VDXR to match Oculus Link's behavior"
-            },
-            {
-                "version": "1.30.0.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added option to forward tracking data (face/eye/hand/body) to the PC via the VDXR runtime. Games will need to support the required OpenXR extensions to make use of those.\n• Added icon in Performance Overlay when using encrypted traffic\n• Added render resolution percentage and max bitrate to Performance Overlay\n• Added support for TeamBeef modded games to appear in the Games tab\n• Added new music tracks\n• Added ability to change the screenshots folder location (Media tab in the Streamer window)\n• Added option in Input tab to disable menu hold to switch out of VR\n• Improved support for Ultrawide monitors \n• Virtual monitor driver now supports up to 4k @ 120 (up from 2560x1440)\n• Now preventing disconnection when videos are being downloaded\n• Hand beams are now hidden when interact with desktop is unchecked\n• Re-added basic hand gestures for trigger and grip when using hand tracking in VR games\n• Fixed GPU memory leak on the PC side\n• Fixed slow decoding when using AMD 6450 and 6550 graphic cards\n• Fixed Turkish keyboard layout\n• Fixed 32-bit compatibility issue with some VR games\n• Fixed missing Korean characters in Videos tab and subtitles\n• Fixed game compatibility with: Tetris Effect, Premium Bowling, Battle Talent, Paradiddle. Hubris will now use VDXR by default\n• Fixed controller offsets with VDXR in Ghosts of Tabor and Contractors VR\n• Fixed issue with X-Plane 12 when re-entering VR\n• Fixed issues with player height with REFramework and UEVR\n• Lowered the trigger activation threshold in VDXR to match Oculus Link's behavior"
             }
         ],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478177,
+        "changelog_update": 478921,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 478609,
+        "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "movie"
         ],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "APPS",
-        "votes": 8986,
-        "rating": 4.290786,
+        "votes": 9059,
+        "rating": 4.290761,
         "weighted_rating": 4.2
     },
     "errors": []

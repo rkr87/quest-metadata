@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 2,
@@ -52,10 +52,10 @@
             },
             {
                 "rating": 5,
-                "votes": 285
+                "votes": 288
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -77,6 +77,18 @@
             "logo_transparent": "57569483_441504150512684_798308865353626335_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.5.8",
+                "change_log": "- Bug fixes\\n\n- Added ForceTubeVR pistol module force feedback for users with the whole setup\\n\n- Report pair delay is now 0.4 seconds"
+            },
+            {
+                "version": "1.5.5.7",
+                "change_log": "- ForceTube feedback adjusted and rumble added \\n\n- Additional multiplayer black screen issue fixed"
+            },
+            {
+                "version": "1.5.5.6",
+                "change_log": "Bug fixes and adjustments"
+            },
             {
                 "version": "1.5.5.5",
                 "change_log": "Multiplayer bugs fixed"
@@ -144,38 +156,26 @@
             {
                 "version": "1.4.8",
                 "change_log": "- Two new Pheasant Drives: A and C\\n\n- New Sporting Course.\\n\n- Buy 10k XP points ($9.99) to support the development of the game and to unlock guns & mods instantly. Press the “+” button on the XP hud on top of the menu to buy.\\n\n- You earn now bit more XP points on Duck Hunt, Upland hunting and Boar Hunting.\\n\n- Bug fixes.\n"
-            },
-            {
-                "version": "1.4.7",
-                "change_log": "- NEW GUN: premium over-under with multiple rib options.\\n\n- Custom skeet round: Find the custom skeet configuration in the “Full Round” panel and as the last item in the rule selector. Configure the sequence, rules and target velocity for your needs. For now, you can have only one custom configuration.\\n\n-Target indicators adjusted.\\n\n-Chokes are now shown visually.\n"
-            },
-            {
-                "version": "1.4.6.1",
-                "change_log": "Bug fixes\n"
-            },
-            {
-                "version": "1.4.6",
-                "change_log": "- Creative Multiplayer & share your courses to players in the same multiplayer room.\\n\n- Pheasant Drive Practise mode now shows feedback on where you missed.\\n\n- Back rib can now be removed from the semi-auto shotgun with a mod.\\n\n- Bug fix: Creative difficulty setting was not working.\\n\n- There’s now a button to request for Bluetooth permission which is required for the ForceTube recoil accessory.\\n\n- Party Challenge difficulty adjusted.\\n\n- Bug fixes.\n"
             }
         ],
         "on_rookie": true,
-        "general_update": 476257,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478609,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478585,
+        "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478609,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 328,
-        "rating": 4.82622,
+        "votes": 332,
+        "rating": 4.816265,
         "weighted_rating": 4.7
     },
     "errors": []

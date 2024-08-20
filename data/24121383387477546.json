@@ -1,0 +1,142 @@
+{
+    "data": {
+        "id": "24121383387477546",
+        "app_name": "SYNERGIZ HARBOR Player Mixed Reality",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "Transform your way of working with Mixed Reality and facilitate collaboration and knowledge sharing across teams.\nThe Synergiz Harbor serves as an enterprise-grade platform, enabling to effortlessly manage, secure, and deploy assets at large scale, and deliver rich, interactive and efficient business experiences. Synergiz Harbor addresses various use cases, such as training, complex data visualization, product presentations, augmented tours, interior design, and more.\n- Seamlessly visualize and manipulate 3D elements and multimedia content, integrating them contextually with your real environment\n- Provide users with advanced functionalities to organize, link and animate 2D and 3D assets and thus create attractive presentations for better user engagement and information retention\n- Empower trainers with a user-friendly, ready-to-use PPT-style template, named scene builder, for organizing and creating engaging presentations, thereby facilitating a better understanding of information.\n- Enhance real-time collaboration, whether remote or in the same room, to streamline business operations and boost overall performance.\n\nTake it a step further with the premium version, Synergiz Harbor Player+, which enables real-time manipulation of multiple 3D objects and multimedia elements, annotation, and access to advanced functions like collision detection, occlusion, measurements, 1:1 scale, cross-sections, model explosions, and more.\nIf any questions, contact the sales team at sales@synergiz.com.",
+        "developer": "Synergiz",
+        "publisher": "Synergiz",
+        "genres": [
+            "Business, Productivity & Utility",
+            "Art & Creativity"
+        ],
+        "devices": [
+            "Hand Tracking",
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
+        "player_modes": [
+            "ROOM_SCALE",
+            "STANDING",
+            "SITTING"
+        ],
+        "tags": [
+            "Mixed Reality"
+        ],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 0
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "https://www.synergiz.com/",
+        "app_images": {
+            "cover_landscape": "75334053_1346676859285841_6694065592109380785_n.png",
+            "cover_portrait": "75286676_237571715741431_1857465859108869978_n.png",
+            "cover_square": "38974535_1383219358981531_7596244862792035666_n.png",
+            "hero": "38982575_354552786986166_6677191856610375910_n.png",
+            "icon": "39036617_1248143052525145_338388229740727151_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "75269589_3513147245592067_2284940278104656312_n.png"
+        },
+        "changelog": [
+            {
+                "version": "65.0.1",
+                "change_log": "- Added \"Reset\" feature for objects and sessions\n\n- Triggers enhancement (added delay and specific targets for collision)\n\n- Misc fixed issues (manipulations, QRCode placing, measures...)"
+            },
+            {
+                "version": "64.0.1",
+                "change_log": "- Bugfixes on AirDraws and Measures"
+            },
+            {
+                "version": "64.0.0",
+                "change_log": "* Version 64 (05/27/2024)\n- Added \"Air Draws\" and Icons for annotations. Work both in local and sessions (saved and restored)\n- Role management per device (with Harbor Platform)"
+            },
+            {
+                "version": "63.0.0",
+                "change_log": "Fixed a bug that could crash the app when playing a video\n\nA new action is available for trigger that allows to switch to a specific scene (when used with Harbor Platform and a Scene builder project)"
+            },
+            {
+                "version": "62.0.3",
+                "change_log": "Fixed a bug where sessions with a video would crash when several participants joining."
+            },
+            {
+                "version": "62.0.0",
+                "change_log": "Model parts: the code has been reviewed to improve performance when handling a large number of parts. \n\nMeasure tool: a measure point set on an asset now sticks to it when the asset is moved. \n\nMeasure tool : it is now possible to create distinct measure segments \n\nAnimations : It is now possible to control animations available on 3D models (start, stop, loop) through a new menu on their toolbar. \n\nLeft hand menu can now be opened when using a controller. Press the \"start\" button to display it. \n\nWhen in a collaborative session, the point of origin was not set right, it is now set in front of the user. \n\nMemory consumption displayed in the asset gallery is now more accurate on Meta Quest devices "
+            },
+            {
+                "version": "61.0.0",
+                "change_log": "Custom default assets support \n\nMemory management optimization \n\nBugfix on highlights and occlusion"
+            },
+            {
+                "version": "60.1.0",
+                "change_log": "Adding local assets support"
+            },
+            {
+                "version": "60.0.0",
+                "change_log": "Trigger feature now supports fade in / fade out for all asset types (using Harbor Platform) \n\nThe measure tool now allows to set points \"in the air\" (w/o a detected surface) \n\nPDF document support \n\nNumerous bugs fixed"
+            },
+            {
+                "version": "59.0.0",
+                "change_log": "• Cross-platform collaboration is now available using Harbor Platform (HoloLens2, MagicLeap 2, Meta Quest Pro, Meta Quest 3).\n\n\n• Enabling three new mixed reality manipulation modes : Collision, Occlusion, and a Measure Tool.\n\n\n• Adding the \"Triggers\" functionality support using Harbor Platform"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 0,
+        "rating": 0.0,
+        "weighted_rating": 3.4
+    },
+    "errors": []
+}

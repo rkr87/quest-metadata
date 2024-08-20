@@ -1,0 +1,100 @@
+{
+    "data": {
+        "id": "4581055775312676",
+        "app_name": "2D Panels",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "2D Panels Demo is an experimental sandbox demonstrating high quality rendering methods for 2D panels for VR developers and designers.  2D elements like icons and text are almost universally used  and should be presented at peak visual quality. When rendering 2D panels, developers might encounter rendering artifacts such as blur and flicker. This demo illustrates these artifacts and ways to mitigate them. Compare different techniques and judge quality gains.\n\nThis app consist of the following panel properties\nPresentation:  Compositor layers are much sharper against an eye-buffer layer.\nShape: Shorter panels can benefit using a quad layer whereas cylindrical layers is more useful for wider content. \nResolution: Panels sampling from a nominal resolution texture has reduced blur and flicker.\nMip-mapping: Mipmaps counter flicker and stabilize the image.\nSuper sampling: Super sampling mitigates flicker while keeping the panel sharp.\n\nLicense: https://developer.oculus.com/licenses/oculussdk/",
+        "developer": "Oculus",
+        "publisher": "Oculus",
+        "genres": [
+            "Business, Productivity & Utility"
+        ],
+        "devices": [
+            "Touch Controllers"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 1
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "NOT_REQUIRED",
+        "website": "https://developer.oculus.com/documentation/unity/unity-ovroverlay/",
+        "app_images": {
+            "cover_landscape": "75340706_573404023775280_9050146122370231490_n.png",
+            "cover_portrait": "75234373_417641589855946_7597442890068604116_n.png",
+            "cover_square": "75367594_597875881356796_86346337061834636_n.png",
+            "hero": "57572923_1072204876913896_8296957809327798069_n.png",
+            "icon": "75367594_4755816941115657_288231306868000532_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39031532_384375186562933_8357663107275579247_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.1",
+                "change_log": "V1.1: Adding a new scene demonstrating hardware Bi-cubic filtering. \nHardware Bi-cubic filtering makes the text look sharper at small GPU compute cost of ~0.4ms."
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478921,
+        "genre_update": 478921,
+        "device_update": 478921,
+        "mode_update": 478921,
+        "language_update": 478921,
+        "platform_update": 478921,
+        "player_mode_update": 478921,
+        "changelog_update": 478921,
+        "keyword_update": 478921,
+        "tag_update": 478921,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
+        "keywords": [],
+        "last_update": 478921,
+        "category": "APPS",
+        "votes": 1,
+        "rating": 5.0,
+        "weighted_rating": 3.6
+    },
+    "errors": []
+}

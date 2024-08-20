@@ -60,13 +60,15 @@
             },
             {
                 "rating": 5,
-                "votes": 27
+                "votes": 30
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
-            "descriptors": [],
+            "descriptors": [
+                "Mild Fantasy Violence"
+            ],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
@@ -84,34 +86,38 @@
         },
         "changelog": [
             {
+                "version": "1.0.4",
+                "change_log": "First update after store release\n\nImprovements:\n* Performance optimizations\n* Rank achieved now shown on leaderboards in addition to time\n* Improved musical timing of wave transition\n* Additional polish to the game end sequence\n* Improved collision between space eel and \"ladder\" crystals when dashing\n* Space eel dynamically steers out of the way of the player's head when diving into new wave or flying towards player\n* Space eel dives into wave from one of 4 different corners based on aim direction\n\nBug Fixes:\n* Fix issue where music doesn't always loop properly\n* Fix for red \"1:00\" that would show after your space eel dies\n* Fix for haptics not working when crashing through things with the Thrash Attack powerup\n* Fixed space eel head being oriented incorrectly when flying towards the player \n* Fix for some gameplay assets drawing on top of the pause menu\n* When you dash into a spike ball, \"ladder\" crystals past the impact point no longer shatter"
+            },
+            {
                 "version": "1.0.3",
                 "change_log": "same as rc3 but with cheats removed"
             }
         ],
         "on_rookie": false,
-        "general_update": 478417,
+        "general_update": 478921,
         "genre_update": 478321,
         "device_update": 478321,
         "mode_update": 478321,
         "language_update": 478321,
         "platform_update": 478321,
         "player_mode_update": 478321,
-        "changelog_update": 478321,
+        "changelog_update": 478921,
         "keyword_update": 478321,
         "tag_update": 478321,
-        "rating_update": 478537,
-        "iarc_detail_update": 478321,
+        "rating_update": 478921,
+        "iarc_detail_update": 478921,
         "keywords": [
             "action",
             "arcade",
             "music",
             "race"
         ],
-        "last_update": 478537,
+        "last_update": 478921,
         "category": "GAMES",
-        "votes": 32,
-        "rating": 4.75,
-        "weighted_rating": 4.4
+        "votes": 35,
+        "rating": 4.771429,
+        "weighted_rating": 4.5
     },
     "errors": []
 }

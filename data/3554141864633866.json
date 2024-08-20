@@ -53,7 +53,7 @@
                 "votes": 4
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,6 +75,26 @@
             "logo_transparent": "38974621_1908542992660462_5488098236238214731_n.png"
         },
         "changelog": [
+            {
+                "version": "1.20.00.24",
+                "change_log": "- Made hands spawn each time on switch to hand tracking, fixes interaction pointer sometimes not responding on switch to controllers\n- Step seq start quantize fix\n- Fixed synth controls sometimes not created on load saved session\n- Added ability to drag clips above each other to create a song/stack, and drag clip onto scene in a song to add another scene containing the clip"
+            },
+            {
+                "version": "1.20.00.22",
+                "change_log": "video no longer stops on load song"
+            },
+            {
+                "version": "1.20.00.21",
+                "change_log": "- Video sync refactor\n- Small stage and Big stage worlds added\n- New loading screen"
+            },
+            {
+                "version": "1.20.00.19",
+                "change_log": "Android direct video on Quest 2"
+            },
+            {
+                "version": "1.20.00.18",
+                "change_log": "- Android direct video on Quest 3 only"
+            },
             {
                 "version": "1.20.00.17",
                 "change_log": "Video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
@@ -134,43 +154,23 @@
             {
                 "version": "1.18.00.03",
                 "change_log": "- Fixed double trig of one shots when switching playback between scenes\n- Fixed playback glitch at the start of user audio when not stretched"
-            },
-            {
-                "version": "1.18.00.01",
-                "change_log": "- Mic and Storage Permissions early\n- Fixed video stopping when second non beat synced video opened\n- Rewritten audio recording in Avatar recorder\n- User wav files now streamed with low memory footprint\n- 32bit user wav files supported\n- Waveforms fades at each end\n- Fixed waveform position in Monochrome cubes view\n- Fixed too small items spawned in passthrough\n- Better lighting in minimal worlds\n- Removed old tutorial worlds\n- Removed old grime demo"
-            },
-            {
-                "version": "1.17.00.11",
-                "change_log": "- VFX position better \n- Motion control pitch bend fix \n- Video two sided for inside cube or sphere\n- Optimised user audio"
-            },
-            {
-                "version": "1.17.00.10",
-                "change_log": "New decks layout, tap tempo in click and tempo menu"
-            },
-            {
-                "version": "1.17.00.09",
-                "change_log": "- Late latching off fixes random crashes since last week\n- Lock position option in properties\n-  Option to pass mic through to mix added to the Avatar Browser"
-            },
-            {
-                "version": "1.17.00.06",
-                "change_log": "New RPM Rig"
             }
         ],
         "on_rookie": false,
-        "general_update": 476593,
+        "general_update": 478921,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 477937,
         "player_mode_update": 474685,
-        "changelog_update": 478513,
+        "changelog_update": 478921,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478513,
+        "last_update": 478921,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,
