@@ -73,7 +73,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031321_189741246804293_6397302628150649010_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.1.0+322723s",
+                "change_log": "Patch 1.1.0 Bug Fixes and Updates —\n- Addressed a game crash related to recalibration. Calibrating player position is more consistent.\n- Addressed a game crash related to dropping tools in the coffin. Under-the-hood coffin set-up has been tweaked.\n- Save toasts are now headtracked. All toasts and subtitles react to pausing appropriately.\n- Players can no longer go under or get objects stuck under the floor.\n- Some distractions would collide with the coffin door. They have been adjusted to navigate around the door.\n- Watchful Idol tweaks so players have more forgiveness during interactions.\n- Tools will settle on the table instead of constant spawning.\n- Gem sockets are adjusted to reduce issues trying to grab the gem.\n- Items no longer appear during teleportation to/from an encounter.\n- Progress related sound effects now adjusted through audio settings.\n- New dialogue for Book-Binder in Encounter 10."
+            }
+        ],
         "on_rookie": false,
         "general_update": 478489,
         "genre_update": 477145,
@@ -82,7 +87,7 @@
         "language_update": 477145,
         "platform_update": 477145,
         "player_mode_update": 477145,
-        "changelog_update": 477145,
+        "changelog_update": 478945,
         "keyword_update": 477145,
         "tag_update": 477145,
         "rating_update": 478921,
@@ -93,7 +98,7 @@
             "scary",
             "puzzle"
         ],
-        "last_update": 478921,
+        "last_update": 478945,
         "category": "GAMES",
         "votes": 114,
         "rating": 4.447368,

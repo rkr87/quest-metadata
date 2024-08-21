@@ -3,7 +3,7 @@
         "id": "7830420446969757",
         "app_name": "Polysketch",
         "release_date": "2022-05-24T00:00:00.000Z",
-        "description": "# Creativity for All\n\nUniquely simple and fun 3D creation! Sketch out shapes, add color and style, then export for game engines, 3D printing, social apps, or just for show. You'll be amazed how easily you can create truly original worlds, objects, and even characters.\n\n![{\"height\":400,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/75230050_429633753319452_4272255071443212433_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=JD3aRtf3lykQ7kNvgE1Ytsm&_nc_ht=scontent.oculuscdn.com&oh=00_AYCLTi3aKiHtYIhosF9lt5v7k-oPmsLw-Xgy875woyhDxw&oe=66C9BB3D)\n\n# Export and Share\n\n- **Social Creators**, build custom world and avatar art\n- **Game Designers**, sketch levels and prototype objects quickly\n- **3D Artists**, enjoy as a truly awesome retopo tool\n- **Concept Artists**, screenshot your creations for easy paint-overs\n\n# Features\n\n- Simple, intuitive \"sketch\" 3D modeling. Just sketch the lines, connect to form surfaces. No \"relative space axis constraint gizmo handles\" mumbo-jumbo here.\n- Import 3D models and images for reference\n- Export specific objects, or the entire scene, for use with just about any other app (Blender, Unity, Unreal, Roblox, VR Chat, etc)\n- Multiplayer (Alpha) - bring friends into your creations, live!\n\n# Community\n\nJoin any of our communities to discuss new features, share your creations, and get inspired.\n",
+        "description": "# Creativity for All\n\nUniquely simple and fun 3D creation! Sketch out shapes, add color and style, then export for game engines, 3D printing, social apps, or just for show. You'll be amazed how easily you can create truly original worlds, objects, and even characters.\n\n![{\"height\":400,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/75230050_429633753319452_4272255071443212433_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KJ6kBsnczD8Q7kNvgHiEs6R&_nc_ht=scontent.oculuscdn.com&oh=00_AYDiQetLPgRnq2YwK3Przo9JuggiHAA2EvrMAqcROOBz9w&oe=66CB0CBD)\n\n# Export and Share\n\n- **Social Creators**, build custom world and avatar art\n- **Game Designers**, sketch levels and prototype objects quickly\n- **3D Artists**, enjoy as a truly awesome retopo tool\n- **Concept Artists**, screenshot your creations for easy paint-overs\n\n# Features\n\n- Simple, intuitive \"sketch\" 3D modeling. Just sketch the lines, connect to form surfaces. No \"relative space axis constraint gizmo handles\" mumbo-jumbo here.\n- Import 3D models and images for reference\n- Export specific objects, or the entire scene, for use with just about any other app (Blender, Unity, Unreal, Roblox, VR Chat, etc)\n- Multiplayer (Alpha) - bring friends into your creations, live!\n\n# Community\n\nJoin any of our communities to discuss new features, share your creations, and get inspired.\n",
         "developer": "Polysketch LLC",
         "publisher": "Polysketch",
         "genres": [
@@ -75,6 +75,10 @@
             "logo_transparent": "38982464_584901086000741_1692418055857486687_n.png"
         },
         "changelog": [
+            {
+                "version": "0.65",
+                "change_log": "- fixed bug where you end a line on another point, it aligns visuall but doesn't actually connect\n- made loop-detection smarter so when drawing you are more likely to get the face you expect"
+            },
             {
                 "version": "0.64",
                 "change_log": "- made the app free! Limited to 3 saves, but free!\n- added a purchase to get unlimited saves.  Users that bought the app previously should get this for free\n- fixed image references\n- a few additional minor bug fixes"
@@ -150,27 +154,23 @@
             {
                 "version": "0.16",
                 "change_log": "- When deleting a scene, we now also delete the scene folder if empty.\n- Export files are now saved to a folder called PolysketchExports at the root level of your Quest file structure.\n- A single reference OBJ can be shown in your scenes by including it in a folder called ObjectInclude at the same file structure depth as our SaveFiles. See https://www.polysketchvr.com/learn/ for instructions\n- Now saving icon inside scene save file. This means autosaves will include the icon.\n- Better hover/select visuals.\n- Small tweak to analytic data."
-            },
-            {
-                "version": "0.15",
-                "change_log": "- Fixed bug that blocked adding/removing scene files manually from the file system.\n- Fixed bug where some scene file loading would put the app in a bad state (with weird yellow lines all over the place)"
             }
         ],
         "on_rookie": true,
-        "general_update": 478921,
+        "general_update": 478945,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477313,
+        "changelog_update": 478945,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 478297,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 478945,
         "category": "APPS",
         "votes": 13,
         "rating": 4.615385,
