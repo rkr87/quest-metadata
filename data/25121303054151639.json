@@ -1,0 +1,108 @@
+{
+    "data": {
+        "id": "25121303054151639",
+        "app_name": "A Way Home!",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "This app is designed to spread knowledge about 1) The need for ALL children to have equal rights, as not all do, 2) a treaty that lists these rights ALL children should be afforded called the Convention on the Rights of the Child treaty, and 3) ALL but one nation has ratified it. The USA is still outstanding as of 2024. More info about the game: https://www.suzanneensmann.com/a-way-home.html",
+        "developer": "Purpose2day",
+        "publisher": "Purpose2Day",
+        "genres": [
+            "Social",
+            "Media & Streaming"
+        ],
+        "devices": [
+            "Touch Controllers",
+            "Gamepad",
+            "Tracked keyboard"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 0
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 2
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Teen",
+            "descriptors": [],
+            "elements": [
+                "Users Interact"
+            ],
+            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "https://www.suzanneensmann.com/purpose2day-a-way-home.html",
+        "app_images": {
+            "cover_landscape": "39001666_406178208795502_3954690436519046371_n.png",
+            "cover_portrait": "57575367_269702932773524_7402088495993284717_n.png",
+            "cover_square": "38974558_403190735782861_3624045296766244177_n.png",
+            "hero": "38974482_412758868045379_3612604455797994058_n.png",
+            "icon": "38982574_353893297057709_798405928595846733_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974746_290982870708577_8563342608316006113_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "CourtSimulation: \n\nThe CourtSimulation script controls the Court House Scene. Within this script, there is a function called ReplayScene() which manages the scene change when the player clicks the Replay button. When ReplayScene() is called, it contains the following lines:\nPlayerPrefs.SetInt(\"level\", 1);\nPlayerPrefs.Save();\n\nThese lines create a PlayerPrefs record named \"level\" and set its value to 1. PlayerPrefs data is stored internally and can be retrieved during the game session.\n\nWhen the Replay button is clicked, the scene will restart. At the start, StartGame.cs will check if the \"level\" record exists. If it does, it retrieves the integer value of \"level\" and checks if it is 0 or 1.\n\nIf \"level\" is 0, the game starts as normal from the beginning.\nIf \"level\" is 1, the game starts from the Germany scene, and the \"level\" is reset to 0. This ensures that the player will only start from the Germany scene if they click Replay.\n\nThis logic allows the player to start the game from the beginning even if old player data is saved in Oculus after uninstallation."
+            },
+            {
+                "version": "1.0",
+                "change_log": "updated to continue points & have skip feature for instructions."
+            },
+            {
+                "version": "1.0",
+                "change_log": "This app is designed to spread knowledge about 1) The need for ALL children to have equal rights, as not all do, 2) a treaty that lists these rights ALL children should be afforded called the Convention on the Rights of the Child treaty, and 3) ALL but one nation has ratified it. The USA is still outstanding as of 2024. More info about the game: https://www.suzanneensmann.com/a-way-home.html"
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 478969,
+        "genre_update": 478969,
+        "device_update": 478969,
+        "mode_update": 478969,
+        "language_update": 478969,
+        "platform_update": 478969,
+        "player_mode_update": 478969,
+        "changelog_update": 478969,
+        "keyword_update": 478969,
+        "tag_update": 478969,
+        "rating_update": 478969,
+        "iarc_detail_update": 478969,
+        "keywords": [],
+        "last_update": 478969,
+        "category": "APPS",
+        "votes": 2,
+        "rating": 5.0,
+        "weighted_rating": 3.7
+    },
+    "errors": []
+}

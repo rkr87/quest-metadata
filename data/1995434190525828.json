@@ -67,7 +67,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8357
+                "votes": 8360
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +92,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.339.3_2024.8.20.21.31.58.620",
+                "change_log": "0.339.3"
+            },
             {
                 "version": "0.338.5_2024.8.19.2.29.9.609",
                 "change_log": "0.338.5"
@@ -167,10 +171,6 @@
             {
                 "version": "0.320.5_2023.12.23.17.23.59.304",
                 "change_log": "0.320.5\n - fixed some paddled having flipped red/black side physics\n - fixed rubber edit page link on paddle edit page\n - updated splash"
-            },
-            {
-                "version": "0.320.3_2023.12.22.21.5.0.29",
-                "change_log": "0.320.3\n - overhaul of left and right panels, including paddle/table/ball flow.\n - backend syncing of paddle presets and rubbers (more to come in the future)\n - fixed bug with ball machine allowing you to save same named presets\n - (as mentioned before) fixed unstable multiplayer pose tracking (your opponent should appear smoother)\n - (as mentioned before) added 11A and \"Ultimate PPP Pro\" quest 3 adapters\n - removed log all outbound/inbound as some users have toggled this and left it on - it logs a lot. \n - fixed a bug that left the paddle in a weird state sometimes after collision with the table. Where to fix it in the past, you went into the position preset menu and re-applied a position.\n - single player reduced mistake toggle fix\n - single player custom difficulty ai name fix\n - fix for some serialization issues pertaining to comma/decimal mismatch by locale\n - various fixes for paddle/rubber panels"
             }
         ],
         "on_rookie": true,
@@ -181,20 +181,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 478969,
         "keyword_update": 475633,
         "tag_update": 477913,
-        "rating_update": 478945,
+        "rating_update": 478969,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 478945,
+        "last_update": 478969,
         "category": "GAMES",
-        "votes": 10163,
-        "rating": 4.637017,
+        "votes": 10166,
+        "rating": 4.637124,
         "weighted_rating": 4.6
     },
     "errors": []
