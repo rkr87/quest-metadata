@@ -21,7 +21,9 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest Pro"
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING"
@@ -34,7 +36,7 @@
             },
             {
                 "rating": 2,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 3,
@@ -42,19 +44,22 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
-                "votes": 0
+                "votes": 3
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
-            "age_rating": "Everyone",
-            "descriptors": [],
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence",
+                "Mild Blood"
+            ],
             "elements": [],
-            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "internet_connection": "REQUIRED",
         "website": "https://sites.google.com/view/official-great-apes-site/home",
@@ -70,24 +75,24 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 478969,
+        "general_update": 478993,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
-        "platform_update": 478969,
+        "platform_update": 478993,
         "player_mode_update": 478969,
         "changelog_update": 478969,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 478969,
-        "iarc_detail_update": 478969,
+        "rating_update": 478993,
+        "iarc_detail_update": 478993,
         "keywords": [],
-        "last_update": 478969,
+        "last_update": 478993,
         "category": "GAMES",
-        "votes": 1,
-        "rating": 1.0,
-        "weighted_rating": 3.1
+        "votes": 6,
+        "rating": 3.666667,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

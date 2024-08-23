@@ -3,7 +3,7 @@
         "id": "5936567899722707",
         "app_name": "4XVR Video Player",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "The only player on Meta Quest that supports MVC 3D decoding (Blu-ray 3D), delivering a more seamless 4X clarity viewing experience for movies and VR videos.\n\nKey Features include:\n\n-\tThe only player on Meta Quest that supports MVC 3D decoding for Blu-ray 3D ISO, SSIF, mkv, m2ts, ts, mts, etc.\n\n-\tSeamless USB storage support for FAT32 / exFAT / NTFS with faster, smoother access. Superior capability recognizes all USB devices, for 4TB+, even 40TB, 4XVR is the only choice.\n\n-\tExclusive 4X Display Technology for unparalleled detail and vibrancy.\n\n-\t4X Link feature for easy file transfer from PC to VR headset.\n\n-\tRobust network playback support via DLNA, SMB, FTP, SFTP, WebDAV, and WebDAVS.\n\n-\tThe only player on the Meta Quest that supports Apple Spatial Video (MV-HEVC) captured on iPhone 15 Pro, no transcoding needed.\n\n-\tIntelligent and accurate recognition of video types (flat, 180° , 360° ), stereoscopic modes (2D, FSBS 3D, HSBS 3D, FOU 3D, HOU 3D).\n\n-\tHDR video support, exclusive HDR Luminance feature, more accurate picture color.\n\n-\tSmooth and powerful UI.\n\n-\tImmersive, realistic theatres.\n\nJoin Our Discord for more updates:  https://discord.gg/KMKtFECcd2 ",
+        "description": "The only player on Meta Quest that supports MVC 3D decoding (Blu-ray 3D), delivering a more seamless 4X clarity viewing experience for movies and VR videos.\n\nKey Features include:\n\n-\tThe only player on Meta Quest that supports MVC 3D decoding for Blu-ray 3D ISO, SSIF, mkv, m2ts, ts, mts, etc.\n\n-\tSeamless USB storage support for FAT32 / exFAT / NTFS with faster, smoother access. Superior capability recognizes all USB devices, for 4TB+, even 40TB, 4XVR is the only choice.\n\n-\tExclusive 4X Display Technology for unparalleled detail and vibrancy.\n\n-\t4X Link feature for easy file transfer from PC to VR headset.\n\n-\tRobust network playback support via DLNA, SMB, FTP, SFTP, WebDAV, and WebDAVS.\n\n-\tSupports 3D playback of 8Bit 1080P spatial videos; supports MV-HEVC soft-decoding.\n\n-\tIntelligent and accurate recognition of video types (flat, 180° , 360° ), stereoscopic modes (2D, FSBS 3D, HSBS 3D, FOU 3D, HOU 3D).\n\n-\tHDR video support, exclusive HDR Luminance feature, more accurate picture color.\n\n-\tSmooth and powerful UI.\n\n-\tImmersive, realistic theatres.\n\nJoin Our Discord for more updates:  https://discord.gg/KMKtFECcd2 ",
         "developer": "4X Studio",
         "publisher": "4X Studio",
         "genres": [
@@ -36,8 +36,7 @@
         ],
         "player_modes": [
             "SITTING",
-            "STANDING",
-            "ROOM_SCALE"
+            "STANDING"
         ],
         "tags": [],
         "hist": [
@@ -59,10 +58,10 @@
             },
             {
                 "rating": 5,
-                "votes": 197
+                "votes": 199
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -82,6 +81,10 @@
             "logo_transparent": "38974750_670558314687650_4351224727893824174_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.80",
+                "change_log": "Bug Fixes:\n- Fixed some known bugs."
+            },
             {
                 "version": "1.5.46",
                 "change_log": "Bug Fixes:\n- Fixed some known bugs."
@@ -153,30 +156,26 @@
             {
                 "version": "1.3.1",
                 "change_log": "New Features:\t\t\n- Supported spatial video rotation.\n- Supported more language.\n\nImprovements:\n- HDR video color correction.\n- Visual optimization for clearer video images."
-            },
-            {
-                "version": "1.2.10",
-                "change_log": "Improvements:\n- Significantly optimized spatial video playback performance.\t\t \n\t\t \nNew Features:\t\t \n- Supported 2D flat video rotation.\n- Added some options to the settings page."
             }
         ],
         "on_rookie": true,
-        "general_update": 478489,
+        "general_update": 478993,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
-        "player_mode_update": 474685,
-        "changelog_update": 478345,
+        "player_mode_update": 478993,
+        "changelog_update": 478993,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478945,
+        "rating_update": 478993,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478945,
+        "last_update": 478993,
         "category": "APPS",
-        "votes": 332,
-        "rating": 4.099398,
+        "votes": 334,
+        "rating": 4.10479,
         "weighted_rating": 4.0
     },
     "errors": [
