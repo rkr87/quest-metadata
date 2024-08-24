@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "0.9.2.0.4",
+                "change_log": "- Improved memory usage of main TV menu\n- Fixed issue relating multiplayer scoring\n- Fixed user rig height issue\n- Address player track UI issue\n- Improve stage loading"
+            },
+            {
                 "version": "0.9.2.0.0",
                 "change_log": "- Improved memory usage of main TV menu\n- Fixed issue relating multiplayer scoring\n- Fixed user rig height issue "
             },
@@ -115,10 +119,6 @@
             {
                 "version": "0.8.8.8",
                 "change_log": "Season 2 Release\nNew Player Rank System\nNew Stages\nNew Iron Sights"
-            },
-            {
-                "version": "0.8.8.7",
-                "change_log": "Season 2 Update!\n\nNew Ace Ranks, lead maxes at 50 so make sure to use it to submit official ranked runs to increase your rank.\n\nNew stages and iron sights\n\nPerformance improvements and quality of life improvements"
             }
         ],
         "on_rookie": false,
@@ -129,17 +129,29 @@
         "language_update": 477385,
         "platform_update": 477385,
         "player_mode_update": 477385,
-        "changelog_update": 478993,
+        "changelog_update": 479017,
         "keyword_update": 477385,
         "tag_update": 478345,
         "rating_update": 478993,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478993,
+        "last_update": 479017,
         "category": "GAMES",
         "votes": 97,
         "rating": 4.680412,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d8ca058150e9a8ebb2e8fb6852795f2b"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

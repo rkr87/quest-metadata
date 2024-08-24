@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.7.0",
+                "change_log": "Bring back the title bar widget, a small element that provides information and quick media actions for windows that don't have the focus.\n\nClean up and improve our support for hand input and gestures.\n\nSupport eye-tracking navigation on devices with this capability. Wolvic will ask for permission before enabling this feature.\n\nMany other fixes and stability improvements.\n\nGet in touch with the Wolvic team to help us improve this application!"
+            },
+            {
                 "version": "1.6.1",
                 "change_log": "This version contains many, many improvements to performance and stability. The main UI change is that the buttons B/Y can now be used to go back when you are not inside an immersive video or application. Additionally, we have cleaned up our resizing logic to make it more predictable, which also improves how fullscreen videos (both horizontal and vertical) are presented. Keyboard and dialogs are more visible when you have multiple browser windows open. Finally, we have added four new environments for you to try out."
             }
@@ -89,13 +93,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476833,
+        "changelog_update": 479017,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478945,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478945,
+        "last_update": 479017,
         "category": "APPS",
         "votes": 194,
         "rating": 3.561856,

@@ -3,7 +3,7 @@
         "id": "6392501587470497",
         "app_name": "Fly",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# New 1.1 Update: Includes new vehicle, updated menus, music, and more! \n\nEmbark on an extraordinary journey with Fly, and redefine the way you explore our planet. Powered by Google's cutting-edge 3D Maps Tiles, this immersive experience lets you soar through the skies and witness the world's wonders like never before. From the ground all the way to the edge of space, you can truly Fly for the first time.\n\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974902_982449553373158_1253049313026760958_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EGO5lGtqO3YQ7kNvgG5W13s&_nc_ht=scontent.oculuscdn.com&oh=00_AYA8D1axM5FSUUKrGZuGg2tXLnWU4f60DX_hV_EMa6EadA&oe=66CDBE78)\n\n**Global Exploration:** Fly taps into Google's vast repository of 3D tiles, offering a true-to-life representation of Earth. Traverse majestic landscapes, iconic landmarks, and hidden gems from the comfort of your home. Whether it's the towering peaks of the Himalayas, the bustling streets of Tokyo, or triumphs of human engineering like the Eiffel Tower in Paris, the world is yours to discover.\n{1173106120490071}\n**Unique Motion in Flight:** Feel the rush of wind as you take flight on your drone. Utilizing our unique motion controls enjoy a seamless and intuitive flying experience. Control your speed and direction with direct body motion and altitude with the joystick. Soar over mountains, glide through valleys, and experience the thrill of flight.\n\nUnleash your inner adventurer with Fly – the ultimate virtual reality app that brings the world to your fingertips for the first time in a stand alone headset. Elevate your senses, broaden your horizons, and experience the magic of flight in a way you've never imagined.",
+        "description": "# New 1.1 Update: Includes new vehicle, updated menus, music, and more! \n\nEmbark on an extraordinary journey with Fly, and redefine the way you explore our planet. Powered by Google's cutting-edge 3D Maps Tiles, this immersive experience lets you soar through the skies and witness the world's wonders like never before. From the ground all the way to the edge of space, you can truly Fly for the first time.\n\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/38974902_982449553373158_1253049313026760958_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=EGO5lGtqO3YQ7kNvgFZJOlc&_nc_ht=scontent.oculuscdn.com&oh=00_AYBJnomggbq2C9owAylAkTlUEVnc3ezm-UKgfFtfJjD2eA&oe=66CF0FF8)\n\n**Global Exploration:** Fly taps into Google's vast repository of 3D tiles, offering a true-to-life representation of Earth. Traverse majestic landscapes, iconic landmarks, and hidden gems from the comfort of your home. Whether it's the towering peaks of the Himalayas, the bustling streets of Tokyo, or triumphs of human engineering like the Eiffel Tower in Paris, the world is yours to discover.\n{1173106120490071}\n**Unique Motion in Flight:** Feel the rush of wind as you take flight on your drone. Utilizing our unique motion controls enjoy a seamless and intuitive flying experience. Control your speed and direction with direct body motion and altitude with the joystick. Soar over mountains, glide through valleys, and experience the thrill of flight.\n\nUnleash your inner adventurer with Fly – the ultimate virtual reality app that brings the world to your fingertips for the first time in a stand alone headset. Elevate your senses, broaden your horizons, and experience the magic of flight in a way you've never imagined.",
         "developer": "VirZOOM",
         "publisher": "VirZOOM",
         "genres": [
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 99
+                "votes": 102
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +76,10 @@
             "logo_transparent": "39031643_1390528165167372_1886784839638768749_n.png"
         },
         "changelog": [
+            {
+                "version": "1.2.2",
+                "change_log": "--1.2.0--\nBookmark places you'd like to revisit!\n\nSlide into Street View panoramas from ground level in many locations.\nPull Street View panoramas to your location at slightly higher altitudes.\nVisit the ground in a developed area to learn more about it!\n\nNew World Info Options category includes the ability to show or hide Boundaries, Geo Markers, Capitals, etc..\n\n--1.2.1--\nImproved initial tile load\nFixed a crash with saving bookmarks in regions where comma and decimal are swapped in lat/lon\nStreet View tutorial now returns options to their previous settings\n\n--1.2.2--\nPinch-drag option now correctly hides the rings\nPinch-drag no longer incorrectly changes the inverted altitude controls option\nStreet View tutorial now exists in two stages, first teaching you at ground level, then teaching the second mechanic when you pass back above 130ft\nFixes to how Bookmarks are loaded, edited, and listed"
+            },
             {
                 "version": "1.2.1",
                 "change_log": "--1.2.0--\nBookmark places you'd like to revisit!\n\nSlide into Street View panoramas from ground level in many locations.\nPull Street View panoramas to your location at slightly higher altitudes.\nVisit the ground in a developed area to learn more about it!\n\nNew World Info Options category includes the ability to show or hide Boundaries, Geo Markers, Capitals, etc..\n\n--1.2.1--\nImproved initial tile load\nFixed a crash with saving bookmarks in regions where comma and decimal are swapped in lat/lon\nStreet View tutorial now returns options to their previous settings"
@@ -151,30 +155,26 @@
             {
                 "version": "1.0.4",
                 "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes\n\n--1.0.4--\nClean up cache files to not unnecessarily use up disk space"
-            },
-            {
-                "version": "1.0.2",
-                "change_log": "--1.0.2--\nCrash bug fix"
             }
         ],
         "on_rookie": false,
-        "general_update": 478993,
+        "general_update": 479017,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478945,
+        "changelog_update": 479017,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478993,
+        "rating_update": 479017,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478993,
+        "last_update": 479017,
         "category": "APPS",
-        "votes": 159,
-        "rating": 4.213836,
+        "votes": 162,
+        "rating": 4.228395,
         "weighted_rating": 4.1
     },
     "errors": []
