@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3627
+                "votes": 3628
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,10 @@
             "logo_transparent": "38982652_2339984606323297_4253485479653015552_n.png"
         },
         "changelog": [
+            {
+                "version": "2.3.105.049",
+                "change_log": "Added Sandbox for Heavy DLC Content\n\nNew Target Props:\n - Kyle, Mike,Tammy\n - Flatbed, Box and Tanker trucks \n\nNew Device Props:\n - Washer, Dryer, Filing cabinet\n \nAdded each Range's targets as Props (DLC Targets unlock with DLC Ownership)\n - Fixed Sandbox patch notes' \"Okay\" button not being clickable\n - Fixed being able to buy unequippable Heavy Weapons from the dealer\n - Added DLC entitlement check when clicking to purchase\n - Fixed infinitely firing Grenade Launcher attachment\n - Fixed Secondary weapons not spawning with the selected upgrades\n - Fixed SCAR-H's stock attachment points\n - Fixed save & load of CZ75 sight attachments"
+            },
             {
                 "version": "2.3.105.041",
                 "change_log": "HEAVY DLC RELEASE\nv2.3.105.037\nNew Freight Yard Range:\n    - Light Vehicles: Numerous targets, less armor\n    - Heavy Vehicles: Frequent vehicles, more armor\n    - Armored Target Wave Mode\n    - Armored Zombie Mode\n11 New Explosive Weapons:\n    - Panzerfaust 3, Panzerschreck, MK153 SMAW, M202 Flash, PIAT, M1A1 Bazooka, RPG7-V2\n    - Ex41 China Lake, MK32 MGL, Hydra, RGSH-30\nFeatures:\n    - Radial menu for ammo upgrades (Hold A/X)\n    - Secondary weapon selection (supported in Heavy Ranges only)\n\n\nHEAVY DLC PATCH v2.3.105.041\n\nFixed teleporting in sandbox ranges\nFixed bug that occurs when releasing grip on trigger of weapon while holding pump\nFix for crash when grabbing allied cash gift\nMK32 MGL foregrip fixed\nWeapon selection left/right buttons fixed\nSideshow rotating targets can be hit with rockets now - requiring a roughly direct hit\nFixed issue with ranges not ending due to vehicles not spawning correctly"
@@ -163,10 +167,6 @@
             {
                 "version": "1.1.82",
                 "change_log": "1.1.82.57c -  Performance and bugfix update\n\n        - Added Axe-head Attachment\n        - Added Volume Setting in Audio options\n        - Magazines updated to use correct rounds (some .45ACP Pistols were previously using .9mm magazines)\n        - Fixed issue causing action ranges to not progress when locomoting into their waypoints\n        - Fixed issue causing the grenade launcher to be removable when in range\n        - Fixed some cases of Speedloaders no longer working\n        - New map view buttons to skip across 5 events\n        - Options pages now hold more options\n        - DSR1 backup magazine well no longer accepts magazines other than the default for the DSR1\n        - Fixed the hide state of the buffer tube underneath the M16 stocks when removed\n        - Bugfix for corrupt save data that interrupted loading\n        - Engine upgrade resulting in many performance optimisations\n"
-            },
-            {
-                "version": "1.1.82",
-                "change_log": "1.1.82.30c SWAT DLC BugFix Patch 2\n- Loading Screen Issue Fix for those effected\n\n1.1.82.29c SWAT DLC BugFix Patch 1\n- Resolves issues with Subway events\n- lots of minor issues resolved\n- Added Cloud Data support for transferring progress between devices\n\n------------------------------------\nMain Release Notes 1.1.82.16\n\nSWAT DLC puts you to the test as you master the weapons and tactics needed to become the best of the best. Hone your skills in the intense combat training simulations, face off against waves of hostile targets, and survive the onslaught of the apocalyptic zombie horde. \n\nFeaturing an all new subway scenario with dozens of new events to master as well as 10 meticulously detailed and fully interactive SWAT-issue weapons:\n\nM1014 (Shotgun)\nSpas 12 (Shotgun)\nM16A2 & M16A4 (Assault Rifle)\nScar-H (Assault Rifle)\nUSP 45 (Pistol)\nFiveSeven (Pistol)\nMP7A1 (SMG)\nUzi Pro (SMG)\nMP5A2 (SMG)\n\nThis update also includes literal game changing addition\n - Freeform Locomotion: Move around all ranges with our new movement modes, dodge enemy fire and take more strategic positions and explore the ranges. Enable the movement option in the GamePlay Settings."
             }
         ],
         "on_rookie": true,
@@ -177,20 +177,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478345,
+        "changelog_update": 479065,
         "keyword_update": 474881,
         "tag_update": 478345,
-        "rating_update": 479017,
+        "rating_update": 479065,
         "iarc_detail_update": 477385,
         "keywords": [
             "fps",
             "shooter",
             "gun"
         ],
-        "last_update": 479017,
+        "last_update": 479065,
         "category": "GAMES",
-        "votes": 5490,
-        "rating": 4.380874,
+        "votes": 5491,
+        "rating": 4.380987,
         "weighted_rating": 4.3
     },
     "errors": []

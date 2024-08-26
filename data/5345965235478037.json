@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.41",
+                "change_log": "- Resolved an issue where dealer cards could become stuck on the table.\n- Added the ability to view the lobby leaderboard directly from the table for improved visibility."
+            },
+            {
                 "version": "1.39",
                 "change_log": "- Added functionality: Chips can now be picked up using the index trigger for more intuitive gameplay.\n- Various bug fixes and performance improvements for a smoother experience.\n- Why don't programmers like nature? It has too many bugs!"
             },
@@ -123,10 +127,6 @@
             {
                 "version": "1.19",
                 "change_log": "- Bug fixed in which players were able to teleport out of the map.\n- Players now get notified whenever other player accept your friend request.\n- Each player on table now get their cards dealt one by one.\n\nKnown Issues:\n- New players might have to restart their game in order for voice chat to work after giving microphone permission."
-            },
-            {
-                "version": "1.18",
-                "change_log": "- Bug fixed in which players weren't able to see opponent's chips in bet area.\n- Players now get notified whenever a friend comes online.\n- Players can now join their friends at a table via friends menu.\n- Gameplay improvement.\n\nKnown Issues:\n- New players might have to restart their game in order for voice chat to work after giving microphone permission."
             }
         ],
         "on_rookie": false,
@@ -137,13 +137,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479065,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479065,
         "category": "GAMES",
         "votes": 55,
         "rating": 3.4,

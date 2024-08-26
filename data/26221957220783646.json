@@ -3,7 +3,7 @@
         "id": "26221957220783646",
         "app_name": "Kaiju Battle Simulator",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Enjoy virtually-virtually battling a kaiju in this giant mech VR monster beat-down!\n\n*Please note: This is early-access experimental prototype, future updates will bring new features, improvements and other cool stuff*",
+        "description": "Enjoy virtually-virtually battling a kaiju in this giant mech VR monster beat-down!\n\n* Now featuring remote-control drone and mech customization!\n\n*Please note: This is early-access experimental prototype, future updates will bring new features, improvements and other cool stuff*",
         "developer": "TwoLivesLeft",
         "publisher": "Two Lives Left",
         "genres": [
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 9
+                "votes": 10
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,33 +78,37 @@
         },
         "changelog": [
             {
+                "version": "0.2.2",
+                "change_log": "- Drone can now be manually piloted or set to follow mode + more options for drone monitor\n- Added mecha customization screen\n- Many small bug fixes and improvements throughout"
+            },
+            {
                 "version": "0.2",
                 "change_log": "- More performance optimisations\n- Changed audio engine to FMOD\n- Added some new sound effects\n- Toned down many of the particle effects to reduce overdraw\n\nNote to reviewers:\nIf you encounter more performance issues, please include some reproduction steps and a screenshot if possible"
             }
         ],
         "on_rookie": false,
-        "general_update": 479041,
+        "general_update": 479065,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
         "platform_update": 478969,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 479065,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 479041,
+        "rating_update": 479065,
         "iarc_detail_update": 478969,
         "keywords": [
             "battle",
             "physic",
             "action"
         ],
-        "last_update": 479041,
+        "last_update": 479065,
         "category": "GAMES",
-        "votes": 9,
+        "votes": 10,
         "rating": 5.0,
-        "weighted_rating": 4.2
+        "weighted_rating": 4.3
     },
     "errors": []
 }
