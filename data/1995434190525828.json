@@ -51,15 +51,15 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 438
+                "votes": 437
             },
             {
                 "rating": 2,
-                "votes": 153
+                "votes": 152
             },
             {
                 "rating": 3,
-                "votes": 269
+                "votes": 270
             },
             {
                 "rating": 4,
@@ -67,7 +67,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8361
+                "votes": 8362
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +92,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.343.0_2024.8.26.2.11.48.824",
+                "change_log": "0.343.0"
+            },
             {
                 "version": "0.342.2_2024.8.24.7.45.2.479",
                 "change_log": "0.342.2"
@@ -167,10 +171,6 @@
             {
                 "version": "0.322.1_2024.1.3.5.32.41.170",
                 "change_log": "0.322.0\n    -fixed issue where clicking on the controller in the paddle adapter page wasn't responsive\n    -fixed issue where the position of the paddle was reverting to the previous state upon return from the paddle adapter selection page\n    -fixed issue where a new rubber could be made with 0'd out values\n    -updated paddle and rubber syncing code. We know there is some issue that has been duplicating the paddles/rubbers for folks. We'll be cleaning it up soon and this release is needed to make sure everyone is on a version that would accept our backend cleanup change when it happens. \n    -for monitor mode, defaulted controllers to not be shown. Press 'H' to toggle showing the controllers. \n    -fixed some issue where having a third player in the room broke some inter-player communications on start of match\n    -improved performance of paddle screen load\n    -fixed issue where paddle size wasn't being sent to the server. \n    -some logging added. \n\n\n..and unrelated to the app version itself, some users had issues logging in. So we fixed something server side. \n\n\n0.322.1  : \n-network stability\n-some prep work for Dusseldorf"
-            },
-            {
-                "version": "0.321.0_2023.12.27.14.56.43.750",
-                "change_log": "0.321.0\n-voip hot fix"
             }
         ],
         "on_rookie": true,
@@ -181,20 +181,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479041,
+        "changelog_update": 479089,
         "keyword_update": 475633,
         "tag_update": 477913,
-        "rating_update": 479065,
+        "rating_update": 479089,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 479065,
+        "last_update": 479089,
         "category": "GAMES",
         "votes": 10171,
-        "rating": 4.636319,
+        "rating": 4.636811,
         "weighted_rating": 4.6
     },
     "errors": []

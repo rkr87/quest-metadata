@@ -3,7 +3,7 @@
         "id": "1903584373052985",
         "app_name": "Raccoon Lagoon",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Hello, Island Spirit!  A group of adorable sailors have been marooned on your shore.  Let’s help them build a home here. And just maybe, they can help us repair the island’s broken heart.  Explore the eight beautiful and distinct climates of the island, and with fishing, cooking, farming, mining, painting, themed decorations, and many hours of story quests, you won’t run out of things to do.  You can invite a friend if you wish, just make sure to watch out for the Raccoons!",
+        "description": "With the new Raccooniversary update, you’ll get teleport movement, the option to turn off those nasty Raccoons, improved visuals throughout the game, upgraded co-op multiplayer that now supports 4 players at a time, a new Nym hoodie themed avatar, and many quality of life improvements. \n\nHello, Island Spirit!  A group of adorable sailors have been marooned on your shore.  Let’s help them build a home here. And just maybe, they can help us repair the island’s broken heart.  Explore the eight beautiful and distinct climates of the island, and with fishing, cooking, farming, mining, painting, themed decorations, and many hours of story quests, you won’t run out of things to do.  You can invite a friend if you wish, just make sure to watch out for the Raccoons!",
         "developer": "Hidden Path Entertainment",
         "publisher": "Oculus",
         "genres": [
@@ -60,7 +60,7 @@
                 "votes": 377
             }
         ],
-        "comfort": "COMFORTABLE_FOR_SOME",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -86,6 +86,10 @@
         "changelog": [
             {
                 "version": "1.0",
+                "change_log": "V:340313"
+            },
+            {
+                "version": "1.0",
                 "change_log": "V:235238\nLarge save games load correctly on the Quest.\n    •There had been occasions where some players with larger (15-25mb) save files would crash when trying to load those saves on Quest. The saves would often be corrupted when this crash happened.\n    •We adjusted the code so those larger sizes will load correctly.\n    •PLEASE NOTE: Larger save files will continue to take longer to load than smaller save files.\n\nUnder-the-hood adjustments to when islands can be joined in Multiplayer. \n    •There were a few cases where an island would show as “available to join” before it has completely loaded save data. Trying to connect to an island in that state would cause disconnection or a crash.\n    •Now, islands only show up as “available to join” once all data has been completely loaded. \n"
             },
             {
@@ -98,14 +102,14 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476257,
+        "general_update": 479089,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 476257,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 479089,
         "keyword_update": 474880,
         "tag_update": 475657,
         "rating_update": 478993,
@@ -117,7 +121,7 @@
             "monster",
             "star"
         ],
-        "last_update": 478993,
+        "last_update": 479089,
         "category": "GAMES",
         "votes": 746,
         "rating": 3.880697,

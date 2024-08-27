@@ -23,10 +23,10 @@
             "Russian"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [],
         "tags": [],
@@ -72,6 +72,10 @@
             "logo_transparent": "38982619_555954575530710_3583565146681762482_n.png"
         },
         "changelog": [
+            {
+                "version": "5.61",
+                "change_log": "New track available, tracks from Ireland optimized"
+            },
             {
                 "version": "5.6",
                 "change_log": "Corrected wrong error message displaying on track list page, intoducing new track's format, for the moment implemented on \"Ballyreagh Wood\""
@@ -143,10 +147,6 @@
             {
                 "version": "4.6",
                 "change_log": "New track available!"
-            },
-            {
-                "version": "v4.51",
-                "change_log": "Corrected player crash or not starting when device back from sleep mode, fix training not starting when canceled connecting to sensor"
             }
         ],
         "on_rookie": false,
@@ -157,13 +157,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478561,
+        "changelog_update": 479089,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479089,
         "category": "ENTERTAINMENT",
         "votes": 31,
         "rating": 3.16129,
