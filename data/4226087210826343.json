@@ -105,6 +105,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.80",
+                "change_log": "Add anti-piracy checks. Save game scores in leaderboard."
+            },
+            {
                 "version": "6.0.79",
                 "change_log": "Improve walk animation for full body bot"
             },
@@ -175,10 +179,6 @@
             {
                 "version": "6.0.50",
                 "change_log": "Force game end sync in multiplayer. Use unreliable EOS P2P data to send avatar data in multiplayer to reduce bandwidth requirements"
-            },
-            {
-                "version": "6.0.49",
-                "change_log": "Improve ball trajectory display to include the bounces till the fault position"
             }
         ],
         "on_rookie": true,
@@ -189,13 +189,13 @@
         "language_update": 474685,
         "platform_update": 478441,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479113,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479113,
         "category": "GAMES",
         "votes": 235,
         "rating": 4.208511,

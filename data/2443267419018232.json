@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 452
+                "votes": 454
             },
             {
                 "rating": 2,
@@ -48,11 +48,11 @@
             },
             {
                 "rating": 4,
-                "votes": 443
+                "votes": 444
             },
             {
                 "rating": 5,
-                "votes": 2890
+                "votes": 2899
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -81,6 +81,10 @@
             "logo_transparent": "75441579_1395939127998086_1517575766859931023_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.19",
+                "change_log": "Core\n-Added new map Carnival\n-Added MOTD (Message of the Day) \n-Added official standoff mod and maps on mod.io\n-Adjusted van in harbor to be less cheesy\n-Adjusted placing trace range for Aurora Trip Mines so they are less likely to be placed inside walls\n-Fixed issue with hide crate spawn in Autumn that blocked a pathway\n-Fixed an out of bounds exploit in Haguenau\n-Fixed an exploit in Industry\n-Fixed various cosmetic issues with gun skins\n-Fixed cosmetic issue with noticeboard on Harbor\n-Fixed a pixel walk on Harbor\n-Fixed an abusable angle in Harbor\n-Fixed an out of bounds exploit in Harbor\n\nTTT\n-Added font fit mode to player's role for TTT watch.\n-Fixed Set TTTSubtext node not working in all use cases. \n-Adjusted TTT to now get roles in play every round for modders who want to add and remove roles during the game.\n\nMods\n-Added modkit feature to disable a custom Round End SubText if one was set by inputting a blank string \"\" into the SetTTTEndRoundSubText node.\n-Added modkit feature to ignore \"Spawns Roles\" field when adding a TTT Role (Add \"DONOTCHANGE\" to Spawns Roles array).\n-Fixed issue with download counts not working in Mod.io \n"
+            },
             {
                 "version": "1.0.3",
                 "change_log": "-Fixed issue with being unable to buy discounted cosmetics despite having the correct amount of coins. "
@@ -114,10 +118,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477313,
+        "changelog_update": 479113,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 479089,
+        "rating_update": 479113,
         "iarc_detail_update": 477385,
         "keywords": [
             "shooter",
@@ -126,10 +130,10 @@
             "pvp",
             "combat"
         ],
-        "last_update": 479089,
+        "last_update": 479113,
         "category": "GAMES",
-        "votes": 4132,
-        "rating": 4.257986,
+        "votes": 4144,
+        "rating": 4.257963,
         "weighted_rating": 4.2
     },
     "errors": []
