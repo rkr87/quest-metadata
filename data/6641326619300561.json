@@ -77,7 +77,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031376_423545413570445_2964860091847636191_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "FNAF",
+                "change_log": "FNAF Type game, its a W, check it out!"
+            }
+        ],
         "on_rookie": false,
         "general_update": 478921,
         "genre_update": 478129,
@@ -86,17 +91,29 @@
         "language_update": 478129,
         "platform_update": 478129,
         "player_mode_update": 478129,
-        "changelog_update": 478129,
+        "changelog_update": 479137,
         "keyword_update": 478129,
         "tag_update": 478129,
         "rating_update": 478993,
         "iarc_detail_update": 478129,
         "keywords": [],
-        "last_update": 478993,
+        "last_update": 479137,
         "category": "GAMES",
         "votes": 121,
         "rating": 2.578512,
         "weighted_rating": 2.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d8ca058150e9a8ebb2e8fb6852795f2b"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }
