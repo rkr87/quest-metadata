@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "1.1.2+323863s",
+                "change_log": "Patch 1.1.2 Bug Fixes and Updates —\n- Coffin and tool table will properly adjust to player height on level load.\n\nPatch 1.1.1 Bug Fixes and Updates —\n- Addressed performance / hitching issues.\n\nPatch 1.1.0 Bug Fixes and Updates —\n- Addressed a game crash related to recalibration. Calibrating player position is more consistent.\n- Addressed a game crash related to dropping tools in the coffin. Under-the-hood coffin set-up has been tweaked.\n- Save toasts are now headtracked. All toasts and subtitles react to pausing appropriately.\n- Players can no longer go under or get objects stuck under the floor.\n- Some distractions would collide with the coffin door. They have been adjusted to navigate around the door.\n- Watchful Idol tweaks so players have more forgiveness during interactions.\n- Tools will settle on the table properly instead of respawning.  \n- Tools no longer explode off the table when released.\n- Gem sockets are adjusted to reduce physics issues when gems are hooked.\n- Items no longer appear during teleportation to/from an encounter.\n- Progress related sound effects now adjusted through audio settings.\n- New dialogue for Book-Binder in Encounter 10."
+            },
+            {
                 "version": "1.1.1+323663s",
                 "change_log": "Patch 1.1.1 Bug Fixes and Updates —\n- Addressed performance / hitching issues.\n\nPatch 1.1.0 Bug Fixes and Updates —\n- Addressed a game crash related to recalibration. Calibrating player position is more consistent.\n- Addressed a game crash related to dropping tools in the coffin. Under-the-hood coffin set-up has been tweaked.\n- Save toasts are now headtracked. All toasts and subtitles react to pausing appropriately.\n- Players can no longer go under or get objects stuck under the floor.\n- Some distractions would collide with the coffin door. They have been adjusted to navigate around the door.\n- Watchful Idol tweaks so players have more forgiveness during interactions.\n- Tools will settle on the table properly instead of respawning.  \n- Tools no longer explode off the table when released.\n- Gem sockets are adjusted to reduce physics issues when gems are hooked.\n- Items no longer appear during teleportation to/from an encounter.\n- Progress related sound effects now adjusted through audio settings.\n- New dialogue for Book-Binder in Encounter 10."
             },
@@ -91,7 +95,7 @@
         "language_update": 477145,
         "platform_update": 477145,
         "player_mode_update": 477145,
-        "changelog_update": 479089,
+        "changelog_update": 479161,
         "keyword_update": 477145,
         "tag_update": 477145,
         "rating_update": 479089,
@@ -102,7 +106,7 @@
             "scary",
             "puzzle"
         ],
-        "last_update": 479089,
+        "last_update": 479161,
         "category": "GAMES",
         "votes": 115,
         "rating": 4.486957,

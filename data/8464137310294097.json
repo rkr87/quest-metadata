@@ -28,9 +28,9 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 2",
             "Meta Quest 3",
-            "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest Pro"
         ],
         "player_modes": [
             "SITTING",
@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 222
+                "votes": 221
             },
             {
                 "rating": 2,
@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1897
+                "votes": 1903
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "# UPDATE 0.4.1\n\n## INTRODUCING STORE CREDITS AND GIFTS!\nYou can now purchase store credits to use in the store. You can also send store credits as gifts by clicking on a name in your current lobby or by using the player's ID.\n\n## BODY COLLISIONS TESTING\nAvailable as an experimental feature in private matches for initial testing. We’ll improve body collisions based on your feedback.\n\n## THROWING PHYSICS UPDATE\nImproved responsiveness and ball rotation during throws, along with several bug fixes. While we know you’d like this feature in matches, it needs more polishing before being fully released.\n\n## TRAMPOLINES, SPEED BOOSTERS, AND MORE\nIn the arena editor, you can now add trampolines and speed boosters that interact with balls and players in locomotion mode. We’ve also added a ‘no-stick movement’ locomotion button as a separate mechanic.\n\n## U19 GLOVES PACK BUNDLE\nA new bundle from U19 designers featuring 7 new gloves, including thin gloves similar to those used in sports like baseball and basketball.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "# UPDATE 0.4.1\n\n## INTRODUCING STORE CREDITS AND GIFTS!\nYou can now purchase store credits to use in the store. You can also send store credits as gifts by clicking on a name in your current lobby or by using the player's ID.\n\n## BODY COLLISIONS TESTING\nAvailable as an experimental feature in private matches for initial testing. We’ll improve body collisions based on your feedback.\n\n## THROWING PHYSICS UPDATE\nImproved responsiveness and ball rotation during throws, along with several bug fixes. While we know you’d like this feature in matches, it needs more polishing before being fully released.\n\n## TRAMPOLINES, SPEED BOOSTERS, AND MORE\nIn the arena editor, you can now add trampolines and speed boosters that interact with balls and players in locomotion mode. We’ve also added a ‘no-stick movement’ locomotion button as a separate mechanic.\n\n## U19 GLOVES PACK BUNDLE\nA new bundle from U19 designers featuring 7 new gloves, including thin gloves similar to those used in sports like baseball and basketball.\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.4.0\n\nUPDATED ‘FAVELA’ MAP  \n- Revamped and improved\n\nARENA EDITOR ENHANCEMENTS  \n- You can now choose to place objects freely in the air\n- Undo/Redo feature \n- Customizable floor materials\n- New building objects (Favela pack)\n\nNEW THROWING MECHANICS  \n- Switch to gloves and hold the ball by pressing the trigger. This currently works only in practice mode. Throwing physics will be improved in future updates, so we’d appreciate your feedback\n\nSTORE ITEMS & BUNDLES\n- Baseball\n- U19 GT bundle \n- Event collection bundle\n\nPRIVATE LOBBIES  \n- Outs can now be activated in private lobbies (experimental)\n\nBUG FIXES, OPTIMIZATIONS & MORE\n- Custom arenas in public practice rotation\n- Resolved issues with the ball sometimes stuck after spawn\n- Resolved issue with inability to deflect the ball in penalty series sometimes\n- Significantly optimized custom arenas \n- Fixed glitches on scaled scoreboards\n- Something else :)  \n"
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.2\n- Fixed a bug with resetting balls in online practice \n\nUPDATE 0.3.1\n- Fixed boundaries bug\n- Reduced the issue where the ball would sometimes float above the ground\n- Updated some of the stadium stands\n- Fixed snap-turn kick glitch\n- Updated some items (‘Impossible’ boots)\n- Potentially fixed an issue where the game sometimes won’t launch\n\nThank you all for staying tuned! New features are almost ready for release and we’ll start rolling them out next week."
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.2\n- Fixed a bug with resetting balls in online practice \n\nUPDATE 0.3.1\n- Fixed boundaries bug\n- Reduced the issue where the ball would sometimes float above the ground\n- Updated some of the stadium stands\n- Fixed snap-turn kick glitch\n- Updated some items (‘Impossible’ boots)\n- Potentially fixed an issue where the game sometimes won’t launch\n\nThank you all for staying tuned! New features are almost ready for release and we’ll start rolling them out next week."
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.1\n\n- Fixed barriers bug\n- Reduced the issue where the ball would sometimes float above the ground\n- Updated some of the stadium stands in the arena editor\n- Fixed snap-turn kick glitch\n- Updated some items (‘Impossible’ boots)\n- Potentially fixed an issue where the game sometimes won’t launch\n\nThank you all for staying tuned! New features are almost ready for release and we’ll start rolling them out next week.\n"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479161,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479137,
+        "rating_update": 479161,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479137,
+        "last_update": 479161,
         "category": "GAMES",
-        "votes": 2483,
-        "rating": 4.420862,
+        "votes": 2488,
+        "rating": 4.423633,
         "weighted_rating": 4.4
     },
     "errors": []
