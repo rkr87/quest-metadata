@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 72
+                "votes": 73
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -90,14 +90,26 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478921,
+        "rating_update": 479185,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479185,
         "category": "ENTERTAINMENT",
-        "votes": 93,
-        "rating": 4.344086,
+        "votes": 94,
+        "rating": 4.351064,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d8ca058150e9a8ebb2e8fb6852795f2b"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

@@ -88,6 +88,10 @@
         },
         "changelog": [
             {
+                "version": "3.8.1",
+                "change_log": "FIXED\n - Fixed the playback of YouTube videos when loaded through a URL or a search. \n\nKNOWN ISSUES\nThis release of ENGAGE has the following known issues, which we are working to resolve in a future update: \n - 360 YouTube videos cannot be viewed on any device."
+            },
+            {
                 "version": "3.8",
                 "change_log": "NEW\n\nContent Editor\n- Added an option to change between linear and smooth interpolation when creating keyframes. Linear interpolation is the default setting.\n\n\nIMPROVED\n\nContent Editor\n- Set the floating editor panel to move with the user when they are in VR.\n\n\nPersistent sessions\n- Set host permissions to be automatically revoked from users who are added as co-hosts in a persistent session but aren�t a member of the owning group\n\n\nMixed reality\n- Improved the flow of the mixed reality tutorial to return a user to the setup instructions after they place a location anchor.\n\n\nFIXED\n\nRecordings\n- Fixed an issue that prevented a user from replacing the voice in a recording.\n\n\nPersistent sessions\n- Fixed the synchronization between an active persistent Session and EAP when host permissions are added and removed.\n\n\nAI\n- Fixed an issue that could cause AI characters to become unresponsive if a user selected the option to cancel during a reply.\n- Fixed an issue that could cause AI-generated images to not load.\n\n\nPortals\n- Fixed an issue that could cause spawn points loaded through snapshots to not be recognized.\n\n\nCloud File Manager\n- Fixed an issue that caused the  share option to not appear for files on the Recent tab.\n- Fixed an issue that could cause incorrect icons to be displayed for options in the actions menu for files.\n- Fixed an issue that caused files related to IFX uploads to incorrectly appear on the Recent tab.\n\n\nContent Editor\n- Fixed an issue that could cause the grip to resize the editor panel to not appear on VR headsets.\n\n\nAccounts\n- Fixed the error message that is displayed in the ENGAGE application when a user's account is disabled."
             },
@@ -108,7 +112,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477337,
+        "changelog_update": 479185,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 477625,
@@ -118,7 +122,7 @@
             "social",
             "education"
         ],
-        "last_update": 478921,
+        "last_update": 479185,
         "category": "APPS",
         "votes": 140,
         "rating": 3.607143,
