@@ -88,6 +88,10 @@
         },
         "changelog": [
             {
+                "version": "3.8.2",
+                "change_log": "Fixed an issue that could cause content to not play for users who joined after the content had started."
+            },
+            {
                 "version": "3.8.1",
                 "change_log": "FIXED\n - Fixed the playback of YouTube videos when loaded through a URL or a search. \n\nKNOWN ISSUES\nThis release of ENGAGE has the following known issues, which we are working to resolve in a future update: \n - 360 YouTube videos cannot be viewed on any device."
             },
@@ -112,7 +116,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479185,
+        "changelog_update": 479257,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 477625,
@@ -122,7 +126,7 @@
             "social",
             "education"
         ],
-        "last_update": 479185,
+        "last_update": 479257,
         "category": "APPS",
         "votes": 140,
         "rating": 3.607143,

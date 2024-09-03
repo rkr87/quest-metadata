@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "19",
+                "change_log": "# Canvas v19 :\n- **The cooldown between each droplet has been reduced from 3 to 2 seconds**\n- Improved support for the Quest 3 and Quest Pro\n- Improved the graphics quality on all platforms\n- Reworked the entire game's backend, making it more scalable and safer"
+            },
+            {
                 "version": "18",
                 "change_log": "Update v18 is now available for Canvas !\n\nHere are the patch notes :\n\n- The usernames of other players are now displayed above their heads when you are close enough. This can be particularly useful for reporting players with inappropriate behavior.\n- Highly improved the visuals of the app. Everything now appears sharper than ever ! (while keeping the 90fps target on the Quest 2)\n- Various networking optimizations\n- Updated the tracklist of the radio"
             },
@@ -143,10 +147,6 @@
             {
                 "version": "1.4b",
                 "change_log": "Patch v1.4 :\n+ New administration system server-side (to ban toxic people)\n+ Auto-reconnect !\n- Multiple bug fixes\n\nPatch v1.3 :\n+ New star cosmetic (join the Discord server for more infos)\n+ You can now see the hands of other players !\n\nCanvas App Lab release ! (v1.2)\n\n+ Customization ! You can now select your skin color and earn special hats during events\n+ New Crop To Discord feature\n+ Snap Turn\n+ Leaderboards (Quest version only)\n+ Cloud saves (Quest version only)\n+ There's now about 20 minutes of Wasplay music in the radio !\n- The Color Picker tool now automatically disables itself once used"
-            },
-            {
-                "version": "1.4",
-                "change_log": "Patch v1.4 :\n+ New administration system server-side (to ban toxic people)\n+ Auto-reconnect !\n- Multiple bug fixes\n\nPatch v1.3 :\n+ New star cosmetic (join the Discord server for more infos)\n+ You can now see the hands of other players !\n\nCanvas App Lab release ! (v1.2)\n\n+ Customization ! You can now select your skin color and earn special hats during events\n+ New Crop To Discord feature\n+ Snap Turn\n+ Leaderboards (Quest version only)\n+ Cloud saves (Quest version only)\n+ There's now about 20 minutes of Wasplay music in the radio !\n- The Color Picker tool now automatically disables itself once used"
             }
         ],
         "on_rookie": false,
@@ -157,13 +157,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 479257,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479017,
+        "last_update": 479257,
         "category": "APPS",
         "votes": 13,
         "rating": 4.692308,

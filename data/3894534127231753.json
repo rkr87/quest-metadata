@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "ROOM_SCALE",
@@ -76,6 +76,10 @@
             "logo_transparent": "38982553_303529171298581_5851011014661480792_n.png"
         },
         "changelog": [
+            {
+                "version": "2.3",
+                "change_log": "# VRIT 2.3 :\n- Improved support for the Quest 3 and Quest Pro\n- Heavily improved the graphics quality on all platforms\n- Improved many animations throughout the game and added new ones"
+            },
             {
                 "version": "2.2",
                 "change_log": "Update v2.2 is now available for VRIT ! 💪\n\nHere are the patch notes :\n\n- The game now targets 90fps instead of 80fps and uses Vulkan for rendering instead of OpenGLES3\n- There are now bubbles that will appear at regular intervals in SpeedRUN mode (in a predictable and fair manner, of course). Popping them will deduct 2 seconds from your time. ⏱️\n- Improved the bullets charging mechanic during Run phases. Your hands now get all shiny when fully charged ! ✨\n- You can now destroy the \"big bad bullets\" from those big robots by shooting 10 bullets at them.\n- The exercise instructions will appear slowly only when you come across them for the first time."
@@ -145,13 +149,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 479257,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479017,
+        "last_update": 479257,
         "category": "GAMES",
         "votes": 41,
         "rating": 4.170732,

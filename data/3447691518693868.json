@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 139
+                "votes": 140
             }
         ],
         "comfort": "NOT_RATED",
@@ -74,6 +74,10 @@
             "logo_transparent": "75375083_148485293665504_2274488967646399463_n.png"
         },
         "changelog": [
+            {
+                "version": "2.2.13",
+                "change_log": "Added:\r\n- Picture adjustments for image viewer\r\n- Possibility to change projections settings in the web player\r\nFixed:\r\n- Problem with flat videos in the web mode\r\n- Some minor fixes and improvements"
+            },
             {
                 "version": "2.2.12",
                 "change_log": "Added:\r\n- Input field in the virtual keyboard\r\nChanged:\r\n- Splash screen logo\r\n- Default deadzone setting value\r\nFixed:\r\n- Some problems in Network tab with SMB devices\r\n- Some minor fixes and improvements"
@@ -149,10 +153,6 @@
             {
                 "version": "2.1.7",
                 "change_log": "Added:\n- New video projection - fisheye. Auto-recognition in local files with proper name ending.\n- New video screens in free mode for local files.\n- Setting for turning off eye-click for desktop VR.\n- Some new UI animations.\n\nFixed:\n- Problems with input fields in the login panel.\n- Problems with changing the size of the video subtitles in local files."
-            },
-            {
-                "version": "2.1.6",
-                "change_log": "Added:\n- Wi-Fi icons for different signal levels.\n- EyeClick possibility if no controllers detected.\n- Setting for turning off all UI Animations.\n- Added new tooltip animation in settings.\nChanged:\n- Redesigned sorting buttons.\nFixed:\n- Problems with next/preview video in local files\n- Problem with video quality setting\n- Resume playback after restarting the application"
             }
         ],
         "on_rookie": false,
@@ -163,16 +163,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478417,
+        "changelog_update": 479257,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479233,
+        "rating_update": 479257,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479233,
+        "last_update": 479257,
         "category": "APPS",
-        "votes": 381,
-        "rating": 2.950131,
+        "votes": 382,
+        "rating": 2.955497,
         "weighted_rating": 2.9
     },
     "errors": []

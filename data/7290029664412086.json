@@ -23,8 +23,8 @@
         ],
         "platforms": [
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest 3"
+            "Meta Quest 3",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING"
@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "1.19.0",
+                "change_log": "Added Quest 2 support"
+            },
+            {
                 "version": "1.18",
                 "change_log": "Added\n- The first time a user logs in the app will be displayed in the same language as specified in their dashboard account\n- When having finished the story or education mode a pop-up will be shown to designate the end of the session\n\nFixed\n- Made it harder as a patient to accidentally log out\n- Fixed the pain scale gradient not fitting the number line\n- Getting stuck at the pain decreased panel when using a Norwegian language for the device’s operating system\n\nRemoved\n- Story progression indicators\n- Member page section in the main menu"
             }
@@ -85,13 +89,13 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 478921,
+        "changelog_update": 479257,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479089,
+        "last_update": 479257,
         "category": "APPS",
         "votes": 0,
         "rating": 0.0,
