@@ -92,6 +92,10 @@
         },
         "changelog": [
             {
+                "version": "1.1.1",
+                "change_log": "- fixed \"three dots\" appearing when recentering/restarting\n- various fixes\n"
+            },
+            {
                 "version": "1.1.0",
                 "change_log": "- added endless mode (tasks)\n- tasks available:\n  - exploration\n  - interface box search\n  - item hunt\n  - hacking interface boxes\n  - data core retrieval\n  - system stabilisation\n  - stop the intrusion\n- new passive EXMs:\n  - weapon collector (weapon loot is way more often)\n  - energy retainer (on each shot you get free energy to the other hand)\n  - build in magazine (all weapons you have have magazines)\n  - firepower (greater cost/chamber, even more damage)\n  - emergency revival (if your health reaches zero, you get some health restored which costs you energy + 3 seconds of invincibility\n  - explosion resistance (you only get 25% damage from explosions)\n- new active EXMs:\n  - remote control (activates mines, spiderbots, opens chargers, drops down shields, deflectors)\n  - push (pushes away objects in front of us, useful to push into chasm)\n  - pull (pulls a bit objects but more important, pulls items towards us)\n  - corrosion spray (continuous spray of corrosion from hand, useful to use in a burst - you don't need a corrosion weapon to get the corrosion effect on the enemies)\n  - charged plasma ball (throws a projectile of charged plasma that slows down - it pushes away from the walls and if it detects an enemy, it may pull towards it)\n- new enemies:\n  - \"fender\" tough with automatic gun and a shield\n  - \"tentacled\" versions of fender and scourer\n- new weapon nodes:\n  - main node with 3 node slots\n  - main node with 4 node slots\n  - kinetic energy (to push enemies)\n  - confuder (confuses enemies for a short time, lowers damage a lot)\n  - healing/medi (part of the energy is used to heal the player\n- fixed visible one frame when starting \"another chance\""
             },
@@ -152,13 +156,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476209,
+        "changelog_update": 479281,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479233,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479233,
+        "last_update": 479281,
         "category": "GAMES",
         "votes": 99,
         "rating": 4.848485,

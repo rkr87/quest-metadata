@@ -49,7 +49,7 @@
                 "votes": 6
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,7 +72,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479161,
+        "general_update": 479281,
         "genre_update": 478921,
         "device_update": 478921,
         "mode_update": 478921,
@@ -85,23 +85,11 @@
         "rating_update": 479161,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479161,
+        "last_update": 479281,
         "category": "ENTERTAINMENT",
         "votes": 23,
         "rating": 2.130435,
         "weighted_rating": 2.4
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "d8ca058150e9a8ebb2e8fb6852795f2b"
-            ],
-            "path": [
-                "item",
-                "is_ccve_pdp_warning_enforced"
-            ]
-        }
-    ]
+    "errors": []
 }
