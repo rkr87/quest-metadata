@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "6.5.4",
+                "change_log": "Upgraded demo account"
+            },
+            {
                 "version": "6.5.3",
                 "change_log": "Improvements to Practice Passing"
             },
@@ -141,10 +145,6 @@
             {
                 "version": "5.10.13",
                 "change_log": "Welcome to Virtual Playbook v5.10.13! Here are some of our recent changes:\nFeatures:\n- Film Room has been extended for use while networked, synchronizing media across devices\n- Improved accessibility for VR users changing first-person perspectives\n\nBugfixes:\n- Fixed a bug where in-app screen recording could persist after logging out\n- Fixed a bug where play dates displayed in an inconsistent manner\n- Fixed a bug where the Restart button may show when Play/Pause was meant to be visible\n- Fixed a bug where the Ball may not be in the right position when exiting Practice Mode - Setup\n- Fixed a bug where players could be selected while the play is being changed, yielding an error message\n- Fixed a bug where changing play option while networked could desynchronize the host and clients\n- Fixed a bug where custom jerseys and courts wouldn't synchronize properly over the network\n- Fixed a bug where Film Room media wouldn't layer properly in VR\n- Changed Jerseys to use a shortened version of a player's label"
-            },
-            {
-                "version": "5.10.12",
-                "change_log": "Welcome to Virtual Playbook v5.10.12! Here are some of our recent changes:\nFeatures:\n- Observe window no longer appears blocked by players being followed\n- Improved the position of the VR keyboard\n- Added new movement tutorial\n- Added network tutorial\n- Adjusted first person cameras movement style\n\nBug Fixes:\n- Fixed a bug where practicing a play with no ball caused unintended camera behavior\n- Fixed a bug where the observe window may not move across the whole screen\n- Fixed a bug where networked clients could start a playlist quiz\n- Fixed a bug where network clients that subsequently host would use incorrect network color IDs\n- Fixed a bug where player jerseys could become one solid color when networking\n- Fixed a bug where a play's \"mirrored\" status could become desynced over the network\n- Fixed a bug where networked clients could refresh their config, locally clearing the active play\n- Fixed a bug where VR networked clients could locally change playback (play/pause/restart/speed)\n- Fixed a bug where VR networked users teleporting would \"swim\" to their new location\n- Fixed a bug where VR networked clients could change their \"networked avatar\" head angle unintentionally"
             }
         ],
         "on_rookie": false,
@@ -155,13 +155,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479305,
         "keyword_update": 474685,
         "tag_update": 478585,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479305,
         "category": "APPS",
         "votes": 24,
         "rating": 2.0,

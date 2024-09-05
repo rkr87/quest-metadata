@@ -77,6 +77,14 @@
         },
         "changelog": [
             {
+                "version": "2024.39.1",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.39\n\n## Improvements\n\n- All Softspace subscription plans now come with a 7-day free trial. We’ve also reduced the item limit on the Softspace Free plan as we shift toward making Softspace a sustainable business.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
+            },
+            {
+                "version": "2024.39",
+                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.39\n\n## Improvements\n\n- All Softspace subscription plans now come with a 7-day free trial. We’ve also reduced the item limit on the Softspace Free plan as we shift toward making Softspace a sustainable business.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
+            },
+            {
                 "version": "2024.38",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.38\n\n## Bug Fixes\n\n- Caret updates now occur with less latency when typing on text fields with a network keyboard.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             },
@@ -147,14 +155,6 @@
             {
                 "version": "2024.25",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.25\n\n## Bug Fixes\n\n- Fixed issue that would occasionally prevent links from rendering properly.\n- Fixed issue that was causing the text selection caret to draw over topic title text.\n- Fixed incorrect Softspace Pro plan ordering in plan selection page.\n\n## Improvements\n\n- Enabled multiple web browsers.\n- Enabled Boundaryless mode.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.24",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.24\n\n## Improvements\n\n- Added support for WebP image file support.\n- Simplified skysphere options.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
-            },
-            {
-                "version": "2024.23.1",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.23.1\n\n## Improvements\n\n- Reduced resolution supersampling across all devices in the Quest family to maintain high and stable framerate.\n- Reduced sky texture resolution to reduce GPU load with minimal impact on visual quality.\n- Pressing the palm menu settings buttons will recenter that settings window.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops."
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478945,
+        "changelog_update": 479305,
         "keyword_update": 474685,
         "tag_update": 474880,
         "rating_update": 478969,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478969,
+        "last_update": 479305,
         "category": "APPS",
         "votes": 74,
         "rating": 3.351351,

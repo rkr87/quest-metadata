@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 55
+                "votes": 54
             },
             {
                 "rating": 2,
@@ -85,14 +85,26 @@
         "changelog_update": 478177,
         "keyword_update": 478177,
         "tag_update": 478177,
-        "rating_update": 479257,
+        "rating_update": 479305,
         "iarc_detail_update": 478177,
         "keywords": [],
-        "last_update": 479257,
+        "last_update": 479305,
         "category": "GAMES",
-        "votes": 74,
-        "rating": 1.891892,
+        "votes": 73,
+        "rating": 1.90411,
         "weighted_rating": 2.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d8ca058150e9a8ebb2e8fb6852795f2b"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }
