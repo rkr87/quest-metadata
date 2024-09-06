@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "2.3",
+                "change_log": "Version 2.3 Release Notes\n\nBALANCE CHANGES:\nOver 50% of the Game's Cards Rebalanced.\nArchetypal Triangle Swapped: Aggro > Control > Midrange > Aggro.\n\nADDED:\nUnyielding Attribute: Unyielding Creatures Deal Direct Damage even if Blocked.\nQuickstrike Attribute: Quickstrike Creatures Deal Combat Damage before non-Quickstrike Creatures.\nPoisoned Status: Poisoned Creatures Take 1 Damage at the Start of Every Player's Turn.\nCantrip Spell Subtype.\nUnique Flatscreen Booster Pack Opening Interface.\nAspect Ratio Scaling for Deck Editing on Flatscreen.\nFlatscreen Card Inspection: Long-Click/Tap on Card to Examine with Tooltips.\nMisplay Prevention for Creature Activate Abilities.\nMisplay Prevention for some Spells without Valid Requirements or Targets.\nSpell Misplay Prevention Bypass by Playing Spell Again.\nBack Accessory Equip/Unequip in Avatar Customization Interface.\nGhost Placement Indicator when Summoning Creatures.\nAdditional Hair and Facial Hair Styles.\nFlatscreen \"Invert Look\" Setting.\nExpansion Icons on Cards.\nEnhance Failure Messages.\nOff-Turn Ability Selection Timer.\nWeekly Ranked Match Count and Reset Timer in Ranked Rule Book.\nFound Match Queue Cancelation Penalty.\nProp Avoidance During Flatscreen Battles: Despawns Owned Props and Hides Player Props.\nPersonal Space Bubble set to High During Flatscreen Battles.\nSupport Email on Ban Podium.\n\nUPDATED:\nAugur Order's Faction Mechanic: Lose 1 Life after Turn Discard.\nFlatscreen Enhance Mechanic Confirmation VFX.\nAltered Creature Subtype: Now Highlights Green.\nBarkeeper Daily Cards Interface and Display.\nMulligan's Deck List.\nPlayer's Starter Faction Deck Lists.\nMax Skill Rating Difference During Matchmaking: +/- 600 Skill Rating.\nMaximum Volume Threshold Options.\nTokens and Cantrips Banish Instead of Going to Graveyard.\nFlatscreen \"Animate\" and \"Alternate Cost\" Booster Pack Buttons Moved to New Interface.\nRanged Attribute now Only Blocks Flight.\nActive Rituals & Enchantments Limited to 3 Total and no Duplicates.\nToken Copies now Include Modified Attributes & Statuses, Stat Values, Abilities, and Dynamic Abilities by Default.\nBase Copies Include non-Modified Attributes / Statuses, Stat Values, and Abilities.\nReduced Maeve's Voice Line Frequency During Tutorial.\n\nFIXED:\nBeginning of Turn Mastery Check wait for Creature Deaths during Preparation Phase.\nAccidental Activation Protection when Summoning a Creature next to an Activate Creature.\nPaint Brush VFX Alignment.\nFlatscreen Deck Editing Aspect Ratio.\nHidden Selections During Plunders and Fetches.\nFlatscreen Activate Button Returning Adjacent Creature from Attacking.\nMind Corruption and Forceful Acquisition Ownership Logic.\nLarentier's Armaments not Impacting Direct Damage Triggers.\nFlatscreen Movement Control Getting Stuck when Activating Props.\nAndroid Disconnects when Switching Wi-Fi to Cellular Data.\nReferral Cardback Animation.\nClunky Flatscreen Target Selection.\nMulligan Not Waiting for Abilities to Resolve.\nAbilities Not Resolving Before Combat Continues."
+            },
+            {
                 "version": "2.2.1",
                 "change_log": "Version 2.2.1 Release Notes\nAdded:\nFlatscreen game zones highlight when holding a card over them similar to VR to provide visual feedback to the player\nThe ability to skip voice lines during the tutorial\n\nChanged:\nAttack button is no longer presented to flatscreen players if a creature is unable to attack\nFlatscreen playing spells now requires dropping it on the spell area\nFlatscreen summoning creatures adjusted to a higher screen position to reduce accidental discards/enhances/summons\nSeveral tutorial instructions to better reflect the new flatscreen control scheme\nOnly the Core Booster pack is visible during the tutorial\n\nFixed:\nCreature models not returning to the table after being thrown\nBeing able to accidentally flip the hourglass on flatscreen while moving cards in the hand"
             },
@@ -136,10 +140,6 @@
             {
                 "version": "1.0.1",
                 "change_log": "Version 1.0.1 Release Notes:\nFixed:\nGetting disconnected during the tutorial if you buy gems. Gems can no longer be bought until after completing the tutorial."
-            },
-            {
-                "version": "0.25.2",
-                "change_log": "Version 0.25.2 Release Notes:\nAdded:\nSupport for LIV on SteamVR\n\nChanged:\nImproved handling losing internet/disconnecting from the servers\nImproved the visibility of Flight VFX\n\nFixed:\nPerformance improvements"
             }
         ],
         "on_rookie": false,
@@ -150,13 +150,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478321,
+        "changelog_update": 479329,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 479210,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479210,
+        "last_update": 479329,
         "category": "GAMES",
         "votes": 1487,
         "rating": 4.170814,

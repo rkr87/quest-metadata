@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.1.1demo",
+                "change_log": "- fixed \"three dots\" appearing when recentering/restarting\n- disabled access to \"tasks\" that should be only available in the full game\n- various fixes"
+            },
+            {
                 "version": "1.0.9demo",
                 "change_log": "- changed sound volumes to have more even soundscape\n- added compressor for sound effects channel only (before was only a general compressor that was affecting all the channels)\n- modified some sound effects that had discomforting crackling sound\n- fixed bug when some samples were played too loud for a brief moment\n- fixed sound crackling\n- fixed restarting the game from a chapter where the game was interrupted\n- fixed pause when starting the game"
             },
@@ -106,10 +110,6 @@
             {
                 "version": "0.6.3",
                 "change_log": "  - added \"Interlude I\" level\n  - adding \"Full Throttle\" chapter (II)\n  - added room to \"Outer Rim\" that should help with navigation (two doors to choose from, one leading to a dead end)\n  - added system to block paths that lead away from the objective (only for arcade game mode)\n  - added dithered transparency\n  - added \"1-bit\" aesthetics (optional)\n  - door directions are at eye-level (this changes depending on the level and will be an option coming to set the preferred placement)\n  - changed pacing for \"Outer Rim\" chapter with rearranged enemies\n  - added new iron sights\n  - added experience points granted for finishing a chapter for the first time\n  - added second door to starting/upgrade rooms wherever it made sense (so there's no confusion if moving back or forward)\n  - new death particle/sequence\n  - main menu renders closer and responds to \"recenter\"\n  - HUD (overlay info) can be locked to head (can also be changed to always locked and never locked via options)\n  - more HUD elements follow camera/eye pitch\n  - added hit intensity to tell how much damage has been dealt\n  - added exterior scene for \"Outer Rim\" with a ship with tentacles\n  - changed physics for weapons on elevators\n  - longer day-night cycle\n  - added an option to set time for day-night cycle\n  - \"be at\" shows rings at the ground that should help to navigate towards the right position\n  - weapon parts are visible when glancing at a gun\n  - new weapon parts:\n    - node: damage boosters, they increase damage but also make reloading much slower\n\t- node: base damage booster\n  - spider bots may walk on walls and ceilings when armed"
-            },
-            {
-                "version": "0.6.1",
-                "change_log": "- fixed starting with files from older versions\n- added special handling of older profiles and game slots (will propose restarting the game etc)\n- there is now arcade and roguelite mode (arcade being checkpoint based, roguelite with permadeath)\n- added voiceover (and beggining of the story)\n- your suit now speaks too\n- extended intro sequence\n- weapons may get damaged (they do reduced damage) and have to be replaced\n- added checking if the player goes through walls\n- introduced enemies progression throughout the level\n- dropped weapons are more common\n- new \"go to\" marker (before starting the game)\n- buttons on elevators are always lit up (not on bridges)\n- reintroduced bhaptics for Quest\n- balancing, adding missing infos\n- added prompt to hold gun when not holding\n- forearm displays highlight values that get higher (and when chamber is full)\n- spiderbots stop when someone tries to pick them up\n- corrosion does instant damage instead of drain\n- added a cap for damages from other sources (corrosion effect)\n- faster bug reporting\n- fixes, lots of fixes, optimisations and other improvements\n"
             }
         ],
         "on_rookie": false,
@@ -120,13 +120,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479305,
+        "changelog_update": 479329,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478921,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479305,
+        "last_update": 479329,
         "category": "GAMES",
         "votes": 443,
         "rating": 4.735892,
