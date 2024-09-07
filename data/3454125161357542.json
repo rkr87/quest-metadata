@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 5
+                "votes": 6
             },
             {
                 "rating": 2,
@@ -73,7 +73,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 478945,
+        "general_update": 479353,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -83,14 +83,26 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478945,
+        "rating_update": 479353,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478945,
+        "last_update": 479353,
         "category": "APPS",
-        "votes": 25,
-        "rating": 3.68,
-        "weighted_rating": 3.6
+        "votes": 26,
+        "rating": 3.576923,
+        "weighted_rating": 3.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d8ca058150e9a8ebb2e8fb6852795f2b"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }
