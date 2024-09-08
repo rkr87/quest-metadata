@@ -63,7 +63,16 @@
         },
         "internet_connection": "REQUIRED",
         "website": "https://sites.google.com/view/zentag/",
-        "app_images": {},
+        "app_images": {
+            "cover_landscape": "38974901_951229836444265_7191909633757179694_n.png",
+            "cover_portrait": "38974915_423579133752609_6161966781532436244_n.png",
+            "cover_square": "86655520_957252325730355_7944056998753984158_n.png",
+            "hero": "75441574_444375261471411_8053568871418616134_n.png",
+            "icon": "38974825_818652320159267_7606167405908182246_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "39035404_378237325215426_8359511002471892149_n.png"
+        },
         "changelog": [
             {
                 "version": "1.1.73",
@@ -71,7 +80,7 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479353,
+        "general_update": 479377,
         "genre_update": 477697,
         "device_update": 477697,
         "mode_update": 477697,
@@ -84,24 +93,11 @@
         "rating_update": 479329,
         "iarc_detail_update": 477697,
         "keywords": [],
-        "last_update": 479353,
+        "last_update": 479377,
         "category": "GAMES",
         "votes": 84,
         "rating": 3.702381,
         "weighted_rating": 3.6
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "310637a9f98de4323c5bc117169658e1"
-            ],
-            "path": [
-                "item",
-                "comfort_tags",
-                "nodes"
-            ]
-        }
-    ]
+    "errors": []
 }

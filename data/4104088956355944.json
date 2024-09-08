@@ -45,7 +45,7 @@
             },
             {
                 "rating": 3,
-                "votes": 63
+                "votes": 65
             },
             {
                 "rating": 4,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 9900
+                "votes": 9932
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -81,6 +81,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.51.0",
+                "change_log": "- New lobby!\n- New cosmetics pack!\n- You can now use the in-game camera at any time to save pictures to your platforms camera roll!\n- The camera can now zoom, snap and stay in one spot.\n- Instead of 50 weekly coins, everyone now gets 10 daily coins.\n- The weekly rotation is now a daily rotation.\n- Player body rotations and positions relative to the head are now a bit more dynamic and look better overall.\n- Fixed sounds on menus in the level editor often being too quiet."
+            },
             {
                 "version": "0.50.1",
                 "change_log": "- Added option to make colored lava transparent.\n- Specularity is now much stronger (using a darker color reduces it).\n- Fixed favorite colors not syncing correctly when adding new ones between lava and colored blocks.\n- Fixed gravity block particles turning black when effected by fog.\n- Fixed gravity block particles not immediately disappearing after deleting the block in the editor.\n- Fixed report player menu not working when opened from the Quest overlay.\n- Fixed animations for some older cosmetic items."
@@ -156,10 +160,6 @@
             {
                 "version": "0.44.3",
                 "change_log": "- Fixed setting level images.\n- Fixed several crashes."
-            },
-            {
-                "version": "0.44.2",
-                "change_log": "- Added option to open published levels that are not saved on the headset anymore in the editor.\n- Added option to filter levels in the editor by published and unpublished.\n- Added a search for your levels in editor.\n- You can now complete delete a level from the \"Save\" screen.\n- Fixed a bug with autosaves getting overwritten when they shouldn't.\n- Fixed a rare crash that could happen with coins in the level while loading a new level."
             }
         ],
         "on_rookie": false,
@@ -170,16 +170,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479377,
         "keyword_update": 474685,
         "tag_update": 478921,
-        "rating_update": 479353,
+        "rating_update": 479377,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479353,
+        "last_update": 479377,
         "category": "GAMES",
-        "votes": 10622,
-        "rating": 4.860761,
+        "votes": 10656,
+        "rating": 4.86083,
         "weighted_rating": 4.8
     },
     "errors": []
