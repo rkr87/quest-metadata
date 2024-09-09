@@ -1,0 +1,120 @@
+{
+    "data": {
+        "id": "1775279625876291",
+        "app_name": "Path to Luma - VR",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "Play the role of SAM, our galaxy-traversing Sustainability Augmentation Model, in this first-person VR puzzle game.\nExplore a wondrous world and use the power of clean energy technology\nto restore the planet to its former, sparkling glory. \n \nEXPLORE STUNNING LANDSCAPES\nFrom deep canyons to the arctic tundra, investigate a variety of sights and sounds.\nSimple point and click controls guide SAM along an epic journey.\nKeep an eye out for mythical creatures!\n \nEXPERIENCE THE POWER OF CLEAN ENERGY\nHarness the unique resources throughout the world by deploying dynamic clean energy technologies to save the planet from the harmful impacts of climate change.\nFrom solar and wind power to carbon capture technology, SAM’s mission to save the galaxy continues!\n \nWALK THE PATH TO LUMA\nThe Path to Luma VR offers players a memorable story of heroism and the revitalization of a civilization...\nand reminds us all that we must play a role in advancing the clean energy future.",
+        "developer": "Phosphor Studios",
+        "publisher": "NRG Energy, Inc.",
+        "genres": [
+            "Adventure",
+            "Casual",
+            "Puzzle"
+        ],
+        "devices": [
+            "Touchpad"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Gear VR"
+        ],
+        "player_modes": [],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 2
+            },
+            {
+                "rating": 4,
+                "votes": 2
+            },
+            {
+                "rating": 5,
+                "votes": 8
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "NOT_REQUIRED",
+        "website": "http://www.thepathtoluma.com/",
+        "app_images": {
+            "cover_landscape": "11162716_501934323514300_7076273436967829504_n.png",
+            "cover_portrait": "11162694_141228056528484_6166075802866679808_n.png",
+            "cover_square": "11162731_1549701741773920_2659198640194584576_n.png",
+            "hero": "12410200_398624713892820_5451540643794911232_n.png",
+            "icon": "11162731_264503157407783_5322842034669617152_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "12386286_193274487907620_3294101789883760640_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Alpha 1.7 Notes:\r\n- Tweaks to Comfort Mode Movement (to prevent \"ticking through\" visibility volumes):\r\n  - Slightly decreased move speed while faded\r\n  - Made all visibility volumes slightly thicker\r\n- Slightly decreased the poly count on all Small World assets in the Globe level to try and increase performance."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Yet another attempt to fix the GearVR crash on the Back Button Short Press:\r\n- Made it so that the Short Press menu only appears if in the first \"LoadIn\" level.  Otherwise, pressing this button brings up a \"Quit to main menu\" prompt with Yes/No buttons.  If Yes is chosen, the Player is sent back to the LoadIn level.  If No is chosen, the menu disappears.\r\n- The Back Button is disabled on FadeOut.  Any FadeIn enables this button again.\r\n- Made sure that the credits only appears when they should = After entering the Main Menu from the FlyThru level; but not if entering it from the Back Button menu after finishing the game once while in the middle of a 2nd play-through."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Another fix attempt for the Back Button - Short Press functionality/crash:\r\n- Changed the Absolute flag to \"false\" on all Open Level commands.\r\n- Simplified the Short Press activation.\r\n- Fixed the camera fade in for the World level.\r\n- Added garbage collection after level transitions."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Fix for Back Button Submission fail (Potential Release candidate):\r\n- Fixed Back Button Quick Press functionality.\r\n- Changed it so that the only time the Player can change the Fade Option is during the tutorial, and it is no longer a menu that can be accessed during play.\r\n- Changed the wording from \"Fade Option\" to \"Comfort Mode\".\r\n- Added an extra Guide Popup to explain what Comfort Mode means."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Added collision to the Gate Pillars.\r\nMade the Bridge Guide UI dismiss if it is visible when you place the charged battery."
+            },
+            {
+                "version": "1.0",
+                "change_log": "Removed the \"Success\" Guide UI for a successful Verify Entitlement check."
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 479401,
+        "genre_update": 479401,
+        "device_update": 479401,
+        "mode_update": 479401,
+        "language_update": 479401,
+        "platform_update": 479401,
+        "player_mode_update": 479401,
+        "changelog_update": 479401,
+        "keyword_update": 479401,
+        "tag_update": 479401,
+        "rating_update": 479401,
+        "iarc_detail_update": 479401,
+        "keywords": [
+            "exploration",
+            "environment",
+            "education"
+        ],
+        "last_update": 479401,
+        "category": "GAMES",
+        "votes": 13,
+        "rating": 4.230769,
+        "weighted_rating": 3.9
+    },
+    "errors": []
+}
