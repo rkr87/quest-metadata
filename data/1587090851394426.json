@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "6.3.6-generalqog",
+                "change_log": "VR\n\n🚀 Features & Improvements\n- Moved most standalone headsets to the Vulkan graphics API\n\n🐛 Bug Fixes\n- \"Permission denied\" error in some shared rooms\n- Headset material on passthrough gesture\n- Error on free user joining Collab without owner present\n- Fixed mirror plane setting changes\n- Fixed unintended video autoplay\n- Color picker now respects texture scale & rotate\n- No countdown when free user accesses their Collab in both VR and Screen\n- Fixed video UI problems on hidden layers\n- Standalone GRS exports now have correct extension\n- Fixed snap recovering of polar symmetry axis of subd ribbons\n- Fixed “Continue/Next Modules” button material in Basic Skills\n- Layer groups now persist when converting sketch into Collab room\n- Fixed performance regression with many objects in the same shader\n- Fixed templates > Collab conversion\n- Clearer messaging when HDRI uploads fail due to connection issues\n\nScreen \n🐛 Bug Fixes\n\n- Fixed some video UI issues\n- Fixed issues with USDZ exports"
+            },
+            {
+                "version": "6.3.6-generalqc",
+                "change_log": "VR\n\n🚀 Features & Improvements\n- Moved most standalone headsets to the Vulkan graphics API\n\n🐛 Bug Fixes\n- \"Permission denied\" error in some shared rooms\n- Headset material on passthrough gesture\n- Error on free user joining Collab without owner present\n- Fixed mirror plane setting changes\n- Fixed unintended video autoplay\n- Color picker now respects texture scale & rotate\n- No countdown when free user accesses their Collab in both VR and Screen\n- Fixed video UI problems on hidden layers\n- Standalone GRS exports now have correct extension\n- Fixed snap recovering of polar symmetry axis of subd ribbons\n- Fixed “Continue/Next Modules” button material in Basic Skills\n- Layer groups now persist when converting sketch into Collab room\n- Fixed performance regression with many objects in the same shader\n- Fixed templates > Collab conversion\n- Clearer messaging when HDRI uploads fail due to connection issues\n\nScreen \n🐛 Bug Fixes\n\n- Fixed some video UI issues\n- Fixed issues with USDZ exports"
+            },
+            {
                 "version": "6.3.4-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- (Enterprise feature) Added support for decimation of  USDZ and GLTF files.\n\n🐛 Bug Fixes\n\n- Fixed recovery autosaves not triggering if the app closed unexpectedly during a sketch.\n- Fixed ambient occlusion shadows always rendering in front of imported videos.\n- Fixed microphone permissions dialog on first time joining a Collab room failing to properly apply microphone permissions.\n- Fixed the build not updating the launcher if the build was launched directly.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed incorrect appearance of backgrounds and some sketch objects in screenshots.\n- Removed sketch object highlights."
             },
@@ -120,10 +128,6 @@
             {
                 "version": "6.2.21-generalqc",
                 "change_log": "🐛 Bug Fixes\n\n- Automatically log out when user disables link to device."
-            },
-            {
-                "version": "6.2.21-generalqog",
-                "change_log": "🐛 Bug Fixes\n\n- Automatically log out when user disables link to device."
             }
         ],
         "on_rookie": false,
@@ -134,7 +138,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478489,
+        "changelog_update": 479425,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 479281,
@@ -144,7 +148,7 @@
             "model",
             "design"
         ],
-        "last_update": 479281,
+        "last_update": 479425,
         "category": "APPS",
         "votes": 1107,
         "rating": 4.094851,
