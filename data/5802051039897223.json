@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "2.60",
+                "change_log": "What's new in 2.60?\n\nNew features:\nCo-located multiplayer \nPrivate rooms\n\nFixes:\nFixed switching to the pov camera in the editor and back breaks room mesh \nFixed bug where the car would levitate and could not be driven \nFixed some pieces that could not be deleted \nFixed for application does not display an error message when losing internet connection \nFixed The user is unable to proceed after attempting to join a full multiplayer room\nFixed - The application prompts the microphone permission two additional times when it is denied\nImproved performance in Multiplayer and some tracks \nFixed cheating using scale / move mechanic \nFixer or user stats gets saved in the wrong format for some users \nFixed arcade level double load on the first open \nImproved  TJ third-person camera positions \nZero times will now not save to the high-score table \nFixed no internet triggering after the pause \nUser can not lock an editor multiplayer session with a password "
+            },
+            {
                 "version": "2.40",
                 "change_log": "🎉 Track Craft 2.40 FULL GAME RELEASE 🎉 \n\n🏁 What’s New in the Full Version of the Game:\n\n🗺️ 2 brand-new track packs—each with its own distinctive style\n🧛🦹🧑‍🚀 New multiplayer feature—build and race together in shared space with Avatars\n🚚 6 new cars\n📦 Garage + 🎨 10 new skins for the cars\n🛣️ 104 pre-built levels\nand more...\n"
             },
@@ -146,10 +150,6 @@
             {
                 "version": "0.65",
                 "change_log": "Improvements\n* Players can \"like\" community levels while playing them\n* Surf Rock materials improved to look even more beautiful \n* Quest Pro improved performance \n\nBug fixes\n* Fixed issue where multiplayer rooms would show players that are not there\n* Fixed issue with Quest Pro controllers not being detected correctly"
-            },
-            {
-                "version": "0.64",
-                "change_log": "Improvements\n* Players can \"like\" community levels while playing them\n\nBug fixes\n* Fixed issue where multiplayer rooms would show players that are not there\n* Fixed issue with Quest Pro controllers not being detected correctly"
             }
         ],
         "on_rookie": false,
@@ -160,13 +160,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479329,
+        "changelog_update": 479449,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 479401,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479401,
+        "last_update": 479449,
         "category": "GAMES",
         "votes": 134,
         "rating": 4.783582,

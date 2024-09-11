@@ -80,6 +80,10 @@
                 "change_log": "- Made hands spawn each time on switch to hand tracking, fixes interaction pointer sometimes not responding on switch to controllers\n- Step seq start quantize fix\n- Fixed synth controls sometimes not created on load saved session\n- Added ability to drag clips above each other to create a song/stack, and drag clip onto scene in a song to add another scene containing the clip"
             },
             {
+                "version": "1.21.00.06",
+                "change_log": "- 2D popups open smooth with better performance\n- Unreal 5.4.3 build\n- Better performance in Stage worlds\n- Better video lighting performance\n- Fixed visual glitch when snap turning\n- Move songs into Stacks in the save load browser\n- VFX now primed at startup so they load quick without hitching\n- Later creation of Avatar chooser mirror prevents frame hitch\n- Drop and drop cues above each other creates a song/stack\n"
+            },
+            {
                 "version": "1.20.00.22",
                 "change_log": "video no longer stops on load song"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "1.19.00.05",
                 "change_log": "widget restyle"
-            },
-            {
-                "version": "1.18.00.03",
-                "change_log": "- Fixed double trig of one shots when switching playback between scenes\n- Fixed playback glitch at the start of user audio when not stretched\n- Fixed sky in sky world"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 478921,
+        "changelog_update": 479449,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479449,
         "category": "APPS",
         "votes": 4,
         "rating": 5.0,

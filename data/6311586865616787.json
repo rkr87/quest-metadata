@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "1.9.11",
+                "change_log": "Updates:\n- (NEW) Persistent Measurements: You can now identify the spatial distance between endpoints. Measurements are automatically visible to other users.\n- Easier Issue Creation: Create issues more intuitively and with fewer clicks.\n- Improved model load times and switching between 1:1 and workshop.\n\nWhat’s Fixed:\n- Fixed an issue that could cause some users to lose the ability to control visibility via the Model Tab.\n- Fixed several bugs that resulted in app crashes.\n\nKnown Issues and Workarounds:\n- Users may intermittently lose the ability to go to or gather specific users due to a known issue with certain permission roles.\n- Button to open/close and reposition the console may lose functionality if the user goes to the Home space and then returns to a Workshop. To resolve this, exit the app and re-enter it.\n- Some users with lower permissions may not see measurements created by those with higher permission levels.\n- Users may hang in blank space for an extended time when exiting the workshop after working with large data sets."
+            },
+            {
                 "version": "1.6.10",
                 "change_log": "New:\n- Added a blue overlay tint to indicate geometry that is still loading\nFixes\n- Resolved a crash when user leaves workshop\n- Bug fixes and improvements"
             },
@@ -107,13 +111,13 @@
         "language_update": 474961,
         "platform_update": 474961,
         "player_mode_update": 474961,
-        "changelog_update": 478417,
+        "changelog_update": 479449,
         "keyword_update": 474961,
         "tag_update": 475489,
         "rating_update": 478513,
         "iarc_detail_update": 475057,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479449,
         "category": "APPS",
         "votes": 6,
         "rating": 2.333333,
