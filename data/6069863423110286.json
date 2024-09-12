@@ -76,6 +76,14 @@
         },
         "changelog": [
             {
+                "version": "1.21.00.09",
+                "change_log": "Favor CPU, system keyboard support"
+            },
+            {
+                "version": "1.21.00.08",
+                "change_log": "- 2D popups open smooth with better performance\n- Unreal 5.4.3 build\n- Better performance in Stage worlds\n- Better video lighting performance\n- Fixed visual glitch when snap turning\n- Move songs into Stacks in the save load browser\n- VFX now primed at startup so they load quick without hitching\n- Later creation of Avatar chooser mirror prevents frame hitch\n- Drop and drop cues above each other creates a song/stack"
+            },
+            {
                 "version": "1.20.00.24",
                 "change_log": "- Made hands spawn each time on switch to hand tracking, fixes interaction pointer sometimes not responding on switch to controllers\n- Step seq start quantize fix\n- Fixed synth controls sometimes not created on load saved session\n- Added ability to drag clips above each other to create a song/stack, and drag clip onto scene in a song to add another scene containing the clip"
             },
@@ -146,14 +154,6 @@
             {
                 "version": "1.19.00.06",
                 "change_log": "Clip library fix for stereo layers"
-            },
-            {
-                "version": "1.19.00.03",
-                "change_log": "Video to electra,  stereo layers\nAvatar recorder refresh"
-            },
-            {
-                "version": "1.19.00.05",
-                "change_log": "widget restyle"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 479449,
+        "changelog_update": 479473,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479449,
+        "last_update": 479473,
         "category": "APPS",
         "votes": 4,
         "rating": 5.0,

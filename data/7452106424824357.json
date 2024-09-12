@@ -3,7 +3,7 @@
         "id": "7452106424824357",
         "app_name": "Meta Quest HDMI Link",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Meta Quest HDMI Link enables HDMI using a UVC and UAC compatible USB Video Capture Card. USB 3.0 speed is recommended for better experience.",
+        "description": "Connect your Meta Quest headset to devices with an HDMI or DisplayPort output, including handheld PCs or consoles, laptops, and more.\n\nThis app requires third-party hardware—specifically, a UVC and UAC compatible USB capture card and any associated cables. For a high-quality streaming experience, please ensure that the capture card and other USB adapters and cables are rated for USB 3.0 SuperSpeed.\n\n# Features\n\n* Auto launch app when a USB card is detected.\n* Menu setting to control capture video format, frame resolution, and fps for each connected session.\n* The screen is freely resizable, within certain limits.\n* Toggle instant streaming stats by clicking anywhere on the screen.\n\n# FAQs\n\n**How do I troubleshoot a blank screen? Why can’t I play movies from streaming services? I hear only audio?**\n\n* Capture cards do not display video if the HDMI signal has HDCP protection enabled.\n* Make sure you are using the correct input port if your capture card has multiple HDMI/DisplayPort ports. \n\n**How to troubleshoot low video frames rate?**\n\nEnsure the instant stats overlay in the streaming screen displays **SuperSpeed to confirm USB 3.0 speed, rather than Hi-Speed (USB 2.0 speed)**. \n* Not all USB-C cables are created equal. Some USB-C cables are rated for USB 2.0 speed.\n* Some USB-C cables operate at USB 3.0 or USB 2.0 depending on the orientation of the connector; flipping the USB-C cable upside down may resolve the low fps issue.\n* Change capture video frame format menu setting to match the fps offered by the capture card.",
         "developer": "Meta",
         "publisher": "Meta Platforms, Inc.",
         "genres": [
@@ -38,7 +38,7 @@
             },
             {
                 "rating": 2,
-                "votes": 23
+                "votes": 24
             },
             {
                 "rating": 3,
@@ -46,21 +46,21 @@
             },
             {
                 "rating": 4,
-                "votes": 17
+                "votes": 18
             },
             {
                 "rating": 5,
                 "votes": 55
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "internet_connection": "REQUIRED",
+        "internet_connection": "NOT_REQUIRED",
         "website": "https://www.meta.com/quest/",
         "app_images": {
             "cover_landscape": "75441583_795953475820425_3746242188652247217_n.png",
@@ -79,7 +79,7 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479329,
+        "general_update": 479473,
         "genre_update": 478921,
         "device_update": 478921,
         "mode_update": 478921,
@@ -89,13 +89,13 @@
         "changelog_update": 479281,
         "keyword_update": 478921,
         "tag_update": 478921,
-        "rating_update": 479401,
+        "rating_update": 479473,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479401,
+        "last_update": 479473,
         "category": "APPS",
-        "votes": 161,
-        "rating": 3.024845,
+        "votes": 163,
+        "rating": 3.02454,
         "weighted_rating": 3.0
     },
     "errors": []

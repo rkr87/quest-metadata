@@ -52,7 +52,7 @@
                 "votes": 123
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -73,7 +73,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 476329,
+        "general_update": 479473,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -86,23 +86,11 @@
         "rating_update": 479305,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479305,
+        "last_update": 479473,
         "category": "GAMES",
         "votes": 167,
         "rating": 4.185629,
         "weighted_rating": 4.1
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "d8ca058150e9a8ebb2e8fb6852795f2b"
-            ],
-            "path": [
-                "item",
-                "is_ccve_pdp_warning_enforced"
-            ]
-        }
-    ]
+    "errors": []
 }
