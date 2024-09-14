@@ -43,7 +43,6 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "Mixed Reality",
             "Top Rated Games",
             "Top Rated (Current Month)",
             "Fitness"
@@ -67,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8376
+                "votes": 8378
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,6 +91,10 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.304.0_2024.9.13.5.13.1.548",
+                "change_log": "0.304.0\n\n**fixes**:\n-[North Korea is listed as Nepal in the Flag Selection screen. #469](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/469)\n-[Some country names are missing from the country list. #478](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/478)\n-[world flag not selectable in list after tutorial #492](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/492)\n-[log sending will stop even when forced #494](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/494)\n-[floor indicator on portal is larger than other envs #500](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/500)\n-[portal will not load correctly sometimes #502](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/502)\n-[avatar images not shown in left panel #503](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/503)\n-removed unusable spectator mode option from pico graphics settings\n\n\n**updates**\n-[add ball speed info in wall mode #495](https://github.com/ForFunLabs/ElevenPublicBugsAndAsks/issues/495)\n-Pico4 Ultra Controllers Added\n-Vivox disabled\n-continuing to work on replays:\n\tAs we know many of you would want to share replays with others, or post them on your social media, we are working on a way for the headset itself to provide .mp4 files\n\tAdditionally we are working on the UI for controlling the replays both with controllers and with the menu \n"
+            },
             {
                 "version": "0.343.0_2024.8.26.2.11.48.824",
                 "change_log": "0.343.0"
@@ -167,10 +170,6 @@
             {
                 "version": "0.323.1_2024.1.5.3.58.48.476",
                 "change_log": "0.323.1\n-disconnect performance fix (pretty sure i found the reason the frame rate tanks when a user disconnects from you mid match)\n-found a bug that caused some game logic desync. Specifically, if mid point, after you hit the ball, it hits a surface that isn't the table top, and then within the period of time allowed for multi hit, it hits your racket, then both players would disagree on the state of the match. This can happen if you hit the edge of your table and the ball rattles. \n-fixed the issue where for new users, the laser pointer wasn't being rendered at fresh start. \n-fixed the issue where post user report, the message wasn't shown (just a layering issue)"
-            },
-            {
-                "version": "0.322.1_2024.1.3.5.32.41.170",
-                "change_log": "0.322.0\n    -fixed issue where clicking on the controller in the paddle adapter page wasn't responsive\n    -fixed issue where the position of the paddle was reverting to the previous state upon return from the paddle adapter selection page\n    -fixed issue where a new rubber could be made with 0'd out values\n    -updated paddle and rubber syncing code. We know there is some issue that has been duplicating the paddles/rubbers for folks. We'll be cleaning it up soon and this release is needed to make sure everyone is on a version that would accept our backend cleanup change when it happens. \n    -for monitor mode, defaulted controllers to not be shown. Press 'H' to toggle showing the controllers. \n    -fixed some issue where having a third player in the room broke some inter-player communications on start of match\n    -improved performance of paddle screen load\n    -fixed issue where paddle size wasn't being sent to the server. \n    -some logging added. \n\n\n..and unrelated to the app version itself, some users had issues logging in. So we fixed something server side. \n\n\n0.322.1  : \n-network stability\n-some prep work for Dusseldorf"
             }
         ],
         "on_rookie": true,
@@ -181,20 +180,20 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479089,
+        "changelog_update": 479521,
         "keyword_update": 475633,
-        "tag_update": 477913,
-        "rating_update": 479497,
+        "tag_update": 479521,
+        "rating_update": 479521,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 479497,
+        "last_update": 479521,
         "category": "GAMES",
-        "votes": 10187,
-        "rating": 4.636988,
+        "votes": 10189,
+        "rating": 4.63706,
         "weighted_rating": 4.6
     },
     "errors": []

@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -124,10 +124,6 @@
             {
                 "version": "6.2.24-generalqc",
                 "change_log": "🐛 Bug Fixes\n\n- Fixed imported GLB files sometimes incorrectly adopting the textures of previously imported GLB files.\n- Enabling the “Use Gumdrop” option while a custom HDR is in place will no longer prevent you from using passthrough."
-            },
-            {
-                "version": "6.2.21-generalqc",
-                "change_log": "🐛 Bug Fixes\n\n- Automatically log out when user disables link to device."
             }
         ],
         "on_rookie": false,
@@ -138,7 +134,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479425,
+        "changelog_update": 479521,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 479281,
@@ -148,7 +144,7 @@
             "model",
             "design"
         ],
-        "last_update": 479425,
+        "last_update": 479521,
         "category": "APPS",
         "votes": 1107,
         "rating": 4.094851,
