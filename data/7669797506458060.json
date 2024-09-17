@@ -53,14 +53,14 @@
                 "votes": 1
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
-        "internet_connection": "REQUIRED",
+        "internet_connection": "REQUIRED_FOR_DOWNLOAD",
         "website": "https://www.stencilvr.com/",
         "app_images": {
             "cover_landscape": "38974901_1561688921393984_4891036769841416762_n.png",
@@ -72,22 +72,27 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39001696_473672185517966_4488483679428973917_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.1.3",
+                "change_log": "- Added ability to import local images on the headset\n- Updated the main menu UI\n- Number of bug fixes and small improvements\n- Added ability to use app while offline."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 479329,
+        "general_update": 479593,
         "genre_update": 479161,
         "device_update": 479161,
         "mode_update": 479161,
         "language_update": 479161,
         "platform_update": 479161,
         "player_mode_update": 479161,
-        "changelog_update": 479161,
+        "changelog_update": 479593,
         "keyword_update": 479161,
         "tag_update": 479161,
         "rating_update": 479329,
         "iarc_detail_update": 479161,
         "keywords": [],
-        "last_update": 479329,
+        "last_update": 479593,
         "category": "APPS",
         "votes": 1,
         "rating": 5.0,

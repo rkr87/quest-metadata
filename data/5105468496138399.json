@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 42
+                "votes": 43
             }
         ],
         "comfort": "NOT_RATED",
@@ -73,6 +73,10 @@
             "logo_transparent": "75542960_619873362410957_8865805999066214505_n.png"
         },
         "changelog": [
+            {
+                "version": "2.14.2",
+                "change_log": "Updated awareness tests to focus on players in front of your field of view\nFixed issue where user was unable to select answers in awareness tests if the grip buttons were squeezed\nImproved the scanning behaviour of non-user players\nFixed an issue where audio could hitch when buttons were pressed\nMade locker room lights fade if dark mode is enabled\nMade locker room lights dim when video is played"
+            },
             {
                 "version": "2.14.0",
                 "change_log": "Improved goalkeeper behaviour\nImproved shooting behaviour of players\nAdded Euros jersey colouring support"
@@ -144,10 +148,6 @@
             {
                 "version": "2.8.23",
                 "change_log": "Added ability to pause experience and exit to main menu by pressing the menu button on the left controller\n\nAdded ability to retry when network requests failed\n\nFixed an issue where setting the Meta OS to certain languages would affect the in app keyboard character options"
-            },
-            {
-                "version": "2.8.21",
-                "change_log": "Fixed an issue where having the headset set to some non-English languages would destabilise the experience"
             }
         ],
         "on_rookie": false,
@@ -158,16 +158,16 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 477817,
+        "changelog_update": 479593,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479521,
+        "rating_update": 479593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479521,
+        "last_update": 479593,
         "category": "APPS",
-        "votes": 95,
-        "rating": 3.368421,
+        "votes": 96,
+        "rating": 3.385417,
         "weighted_rating": 3.3
     },
     "errors": []

@@ -64,11 +64,11 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
-                "votes": 3
+                "votes": 4
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -92,29 +92,33 @@
         },
         "changelog": [
             {
+                "version": "2.21",
+                "change_log": "- Improved gesture recognition for Undo\n- Adjusted the playback speed of magic\n- Adjusted the text display position in the tutorial"
+            },
+            {
                 "version": "2.20",
                 "change_log": "- Supports Traditional Chinese, Korean, Spanish, French, and German\n- Improved gesture recognition for undo\n- Adjusted to reduce misdrawings\n- Fixed a bug where the drawn image would disappear after repeatedly undoing, even if the drawing limit hadn't been reached\n- Fixed an issue where no sound would play at the end of a pinch gesture\n- Fixed a bug where English text was not displayed correctly in a Simplified Chinese environment"
             }
         ],
         "on_rookie": false,
-        "general_update": 479473,
+        "general_update": 479593,
         "genre_update": 479161,
         "device_update": 479161,
         "mode_update": 479161,
         "language_update": 479473,
         "platform_update": 479161,
         "player_mode_update": 479161,
-        "changelog_update": 479449,
+        "changelog_update": 479593,
         "keyword_update": 479161,
         "tag_update": 479161,
-        "rating_update": 479210,
+        "rating_update": 479593,
         "iarc_detail_update": 479161,
         "keywords": [],
-        "last_update": 479473,
+        "last_update": 479593,
         "category": "APPS",
-        "votes": 3,
-        "rating": 5.0,
-        "weighted_rating": 3.8
+        "votes": 5,
+        "rating": 4.8,
+        "weighted_rating": 3.9
     },
     "errors": []
 }
