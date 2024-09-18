@@ -7,7 +7,7 @@
         "developer": "Kilogrames",
         "publisher": "Kilogrames",
         "genres": [
-            "Action",
+            "Sports",
             "Shooter",
             "Simulation"
         ],
@@ -21,15 +21,15 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
-            "SITTING",
             "STANDING",
-            "ROOM_SCALE"
+            "ROOM_SCALE",
+            "SITTING"
         ],
         "tags": [],
         "hist": [
@@ -54,7 +54,7 @@
                 "votes": 42
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.4",
+                "change_log": "Increased rendering resolution for improved clarity.\nFixed Tracking Loss Assist customization not saving.\nOther bug fixes."
+            },
+            {
                 "version": "1.0.1",
                 "change_log": "Added:\n45 new levels\n3 new challenges\nNew bow\nNew arrow\nNew music tracks\nOption to change arrow side\nOption to adjust initial arrow trajectory\nOption to enable Tracking Loss Assist"
             },
@@ -84,20 +88,20 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476257,
-        "genre_update": 474685,
+        "general_update": 479617,
+        "genre_update": 479617,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 479617,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478921,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479617,
         "category": "GAMES",
         "votes": 57,
         "rating": 4.701754,

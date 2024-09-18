@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.10.11035",
+                "change_log": "4.0.9->4.0.10\n\nImprovements:\n\n-Added new samples to library\n\n-Added one more tutorial\n\n-Made animated transition between Sky and Passthrough\n\n-New stages appear at the end of the list.\n\n-Snapping to the surface no longer switches direct selection to ray selection.\n\n-\"My files\" tab is now the default for the library.\n\n-Recolored asset library assets from FFFFFF to 9B9B9B. and icons to pure FFFFFF\n\n-Spaces now start in VR by default.\n\n-Added laser straightening during snapping.\n\n-Iteration of UX polishing.\n\n-Rotation snapping now works with the laser pointer.\n\n-Added color dropper button in the Paint tool.\n\n-Returned duplicate toolbit on the dominant hand.\n\n-The audio spatializer now works for objects attached to the body.\n\n-Tool switches to selection when an asset is grabbed from the asset menu.\n\n-Snapping orb can now be grabbed.\n\n-The hand menu now opens when an object is selected.\n\n-Teleport to viewpoint on Play is now available in the Prototyping section.\n\nFixes:\n\n-Fixed laggy object snap when rotation snap is enabled.\n\n-Background scene issue when switching scenes is fixed.\n\n-Model preview no longer spawns in the center when scale factor is set to auto.\n\n-The delete button is now displayed for project spaces.\n\n-Fixed when line from interactivity to the object is visible in play mode.\n\n-Color change for multi-selected objects with groups is now functional.\n\n-Snapping to surfaces now works correctly with newly grabbed procedural cubes.\n\n-Paint tool ray is no longer interrupted by furniture in Room-scale mode.\n\n-Objects are no longer snapped to the wrong side of the floor.\n\n-Interactivity for deleted objects no longer refers to them.\n\n-Fixed when toolbar opens on the Text tool for the first time.\n\n-Objects are no longer duplicated when grabbed.\n\n-Text color can now be changed via the Paint tool.\n\n-VR and real controllers now match correctly for Quest Pro and Quest 3.\n\n-Frame drops while selecting are fixed.\n\n-Interactivity is now cleared from the object when the option that uses it is changed.\n\n-The Delete interactivity button now responds in all cases.\n\n-Selection with modification pressed now works correctly.\n\n-Space now opens immediately when using the \"Open in VR\" feature\n"
+            },
+            {
                 "version": "4.0.9.11003",
                 "change_log": "4.0.8->4.0.9\n\nFEATURES\n-Improved attachment to viewpoints.\n\nIMPROVEMENTS\n\n-Optimized skybox implementation.\n\n-Enhanced Floor Grid Shader performance.\n\n-Updated environment and space pop-ups.\n\nBUG FIXES\n\n-Resolved issue where room walls were visible outside the designated space.\n\n-Fixed visual issues with buttons during new stage creation when certain limits were displayed.\n\n-Implemented a workaround for issues with unavailable room scale mode.\n\n-Addressed missing \"move to scene\" button, ensuring objects can be moved from the background to the scene.\n\n-Corrected issues with space renaming via the share panel.\n\n-Fixed space name overflow on space cards.\n\n-Resolved snapping issues where procedural primitives' boundaries were displayed incorrectly.\n\n-Ensured viewpoints have teleport options after Play mode.\n\n-Fixed tool change behavior when selecting objects for interactivity.\n\n-Corrected snapping display when the beam interacts with the UI near a surface.\n\n-Fixed an issue where the pointer visual was sometimes too large and flickered on objects.\n\n-Resolved issue where room walls were visible during space loading after a pause.\n"
             },
@@ -125,10 +129,6 @@
             {
                 "version": "2.4.4.9505",
                 "change_log": "2.4.3.9490 => 2.4.4.9505\n\nIMPROVEMENTS\nUpdated samples list\n\nVR BUG FIXES\nPlay mode: the right hand ray collides with all objects (old and new modes)\nFixed the default brush stroke on the brush tool is missing\nFixed when tool switcher without a previous tool switches to a broken empty state\nExported gltf models (from the exported folder) cannot be used in space (only for the new exported files for now)\nFixed when can’t use the volume/sphere select if the short ray is targeting something"
-            },
-            {
-                "version": "2.4.3.9490",
-                "change_log": "-Added new templates\n-Single-axis scale gizmo by modifier button"
             }
         ],
         "on_rookie": false,
@@ -139,7 +139,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479617,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 479473,
@@ -150,7 +150,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 479473,
+        "last_update": 479617,
         "category": "APPS",
         "votes": 329,
         "rating": 4.103343,

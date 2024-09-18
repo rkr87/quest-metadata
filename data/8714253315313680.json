@@ -3,7 +3,7 @@
         "id": "8714253315313680",
         "app_name": "Hide The Corpse",
         "release_date": "2024-05-17T00:00:00.000Z",
-        "description": "\n# Join our Discord: bit.ly/htcdiscord\n# 🕵️‍♂️\n# Hide the Corpse: Features and Fun Galore! #\n\nRace Against Time!\nLift, manipulate, and get messy to hide the corpse before the cops arrive. Don’t get caught!\n# 👇\n\n# BE SMART & CREATIVE\nUnder the bed? Too simple. In a time machine? Now that's creative!{3651171388479925}\n# 👇\n\n# WILD PHYSICS\nEmbrace the chaos! Throw stuff around and work against the ticking clock.{270931549435552}\n# 👇\n\n# IMPROVE YOUR STRATEGY\nRevisit and explore various hiding spots to perfect your approach.{415290244704316}\n# 👇\n\n# SURPRISING LEVELS\nNavigate through bizarre and unexpected scenarios.\n{2171276666564998}\n# 🚨\n\n# KEY FEATURES:\n\n- Time-limited sessions: You have 4 minutes to outsmart the cops!\n\n- Crazy hiding spots: Get creative with where you stash the body.\n\n- Outsmart the cops: Use your wits to evade capture.\n\n- Interactive environments: Manipulate objects and uncover hidden surprises.\n\n- Physics-based challenges: Experience unique physics in multiple areas.\n\n- Personalized gameplay: Will you take the obvious route or challenge yourself with tougher spots?\n\n Hurry up—the cops are coming!\n\n# 🚧 \n\n# Early Access Dev Description #\n\n**Why is Early Access?**\n\n- The aim is to gather feedback from players in order to improve the game.\n\n**What will be added?**\n\n- Introducing new levels, skins, a scoring system, and rewards to boost replayability.\n\n**Duration of Early Access?**\n\n- We're in the final month of Early Access, with the full release coming in September.\n\n**Pricing strategy?**\n- Early Access: $12.99\n- Full price: $19.99\n\nNote: This is a one-time payment.",
+        "description": "# Hide the Corpse: Features and Fun Galore! \nRace Against Time!\n\nLift, manipulate, and get messy to hide the corpse before the cops arrive. Don’t get caught! \n# 🕵️\nJoin our Discord: **bit.ly/htcdiscord**\n\n# 👇\n\n# BE SMART & CREATIVE\nUnder the bed? Too simple. In a time machine? Now that's creative!{3651171388479925}\n# 👇\n\n# WILD PHYSICS\nEmbrace the chaos! Throw stuff around and work against the ticking clock.{270931549435552}\n# 👇\n\n# IMPROVE YOUR STRATEGY\nRevisit and explore various hiding spots to perfect your approach.{415290244704316}\n# 👇\n\n# SURPRISING LEVELS\nNavigate through bizarre and unexpected scenarios.\n{2171276666564998}\n# 🚨\n\n# KEY FEATURES:\n\n- Time-limited sessions: You have 4 minutes to outsmart the cops!\n\n- Crazy hiding spots: Get creative with where you stash the body.\n\n- Outsmart the cops: Use your wits to evade capture.\n\n- Interactive environments: Manipulate objects and uncover hidden surprises.\n\n- Physics-based challenges: Experience unique physics in multiple areas.\n\n- Personalized gameplay: Will you take the obvious route or challenge yourself with tougher spots?\n\n Hurry up—the cops are coming!\n",
         "developer": "Realcast",
         "publisher": "Realcast",
         "genres": [
@@ -49,17 +49,15 @@
             },
             {
                 "rating": 5,
-                "votes": 33
+                "votes": 34
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
-            "age_rating": "Teen",
-            "descriptors": [
-                "Violence"
-            ],
+            "age_rating": "Everyone",
+            "descriptors": [],
             "elements": [],
-            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "internet_connection": "NOT_REQUIRED",
         "website": "https://realcast.io/",
@@ -74,6 +72,10 @@
             "logo_transparent": "38982457_1657889601615724_887998558079191976_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.346",
+                "change_log": "502ffbbb0 - Unity Cloud Build : Update bundle version"
+            },
             {
                 "version": "0.2.263",
                 "change_log": "Hide The Corpse - Early Access v2.1\n===============\n\nAdded:\n- Added a “skip” button to the police investigation sequence and to the scoring sequence at the end of a level\n- Added a haptic feedback on grab broken\n- Added dynamic lights to the cops’ flashlights at the end of the level\n\nModified:\n- Optimized the ShipWreck level\n- Pieces of evidence are now rotated by the ShipWreck’s streams instead of being blown away\n- Tweaked the level score average calculations to be slightly more advantageous to the player\n- Improved pieces of evidence randomized placement in the ShipWreck level\n- Improved the bubbles effect of the ShipWreck level’s streams\n- Improved the door explosion effect on time out\n- Increased the tentacle’s object expulsion time and force in the ShipWreck level\n\nFixed:\n- Improved the grab system when both hands are grabbing an object\n- Improved objects collisions on object grabbed\n- Improved the pieces of evidence detection system\n- Improved the player positioning at the end of the level\n- Improved the fingerprints placement system on small surfaces\n- Improved collisions and fingerprints placement in all levels\n- Fixed the Out Of Bounds system in the ShipWreck level\n- Fixed rats escaping from the sewer in the Garage level\n- Fixed a bug where collision sounds would keep playing during the dark phase at the end of a level\n- Fixed a bug where the tentacle could go out again after catching the corpse in the ShipWreck level\n- Fixed the radio and the Flat’s wardrobe textures\n- Removed bubbles still displayed at the end of the ShipWreck level\n\n---\nversion 0.2.263#f45219b9c"
@@ -96,23 +98,23 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 478969,
+        "general_update": 479617,
         "genre_update": 477577,
         "device_update": 476761,
         "mode_update": 476761,
         "language_update": 476761,
         "platform_update": 478921,
         "player_mode_update": 476761,
-        "changelog_update": 477937,
+        "changelog_update": 479617,
         "keyword_update": 476761,
         "tag_update": 476761,
-        "rating_update": 479401,
-        "iarc_detail_update": 476761,
+        "rating_update": 479617,
+        "iarc_detail_update": 479617,
         "keywords": [],
-        "last_update": 479401,
+        "last_update": 479617,
         "category": "GAMES",
-        "votes": 43,
-        "rating": 4.674419,
+        "votes": 44,
+        "rating": 4.681818,
         "weighted_rating": 4.4
     },
     "errors": []

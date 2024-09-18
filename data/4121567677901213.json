@@ -19,10 +19,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "ROOM_SCALE"
@@ -70,6 +70,10 @@
             "logo_transparent": "39035337_371692344311986_1341029909919816937_n.png"
         },
         "changelog": [
+            {
+                "version": "4.7.0",
+                "change_log": "Version  4.7.0: Major update\n\nGeneral improvements:\nImproved shaders of figures, compatibility with Meta Quest.\nNew interaction ray with tools, objects, and menu buttons. Press the side button.\nAdded temple in “Very low” and “Low” graphics level.\nImproved graphical models of tools and their interaction with objects.\nImproved hand actions menu.\nImproved pasting of figures.\nNew Saving System (version 10) for neot files.\n\nCopy tool: \nImproved copy tool to copy figures with green dependent points.\n\nTool Intersections:\nNew cut between two circles in space in general.\n\nNew tool Edge with Angle:\nCan build an edge with a given angle, with respect to another edge and contained in a given plane.\n\nLabelling:\nImproved labels keyboard to add math functions.\n[Formula=Sin( <label=e1>) * Cos(<label=e2>)] will multiply the sinus of the value in label e1 with the cosine of the value in label e2.\nCorrected special labels associated with mathitems.\nNew label “Angle” on arcs.\n\n3d Graphing calculator: \nMore efficient calculator to get smoother curves and surfaces.\nLabel values can be used inside the panel as <label=e1>, etc.\nCurves and surfaces in internal mode can be updated and moved with sliders.\nCorrected bug on interpolation of surfaces.\n\nMultiplayer mode:\nSynchronized all buttons and functions of the 3d graphing calculator.\nSynchronized STL and OBJ object loading.\nSynchronized angle of protractor.\nSynchronized glue stick figure joining.\nSynchronized unbinding tool.\nBUG: fractals do not work in multiplayer mode"
+            },
             {
                 "version": "4.6.3",
                 "change_log": "Implemented label “Formula” allowing operations with entries other labels.  For this, write in the new label the following text to make the sum of the values on labels e1 and e2:\n\n [Formula= <label=e1>+<label=e2>]\n\nIntersection of STLs and parametric surfaces, available in multiplayer mode.\nNew level curves shown option in the 3d Graphing calculator.\nNew conics tool (advanced license).\n\nFixed bug on saving and loading hidden green points.\nFixed bug on saving and loading points with interpolation."
@@ -151,13 +155,13 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 479617,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478969,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478969,
+        "last_update": 479617,
         "category": "APPS",
         "votes": 16,
         "rating": 4.75,
