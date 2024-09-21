@@ -3,12 +3,12 @@
         "id": "6320120764784270",
         "app_name": "EarthQuest",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "( NO Setup needed before use )\n\n**3D Coverage Everywhere**\n\n• Almost every recognizable city on earth is available in True 3D, even my tiny town in a poor side of Romania is covered, so you are likely able to visit your own street in 3D\n\n**ChatGPT Integration: The AI companion can**\n\n• Naturally respond in YOUR OWN Language\n\n• Visualize & understand your surroundings for any educational purpose or to simply give fun facts\n\n• Teleport you anywhere on earth if asked\n\n.. and more\n\n**Street View**\n\n• Best UNCOMPRESSED 8k Quality on the market, with every street 360 and community panorama on earth\n\n**Realistic Graphics**\n\n• Real Life Inspired Lighting based on the Customizable Day/Night Cycle\n\n**Multiplayer**\n\n• Explore alongside a friend\n\n**Hand Tracking**\n\n• Fly like a Superhero by pointing your index finger\n\n• Rotate by Turning an Imaginary Steering Wheel\n\n**Terrain Quality**\n\n• The 3D Map Quality can go much further than anything else out there and achieve realistic 3D by pushing the map quality to extreme detail with the best possible performance\n\n**Comfort Settings**\n\n• Comfort Options ( Snap Turning / Flight Vignette ) to prevent Motion Sickness\n\n• Button Remapping ( Flight Controls Range from Simple to Complex Cinematic Flying )\n\n**Google Maps Integration**\n\n• Auto / manual zoom based on altitude\n\n• Paired with the compass for body orientation\n\n• Full Google Maps functionality on the Map Window feature\n\n**.. out of space, check \"earthquest.site\" ..**",
+        "description": "**3D Coverage Everywhere**\n\n- Almost every recognizable city on earth is available in True 3D, even my tiny town in a poor side of Romania is covered, so you are likely able to visit your own street in 3D\n\n**ChatGPT Integration: The AI companion can**\n\n- Naturally respond in YOUR OWN Language\n\n- Visualize & understand your surroundings for any educational purpose or to simply give fun facts\n\n- Teleport you anywhere on earth if asked\n\n- .. and more\n\n**Street View**\n\n- Best UNCOMPRESSED 8k Quality on the market, with every street 360 and community panorama on earth\n\n**Realistic Graphics**\n\n- Real Life Inspired Lighting based on the Customizable Day/Night Cycle\n- Realistic, Reactive Fog Option\n\n**Multiplayer**\n\n- Explore alongside a friend\n\n**Hand Tracking**\n\n- Fly like a Superhero by pointing your index finger\n\n- Rotate by Turning an Imaginary Steering Wheel\n\n**Terrain Quality**\n\n- The 3D Map Quality can go much further than anything else out there and achieve realistic 3D by pushing the map quality to extreme detail with the best possible performance\n\n**Comfort Settings**\n\n- Comfort Options ( Snap Turning / Flight Vignette ) to prevent Motion Sickness\n\n- Input Remapping ( Flight Controls Range from Simple to Complex Cinematic Flying )\n\n**Google Maps Integration**\n\n- Smart / manual zoom based on altitude\n\n- Paired with the compass for body orientation\n\n- Full Google Maps functionality on the Map Window feature\n\n**.. out of space, check \"earthquest.site\" ..**",
         "developer": "Boe",
         "publisher": "Boe",
         "genres": [
+            "Social",
             "Health & Fitness",
-            "Educational",
             "Travel & Exploration"
         ],
         "devices": [
@@ -45,15 +45,15 @@
             },
             {
                 "rating": 3,
-                "votes": 9
+                "votes": 10
             },
             {
                 "rating": 4,
-                "votes": 20
+                "votes": 21
             },
             {
                 "rating": 5,
-                "votes": 129
+                "votes": 134
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -76,6 +76,18 @@
             "logo_transparent": "39031327_3613340595587260_1107946763981684942_n.png"
         },
         "changelog": [
+            {
+                "version": "3523",
+                "change_log": "-\nv35.20-v35.22 released\n\n- More natural colors in Immersive Mode\n- Fixed Cloud Inconsistency\n- Further optimized Immersive Mode for Performance\n--\nv35.03-v35.05 released\n\n- Improved Flight Collision and Computation, no more accidentally getting stuck or going out of bounds\n\n- Fixed a rare but game-breaking globe scaling bug in space and high altitudes\n\n- Fixed fog not starting when entering EQ at around sea level altitude ( 0 m height )\n\n- More natural Moon visuals at horizon level\nand Moon scaling\n\n- Updated Android Permissions to stay in compliance with Meta's terms\n\nv35 should now be stable\n--\nv35.00 is finally RELEASED !!\n\nWe’ve had many “biggest updates” in EarthQuest’s journey, because to be fair, they were at their time.\n\nI’m happy to announce this update is now BY FAR the biggest, most polished, advanced & comprehensive update so far - in terms of effort that went into it, and how big of an overall EarthQuest overhaul it is.\n\nIt is meant to expand on every single aspect of the exploration experience as much as possible, to offer the best possible experience and immersion.\n\nFlight Mechanics have been reengineered from the ground up for realism, seamlessness and immersion\n\n- The flow of motion is now significantly more fluid\n- Every flight movement & input combination will now be 100% natural, realistic, and satisfying.\n- Smooth Rotation for all Flight Input Modes\n- Everything applies to both Hand and Controller Tracking !\n\nGoing all-in on Immersion for Immersive Sky Mode  \n( now called ‘Immersive Mode’ )\n\n- The most realistic graphics VR Exploration experiences have ever been blessed with !  \n- Real Life-inspired Fog has been added to the ‘Immersive Mode’\n- Better Clouds\n\nUnlimited Location Save Slots, with Full Address Preview Support\n\n- You heard that right ! UNLIMITED\n\nAI Upgrades\n\n- Faster, more intelligent AI\n\n- Refined AI Interface\n\nMini-map Enlarge button\n\n- A simple toggle will make the mini-map the size of the entire menu, with appropriately sized zooming options !\n\nAdditional\n\n- Performance Optimizations\n- UI design improvements\n- New soundtrack\n\n+ 100s more, check the community ( contact.earthquest.site )  \nfor the full list."
+            },
+            {
+                "version": "3522",
+                "change_log": "-\nv35.20-v35.22 released\n\n- More natural colors in Immersive Mode\n- Fixed Cloud Inconsistency\n- Further optimized Immersive Mode for Performance\n--\nv35.03-v35.05 released\n\n- Improved Flight Collision and Computation, no more accidentally getting stuck or going out of bounds\n\n- Fixed a rare but game-breaking globe scaling bug in space and high altitudes\n\n- Fixed fog not starting when entering EQ at around sea level altitude ( 0 m height )\n\n- More natural Moon visuals at horizon level\nand Moon scaling\n\n- Updated Android Permissions to stay in compliance with Meta's terms\n\nv35 should now be stable\n--\nv35.00 is finally RELEASED !!\n\nWe’ve had many “biggest updates” in EarthQuest’s journey, because to be fair, they were at their time.\n\nI’m happy to announce this update is now BY FAR the biggest, most polished, advanced & comprehensive update so far - in terms of effort that went into it, and how big of an overall EarthQuest overhaul it is.\n\nIt is meant to expand on every single aspect of the exploration experience as much as possible, to offer the best possible experience and immersion.\n\nFlight Mechanics have been reengineered from the ground up for realism, seamlessness and immersion\n\n- The flow of motion is now significantly more fluid\n- Every flight movement & input combination will now be 100% natural, realistic, and satisfying.\n- Smooth Rotation for all Flight Input Modes\n- Everything applies to both Hand and Controller Tracking !\n\nGoing all-in on Immersion for Immersive Sky Mode  \n( now called ‘Immersive Mode’ )\n\n- The most realistic graphics VR Exploration experiences have ever been blessed with !  \n- Real Life-inspired Fog has been added to the ‘Immersive Mode’\n- Better Clouds\n\nUnlimited Location Save Slots, with Full Address Preview Support\n\n- You heard that right ! UNLIMITED\n\nAI Upgrades\n\n- Faster, more intelligent AI\n\n- Refined AI Interface\n\nMini-map Enlarge button\n\n- A simple toggle will make the mini-map the size of the entire menu, with appropriately sized zooming options !\n\nAdditional\n\n- Performance Optimizations\n- UI design improvements\n- New soundtrack\n\n+ 100s more, check the community ( contact.earthquest.site )  \nfor the full list."
+            },
+            {
+                "version": "3521",
+                "change_log": "-\nv35.20 released\n\n- More natural colors in Immersive Mode\n- Fixed Cloud Inconsistency\n- Further optimized Immersive Mode for Performance\n--\nv35.03-v35.05 released\n\n- Improved Flight Collision and Computation, no more accidentally getting stuck or going out of bounds\n\n- Fixed a rare but game-breaking globe scaling bug in space and high altitudes\n\n- Fixed fog not starting when entering EQ at around sea level altitude ( 0 m height )\n\n- More natural Moon visuals at horizon level\nand Moon scaling\n\n- Updated Android Permissions to stay in compliance with Meta's terms\n\nv35 should now be stable\n--\nv35.00 is finally RELEASED !!\n\nWe’ve had many “biggest updates” in EarthQuest’s journey, because to be fair, they were at their time.\n\nI’m happy to announce this update is now BY FAR the biggest, most polished, advanced & comprehensive update so far - in terms of effort that went into it, and how big of an overall EarthQuest overhaul it is.\n\nIt is meant to expand on every single aspect of the exploration experience as much as possible, to offer the best possible experience and immersion.\n\nFlight Mechanics have been reengineered from the ground up for realism, seamlessness and immersion\n\n- The flow of motion is now significantly more fluid\n- Every flight movement & input combination will now be 100% natural, realistic, and satisfying.\n- Smooth Rotation for all Flight Input Modes\n- Everything applies to both Hand and Controller Tracking !\n\nGoing all-in on Immersion for Immersive Sky Mode  \n( now called ‘Immersive Mode’ )\n\n- The most realistic graphics VR Exploration experiences have ever been blessed with !  \n- Real Life-inspired Fog has been added to the ‘Immersive Mode’\n- Better Clouds\n\nUnlimited Location Save Slots, with Full Address Preview Support\n\n- You heard that right ! UNLIMITED\n\nAI Upgrades\n\n- Faster, more intelligent AI\n\n- Refined AI Interface\n\nMini-map Enlarge button\n\n- A simple toggle will make the mini-map the size of the entire menu, with appropriately sized zooming options !\n\nAdditional\n\n- Performance Optimizations\n- UI design improvements\n- New soundtrack\n\n+ 100s more, check the community ( contact.earthquest.site )  \nfor the full list."
+            },
             {
                 "version": "3520",
                 "change_log": "-\nv35.20 released\n\n- More natural colors in Immersive Mode ( :heart_2_EQ:  @subcog )\n- Fixed Cloud Inconsistency\n- Further optimized Immersive Mode for Performance\n--\nv35.03-v35.05 released\n\n- Improved Flight Collision and Computation, no more accidentally getting stuck or going out of bounds\n\n- Fixed a rare but game-breaking globe scaling bug in space and high altitudes\n\n- Fixed fog not starting when entering EQ at around sea level altitude ( 0 m height )\n\n- More natural Moon visuals at horizon level\nand Moon scaling\n\n- Updated Android Permissions to stay in compliance with Meta's terms\n\nv35 should now be stable\n--\nv35.00 is finally RELEASED !!\n\nWe’ve had many “biggest updates” in EarthQuest’s journey, because to be fair, they were at their time.\n\nI’m happy to announce this update is now BY FAR the biggest, most polished, advanced & comprehensive update so far - in terms of effort that went into it, and how big of an overall EarthQuest overhaul it is.\n\nIt is meant to expand on every single aspect of the exploration experience as much as possible, to offer the best possible experience and immersion.\n\nFlight Mechanics have been reengineered from the ground up for realism, seamlessness and immersion\n\n- The flow of motion is now significantly more fluid\n- Every flight movement & input combination will now be 100% natural, realistic, and satisfying.\n- Smooth Rotation for all Flight Input Modes\n- Everything applies to both Hand and Controller Tracking !\n\nGoing all-in on Immersion for Immersive Sky Mode  \n( now called ‘Immersive Mode’ )\n\n- The most realistic graphics VR Exploration experiences have ever been blessed with !  \n- Real Life-inspired Fog has been added to the ‘Immersive Mode’\n- Better Clouds\n\nUnlimited Location Save Slots, with Full Address Preview Support\n\n- You heard that right ! UNLIMITED\n\nAI Upgrades\n\n- Faster, more intelligent AI\n\n- Refined AI Interface\n\nMini-map Enlarge button\n\n- A simple toggle will make the mini-map the size of the entire menu, with appropriately sized zooming options !\n\nAdditional\n\n- Performance Optimizations\n- UI design improvements\n- New soundtrack\n\n+ 100s more, check the community ( contact.earthquest.site )  \nfor the full list."
@@ -123,31 +135,39 @@
             {
                 "version": "3305",
                 "change_log": "v33.05 now released with some more small performance optimizations, an AI interface improvement, and bug fixes.\n\n- If you already own the AI,  you will no longer need to press \"Unlock AI\", the button will no longer appear from now on  !\n\n- Fixed a Hand Tracking ( Left Handed Mode ) issue that allowed flight even when the user was about to interact with the menu"
-            },
-            {
-                "version": "3304",
-                "change_log": "v33.04 now released with even more performance optimizations and a BIG new keyboard feature that allows :\n\n- Taking any language and foreign text character as input for teleportation \n( some text characters like Chinese ones won’t appear correctly on the input field due to font limitations but you’ll be able to preview the address separately as you’re writing it )\n- Support for multiple coordinate formats  (  44.244167, 7.769444  or  19° 38′ 46.00″ N, 37° 17′ 42.00″ E )\n- Taking other copy-paste elements like addresses\n- Modifying parts of text ( with cursor )\n\nAn one-time pop-up  will appear for everyone explaining how to use it !"
             }
         ],
         "on_rookie": true,
-        "general_update": 479497,
-        "genre_update": 479353,
+        "general_update": 479689,
+        "genre_update": 479689,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 475561,
-        "changelog_update": 479617,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479593,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 183,
-        "rating": 4.262295,
+        "votes": 190,
+        "rating": 4.273684,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

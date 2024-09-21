@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "1.9.2",
+                "change_log": "NEW release! - V. 1.9.2:   \n\n* Improved graphic quality; \n* Improved frames quality; \n* AI rating become realistic :D ; \n* Shopping basked added; \n* New AI mechanics; \n* Other bugs fixed.  \n\nEnjoy !"
+            },
+            {
                 "version": "1.9.1",
                 "change_log": "NEW release! - V. 1.9.1:   \n\n* Improved graphic quality; \n* Improved frames quality; \n* AI rating become realistic :D ; \n* Shopping basked added; \n* New AI mechanics; \n* Other bugs fixed.  \n\nEnjoy !"
             },
@@ -148,10 +152,6 @@
             {
                 "version": "1.7.2",
                 "change_log": "NEW release! - V. 1.7.2 :   \n\n* Improved graphic quality; \n* Improved frames quality; \n* AI rating become realistic :D ; \n* Shopping basked added; \n* New AI mechanics; \n* Other bugs fixed.  \n\nEnjoy !"
-            },
-            {
-                "version": "1.7.1",
-                "change_log": "NEW release! - V. 1.7.1 :   \n\n* Improved graphic quality; \n* Improved frames quality; \n* AI rating become realistic :D ; \n* Shopping basked added; \n* New AI mechanics; \n* Other bugs fixed.  \n\nEnjoy !"
             }
         ],
         "on_rookie": true,
@@ -162,17 +162,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479521,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478969,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479521,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 56,
         "rating": 4.553571,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

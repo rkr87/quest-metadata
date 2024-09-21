@@ -3,7 +3,7 @@
         "id": "26110307715234570",
         "app_name": "Ape Administration",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# APE ADMINISTRATION\nThis game features lots of unique **Gamemodes**, Including: **ZOMBIES, PVP, FLOOR IS LAVA, PUZZLE and BACKROOMS**. If you're tired of these Gamemodes, you can also have **fun** in the Lobby, where you can chat and have fun. The game gets updates almost every day so you can always expect something new!\n![{\"height\":866,\"type\":\"image\",\"width\":1622}](https://scontent.oculuscdn.com/v/t64.5771-25/38974910_448227431548689_1772216242677454772_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=3Fx9OBV3BGsQ7kNvgHG7OmI&_nc_ht=scontent.oculuscdn.com&oh=00_AYBS8m2tD4AmD5h7I2LcUmDy9OOgNkUhkfk7v2mpmAyLOA&oe=66EFF56F)\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/428911954_749823623759757_1508827985809008586_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Kf_6cdhb5doQ7kNvgFamkuu&_nc_ht=scontent.oculuscdn.com&oh=00_AYB0602eIVh43c4TczGOasZLte08QHHhu24WoUti3VbZnQ&oe=66F0001F)\n![{\"height\":1440,\"type\":\"image\",\"width\":1440}](https://scontent.oculuscdn.com/v/t64.5771-25/38974907_394192023650814_4402083082192605668_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=6xgI0ivyJnEQ7kNvgFATdMr&_nc_ht=scontent.oculuscdn.com&oh=00_AYDILrmKOIpALFXGvZ-tb1w3xbKU69zT-KapPK_YKsWLmg&oe=66F00F0D)\n",
+        "description": "# APE ADMINISTRATION\nThis game features lots of unique **Gamemodes**, Including: **ZOMBIES, PVP, FLOOR IS LAVA, PUZZLE and BACKROOMS**. If you're tired of these Gamemodes, you can also have **fun** in the Lobby, where you can chat and have fun. The game gets updates almost every day so you can always expect something new!\n![{\"height\":866,\"type\":\"image\",\"width\":1622}](https://scontent.oculuscdn.com/v/t64.5771-25/38974910_448227431548689_1772216242677454772_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KhmS3l9tULsQ7kNvgHQh2-E&_nc_ht=scontent.oculuscdn.com&_nc_gid=AXozcw4v-OuWMzWxHxuNgJr&oh=00_AYDHBsZ6sqGKblq1k4lJP9PYydP3kK4U74PB9oDAV_UC_Q&oe=66F3E9EF)\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/428911954_749823623759757_1508827985809008586_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=06JgnmJx4G4Q7kNvgETl0eK&_nc_ht=scontent.oculuscdn.com&_nc_gid=AXozcw4v-OuWMzWxHxuNgJr&oh=00_AYAwW6TZRiKqzd3D4F7gDzW7bkKGrjsaAfHyhOHBmBqOKg&oe=66F3F49F)\n![{\"height\":1440,\"type\":\"image\",\"width\":1440}](https://scontent.oculuscdn.com/v/t64.5771-25/38974907_394192023650814_4402083082192605668_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=evyWGK5KC18Q7kNvgFcG6K6&_nc_ht=scontent.oculuscdn.com&_nc_gid=AXozcw4v-OuWMzWxHxuNgJr&oh=00_AYB_s8dzxj0mFSKKDerO830ZaaCfzl1FoW1h47kSpbKVTA&oe=66F4038D)\n",
         "developer": "MayonnaiseStudios",
         "publisher": "Mayonnaise Studios",
         "genres": [
@@ -78,7 +78,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
@@ -91,11 +91,23 @@
         "rating_update": 479617,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 43,
         "rating": 4.813953,
         "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

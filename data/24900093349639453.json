@@ -3,7 +3,7 @@
         "id": "24900093349639453",
         "app_name": "REALIZE 360",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "COMES WITH 2 FREE GENERATIONS!\n\nAre you ready to step into a world where your imagination could come to life? \n\nIntroducing Realize 360, an innovative VR application that harnesses the power of AI to create an endless universe of possibilities, all tailored to your unique vision. With Realize 360, you're not just a visitor in a virtual world—you're its creator, architect, and storyteller.\n\nWhat Makes Realize 360 Stand Out?\n\nAI-Powered World Generation: Utilize cutting-edge AI technology that transforms your ideas into breathtaking virtual landscapes, bustling cities, serene countryside, or even otherworldly realms.\n\nEarly Access Perks: Be among the first to experience Realize 360's evolving features. Early access members will have a say in future updates and exclusive access to upcoming tools and assets.\n\nContinuous Innovation: With Realize 360, the journey is just beginning. Anticipate updates that introduce new features, assets, and enhancements, all designed to enrich your creative process.\n\nDon't miss out on this unparalleled opportunity to explore, create, and connect in a universe that's as boundless as your imagination. Dive into Realize 360 and watch your dreams unfold in a vibrant, ever-expanding virtual world. Your next big adventure starts here—bring your imagination to life with Realize 360!\n\nDISCLAIMER: Prompt accuracy is a work in progress, the results will vary! Save data also might not be permanent.",
+        "description": "A tool to generate 360 degree images using stable diffusion.\n\nPress A or B on your quest controller when in the generation to open the menu and save the generation or return to the world. \n\nDISCLAIMER: \n- Purchases have been temporarily disabled as this app is no longer receiving development support. For now, do not expect future updates.\n- Do not expect any data or remaining generations to be permanent. If the servers close, then you will no longer be able to generate, save, or load worlds. Please refund any purchases made through meta support if this was not your expectation.",
         "developer": "Agile Pilot",
         "publisher": "Agile Pilot LLC",
         "genres": [],
@@ -45,7 +45,7 @@
                 "votes": 2
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -66,7 +66,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 478969,
+        "general_update": 479689,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
@@ -79,11 +79,23 @@
         "rating_update": 478969,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 478969,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
         "votes": 5,
         "rating": 3.2,
         "weighted_rating": 3.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

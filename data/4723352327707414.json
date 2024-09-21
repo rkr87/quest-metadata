@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 385
+                "votes": 387
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -88,6 +88,10 @@
             "logo_transparent": "57568673_375975583927711_2900010620072937693_n.png"
         },
         "changelog": [
+            {
+                "version": "1.1591",
+                "change_log": "# Release Notes\n\n**New Boss Mechanics**\n\nNew fight mechanics including:\n\n- Missile Launchers  \n- a Shield System  \n- Destructible Cover  \n- Homing Bullets  \n- More complex spread patterns\n\n**Improvements**\n\n- Boss: revamped final boss arena  \n- Boss: added and improved particles (including new missile explosions)  \n- Boss: improved atmosphere, skybox gradients  \n- Boss: added more background details  \n- Boss: added sky fade-in and fade-out  \n- Boss: improved attacks, balancing, telegraphing of actions  \n- Boss: new shield fade-out animation  \n- Boss: improved sounds, added new effects  \n- Boss: improved intro and outro sequences  \n- Improved Lunatic Final boss  \n- ProTubeVR: better integration to support dual-wielding hand-guns  \n- Reset leaderboards for Lunatic and Sniper, added archive of old leaderboards  \n- Grenade Launchers: implemented damage falloff behavior  \n- Grenade Launchers: swapped launcher projectiles between Tier 2 and 3 launchers  \n- Grenade Launchers: Tier 3 projectiles are now cluster grenades with mid-air split\n\n**Bug Fixes**\n\n- Boss: fixed final explosion  \n- Boss: fixed sticky grenades on shield  \n- Fixed temporary speed buffs removing permanent ones  \n- Grenadier class unlocks are now saved correctly  \n- Damage Dealt now takes into account Guardian Bots and Turrets  \n- Guardian Bots no longer display damage numbers twice  \n- Fixed Null error when explosions interact with dead bot parts  \n- Grenade Launcher projectiles no longer collide with the player"
+            },
             {
                 "version": "1.1536",
                 "change_log": "Update 11 includes a 🎽 New Trainee Mode and Improvements in:\n⚛️ Physics and Weapon-Environment Collision\n🤸 Class Re-Balancing\n💣 Weapon Feel\n💨 Teleportation Movement Polish\n📲 Chip Usage and One-Handed Play\n🏞 Level Layouts and Ladders\n✊ Stability and Consistency\n\n# Improvements\n- New weapon-environmental collision option\n- Improved collision layers of all environmental and prop objects in homebase, mines, slums, sewers and industrial areas.\n- Improved weapon collision shapes\n- bHaptics sleeve feedback support for weapons, items and chips\n- WIP: new Continue button that allows players to continue from the level they died\n- Decluttered derelict mineshaft rooms to reduce objects in your path\n- Smoothed teleport pointer estimation\n- Re-balanced Sniper and Grenadier class progression unlocks (should be easier to achieve)\n- Reduced grenade bullet fuse durations (1s for sticky grenade, 0.1s for normal grenade)\n- Player can now equip a chip on the hand they are holding by pulling the trigger\n- Door frames now have proper bullet collisions\n- For smooth turning, scale turning speed to joystick strength\n- Massively increased Sewers bridge opening speed\n- Added detailed logs on player actions (items pick-up, drops and uses) and VR device used\n- Dropped Enemy weapons now behave physically (you can shoot them)\n- Improved enemy AI and navmesh navigation, especially around jump pads\n- Boss enemy improvements\n- New trainee class where players continue from the same level after death (but without achievements, leaderboard or progression unlocks)\n- Improved deadzone for joystick rotation\n- Improved units sticking to their navmeshagents\n- Replaced ladders with jump pads in all sewer rooms\n- Added chargebot behavior with warning indicator and better charge path generation\n- Performance: Deactivate vignettes fully when their alpha is close to zero (was causing unnecessary overdraws)\n- Performance: reduce mining walls overdraw\n- Option: you can now show or hide damage numbers\n- Added new death and trainee achievements\n- Shotguns now have small kick-back on pumping\n- Added a “Leave a Review” button\n\n# Fixes\n- Improved reset behavior for edge cases, better handling in slums elevator\n- Fixed logging issues on PC version\n- Regenerated meshes with reduced polycount for all homebase assets, all mines assets, all slums assets, industrial medical assets, modern city server room, sewers tiles and decorations\n- Fixed credits in server room\n- Prevent spider bots bullets from colliding with itself\n- Prevent spider bot-hive collisions\n- Fixed a handful of collision issues\n- Fixed a handful of null exceptions (during weapon placement, bullet particles, bullet replacement chips)\n- Fixed charge behavior for Big Red robot\n- Cleaned up various log spam\n- Fixed missing modifiers in mesh atlas.\n- Fixed shading issues on some slums meshes\n- Improved level generation time (by fixing null issues in room list)\n- Fixed occasional missing health packs in vending machines\n- Fixed broken health stations in occasional Mines rooms\n- Fixed potential Reaper class unlock issues\n- Chargebot’s actions are now executed in the correct order\n- Fixed a bunch of incorrectly serialized prefabs which previously caused all sorts of weirdness\n- Fixed enemy weapons overwriting collision layers on pick-up\n- Fixed flickering health dispensers\n- Wooden planks are no longer melee weapons\n- Menu laser pointer no longer disappears if you press X or A\n- Fixed a long-standing dash/teleport offset position problem where it would only work correctly if you never move around in your real life space.\n- Fixed teleportation so that it jumps exactly to the location you aimed for, and not a meter/yard shorter\n- Fixed temporary speed buffs removing permanent ones\n- Fixed headshot reload chip not working properly on some weapons (sniper, laser sight handgun)\n- Fixed time slowing inconsistency bug\n"
@@ -163,10 +167,6 @@
             {
                 "version": "1.626",
                 "change_log": "**Bug Fixes**\nFixed some rooms in the Slums which had missing wall assets\nFixed issue with disappearing fuel cells\nFixed a bug with explosive rounds that caused issues with fire rate\nMine boss bot will now engage if you attack any unit in the room\nEnemies can no longer spawn in closed off areas in the Slums\nRadar Jammer chips should now be positioned correctly in crates and on wrists\nLaser mines no longer trigger despite avoiding laser beam\nFixed collision issues in the Slums\nSecurity turrets no longer float\n\n**Improvements**\nAdded option to adjust gun angles\nAdded more room variations\nReworked drop rates for supply crates\nImproved leaderboard\nGuardian Bot battery explosion now deals less damage to the player\nFuel cells should now spawn normally again\nIn Daily run, latest run will appear at the top of the scoreboard\nImproved shotgun pump action and added reload on pumping\n"
-            },
-            {
-                "version": "1.607",
-                "change_log": "Newest Update"
             }
         ],
         "on_rookie": true,
@@ -177,10 +177,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478489,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 479257,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "roguelite",
@@ -189,11 +189,23 @@
             "fps",
             "combat"
         ],
-        "last_update": 479257,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 521,
-        "rating": 4.59501,
+        "votes": 523,
+        "rating": 4.596558,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 233
+                "votes": 234
             },
             {
                 "rating": 5,
-                "votes": 1992
+                "votes": 2001
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,22 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.2\n\nTHE VFA ARENA\nThe VFA league has reached 10k members, so we’ve made an official map. There is an 11x11 public lobby option available in this arena.\n\nSTORE ITEMS IN ARENA EDITOR\nYou can now build shops in the arena editor. Arena authors will receive a store credits reward when an item is purchased in their arena. This way you can support someone who created a cool map. There is also a new ‘Donate SC’ button on the arena info screen.\n\nTHROW-INS AND NEW GK MECHANICS IN PRIVATES\nAdded throw-ins, and you can now switch to the new GK mechanics in private lobbies.\n\nTHROWING PHYSICS UPDATE\nFast-moving balls are not magnetized to the gloves anymore.\n\nNEW IN ARENA EDITOR\nFixed bugs and enhanced arena editing. Added a new locomotion mode with no speed cap. Added a new empty scene template.\n\nOTHER\nAdded 40 new items to the store, including the new ball called ‘FLIGHT PLAN’ because it flies slowly but steadily. Fixed some bugs and made various minor enhancements. Also, gloves now have collisions.\n\nVERIFICATION BADGES\nImplemented in this update and we’ll start checking verification requests very soon.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.2\n\nTHE VFA ARENA\nThe VFA league has reached 10k members, so we’ve made an official map. There is an 11x11 public lobby option available in this arena.\n\nSTORE ITEMS IN ARENA EDITOR\nYou can now build shops in the arena editor. Arena authors will receive a store credits reward when an item is purchased in their arena. This way you can support someone who created a cool map. There is also a new ‘Donate SC’ button on the arena info screen.\n\nTHROW-INS AND NEW GK MECHANICS IN PRIVATES\nAdded throw-ins, and you can now switch to the new GK mechanics in private lobbies.\n\nTHROWING PHYSICS UPDATE\nFast-moving balls are not magnetized to the gloves anymore.\n\nNEW IN ARENA EDITOR\nFixed bugs and enhanced arena editing. Added a new locomotion mode with no speed cap. Added a new empty scene template.\n\nOTHER\nAdded 40 new items to the store, including the new ball called ‘FLIGHT PLAN’ because it flies slowly but steadily. Fixed some bugs and made various minor enhancements. Also, gloves now have collisions.\n\nVERIFICATION BADGES\nImplemented in this update and we’ll start checking verification requests very soon.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.2\n\nTHE VFA ARENA\nThe VFA league has reached 10k members, so we’ve made an official map. There is an 11x11 public lobby option available in this arena.\n\nSTORE ITEMS IN ARENA EDITOR\nYou can now build shops in the arena editor. Arena authors will receive a store credits reward when an item is purchased in their arena. This way you can support someone who created a cool map. There is also a new ‘Donate SC’ button on the arena info screen.\n\nTHROW-INS AND NEW GK MECHANICS IN PRIVATES\nAdded throw-ins, and you can now switch to the new GK mechanics in private lobbies.\n\nTHROWING PHYSICS UPDATE\nFast-moving balls are not magnetized to the gloves anymore.\n\nNEW IN ARENA EDITOR\nFixed bugs and enhanced arena editing. Added a new locomotion mode with no speed cap. Added a new empty scene template.\n\nOTHER\nAdded 40 new items to the store, including the new ball called ‘FLIGHT PLAN’ because it flies slowly but steadily. Fixed some bugs and made various minor enhancements. Also, gloves now have collisions.\n\nVERIFICATION BADGES\nImplemented in this update and we’ll start checking verification requests very soon.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.2\n\nTHE VFA ARENA\nThe VFA league has reached 10k members, so we’ve made an official map. There is an 11x11 public lobby option available in this arena.\n\nSTORE ITEMS IN ARENA EDITOR\nYou can now build shops in the arena editor. Arena authors will receive a store credits reward when an item is purchased in their arena. This way you can support someone who created a cool map. There is also a new ‘Donate SC’ button on the arena info screen.\n\nTHROW-INS AND NEW GK MECHANICS IN PRIVATES\nAdded throw-ins, and you can now switch to the new GK mechanics in private lobbies.\n\nTHROWING PHYSICS UPDATE\nFast-moving balls are not magnetized to the gloves anymore.\n\nNEW IN ARENA EDITOR\nFixed bugs and enhanced arena editing. Added a new locomotion mode with no speed cap. Added a new empty scene template.\n\nOTHER\nAdded 40 new items to the store, including the new ball called ‘FLIGHT PLAN’ because it flies slowly but steadily. Fixed some bugs and made various minor enhancements. Also, gloves now have collisions.\n\nVERIFICATION BADGES\nImplemented in this update and we’ll start checking verification requests very soon.\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "# UPDATE 0.4.1\n\n## INTRODUCING STORE CREDITS AND GIFTS!\nYou can now purchase store credits to use in the store. You can also send store credits as gifts by clicking on a name in your current lobby or by using the player's ID.\n\n## BODY COLLISIONS TESTING\nAvailable as an experimental feature in private matches for initial testing. We’ll improve body collisions based on your feedback.\n\n## THROWING PHYSICS UPDATE\nImproved responsiveness and ball rotation during throws, along with several bug fixes. While we know you’d like this feature in matches, it needs more polishing before being fully released.\n\n## TRAMPOLINES, SPEED BOOSTERS, AND MORE\nIn the arena editor, you can now add trampolines and speed boosters that interact with balls and players in locomotion mode. We’ve also added a ‘no-stick movement’ locomotion button as a separate mechanic.\n\n## U19 GLOVES PACK BUNDLE\nA new bundle from U19 designers featuring 7 new gloves, including thin gloves similar to those used in sports like baseball and basketball.\n"
@@ -146,22 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.4\n\nCustom arenas now have auto generated cover images\n\nPrivate lobby creators can kick and block players \n(vote kicks for pubs coming in later updates) \n\nThe camera now disappears when it is too close to the player\n\nSlightly enhanced ball bouncing physics\n\nBotkeepers are available in every arena in private lobbies\n\nFixed some store items following community feedback (but probably not all of them just yet)\n\nFixed known bugs and issues (bugs related to camera mode, rules were sometimes triggered randomly, game loading issues, and more)\n\nIncreased net physics response (still working on enhancing nets).\n\nMore things are in production and testing and will be released soon. Thanks for staying tuned.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.4\n\nCustom arenas now have auto generated cover images\n\nPrivate lobby creators can kick and block players \n(vote kicks for pubs coming in later updates) \n\nThe camera now disappears when it is too close to the player\n\nSlightly enhanced ball bouncing physics\n\nBotkeepers are available in every arena in private lobbies\n\nFixed some store items following community feedback (but probably not all of them just yet)\n\nFixed known bugs and issues (bugs related to camera mode, rules were sometimes triggered randomly, game loading issues, and more)\n\nIncreased net physics response (still working on enhancing nets).\n\nMore things are in production and testing and will be released soon. Thanks for staying tuned.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.3\n\nCamera mode in private lobbies (beta)\n(see the camera icon at the top of the in-game menu)\n\nNew pitch material on all arenas\n\nEmoji reactions (beta)\n(activate in the settings)\n\nEnter the stands in the large stadium for practice and private lobbies\n\nTransparent walls, stadium roofs, and other new objects in the arena editor\n\nRulers on the floor in arena editor mode\n\nFixed known bugs in the rulesets (e.g., corners sometimes not triggering)\n\nNo more glitchy bouncing of the ball when spawned after a goal or placed in the corner\n\nSignificant optimization in all scenes\n\nRefurbished look for default ball skins\n\nPotential fixes for game launch issues and faster loading\n\nOther minor fixes and enhancements\n\nNew items in the store, including the 'Hardcore' ball, which is harder to shoot and curl, probably more realistic, and will evolve in future updates\n\nMore features are in testing and will be released very soon. \nThanks for staying tuned!\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.3\n\nCamera mode in private lobbies (beta)\n(see the camera icon at the top of the in-game menu)\n\nNew pitch material on all arenas\n\nEmoji reactions (beta)\n(activate in the settings)\n\nEnter the stands in the large stadium for practice and private lobbies\n\nTransparent walls, stadium roofs, and other new objects in the arena editor\n\nRulers on the floor in arena editor mode\n\nFixed known bugs in the rulesets (e.g., corners sometimes not triggering)\n\nNo more glitchy bouncing of the ball when spawned after a goal or placed in the corner\n\nSignificant optimization in all scenes\n\nRefurbished look for default ball skins\n\nPotential fixes for game launch issues and faster loading\n\nOther minor fixes and enhancements\n\nNew items in the store, including the 'Hardcore' ball, which is harder to shoot and curl, probably more realistic, and will evolve in future updates\n\nMore features are in testing and will be released very soon. \nThanks for staying tuned!"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.2\n- Fixed a bug with resetting balls in online practice \n\nUPDATE 0.3.1\n- Fixed boundaries bug\n- Reduced the issue where the ball would sometimes float above the ground\n- Updated some of the stadium stands\n- Fixed snap-turn kick glitch\n- Updated some items (‘Impossible’ boots)\n- Potentially fixed an issue where the game sometimes won’t launch\n\nThank you all for staying tuned! New features are almost ready for release and we’ll start rolling them out next week."
             }
         ],
         "on_rookie": false,
@@ -172,17 +172,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479161,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 2600,
-        "rating": 4.42,
+        "votes": 2610,
+        "rating": 4.421839,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

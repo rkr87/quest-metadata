@@ -44,7 +44,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 49
+                "votes": 50
             },
             {
                 "rating": 2,
@@ -56,11 +56,11 @@
             },
             {
                 "rating": 4,
-                "votes": 260
+                "votes": 262
             },
             {
                 "rating": 5,
-                "votes": 2490
+                "votes": 2495
             }
         ],
         "comfort": "NOT_RATED",
@@ -180,7 +180,7 @@
         "changelog_update": 479449,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "shooter",
@@ -189,11 +189,23 @@
             "scifi",
             "fps"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 2863,
-        "rating": 4.788334,
+        "votes": 2871,
+        "rating": 4.786834,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

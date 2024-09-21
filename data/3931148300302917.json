@@ -60,7 +60,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2076
+                "votes": 2081
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,6 +85,14 @@
             "logo_transparent": "38974593_4397861536944074_2780060945381439103_n.png"
         },
         "changelog": [
+            {
+                "version": "1.47.1",
+                "change_log": "Cherry Blossom Hotfix"
+            },
+            {
+                "version": "1.47",
+                "change_log": "Cherry Blossom Update"
+            },
             {
                 "version": "1.46",
                 "change_log": "Monthly Pack #28 \\- China"
@@ -156,14 +164,6 @@
             {
                 "version": "1.35",
                 "change_log": "Holiday Special 2023 Release Candidate"
-            },
-            {
-                "version": "1.34",
-                "change_log": "Monthly Pack 19 Release Candidate"
-            },
-            {
-                "version": "1.33.1",
-                "change_log": "-fix for performance issues in Bourdeilles Castle"
             }
         ],
         "on_rookie": true,
@@ -174,21 +174,33 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479329,
+        "changelog_update": 479689,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479497,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "puzzle",
             "relax",
             "meditation"
         ],
-        "last_update": 479497,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 2304,
-        "rating": 4.833767,
+        "votes": 2309,
+        "rating": 4.834127,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

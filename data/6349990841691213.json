@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.2409",
+                "change_log": "*Implemented full Meta spatial audio effects\n*Added pump overheating and cooling models\n*Hose colliders for all inlet and discharges\n*Added porta-tank and front inlet effects for station and industrial scenes\n*Optimized walkthrough process\n*Miscellaneous bug fixes\n*Implemented Meta Horizon Store subscription IAP"
+            },
+            {
                 "version": "1.0.2406",
                 "change_log": "*Added support for multiple hoselines including friction loss model\n*Cleaned up the Pumper Metrics display\n*Improved haptics on water flow when grabbing lines and deluge gun\n*Misc. bug fixes"
             },
@@ -91,17 +95,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 478921,
+        "changelog_update": 479689,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 0,
         "rating": 0.0,
         "weighted_rating": 3.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

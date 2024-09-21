@@ -45,7 +45,7 @@
             },
             {
                 "rating": 3,
-                "votes": 65
+                "votes": 66
             },
             {
                 "rating": 4,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 10114
+                "votes": 10156
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -173,14 +173,26 @@
         "changelog_update": 479377,
         "keyword_update": 474685,
         "tag_update": 478921,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 10852,
-        "rating": 4.860763,
+        "votes": 10895,
+        "rating": 4.861129,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

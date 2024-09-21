@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.8a",
+                "change_log": "jump mechanic, \nretooled glide mechanic, \nadded a moon and nights are darker, \nstop circle, \ndifferent colors on text options front and side, \nguardian hands, \ntweaked pebble positions, \ncloud foot step sounds, \nimproved rotating spikes rendering, \nonly one s.o.l. at a time, \nnew lore stones, \ntitle screen animations, \nmerchant voices"
+            },
+            {
                 "version": "0.7.1b",
                 "change_log": "mixed reality support, multiple save files, new comfort level, various tweaks and fixes"
             },
@@ -146,17 +150,29 @@
         "language_update": 474685,
         "platform_update": 478921,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 5,
         "rating": 4.2,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

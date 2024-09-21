@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "2.13.1",
+                "change_log": "Release of multiple new accessibility features and minor bug fixes"
+            },
+            {
                 "version": "2.12.2",
                 "change_log": "Release of multiple new accessibility features."
             },
@@ -146,10 +150,6 @@
             {
                 "version": "2.5.0",
                 "change_log": "Initial release of Navigating Angry Conversations module"
-            },
-            {
-                "version": "2.4.4",
-                "change_log": "bug fixes"
             }
         ],
         "on_rookie": false,
@@ -160,17 +160,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 476809,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 23,
         "rating": 4.826087,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -3,7 +3,7 @@
         "id": "26207219062210255",
         "app_name": "Random Runners",
         "release_date": "2024-05-22T00:00:00.000Z",
-        "description": "Random Runners is such a sigma game with a decently sized community of amazing people to hangout and play the game with! \n![{\"height\":320,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/39003244_746785010979264_3268715673488364509_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=5YGmGaCEXJUQ7kNvgG8HcbU&_nc_ht=scontent.oculuscdn.com&_nc_gid=ATCZSpBZ1kGkEZqTUrlor0U&oh=00_AYAlxAy2Nor2tfYzQg1e3w42gu_Pk2j1Brn5L5WBmGFI2w&oe=66EFFDFD)\n![{\"height\":200,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/57570311_1100259544568625_4848637362093132013_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=s8EELt7FCr4Q7kNvgG2EB_e&_nc_ht=scontent.oculuscdn.com&_nc_gid=ATCZSpBZ1kGkEZqTUrlor0U&oh=00_AYBed3LgL3P_D8GmTnF7by4sF4oo4ANQOfuzo9npqzM9iw&oe=66F00BC9)",
+        "description": "Random Runners is such a sigma game with a decently sized community of amazing people to hangout and play the game with! \n![{\"height\":320,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/39003244_746785010979264_3268715673488364509_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=cCQygOfh-A8Q7kNvgExEsos&_nc_ht=scontent.oculuscdn.com&_nc_gid=A0nahVaKcxCvLVhynd5AM6b&oh=00_AYCBwQ7hfxb6jX_oq0HcZ4WWJNeHpkKsrFsl1kSa3mDoFA&oe=66F3F27D)\n![{\"height\":200,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/57570311_1100259544568625_4848637362093132013_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=h8s9rWf8beQQ7kNvgHfbkdd&_nc_ht=scontent.oculuscdn.com&_nc_gid=A0nahVaKcxCvLVhynd5AM6b&oh=00_AYC1QRhe-0IExKAKvtXk93atu6J_GvX83aa5_QtOlbfE7w&oe=66F40049)",
         "developer": "Random Runners",
         "publisher": "soulox369",
         "genres": [
@@ -72,7 +72,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 478921,
         "device_update": 478921,
         "mode_update": 478921,
@@ -85,11 +85,23 @@
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
         "votes": 29,
         "rating": 4.206897,
         "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

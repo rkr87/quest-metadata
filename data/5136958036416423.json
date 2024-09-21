@@ -35,6 +35,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Mixed Reality",
             "Top Rated Games",
             "Top Rated (Current Month)"
         ],
@@ -57,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 757
+                "votes": 759
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -117,18 +118,30 @@
         "player_mode_update": 474685,
         "changelog_update": 478921,
         "keyword_update": 474881,
-        "tag_update": 479617,
-        "rating_update": 479593,
+        "tag_update": 479689,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "pvp",
             "sword"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 1153,
-        "rating": 4.163053,
+        "votes": 1155,
+        "rating": 4.164502,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -32,6 +32,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Mixed Reality",
             "Enterprise"
         ],
         "hist": [
@@ -88,17 +89,29 @@
         "player_mode_update": 474685,
         "changelog_update": 475000,
         "keyword_update": 475465,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 479593,
         "iarc_detail_update": 475000,
         "keywords": [
             "construct"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 16,
         "rating": 4.125,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

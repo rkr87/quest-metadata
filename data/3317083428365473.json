@@ -57,11 +57,11 @@
             },
             {
                 "rating": 4,
-                "votes": 119
+                "votes": 118
             },
             {
                 "rating": 5,
-                "votes": 240
+                "votes": 241
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -140,7 +140,7 @@
         "changelog_update": 475000,
         "keyword_update": 478921,
         "tag_update": 474880,
-        "rating_update": 479210,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "music",
@@ -149,11 +149,23 @@
             "mountain",
             "action"
         ],
-        "last_update": 479210,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 498,
-        "rating": 3.929719,
+        "rating": 3.931727,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -55,11 +55,11 @@
             },
             {
                 "rating": 4,
-                "votes": 147
+                "votes": 146
             },
             {
                 "rating": 5,
-                "votes": 440
+                "votes": 441
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -87,6 +87,14 @@
             "logo_transparent": "39035433_1164604114456474_6369836142453382440_n.png"
         },
         "changelog": [
+            {
+                "version": "3.0.0",
+                "change_log": "Update 3.0.0:\n\nNew Weapons:\n\nRaygun: Powerful, futuristic weapon with high damage. Hard to obtain but worth it.\nGrenade: First explosive weapon. Available in special crates, damages both zombies and players.\nMachete: High-durability melee weapon, perfect for hacking through the undead.\nSniper Rifle: Long-range bolt action rifle with a customisable scope, great for co-op support.\n\nPrivate Lobbies & Join in Progress: \n\nHost private sessions with friends, now featuring \"Join in Progress\" based on community feedback.\n\nInventory System & Ammo:\n\nSniper shares ammo pool with hunting rifle.\nRaygun has its own ammo pool and indicator.\n\nNew Skin Packs:\n\nTwo new purchasable weapon skin packs with a Skin-Changing System.\n\nKnown Issues:\n\nGrenade fuse resets if picked up after arming.\nMachete kills don’t count for specific achievements.\nGrenade kills don’t display or count towards kill achievements.\nRaygun hand-swapping can be jerky.\nHand grenade ring slightly offset from the pin."
+            },
+            {
+                "version": "3.0.0",
+                "change_log": "Update 3.0.0:\n\nNew Weapons:\n\nRaygun: Powerful, futuristic weapon with high damage. Hard to obtain but worth it.\nGrenade: First explosive weapon. Available in special crates, damages both zombies and players.\nMachete: High-durability melee weapon, perfect for hacking through the undead.\nSniper Rifle: Long-range bolt action rifle with a customisable scope, great for co-op support.\n\nPrivate Lobbies & Join in Progress: \n\nHost private sessions with friends, now featuring \"Join in Progress\" based on community feedback.\n\nInventory System & Ammo:\n\nSniper shares ammo pool with hunting rifle.\nRaygun has its own ammo pool and indicator.\n\nNew Skin Packs:\n\nTwo new purchasable weapon skin packs with a Skin-Changing System.\n\nKnown Issues:\n\nGrenade fuse resets if picked up after arming.\nMachete kills don’t count for specific achievements.\nGrenade kills don’t display or count towards kill achievements.\nRaygun hand-swapping can be jerky.\nHand grenade ring slightly offset from the pin."
+            },
             {
                 "version": "2.2.2",
                 "change_log": "Changes in 2.2.2:\n\nShotgun Improvements\n- Increased range, damage, ammo per box and ammo capacity.\n- Enhanced viability for mayhem and destruction.\n\nBeginner Mode Adjustments\n- Fuel cells are now more beginner-friendly with a fixed placement.\n\nAmmo Distribution\n- Increased availability of Rifle Ammo.\n- Increased availability of Shotgun Ammo.\n\nKnown Issues:\n- Texture on shotgun ammo box still says 6 rounds instead of 12\n- Home invasion weapon spawn is causing items to drop through the floor\n-- We are already looking at a hotfix for the items dropping through the floor and hope to provide that solution soon\n"
@@ -146,10 +154,6 @@
             {
                 "version": "1.0.2",
                 "change_log": "- Fixed a critical bug required to run v50 Meta Quest Firmware"
-            },
-            {
-                "version": "1.0.1",
-                "change_log": "Fixes and Improvements:\n\n- Performance improvements\n- Network lag (client) interactables improved\n- Fixed crashes when retrying game\n- Fixed an issue where zombies sometimes don’t attack barricades\n- Fixed an issue where the compass does not always point in the right direction\n- Fixed VoIP initialisation when a player is invited to a lobby\n- Fixed cross-region invites\n- Added the full settings menu to the menu inside the game\n- Added a toggle grip option in the settings menu\n- Added smooth turn sliders in the settings menu\n- Improved the responsiveness of interactions around the player inventory (weapon grabbing, ammo, etc.) \n- Improved the grip sensitivity to help stop accidental gun dropping\n- Improvements made to ladder climbing\n- Balancing tweaks for perk and weapon upgrades\n- Moved the location of the battery to a more visible location (roughly the same area as before)\n- Added the ability for users to get more than one revolver or pistol in a session\n- Starting weapons can now include two revolvers or two pistols.\n- Fixed Game Hud/UI stutters that can sometimes occur\n\nPlease update your game to the latest version! Please do keep the feedback coming as it is incredibly valuable to us as we continue to work on and improve the game."
             }
         ],
         "on_rookie": true,
@@ -160,10 +164,10 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 476977,
+        "changelog_update": 479689,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479546,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "horror",
@@ -172,11 +176,23 @@
             "shoot",
             "zombie"
         ],
-        "last_update": 479546,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 802,
-        "rating": 4.006234,
+        "rating": 4.007481,
         "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

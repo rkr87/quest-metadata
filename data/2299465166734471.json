@@ -44,7 +44,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1046
+                "votes": 1047
             },
             {
                 "rating": 2,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 3,
-                "votes": 510
+                "votes": 511
             },
             {
                 "rating": 4,
@@ -137,7 +137,7 @@
         "changelog_update": 476977,
         "keyword_update": 474880,
         "tag_update": 474880,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "rollercoaster",
@@ -145,11 +145,23 @@
             "dinosaur",
             "horror"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 4147,
-        "rating": 3.312515,
+        "votes": 4149,
+        "rating": 3.311882,
         "weighted_rating": 3.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -48,15 +48,15 @@
             },
             {
                 "rating": 3,
-                "votes": 588
+                "votes": 587
             },
             {
                 "rating": 4,
-                "votes": 1078
+                "votes": 1079
             },
             {
                 "rating": 5,
-                "votes": 3038
+                "votes": 3039
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -110,14 +110,26 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 479425,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479425,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
-        "votes": 5375,
-        "rating": 4.141023,
+        "votes": 5376,
+        "rating": 4.141369,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

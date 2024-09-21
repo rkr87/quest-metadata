@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "2.3.2",
+                "change_log": "updating french subtitles"
+            },
+            {
                 "version": "2.3.1",
                 "change_log": "fixed to french"
             },
@@ -103,17 +107,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 479329,
+        "changelog_update": 479689,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479329,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

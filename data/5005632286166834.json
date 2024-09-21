@@ -37,6 +37,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Mixed Reality",
             "App Lab Graduates",
             "Fitness"
         ],
@@ -129,10 +130,6 @@
             {
                 "version": "2023.1.11M",
                 "change_log": "Add new content for SetPlay\nAdd Upper Body Avatar with collisions as a Setting choice\nAdd new Quickfire leaderboards for Upper Body Avatar game play\nAdd Game localisations in 7 different languages\nAdd Catapult cooldown feature for Goalie wars and Lobby area\nAdd new Goalie Wars scene\nAdd Multiplayer moderation features - Mute/Deafen opponent"
-            },
-            {
-                "version": "2022.5.11M",
-                "change_log": "Add Xmas theme as an option\nRetired CWC campaign and gloves\nAdd CWC glove packs as IAPs\nAdd multiplayer games (Target Clash and Goalie Wars)\nUpdated MP game scenes\nAdd a Lobby area for multiplayer games to practice and have fun\nAdd ability to play both private and public multiplayer games"
             }
         ],
         "on_rookie": true,
@@ -143,17 +140,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479281,
+        "changelog_update": 479689,
         "keyword_update": 474685,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 479593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 815,
         "rating": 4.728834,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

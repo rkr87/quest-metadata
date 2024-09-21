@@ -19,17 +19,19 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -75,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.0",
+                "change_log": "Mixed Reality Mode"
+            },
+            {
                 "version": "0.975",
                 "change_log": "Trick leaderboards"
             },
@@ -103,17 +109,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 475969,
+        "changelog_update": 479689,
         "keyword_update": 474685,
-        "tag_update": 474685,
+        "tag_update": 479689,
         "rating_update": 477841,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 477841,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 4,
         "rating": 5.0,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

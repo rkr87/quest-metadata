@@ -3,7 +3,7 @@
         "id": "25480519648262670",
         "app_name": "Banana Parkour",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Banana Parkour is a fun game about bananas who love doing parkour, exploring, solving puzzles, and everything in between. We have lots of friends to make, lots of cool things to find, and lots of fun to have!\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/39001725_548686697509853_844766789654975254_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=IQunIKM0jKMQ7kNvgEW5NwN&_nc_ht=scontent.oculuscdn.com&oh=00_AYBxcYKINh4DRy9Qo25nvZ3kfnIIcpjnN_NCGkG0C4EMTA&oe=66EFFEDB)",
+        "description": "Banana Parkour is a fun game about bananas who love doing parkour, exploring, solving puzzles, and everything in between. We have lots of friends to make, lots of cool things to find, and lots of fun to have!\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/39001725_548686697509853_844766789654975254_n.png?_nc_cat=101&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=yTIL6P4vUQwQ7kNvgHUL8kx&_nc_ht=scontent.oculuscdn.com&_nc_gid=A5EDIoXXqKhrcVCh6D36Z08&oh=00_AYA7hR0LMbl89rZONwfRpwqKfvKcQ4tTlwdSHXQVkfHisA&oe=66F3F35B)",
         "developer": "BananaStudios44",
         "publisher": "Yellow44",
         "genres": [
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 22
+                "votes": 23
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,7 +78,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
@@ -88,14 +88,26 @@
         "changelog_update": 478969,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 25,
-        "rating": 4.72,
+        "votes": 26,
+        "rating": 4.730769,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

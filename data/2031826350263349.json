@@ -36,23 +36,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 4827
+                "votes": 4830
             },
             {
                 "rating": 2,
-                "votes": 1292
+                "votes": 1297
             },
             {
                 "rating": 3,
-                "votes": 2435
+                "votes": 2437
             },
             {
                 "rating": 4,
-                "votes": 6454
+                "votes": 6455
             },
             {
                 "rating": 5,
-                "votes": 34778
+                "votes": 34809
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -126,7 +126,7 @@
         "changelog_update": 475000,
         "keyword_update": 478993,
         "tag_update": 475657,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "sword",
@@ -134,11 +134,23 @@
             "physic",
             "magic"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 49786,
-        "rating": 4.306873,
+        "votes": 49828,
+        "rating": 4.306815,
         "weighted_rating": 4.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

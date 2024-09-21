@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "2.3b",
+                "change_log": "# VRIT 2.3 :\n- Improved support for the Quest 3 and Quest Pro\n- Heavily improved the graphics quality on all platforms\n- Improved many animations throughout the game and added new ones"
+            },
+            {
                 "version": "2.3",
                 "change_log": "# VRIT 2.3 :\n- Improved support for the Quest 3 and Quest Pro\n- Heavily improved the graphics quality on all platforms\n- Improved many animations throughout the game and added new ones"
             },
@@ -149,17 +153,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479257,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479305,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479305,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 42,
         "rating": 4.190476,
         "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

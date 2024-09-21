@@ -1,15 +1,14 @@
 {
     "data": {
         "id": "2002317119880945",
-        "app_name": "YouTube VR",
+        "app_name": "YouTube",
         "release_date": "2019-05-15T00:00:00.000Z",
-        "description": "Experience your favorite YouTube channels, videos and creators in virtual reality.\n\nThe YouTube VR app turns every video on the platform into your own virtual reality experience and reimagines YouTube as a 3D world you can explore from the inside. \n\nExperience YouTube like never before\n• Explore every video on YouTube, from 3D 360 videos to standard rectangular videos\n• Get the full, signed-in experience that lets you view subscriptions, playlists, watch history and more\n\nSee and hear it all\n• Immerse yourself in full 360-degree videos that put you at the center of the action\n• Experience spatial audio, where depth and distance play a role depending on where you look\n• Switch between voice and keyboard controls to browse and search with ease\n\n\nPermission Notice\n• Microphone: Needed to allow searching for YouTube content with your voice.",
+        "description": "Experience your favorite YouTube channels, videos and creators in virtual reality.\n\nThe YouTube app turns every video on the platform into your own virtual reality experience and reimagines YouTube as a 3D world you can explore from the inside. \n\nExperience YouTube like never before\n• Explore every video on YouTube, from 3D 360 videos to standard rectangular videos\n• Get the full, signed-in experience that lets you view subscriptions, playlists, watch history and more\n\nSee and hear it all\n• Immerse yourself in full 360-degree videos that put you at the center of the action\n• Experience spatial audio, where depth and distance play a role depending on where you look\n• Switch between voice and keyboard controls to browse and search with ease\n\n\nPermission Notice\n• Microphone: Needed to allow searching for YouTube content with your voice.",
         "developer": "Google LLC",
         "publisher": "Google LLC",
         "genres": [
             "Casual",
-            "Media & Streaming",
-            "Music & Rhythm"
+            "Media & Streaming"
         ],
         "devices": [
             "Touch Controllers",
@@ -44,7 +43,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 684
+                "votes": 686
             },
             {
                 "rating": 2,
@@ -56,11 +55,11 @@
             },
             {
                 "rating": 4,
-                "votes": 474
+                "votes": 475
             },
             {
                 "rating": 5,
-                "votes": 1959
+                "votes": 1960
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -144,8 +143,8 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 478921,
-        "genre_update": 478297,
+        "general_update": 479689,
+        "genre_update": 479689,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
@@ -154,7 +153,7 @@
         "changelog_update": 479593,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 478273,
         "keywords": [
             "video",
@@ -162,11 +161,23 @@
             "tv",
             "live"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
-        "votes": 3713,
-        "rating": 3.743065,
+        "votes": 3717,
+        "rating": 3.741996,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

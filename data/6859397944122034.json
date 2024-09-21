@@ -32,27 +32,29 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 57
+                "votes": 56
             },
             {
                 "rating": 2,
-                "votes": 23
+                "votes": 24
             },
             {
                 "rating": 3,
-                "votes": 88
+                "votes": 89
             },
             {
                 "rating": 4,
-                "votes": 512
+                "votes": 523
             },
             {
                 "rating": 5,
-                "votes": 5654
+                "votes": 5718
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -87,15 +89,27 @@
         "player_mode_update": 476089,
         "changelog_update": 476089,
         "keyword_update": 476089,
-        "tag_update": 479617,
-        "rating_update": 479617,
+        "tag_update": 479689,
+        "rating_update": 479689,
         "iarc_detail_update": 476089,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 6334,
-        "rating": 4.84449,
+        "votes": 6410,
+        "rating": 4.844462,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

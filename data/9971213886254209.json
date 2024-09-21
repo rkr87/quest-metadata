@@ -3,7 +3,7 @@
         "id": "9971213886254209",
         "app_name": "Eleven Pickleball",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "The worlds leading pickleball simulator from the developers of **Eleven Table Tennis**.\n\n# Online Multiplayer\nChallenge players worldwide in 1v1 and 2v2 **online matches**.\n\n# Real Life Physics with a Paddle Adapter\nGrab a paddle adapter to maximize physics realism \n\n![{\"height\":996,\"type\":\"image\",\"width\":2025}](https://scontent.oculuscdn.com/v/t64.5771-25/39031613_502403732583610_3815374556266830591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4PnLo4j9w-IQ7kNvgGYJpTU&_nc_ht=scontent.oculuscdn.com&oh=00_AYA_SiMXSASDlQC1R-KVFchKcPd6mbRCwRXJrW3XWD68vg&oe=66EFE315)\n\n{1659537568170968}\n\n{2533271210193498}\n\n# Training\nMaster your game with our **hyper configurable & programmable ball machine**. Engineer the perfect shot, set the spin, angle, and speed, then let it rip. Dive into specialized training tools: Dink, Drop, Slam, Reaction, Wall\n\n# Singleplayer\nTest your skills against advanced AI opponents in 1v1 and 2v2 games.\n\n# Customization\n- Adjust ball visibility and color for precise tracking\n- Personalize court aesthetics to suit your style",
+        "description": "The worlds leading pickleball simulator from the developers of **Eleven Table Tennis**.\n\n# Online Multiplayer\nChallenge players worldwide in 1v1 and 2v2 **online matches**.\n\n# Real Life Physics with a Paddle Adapter\nGrab a paddle adapter to maximize physics realism \n\n![{\"height\":996,\"type\":\"image\",\"width\":2025}](https://scontent.oculuscdn.com/v/t64.5771-25/39031613_502403732583610_3815374556266830591_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=YK9Vmv0TYU4Q7kNvgETDEX0&_nc_ht=scontent.oculuscdn.com&_nc_gid=AVA2FuEL0IgLe0U1g-AZ-U9&oh=00_AYBn304JiPD-81ZGm3fEgAkWU7nfIpZTPD828hPXfd3KWA&oe=66F3D795)\n\n{1659537568170968}\n\n{2533271210193498}\n\n# Training\nMaster your game with our **hyper configurable & programmable ball machine**. Engineer the perfect shot, set the spin, angle, and speed, then let it rip. Dive into specialized training tools: Dink, Drop, Slam, Reaction, Wall\n\n# Singleplayer\nTest your skills against advanced AI opponents in 1v1 and 2v2 games.\n\n# Customization\n- Adjust ball visibility and color for precise tracking\n- Personalize court aesthetics to suit your style",
         "developer": "For Fun Labs",
         "publisher": "For Fun Labs",
         "genres": [
@@ -77,7 +77,7 @@
         },
         "changelog": [],
         "on_rookie": true,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 477937,
@@ -90,11 +90,23 @@
         "rating_update": 479521,
         "iarc_detail_update": 477937,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 174,
         "rating": 4.281609,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

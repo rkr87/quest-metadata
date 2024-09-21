@@ -76,6 +76,14 @@
         },
         "changelog": [
             {
+                "version": "1.21.00.17",
+                "change_log": "Permissions change"
+            },
+            {
+                "version": "1.21.00.16",
+                "change_log": "Added cleanup audio files, prevented subfolder selection for import"
+            },
+            {
                 "version": "1.21.00.14",
                 "change_log": "Fixed import files"
             },
@@ -146,14 +154,6 @@
             {
                 "version": "1.20.00.04",
                 "change_log": "- DJ/Decks refresh\n- New single interface similar to DJ Apps\n- On full version includes User Folders browser\n- Sort by BPM, Key, Name\n- Countdown displays and metering\n- Changed Crossfader gain curves to match popular DJ software"
-            },
-            {
-                "version": "1.20.00.01",
-                "change_log": "- New step seq workflow, only clicking the step sequencer items sets the active item\n- Fixed extreme slow down when flat step sequencer clips added to a scene and general slowness with flat step sequencers\n- Drum kit refresh, new kits new kit layouts\n- Fixed some wavetable kits not sustaining drums when hit\n- Avatar recorder fixes - avatar mo-cap not stopping/gets stuck playing\n- Fixed bad button size in save popup\n- Fixed bug in timestretched avatar recorded audio not playing\n- Fixed spatial audio to use binaural instead of panning\n- Fixed clone of synth items\n- Fixed synth not deleted when cloned upon clear scene\n- Faster scene loading"
-            },
-            {
-                "version": "1.19.00.11",
-                "change_log": "Async load, new world browser"
             }
         ],
         "on_rookie": false,
@@ -164,17 +164,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 479593,
+        "changelog_update": 479689,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 4,
         "rating": 5.0,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -48,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 0
+                "votes": 1
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -76,7 +76,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479065,
+        "general_update": 479689,
         "genre_update": 479065,
         "device_update": 479065,
         "mode_update": 479065,
@@ -86,7 +86,7 @@
         "changelog_update": 479065,
         "keyword_update": 479065,
         "tag_update": 479065,
-        "rating_update": 479065,
+        "rating_update": 479689,
         "iarc_detail_update": 479065,
         "keywords": [
             "horror",
@@ -94,11 +94,23 @@
             "social",
             "scary"
         ],
-        "last_update": 479065,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 0,
-        "rating": 0.0,
-        "weighted_rating": 3.4
+        "votes": 1,
+        "rating": 5.0,
+        "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

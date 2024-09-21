@@ -3,7 +3,7 @@
         "id": "7457571521021518",
         "app_name": "StretchLab",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "\nEnhance your flexibility and well-being with StretchLab on Meta Quest, the premier virtual reality experience for assisted stretching. Whether you’re a busy professional, a fitness enthusiast, or simply looking to relieve tension, our app offers a convenient and immersive solution to improve your mobility. With most stretches taking less than 10 minutes, StretchLab is designed to fit seamlessly into your day, allowing you to stretch anytime, anywhere.\n\n**Key Features:**\n\n- **Quick Sessions:** Enjoy effective stretching routines that are under 10 minutes, perfect for fitting into your busy schedule.\n\n- **Immersive VR Experience:** Step into a virtual studio that brings the art of stretching to life, offering an engaging and dynamic workout environment.\n\n- **Expert Guidance:** Follow along with top instructors who provide clear instructions and demonstrations, ensuring you perform each stretch safely and effectively.\n\n- **Variety of Stretches:** Choose from a wide range of stretches targeting different muscle groups, whether you want to focus on flexibility, relaxation, or recovery.\n\n- **Personalized Flexibility Plans:** Tailor your stretching routine to your individual needs and goals, with customizable plans that adapt as you progress.\n\nExperience the benefits of increased flexibility, reduced tension, and enhanced well-being with quick and effective stretching sessions. Transform your routine and feel your best with StretchLab—your journey to a more flexible you starts now!\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/39035364_324294454111095_7958565159930664652_n.png?_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=4TB4P5zZ24kQ7kNvgFMlAYj&_nc_ht=scontent.oculuscdn.com&_nc_gid=AZxSuVIU_UsehjrUp1Jecy9&oh=00_AYBWSi002ZWgTqJdkb2edtEOKhPkGMgBmfN77zJvbY8S8w&oe=66F01057)",
+        "description": "\nEnhance your flexibility and well-being with StretchLab on Meta Quest, the premier virtual reality experience for assisted stretching. Whether you’re a busy professional, a fitness enthusiast, or simply looking to relieve tension, our app offers a convenient and immersive solution to improve your mobility. With most stretches taking less than 10 minutes, StretchLab is designed to fit seamlessly into your day, allowing you to stretch anytime, anywhere.\n\n**Key Features:**\n\n- **Quick Sessions:** Enjoy effective stretching routines that are under 10 minutes, perfect for fitting into your busy schedule.\n\n- **Immersive VR Experience:** Step into a virtual studio that brings the art of stretching to life, offering an engaging and dynamic workout environment.\n\n- **Expert Guidance:** Follow along with top instructors who provide clear instructions and demonstrations, ensuring you perform each stretch safely and effectively.\n\n- **Variety of Stretches:** Choose from a wide range of stretches targeting different muscle groups, whether you want to focus on flexibility, relaxation, or recovery.\n\n- **Personalized Flexibility Plans:** Tailor your stretching routine to your individual needs and goals, with customizable plans that adapt as you progress.\n\nExperience the benefits of increased flexibility, reduced tension, and enhanced well-being with quick and effective stretching sessions. Transform your routine and feel your best with StretchLab—your journey to a more flexible you starts now!\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent.oculuscdn.com/v/t64.5771-25/39035364_324294454111095_7958565159930664652_n.png?_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=9MI3QnaUEIcQ7kNvgGW_bAR&_nc_ht=scontent.oculuscdn.com&_nc_gid=A-_MoaHesnY1hxeeJI36ml1&oh=00_AYBnb1ZhjnhEEweCwLsGuYZFwvr_PaOBa-g1HzoAmFMhOA&oe=66F404D7)",
         "developer": "XponentialPlus",
         "publisher": "Litesport",
         "genres": [
@@ -48,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2
+                "votes": 3
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -74,7 +74,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 479329,
         "device_update": 479329,
         "mode_update": 479329,
@@ -84,17 +84,29 @@
         "changelog_update": 479329,
         "keyword_update": 479329,
         "tag_update": 479329,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 479329,
         "keywords": [
             "fit",
             "health"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 5,
-        "rating": 3.8,
-        "weighted_rating": 3.5
+        "votes": 6,
+        "rating": 4.0,
+        "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

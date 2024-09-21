@@ -3,7 +3,7 @@
         "id": "7694483433919832",
         "app_name": "MR PRIVATE DANCERS SANDBOX",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "You are the director, customize the stage and dancers and film a video wherever you want: in your living room, in your favorite part of the city, in a park or make them small enough to fit on your desk! The hand tracking allows you dance and interact with the dancers and the buttons freely.\n\nPlease note, the App Lab version is only for Quest 3 and Quest Pro and it has been optimized to be accepted on the store so some original features are not available. If you want the original version, you need to download it from Itch.io, that version can also be used with Quest 2.\nThere you can also find MODs and other games:\n https://ultra-fun-games.itch.io/\n\n\nFeatures of MR PRIVATE DANCERS SANDBOX include:\n\nLifelike Dancers: Choose from a range of realistic dancers with distinct styles.\n\nInteractive Play: Scale, move, and physically interact with dancers in your space.\n\nMusic and Choreography: An extensive music library for custom performances. We have songs of different genres: Tech House, Hip Hop, Phonk, Salsa, Arabic Bellydance\n\nAdvanced Handtracking: Realistic touch interaction for a deeper immersive experience.\n\nPlayful Elements: Use grenades of confetti, floating stars, and fireworks for added fun.\n\nStage Customization: Design the stage with adjustable lighting and effects.\n\nMixed Reality Experience: Seamlessly blend virtual content into your real-world environment.\n\nCreative Freedom: Choreograph, design, and direct your unique dance show.\n\nNEW SONGS AND MODELS COMING SOON\n\n",
+        "description": "You are the director, customize the stage and dancers and film a video wherever you want: in your living room, in your favorite part of the city, in a park or make them small enough to fit on your desk! The hand tracking allows you dance and interact with the dancers and the buttons freely.\n\n\n\nFeatures of MR PRIVATE DANCERS SANDBOX include:\n\nLifelike Dancers: Choose from a range of realistic dancers with distinct styles.\n\nInteractive Play: Scale, move, and physically interact with dancers in your space.\n\nMusic and Choreography: An extensive music library for custom performances. We have songs of different genres: Tech House, Hip Hop, Phonk, Salsa, Arabic Bellydance\n\nAdvanced Handtracking: Realistic touch interaction for a deeper immersive experience.\n\nPlayful Elements: Use grenades of confetti, floating stars, and fireworks for added fun.\n\nStage Customization: Design the stage with adjustable lighting and effects.\n\nMixed Reality Experience: Seamlessly blend virtual content into your real-world environment.\n\nCreative Freedom: Choreograph, design, and direct your unique dance show.\n\nNEW SONGS AND MODELS COMING SOON\n\n",
         "developer": "Ultra Fun Games",
         "publisher": "ULTRA FUN GAMES",
         "genres": [
@@ -24,7 +24,9 @@
         "player_modes": [
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -47,7 +49,7 @@
                 "votes": 5
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -68,7 +70,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479377,
+        "general_update": 479689,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
@@ -77,15 +79,27 @@
         "player_mode_update": 478969,
         "changelog_update": 478969,
         "keyword_update": 478969,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 479377,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 5,
         "rating": 5.0,
         "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

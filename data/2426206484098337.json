@@ -46,11 +46,11 @@
             },
             {
                 "rating": 2,
-                "votes": 216
+                "votes": 215
             },
             {
                 "rating": 3,
-                "votes": 383
+                "votes": 384
             },
             {
                 "rating": 4,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 5183
+                "votes": 5184
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -108,17 +108,29 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 479546,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "star",
             "war"
         ],
-        "last_update": 479546,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
-        "votes": 7181,
-        "rating": 4.451608,
+        "votes": 7182,
+        "rating": 4.451824,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

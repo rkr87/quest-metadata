@@ -34,23 +34,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 207
+                "votes": 208
             },
             {
                 "rating": 2,
-                "votes": 36
+                "votes": 37
             },
             {
                 "rating": 3,
-                "votes": 110
+                "votes": 111
             },
             {
                 "rating": 4,
-                "votes": 402
+                "votes": 404
             },
             {
                 "rating": 5,
-                "votes": 10824
+                "votes": 11161
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -80,16 +80,12 @@
         },
         "changelog": [
             {
+                "version": "Fall Update 1",
+                "change_log": "Whoops! Fixed a crashing bug"
+            },
+            {
                 "version": "Backrooms",
                 "change_log": "Added auth for cosmetic buying/client sided things"
-            },
-            {
-                "version": "Backrooms",
-                "change_log": "fixed crahing"
-            },
-            {
-                "version": "Backrooms",
-                "change_log": "Backrooms revamp+ new horror level"
             }
         ],
         "on_rookie": false,
@@ -100,17 +96,29 @@
         "language_update": 474937,
         "platform_update": 474937,
         "player_mode_update": 474937,
-        "changelog_update": 479546,
+        "changelog_update": 479689,
         "keyword_update": 474937,
         "tag_update": 474937,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 11579,
-        "rating": 4.865446,
+        "votes": 11921,
+        "rating": 4.868384,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

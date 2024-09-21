@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 6
+                "votes": 15
             }
         ],
         "comfort": "NOT_RATED",
@@ -66,10 +66,19 @@
         },
         "internet_connection": "REQUIRED",
         "website": "https://www.oktoberfest.game/",
-        "app_images": {},
+        "app_images": {
+            "cover_landscape": "38982464_3740323049624285_1131856719903330780_n.png",
+            "cover_portrait": "38982708_923517319272320_4432459985100059566_n.png",
+            "cover_square": "39031656_1377980716220893_618617072808525200_n.png",
+            "hero": "39031591_392779116775057_1924607286483560233_n.png",
+            "icon": "75196229_671246401280431_1871390320090665599_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982457_298793616107186_5732020750498526510_n.png"
+        },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479569,
+        "general_update": 479689,
         "genre_update": 479449,
         "device_update": 479449,
         "mode_update": 479449,
@@ -79,14 +88,26 @@
         "changelog_update": 479449,
         "keyword_update": 479449,
         "tag_update": 479449,
-        "rating_update": 479569,
+        "rating_update": 479689,
         "iarc_detail_update": 479449,
         "keywords": [],
-        "last_update": 479569,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 6,
+        "votes": 15,
         "rating": 5.0,
-        "weighted_rating": 4.1
+        "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

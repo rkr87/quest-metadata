@@ -3,7 +3,7 @@
         "id": "4900967296622279",
         "app_name": "Vermillion - VR Painting",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "It’s time to discover your inner artist! Vermillion offers a lifelike painting experience with a high resolution canvas and a long laundry list of features.\n\n**NEW! Start creating beautiful paintings right away with the paint-by-numbers packs, or generate paint-by-numbers templates from your own photos. Painting has never been more accessible!**\n\n{1249787143072652}\n\nReady for the unrivaled sense of accomplishment of hanging your first painting in your living room? Start painting right away with the paint-by-numbers packs, learn with your favorite YouTube artists using the built-in web browser, or even better - learn to paint from (new) friends in multiplayer!\n\n# Features\n{1220702032448875}\n- **Lifelike color mixing**, with multiple pre-made palettes 🎨\n- Perfectly crisp and high resolution canvas\n- **Paint by numbers packs** and **generator**\n- **In-game browser** including canvas projector\n- Wide range of oil painting brushes\n- Adjustable color blending on the canvas\n- **Frame & mount your paintings** in **your own home** or in VR\n- Four player **online multiplayer**\n- **Co-located multiplayer** in mixed reality\n- Impasto: Satisfyingly thick oil paint that can be shaped three dimensionally\n- Undo/redo\n- Re-orderable layers\n- Local file support for reference photos\n- Three virtual studio environments and mixed reality mode\n- Easy image export\n\nArtwork in the screenshots by Gladski, Chad Munn and Mistkinya.",
+        "description": "It’s time to discover your inner artist! Vermillion offers a lifelike painting experience with realistic paint behavior, a high resolution canvas, all artist's brushes, and a long laundry list of features.\n\n{1249787143072652}\n\nReady for the sense of accomplishment of hanging your first painting in your living room? Start painting right away with the paint-by-numbers packs, paint along with your favorite YouTube artists using the built-in web browser, or learn to paint from (new) friends in multiplayer!\n\n# Features\n{1220702032448875}\n- **Lifelike color mixing**, with multiple pre-made palettes 🎨\n- Perfectly crisp and high resolution canvas\n- Paint by numbers packs\n- Generate paint by numbers outlines and palette from your own images\n- **In-game browser** including canvas projector\n- Adjustable color blending on the canvas\n- **Frame & mount your paintings** in **your own home** or in VR\n- Four player **online multiplayer**\n- **Co-located multiplayer** in MR\n- Impasto: Satisfyingly thick oil paint that can be shaped on canvas\n- Undo/redo\n- Re-orderable layers\n- Local file support for reference photos\n- Three virtual studio environments and MR mode\n- Easy image export\n\n# Brushes (all included as standard)\n{378051905354923}\n- Resizable smooth and bristle dagger\n- Resizable smooth and bristle short flat\n- Resizable smooth and bristle fan\n- Palette knife\n- Pointed round\n- Long and short rigger\n- Resizable dagger color shaper\n- Two inch\n- Flat and filbert one inch\n- Smooth and bristle one inch round\n- One inch blender\n- Rag\n\nArtwork in the screenshots by Gladski, Chad Munn and Mistkinya.",
         "developer": "Mountainborn Studios OÜ",
         "publisher": "Mountainborn Studios OÜ",
         "genres": [
@@ -167,7 +167,7 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479473,
+        "general_update": 479689,
         "genre_update": 479425,
         "device_update": 474685,
         "mode_update": 474685,
@@ -186,11 +186,23 @@
             "art",
             "relax"
         ],
-        "last_update": 479546,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 849,
         "rating": 4.775029,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

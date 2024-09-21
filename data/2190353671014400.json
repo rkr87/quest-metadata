@@ -3,7 +3,7 @@
         "id": "2190353671014400",
         "app_name": "Arizona Sunshine®",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "**Includes all free Horde updates*\n\nVR meets the zombie apocalypse! Arizona Sunshine® is the original zombie shooter rebuilt entirely for Oculus Quest. Powered by 360° gameplay freedom, the untethered Arizona Sunshine® experience immerses you and up to 3 fellow survivors in a world overrun by zombies more than ever. \n![{\"height\":795,\"type\":\"image\",\"width\":2160}](https://scontent.oculuscdn.com/v/t64.5771-25/39031557_3626363874273795_2213036774982029544_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=i2d8vjWqL1oQ7kNvgEXPufi&_nc_ht=scontent.oculuscdn.com&_nc_gid=AbX8tU5eWE2cMiPjitDln9w&oh=00_AYAEM4yB_AsusrmhQLtLTuglLvA0jIMjILE7VmZ92ApR1Q&oe=66EFE01E)\nWhen you hear a flash of a human voice on the radio, your hopes surge - there are survivors out in the blistering heat of the post-apocalyptic Grand Canyon state! Armed with little more than your motion-controlled weapons and the scarce ammo and consumables you find along the way, you need to navigate hordes of zombies in your desperate search for survivors.\n\n- Co-op multiplayer: Join forces with a friend in campaign mode or Horde mode for up to 4 Oculus Quest players\n- Handle 25+ weapons with real-life movements\n- Complete a full campaign, solo or in co-op\n- Freely explore huge environments including deserts, canyons & mines\n\n![{\"height\":585,\"type\":\"image\",\"width\":2160}](https://scontent.oculuscdn.com/v/t64.5771-25/75334052_1174569843572059_2053476369608362596_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=Aw9Y6ao5aJMQ7kNvgGs3kC7&_nc_ht=scontent.oculuscdn.com&_nc_gid=AbX8tU5eWE2cMiPjitDln9w&oh=00_AYC25zPCf9X-x9zJtlGAp1nUTIOKO0TV-MDi7wNICr7jGw&oe=66F00FB1)",
+        "description": "**Includes all free Horde updates*\n\nVR meets the zombie apocalypse! Arizona Sunshine® is the original zombie shooter rebuilt entirely for Oculus Quest. Powered by 360° gameplay freedom, the untethered Arizona Sunshine® experience immerses you and up to 3 fellow survivors in a world overrun by zombies more than ever. \n![{\"height\":795,\"type\":\"image\",\"width\":2160}](https://scontent.oculuscdn.com/v/t64.5771-25/39031557_3626363874273795_2213036774982029544_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=-hWTyBS-MDIQ7kNvgGf3FTZ&_nc_ht=scontent.oculuscdn.com&_nc_gid=AGY51nH0qVeFVz6A8XppTcB&oh=00_AYACqu9Tzd1s_1jPsvTlFQxISlLXMAm2j1GPR-ikvTnZdg&oe=66F3D49E)\nWhen you hear a flash of a human voice on the radio, your hopes surge - there are survivors out in the blistering heat of the post-apocalyptic Grand Canyon state! Armed with little more than your motion-controlled weapons and the scarce ammo and consumables you find along the way, you need to navigate hordes of zombies in your desperate search for survivors.\n\n- Co-op multiplayer: Join forces with a friend in campaign mode or Horde mode for up to 4 Oculus Quest players\n- Handle 25+ weapons with real-life movements\n- Complete a full campaign, solo or in co-op\n- Freely explore huge environments including deserts, canyons & mines\n\n![{\"height\":585,\"type\":\"image\",\"width\":2160}](https://scontent.oculuscdn.com/v/t64.5771-25/75334052_1174569843572059_2053476369608362596_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=UAPl766hKTQQ7kNvgFE9-GM&_nc_ht=scontent.oculuscdn.com&_nc_gid=AGY51nH0qVeFVz6A8XppTcB&oh=00_AYCs1XAXCHFSHRWMIoi2r6aS3isgGyw7F8aqM-c5hqnr6Q&oe=66F40431)",
         "developer": "Vertigo Games",
         "publisher": "Vertigo Games",
         "genres": [
@@ -144,7 +144,7 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -162,11 +162,23 @@
             "fps",
             "action"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 6234,
         "rating": 4.237729,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

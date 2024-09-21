@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 188
+                "votes": 189
             },
             {
                 "rating": 2,
@@ -143,14 +143,26 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479593,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
-        "votes": 918,
-        "rating": 3.641612,
+        "votes": 919,
+        "rating": 3.638738,
         "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

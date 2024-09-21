@@ -3,7 +3,7 @@
         "id": "6121529404565492",
         "app_name": "Cleric and Goblins",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "\"Cleric and Goblins\" is a hack-and-slash-like VR action game that features procedurally generated dungeons, a physics-based combat system, and item collection. The player's objective is to rescue the Cleric from the goblin-infested dungeon. Embark on an immersive adventure where your actions and decision-making skills will be put to the test. Be cautious of goblin traps, rescue the Cleric, and claim the finest loot!\n\n■story\nAs you wake up, you find yourself in an unfamiliar forest. Confused and sitting down, a mysterious cleric girl passes by. She is a traveling cleric and offers to guide you from this mysterious forest to a nearby town. You feel relieved and safely reach the town with her help. Upon arrival, she hands you a small amount of money and a self-defense knife before departing.A few days later, you learn that Cleric has been kidnapped by goblins. Determined to rescue her, you take the self-defense knife she gave you and venture into the dungeon.",
+        "description": "\"Cleric and Goblins\" is a thrilling VR action game featuring procedurally generated dungeons, a physics-based combat system, and intense loot collection. Your mission? To rescue the ever-unfortunate Cleric from a goblin-infested dungeon! But beware of the goblins' cunning traps at every turn. Battle your way through hordes of goblins, rescue the Cleric, and claim the ultimate loot in this hack-and-slash adventure!\n\n# Unique Physics-Based Combat System\nWeapons have weight and friction, and goblins are equally affected by physics. Swinging a sword lightly won’t suffice. **Strike slowly, Precise force, and Deeply Stab the vital points!**\n{845078274491310}\n\n# Rescue the Cleric!\n**Your mission is to rescue the kidnapped Cleric!** Navigate through goblin traps, save her, and safely escort her out of the dungeon! Remember, she is subject to physics too!\n{1043108787212519}\n\n# Infinite Dungeons! Aim for the Ultimate Loot!\n**The dungeon changes every time you dive!** Break through randomly generated dungeons and collect ultimate loots! Enjoy the adventure as many times as you want!\n{1979861309193631}",
         "developer": "TechnologyCafeSingularity",
         "publisher": "TechnologyCafeSingularity",
         "genres": [
@@ -61,7 +61,7 @@
                 "votes": 33
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
@@ -154,7 +154,7 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 476641,
+        "general_update": 479689,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -167,11 +167,23 @@
         "rating_update": 479305,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479305,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 58,
         "rating": 3.982759,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

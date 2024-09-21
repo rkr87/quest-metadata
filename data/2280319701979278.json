@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 39
+                "votes": 40
             },
             {
                 "rating": 2,
@@ -174,7 +174,7 @@
         "changelog_update": 478921,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479449,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "architecture",
@@ -182,11 +182,23 @@
             "design",
             "collaboration"
         ],
-        "last_update": 479449,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 205,
-        "rating": 3.834146,
+        "votes": 206,
+        "rating": 3.820388,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

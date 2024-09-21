@@ -33,6 +33,7 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Mixed Reality",
             "Top Rated Games",
             "Top Rated (Current Month)",
             "Trending"
@@ -96,7 +97,7 @@
         "player_mode_update": 474685,
         "changelog_update": 478297,
         "keyword_update": 474881,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 479521,
         "iarc_detail_update": 477385,
         "keywords": [
@@ -106,11 +107,23 @@
             "platform",
             "puzzle"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 26,
         "rating": 4.0,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

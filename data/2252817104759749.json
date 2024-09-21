@@ -23,7 +23,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 115
+                "votes": 116
             },
             {
                 "rating": 2,
@@ -88,7 +88,7 @@
         "changelog_update": 475000,
         "keyword_update": 474880,
         "tag_update": 474880,
-        "rating_update": 478945,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "adventure",
@@ -97,11 +97,23 @@
             "exploration",
             "science"
         ],
-        "last_update": 478945,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
-        "votes": 292,
-        "rating": 2.938356,
+        "votes": 293,
+        "rating": 2.931741,
         "weighted_rating": 2.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

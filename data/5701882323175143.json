@@ -82,6 +82,10 @@
         },
         "changelog": [
             {
+                "version": "0.995.2",
+                "change_log": "Public Update 0.995.2:\nBug fixes\nBot improvement\nMinigames shots changed\nDatabase issues fixed"
+            },
+            {
                 "version": "0.995.1",
                 "change_log": "NEW UPDATE BETA 0.995.1"
             },
@@ -130,17 +134,29 @@
         "language_update": 478921,
         "platform_update": 474685,
         "player_mode_update": 478921,
-        "changelog_update": 478513,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 105,
         "rating": 4.409524,
         "weighted_rating": 4.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

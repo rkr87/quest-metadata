@@ -71,7 +71,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974867_745188897806712_1626177650045378080_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.2.0",
+                "change_log": "This content update celebrates the launch of Mars Rovin’ on the Meta Horizon store with the all-new rover customization mode!\n\n* Build your very own rover by combining different wheels, engines and camera components\n\n* Take your rover for a quick test drive by pressing A in the build mode\n\n* Drive the customized rover around through all the different terrains to learn more about Mars!"
+            }
+        ],
         "on_rookie": false,
         "general_update": 478969,
         "genre_update": 478969,
@@ -80,17 +85,29 @@
         "language_update": 478969,
         "platform_update": 478969,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 479689,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 478969,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 478969,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 0,
         "rating": 0.0,
         "weighted_rating": 3.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

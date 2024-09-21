@@ -53,18 +53,18 @@
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
         "iarc": {
-            "age_rating": "Teen",
+            "age_rating": "Everyone 10+",
             "descriptors": [
-                "Violence"
+                "Fantasy Violence"
             ],
             "elements": [
                 "Users Interact",
                 "In-Game Purchases"
             ],
-            "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "internet_connection": "REQUIRED",
-        "website": "https://sites.google.com/view/bonobochasers/home",
+        "website": "https://www.bonobochasers.com/",
         "app_images": {
             "cover_landscape": "39031551_2336606530003605_1804312624813215522_n.png",
             "cover_portrait": "38974560_3917839535154281_2309638367446677805_n.png",
@@ -77,7 +77,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479377,
+        "general_update": 479689,
         "genre_update": 479377,
         "device_update": 479377,
         "mode_update": 479377,
@@ -88,7 +88,7 @@
         "keyword_update": 479377,
         "tag_update": 479377,
         "rating_update": 479617,
-        "iarc_detail_update": 479377,
+        "iarc_detail_update": 479689,
         "keywords": [
             "climbing",
             "gorilla",
@@ -96,11 +96,23 @@
             "action",
             "fear"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 7,
         "rating": 5.0,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -3,11 +3,11 @@
         "id": "8714253315313680",
         "app_name": "Hide The Corpse",
         "release_date": "2024-05-17T00:00:00.000Z",
-        "description": "# Hide the Corpse: Features and Fun Galore! \nRace Against Time!\n\nLift, manipulate, and get messy to hide the corpse before the cops arrive. Don’t get caught! \n# 🕵️\nJoin our Discord: **bit.ly/htcdiscord**\n\n# 👇\n\n# BE SMART & CREATIVE\nUnder the bed? Too simple. In a time machine? Now that's creative!{3651171388479925}\n# 👇\n\n# WILD PHYSICS\nEmbrace the chaos! Throw stuff around and work against the ticking clock.{270931549435552}\n# 👇\n\n# IMPROVE YOUR STRATEGY\nRevisit and explore various hiding spots to perfect your approach.{415290244704316}\n# 👇\n\n# SURPRISING LEVELS\nNavigate through bizarre and unexpected scenarios.\n{2171276666564998}\n# 🚨\n\n# KEY FEATURES:\n\n- Time-limited sessions: You have 4 minutes to outsmart the cops!\n\n- Crazy hiding spots: Get creative with where you stash the body.\n\n- Outsmart the cops: Use your wits to evade capture.\n\n- Interactive environments: Manipulate objects and uncover hidden surprises.\n\n- Physics-based challenges: Experience unique physics in multiple areas.\n\n- Personalized gameplay: Will you take the obvious route or challenge yourself with tougher spots?\n\n Hurry up—the cops are coming!\n",
+        "description": "# Hide the Corpse: Features and Fun Galore! \nRace Against Time!\n\nLift, manipulate, and get messy to hide the corpse before the cops arrive. Don’t get caught! \n# 🕵️\nJoin our Discord: **bit.ly/htcdiscord**\n\n# 👇\n\n# BE SMART & CREATIVE\nUnder the bed? Too simple. In a time machine? Now that's creative!{3651171388479925}\n# 👇\n\n# WILD PHYSICS\nEmbrace the chaos! Throw stuff around and work against the ticking clock.{270931549435552}\n# 👇\n\n# IMPROVE YOUR STRATEGY\nRevisit and explore various hiding spots to perfect your approach.{415290244704316}\n# 👇\n\n# SURPRISING LEVELS\nNavigate through bizarre and unexpected scenarios.\n{2171276666564998}\n# 🚨\n\n# KEY FEATURES:\n\n**Unique Levels**: \n- Apartment: Familiar environment with clever hiding spots.\n- Museum: Blend in with art and exhibits for creative concealment.\n- Shipwreck: Underwater physics and slow-motion challenges.\n- Garage: Use tools and objects to hide like a mechanic.\n- Spaceship: Zero-gravity adds new body manipulation dynamics.\n- Diner: Nostalgic setting with advanced, cleverly disguised hiding spots.\n\n**Core Gameplay:**\n- Hide a body in 6 spots per level within 4 minutes. Unlock new levels by finding at least 4 hiding spots.\n\n**Sandbox Hiding Spot:**\n- Freely experiment with body hiding using interactive objects.\n\n**Scoring System:**\n- Earn points based on time, evidence hidden, and fingerprints erased.\n\n**Unlockable Skins:**\n- Achieve high scores to unlock fun skins like Disco, Zombie, Superhero, and more.\n\n\n# 🚨\nHurry up—the cops are coming!\n",
         "developer": "Realcast",
         "publisher": "Realcast",
         "genres": [
-            "Arcade",
+            "Action",
             "Casual",
             "Simulation"
         ],
@@ -45,11 +45,11 @@
             },
             {
                 "rating": 4,
-                "votes": 7
+                "votes": 8
             },
             {
                 "rating": 5,
-                "votes": 34
+                "votes": 44
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -72,6 +72,10 @@
             "logo_transparent": "38982457_1657889601615724_887998558079191976_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.349",
+                "change_log": "913d3f20e - Build 348"
+            },
             {
                 "version": "1.0.346",
                 "change_log": "502ffbbb0 - Unity Cloud Build : Update bundle version"
@@ -98,24 +102,36 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479617,
-        "genre_update": 477577,
+        "general_update": 479689,
+        "genre_update": 479689,
         "device_update": 476761,
         "mode_update": 476761,
         "language_update": 476761,
         "platform_update": 478921,
         "player_mode_update": 476761,
-        "changelog_update": 479617,
+        "changelog_update": 479689,
         "keyword_update": 476761,
         "tag_update": 476761,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 479617,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 44,
-        "rating": 4.681818,
-        "weighted_rating": 4.4
+        "votes": 55,
+        "rating": 4.727273,
+        "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

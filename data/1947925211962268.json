@@ -46,7 +46,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 95
+                "votes": 96
             },
             {
                 "rating": 2,
@@ -104,18 +104,30 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "horror",
             "movie",
             "scary"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 900,
-        "rating": 4.072222,
+        "votes": 901,
+        "rating": 4.068812,
         "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

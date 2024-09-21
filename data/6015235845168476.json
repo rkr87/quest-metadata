@@ -1,7 +1,7 @@
 {
     "data": {
         "id": "6015235845168476",
-        "app_name": "CricVRX Cricket - Virtual Sports Cricket Game With Real Talents",
+        "app_name": "CricVRX Cricket - Virtual Sports",
         "release_date": "1980-01-01T00:00:00.000Z",
         "description": "CricVRX - Virtual Cricket with Real Talents is the future of cricket, a game which will provide you a platform to relive your love for cricket. Cricket lovers can now live their real cricket dream, as this game is specifically designed for sports and cricket enthusiasts.\n\nFans cheering for you - Walk into the magnificent stadiums, feel the heat as fans cheer you on and live the game like never before.\n\nExperience being a Real Cricketer - Choose team and experience the immersive cricket with adaptive commentary. Real ball physics including swing, bounce and spin. Your VR controller becomes your bat where you have to play different shots with perfect timings and placement just like in real cricket.\n\nHave fun -  by competing with other players by setting the highest game score and see who is going to beat it. Enjoy and have fun and prove your battings skills.\n",
         "developer": "CricVRX",
@@ -73,7 +73,7 @@
         },
         "changelog": [],
         "on_rookie": true,
-        "general_update": 479593,
+        "general_update": 479689,
         "genre_update": 479089,
         "device_update": 474685,
         "mode_update": 474685,
@@ -86,11 +86,23 @@
         "rating_update": 479593,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 10,
         "rating": 4.4,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

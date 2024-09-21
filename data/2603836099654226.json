@@ -42,11 +42,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 587
+                "votes": 586
             },
             {
                 "rating": 2,
-                "votes": 195
+                "votes": 194
             },
             {
                 "rating": 3,
@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 353
+                "votes": 355
             },
             {
                 "rating": 5,
-                "votes": 3322
+                "votes": 3326
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -150,7 +150,7 @@
         "changelog_update": 479113,
         "keyword_update": 474880,
         "tag_update": 477913,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "blade",
@@ -159,11 +159,23 @@
             "fantasy",
             "roguelike"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 4743,
-        "rating": 4.186591,
+        "votes": 4747,
+        "rating": 4.188329,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

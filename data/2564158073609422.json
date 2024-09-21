@@ -55,11 +55,11 @@
             },
             {
                 "rating": 4,
-                "votes": 1672
+                "votes": 1671
             },
             {
                 "rating": 5,
-                "votes": 11012
+                "votes": 11013
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -180,7 +180,7 @@
         "changelog_update": 479113,
         "keyword_update": 479377,
         "tag_update": 475657,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "shooter",
@@ -189,11 +189,23 @@
             "multiplay",
             "game"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 15441,
-        "rating": 4.29182,
+        "rating": 4.291885,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

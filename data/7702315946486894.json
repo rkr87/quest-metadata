@@ -24,7 +24,11 @@
             "Portuguese (Portugal)",
             "Russian"
         ],
-        "platforms": [],
+        "platforms": [
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
         "player_modes": [
             "SITTING"
         ],
@@ -77,7 +81,7 @@
         "device_update": 477097,
         "mode_update": 477097,
         "language_update": 477097,
-        "platform_update": 478321,
+        "platform_update": 479689,
         "player_mode_update": 477097,
         "changelog_update": 477097,
         "keyword_update": 477097,
@@ -85,11 +89,23 @@
         "rating_update": 477337,
         "iarc_detail_update": 477097,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 4,
         "rating": 4.25,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -61,11 +61,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1101
+                "votes": 1105
             },
             {
                 "rating": 2,
-                "votes": 219
+                "votes": 220
             },
             {
                 "rating": 3,
@@ -73,11 +73,11 @@
             },
             {
                 "rating": 4,
-                "votes": 309
+                "votes": 310
             },
             {
                 "rating": 5,
-                "votes": 1205
+                "votes": 1208
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -197,14 +197,26 @@
         "changelog_update": 479593,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 3078,
-        "rating": 3.096816,
+        "votes": 3087,
+        "rating": 3.095886,
         "weighted_rating": 3.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

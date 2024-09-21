@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 891
+                "votes": 892
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -94,7 +94,7 @@
         "changelog_update": 475000,
         "keyword_update": 475633,
         "tag_update": 475633,
-        "rating_update": 479593,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "space",
@@ -103,11 +103,23 @@
             "simulator",
             "vacation"
         ],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 1024,
-        "rating": 4.743164,
+        "votes": 1025,
+        "rating": 4.743415,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

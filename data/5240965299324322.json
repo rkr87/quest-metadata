@@ -56,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 111
+                "votes": 112
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -90,18 +90,30 @@
         "changelog_update": 475000,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 479569,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "cute",
             "epic",
             "story"
         ],
-        "last_update": 479569,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 168,
-        "rating": 4.27381,
+        "votes": 169,
+        "rating": 4.278107,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

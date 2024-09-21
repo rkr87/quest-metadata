@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.182",
+                "change_log": "Fix Tutorial softlock when controller not found"
+            },
+            {
                 "version": "1.181",
                 "change_log": "Fix tutorial and tablet particles"
             },
@@ -92,17 +96,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 478921,
+        "changelog_update": 479689,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 3,
         "rating": 5.0,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 294
+                "votes": 297
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -152,10 +152,6 @@
             {
                 "version": "1.4.9.1",
                 "change_log": "- Adjusted the arc of target flight in American Trap\\n\n- Bug Fix: Party Challenge did not play through if American Trap was selected in practise panel.\\n\n- Sporting Clays Challenge 10 adjusted\n"
-            },
-            {
-                "version": "1.4.9",
-                "change_log": "- American Skeet target launch velocities adjusted: Professional is now 46 mph, Intermediate is 45 mph and beginner is 41 mph.\\n\n- American Trap target launch velocities adjusted: Professional is now 44 mph, Intermediate is 43 mph and beginner is 42 mph. Double trap speeds are: 42mph and 41mph for the beginner and intermediate. Trap oscillates 34 degrees.\\n\n- American Trap Practice: You can now choose between oscillating, hard left, center and hard right targets.\\n\n- Bug fix: External chokes did not follow the reload animation with side-by-side shotgun.\\n\n- Bug fix: Trap practice panel did not initialize correctly when arriving to it from the main menu.\n"
             }
         ],
         "on_rookie": true,
@@ -166,17 +162,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479089,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479521,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479521,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 339,
-        "rating": 4.817109,
+        "votes": 342,
+        "rating": 4.818713,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

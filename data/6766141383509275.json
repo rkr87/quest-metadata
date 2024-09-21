@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "100",
+                "change_log": "v1.0.100"
+            },
+            {
                 "version": "93",
                 "change_log": "v1.0.93"
             },
@@ -113,17 +117,29 @@
         "language_update": 476593,
         "platform_update": 476593,
         "player_mode_update": 476593,
-        "changelog_update": 477433,
+        "changelog_update": 479689,
         "keyword_update": 476593,
         "tag_update": 476593,
         "rating_update": 476593,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 478921,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 0,
         "rating": 0.0,
         "weighted_rating": 3.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

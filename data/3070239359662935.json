@@ -64,11 +64,11 @@
             },
             {
                 "rating": 3,
-                "votes": 112
+                "votes": 113
             },
             {
                 "rating": 4,
-                "votes": 251
+                "votes": 250
             },
             {
                 "rating": 5,
@@ -110,7 +110,7 @@
         "changelog_update": 476761,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "fps",
@@ -118,11 +118,23 @@
             "robot",
             "multiplay"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 3004,
-        "rating": 4.507656,
+        "rating": 4.507324,
         "weighted_rating": 4.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

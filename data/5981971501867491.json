@@ -3,12 +3,13 @@
         "id": "5981971501867491",
         "app_name": "Derby",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Derby is the best place to meet friends, play ball, and make fun videos.\n\nEnter a social virtual park, unleash your swing and throw heat!\n\nCasually compete with friends in a 1v1, or become a champ on the leaderboards.\n\nEarn Peanuts to spend in the Snack Shack on a rotating selection of swag. \n\nBecome a member to earn exclusive rewards, and craft your own private park to host insane fan lobbies with friends.\n\nHit dingers, become a star, and change the game! It’s all possible in Derby.",
+        "description": "Derby is the best place to meet friends, play baseball, and make fun videos.\n\nEnter a social virtual park, unleash your swing and throw heat!\n\nCasually compete with friends in a baseball home run 1v1, or become a champ on the leaderboards.\n\nEarn Peanuts to spend in the Snack Shack on a rotating selection of swag. \n\nBecome a member to earn exclusive rewards, and craft your own private park to host insane fan lobbies with friends.\n\nHit home runs, become a baseball star, and change the game! It’s all possible in Derby.",
         "developer": "Throwback Studios",
         "publisher": "Throwback Studios",
         "genres": [
             "Sports",
-            "Social"
+            "Social",
+            "Casual"
         ],
         "devices": [
             "Touch Controllers"
@@ -158,8 +159,8 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479257,
-        "genre_update": 474685,
+        "general_update": 479689,
+        "genre_update": 479689,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
@@ -171,11 +172,23 @@
         "rating_update": 479521,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479521,
-        "category": "APPS",
+        "last_update": 479689,
+        "category": "GAMES",
         "votes": 457,
         "rating": 4.212254,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -39,11 +39,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 229
+                "votes": 230
             },
             {
                 "rating": 2,
-                "votes": 32
+                "votes": 33
             },
             {
                 "rating": 3,
@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 131
+                "votes": 132
             },
             {
                 "rating": 5,
-                "votes": 1051
+                "votes": 1053
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,6 +85,10 @@
             "logo_transparent": "39036637_429764504911745_4889807881295605772_n.png"
         },
         "changelog": [
+            {
+                "version": "2.3.1",
+                "change_log": "Version 2.3.1 Release Notes\nIMPORTANT NOTICE:\nYou can now play Cards & Tankards on supported Android Devices. Download today on the Google Play Store!\nMeta Quest 1 devices are no longer supported natively. You can continue to play Cards & Tankards on supported devices or through Steam VR.\n\nBALANCE CHANGES:\nCovert Contractor has 1 attack and its ability now only activates once each turn.\nMaster Alchemist now only buffs OTHER creatures.\n\nADDED:\nFlatscreen Quest UI for claiming rewards/rerolling quests.\nA reminder alert in the Patron Of The Old Gods screen to log in each month for gem rewards.\nNew confirmation VFX and SFX when selecting Blocker.\nNew VFX to indicate a quest is completed.\nNew SFX when cycling quests or claiming quest rewards.\nMisplay protection for Altering Fate if no cards are in the Deck.\nNew hand \"Gestures\" for Flatscreen versions.\nNew Combat Action Sequence for Flatscreen versions.\nNew Redraw interface for Flatscreen versions.\nNew Zones interface during battles on Flatscreen versions.\nSubtle arm sway while walking on Flatscreen versions.\n\nUPDATED:\nTavern layout slightly adjusted.\nHidden developer names updated.\nPlayers can only Redraw one time, but always draw the same amount of cards.\nSelection VFX around creature models are more vibrant.\n\"Play 15 Nobles\" quest has been removed.\n\"Personal Space\" option is set to Medium by default.\nThe Main Menu’s handlebar is now hidden on Flatscreen versions.\nExhausted VFX is now larger for the opponent's creatures on Flatscreen versions.\nTooltips and Dynamic Abilities can be scrolled when examining a card on Flatscreen versions.\nOpponent’s Life Total, Mana, and Coins have been repositioned and scaled on Flatscreen versions.\nQuest interface for quest cycling and reward claiming on Flatscreen versions.\n\nFIXED:\nExploit allowing permanently banned players to circumvent bans on alt accounts.\nMain Menu’s text overlapping rather than scaling.\nGame audio not playing through headphones for Mobile players.\nVolume buttons not working for Mobile players.\nFlatscreen booster pack centering.\nFlatscreen clunky interaction to battle again at the same table.\nFlatscreen players being unable to re-engage with opened booster packs.\nDrakth Totem token still having Doomed.\nAvian Murder missing \"Fetch\" tooltip.\nLook Sensitivity setting mislabelled as Mouse Sensitivity on Android version."
+            },
             {
                 "version": "2.3",
                 "change_log": "Version 2.3 Release Notes\n\nBALANCE CHANGES:\nOver 50% of the Game's Cards Rebalanced.\nArchetypal Triangle Swapped: Aggro > Control > Midrange > Aggro.\n\nADDED:\nUnyielding Attribute: Unyielding Creatures Deal Direct Damage even if Blocked.\nQuickstrike Attribute: Quickstrike Creatures Deal Combat Damage before non-Quickstrike Creatures.\nPoisoned Status: Poisoned Creatures Take 1 Damage at the Start of Every Player's Turn.\nCantrip Spell Subtype.\nUnique Flatscreen Booster Pack Opening Interface.\nAspect Ratio Scaling for Deck Editing on Flatscreen.\nFlatscreen Card Inspection: Long-Click/Tap on Card to Examine with Tooltips.\nMisplay Prevention for Creature Activate Abilities.\nMisplay Prevention for some Spells without Valid Requirements or Targets.\nSpell Misplay Prevention Bypass by Playing Spell Again.\nBack Accessory Equip/Unequip in Avatar Customization Interface.\nGhost Placement Indicator when Summoning Creatures.\nAdditional Hair and Facial Hair Styles.\nFlatscreen \"Invert Look\" Setting.\nExpansion Icons on Cards.\nEnhance Failure Messages.\nOff-Turn Ability Selection Timer.\nWeekly Ranked Match Count and Reset Timer in Ranked Rule Book.\nFound Match Queue Cancelation Penalty.\nProp Avoidance During Flatscreen Battles: Despawns Owned Props and Hides Player Props.\nPersonal Space Bubble set to High During Flatscreen Battles.\nSupport Email on Ban Podium.\n\nUPDATED:\nAugur Order's Faction Mechanic: Lose 1 Life after Turn Discard.\nFlatscreen Enhance Mechanic Confirmation VFX.\nAltered Creature Subtype: Now Highlights Green.\nBarkeeper Daily Cards Interface and Display.\nMulligan's Deck List.\nPlayer's Starter Faction Deck Lists.\nMax Skill Rating Difference During Matchmaking: +/- 600 Skill Rating.\nMaximum Volume Threshold Options.\nTokens and Cantrips Banish Instead of Going to Graveyard.\nFlatscreen \"Animate\" and \"Alternate Cost\" Booster Pack Buttons Moved to New Interface.\nRanged Attribute now Only Blocks Flight.\nActive Rituals & Enchantments Limited to 3 Total and no Duplicates.\nToken Copies now Include Modified Attributes & Statuses, Stat Values, Abilities, and Dynamic Abilities by Default.\nBase Copies Include non-Modified Attributes / Statuses, Stat Values, and Abilities.\nReduced Maeve's Voice Line Frequency During Tutorial.\n\nFIXED:\nBeginning of Turn Mastery Check wait for Creature Deaths during Preparation Phase.\nAccidental Activation Protection when Summoning a Creature next to an Activate Creature.\nPaint Brush VFX Alignment.\nFlatscreen Deck Editing Aspect Ratio.\nHidden Selections During Plunders and Fetches.\nFlatscreen Activate Button Returning Adjacent Creature from Attacking.\nMind Corruption and Forceful Acquisition Ownership Logic.\nLarentier's Armaments not Impacting Direct Damage Triggers.\nFlatscreen Movement Control Getting Stuck when Activating Props.\nAndroid Disconnects when Switching Wi-Fi to Cellular Data.\nReferral Cardback Animation.\nClunky Flatscreen Target Selection.\nMulligan Not Waiting for Abilities to Resolve.\nAbilities Not Resolving Before Combat Continues."
@@ -150,17 +154,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479329,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 1495,
-        "rating": 4.165886,
+        "votes": 1500,
+        "rating": 4.163333,
         "weighted_rating": 4.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

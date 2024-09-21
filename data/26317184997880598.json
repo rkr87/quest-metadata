@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 620
+                "votes": 624
             }
         ],
         "comfort": "NOT_RATED",
@@ -75,6 +75,14 @@
             "logo_transparent": "38982510_3662936680702765_4950336661566170581_n.png"
         },
         "changelog": [
+            {
+                "version": "2.124",
+                "change_log": "Bug fixes and improvements"
+            },
+            {
+                "version": "2.124",
+                "change_log": "Bug fixes and improvements"
+            },
             {
                 "version": "2.123",
                 "change_log": "Added day-night cycles!\nFixed lava falling forever!\nNetworking improvements and general bug fixes\n"
@@ -142,18 +150,6 @@
             {
                 "version": "2.111",
                 "change_log": "Bug fixes and improvements"
-            },
-            {
-                "version": "2.110",
-                "change_log": "Bubbles use the GRIP button now. Not the trigger. Now, you won't accidentally place blocks when trying to grab items.\nSmall improvement to UX for bundle purchases. You will put on your new avatar immediately after buying it."
-            },
-            {
-                "version": "2.109",
-                "change_log": "Favorite item can be added to bubble slots"
-            },
-            {
-                "version": "2.108",
-                "change_log": "Bug fixes and improvements"
             }
         ],
         "on_rookie": false,
@@ -164,17 +160,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 479521,
+        "changelog_update": 479689,
         "keyword_update": 478921,
         "tag_update": 478921,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 695,
-        "rating": 4.810072,
+        "votes": 699,
+        "rating": 4.811159,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

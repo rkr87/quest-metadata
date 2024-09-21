@@ -3,7 +3,7 @@
         "id": "4304774742883035",
         "app_name": "Moon VR Video Player",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Enjoy Any Video in VR with Absolute Ease! \nJoin our Discord for the latest updates and events: https://discord.gg/EkBTHxcdQp\n\nPlay Everything:\nAll format support: Compatible with every video formats and every codec\nHigh resolutions: UHD, 4K, 8K and 12K playback\nAll projection types: fisheye, cubemap, equirectangular and cinema\nAll stereo modes: 2D, 3D Side by Side, 3D Top Bottom, Flat, 180°, 190°, 200°, 220°and 360°\n\nUseful Innovations:\nUSB Supported (FAT32 & NTFS)\nDLNA: Browse and play video files on devices attached to your home network\nLocal streaming: Cablelessly watch videos stored on PC, Mac or other local devices (Download: https://moonvrplayer.com/)\nHand-Tracking Control: No need for controllers; you can control everything with just a flick of your fingers.\nIndustry-Leading Virtual Cinematic Experience: Choose from 5 classic virtual environments and 1 artist environment, featuring dynamic lighting and advanced anti-aliasing for intricate details.\nInnovative Mixed Reality (MR) Mode: Whether you want to hang the screen on your home wall or have the screen's light reflect into your real environment, Moon VR Player can make it happen.\n\nSmooth and Stable:\nHardware acceleration: Accelerate  your GPU hardware to unleash its full potential\nSpecial algorithms: Made for each different formats, including 3D videos\n\nIn-App Purchase Details:\nIncludes a virtual environment collaboratively created with an artist, requiring additional payment to support both the artist and our work.\n",
+        "description": "Enjoy Any VR Video in Theater & Cinema with Absolute Ease! \nJoin our Discord for the latest updates and events: https://discord.gg/EkBTHxcdQp\n\nPlay Everything:\nAll format support: Compatible with every video formats and every codec\nHigh resolutions: UHD, 4K, 8K and 12K playback\nAll projection types: fisheye, cubemap, equirectangular and cinema\nAll stereo modes: 2D, 3D Side by Side, 3D Top Bottom, Flat, 180°, 190°, 200°, 220°and 360°\n\nUseful Innovations:\nUSB Supported (FAT32 & NTFS)\nDLNA: Browse and play video files on devices attached to your home network\nLocal streaming: Cablelessly watch videos stored on PC, Mac or other local devices (Download: https://moonvrplayer.com/)\nHand-Tracking Control: No need for controllers; you can control everything with just a flick of your fingers.\nIndustry-Leading Virtual Cinematic Experience: Choose from 5 classic virtual environments and 1 artist environment, featuring dynamic lighting and advanced anti-aliasing for intricate details.\nInnovative Mixed Reality (MR) Mode: Whether you want to hang the screen on your home wall or have the screen's light reflect into your real environment, Moon VR Player can make it happen.\n\nSmooth and Stable:\nHardware acceleration: Accelerate  your GPU hardware to unleash its full potential\nSpecial algorithms: Made for each different formats, including 3D videos\n\nIn-App Purchase Details:\nIncludes a virtual environment collaboratively created with an artist, requiring additional payment to support both the artist and our work.",
         "developer": "InnoVision Inc",
         "publisher": "InnoVision",
         "genres": [
@@ -72,7 +72,7 @@
             },
             {
                 "rating": 5,
-                "votes": 413
+                "votes": 416
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -109,7 +109,7 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 478921,
+        "general_update": 479689,
         "genre_update": 474685,
         "device_update": 478921,
         "mode_update": 474685,
@@ -119,14 +119,26 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 530,
-        "rating": 4.469811,
+        "votes": 533,
+        "rating": 4.472795,
         "weighted_rating": 4.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

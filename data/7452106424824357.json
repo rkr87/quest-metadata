@@ -34,7 +34,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 51
+                "votes": 52
             },
             {
                 "rating": 2,
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 59
+                "votes": 60
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -89,14 +89,26 @@
         "changelog_update": 479281,
         "keyword_update": 478921,
         "tag_update": 478921,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 170,
-        "rating": 3.070588,
+        "votes": 172,
+        "rating": 3.069767,
         "weighted_rating": 3.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

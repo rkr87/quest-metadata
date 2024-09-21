@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.02",
+                "change_log": "Fixes to mod.io system, just select on your browser and download!\nUpdate to the physics system has caused some unexpected bugs, please report any to the server\nFixes to the mod.io display, browser removed\nFixes to the server backend\nFixes to the microphone system\nFixes to the text system\nTottaly new voice crecogniston system, the quality is less but its faster and works ON HEADSET rather than a exteral server\nUpdates to voice commands, much more strict \n\n\nKnown issues:\n\nScaling mod waifus\nRifle Stuck in single shot\nWaifu reset on map change\nSome mods cause a crash, please report these to us\n\nComing Soon: 2.0 Waifuverse\nMore voices(made on headset)\n\nLarger world, more to explore\nEnemies to shoot\nCharacter creator\nAnd more!"
+            },
+            {
                 "version": "0.0.96",
                 "change_log": "Fixes to mic keyboard shaders ect."
             },
@@ -94,10 +98,6 @@
             {
                 "version": "0.0.80",
                 "change_log": "quick fix for the action system. Basically a overhaul tbh"
-            },
-            {
-                "version": "0.0.77",
-                "change_log": "Quick patch to movement. She no longer stops moving after she is done talking."
             }
         ],
         "on_rookie": false,
@@ -108,17 +108,29 @@
         "language_update": 474865,
         "platform_update": 474865,
         "player_mode_update": 474865,
-        "changelog_update": 475000,
+        "changelog_update": 479689,
         "keyword_update": 474865,
         "tag_update": 479617,
         "rating_update": 479617,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 84,
         "rating": 3.154762,
         "weighted_rating": 3.1
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

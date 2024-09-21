@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 706
+                "votes": 708
             },
             {
                 "rating": 2,
@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 125
+                "votes": 127
             },
             {
                 "rating": 5,
-                "votes": 392
+                "votes": 395
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -100,16 +100,28 @@
         "changelog_update": 479521,
         "keyword_update": 474881,
         "tag_update": 477793,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [
             "movie"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 1362,
-        "rating": 2.572687,
+        "votes": 1369,
+        "rating": 2.577794,
         "weighted_rating": 2.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 21
+                "votes": 22
             },
             {
                 "rating": 2,
@@ -76,7 +76,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 477169,
         "device_update": 477169,
         "mode_update": 477169,
@@ -86,14 +86,26 @@
         "changelog_update": 478345,
         "keyword_update": 477169,
         "tag_update": 477169,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "ENTERTAINMENT",
-        "votes": 105,
-        "rating": 4.047619,
-        "weighted_rating": 4.0
+        "votes": 106,
+        "rating": 4.018868,
+        "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

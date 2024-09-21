@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "3.0.2",
+                "change_log": "AI Skydivers are now in the main store in Beta."
+            },
+            {
                 "version": "2.5.7",
                 "change_log": "Added ability to climb\nVisual enhancements and minor bug fixes."
             },
@@ -149,10 +153,6 @@
             {
                 "version": "2.0.3",
                 "change_log": "* We are excited to announce the introduction of cutaway and reserve in this 2.0 version of SkydiveSim! In future updates, we will be adding canopy malfunctions which has been a very popular request.\n* You can now turn off the front hackie and use the advanced hackie which is set up where the hackie is in real life.\n* Fine-tuned Expert and Advanced canopies\n* Longer and more natural  canopy opening animation\n* BASE jump canopies now open faster\n* Enhancements to the menus UI\n\nThis update enhances canopy physics and controls."
-            },
-            {
-                "version": "2.0.2",
-                "change_log": "* We are excited to announce the introduction of cutaway and reserve in this 2.0 version of SkydiveSim! In future updates, we will be adding canopy malfunctions which has been a very popular request.\n* You can now turn off the front hackie and use the advanced hackie which is set up where the hackie is in real life.\n* Fine-tuned Expert and Advanced canopies\n* Longer and more natural  canopy opening animation\n* BASE jump canopies now open faster\n* Enhancements to the menus UI"
             }
         ],
         "on_rookie": true,
@@ -163,17 +163,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478609,
+        "changelog_update": 479689,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479017,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479017,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 30,
         "rating": 4.566667,
         "weighted_rating": 4.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

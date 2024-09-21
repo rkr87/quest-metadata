@@ -28,7 +28,9 @@
         "player_modes": [
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -48,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 7
+                "votes": 8
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -70,28 +72,45 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031450_325426560644883_7793862978609649211_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.9.2.228.1",
+                "change_log": "-Major Audio rework and improvements\n-New audio settings in the settings menu.\n-Rework of the Scene Loader.\n-UFO Spawning and Portal Placement Updates.\n-Coin Tracking: you now receive your coins that you earn in-game."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 479449,
+        "general_update": 479689,
         "genre_update": 479449,
         "device_update": 479449,
         "mode_update": 479449,
         "language_update": 479449,
         "platform_update": 479449,
         "player_mode_update": 479449,
-        "changelog_update": 479449,
+        "changelog_update": 479689,
         "keyword_update": 479449,
-        "tag_update": 479617,
-        "rating_update": 479569,
+        "tag_update": 479689,
+        "rating_update": 479689,
         "iarc_detail_update": 479449,
         "keywords": [
             "soccer"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 8,
-        "rating": 4.875,
-        "weighted_rating": 4.1
+        "votes": 9,
+        "rating": 4.888889,
+        "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -28,7 +28,9 @@
         "player_modes": [
             "STANDING"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -74,6 +76,10 @@
             "logo_transparent": "39001665_339296071762687_3112080143939112786_n.png"
         },
         "changelog": [
+            {
+                "version": "2.124",
+                "change_log": "Bug fixes and improvements"
+            },
             {
                 "version": "2.123",
                 "change_log": "Bug fixes and improvements"
@@ -149,10 +155,6 @@
             {
                 "version": "2.105",
                 "change_log": "Bug fixes and improvements"
-            },
-            {
-                "version": "2.104",
-                "change_log": "Bug fixes and improvements"
             }
         ],
         "on_rookie": false,
@@ -163,17 +165,29 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479521,
+        "changelog_update": 479689,
         "keyword_update": 474685,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 476401,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 11,
         "rating": 3.636364,
         "weighted_rating": 3.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

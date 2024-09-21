@@ -75,11 +75,11 @@
             },
             {
                 "rating": 4,
-                "votes": 355
+                "votes": 357
             },
             {
                 "rating": 5,
-                "votes": 3313
+                "votes": 3316
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -118,18 +118,30 @@
         "changelog_update": 475000,
         "keyword_update": 479113,
         "tag_update": 474880,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "fps",
             "shooter",
             "tactical"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 4054,
-        "rating": 4.614455,
+        "votes": 4059,
+        "rating": 4.614437,
         "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

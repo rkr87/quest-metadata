@@ -77,6 +77,14 @@
         },
         "changelog": [
             {
+                "version": "0.165",
+                "change_log": "Spatial audio fixes"
+            },
+            {
+                "version": "0.164",
+                "change_log": "Free movement"
+            },
+            {
                 "version": "0.163",
                 "change_log": "\"Bug fixes and performance improvements\""
             },
@@ -127,14 +135,6 @@
             {
                 "version": "0.138",
                 "change_log": "More gray colors"
-            },
-            {
-                "version": "0.137",
-                "change_log": "More colors"
-            },
-            {
-                "version": "0.136",
-                "change_log": "8 player support"
             }
         ],
         "on_rookie": false,
@@ -145,17 +145,29 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 479617,
+        "changelog_update": 479689,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 479449,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 9,
         "rating": 5.0,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

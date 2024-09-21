@@ -1,11 +1,11 @@
 {
     "data": {
         "id": "7548248925296881",
-        "app_name": "The Kookys",
+        "app_name": "The Kookys: Lost In The Abyss",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Play as a kooky monkey in multiple places with other kooks playing!\n\n Engage with other kookys, exploring , and discovering hidden secrets.\n\nThe Kookys offers fun and entertainment. Join the kooky Community!",
+        "description": "The Kookys...\n\nWARNING: This game contains Blood, Gore, Suicide.\n\nStory Mode\n\nAs the mystery deepens, it's crucial to find out what lies behind the old Kooky Labs. Staff members who dared to venture into the depths of the abandoned facility have gone missing without a trace. The truth behind their disappearances is buried within the dark corridors, where an unsettling presence seems to lurk.\n\nWhat really happened in the old lab? Why was it shut down, and what secrets were left behind? Uncovering the truth might be the only way to understand the strange occurrences in the new facility above.\n\nBut be warned—whatever you find could change everything. If you proceed, be prepared to face the consequences of the dark history that continues to haunt Kooky Labs.\n\nMultiplayer\n\nWe have/will have\nOnly Up\nTag\nHorror\nShop\nZero Gravity\nChill Room\nRacing\nPVP\nParkour\n\n\n\nBe funni, Be Kooky, But NEVER be a Skibidi Toxic Non-Sigma rizzy bear!",
         "developer": "CapuPlay Studio",
-        "publisher": "CapuPlay Studio",
+        "publisher": "CapuPlay",
         "genres": [
             "Social",
             "Horror",
@@ -30,7 +30,9 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -53,7 +55,7 @@
                 "votes": 9
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -80,7 +82,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 478969,
+        "general_update": 479689,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
@@ -89,15 +91,27 @@
         "player_mode_update": 478969,
         "changelog_update": 478969,
         "keyword_update": 478969,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 478969,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 9,
         "rating": 5.0,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

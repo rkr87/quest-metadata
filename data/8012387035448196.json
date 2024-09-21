@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 152
+                "votes": 154
             },
             {
                 "rating": 2,
-                "votes": 39
+                "votes": 37
             },
             {
                 "rating": 3,
-                "votes": 42
+                "votes": 46
             },
             {
                 "rating": 4,
-                "votes": 51
+                "votes": 54
             },
             {
                 "rating": 5,
-                "votes": 93
+                "votes": 96
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -96,18 +96,30 @@
         "changelog_update": 479353,
         "keyword_update": 479521,
         "tag_update": 479353,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 479353,
         "keywords": [
             "stealth",
             "action",
             "singleplay"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 377,
-        "rating": 2.718833,
+        "votes": 387,
+        "rating": 2.744186,
         "weighted_rating": 2.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

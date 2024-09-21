@@ -32,7 +32,9 @@
             "ROOM_SCALE",
             "STANDING"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -48,11 +50,11 @@
             },
             {
                 "rating": 4,
-                "votes": 77
+                "votes": 78
             },
             {
                 "rating": 5,
-                "votes": 497
+                "votes": 507
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,15 +90,27 @@
         "player_mode_update": 474685,
         "changelog_update": 479521,
         "keyword_update": 474685,
-        "tag_update": 479617,
-        "rating_update": 479617,
+        "tag_update": 479689,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 598,
-        "rating": 4.757525,
+        "votes": 609,
+        "rating": 4.760263,
         "weighted_rating": 4.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

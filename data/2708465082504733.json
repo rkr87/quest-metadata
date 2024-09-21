@@ -40,7 +40,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 145
+                "votes": 146
             },
             {
                 "rating": 2,
@@ -56,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1738
+                "votes": 1739
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -98,7 +98,7 @@
         "changelog_update": 475000,
         "keyword_update": 474880,
         "tag_update": 474880,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "dinosaur",
@@ -107,11 +107,23 @@
             "stealth",
             "jurassic"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 2475,
-        "rating": 4.394343,
+        "votes": 2477,
+        "rating": 4.393218,
         "weighted_rating": 4.3
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

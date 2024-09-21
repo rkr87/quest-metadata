@@ -3,7 +3,7 @@
         "id": "7834939429849827",
         "app_name": "NEW GAME PAGE!!! GO TO DESCRIPTION",
         "release_date": "2024-05-03T00:00:00.000Z",
-        "description": "13+",
+        "description": "13+https://www.meta.com/en-gb/experiences/gippy-runners/27066215902992547/?require_login=true&utm_source=developer.oculus.com&utm_medium=oculusredirect",
         "developer": "NEW GAME PAGE",
         "publisher": "NEW GAME PAGE",
         "genres": [],
@@ -74,7 +74,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479593,
+        "general_update": 479689,
         "genre_update": 479593,
         "device_update": 479593,
         "mode_update": 479593,
@@ -87,11 +87,23 @@
         "rating_update": 479593,
         "iarc_detail_update": 479593,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 12,
         "rating": 4.166667,
         "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -50,15 +50,15 @@
             },
             {
                 "rating": 3,
-                "votes": 221
+                "votes": 220
             },
             {
                 "rating": 4,
-                "votes": 703
+                "votes": 706
             },
             {
                 "rating": 5,
-                "votes": 3448
+                "votes": 3450
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -109,7 +109,7 @@
         "changelog_update": 479617,
         "keyword_update": 474880,
         "tag_update": 474880,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "adventure",
@@ -118,11 +118,23 @@
             "narrative",
             "mystery"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 4536,
-        "rating": 4.619929,
+        "votes": 4540,
+        "rating": 4.620044,
         "weighted_rating": 4.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

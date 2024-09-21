@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 417
+                "votes": 420
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -120,7 +120,7 @@
         "changelog_update": 479617,
         "keyword_update": 474880,
         "tag_update": 475657,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "animation",
@@ -129,11 +129,23 @@
             "monster",
             "star"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 795,
-        "rating": 3.92327,
+        "votes": 798,
+        "rating": 3.927318,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

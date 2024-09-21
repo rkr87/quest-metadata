@@ -37,7 +37,7 @@
             },
             {
                 "rating": 2,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 3,
@@ -88,7 +88,7 @@
         "changelog_update": 475000,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 477337,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "horror",
@@ -97,11 +97,23 @@
             "scary",
             "zombie"
         ],
-        "last_update": 477385,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 37,
-        "rating": 3.837838,
+        "votes": 38,
+        "rating": 3.789474,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

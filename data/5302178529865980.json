@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1164
+                "votes": 1169
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -113,7 +113,7 @@
         "changelog_update": 477649,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "physic",
@@ -122,11 +122,23 @@
             "fight",
             "cyberpunk"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 1248,
-        "rating": 4.884615,
+        "votes": 1253,
+        "rating": 4.885076,
         "weighted_rating": 4.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

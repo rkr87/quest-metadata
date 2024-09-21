@@ -3,7 +3,7 @@
         "id": "5878653762226869",
         "app_name": "YourHaven",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "⭐ **Unity for Humanity 2024 winners** ⭐\n\nFor gamers, athletes, curious people and everyone else, YourHaven guides are here to help!\nEnjoy over 60 different sessions, ranging from stress relief to achieve your peak performance, all through a wide choice of narrators and experiences.\n\n# 👇👇👇 See it for yourself 👇👇👇\n\n🌴Access YourHaven's personalised sessions **from real world-leading wellness experts** and engage in guided interactions in serene environments.\n{1402247260478311}\n\n\n\n🎴 Discover yourself through unique **mixed reality** experiences.\n{495913342947455}\n\n\n🌌 Dive into spaces that help to **calm your mind, body and spirit** within minutes. \n\"Like Netflix for the soul.\"\n{481957577606471}\n\n🏡Or simply **relax and enjoy** from the comfort of your home.\n{1178811013433754}\n\n\n💜 Immerse yourself. **Find your haven**. 💜",
+        "description": "⭐ **Unity for Humanity 2024 winners** ⭐\n\nFor gamers, athletes, curious people and everyone else, YourHaven guides are here to help!\nEnjoy over 60 different sessions, ranging from stress relief to achieve your peak performance, all through a wide choice of narrators and experiences.\n\n# 👇👇👇 See it for yourself 👇👇👇\n\n🌴Access YourHaven's personalised sessions **from real world-leading wellness experts** and engage in guided interactions in serene environments.\n{1402247260478311}\n\n\n\n🎴 Discover yourself through unique **mixed reality** experiences.\n{495913342947455}\n\n\n🌌 Dive into spaces that help to **calm your mind, body and spirit** within minutes. \n\"Like Netflix for the soul.\"\n{481957577606471}\n\n\n\n\n💜 Immerse yourself. **Find your haven**. 💜",
         "developer": "Haven Studios Limited",
         "publisher": "Haven Studios Limited",
         "genres": [
@@ -29,7 +29,9 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -52,7 +54,7 @@
                 "votes": 12
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -78,7 +80,7 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 478081,
+        "general_update": 479689,
         "genre_update": 475729,
         "device_update": 477313,
         "mode_update": 475729,
@@ -87,15 +89,27 @@
         "player_mode_update": 475729,
         "changelog_update": 477265,
         "keyword_update": 475729,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 478081,
         "iarc_detail_update": 475729,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "APPS",
         "votes": 14,
         "rating": 4.714286,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

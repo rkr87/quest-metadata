@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 10
+                "votes": 11
             },
             {
                 "rating": 2,
@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 23
+                "votes": 22
             },
             {
                 "rating": 5,
-                "votes": 79
+                "votes": 80
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -108,7 +108,7 @@
         "changelog_update": 478489,
         "keyword_update": 477601,
         "tag_update": 477601,
-        "rating_update": 479497,
+        "rating_update": 479689,
         "iarc_detail_update": 477601,
         "keywords": [
             "puzzle",
@@ -116,11 +116,23 @@
             "room",
             "mystery"
         ],
-        "last_update": 479497,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 148,
-        "rating": 3.952703,
+        "votes": 149,
+        "rating": 3.939597,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 43
+                "votes": 44
             }
         ],
         "comfort": "NOT_RATED",
@@ -151,7 +151,7 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479257,
+        "general_update": 479689,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
@@ -161,14 +161,26 @@
         "changelog_update": 479593,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479593,
+        "rating_update": 479689,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "APPS",
-        "votes": 96,
-        "rating": 3.385417,
-        "weighted_rating": 3.3
+        "votes": 97,
+        "rating": 3.402062,
+        "weighted_rating": 3.4
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

@@ -81,6 +81,10 @@
         },
         "changelog": [
             {
+                "version": "0.3.5",
+                "change_log": "Big Party Mode! Ability to play with up to 7 players (Experimental)"
+            },
+            {
                 "version": "0.3.4",
                 "change_log": "Added Security Cameras + Microphone to County Jail. More fixes and sound changes"
             },
@@ -113,17 +117,29 @@
         "language_update": 479305,
         "platform_update": 479305,
         "player_mode_update": 479329,
-        "changelog_update": 479521,
+        "changelog_update": 479689,
         "keyword_update": 479305,
         "tag_update": 479305,
         "rating_update": 479305,
         "iarc_detail_update": 479329,
         "keywords": [],
-        "last_update": 479521,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

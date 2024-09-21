@@ -40,7 +40,7 @@
             },
             {
                 "rating": 2,
-                "votes": 132
+                "votes": 131
             },
             {
                 "rating": 3,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2993
+                "votes": 2998
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -121,7 +121,7 @@
         "changelog_update": 479113,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 479617,
+        "rating_update": 479689,
         "iarc_detail_update": 477385,
         "keywords": [
             "shooter",
@@ -130,11 +130,23 @@
             "pvp",
             "combat"
         ],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 4289,
-        "rating": 4.256004,
+        "votes": 4293,
+        "rating": 4.257396,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

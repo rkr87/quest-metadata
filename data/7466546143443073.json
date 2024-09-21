@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "1.21",
+                "change_log": "Player's arms and gun recoil is added"
+            },
+            {
                 "version": "1.19",
                 "change_log": "Trigger finger movement is added"
             },
@@ -130,17 +134,29 @@
         "language_update": 478969,
         "platform_update": 478969,
         "player_mode_update": 478969,
-        "changelog_update": 479377,
+        "changelog_update": 479689,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 479593,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479593,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 6,
         "rating": 2.5,
         "weighted_rating": 3.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

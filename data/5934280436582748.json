@@ -30,12 +30,13 @@
             "ROOM_SCALE"
         ],
         "tags": [
+            "Mixed Reality",
             "App Lab Graduates"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 41
+                "votes": 42
             },
             {
                 "rating": 2,
@@ -51,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 278
+                "votes": 280
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -127,10 +128,6 @@
             {
                 "version": "1.4.21",
                 "change_log": "Introducing... Powerups!"
-            },
-            {
-                "version": "1.4.2",
-                "change_log": "Introducing... Powerups!"
             }
         ],
         "on_rookie": false,
@@ -141,17 +138,29 @@
         "language_update": 474685,
         "platform_update": 478249,
         "player_mode_update": 474685,
-        "changelog_update": 478489,
+        "changelog_update": 479689,
         "keyword_update": 474685,
-        "tag_update": 479617,
-        "rating_update": 479546,
+        "tag_update": 479689,
+        "rating_update": 479689,
         "iarc_detail_update": 478513,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
-        "votes": 427,
-        "rating": 4.236534,
+        "votes": 430,
+        "rating": 4.232558,
         "weighted_rating": 4.2
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }

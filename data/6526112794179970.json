@@ -3,7 +3,7 @@
         "id": "6526112794179970",
         "app_name": "FingFing",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "When you press your finger on the ground, the character moves with a \"Fing\" sound. \nThis is the only control in this game, you don't need a controller, just \"Fing\" the ground with your index finger, and you can clear all the stages of the game. \n\n![{\"height\":720,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/75404378_469790082330112_4642416773285806125_n.png?_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=WyckBjpva4IQ7kNvgEuP7mA&_nc_ht=scontent.oculuscdn.com&_nc_gid=ANJVrisocPVrBFHlReWHY8r&oh=00_AYAVUgIkTi9EX8kwPRkuegeqgSRqRxjNRghx3zrfZu6vCA&oe=66EFE403)\n\nYou can unlock 6 cute characters, and you can choose the main character for each stage. \nYou can play a total of 300 stages. when you clear the last stage, you can watch a concert of the 6 characters. \n\n\"FingFing\" is organized into four categories of games.\n Crossing the road, Find the maze, Block floor, Memorization\n\nImmerse yourself in a casual puzzle game filled with cute spaces and cute characters.  Master the art of finger movement and challenge yourself with increasingly complex levels. \n\n1. Crossing the road\n{468079492518832}\n\n2. Find the maze\n{1746179812456480}\n\n3. Block floor\n{1200729004441377}\n\n4. Memorization\n{1041506847592682}",
+        "description": "When you press your finger on the ground, the character moves with a \"Fing\" sound. \nThis is the only control in this game, you don't need a controller, just \"Fing\" the ground with your index finger, and you can clear all the stages of the game. \n\n![{\"height\":720,\"type\":\"image\",\"width\":1280}](https://scontent.oculuscdn.com/v/t64.5771-25/75404378_469790082330112_4642416773285806125_n.png?_nc_cat=103&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=KyXi82pBTbAQ7kNvgF_TEhk&_nc_ht=scontent.oculuscdn.com&_nc_gid=AxTCSc5eUVx2La2wldFzAsk&oh=00_AYBQbxh1CCv4ifKiasrics1_AaTCvisqWrHXtYwAoc4guw&oe=66F3D883)\n\nYou can unlock 6 cute characters, and you can choose the main character for each stage. \nYou can play a total of 300 stages. when you clear the last stage, you can watch a concert of the 6 characters. \n\n\"FingFing\" is organized into four categories of games.\n Crossing the road, Find the maze, Block floor, Memorization\n\nImmerse yourself in a casual puzzle game filled with cute spaces and cute characters.  Master the art of finger movement and challenge yourself with increasingly complex levels. \n\n1. Crossing the road\n{468079492518832}\n\n2. Find the maze\n{1746179812456480}\n\n3. Block floor\n{1200729004441377}\n\n4. Memorization\n{1041506847592682}",
         "developer": "AroundEffect Inc.",
         "publisher": "AroundEffect Inc.",
         "genres": [
@@ -183,7 +183,9 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -227,7 +229,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 479617,
+        "general_update": 479689,
         "genre_update": 478441,
         "device_update": 478441,
         "mode_update": 478441,
@@ -236,15 +238,27 @@
         "player_mode_update": 478441,
         "changelog_update": 478441,
         "keyword_update": 478441,
-        "tag_update": 479617,
+        "tag_update": 479689,
         "rating_update": 478441,
         "iarc_detail_update": 478441,
         "keywords": [],
-        "last_update": 479617,
+        "last_update": 479689,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "040116fbe156d051f3dc9292ebaedd64"
+            ],
+            "path": [
+                "item",
+                "is_salsa_appropriate"
+            ]
+        }
+    ]
 }
