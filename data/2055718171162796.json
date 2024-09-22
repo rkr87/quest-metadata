@@ -43,7 +43,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 160
+                "votes": 161
             },
             {
                 "rating": 2,
@@ -59,7 +59,7 @@
             },
             {
                 "rating": 5,
-                "votes": 846
+                "votes": 847
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "38974815_330154097603796_583183325309435904_n.png"
         },
         "changelog": [
+            {
+                "version": "0.11.1.4",
+                "change_log": "- Rekordbox metadata can now be imported from Dropbox\n- TIDAL tracks now imported from Rekordbox collection xml\n- Added Beatport audio quality selection\n- Streaming services now auto-login on start if possible (previously required visiting them in the music menu to login)\n- Fixed issue where Dropbox would require manually logging in more often than necessary\n- Fixed SoundCloud track search broken by API change\n- Enabled additional achievements on Meta Quest that were previously only available on PC"
+            },
             {
                 "version": "0.11.1.3",
                 "change_log": "+ Added Tribe Lounge\n+ Perma-mute in Video Calls\n+ Song Metadata for all users on Video Call Stage\n+ 5 Minute Video Call Timeout\n+ Fixed incorrect Game Mode pop up messages\n+ Fixed Workshop displaying twice\n+ Fixed hands disappearing in certain situations\n+ Fixed table height adjust bug\n+ Fixed a Startup Crash on Steam"
@@ -159,10 +163,6 @@
             {
                 "version": "0.10.4",
                 "change_log": "New Features\n- New User Interface\n- Tribe OG Badge!\n\nFixes\n- Fixed video call leave button not working\n- Fixed close room button to kick all the players in the room\n- Fixed Twitch login menu going blank if login fails instead of showing instructions to get a new access token like it should\n- If logging into the backend fails it should timeout a lot faster, to avoid issues like that avatars list not appearing"
-            },
-            {
-                "version": "0.10.4",
-                "change_log": "- New User Interface\n- Tribe OG Badge!"
             }
         ],
         "on_rookie": true,
@@ -173,33 +173,21 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 478585,
+        "changelog_update": 479714,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479689,
+        "rating_update": 479714,
         "iarc_detail_update": 477385,
         "keywords": [
             "education",
             "learn",
             "music"
         ],
-        "last_update": 479689,
+        "last_update": 479714,
         "category": "APPS",
-        "votes": 1238,
-        "rating": 4.182553,
+        "votes": 1240,
+        "rating": 4.180645,
         "weighted_rating": 4.1
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "040116fbe156d051f3dc9292ebaedd64"
-            ],
-            "path": [
-                "item",
-                "is_salsa_appropriate"
-            ]
-        }
-    ]
+    "errors": []
 }

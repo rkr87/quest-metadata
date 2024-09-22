@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.4.6",
+                "change_log": "bug fixes and swimming mechanic!"
+            },
+            {
                 "version": "0.4.4",
                 "change_log": "BIG BUG fix"
             },
@@ -137,10 +141,6 @@
             {
                 "version": "0.2.7",
                 "change_log": "new map, cosmetic and bug fixes!"
-            },
-            {
-                "version": "0.2.6",
-                "change_log": "MANY FIXES AND BETA BEACH MAP WITH EXTRA COSMETICS"
             }
         ],
         "on_rookie": false,
@@ -151,29 +151,17 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 479569,
+        "changelog_update": 479714,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 479353,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479569,
+        "last_update": 479714,
         "category": "ENTERTAINMENT",
         "votes": 14,
         "rating": 4.214286,
         "weighted_rating": 3.9
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "040116fbe156d051f3dc9292ebaedd64"
-            ],
-            "path": [
-                "item",
-                "is_salsa_appropriate"
-            ]
-        }
-    ]
+    "errors": []
 }

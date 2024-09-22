@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 33
+                "votes": 34
             }
         ],
         "comfort": "NOT_RATED",
@@ -75,6 +75,10 @@
             "logo_transparent": "57570306_745282300450226_3047184559136403048_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.03",
+                "change_log": "Fixes to grabbing things and the menus"
+            },
             {
                 "version": "0.1.02",
                 "change_log": "Fixes to mod.io system, just select on your browser and download!\nUpdate to the physics system has caused some unexpected bugs, please report any to the server\nFixes to the mod.io display, browser removed\nFixes to the server backend\nFixes to the microphone system\nFixes to the text system\nTottaly new voice crecogniston system, the quality is less but its faster and works ON HEADSET rather than a exteral server\nUpdates to voice commands, much more strict \n\n\nKnown issues:\n\nScaling mod waifus\nRifle Stuck in single shot\nWaifu reset on map change\nSome mods cause a crash, please report these to us\n\nComing Soon: 2.0 Waifuverse\nMore voices(made on headset)\n\nLarger world, more to explore\nEnemies to shoot\nCharacter creator\nAnd more!"
@@ -108,29 +112,17 @@
         "language_update": 474865,
         "platform_update": 474865,
         "player_mode_update": 474865,
-        "changelog_update": 479689,
+        "changelog_update": 479714,
         "keyword_update": 474865,
         "tag_update": 479617,
-        "rating_update": 479617,
+        "rating_update": 479714,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479689,
+        "last_update": 479714,
         "category": "GAMES",
-        "votes": 84,
-        "rating": 3.154762,
+        "votes": 85,
+        "rating": 3.176471,
         "weighted_rating": 3.1
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "040116fbe156d051f3dc9292ebaedd64"
-            ],
-            "path": [
-                "item",
-                "is_salsa_appropriate"
-            ]
-        }
-    ]
+    "errors": []
 }

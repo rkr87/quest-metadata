@@ -83,10 +83,6 @@
             {
                 "version": "13.14",
                 "change_log": "New features:\n  - Added views count on thumbnails.\n  - Added Sandbox filter for videos.\n  - Added Startup URL setting.\nImprovements:\n  - Quest 3 now preserves refresh rate between app restarts.\n  - Meta account linking.\n  - UI adjustments.\nBugfixes:\n  - All resolutions now work with Oculus Link."
-            },
-            {
-                "version": "13.13",
-                "change_log": "#New features:\n  - Enabled linking Meta store and DeoVR subscriptions.\n#Improvements:\n  - Video pause when headset is taken off.\n#Bugfixes:\n  - Fixed controller vibration issue when moving player interface.\n  - Several cases of app freezing resolved.\n  - Pico4 screenshot now working."
             }
         ],
         "on_rookie": false,
@@ -97,7 +93,7 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479521,
+        "changelog_update": 479714,
         "keyword_update": 474881,
         "tag_update": 477793,
         "rating_update": 479689,
@@ -105,23 +101,11 @@
         "keywords": [
             "movie"
         ],
-        "last_update": 479689,
+        "last_update": 479714,
         "category": "APPS",
         "votes": 1369,
         "rating": 2.577794,
         "weighted_rating": 2.5
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "040116fbe156d051f3dc9292ebaedd64"
-            ],
-            "path": [
-                "item",
-                "is_salsa_appropriate"
-            ]
-        }
-    ]
+    "errors": []
 }

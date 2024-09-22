@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "20.11.1",
+                "change_log": "* Fix hand tracking throwing momentum (by @shinyquagsire23 #2416)\n* Fix hand tracking not working on \"Disabled\" Hand tracking interaction (by @zarik5 #2413)\n* Fix face tracking on Quest Pro (by @zarik5 #2391)\n* Fix blank right eye view with FFE off (by @zarik5 #2397)\n* Fix IDRs on Linux/software encoding (by @The-personified-devil #2405)\n* Make Flatpack package build latest launcher (by @failboat78 #2383)"
+            },
+            {
                 "version": "20.10.0",
                 "change_log": "* Support VRChat hand tracking (by @ReinaS-64892 @AdalynBlack @zarik5 #2295, @zarik5 #2313 #2323)\n  * This is enabled by default (`Separate trackers`) in the Presets tab, but you can select `Disabled` or `ALVR bindings` if you have compatibility problems with other games.\n* Fix Quest 3 not supporting 120Hz (by @The-personified-devil)\n* Tracking timing jitter (by @zarik5 #2285)\n* Fix crash with some games (by @szneqz #2309)\n* Fix crash when shutting down launcher (by @zarik5 #2320)\n* Fix crash with vibration on Focus 3 (by @zarik5 #2324)\n* Internal refactors of the client graphics (wgpu) and server code architecture (by @zarik5)"
             }
@@ -86,29 +90,17 @@
         "language_update": 478921,
         "platform_update": 478921,
         "player_mode_update": 478921,
-        "changelog_update": 478921,
+        "changelog_update": 479714,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 479521,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479521,
+        "last_update": 479714,
         "category": "APPS",
         "votes": 24,
         "rating": 4.458333,
         "weighted_rating": 4.2
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "040116fbe156d051f3dc9292ebaedd64"
-            ],
-            "path": [
-                "item",
-                "is_salsa_appropriate"
-            ]
-        }
-    ]
+    "errors": []
 }

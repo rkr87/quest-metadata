@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "3.0.3",
+                "change_log": "Skydive Sim 3.0: Now with AI Skydivers!\n\nWe’re excited to announce Skydive Sim 3.0 is now available with a brand-new feature: AI Skydivers. These virtual partners can join you in freefall, fly alongside you under canopy, and help you practice essential skydiving skills.\n\nWhat’s New:\nAI Jump Partners: Jump, freefall, and navigate under canopy with AI companions.\nFreefall Training: Practice fall rate, proximity flying, and formation skills.\nCanopy Skills: Fly with AI references, improve your accuracy, and perfect your landings.\nUpdate now to experience the next level of virtual skydiving with Skydive Sim 3.0!"
+            },
+            {
                 "version": "3.0.2",
                 "change_log": "AI Skydivers are now in the main store in Beta."
             },
@@ -149,10 +153,6 @@
             {
                 "version": "2.0.5",
                 "change_log": "* Swooping feature is now in beta! Gain points as you swoop across the ground or while flying in close proximity to mountains and other objects. (You can only use toggles at this time)\n* Optimization for Quest 3 and new UI controller map to reflect the new Quest 3 Headset.\n* Better overall performance and smooth playability in all scenes.\n* You can now change the Quality settings even in Quest standalone for clearer images. (Too high of settings may impact frame rates in some scenes)\n* Bug fixes and other enhancements."
-            },
-            {
-                "version": "2.0.3",
-                "change_log": "* We are excited to announce the introduction of cutaway and reserve in this 2.0 version of SkydiveSim! In future updates, we will be adding canopy malfunctions which has been a very popular request.\n* You can now turn off the front hackie and use the advanced hackie which is set up where the hackie is in real life.\n* Fine-tuned Expert and Advanced canopies\n* Longer and more natural  canopy opening animation\n* BASE jump canopies now open faster\n* Enhancements to the menus UI\n\nThis update enhances canopy physics and controls."
             }
         ],
         "on_rookie": true,
@@ -163,29 +163,17 @@
         "language_update": 474685,
         "platform_update": 474685,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 479714,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479017,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479689,
+        "last_update": 479714,
         "category": "GAMES",
         "votes": 30,
         "rating": 4.566667,
         "weighted_rating": 4.3
     },
-    "errors": [
-        {
-            "message": "A server error field_exception occured. Check server logs for details.",
-            "severity": "ERROR",
-            "mids": [
-                "040116fbe156d051f3dc9292ebaedd64"
-            ],
-            "path": [
-                "item",
-                "is_salsa_appropriate"
-            ]
-        }
-    ]
+    "errors": []
 }
