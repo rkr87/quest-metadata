@@ -29,6 +29,7 @@
         "platforms": [
             "Meta Quest",
             "Meta Quest 2",
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro"
         ],
@@ -41,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 242
+                "votes": 245
             },
             {
                 "rating": 2,
@@ -49,15 +50,15 @@
             },
             {
                 "rating": 3,
-                "votes": 87
+                "votes": 86
             },
             {
                 "rating": 4,
-                "votes": 234
+                "votes": 235
             },
             {
                 "rating": 5,
-                "votes": 2007
+                "votes": 2023
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +84,14 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "0.4.2 PATCH UPDATE\n\n- Temporarily disabled glove collisions\n- Optimized VFA arena\n- Fixed issues with the new empty arena template\n- Resolved various other bugs\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "0.4.2 PATCH UPDATE\n\n- Temporarily disabled glove collisions\n- Optimized VFA arena\n- Fixed issues with the new empty arena template\n- Resolved various other bugs\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.4.2\n\nTHE VFA ARENA\nThe VFA league has reached 10k members, so we’ve made an official map. There is an 11x11 public lobby option available in this arena.\n\nSTORE ITEMS IN ARENA EDITOR\nYou can now build shops in the arena editor. Arena authors will receive a store credits reward when an item is purchased in their arena. This way you can support someone who created a cool map. There is also a new ‘Donate SC’ button on the arena info screen.\n\nTHROW-INS AND NEW GK MECHANICS IN PRIVATES\nAdded throw-ins, and you can now switch to the new GK mechanics in private lobbies.\n\nTHROWING PHYSICS UPDATE\nFast-moving balls are not magnetized to the gloves anymore.\n\nNEW IN ARENA EDITOR\nFixed bugs and enhanced arena editing. Added a new locomotion mode with no speed cap. Added a new empty scene template.\n\nOTHER\nAdded 40 new items to the store, including the new ball called ‘FLIGHT PLAN’ because it flies slowly but steadily. Fixed some bugs and made various minor enhancements. Also, gloves now have collisions.\n\nVERIFICATION BADGES\nImplemented in this update and we’ll start checking verification requests very soon.\n"
@@ -154,14 +163,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.5\n\nINTRODUCING REPLAYS: \nNow you can record any multiplayer lobby as a replay, saved in the cloud. Replays capture the position and behavior of all objects and players and can be viewed in the headset’s camera mode (you can watch it flying around the scene). Unlike video recording, replays don’t use heavy hardware resources, so no lags or extra battery drain. \n\nFind the Replays icon at the top of the menu. Replays are currently in beta, with features like auto-saving goals, sharing replays, and stadium screen replays coming soon.\n\nMEET THE NEW BRAND “U19”:\nU19 designers are creating extra detailed cosmetics with unique, slightly futuristic concepts. The brand is launching with a limited offer of three bundles, each consisting of six items. All items are also available for single purchase.\n\nOTHER ENHANCEMENTS:\n- Fixed minor bugs, such as players sometimes appearing in a white t-shirt.\n- Potentially removed lag when other players were switching between custom jerseys or entering the lobby. \n- Fixed the ball rotation sync (previously appeared to rotate slower when kicked by other players). \n- Fixed the ball slightly teleporting when entering the goals.\n- Fixed lag when scrolling through custom arena lists.\n\n\nThank you all for playing VRFS. We are already working on more enhancements and features.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.5\n\nINTRODUCING REPLAYS: \nNow you can record any multiplayer lobby as a replay, saved in the cloud. Replays capture the position and behavior of all objects and players and can be viewed in the headset’s camera mode (you can watch it flying around the scene). Unlike video recording, replays don’t use heavy hardware resources, so no lags or extra battery drain. \n\nFind the Replays icon at the top of the menu. Replays are currently in beta, with features like auto-saving goals, sharing replays, and stadium screen replays coming soon.\n\nMEET THE NEW BRAND “U19”:\nU19 designers are creating extra detailed cosmetics with unique, slightly futuristic concepts. The brand is launching with a limited offer of three bundles, each consisting of six items. All items are also available for single purchase.\n\nOTHER ENHANCEMENTS:\n- Fixed minor bugs, such as players sometimes appearing in a white t-shirt.\n- Potentially removed lag when other players were switching between custom jerseys or entering the lobby. \n- Fixed the ball rotation sync (previously appeared to rotate slower when kicked by other players). \n- Fixed the ball slightly teleporting when entering the goals.\n- Fixed lag when scrolling through custom arena lists.\n\n\nThank you all for playing VRFS. We are already working on more enhancements and features.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.4\n\nCustom arenas now have auto generated cover images\n\nPrivate lobby creators can kick and block players \n(vote kicks for pubs coming in later updates) \n\nThe camera now disappears when it is too close to the player\n\nSlightly enhanced ball bouncing physics\n\nBotkeepers are available in every arena in private lobbies\n\nFixed some store items following community feedback (but probably not all of them just yet)\n\nFixed known bugs and issues (bugs related to camera mode, rules were sometimes triggered randomly, game loading issues, and more)\n\nIncreased net physics response (still working on enhancing nets).\n\nMore things are in production and testing and will be released soon. Thanks for staying tuned.\n"
             }
         ],
         "on_rookie": false,
@@ -170,18 +171,18 @@
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 474685,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 479809,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479714,
+        "rating_update": 479809,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479714,
+        "last_update": 479809,
         "category": "GAMES",
-        "votes": 2621,
-        "rating": 4.416635,
+        "votes": 2640,
+        "rating": 4.416667,
         "weighted_rating": 4.4
     },
     "errors": []

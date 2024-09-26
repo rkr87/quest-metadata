@@ -21,6 +21,7 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -75,6 +76,14 @@
             "logo_transparent": "39031629_876249037841735_4324718783200566140_n.png"
         },
         "changelog": [
+            {
+                "version": "1.21.00.19",
+                "change_log": "- Fixed restore play state on load session"
+            },
+            {
+                "version": "1.21.00.18",
+                "change_log": "- Fixed early out of audio recording\n- Moved export all to debug window"
+            },
             {
                 "version": "1.21.00.17",
                 "change_log": "Permissions change"
@@ -146,14 +155,6 @@
             {
                 "version": "1.20.00.07",
                 "change_log": "RPM new URL2, Step seq instanced optimised"
-            },
-            {
-                "version": "1.20.00.05",
-                "change_log": "New deck models, scroller fix on decks"
-            },
-            {
-                "version": "1.20.00.04",
-                "change_log": "- DJ/Decks refresh\n- New single interface similar to DJ Apps\n- On full version includes User Folders browser\n- Sort by BPM, Key, Name\n- Countdown displays and metering\n- Changed Crossfader gain curves to match popular DJ software"
             }
         ],
         "on_rookie": false,
@@ -162,15 +163,15 @@
         "device_update": 478921,
         "mode_update": 478921,
         "language_update": 478921,
-        "platform_update": 478921,
+        "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 479689,
+        "changelog_update": 479809,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479689,
+        "last_update": 479809,
         "category": "APPS",
         "votes": 4,
         "rating": 5.0,

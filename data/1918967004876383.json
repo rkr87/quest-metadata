@@ -36,6 +36,7 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -65,7 +66,7 @@
             },
             {
                 "rating": 5,
-                "votes": 317
+                "votes": 318
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -90,6 +91,10 @@
             "logo_transparent": "38974796_1211327242658424_1403983182637732834_n.png"
         },
         "changelog": [
+            {
+                "version": "1.7.395",
+                "change_log": "Endless Mode changes:\n* The number of items available in the first store has been increased\n* Increased +100 res for 'less resources' modifier in hard mode\n* Points are now given for allies rescued and subtracted for allies lost (for ships of medium size and above)\n* 'Protect' missions won't end as soon as one ally is killed and points will be awarded for each ally saved\n* New Modifier: 'Adaptive fleets'. This option makes the strength of enemy fleets mirror your own fleet strength.\n* New Modifier: Better store items option (+1 tech level)\n* Fixed bug when playing with no-permadeath where the game would load with no mission choices\n* A final score notification is shown when you finish the game in Endless Mode\n* Negative modifiers now affect the total score modifier differently and shouldn't reduce your modifier as much as before\n\nOther changes:\n* Dionoid Lightning gun cooldown increased from 14 to 32 seconds.\n* Fixed issue with Plasma ball item\n"
+            },
             {
                 "version": "1.7.379",
                 "change_log": "New:\n\nGraphics Updates. Quest 3 now includes color enhancements, light bloom (glows) and new lighting effects.\n\nBugfixes:\n\n- Fixed issue with voice commands not listening for new commands after the first one\n- Other misc fixes"
@@ -137,12 +142,12 @@
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 479210,
-        "platform_update": 479210,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479210,
+        "changelog_update": 479809,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 479305,
+        "rating_update": 479809,
         "iarc_detail_update": 477385,
         "keywords": [
             "space",
@@ -150,10 +155,10 @@
             "rt",
             "war"
         ],
-        "last_update": 479305,
+        "last_update": 479809,
         "category": "GAMES",
-        "votes": 439,
-        "rating": 4.523918,
+        "votes": 440,
+        "rating": 4.525,
         "weighted_rating": 4.5
     },
     "errors": []

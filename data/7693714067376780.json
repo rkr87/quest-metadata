@@ -30,6 +30,7 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -60,7 +61,7 @@
             },
             {
                 "rating": 5,
-                "votes": 31
+                "votes": 33
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,6 +87,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.5",
+                "change_log": "support for MX Ink stylus, localization overhaul, minor bug fixes"
+            },
+            {
                 "version": "1.0.4",
                 "change_log": "First update after store release\n\nImprovements:\n* Performance optimizations\n* Rank achieved now shown on leaderboards in addition to time\n* Improved musical timing of wave transition\n* Additional polish to the game end sequence\n* Improved collision between space eel and \"ladder\" crystals when dashing\n* Space eel dynamically steers out of the way of the player's head when diving into new wave or flying towards player\n* Space eel dives into wave from one of 4 different corners based on aim direction\n\nBug Fixes:\n* Fix issue where music doesn't always loop properly\n* Fix for red \"1:00\" that would show after your space eel dies\n* Fix for haptics not working when crashing through things with the Thrash Attack powerup\n* Fixed space eel head being oriented incorrectly when flying towards the player \n* Fix for some gameplay assets drawing on top of the pause menu\n* When you dash into a spike ball, \"ladder\" crystals past the impact point no longer shatter"
             },
@@ -100,12 +105,12 @@
         "device_update": 478321,
         "mode_update": 478321,
         "language_update": 478321,
-        "platform_update": 478321,
+        "platform_update": 479809,
         "player_mode_update": 478321,
-        "changelog_update": 478921,
+        "changelog_update": 479809,
         "keyword_update": 478321,
         "tag_update": 478321,
-        "rating_update": 479353,
+        "rating_update": 479809,
         "iarc_detail_update": 478921,
         "keywords": [
             "action",
@@ -113,10 +118,10 @@
             "music",
             "race"
         ],
-        "last_update": 479353,
+        "last_update": 479809,
         "category": "GAMES",
-        "votes": 37,
-        "rating": 4.756757,
+        "votes": 39,
+        "rating": 4.769231,
         "weighted_rating": 4.5
     },
     "errors": []

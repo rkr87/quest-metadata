@@ -26,6 +26,7 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -55,7 +56,7 @@
             },
             {
                 "rating": 5,
-                "votes": 31
+                "votes": 33
             }
         ],
         "comfort": "NOT_RATED",
@@ -86,6 +87,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.2.0",
+                "change_log": "Added iron heart prompt of 3 consecutive fails.  Tutorial: Disabled weapon drop repool in basic tut.  Adv Tut: Fixed Floor Collision missing at start, added wall collider to rear.  BabaYaga Stair collision added.  Level Results display time display fix.   Fixed localization issue when SaveData deleted.  OVRManager with Dynamic resolution.  TransSiberian: Enemy on top of train sets override teleport target to the flashbang grenade, disabled flashbang teleport target.  EnemySpawnGroup bug fix.  Disabled self shooting."
+            },
+            {
                 "version": "0.1.1.2",
                 "change_log": "Build notes - v0.1.1.2\n- Fixed the issue causing the oculus system recenter getting the horizon very wrong\n- Adjusted chopper health in Gunship\n- Added a damage flash to the helicopter in Gunship, chopper frame will now flash red with each hit of damage.\n- Fixed some issues with localised text overlapping\n- Small balancing tweaks\n- Fixed an issue with Modifier challenge progress bars\n- Minor text changes"
             },
@@ -99,24 +104,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479377,
+        "general_update": 479809,
         "genre_update": 479161,
         "device_update": 479161,
         "mode_update": 479161,
         "language_update": 479161,
-        "platform_update": 479161,
+        "platform_update": 479809,
         "player_mode_update": 479161,
-        "changelog_update": 479161,
+        "changelog_update": 479809,
         "keyword_update": 479161,
         "tag_update": 479161,
-        "rating_update": 479569,
+        "rating_update": 479809,
         "iarc_detail_update": 479161,
         "keywords": [],
-        "last_update": 479569,
+        "last_update": 479809,
         "category": "GAMES",
-        "votes": 38,
-        "rating": 4.578947,
-        "weighted_rating": 4.3
+        "votes": 40,
+        "rating": 4.6,
+        "weighted_rating": 4.4
     },
     "errors": []
 }

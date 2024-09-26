@@ -21,6 +21,7 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -30,11 +31,13 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 30
+                "votes": 32
             },
             {
                 "rating": 2,
@@ -50,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 34
+                "votes": 36
             }
         ],
         "comfort": "NOT_RATED",
@@ -76,6 +79,18 @@
         },
         "changelog": [
             {
+                "version": "0.1.08",
+                "change_log": "Hotfix to mod.io menu"
+            },
+            {
+                "version": "0.1.07",
+                "change_log": "Added additional animations and a in game text input so you dont have to speak"
+            },
+            {
+                "version": "0.1.05",
+                "change_log": "Fixes to Quest2 keyboard, text bugs too."
+            },
+            {
                 "version": "0.1.03",
                 "change_log": "Fixes to grabbing things and the menus"
             },
@@ -98,10 +113,6 @@
             {
                 "version": "0.0.86",
                 "change_log": "Fixes to hand tracking, aniem reality, and blinking"
-            },
-            {
-                "version": "0.0.80",
-                "change_log": "quick fix for the action system. Basically a overhaul tbh"
             }
         ],
         "on_rookie": false,
@@ -110,18 +121,18 @@
         "device_update": 474865,
         "mode_update": 474865,
         "language_update": 474865,
-        "platform_update": 474865,
+        "platform_update": 479809,
         "player_mode_update": 474865,
-        "changelog_update": 479714,
+        "changelog_update": 479809,
         "keyword_update": 474865,
-        "tag_update": 479617,
-        "rating_update": 479714,
+        "tag_update": 479809,
+        "rating_update": 479809,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479714,
+        "last_update": 479809,
         "category": "GAMES",
-        "votes": 85,
-        "rating": 3.176471,
+        "votes": 89,
+        "rating": 3.168539,
         "weighted_rating": 3.1
     },
     "errors": []

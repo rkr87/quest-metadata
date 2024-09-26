@@ -23,6 +23,7 @@
             "Norwegian (Bokmål)"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -75,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.4",
+                "change_log": "Blue Sector v1.4. includes a fish feeding scenario, a fish welfare scenario, a fish maintenance scenario,  a fish factory scenario, and a fish laboratory scenario.\n\n# Change Log\n\n## Added:\n- We added a laboratory scenario in which the player measures and weighs a salmon, and calculates its Condition Factor. The player can also play around with a microscope and a handheld counter, which will be used to count plankton in a water sample in the future. \n\n## Changed:\n- We gave NPCs the ability to look at the player when they talk.\n- We gave the most visible grabbable objects more natural grab poses.\n\n## Fixed:\n- We made textures in the distance less blurry, making it easier to read some distant text elements.\n- We made it impossible to pick up and pocket levers and buttons.\n- We fixed a bug which sometimes made it impossible to close the player’s hands after going from the HSE (Health, Security and Environment) station room to the bleeding station."
+            },
+            {
                 "version": "1.3",
                 "change_log": "Blue Sector v1.3. includes a fish feeding scenario, a fish welfare scenario, a fish maintenance scenario, and a fish factory scenario.\n\n# Change Log\n\n## Added:\n- We integrated the fish maintenance scenario into the Blue Sector app. The new scenario consists of tasks such as repairing the fish cage, manually feeding the fish, and discarding dead fish pumped from the cage.\n- We added touch screen functionality to the virtual tablet, allowing the player to interact with the tablet user interface by using their index finger.\n- We added an inventory which allows transportation of objects between scenes. It can be opened by pressing the Y-button on the left hand controller.\n\n## Changed:\n- We reworked the virtual tablet so that  the player can more easily keep track of the progress and the current objectives. The user interface of the tablet is also simplified. The updated tablet is now available in the fish factory scenario with the corresponding skills, tasks, subtasks and steps.\n- We updated the logic of the fish behavior in the fish feeding scenario. The fish will swim upwards only when they are hungry and the feeding intensity is set to high.\n- The food wastage UI bar does not appear completely empty when there is zero waste in the fish feeding scenario.\n\n## Fixed:\n- We fixed the issue where the hands would stretch when grabbing objects in the fish factory scenario.\n- We fixed the issue where live fish never appeared in the bleeding station of the factory."
             },
@@ -93,15 +98,15 @@
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
-        "platform_update": 478969,
+        "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 479809,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 478969,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 478969,
+        "last_update": 479809,
         "category": "GAMES",
         "votes": 0,
         "rating": 0.0,

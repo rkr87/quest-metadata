@@ -14,13 +14,16 @@
             "Hand Tracking"
         ],
         "modes": [
-            "Single User"
+            "Single User",
+            "Multiplayer",
+            "Co-op"
         ],
         "languages": [
             "English"
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -52,26 +55,26 @@
             },
             {
                 "rating": 4,
-                "votes": 813
+                "votes": 814
             },
             {
                 "rating": 5,
-                "votes": 10148
+                "votes": 10154
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
-                "Suggestive Themes",
-                "Drug Reference",
-                "Language"
+                "Lyrics"
             ],
-            "elements": [],
+            "elements": [
+                "Users Interact"
+            ],
             "iarc_icon": "12138850_1786874088228955_5598594603113512960_n.png"
         },
         "internet_connection": "REQUIRED",
-        "website": "http://getsupernatural.com/",
+        "website": "https://www.meta.com/quest/supernatural/",
         "app_images": {
             "cover_landscape": "38974579_532705400981091_1512220966598475776_n.png",
             "cover_portrait": "39036635_261361591697868_4906621736176320512_n.png",
@@ -83,6 +86,10 @@
             "logo_transparent": "38974577_527732514529553_1761998629398118400_n.png"
         },
         "changelog": [
+            {
+                "version": "6.0.0.155082745",
+                "change_log": "Supernatural has officially launched  our mutli-player experience - introducing Supernatural Together. \n\nSupernatural Together lets you work out in real-time with friends and other Athletes, smashing goals, growing your Supernatural community, and pushing your workouts to the next level — together. Invite up to two friends by creating a Team Name, or get automatically teamed up with other Athletes by hopping into a Quick Play. All Team Workouts are collaborative through our new Challenge Zones, compatible across individual skill levels, and you will be able to communicate with your teammates through voice chat and interactions such as clapping and high fives!\n\nNeed help, or have a suggestion? Reach out to us at support@getsupernatural.com"
+            },
             {
                 "version": "5.26.8.154405703",
                 "change_log": "In this latest release, you'll find general bug fixes, stability improvements and tweaks : )\n\nNeed help, or have a suggestion? Reach out to us at support@getsupernatural.com"
@@ -158,25 +165,21 @@
             {
                 "version": "5.17.7.143481790",
                 "change_log": "As of March 31, storing and managing health information (including specifically heart rate) will be covered by a new Consumer Health Data Privacy Policy. Users in the state of Washington who connect a heart rate tracker to the Supernatural mobile app will see a new prompt asking for your consent to collect, store, and process that information.\n\nHave feedback, or got questions? Reach out to us any time through your Companion App (Settings > Support)  or directly at \"Support@GetSupernatural.com\""
-            },
-            {
-                "version": "5.17.6.143417580",
-                "change_log": "As of March 31, storing and managing health information (including specifically heart rate) will be covered by a new Consumer Health Data Privacy Policy. Users in the state of Washington who connect a heart rate tracker to the Supernatural mobile app will see a new prompt asking for your consent to collect, store, and process that information.\n\nHave feedback, or got questions? Reach out to us any time through your Companion App (Settings > Support)  or directly at \"Support@GetSupernatural.com\""
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 479809,
         "genre_update": 474685,
         "device_update": 474685,
-        "mode_update": 474685,
+        "mode_update": 479809,
         "language_update": 474685,
-        "platform_update": 474685,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479497,
+        "changelog_update": 479809,
         "keyword_update": 474913,
         "tag_update": 478105,
-        "rating_update": 479714,
-        "iarc_detail_update": 477385,
+        "rating_update": 479809,
+        "iarc_detail_update": 479809,
         "keywords": [
             "demo",
             "sport",
@@ -184,10 +187,10 @@
             "rhythm",
             "free"
         ],
-        "last_update": 479714,
+        "last_update": 479809,
         "category": "APPS",
-        "votes": 13082,
-        "rating": 4.380523,
+        "votes": 13089,
+        "rating": 4.380778,
         "weighted_rating": 4.3
     },
     "errors": []

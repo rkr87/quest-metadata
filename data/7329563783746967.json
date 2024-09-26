@@ -20,6 +20,7 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro"
         ],
@@ -76,7 +77,7 @@
         "device_update": 475153,
         "mode_update": 475153,
         "language_update": 475153,
-        "platform_update": 475153,
+        "platform_update": 479809,
         "player_mode_update": 475153,
         "changelog_update": 475153,
         "keyword_update": 475153,
@@ -84,11 +85,23 @@
         "rating_update": 478105,
         "iarc_detail_update": 475153,
         "keywords": [],
-        "last_update": 478105,
+        "last_update": 479809,
         "category": "GAMES",
         "votes": 7,
         "rating": 3.857143,
         "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

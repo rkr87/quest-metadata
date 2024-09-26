@@ -31,6 +31,7 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -85,6 +86,10 @@
             "logo_transparent": "43997711_632805781098711_883755566039317171_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.3f4",
+                "change_log": "- Much easier handling of the easel and other studio equipment\n- Full Logitech MX Ink stylus support\n- Boundaryless passthrough\n- Move the studio equipment freely in the entire studio space\n- Several small bug fixes"
+            },
             {
                 "version": "1.5.2f1",
                 "change_log": "- You can now keep painting during the saving process\n- You can change the autosave timer, as well as disable it\n- Moved the \"recenter\" tutorial step to be in front of the easel"
@@ -160,10 +165,6 @@
             {
                 "version": "1.3.3f2",
                 "change_log": "Improved locomotion! Holding trigger will enable the locomotion mode, showing a panel with the options you have. \n\n- Teleport is now an arc instead of a straight line.\n- Teleport now lets you set the target rotation directly using the thumbstick.\n- Teleport now always puts you exactly where you teleported to.\n- Added snap, quick, and smooth rotation.\n- Added head & controller aimed smooth locomotion.\n- Added grab locomotion, allowing you to position yourself by \"dragging\" the world around. Perfect for positioning yourself just right.\n- You can now move in the entire studio environment, instead of only in the blue area.\n\n- Changed mountain lake studio sky."
-            },
-            {
-                "version": "1.3.3f1",
-                "change_log": "- Fixed app not starting on Quest Pro because the permissions dialog wouldn't show up.\n- Storage permission is now only asked when required, not on app start."
             }
         ],
         "on_rookie": false,
@@ -172,9 +173,9 @@
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 474685,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 477769,
+        "changelog_update": 479809,
         "keyword_update": 478321,
         "tag_update": 477913,
         "rating_update": 479546,
@@ -186,7 +187,7 @@
             "art",
             "relax"
         ],
-        "last_update": 479689,
+        "last_update": 479809,
         "category": "GAMES",
         "votes": 849,
         "rating": 4.775029,

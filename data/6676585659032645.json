@@ -1,13 +1,15 @@
 {
     "data": {
         "id": "6676585659032645",
-        "app_name": "Wolf Tag VR",
+        "app_name": "Wolfs Hangout VR",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "This game was originally going to be the first project for me but I decided to make it a full game! This game is like gorilla tag but with more Maps, Cosmetics, and more! The game is a Gorilla tag fan game but with wolves!",
+        "description": "This game was originally going to be the first project for me but I decided to make it a full game! It uses a revised version of the gorilla locomotion to be used for more! Zero gravity, swimming, wall crawling, and more!",
         "developer": "ShadowWolfStudios",
         "publisher": "ShadowWolfStudios",
         "genres": [
-            "Adventure"
+            "Arcade",
+            "Shooter",
+            "Horror"
         ],
         "devices": [
             "Touch Controllers"
@@ -20,6 +22,7 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -76,6 +79,14 @@
             "logo_transparent": "38982539_190451697338836_6493974219653368380_n.png"
         },
         "changelog": [
+            {
+                "version": "0.17",
+                "change_log": "Added Map loaders back, Join room trigger so your always in a lobby, ZeroG Zone, Lighting in the den, and 2 more Cosmetics. Time to work on the fall update!"
+            },
+            {
+                "version": "0.16",
+                "change_log": "Reworked entire game systems. Zero Grav and Lava Parkour will be back in future updates."
+            },
             {
                 "version": "0.5",
                 "change_log": "Added... *drum roll please* RISING LAVAAAAA (you must be in a lobby/room for the lave to work!)"
@@ -134,20 +145,20 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479569,
-        "genre_update": 478969,
+        "general_update": 479809,
+        "genre_update": 479809,
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
-        "platform_update": 478969,
+        "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 479809,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 479569,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479569,
+        "last_update": 479809,
         "category": "GAMES",
         "votes": 7,
         "rating": 3.0,

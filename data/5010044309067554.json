@@ -21,6 +21,7 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2",
@@ -74,6 +75,10 @@
             "logo_transparent": "75485571_2784444201821737_1630832814148452150_n.png"
         },
         "changelog": [
+            {
+                "version": "6.5.5",
+                "change_log": "Hotfix corrections"
+            },
             {
                 "version": "6.5.4",
                 "change_log": "Upgraded demo account"
@@ -141,10 +146,6 @@
             {
                 "version": "5.10.14",
                 "change_log": "Welcome to Virtual Playbook v5.10.14! Here are our latest changes:\nFeatures:\n - Frame Text! View tips written by your coach in virtual playbook\n - Multi-option quizzes will remove duplicate questions\n - Swapping play options resets play time to 0 for a more predictable experience\n - Region quiz questions will tell you how close your guess was\nBug Fixes:\n - Fixed a bug where player jerseys would show up white when changing plays\n - Improved UI responsiveness on play select"
-            },
-            {
-                "version": "5.10.13",
-                "change_log": "Welcome to Virtual Playbook v5.10.13! Here are some of our recent changes:\nFeatures:\n- Film Room has been extended for use while networked, synchronizing media across devices\n- Improved accessibility for VR users changing first-person perspectives\n\nBugfixes:\n- Fixed a bug where in-app screen recording could persist after logging out\n- Fixed a bug where play dates displayed in an inconsistent manner\n- Fixed a bug where the Restart button may show when Play/Pause was meant to be visible\n- Fixed a bug where the Ball may not be in the right position when exiting Practice Mode - Setup\n- Fixed a bug where players could be selected while the play is being changed, yielding an error message\n- Fixed a bug where changing play option while networked could desynchronize the host and clients\n- Fixed a bug where custom jerseys and courts wouldn't synchronize properly over the network\n- Fixed a bug where Film Room media wouldn't layer properly in VR\n- Changed Jerseys to use a shortened version of a player's label"
             }
         ],
         "on_rookie": false,
@@ -153,15 +154,15 @@
         "device_update": 478489,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 474685,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479305,
+        "changelog_update": 479809,
         "keyword_update": 474685,
         "tag_update": 478585,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479305,
+        "last_update": 479809,
         "category": "APPS",
         "votes": 24,
         "rating": 2.0,

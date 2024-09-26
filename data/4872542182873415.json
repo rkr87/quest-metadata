@@ -21,6 +21,7 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -52,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 417
+                "votes": 420
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +78,10 @@
             "logo_transparent": "39031359_1650954835268881_9047741212152430989_n.png"
         },
         "changelog": [
+            {
+                "version": "2024.9.0",
+                "change_log": "Dear Friends of Tennis,\n\nA light tune-up for your VR tennis game to keep things running smoothly. \nStay sharp—our next update is set to serve up something huge! \nVersion 2024.9.0 brings the following changes:\n\n#Improvements\nUI: Renaming of \"Booster Level\" to \"Difficulty Level\"\n\n#Bug Fixes\nHit'Em All: Volley now only counts on first surface contact on the other side\n\nKeep swinging, and enjoy the upgraded experience!\n\nServing up a big THANK YOU to our community!\n\nYour Tennis Esports Team"
+            },
             {
                 "version": "2024.8.1",
                 "change_log": "Dear Friends of Tennis,\n\nWe’re excited to bring you a swift sprint of enhancements in your favorite VR tennis app! Version 2024.8.1 introduces two thrilling new features designed to elevate your game play experience.\n\n#New Features\nLocomotion: We've added a new continuous \"Thumb Move\" option, allowing you to control your position on the court with the thumb stick of your non-dominant hand. You can choose the UP direction of the thumb stick (towards the net, hand direction, or head direction).\nThumb Move: With the new \"Auto Move\" feature, the player automatically moves to the hit point but can override this by using the thumb stick. If deactivated, the player remains stationary unless the thumb stick is used (Advanced mode).\nELO: Your player profile now displays your current ELO , the top 10 players on Tennis Esports, and your rank in the global ELO leader board.\n\n#Improvements\nSettings: added settings to the game mode pause menu.\n\n#Addon\nNew Coaching Rule: Introducing the \"Racket Miss Rule\" to sharpen your game play.\n\n#Bug Fixes\nAI Challenges/Trainings: All users can now access these game modes again.\n\nKeep swinging, and enjoy the upgraded experience!\n\nServing up a big THANK YOU to our community!\n\nYour Tennis Esports Team"
@@ -152,10 +157,6 @@
             {
                 "version": "2023.10.1",
                 "change_log": "Dear Friends of Tennis!\n\nBringing you an ace of an update for your VR tennis extravaganza! This version 2023.10.1 is a hudge step forward in our Tennis Physics.\n\nNew Features:\nAI Squad: Added two females to our AI Squad\nGeneral: Added Quest 3 support\n\nImprovements:\nPhysics: Improved court reflections for all 3 courts\nPhysics: Racket impact collision model improved (sliding ball on racket, ball compressing,...)\nPhysics: Court collision model improved\nPhysics: Execution of faster strokes possible\nPhysics: More realistic topspin and slices trajectories\nPhysics: Better ball control\nAI-Avatar: small visual improvements\n\nBugfixes:\nLeaderboards: Rare cases where values went to the wrong leaderboard was fixed\nAI Match: Exit with pause panel working with handle interaction again\nArcade: Erste Bank HitEmAll not starting was fixed\nMatch: Occasionally assigning wrong points was fixed\n\nServing up a big THANK YOU!\nYour Tennis Esports Team"
-            },
-            {
-                "version": "2023.10.0",
-                "change_log": "Dear Friends of Tennis!\n\nBringing you an ace of an update for your VR tennis extravaganza! This version 2023.10.0 is a hudge step forward in our Tennis Physics.\n\nNew Features:\nAI Squad: Added two females to our AI Squad\nGeneral: Added Quest 3 support\n\nImprovements:\nPhysics: Improved court reflections for all 3 courts\nPhysics: Racket impact collision model improved (sliding ball on racket, ball compressing,...)\nPhysics: Court collision model improved\nPhysics: Execution of faster strokes possible\nPhysics: More realistic topspin and slices trajectories\nPhysics: Better ball control\nAI-Avatar: small visual improvements\n\nBugfixes:\nLeaderboards: Rare cases where values went to the wrong leaderboard\nAI Match: Exit with pause panel not working with handle interaction\n\nServing up a big THANK YOU!\nYour Tennis Esports Team"
             }
         ],
         "on_rookie": true,
@@ -164,18 +165,18 @@
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 474685,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479809,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 479546,
+        "rating_update": 479809,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479546,
+        "last_update": 479809,
         "category": "APPS",
-        "votes": 536,
-        "rating": 4.434701,
+        "votes": 539,
+        "rating": 4.437848,
         "weighted_rating": 4.4
     },
     "errors": []

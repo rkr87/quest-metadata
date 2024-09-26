@@ -21,6 +21,7 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -75,6 +76,14 @@
             "logo_transparent": "38974621_1908542992660462_5488098236238214731_n.png"
         },
         "changelog": [
+            {
+                "version": "1.21.00.19",
+                "change_log": "- Fixed restore play state on load session"
+            },
+            {
+                "version": "1.21.00.17",
+                "change_log": "- Fixed early out of audio recording\n- Moved export all to debug window"
+            },
             {
                 "version": "1.21.00.16",
                 "change_log": "Added cleanup audio files, prevented subfolder selection for import"
@@ -146,14 +155,6 @@
             {
                 "version": "1.20.00.05",
                 "change_log": "New deck models, scroller fix on decks"
-            },
-            {
-                "version": "1.20.00.04",
-                "change_log": "- DJ/Decks refresh\n- New single interface similar to DJ Apps\n- On full version includes User Folders browser\n- Sort by BPM, Key, Name\n- Countdown displays and metering\n- Changed Crossfader gain curves to match popular DJ software"
-            },
-            {
-                "version": "1.20.00.01",
-                "change_log": "- New step seq workflow, only clicking the step sequencer items sets the active item\n- Fixed extreme slow down when flat step sequencer clips added to a scene and general slowness with flat step sequencers\n- Drum kit refresh, new kits new kit layouts\n- Fixed some wavetable kits not sustaining drums when hit\n- Avatar recorder fixes - avatar mo-cap not stopping/gets stuck playing\n- Fixed bad button size in save popup\n- Fixed bug in timestretched avatar recorded audio not playing\n- Fixed spatial audio to use binaural instead of panning\n- Fixed clone of synth items\n- Fixed synth not deleted when cloned upon clear scene\n- Faster scene loading"
             }
         ],
         "on_rookie": false,
@@ -162,15 +163,15 @@
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 477937,
+        "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 479809,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479689,
+        "last_update": 479809,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,

@@ -22,6 +22,7 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
             "Meta Quest 2"
@@ -47,11 +48,11 @@
             },
             {
                 "rating": 4,
-                "votes": 4
+                "votes": 5
             },
             {
                 "rating": 5,
-                "votes": 77
+                "votes": 81
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -76,6 +77,10 @@
             "logo_transparent": "39031396_3420406211573513_3029370816106818349_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6.0",
+                "change_log": "[New Feature] Added a new multiplayer game mode, Color Splash! Jump around and paint everything in sight. The player who covers the most area before time runs out wins!\n[Improvement] Added a progress counter above doors that open only after enemies are defeated, providing clearer feedback on progress.\n[Improvement] Made the first exit in Level 19 - Lava Mystery easier to locate.\n[Improvement] Adjusted the starting positions of rising platforms in the boss battle to guide players more effectively.\n[Improvement] Reduced how much the game over and score screens are head-locked, improving overall comfort.\n[Improvement] Added a tip suggesting assist mode activation if the player has died multiple times.\n[Improvement] Changed the audio effects for level portals in the overworld and adjusted transitions to fade to black instead of white.\n[Improvement] Added walls around the arena in Floor Pop game mode to prevent early punch outs.\n[Fix] Resolved an issue where players could get stuck inside locked doors.\n[Fix] Fixed icon alignment on level portals—stamp rewards are now properly displayed on the left side with the rest of the stamp information.\n[Fix] Corrected an issue where buttons meant to be pressed once could be activated multiple times.\n[Fix] Portals in levels and gameplay are now triggered only by the player’s head, not the stilts.\n[Fix] Resolved a bug where the sliding puzzle cube could clip into walls.\n[Fix] Fixed issues with cloud platforms in Level - Windmill Hills.\n[Fix] Addressed a bug where the game could appear frozen due to pausing during a loading screen.\n[Fix] Fixed an issue where looping audio persisted between scenes if the game was paused during a scene transition."
+            },
             {
                 "version": "1.5.0",
                 "change_log": "[Improvement] Enabled the ability to reconnect to a multiplayer game after disconnection.\n[Improvement] Ensured the menu consistently faces the player after resetting the VR space in the main menu.\n[Improvement] Made the pause menu accessible during the intro sequence.\n[Improvement] Added a notification when entering multiplayer mode without a network connection.\n[Other] Extended the AFK timer in multiplayer from 60 seconds to 90 seconds."
@@ -107,18 +112,18 @@
         "device_update": 475001,
         "mode_update": 475001,
         "language_update": 475001,
-        "platform_update": 475001,
+        "platform_update": 479809,
         "player_mode_update": 475001,
-        "changelog_update": 478105,
+        "changelog_update": 479809,
         "keyword_update": 475001,
         "tag_update": 475001,
-        "rating_update": 479714,
+        "rating_update": 479809,
         "iarc_detail_update": 475001,
         "keywords": [],
-        "last_update": 479714,
+        "last_update": 479809,
         "category": "GAMES",
-        "votes": 84,
-        "rating": 4.880952,
+        "votes": 89,
+        "rating": 4.876404,
         "weighted_rating": 4.7
     },
     "errors": []
