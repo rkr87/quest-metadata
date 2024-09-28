@@ -52,7 +52,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 439
+                "votes": 440
             },
             {
                 "rating": 2,
@@ -60,15 +60,15 @@
             },
             {
                 "rating": 3,
-                "votes": 272
+                "votes": 273
             },
             {
                 "rating": 4,
-                "votes": 952
+                "votes": 954
             },
             {
                 "rating": 5,
-                "votes": 8394
+                "votes": 8399
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -93,6 +93,14 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.349.11_2024.9.27.17.20.24.649",
+                "change_log": "0.349.11"
+            },
+            {
+                "version": "0.349.10_2024.9.26.2.14.33.33",
+                "change_log": "0.349.10"
+            },
             {
                 "version": "0.349.1_2024.9.17.13.24.49.558",
                 "change_log": "0.349.1"
@@ -164,14 +172,6 @@
             {
                 "version": "0.326.9_2024.4.22.3.28.35.831",
                 "change_log": "0.326.9"
-            },
-            {
-                "version": "0.324.0_2024.2.27.5.11.19.435",
-                "change_log": "0.324.0\n-added hotfix to app to lock wifi hardware to help stabilize the connection (many users were experiencing cyclical ping spikes)"
-            },
-            {
-                "version": "0.323.3_2024.1.5.15.59.1.123",
-                "change_log": "0.323.3\n-fix for default rubbers\n-fix typo in calibration page\n\n0.323.1\n-disconnect performance fix (pretty sure i found the reason the frame rate tanks when a user disconnects from you mid match)\n-found a bug that caused some game logic desync. Specifically, if mid point, after you hit the ball, it hits a surface that isn't the table top, and then within the period of time allowed for multi hit, it hits your racket, then both players would disagree on the state of the match. This can happen if you hit the edge of your table and the ball rattles. \n-fixed the issue where for new users, the laser pointer wasn't being rendered at fresh start. \n-fixed the issue where post user report, the message wasn't shown (just a layering issue)"
             }
         ],
         "on_rookie": true,
@@ -182,20 +182,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479617,
+        "changelog_update": 479857,
         "keyword_update": 475633,
         "tag_update": 479617,
-        "rating_update": 479809,
+        "rating_update": 479857,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "GAMES",
-        "votes": 10209,
-        "rating": 4.636791,
+        "votes": 10218,
+        "rating": 4.636328,
         "weighted_rating": 4.6
     },
     "errors": []

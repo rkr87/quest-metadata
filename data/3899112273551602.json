@@ -84,6 +84,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.11.11082",
+                "change_log": "4.0.10->4.0.11\n\nFEATURES\n\nImplemented Onboarding Tutorial 2.0.\n\nIMPROVEMENTS\n\nAll values entered in the numpad before acceptance are added to the Undo/Redo stack.\n\nEyedropper in the Paint tool picks up the opacity along with the material, not just the color.\n\nBUG FIXES\nFixed when inspector's pop-ups do not close when objects are deselected.\n\nFixed when incorrect color displayed in the color pop-up for objects with the default color.\n\nFixed when incorrect color in the preview of the Color tool.\n\nFixed when object twitches when rotating along the X-axis through the transform.\n\nFixed when the beam stops interacting with the UI if permissions are changed while the user is holding an object.\n\nFixed when them beam doesn't interact with the UI after pausing while grabbing an object.\n\nFixed when gizmo visual is shifted after Play mode if the object is attached to the viewpoint.\n\nRemoved an unnecessary point for the rotation gizmo in the center of the space.\n\nNow it is possible to use spaces and symbols except Latin characters and numbers in folder names.\n\nFixed when scene is not duplicated completely.\n\nFixed when app crashes after exiting Play mode.\n\nPop-ups block interaction with modal windows.\n\nFixed exception when trying to close the Holonote pop-up\n\nGroup objects remain highlighted after being deleted via the Inspector and then returning.\n\nFixed when the keyboard does not close when switching scenes.\n\nFixed when the keyboard is shown when navigating through a space link.\n\n Fixed when toolbar gets stuck when pointing at multi-selected objects.\n\nFixed when clicking on a user label does not move you to their scene.\n\nFixed exception occurs when canceling the value for the Text size property.\n\nFixed exception in Play mode with \"Play sound\" interactivity\n\nFixed when incorrect color preview for icons.\n\n Fixed when eyedropper does not pick up opacity from the text.\n\n Fixed when incorrect color displayed when the Passthrough material is set.\n\n Tool switcher is now always accessible, even when pointing at the menu or in ray mode.\n\n Enabled access to the sample from the Empty Lobby.\n\n Fixed errors when using holonote viewpoint.\n\nThe keyboard now closes when the presentation starts."
+            },
+            {
                 "version": "4.0.10.11049",
                 "change_log": "4.0.9->4.0.10\n\nImprovements:\n\n-Added new samples to library\n\n-Added one more tutorial\n\n-Made animated transition between Sky and Passthrough\n\n-New stages appear at the end of the list.\n\n-Snapping to the surface no longer switches direct selection to ray selection.\n\n-\"My files\" tab is now the default for the library.\n\n-Recolored asset library assets from FFFFFF to 9B9B9B. and icons to pure FFFFFF\n\n-Spaces now start in VR by default.\n\n-Added laser straightening during snapping.\n\n-Iteration of UX polishing.\n\n-Rotation snapping now works with the laser pointer.\n\n-Added color dropper button in the Paint tool.\n\n-Returned duplicate toolbit on the dominant hand.\n\n-The audio spatializer now works for objects attached to the body.\n\n-Tool switches to selection when an asset is grabbed from the asset menu.\n\n-Snapping orb can now be grabbed.\n\n-The hand menu now opens when an object is selected.\n\n-Teleport to viewpoint on Play is now available in the Prototyping section.\n\nFixes:\n\n-Fixed laggy object snap when rotation snap is enabled.\n\n-Background scene issue when switching scenes is fixed.\n\n-Model preview no longer spawns in the center when scale factor is set to auto.\n\n-The delete button is now displayed for project spaces.\n\n-Fixed when line from interactivity to the object is visible in play mode.\n\n-Color change for multi-selected objects with groups is now functional.\n\n-Snapping to surfaces now works correctly with newly grabbed procedural cubes.\n\n-Paint tool ray is no longer interrupted by furniture in Room-scale mode.\n\n-Objects are no longer snapped to the wrong side of the floor.\n\n-Interactivity for deleted objects no longer refers to them.\n\n-Fixed when toolbar opens on the Text tool for the first time.\n\n-Objects are no longer duplicated when grabbed.\n\n-Text color can now be changed via the Paint tool.\n\n-VR and real controllers now match correctly for Quest Pro and Quest 3.\n\n-Frame drops while selecting are fixed.\n\n-Interactivity is now cleared from the object when the option that uses it is changed.\n\n-The Delete interactivity button now responds in all cases.\n\n-Selection with modification pressed now works correctly.\n\n-Space now opens immediately when using the \"Open in VR\" feature"
             },
@@ -140,7 +144,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 479857,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 479473,
@@ -151,7 +155,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "APPS",
         "votes": 329,
         "rating": 4.103343,

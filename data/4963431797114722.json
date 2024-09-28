@@ -44,19 +44,19 @@
             },
             {
                 "rating": 2,
-                "votes": 99
+                "votes": 100
             },
             {
                 "rating": 3,
-                "votes": 117
+                "votes": 118
             },
             {
                 "rating": 4,
-                "votes": 176
+                "votes": 177
             },
             {
                 "rating": 5,
-                "votes": 1326
+                "votes": 1330
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -85,6 +85,10 @@
             "logo_transparent": "39036616_754662256705844_1968450261478755147_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "v.1.1.2.0\nFixed an issue where grenades sometimes would not explode.\nFixed an issue where the grenade trajectory would display incorrectly when observing other players."
+            },
             {
                 "version": "1.0",
                 "change_log": "v.1.1.1.5\nFixed Lifting Drone fling issue."
@@ -160,10 +164,6 @@
             {
                 "version": "1.0",
                 "change_log": "v.1.0.0.1\nOptimized\nOverhauled the notification when the squad finished the game.\nNow you can see teammates' details and player cards before hopping on the plane.\n(Quest only) Added multiple localization options.\nFixed\nThe \"Recently Played\" tab now shows players' UID correctly.\nFixed the disconnection issue due to the desynced timezone, now you should no longer encounter any disconnection issue from the time settings.\nPotentially fixed the stats of badge and Top 5 from careers.\nFixed multiple spelling mistakes.\nFixed a bug that players can carry attachments and skins from the beta test, and caused red dot notification errors on the weapon working bench.\n(Quest only) Fixed an issue where the pivot settings would be reset to \"wrist\" each time the game started.\n(Quest only) Addressed a bug that would dismiss the squad randomly."
-            },
-            {
-                "version": "0.5",
-                "change_log": "v.1.0.0"
             }
         ],
         "on_rookie": false,
@@ -174,20 +174,20 @@
         "language_update": 476401,
         "platform_update": 479809,
         "player_mode_update": 476137,
-        "changelog_update": 479521,
+        "changelog_update": 479857,
         "keyword_update": 476137,
         "tag_update": 476137,
-        "rating_update": 479809,
+        "rating_update": 479857,
         "iarc_detail_update": 478249,
         "keywords": [
             "fps",
             "military",
             "simulator"
         ],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "GAMES",
-        "votes": 1945,
-        "rating": 4.169666,
+        "votes": 1952,
+        "rating": 4.16957,
         "weighted_rating": 4.1
     },
     "errors": []

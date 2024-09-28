@@ -20,11 +20,11 @@
             "Dutch"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.28",
+                "change_log": "\"First base drill: Call detection based on hands and voice and feedback added\n\nGeneral: personal preferences for strike call and out call\""
+            },
+            {
                 "version": "0.25",
                 "change_log": "General: it is now possible to store user credentials\nHomeplate drill: the app now uses voice recognition to detect if you say \"Strike\", \"Ball\" or a few other keywords like \"Inside\". Only English terms are recognized."
             },
@@ -107,13 +111,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 478921,
+        "changelog_update": 479857,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "APPS",
         "votes": 16,
         "rating": 2.5625,

@@ -91,6 +91,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.43",
+                "change_log": "v1.6.43 (September 27, 2024)\n- Darts can now be thrown at any angle, and hit most surfaces.\n- Added new player rig that allows the player to teleport around the scenes and sit in different spots.\n- Use the right thumbstick to teleport on the floor or in to a Hotspot.\n- The player that is throwing is now teleported to the Throw Line. The 2nd player is moved to a second spot. Ideal for multiplayer.\n- The DartCam has been updated with smoother movement and zooming. All controls for the DartCam have been moved to the left controller; Index and Grip Trigger to Zoom, Thumbstick to move the camera.\n- Updated the Controller Input UI image for the new controls.\n- Fix: If darts in spawn hand enter a surface collider, they can no longer be grabbed. Breaks game in Single and Multiplayer.\n- Fix: Multiplayer Audio Settings button inside the Settings menu would make the Freethrow Scoreboard disappear\n- Fix: If bust in X01 the announcer would call out the hand score even if the player would bust\n- Fix: Double announcer audio in multiplayer games."
+            },
+            {
                 "version": "1.6.40",
                 "change_log": "v1.6.40 (August 6, 2024)\n* Fix: X01 Single Player score doesn't update on the scoreboard\n* Added Ambient Crowd noise to the Tournament scene\n* Updated the AI Dart position\n* Updates to the Main Menu UI navigation"
             },
@@ -161,10 +165,6 @@
             {
                 "version": "1.4.14",
                 "change_log": "v1.4.14 (April 30, 2022):\n- Added new Passthrough scene"
-            },
-            {
-                "version": "1.4.13",
-                "change_log": "v1.4.13 (April 28, 2022):\n- Added 13 new dart flights, and 11 new aluminum and plastic shaft colour variations\n- Bug Fix: Reset all remote avatars when leaving a room or disconnected\n- Bug Fix: Remote Avatar refresh rate setting lowered to help with 4 player games."
             }
         ],
         "on_rookie": true,
@@ -175,13 +175,13 @@
         "language_update": 478465,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478609,
+        "changelog_update": 479857,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 478945,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "GAMES",
         "votes": 55,
         "rating": 3.745455,

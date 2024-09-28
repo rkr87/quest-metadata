@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 0
+                "votes": 2
             },
             {
                 "rating": 2,
@@ -79,26 +79,31 @@
             "immersive_layer_logo": null,
             "logo_transparent": "86641451_1167035097916087_6234994948248220208_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.402",
+                "change_log": "Patch Notes (Live v0.402):\nBug Fixes:\nShooting assist now works properly in multiplayer horse.\nFixed an issue causing the ball and AI to disappear when a pass target is jumping.\nCorrected an issue causing password protection to fail on multiplayer lobbies.\nRemote players set to sitting mode now have the proper height in multiplayer.\nResolved an issue preventing jumping in certain instances where it is needed.\nYou no longer see your torso for a moment when flipping 180 degrees.\nThe menu selection laser no longer comes from an odd spot in the hand.\nFixed some missing sounds on menu keyboards.\nThe AI now properly begin gameplay when one of them fumbles the catch from a tipoff.\nYour teammates no longer run up and steal the ball from you.\nSmoothed out some dribbling issues from certain conditions.\nThe AI no longer chase the ball so far out of bounds that they run into other objects.\nThe crowd now stays in their seats during booth sequences in the Gymnasium.\nHigh passes by the AI are no longer called out as if they were shooting attempts.\nFixed some button selection issues in the menu.\nThe ball pipe no longer spawns inside the hoop base.\nImprovements:\nChanges to the tutorial have been made to better explain dribbling and shooting.\nYou now get a coin for beating a Medium horse player and 2 if you beat the hard player.\nModified the AI’s shooting positions in horse for more variety.\nAdjusted tipoff ball slapping for a better feel.\nThe Quick Menu no longer opens behind the system menu.\nImproved crossover detection.\nIncreased the accuracy of two handed passes.\nAdjusted shooting vs passing detection.\nRegion connection is now faster.\nMade some adjustments to maintaining connection when transitioning from a multiplayer lobby into a match.\nThe AI now express their reactions to events.\nIncreased performance in the West 4th Street court.\nIncreased the effectiveness of medium and high shooting assist.\nThe coaches and mascot no longer pop in and out, they come and go in a puff of smoke.\nSome art adjustments to booth prop item sizes.\nUpdated the thumbs up and thumbs down callout graphics.\nNew Features:\nThe AI did some leg training and will now attempt to jump and block your shots.\nAdded a microphone restart button in the multiplayer lobby.\nPlayers are now prompted with their coin earnings when returning to the locker room.\nAI players will now invoke a foul by pushing their opponents to the ground.\nYou can now select the same teams in multiplayer.\nThe red zone in horse now informs you the area is unavailable.\nCoins are now purchasable, but currently are stored locally so they will be removed if you uninstall the game.\nAdded a support button with patch notes to the chalkboard."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 479809,
+        "general_update": 479857,
         "genre_update": 479689,
         "device_update": 479689,
         "mode_update": 479689,
         "language_update": 479689,
         "platform_update": 479809,
         "player_mode_update": 479689,
-        "changelog_update": 479689,
+        "changelog_update": 479857,
         "keyword_update": 479689,
         "tag_update": 479689,
-        "rating_update": 479809,
+        "rating_update": 479857,
         "iarc_detail_update": 479689,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "GAMES",
-        "votes": 11,
-        "rating": 4.181818,
-        "weighted_rating": 3.8
+        "votes": 13,
+        "rating": 3.692308,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

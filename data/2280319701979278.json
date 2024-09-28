@@ -84,6 +84,10 @@
         },
         "changelog": [
             {
+                "version": "1.9.0",
+                "change_log": "New Logitech MX INK stylus support\nAutodesk Construction Cloud (BIM360) export portal added to Arkio cloud\nNotification for recently updated imports\nSort imports by date, name and type\nImperial unit dimensions and snap increments \nImproved performance and occlusion for large imported model\nColocation stability and UX improvements\nImproved wall creation\nCloud link simplification for Arkio cloud groups and ACC\nImported model placement/update simplifications\nPrevent Z-fighting for floors and ceilings of imported models\nShow outline hands instead of Meta avatar arms\nTeleport from both controllers\nTeleport around the table edge to face the model in god scale\nPress the thumbstick up/down for scrollable fields\nOther bug fixes and improvements"
+            },
+            {
                 "version": "1.8.3",
                 "change_log": "- Arkio update available notifications\n- Imported model units too small/large warnings\n- Minor bug fixes"
             },
@@ -158,10 +162,6 @@
             {
                 "version": "1.2.2",
                 "change_log": "Save full pictures taken on the Quest\nAdded additional support links on the home panel\nNotification when imported files fail to load\nIcons for Unity, Revit, Rhino and SketchUp in the import drawer\nIncreased performance when sharing imports with a bad internet connection\nUpdated ArkioHQ scene\nCorrect material exporting from Arkio to GLB\nCorrect size input for devices with comma decimal system values\nFixed BIM 360 linking and model downloads\nFixed creating components on imported geometry\nVarious modeling and UI bug fixes"
-            },
-            {
-                "version": "1.2.1",
-                "change_log": "Improvements:\nImproved grabbing of components and groups\nExport meshes with Arkio painted materials\nPrevent Android Vulcan crash on Quest\nMore stable lasers and passthrough cages on Quest\nSupport for importing GLB files encoded as base64 strings\nExtra decimal is shown below 1:2 scale\nFixed face editing of hollow primitives\nVarious UI bug fixes"
             }
         ],
         "on_rookie": false,
@@ -172,7 +172,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 479857,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 479689,
@@ -183,7 +183,7 @@
             "design",
             "collaboration"
         ],
-        "last_update": 479809,
+        "last_update": 479857,
         "category": "APPS",
         "votes": 206,
         "rating": 3.820388,
