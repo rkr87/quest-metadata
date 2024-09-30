@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 28
+                "votes": 29
             }
         ],
         "comfort": "NOT_RATED",
@@ -78,6 +78,10 @@
             "logo_transparent": "38974854_1693137841055746_4734116240647278441_n.png"
         },
         "changelog": [
+            {
+                "version": "0.2.1",
+                "change_log": "1) New option to hide built in songs and playlists!\n\t• Built in songs and playlists can now be individually hidden. They can be unhidden in the settings menu under Player Settings.\n\n2) Bug Fixes:\n\t• Fixed bug causing songs to resume from paused immediately despite displaying countdown sometimes.\n\t• Fixed bug causing easy and normal difficulty on jabs only to force every obstacle to include duplicate targets with every obstacle sometimes.\n\t• Fixed bug deleting a playlist to sometimes throw an error.\n\t• Fixed bug causing the home page to not update after songs are downloaded.\n\t• Fixed bug causing workouts with missing songs to be playable resulting in errors being thrown.\n\t• Fixed bug causing notifications to stack and not pull the next notification correctly resulting in unexpected function.\n\t• Fixed bug causing playlists to sometimes not delete after confirming to delete them."
+            },
             {
                 "version": "0.2.0",
                 "change_log": "1) All new original songs! New songs include:\n\t• Against The Tide\n\t• Cabaret Carnival\n\t• Champions Creed\n\t• Chasing The Weekend\n\t• Circuit Board Queen\n\t• Cuchulainn\n\t• Digital Odyssey\n\t• Echoes In The Dark\n\t• Finding Hope\n\t• Ignite The Night\n\t• Midnight Masquerade\n\t• Neon Horizon\n\t• Rebels With A Cause\n\t• Redemption\n\t• Relevant\n\t• Ride From The Ashes\n\t• Rise Up\n\t• Ritzy Rendezvous\n\t• Shadow BoXR\n\t• Swingin Through Time\n\t• Symphony Of The Seas\n\t• The Awakening\n\t• Thors Journey\n\t• Watch Me Rise\n\t• Wild And Free\n\n2) Added two new GameMode overrides! Target Speed Mod and Song Speed Mod! Like the other settings in this window, it is a saved setting and will be saved to your playlists and your default settings when playing a single song.\n\t• Target Speed Mod: Players can now add a modifier to the speed of the targets. \n\t• Song Speed Mod: Players can now add a modifier to the speed of the actual song changing the song length, pitch, and BPM. \n\n3) Choreography Improvements.\n\t• If the difficulty is set to Easy or Normal, targets will no longer appear under obstacles. They will still appear sometimes appear under obstacles in Hard and Expert difficulties.\n\t• Obstacles will appear a little more frequently now.\n\n4) Improved Timing Display:\n\t• New and improved timing display added to targets to help guide your timing! The timing display can be enable or disabled in the Player Settings tab of the settings menu.\n\n5) Bug Fixes:\n\t• Fixed bug causing an error to be thrown sometimes when returning to main menu before a song completes.\n\t• Fixed bug causing targets to appear inside of obstacles sometimes when in Jabs only mode."
@@ -153,10 +157,6 @@
             {
                 "version": "0.1.33.2",
                 "change_log": "1) Bug Fixes:\n\t• Fixed issue causing incomplete error logging\n\t• Fixed issue causing incorrectly saved data to break the game.\n\t• Improved YUR watch stability.\n\t• Fixed bug causing glove, target, and obstacle names to not display in some custom environments.\n\t• Fixed issue allowing players to edit the current environment when there isnt one set resulting in errors being thrown.\n\n2) User experience improvements.\n\t• Added Song score display. Currently this only works on songs downloaded  this update or later however re-downloading existing songs will update them."
-            },
-            {
-                "version": "0.1.33.1",
-                "change_log": "1) Bug Fixes:\n\t• Improved custom content page scrolling stability.\n\t• Fixed online scores displaying incorrectly.\n\t• Greatly improved custom song downloading.\n\t• Added additional precautions to prevent getting stuck on loading songs.\n\n2) User experience improvements.\n\t• Added BPM, Recently Downloaded, and Song Score sorting options.\n\t• Updated scrollbars throughout UI to have the same look.\n\t• When Shadow BoXR encounters an error, it will now either prompt players to send error logs to 3PupperStudios LLC or if players have agreed to do so already, automatically send the logs."
             }
         ],
         "on_rookie": true,
@@ -167,16 +167,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479617,
+        "changelog_update": 479905,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477481,
+        "rating_update": 479905,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479905,
         "category": "GAMES",
-        "votes": 36,
-        "rating": 4.527778,
+        "votes": 37,
+        "rating": 4.540541,
         "weighted_rating": 4.3
     },
     "errors": []

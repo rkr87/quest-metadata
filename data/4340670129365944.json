@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 23
+                "votes": 24
             }
         ],
         "comfort": "NOT_RATED",
@@ -83,6 +83,10 @@
         },
         "changelog": [
             {
+                "version": "1.8.710.1",
+                "change_log": "- Added Quest 2/3/Pro controller meshes.\n- Added a text notification on the HUD when a crate is picked up that shows what was picked up and how many units. It can be disabled in  Options -> Advanced -> Interface -> HUD Settings -> Show HUD notification when item is picked up.\n- Fixed issue with infinitely repeating crate pickup sound.\n- Improved the line width of the 2D selection boxes on the HUD.\n- Fixed issue with collision sound effect being played when picking up cargo in space.\n- Fixed issue with '?123' button on the in-game touch keyboard not always displaying the numeric keypad.\n- Improved crash reporting, to help us react more quickly to future issues.\n- Added more logging to track down existing bugs."
+            },
+            {
                 "version": "1.8.707",
                 "change_log": "- Auto-detection of Quest 3, with improved default graphical settings.\n- Workaround for recent, rare issues with Quest devices, where the app loses focus on startup.\n- Workaround for Quest lifecycle bugs apparently introduced by a recent Horizon OS update.\n- Improved crash reporting for the Quest version, to help us react more quickly to future issues."
             },
@@ -99,16 +103,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479377,
+        "changelog_update": 479905,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 478465,
+        "rating_update": 479905,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479905,
         "category": "GAMES",
-        "votes": 27,
-        "rating": 4.814815,
+        "votes": 28,
+        "rating": 4.821429,
         "weighted_rating": 4.5
     },
     "errors": []

@@ -45,7 +45,7 @@
             },
             {
                 "rating": 4,
-                "votes": 19
+                "votes": 20
             },
             {
                 "rating": 5,
@@ -72,6 +72,10 @@
             "logo_transparent": "38982488_809135406620212_8586605239516056054_n.png"
         },
         "changelog": [
+            {
+                "version": "0.9.6",
+                "change_log": "@everyone Goalienator 0.9.6 update released (Meta Quest)\n\nPlease note: We have disabled the \"Breakaway\" game mode due to player reports of game freezes. We are working to resolve these issues and restore the game mode as soon as possible. \n\nThis update includes:\n\n- New scoreboard models (including updated font for scoreboards)\n\n- New player level/progression system\n\n- Improved workbench feature to customize player glove/blocker/stick (36 colors and multiple unique special skins)\n\n- UI performance updates\n\n- You can now change both hockey set (blocker/glove) and hands sizes\n\n- Multiple fixes and improvements"
+            },
             {
                 "version": "0.9.5",
                 "change_log": "Goalienator 0.9.5 update\n\nGeneral:\n\n- Offline support, game no longer requires active online connection\n\n- Shooting mechanics for all gamemodes have been updated\n\n- A new \"game news and messages system\" for latest developments and events\n\n- The new Versus mode allows you to challenge other players’ high scores, with a wider skill level pool.\n\n- 8 new achievements, 4removed (goalie points and color block achievements)\n\nGamemodes:\n\n- Adjusted the position of Ball Cannon and Slapshot shooters to be slightly closer to the goal.\n\n- In the Target Shoot gamemode, players can now change the target’s color and rotation speed.\n\n- In the Onetimer Trio gamemode, you can now change passing speed \n\n- All breakaway mode scenarios have been updated.\n\nUI:\n\n- Redesigned the UI with improved visuals and navigation.\n\n- Added several new UI sections (such beta info, leaderboards, news/messages)\n\n- Redesigned settings page\n\n- Redesigned the round start countdown intro\n\n- Redesigned training, challenge and versus UI sections\n\nVisuals:\n\n- New glove textures for the \"hand training gear\", more closer to the soccer goalie gloves\n\n- Added an option to enable/disable the 'shooter indicator' icon (which shows which player/bot currently has the puck/ball)\n\n- Added an option to customize the ice surface color (indoor/outdoor).\n\n- Added an option to customize the UI pointer color.\n\n- Added an option to customize the puck/ball trails.\n\n- Added new breakaway shooter models.\n\n- Made minor adjustments to the Ball Cannon model.\n\n- Updated the visuals for the “Shooter Indicator icon”\n\n- Slightly slimmed-down color options for all gears, but now with a wider range of contrasting colors.\n\nAudio:\n\n- Updated the audio for UI elements and made small changes to other game audio.\n\n- Fixed the issue where audio settings sometimes failed to load correctly upon game start.\n\n- Added an options to enable or disable round start audio (instead updating volume due to previous mentioned issues)\n\nNotes:\n\n- In rare scenarios, the game might glitch after the end of the round. Reinstalling the game fixes this issue. This has only happened once, but we wanted to give players a fair warning.\n\n- We do not currently use cloud storage, which means reinstalling the game will also reset your stats to zero."
@@ -145,16 +149,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 476857,
+        "changelog_update": 479905,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 477721,
+        "rating_update": 479905,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479905,
         "category": "GAMES",
-        "votes": 102,
-        "rating": 4.5,
+        "votes": 103,
+        "rating": 4.495146,
         "weighted_rating": 4.4
     },
     "errors": []

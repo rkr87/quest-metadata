@@ -87,6 +87,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.3f6",
+                "change_log": "- Much easier handling of the easel and other studio equipment\n- Full Logitech MX Ink stylus support\n- Boundaryless passthrough\n- Move the studio equipment freely in the entire studio space\n- Several small bug fixes"
+            },
+            {
                 "version": "1.5.3f5",
                 "change_log": "- Much easier handling of the easel and other studio equipment\n- Full Logitech MX Ink stylus support\n- Boundaryless passthrough\n- Move the studio equipment freely in the entire studio space\n- Several small bug fixes"
             },
@@ -161,10 +165,6 @@
             {
                 "version": "1.3.4",
                 "change_log": "Fixed game audio cutting out when the browser was not on YouTube. "
-            },
-            {
-                "version": "1.3.3f3",
-                "change_log": "Fixed lighting in the loft studio. Previous update:\n\nImproved locomotion! Holding trigger will enable the locomotion mode, showing a panel with the options you have. \n\n- Teleport is now an arc instead of a straight line.\n- Teleport now lets you set the target rotation directly using the thumbstick.\n- Teleport now always puts you exactly where you teleported to.\n- Added snap, quick, and smooth rotation.\n- Added head & controller aimed smooth locomotion.\n- Added grab locomotion, allowing you to position yourself by \"dragging\" the world around. Perfect for positioning yourself just right.\n- You can now move in the entire studio environment, instead of only in the blue area.\n\n- Changed mountain lake studio sky."
             }
         ],
         "on_rookie": false,
@@ -175,7 +175,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 479905,
         "keyword_update": 478321,
         "tag_update": 477913,
         "rating_update": 479857,
@@ -187,7 +187,7 @@
             "art",
             "relax"
         ],
-        "last_update": 479857,
+        "last_update": 479905,
         "category": "GAMES",
         "votes": 848,
         "rating": 4.774764,
