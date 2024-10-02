@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "24.9.10",
+                "change_log": "Fixes issue with Postseason games not appearing on schedule."
+            },
+            {
                 "version": "24.9.6",
                 "change_log": "Fixed an issue causing postseason games not to appear in the schedule"
             },
@@ -116,10 +120,6 @@
             {
                 "version": "1.0.5",
                 "change_log": "commit 1b3de69bb3a6a8c8ca5a44f2fa921b5cff2cd3fb\nAuthor: Scyzm <gerickson@gmail.com>\nDate:   Fri Aug 6 11:33:13 2021 -0400\n    Fix for returning to today's date not working if you press Watch"
-            },
-            {
-                "version": "1.0.4",
-                "change_log": "commit 3879b8be08d7a357c31e6a07ced21c7ea9e890e3\nAuthor: Jeremy Pope <jeremyfpope@gmail.com>\nDate:   Mon Jul 12 11:03:39 2021 -0400\n    Fixed an issue with the max round time being set to 4 minutes instead of 3."
             }
         ],
         "on_rookie": false,
@@ -130,7 +130,7 @@
         "language_update": 479809,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 479953,
         "keyword_update": 475633,
         "tag_update": 474880,
         "rating_update": 479809,
@@ -142,7 +142,7 @@
             "entertainment",
             "visualization"
         ],
-        "last_update": 479857,
+        "last_update": 479953,
         "category": "APPS",
         "votes": 229,
         "rating": 2.227074,

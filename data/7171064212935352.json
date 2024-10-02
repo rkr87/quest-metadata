@@ -33,7 +33,9 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -79,6 +81,10 @@
             "logo_transparent": "75303837_1255908601905218_3660356244351623637_n.png"
         },
         "changelog": [
+            {
+                "version": "1.57",
+                "change_log": "- AR mode added.  Toggle between AR and VR mode for Quest 3 users.\n- Fixed issue with new signups with no first and last name.\n- Updated Unity version."
+            },
             {
                 "version": "1.56",
                 "change_log": "- Updated endodontic canal tracking for allow for partial cuts to be made in canals for improved accuracy\n- Adjusted endodontic paper point drying to create more accurate fluid absorption\n- Fixed issue with user coming back from procedure in network session\n- Fixed issue with save file locking up anesthesia discipline\n- Fixed several memory leaks to improve performance"
@@ -154,10 +160,6 @@
             {
                 "version": "1.45",
                 "change_log": "voice needed"
-            },
-            {
-                "version": "1.445",
-                "change_log": "- Improved Endodontics procedure \n- Added My Files option to menu\n- Improved Self-Assessment function to include questions in other disciplines"
             }
         ],
         "on_rookie": false,
@@ -168,13 +170,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 478945,
+        "changelog_update": 479953,
         "keyword_update": 478921,
-        "tag_update": 478921,
+        "tag_update": 479953,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 479953,
         "category": "APPS",
         "votes": 1,
         "rating": 5.0,

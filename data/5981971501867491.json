@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 341
+                "votes": 348
             }
         ],
         "comfort": "NOT_RATED",
@@ -78,6 +78,10 @@
             "logo_transparent": "43997717_2124624081068563_5591934225904861472_n.png"
         },
         "changelog": [
+            {
+                "version": "0.23.1",
+                "change_log": "Fixed bug where hats wouldn't load from locker, added new interactables to Welcome and Snack Shack boards"
+            },
             {
                 "version": "0.23.0",
                 "change_log": "Added new game mode to the field: Derby Pickup, added mound protection for pitching mound on field, various physics optimizations and bug fixes"
@@ -153,10 +157,6 @@
             {
                 "version": "0.14.0",
                 "change_log": "New holiday map, free peanut rewards for Happy Homerdays event until New Year, new clipboard, holiday drop in Snack Shack"
-            },
-            {
-                "version": "0.13.0",
-                "change_log": "Added exit velocity, added new grass and dirt terrain, fixed bug where menu wouldn't select sometimes"
             }
         ],
         "on_rookie": false,
@@ -167,16 +167,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 479953,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479905,
+        "rating_update": 479953,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479905,
+        "last_update": 479953,
         "category": "GAMES",
-        "votes": 466,
-        "rating": 4.227468,
+        "votes": 473,
+        "rating": 4.238901,
         "weighted_rating": 4.2
     },
     "errors": []

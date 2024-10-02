@@ -90,6 +90,10 @@
         },
         "changelog": [
             {
+                "version": "1.1599",
+                "change_log": "**Added Birthday Hats to Celebrate our 3rd Anniversary**\n\nThree years ago, on September 30th, 2021, we launched *Sweet Surrender*—and what an incredible journey it’s been since\\! From the countless hours preparing for release to the 12 major updates we've rolled out, we’re so proud of how far the game has come.\n\nBut more than anything, we want to thank YOU—our amazing community. Your feedback, bug reports, feature suggestions, and even just taking a chance on our game, have meant the world to us. *Sweet Surrender* wouldn’t be what it is today without your support. Seriously, we can’t thank you enough\\!\n\nTo celebrate this milestone, we’ve got a little surprise for you. After three years of facing off against your unstoppable skills, the enemy robots have found their ultimate countermeasure… birthday hats\\! 🎉 For the next week, they’ll be donning their festive gear until supplies run out on October 7th.\n\nIt’s a fun, limited-time event, and the perfect opportunity to take on the new final boss from Update 12 if you haven’t already. So dive in, enjoy the chaos, and celebrate with us before time runs out\\!\n\n# Update 12 Release Notes\n\n## New Boss Mechanics\n\nNew fight mechanics including:\n\n- Missile Launchers  \n- a Shield System  \n- Destructible Cover  \n- Homing Bullets  \n- More complex spread patterns\n\n## Improvements\n\n- Boss: revamped final boss arena  \n- Boss: added and improved particles (including new missile explosions)  \n- Boss: improved atmosphere, skybox gradients  \n- Boss: added more background details  \n- Boss: added sky fade-in and fade-out  \n- Boss: improved attacks, balancing, telegraphing of actions  \n- Boss: new shield fade-out animation  \n- Boss: improved sounds, added new effects  \n- Boss: improved intro and outro sequences  \n- Improved Lunatic Final boss  \n- ProTubeVR: better integration to support dual-wielding hand-guns  \n- Reset leaderboards for Lunatic and Sniper, added archive of old leaderboards  \n- Grenade Launchers: implemented damage falloff behavior  \n- Grenade Launchers: swapped launcher projectiles between Tier 2 and 3 launchers  \n- Grenade Launchers: Tier 3 projectiles are now cluster grenades with mid-air split\n\n## Bug Fixes\n\n- Boss: fixed final explosion  \n- Boss: fixed sticky grenades on shield  \n- Fixed temporary speed buffs removing permanent ones  \n- Grenadier class unlocks are now saved correctly  \n- Damage Dealt now takes into account Guardian Bots and Turrets  \n- Guardian Bots no longer display damage numbers twice  \n- Fixed Null error when explosions interact with dead bot parts  \n- Grenade Launcher projectiles no longer collide with the player"
+            },
+            {
                 "version": "1.1591",
                 "change_log": "# Release Notes\n\n**New Boss Mechanics**\n\nNew fight mechanics including:\n\n- Missile Launchers  \n- a Shield System  \n- Destructible Cover  \n- Homing Bullets  \n- More complex spread patterns\n\n**Improvements**\n\n- Boss: revamped final boss arena  \n- Boss: added and improved particles (including new missile explosions)  \n- Boss: improved atmosphere, skybox gradients  \n- Boss: added more background details  \n- Boss: added sky fade-in and fade-out  \n- Boss: improved attacks, balancing, telegraphing of actions  \n- Boss: new shield fade-out animation  \n- Boss: improved sounds, added new effects  \n- Boss: improved intro and outro sequences  \n- Improved Lunatic Final boss  \n- ProTubeVR: better integration to support dual-wielding hand-guns  \n- Reset leaderboards for Lunatic and Sniper, added archive of old leaderboards  \n- Grenade Launchers: implemented damage falloff behavior  \n- Grenade Launchers: swapped launcher projectiles between Tier 2 and 3 launchers  \n- Grenade Launchers: Tier 3 projectiles are now cluster grenades with mid-air split\n\n**Bug Fixes**\n\n- Boss: fixed final explosion  \n- Boss: fixed sticky grenades on shield  \n- Fixed temporary speed buffs removing permanent ones  \n- Grenadier class unlocks are now saved correctly  \n- Damage Dealt now takes into account Guardian Bots and Turrets  \n- Guardian Bots no longer display damage numbers twice  \n- Fixed Null error when explosions interact with dead bot parts  \n- Grenade Launcher projectiles no longer collide with the player"
             },
@@ -164,10 +168,6 @@
             {
                 "version": "1.655",
                 "change_log": "Newest Update"
-            },
-            {
-                "version": "1.626",
-                "change_log": "**Bug Fixes**\nFixed some rooms in the Slums which had missing wall assets\nFixed issue with disappearing fuel cells\nFixed a bug with explosive rounds that caused issues with fire rate\nMine boss bot will now engage if you attack any unit in the room\nEnemies can no longer spawn in closed off areas in the Slums\nRadar Jammer chips should now be positioned correctly in crates and on wrists\nLaser mines no longer trigger despite avoiding laser beam\nFixed collision issues in the Slums\nSecurity turrets no longer float\n\n**Improvements**\nAdded option to adjust gun angles\nAdded more room variations\nReworked drop rates for supply crates\nImproved leaderboard\nGuardian Bot battery explosion now deals less damage to the player\nFuel cells should now spawn normally again\nIn Daily run, latest run will appear at the top of the scoreboard\nImproved shotgun pump action and added reload on pumping\n"
             }
         ],
         "on_rookie": true,
@@ -178,7 +178,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 479953,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 479857,
@@ -190,7 +190,7 @@
             "fps",
             "combat"
         ],
-        "last_update": 479857,
+        "last_update": 479953,
         "category": "GAMES",
         "votes": 525,
         "rating": 4.592381,

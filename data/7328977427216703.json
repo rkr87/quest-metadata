@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest 2",
             "Meta Quest 3S",
             "Meta Quest 3",
-            "Meta Quest Pro"
+            "Meta Quest Pro",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -39,7 +39,7 @@
             },
             {
                 "rating": 2,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 3,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1
+                "votes": 2
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,26 +78,39 @@
             "immersive_layer_logo": null,
             "logo_transparent": "75469629_2145427679158749_3055382011264555148_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.08",
+                "change_log": "Hotfix 3\n- Encampment start configuration changes for both all supported devices\n\nHotfix 2\n\n- More build items for the Bunker have been added\n- Triangulator issue fixed\n- Zombies can now drop more items\n- Wave zombies have been created and added to certain scenes\n- Fixed bug that allowed player to put gas tank in backpack\n- Disabled Marsh Barks in encampment as they are not needed\n- Updated zombie and Marsh sounds and barks (made them lower)\n- Key insertion height in old downtown updated\n- Increased Lake Scene frame rate\n- Update door code to what is seen on the clipboard for Buena Vista Old Downtown\n- Fixed issue with hand scanner blinking in and out"
+            },
+            {
+                "version": "1.07",
+                "change_log": "Hotfix 3\n- Encampment start configuration changes for both all supported devices\n\nHotfix 2\n\n- More build items for the Bunker have been added\n- Triangulator issue fixed\n- Zombies can now drop more items\n- Wave zombies have been created and added to certain scenes\n- Fixed bug that allowed player to put gas tank in backpack\n- Disabled Marsh Barks in encampment as they are not needed\n- Updated zombie and Marsh sounds and barks (made them lower)\n- Key insertion height in old downtown updated\n- Increased Lake Scene frame rate\n- Update door code to what is seen on the clipboard for Buena Vista Old Downtown\n- Fixed issue with hand scanner blinking in and out"
+            },
+            {
+                "version": "1.05",
+                "change_log": "Hotfix 2\n\n- More build items for the Bunker have been added\n- Triangulator issue fixed\n- Zombies can now drop more items\n- Wave zombies have been created and added to certain scenes\n- Fixed bug that allowed player to put gas tank in backpack\n- Disabled Marsh Barks in encampment as they are not needed\n- Updated zombie and Marsh sounds and barks (made them lower)\n- Key insertion height in old downtown updated\n- Increased Lake Scene frame rate\n- Update door code to what is seen on the clipboard for Buena Vista Old Downtown\n- Fixed issue with hand scanner blinking in and out"
+            }
+        ],
         "on_rookie": false,
-        "general_update": 479905,
+        "general_update": 479953,
         "genre_update": 479905,
         "device_update": 479905,
         "mode_update": 479905,
         "language_update": 479905,
         "platform_update": 479905,
         "player_mode_update": 479905,
-        "changelog_update": 479905,
+        "changelog_update": 479953,
         "keyword_update": 479905,
         "tag_update": 479905,
-        "rating_update": 479905,
+        "rating_update": 479953,
         "iarc_detail_update": 479905,
         "keywords": [],
-        "last_update": 479905,
+        "last_update": 479953,
         "category": "GAMES",
-        "votes": 1,
-        "rating": 5.0,
-        "weighted_rating": 3.6
+        "votes": 3,
+        "rating": 4.0,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

@@ -91,6 +91,10 @@
         },
         "changelog": [
             {
+                "version": "1.6.45",
+                "change_log": "v1.6.45 (October 1, 2024)\n- Passthrough fix"
+            },
+            {
                 "version": "1.6.44",
                 "change_log": "v1.6.44 (September 28, 2024)\nDarts can now be thrown at any angle, and hit most surfaces.\nAdded new player rig that allows the player to teleport around the scenes and sit in different spots.\nUse the right thumbstick to teleport on the floor or in to a Hotspot.\nThe player that is throwing is now teleported to the Throw Line. The 2nd player is moved to a second spot. Ideal for multiplayer.\nThe DartCam has been updated with smoother movement and zooming. All controls for the DartCam have been moved to the left controller; Index and Grip Trigger to Zoom, Thumbstick to move the camera.\nUpdated the Controller Input UI image for the new controls.\nFix: If darts in spawn hand enter a surface collider, they can no longer be grabbed. Breaks game in Single and Multiplayer.\nFix: Multiplayer Audio Settings button inside the Settings menu would make the Freethrow Scoreboard disappear\nFix: If bust in X01 the announcer would call out the hand score even if the player would bust\nFix: Double announcer audio in multiplayer games."
             },
@@ -161,10 +165,6 @@
             {
                 "version": "1.4.17",
                 "change_log": "v1.4.17 (June 1, 2022):\n- Updated the DartCam. Move the cam with the right thumbstick, and zoom with the left thumbstick after a throw.\n- Bug Fix: Player flags all stay on and don't switch to the player currently throwing"
-            },
-            {
-                "version": "1.4.15",
-                "change_log": "v1.4.15 (May 1, 2022):\n- Updated new Passthrough scene gfx\n- Halftone dart flight gfx fix"
             }
         ],
         "on_rookie": true,
@@ -175,13 +175,13 @@
         "language_update": 478465,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479905,
+        "changelog_update": 479953,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479905,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479905,
+        "last_update": 479953,
         "category": "GAMES",
         "votes": 56,
         "rating": 3.767857,

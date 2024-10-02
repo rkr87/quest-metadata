@@ -3,7 +3,7 @@
         "id": "4900967296622279",
         "app_name": "Vermillion - VR Painting",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "It’s time to discover your inner artist! Vermillion offers a lifelike painting experience with realistic paint behavior, a high resolution canvas, all artist's brushes, and a long laundry list of features.\n\n{1249787143072652}\n\nReady for the sense of accomplishment of hanging your first painting in your living room? Start painting right away with the paint-by-numbers packs, paint along with your favorite YouTube artists using the built-in web browser, or learn to paint from (new) friends in multiplayer!\n\n# Features\n{1220702032448875}\n- **Lifelike color mixing**, with multiple pre-made palettes 🎨\n- Perfectly crisp and high resolution canvas\n- Paint by numbers packs\n- Generate paint by numbers outlines and palette from your own images\n- **In-game browser** including canvas projector\n- Adjustable color blending on the canvas\n- **Frame & mount your paintings** in **your own home** or in VR\n- Four player **online multiplayer**\n- **Co-located multiplayer** in MR\n- Impasto: Satisfyingly thick oil paint that can be shaped on canvas\n- Undo/redo\n- Re-orderable layers\n- Local file support for reference photos\n- Three virtual studio environments and MR mode\n- Easy image export\n\n# Brushes (all included as standard)\n{378051905354923}\n- Resizable smooth and bristle dagger\n- Resizable smooth and bristle short flat\n- Resizable smooth and bristle fan\n- Palette knife\n- Pointed round\n- Long and short rigger\n- Resizable dagger color shaper\n- Two inch\n- Flat and filbert one inch\n- Smooth and bristle one inch round\n- One inch blender\n- Rag\n\nArtwork in the screenshots by Gladski, Chad Munn and Mistkinya.",
+        "description": "It’s time to discover your inner artist! Vermillion offers a lifelike painting experience with realistic paint behavior, a high resolution canvas, all artist's brushes, and a long laundry list of features.\n\n{1249787143072652}\n\nReady for the sense of accomplishment of hanging your first painting in your living room? Start painting right away with the paint-by-numbers packs, paint along with your favorite YouTube artists using the built-in web browser, or learn to paint from (new) friends in multiplayer!\n\n# Features\n{1220702032448875}\n- **Lifelike color mixing**, with multiple pre-made palettes 🎨\n- Crystal clear high resolution canvas\n- Paint by numbers packs\n- Generate paint by numbers outlines and palette from your own images\n- **In-game browser** including canvas projector\n- Adjustable color blending on the canvas\n- **Frame & mount your paintings** in **your own home** or in VR\n- Four player **online multiplayer**\n- **Co-located multiplayer** in MR\n- Impasto: Thick oil paint that can be shaped on canvas\n- Undo/redo\n- Re-orderable layers\n- Local file support for reference photos\n- Three virtual studio environments and MR mode\n- Easy image export\n- MX Ink fully supported\n\n# Brushes (all included as standard)\n{378051905354923}\n- Resizable smooth and bristle dagger\n- Resizable smooth and bristle short flat\n- Resizable smooth and bristle fan\n- Palette knife\n- Pointed round\n- Long and short rigger\n- Resizable dagger color shaper\n- Two inch\n- Flat and filbert one inch\n- Smooth and bristle one inch round\n- One inch blender\n- Rag\n\nArtwork in the screenshots by Gladski, Chad Munn and Mistkinya.",
         "developer": "Mountainborn Studios OÜ",
         "publisher": "Mountainborn Studios OÜ",
         "genres": [
@@ -87,6 +87,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.3f7",
+                "change_log": "- Much easier handling of the easel and other studio equipment\n- Full Logitech MX Ink stylus support\n- Boundaryless passthrough\n- Move the studio equipment freely in the entire studio space\n- Several small bug fixes"
+            },
+            {
                 "version": "1.5.3f6",
                 "change_log": "- Much easier handling of the easel and other studio equipment\n- Full Logitech MX Ink stylus support\n- Boundaryless passthrough\n- Move the studio equipment freely in the entire studio space\n- Several small bug fixes"
             },
@@ -161,21 +165,17 @@
             {
                 "version": "1.4.0f10",
                 "change_log": "- Mount & fame paintings in passthrough and in VR!\n- Incredibly crisp canvas using Super Resolution.\n- Double the canvas resolution on Quest 3 vs Quest 2.\n- Grab anything from a distance so you don't bump into anything or have to stretch.\n- Painting settings panel on the palette for canvas mixing sensitivity, paint thickness, and the new infinite paint toggle.\n- Two inch brush output is smoother.\n- Dry palette knife is now an excellent tool for smoothing on the canvas."
-            },
-            {
-                "version": "1.3.4",
-                "change_log": "Fixed game audio cutting out when the browser was not on YouTube. "
             }
         ],
         "on_rookie": false,
-        "general_update": 479689,
+        "general_update": 479953,
         "genre_update": 479425,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479905,
+        "changelog_update": 479953,
         "keyword_update": 478321,
         "tag_update": 477913,
         "rating_update": 479857,
@@ -187,7 +187,7 @@
             "art",
             "relax"
         ],
-        "last_update": 479905,
+        "last_update": 479953,
         "category": "GAMES",
         "votes": 848,
         "rating": 4.774764,

@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 230
+                "votes": 235
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -83,6 +83,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "4.0.12.11093",
+                "change_log": "- Implemented support for Logi MX Ink Stylus.\n\n**`IMPROVEMENTS`**\n\n- Updated SDK (Oculus, Avatars).\n\n**`BUG FIXES`**\n\n- Fixed when passthrough Comfort mode behaves like Classic mode.\n\n- Fixed when near clipping slider state is incorrect when transitioning to another space.\n\n- \"Selected only\" should disable when no objects are selected now.\n\n- Fixed exception occurs when exporting without an internet connection.\n\n- Fixed when the Play/Stop button on the holonote recording preview does not function properly.\n\n- Fixed when  tools are equipped during space loading.\n\n- Fixed when preview of imported objects is misaligned.\n\n- Fixed when incorrect sample application for free users.\n\n- Fixed when the keyboard does not close after switching tools.\n\n- Odd toolbit visual is shown while switching tools was fixed.\n"
+            },
             {
                 "version": "4.0.11.11082",
                 "change_log": "4.0.10->4.0.11\n\nFEATURES\n\nImplemented Onboarding Tutorial 2.0.\n\nIMPROVEMENTS\n\nAll values entered in the numpad before acceptance are added to the Undo/Redo stack.\n\nEyedropper in the Paint tool picks up the opacity along with the material, not just the color.\n\nBUG FIXES\nFixed when inspector's pop-ups do not close when objects are deselected.\n\nFixed when incorrect color displayed in the color pop-up for objects with the default color.\n\nFixed when incorrect color in the preview of the Color tool.\n\nFixed when object twitches when rotating along the X-axis through the transform.\n\nFixed when the beam stops interacting with the UI if permissions are changed while the user is holding an object.\n\nFixed when them beam doesn't interact with the UI after pausing while grabbing an object.\n\nFixed when gizmo visual is shifted after Play mode if the object is attached to the viewpoint.\n\nRemoved an unnecessary point for the rotation gizmo in the center of the space.\n\nNow it is possible to use spaces and symbols except Latin characters and numbers in folder names.\n\nFixed when scene is not duplicated completely.\n\nFixed when app crashes after exiting Play mode.\n\nPop-ups block interaction with modal windows.\n\nFixed exception when trying to close the Holonote pop-up\n\nGroup objects remain highlighted after being deleted via the Inspector and then returning.\n\nFixed when the keyboard does not close when switching scenes.\n\nFixed when the keyboard is shown when navigating through a space link.\n\n Fixed when toolbar gets stuck when pointing at multi-selected objects.\n\nFixed when clicking on a user label does not move you to their scene.\n\nFixed exception occurs when canceling the value for the Text size property.\n\nFixed exception in Play mode with \"Play sound\" interactivity\n\nFixed when incorrect color preview for icons.\n\n Fixed when eyedropper does not pick up opacity from the text.\n\n Fixed when incorrect color displayed when the Passthrough material is set.\n\n Tool switcher is now always accessible, even when pointing at the menu or in ray mode.\n\n Enabled access to the sample from the Empty Lobby.\n\n Fixed errors when using holonote viewpoint.\n\nThe keyboard now closes when the presentation starts."
@@ -130,24 +134,20 @@
             {
                 "version": "2.4.7.9778",
                 "change_log": "- Added options to headset simulation\n- Some space loading optimizations"
-            },
-            {
-                "version": "2.4.6.9516",
-                "change_log": "Fixes for some crashes in specific spaces"
             }
         ],
         "on_rookie": false,
-        "general_update": 479281,
+        "general_update": 479953,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 479953,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479473,
+        "rating_update": 479953,
         "iarc_detail_update": 475000,
         "keywords": [
             "design",
@@ -155,11 +155,11 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 479857,
+        "last_update": 479953,
         "category": "APPS",
-        "votes": 329,
-        "rating": 4.103343,
-        "weighted_rating": 4.0
+        "votes": 334,
+        "rating": 4.116766,
+        "weighted_rating": 4.1
     },
     "errors": []
 }

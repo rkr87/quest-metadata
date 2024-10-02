@@ -92,6 +92,10 @@
         },
         "changelog": [
             {
+                "version": "1.7.400",
+                "change_log": "Fixes\n\n* Fixes for occasional graphical flashing seen on the bridge\n* Fixed hit-box issue with Ice asteroids that made them almost impossible to target\n* Toned down the '2x enemy damage' modifier in Endless Mode\n* Fixed issue with scene transitions where it would occasionally get stuck and require a restart\n\nPreviously:\n\n* Endless Mode changes:\n* The number of items available in the first store has been increased\n* Increased +100 res for 'less resources' modifier in hard mode\n* Points are now given for allies rescued and subtracted for allies lost (for ships of medium size and above)\n* 'Protect' missions won't end as soon as one ally is killed and points will be awarded for each ally saved\n* New Modifier: 'Adaptive fleets'. This option makes the strength of enemy fleets mirror your own fleet strength.\n* New Modifier: Better store items option (+1 tech level)\n* Fixed bug when playing with no-permadeath where the game would load with no mission choices\n* A final score notification is shown when you finish the game in Endless Mode\n* Negative modifiers now affect the total score modifier differently and shouldn't reduce your modifier as much as before\n* Dionoid Lightning gun cooldown increased from 14 to 32 seconds.\n* Fixed issue with Plasma ball item\n"
+            },
+            {
                 "version": "1.7.395",
                 "change_log": "Endless Mode changes:\n* The number of items available in the first store has been increased\n* Increased +100 res for 'less resources' modifier in hard mode\n* Points are now given for allies rescued and subtracted for allies lost (for ships of medium size and above)\n* 'Protect' missions won't end as soon as one ally is killed and points will be awarded for each ally saved\n* New Modifier: 'Adaptive fleets'. This option makes the strength of enemy fleets mirror your own fleet strength.\n* New Modifier: Better store items option (+1 tech level)\n* Fixed bug when playing with no-permadeath where the game would load with no mission choices\n* A final score notification is shown when you finish the game in Endless Mode\n* Negative modifiers now affect the total score modifier differently and shouldn't reduce your modifier as much as before\n\nOther changes:\n* Dionoid Lightning gun cooldown increased from 14 to 32 seconds.\n* Fixed issue with Plasma ball item\n"
             },
@@ -144,7 +148,7 @@
         "language_update": 479210,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479809,
+        "changelog_update": 479953,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 479809,
@@ -155,7 +159,7 @@
             "rt",
             "war"
         ],
-        "last_update": 479809,
+        "last_update": 479953,
         "category": "GAMES",
         "votes": 440,
         "rating": 4.525,

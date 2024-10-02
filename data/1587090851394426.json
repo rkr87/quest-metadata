@@ -19,11 +19,11 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 149
+                "votes": 148
             },
             {
                 "rating": 2,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 4,
-                "votes": 121
+                "votes": 122
             },
             {
                 "rating": 5,
@@ -78,6 +78,14 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.3.7-generalqog",
+                "change_log": "🚀 Features & Improvements\n\n- Passthrough depth occlusion on standalone Quest 3\n- Quest 2 and Quest 3 support for Logitech MX Ink Stylus\n\n🐛 Bug Fixes\n\n- App launcher now supports proxies that point to more than one IP address\n- Fixed extremely small measurement readouts on previewing some file imports\n- Fixed not being able to complete Google login in the web browser on standalone headsets\n- For OBJ exports, files inside the .zip folder now match the file name rather than being named as unintelligible file IDs.\n- Miscellaneous medium/low impact bug fixes"
+            },
+            {
+                "version": "6.3.7-generalqc",
+                "change_log": "🚀 Features & Improvements\n\n- Passthrough depth occlusion on standalone Quest 3\n- Quest 2 and Quest 3 support for Logitech MX Ink Stylus\n\n🐛 Bug Fixes\n\n- App launcher now supports proxies that point to more than one IP address\n- Fixed extremely small measurement readouts on previewing some file imports\n- Fixed not being able to complete Google login in the web browser on standalone headsets\n- For OBJ exports, files inside the .zip folder now match the file name rather than being named as unintelligible file IDs.\n- Miscellaneous medium/low impact bug fixes"
+            },
             {
                 "version": "6.3.6-generalqog",
                 "change_log": "VR\n\n🚀 Features & Improvements\n- Moved most standalone headsets to the Vulkan graphics API\n\n🐛 Bug Fixes\n- \"Permission denied\" error in some shared rooms\n- Headset material on passthrough gesture\n- Error on free user joining Collab without owner present\n- Fixed mirror plane setting changes\n- Fixed unintended video autoplay\n- Color picker now respects texture scale & rotate\n- No countdown when free user accesses their Collab in both VR and Screen\n- Fixed video UI problems on hidden layers\n- Standalone GRS exports now have correct extension\n- Fixed snap recovering of polar symmetry axis of subd ribbons\n- Fixed “Continue/Next Modules” button material in Basic Skills\n- Layer groups now persist when converting sketch into Collab room\n- Fixed performance regression with many objects in the same shader\n- Fixed templates > Collab conversion\n- Clearer messaging when HDRI uploads fail due to connection issues\n\nScreen \n🐛 Bug Fixes\n\n- Fixed some video UI issues\n- Fixed issues with USDZ exports"
@@ -135,20 +143,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479521,
+        "changelog_update": 479953,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479593,
+        "rating_update": 479953,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 479809,
+        "last_update": 479953,
         "category": "APPS",
         "votes": 1108,
-        "rating": 4.095668,
+        "rating": 4.098375,
         "weighted_rating": 4.0
     },
     "errors": []
