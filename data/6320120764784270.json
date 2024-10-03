@@ -46,7 +46,7 @@
             },
             {
                 "rating": 3,
-                "votes": 10
+                "votes": 11
             },
             {
                 "rating": 4,
@@ -77,6 +77,10 @@
             "logo_transparent": "39031327_3613340595587260_1107946763981684942_n.png"
         },
         "changelog": [
+            {
+                "version": "3525",
+                "change_log": "-\nv35.20-v35.22 released\n\n- More natural colors in Immersive Mode\n- Fixed Cloud Inconsistency\n- Further optimized Immersive Mode for Performance\n--\nv35.03-v35.05 released\n\n- Improved Flight Collision and Computation, no more accidentally getting stuck or going out of bounds\n\n- Fixed a rare but game-breaking globe scaling bug in space and high altitudes\n\n- Fixed fog not starting when entering EQ at around sea level altitude ( 0 m height )\n\n- More natural Moon visuals at horizon level\nand Moon scaling\n\n- Updated Android Permissions to stay in compliance with Meta's terms\n\nv35 should now be stable\n--\nv35.00 is finally RELEASED !!\n\nWe’ve had many “biggest updates” in EarthQuest’s journey, because to be fair, they were at their time.\n\nI’m happy to announce this update is now BY FAR the biggest, most polished, advanced & comprehensive update so far - in terms of effort that went into it, and how big of an overall EarthQuest overhaul it is.\n\nIt is meant to expand on every single aspect of the exploration experience as much as possible, to offer the best possible experience and immersion.\n\nFlight Mechanics have been reengineered from the ground up for realism, seamlessness and immersion\n\n- The flow of motion is now significantly more fluid\n- Every flight movement & input combination will now be 100% natural, realistic, and satisfying.\n- Smooth Rotation for all Flight Input Modes\n- Everything applies to both Hand and Controller Tracking !\n\nGoing all-in on Immersion for Immersive Sky Mode  \n( now called ‘Immersive Mode’ )\n\n- The most realistic graphics VR Exploration experiences have ever been blessed with !  \n- Real Life-inspired Fog has been added to the ‘Immersive Mode’\n- Better Clouds\n\nUnlimited Location Save Slots, with Full Address Preview Support\n\n- You heard that right ! UNLIMITED\n\nAI Upgrades\n\n- Faster, more intelligent AI\n\n- Refined AI Interface\n\nMini-map Enlarge button\n\n- A simple toggle will make the mini-map the size of the entire menu, with appropriately sized zooming options !\n\nAdditional\n\n- Performance Optimizations\n- UI design improvements\n- New soundtrack\n\n+ 100s more, check the community ( contact.earthquest.site )  \nfor the full list."
+            },
             {
                 "version": "3524",
                 "change_log": "-\nv35.20-v35.22 released\n\n- More natural colors in Immersive Mode\n- Fixed Cloud Inconsistency\n- Further optimized Immersive Mode for Performance\n--\nv35.03-v35.05 released\n\n- Improved Flight Collision and Computation, no more accidentally getting stuck or going out of bounds\n\n- Fixed a rare but game-breaking globe scaling bug in space and high altitudes\n\n- Fixed fog not starting when entering EQ at around sea level altitude ( 0 m height )\n\n- More natural Moon visuals at horizon level\nand Moon scaling\n\n- Updated Android Permissions to stay in compliance with Meta's terms\n\nv35 should now be stable\n--\nv35.00 is finally RELEASED !!\n\nWe’ve had many “biggest updates” in EarthQuest’s journey, because to be fair, they were at their time.\n\nI’m happy to announce this update is now BY FAR the biggest, most polished, advanced & comprehensive update so far - in terms of effort that went into it, and how big of an overall EarthQuest overhaul it is.\n\nIt is meant to expand on every single aspect of the exploration experience as much as possible, to offer the best possible experience and immersion.\n\nFlight Mechanics have been reengineered from the ground up for realism, seamlessness and immersion\n\n- The flow of motion is now significantly more fluid\n- Every flight movement & input combination will now be 100% natural, realistic, and satisfying.\n- Smooth Rotation for all Flight Input Modes\n- Everything applies to both Hand and Controller Tracking !\n\nGoing all-in on Immersion for Immersive Sky Mode  \n( now called ‘Immersive Mode’ )\n\n- The most realistic graphics VR Exploration experiences have ever been blessed with !  \n- Real Life-inspired Fog has been added to the ‘Immersive Mode’\n- Better Clouds\n\nUnlimited Location Save Slots, with Full Address Preview Support\n\n- You heard that right ! UNLIMITED\n\nAI Upgrades\n\n- Faster, more intelligent AI\n\n- Refined AI Interface\n\nMini-map Enlarge button\n\n- A simple toggle will make the mini-map the size of the entire menu, with appropriately sized zooming options !\n\nAdditional\n\n- Performance Optimizations\n- UI design improvements\n- New soundtrack\n\n+ 100s more, check the community ( contact.earthquest.site )  \nfor the full list."
@@ -132,10 +136,6 @@
             {
                 "version": "3330",
                 "change_log": "v33.30 is OUT !!\n\nWas previously slightly wrong about the \"bug-free\" statement since I just found a bug related to the wind, which I just fixed !\n\nMore true-to-life wind volume level\n( less noticeably repetitive/unpleasant for a small percentage of users )\n\nFixed flight-wind bug, where the sound would continue playing if continuously attempting to fly into a surface ( and obviously not moving )."
-            },
-            {
-                "version": "3306",
-                "change_log": "-\nv33.06 is RELEASED !!\n\nImmersion is a top priority in EarthQuest, so let's go ALL IN !\n\n1. Realistic Sun, Sunrises, and Sunsets !!!\n\n- The sun has been completely revamped for realism !\n- Sunsets and Sunrises have been overhauled for realism as well, based on real life visuals !\n- The sun will now also get occluded by the clouds, just like in real life !\n\n2. More Quality and Performance feedback to help the user more easily achieve their preferred experience\n\n3. Fixed a Street View problem that turned the Mixed Reality view to black while previously using it"
             }
         ],
         "on_rookie": true,
@@ -146,16 +146,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 475561,
-        "changelog_update": 479953,
+        "changelog_update": 479977,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 479857,
+        "rating_update": 479977,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479953,
+        "last_update": 479977,
         "category": "APPS",
-        "votes": 196,
-        "rating": 4.255102,
+        "votes": 197,
+        "rating": 4.248731,
         "weighted_rating": 4.2
     },
     "errors": []
