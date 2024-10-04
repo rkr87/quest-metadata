@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "3.3.0.0",
+                "change_log": "Version 3.3.0 of the SketchUp Viewer for Quest brings a major update to the user interface, with a completely redesigned Trays menu. The new Trays menu is more legible, comfortable, and easy to use, with a look and feel consistent with the rest of the SketchUp family across Desktop, Web, and Mobile. We are additionally introducing a new Settings menu where all general, model, and navigation configurations will be hosted.\n\nRelease Notes:\nNew \"Trays\" UI with larger fonts, \"scrollable\" panels, and animated effects.\nNew \"Entity Info\" pop-up label (accessible via the Outliner menu) provides information such as Name, Instance, Area, Volume, and Tag when an object is selected.\nNew Settings button added to the horizontal toolbar.\nNew Settings menu organized into three categories: General, Navigation, and Model.\nGeneral category includes options for table visibility and height in tabletop mode, and Grid visibility in immersive mode.\nNavigation category includes a Walk Speed option with three settings: Slow, Moderate, and Fast (available in presentation mode only).\nModel category includes a dropdown menu for selecting Units.\n"
+            },
+            {
                 "version": "3.2.1.0",
                 "change_log": "Introduced the option to open a Demo File without the need to Sign In.\nAdded a new sequence of onboarding animations for model navigation and manipulation once the Demo File is loaded.\nIncluded a new onboarding card for Passthrough once a model is loaded after Signing In.\nEnabled an Ambient Occlusion post-process effect in both tabletop and immersive modes.\nAdded a new “Styles” Tray in the overflow menu.\nIncluded an on/off toggle for the Ambient Occlusion effect under the new “Styles” tray.\nAdded an Ambient Occlusion shortcut on the “B” button of the right controller that enables and disables the Ambient Occlusion effect.\n"
             },
@@ -108,13 +112,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 476593,
+        "changelog_update": 480001,
         "keyword_update": 474685,
         "tag_update": 477577,
         "rating_update": 479857,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479857,
+        "last_update": 480001,
         "category": "APPS",
         "votes": 65,
         "rating": 3.784615,

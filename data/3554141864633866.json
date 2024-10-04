@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.21.00.26",
+                "change_log": "- Launch quantize for audio loops and onehots \n- Launch quantize can be global set in the click settings, or per clip\n- Can also be applied to synths and drumkits for realtime quantize effect\n- Improved seamless play between audio clips when triggering next/previous clips\n- Less cores used for offline timestrech"
+            },
+            {
                 "version": "1.21.00.20",
                 "change_log": "Fixed load drumkit setting tempo"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "1.20.00.09",
                 "change_log": "- Added video recorder to camera system\n- Updated DJ Deck models\n- Added dominant hand so arm menu not obstructive"
-            },
-            {
-                "version": "1.20.00.07",
-                "change_log": "RPM new URL2, Step seq instanced optimised"
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479905,
+        "changelog_update": 480001,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 479905,
+        "last_update": 480001,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,

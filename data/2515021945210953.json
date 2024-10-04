@@ -1,11 +1,11 @@
 {
     "data": {
         "id": "2515021945210953",
-        "app_name": "VR Animation Player",
+        "app_name": "Theater Elsewhere",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Step into wonderful, immersive VR stories, hand painted and animated in VR with Quill by Smoothstep. These VR stories not only let you view a painting on a wall, but transport you into the painting itself. Experience expressive characters, fantastic creatures, and complete narratives in these VR animations.\n\nThe VR Animation Player lets you visit high quality immersive  animations from the comfort of Meta Quest TV, bringing you the best in immersive entertainment. \n\nThese immersive animations are fully 6DOF, some including multiple viewpoints to let you change position within the art, and the ability for you to both “Pause” the story to take in every brush stroke, and “Start” to bring the story back to life! \n\nTo create your own VR stories, test your hand in the VR illustration and animation tool, Quill by Smoothstep, available on the Rift platform. https://www.oculus.com/experiences/rift/5910229332328230/\n\nRequires the latest version of Meta Quest TV.",
-        "developer": "Facebook Technologies, LLC",
-        "publisher": "Facebook Technologies, LLC",
+        "description": "Dive into art that lives elsewhere, hand painted and animated by creators from all over the world. Enjoy expressive characters, delightful moments, and long form narratives in virtual reality. Theater Elsewhere brings the magic to you.  \n\nFeaturing:\n- 2400+ delightful immersive animated content\n- 6 beautiful immersive backgrounds that can be set as the default browsing environment\n- Intuitive and fast user interface\n- Freefly Mode that allows users to move freely within each experience\n\nIf you would like to share your own creations, test your hand in the VR painting and animation app, Quill by Smoothstep, available on the Meta Quest PCVR platform, upload your content through Meta Quest Media Studio and it will appear in the “Newest” section of Theater Elsewhere.  \n\nQuill by Smoothstep\n\nhttps://www.meta.com/experiences/pcvr/quill-by-smoothstep/5910229332328230/\n\nMeta Quest Media Studio\n\nhttps://creator.oculus.com/manage/mediastudio/\n",
+        "developer": "Meta Platforms, Inc",
+        "publisher": "Meta Platforms, Inc",
         "genres": [
             "Media & Streaming",
             "Art & Creativity"
@@ -43,7 +43,7 @@
             },
             {
                 "rating": 3,
-                "votes": 23
+                "votes": 24
             },
             {
                 "rating": 4,
@@ -51,10 +51,10 @@
             },
             {
                 "rating": 5,
-                "votes": 325
+                "votes": 334
             }
         ],
-        "comfort": "COMFORTABLE_FOR_MOST",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -62,7 +62,7 @@
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
-        "website": "https://www.oculus.com/",
+        "website": "https://www.meta.com/",
         "app_images": {
             "cover_landscape": "38974569_2584450654963951_9134557670861176832_n.png",
             "cover_portrait": "39031352_430662930963223_2964554300790931456_n.png",
@@ -74,6 +74,10 @@
             "logo_transparent": "38984455_2474447646210412_462888090281705472_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0.109 : vr_only",
+                "change_log": "- The “VR Animation Player” has been rebranded to “Theater Elsewhere”\n- Added NUX (New User Experience)  \n- Added 6 Immersive Discovery Environments to set as default browsing space\n- New content discovery surface enabling easy browsing of all available content\n- New navigation UI to make it easier to experience content.\n- Added Freefly Mode enabling free movement within content\n- Bookmark content while browsing or viewing content\n- Added “Play Next” and “Play Previous” feature\n- Added content view count and publish date\n"
+            },
             {
                 "version": "1.6.7 10-28-2022 (D40157686) : vr_only",
                 "change_log": "- Redirect to Meta Quest TV on back / home button press\n- Prevent missing audio / rendering freeze system issue\n- Introduces a brief loading indicator before redirecting to Meta Quest TV for browsing VR Animations to avoid some system bugs "
@@ -113,24 +117,20 @@
             {
                 "version": "1.4.9 11-05-2020 (D24772979) : vr_only",
                 "change_log": "Fixed crash quitting the app during the loading/decoding phase"
-            },
-            {
-                "version": "1.4.8 11-03-2020 (D24710399) : vr_only",
-                "change_log": "Fixed crash using up/next after having changed to a viewpoint index that does not exist in the next file"
             }
         ],
         "on_rookie": false,
-        "general_update": 476257,
+        "general_update": 480001,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480001,
         "keyword_update": 475633,
         "tag_update": 474685,
-        "rating_update": 479905,
+        "rating_update": 480001,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
@@ -138,10 +138,10 @@
             "story",
             "narrative"
         ],
-        "last_update": 479905,
-        "category": "ENTERTAINMENT",
-        "votes": 513,
-        "rating": 4.081871,
+        "last_update": 480001,
+        "category": "APPS",
+        "votes": 523,
+        "rating": 4.095602,
         "weighted_rating": 4.0
     },
     "errors": []

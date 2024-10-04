@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 236
+                "votes": 237
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -83,6 +83,10 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "4.0.13.11103",
+                "change_log": "4.0.12->4.0.13\n\n**`IMPROVEMENTS`**\n\n- Added a \"Create New Space\" button to the Samples section in the Lobby.\n\n- AR visuals improved.\n\n**`BUG FIXES`**\n\n- Fixed when headset simulation works incorrectly after exiting Play mode.\n\n- Fixed when floor grid is not visible when under the floor.\n\n- Fixed when AR mode does not work in Play mode and after.\n\n- Fixed when AR simulation stops working after toggling Passthrough mode on and off.\n\n- Fixed when paint tool does not apply color to text when pointing at it.\n\n- Fixed when some objects remain visible or invisible with AR mode enabled.\n\n- Fixed when some objects in onboarding retain the last used material or opacity.\n\n- Fixed when X-Y rotations for viewpoints' head work only once.\n\n- MR previews (blue) are now available for spaces and holonotes.\n\n- Show Sign-Up window immediately when landing in the Lobby for the first time after the tutorial.\n\n- Enlarged the Skip button for interactive onboarding.\n\n- Added Jeremy's avatar for welcoming in the interactive onboarding.\n\n- TYPO corrected in \"Zooming outdoor\" copy in the interactive onboarding.\n\n- Various typos corrected in the interactive onboarding.\n\n- Added analytics for copy/paste operations between spaces.\n\n- Fixed when иreadcrumbs are missing in the Library when onboarding is skipped.\n\n- Exception during onboarding for left-handed users fixed\n\n- Fixed when old images are shown in video hints right before the video loads in the interactive onboarding."
+            },
             {
                 "version": "4.0.12.11093",
                 "change_log": "- Implemented support for Logi MX Ink Stylus.\n\n**`IMPROVEMENTS`**\n\n- Updated SDK (Oculus, Avatars).\n\n**`BUG FIXES`**\n\n- Fixed when passthrough Comfort mode behaves like Classic mode.\n\n- Fixed when near clipping slider state is incorrect when transitioning to another space.\n\n- \"Selected only\" should disable when no objects are selected now.\n\n- Fixed exception occurs when exporting without an internet connection.\n\n- Fixed when the Play/Stop button on the holonote recording preview does not function properly.\n\n- Fixed when  tools are equipped during space loading.\n\n- Fixed when preview of imported objects is misaligned.\n\n- Fixed when incorrect sample application for free users.\n\n- Fixed when the keyboard does not close after switching tools.\n\n- Odd toolbit visual is shown while switching tools was fixed.\n"
@@ -130,10 +134,6 @@
             {
                 "version": "4.0.0.10670",
                 "change_log": "Shapes 2.0"
-            },
-            {
-                "version": "2.4.7.9778",
-                "change_log": "- Added options to headset simulation\n- Some space loading optimizations"
             }
         ],
         "on_rookie": false,
@@ -144,10 +144,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479953,
+        "changelog_update": 480001,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 479977,
+        "rating_update": 480001,
         "iarc_detail_update": 475000,
         "keywords": [
             "design",
@@ -155,10 +155,10 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 479977,
+        "last_update": 480001,
         "category": "APPS",
-        "votes": 335,
-        "rating": 4.119403,
+        "votes": 336,
+        "rating": 4.122024,
         "weighted_rating": 4.1
     },
     "errors": []

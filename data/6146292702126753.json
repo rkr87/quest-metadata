@@ -59,7 +59,7 @@
             },
             {
                 "rating": 5,
-                "votes": 62
+                "votes": 71
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,6 +86,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.1.1347",
+                "change_log": "Features\n-Added hands for Molly when in first person\n\nGameplay\n-Added tutorial instruction for exiting first person in pipe puzzle\n-Added auto exit first person on pipe puzzle completion\n-Added so that lightbulbs dance if diamond mine is complete\n-Added shimmer effect to cult buttons\n-Added cog visual variants to Twilight Acres\n-Tweaked quest text for readability in storage room\n-Tweaked ladder starting position in storage room\n\nBugs\n-Tweaked uv to prevent light spilling in the ending door lightbeam\n-Tweaked ladder snapping threshold in storage room\n-Tweaked mipmap bias in character shader for shaper resolution of texture\n-Tweaked popup point position in machine room 5 for Willpower Plant.\n-Fixed dodo face getting stuck on angry during conversion with Mr.Mole\n-Fixed issue where menu page would not reset when returning to title screen\n-Fixed banter setup in the queens tent. The queen will no longer respond to your interactions once she has left.\n-Fixed issue where player could interrupt machine room cutscene by interacting with other objects in the room\n-Fixed SFX setup in machine room\n-Fixed Twilight Acres interaction button remaining even if interaction was finished.\n-Fixed issue where hand poses on the mirrors in mirror mire would be incorrect.\n-Fixed issue where player could lock themselves if trying to leave stove top room with Dodo and Molly simultaneously\n-Fixed issue where Cheshire Cat smoke VFX would play twice consecutively \n-Fixed null ref issue when using elevator but not reloading scene\n"
+            },
+            {
                 "version": "1.0.0.1316",
                 "change_log": "Jenkins build upload"
             }
@@ -98,19 +102,19 @@
         "language_update": 479857,
         "platform_update": 479857,
         "player_mode_update": 479857,
-        "changelog_update": 479857,
+        "changelog_update": 480001,
         "keyword_update": 479857,
         "tag_update": 479857,
-        "rating_update": 479977,
+        "rating_update": 480001,
         "iarc_detail_update": 479953,
         "keywords": [
             "story",
             "book"
         ],
-        "last_update": 479977,
+        "last_update": 480001,
         "category": "GAMES",
-        "votes": 69,
-        "rating": 4.797101,
+        "votes": 78,
+        "rating": 4.820513,
         "weighted_rating": 4.6
     },
     "errors": []
