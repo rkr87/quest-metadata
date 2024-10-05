@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "2.3.1",
+                "change_log": "Fixed:\r\n- Some minor fixes and improvements"
+            },
+            {
                 "version": "2.3.0",
                 "change_log": "Added:\r\n- A new download manager.\r\n- Implemented support for simultaneous downloading of 10 videos.\r\n- Display of available storage space in the download manager.\r\n- The ability to create folders for websites in the Home menu.\r\n- The option to set a password for website folders.\r\n- Improved the UI of the tabs for websites.\r\n- The ability to change the order of added websites in the Home menu using drag-and-drop.\r\nReworked: \r\n- Removed the Panic mode feature.\r\n- Redesigned the pagination panel.\r\n- Updated the WebView window.\r\n- Disabled the ability to download videos directly from the Play'a website.\r\n- Moved the information panel displaying time, WiFi, and battery status.\r\nFixed:\r\n- A bug where quality changed incorrectly when switching projection in the web player.\r\n- A bug with the pagination panel.\r\n- General bug fixes and minor performance improvements.\r\n- Minor UI/UX improvements."
             },
@@ -150,10 +154,6 @@
             {
                 "version": "2.1.9",
                 "change_log": "Added:\n- Autorecenter function\n- New screen settings\nFixed:\n- Zoom in/out in local video player with new screens"
-            },
-            {
-                "version": "2.1.8",
-                "change_log": "Fixed:\n- Some bugfixes in UI"
             }
         ],
         "on_rookie": false,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480001,
+        "changelog_update": 480025,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479905,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480001,
+        "last_update": 480025,
         "category": "APPS",
         "votes": 396,
         "rating": 2.949495,
