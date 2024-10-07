@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.1.1",
+                "change_log": "1) Bug Fixes:\n\t• Scroll arrows on home screen are now not visible unless useable.\n\t• Fixed bug causing an error to be thrown when trying to access the auto-generate maps folder.\n\t• Fixed bug causing an error to be thrown upon load sometimes.\n\t• Fixed wording in the Help menu.\n\t• Fixed wording in the About menu.\n\t• Fixed bug causing selecting the same tab in the Options menu to reset the displayed options.\n\t• Added a \"Revert\" button to allow you to undo changes you've made in the settings menu.\n\t• Fixed bug causing a random floating box sometimes to appear in the settings menu."
+            },
+            {
                 "version": "0.2.1",
                 "change_log": "1) New option to hide built in songs and playlists!\n\t• Built in songs and playlists can now be individually hidden. They can be unhidden in the settings menu under Player Settings.\n\n2) Bug Fixes:\n\t• Fixed bug causing songs to resume from paused immediately despite displaying countdown sometimes.\n\t• Fixed bug causing easy and normal difficulty on jabs only to force every obstacle to include duplicate targets with every obstacle sometimes.\n\t• Fixed bug deleting a playlist to sometimes throw an error.\n\t• Fixed bug causing the home page to not update after songs are downloaded.\n\t• Fixed bug causing workouts with missing songs to be playable resulting in errors being thrown.\n\t• Fixed bug causing notifications to stack and not pull the next notification correctly resulting in unexpected function.\n\t• Fixed bug causing playlists to sometimes not delete after confirming to delete them."
             },
@@ -153,10 +157,6 @@
             {
                 "version": "0.1.33.3",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again."
-            },
-            {
-                "version": "0.1.33.2",
-                "change_log": "1) Bug Fixes:\n\t• Fixed issue causing incomplete error logging\n\t• Fixed issue causing incorrectly saved data to break the game.\n\t• Improved YUR watch stability.\n\t• Fixed bug causing glove, target, and obstacle names to not display in some custom environments.\n\t• Fixed issue allowing players to edit the current environment when there isnt one set resulting in errors being thrown.\n\n2) User experience improvements.\n\t• Added Song score display. Currently this only works on songs downloaded  this update or later however re-downloading existing songs will update them."
             }
         ],
         "on_rookie": true,
@@ -167,13 +167,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479905,
+        "changelog_update": 480073,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479977,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479977,
+        "last_update": 480073,
         "category": "GAMES",
         "votes": 38,
         "rating": 4.552632,

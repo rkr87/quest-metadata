@@ -3,7 +3,7 @@
         "id": "7830420446969757",
         "app_name": "Polysketch",
         "release_date": "2022-05-24T00:00:00.000Z",
-        "description": "# Creativity for All\n\nUniquely simple and fun 3D creation! Sketch out shapes, add color and style, then export for game engines, 3D printing, social apps, or just for show. You'll be amazed how easily you can create truly original worlds, objects, and even characters.\n\n![{\"height\":400,\"type\":\"image\",\"width\":2560}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/75230050_429633753319452_4272255071443212433_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xIVYqi-dXnoQ7kNvgGJVb7u&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYAQan0pANX6Z2irX-l8sNvh3zd14xh4OMABZyagPDhV4g&oe=6706603D)\n\n# Export and Share\n\n- **Social Creators**, build custom world and avatar art\n- **Game Designers**, sketch levels and prototype objects quickly\n- **3D Artists**, enjoy as a truly awesome retopo tool\n- **Concept Artists**, screenshot your creations for easy paint-overs\n\n# Features\n\n- Simple, intuitive \"sketch\" 3D modeling. Just sketch the lines, connect to form surfaces. No \"relative space axis constraint gizmo handles\" mumbo-jumbo here.\n- Import 3D models and images for reference\n- Export specific objects, or the entire scene, for use with just about any other app (Blender, Unity, Unreal, Roblox, VR Chat, etc)\n- Multiplayer (Alpha) - bring friends into your creations, live!\n\n# Community\n\nJoin any of our communities to discuss new features, share your creations, and get inspired.\n",
+        "description": "# Creativity for All\n\nUniquely simple and fun 3D creation! Sketch out shapes, add color and style, then export for game engines, 3D printing, social apps, or just for show. You'll be amazed how easily you can create truly original worlds, objects, and even characters.\n\n![{\"height\":400,\"type\":\"image\",\"width\":2560}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/75230050_429633753319452_4272255071443212433_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=xIVYqi-dXnoQ7kNvgFJRBpC&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYAcp4n4fHZGXLRRdn6A4vSyV5qz-LuwQYmHwGA2WASArA&oe=6709033D)\n\n# Export and Share\n\n- **Social Creators**, build custom world and avatar art\n- **Game Designers**, sketch levels and prototype objects quickly\n- **3D Artists**, enjoy as a truly awesome retopo tool\n- **Concept Artists**, screenshot your creations for easy paint-overs\n\n# Features\n\n- Simple, intuitive \"sketch\" 3D modeling. Just sketch the lines, connect to form surfaces. No \"relative space axis constraint gizmo handles\" mumbo-jumbo here.\n- Import 3D models and images for reference\n- Export specific objects, or the entire scene, for use with just about any other app (Blender, Unity, Unreal, Roblox, VR Chat, etc)\n- Multiplayer (Alpha) - bring friends into your creations, live!\n\n# Community\n\nJoin any of our communities to discuss new features, share your creations, and get inspired.\n",
         "developer": "Polysketch LLC",
         "publisher": "Polysketch",
         "genres": [
@@ -76,6 +76,10 @@
             "logo_transparent": "38982464_584901086000741_1692418055857486687_n.png"
         },
         "changelog": [
+            {
+                "version": "0.71",
+                "change_log": "- fixing broken passthrough"
+            },
             {
                 "version": "0.69",
                 "change_log": "- smarted up the manual-facing process. Now manually adding faces should be much quicker.\n- added version number to the loading screen and main menu so people can tell us what version they have when it's broken. Allegedly broken.\n- added face validation to more aggressively remove invalid faces.\n- fixed face vanishing bug"
@@ -151,27 +155,23 @@
             {
                 "version": "0.24",
                 "change_log": "- Moved all save files, exports, and imports to a folder called Polysketch at the root of the Quest's filesystem\n- During face extrude, we now hide the original face if that face is attached to any other faces. We only keep it if it is a stand-alone face.\n- Added ability to hover a line or face to select it. Included in this is that grabbing a line or face that is selected will grab entire selection\n- Added release info in main menu\n- Updated selection visuals while editing a polyshape to be a bit cleaner\n- Set up OBJ loading to default to a gray material if the MTL file is missing.\n- Made draw a line across an existing face to split it be undone with one undo instead of two\n- Added new scene button to bottom of main menu\n- Added Labs button to main menu get info on experimental features\n- Fixed bug where new scenes sometimes didn't get a valid icon set during save\n- Fixed tutorial pane being throw-able\n- Fixed bug involving hand-to-object distance calculations when hovering some shapes"
-            },
-            {
-                "version": "0.18",
-                "change_log": "- Added an \"edit shape\" button to the left hand menu. Select a shape, open the menu, begin editing it.\n- Fixed bug where icon in main menu would change size randomly\n- Fixed bug where selection got stuck during reentry of scene\n- Fixed left hand menu tooltips and button states when they are tied to selection (like disabling Delete when nothing is selected)\n- Fixed bug involving deleting vertices and refreshing the shape's face\n- Fixed bugs with selection being stuck going in and out of editing shapes\n- Fixed bug where invalid \"ObjectInclude\" obj files would mess up scene during load\n- Drawing a single line across an existing face will now split that face into two smaller faces. Undo once will undo the face change but not the line. Second undo will undo the line as well.\n- Fixed bug where converting from the two-file save (icon's separate) to one file lost the old icon.\n- Fixed bug where exports were scaled & rotated based on your view of them in the scene rather than their actual transform."
             }
         ],
         "on_rookie": true,
-        "general_update": 480025,
+        "general_update": 480073,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479953,
+        "changelog_update": 480073,
         "keyword_update": 474685,
         "tag_update": 479689,
         "rating_update": 478297,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480025,
+        "last_update": 480073,
         "category": "APPS",
         "votes": 13,
         "rating": 4.615385,
