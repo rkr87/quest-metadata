@@ -20,14 +20,40 @@
         "languages": [
             "English"
         ],
-        "platforms": [],
+        "platforms": [
+            "Meta Quest 3S",
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
         "player_modes": [
             "STANDING",
             "SITTING",
             "ROOM_SCALE"
         ],
         "tags": [],
-        "hist": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 1
+            },
+            {
+                "rating": 4,
+                "votes": 0
+            },
+            {
+                "rating": 5,
+                "votes": 18
+            }
+        ],
         "comfort": "COMFORTABLE_FOR_FEW",
         "iarc": {
             "age_rating": "Everyone",
@@ -40,27 +66,48 @@
         },
         "internet_connection": "REQUIRED",
         "website": "https://www.anotheraxiom.com/",
-        "app_images": {},
-        "changelog": [],
+        "app_images": {
+            "cover_landscape": "75210885_1878339232650650_1880586697791013398_n.png",
+            "cover_portrait": "38974567_476560258704073_4287992019661417313_n.png",
+            "cover_square": "75395590_1675997869817522_2925043998915069327_n.png",
+            "hero": "75223470_3754481221476028_1671762551763419111_n.png",
+            "icon": "39031487_1231702924619022_9122221330323714130_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38982478_1557614165176593_3750805182979750073_n.png"
+        },
+        "changelog": [
+            {
+                "version": "1.0.20066",
+                "change_log": "CL 20066"
+            },
+            {
+                "version": "1.0.18559",
+                "change_log": "CL 18559"
+            }
+        ],
         "on_rookie": false,
-        "general_update": 480073,
+        "general_update": 480097,
         "genre_update": 480073,
         "device_update": 480073,
         "mode_update": 480073,
         "language_update": 480073,
-        "platform_update": 480073,
+        "platform_update": 480097,
         "player_mode_update": 480073,
-        "changelog_update": 480073,
-        "keyword_update": 480073,
+        "changelog_update": 480097,
+        "keyword_update": 480097,
         "tag_update": 480073,
-        "rating_update": 480073,
+        "rating_update": 480097,
         "iarc_detail_update": 480073,
-        "keywords": [],
-        "last_update": 480073,
+        "keywords": [
+            "sport",
+            "social"
+        ],
+        "last_update": 480097,
         "category": "GAMES",
-        "votes": 0,
-        "rating": 0.0,
-        "weighted_rating": 3.4
+        "votes": 20,
+        "rating": 4.7,
+        "weighted_rating": 4.3
     },
     "errors": []
 }
