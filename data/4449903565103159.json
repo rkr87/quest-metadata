@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 57
+                "votes": 59
             },
             {
                 "rating": 2,
@@ -45,11 +45,11 @@
             },
             {
                 "rating": 4,
-                "votes": 22
+                "votes": 23
             },
             {
                 "rating": 5,
-                "votes": 193
+                "votes": 211
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,7 +79,12 @@
             "immersive_layer_logo": "38974531_1201681864487653_2699401365751473984_n.png",
             "logo_transparent": "75375751_1676673746421838_1827577952174725255_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.12.43416",
+                "change_log": "Diner\n\n• Customers now dine in more frequently rather than taking their food to-go.  \n• It’s now easier to grab clumps off of things on the grill, instead of grabbing the other thing by mistake.  \n• Increased the size of the cooler top shelf to make it easier to grab items  \n• Fixed an issue where opening and closing the cooler would spawn several items.  \n• Made it so music plays for all players during the last call.  \n• Shift progress screen no longer turns black sometimes for no good reason.  \n• Fixed an issue where completed orders were counted incorrectly.  \n• Diner Patrons can now hit each other with their food bags while moving in the Diner.  \n• Order-up bell now always plays its SFX.  \n• Items now remain functional after being attached to the sprayer and placed in the Blendification Station.  \n• Fixed issue with raw eggs sometimes appearing cooked, go forth and prevent salmonella.  \n• Fixed previous orders sometimes appearing briefly for other players on the serving tray.  \n• Flambé torch no longer stays on when the trigger is not pressed. Sorry, fire enjoyers.  \n• Salt Bacon can now be made successfully during the last call.  \n• Thirst Quencher role can now pour clumps out of cups.  \n• Liquid sprayer no longer gets stuck in the diner window.\n\nGarage\n\n• Added a nicer texture to the scraps at the Scrapper station.  \n• Fixed an issue where the end-of-car pull cord in the garage is unreachable after some players disconnect.  \n• Adjusted distance passing for the drill so the players grab it more naturally.  \n• Vacuum can now clean mud off of car modules.  \n• Adjusted player positions in the garage for two-player parties.  \n• Improved reliability of cranks in the garage that lift up the tops of cars.  \n• Computer virus minigame no longer requires you to move the joystick before hitting the button.  \n• Fixed issue with vehicle parts hanging off the bottom of cars as they leave the garage.  \n• Cleaned up some misbehaving car panels.  \n• Water cooler jug is now visible to all players when held. \n\nALICE, Toadtorials & NPCS\n\n• Updated NPCs outfits and emotions.  \n• Adjusted ALICE’s speech timing to fix her speech sometimes being muffled.  \n• Fixed an error where ALICE would play \"getting hit/thrown at\" dialogue after teleporting at the end of a diner shift.  \n• Toadtorials are more well-behaved, including when being thrown into the sky.   \n• Toadtorials spark less when put into the Chop-Chop.  \n• Fixes for NPC voices and captions.  \n• Fixed issue where NPC hands sometimes showed up where they shouldn’t.\n\nLogin Room\n\n• The Login Room keyborb will now continue functioning even if you lose internet connection.  \n• Soda now pours more accurately from the hole of the soda can while the can is in a crushed state.  \n• Changed the tablet in the Login Room from portrait to landscape.  \n• Included better messaging when hand tracking is disabled or if you are holding controllers when starting the game.  \n• Players can no longer access their wrist menu before receiving their wristband from ALICE  \n• Holding the employee ID in the tutorial sequence no longer causes visual problems.  \n• ALICE no longer hides behind the screen during the tutorial sequence at the beginning of the game (She was scared to meet so many new p̵l̵a̵y̵e̵r̵s̵ coworkers).  \n• Improved timing of ALICE tutorial sequence.  \n• Desk and props in the Login Room are now present during ALICE’s tutorial.\n\nAvatars & Unlocks\n\n• Improved the placement of the teeth for a couple of jaw options.  \n• Adjusted name tags with white backgrounds to be easier to read and vertically centered the text.    \n• Corrected the formatting for item descriptions in the Avatar Menu.  \n• Fixed issue where titles sometimes unlocked for incorrect players.   \n• Unlocks now use the correct SFX.  \n• Sometimes you’d get a fish statue as a reward instead of the reward you earned. Not any more, babieeeee.  \n• “Wear Now” and “Accept” squishable bubbles now appear as expected when unlocking an item.   \n• Titles show their proper names instead of dev names you were totally not supposed to see.  \n• Avatar customizations now display correctly for all players.  \n• All rings from the VOLT2 collection are now attainable.  \n• Can now get the title associated with the hint, “It’s flower. Not flour.”  \n• Caffeinated Title now unlocks properly  \n• Fixed lighting issue on earrings.  \n• Adjusted ring customization UI to more accurately reflect left and right hands.  \n• Fixed some hair coloration problems.   \n• Made adjustments to some Title unlock triggers.\n\nMultiplayer & Networking\n\n• More graceful disconnect handling.  \n• Disabled the \"random party code\" button in the Login scene.  \n• Fixed an issue where Players will occasionally get \"Party Full\" errors when the party is not full.  \n• Fixed party menu not showing the player attempting to join.  \n• Blocked players can no longer rejoin a party.  \n• New Player Incoming banner positioning has been adjusted to avoid clipping. \n\nMiscellaneous\n\n• Improved performance; you can stop yelling at ALICE now.  \n• Fixed a rare problem where players would get stuck on a loading screen when entering the game.   \n• Enabled snapping on all squishable bubbles.  \n• Shift portals now correctly appear for all players after quitting a shift.   \n• Addressed the issue where items couldn’t be passed between player hands if they try to grab it in a different pose.  \n• Fixed an issue where players joining a session in progress would occasionally spawn under the island.  \n• Removed the ability for players to take tethered items from the garage and diner to the other area.  \n• Fixed an issue where the end of shift Rewards Crate would fall through the table.  \n• Fixed giving up on a shift very quickly causing the shift to not properly end.  \n• Fixed issue where some items would sliiiiiiiide back into position when respawning after being destroyed.  \n• SFX for completing a shift no longer plays when beginning a shift.   \n• Putting your hand in the shift portals now triggers the correct SFX and visuals.  \n• Rewards Crate should now break for all players.  \n• Improved stability of rewards sequence.   \n• Fixed overlaps between the clipboard and other objects during the shift reward sequence.  \n• Fixed Shift Done logo appearing when it shouldn’t.  \n• Developers have gotten more sleep 💤"
+            }
+        ],
         "on_rookie": false,
         "general_update": 480097,
         "genre_update": 479857,
@@ -88,16 +93,16 @@
         "language_update": 479857,
         "platform_update": 479857,
         "player_mode_update": 479857,
-        "changelog_update": 479857,
+        "changelog_update": 480121,
         "keyword_update": 479857,
         "tag_update": 479857,
-        "rating_update": 480097,
+        "rating_update": 480121,
         "iarc_detail_update": 479857,
         "keywords": [],
-        "last_update": 480097,
+        "last_update": 480121,
         "category": "GAMES",
-        "votes": 303,
-        "rating": 3.914191,
+        "votes": 324,
+        "rating": 3.95679,
         "weighted_rating": 3.9
     },
     "errors": []

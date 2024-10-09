@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.21.00.27",
+                "change_log": "- Launch quantize for step sequencers"
+            },
+            {
                 "version": "1.21.00.26",
                 "change_log": "- Launch quantize for audio loops and onehots \n- Launch quantize can be global set in the click settings, or per clip\n- Can also be applied to synths and drumkits for realtime quantize effect\n- Improved seamless play between audio clips when triggering next/previous clips\n- Less cores used for offline timestrech"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "1.20.00.14",
                 "change_log": "High performance video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
-            },
-            {
-                "version": "1.20.00.12",
-                "change_log": "- Avatar recorder embedded in scene fixes\n- Auto Follow scenes allows playback of whole song automatically\n- Automaton recording performance improvements"
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 480001,
+        "changelog_update": 480121,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 480001,
+        "last_update": 480121,
         "category": "APPS",
         "votes": 4,
         "rating": 5.0,

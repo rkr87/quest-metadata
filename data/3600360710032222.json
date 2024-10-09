@@ -25,11 +25,11 @@
             "Spanish (Spain)"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -84,6 +84,10 @@
         },
         "changelog": [
             {
+                "version": "2.9.5-gc8c3182d",
+                "change_log": "2.9.1-gdc73c2ef: Update some UPM packages (#765)\n2.9.2-g0a1fd6e2: Update Zapbox SDK (#770)\n2.9.3-g5282a4c8: gzip config.vdf before storing as a secret (#771)\n2.9.4-g3ebd1e00: Logitech MK Ink Integration (#768)\n2.9.5-gc8c3182d: Allow profiler to use bundled sketches (#769)"
+            },
+            {
                 "version": "2.4.0",
                 "change_log": "v2.4 \"Prismatic\"\n\nOpen Brush is 3 today! We're celebrating by releasing a new version, packed with tons of new features. We have an even bigger 3.0 release in the works which will add multiplayer, but we wanted to get these features to you as soon as possible!\n\nLocalization\nYou can now use Open Brush in 7 languages:\n- English\n- French\n- Spanish\n- German\n- Chinese\n- Japanese\n- Korean\n\nIf you'd like to help add more languages then please get in touch!\n\nMulti-Mirror\nThe regular Mirror Tool is incredibly useful but for those of you who are interested in symmetry and geometric patterns, you'll find a lot to explore in the new Multi-Mirror Tool.\nIt supports dozens of types of symmetry and has powerful control of color variance for the replicated brush strokes.\n\nXR Keyboard\nDoes your sketches folder contain hundreds of sketches called \"Untitled\"? No more!\nCurrently used for renaming sketches and setting the names of layers - having a built-in keyboard will allow many previously difficult features in the near future.\n\nTransform Panel\nThe new Transform Panel adds some powerful tools to help with building complex scenes. Open Brush has traditionally been aimed at freehand drawing or painting but we've always wanted to improve workflows that require precise control over elements of your sketch.\n\nThere's plenty more in this release, including support for 360 image backgrounds, a new glTF importer, and SVG importer! You can read the full patch notes here: https://docs.openbrush.app/release-history/v2.4\n\nHappy Painting!"
             },
@@ -116,13 +120,13 @@
         "language_update": 475273,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479473,
+        "changelog_update": 480121,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 480097,
         "iarc_detail_update": 475273,
         "keywords": [],
-        "last_update": 480097,
+        "last_update": 480121,
         "category": "APPS",
         "votes": 195,
         "rating": 4.630769,
