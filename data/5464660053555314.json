@@ -80,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "0.15.0",
+                "change_log": "New action 'Move' allowing to move objects along the 3 axis instead of assigning a target. Now Text objects can also be manipulated and affected by Gravity. New assets in the Library.\tFixed a bug where colliders of an asset would not be fully deactivated even if 'collisions' were not enabled in the Object Settings."
+            },
+            {
                 "version": "0.14.0",
                 "change_log": "Brand new infrastructure. Support for new subscription plans, added sorting to community list. Added support for requiring to update when server version requires it. UI and assets improvements."
             },
@@ -152,7 +156,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 480145,
         "keyword_update": 474881,
         "tag_update": 479689,
         "rating_update": 480073,
@@ -162,7 +166,7 @@
             "learn",
             "social"
         ],
-        "last_update": 480073,
+        "last_update": 480145,
         "category": "APPS",
         "votes": 104,
         "rating": 3.528846,

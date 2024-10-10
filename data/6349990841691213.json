@@ -3,7 +3,7 @@
         "id": "6349990841691213",
         "app_name": "How2 Series Pumpers",
         "release_date": "2024-05-17T00:00:00.000Z",
-        "description": "Our virtual reality training app for pumper operations can significantly enhance the training experience for firefighters, leading to improved performance and safety when responding to real-world emergencies.\n\nBenefits\n\n    Safety: Provides a risk-free environment where firefighters can practice pumper operations without the dangers of real-life emergencies.\n\n    Realistic Scenarios: Firefighters can experience 360-degree views and accurate 3D representations of various scenarios.\n\n    Cost-Effectiveness: More cost-effective than traditional training methods, as it reduces the need for physical resources and can be conducted without the operational costs of actual equipment.\n\n    On-Demand Training: Firefighters can access training anytime and anywhere, allowing for flexible scheduling and repeated practice without the constraints of coordinating with live training events.\n\n    Skill Development: Firefighters develop practical skills, learn to cope with stress, and practice using equipment in a safe environment.\n\n    Engagement and Retention: The immersive nature of our app will lead to higher engagement and better retention of the training material.\n\nPump Operations: Principles of water, hose nozzles and flow rates, simulates pressure, flow and ground hydraulics based on theory. \n\nWater Supply: Principles of water supply including the use of hydrants and drafting operations.  Also includes selection of hose, use of hose appliances, deployment of hose lines, and nozzles.",
+        "description": "Our virtual reality training app for pumper operations can significantly enhance the training experience for firefighters, leading to improved performance and safety when responding to real-world emergencies.\n\nNow includes a mixed reality mode so you can use within your own physical space.\n\nBenefits\n\n    Safety: Provides a risk-free environment where firefighters can practice pumper operations without the dangers of real-life emergencies.\n\n    Realistic Scenarios: Firefighters can experience 360-degree views and accurate 3D representations of various scenarios.\n\n    Cost-Effectiveness: More cost-effective than traditional training methods, as it reduces the need for physical resources and actual equipment.\n\n    On-Demand Training: Firefighters can access training anytime and anywhere, allowing for flexible scheduling and repeated practice without the constraints of coordinating with live training events.\n\n    Skill Development: Firefighters develop practical skills, learn to cope with stress, and practice using equipment in a safe environment.\n\n    Engagement and Retention: The immersive nature of our app will lead to higher engagement and better retention of the training material.\n\nPump Operations: Principles of water, hose nozzles and flow rates, simulates pressure, flow and ground hydraulics based on theory. \n\nWater Supply: Principles of water supply including the use of hydrants and drafting operations.  Also includes selection of hose, deployment of hose lines, and nozzles.",
         "developer": "How2 Series",
         "publisher": "Bradatech Corp.",
         "genres": [
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3
+                "votes": 4
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.0.2410",
+                "change_log": "-Added Mixed Reality (passthrough) mode accessible from the Scene menu\n-Added achievements\n-Optimization of water effects\n-Miscellaneous bug fixes"
+            },
+            {
                 "version": "1.0.2409",
                 "change_log": "*Implemented full Meta spatial audio effects\n*Added pump overheating and cooling models\n*Hose colliders for all inlet and discharges\n*Added porta-tank and front inlet effects for station and industrial scenes\n*Optimized walkthrough process\n*Miscellaneous bug fixes\n*Implemented Meta Horizon Store subscription IAP"
             },
@@ -89,24 +93,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 479953,
+        "general_update": 480145,
         "genre_update": 478921,
         "device_update": 478921,
         "mode_update": 478921,
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 479689,
+        "changelog_update": 480145,
         "keyword_update": 478921,
         "tag_update": 478921,
-        "rating_update": 479953,
+        "rating_update": 480145,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 479953,
+        "last_update": 480145,
         "category": "APPS",
-        "votes": 6,
-        "rating": 3.5,
-        "weighted_rating": 3.4
+        "votes": 7,
+        "rating": 3.714286,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

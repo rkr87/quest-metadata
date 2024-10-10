@@ -3,7 +3,7 @@
         "id": "7913070375408337",
         "app_name": "PDF Reader",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "This free PDF viewer can display PDF files in real scale in passthrough.\nIt's mainly intended to display documents in real size (A4,A3,A2,A1,A0).\nUseful for creatives, architects and engineers that wants to visualize the documents before printing them (save the trees!) in a fast and easy way.\nSimply drag and drop your PDF files from the PC to your quest via the USB cable, or download them with the internet browser. \nAt the first app opening, remember to grant the permission to read your files when asked.\nIt does not support advanced PDF functions like password protection, fileOpen etc.\nThe app is still in developing phase, all feedback is appreciated!",
+        "description": "This free PDF viewer can display PDF files in real scale in passthrough.\nIt's mainly intended to display documents in real size (A4,A3,A2,A1,A0).\nUseful for readers, creatives, architects and engineers that wants to visualize the documents before printing them (save the trees!) in a fast and easy way.\nSimply drag and drop your PDF files from the PC to your quest via the USB cable, download them with the internet browser., or connect a USB storage (USB OTG Supported).\nAt the first app opening, remember to grant the permission to read your files when asked. All your files local, without remote processing, cloud sharing or requirement for accounts.\nIt does not support advanced PDF functions like password protection, fileOpen etc.\nThe app is still in developing phase, all feedback is appreciated!",
         "developer": "BAVE",
         "publisher": "Alessandro Stefani",
         "genres": [
@@ -30,7 +30,9 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -74,27 +76,31 @@
         },
         "changelog": [
             {
+                "version": "0.4",
+                "change_log": "- Added experimental USB storage support\n- Updated GUI with icons and first file helper\n- Added P7M (signed PDF) support\n- Added experimental notepad for note-taking\n- Improved MX Ink support\n"
+            },
+            {
                 "version": "0.3",
                 "change_log": "Added prev-next file buttons\nResolved scaling bug\nResolved multipage bug\nAdded FileInfo panel\nAdded multifile addon\nAdded MxInk support"
             }
         ],
         "on_rookie": false,
-        "general_update": 480073,
+        "general_update": 480145,
         "genre_update": 479546,
         "device_update": 479546,
         "mode_update": 479546,
         "language_update": 479546,
         "platform_update": 479809,
         "player_mode_update": 479546,
-        "changelog_update": 479809,
+        "changelog_update": 480145,
         "keyword_update": 479546,
-        "tag_update": 479546,
+        "tag_update": 480145,
         "rating_update": 480073,
         "iarc_detail_update": 479546,
         "keywords": [
             "office"
         ],
-        "last_update": 480073,
+        "last_update": 480145,
         "category": "APPS",
         "votes": 2,
         "rating": 5.0,

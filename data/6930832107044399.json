@@ -98,6 +98,10 @@
         },
         "changelog": [
             {
+                "version": "2.30",
+                "change_log": "- Added support for Italian, Polish, and Dutch languages.\n- Enabled zooming in and out of images using pinch gestures with both middle fingers.\n- Improved recognition accuracy of pinch gestures and made it less likely for the orientation to shift upon completion.\n- Added a check in the tutorial to confirm whether hand tracking is enabled.\n- To prevent confusion, restricted magic selection and activation until the player reaches the magic selection tutorial.\n- Fixed an issue where an afterimage would appear in unintended locations when starting a pinch gesture.\n- Fixed a bug where drawing would stop if both fingers came too close together during drawing.\n- Adjusted some magic effects."
+            },
+            {
                 "version": "2.21",
                 "change_log": "- Improved gesture recognition for Undo\n- Adjusted the playback speed of magic\n- Adjusted the text display position in the tutorial"
             },
@@ -114,13 +118,13 @@
         "language_update": 479617,
         "platform_update": 479809,
         "player_mode_update": 479161,
-        "changelog_update": 479593,
+        "changelog_update": 480145,
         "keyword_update": 479161,
         "tag_update": 479689,
         "rating_update": 479809,
         "iarc_detail_update": 479161,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 480145,
         "category": "APPS",
         "votes": 9,
         "rating": 4.888889,

@@ -22,11 +22,11 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "STANDING",
@@ -78,6 +78,10 @@
             "logo_transparent": "57569483_441504150512684_798308865353626335_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6.1",
+                "change_log": "-Improved the grass on the Upland Hunting\\n\n-You can now choose the English skeet final option\\n\n-Party Challenge scores do not get cleared if you go back to menu and you can reset the leaderboard and choose the difficulty again by pressing a “Reset” button.\\n\n-Updated the integrated Meta software\\n\n-Bug fixes\n"
+            },
             {
                 "version": "1.5.5.9",
                 "change_log": "- XP Requirement removed for the Rifle in Boar Hunting\\n\n- Gain more XP especially in beginner and intermediate modes. You get still most XP in professional mode!\\n\n- ForceTube haptic is now sent to all components"
@@ -149,10 +153,6 @@
             {
                 "version": "1.4.9.2",
                 "change_log": "- Fixed the Skeet target angles"
-            },
-            {
-                "version": "1.4.9.1",
-                "change_log": "- Adjusted the arc of target flight in American Trap\\n\n- Bug Fix: Party Challenge did not play through if American Trap was selected in practise panel.\\n\n- Sporting Clays Challenge 10 adjusted\n"
             }
         ],
         "on_rookie": true,
@@ -163,13 +163,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 480145,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480073,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480073,
+        "last_update": 480145,
         "category": "GAMES",
         "votes": 351,
         "rating": 4.820513,

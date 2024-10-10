@@ -28,10 +28,10 @@
         ],
         "platforms": [
             "Meta Quest",
-            "Meta Quest 2",
             "Meta Quest 3S",
             "Meta Quest 3",
-            "Meta Quest Pro"
+            "Meta Quest Pro",
+            "Meta Quest 2"
         ],
         "player_modes": [
             "SITTING",
@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 256
+                "votes": 257
             },
             {
                 "rating": 2,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2080
+                "votes": 2086
             }
         ],
         "comfort": "NOT_RATED",
@@ -84,6 +84,22 @@
             "logo_transparent": "57566678_1139795896712270_2030229663101083840_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.3 \n\n[ Introducing the Camera Device ]\nRecord videos inside VRFS! Open the menu and tap the new icon at the top. Move around holding the device, fix it in the air, or even throw it around. We've optimized it to use minimal resources, but be aware that using the device on heavy custom arenas may cause FPS drops.\n\n[ U19 Halloween Bundle ]\nThe Halloween bundle is available in the store until Halloween. It will be removed from the store afterward, but all purchased items are yours forever.\n\n[ Dark Arena Template ]\nA new dark scene is available in the arena builder—perfect for creating scary places. We've also added a pumpkin object to the objects list.\n\n[ New GK in Public Lobbies ]\nThe new goalie mechanics, which allow catching and throwing the ball, are now enabled in all public match lobbies. We also need your feedback on whether the gloves-dash feature should be removed.\n\n[ Verification Badges ]\nBased on initial feedback, we’ve moved the badge to the username instead of the player model. The verified blue check mark will be visible in the player list in the lobby.\n\n[ Bug Fixes and Enhancements ]\nWe've fixed many issues, including lag when switching jerseys and glove collision problems. Custom arenas have been significantly optimized, especially those with many blocks.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.3 \n\n[ Introducing the Camera Device ]\nRecord videos inside VRFS! Open the menu and tap the new icon at the top. Move around holding the device, fix it in the air, or even throw it around. We've optimized it to use minimal resources, but be aware that using the device on heavy custom arenas may cause FPS drops.\n\n[ U19 Halloween Bundle ]\nThe Halloween bundle is available in the store until Halloween. It will be removed from the store afterward, but all purchased items are yours forever.\n\n[ Dark Arena Template ]\nA new dark scene is available in the arena builder—perfect for creating scary places. We've also added a pumpkin object to the objects list.\n\n[ New GK in Public Lobbies ]\nThe new goalie mechanics, which allow catching and throwing the ball, are now enabled in all public match lobbies. We also need your feedback on whether the gloves-dash feature should be removed.\n\n[ Verification Badges ]\nBased on initial feedback, we’ve moved the badge to the username instead of the player model. The verified blue check mark will be visible in the player list in the lobby.\n\n[ Bug Fixes and Enhancements ]\nWe've fixed many issues, including lag when switching jerseys and glove collision problems. Custom arenas have been significantly optimized, especially those with many blocks.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.3 \n\n[ Introducing the Camera Device ]\nRecord videos inside VRFS! Open the menu and tap the new icon at the top. Move around holding the device, fix it in the air, or even throw it around. We've optimized it to use minimal resources, but be aware that using the device on heavy custom arenas may cause FPS drops.\n\n[ U19 Halloween Bundle ]\nThe Halloween bundle is available in the store until Halloween. It will be removed from the store afterward, but all purchased items are yours forever.\n\n[ Dark Arena Template ]\nA new dark scene is available in the arena builder—perfect for creating scary places. We've also added a pumpkin object to the objects list.\n\n[ New GK in Public Lobbies ]\nThe new goalie mechanics, which allow catching and throwing the ball, are now enabled in all public match lobbies. We also need your feedback on whether the gloves-dash feature should be removed.\n\n[ Verification Badges ]\nBased on initial feedback, we’ve moved the badge to the username instead of the player model. The verified blue check mark will be visible in the player list in the lobby.\n\n[ Bug Fixes and Enhancements ]\nWe've fixed many issues, including lag when switching jerseys and glove collision problems. Custom arenas have been significantly optimized, especially those with many blocks.\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "UPDATE 0.4.3 \n\n[ Introducing the Camera Device ]\nRecord videos inside VRFS! Open the menu and tap the new icon at the top. Move around holding the device, fix it in the air, or even throw it around. We've optimized it to use minimal resources, but be aware that using the device on heavy custom arenas may cause FPS drops.\n\n[ U19 Halloween Bundle ]\nThe Halloween bundle is available in the store until Halloween. It will be removed from the store afterward, but all purchased items are yours forever.\n\n[ Dark Arena Template ]\nA new dark scene is available in the arena builder—perfect for creating scary places. We've also added a pumpkin object to the objects list.\n\n[ New GK in Public Lobbies ]\nThe new goalie mechanics, which allow catching and throwing the ball, are now enabled in all public match lobbies. We also need your feedback on whether the gloves-dash feature should be removed.\n\n[ Verification Badges ]\nBased on initial feedback, we’ve moved the badge to the username instead of the player model. The verified blue check mark will be visible in the player list in the lobby.\n\n[ Bug Fixes and Enhancements ]\nWe've fixed many issues, including lag when switching jerseys and glove collision problems. Custom arenas have been significantly optimized, especially those with many blocks.\n"
+            },
             {
                 "version": "0.1",
                 "change_log": "0.4.2 PATCH UPDATE\n\n- Temporarily disabled glove collisions\n- Optimized VFA arena\n- Fixed issues with the new empty arena template\n- Resolved various other bugs\n"
@@ -147,22 +163,6 @@
             {
                 "version": "0.1",
                 "change_log": "UPDATE 0.3.7\n\n**Multiplayer:**\n- Updated multiplayer sync to decrease lag time and address issues like ‘phasing’. This should also help with the problem of deflected balls appearing as goals, but we are still working on more complex enhancements. This feature is experimental and we appreciate your feedback.\n- You can now use gloves after the goal is scored (this was highly requested).\n\n**Scenes:**\n- Added an enlarged version of the starting stadium with access to the stands and locker rooms.\n\n**Camera mode:**\n- Press grip to speed up (two grips to speed up faster).\n- Press triggers to go up/down.\n- Use camera mode in online public practice lobbies and in arena editing.\n\n**Arena editor:**\n- Added snap to grid feature.\n- Place texts with adjustable size and color (up to 1,000 chars per instance).\n- Most of the objects now have a ‘scale’ setting, thus allowing for resizing.\n- Switch to camera mode when in the arena editor.\n\n**Replays:**\n- Share replay codes (and watch replays in the camera apps a bit later).\n- Rewind / Fast-forward replays by pressing (A) and (X) on controllers.\n- Slow-motion feature (press (A) + (X) on controllers).\n- Increased smoothness of moving objects.\n\n**Other:**\n- Interface enhancements.\n- Various fixes and optimizations in the in-game menu.\n- Slightly improved sound effects.\n- Some bugs were fixed \n\n**In-game store:**\n- U19 Launch Bundle items removed from the store.\n- New ‘Fun Kit’ bundle added, containing 12 items such as a golf ball, hockey puck, fitness ball, and more.\n\nAnnouncement\nAlthough the bundle is called 'Fun Kit,' its purpose goes beyond fun. It's part of our research, and the physics and features of these objects will evolve in the coming weeks.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.7\n\n**Multiplayer:**\n- Updated multiplayer sync to decrease lag time and address issues like ‘phasing’. This should also help with the problem of deflected balls appearing as goals, but we are still working on more complex enhancements. This feature is experimental and we appreciate your feedback.\n- You can now use gloves after the goal is scored (this was highly requested).\n\n**Scenes:**\n- Added an enlarged version of the starting stadium with access to the stands and locker rooms.\n\n**Camera mode:**\n- Press grip to speed up (two grips to speed up faster).\n- Press triggers to go up/down.\n- Use camera mode in online public practice lobbies and in arena editing.\n\n**Arena editor:**\n- Added snap to grid feature.\n- Place texts with adjustable size and color (up to 1,000 chars per instance).\n- Most of the objects now have a ‘scale’ setting, thus allowing for resizing.\n- Switch to camera mode when in the arena editor.\n\n**Replays:**\n- Share replay codes (and watch replays in the camera apps a bit later).\n- Rewind / Fast-forward replays by pressing (A) and (X) on controllers.\n- Slow-motion feature (press (A) + (X) on controllers).\n- Increased smoothness of moving objects.\n\n**Other:**\n- Interface enhancements.\n- Various fixes and optimizations in the in-game menu.\n- Slightly improved sound effects.\n- Some bugs were fixed \n\n**In-game store:**\n- U19 Launch Bundle items removed from the store.\n- New ‘Fun Kit’ bundle added, containing 12 items such as a golf ball, hockey puck, fitness ball, and more.\n\nAnnouncement\nAlthough the bundle is called 'Fun Kit,' its purpose goes beyond fun. It's part of our research, and the physics and features of these objects will evolve in the coming weeks.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.6\n\nWhile the team focuses on developing major new features, this patch is relatively small. Thank you for your patience as we prepare to roll out many cool things.\n\n- Bug fixes (including the player mannequin not displaying custom jersey shorts and other issues)\n- Improved multiplayer synchronization and goal tracking\n- Minor UX enhancements\n- New U19 bundles and the Botkeeper helmet in the store \n\nAdditionally, you can now download replays on the player portal. However, the feature for sharing replay codes and play files is not yet available. You can still back up replays if needed."
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.6\n\nWhile the team focuses on developing major new features, this patch is relatively small. Thank you for your patience as we prepare to roll out many cool things.\n\n- Bug fixes (including the player mannequin not displaying custom jersey shorts and other issues)\n- Improved multiplayer synchronization and goal tracking\n- Minor UX enhancements\n- New U19 bundles and the Botkeeper helmet in the store \n\nAdditionally, you can now download replays on the player portal. However, the feature for sharing replay codes and play files is not yet available. You can still back up replays if needed.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.3.5\n\nINTRODUCING REPLAYS: \nNow you can record any multiplayer lobby as a replay, saved in the cloud. Replays capture the position and behavior of all objects and players and can be viewed in the headset’s camera mode (you can watch it flying around the scene). Unlike video recording, replays don’t use heavy hardware resources, so no lags or extra battery drain. \n\nFind the Replays icon at the top of the menu. Replays are currently in beta, with features like auto-saving goals, sharing replays, and stadium screen replays coming soon.\n\nMEET THE NEW BRAND “U19”:\nU19 designers are creating extra detailed cosmetics with unique, slightly futuristic concepts. The brand is launching with a limited offer of three bundles, each consisting of six items. All items are also available for single purchase.\n\nOTHER ENHANCEMENTS:\n- Fixed minor bugs, such as players sometimes appearing in a white t-shirt.\n- Potentially removed lag when other players were switching between custom jerseys or entering the lobby. \n- Fixed the ball rotation sync (previously appeared to rotate slower when kicked by other players). \n- Fixed the ball slightly teleporting when entering the goals.\n- Fixed lag when scrolling through custom arena lists.\n\n\nThank you all for playing VRFS. We are already working on more enhancements and features.\n"
             }
         ],
         "on_rookie": false,
@@ -173,16 +173,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479809,
+        "changelog_update": 480145,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 480121,
+        "rating_update": 480145,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480121,
+        "last_update": 480145,
         "category": "GAMES",
-        "votes": 2720,
-        "rating": 4.410294,
+        "votes": 2727,
+        "rating": 4.410341,
         "weighted_rating": 4.4
     },
     "errors": []
