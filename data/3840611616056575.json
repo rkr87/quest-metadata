@@ -88,6 +88,10 @@
         },
         "changelog": [
             {
+                "version": "1.4.2",
+                "change_log": "V1.4.2 Update Announcement\n\nHello, players! The V1.4.2 update has been released! In this update, we have added various new features, optimizations, and bug fixes. Please see the details below.\n\nLobby\n- Added UI for event tournament announcements\n\nBowling\n- Fixed an issue where the game would not proceed after a strike in the 10th frame\n\nBasketball\n- Optimized the stadium\n\nBadminton\n- Optimized the stadium\n- Changed the stadium and added UI elements to the scoreboard\n\nDarts\n- Fixed a bug where the opponent's hand in multiplayer did not receive light properly\n\nTable Tennis\n- Changed the stadium and added UI elements to the scoreboard\n\nBoxing\n- Changed the fire glove effect\n- Changed the stadium and added UI elements to the scoreboard\n- Fixed an issue where character shadows appeared incorrectly in single-player mode\n- Fixed an issue where the player direction was incorrect when a new round started in multiplayer mode\n- Performance optimization\n\nBaseball\n- Changed the fireball and fire bat effects\n\nTennis\n- Changed the fireball effect\n\nVolleyball\n- Changed the stadium and added UI elements to the scoreboard\n\nSquash\n- Changed the fireball and fire racket effects\n- Optimized the effects for better performance\n\nSoccer\n- Added spectator mode\n- Fixed an issue where the game would not proceed when the goalkeeper caught the ball in multiplayer\n- Optimized the map for spectator mode\n- Removed draws in penalty shootouts to align with official rules\n\nFoot Hockey\n- Added spectator mode\n\nKung Fu\n- Added spectator mode\n- Fixed an issue where the wrong icon appeared when switching tracker modes in the tutorial\n- Performance optimization across all martial arts\n\n\n-We hope this update will provide an even better gaming experience. We always value your feedback and are committed to making a better game. Enjoy your gaming!"
+            },
+            {
                 "version": "1.4.1",
                 "change_log": "Announcement: Latest Update Complete\n\nDear players,\n\nWe have resolved the issue where the game did not progress correctly after scoring a strike in the 10th round. You can now play the game without any problems.\n\nThank you for your patience as we worked on this fix, and we will continue to strive for a better gaming experience.\n\nSincerely,\nAppnori"
             },
@@ -150,10 +154,6 @@
             {
                 "version": "0.9.1",
                 "change_log": "Hotfix!\n\nCommon\n- We revised the case where the Result of the game is judged differently if the opponent's connection is cut off when the match is matched by event in the lobby.\n- We revised the case where the actual results of the game are judged differently in several games, including table tennis games. [We added a protective cord]\n- We fixed the bug that turns the screen white when the opponent's player's match is disconnected in the online match.\n\n\nBadminton, Ping-Pong, Tennis\n- Corrections: Players who played table tennis, tennis, and badminton lost points if they didn't hit the ball for 20 seconds.[Time limit] [2 chances in total]\n\n\nBoxing\n- Fixed the problem that the sound volume does not change even if the sound volume is adjusted in boxing."
-            },
-            {
-                "version": "0.9.0",
-                "change_log": "Hotfix!\n\nBoxing\n- The intensity of the controller vibration has been raised.\n- Changed the behavior of AI. (More dynamic steps, weaving, ducking)\n- Added the behavior of AI behavior. Dash or hit additional hits when the player blocks AI attacks."
             }
         ],
         "on_rookie": true,
@@ -164,13 +164,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 480193,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480145,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480145,
+        "last_update": 480193,
         "category": "GAMES",
         "votes": 515,
         "rating": 4.481553,

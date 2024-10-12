@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.22.00.01",
+                "change_log": "- v69 Meta Fork \n- Clips can now opt out of global time-stretch and key\n- Launch quantize option added to samples and loops browser\n- Quest3S Support\n- Better performance in complex scenes"
+            },
+            {
                 "version": "1.21.00.27",
                 "change_log": "- Launch quantize for step sequencers"
             },
@@ -151,10 +155,6 @@
             {
                 "version": "1.20.00.16",
                 "change_log": "High performance video system refactor\nStep sequencer can control videos including setting the loaded video\nAdd optional emit light setting on videos\nUp to four different videos can be played at a time\nfixed note stuck on, in editing synth parts\nFixed missing note-on when playing step sequencer follow in scenes\nFixed glitchy avatar motion playback when recording walking around\nImproved performance of playing several avatar motion caps at once\nImproved playback of avatar motion caps when triggered from scenes\nSaving now includes a screenshot of the save"
-            },
-            {
-                "version": "1.20.00.12",
-                "change_log": "- Avatar recorder embedded in scene fixes\n- Auto Follow scenes allows playback of whole song automatically\n- Automaton recording performance improvements"
             }
         ],
         "on_rookie": false,
@@ -165,13 +165,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480121,
+        "changelog_update": 480193,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 475000,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480121,
+        "last_update": 480193,
         "category": "APPS",
         "votes": 8,
         "rating": 4.25,

@@ -40,7 +40,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 495
+                "votes": 497
             },
             {
                 "rating": 2,
@@ -52,11 +52,11 @@
             },
             {
                 "rating": 4,
-                "votes": 4891
+                "votes": 4905
             },
             {
                 "rating": 5,
-                "votes": 41496
+                "votes": 41633
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -82,6 +82,10 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "770.02",
+                "change_log": "## New Update v770.02\n\n## New Course: Lofoten Links\n\nRanked as the #24 golf course in the world by Golf Digest, Lofoten Links is located in the Arctic Circle of Norway and is one of the most unique and breathtaking courses you will find. In the summer months, golfers have the rare opportunity to play under the Midnight Sun - or witness the Northern Lights during the cooler seasons.\n\n## Scramble Update\n\n- You can now change captaincy at any time during a round.\n\n### Unrestricted Hit Order for Teams\n\n- Unrestricted Hit Order allows any player on a team to hit at anytime after the Captain selects the shot. \n- *Note: Unrestricted Hit Order is only for Hit Order within teams. The team furthest from the hole will still be up first.\n\n### Update to Standard Team Order\n\n- Player now has the ability to 'Defer Shot' to the next player, moving them to the back of the hit order.\n\n## Bug Fixes\n\n- Edge case where clubs could change length when teleporting while in Giant Mode.\n- The \"Hide the flag on the green\" setting was not working properly.\n- Scramble mode - If someone rejoined on the Back 9, players could get stuck in a turn, forcing everyone to leave the round.\n- GOLF+ Tour - Fixed an issue where the last hole of a round would not get counted right away, showing a DNF to the player, until it updated later on."
+            },
             {
                 "version": "769.0",
                 "change_log": "New Update v769.0\n\nGOLF+ Pass Fall Sale! 37% Off Annual Subscription for the first year.\n\nBug Fixes:\n- Battle ELO reset & mode optimizations\n- Fixed distance tip over ball that would not show up after hole 1 on tee shots.\n- Fixed replays on Scramble rounds from showing the 'shot select' screen.\n- GOLF+ Tour - Non course owners could hit a black screen upon round resume.\n\nCourse Updates:\nPinehurst - Fixed multiple tee markers showing on some holes.\nQuail Hollow - Hole 16 - Fixed the large grandstand not giving players TIO relief.\nKiawah - Addressed some lighting on the Clubhouse and bulkheads.\nKapalua - Addressed some lighting and branding on the grandstands.\n\nOther Updates:\n- Updated 'How To' Videos in the Media Player, under 'Help'."
@@ -145,10 +149,6 @@
             {
                 "version": "755.04",
                 "change_log": "Patch v755.04\n\nBug Fixes:\n\n- Fixed Public Multiplayer Games not showing for players.\n- Fixed a crash caused by receiving a Topgolf game invite.\n- Fixed a crash that was caused by corrupted data in the Tournament Summary end screen."
-            },
-            {
-                "version": "755.01",
-                "change_log": "New Update v755.01\n\n**New Feature: GOLF+ TOUR Daily Tournaments**\n\nDaily Tournaments are now part of the GOLF+ TOUR. Golfers can now add points to their GOLF+ TOUR Ranking with daily competitions at a rotating selection of golf courses.\nEach Daily Tournament will pay out 5% of the points earned via the weekly tournaments. All tiers will compete on the same course conditions, with the only difference between tiers being green speed. GOLF+ TOUR Ranking points will be assigned at the end of each tournament week (Thursday-Wednesday) based on the total Daily + Weekly performance within that player’s tier.\n\n**Bug Fixes & Quality Updates:**\n- The UI is now HD when in Giant Mode.\n- Fixed an issue with the Media Player turning on after changing scenes.\n"
             }
         ],
         "on_rookie": false,
@@ -159,10 +159,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 480193,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 480145,
+        "rating_update": 480193,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -170,10 +170,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 480145,
+        "last_update": 480193,
         "category": "GAMES",
-        "votes": 47580,
-        "rating": 4.821774,
+        "votes": 47733,
+        "rating": 4.821884,
         "weighted_rating": 4.8
     },
     "errors": []

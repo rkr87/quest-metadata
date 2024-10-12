@@ -52,7 +52,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 444
+                "votes": 443
             },
             {
                 "rating": 2,
@@ -68,7 +68,7 @@
             },
             {
                 "rating": 5,
-                "votes": 8416
+                "votes": 8420
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -93,6 +93,14 @@
             "logo_transparent": "75361353_181021366521671_2233233529058099200_n.png"
         },
         "changelog": [
+            {
+                "version": "0.349.25_2024.10.10.4.54.49.749",
+                "change_log": "0.349.25"
+            },
+            {
+                "version": "0.349.24_2024.10.9.21.42.28.977",
+                "change_log": "0.349.24"
+            },
             {
                 "version": "0.349.18_2024.10.3.14.45.39.627",
                 "change_log": "0.349.18"
@@ -164,14 +172,6 @@
             {
                 "version": "0.334.0_2024.7.26.0.25.25.221",
                 "change_log": "0.334.0"
-            },
-            {
-                "version": "0.332.3_2024.7.16.1.1.29.708",
-                "change_log": "0.332.3\n-improved lighting on ball in all environments\n-prep work for voip fix. (it's technically in the app, and you can test it if the other person is on the same version, but I need to get everyone on the new voip system and then I'll flip a server-side switch to flip everyone over)\n-for 2d mode, updated log flush to instant (from 10 seconds). some users were asking for this change for some live shot metrics analysis via logs. \n-for 2d mode, Join Room feature is now available if you click on a user in your friends list\n-brighter arena\n-friend status improvement\n"
-            },
-            {
-                "version": "0.274.51_2024.7.16.5.12.26.350",
-                "change_log": "0.274.51"
             }
         ],
         "on_rookie": true,
@@ -182,20 +182,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480025,
+        "changelog_update": 480193,
         "keyword_update": 475633,
         "tag_update": 479617,
-        "rating_update": 480145,
+        "rating_update": 480193,
         "iarc_detail_update": 475000,
         "keywords": [
             "ping",
             "pong",
             "tennis"
         ],
-        "last_update": 480145,
+        "last_update": 480193,
         "category": "GAMES",
-        "votes": 10242,
-        "rating": 4.635227,
+        "votes": 10245,
+        "rating": 4.635725,
         "weighted_rating": 4.6
     },
     "errors": []
