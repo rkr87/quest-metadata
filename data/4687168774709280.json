@@ -99,6 +99,10 @@
         "changelog": [
             {
                 "version": "2.0",
+                "change_log": "fixed a serious crash problem"
+            },
+            {
+                "version": "2.0",
                 "change_log": "Added crossplay between all the VR versions and all the flat versions\nFixed some level generation crashes\nFixed some scene change crashes\nFixed floating props\nFixed many Chompy bugs\nFixed dynamite crash\nFixed infinite loading screen with offline mode\nFixed blocking rooms in level generation\nFixed some settings resetting\nFixed marcopolonium audio problem\nFixed slot machine taking money twice\nFixed some errand bugs\nFixed some voice lines not playing\nFixed matchmaking showing wrong region\nFixed dynamite stopping working\nFixed movement after resuming from sleep\nFixed some MP ending bugs\nFixed some voids in level generation\nAdded sound effects to geysirs\nAdded missing translations\nAdded add"
             },
             {
@@ -136,10 +140,6 @@
             {
                 "version": "0.9.12.2",
                 "change_log": "Fixed mama nautiloids godmode\nTweaked hand poses for all tools and papers\nFixed various MP sync problems\nFixed colliders in Coral scene\nReplaced pause with volume ducking in voice lines\nRemoved passages from 1-room levels\nAdded Clayton voice lines"
-            },
-            {
-                "version": "0.9.11.4",
-                "change_log": "Errands not progressing after scene change\nAdded tool adjustment angle option\nImproved backpack loot detection\nFixed a soft lock in revolver tutorial\nFixed tutorial audio balance\nFixed haptics disabling not working on Quest\nFixed loot getting stuck above the Loot grinder\nPerf improvements in the Coral Topworld and the Nest Biome"
             }
         ],
         "on_rookie": true,
@@ -150,13 +150,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 477649,
+        "changelog_update": 480218,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 479857,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 479857,
+        "last_update": 480218,
         "category": "GAMES",
         "votes": 131,
         "rating": 4.29771,
