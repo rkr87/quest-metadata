@@ -33,7 +33,7 @@
             },
             {
                 "rating": 2,
-                "votes": 2
+                "votes": 1
             },
             {
                 "rating": 3,
@@ -69,19 +69,24 @@
             "immersive_layer_logo": null,
             "logo_transparent": "39031395_1122494875601308_4197236162264697352_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.1000",
+                "change_log": "V1.0.1000\n\n- Added Mixed Reality Info page, trouble shooter and advanced MR tools to help recover items that have drifted out of reach due to external Quest system tracking issues. Please be aware that Quest tracking relies on good lighting and we have been seeing worse tracking performance in dimly lit rooms.\n- Fixed potential Progression Blocker when the transmission from Jeff is not accepted after tuning the fourth plant\n- Fixed potential Progression Blocker when the game is saved after a dream, restarted and then the player staying on the start screen for too long, potentially missing an incoming transmission\n- Improved trail VFX of the lander capsule / B.O.T. when going to/coming back from planets\n- Improved fog of war VFX of planet scanning\n- Improved depressurization VFX of Airlock and Storage\n- Added Chapter Selection when starting a new game from the save slot management page\n- Removed mysterious orb in Echoshroom dream\n- Added extra helper text to windows to indicate they can also be placed on ceilings and floors"
+            }
+        ],
         "on_rookie": false,
-        "general_update": 480145,
+        "general_update": 480265,
         "genre_update": 479857,
         "device_update": 479857,
         "mode_update": 479857,
         "language_update": 479857,
         "platform_update": 479857,
         "player_mode_update": 479857,
-        "changelog_update": 479857,
+        "changelog_update": 480265,
         "keyword_update": 479857,
         "tag_update": 479857,
-        "rating_update": 480218,
+        "rating_update": 480265,
         "iarc_detail_update": 479857,
         "keywords": [
             "mixedreality",
@@ -89,11 +94,11 @@
             "scifi",
             "space"
         ],
-        "last_update": 480218,
+        "last_update": 480265,
         "category": "GAMES",
-        "votes": 64,
-        "rating": 4.484375,
-        "weighted_rating": 4.3
+        "votes": 63,
+        "rating": 4.52381,
+        "weighted_rating": 4.4
     },
     "errors": []
 }

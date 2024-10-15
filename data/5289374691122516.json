@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 6
+                "votes": 5
             },
             {
                 "rating": 2,
@@ -43,15 +43,15 @@
             },
             {
                 "rating": 3,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 4,
-                "votes": 16
+                "votes": 19
             },
             {
                 "rating": 5,
-                "votes": 167
+                "votes": 194
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,26 +78,31 @@
             "immersive_layer_logo": "75451773_1681646805903398_4462712831066258339_n.png",
             "logo_transparent": "38982580_957113049505215_256702721751359787_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.1.01.261",
+                "change_log": "Into Black - Patch #1\nv 1.1.01.261.2410141809\n\nImprovements:\n\n*   Balance pass on resource cost amounts\n*   More intense teleport extraction fights\n*   General combat and enemy AI improvements\n*   Improved late game boss encounters\n*   Golem now has better hand-eye coordination\n*   Pickaxe throwing refinements\n*   Added gyros to later levels\n*   Boosted enemy health at higher difficulties\n*   Improved Quest 2 stability\n\nAudio:\n\n*   New player level up SFX\n*   New tool level up SFX\n*   New teleport beacon SFX\n*   New hive extractor SFX\n*   Improved UI hover SFX\n*   Resource impact improvements\n\nBug Fixes:\n\n*   Fixed sequencing issues around the Mission 3 anomaly, can now breach / scan in any order and it shouldn't break\n*   Fixed issue where some schematics were not dropping correctly (upgrades for health, grenades etc)\n*   Fixed issue with some upgrades not displaying correctly in skill tree\n*   Fixed orb drops not occurring on some enemy variants\n*   Fixed Sticky Flares not working\n*   Fixed a bug where damage numbers didn't show on hammer throws\n*   Fixed a bug where golem would lose aggro after player death\n*   Optimized boss music and reduced likelihood of start/stops\n*   Fixed an issue where some impact sounds were using the ship hull surface instead of body\n*   Fixed icon orientation in fabricator\n*   Repairing the drive core now visually repairs it in the ship\n*   Fixed wrist UI bug where pickaxe could disappear\n*   Fixes for final boss room fog\n*   Correctly un-hover devices in the objectives tab, stopping them from stealing crafting input when not focused (Breacher ghost crafting fix)\n*   Fixed chest game not allowing minimum contraction and fixed pop delay\n*   Fixed shark(s) not spawning\n*   Fixed player level cap (now correctly capping at 20)\n*   Fixed several instances of 'floating' resources\n*   Several cave and ship lighting fixes\n\nQoL Improvements:\n\n*   Schematics at the fabricator now clearly display which tool/weapon the upgrade is for\n*   Added tooltips to recipe ingredients in the fabricator\n*   Added inline crafting to recipe ingredients that have their own recipes in the fabricator\n*   Colored material owned shown in red if not enough for recipe fabrication\n*   Added Upgrade Terminal ‘Help’ button with Tutorial\n*   Added ‘whip to platform’ schematic to Mission 5 cave\n*   Add non-head based movement options\n*   Increased the range of the teleport arc in anomaly to help navigate more easily\n*   Made the vortex sphere pop-up more informative\n*   Added extractor warning when players are attempting to leave before the mission objective is complete\n*   Added menu option to throw pickaxe with grip\n*   Loading tip updates with more useful information\n\nMisc:\n\n*   Reduced laser wasp health\n*   Various VO additions and tweaks\n*   Added credits to options menu\n*   Prevented XP gain on minables that you can't damage\n*   Updated pistol texture\n\n\nJoin the Into Black community on Discord at https://discord.gg/intoblack\n"
+            }
+        ],
         "on_rookie": false,
-        "general_update": 480242,
+        "general_update": 480265,
         "genre_update": 480193,
         "device_update": 480193,
         "mode_update": 480193,
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 480193,
+        "changelog_update": 480265,
         "keyword_update": 480193,
         "tag_update": 480193,
-        "rating_update": 480242,
+        "rating_update": 480265,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 480242,
+        "last_update": 480265,
         "category": "GAMES",
-        "votes": 193,
-        "rating": 4.746114,
-        "weighted_rating": 4.6
+        "votes": 223,
+        "rating": 4.775785,
+        "weighted_rating": 4.7
     },
     "errors": []
 }
