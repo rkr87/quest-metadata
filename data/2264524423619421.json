@@ -94,6 +94,10 @@
         },
         "changelog": [
             {
+                "version": "1.7.6",
+                "change_log": "- fixed an issue where the boundary would not appear when launching the game in VR\n- fixed an issue where a warning message would appear on top of the hand tracking disclaimer if a save file is corrupted"
+            },
+            {
                 "version": "1.7.4",
                 "change_log": "- fixed an issue where index and thumb would sometimes deform when switching to controllers and back to hand tracking"
             },
@@ -158,7 +162,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480361,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 480121,
@@ -168,7 +172,7 @@
             "relax",
             "challenge"
         ],
-        "last_update": 480289,
+        "last_update": 480361,
         "category": "GAMES",
         "votes": 911,
         "rating": 4.801317,
