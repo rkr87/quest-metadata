@@ -102,6 +102,10 @@
         },
         "changelog": [
             {
+                "version": "2.40",
+                "change_log": "- Added a new pen called \"Cube.\"\n- Added a menu option to hide the hand outline when in MR mode.\n- Improved the stability of the palette position and orientation when hand tracking becomes unstable due to the overlap of the other hand with the hand opening the palette.\n- Improved the accuracy of pinch gesture recognition.\n- Fixed a bug where an invalid particle group was displayed at specific coordinates."
+            },
+            {
                 "version": "2.30",
                 "change_log": "- Added support for Italian, Polish, and Dutch languages.\n- Enabled zooming in and out of images using pinch gestures with both middle fingers.\n- Improved recognition accuracy of pinch gestures and made it less likely for the orientation to shift upon completion.\n- Added a check in the tutorial to confirm whether hand tracking is enabled.\n- To prevent confusion, restricted magic selection and activation until the player reaches the magic selection tutorial.\n- Fixed an issue where an afterimage would appear in unintended locations when starting a pinch gesture.\n- Fixed a bug where drawing would stop if both fingers came too close together during drawing.\n- Adjusted some magic effects."
             },
@@ -122,13 +126,13 @@
         "language_update": 480193,
         "platform_update": 479809,
         "player_mode_update": 479161,
-        "changelog_update": 480145,
+        "changelog_update": 480433,
         "keyword_update": 479161,
         "tag_update": 479689,
         "rating_update": 480386,
         "iarc_detail_update": 479161,
         "keywords": [],
-        "last_update": 480386,
+        "last_update": 480433,
         "category": "APPS",
         "votes": 14,
         "rating": 4.928571,

@@ -3,7 +3,7 @@
         "id": "6392501587470497",
         "app_name": "Fly",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# New 1.2 Update: Includes Google Street View, Bookmarks and more!\n\nEmbark on an extraordinary journey with Fly, and redefine the way you explore our planet. Powered by Google's cutting-edge 3D Maps Tiles, this immersive experience lets you soar through the skies and witness the world's wonders like never before. From the ground all the way to the edge of space, you can truly Fly for the first time.\n\n{976640067815582}\n\n**Global Exploration:** Fly taps into Google's vast repository of 3D tiles, offering a true-to-life representation of Earth. Traverse majestic landscapes, iconic landmarks, and hidden gems from the comfort of your home. Whether it's the towering peaks of the Himalayas, the bustling streets of Tokyo, or triumphs of human engineering like the Eiffel Tower in Paris, the world is yours to discover.\n{1173106120490071}\n**Unique Motion in Flight:** Feel the rush of wind as you take flight on your drone. Utilizing our unique motion controls enjoy a seamless and intuitive flying experience. Control your speed and direction with direct body motion and altitude with the joystick. Soar over mountains, glide through valleys, and experience the thrill of flight.\n\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/38974902_982449553373158_1253049313026760958_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=eDlqYQdfGWoQ7kNvgHvz6eo&_nc_zt=3&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYB8eOui0RsHhEC4emaFY6hCSb61g8-DHlOfVhJdVg-MLw&oe=671B86F8)\nUnleash your inner adventurer with Fly – the ultimate virtual reality app that brings the world to your fingertips for the first time in a stand alone headset. Elevate your senses, broaden your horizons, and experience the magic of flight in a way you've never imagined.\n",
+        "description": "# New 1.3 Update: Dynamic and Adjustable Time of Day, Improved Search, Google Street View, Bookmarks, and more!\n\nEmbark on an extraordinary journey with FLY, and redefine the way you explore our planet. Powered by Google's cutting-edge 3D Maps Tiles, this immersive experience lets you soar through the skies and witness the world's wonders like never before. From the ground all the way to the edge of space, you can truly Fly for the first time.\n\n{976640067815582}\n\n**Global Exploration:** Fly taps into Google's vast repository of 3D tiles, offering a true-to-life representation of Earth. Traverse majestic landscapes, iconic landmarks, and hidden gems from the comfort of your home. Whether it's the towering peaks of the Himalayas, the bustling streets of Tokyo, or triumphs of human engineering like the Eiffel Tower in Paris, the world is yours to discover.\n{1173106120490071}\n**Unique Motion in Flight:** Feel the rush of wind as you take flight, utilizing our unique motion controls. Enjoy a seamless and intuitive flying experience control your speed and direction with direct body motion and altitude with the joystick. Soar over mountains, glide through valleys, and experience the thrill of flight.\n\n![{\"height\":1440,\"type\":\"image\",\"width\":2560}](https://scontent-fra5-1.oculuscdn.com/v/t64.5771-25/38974902_982449553373158_1253049313026760958_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=eDlqYQdfGWoQ7kNvgE7PkrN&_nc_zt=3&_nc_ht=scontent-fra5-1.oculuscdn.com&oh=00_AYBLRxrbtl7b8SdeXjjV0s_F7B2_25RYQePsWvmBmn0Zfw&oe=671CD878)\nUnleash your inner adventurer with Fly – the ultimate virtual reality app that brings the world to your fingertips for the first time in a stand alone headset. Elevate your senses, broaden your horizons, and experience the magic of flight in a way you've never imagined.\n",
         "developer": "VirZOOM",
         "publisher": "VirZOOM",
         "genres": [
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 178
+                "votes": 179
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
             "logo_transparent": "39031643_1390528165167372_1886784839638768749_n.png"
         },
         "changelog": [
+            {
+                "version": "1.3.0",
+                "change_log": "--1.3.0--\nDynamic and adjustable Time of Day!\nVoice input for Search.\nExpanded Search Results shown by Popularity or Distance to your location.\nMenu/Pause button added to your left wrist when using Hands Only instead of Controllers.\nBookmarks are now shown as visible markers in the world.\nProminent cities are now shown in the world.\nHaptic feedback!\nExit App button in the Pause Menu.\nDiscord Community button in the Pause Menu.\n\n--Hotfix--\nFixed a silent crash that happened when using the new App Exit button in the Pause Menu\nFixed a long standing issue with crossing the 180/-180 boundary in the middle of the Pacific ocean"
+            },
             {
                 "version": "1.3.0",
                 "change_log": "--1.3.0--\nDynamic and adjustable Time of Day!\nVoice input for Search.\nExpanded Search Results shown by Popularity or Distance to your location.\nMenu/Pause button added to your left wrist when using Hands Only instead of Controllers.\nBookmarks are now shown as visible markers in the world.\nProminent cities are now shown in the world.\nHaptic feedback!\nExit App button in the Pause Menu.\nDiscord Community button in the Pause Menu."
@@ -152,30 +156,26 @@
             {
                 "version": "1.0.5",
                 "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes\n\n--1.0.4--\nClean up cache files to not unnecessarily use up disk space\n\n--1.0.5--\nPerformance improvements allowing us to run at a higher resolution\nFixed another number formatting crash that had snuck back into the product"
-            },
-            {
-                "version": "1.0.3",
-                "change_log": "--1.0.2--\nCrash bug fix related to number formatting conflicts across different languages\n\n--1.0.3--\nAddressed additional number formatting crashes"
             }
         ],
         "on_rookie": false,
-        "general_update": 480409,
+        "general_update": 480433,
         "genre_update": 474685,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480337,
+        "changelog_update": 480433,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 480409,
+        "rating_update": 480433,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480409,
+        "last_update": 480433,
         "category": "APPS",
-        "votes": 282,
-        "rating": 4.262411,
+        "votes": 283,
+        "rating": 4.265018,
         "weighted_rating": 4.2
     },
     "errors": []

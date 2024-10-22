@@ -103,6 +103,10 @@
             },
             {
                 "version": "2.0",
+                "change_log": "Bug fixes\nAuto host toggle"
+            },
+            {
+                "version": "2.0",
                 "change_log": "fixed a serious crash problem"
             },
             {
@@ -136,10 +140,6 @@
             {
                 "version": "0.9.20.5",
                 "change_log": "Implemented 14 new relics\nImplemented 15 new riddles\nImplemented Comic Issue 4\nImplemented new errands including Topworld ones\nIncreased errand rewards\nNew Topworld and Biome atmospheres\nAdded loading screen hints\nNew particles (crank, elevator, pickaxe, enemies, Nautilus pre-puke, explosions)\nChanged Thieving Chameleon behaviour totally\nChanged elevator entry/exit hallway lights\nRevolver bullet trail fixes\nChanged Bismuth digging wall textures\nReduced safe opening light intensity\nToiletpaper fixes"
-            },
-            {
-                "version": "0.9.15.1",
-                "change_log": "New features\n\nImplemented subtitles for voice lines\nAdded b2-b4 audio ambiences\n\nVisual changes\n\nBiome 1 decoration pass with new props\nUpdated textures for Enigmium, Lizard skeleton, Thistlebush, dried thistleplant, B1 roots, T3 dunes, Sporeplant\nUpdated Pan store texts\nCodex images for enigniums, B1/B2 Chameleons\nCabin indoor textures to 2k for android\nRemoved floating diggingarea\nRoom fixes\n\nBug fixes\n\nFixed detector arrows\nChanged B3 geodes to use right skin\nFixed health resetting issues on client\nTweaked shovel grips\nFixed connected friend not going back to invitable list if they disconnect\nFixed friendlist getting stuck when host disconnects from internet on MP\nMinor performance improvements to prop sync culling group\nFaster nullchecks to diggingarea\nReduced plasmashrimp explosion nullref spam. Fixed meshcombiner error when going to cave in MP\nFixed the ownership error spam when using loot grinder\nFixed B2 fire particle problem\nFixed revolver sync weirdness\nFixed slippery tools. Sligtly bigger down textbox for updowncanvas so the text does not newline\nFixed client being unable to loot unfreezed buriednodes after midrun kick and join\nFixing colliders on some B1 prefabs\nFixing misc issues with revolver tutorial\nMinor adjustments to revolver hand poses\nBubblegum fix for Photon voice trying to reconnect when internet disconnects\nFixed safe being open and empty if player disconnects while in level that safe is spawned\nFixed safe clue not spawning correctly if it has been grabbed by workers glove in the previous run\nFixed workersglove parenting sync problems\nFixed chameleon grabbing bug if player dies or goes to next level while chameleon is holding the object\nModified tool upgrade voice lines frequency\nRiddle safe improved collision detection, disabled culling\nFixed loot grinder balloon not flying away and volume\nSyncing client owned chameleon grabbed items\nFixed loot release sfx playing when loot is spawned\nFixed Sawhorse_Table collider and LizardShelf dropping through the floor"
             }
         ],
         "on_rookie": true,
@@ -150,13 +150,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480313,
+        "changelog_update": 480433,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 480409,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480409,
+        "last_update": 480433,
         "category": "GAMES",
         "votes": 132,
         "rating": 4.295455,

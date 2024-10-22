@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.5",
+                "change_log": "Blue Sector v1.5. includes a fish feeding scenario, a fish welfare scenario, a fish maintenance scenario,  a fish factory scenario, and a fish laboratory scenario.\n\n# Change Log\n\n## Added:\n- We added a new reception scene that works as a central hub, connecting all current virtual workplace environments. \n- We added a loading screen for scene transitions that shows the loading progress of the next scene.\n- We made task-related objects in the laboratory scenario return to their initial position when the player completes a task.\n- We made the NPC in the laboratory scenario react if the player performs the procedure steps in the wrong order.\n\n## Changed:\n- We moved the starting tutorial to the reception area.\n- We translated the NPC dialogue in the maintenance scenario into English.\n- We replaced the watch in the maintenance scenario with the tablet.\n- We updated  the dialogue in the fish laboratory to be more precise and realistic.\n\n## Fixed:\n- We fixed some of the NPC dialogues in the maintenance scenario.\n- We made it impossible for the player to get stuck on the ocean floor after falling into the water in the maintenance scenario by teleporting the player back onto the boat.\n- We removed the ability to change player hand models by pressing the right thumb stick, which often happened accidentally and made players unable to perform tasks.\n- We fixed a rounding error in the Condition Factor calculation in the fish laboratory scenario, which sometimes made players fail even when performing the task correctly."
+            },
+            {
                 "version": "1.4",
                 "change_log": "Blue Sector v1.4. includes a fish feeding scenario, a fish welfare scenario, a fish maintenance scenario,  a fish factory scenario, and a fish laboratory scenario.\n\n# Change Log\n\n## Added:\n- We added a laboratory scenario in which the player measures and weighs a salmon, and calculates its Condition Factor. The player can also play around with a microscope and a handheld counter, which will be used to count plankton in a water sample in the future. \n\n## Changed:\n- We gave NPCs the ability to look at the player when they talk.\n- We gave the most visible grabbable objects more natural grab poses.\n\n## Fixed:\n- We made textures in the distance less blurry, making it easier to read some distant text elements.\n- We made it impossible to pick up and pocket levers and buttons.\n- We fixed a bug which sometimes made it impossible to close the player’s hands after going from the HSE (Health, Security and Environment) station room to the bleeding station."
             },
@@ -100,13 +104,13 @@
         "language_update": 478969,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 479809,
+        "changelog_update": 480433,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 478969,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 479809,
+        "last_update": 480433,
         "category": "GAMES",
         "votes": 0,
         "rating": 0.0,
