@@ -51,7 +51,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 7
+                "votes": 5
             },
             {
                 "rating": 2,
@@ -59,15 +59,15 @@
             },
             {
                 "rating": 3,
-                "votes": 8
+                "votes": 9
             },
             {
                 "rating": 4,
-                "votes": 28
+                "votes": 29
             },
             {
                 "rating": 5,
-                "votes": 82
+                "votes": 83
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -97,6 +97,10 @@
             "logo_transparent": "39031458_670242680822605_2167088392057333020_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0",
+                "change_log": "Bug fixes"
+            },
             {
                 "version": "2.0",
                 "change_log": "Smoother movement\nBug fixes"
@@ -136,10 +140,6 @@
             {
                 "version": "1.0.38.4",
                 "change_log": "Bug fixes:\n\nFixed levelgen crashes\nFixed long friend list crash\nFixed safe being open on longer runs\nFixed some safe dial sync bugs\nFixed last 5 comic pages not spawning\nFixed clients getting stuck and flying out of elevator\nFixed void problems on levelgen\nFixed Ruins Nautiloid codex image\nFixed Sledgehammer lvl3 texture\nFixed Ending 1 tank bugging when not opening the door\nFixed Biome4 doors not syncing on midrun join\nFixed Dynamite lvl4 not sticking\nFixed missing floor colliders on one Biome4 setpiece room\nFixed wrong LODs on some chameleon ruin models\n\n\nOther changes:\n\nOptimized level generation speed\nAdded smooth turn speed slider\nAdded hip slot position slider\nAdded player height slider\nAdded tunnel vision option\nImproved hands for players with long hands"
-            },
-            {
-                "version": "0.9.20.5",
-                "change_log": "Implemented 14 new relics\nImplemented 15 new riddles\nImplemented Comic Issue 4\nImplemented new errands including Topworld ones\nIncreased errand rewards\nNew Topworld and Biome atmospheres\nAdded loading screen hints\nNew particles (crank, elevator, pickaxe, enemies, Nautilus pre-puke, explosions)\nChanged Thieving Chameleon behaviour totally\nChanged elevator entry/exit hallway lights\nRevolver bullet trail fixes\nChanged Bismuth digging wall textures\nReduced safe opening light intensity\nToiletpaper fixes"
             }
         ],
         "on_rookie": true,
@@ -150,16 +150,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480433,
+        "changelog_update": 480457,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 480409,
+        "rating_update": 480457,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480433,
+        "last_update": 480457,
         "category": "GAMES",
-        "votes": 132,
-        "rating": 4.295455,
+        "votes": 133,
+        "rating": 4.338346,
         "weighted_rating": 4.2
     },
     "errors": []

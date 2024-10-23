@@ -87,6 +87,10 @@
         },
         "changelog": [
             {
+                "version": "1.5.4f2",
+                "change_log": "- Fixed DuckDuckGo links resulting in Bad Request errors."
+            },
+            {
                 "version": "1.5.4f1",
                 "change_log": "Added the Halloween 2024 paint by numbers pack."
             },
@@ -161,10 +165,6 @@
             {
                 "version": "1.4.2",
                 "change_log": "Experimental support for co-located multiplayer!"
-            },
-            {
-                "version": "1.4.1f1",
-                "change_log": "- Fixed local avatar and room setup popups potentially overlapping\n- Improved resolution for multiplayer on Quest 3"
             }
         ],
         "on_rookie": false,
@@ -175,7 +175,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480289,
+        "changelog_update": 480457,
         "keyword_update": 478321,
         "tag_update": 477913,
         "rating_update": 480289,
@@ -187,7 +187,7 @@
             "art",
             "relax"
         ],
-        "last_update": 480289,
+        "last_update": 480457,
         "category": "GAMES",
         "votes": 850,
         "rating": 4.775294,
