@@ -3,14 +3,10 @@
         "id": "8662430537161741",
         "app_name": "CuriosityXR | Interactive Education with Mixed Reality and AI",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# CuriosityXR is an immersive educational app designed to enhance your learning experience in Mixed Reality. Explore anything with only voice and hand interactions. \n\n\nThis app features state-of-the-art,  AI-generated ChatGPT based conversations in XR. With gesture and voice based interaction, you can easily interact with your teacher from the future and satisfy your curiosity. Learn through images, and 3D models, all integrated into a mixed-reality environment that surrounds you. \n\nLearning has never been more engaging and fun. \n\nThe app is still under continuous development and may have a few bugs but we are happy to provide experimental access to everyone to experience the future of learning while we are building it!",
+        "description": "CuriosityXR is an immersive educational app designed to enhance your learning experience in Mixed Reality. Explore anything with only voice and hand interactions. \n\nThis app features state-of-the-art,  AI-generated ChatGPT based conversations in XR. With gesture and voice based interaction, you can easily interact with your teacher from the future and satisfy your curiosity. Learn through images, and 3D models, all integrated into a mixed-reality environment that surrounds you. \n\nThe app is still under continuous development and may have a few bugs but we are happy to provide experimental access to everyone to experience the future of learning while we are building it!",
         "developer": "Aaditya Vaze",
         "publisher": "Aaditya Vaze",
-        "genres": [
-            "Educational",
-            "Travel & Exploration",
-            "Business, Productivity & Utility"
-        ],
+        "genres": [],
         "devices": [
             "Hand Tracking"
         ],
@@ -22,12 +18,16 @@
         ],
         "platforms": [
             "Meta Quest",
-            "Meta Quest Pro",
             "Meta Quest 3S",
             "Meta Quest 3",
+            "Meta Quest Pro",
             "Meta Quest 2"
         ],
-        "player_modes": [],
+        "player_modes": [
+            "ROOM_SCALE",
+            "SITTING",
+            "STANDING"
+        ],
         "tags": [
             "Mixed Reality"
         ],
@@ -53,7 +53,7 @@
                 "votes": 5
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -74,20 +74,20 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 480361,
-        "genre_update": 480145,
+        "general_update": 480481,
+        "genre_update": 480481,
         "device_update": 478921,
         "mode_update": 478921,
         "language_update": 478921,
         "platform_update": 479809,
-        "player_mode_update": 478921,
+        "player_mode_update": 480481,
         "changelog_update": 478921,
         "keyword_update": 478921,
         "tag_update": 479689,
         "rating_update": 480433,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 480433,
+        "last_update": 480481,
         "category": "APPS",
         "votes": 8,
         "rating": 4.0,

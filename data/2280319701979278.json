@@ -6,10 +6,7 @@
         "description": "Design interiors, buildings, virtual spaces and more with Arkio on Meta Quest and Meta Quest Pro. Try new design ideas and collaborate with others using VR, desktop and mobile to make better design decisions faster.\n\nWith room import and passthrough you can design, mix and share realities like never before. Move freely around large spaces or entire floors with the new boundaryless mode. Place virtual furniture in your living room, sketch an extension on your home, carve a virtual window into a wall or remove entire walls! View 3D models as scale models or experience them at true scale in the real world. Color passthrough on Meta Quest 3 & Pro brings mixed reality in Arkio vividly to life.\n\nArkio features a unique volumetric modeling kernel that allows you to intuitively create and modify shapes, carve openings and design with parametric components as if working with physical building blocks.\n\nEasily upload and download images, and large 3D models directly to and from Meta Quest using Arkio Cloud. Import/export from Unity, Revit, Rhino, SketchUp, LiDAR apps and more.",
         "developer": "Arkio",
         "publisher": "Arkio",
-        "genres": [
-            "Business, Productivity & Utility",
-            "Art & Creativity"
-        ],
+        "genres": [],
         "devices": [
             "Touch Controllers",
             "Hand Tracking"
@@ -83,6 +80,10 @@
             "logo_transparent": "38974453_259502382306739_2359056919203567767_n.png"
         },
         "changelog": [
+            {
+                "version": "1.9.1",
+                "change_log": "Logitech MX INK stylus input improvements\nFixed an import issue for Unity originated files\nImproved performance for meetings with +8 users\nMinor bug fixes"
+            },
             {
                 "version": "1.9.0",
                 "change_log": "New Logitech MX INK stylus support\nAutodesk Construction Cloud (BIM360) export portal added to Arkio cloud\nNotification for recently updated imports\nSort imports by date, name and type\nImperial unit dimensions and snap increments \nImproved performance and occlusion for large imported model\nColocation stability and UX improvements\nImproved wall creation\nCloud link simplification for Arkio cloud groups and ACC\nImported model placement/update simplifications\nPrevent Z-fighting for floors and ceilings of imported models\nShow outline hands instead of Meta avatar arms\nTeleport from both controllers\nTeleport around the table edge to face the model in god scale\nPress the thumbstick up/down for scrollable fields\nOther bug fixes and improvements"
@@ -158,21 +159,17 @@
             {
                 "version": "1.2.2",
                 "change_log": "Save full pictures taken on the Quest\nAdded additional support links on the home panel\nNotification when imported files fail to load\nIcons for Unity, Revit, Rhino and SketchUp in the import drawer\nIncreased performance when sharing imports with a bad internet connection\nUpdated ArkioHQ scene\nCorrect material exporting from Arkio to GLB\nCorrect size input for devices with comma decimal system values\nFixed BIM 360 linking and model downloads\nFixed creating components on imported geometry\nVarious modeling and UI bug fixes"
-            },
-            {
-                "version": "1.2.2",
-                "change_log": "Save full pictures taken on the Quest\nAdded additional support links on the home panel\nNotification when imported files fail to load\nIcons for Unity, Revit, Rhino and SketchUp in the import drawer\nIncreased performance when sharing imports with a bad internet connection\nUpdated ArkioHQ scene\nCorrect material exporting from Arkio to GLB\nCorrect size input for devices with comma decimal system values\nFixed BIM 360 linking and model downloads\nFixed creating components on imported geometry\nVarious modeling and UI bug fixes"
             }
         ],
         "on_rookie": false,
         "general_update": 480121,
-        "genre_update": 474685,
+        "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479857,
+        "changelog_update": 480481,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 480121,
@@ -183,7 +180,7 @@
             "design",
             "collaboration"
         ],
-        "last_update": 480121,
+        "last_update": 480481,
         "category": "APPS",
         "votes": 208,
         "rating": 3.8125,

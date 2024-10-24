@@ -6,10 +6,7 @@
         "description": "hAI! is your ideal AI friend who will always be with you! Name and describe your friend's personalities. Tell your friend about yourself. Then, start chatting with the power of ChatGPT!\n\nWith multilingual support, you can talk with your friend anytime, anywhere and about anything you want! Your friend is infinitely customizable, so you can have the perfect friend you have always dreamed of.",
         "developer": "URAV ADVANCED LEARNING SYSTEMS PVT LTD",
         "publisher": "URAV ADVANCED LEARNING SYSTEMS PVT LTD",
-        "genres": [
-            "Health & Fitness",
-            "Business, Productivity & Utility"
-        ],
+        "genres": [],
         "devices": [
             "Touch Controllers",
             "Hand Tracking"
@@ -99,6 +96,10 @@
         },
         "changelog": [
             {
+                "version": "0.7.15",
+                "change_log": "- Added Finnish.\n- Fixed French, German, Italian and Spanish voices.\n- Added TTS streaming for English (US). Responses should now be near-immediate.\n- Fixed issues where the TTS would try to \"say\" emojis and other symbols.\n- Fixed issues with hand tracking and the virtual keyboard.\n- Fixed overcharging for translation.\n- And a lot more under-the-hood updates!"
+            },
+            {
                 "version": "0.7.9",
                 "change_log": "- Improved Speech-To-Text! Now, you can talk to your friend for up to five minutes, even with pauses! Your Friend will listen to you as long as you press the A/X buttons on your controllers or clench your fists in hand tracking. To send the request, release the buttons or un-clench your fists."
             },
@@ -173,27 +174,23 @@
             {
                 "version": "0.4.2",
                 "change_log": "hAI! VR v0.4.2\n- The keyboard has been fixed!\n- The UI follows you."
-            },
-            {
-                "version": "0.4.1",
-                "change_log": "hAI! VR v0.4.1\n- Fixed gamebreaking bugs that were added in the previous version."
             }
         ],
         "on_rookie": false,
         "general_update": 480361,
-        "genre_update": 475753,
+        "genre_update": 480481,
         "device_update": 475753,
         "mode_update": 475753,
         "language_update": 480218,
         "platform_update": 479809,
         "player_mode_update": 475753,
-        "changelog_update": 480193,
+        "changelog_update": 480481,
         "keyword_update": 475753,
         "tag_update": 479689,
         "rating_update": 480361,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480361,
+        "last_update": 480481,
         "category": "APPS",
         "votes": 13,
         "rating": 2.769231,

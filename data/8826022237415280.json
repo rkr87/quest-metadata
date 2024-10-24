@@ -7,9 +7,7 @@
         "developer": "WanadevStudio",
         "publisher": "WanadevStudio",
         "genres": [
-            "Adventure",
-            "Action",
-            "Horror"
+            "Adventure"
         ],
         "devices": [
             "Touch Controllers"
@@ -31,10 +29,10 @@
             "Spanish (Spain)"
         ],
         "platforms": [
-            "Meta Quest 3S",
-            "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest 3S",
+            "Meta Quest 3"
         ],
         "player_modes": [
             "SITTING",
@@ -61,7 +59,7 @@
             },
             {
                 "rating": 5,
-                "votes": 298
+                "votes": 299
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -89,6 +87,10 @@
         },
         "changelog": [
             {
+                "version": "1.3.1",
+                "change_log": "# Update 1.3.1\n## Quest 3 Graphics Update\n- Added physics to some objects (the same as PC version): ability to grab and play with objects (e.g., cleaning product in the kitchen, bottles)\n- Increased texture resolution (2K)\n- Added shadows cast by the flashlight\n- Added some dynamic lights\n- More detailed hair and beard on the non-player characters Owen and Edgar\n- More details in the decor (e.g. small objects on the floor, irregularities in the wood floor, more detailed blood stains, humidity stains on walls, etc.)\n- Bugfix : Fresnel too strong on hall broken glass"
+            },
+            {
                 "version": "1.2.4",
                 "change_log": "# Update 1.2.4\n## New features\n- bHaptics support (to enable, go to the Quest Settings->Apps->Permissions->Nearby devices and activate permissions for Propagation: Paradise Hotel)"
             },
@@ -111,26 +113,26 @@
         ],
         "on_rookie": true,
         "general_update": 478921,
-        "genre_update": 474685,
+        "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480481,
         "keyword_update": 474685,
         "tag_update": 475177,
-        "rating_update": 480433,
+        "rating_update": 480481,
         "iarc_detail_update": 477385,
         "keywords": [
             "zombie",
             "horror",
             "survival"
         ],
-        "last_update": 480433,
+        "last_update": 480481,
         "category": "GAMES",
-        "votes": 412,
-        "rating": 4.536408,
+        "votes": 413,
+        "rating": 4.53753,
         "weighted_rating": 4.5
     },
     "errors": []

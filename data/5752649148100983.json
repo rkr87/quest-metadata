@@ -7,8 +7,7 @@
         "developer": "Three Pupper Studios",
         "publisher": "Three Pupper Studios LLC",
         "genres": [
-            "Arcade",
-            "Fighting"
+            "Sports"
         ],
         "devices": [
             "Touch Controllers"
@@ -78,6 +77,10 @@
             "logo_transparent": "38974854_1693137841055746_4734116240647278441_n.png"
         },
         "changelog": [
+            {
+                "version": "0.2.2",
+                "change_log": "1) Improved conversion of local mp3s\n\t• Songs converted in game will now show their correct BPM.\n\t• Targets will now be more closely timed to the correct BMP.\n\t• Improved consistency of different levels.\n\t• Improved rotation event consistency and obstacle consistency.\n\n2) Bug Fixes:\n\t• Improved transition performance from main menu to gameplay reducing frame loss.\n\t• Fixed bug causing some songs to not properly import causing  a warning to display stating they are missing difficulty options.\n\t• Improved overall settings performance and improved stability and added protections against corrupting data.\n\t• Detecting corrupted accounts now implemented and instructs players to delete their account if it is corrupted."
+            },
             {
                 "version": "0.2.1.1",
                 "change_log": "1) Bug Fixes:\n\t• Scroll arrows on home screen are now not visible unless useable.\n\t• Fixed bug causing an error to be thrown when trying to access the auto-generate maps folder.\n\t• Fixed bug causing an error to be thrown upon load sometimes.\n\t• Fixed wording in the Help menu.\n\t• Fixed wording in the About menu.\n\t• Fixed bug causing selecting the same tab in the Options menu to reset the displayed options.\n\t• Added a \"Revert\" button to allow you to undo changes you've made in the settings menu.\n\t• Fixed bug causing a random floating box sometimes to appear in the settings menu."
@@ -153,27 +156,23 @@
             {
                 "version": "0.1.33.3",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again.\n\t• Fixed bug causing \"Latest\" in community songs to not account for user search input."
-            },
-            {
-                "version": "0.1.33.3",
-                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again."
             }
         ],
         "on_rookie": true,
         "general_update": 477073,
-        "genre_update": 474685,
+        "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480073,
+        "changelog_update": 480481,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480218,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480218,
+        "last_update": 480481,
         "category": "GAMES",
         "votes": 39,
         "rating": 4.538462,

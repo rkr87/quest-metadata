@@ -7,7 +7,6 @@
         "developer": "The Binary Mill",
         "publisher": "The Binary Mill",
         "genres": [
-            "Shooter",
             "Action"
         ],
         "devices": [
@@ -43,7 +42,7 @@
             },
             {
                 "rating": 3,
-                "votes": 8
+                "votes": 9
             },
             {
                 "rating": 4,
@@ -51,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 263
+                "votes": 269
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -80,28 +79,32 @@
         },
         "changelog": [
             {
+                "version": "1.2.001.266",
+                "change_log": "*v1.2.001.266.2410231721*\n\n**Improvements:**\n\n*  More enemy balance, pathing and AI improvements\n*  Added ‘Controller based’ movement option\n*  Multiplayer netcode improvements making other players and enemies smoother \n*  Added a ‘Low memory’ mode to help with Quest 2 crashes (default set to ‘on’ for Quest 2 devices)\n\n**Bug Fixes:**\n\n*  Pick axe should no longer freakout uncontrollably\n*  Pesky ‘ghost bugs’ should now be exterminated\n*  Fixed infinite flight/swim through (most) waterfalls \n*  Fixed player footsteps appearing to sound from behind \n*  Fixed a host of underwater teleporting issues\n*  Fixed issue where Helion could only be mined with ‘Pickaxe Power 1’ equipped. Subsequent power levels now also work\n*  Resource count now correctly reflects when full\n*  Fabricator UI fix where incorrect items would sometimes display for recipes\n*  Wrist UI storage will now correctly display and not break out of the UI\n*  Blue flyer nerfed (no longer fires infinite death-ray) \n*  Added teleport cool-down\n*  Various typo fixes\n\n**Mission Fixes:**\n\n*  M4 (Whispers in the Dark): Fixed objective updating to return to ship after finding second of three beacons \n*  M5 (Titanium): Wrist UI objective tab correctly reflects players have Titanium before instructing them to return to ship\n*  M7 (Dark Energy): Added additional breacher safety checks to ensure mission progression\n*  M8 (The Professor): The ‘proceed warning’ popup no longer displays when completing all objectives correctly \n*  M9 (Royalty): Added more safety checks around end of mission ensuring it will register as completed\n*  M13 (Hidden City): Fixed mesh & collision issues \n*  M16 (The Descent): Fixed mesh & collision issues "
+            },
+            {
                 "version": "1.1.01.261",
                 "change_log": "Into Black - Patch #1\nv 1.1.01.261.2410141809\n\nImprovements:\n\n*   Balance pass on resource cost amounts\n*   More intense teleport extraction fights\n*   General combat and enemy AI improvements\n*   Improved late game boss encounters\n*   Golem now has better hand-eye coordination\n*   Pickaxe throwing refinements\n*   Added gyros to later levels\n*   Boosted enemy health at higher difficulties\n*   Improved Quest 2 stability\n\nAudio:\n\n*   New player level up SFX\n*   New tool level up SFX\n*   New teleport beacon SFX\n*   New hive extractor SFX\n*   Improved UI hover SFX\n*   Resource impact improvements\n\nBug Fixes:\n\n*   Fixed sequencing issues around the Mission 3 anomaly, can now breach / scan in any order and it shouldn't break\n*   Fixed issue where some schematics were not dropping correctly (upgrades for health, grenades etc)\n*   Fixed issue with some upgrades not displaying correctly in skill tree\n*   Fixed orb drops not occurring on some enemy variants\n*   Fixed Sticky Flares not working\n*   Fixed a bug where damage numbers didn't show on hammer throws\n*   Fixed a bug where golem would lose aggro after player death\n*   Optimized boss music and reduced likelihood of start/stops\n*   Fixed an issue where some impact sounds were using the ship hull surface instead of body\n*   Fixed icon orientation in fabricator\n*   Repairing the drive core now visually repairs it in the ship\n*   Fixed wrist UI bug where pickaxe could disappear\n*   Fixes for final boss room fog\n*   Correctly un-hover devices in the objectives tab, stopping them from stealing crafting input when not focused (Breacher ghost crafting fix)\n*   Fixed chest game not allowing minimum contraction and fixed pop delay\n*   Fixed shark(s) not spawning\n*   Fixed player level cap (now correctly capping at 20)\n*   Fixed several instances of 'floating' resources\n*   Several cave and ship lighting fixes\n\nQoL Improvements:\n\n*   Schematics at the fabricator now clearly display which tool/weapon the upgrade is for\n*   Added tooltips to recipe ingredients in the fabricator\n*   Added inline crafting to recipe ingredients that have their own recipes in the fabricator\n*   Colored material owned shown in red if not enough for recipe fabrication\n*   Added Upgrade Terminal ‘Help’ button with Tutorial\n*   Added ‘whip to platform’ schematic to Mission 5 cave\n*   Add non-head based movement options\n*   Increased the range of the teleport arc in anomaly to help navigate more easily\n*   Made the vortex sphere pop-up more informative\n*   Added extractor warning when players are attempting to leave before the mission objective is complete\n*   Added menu option to throw pickaxe with grip\n*   Loading tip updates with more useful information\n\nMisc:\n\n*   Reduced laser wasp health\n*   Various VO additions and tweaks\n*   Added credits to options menu\n*   Prevented XP gain on minables that you can't damage\n*   Updated pistol texture\n\n\nJoin the Into Black community on Discord at https://discord.gg/intoblack\n"
             }
         ],
         "on_rookie": false,
         "general_update": 480386,
-        "genre_update": 480193,
+        "genre_update": 480481,
         "device_update": 480193,
         "mode_update": 480193,
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 480265,
+        "changelog_update": 480481,
         "keyword_update": 480193,
         "tag_update": 480193,
-        "rating_update": 480457,
+        "rating_update": 480481,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 480457,
+        "last_update": 480481,
         "category": "GAMES",
-        "votes": 319,
-        "rating": 4.69906,
+        "votes": 326,
+        "rating": 4.699387,
         "weighted_rating": 4.6
     },
     "errors": []

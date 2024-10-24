@@ -8,7 +8,6 @@
         "publisher": "Viniot Studios",
         "genres": [
             "Sports",
-            "Arcade",
             "Simulation"
         ],
         "devices": [
@@ -107,6 +106,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.82",
+                "change_log": "Add hawk eye for ball bounce. Reverse player and bot labels when viewing from behind. Add smooth scale down of ball hit indicator on paddle."
+            },
+            {
                 "version": "6.0.81",
                 "change_log": "Update teleportation in badminton. Disable paddle clipping when its closer to face."
             },
@@ -177,27 +180,23 @@
             {
                 "version": "6.0.52",
                 "change_log": "Add facial expressions for full body bots"
-            },
-            {
-                "version": "6.0.51",
-                "change_log": "Improve the trajectory display after ball hits the net"
             }
         ],
         "on_rookie": true,
         "general_update": 480313,
-        "genre_update": 474685,
+        "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 480313,
         "player_mode_update": 474685,
-        "changelog_update": 480386,
+        "changelog_update": 480481,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 479617,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480386,
+        "last_update": 480481,
         "category": "GAMES",
         "votes": 237,
         "rating": 4.206751,
