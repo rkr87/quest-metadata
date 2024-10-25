@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1896
+                "votes": 1899
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.8.0",
+                "change_log": "Fix menu position during room change. Under the hood updates around collaboration."
+            },
             {
                 "version": "2.7.0",
                 "change_log": "Replace keyboard portal with easier to manipulate version.\nIntroduce follow mode when in full passthrough and enabled via the screen UI."
@@ -159,10 +163,6 @@
             {
                 "version": "1.11.18",
                 "change_log": "Slightly increase default menu size.\nHandle issues when snapgrid and VR cursor wouldn't initialize correctly.\nMinor performance improvements.\nMenu copy updates."
-            },
-            {
-                "version": "1.11.17",
-                "change_log": "* Bug fixes around screens and snap grid.\n* Add Quest3 controller models\n* Handle case when Full Body ReadyPlayerMe avatars are used, default to Immersed coin.\n* Localization fixes in friend menu\n* Log upload is now a manual process in Help menu"
             }
         ],
         "on_rookie": false,
@@ -173,18 +173,18 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 480505,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 480481,
+        "rating_update": 480505,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 480481,
+        "last_update": 480505,
         "category": "APPS",
-        "votes": 2706,
-        "rating": 4.069475,
+        "votes": 2709,
+        "rating": 4.070506,
         "weighted_rating": 4.0
     },
     "errors": []

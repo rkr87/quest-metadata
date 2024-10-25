@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "2.0.118 : vr_only",
+                "change_log": "- Added automatic controller hiding after 5 sec idle time. A quick controller movement will show them again.\n- Added Free Fly mode movement options in “settings”, Head Steered Movement & Smooth Turn.\n- Added “Delete Temporary Files” button in “settings” to allow removing cached files.\n- Added ability to reset settings to default in “settings”.\n- Bug fixes."
+            },
+            {
                 "version": "2.0.109 : vr_only",
                 "change_log": "- The “VR Animation Player” has been rebranded to “Theater Elsewhere”\n- Added NUX (New User Experience)  \n- Added 6 Immersive Discovery Environments to set as default browsing space\n- New content discovery surface enabling easy browsing of all available content\n- New navigation UI to make it easier to experience content.\n- Added Freefly Mode enabling free movement within content\n- Bookmark content while browsing or viewing content\n- Added “Play Next” and “Play Previous” feature\n- Added content view count and publish date\n"
             },
@@ -110,10 +114,6 @@
             {
                 "version": "1.5.0 11-06-2020 (D24787659) : vr_only",
                 "change_log": "Fixed crash exiting without loading a document"
-            },
-            {
-                "version": "1.4.9 11-05-2020 (D24772979) : vr_only",
-                "change_log": "Fixed crash quitting the app during the loading/decoding phase"
             }
         ],
         "on_rookie": false,
@@ -124,7 +124,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480001,
+        "changelog_update": 480505,
         "keyword_update": 475633,
         "tag_update": 474685,
         "rating_update": 480481,
@@ -135,7 +135,7 @@
             "story",
             "narrative"
         ],
-        "last_update": 480481,
+        "last_update": 480505,
         "category": "APPS",
         "votes": 589,
         "rating": 4.162988,

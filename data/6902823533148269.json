@@ -96,6 +96,10 @@
         },
         "changelog": [
             {
+                "version": "0.7.16",
+                "change_log": "- Added Google Custom Search!\n- Fixed STT not getting the last part of your speech."
+            },
+            {
                 "version": "0.7.15",
                 "change_log": "- Added Finnish.\n- Fixed French, German, Italian and Spanish voices.\n- Added TTS streaming for English (US). Responses should now be near-immediate.\n- Fixed issues where the TTS would try to \"say\" emojis and other symbols.\n- Fixed issues with hand tracking and the virtual keyboard.\n- Fixed overcharging for translation.\n- And a lot more under-the-hood updates!"
             },
@@ -170,10 +174,6 @@
             {
                 "version": "0.4.3",
                 "change_log": "hAI! VR v0.4.3\n- Updated UI."
-            },
-            {
-                "version": "0.4.2",
-                "change_log": "hAI! VR v0.4.2\n- The keyboard has been fixed!\n- The UI follows you."
             }
         ],
         "on_rookie": false,
@@ -184,13 +184,13 @@
         "language_update": 480218,
         "platform_update": 479809,
         "player_mode_update": 475753,
-        "changelog_update": 480481,
+        "changelog_update": 480505,
         "keyword_update": 475753,
         "tag_update": 479689,
         "rating_update": 480361,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 480505,
         "category": "APPS",
         "votes": 13,
         "rating": 2.769231,

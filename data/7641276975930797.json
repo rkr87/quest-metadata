@@ -76,7 +76,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982506_876742297522890_272048001728120060_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.01 (3399)",
+                "change_log": "Heyhoo Stackers, Patch 1.01 just went live!\n\nThe patch mostly consists of QoL improvements and bug fixes. You can find the complete list here: \n\n[Multiplayer]\n- Added a confirm button to the disconnect flow\n- Pedestal height now works in multiplayer\n- Object no longer stick to your hands after exploding while being held by a client\n- Fixed an issue where repeated connects and disconnects would leave the client believing they were the host\n\n[UI]\n- Height labels are not placed correctly above the pedestal in AR\n- Removed the 'next level' button when completing the final level\n- Added the level index to the title text in-level\n- Fixed an issue with the welcome message\n- Added extra text in the options to let players know that they can Press \"A\" anytime to move the table in AR\n\n[Level]\n- Stopped daily challenge from completing prematurely\n- Daily challenge now uses the player selected measurement system\n- Fixed infinite loading screen when trying to start the daily challenge while having no internet connection\n\n[Objects]\n- Object outlines are now only disabled above the pedestal\n\n[Misc]\n- Removed the Microphone permission check\n- Set a limit on the amount of gizmos can be spawned in the main hub\n- Set a limit on the amount of props can be spawned in the main hub\n- Fixed placement of explosion button and confetti in AR\n\nIf you encounter issues, let us know on our Discord! (discord.gg/DYS2ZpvBfm)\n\nOtherwise, happy Stacking and see you on the leaderboards!\n"
+            }
+        ],
         "on_rookie": false,
         "general_update": 480409,
         "genre_update": 480481,
@@ -85,7 +90,7 @@
         "language_update": 480337,
         "platform_update": 480337,
         "player_mode_update": 480337,
-        "changelog_update": 480337,
+        "changelog_update": 480505,
         "keyword_update": 480337,
         "tag_update": 480337,
         "rating_update": 480481,
@@ -95,7 +100,7 @@
             "coop",
             "physic"
         ],
-        "last_update": 480481,
+        "last_update": 480505,
         "category": "GAMES",
         "votes": 15,
         "rating": 4.666667,

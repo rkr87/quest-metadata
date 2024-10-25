@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1722
+                "votes": 1723
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -82,6 +82,10 @@
             "logo_transparent": "38974672_205219830392831_1495976339428081664_n.png"
         },
         "changelog": [
+            {
+                "version": "2.1.3.0",
+                "change_log": "Update to Nightmare Mode including better lighting, more spiders and improved art\nGeneral art fixes across the city\nUpdate to recentering feature to improve user experience"
+            },
             {
                 "version": "2.1.2.5",
                 "change_log": "General fixes, updates and preparation for Meta Quest 3S"
@@ -145,10 +149,6 @@
             {
                 "version": "1.8.44",
                 "change_log": "Update 1.8.44 on 18th December 2020\n\nVISUAL\nBigger city. 20 new buildings.\n4k textures for Roads and footpaths.\nLinear color space.\nMore clouds.\nPhoto-sourced terrain texture.\nFake bloom directional light. (Gives a slight sun-burned glow to everything)\nReplaced low poly tree with a high poly statue for nice lighting.\nGravity Radio billboard.\nColorful flags on ground floor.\nAdjusted aircon vent vapor intensity.\nBigger god ray on ground floor.\nMore god ray particles.\nHigher res cars.\nMore reflections on more buildings.\nImproved building shader with stronger reflections and even more performant.\nPhoto-real texture for roads.\nFixed reflection bug in elevator. (not sure how)\nAdded more shadow trickery to break up bright areas.\nUsed more use of vertex colors for more pops of color.\nIncreased saturation of hot air balloon color.\nRemastered aircon blades.\nNew texture for rooftop details.\nRemastered building to the left of the plank.\nAdjusted position of wind generators.\nGravity Signs.\nRemastered park texture.\nSmaller birds. (They were too big)\n\nSOUND\nIncreased helicoptor volume distance.\n\n\nUI\nRearranged UI text to be a bit more neater\n\nUX\nRecentering isn't advised. Use plank setup!\nRecentering message won't happen when you take the headset off anymore. This may lead to drift in the plank position sometimes.\n\nJoin the developers on Discord at: toast.gg/discord\n"
-            },
-            {
-                "version": "1.8.42",
-                "change_log": "Changlog 1.8.42:\nBug fixes\n- Fixed a bug where the nightmare mode phone table appears purple\n- Fixed a bug where the Hero Academy podiums appear in incorrect modes."
             }
         ],
         "on_rookie": true,
@@ -159,19 +159,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480361,
+        "changelog_update": 480505,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 480433,
+        "rating_update": 480505,
         "iarc_detail_update": 477385,
         "keywords": [
             "height",
             "flying"
         ],
-        "last_update": 480481,
+        "last_update": 480505,
         "category": "GAMES",
-        "votes": 3700,
-        "rating": 3.758649,
+        "votes": 3701,
+        "rating": 3.758984,
         "weighted_rating": 3.7
     },
     "errors": []
