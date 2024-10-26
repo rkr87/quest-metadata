@@ -44,7 +44,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1764
+                "votes": 1765
             },
             {
                 "rating": 2,
@@ -140,10 +140,6 @@
             {
                 "version": "1.2.0.3061",
                 "change_log": "Added fix for 4126 error after login code is invalid.\n\nUpdated collision geometry in theater to prevent dimming during normal use.\n\nFixed issue where voice searches paused audio after first use.\n\nAddressed frame rate drops when scrolling through see more grid.\n\nUpdated boundary system to use environment specific collision geometry.\n\nIntegrated new building mesh in the Prime City environment to prevent z-fighting.\n\nAdded tilting to hover cards based on pointer position.\n\nFixed height of search page input field.\n\nAdded transition animation to 'Add to Watchlist' button.\n\nUpdated the title and placeholder for search.\n\nFixed code-based login timeout and error state.\n\nAdded fix to prevent logical 'press' events while at least one physical button is down.\n\nExtended audio clip for button press sound.\n\nFixed long loading dialog to also denote page loads\n\nAddressed billboards not rendering Amazon logo.\n\nFixed frame hitch from trick play manager."
-            },
-            {
-                "version": "1.1.0.2913",
-                "change_log": "Fixed reported issue affecting some customers where the cursor would disappear preventing further use of the application. Fixed issue where Customer unable to exit theater after watch next during move screen. Fixed issue where Customer gets trapped in Prime City environment with no UI showing after accessing subtitle menu in Theater. Fixed issue where audio is disabled and framerate greatly decreases after accessing Voice Search."
             }
         ],
         "on_rookie": false,
@@ -154,19 +150,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480529,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 480433,
+        "rating_update": 480529,
         "iarc_detail_update": 477385,
         "keywords": [
             "video",
             "vr"
         ],
-        "last_update": 480481,
+        "last_update": 480529,
         "category": "ENTERTAINMENT",
-        "votes": 2655,
-        "rating": 1.971751,
+        "votes": 2656,
+        "rating": 1.971386,
         "weighted_rating": 1.9
     },
     "errors": []

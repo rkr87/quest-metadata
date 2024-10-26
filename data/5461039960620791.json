@@ -7,7 +7,8 @@
         "developer": "Clarke Plumo",
         "publisher": "Clarke Plumo",
         "genres": [
-            "Action"
+            "Action",
+            "Fighting"
         ],
         "devices": [
             "Touch Controllers"
@@ -73,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "0.6.0",
+                "change_log": "Upgrade engine. Fix Favor rarity bugs. Fix difficulty level resetting on boot."
+            },
+            {
                 "version": "0.5.0",
                 "change_log": "Fix crashes and rework Favors"
             },
@@ -91,13 +96,13 @@
         ],
         "on_rookie": false,
         "general_update": 480145,
-        "genre_update": 480481,
+        "genre_update": 480529,
         "device_update": 480145,
         "mode_update": 480145,
         "language_update": 480145,
         "platform_update": 480145,
         "player_mode_update": 480145,
-        "changelog_update": 480481,
+        "changelog_update": 480529,
         "keyword_update": 480145,
         "tag_update": 480457,
         "rating_update": 480145,
@@ -106,7 +111,7 @@
             "roguelike",
             "roguelite"
         ],
-        "last_update": 480481,
+        "last_update": 480529,
         "category": "GAMES",
         "votes": 1,
         "rating": 5.0,

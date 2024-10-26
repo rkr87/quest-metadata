@@ -76,6 +76,10 @@
         },
         "changelog": [
             {
+                "version": "1.43.0.22",
+                "change_log": "Improvements to hand physics and lighting"
+            },
+            {
                 "version": "1.43.0.21",
                 "change_log": "Early access:\n\nNew tools for the sketch editor: Snip, Join & Color Jitter\nCreate super fine or coarse brush strokes in the Sketch Editor by zooming the Scene view \nImport Tilt Brush .tilt files directly from the web browser\nFixes and improvements to the Sketch Editor\n\nUpdate 23\n#MXInk Stylus support\nKiosk mode, great for demos\nFind all content from your favorite #FigminXR creators\nNew highlight effect\nHand tracking ray can be disabled\nHand occlusion with lighting (Disable hand color  in settings)\n3D models load faster, smoother and have higher quality\nFixed controller tracking latency\nSupport for downloading from Google drive (beta), files must be set to general access: anyone with the link\nEnjoy!"
             },
@@ -142,10 +146,6 @@
             {
                 "version": "1.41.0.0",
                 "change_log": "Update 20\n\nMesh room mapping for Quest 3\nAudio reactive brushes can be activated with your voice\nEnabled super resolution\nVoice chat for remote multiplayer\nText editor improvements\nYou can play multiple videos at a time\nExport your sketches as GLTF 3D models\nEasier import/export of tilt files\nmultiplayer room size increased to 16"
-            },
-            {
-                "version": "1.40.0.1",
-                "change_log": "* Automatic co-location for in-person multiplayer. Requires share point cloud data permission\n* New brushes\n* Brushes can be filtered by category\n* You can add brushes to your favorites category\n* GIFs will cast shadows, if the setting is enabled and the image is imported as \"Lit\""
             }
         ],
         "on_rookie": true,
@@ -156,7 +156,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479521,
+        "changelog_update": 480529,
         "keyword_update": 478969,
         "tag_update": 479689,
         "rating_update": 479857,
@@ -166,7 +166,7 @@
             "sandbox",
             "ar"
         ],
-        "last_update": 480481,
+        "last_update": 480529,
         "category": "APPS",
         "votes": 150,
         "rating": 4.4,

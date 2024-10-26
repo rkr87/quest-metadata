@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "1.3",
+                "change_log": "Version 1.3 now includes:\n\n- Full support for hand-tracking\n- The current tutorial also supports hand-tracking\n- Tutorial only opens up on the first play, after that it can be opened via the menu\n- new menu design\n- adapted existing Buttons to be more accessible for Hand-Tracking\n- added \"join our testing-channel\" Banner\n- exchanged old player movement with teleportation\n- performance improvements"
+            },
+            {
                 "version": "1.2",
                 "change_log": "Bugfixes:\n\nLeaderboard:\n- switch the text \"Global\" to \"Top 20\"\n- Show Throbber when loading Leaderboard Entries\n- Show fewer entries per Leaderboard Site -> 20 Entries\n- Dont save the high score when it's 0\n- The leaderboard background is now darker and gives more contrast\n- All-time held balls count is displayed next to the Leaderboard and saved in the cloud\n\nBall Selector:\n- Fix grammar issues on explanation texts for all balls\n\nLocker Room:\n- The sign \"Walk out of locker room\" does not overlap stuff that's in front of it\n- Remove steps when the loading screen is displayed\n\nStadium:\n- Fix grammar issues for explanation text next to highscores"
             },
@@ -98,13 +102,13 @@
         "language_update": 478969,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 480529,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 480361,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 480529,
         "category": "GAMES",
         "votes": 9,
         "rating": 3.222222,

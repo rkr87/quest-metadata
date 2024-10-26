@@ -58,11 +58,11 @@
             },
             {
                 "rating": 4,
-                "votes": 334
+                "votes": 333
             },
             {
                 "rating": 5,
-                "votes": 3760
+                "votes": 3777
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -89,6 +89,10 @@
             "logo_transparent": "86669349_6119476401478681_2444518047847877279_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0",
+                "change_log": "Small Patch to address a couple issues and add some improvements:\n\n- Added another Skeleton Cosmetic torso variation for females without the \"tank top\" outfit\n- Added a hand pose to the Dagger blade tips so you could throw them by holding the blade\n\n- Fixed the Dagger hand poses"
+            },
             {
                 "version": "1.0",
                 "change_log": "** Build 1.0.3322 Longswords + Traps Update 'Hot Fix' Release Notes **\n\n- IMPROVED: Longsword handling allowing more freedom in swings\n- IMPROVED: Longsword hand poses and behavior\n- IMPROVED: Potions with their lids removed will break more easily now\n- IMPROVED: Host can only kick one player per session to prevent users from exploiting the feature\n- IMPROVED: Host cannot kick players after the last stages of a dungeon quest have started \n- IMPROVED: Public lobbies are not unlocked until the host has left the end mission UI area\n- IMPROVED: Accuracy of weapon throwing (ballistics) at high difficulty tiers\n- IMPROVED: Random dungeon generation in a few cases\n- IMPROVED: Beam trap now plays it's sound\n- IMPROVED: 'New' icon shows on cosmetics and gear collected in the last dungeon\n- IMPROVED: Bow bHaptics effects when nocking an arrow\n- IMPROVED: Added a short period of invulnerability after joining an in-progress dungeon\n- IMPROVED: Blink/Teleport strafing\n- IMPROVED: Mimic sound design\n- IMPROVED: Updated playtester credits video\n\n- FIXED: End Mission UI showing zero's for other players\n- FIXED: Broken Fabricator and Avatar Customizer when joining via a Meta invite\n- FIXED: Hang when trying to join a friends room from the friends list from a Solo Play Outpost/dungeon\n- FIXED: The dungeon door/info icon button has returned to help with bug reports\n- FIXED: Crystal Hunt missions that only generated dungeons with two crystals\n- FIXED: Head bonking with mugs in the Outpost(sorry)\n- FIXED: Resurrection potion will work when splashed on player ragdoll or player's view position\n- FIXED: Teleporting to points of interest when off-centered from your boundary\n- FIXED: Blink/Teleport locomotion through sand dunes in SandStorm realms\n- FIXED: Remote players were able to impact (and detect) a closed mimic chest\n- FIXED: Skeleton Horned helmet cosmetic which was missing\n- FIXED: A few dungeon chambers that weren't working with Blink/Teleport locomotion\n- FIXED: 'Last Stand' showing > 0% health remaining\n- FIXED: -= Player Name =- decorations display properly in the Outpost now\n- FIXED: Some loot chest spawners not spawning chests\n- FIXED: Mimic chests not attaching properly to chest risers\n- FIXED: Rebalanced the damage done by the health staff beam\n- FIXED: Various Blink/Teleport locomotion regressions\n- FIXED: Getting trapped behind gate when teleporting in a specific dungeon chamber\n- FIXED: Exploit where you could duplicate a weapon on the fabricator\n- FIXED: Dungeon raid chamber with the wrong key/gate setup\n- FIXED: Some random key placements in various dungeon rooms\n- FIXED: Dungeon name on saved dungeon console wasn't being cleared properly\n- FIXED: Some unreachable gold and key spawns\n- FIXED: Missing combat in one of the cave rooms\n- FIXED: Floating rune decal showing up in some dungeons\n- FIXED: Kills not counting from shockwave staff kills (and other staffs)\n- FIXED: Imps and Zombies getting stuck behind gates in monster closets"
@@ -130,16 +134,16 @@
         "language_update": 478129,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 476665,
+        "changelog_update": 480529,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 480505,
+        "rating_update": 480529,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480505,
+        "last_update": 480529,
         "category": "GAMES",
-        "votes": 4291,
-        "rating": 4.792356,
+        "votes": 4307,
+        "rating": 4.79336,
         "weighted_rating": 4.7
     },
     "errors": []
