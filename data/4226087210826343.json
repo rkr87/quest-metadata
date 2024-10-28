@@ -106,6 +106,10 @@
         },
         "changelog": [
             {
+                "version": "6.0.83",
+                "change_log": "Bugfix missing fault markers. Improve performance."
+            },
+            {
                 "version": "6.0.82",
                 "change_log": "Add hawk eye for ball bounce. Reverse player and bot labels when viewing from behind. Add smooth scale down of ball hit indicator on paddle."
             },
@@ -176,10 +180,6 @@
             {
                 "version": "6.0.53",
                 "change_log": "Bugfix footprint court scene which is default for Smash Defense Drill. Freeze ball when it hits the court walls."
-            },
-            {
-                "version": "6.0.52",
-                "change_log": "Add facial expressions for full body bots"
             }
         ],
         "on_rookie": true,
@@ -190,13 +190,13 @@
         "language_update": 474685,
         "platform_update": 480313,
         "player_mode_update": 474685,
-        "changelog_update": 480481,
+        "changelog_update": 480577,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 479617,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 480577,
         "category": "GAMES",
         "votes": 237,
         "rating": 4.206751,
