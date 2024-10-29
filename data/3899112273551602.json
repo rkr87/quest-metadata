@@ -81,6 +81,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.16.11913",
+                "change_log": "4.0.15 -> 4.0.16\n\n- Updated the Lobby and changed the link for \"Learn the Basics\" to start the interactive onboarding from the Lobby.\n\n- Fixed when only the last entered user can control avatar hiding by distance.\n\n- Improved avatar visibility depends on the user’s head angle (FOV).\n\n- Fixed error occurs when trying to display two identical avatars (\"An item with the same key has already been added\").\n\n- Fixed when some options for initial positioning do not work, causing the presentation to break.\n\n- Fixed when snapping rotation slider does not respond when pulling the stick to the left.\n\n- Fixed when scenes and viewpoints switch incorrectly with the stick in Interactivity mode.\n\n- Fixed when changing the scrollable field value with the stick results in too many commands being added to the Undo stack.\n\n- Fixed when exception occurs when trying to exit the presentation \n\n- Fixed when horizontal and Vertical Bend are not changed with the stick, but these commands are added to the Undo stack.\n\n- Fixed when presentation setting \"hide avatars\" applies to both the presenter and spectators.\n\n- Fixed when exception occurs when there is a holonote in the comment space\n\n- Fixed when stylus exceptions break Play mode on Quest Pro."
+            },
+            {
                 "version": "4.0.15.11845",
                 "change_log": "4.0.14 -> 4.0.15\n\n-Added a new Contextual Bar in the Lobby.\n\n-Fixed when shapes info is not displayed in the viewpoint preview until a screenshot is taken.\n\n-Added functionality to disable adding interactivity to viewpoints.\n\n-Fixed when viewpoints are not hidden during holonote playback.\n\n-Fixed when viewpoint heads are visible in Play mode.\n\n-Fixed when viewpoints are not visible when in the Viewpoints tab.\n\n-Fixed when viewpoint pillar flickers when teleportation is enabled.\n\n-Fixed when viewpoints locked separately cannot be unlocked.\n\n-Fixed when play mode and scene numbers are missing on the controller in the Samples section.\n\n-Fixed when teleportation pillar is visible during Onboarding when teleportation is enabled.\n\n-Fixed incorrect viewpoint height label when the head is touched.\n\n-Fixed when returning from Play mode to the background scene does not work.\n\n-Fixed when user is sometimes invisible during collaboration sessions.\n\n-Fixed when teleportation to viewpoints via the Teleport button does not work."
             },
@@ -145,7 +149,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480457,
+        "changelog_update": 480602,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 480481,
@@ -156,7 +160,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 480481,
+        "last_update": 480602,
         "category": "APPS",
         "votes": 343,
         "rating": 4.116618,

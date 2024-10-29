@@ -6,7 +6,10 @@
         "description": "DodgeALL is a high-intensity VR game that puts your agility and reflexes to the test. Engage in a world where the only rule is to dodge everything that comes your way! With immersive 3D environments and physics-based gameplay, each level presents a new challenge, offering endless replayability. Dodge, weave, and strategize in this adrenaline-fueled game, where your skill determines your survival. Are you ready to DodgeALL?",
         "developer": "GlennerooVR LLC",
         "publisher": "GlennerooVR LLC",
-        "genres": [],
+        "genres": [
+            "Sports",
+            "Action"
+        ],
         "devices": [
             "Touch Controllers"
         ],
@@ -48,7 +51,7 @@
                 "votes": 1
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_FEW",
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
@@ -72,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.40.3.0",
+                "change_log": "FEATURE: Added achievement for when player is hit by all SciFi or Pirates obstacles at least once.\nFEATURE: Added achievement for achieving various scores upon successfully completing a level.\nBUGFIX: Multiple achievements are now queued and displayed one after another.\nBUGFIX: Campaign level score data now saved with correct prefix.\nBUGFIX: SciFi > Barrier now collides with environment and player correctly.\nCHANGE: Reduced size of Pirates > TreasureChest.\nCHANGE: SciFi > Crystal now always creates multiple clones after teleporting."
+            },
+            {
                 "version": "0.40.2.0",
                 "change_log": "FEATURE: Pirates boss level can now be completed by hitting other ships with bouncing CannonBalls.\nBUGFIX: Arena no longer casts shadows on bridges.\nBUGFIX: Bridges are no longer created when moving portals during a level unless needed.\nCHANGE: SciFi AlienPlanet > Virus03 now launches in an arc instead of straight line.\nCHANGE: Pirates > CannonBall now bounces on platform."
             },
@@ -81,21 +88,21 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 480481,
-        "genre_update": 480481,
+        "general_update": 480602,
+        "genre_update": 480602,
         "device_update": 480193,
         "mode_update": 480193,
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 480193,
+        "changelog_update": 480602,
         "keyword_update": 480193,
         "tag_update": 480193,
         "rating_update": 480337,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 480481,
-        "category": "NOT_SPECIFIED",
+        "last_update": 480602,
+        "category": "GAMES",
         "votes": 1,
         "rating": 5.0,
         "weighted_rating": 3.6

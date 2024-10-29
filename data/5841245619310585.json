@@ -78,7 +78,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 573
+                "votes": 576
             },
             {
                 "rating": 2,
@@ -86,15 +86,15 @@
             },
             {
                 "rating": 3,
-                "votes": 192
+                "votes": 194
             },
             {
                 "rating": 4,
-                "votes": 225
+                "votes": 226
             },
             {
                 "rating": 5,
-                "votes": 1006
+                "votes": 1008
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -117,6 +117,10 @@
             "logo_transparent": "75222941_635317061914735_1444826281890792553_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0.11",
+                "change_log": "* Add hand tracking features to allow forwarding of hand tracking input. * Fix crashes * Allow different timing mechanism for frame time control * Forward additional information back to host for timing * Fix Steam Link freezing when overflowed with haptic events on haptic-intensive games like Old Friend * Improve volume button / face mouse hand off * Fix one error 451 error."
+            },
             {
                 "version": "2.0.10",
                 "change_log": "* Disabled 2D mode in preparation to release to public from beta * Override default for transport to current SteamVR Beta Transport * Fix crash that could happen when stopping the stream, which would prevent the 2D panel from displaying * Changed behavior of stream startup so interstitials are only shown after a timeout if the stream hasn't started * Reduce amount information that the headset needs to send to the PC * Fix WiFi always showing up as 2.4GHz * Allow launching with hand tracking on (Does not include hand tracking support) * Fixes possible audio crash on standby * Fix bug that caused incorrect controller presence reporting when switching to volume-buttons-as-steam-button feature."
@@ -146,19 +150,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478441,
+        "changelog_update": 480602,
         "keyword_update": 474881,
         "tag_update": 474685,
-        "rating_update": 480577,
+        "rating_update": 480602,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "game"
         ],
-        "last_update": 480577,
+        "last_update": 480602,
         "category": "APPS",
-        "votes": 2146,
-        "rating": 3.43849,
+        "votes": 2154,
+        "rating": 3.436397,
         "weighted_rating": 3.4
     },
     "errors": []

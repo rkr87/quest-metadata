@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "3.0.0",
+                "change_log": "Procedures\n•\tThe “Reset” button on the Procedure Panel, now takes the user all the way back to the start procedure screen where the language can be selected.\nUI re-work\n•\tThe entire UI has been re-built using a lighter more vibrant color scheme better matching the visual identity of SynergyXR\n•\tAll UI elements are aligned in look and feel\n•\tAll icons have been updated to more clearly convey what buttons does\nTraining Spaces\n•\tIn-app users can select the “Training” sub menu to see all tagged training spaces\n•\tIn this sub-menu users can also input their LMS code in case they come from a Learning Management System\nVarious minor improvements\n•\tOn application start-up we provide users with an error page summarizing any mandatory online services that are currently not accessible. This is done to provide better and more concise information to the user as soon as possible.\n•\tAll audio sources (built into the Environment and any video auto-playing) is muted until the user has fully entered the Space. This is done to avoid audio playing during loading of Spaces\n"
+            },
+            {
                 "version": "2.8.1",
                 "change_log": "2.8.1\n•\tFixed various bugs in the procedure system. \n2.8.0\nMeasurement Tool\n•\tUsers can add a new distance measurement to the active session\n•\tUsers can choose between 3 different tools: Vertical, Horizontal and Free-form.\n•\tIt is possible to change the measurement between metric and imperial units from the wrist menu. \n•\tUsers can adjust the measurement \nEnvironment Audio Control\n•\tWhen creating a custom Environment using the SynergyXR Environment Tool it is possible to integrate audio sources in the Environment\n•\tUsers can now control the volume of these audio sources\n•\tAll audio sources are scaled between 0% (muted) and 100% (original volume) maintaining the relative volume differences originally set in the Environment\nProcedure Events\n•\tWe introduce “Events” in our Procedures system. Events can be used to model errors in Procedures, or allow users to interact with parts of the Environment not critical to the main Procedure\n•\tSeveral events can be active at once, allowing the user to perform multiple events in parallel with the main Procedure\n•\tAn event can be tagged as being an “error”\nProcedure improvements\n•\tIt is now possible to perform a “Two-hand assembly” allowing users to e.g. pick up an electrical screwdriver with one hand and attaching a battery using the other hand\n•\tWe now store the Procedure state in the Space. The Procedure Panel visibility state is also saved, allowing users e.g., to start a Procedure – hide the panel – and save the Space. \n"
             },
@@ -149,10 +153,6 @@
             {
                 "version": "1.8.17",
                 "change_log": "Discoloring of 3D objects\nSome objects could catch a slight red color tint when placed close to the floor. This was caused by light- and reflection probes being mixed from various rooms. The VR client application now handles this, ensuring that 3D object react to the lighting and reflection properties of the rooms as intended. \nIn addition to the fix in the client applications, all existing rooms will get an update with properly baked lighting and reflection properties. These rooms will get updated in the days following the patch – so users should expect to see slightly generic lighting properties right after the patch, and once the rooms have been updated 3D objects will react more realistically to the lighting and reflection properties of the individual rooms.\n\nVarious other improvements and bug fixes\nSeveral users have requested the possibility to teleport backwards in VR. This is now possible, by moving the thumb-stick backwards resulting in the user being moved slightly backwards.\nWe have also made a visual update to the “Endless Room” with a much more pleasant horizon – this room will get updated along with the other rooms in the days following the patch."
-            },
-            {
-                "version": "1.8.12",
-                "change_log": "New lobby experience with refreshed avatar configurator\n•\tThe chosen avatar and user display name is persisted for future sessions, and across devices\n\nBuilt-in tutorial teaching novice users the ropes of SynergyXR\n•\tSingle-user experience without needing to login\n•\tGently introducing new users to SynergyXR functionality such as object spawning and interaction, drawing system and more. \n\nAnimation controls for 3D models\n•\tUsers can now play/pause animated 3D models\n•\tUsers can choose to repeat the animation or just play once\n•\tUsers can scrub the animation on an animation timeline. \n\nNew “Notes” functionality\n•\tUsers can now add Notes to a room\n•\tText can be added to the notes using the keyboard\n•\tText font size can be changed to fit user’s needs\n•\tThe size of the notes can be changed\n•\tYou can of course also draw on the notes in addition to writing text using the keyboard\n\nKeyboard improvements\n•\tSpecial characters and numbers have been moved from the slide-out panels to an alternative keyboard accessed by pressing “123”\n•\tArrows to move the cursor, making it easier to change only part of the written text\n•\tSeparate buttons for “RETURN” to make a new line, and “OK” to acknowledge the text input\n"
             }
         ],
         "on_rookie": false,
@@ -163,13 +163,13 @@
         "language_update": 474685,
         "platform_update": 480505,
         "player_mode_update": 474685,
-        "changelog_update": 477601,
+        "changelog_update": 480602,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479497,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480505,
+        "last_update": 480602,
         "category": "APPS",
         "votes": 6,
         "rating": 4.666667,
