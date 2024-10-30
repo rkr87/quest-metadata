@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.3.8",
+                "change_log": "Visual improvements to lockers, security access door, some other parts of bunker environment.\n\nTall lockers: added new 'hidey' hint note with some backstory.\n\nNew default 'Tested' bunker (not too hard, lots of lockers, computer room & blast door) \n\nFixed very rare bug where elevator does not descend into bunker."
+            },
+            {
                 "version": "0.3.7",
                 "change_log": "Fixed: Items dropped in elevators no longer fall through the floor when elevator reaches destination.\n\nStarted using larger texture atlas for environment - not much to see at present but will allow more detail to be added.\n\nTall lockers: added hiding-place hint note and locker number on door.\n\nHUD: slightly lower positioning for better visibility"
             },
@@ -150,13 +154,13 @@
         "language_update": 478969,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 480386,
+        "changelog_update": 480625,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 480289,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 480625,
         "category": "GAMES",
         "votes": 6,
         "rating": 4.666667,

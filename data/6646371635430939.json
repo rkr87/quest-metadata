@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 2,
@@ -47,15 +47,15 @@
             },
             {
                 "rating": 3,
-                "votes": 11
+                "votes": 12
             },
             {
                 "rating": 4,
-                "votes": 18
+                "votes": 19
             },
             {
                 "rating": 5,
-                "votes": 76
+                "votes": 77
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -82,7 +82,12 @@
             "immersive_layer_logo": "38982659_1135354504459213_6167528581195083794_n.png",
             "logo_transparent": "38974858_424327053830735_4416165472636628260_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.1",
+                "change_log": "Performance\n- Significant performance improvements across various maps for smoother gameplay.\n- Enhanced memory usage in core areas to improve stability and responsiveness.\n- Optimized UI loading to reduce performance impacts during high-activity moments.\n\nAvatars\n- Added new Just Dance inspired coachs make-ups (Regnir, Nefertari, Sara, Kym Noe, Night Sara, Agent D, Fuchsia Blue)\n- Improved arm length and height calibration system, now applied to networked players as well.\n- Increased resolution on certain avatar outfits to address pixelation issues.\n- Adjusted avatar rig for a more polished and cohesive visual presentation.\n\nMultiplayer\n- Overhauled network sessions, matchmaking, and travel systems for enhanced stability, allowing players to stay together more consistently when transitioning between sessions.\n- Reworked the \"Join Group\" (The Ultimate Alliance) goal trigger to work with Meta Invites.\n- Offline scores, including new high scores, are now cached and will sync to leaderboards upon reconnecting to the network.\n- Fixed issues with session creation caused by microphone permissions popup.\n- VoIP settings now persist when players join a group.\n\nLocalization\n- Fixed instances of overlapping and misaligned text in the UI.\n- Corrected various grammatical issues.\n- Localized some previously missed text elements from launch.\n\nUI/UX\n- Resolved display errors in player progression levels; now accurately ranges from level 1-300.\n- Enhanced the Song of the Week kiosk text and leaderboard visuals.\n- Improved text readability, particularly in Japanese localizations with low-contrast fonts.\n- Fixed avatar preview to remain static while customizing when moving in-game.\n- FTUE (First Time User Experience) windows now center more effectively and prioritize visibility. \n- Addressed various issues with player profile stats and high scores not displaying or saving correctly.\n- Added text labels to player nameplate buttons for clearer functionality.\n- Fixed instances of Dance Cards displaying incorrectly or missing.\n- Trophy names now display properly when visiting other players’ Apartments.\n- Updated Quickplay notification text to “Finding your next song with Quickplay.”\n\nVisuals\n- Addressed minor visual bugs in both Dancity and the Apartment areas.\n- Gold Move VFX and SFX added to maps previously missing these cues.\n- Improved graphics across multiple maps with enhanced visuals and bug fixes.\n- Corrected VFX, dancer, and core UI layering to ensure proper draw order.\n- Fixed graphical issues with portals, including appearance in floor reflections on specific maps.\n- Resolved flickering issues in the “Jai Ho! (You Are My Destiny)” map when the Quest menu is open.\n"
+            }
+        ],
         "on_rookie": false,
         "general_update": 480553,
         "genre_update": 480481,
@@ -91,10 +96,10 @@
         "language_update": 480289,
         "platform_update": 480289,
         "player_mode_update": 480289,
-        "changelog_update": 480289,
+        "changelog_update": 480625,
         "keyword_update": 480289,
         "tag_update": 480289,
-        "rating_update": 480602,
+        "rating_update": 480625,
         "iarc_detail_update": 480289,
         "keywords": [
             "dance",
@@ -103,10 +108,10 @@
             "music",
             "parti"
         ],
-        "last_update": 480602,
+        "last_update": 480625,
         "category": "GAMES",
-        "votes": 116,
-        "rating": 4.353448,
+        "votes": 120,
+        "rating": 4.316667,
         "weighted_rating": 4.2
     },
     "errors": []

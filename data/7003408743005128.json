@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "2024.10.28.13",
+                "change_log": "Fixed build issues. Likely by reinstalling OpenXR and/or deactivating SRP foveated rendering. Enemy AI improved. Enemy firing rate and bullet velocity improved"
+            },
+            {
                 "version": "2024.4.23.1",
                 "change_log": "Fixed broken settings menu when accessed from mission selector screens."
             },
@@ -145,10 +149,6 @@
             {
                 "version": "2024.1.29.3",
                 "change_log": "Final App Lab release build. Minor bug fix to mission selector screen after Final Duel mission wherein the wrong scene was set when reaching end credits. Added Terms of Service to opening menu. Attempted to add scene loading flicker mitigation to LocationLoaders which may work slightly better now."
-            },
-            {
-                "version": "2024.1.27.6",
-                "change_log": "Fixed absurd damage levels on explosive damage with a hack. Visual tweaks to cockpit throttle."
             }
         ],
         "on_rookie": false,
@@ -159,13 +159,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480602,
+        "changelog_update": 480625,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480577,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480602,
+        "last_update": 480625,
         "category": "GAMES",
         "votes": 20,
         "rating": 4.9,

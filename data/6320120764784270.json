@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 24
+                "votes": 23
             },
             {
                 "rating": 2,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 156
+                "votes": 158
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -75,6 +75,10 @@
             "logo_transparent": "39031327_3613340595587260_1107946763981684942_n.png"
         },
         "changelog": [
+            {
+                "version": "3650",
+                "change_log": "-\nv36.5 Released !\n\n.5 - Not a HUGE one, but not small one either\n\nPolishing\n- Solved 'Search For Place' coordinate loading stutter, it is now smooth like every other function\n\n- Atmospheric new music track\n\n- Many other smaller improvements ( Functionality & UI ) and polish\n\nBig Improvements\n- Street View 'Community Imagery' Toggle  -  in 'Preferences'\n( due to API constraints, this feature may limit imagery in EXTREMELY busy areas like times square )\n\n- GUARANTEED 90 FPS Average in EVERY Loaded Street View thanks to significant optimization !\n\nSee the full list of changes on discord ( earthquest.site )\n-\nv36.00, the version that expands upon all the previous limitations, and which adds one of the most requested feature of all time, is OUT NOW !\n\nMultiplayer with up to not 3, BUT 4 Simultaneous Players !!!!\n\n- Let the adventures begin in 3x, and 4x the fun !!!\n- Maximally optimized the entirety of the Multiplayer Core System for maximum performance no matter the amount of players\n- Redesigned the Multiplayer Interface, highlighting the current Player’s visible ID, dynamic player list to select which user to teleport to, and room code, all with a new compact & intuitive design with simple & clear visibility\n- Only compatible with players on v36 and future versions\n\nThe Flight Speed Adjustment System has been reworked to ensure consistency and best possible experience for every altitude and ground level !!\n\n- Altitude inconsistency is now fixed - Previously flying close to the ground at higher altitudes produced significantly faster acceleration than the optimal 0-700m from sea level, which was frustrating and inconvenient \n- The new system will not only provide the same desired speed adjustments for all altitudes and surfaces, but will also provide a more immersive, natural, and dynamic experience specifically tailored to more favorably adapt the user’s chosen speed.\n- The system is also more flexible, allowing a larger flight speed setting range ! ( 0.2x to 3.0x )\n\nEntire Hub User Interface REDESIGN !\n\n- The Main Menu will simply be shown without any other settings or options, for maximum simplicity and ease of use; offering clear, comfortable visibility\n- A new panel is introduced specifically designed for Flight Customization Settings, Comfort Options, and Accessibility\n- Starting with v36, a quick option that allows resetting app data will now effortlessly allow users to instantly solve any underlying bug / error that may rarely occur within just 2 presses !\n\nAdditional\n\n- Updated the Menu Button’s color to reflect EarthQuest’s main color palette, Green-Blue\n- Tens of other smaller improvements \n\n——\nEnjoy ❤️"
+            },
             {
                 "version": "3604",
                 "change_log": "-\nv36.00, the version that expands upon all the previous limitations, and which adds one of the most requested feature of all time, is OUT NOW !\n\nMultiplayer with up to not 3, BUT 4 Simultaneous Players !!!!\n\n- Let the adventures begin in 3x, and 4x the fun !!!\n- Maximally optimized the entirety of the Multiplayer Core System for maximum performance no matter the amount of players\n- Redesigned the Multiplayer Interface, highlighting the current Player’s visible ID, dynamic player list to select which user to teleport to, and room code, all with a new compact & intuitive design with simple & clear visibility\n- Only compatible with players on v36 and future versions\n\nThe Flight Speed Adjustment System has been reworked to ensure consistency and best possible experience for every altitude and ground level !!\n\n- Altitude inconsistency is now fixed - Previously flying close to the ground at higher altitudes produced significantly faster acceleration than the optimal 0-700m from sea level, which was frustrating and inconvenient \n- The new system will not only provide the same desired speed adjustments for all altitudes and surfaces, but will also provide a more immersive, natural, and dynamic experience specifically tailored to more favorably adapt the user’s chosen speed.\n- The system is also more flexible, allowing a larger flight speed setting range ! ( 0.2x to 3.0x )\n\nEntire Hub User Interface REDESIGN !\n\n- The Main Menu will simply be shown without any other settings or options, for maximum simplicity and ease of use; offering clear, comfortable visibility\n- A new panel is introduced specifically designed for Flight Customization Settings, Comfort Options, and Accessibility\n- Starting with v36, a quick option that allows resetting app data will now effortlessly allow users to instantly solve any underlying bug / error that may rarely occur within just 2 presses !\n\nAdditional\n\n- Updated the Menu Button’s color to reflect EarthQuest’s main color palette, Green-Blue\n- Tens of other smaller improvements \n\n——\nEnjoy ❤️"
@@ -150,10 +154,6 @@
             {
                 "version": "3403",
                 "change_log": "v34.02 is RELEASED !!\n\nThe powerful new 'Random Destination' feature is now even more powerful !\n\nThe function should now always send the user to a 3D Destination 🥳\n\nAnd not to worry, the size of available locations is still massive compared to the previous list, with destinations well over a DOZEN !\n\n🎁\n-\nv34.03 is out\n\nBugfix Update\n\n- Fixed 'Random Destination' coordinates not working in other system languages\n\n- Fixed Teleportation not applying \"close-to-the-ground\" altitude when using some system languages other than English\n\n- Fixed pasting coordinates on the 'Search for Place' not working in other system languages\n"
-            },
-            {
-                "version": "3402",
-                "change_log": "v34.02 is RELEASED !!\n\nThe powerful new 'Random Destination' feature is now even more powerful !\n\nThe function should now always send the user to a 3D Destination 🥳\n\nAnd not to worry, the size of available locations is still massive compared to the previous list, with destinations well over a DOZEN !\n\n🎁"
             }
         ],
         "on_rookie": true,
@@ -164,16 +164,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 475561,
-        "changelog_update": 480553,
+        "changelog_update": 480625,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 480577,
+        "rating_update": 480625,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480577,
+        "last_update": 480625,
         "category": "APPS",
-        "votes": 217,
-        "rating": 4.304147,
+        "votes": 218,
+        "rating": 4.325688,
         "weighted_rating": 4.2
     },
     "errors": []
