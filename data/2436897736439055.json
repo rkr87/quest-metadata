@@ -93,6 +93,10 @@
             },
             {
                 "version": "3.9",
+                "change_log": "Patch Note for v.0.93.7.2\nHalloween-Themed HQ Added – Get into the spooky spirit with a fully revamped headquarters!\nPumpkin Zombie Returns – The Pumpkin head Zombie is back for more undead mayhem!"
+            },
+            {
+                "version": "3.9",
                 "change_log": "v.0.93.7.0\nSignificantly changed the hand animation and head-shaking effect.\nSignificantly decreased the overall boost speed of sprint and slide.\nAddressed an animation dragging issue for grabbing magazines.\nAddressed miscellaneous issues that could cause errors in mods.\nAddressed the bug that hinders the keyboard from being displayed during the match in the Social section.\nAddress the issue that would cause the irregular UI shaking.\nAddressed miscellaneous issues caused by slide.\nFixed the incorrect Stabilizer performance.\nFixed the invisible teammate walkie-talkie issue.\nFixed the missing texture glitches on various weapons.\nFixed the texture issue of bullets in the chamber."
             },
             {
@@ -162,10 +166,6 @@
             {
                 "version": "3.9",
                 "change_log": "v0.93.0.0 Patch Notes\n\nInteractions\nAdded physics-based collision to all weapons\nAdded damping effect to the grenade pin\nAdded virtual crouching control\nAdded new bolt-action pulling hand animation\n\nSettings\nAdded Virtual Crouching switch in the settings\nAdded Pivot Center switch in the settings\n\nMods\nAdded new official mod map - Space Rumble\nAdded filter and browser bar in Mod page UI\nAdded new modkit feature - easy-to-use preset mod templates\nAdded new modkit feature - custom game modes and custom loadouts\n\nAdjusted\nTime to kill reduced by 20%\nWeapon recoil increased by 50% when airborne\nDecreased fragment grenade explosion damage\nEmpty clip now unable to put back in ammo holster\nImproved melee weapon handling\nImproved physics effect of all throwables\nImproved weapon handling animation\nAdjusted the hand model of medium armor characters\nAdjusted model scaling in the Downtown map\nAdjusted pivot center of all weapons\nAdjusted zero distance of multiple scopes\n\nFixed\nAddressed the controller tracking issue caused by the overlapping position when aiming down sight\nAddressed LOD issues in the Downtown map\nAddressed abnormal collision size issues in the Downtown map"
-            },
-            {
-                "version": "3.8",
-                "change_log": "v.0.92.2 Update:\n\nRefurbished the Downtown map with new textures and models\nAdjusted the iron sight form of QBZ-95\nAdjusted the MOD page UI\nAdjusted the MOD recommending logic\nAdded a new 2x reticle type\nFixed the wrong kill feed of MK18\nFixed invalid bullet flyby and crack sounds\nAddressed the Loadout UI error issue\nAddressed the building drifting issue in the Factory map\nAddressed the game crashing issue that was caused by downloading a large number of mods"
             }
         ],
         "on_rookie": true,
@@ -176,7 +176,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480649,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 480602,
@@ -188,7 +188,7 @@
             "action",
             "multiplay"
         ],
-        "last_update": 480602,
+        "last_update": 480649,
         "category": "GAMES",
         "votes": 8683,
         "rating": 4.295405,

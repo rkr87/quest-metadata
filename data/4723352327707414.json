@@ -90,6 +90,10 @@
         },
         "changelog": [
             {
+                "version": "1.1645",
+                "change_log": "# Update 13 - Release Notes\n\n**Improvements**\n\n- New particle effects for all grenade idle and activations states   \n- Improved meshes for panels, buttons, light fixtures, crates, barrels, pipes and props in the Mines, Slums and Sewers areas  \n- Improved meshes for generators, turbines, presses, pistons  \n- New animations and particle effects for generators, turbines, guardian pods, liquid tanks and pistons  \n- Improved Medical tanks and cryo chambers meshes  \n- Improved meshes for Modern City buildings, neon signs, lights and environment props  \n- Added new particle effects for Modern City neon signs and lighting  \n- Various new glass meshes  \n- Better label for ProTube “Invert Hands” option  \n- Improved Boss EMP spam\n- Re-balanced Mobile Malware chips\n- Increased range of grenade launchers during boss fights  \n- Explosion damage stack additively now (instead of exponentially)  \n- Rebalanced Explosion Impact chips (both spread and damage amount)\n- Halloween Hats  \n- Updated tooltips for Grenade Launchers\n\n**Bug Fixes**\n\n- Fixed Unstuck behavior in Sewers levels"
+            },
+            {
                 "version": "1.1620",
                 "change_log": "# Update 12.2 - Hotfix\n\n- Save+Quit button now correctly saves all weapons (including floating ones)\n- Aim Angle setting is working correctly again\n- Save all settings more aggressively (on every menu refresh or closure)\n- Weapon UI Display settings now correctly saved\n- Unstuck button in sewers behaves correctly\n\n# Update 12.1 - 3rd Birthday\n\n**Added Birthday Hats to Celebrate our 3rd Anniversary**\n\nThree years ago, on September 30th, 2021, we launched *Sweet Surrender*—and what an incredible journey it’s been since\\! From the countless hours preparing for release to the 12 major updates we've rolled out, we’re so proud of how far the game has come.\n\nBut more than anything, we want to thank YOU—our amazing community. Your feedback, bug reports, feature suggestions, and even just taking a chance on our game, have meant the world to us. *Sweet Surrender* wouldn’t be what it is today without your support. Seriously, we can’t thank you enough\\!\n\nTo celebrate this milestone, we’ve got a little surprise for you. After three years of facing off against your unstoppable skills, the enemy robots have found their ultimate countermeasure… birthday hats\\! 🎉 For the next week, they’ll be donning their festive gear until supplies run out on October 7th.\n\nIt’s a fun, limited-time event, and the perfect opportunity to take on the new final boss from Update 12 if you haven’t already. So dive in, enjoy the chaos, and celebrate with us before time runs out\\!\n\n# Update 12 Release Notes\n\n## New Boss Mechanics\n\nNew fight mechanics including:\n\n- Missile Launchers  \n- a Shield System  \n- Destructible Cover  \n- Homing Bullets  \n- More complex spread patterns\n\n## Improvements\n\n- Boss: revamped final boss arena  \n- Boss: added and improved particles (including new missile explosions)  \n- Boss: improved atmosphere, skybox gradients  \n- Boss: added more background details  \n- Boss: added sky fade-in and fade-out  \n- Boss: improved attacks, balancing, telegraphing of actions  \n- Boss: new shield fade-out animation  \n- Boss: improved sounds, added new effects  \n- Boss: improved intro and outro sequences  \n- Improved Lunatic Final boss  \n- ProTubeVR: better integration to support dual-wielding hand-guns  \n- Reset leaderboards for Lunatic and Sniper, added archive of old leaderboards  \n- Grenade Launchers: implemented damage falloff behavior  \n- Grenade Launchers: swapped launcher projectiles between Tier 2 and 3 launchers  \n- Grenade Launchers: Tier 3 projectiles are now cluster grenades with mid-air split\n\n## Bug Fixes\n\n- Boss: fixed final explosion  \n- Boss: fixed sticky grenades on shield  \n- Fixed temporary speed buffs removing permanent ones  \n- Grenadier class unlocks are now saved correctly  \n- Damage Dealt now takes into account Guardian Bots and Turrets  \n- Guardian Bots no longer display damage numbers twice  \n- Fixed Null error when explosions interact with dead bot parts  \n- Grenade Launcher projectiles no longer collide with the player"
             },
@@ -164,10 +168,6 @@
             {
                 "version": "1.757",
                 "change_log": "# See store page for full patch notes\n\nUpdate 5\n\n** Bug Fixes **\nFixed flying out of bounds issue\nFixed some performance issues\nFixed walkable steep slopes in slums\nFixed minor visual issues in rooms\nFixed laser sight issues\nFixed final boss falling downwards on getting stunned\n\n** Improvements **\n- Improved accuracy and reload on shotguns, removed ammunition count on manual shotguns\n- Added magazine displays on weapons\n- Added finger trigger animation to all weapons\n- Allow reloading by aiming upwards\n- Sniper aiming down the sight is made easier, removed laser pointer on default sniper\n- Added one-handed grenade launcher\n- Added start note to provide a better introduction to the world\n- Added slow-motion chip on dealing critical damage\n- Added new Explosives chip class\n- Reduced loading times\n- Added Grenadier class\n- Added Lunatic class\n- Added animations to all pistols, machine guns and shotguns\n- Added ProTubeVR support\n- Improved accuracy for machine guns on single shots\n- Improved aiming on assisted handgun\n- Reworked hand poses for weapons\n- Grenade launcher now has a magazine of 6 grenades\n- Added experimental cluster grenade\n- Improved performance\n- Split up options for joystick movement (left/right) and map (left/right)\n- Fixed slight jitter issue on elevator\n- Leaderboard results are now centered around the user\n"
-            },
-            {
-                "version": "1.656",
-                "change_log": "Update 4 has gone live! This update includes:\n- Run-to-run progression: The first unlockable starter classes including unlockable starter upgrades\n- New upgrade chips\n- New room variations in Mines\n- 90 Hz support for Oculus Quest 2\n- Adding full body suit haptics support\n- Polishing early game experience\n- Features new hand models for specific classes\n- Features improved hand poses\n\nBug Fixes\n- Pointing hands down to reload no longer stops your movement with hand based directions turned on\n- Security bots getting trapped in the Modern City\n- Swapping weapon from left to right hand via grip release no longer lets weapon be fired from initial hand\n- It is once again possible to damage undeployed turrets\n- Fixed wrench angle\n- Folded turrets can now be damaged by weaponry\n- Fixed bug which caused final boss room lift to spawn in the first Modern City room\n\n"
             }
         ],
         "on_rookie": true,
@@ -178,7 +178,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480145,
+        "changelog_update": 480649,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 480625,
@@ -190,7 +190,7 @@
             "fps",
             "combat"
         ],
-        "last_update": 480625,
+        "last_update": 480649,
         "category": "GAMES",
         "votes": 545,
         "rating": 4.6,

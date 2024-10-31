@@ -37,7 +37,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 498
+                "votes": 500
             },
             {
                 "rating": 2,
@@ -49,11 +49,11 @@
             },
             {
                 "rating": 4,
-                "votes": 489
+                "votes": 490
             },
             {
                 "rating": 5,
-                "votes": 3161
+                "votes": 3165
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -82,6 +82,10 @@
             "logo_transparent": "75441579_1395939127998086_1517575766859931023_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.21",
+                "change_log": "A major change to The Hide and a gaggle of hotfixes. \n\nCore \n-Adjusted collision if you bump into a wall with your muzzle while firing in full auto it will no longer release the trigger  \n-Adjusted bullet penetration physmats on Oilrig\n-Adjusted minor shadow/lighting issues in Carnival\n-Adjusted lighting in Autumn to brighten up the appearance of characters in dark areas slightly\n-Fixed an exploit using burst fire in walls \n-Fixed a playspace exploit\n-Fixed flag texture issue, pixel walk, and spawn issue on Stalingrad\n-Fixed out of bounds exploit on Pinehill\n-Fixed out of bounds exploit on Oilrig\n-Fixed out of bounds exploit on Sand\n-Fixed a floating prop issue on Bridge\n-Fixed an ejected shell issue in drumshotgun \n-Fixed climbable cars in industry garage\n-Fixed OITC and KOTH compatibility for Oilrig\n\nThe Hide\n-Added new objectives: Conquest Disruptors. 1-3 Disruptor objectives may spawn and can be captured in any order by standing in the capture zone. The Hide Monster can contest or revert the capture of any objective by standing in the capture zone. Once all objectives are captured, the monster will take damage over time.\n-Added Gas Grenade (Id: gas). Gas grenades replace smoke grenades in The Hide, they last for 30 seconds and deal damage-over-time while inside the cloud.\n-Adjusted bandage healing from 33 to 66\n-Adjusted bandage healing duration from instant to 3 healing ticks.\n-Adjusted Adrenaline Shot for the monster. Adrenaline shots now give the monster infinite stamina for 7 seconds.\n\nModkit (game client only, modkit update not needed) \n-Added drum magazine variants for modders (ID: ppsh_drum, thompson_drum)\n-Added golden gun to loot spawner table (ID: goldengun and tttgoldengun)"
+            },
             {
                 "version": "1.0.20",
                 "change_log": "-Add new map Oil Rig\n-Added new cosmetics \n-Added cosmetic bundle system\n-Added Halloween decor on vanilla maps (ends after October 31st)\n-Added warning pop-up when trying to access customize menu without a Wi-Fi connection\n-Added function to dismiss MOTD/NEWS and added a button restore MOTD to main menu\n-Adjusted texture memory optimizations \n-Adjusted item optimizations\n-Adjusted bomb sites in Carnival\n-Fixed minor prop issues in Santorini\n-Fixed bullets not being skinned properly by cosmetic \n-Fixed redundant dependency version checks\n-Fixed 3rd person recoil animations\n-Fixed issue with guns floating in the center of players\n-Fixed KOTH soviets getting the incorrect faction grenades\n-Fixed exploit in Autumn\n-Fixed a spot in Carnival that would result in the player getting stuck\n-Fixed physmats in Carnival that should not have bullet penetration\n\nModders\n-Added Vankrupt asset packs to download via modkit and create your own maps with\nhttps://mod.io/g/pavlov/u/vankrupt-games\n\nCommunity Server\n-Added the ability to record all matches as .replay files by adding \"bRecordReplays=true\" to their Game.ini (Pending Shack TV release)\n\nIn the near future it will be possible to watch these back via PavTV, Note: To playback matches with mods they will need to be uploaded to both PC and Oculus (with matching version numbers)"
@@ -123,10 +127,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480289,
+        "changelog_update": 480649,
         "keyword_update": 474881,
         "tag_update": 475633,
-        "rating_update": 480625,
+        "rating_update": 480649,
         "iarc_detail_update": 477385,
         "keywords": [
             "shooter",
@@ -135,10 +139,10 @@
             "pvp",
             "combat"
         ],
-        "last_update": 480625,
+        "last_update": 480649,
         "category": "GAMES",
-        "votes": 4536,
-        "rating": 4.249339,
+        "votes": 4543,
+        "rating": 4.248514,
         "weighted_rating": 4.2
     },
     "errors": []
