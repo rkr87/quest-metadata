@@ -37,23 +37,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 4977
+                "votes": 4987
             },
             {
                 "rating": 2,
-                "votes": 1356
+                "votes": 1359
             },
             {
                 "rating": 3,
-                "votes": 2526
+                "votes": 2530
             },
             {
                 "rating": 4,
-                "votes": 6605
+                "votes": 6612
             },
             {
                 "rating": 5,
-                "votes": 36292
+                "votes": 36389
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -79,6 +79,10 @@
             "logo_transparent": "75196224_551361696197045_8536965504334359505_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.5",
+                "change_log": "Update 1.0.5.631\n- Fixed some lag during dungeon room activation\n- Reduced dungeon memory usage (should prevent some crashes)"
+            },
             {
                 "version": "0.12.2",
                 "change_log": "U12.2 Changelog\n\n- Fixed home mirror black artifacts\n- Fixed player eyes reflection being wrong when looking our avatar in the mirror\n- Fixed bug where an item breaks and the original doesn't despawn\n- Fixed bug where players inventory wasn't getting saved when going back to home\n- Fixed not being possible to scroll down to read the last mod option tooltip.\n- Fixed broken mod asset bundles causing the game to hang on loading screens\n- Fixed removed modded items not being cleaned from the save file\n- Fixed mod options' categories not being shown in the selected language\n- Potentially fixed an issue where players could hit an invisible barrier in some runs where CliffTerrace was added.\n- Removed dirt from home mirror and reduced distortion effect slightly\n- Fixed weird lighting in some areas of SewerMaintenance\n- Fixed seams in the walls in SewerMaintenance\n- Fixed incorrect skybox in SewerMaintenance\n- Fixed weird water behaviour in SewerMaintenance and UndergroundZipline\n- Fixed clipping issues with the male mercenary gloves\n- Fixed long text values overlapping the new mod options button frame\n- Fixed long mod options tooltips overlapping over the options bellow\n- Fixed bug where handposer tool wasn't mirroring the finger tips position\n- Fixed ModOptionSaveValue attributes not being processes\n- Fixed ModOption(string name) constructor not setting default values\n- Fixed a bug where the defaultValueIndex was sometimes not used\n- Fixed a bug with color and catalogitem modoptions weren't being refreshed by the UI if data was changed at runtime\n- Fixed home wooden planks having black tips\n- Added new QA menu to test levels"
@@ -124,10 +128,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480674,
         "keyword_update": 478993,
         "tag_update": 475657,
-        "rating_update": 480649,
+        "rating_update": 480674,
         "iarc_detail_update": 477385,
         "keywords": [
             "sword",
@@ -135,10 +139,10 @@
             "physic",
             "magic"
         ],
-        "last_update": 480649,
+        "last_update": 480674,
         "category": "GAMES",
-        "votes": 51756,
-        "rating": 4.311519,
+        "votes": 51877,
+        "rating": 4.311892,
         "weighted_rating": 4.3
     },
     "errors": []
