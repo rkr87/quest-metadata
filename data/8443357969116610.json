@@ -60,19 +60,10 @@
         },
         "internet_connection": "NOT_REQUIRED",
         "website": "https://html.cafe/x14fd9953",
-        "app_images": {
-            "cover_landscape": "86634390_27983202727937271_2355972865018083085_n.png",
-            "cover_portrait": "39036646_1075468697502020_8984434571203575072_n.png",
-            "cover_square": "38982593_558247603377176_5871983990795231166_n.png",
-            "hero": "75230050_2245318379165840_3435351043516740973_n.png",
-            "icon": "75196219_553233483786456_3648245319937108880_n.png",
-            "immersive_layer_backdrop": null,
-            "immersive_layer_logo": null,
-            "logo_transparent": "75388621_554290633762614_2321484380100966058_n.png"
-        },
+        "app_images": {},
         "changelog": [],
         "on_rookie": false,
-        "general_update": 480649,
+        "general_update": 480697,
         "genre_update": 480625,
         "device_update": 480386,
         "mode_update": 480386,
@@ -85,11 +76,23 @@
         "rating_update": 480649,
         "iarc_detail_update": 480386,
         "keywords": [],
-        "last_update": 480649,
+        "last_update": 480697,
         "category": "GAMES",
         "votes": 26,
         "rating": 4.269231,
         "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }
