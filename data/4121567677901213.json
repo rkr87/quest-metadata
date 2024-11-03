@@ -70,6 +70,10 @@
         },
         "changelog": [
             {
+                "version": "4.7.4",
+                "change_log": "Fixed bug: Undeleting MathItems updates the information of figures.\nFixed bug on rotations of figures.\nEDIT of MathItems permits rotations if the other hand has action GRAB\nThe flight mode can be chosen in Other Settings: hand direction or camera eye (default).\n"
+            },
+            {
                 "version": "4.7.3",
                 "change_log": "New Limit tool, which attaches a point to an edge, face, circle or sphere.\nThe flight now goes to where the player is looking\nFixed bugs on hand actions.\nBug: Creation of fractals in multiplayer mode."
             },
@@ -140,10 +144,6 @@
             {
                 "version": "4.4.0",
                 "change_log": "Fixed bug importing STL internally.\nFixed bug on the eraser tool.\nFixed bug on the scale copy tool.\nImproved player joystick rotation.\nNew activities in the box of the Erasmus project Geometrician’s Views. For that “clear activities” and download.\n"
-            },
-            {
-                "version": "4.3.9",
-                "change_log": "Trails of points and edges(with the loci pencil) synchronized in multiplayer mode.\nFixed bug when releasing objects.\nFixed bug loading labels assigned to MathItems.\nLabels assigned to images, videos, sounds, drawings, 360 balls, etc., are saved and loaded in Neot files.\nSave and load 360 environment pictures on 360 balls in Neot files."
             }
         ],
         "on_rookie": false,
@@ -154,13 +154,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480289,
+        "changelog_update": 480722,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480649,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480649,
+        "last_update": 480722,
         "category": "APPS",
         "votes": 18,
         "rating": 4.777778,

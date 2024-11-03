@@ -92,5 +92,58 @@
         "rating": 4.25,
         "weighted_rating": 3.7
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "ba8fab4d78c9e6ef374d092b9139859f"
+            ],
+            "path": [
+                "item",
+                "latest_supported_binary",
+                "storeAddOns",
+                "count"
+            ]
+        },
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "97b6d07febcee472a70a415be8b40d2a"
+            ],
+            "path": [
+                "item",
+                "latest_supported_binary",
+                "firstIapItems",
+                "page_info"
+            ]
+        },
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "8861fdffd1430b2f5972199372274f07"
+            ],
+            "path": [
+                "item",
+                "latest_supported_binary",
+                "firstIapItems",
+                "count"
+            ]
+        },
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "ae35240a2c91dc3d2916ca8db6f3a4dc"
+            ],
+            "path": [
+                "item",
+                "latest_supported_binary",
+                "firstIapItems",
+                "edges"
+            ]
+        }
+    ]
 }
