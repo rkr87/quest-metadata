@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.193",
+                "change_log": "- Fixed hang when trying to open the Meta menu"
+            },
+            {
                 "version": "0.2.190",
                 "change_log": "- Added direction labels for radar\n\n- Adjusted how job id's are generated for procedural jobs (now includes settings)\n\n- Fixed bug where crates sometimes spawned inside proc gen prefabs"
             },
@@ -117,13 +121,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 480745,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480265,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 480745,
         "category": "GAMES",
         "votes": 49,
         "rating": 4.959184,
