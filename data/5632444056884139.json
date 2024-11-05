@@ -77,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "1.8.1",
+                "change_log": "[Fix] Fixed out-of-sync lookup table for spawnable objects, causing incorrect objects to spawn in certain actions, leading to errors, crashes, and unintended behavior.\n[Fix] Addressed an issue where a microphone could be requested despite none being available."
+            },
+            {
                 "version": "1.8.0",
                 "change_log": "[Improvement] The intro logo section at startup is now skippable.\n[Improvement] Lip-syncing is now visible in mirrors for preview.\n[Fix] Resolved blend shape normal issues on the three new Halloween skins.\n[Fix] Fixed various minor issues to enhance overall stability.\n[Other] Internal upgrades for crash reporting and debugging."
             },
@@ -121,13 +125,13 @@
         "language_update": 475001,
         "platform_update": 479809,
         "player_mode_update": 475001,
-        "changelog_update": 480674,
+        "changelog_update": 480769,
         "keyword_update": 475001,
         "tag_update": 475001,
         "rating_update": 480745,
         "iarc_detail_update": 475001,
         "keywords": [],
-        "last_update": 480745,
+        "last_update": 480769,
         "category": "GAMES",
         "votes": 96,
         "rating": 4.885417,

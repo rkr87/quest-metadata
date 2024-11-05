@@ -59,7 +59,7 @@
             },
             {
                 "rating": 5,
-                "votes": 11111
+                "votes": 11115
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -88,6 +88,10 @@
             "logo_transparent": "39001695_254778995473396_1121450286364229632_n.png"
         },
         "changelog": [
+            {
+                "version": "1.2.43865",
+                "change_log": "November 4th, 2024, Change List\n\n**General Update**\n* Meta Haptics Studio Integration\nAll haptics are now played through the new Meta Haptics Studio Integration for a better experience and performance. See https://developers.meta.com/horizon/resources/haptics-studio/ for more information\n\n**General Bug Fixes**\n* Fixed an issue where users could not “Play Again” with their squadmates\n* Fixed an issue where collecting Silver Seeker would not show the “Daily Collections Remaining: X/20” pop-up.\n* Fixed an issue where the friends list would not load if you have around 500+ friends.  We now load the friends list without icons to stop it from not loading at all.  Thank you for patience while we work on a long term fix.\n\n**Sandbox Updates**\n* Respawn timer option for collectibles. This is a slider on the collectible item to make it auto respawn. Note that loot does not respawn when standing too close to it.\n* New actions MoveTargetOut and MoveTargetBack. These use the target's TriggerID to either move a target to its max position, or min position, where it will stop. This can be used to make a door/elevator open/close/move via an action. If you have mirror movement enabled, the target will stop at the center position with one call, and move to the min/max with a second. On match start, you probably want to call MoveTargetBack to set its desired position to 0 and stop it at the placed position.\n* New option for Flag Spawner to show delivery waypoint. This will make the star waypoint show when you can deliver, and the star icon on the map. This is extra useful if you do not require the flag to be present to score.\n* New action RemoveItem. This removes every item in the item list from a player's inventory. Action value is quantity to remove.\n* New action triggers Flag Grabbed and Flag Dropped. These work with the flag spawner object to let you add actions for your flag carrier.\n* Added field ID to jump pads and boost rings so they can be toggled on/off with toggle/enable/disable field actions.\n* Allowed player drop loot option to work when you have bleed out time enabled.\n\n\n**Support**\nFor support visit [http://support.bigboxvr.com](http://support.bigboxvr.com) to get access to self-help resources or file a ticket.\n\n**Known Issues**\n* A brief loss of audio is sometimes encountered when joining a voice chat channel on Quest without headphones. This is due to enabling echo and noise cancellation features.\n* If you see a notice that you need to \"update to play\" but don't see it in the store, uninstall and reinstall POP: ONE to force the upgrade to happen. You won't lose any progress or data.\n* Friends list icons may not be displayed if you have a very large number of friends. A fix is being worked on for the next update.\n\nSee you in the game!\n"
+            },
             {
                 "version": "1.2.43752",
                 "change_log": "Hey POP1 Community,\n\nToday we are launching a small backend update for improvements to real-time messaging and friending. \n\nYou may notice an update required to launch POP1.\n\nSee you in-game!"
@@ -163,10 +167,6 @@
             {
                 "version": "1.2.32194",
                 "change_log": "December 6th, 2022, Change List  \n\n**Introducing Rocket Launchers!**  \n\n* Rocket Launchers can deal direct damage as well as splash damage.   \n* They spawn from the loot drop pod.  \n* They also spawn in random loot locations throughout the map but are rare.  \n* Rocket Launchers come pre-loaded with 3 rounds.  \n* Rocket Launchers will safely self-destruct when empty.   \n* Rocket Launchers have no star rating like a frag grenade or zone grenade.\n* Rocket Launchers deal splash damage through build walls, but at a reduced amount.  \n\n**Friending Improvements**\n\n* Friending has now been added to the minimap! Easy way to send and accept friend requests during a game. \n* New button to join a room using a room code placed beneath the friends list. \n\n**Graphics Improvements**  \n\n* Improved Fog and reduced haziness throughout the map.\n* Tree Leaf shadow improvements. Tree shadows are now more realistic.\n* Fixed lighting on objects that move.\n* Improved mesh detail at a distance for the environments and characters.\n* Reduced artifacts on environment shadows.\n* Improved reflections on windows and other reflective surfaces..\n* Improved overall global illumination (indirect light) in the environment.\n\n**December Monthly Match**\n\n* Play an active game mode (Squads, Team Deathmatch, and Co-Op Bot Battle, etc.) to make progress towards the monthly rewards!\n\n* Monthly Matches Tiers: \n  * Gift Wrapped 357 (357 skin) - 2 Matches\n  * Jingle Haul (Spray) - 5 Matches\n  * Gift Wrapped MP5 (MP5 skin) - 10 Matches\n  * Happy Holidays (Calling Card) - 15 Matches\n  * Millie Ugly Sweater (Character skin) - 25 Matches\n* Select the MONTHLY tab in the Main Menu to see your progress.\n* Come back every month to unlock a new set of rewards.  \n\n**Voice Communication**\n\n* Voice Communications is very important to us and we are continuing to improve stability in this area with each update. Please file a support ticket if you have issues with voice communications.\n\n**General**\n\n* Fixed a collision issue inside the Barn in Farmlands\n* Fixed an issue where 1st person character models were invisible while running or flying.\n* Fixed an issue where all players in a Custom Room could change Custom Room settings and start the match.\n* Fixed corrupted texture on tires in Observatory.  \n\n\n**Terms of Service**\n\n* BigBox VR’s Terms of Service and Privacy Policy have updated and are available here:\n* [https://www.bigboxvr.com/terms-and-conditions](https://www.bigboxvr.com/terms-and-conditions)\n* [https://www.bigboxvr.com/privacy-policy](https://www.bigboxvr.com/privacy-policy)  \n\n\n**Support**\n\nFor support visit \\[[http://support.bigboxvr.com](http://support.bigboxvr.com/)\\]([http://support.bigboxvr.com](http://support.bigboxvr.com/)) to get access to self-help resources or file a ticket.\n\n**Known Issues**  \n* Users cannot speak during the black loading screen when joining a match through the Main Menu.  \n* The reticle will sometimes stay yellow after reloading. Switching guns should fix this.\n* A brief loss of audio is sometimes encountered when joining a voice chat channel on Quest 1 & 2 without headphones. This is due to enabling echo and noise cancellation features.\n* Steam VR users playing on an Oculus headset: When Purchasing Bureau Gold, you will need to take off your headset to approve the purchase.\n* If you see a notice that you need to \"update to play\" but don't see it in the store, uninstall and reinstall POP: ONE to force the upgrade to happen. You won't lose any progress or data.\n\n\\&#x200B;\n\n\\\\\\~ see you in game!"
-            },
-            {
-                "version": "1.2.31548",
-                "change_log": "November 8th, 2022, Change List\n\nAnnouncing POPULATION: ONE SANDBOX\n\nA Game Creator limited only by your imagination.\n-Explore, create, and play an endless variety of games with friends.\n-Take the action to a moon base, a Viking village, and more!\n-Sign up to get access quickly! [populationonevr.com/waitlist.html]\n\nNovember Monthly Match\n\nPlay an active game mode (Squads, Team Deathmatch, and Co-Op Bot Battle, etc.) to make progress towards the monthly rewards!\n\nMonthly Matches Tiers:\n-Royal Oak AKM (AKM skin) - 2 Matches\n-Anna X Autumn (spray) - 5 Matches\n-Royal Oak M1014 (1014 skin) - 10 Matches\n-Anna Hallow (Calling Card) - 15 Matches\n-Anna Hallow (Character skin) - 25 Matches\n\nSelect the MONTHLY tab in the Main Menu to see your progress.\nCome back every month to unlock a new set of rewards.\n\nVoice Communication\n\n-Voice Communications is very important to us and we are continuing to improve stability in this area with each update. Please file a support ticket if you have issues with voice communications.\n\nGeneral\n\n-Fixed an issue with loot being invisible sometimes.\n-Fixed an issue where sometimes players would clip into walls when dying.\n\nSupport\n\nFor support visit [http://support.bigboxvr.com](http://support.bigboxvr.com) to get access to self-help resources or file a ticket.\n\nKnown Issues\n-AWP Scope does not remain zoomed in when the barrel is inside walls or objects.\n-The reticle will sometimes stay yellow after reloading. Switching guns should fix this.\n-A brief loss of audio is sometimes encountered when joining a voice chat channel on Quest 1 & 2 without headphones. This is due to enabling echo and noise cancellation features.\n-Steam VR users playing on an Oculus headset: When Purchasing Bureau Gold, you will need to take off your headset to approve the purchase.\n-If you see a notice that you need to \"update to play\" but don't see it in the store, uninstall and reinstall POP: ONE to force the upgrade to happen. You won't lose any progress or data."
             }
         ],
         "on_rookie": false,
@@ -177,10 +177,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480289,
+        "changelog_update": 480769,
         "keyword_update": 480745,
         "tag_update": 475657,
-        "rating_update": 480745,
+        "rating_update": 480769,
         "iarc_detail_update": 477385,
         "keywords": [
             "shooter",
@@ -189,10 +189,10 @@
             "multiplay",
             "game"
         ],
-        "last_update": 480745,
+        "last_update": 480769,
         "category": "GAMES",
-        "votes": 15580,
-        "rating": 4.291142,
+        "votes": 15584,
+        "rating": 4.291324,
         "weighted_rating": 4.2
     },
     "errors": []
