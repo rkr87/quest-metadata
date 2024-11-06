@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.2.1",
+                "change_log": "1) Bug Fixes:\n\t• Fixed multiple bugs causing errors to sometimes be thrown when converting local mp3s.\n\t• Improved handling of BeatSage responding slowly after song conversion completed."
+            },
+            {
                 "version": "0.2.2",
                 "change_log": "1) Improved conversion of local mp3s\n\t• Songs converted in game will now show their correct BPM.\n\t• Targets will now be more closely timed to the correct BMP.\n\t• Improved consistency of different levels.\n\t• Improved rotation event consistency and obstacle consistency.\n\n2) Bug Fixes:\n\t• Improved transition performance from main menu to gameplay reducing frame loss.\n\t• Fixed bug causing some songs to not properly import causing  a warning to display stating they are missing difficulty options.\n\t• Improved overall settings performance and improved stability and added protections against corrupting data.\n\t• Detecting corrupted accounts now implemented and instructs players to delete their account if it is corrupted."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.34",
                 "change_log": "1)  Re-worked beatmaping algorithm to ensure a better flow and balanced workout. \n\t• Directional targets will now always appear on the side opposite of the previous target allowing more fluid movement. \n\t• Decreased maximum number of targest allowed on the same side ensuring both sides get a great workout!\n\n2) Player stance now changes during songs!\n\t• Whenever a song is at least 1.55 minutes long, stance change events will occur.\n\t• Stance change events currently occur once every minute.\n\t• When a stance change event fires, the choreography will pause for 5 seconds during which time it will show the stance change indicator. \n\n3) Bug Fixes:\n\t• Improved handing of cancelled delayed events preventing errors to be logged with it is already being handled.\n\t• Fixed issue causing custom songs page to sometimes throw an error when trying to scroll due to a cancelled token."
-            },
-            {
-                "version": "0.1.33.3",
-                "change_log": "1) Bug Fixes:\n\t• Fixed bug causing creating a playlist to fail when including the built in songs \"Dance\" or \"Sky\".\n\t• Fixed bug causing players to have to sign in to YUR every time they opened the game.\n\t• Fixed bug causing retrieving settings to sometimes break due to corrupted data.\n\t• Added an internal \"Legacy\" configuration for beat maps to fix a bug causing an error to be thrown when retrieving some custom songs.\n\t• Improved handling of errors when downloading songs fails. If connections time out, players will be given an option to try again.\n\t• Fixed bug causing \"Latest\" in community songs to not account for user search input."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480481,
+        "changelog_update": 480793,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480529,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480529,
+        "last_update": 480793,
         "category": "GAMES",
         "votes": 39,
         "rating": 4.564103,

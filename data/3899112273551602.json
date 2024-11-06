@@ -81,6 +81,10 @@
         },
         "changelog": [
             {
+                "version": "4.0.17.12070",
+                "change_log": "4.0.16->4.0.17\n**`FEATURES`**\n\n- Selection and Groups improvements.\n\n- Implemented copy/paste functionality for transforms and materials.\n\n- Added a mute icon to the avatar header.\n\n**`IMPROVEMENTS`**\n\n- Hide highlight effects when editing color and material settings.\n\n- Improved visuals for object bounds.\n\n- Improved selecting scenes for interactivity moves the user to the selected scene.\n\n- Undo/redo functionality now works during changes made via Gizmo and Inspector.\n\n- Scenes can be switched with the interactivity pop-up open.\n\n**`BUG FIXES`**\n\n- Fixed bug with holonote in a certain type of spaces.\n\n- Exception when opening and closing a model preview \n\n- Fixed when attach to body function works incorrectly in Gaze & Pinch mode.\n\n- Fixed when group bounds are displayed incorrectly after using Undo on the Ungroup action.\n\n- Objects remain selected when moving them between scenes using the Gizmo.\n\n- Fixed NaN error when editing linked values in the bend transform inspector.\n\n- Jumping to a user's scene via label now works correctly."
+            },
+            {
                 "version": "4.0.16.11913",
                 "change_log": "4.0.15 -> 4.0.16\n\n- Updated the Lobby and changed the link for \"Learn the Basics\" to start the interactive onboarding from the Lobby.\n\n- Fixed when only the last entered user can control avatar hiding by distance.\n\n- Improved avatar visibility depends on the user’s head angle (FOV).\n\n- Fixed error occurs when trying to display two identical avatars (\"An item with the same key has already been added\").\n\n- Fixed when some options for initial positioning do not work, causing the presentation to break.\n\n- Fixed when snapping rotation slider does not respond when pulling the stick to the left.\n\n- Fixed when scenes and viewpoints switch incorrectly with the stick in Interactivity mode.\n\n- Fixed when changing the scrollable field value with the stick results in too many commands being added to the Undo stack.\n\n- Fixed when exception occurs when trying to exit the presentation \n\n- Fixed when horizontal and Vertical Bend are not changed with the stick, but these commands are added to the Undo stack.\n\n- Fixed when presentation setting \"hide avatars\" applies to both the presenter and spectators.\n\n- Fixed when exception occurs when there is a holonote in the comment space\n\n- Fixed when stylus exceptions break Play mode on Quest Pro."
             },
@@ -149,7 +153,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480602,
+        "changelog_update": 480793,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 480674,
@@ -160,7 +164,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 480674,
+        "last_update": 480793,
         "category": "APPS",
         "votes": 344,
         "rating": 4.119186,

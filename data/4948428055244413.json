@@ -3,7 +3,7 @@
         "id": "4948428055244413",
         "app_name": "Among Us VR",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "LIMITED TIME EVENT: It’s the spooktacular skelebration of the season: let the Bone Bash begin! 🦴 Dress up in your most bone-chilling costume for the ultimate Crewmate Carnival of Creepiness! 👻\nWhat tricked out treats will you uncover? We’re dying to find out! ☠️\n\n{3783496455199168}\n\nAmong Us VR is a party game of teamwork and betrayal. Grab your crew and headset and launch into the VR version of this hit multiplayer deduction game. Play with 4 - 10 players as you complete tasks to hold your ship together. But beware! One or more random players among the crew are Impostors bent on sabotaging and killing everyone.\n\n# Features\n- **Gameplay:** Experience the core Among Us gameplay you know and love, such as tasks, sabotages, emergency meetings, and venting, but now in VR\n- **Chat:** Communicate using in-game voice chat (featuring proximity chat) or quick text chat\n- **Minigames:** Play old favorites and new-for-VR games\n- **Customization:** Pick your bean’s color, hat, and gloves — and expand your wardrobe with our growing options of Hat and Glove Packs\n- **Comfort and Safety:** Adjust your settings to have the best experience possible\n- **Cross-Platform in VR:** Play with other VR users, even on other VR platforms and headsets\n- **Locomotion:** Choose single or two-handed options\n- **Custom Lobby Settings:** 18 settings to customize the game\n\nJoin our Discord!",
+        "description": "Among Us VR is a party game of teamwork and betrayal. Grab your crew and headset and launch into the VR version of this hit multiplayer deduction game. Play with 4 - 10 players as you complete tasks to hold your ship together. But beware! One or more random players among the crew are Impostors bent on sabotaging and killing everyone.\n\n# Features\n- **Gameplay:** Experience the core Among Us gameplay you know and love, such as tasks, sabotages, emergency meetings, and venting, but now in VR\n- **Chat:** Communicate using in-game voice chat (featuring proximity chat) or quick text chat\n- **Minigames:** Play old favorites and new-for-VR games\n- **Customization:** Pick your bean’s color, hat, and gloves — and expand your wardrobe with our growing options of Hat and Glove Packs\n- **Comfort and Safety:** Adjust your settings to have the best experience possible\n- **Cross-Platform in VR:** Play with other VR users, even on other VR platforms and headsets\n- **Locomotion:** Choose single or two-handed options\n- **Custom Lobby Settings:** 18 settings to customize the game\n\nJoin our Discord!",
         "developer": "Schell Games, Innersloth LLC, and Robot Teddy",
         "publisher": "Innersloth LLC",
         "genres": [],
@@ -48,11 +48,11 @@
             },
             {
                 "rating": 2,
-                "votes": 395
+                "votes": 396
             },
             {
                 "rating": 3,
-                "votes": 660
+                "votes": 661
             },
             {
                 "rating": 4,
@@ -144,24 +144,20 @@
             {
                 "version": "1.0.5+207668",
                 "change_log": "- Fixed issue where languages using East Asian characters would not correctly display announcements."
-            },
-            {
-                "version": "1.0.5+206015",
-                "change_log": "MODERATION\n- Players can now report other players for bullying/harassment in game\n- Players can be banned from joining online matches for toxic behavior in game\n- Voice chat is now moderated via ToxMod — Players’ voice chat is analyzed for harassment and toxic behavior and can be banned for violations\n- Players can now view the network connection status and stability for other players on the Players tab\n\nNEW BOOTUP EXPERIENCE\n- Starting up the game has been revamped to reflect changes to our legal agreements, player reporting and moderation, as well as the addition of Announcements!\n- Terms of Use and Privacy Policy agreements have been updated and need to be re-agreed upon for all players\n- New ToxMod agreement has been added for voice chat moderation\n- The game will occasionally update with news about *Among Us VR* and related events and announcements will appear on the title screen\n\nMOSTLY POLUS FAVORITES HAT PACK\n11 new free hats have been added into the base game cosmetics wardrobe\n- Clogged\n- ColdBrim\n- Drill\n- Eruptive\n- Miner Setback\n- OHSACompliant\n- PHat\n- Safety Second\n- Snowmate\n- Unique Specimin\n- HORSE HAT\n\nBUG FIXES\n- Fixed an issue where being killed by an Impostor while pulling a lever using remote interaction could cause a crash \n- Fixed a rare crash where the Repair Shields task would get stuck forever causing the game to shutdown \n- Fixed an issue where the Divert Power task would never find a second console to resolve \n- Fixed an issue where venting as an Impostor while the game is ending due to a Crewmate victory could cause players to be stuck in a black void\n- Fixed ghost and death VFX overlapping with each other during a kill \n- Fixed Impostor count not correctly updating when a living Impostor would disconnect from the game\n- Fixed a visual bug where a red line would appear on the bottom of some cutscenes\n- Fixed an issue where ghosts using Quick Chat could speak globally with all other ghosts\n- Fixed an issue where the Crewmate shadow would not appear correctly in a specific area of Storage\n- Fixed an error with an incorrect results screen being displayed when an Impostor kills at the same time when all Crewmates are completing their tasks\n- Fixed an issue where hands for Impostors would not be in the correct position when venting with the “All Hands” visibility setting \n- Fixed an issue where tasks were not being correctly assigned in rare edge cases\n- Fixed an issue where tasks would be empty when a player joins causing the game to shutdown\n- Fixed a visual error where the chat offset was not being set properly as the chat log grew longer \n- Fixed an issue where some analytics were not getting counted correctly\n- Recategorized the way that analytics were being sent after a player had left a game\n- Fixed visual bug on the lobby screen where menu buttons would overlap each other\n- Fixed minor visual bug on the minimap where O2 Sabotage icon would not draw correctly on top of other icons \n- Fixed minor visual bug where the emergency timer countdown would not be correct lit when lights were off \n- Fixed minor visual bug where sliders would jitter when being adjusted \n- Fixed occasional errors were the name for players would not correctly update \n- Added a small adjustment to better try and match player colors when joining a new lobby after a host migration \n- Fixed an issue where the game start countdown could end up in a bad state \n- Fixed an issue where returning back to the main menu would sometimes force you to go through the initial startup sequence again \n- Checkboxes on the Play Online menu now fade correctly with the rest of the menu \n- Fixed a rare crash related to disconnecting from the game during the end of a voting session \n- Fixed a rare crash related to minigames when a game session is shutting down \n- Fixed a rare crash related to hard drive space not being available \n- Fixed minor issues with overlapping texts in various menus \n- Fixed minor typos\n- Fixed various issues on game shutdown\n"
             }
         ],
         "on_rookie": false,
-        "general_update": 479953,
+        "general_update": 480793,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479953,
+        "changelog_update": 480793,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 480769,
+        "rating_update": 480793,
         "iarc_detail_update": 477385,
         "keywords": [
             "social",
@@ -169,10 +165,10 @@
             "parti",
             "casual"
         ],
-        "last_update": 480769,
+        "last_update": 480793,
         "category": "GAMES",
-        "votes": 6541,
-        "rating": 3.809356,
+        "votes": 6543,
+        "rating": 3.808956,
         "weighted_rating": 3.8
     },
     "errors": []
