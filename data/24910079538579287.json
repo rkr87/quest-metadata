@@ -78,6 +78,14 @@
         },
         "changelog": [
             {
+                "version": "0.4.2",
+                "change_log": "Fixed: View does not fade to black when head intersects scenery.\n\nFixed: Breathing SFX continues on player death.\n\nUpdated: Item glow (now magenta) fades out when items are distant.\n\nVO \"just a scratch\" now plays at 50% health\n\nImproved Reactor core lighting.\n\nImproved bunker exterior lighting and skybox.\n\nImproved Damage VFX - 'faces of pain' flash effect."
+            },
+            {
+                "version": "0.4.1",
+                "change_log": "Fixes bug where player can fall through wall colliders in a room.\nImproved entry corridor visuals to computer room.\nCCTV cameras improved texturing."
+            },
+            {
                 "version": "0.4.0",
                 "change_log": "Improvements to sewer chamber.\nVarious small tweaks & improvements."
             },
@@ -148,10 +156,6 @@
             {
                 "version": "0.2.3",
                 "change_log": "More randomized Sentrybot VO.\nUpdated EMP effect."
-            },
-            {
-                "version": "0.1.8",
-                "change_log": "Improvements & bug fixes."
             }
         ],
         "on_rookie": false,
@@ -162,13 +166,13 @@
         "language_update": 478969,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 480793,
+        "changelog_update": 481178,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 480289,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
         "votes": 6,
         "rating": 4.666667,

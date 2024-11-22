@@ -3,9 +3,9 @@
         "id": "8752849024786000",
         "app_name": "Battle Talent",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Battle Talent is a **challenging physics-based roguelite sword-fighting** game set in a medieval fantasy world. In this game, you can create your own fighting style and experience unparalleled gameplay in a mega seamless procedural dungeon. With over 80 enemy variants, 100 weapons, and 60 perks, the possibilities are endless.\n\n- Join forces with your friends to take down enemies! Experience rich **multiplayer** interactions and create powerful combos! (supports cross-play)\n\n{993508985736691}\n\n- Engage in realistic combat in **Mixed Reality Mode** (supports multiplayer) \n\n{862080482494054}\n\n- Experience thrilling physical combat with **spell, melee, and ranged attacks**. Beware, target the boss!\n\n{1153464909301423}\n\n- Customize your talent points in **Roguelike levels** and unlock unexpected treasure.\n\n{2455464587991559}\n\n- Explore **Sandbox Mode** to experiment with **2000+ mods** and Scene Editor feature.\n\n{1662858931145151}\n\n\n\n# Features:\n\n- 5 game modes: Adventure, Challenge, Sandbox, Mixed Reality mode (Quest 3), Multiplayer Mode\n- Supports multiplayer mode for 2-4 players and includes a built-in voice chat\n- Built-in scripted mod menu with 2000+ mods, enhance your gaming experience\n- Thrill of hack-and-slash with realistic physics interactions.\n- Variety of enemies and bosses, over 80 enemy variants with different moveset\n- Plenty of weapons and perks, over 100 weapons and over 60 perks\n- Seamless huge dungeons with multiple landscapes that regenerate each time\n",
-        "developer": "CyDream",
-        "publisher": "CyDream",
+        "description": "Fight like a Warrior: Dive into a challenging physics-based roguelite action game set in a medieval fantasy world. Create your unique fighting style and embark on epic adventures!\n\n- Join forces with your friends to take down enemies! Experience rich **multiplayer** interactions and create powerful combos! (supports cross-play)\n\n{993508985736691}\n\n- Engage in realistic combat in **Mixed Reality Mode** (supports multiplayer) \n\n{862080482494054}\n\n- Experience thrilling physical combat with **spell, melee, and ranged attacks**. Beware, target the boss!\n\n{1153464909301423}\n\n- Customize your talent points in **Roguelike levels** and unlock unexpected treasure.\n\n{2455464587991559}\n\n- Explore **Sandbox Mode** to experiment with **2000+ mods** and Scene Editor feature.\n\n{1662858931145151}\n\n\n\n# Features:\n\n- 5 game modes: Adventure, Challenge, Sandbox, Mixed Reality mode (Quest 3), Multiplayer Mode\n- Supports multiplayer mode for 2-4 players and includes a built-in voice chat\n- Built-in scripted mod menu with 2000+ mods, enhance your gaming experience\n- Thrill of hack-and-slash with realistic physics interactions.\n- Variety of enemies and bosses, over 80 enemy variants with different moveset\n- Plenty of weapons and perks, over 100 weapons and over 60 perks\n- Seamless huge dungeons with multiple landscapes that regenerate each time\n",
+        "developer": "Cydream",
+        "publisher": "Cydream",
         "genres": [
             "Fighting",
             "Adventure",
@@ -15,12 +15,14 @@
             "Touch Controllers"
         ],
         "modes": [
-            "Single User"
+            "Single User",
+            "Multiplayer"
         ],
         "languages": [
             "English",
             "Chinese (China)",
             "French (France)",
+            "Russian",
             "Spanish (Spain)",
             "Swedish"
         ],
@@ -44,23 +46,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 120
+                "votes": 123
             },
             {
                 "rating": 2,
-                "votes": 51
+                "votes": 50
             },
             {
                 "rating": 3,
-                "votes": 95
+                "votes": 96
             },
             {
                 "rating": 4,
-                "votes": 195
+                "votes": 197
             },
             {
                 "rating": 5,
-                "votes": 1641
+                "votes": 1664
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -86,6 +88,10 @@
             "logo_transparent": "38974622_796017918604254_2264792844258297444_n.png"
         },
         "changelog": [
+            {
+                "version": "3.9",
+                "change_log": "Small Patch\n>New content\n- The latency value of each room will be displayed on the multiplayer room list. Choose to join a low-latency room for a better multiplayer experience\n>Fixed bugs\n- Optimized performance to reduce lag.\n- Fixed multiplayer issue with the Index controller (Steam only).\n- Resolved issues with traps not triggering and stabbing actions not working.\n- Fixed problems with weapons being difficult to stab, occasionally disappearing, or not functioning properly, along with several other related issues.\n- Fixed issues that could occur when resurrecting from death.\n- Fixed the multiplayer NPC wound display issue."
+            },
             {
                 "version": "3.8",
                 "change_log": "bug fix for room crash"
@@ -140,26 +146,26 @@
             }
         ],
         "on_rookie": true,
-        "general_update": 480433,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
-        "mode_update": 474685,
-        "language_update": 474685,
+        "mode_update": 481178,
+        "language_update": 481178,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 477913,
+        "changelog_update": 481178,
         "keyword_update": 474881,
         "tag_update": 479689,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 477385,
         "keywords": [
             "physic",
             "sword"
         ],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 2102,
-        "rating": 4.515699,
+        "votes": 2130,
+        "rating": 4.515962,
         "weighted_rating": 4.5
     },
     "errors": []

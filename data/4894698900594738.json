@@ -3,7 +3,7 @@
         "id": "4894698900594738",
         "app_name": "LAX VR",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "LAX VR is the ultimate first-person VR lacrosse experience, offering both Box and Field lacrosse modes including a new exhilarating 6v6 field game where you can play as either a field player, long pole or goalie. Game modes include: Field, Box, Braveheart, Shooting, Goalie, Longstick, Shoot Around, and Wall Ball. Our Medicine Game mode pays tribute to the Indigenous People who created lacrosse, set in a mythical historic environment. Hone your skills, customize your twig, and have fun in the immersive world of VR lacrosse.  Start a box or field 6v6 tourney and try to win the Championship!\n\n\nOne of the unique features of LAX VR is its touch controller physics system, which mimics the real-life feel of a lacrosse stick. In addition, LAX VR is a family-friendly game with no in-app purchases. You can enjoy the full game experience for a one-time cost, without worrying about additional costs or hidden fees.\n\nLAX VR also allows players to compete with others globally via a leaderboard system. You can compare your skills with players from around the world and strive to reach the top of the leaderboard.\n\nLAX VR is the ultimate VR lacrosse game that offers a fun and realistic gaming experience. The game's various modes, including the thrilling Box lacrosse mode, and Olympic format 6v6 field, provides opportunities for players to practice their skills and become better players.  And customize your twig with different colors for max drip!\n",
+        "description": "LAX VR is the ultimate first-person VR lacrosse experience, offering both Box and Field lacrosse modes, including an exhilarating 6v6 field game where you can play as a field player, long pole, or goalie. Game modes include: Field, Box, Braveheart, Shooting, Goalie, Longstick, Shoot Around, and Wall Ball. Our Medicine Game pays tribute to the Indigenous roots of lacrosse, set in a mythical historic environment. Hone your skills, customize your twig, and enjoy the immersive world of VR lacrosse. Start a box or field 6v6 tourney and aim for the Championship!\n\nThe latest release adds a new expansion (IAP) with 10v10 field play, featuring a Coaches Mode. Change middie lines, call timeouts, manage the tempo, and yell at refs in this added mode. Note: Expansion is a separate purchase from the base game.\n\nUnique touch controller physics replicate the feel of a real lacrosse stick, and as a family-friendly game with a one-time cost, there are no hidden fees. Compete globally on the leaderboards to compare skills and aim for the top.\n\nLAX VR delivers a fun, realistic lacrosse experience. Practice your skills in various modes, and customize your twig with colors for max style!",
         "developer": "Duper Studios",
         "publisher": "Duper Studios",
         "genres": [
@@ -45,7 +45,7 @@
             },
             {
                 "rating": 4,
-                "votes": 13
+                "votes": 14
             },
             {
                 "rating": 5,
@@ -72,6 +72,30 @@
             "logo_transparent": "39003245_490538802433399_4179192259275784319_n.png"
         },
         "changelog": [
+            {
+                "version": "2.04",
+                "change_log": "Another fix for scaling issues."
+            },
+            {
+                "version": "2.03",
+                "change_log": "Changed how we handle calibration which should eliminate the camera from scaling and causing unusual FOV issues.  Added a calibration option for real height vs fixed height.  Fixed an issue with face off in 10v10 mode."
+            },
+            {
+                "version": "2.025",
+                "change_log": "More fixes for Field Of View and/or scaling issues.  Items more uniform across modes now.  Wall Graffiti.  Scoreboard flickering fixed in 10v10."
+            },
+            {
+                "version": "2.023",
+                "change_log": "Some players are experiencing weird issues where objects are appearing larger than they should be and other field of view issues."
+            },
+            {
+                "version": "2.021",
+                "change_log": "patch to update some depth and field of view issues some users are having related to a dynamic performance configuration."
+            },
+            {
+                "version": "2.02",
+                "change_log": "Version 2.02\n\nNew expansion:  10v10 & Coach's Mode.  An upgrade needs to be purchased to unlock 10v10. This is our first non-free update in over 2 years since the game started, as all new features have been free.  Our plan is to limit paid upgrades to once a year, and continue to push free updates every 1-2 months.\n\nShooting dynamics have been updated in all game modes to take into account the player's body movement towards the goal.  Moving towards the goal will result in harder shots, and moving away from goal will reduce shot power.  Controller speed is still a key ingredient to shot power.  We have added a power meter to most modes as well.\n\nOther small enhancements and fixes have been made."
+            },
             {
                 "version": "1.97a",
                 "change_log": "Visual and performance improvements."
@@ -123,50 +147,26 @@
             {
                 "version": "1.73",
                 "change_log": "+ Revamped Shooting skill mode\n+ Cleaned up the main menu\n+ Field goalie has been tweaked\n+ Several other fixes and enhancements."
-            },
-            {
-                "version": "1.72",
-                "change_log": "Field mode updated with improved AI and monthly event leaderboard added.  Small updates to box mode.  Addressed some glitches."
-            },
-            {
-                "version": "1.712",
-                "change_log": "Field Mode 6v6 Has Arrived! - September 2023 This new game mode offers fast-paced action featuring goalie restarts immediately after a goal is scored. Take it to the rack or unleash a shot from our 2-point line. Choose your role: play as a field player or step into the crease as a goalie. We've also made several improvements to Box Mode, addressed a variety of glitches, and implemented minor enhancements across other modes. \n\nSept 2nd - We published an update to resolve a few glitches in box and field mode."
-            },
-            {
-                "version": "1.71",
-                "change_log": "Field Mode 6v6 Has Arrived! - September 2023 \n\nThis new game mode offers fast-paced action featuring goalie restarts immediately after a goal is scored. Take it to the rack or unleash a shot from our 2-point line. Choose your role: play as a field player or step into the crease as a goalie. We've also made several improvements to Box Mode, addressed a variety of glitches, and implemented minor enhancements across other modes.\n\nFixed a glitch where your teammates were dropping clearing passes from the goalie."
-            },
-            {
-                "version": "1.7",
-                "change_log": "Field Mode 6v6 Has Arrived! - September 2023\n\nThis new game mode offers fast-paced action featuring goalie restarts immediately after a goal is scored. Take it to the rack or unleash a shot from our 2-point line. Choose your role: play as a field player or step into the crease as a goalie.\n\nWe've also made several improvements to Box Mode, addressed a variety of glitches, and implemented minor enhancements across other modes."
-            },
-            {
-                "version": "1.651",
-                "change_log": "July 2023 - Box Mode Updated!\n\n+ Both teams received new jerseys and better visuals.\n+ The overall performance of the game has improved.\n+ Players will now try to knockdown nearby passes.\n+ Physics updated to improve player collisions.\n+ Our arena was given a visual makeover as new performance gains allow for better visuals.\n+ Our goalie is better at stopping jump shots.\n+ We slightly increased some scoring metrics.\n+ Fixed a bug that prevented some goals from being registered.\n+ Addressed several other box glitches.\n\n+ Some minor updates were also made to goalie mode to address some glitches and improve variability. \n+ Minor changes to our main menu."
-            },
-            {
-                "version": "1.62",
-                "change_log": "Box:\n + the AI's decisions to pass or dodge have been improved.\n + the AI will now set very physical picks for the ball.\n + off-ball in settled offense the AI will move around to more spots.\n + Fixed bug where clock runs a few seconds after the goal\n\nReworked the Leaderboard and Achievement screens\nAdded achievements and leaderboards for all time box goals and wins\nImprovements made to the main menu screen.\n\nSpeed of AI in Medicine game was lowered significantly.\nGameplay improvements made to braveheart mode\nNew sneak shots in goalie mode\nAdjusted attacker speed and dodge speed in defender mode."
             }
         ],
         "on_rookie": true,
-        "general_update": 479089,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479546,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 480073,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 52,
-        "rating": 4.25,
+        "votes": 53,
+        "rating": 4.245283,
         "weighted_rating": 4.1
     },
     "errors": []

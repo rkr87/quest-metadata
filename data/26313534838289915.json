@@ -37,7 +37,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 2
+                "votes": 10
             },
             {
                 "rating": 2,
@@ -49,18 +49,20 @@
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 3
             },
             {
                 "rating": 5,
-                "votes": 61
+                "votes": 67
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
-            "elements": [],
+            "elements": [
+                "In-Game Purchases"
+            ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
@@ -77,6 +79,14 @@
         },
         "changelog": [
             {
+                "version": "1.1.15",
+                "change_log": "MAKE IT STABLE - 1.1.15  - November 2024\n\n-----------------------------------------------------------------------------------------------------\n\nThank you for continuing to enjoy Make It Stable! 🚀 This update brings exciting improvements to make your experience smoother and more enjoyable:\n\n🎉 What’s New:\nImproved disclaimer screen: Quickly accept the warning message using the A button on your controller. Less clicks, more fun!\n\n🛠️ Improvements and fixes:\nPerformance optimization: Enjoy a smoother experience across all supported devices.\nBug fixes: We’ve polished minor visual details in the UI for a cleaner look.\n\nYour feedback means the world to us! Keep sending your thoughts so we can keep improving. See you in the game. 🎮\n\n-----------------------------------------------------------------------------------------------------\n\n¡Gracias por seguir disfrutando de Make It Stable! 🚀 En esta actualización, hemos introducido mejoras clave para hacer tu experiencia más fluida y cómoda:\n\n🎉 Novedades:\nPantalla de disclaimer mejorada: Ahora puedes aceptar el mensaje de advertencia rápidamente con el botón A del mando. ¡Menos interrupciones, más diversión!\n\n🛠️ Mejoras y ajustes:\nOptimización de rendimiento: Disfruta de una experiencia más fluida en todos los dispositivos compatibles.\nCorrección de errores: Refinamos pequeños detalles visuales en la interfaz para una apariencia más pulida.\n\n¡Tu opinión es esencial para nosotros! Sigue compartiendo tus comentarios para que podamos mejorar continuamente. Nos vemos en el juego. 🎮"
+            },
+            {
+                "version": "1.1.10",
+                "change_log": "MAKE IT STABLE - 1.1.10  - November 2024\n\nWe've taken your feedback and launched a brand-new patch for Make It Stable! \n\n🐛 Stability & Gameplay Experience: We've heard from some Quest 2 players who were unable to access the game—this issue has now been resolved, and we apologize for any disruption it may have caused.\nWe’ve also squashed a number of other pesky bugs to keep your tower-building as smooth as possible. Consider the \"bug tower\" reduced!\nLastly, we’ve made significant improvements to hand tracking, so gameplay is even more precise and feels natural at every turn.\n\nThanks for being part of the community and helping us make the game better every day! Keep the feedback coming, and enjoy this new patch! 🚀\n\n------------------------------\nHemos escuchado a nuestra comunidad y hemos lanzado un nuevo parche para Make It Stable! 🎉\n\n🐛 Actualización de Estabilidad y Experiencia: Sabemos que algunos jugadores de Quest 2 han tenido problemas para acceder al juego, pero ya hemos solucionado este error y lamentamos las molestias que esto ha causado.\nTambién hemos corregido varios errores para que construir tu torre sea una experiencia aún más fluida. ¡La \"torre de bugs\" se ha reducido!\nPor último, hemos mejorado el seguimiento de manos, haciendo que el control sea aún más preciso y natural para cada jugador.\n\n¡Gracias por ser parte de nuestra comunidad y ayudarnos a mejorar el juego cada día! Sigue compartiendo tus opiniones, y disfruta de este nuevo parche. 🚀"
+            },
+            {
                 "version": "1.1.7",
                 "change_log": "MAKE IT STABLE - 1.1.7  - October 2024\n\n-----------------------------------------------------------------------------------------------------\n\nWe’ve listened to our community's feedback and are bringing you a brand-new, exciting patch for Make It Stable!\n\n🎨 Visual Enhancements\nWe’ve improved some objects to make them look better than ever! And don’t worry, even though we made some visual changes, the sharp eyes that judge your tower’s height are still included in this patch.\n\n🕹️ Gameplay Improvements\nObject SFX are now perfectly synchronized, so everything sounds just as it should.\nFixed an issue where some levels couldn’t be completed at the exact target height. Now you can advance smoothly—no need to curse the game developers anymore!\nIn “Maxi Pieces” mode, some objects couldn’t be picked up correctly when the table was close to the ground. This is now fixed, so you can play comfortably in any space.\n\n🐛 Stability and Experience\nVarious bug fixes for a smoother gameplay experience. The bug tower has reduced its height!\nGeneral improvements to hand tracking, making controls even more precise and natural.\n\n-----------------------------------------------------------------------------------------------------\n\n\nHemos atendido al feedback de nuestra comunidad y para mejorar Make It Stable con un nuevo y flamante parche.\n \n🎨 Mejoras Visuales\n¡Hemos mejorado algunos objetos para que se vean más geniales que nunca! Aunque hayamos hecho algunos cambios, no te preocupes, los ojos que juzgan la altura de tus torres siguen estando incluidos en este parche.\n\n🕹️ Mejoras en el Gameplay\nAhora los sonidos de los objetos están bien sincronizados, para que todo suene como debería.\nResuelto un problema donde algunos niveles no se completaban al alcanzar la altura exacta. ¡Ahora podrás avanzar sin problemas, sin maldecir contra los desarrolladores del juego!\nEn el modo “Maxipiezas”, ciertos objetos no se podían agarrar bien si la mesa estaba cerca del suelo. Ya solucionado, para que puedas jugar cómodamente en cualquier espacio.\n\n🐛  Actualización de estabilidad y experiencia\nCorrecciones de errores varios para una jugabilidad más fluida. La torre de bugs ha reducido su altura\nMejoras generales en el hand tracking, para que el control sea aún más preciso y natural"
             },
@@ -86,29 +96,29 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 480793,
+        "general_update": 481178,
         "genre_update": 480769,
         "device_update": 480313,
         "mode_update": 480313,
         "language_update": 480313,
         "platform_update": 480313,
         "player_mode_update": 480313,
-        "changelog_update": 480674,
+        "changelog_update": 481178,
         "keyword_update": 480313,
         "tag_update": 480313,
-        "rating_update": 480793,
-        "iarc_detail_update": 480313,
+        "rating_update": 481178,
+        "iarc_detail_update": 481178,
         "keywords": [
             "casual",
             "fun",
             "tower",
             "build"
         ],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 68,
-        "rating": 4.735294,
-        "weighted_rating": 4.6
+        "votes": 84,
+        "rating": 4.380952,
+        "weighted_rating": 4.2
     },
     "errors": []
 }

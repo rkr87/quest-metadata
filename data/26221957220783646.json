@@ -3,7 +3,7 @@
         "id": "26221957220783646",
         "app_name": "Kaiju Battle Simulator",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Finally you can pilot a giant mech, battling mighty Kaijus to the death using physics, fists and rocket hammers in VR!\n\n0.2.4 - Release Notes\n\nPerformance\n* Improved performance and stability on Quest 2\n* Removed very small buildings from map\n* Disabled shadows (for now)\n\nGameplay\n* Revamped magnetic grab continuously pull objects towards you (no longer requires pull gesture)\n* Added holstered items to hologram display\n* Added sprinting (swing arms while walking to activate)\n\nMisc\n* Extended mech upper arm mesh to close empty gap\n\nKaiju\n* Fixed Moby only attacking with one arm, fixed look angle limits to stop him breaking his own neck trying to look at player\n\n*Please note: This is early-access experimental prototype, future updates will bring new features, improvements and other cool stuff*",
+        "description": "Finally you can pilot a giant mech, battling mighty Kaijus to the death using physics, fists and rocket hammers in VR!\n\n0.2.6 - Release Notes\n\nGameplay\n* Dismemberment for Snapjaw (coming soon for Moby)\n* Improved damage effects on Kaiju\n* Added day/night environment options\n* Spawning Kaiju now more reliable and attempts to prevent Kaiju from spawning inside each other\n* Added spawn code for dagger (left / up / right)\n* Note: Code for rocket hammer is (up / down / up / down)\n* Mech strength lowered slightly (tweaks menu coming soon to allow this to be customised by the user)\n\nExperimental\n* Arms can be reattached but this is unreliable and buggy at the moment (improvements to come)\n\n\n*Please note: This is early-access experimental prototype, future updates will bring new features, improvements and other cool stuff*",
         "developer": "TwoLivesLeft",
         "publisher": "Two Lives Left",
         "genres": [
@@ -40,19 +40,19 @@
             },
             {
                 "rating": 2,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 3,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 4,
-                "votes": 4
+                "votes": 5
             },
             {
                 "rating": 5,
-                "votes": 30
+                "votes": 35
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -88,7 +88,7 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 480313,
+        "general_update": 481178,
         "genre_update": 478969,
         "device_update": 478969,
         "mode_update": 478969,
@@ -98,17 +98,17 @@
         "changelog_update": 479065,
         "keyword_update": 478969,
         "tag_update": 479689,
-        "rating_update": 480577,
+        "rating_update": 481178,
         "iarc_detail_update": 478969,
         "keywords": [
             "battle",
             "physic",
             "action"
         ],
-        "last_update": 480577,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 35,
-        "rating": 4.8,
+        "votes": 43,
+        "rating": 4.697674,
         "weighted_rating": 4.5
     },
     "errors": []

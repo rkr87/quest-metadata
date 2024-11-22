@@ -56,7 +56,8 @@
             "age_rating": "Everyone",
             "descriptors": [],
             "elements": [
-                "Users Interact"
+                "Users Interact",
+                "In-App Purchases"
             ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
@@ -73,6 +74,14 @@
             "logo_transparent": "39031629_876249037841735_4324718783200566140_n.png"
         },
         "changelog": [
+            {
+                "version": "1.24.00.17",
+                "change_log": "- User audio scan folder into Tranzient"
+            },
+            {
+                "version": "1.24.00.14",
+                "change_log": "Occlusion off"
+            },
             {
                 "version": "1.24.00.12",
                 "change_log": "- Made original tempo editable on clips"
@@ -144,14 +153,6 @@
             {
                 "version": "1.21.00.13",
                 "change_log": "Video group fix"
-            },
-            {
-                "version": "1.21.00.11",
-                "change_log": "Fixed load playstate and video restore from sleep"
-            },
-            {
-                "version": "1.21.00.09",
-                "change_log": "Favor CPU, system keyboard support"
             }
         ],
         "on_rookie": false,
@@ -162,13 +163,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 480793,
+        "changelog_update": 481178,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 478921,
-        "iarc_detail_update": 478921,
+        "iarc_detail_update": 481178,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "APPS",
         "votes": 4,
         "rating": 5.0,

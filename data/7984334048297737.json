@@ -42,23 +42,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 20
+                "votes": 27
             },
             {
                 "rating": 2,
-                "votes": 2
-            },
-            {
-                "rating": 3,
                 "votes": 3
             },
             {
+                "rating": 3,
+                "votes": 6
+            },
+            {
                 "rating": 4,
-                "votes": 8
+                "votes": 12
             },
             {
                 "rating": 5,
-                "votes": 38
+                "votes": 26
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -85,19 +85,24 @@
             "immersive_layer_logo": "38984462_893870812699102_523371516385249973_n.png",
             "logo_transparent": "75269595_516156714662592_3973902831538238502_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.0.0",
+                "change_log": "- Reworked room setup screens.\n- Fixed bugs to do with room setup and object placement issues.\n- Added new setup validation UI to notify user what exactly they need to specify in Meta Room Setup.\n- Fixed some settings UI issues.\n"
+            }
+        ],
         "on_rookie": false,
-        "general_update": 480793,
+        "general_update": 481178,
         "genre_update": 480697,
         "device_update": 480697,
         "mode_update": 480697,
         "language_update": 480697,
         "platform_update": 480697,
         "player_mode_update": 480697,
-        "changelog_update": 480697,
+        "changelog_update": 481178,
         "keyword_update": 480697,
         "tag_update": 480697,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 480697,
         "keywords": [
             "horror",
@@ -106,11 +111,11 @@
             "reality",
             "shoot"
         ],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 71,
-        "rating": 3.591549,
-        "weighted_rating": 3.5
+        "votes": 74,
+        "rating": 3.094595,
+        "weighted_rating": 3.1
     },
     "errors": []
 }

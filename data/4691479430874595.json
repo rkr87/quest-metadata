@@ -48,11 +48,11 @@
             },
             {
                 "rating": 3,
-                "votes": 79
+                "votes": 80
             },
             {
                 "rating": 4,
-                "votes": 153
+                "votes": 155
             },
             {
                 "rating": 5,
@@ -84,6 +84,10 @@
             "logo_transparent": "39035433_1164604114456474_6369836142453382440_n.png"
         },
         "changelog": [
+            {
+                "version": "3.0.1",
+                "change_log": "Update 3.0.1:\n\n- Refactored main menu interface layout\n- Overhauled visual effects and introduced splash damage for the Raygun\n- Addition of deep linking reel for other Soul Assembly titles\n- Addition of the FREE to unlock Vaporwave skin for the Pistol and Revolver"
+            },
             {
                 "version": "3.0.0",
                 "change_log": "Update 3.0.0:\n\nNew Weapons:\n\nRaygun: Powerful, futuristic weapon with high damage. Hard to obtain but worth it.\nGrenade: First explosive weapon. Available in special crates, damages both zombies and players.\nMachete: High-durability melee weapon, perfect for hacking through the undead.\nSniper Rifle: Long-range bolt action rifle with a customisable scope, great for co-op support.\n\nPrivate Lobbies & Join in Progress: \n\nHost private sessions with friends, now featuring \"Join in Progress\" based on community feedback.\n\nInventory System & Ammo:\n\nSniper shares ammo pool with hunting rifle.\nRaygun has its own ammo pool and indicator.\n\nNew Skin Packs:\n\nTwo new purchasable weapon skin packs with a Skin-Changing System.\n\nKnown Issues:\n\nGrenade fuse resets if picked up after arming.\nMachete kills don’t count for specific achievements.\nGrenade kills don’t display or count towards kill achievements.\nRaygun hand-swapping can be jerky.\nHand grenade ring slightly offset from the pin."
@@ -147,10 +151,6 @@
             {
                 "version": "1.0.4",
                 "change_log": "Issues fixed in 1.0.4\n\nKnown Improvements:\n\n- Improved melee hit responsiveness\n- Modified lobby options - ‘Quick Play’ and a new ‘Host Friends’ option to avoid random players joining lobbies intended to be closed\n- Re-worked Item grab and visualisation for an improved item pick-up accuracy\n- Improvements to melee throwing mechanics, including velocity, item travel, and item embed.\n- Melee audio revamped to feel more satisfying\n- Added a dot over an item when hovered to indicate where to grasp the item.\n\nKnown Fixes:\n- Fixed an issue where player cosmetics such as golden revolver and laser sight weren't visible to another player.\n- Fixed an issue where players' extraction time was logging incorrectly on the leaderboards\n- Fixed an issue where changing Belt depth past a certain point caused the ammo pouch to lose UI\n- Fixed an exploit where players could stand at the extraction door to outpace zombie spawns\n- Fixed an issue where extraction can fail to trigger\n- Fixed an issue where occasionally weapons could occupy both back holsters\n- Rebalanced Meta Game\n\nWe are continuing to investigate and fix performance related stutters and crashes."
-            },
-            {
-                "version": "1.0.2",
-                "change_log": "- Fixed a critical bug required to run v50 Meta Quest Firmware"
             }
         ],
         "on_rookie": true,
@@ -161,10 +161,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479689,
+        "changelog_update": 481178,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 480769,
+        "rating_update": 481178,
         "iarc_detail_update": 477385,
         "keywords": [
             "horror",
@@ -173,10 +173,10 @@
             "shoot",
             "zombie"
         ],
-        "last_update": 480769,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 829,
-        "rating": 4.003619,
+        "votes": 832,
+        "rating": 4.002404,
         "weighted_rating": 3.9
     },
     "errors": []

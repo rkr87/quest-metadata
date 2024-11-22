@@ -3,7 +3,7 @@
         "id": "5477835475651321",
         "app_name": "DodgeALL",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "DodgeALL is a high-intensity VR game that puts your agility and reflexes to the test. Engage in a world where the only rule is to dodge everything that comes your way! With immersive 3D environments and physics-based gameplay, each level presents a new challenge, offering endless replayability. Dodge, weave, and strategize in this adrenaline-fueled game, where your skill determines your survival. Are you ready to DodgeALL?",
+        "description": "*DodgeALL* is a high-intensity VR game that puts your agility and reflexes to the test. Engage in a world where the only rule is to dodge everything that comes your way! With immersive 3D environments and physics-based gameplay, each level presents a new challenge, offering endless replayability. Dodge, weave, and strategize in this adrenaline-fueled game, where your skill determines your survival. \n\nAre you ready to DodgeALL?\n\n# Features include:\n- Room-scale & 360 degrees: Where you can move IRL is where you can move in-game.\n- 3D Spatial Audio: Gives audible cues where obstacles are coming from.\n- Abilities: 5 different unlockable abilities to help when you're lazy.\n- Endless Mode: Play any unlocked level until you drop. Each iteration gets progressively faster.\n- Leaderboards: Compare your dodging skills to other players.\n- Interactive Twitch mode: Let your viewers throw things at you!\n- Custom levels: Design your own levels.",
         "developer": "GlennerooVR LLC",
         "publisher": "GlennerooVR LLC",
         "genres": [
@@ -48,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3
+                "votes": 4
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.40.4.0",
+                "change_log": "FEATURE: Added new SciFi Campaign #2 levels 5-8 and Bonus #2; all other levels should no longer cause errors but are still WIP.\nBUGFIX: Some obstacles now no longer collide with some types or all other obstacles.\nCHANGE: Increased time of Achievement Unlocked pop-up to 5 seconds.\nCHANGE: SciFi > TrashBag now explodes into trash. The player can not dodge this trash and it causes no harm.\nCHANGE: Replaced SciFi > Scrap1 with new ScrapPipe; now \"boomerangs\" back from platform edge.\nCHANGE: Replaced SciFi > Scrap2 with new ScrapFan which rotates very quickly.\nCHANGE: Obstacles now allowed to target player lower."
+            },
+            {
                 "version": "0.40.3.0",
                 "change_log": "FEATURE: Added achievement for when player is hit by all SciFi or Pirates obstacles at least once.\nFEATURE: Added achievement for achieving various scores upon successfully completing a level.\nBUGFIX: Multiple achievements are now queued and displayed one after another.\nBUGFIX: Campaign level score data now saved with correct prefix.\nBUGFIX: SciFi > Barrier now collides with environment and player correctly.\nCHANGE: Reduced size of Pirates > TreasureChest.\nCHANGE: SciFi > Crystal now always creates multiple clones after teleporting."
             },
@@ -88,24 +92,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 480769,
+        "general_update": 481178,
         "genre_update": 480625,
         "device_update": 480193,
         "mode_update": 480193,
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 480602,
+        "changelog_update": 481178,
         "keyword_update": 480193,
         "tag_update": 480193,
-        "rating_update": 480769,
+        "rating_update": 481178,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 480769,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 3,
+        "votes": 4,
         "rating": 5.0,
-        "weighted_rating": 3.8
+        "weighted_rating": 3.9
     },
     "errors": []
 }

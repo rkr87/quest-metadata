@@ -48,7 +48,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 136
+                "votes": 137
             },
             {
                 "rating": 2,
@@ -60,18 +60,20 @@
             },
             {
                 "rating": 4,
-                "votes": 191
+                "votes": 190
             },
             {
                 "rating": 5,
-                "votes": 650
+                "votes": 652
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
-            "elements": [],
+            "elements": [
+                "Users Interact"
+            ],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
         "internet_connection": "NOT_REQUIRED",
@@ -154,14 +156,6 @@
             {
                 "version": "4.8",
                 "change_log": "* New realistic physics.\n* AI Professional level (select it in the main menu options).\n* Training match is 1 set / 6 games now.\n* Automatic framerate check (resolution is automatically lowered if the framerate is low).\n* Joystick input is inverted if you rotate the head over 90°, so it's more natural to run back to the baseline."
-            },
-            {
-                "version": "4.8.1",
-                "change_log": "* Improved Arcade mode. Enhanced ball control.\n* Improved ball control with slow swings.\n* Net position moved back by half a meter.\n* Reduced the speed of manual backward running.\n* Fixed lag after ball impact.\n* Framerate control is performed only at the start of the match."
-            },
-            {
-                "version": "4.8",
-                "change_log": "* New realistic physics.\n* AI Professional level (select it in the main menu options).\n* Training match is 1 set / 6 games now.\n* Automatic framerate check (resolution is automatically lowered if the framerate is low).\n* Joystick input is inverted if you rotate the head over 90°, so it's more natural to run back to the baseline."
             }
         ],
         "on_rookie": true,
@@ -172,16 +166,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480793,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 480793,
-        "iarc_detail_update": 475000,
+        "rating_update": 481178,
+        "iarc_detail_update": 481178,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 1137,
-        "rating": 4.020229,
+        "votes": 1139,
+        "rating": 4.019315,
         "weighted_rating": 4.0
     },
     "errors": []

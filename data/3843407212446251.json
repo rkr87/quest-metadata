@@ -3,9 +3,9 @@
         "id": "3843407212446251",
         "app_name": "Fit Immersion",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Fit Immersion transforms your cardio sessions in an immersive and interactive experience. Our goal is to simulate an outdoor ride from your stationary bike. You can discover touristic and cyclist tracks mostly filmed in 360° in different countries or made in 3D. To make it more realistic the app synchronizes movement speed with pedaling frequency and even difficulty if you have a compatible smart trainer (BLE FTMS). \nTested some tracks and convinced? Then grab some credits and download tracks of your choice. \nNote: The app iscapable to communicate with Bluetooth cadence sensors, smart bikes and pedals in official version since v1.4 (needs Oculus v37 update).",
-        "developer": "PERFORM VR",
-        "publisher": "PERFORM VR",
+        "description": "Fit Immersion transforms your cardio sessions in an immersive and interactive experience. Our goal is to simulate an outdoor ride from your stationary bike. You can discover touristic and cyclist tracks mostly filmed in 360° in different countries or made in 3D. To make it more realistic the app synchronizes movement speed with pedaling frequency and even difficulty if you have a compatible smart trainer. \nTested some tracks and convinced? Then grab some credits and download tracks of your choice. \nThe app communicates with smart trainers and pedals, cadence and heart rate sensors via Bluetooth.",
+        "developer": "Kinomap",
+        "publisher": "Kinomap",
         "genres": [
             "Travel & Exploration"
         ],
@@ -18,6 +18,8 @@
         "languages": [
             "English",
             "French (France)",
+            "German",
+            "Italian",
             "Russian"
         ],
         "platforms": [
@@ -51,7 +53,7 @@
                 "votes": 15
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -71,6 +73,14 @@
             "logo_transparent": "38982619_555954575530710_3583565146681762482_n.png"
         },
         "changelog": [
+            {
+                "version": "6.01",
+                "change_log": "Corrected smart equipment selection by model functionality not completely working"
+            },
+            {
+                "version": "6",
+                "change_log": "Implemented compatibility with 200+ smart equipment brands (inherited from Kinomap acquisition)"
+            },
             {
                 "version": "5.71",
                 "change_log": "Corrected preview track not starting"
@@ -138,31 +148,23 @@
             {
                 "version": "4.9",
                 "change_log": "New track available, small visual fixes"
-            },
-            {
-                "version": "4.8",
-                "change_log": "New track available, new functionality : live web radio, player bugs correction"
-            },
-            {
-                "version": "4.72",
-                "change_log": "Added alternative sensor connect method for device not updated to Android 12"
             }
         ],
         "on_rookie": false,
-        "general_update": 480649,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
-        "language_update": 474685,
+        "language_update": 481178,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480097,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480649,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480649,
+        "last_update": 481178,
         "category": "ENTERTAINMENT",
         "votes": 38,
         "rating": 3.394737,

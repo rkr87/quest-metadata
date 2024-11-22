@@ -36,7 +36,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 2,
@@ -44,7 +44,7 @@
             },
             {
                 "rating": 3,
-                "votes": 25
+                "votes": 26
             },
             {
                 "rating": 4,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 140
+                "votes": 155
             }
         ],
         "comfort": "NOT_RATED",
@@ -121,10 +121,6 @@
             {
                 "version": "1.3.3",
                 "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n**VERSION 1.3.3**\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n***ENHANCEMENTS***\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- \n** Physics Improvement **\nAccounted for loss of controller tracking which caused large spikes in the velocity of the ball.\n\n** Matchmaking Improvement **\nMaster client can now set the desired Physics difficulty when creating a multiplayer room.\n\n** Added Notification in Single Player games **\nNotification popup added to the net when the player is in a singleplayer game\n\n\nSetting associated with the notification where the player can choose to receive “No notification”, for “Invites Only” and “Friend request and invites”.\n\n\n** Player Movement **\nPlayers will now be moved back to their current default position on another player hitting a ball.\n\n** Gearbox Tournament Enhancements **\nFor a limited time players have access to two Official Gearbox Paddles (the CX14 and GBX paddles)\nGearbox branding has been added to the stadium scene for the length of the tournament\n\n** Ball Machine Improvements\nDefault values of ball machine launcher have been adjusted to make it easier for new players\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n***BUG FIXES***\n(including many internal stress tests that were not reported by users)**\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n** AI - **Fixed AI players failing to serve in between gameplay. \n\n** Ball (Double Hit Issue) - ** Fixed issue of two players hitting the ball around the same location at the same time causing a double hit fault.\n\n** Glitch (Mid-Air-Fault) - **Fixed issue for when the ball is getting called out before the ball has bounced on the hitting players side.\n\n** Glitch (Serve)- **Fixed serve fault being given to the wrong team when remote player hits the ball that the master client has spawned.\n\n** Multiplayer (Invites) - **Fixed issue that the player was able to send an invite to a friend before other player was able to receive invites, so the invite notification would not be displayed to the player.\n\n** Multiplayer (Connecting Message) - **Fixed issue when the “Connecting to Server…” pop-up would not disappear. \n\n** Multiplayer - **Fixed issue where a player would fail to connect so the players in their friends list would show as offline even though they can see people online in the online players list.\n\n** Spectator - **Fixed issue where a spectator can see the score as 0-0 and hears game 2 audio in-between gameplayer.\n\n** Tutorial - **Fixed issue when the player is able to see Gameplay Tutorial avatar in two different places at the same time.\n\n** User Interface (Mute Label Change) - **Wording of block button has been changed to mute.\n\n** User Interface (Spawn Ball Message) - **Fixed issue where the “Hold trigger to spawn ball” pop-up is seen even when it is another player’s turn to serve.\n"
-            },
-            {
-                "version": "1.2.3",
-                "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nVERSION 1.2.3\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- \n\nScoreboard Enhancements\nAdded a yellow ball to represent the current serving team to the large scoreboard Also, other minor changes to formatting and wording to the AI and Multiplayer scoreboard.\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n***BUG FIXES***\n(including many internal stress tests that were not reported by users)**\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nBall - Tossing the ball to the other side of the court and having the other player hit the ball cause the point to be given to the host player [discord] \n\nBall - Sometimes the ball trail appearing in the court in-between the gameplay even when the “Show Ball Trail” setting is turned off\n\nBall - Sometimes when a player is serving and they drop the ball while the ball is intersecting with the paddle causing the game to get into a stuck state\n\nGlitch -  After playing the rules tutorial and the player starts a practice mode or AI game in the same scene, the chosen game mode would not start correctly\n\nGlitch - The reason for the point ended when a game end would sometimes display the other team’s reason for winning or losing.\n\nGlitch - In the beginning of game 2, Team B player’s position is switching when they get serve which causes an error\n\nKitchen Awareness - Kitchen awareness not working in the city scene when play a singleplayer game\n\nPractice Mode - Targets mode not working after playing the rules tutorial.\n\nPractice Mode - Configure launcher button sometimes not working in the volley practice mode\n\nPost-Match - At the end of a match, when players are moved to the net some players still had their paddle in their hand\n\nScoreboard - In “Rules Tutorial” the new scoreboard was not being updated with the scores to be the same as the upper smaller scoreboard\n\nSpectators - When spectators join they were unable to move if they had manual run selected\n\nScoreboard - Scoreboard shows wrong score in the match section for spectators\n\nTutorial - In tutorial the paddle of an AI player sometimes was floating in the air away from their hand\n\nUser Interface - “Play again” button showing for spectators on the end of a match\n"
             }
         ],
         "on_rookie": true,
@@ -135,16 +131,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480265,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 222,
-        "rating": 4.247748,
+        "votes": 239,
+        "rating": 4.276151,
         "weighted_rating": 4.2
     },
     "errors": []

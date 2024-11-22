@@ -3,7 +3,7 @@
         "id": "6513803575318188",
         "app_name": "AmazeVR Concerts",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Experience the ultimate front row musical journey with AmazeVR Concerts. \n\nImmerse yourself in high-quality VR concerts featuring live action footage of your favorite artists in stunningly rendered 3D VR environments. Our ever-expanding selection of concerts allows you to access your favorites artists, genres and styles in ways you’ve never imagined.\n\nDiscover electrifying performances from featured artists like Avenged Sevenfold, T-Pain, Megan Thee Stallion, Zara Larsson & UPSAHL. Best of all, every artist offers a free song, giving you a taste of the magic that awaits.\n\nMR Passthrough support available on T-Pain’s 'That's Just Tips'. Best experienced on the Quest 3 or Pro.  \n\nDownload AmazeVR Concerts today and immerse yourself in an unforgettable experience. With more concerts always on the horizon, you won’t want to miss out. ",
+        "description": "Experience the ultimate front row musical journey with AmazeVR Concerts.\n\nImmerse yourself in high-quality VR concerts featuring live action footage of your favorite artists in stunningly rendered 3D VR environments. Our ever-expanding selection of concerts allows you to access your favorites artists, genres and styles in ways you’ve never imagined.\n\nDiscover electrifying performances from featured artists like Avenged Sevenfold, T-Pain, Megan Thee Stallion, Zara Larsson & UPSAHL. More artists are on the way, including TOMORROW X TOGETHER coming soon! \n\n# FEATURES\n- **Free Song for Every Artist.** If you like what you see, you can purchase the full concert. No subscriptions necessary\n- **Unparalleled Quality** with high fidelity 8K footage. You’ll feel like the artist is performing right in front of you!\n- **Up Close and Personal Performances.** Make eye contact with artists as they perform exclusively for you and enjoy immersive musical experiences like never before\n\nDownload AmazeVR Concerts today and immerse yourself in an unforgettable experience. With more concerts on the way, you won’t want to miss out.\n\n# ABOUT AMAZEVR\n- Our Goal: To provide a space where every artist can create their own VR concert and every fan can experience front-row seats to their favorite artist\n- Recognized as one of the “Most Innovative Companies” by Fast Company AmazeVR Concerts set a new standard in immersive music experiences\n- Webby Awards Nominee for Best Immersive Experience\n- Official Selection at SXSW 2022&2023",
         "developer": "AmazeVR, Inc",
         "publisher": "AmazeVR",
         "genres": [],
@@ -20,7 +20,8 @@
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -32,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 21
+                "votes": 22
             },
             {
                 "rating": 2,
@@ -44,11 +45,11 @@
             },
             {
                 "rating": 4,
-                "votes": 14
+                "votes": 15
             },
             {
                 "rating": 5,
-                "votes": 92
+                "votes": 95
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -76,28 +77,32 @@
         },
         "changelog": [
             {
+                "version": "2.1.154",
+                "change_log": "[PATCH NOTES]\nCOMING SOON\n - The TOMORROW X TOGETHER VR Concert is coming soon!\n\nFEATURE IMPROVEMENTS\n1) VR Concert Image Quality Improvement\n  - Improved the image quality to provide a better viewing experience for the VR Concert.\n2) MR Video Enhancement\n  - Improved the image quality of MR Videos and Artist Greetings, and also resolved occasional interruptions.\n  - For the T-Pain MR Concert, please delete the file and download it again to apply the improvements.\n3) Asset Improvements\n  - Fixed an issue where VFX occasionally did not render properly within the app.\n4) Storage Space Management Guide\n  - To ensure a smoother download experience for the VR Concert, it is recommended to have around 2GB more free space on your device than the file size indicated for the download."
+            },
+            {
                 "version": "2.1.141",
                 "change_log": "Fixed a bug where Concert files were being deleted.\n - A bug that caused downloaded Concert files to be deleted if not viewed for more than a week has been fixed.\n - Please note that after the app update, you will need to delete and re-download the files for the fix to take effect."
             }
         ],
         "on_rookie": false,
-        "general_update": 480481,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
-        "platform_update": 479809,
+        "platform_update": 481178,
         "player_mode_update": 474685,
-        "changelog_update": 478921,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 480602,
+        "rating_update": 481178,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480602,
+        "last_update": 481178,
         "category": "APPS",
-        "votes": 138,
-        "rating": 4.086957,
+        "votes": 143,
+        "rating": 4.083916,
         "weighted_rating": 4.0
     },
     "errors": []

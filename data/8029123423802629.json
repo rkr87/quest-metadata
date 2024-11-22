@@ -1,12 +1,14 @@
 {
     "data": {
         "id": "8029123423802629",
-        "app_name": "PEARL - Paderborner Elektrotechnik AR Labor",
+        "app_name": "PEARL",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "PEARL wird mit Unterstützung der Stiftung Innovation in der Hochschullehre entwickelt und in enger Zusammenarbeit mit Laboringenieuren, Softwareentwicklern und Didaktikexperten umgesetzt. Sie wurde bereits in mehreren Studien sorgfältig evaluiert und hat zu einem nachhaltigen Wissenszuwachs in Bezug auf die Laborgeräte geführt. PEARL bietet eine realistische und immersive Erfahrung, die es dir ermöglicht, die Bedienung und die wichtigsten Funktionen von Geräten wie dem Oszilloskop, Funktionsgenerator, Vielfachmessgerät und dem Steckbrett mit verschiedenen elektrotechnischen Bauteilen spielerisch zu erlernen. Tauche ein in interaktive Tutorials, die dir Schritt für Schritt zeigen, wie du die Geräte richtig bedienst und welche Funktionen sie bieten. Neben umfassender Erklärung der Laborgeräte, kannst du dein Wissen und deine Fähigkeiten auch interaktive durch verschiedene Tests überprüfen. Mit PEARL kannst du die Laborgeräte ganz einfach in deiner eigenen und bevorzugten Umgebung verwenden. Keine teure Laborausrüstung oder komplizierte Einrichtungen mehr erforderlich - alles, was du brauchst, ist deine Meta Quest 3 und schon kannst du loslegen.",
+        "description": "PEARL is being developed with the support of the Foundation for Innovation in University Teaching and is being implemented in close collaboration with laboratory engineers, software developers and didactic experts. It has been carefully evaluated in several studies and has led to a significant increase in knowledge of laboratory equipment. PEARL provides a realistic and immersive experience that allows you to learn the operation and key functions of equipment such as oscilloscopes, function generators, multimeters and breadboards with various electrical components in a fun way. Immerse yourself in interactive tutorials that show you step-by-step how to use the equipment and what it can do. In addition to a comprehensive explanation of the lab equipment, you can also test your knowledge and skills interactively through various tests. With PEARL, you can easily use the lab equipment in your own and preferred environment. There's no need for expensive lab equipment or complicated setups - all you need is your Meta Quest and you're ready to go.",
         "developer": "Technikdidaktik",
         "publisher": "Universität Paderborn - Technikdidaktik",
-        "genres": [],
+        "genres": [
+            "Business, Productivity & Utility"
+        ],
         "devices": [
             "Hand Tracking"
         ],
@@ -17,9 +19,16 @@
             "English",
             "German"
         ],
-        "platforms": [],
+        "platforms": [
+            "Meta Quest 3S",
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2"
+        ],
         "player_modes": [
-            "ROOM_SCALE"
+            "ROOM_SCALE",
+            "STANDING",
+            "SITTING"
         ],
         "tags": [
             "Mixed Reality"
@@ -46,7 +55,7 @@
                 "votes": 1
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -67,25 +76,29 @@
         },
         "changelog": [
             {
+                "version": "1.3.0",
+                "change_log": "v1.3.0"
+            },
+            {
                 "version": "1.2.0",
                 "change_log": "New way to open the hand menu"
             }
         ],
         "on_rookie": false,
-        "general_update": 479449,
-        "genre_update": 480481,
+        "general_update": 481178,
+        "genre_update": 481178,
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
-        "platform_update": 478969,
-        "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "platform_update": 481178,
+        "player_mode_update": 481178,
+        "changelog_update": 481178,
         "keyword_update": 478969,
         "tag_update": 479689,
         "rating_update": 479449,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 481178,
         "category": "APPS",
         "votes": 1,
         "rating": 5.0,

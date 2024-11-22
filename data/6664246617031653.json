@@ -33,15 +33,15 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 16
+                "votes": 23
             },
             {
                 "rating": 2,
-                "votes": 10
+                "votes": 11
             },
             {
                 "rating": 3,
-                "votes": 15
+                "votes": 18
             },
             {
                 "rating": 4,
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 5,
-                "votes": 21
+                "votes": 25
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -72,6 +72,14 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "changelog": [
+            {
+                "version": "4.7",
+                "change_log": "-Added better MP4 playback\n-Please let us know if you have Q2 or Q3 and the OS version to verify the color bug is fixed for everyone out there!"
+            },
+            {
+                "version": "4.6",
+                "change_log": "-Color bug fix (please let me know if it's not working for you)\n-Added support for playlist mode, Press the icon in top right of browser to cycle through thumbnail, folder, and playlist modes.\n-Known bugs: MP4 Audio cuts out when seeking, Thumbnail generation for local browser has been turned off.\n"
+            },
             {
                 "version": "4.5",
                 "change_log": "-Core movie player update with newer codecs\n-TS files now playing correctly\n-Fixed bug with some movies stalling after 15 minutes.\n"
@@ -143,35 +151,27 @@
             {
                 "version": "2.7",
                 "change_log": "- Sped up opening and closing media\n- Fixed an issue with resuming videos where you left off being inconsistent\n- May have fixed an issue with some videos not starting\n"
-            },
-            {
-                "version": "2.6",
-                "change_log": "- Updated to latest Meta SDK for better hand tracking and other features\n- No longer showing synthetic hands when controllers are active\n- Changed color, shape and sound of buttons and other minor UI details\n- Fixed bug from last build where screen was visible behind you when logging in\n- Changed \"Anchor at Hand\" to \"Anchor at Controller\" to avoid confusion since this only works with controllers.  "
-            },
-            {
-                "version": "2.5",
-                "change_log": "- Added round corner mask for thumbnails\n- Cleaned up some UI elements and improved resolution, added mipmaps for less aliasing\n- Changed the shape of the scrollbar handle\n- Fixed a bug playing the wrong audio track when opening the same movie more than once in a row\n- Fixed a bug with aspect ratio when toggling AR mode\n"
             }
         ],
         "on_rookie": false,
-        "general_update": 480073,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 478513,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 480769,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480769,
+        "last_update": 481178,
         "category": "APPS",
-        "votes": 88,
-        "rating": 3.295455,
-        "weighted_rating": 3.3
+        "votes": 103,
+        "rating": 3.184466,
+        "weighted_rating": 3.2
     },
     "errors": []
 }

@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 474
+                "votes": 482
             },
             {
                 "rating": 2,
@@ -54,11 +54,11 @@
             },
             {
                 "rating": 4,
-                "votes": 149
+                "votes": 150
             },
             {
                 "rating": 5,
-                "votes": 1907
+                "votes": 1917
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.10.0",
+                "change_log": "Fix portals appearing in tutorial.\nFix user's ghost screens not reappearing after seat change.\nFix joinable state for users in public rooms.\nFix stuck state when offline and trying to join a room on launch.\nFix keyboard portal positioning.\nUI fixes and updates."
+            },
             {
                 "version": "2.9.0",
                 "change_log": "Fix issue with DND state not persisting between room changes.\nPrevent enabling webcam from turning off passthrough. \nResolve visual artifacts in custom 360 environments."
@@ -159,10 +163,6 @@
             {
                 "version": "1.11.20",
                 "change_log": "Fixes to backend calls to Immersed's api.\nFix log file size getting too large.\nMinor UI fixes.\nUpdate credits reward system."
-            },
-            {
-                "version": "1.11.19",
-                "change_log": "Add support for Freezing streaks and using power ups from Profile Menu.\nBackend change for handling public rooms."
             }
         ],
         "on_rookie": false,
@@ -173,18 +173,18 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480649,
+        "changelog_update": 481178,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 480769,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 480769,
+        "last_update": 481178,
         "category": "APPS",
-        "votes": 2723,
-        "rating": 4.06794,
+        "votes": 2742,
+        "rating": 4.062363,
         "weighted_rating": 4.0
     },
     "errors": []

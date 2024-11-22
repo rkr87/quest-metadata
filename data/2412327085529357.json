@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 501
+                "votes": 507
             },
             {
                 "rating": 2,
@@ -47,15 +47,15 @@
             },
             {
                 "rating": 3,
-                "votes": 498
+                "votes": 504
             },
             {
                 "rating": 4,
-                "votes": 5122
+                "votes": 5249
             },
             {
                 "rating": 5,
-                "votes": 43324
+                "votes": 44175
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +81,14 @@
             "logo_transparent": "75476595_163603648260196_8026038495938084864_n.png"
         },
         "changelog": [
+            {
+                "version": "773.1",
+                "change_log": "New Update v773.1\n\n## New Course: Te Arai Links - South Course\nLocated on the stunning east coast of New Zealand’s North Island, Te Arai Links is one of golf’s newest must-see destinations.\nThe South Course, a traditional links-style design by Coore & Crenshaw, features 16 holes with breathtaking ocean views, including eight that sit directly along the sea.\nDiscover why this masterpiece has quickly earned its place among the world’s top courses.Performance Improvements - We have had a Quest 2 specific beta going over this last week specific to performance improvements.\n\n## Performance Updates\n\n### Quest 2 Only Update\nCourse Optimization - LOD Texture Updates (Level of Detail)\nCourses that are performant heavy have received an updated resolution treatment. Now, only the hole you are on will be in normal resolution, while the other holes around you will be in low resolution. Other holes will update if your shot lands there, or you teleport there when exploring.\n\n### Quest 2 and 3 Updates\n1. CPU Updates - Focused on club hitting ball and all that happens during and right before - smoothing out the club impact sequence. All sounds and effects around hitting a shot have been refactored to not interfere with the main action, club hitting the ball.  Shots should 'feel' much cleaner, especially the pitches, touchy shots and chipping.\n2. GOLF+ Tour - A big tournament specific performance update. Tournament play is much smoother, in line with regular rounds.\n3. Courses are running at about 15% more performant.\n4. ‘Dead shots' caused by frame drops - Impact timing updates to protect against frame drops.\n5. Courses without crowds -  Fixed a bug causing a performance degradation when going out of bounds.\n\n### Courses with Additional Performance Optimizations:\n- Canyons\n- Castle Pines\n- Muirfield\n\n## Additional Quality and Bug Fixes:\n- [Customization] Some players seeing incorrect store cost and clubs defaulting back to original clubs after equipping\n- [Challenges] Restarting a challenge, the lie type will be the prior attempts 'restart' lie type\n- [MP] When playing lefty w/ right controller, clubs are seen as reversed for other players\n- [MP] Replay mid round would cause the game to lock-up in a 2 player MP game\n- [Battle] Players could hit a bug starting the battle on the 2nd hole\n- [UI] When using the 'hide menu' option it is impossible to see wind speeds\n- [UI] 'Invalid Drop' pill renders over main menu if cursor pointed at main menu\n- [GOLF+ Tour] Loss of wi-fi round posting DNF\n- [Course - Hay Putting] 2 player MP, standard turns - 2nd player to go to the next tee box could be placed too far away.\n\n## Remaining G+ TOUR Fall Schedule\n11/21 - 11/27: The Ocean Course at Kiawah Island\n11/28 - 12/4: Week 1 of Playoffs at Mystery Course???\n* Weekly and Daily Tournaments this week will earn 2x Points\n12/5 - 12/11: Week 2 of Playoffs at Lofoten Links\n* Weekly and Daily Tournaments this week will earn 3x Points"
+            },
+            {
+                "version": "772.1",
+                "change_log": "New Update v772.1\n\nNew Course: Jumeirah Earth Course\n\nThe home of the DP World Tour Championship, The Earth Course at Jumeirah Golf Estates offers a one-of-a-kind golfing experience set amidst the vibrant cityscape of Dubai. \nThe closing stretch, known as the \"Great Finish,\" is particularly notable for its dramatic and visually stunning variety of holes.\n\nBug Fixes:\n- Battle mode - Playoffs - Player's shot must be in play for it to count.\n- Battle mode - Leaderboard properly updates when changing the difficulty on the main UI.\n- Battle Mode - Settings would initially be shown wrong on the main UI when going into first Battle.\n- G+ TOUR - Addressed more edge cases where you could potentially receive a DNF.\n- Replays - Viewing a replay from profile or top shots mid round would cause player to be stuck, forcing them to restart the round.\n- Topgolf - Leaderboard view fix.\n\nRemaining G+ TOUR Fall Schedule\n11/7 - 11/13: Canyons\n11/14 - 11/20: Jumeirah Earth Course\n11/21 - 11/27: The Ocean Course at Kiawah Island\n11/28 - 12/4: Week 1 of Playoffs at Mystery Course???\n* Weekly and Daily Tournaments this week will earn 2x Points\n12/5 - 12/11: Week 2 of Playoffs at Lofoten Links\n* Weekly and Daily Tournaments this week will earn 3x Points"
+            },
             {
                 "version": "771.2",
                 "change_log": "New Update v771.2 is Live!\n\n## New Course: Canyons\nIntroducing Canyons, a GOLF+ original design where you'll navigate dramatic elevation changes and face a series of thrilling risk-reward holes.\nSet against a rustic canyon backdrop, and inspired by old western mining towns, each hole presents a new, exhilarating challenge that will test even the most seasoned golfers.\n\n## New HD User Interface\n- A new menu look, as well as HD treatment to all interactive and visual screens.\n* Quest 2 players will have the main menu HD off by default. Same as in live currently, turning it on in the settings will have a performance hit. With it off, the main menu will be standard definition when you have a club in hand to hit, and will change to HD when have controller in hand to interact with menu.\n\n## Sweetens Cove 10th Anniversary Major\n- The GOLF+ Tour will head to Sweetens Cove on 10/31 for the Major of the season. The weekly tournament will have a 3x Points Multiplier. No multiplier for daily tournaments. \n\n## No Laying Up - Hole In One Challenge\nIn partnership with 'No Laying Up', Challenges the week of 10/28 on Sweetens Cove will have a Hole In One contest.\n- Everyone who completes the Hole-in-One challenge will unlock Sweetens Cove.\n- 5 Players with a HIO will receive a $100 Credit to the No Laying Up Pro Shop.\n- 4 G+ Pass members with a HIO will win a Day Pass to Sweetens Cove - In real life ; )\n* Must have a GOLF+ email account to be eligible. GOLF+ PASS trial members eligible. Contest rules at www.golfplusvr.com/terms-and-conditions apply."
@@ -140,14 +148,6 @@
             {
                 "version": "759.04",
                 "change_log": "Patch v759.04\n\nBug Fixes & Quality Updates:\n- Fixed an issue starting a Tournament or Practice Round causing an infinite loading screen.\n- Another fix for audio loss."
-            },
-            {
-                "version": "758.03",
-                "change_log": "Patch Fix Update v758.03\n\n- Fixed an issue causing the Shot Shaper option to become unchecked every time you quit the app."
-            },
-            {
-                "version": "758.02",
-                "change_log": "New Update v758.02\n\n⛳️ New Course: Muirfield Village Golf Club ⛳️\n\nForged from the mind of a legend, Muirfield Village's championship pedigree speaks for itself. Designed by the esteemed Jack Nicklaus and continually refined over the years, the challenging course plays host to the PGA TOUR’s prestigious Memorial Tournament. Demanding yet fair, the layout rewards precise shot-making and strategic thinking, inviting players to navigate complex greens, heavy rough, strategic bunkering, and water hazards lurking on 11 of its holes. Playing at Muirfield Village is more than just golf; it's an opportunity to engage with a course that embodies the spirit and history of the game.\n\n**Bug Fixes & Quality:**\n- Players could lose all audio sounds during a round. \n- Performance improvements on Yale Golf Course.\n- Tournament tier badges would not show on Daily & Weekly Leaderboards.\n- Text updates to Daily & Weekly Tournament Leaderboards."
             }
         ],
         "on_rookie": false,
@@ -158,10 +158,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480529,
+        "changelog_update": 481178,
         "keyword_update": 474881,
         "tag_update": 474880,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [
             "golf",
@@ -169,10 +169,10 @@
             "multiplay",
             "fun"
         ],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 49665,
-        "rating": 4.823175,
+        "votes": 50655,
+        "rating": 4.823413,
         "weighted_rating": 4.8
     },
     "errors": []

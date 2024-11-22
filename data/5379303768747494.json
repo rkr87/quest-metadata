@@ -3,7 +3,7 @@
         "id": "5379303768747494",
         "app_name": "Dungeon Maker",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Greetings My Lord ! 👑\n\nI hath heard thou art quite the dungeon connoisseur, so i maketh this bawbling passthrough system where thee can buildeth thy owneth dungeon using a variety of traps and items, as well as lodging waypoints to giveth goals to the dungeon seekers. 🏰\n\nWhat can I expect from my dungeon??\nFear not Sire, there is much:\n1️⃣ Proceduraly generated Dungeon framework based on your Meta Spaces setup.\n2️⃣ Proceduraly generated plot and a treasure to go with it.\n3️⃣ Hand tracking and presence! Use your hands to bring up your Orb of Quests as well as interact with the world.\n4️⃣ A variety of slashing, crushing and deadly traps.\n5️⃣ Lava floor!\n6️⃣ Quest items such as waypoints and keys (that open doors).\n7️⃣Occlusion boxes to occlude your own furniture.\n8️⃣ Walls to build around your dungeon.\n9️⃣ A save / load system so you don't need to keep rebuilding each time! (Even tough it's fun to build, let's be honest.)",
+        "description": "Greetings My Lord ! 👑\n\nI hath heard thou art quite the dungeon connoisseur, so i maketh this bawbling passthrough system where thee can buildeth thy owneth dungeon using a variety of traps and items, as well as lodging waypoints to giveth goals to the dungeon seekers. 🏰\n\nWhat can I expect from my dungeon??\n# -\n# TURN YOUR HOME INTO A DUNGEON\nThe dungeon foundation is generated from your Meta rooms setup! Use the menu to load, design and save your dungeon once you've built it.\n{897653955802688}\n\n# SET DEADLY TRAPS AND QUESTS\nPlenty of traps and quest items to place around your home. Keys and doors, plots anf treasures, deadly pits, swinging axes, skeletons!\n{884487527165107}\n\n# DARE TO ADVENTURE THROUGH IT\n\nOnce you are ready, put down the controllers and enjoy full hand tracking as you journey through your dungeon.\n{836602965118342}\n\n# FIND THE TREASURE!\n\nCan you go deep enough into the dungeon to retrieve the treasure?\n\n{1731354897597483}",
         "developer": "Field Of Vision",
         "publisher": "Field Of Vision",
         "genres": [],
@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 15
+                "votes": 16
             },
             {
                 "rating": 2,
@@ -44,11 +44,11 @@
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 5,
-                "votes": 26
+                "votes": 28
             }
         ],
         "comfort": "NOT_RATED",
@@ -71,6 +71,18 @@
             "logo_transparent": "38982613_631416991255051_7817147353990861285_n.png"
         },
         "changelog": [
+            {
+                "version": "0.32.0",
+                "change_log": "Version 0.32\n- Added windows that see into the exerior bleak world!\n- Changed room portal design, added frame and is blocked off if there's no connecting room setup.\n- Added loading screen on menu when loading or starting a new dungeon.\n\nVersion 0.31\n- 90FPS on Quest3/3S!\n- Redesigned the menu from the ground up.\n- You can now easily switch between left/right handed in the new menu settings.\n- Settings also include toggling controller button tips!\n- Added 3D controllers while in the menu for easier visiblity, and for tips to make sense.\n- Added function to duplicate items directly, no need to keep going back to the menu!\n- The dungeon foundation now includes all rooms instead of just current room. \n- A portal is placed on your doors that lead to another setup room, though make sure your physical doors are open ^^. (Try blocking access to the portal with the Door & Key quest item!)\n- Added particles effects to certain items like the key, treasure and waypoints.\n- The app is now boundaryless, which means you no longer need see or setup a boundary to use it. Really helps when going through multiple rooms!\n- There's also a tab in the menu with some of my other games, check them out!\n- You can no longer portal to the current dungeon, a message will warn you that you are selecting the same dungeon.\n- Creating a new dungeon doesn't increment the dungeon number until it's been saved.\n- Removed the limit to how many Dungeons you can save.\n- When you start a dungeon adventure, it'll be automatically saved.\n- You now have to place the Starting point\n- Ceiling traps now snap to the ceiling so it's easier to drag and place them correctly."
+            },
+            {
+                "version": "0.31.1",
+                "change_log": "NEW STUFF:\n- 90FPS on Quest3/3S!\n- Redesigned the menu from the ground up.\n- You can now easily switch between left/right handed in the new menu settings.\n- Settings also include toggling controller button tips!\n- Added 3D controllers while in the menu for easier visiblity, and for tips to make sense.\n- Added function to duplicate items directly, no need to keep going back to the menu!\n- The dungeon foundation now includes all rooms instead of just current room. \n- A portal is placed on your doors that lead to another setup room, though make sure your physical doors are open ^^. (Try blocking access to the portal with the Door & Key quest item!)\n- Added particles effects to certain items like the key, treasure and waypoints.\n- The app is now boundaryless, which means you no longer need see or setup a boundary to use it. Really helps when going through multiple rooms!\n- There's also a tab in the menu with some of my other games, check them out!\n\n\nFIXES:\n- You can no longer portal to the current dungeon, a message will warn you that you are selecting the same dungeon.\n- Creating a new dungeon doesn't increment the dungeon number until it's been saved.\n- Removed the limit to how many Dungeons you can save.\n- When you start a dungeon adventure, it'll be automatically saved.\n- You now have to place the Starting point\n- Ceiling traps now snap to the ceiling so it's easier to drag and place them correctly."
+            },
+            {
+                "version": "0.31.0",
+                "change_log": "NEW STUFF:\n- 90FPS on Quest3/3S!\n- Redesigned the menu from the ground up.\n- You can now easily switch between left/right handed in the new menu settings.\n- Settings also include toggling controller button tips!\n- Added 3D controllers while in the menu for easier visiblity, and for tips to make sense.\n- Added function to duplicate items directly, no need to keep going back to the menu!\n- The dungeon foundation now includes all rooms instead of just current room. \n- A portal is placed on your doors that lead to another setup room, though make sure your physical doors are open ^^. (Try blocking access to the portal with the Door & Key quest item!)\n- Added particles effects to certain items like the key, treasure and waypoints.\n- The app is now boundaryless, which means you no longer need see or setup a boundary to use it. Really helps when going through multiple rooms!\n- There's also a tab in the menu with some of my other games, check them out!\n\n\nFIXES:\n- You can no longer portal to the current dungeon, a message will warn you that you are selecting the same dungeon.\n- Creating a new dungeon doesn't increment the dungeon number until it's been saved.\n- Removed the limit to how many Dungeons you can save.\n- When you start a dungeon adventure, it'll be automatically saved.\n- You now have to place the Starting point\n- Ceiling traps now snap to the ceiling so it's easier to drag and place them correctly."
+            },
             {
                 "version": "0.22.5",
                 "change_log": "Sire! We're back with a mighty update.\n\nv0.22.5\n- Fixed issue with Dungeon Portals where going through a portal would spawn the next dungeon, but it would be empty. (Thanks to @BlackBeard)\n\nv0.22.4\n- Finally fixed the MASSIVE bug that moved/distorted/changed the scene items if you removed your device and it went to sleep. It was definitely annoying when trying to pass your dungeon over to friends and family. Enjoy hassly free dungeon dwelling now!\n\nv0.22.3\n- Meta Spaces is now mandatory for the initial setup. So once you've outlined your walls, and any furniture on your Quest, Dungeon Maker will automatically generate a dungeon framework based on this. Then you can customise to your liking.\n- Color assets for all! Everything is now full color, looks really nice on Quest 3! :)\n- A better selection UI, with outlines and names. So you know what you are selecting and dragging around.\n- And many other quality of life improvements.\n\nQuick tip:\n- I'm going to build a sub menu for quick options, but for now one option which you'll want to use is setting the Meta Scene generated assets like walls and furniture into occlusion. So you can see your real walls/floor/ceiling/couch. For now to do this simply point at a wall for example and pull the grip trigger like you want to grab it. This will toggle between your real wall and the generated wall. So feel free to do this on all the Meta Spaces assets to reveal your home!\n"
@@ -97,23 +109,23 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 480553,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 477481,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 59,
-        "rating": 3.559322,
+        "votes": 63,
+        "rating": 3.571429,
         "weighted_rating": 3.5
     },
     "errors": []

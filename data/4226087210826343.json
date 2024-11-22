@@ -3,7 +3,7 @@
         "id": "4226087210826343",
         "app_name": "Pickleball",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Refer a friend and get Pro upgrade for free. Your friend also gets its for free. \n\nExperience cutting dinks, outrageous rallies and pickup games with AI Bots and friends around the world.\nState-of-the-art configurable custom physics, makes VR Pickleball feel like the real thing. Use your real-life forehand, backhand, and volley moves in the game - unlocking more creativity, and a better workout along the way. \nThis app includes:\n- Configurable AI Bots for Singles and Doubles, Stationary Ball machine, Moving Ball machine, Practice Wall and several drills\n-  Pro pack includes Padel, Racquetball, Cricket, Badminton, etc.\n- Competitive multiplayer against real players from around the world.\n-Several Ball types, Paddle types, Court types and Avatars\n- Ambidextrous play\n-Customizable physics: Arcade, Simcade and Simulation modes \n-Customizable paddle size, paddle sensitivity, paddle friction, ball bounce, ball friction, etc.\n-Support for paddle grip adapters.\n-Instant Replay with playback trail\n-Instant Analytics\n-Configurable options like displaying fault trajectory on the fly, ball landing position, ball trail, collision animation, ball orb, background tracks etc.\n- A variety of immersive environments to explore.\n-Mixed reality\n- In-game leaderboard where you can compete to be a star. \n- Fully localized in following 27 languages with text and audio\n\nTech support contacts:\nFacebook -https://www.facebook.com/groups/vrpickleball/\nDiscord - https://discord.gg/gHZCUSPuRE\nEmail - viniotstudios@gmail.com",
+        "description": "Experience cutting dinks, outrageous rallies and pickup games with AI Bots and friends online. State-of-the-art configurable custom physics with ever expanding feature set.\n# Configurable AI Bots for Singles and Doubles with instant replay\n{553087617321703}\n{1714346862674368}\nUse your real-life forehand, backhand, dinks and volleys - unlocking more creativity, and a better workout along the way.\n# Practice Wall \n{559682220101194}\n# Several drills with fully programmable ball machine\n{526989036877632}\n# Pro pack with  Racquetball, Baseball, Cricket, , etc.\n# Padel\n{1286563722370883}\n# Badminton\n{8361007357342352}\n# Zombies FPS with 7 levels\n{1603794127236342}\n- Competitive multiplayer against real players from around the world.\n- Several Ball types, Paddle types, Court types and Avatars\n- Ambidextrous play\n- Customizable physics: Arcade, Simcade and Simulation modes \n- Customizable paddle size, paddle sensitivity, paddle friction, ball bounce, ball friction, etc.\n- Support for paddle grip adapters.\n- Instant Replay with playback trail\n- Instant Analytics\n- Configurable options like displaying fault trajectory on the fly, ball landing position, ball trail, collision animation, ball orb, background tracks etc.\n- A variety of immersive environments to explore.\n- Mixed reality\n- Mirror Mode\n- In-game leaderboard where you can compete to be a star. \n- Fully localized in following 27 languages with text and audio\n\n# Tech support contacts\n- Facebook -https://www.facebook.com/groups/vrpickleball/\n- Discord - https://discord.gg/gHZCUSPuRE\n- Email - viniotstudios@gmail.com",
         "developer": "Viniot Studios",
         "publisher": "Viniot Studios",
         "genres": [
@@ -76,11 +76,11 @@
             },
             {
                 "rating": 4,
-                "votes": 26
+                "votes": 28
             },
             {
                 "rating": 5,
-                "votes": 162
+                "votes": 165
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -105,6 +105,26 @@
             "logo_transparent": "38982666_449350133589696_3811944066712869644_n.png"
         },
         "changelog": [
+            {
+                "version": "6.0.91",
+                "change_log": "Add Terminal Scene"
+            },
+            {
+                "version": "6.0.90",
+                "change_log": "Bugfix missing skybox in Paddleball. Add feature to reset player position by pressing Y button in Paddleball and Zombies. Move exit function in Zombies and Paddleball to menu button on left controller."
+            },
+            {
+                "version": "6.0.89",
+                "change_log": "Add welcome dialog at game start and a confirmation dialog for exiting Zombies when button 2 is pressed on left controller. Bugfix flicker when launching zombies."
+            },
+            {
+                "version": "6.0.88",
+                "change_log": "Add welcome dialog. Add ability to reset player location and rotation by pressing menu key on their controller for 1 second. Improve bot shot selection."
+            },
+            {
+                "version": "6.0.87",
+                "change_log": "Update bot spin implementation. Bugfix partner bot serve to reduce serve faults by partner bot in doubles game. Enemy navigation map updates in several scenes of Zombies game."
+            },
             {
                 "version": "6.0.86",
                 "change_log": "Update menu layout. Bugfix snake in Zombies game."
@@ -160,46 +180,26 @@
             {
                 "version": "6.0.73",
                 "change_log": "Bugfix return to idle animation"
-            },
-            {
-                "version": "6.0.71",
-                "change_log": "Improve bot animations for locomotion."
-            },
-            {
-                "version": "6.0.70",
-                "change_log": "Update bot animation logic for overhead shots"
-            },
-            {
-                "version": "6.0.69",
-                "change_log": "Add foot marker for bots and remote avatars"
-            },
-            {
-                "version": "6.0.68",
-                "change_log": "Add stroboscopic vision training. Bug fix remote avatar in multiplayer"
-            },
-            {
-                "version": "6.0.57",
-                "change_log": "Update remote avatar full body avatar racquet pose"
             }
         ],
         "on_rookie": true,
-        "general_update": 480313,
+        "general_update": 481178,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 480313,
         "player_mode_update": 474685,
-        "changelog_update": 480793,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 238,
-        "rating": 4.210084,
+        "votes": 243,
+        "rating": 4.218107,
         "weighted_rating": 4.1
     },
     "errors": []

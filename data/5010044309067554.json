@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "6.5.10",
+                "change_log": "Height calculation improvements\nButton interaction improvements"
+            },
+            {
                 "version": "6.5.5",
                 "change_log": "Hotfix corrections"
             },
@@ -136,14 +140,6 @@
             {
                 "version": "5.11",
                 "change_log": "Welcome to Virtual Playbook v5.11! Here are our latest changes:\nFeatures:\n - Lessons v1.0\n - Player labels will show in networking observe windows\n\nBug Fixes:\n - Bugfix for watch playlist feature initiated with no plays\n - Bugfix for int'l date standards continuing to re-download plays on account load\n - Bugfix to handle duplicate playlists (only occurs in some team configurations)\n - Bugfix for app-crash when starting a new random option in practice mode\n - Bugfixes for spotlight/frame-text UI layering improperly, or not showing"
-            },
-            {
-                "version": "5.10.16",
-                "change_log": "Welcome to Virtual Playbook v5.10.16! Here are our latest changes:\nFeatures:\n - Spotlights: Highlight important parts of a play with a visual spotlight\n - All new networking user interface\n - Changed 1st-person mode over the network to show a player avatar instead of a floating player indicator\n\nBug fixes:\n - Fixed a bug where the camera views menu could behave unexpectedly\n - Fixed a bug where the loading wheel could look \"tilted\"\n - Fixed a bug where play mirroring could desynchronize between a network host and client"
-            },
-            {
-                "version": "5.10.14",
-                "change_log": "Welcome to Virtual Playbook v5.10.14! Here are our latest changes:\nFeatures:\n - Frame Text! View tips written by your coach in virtual playbook\n - Multi-option quizzes will remove duplicate questions\n - Swapping play options resets play time to 0 for a more predictable experience\n - Region quiz questions will tell you how close your guess was\nBug Fixes:\n - Fixed a bug where player jerseys would show up white when changing plays\n - Improved UI responsiveness on play select"
             }
         ],
         "on_rookie": false,
@@ -154,13 +150,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 480193,
-        "changelog_update": 479809,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 478585,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480193,
+        "last_update": 481178,
         "category": "APPS",
         "votes": 24,
         "rating": 2.0,

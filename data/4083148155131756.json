@@ -93,6 +93,30 @@
         },
         "changelog": [
             {
+                "version": "322",
+                "change_log": "v.322 - Fixed Startup Crash - Partially Fixed hookups when transferring substances"
+            },
+            {
+                "version": "321",
+                "change_log": "November 11, 2024Proteus Labs v.321 / maZoneLab v.170Targets: Meta Quest runtime 69, Pico runtime 5.11.0 or laterNew features and bug fixesFIX: Tracked Hands color when resetting labFIX: Back Button in Email MenuFIX: Removed Special Action with Test TubesFIX: Hands Occlusion when one hand is grabbingFIX: Tablet RotationFIX: General behavior of the appearance of tracked handsFIX: Tracked Hands are 20% more fluid"
+            },
+            {
+                "version": "320",
+                "change_log": "November 8, 2024 Proteus Labs v.320 Targets: Meta Quest runtime 69, New features and bug fixes FIX: Tutorial protocol words fix"
+            },
+            {
+                "version": "318",
+                "change_log": "November 8, 2024Proteus Labs v.318 / maZoneLab v.168Targets: Meta Quest runtime 69,  FIX: Menu Navigation in Tablet•    FIX: Random Startup crashes on Meta devices"
+            },
+            {
+                "version": "315",
+                "change_log": "November 6, 2024Proteus Labs v.315 / maZoneLab v.165Targets: Meta Quest runtime 69, Pico runtime 5.11.0 or laterNew features and bug fixes:•    FIX: Checkmarks in tablet"
+            },
+            {
+                "version": "314",
+                "change_log": "November 5, 2024Proteus Labs v.314 / maZoneLab v.164Targets: Meta Quest runtime 69, New features and bug fixes:•\tNEW: Guide Button in Tablet / Export to Excel file•\tFIX: Back Button in the menu was unreliable•\tFIX: Startup crashes and loading time•\tFIX: Korean translation of Menu Buttons•\tFIX: maZoneLab Origines 1_11 results display in Tablet•\tFIX: Tablet protocol & guide•\tFIX: Liquid colors"
+            },
+            {
                 "version": "313",
                 "change_log": "November 5, 2024Proteus Labs v.313 / maZoneLab v.163Targets: Meta Quest runtime 69, EW: Guide Button in Tablet / Export to Excel file•\tFIX: Back Button in the menu was unreliable•\tFIX: Startup crashes and loading time•\tFIX: Korean translation of Menu Buttons•\tFIX: maZoneLab Origines 1_11 results display in Tablet"
             },
@@ -127,30 +151,6 @@
             {
                 "version": "302",
                 "change_log": "September 30, 2024; Proteus Labs v.302 / maZoneLab v.152; Target: Meta Quest runtime: 68; Fixed KSCN (aq) concentrations; Updated opaque liquid colors"
-            },
-            {
-                "version": "301",
-                "change_log": "September 6, 2024 // Proteus Labs v.301 / maZoneLab v.151 // Target: Meta Quest runtime: 68 // Fixed microscope headers translation // Fixed opaque Renders and Precipitation // Fixed voice for protocols (English-only) // Added random user name in journal log"
-            },
-            {
-                "version": "300",
-                "change_log": "September 6, 2024 // Proteus Labs v.300 / maZoneLab v.150 // Target: Meta Quest runtime: 68 // Fixed funnel & gas transfer"
-            },
-            {
-                "version": "299",
-                "change_log": "September 5, 2024 // Proteus Labs v.299 / maZoneLab v.149 // Target: Meta Quest runtime: 68 // Fixed funnel & liquid transfer // Fixed osmosis"
-            },
-            {
-                "version": "297",
-                "change_log": "September 4, 2024 // Proteus Labs v.297 / maZoneLab v.148 // Target: Meta Quest runtime: 68 // Fixed hand tracking interactions // Fixed syringe with hand tracking"
-            },
-            {
-                "version": "296",
-                "change_log": "Sept 3rd, 2024 //  Proteus Labs v.296  / maZoneLab v.147 // Target: Meta Quest runtime: 68 // Improved general performance // Fixed gas behaviour // Improved hands occlusion"
-            },
-            {
-                "version": "295",
-                "change_log": "August 22, 2024 Proteus Labs v.295 / maZoneLab v.146 Target: Meta Quest runtime: 66: Improved general performance, Decrease initial menu loading time, Fixed no internet initial menu"
             }
         ],
         "on_rookie": false,
@@ -161,13 +161,13 @@
         "language_update": 474745,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480793,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 480674,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "APPS",
         "votes": 17,
         "rating": 4.588235,

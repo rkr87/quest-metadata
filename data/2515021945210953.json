@@ -32,11 +32,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 80
+                "votes": 86
             },
             {
                 "rating": 2,
-                "votes": 17
+                "votes": 18
             },
             {
                 "rating": 3,
@@ -44,11 +44,11 @@
             },
             {
                 "rating": 4,
-                "votes": 76
+                "votes": 78
             },
             {
                 "rating": 5,
-                "votes": 404
+                "votes": 418
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -71,6 +71,10 @@
             "logo_transparent": "38984455_2474447646210412_462888090281705472_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0.123 : vr_only",
+                "change_log": "- Added Artist Pages, enabling viewers to explore an artist's content by clicking their profile image.\n- Added Artist descriptions on Artist Pages, viewable by hovering over the profile picture at the bottom.\n- Bug fixes"
+            },
             {
                 "version": "2.0.118 : vr_only",
                 "change_log": "- Added automatic controller hiding after 5 sec idle time. A quick controller movement will show them again.\n- Added Free Fly mode movement options in “settings”, Head Steered Movement & Smooth Turn.\n- Added “Delete Temporary Files” button in “settings” to allow removing cached files.\n- Added ability to reset settings to default in “settings”.\n- Bug fixes."
@@ -110,10 +114,6 @@
             {
                 "version": "1.5.2 11-20-2020 (D25129479) : vr_only",
                 "change_log": "Updated audio engine to 1.10.4\nFixed rendering difference in pretesselated vs static\nFixed individual creators metadata"
-            },
-            {
-                "version": "1.5.0 11-06-2020 (D24787659) : vr_only",
-                "change_log": "Fixed crash exiting without loading a document"
             }
         ],
         "on_rookie": false,
@@ -124,10 +124,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480505,
+        "changelog_update": 481178,
         "keyword_update": 475633,
         "tag_update": 474685,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
@@ -135,10 +135,10 @@
             "story",
             "narrative"
         ],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "APPS",
-        "votes": 604,
-        "rating": 4.17053,
+        "votes": 627,
+        "rating": 4.154705,
         "weighted_rating": 4.1
     },
     "errors": []

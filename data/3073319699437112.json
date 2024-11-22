@@ -37,15 +37,15 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 235
+                "votes": 240
             },
             {
                 "rating": 2,
-                "votes": 34
+                "votes": 35
             },
             {
                 "rating": 3,
-                "votes": 53
+                "votes": 54
             },
             {
                 "rating": 4,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1067
+                "votes": 1071
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -83,6 +83,10 @@
             "logo_transparent": "39036637_429764504911745_4889807881295605772_n.png"
         },
         "changelog": [
+            {
+                "version": "2.3.2",
+                "change_log": "Version 2.3.2 Release Notes\nIMPORTANT NOTICE:\nHardware requirements for Cards & Tankards on Android devices have been changed, now requiring 4+ GB Ram and Android 11 or newer. Download today on the Google Play Store!\nYou will now need to log-in monthly if you have Patron of the Old Gods to receive your Gems.\n\nBALANCE CHANGES:\nField Bureaucrat no longer has a Discarded ability, and reduces the cost of the first spell it sees each turn.\nAlkar, the Former Master is now 10 Mana with Mastery 2, and causes you to lose 1 Life for each spell you play.\nKira, Heroine of Garsang no longer raises her own health.\nMastercraft Flesh Golem is now 9 Mana 2/12.\nDreaded Corpse Flinger lowered from 3/3 to 2/3\nForbidden Lotus’s Enhance is now \"To their Banish Zone instead for 3 Coins.\"\nMind Squander is now 2 Mana and no longer gives life.\nBone Amalgamates no longer give health as part of their Last Word.\nSoul Extraction no longer draws a card if it gets a kill.\nCosmic Reanimation now causes all players to summon the top 3 creatures of their Graveyard, dooming them and making them Undead.\nTorch Carrier’s Last Word now instead Shifts all Powder Kegs in all decks to the top.\nSomething Wicked Approaches + Grand Tutoring now only Fetch Non-Legendaries.\nWraith’s Wrath is reduced back to 5 damage.\n\nADDED:\nA brand new Guide Book for providing information about aspects of the game, found in your Watch Menu at the top-right.\nA completely re-done and shortened tutorial.\nAutomatic forfeiting if a player AFKs in ranked.\nA new visual showing the game deciding which player gets the first turn.\nWhilst deciding which player begins, faction banner flags matching the deck’s primary and secondary choices.\nBrand new \"Mana Fragment\" system. The player going second will gain 1 at the beginning of the game.\nTooltips for when you attempt to block and are unable to do so along with why.\nA large number of new quests – Augur-focused, gamemode-focused and attribute focused.\n\nUPDATED:\nAll existing quests have had a overhaul to make them better to complete\nMilestone Quests have been adjusted to allow greater rewards for more consecutive quest completion.\nAll summons not played directly from the hand are always summoned on the right side of the board.\nPatron of the Old Gods subscription page now has a \"Manage Subscription\" button on Android.\nFlatscreen players are now able to use spells by just dragging them like they would a creature.\nA minor visual change to boost visibility when the quest board has rewards ready to be claimed.\n\nFIXED:\nMystic Envisioner’s ability being triggered by Masters.\nFlatscreen Battle Camera getting pieces stuck on-screen.\nFlatscreen Zones screen can get stuck with no way to close it.\nFlatscreen Redraw screen getting stuck with no way for you to click on it.\nA visual issue where a Flatscreen player moving a card will make it appear to be clipping in their hand to others.\nEndless Enforcers summoning copies even if it’s already died (in the instance of Multi-damaging abilities).\nChanneled Destruction continues to activate even though its counter is 0.\nGrow the Horde keeps waiting for you to make a second selection, even if you have no room.\nCreatures with passives not updating after a spell has been played."
+            },
             {
                 "version": "2.3.1",
                 "change_log": "Version 2.3.1 Release Notes\nIMPORTANT NOTICE:\nYou can now play Cards & Tankards on supported Android Devices. Download today on the Google Play Store!\nMeta Quest 1 devices are no longer supported natively. You can continue to play Cards & Tankards on supported devices or through Steam VR.\n\nBALANCE CHANGES:\nCovert Contractor has 1 attack and its ability now only activates once each turn.\nMaster Alchemist now only buffs OTHER creatures.\n\nADDED:\nFlatscreen Quest UI for claiming rewards/rerolling quests.\nA reminder alert in the Patron Of The Old Gods screen to log in each month for gem rewards.\nNew confirmation VFX and SFX when selecting Blocker.\nNew VFX to indicate a quest is completed.\nNew SFX when cycling quests or claiming quest rewards.\nMisplay protection for Altering Fate if no cards are in the Deck.\nNew hand \"Gestures\" for Flatscreen versions.\nNew Combat Action Sequence for Flatscreen versions.\nNew Redraw interface for Flatscreen versions.\nNew Zones interface during battles on Flatscreen versions.\nSubtle arm sway while walking on Flatscreen versions.\n\nUPDATED:\nTavern layout slightly adjusted.\nHidden developer names updated.\nPlayers can only Redraw one time, but always draw the same amount of cards.\nSelection VFX around creature models are more vibrant.\n\"Play 15 Nobles\" quest has been removed.\n\"Personal Space\" option is set to Medium by default.\nThe Main Menu’s handlebar is now hidden on Flatscreen versions.\nExhausted VFX is now larger for the opponent's creatures on Flatscreen versions.\nTooltips and Dynamic Abilities can be scrolled when examining a card on Flatscreen versions.\nOpponent’s Life Total, Mana, and Coins have been repositioned and scaled on Flatscreen versions.\nQuest interface for quest cycling and reward claiming on Flatscreen versions.\n\nFIXED:\nExploit allowing permanently banned players to circumvent bans on alt accounts.\nMain Menu’s text overlapping rather than scaling.\nGame audio not playing through headphones for Mobile players.\nVolume buttons not working for Mobile players.\nFlatscreen booster pack centering.\nFlatscreen clunky interaction to battle again at the same table.\nFlatscreen players being unable to re-engage with opened booster packs.\nDrakth Totem token still having Doomed.\nAvian Murder missing \"Fetch\" tooltip.\nLook Sensitivity setting mislabelled as Mouse Sensitivity on Android version."
@@ -134,10 +138,6 @@
             {
                 "version": "1.1.1",
                 "change_log": "Version 1.1.1 Release Notes:\nChanged:\nEvery 4th set of 3 draft card choices will now always be primary faction cards\nRenamed Neutral Taverns to Public Taverns\nImproved Reputation System calculations, removed faulty data\nAll Neutral Reputation players have been reset to Cordial Reputation\n\nFixed:\nLegit match detection flagging some valid battles as non-legit\nSome players being unable to connect to the accounts server\nTaunt for spells/abilities selecting a target now functions the same as blocking, only when able\nTaunt disallowing you to block non-taunt creatures even if you were not able to block taunted creatures\nReadability of buff/debuff text on animated cards\nDraft decks preventing selling cards"
-            },
-            {
-                "version": "1.1",
-                "change_log": "Version 1.1 Release Notes:\nAdded:\nDraft Mode, in the deck list you will see a \"Draft a Deck\" option when your collection book is out\nReputation based taverns which replaces age restricted taverns\nQuill and Ink props that allow you to draw in the air\nMana burn VFX\nCard draw and shuffle SFX\nAdditional VFX for some MRA and PG cards\nFloating damage and heal numbers\nPressed icon for watch menu back button\nLegit match detection system to prevent exploitation of battle rewards\n\nChanged:\nNew subscriptions purchased on Quest will now auto renew\nAnimated cards now have a golden border\nGems earned from the Season Pass can no longer be gifted to other players\nReduced battery drain on Quest headsets\nRemoved the level 5 deck creation restriction\nReplaced Steam/email create account button icons\nTrophy props were moved under the Tankards category\nProgression Rewards was renamed to Season Rewards\nUpdated the Season Pass poster to include ending date\nImproved the profanity filter to be less aggressive\n\nFixed:\nPartially fixed animated referral card back not always animating on Quest\nSometimes seeing invisible deck boxes and blank collection books\nRanged keyword documentation being inaccurate\n\nBalance Changes:\nTaunt now applies to spells and abilities that require targeting an enemy creature\nOnce a Taunt creature has been blocked or targeted, its Taunt ability is deactivated until the beginning of its controllers turn\nHungry Mimic is now a Common\nImprovised Medic is now an Uncommon"
             }
         ],
         "on_rookie": false,
@@ -148,16 +148,16 @@
         "language_update": 474685,
         "platform_update": 479953,
         "player_mode_update": 474685,
-        "changelog_update": 479953,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 480793,
+        "rating_update": 481178,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480793,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 1523,
-        "rating": 4.15824,
+        "votes": 1534,
+        "rating": 4.147979,
         "weighted_rating": 4.1
     },
     "errors": []

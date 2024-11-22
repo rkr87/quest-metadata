@@ -70,6 +70,10 @@
         },
         "changelog": [
             {
+                "version": "4.7.5",
+                "change_log": "Symbols of synchronized hand actions in multiplayer mode.\nAdded a new option “Freezing” objects in the Physics tool.\nBisector tool improved: touch 3 vertices, or 2 edges.\nFixed bug on the Edge with Angle tool.\nFixed bug on the Physics tool.\nCorrected error of scale change through the keyboard in the scale copy tool.\nFixed bugs on copying and pasting or loading the union of two figures.\n"
+            },
+            {
                 "version": "4.7.4",
                 "change_log": "Fixed bug: Undeleting MathItems updates the information of figures.\nFixed bug on rotations of figures.\nEDIT of MathItems permits rotations if the other hand has action GRAB\nThe flight mode can be chosen in Other Settings: hand direction or camera eye (default).\n"
             },
@@ -140,10 +144,6 @@
             {
                 "version": "4.4.1",
                 "change_log": "Fixed bug: Free drawings synchronize well in multiplayer mode.\nFractal too is under recovery.\nBe aware that all players in a lobby must be active during the synchronization.\n"
-            },
-            {
-                "version": "4.4.0",
-                "change_log": "Fixed bug importing STL internally.\nFixed bug on the eraser tool.\nFixed bug on the scale copy tool.\nImproved player joystick rotation.\nNew activities in the box of the Erasmus project Geometrician’s Views. For that “clear activities” and download.\n"
             }
         ],
         "on_rookie": false,
@@ -154,13 +154,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480722,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480649,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480722,
+        "last_update": 481178,
         "category": "APPS",
         "votes": 18,
         "rating": 4.777778,

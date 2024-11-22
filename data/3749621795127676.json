@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1337
+                "votes": 1342
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -93,6 +93,10 @@
             "logo_transparent": "57566679_1119631221888744_1983862012686943534_n.png"
         },
         "changelog": [
+            {
+                "version": "2.4.1",
+                "change_log": "Thanksgiving 2024 Update!\nChicken seasonal event is back until December 5th (turkeys were not available)\n- Chicken invasion in the Home menu and Cloakroom\n- Chicken Hammer can be unlocked by completing any song during the event, or by finding the secret in the Home menu"
+            },
             {
                 "version": "2.4.0",
                 "change_log": "Update 2.4.0 - Halloween 2024 Update\n- Halloween seasonal event is back until November 7th\n  - Spooky themed Home and Cloakroom\n  - Hel's Hammer can be unlocked by completing any song during the event, or by finding the secret in the Home menu (VR only)\n- New songs :\n  - Northern Lights (Paddy and the Rats - 2/5/7)\n  - Gates of Ekrund (Wind Rose - 2/6/8)"
@@ -168,10 +172,6 @@
             {
                 "version": "1.6.1",
                 "change_log": "Update 1.6 - Patch 1\n- [Fix] Song sound was downmixed to mono\n- [Fix] Fix dates on new songs to have the correct filter by date"
-            },
-            {
-                "version": "1.6.0",
-                "change_log": "Ragnarock v1.6 (Halloween 2022 Update)\n\nHalloween event\n - Halloween-themed lobby decoration\n - Limited-time secret event to unlock the Hel hammer (for those who missed last year's Halloween). Available only until Nov 13th!\n\nNew content\n - 2 new songs for free : \"Niemi\" by Korpiklaani (Level 3/6/9), and \"Out Of Control\" by Bad Situation (Level 2/4/7)\n - New Avatar customization booth now available in Changing Room (also controls crew/shield colors). WARNING: Your previous avatar options will be reset and a random avatar will be assigned to each profile. Customize them in the Changing Room!\n - New \"Dark Empty\" environment\n\nNew features\n - You can now share RAID songs in multiplayer races! (If someone in the party owns them, all players can play them)\n - New Search button in song selector (searches in current volume, in titles and artists' names)\n - New animation for unlocking hammers (break a gift box with your hammer)\n - Local profiles and settings are now cloud saved if an internet connection is available (except for space calibration settings)\n - Show mapper's name for custom songs (on Start panel and in song list on hover)\n\nFixes\n - Limit number of authorized pauses to 5 for leaderboard scores (After more than 5 pauses, the score is not sent to the leaderboards)\n - Compute perfect notes ratio only on spawned notes (if player started during a song)\n - Hellfest crowd sounds now fade when previewing songs in song selector\n - Moved all remaining sounds through FMOD plugin\n - Fix empty friends leaderboard's text from \"Error\" to \"No players yet\"\n - Fix particles that could fall on player in Muspelheim's lava field\n - Clean unused files to reduce game file size\n - Fix saturated sound when casting/mirroring"
             }
         ],
         "on_rookie": true,
@@ -182,16 +182,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480505,
+        "changelog_update": 481178,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 480722,
+        "rating_update": 481178,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 480722,
+        "last_update": 481178,
         "category": "GAMES",
-        "votes": 1540,
-        "rating": 4.748052,
+        "votes": 1545,
+        "rating": 4.748867,
         "weighted_rating": 4.7
     },
     "errors": []
