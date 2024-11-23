@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "6.5.14",
+                "change_log": "Gaze interaction rework"
+            },
+            {
                 "version": "6.5.10",
                 "change_log": "Height calculation improvements\nButton interaction improvements"
             },
@@ -132,14 +136,6 @@
             {
                 "version": "5.12",
                 "change_log": "Welcome to Virtual Playbook v5.12! Here are our latest changes:\nFeatures: \n   - New Home Screen\n   - New \"On Ball\" camera tracks the game ball\n   - Mods to Practice Mode to ease difficulty curve\n   - Pick your preferred court lines: NBA or NCAA\n\nBug Fixes: \n   - Frame-text and Spotlight UI de-conflicted\n   - Mirrored plays will mirror court items (cones, text, etc.)\n   - Quiz-questions properly de-duplicated for multi-play quizzes\n   - Bugfix for close-proximity passes in practice mode\n   - Bugfix for coach-led film session UI getting stuck at maximized"
-            },
-            {
-                "version": "5.11.1",
-                "change_log": "Welcome to Virtual Playbook v5.11.1! Here are our latest changes:\nBug Fixes: \n   - Fixed FrameText tutorials from overlapping with spotlights\n   - Bugfix for a crash caused by Film Room receiving poor URL\n   - Better error handling in general for Film Room\n   - Login screen error messages no longer overlap other UI elements\n   - In Team-up, Film Room will auto-maximize when host starts a film session\n   - In Team-up, Bugfix for crash when client exits while their player card is active"
-            },
-            {
-                "version": "5.11",
-                "change_log": "Welcome to Virtual Playbook v5.11! Here are our latest changes:\nFeatures:\n - Lessons v1.0\n - Player labels will show in networking observe windows\n\nBug Fixes:\n - Bugfix for watch playlist feature initiated with no plays\n - Bugfix for int'l date standards continuing to re-download plays on account load\n - Bugfix to handle duplicate playlists (only occurs in some team configurations)\n - Bugfix for app-crash when starting a new random option in practice mode\n - Bugfixes for spotlight/frame-text UI layering improperly, or not showing"
             }
         ],
         "on_rookie": false,
@@ -150,13 +146,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 480193,
-        "changelog_update": 481178,
+        "changelog_update": 481201,
         "keyword_update": 474685,
         "tag_update": 478585,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481201,
         "category": "APPS",
         "votes": 24,
         "rating": 2.0,

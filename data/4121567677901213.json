@@ -70,6 +70,10 @@
         },
         "changelog": [
             {
+                "version": "4.7.6",
+                "change_log": "New MathItem Plane through 3 points, available in the quadrics tool (+sphere, cone, cylinder). Added interactions with other tools: parallels, perpendiculars, intersection, mirror, etc.\nUse of hand rays to manage sliders of the 3d graphing calculator.\nUse of hand rays to manage the internal system file.\nFixed Bug: Exiting lobby does not enter a new lobby."
+            },
+            {
                 "version": "4.7.5",
                 "change_log": "Symbols of synchronized hand actions in multiplayer mode.\nAdded a new option “Freezing” objects in the Physics tool.\nBisector tool improved: touch 3 vertices, or 2 edges.\nFixed bug on the Edge with Angle tool.\nFixed bug on the Physics tool.\nCorrected error of scale change through the keyboard in the scale copy tool.\nFixed bugs on copying and pasting or loading the union of two figures.\n"
             },
@@ -140,10 +144,6 @@
             {
                 "version": "4.4.2",
                 "change_log": "Fixed bug: Fractals.\nFixed bug loading files with STLs."
-            },
-            {
-                "version": "4.4.1",
-                "change_log": "Fixed bug: Free drawings synchronize well in multiplayer mode.\nFractal too is under recovery.\nBe aware that all players in a lobby must be active during the synchronization.\n"
             }
         ],
         "on_rookie": false,
@@ -154,13 +154,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481201,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480649,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481201,
         "category": "APPS",
         "votes": 18,
         "rating": 4.777778,

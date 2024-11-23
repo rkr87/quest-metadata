@@ -3,7 +3,7 @@
         "id": "6781908485204434",
         "app_name": "TOTALLY BASKETBALL",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "TOTALLY BASKETBALL lets you play the full sport of Basketball in VR!  Jump for the Tip-Off! Shoot free throws! Steal the ball but don't get a Foul! This game gives you the awesome ability to control your 2 teammates when playing full court 3v3 matches. Use your buttons to move your teammates to better positions or to pass you the ball when you've got a good shot!\n\n\nFeatures:\n-Top notch realistic shooting physics!\n-Practice and tutorial modes for new players\n-Multiple teams/venues to choose from (and play against)\n-Multiplayer (Play against a friend and control your own teams or play a 1 on 1 game of Horse together)\n-Customizer (Make your Avatar look as cool as you want)\n-Fun seasonal updates (Check out new stadiums and new items throughout the year)\n-Large community of people to play with or get tips from (See our Discord)\n\nCOMING SOON:\n-New Game Modes\n-New Multiplayer options\n-More Mini-Games\n.... And So Much More!\n",
+        "description": "TOTALLY BASKETBALL lets you play the full sport of Basketball in VR!  Jump for the Tip-Off! Shoot free throws! Steal the ball but don't get a Foul! This game gives you the awesome ability to control your teammates when playing full court 3v3 matches. Use your buttons to move your teammates to better positions or to pass the ball when you've got a good shot!\n\nNewest Update:\n-Added Multiplayer Horse\n-Better shooting assist - Low, Med, High\n-More competitive AI players\n\nFeatures:\n-Top notch realistic shooting physics!\n-Practice and tutorial modes for new players\n-Multiple teams/venues to play\n-Multiplayer\n-Customize your character\n-Monthly Game updates\n-Large community on Discord\n\nCOMING SOON:\n-More Mini Games\n-New Multiplayer modes\n.... And So Much More!",
         "developer": "Viewer Ready Corp",
         "publisher": "Zevo Games",
         "genres": [
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 12
+                "votes": 13
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "0.410",
+                "change_log": "Basketball Patch Notes (Live v0.410):\n\nBug Fixes:\n\n    - The AI no longer get stuck in the hoop base.\n\n    - Fixed an issue with the no-go zone in Multiplayer Horse at Toronto Arena.\n\n    - Resolved an issue causing disconnects when transitioning from the lobby into a multiplayer match.\n\n    - Resolved a few issues with the Tutorial.\n\n    - General stability fixes to multiplayer horse to prevent stuck states.\n\nImprovements:\n\n    - Modified shooting assists for a better overall feel.\n\n    - Expanded multiplayer horse to allow up to 6 players.\n\n    - Improved AI decision making.\n\n    - Reduced the sitting height adjustment.\n\n    - Improved the fall animation when an AI is pushed.\n\n    - Art improvements throughout.\n\n    - Increased the smoothness of AI movements and behavior.\n\nNew Features:\n\n    - Is the game taking too long? You can now choose to play 2 minute quarters instead or keep the classic 3 minute quarters.\n\n    - Increased the aggressiveness of the AI by giving them the ability to steal.\n\n    - Players now become ghost spectators in multiplayer horse when they lose."
+            },
+            {
                 "version": "0.403",
                 "change_log": "Patch Notes (Live v0.403):\nBug Fixes:\nShooting assist now works properly in multiplayer horse.\nFixed an issue causing the ball and AI to disappear when a pass target is jumping.\nCorrected an issue causing password protection to fail on multiplayer lobbies.\nRemote players set to sitting mode now have the proper height in multiplayer.\nResolved an issue preventing jumping in certain instances where it is needed.\nYou no longer see your torso for a moment when flipping 180 degrees.\nThe menu selection laser no longer comes from an odd spot in the hand.\nFixed some missing sounds on menu keyboards.\nThe AI now properly begin gameplay when one of them fumbles the catch from a tipoff.\nYour teammates no longer run up and steal the ball from you.\nSmoothed out some dribbling issues from certain conditions.\nThe AI no longer chase the ball so far out of bounds that they run into other objects.\nThe crowd now stays in their seats during booth sequences in the Gymnasium.\nHigh passes by the AI are no longer called out as if they were shooting attempts.\nFixed some button selection issues in the menu.\nThe ball pipe no longer spawns inside the hoop base.\nImprovements:\nChanges to the tutorial have been made to better explain dribbling and shooting.\nYou now get a coin for beating a Medium horse player and 2 if you beat the hard player.\nModified the AI’s shooting positions in horse for more variety.\nAdjusted tipoff ball slapping for a better feel.\nThe Quick Menu no longer opens behind the system menu.\nImproved crossover detection.\nIncreased the accuracy of two handed passes.\nAdjusted shooting vs passing detection.\nRegion connection is now faster.\nMade some adjustments to maintaining connection when transitioning from a multiplayer lobby into a match.\nThe AI now express their reactions to events.\nIncreased performance in the West 4th Street court.\nIncreased the effectiveness of medium and high shooting assist.\nThe coaches and mascot no longer pop in and out, they come and go in a puff of smoke.\nSome art adjustments to booth prop item sizes.\nUpdated the thumbs up and thumbs down callout graphics.\nNew Features:\nThe AI did some leg training and will now attempt to jump and block your shots.\nAdded a microphone restart button in the multiplayer lobby.\nPlayers are now prompted with their coin earnings when returning to the locker room.\nAI players will now invoke a foul by pushing their opponents to the ground.\nYou can now select the same teams in multiplayer.\nThe red zone in horse now informs you the area is unavailable.\nCoins are now purchasable, but currently are stored locally so they will be removed if you uninstall the game.\nAdded a support button with patch notes to the chalkboard."
             },
@@ -88,23 +92,23 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481178,
+        "general_update": 481201,
         "genre_update": 480481,
         "device_update": 479689,
         "mode_update": 479689,
         "language_update": 479689,
         "platform_update": 479809,
         "player_mode_update": 479689,
-        "changelog_update": 479953,
+        "changelog_update": 481201,
         "keyword_update": 479689,
         "tag_update": 479689,
-        "rating_update": 481178,
+        "rating_update": 481201,
         "iarc_detail_update": 479689,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481201,
         "category": "GAMES",
-        "votes": 26,
-        "rating": 3.692308,
+        "votes": 27,
+        "rating": 3.740741,
         "weighted_rating": 3.6
     },
     "errors": []
