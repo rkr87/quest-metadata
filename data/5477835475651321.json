@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.40.5.0",
+                "change_log": "VERSION: 0.40.5.0\nFEATURE: Added level rating screen in Scoreboard.\nFEATURE: Endless mode now shows how long (seconds) player survived.\nFEATURE: Endless mode Leaderboards now show time instead of points.\nFEATURE: Added new Endless mode achievements.\nFEATURE: Endless scoreboard now shows how many obstacles dodged.\nCHANGE: SciFi > Virus02 now clones in a different direction.\nCHANGE: Starting level UI now shows if Endless or Campaign; same with ScoreBoard.\nCHANGE: Aborting Endless level no longer adds score to leaderboard.\nCHANGE: SciFi > Crystal now spawns clones in random directions.\nBUGFIX: ScrapFan clones now separate correctly.\nBUGFIX: Maximum obstacle speed correctly implemented for endless mode and custom level files.\nBUGFIX: Closest possible dodge distance is now 0.01 instead of 0.\nBUGFIX: Clones launched from 45-degree portals now slide correctly to position relative to parent.\nBUGFIX: Achievement Unlocked description no longer chops text in 2nd line.\nBUGFIX: Pressing Settings > Reset or Player > Reset buttons now return to Main Menu after resetting settings."
+            },
+            {
                 "version": "0.40.4.0",
                 "change_log": "FEATURE: Added new SciFi Campaign #2 levels 5-8 and Bonus #2; all other levels should no longer cause errors but are still WIP.\nBUGFIX: Some obstacles now no longer collide with some types or all other obstacles.\nCHANGE: Increased time of Achievement Unlocked pop-up to 5 seconds.\nCHANGE: SciFi > TrashBag now explodes into trash. The player can not dodge this trash and it causes no harm.\nCHANGE: Replaced SciFi > Scrap1 with new ScrapPipe; now \"boomerangs\" back from platform edge.\nCHANGE: Replaced SciFi > Scrap2 with new ScrapFan which rotates very quickly.\nCHANGE: Obstacles now allowed to target player lower."
             },
@@ -99,13 +103,13 @@
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 481178,
+        "changelog_update": 481226,
         "keyword_update": 480193,
         "tag_update": 480193,
         "rating_update": 481178,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481226,
         "category": "GAMES",
         "votes": 4,
         "rating": 5.0,

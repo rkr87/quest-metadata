@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 69
+                "votes": 107
             },
             {
                 "rating": 2,
-                "votes": 37
+                "votes": 49
             },
             {
                 "rating": 3,
-                "votes": 42
+                "votes": 66
             },
             {
                 "rating": 4,
-                "votes": 73
+                "votes": 103
             },
             {
                 "rating": 5,
-                "votes": 245
+                "votes": 364
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "0.1.13.756839",
+                "change_log": "0.1.13\n- First steps to reduce damage on some types of windmill and hammer punches.\n- Prevented hits from causing double damage when going from head to body.\n- Fixed issue causing arms to calibrate incorrectly based on player height. Players will be asked to calibrate again on next startup.\n- Corrected issue that would immediately disconnect spectators.\n- Reduced damage for chest hits.\n- Allow easier matching for players at the extreme ends of the ratings range"
+            },
+            {
                 "version": "0.1.12.756771",
                 "change_log": "0.1.12 Patch Notes\n- Standing mode no longer restricts your in-game body to the green circle\n- Addressed an issue making vibration strength weaker than it should have been\n- Players will now timeout with a loss if they stop sending packets to the server for 15 seconds (was previously around 60s). If your opponent freezes, wait it out for 15 seconds.\n- Made a couple of changes to address an issue with the boxing dummy where your hand might make contact with the dummy a second time after you punch and show a low damage value. We now show the highest damage you did to the dummy during a 1s period and we have disabled damage to the dummy's shoulders."
             },
@@ -95,10 +99,10 @@
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481201,
+        "changelog_update": 481226,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481201,
+        "rating_update": 481226,
         "iarc_detail_update": 481201,
         "keywords": [
             "fight",
@@ -106,10 +110,10 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481201,
+        "last_update": 481226,
         "category": "GAMES",
-        "votes": 466,
-        "rating": 3.832618,
+        "votes": 689,
+        "rating": 3.824383,
         "weighted_rating": 3.8
     },
     "errors": []
