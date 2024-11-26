@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "0.11.6",
+                "change_log": "HereSphere update v0.11.6 fixes playback smoothness issues caused by Quest update v71. As a reminder, you can set the refresh rate in the advanced video settings. When the refresh rate is a multiple of the video frame rate, playback can be completely smooth. The app needs to hit the correct framerate, though. In the advanced video settings, adjust the resolution setting by increments of 0.05 until the video playback is smooth."
+            },
+            {
                 "version": "0.11.4",
                 "change_log": "HereSphere update v0.11.4 is now available. This update fixes issues with screen flickering and video playback, as well as adds some quality of life features.\n\nBug fixes:\n- Fixed screen flickering issue that can occur when refresh rate is changed (due to Quest OS update v71)\n- Fixed issue with video image freezing or stuttering during playback\n\nQuality of life improvements:\n- Added F135 filename recognition for 135 linear fisheye.\n- Top-bottom stereoscopic equirectangular videos with aspect ratio of 1:2 will keep its aspect ratio instead of being stretched to 1:1 aspect ratio\n- Added option to always load HSP files when using the HereSphere web API."
             },
@@ -121,13 +125,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481273,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 480481,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481273,
         "category": "APPS",
         "votes": 23,
         "rating": 4.26087,

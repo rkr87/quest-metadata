@@ -39,11 +39,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1222
+                "votes": 1224
             },
             {
                 "rating": 2,
-                "votes": 227
+                "votes": 229
             },
             {
                 "rating": 3,
@@ -51,11 +51,11 @@
             },
             {
                 "rating": 4,
-                "votes": 559
+                "votes": 560
             },
             {
                 "rating": 5,
-                "votes": 7044
+                "votes": 7064
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,6 +79,14 @@
         },
         "changelog": [
             {
+                "version": "1.33.3.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added new First Class environment which works on all headsets\n• Added desk passthrough feature on all Quest headsets (see button in Input tab)\n• Reduced decoding latency at high bitrates with all codecs on Quest 3 and Quest 3S\n• Added Ukrainian and Hungarian keyboards, fixed Portuguese and NumLock issues\n• Flight Simulator 2024 will now appear in the Games tab\n• Fixed inverted Hidden Area Mesh with VDXR\n• Fixed game compatibility with: Stereo Paint, Contractors VR (Steam)"
+            },
+            {
+                "version": "1.33.3.0",
+                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added new First Class environment which works on all headsets\n• Added desk passthrough feature on all Quest headsets (see button in Input tab)\n• Added Ukrainian and Hungarian keyboards, fixed Portuguese and NumLock issues\n• Flight Simulator 2024 will now appear in the Games tab\n• Fixed inverted Hidden Area Mesh with VDXR\n• Fixed game compatibility with: Stereo Paint, Contractors VR (Steam)"
+            },
+            {
                 "version": "1.33.2.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Added IPv6 support. This can help with connectivity issues to Shadow or other cloud services when users are behind a double NAT or CGNat\n• Added \"Remote Routing\" status in the Streamer window, About tab\n• Optimized amount of data sent to the PC when \"Forward tracking data to PC\" is enabled\n• Added support for hand tracking in SteamVR compatible games (requires SteamVR Beta at the moment)\n• Added new DPad emulation mode in Input tab\n• Added Headset OS version in menu and performance overlay\n• Significantly improved encrypted stream performance\n• Bluetooth and virtual keyboards now have better language compatibility\n• Fixed Copy Screenshots checkbox not working if user didn't take a screenshot before\n• Fixed incorrect aspect ratio when initially playing videos through the Videos tab\n• Fixed warping with custom FOV in Luke Ross mods\n• Fixed game compatibility with: Zero Caliber VR, All on board, hand tracking in VRChat\n• Fixed black overlays with Ghosts of Tabor, Automobilista 2"
             },
@@ -141,14 +149,6 @@
             {
                 "version": "1.32.5.0",
                 "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR\n• Screens can now be moved without hiding the keyboard\n• Fixed issue with keyboard appearing too far or behind the screen\n• Fixed detection of hardware encoder at startup which could prevent multi-monitor from working\n• Fixed lingering Streamer icon in the system tray when switching users\n• Fixed microphone pops\n• Fixed issue with 32-bit games in VDXR"
-            },
-            {
-                "version": "1.32.4.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR"
-            },
-            {
-                "version": "1.32.4.0",
-                "change_log": "Welcome to Virtual Desktop! If you experience any issues, please visit the website at www.vrdesktop.net to check out the FAQ or reach out to us on Discord.\n\nChanges in this version:\n• Multi-monitor support: you can now stream multiple monitors simultaneously, with the following limits:\n  Meta Quest 3: Up to 3 monitors.\n  Meta Quest 2, Meta Quest Pro: Up to 2 monitors.\n  Meta Quest 1: Only 1 monitor is supported\n  On Windows those can be real physical monitors or virtual ones (click below the screen to add/remove monitors). MacOS only supports physical, AirPlay monitors for now; virtual ones will be supported in a future update.\n• Added keyboard passthrough support on Quest (with the keyboards Meta supports)\n• Thumbstick can now be used to change size/distance when holding screen with grip\n• You can now move the keyboard when holding the grip\n• Increased max desktop bitrate to 120 Mbps (total for all monitors)\n• Added portrait mode button in the screen toolbar for secondary screens (Windows only)\n• Switched to using relative mouse movements with Bluetooth trackpads/mice\n• Fixed microphone delay issues that some folks were experiencing\n• Desktop toolbar will no longer appear when clicking below the screen with hand tracking. It will be shown when using the Quest menu left hand gesture instead\n• Fixed game compatibility with: The Wizards - Dark Times, The 7th Guest, Roblox, Gravity Sketch, Crossfire: Sierra Squad, Zenith the last city, Resist, Underdog, Walkabout Mini-golf, Breachers, WRC, Ghosts of Tabor, Hubris now using VDXR by default\n• Fixed index finger bending in VRChat when holding the controller\n• Fixed many compatibility issues with VDXR"
             },
             {
                 "version": "1.32.4.0",
@@ -167,19 +167,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480361,
+        "changelog_update": 481273,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481250,
+        "rating_update": 481273,
         "iarc_detail_update": 475000,
         "keywords": [
             "stream",
             "movie"
         ],
-        "last_update": 481250,
+        "last_update": 481273,
         "category": "APPS",
-        "votes": 9328,
-        "rating": 4.283877,
+        "votes": 9353,
+        "rating": 4.284187,
         "weighted_rating": 4.2
     },
     "errors": []
