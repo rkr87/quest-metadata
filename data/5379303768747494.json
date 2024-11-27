@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 17
+                "votes": 15
             },
             {
                 "rating": 2,
@@ -48,7 +48,7 @@
             },
             {
                 "rating": 5,
-                "votes": 31
+                "votes": 37
             }
         ],
         "comfort": "NOT_RATED",
@@ -73,6 +73,10 @@
             "logo_transparent": "38982613_631416991255051_7817147353990861285_n.png"
         },
         "changelog": [
+            {
+                "version": "0.33.1",
+                "change_log": "Sire, please find all the release notes here! If you want a bit more details on what I did do check the posts on the game store page.\n\nVersion 0.33\n- A new menu option under edit called \"room modifiers\" where you can make the floor lower and the ceiling higher!\n- 2 new items: wood beam and stone floor to go with the new lower floor mode.\n- Optimization: only the room you are in will be enabled. No more rendering rooms you aren't currently in!\n- A redesigned save system (backend but still worth noting, work is work ^^);\n- Added a \"NEW\" indicator on new features in the menu. To find the latest stuff quicker Sire!\n- Saved dungeons order is inverted now so the latest dungeons appear at the top. No more scrolling if you have 100s of dungeons like I do...\n- Fixed rendering order issues in some areas, like portals, hands and holes.\n- Fixed where the (purple) dungeon portal spawns, as they previously would spawn in the center of the room. If your room was L shaped, that center may be out of view.\n- Duplicate now works on lava and skeletons.\n- Fixed issue with pointer toggling between menu and world items. It was sometimes hard to click the tabs without interacting with the dungeon walls at the same time.\n\nVersion 0.32\n- Added windows that see into the exerior bleak world!\n- Changed room portal design, added frame and is blocked off if there's no connecting room setup.\n- Added loading screen on menu when loading or starting a new dungeon.\n\nVersion 0.31\n- 90FPS on Quest3/3S!\n- Redesigned the menu from the ground up.\n- You can now easily switch between left/right handed in the new menu settings.\n- Settings also include toggling controller button tips!\n- Added 3D controllers while in the menu for easier visiblity, and for tips to make sense.\n- Added function to duplicate items directly, no need to keep going back to the menu!\n- The dungeon foundation now includes all rooms instead of just current room. \n- A portal is placed on your doors that lead to another setup room, though make sure your physical doors are open ^^. (Try blocking access to the portal with the Door & Key quest item!)\n- Added particles effects to certain items like the key, treasure and waypoints.\n- The app is now boundaryless, which means you no longer need see or setup a boundary to use it. Really helps when going through multiple rooms!\n- There's also a tab in the menu with some of my other games, check them out!\n- You can no longer portal to the current dungeon, a message will warn you that you are selecting the same dungeon.\n- Creating a new dungeon doesn't increment the dungeon number until it's been saved.\n- Removed the limit to how many Dungeons you can save.\n- When you start a dungeon adventure, it'll be automatically saved.\n- You now have to place the Starting point\n- Ceiling traps now snap to the ceiling so it's easier to drag and place them correctly."
+            },
             {
                 "version": "0.33.0",
                 "change_log": "Sire, please find all the release notes here! If you want a bit more details on what I did do check the posts on the game store page.\n\nVersion 0.33\n- A new menu option under edit called \"room modifiers\" where you can make the floor lower and the ceiling higher!\n- 2 new items: wood beam and stone floor to go with the new lower floor mode.\n- Optimization: only the room you are in will be enabled. No more rendering rooms you aren't currently in!\n- A redesigned save system (backend but still worth noting, work is work ^^);\n- Added a \"NEW\" indicator on new features in the menu. To find the latest stuff quicker Sire!\n- Saved dungeons order is inverted now so the latest dungeons appear at the top. No more scrolling if you have 100s of dungeons like I do...\n- Fixed rendering order issues in some areas, like portals, hands and holes.\n- Fixed where the (purple) dungeon portal spawns, as they previously would spawn in the center of the room. If your room was L shaped, that center may be out of view.\n- Duplicate now works on lava and skeletons.\n- Fixed issue with pointer toggling between menu and world items. It was sometimes hard to click the tabs without interacting with the dungeon walls at the same time.\n\nVersion 0.32\n- Added windows that see into the exerior bleak world!\n- Changed room portal design, added frame and is blocked off if there's no connecting room setup.\n- Added loading screen on menu when loading or starting a new dungeon.\n\nVersion 0.31\n- 90FPS on Quest3/3S!\n- Redesigned the menu from the ground up.\n- You can now easily switch between left/right handed in the new menu settings.\n- Settings also include toggling controller button tips!\n- Added 3D controllers while in the menu for easier visiblity, and for tips to make sense.\n- Added function to duplicate items directly, no need to keep going back to the menu!\n- The dungeon foundation now includes all rooms instead of just current room. \n- A portal is placed on your doors that lead to another setup room, though make sure your physical doors are open ^^. (Try blocking access to the portal with the Door & Key quest item!)\n- Added particles effects to certain items like the key, treasure and waypoints.\n- The app is now boundaryless, which means you no longer need see or setup a boundary to use it. Really helps when going through multiple rooms!\n- There's also a tab in the menu with some of my other games, check them out!\n- You can no longer portal to the current dungeon, a message will warn you that you are selecting the same dungeon.\n- Creating a new dungeon doesn't increment the dungeon number until it's been saved.\n- Removed the limit to how many Dungeons you can save.\n- When you start a dungeon adventure, it'll be automatically saved.\n- You now have to place the Starting point\n- Ceiling traps now snap to the ceiling so it's easier to drag and place them correctly."
@@ -115,24 +119,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481178,
+        "general_update": 481297,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481226,
+        "changelog_update": 481297,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 481273,
+        "rating_update": 481297,
         "iarc_detail_update": 481250,
         "keywords": [],
-        "last_update": 481273,
+        "last_update": 481297,
         "category": "GAMES",
-        "votes": 68,
-        "rating": 3.588235,
-        "weighted_rating": 3.5
+        "votes": 72,
+        "rating": 3.777778,
+        "weighted_rating": 3.7
     },
     "errors": []
 }

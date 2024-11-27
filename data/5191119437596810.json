@@ -75,6 +75,10 @@
         },
         "changelog": [
             {
+                "version": "3.0.1",
+                "change_log": "Patch 3.0.1 \n•\tSynergyXR should now better respect proxy settings on corporate networks \n•\tVarious bug fixes \n\nVersion 3.0.0\nProcedures\n•\tThe “Reset” button on the Procedure Panel, now takes the user all the way back to the start procedure screen where the language can be selected.\nUI re-work\n•\tThe entire UI has been re-built using a lighter more vibrant color scheme better matching the visual identity of SynergyXR\n•\tAll UI elements are aligned in look and feel\n•\tAll icons have been updated to more clearly convey what buttons does\nTraining Spaces\n•\tIn-app users can select the “Training” sub menu to see all tagged training spaces\n•\tIn this sub-menu users can also input their LMS code in case they come from a Learning Management System\nVarious minor improvements\n•\tOn application start-up we provide users with an error page summarizing any mandatory online services that are currently not accessible. This is done to provide better and more concise information to the user as soon as possible.\n•\tAll audio sources (built into the Environment and any video auto-playing) is muted until the user has fully entered the Space. This is done to avoid audio playing during loading of Spaces.\n"
+            },
+            {
                 "version": "3.0.0",
                 "change_log": "Procedures\n•\tThe “Reset” button on the Procedure Panel, now takes the user all the way back to the start procedure screen where the language can be selected.\nUI re-work\n•\tThe entire UI has been re-built using a lighter more vibrant color scheme better matching the visual identity of SynergyXR\n•\tAll UI elements are aligned in look and feel\n•\tAll icons have been updated to more clearly convey what buttons does\nTraining Spaces\n•\tIn-app users can select the “Training” sub menu to see all tagged training spaces\n•\tIn this sub-menu users can also input their LMS code in case they come from a Learning Management System\nVarious minor improvements\n•\tOn application start-up we provide users with an error page summarizing any mandatory online services that are currently not accessible. This is done to provide better and more concise information to the user as soon as possible.\n•\tAll audio sources (built into the Environment and any video auto-playing) is muted until the user has fully entered the Space. This is done to avoid audio playing during loading of Spaces\n"
             },
@@ -149,10 +153,6 @@
             {
                 "version": "1.9.18",
                 "change_log": "•\tTo allow for richer object interaction, we introduce the use of the “grip” button in VR in addition to the existing “trigger button”. When users wish to “grab” content and manipulate this, the “grip” button is used, while the “trigger button is used to interact with UI elements\n•\tSupport for 2-hand interaction has been added for both near and far interaction with content. This allows manipulation of position, rotation and scale at the same time. \n•\tAxis-aligned manipulation of content has been improved with axis aligned movement and soft snapping at useful intervals.  \n•\tThe wrist menu is now triggered by looking at your palm instead of your wrist. Users can now activate UI buttons on the wrist menu directly by interacting directly with them with either hand. The buttons have received a transparent volume to resemble a physical button better\n•\tWhen activating the drawing tool from the wrist menu “tools” category, the wrist menu will transition to a brand-new drawing wrist menu. Users can grab the eraser tool directly from the menu by using the “grip” button. This can be used to erase individual line segments by activating the “trigger” button. \n•\tDrawing is supported on 2D surfaces as well as free-form 3D drawing.\n•\tAxis-aligned manipulation of content has been improved with axis aligned movement and soft snapping at useful intervals.  \n•\tImproved positioning of spawned content\n•\tProper support for transparency in .PNG images"
-            },
-            {
-                "version": "1.8.17",
-                "change_log": "Discoloring of 3D objects\nSome objects could catch a slight red color tint when placed close to the floor. This was caused by light- and reflection probes being mixed from various rooms. The VR client application now handles this, ensuring that 3D object react to the lighting and reflection properties of the rooms as intended. \nIn addition to the fix in the client applications, all existing rooms will get an update with properly baked lighting and reflection properties. These rooms will get updated in the days following the patch – so users should expect to see slightly generic lighting properties right after the patch, and once the rooms have been updated 3D objects will react more realistically to the lighting and reflection properties of the individual rooms.\n\nVarious other improvements and bug fixes\nSeveral users have requested the possibility to teleport backwards in VR. This is now possible, by moving the thumb-stick backwards resulting in the user being moved slightly backwards.\nWe have also made a visual update to the “Endless Room” with a much more pleasant horizon – this room will get updated along with the other rooms in the days following the patch."
             }
         ],
         "on_rookie": false,
@@ -163,13 +163,13 @@
         "language_update": 474685,
         "platform_update": 480505,
         "player_mode_update": 474685,
-        "changelog_update": 480602,
+        "changelog_update": 481297,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 479497,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 480769,
+        "last_update": 481297,
         "category": "APPS",
         "votes": 6,
         "rating": 4.666667,

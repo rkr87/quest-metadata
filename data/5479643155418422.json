@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 197
+                "votes": 233
             },
             {
                 "rating": 2,
-                "votes": 85
+                "votes": 114
             },
             {
                 "rating": 3,
-                "votes": 120
+                "votes": 142
             },
             {
                 "rating": 4,
-                "votes": 147
+                "votes": 156
             },
             {
                 "rating": 5,
-                "votes": 552
+                "votes": 625
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -74,6 +74,10 @@
             "logo_transparent": "75221326_1062885241901642_1970211887359381480_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.14.757494",
+                "change_log": "- Added an experimental counter-punch system that can be enabled in custom matches. Please try it out and give us feedback!\n- The maximum allowed wrist angle has been increased significantly.\n- Your corner color will now appear on the floor marks during a match.\n- Fixed an issue that gave incorrect match results when one player inflicted overwhelming amounts of damage.\n- Fixed an issue that was causing some players to get stuck when starting ranked match searches.\n- Errors with the ranked match search are more verbose for easier issue reporting. "
+            },
             {
                 "version": "0.1.13.756839",
                 "change_log": "0.1.13\n- First steps to reduce damage on some types of windmill and hammer punches.\n- Prevented hits from causing double damage when going from head to body.\n- Fixed issue causing arms to calibrate incorrectly based on player height. Players will be asked to calibrate again on next startup.\n- Corrected issue that would immediately disconnect spectators.\n- Reduced damage for chest hits.\n- Allow easier matching for players at the extreme ends of the ratings range"
@@ -99,10 +103,10 @@
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481226,
+        "changelog_update": 481297,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481273,
+        "rating_update": 481297,
         "iarc_detail_update": 481201,
         "keywords": [
             "fight",
@@ -110,10 +114,10 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481273,
+        "last_update": 481297,
         "category": "GAMES",
-        "votes": 1101,
-        "rating": 3.701181,
+        "votes": 1270,
+        "rating": 3.650394,
         "weighted_rating": 3.6
     },
     "errors": []
