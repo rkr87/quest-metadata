@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "2.15.1",
+                "change_log": "Fixed an issue preventing training from starting in certain cases\nFixed an issue where sometimes midfield players would have goalkeeper kits\nFixed an issue where sometimes goalkeepers would have midfielder kits\nFixed an issue where your team message would appear at the start of every scenario"
+            },
+            {
                 "version": "2.15.0",
                 "change_log": "Players have a new look\nYou can now customize your team's kit\nReduced app startup time\nReduced app download size"
             },
@@ -143,10 +147,6 @@
             {
                 "version": "2.9.6",
                 "change_log": "Fixed players not being positioned correctly in replays\nFixed inability to fly around in replay mode\nFixed grid overlay graphic appearing in replay mode\nFixed app lagging when playing a new scenario set after quitting a previous set\nFixed aiming line not appearing in scenarios when shooting\nFixed control hint for sprint action not appearing in Matchplay"
-            },
-            {
-                "version": "2.8.25",
-                "change_log": "Added an aiming line when holding down the shoot button\nFixed issues causing increased network traffic"
             }
         ],
         "on_rookie": false,
@@ -157,13 +157,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481322,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 481178,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481322,
         "category": "APPS",
         "votes": 103,
         "rating": 3.475728,

@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 233
+                "votes": 275
             },
             {
                 "rating": 2,
-                "votes": 114
+                "votes": 143
             },
             {
                 "rating": 3,
-                "votes": 142
+                "votes": 170
             },
             {
                 "rating": 4,
-                "votes": 156
+                "votes": 189
             },
             {
                 "rating": 5,
-                "votes": 625
+                "votes": 710
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -74,6 +74,10 @@
             "logo_transparent": "75221326_1062885241901642_1970211887359381480_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.15.757734",
+                "change_log": "Fix for delayed movement issue that has been occurring during some matches\nThe counter-punch bonus damage system is no longer an optional custom match option and has been made part of the core game mechanics\nFixed an issue that would sometimes cause the mark to render incorrectly at the end of a match\nMade a small tweak to damage to reduce huge unexpected spikes (much larger damage update coming soon)\nFixed ping display to show the packet travel time to the other player instead of just to the server"
+            },
             {
                 "version": "0.1.14.757494",
                 "change_log": "- Added an experimental counter-punch system that can be enabled in custom matches. Please try it out and give us feedback!\n- The maximum allowed wrist angle has been increased significantly.\n- Your corner color will now appear on the floor marks during a match.\n- Fixed an issue that gave incorrect match results when one player inflicted overwhelming amounts of damage.\n- Fixed an issue that was causing some players to get stuck when starting ranked match searches.\n- Errors with the ranked match search are more verbose for easier issue reporting. "
@@ -103,10 +107,10 @@
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481297,
+        "changelog_update": 481322,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481297,
+        "rating_update": 481322,
         "iarc_detail_update": 481201,
         "keywords": [
             "fight",
@@ -114,10 +118,10 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481297,
+        "last_update": 481322,
         "category": "GAMES",
-        "votes": 1270,
-        "rating": 3.650394,
+        "votes": 1487,
+        "rating": 3.616005,
         "weighted_rating": 3.6
     },
     "errors": []

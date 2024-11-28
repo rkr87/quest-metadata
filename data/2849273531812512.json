@@ -42,7 +42,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 482
+                "votes": 483
             },
             {
                 "rating": 2,
@@ -58,7 +58,7 @@
             },
             {
                 "rating": 5,
-                "votes": 1919
+                "votes": 1920
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.11.0",
+                "change_log": "Adjust mobile screen scaling and fix positioning.\nUpdate notifications."
+            },
             {
                 "version": "2.10.0",
                 "change_log": "Fix portals appearing in tutorial.\nFix user's ghost screens not reappearing after seat change.\nFix joinable state for users in public rooms.\nFix stuck state when offline and trying to join a room on launch.\nFix keyboard portal positioning.\nUI fixes and updates."
@@ -159,10 +163,6 @@
             {
                 "version": "1.11.21",
                 "change_log": "Fix issue with bluetooth mouse incorrectly being detected."
-            },
-            {
-                "version": "1.11.20",
-                "change_log": "Fixes to backend calls to Immersed's api.\nFix log file size getting too large.\nMinor UI fixes.\nUpdate credits reward system."
             }
         ],
         "on_rookie": false,
@@ -173,18 +173,18 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481322,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481226,
+        "rating_update": 481322,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 481226,
+        "last_update": 481322,
         "category": "APPS",
-        "votes": 2744,
-        "rating": 4.063047,
+        "votes": 2746,
+        "rating": 4.062272,
         "weighted_rating": 4.0
     },
     "errors": []

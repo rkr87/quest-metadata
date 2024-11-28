@@ -81,6 +81,10 @@
         "changelog": [
             {
                 "version": "1.4.1",
+                "change_log": "V1.4.1\nModified:\nRemoved economy modifier from Sandbox Mode\nReduced default music volume\nIncreased recoil strength on crits\nIncreased weapon recoil recovery speed\nController-based UI Raycasting\nController input trigger to click UI\n\nAdded:\nLocalization: Chinese, Japanese, Korean, German\n\nFixed:\nMinor Visual Bugs\nRecentering Bug (8/23/24)\nController hand animation locking up (Restart Meta Quest Link)\nSaved Run data being unloaded onto gamemode sessions\nHoly Medallion Wing Decal Placement\nModded weapon recoil bug\nInvulnerable cheat preventing Sandbox exit\nVictory Condition Bug (10/21/24)"
+            },
+            {
+                "version": "1.4.1",
                 "change_log": "Fixed Victory Unlock Condition Bug"
             },
             {
@@ -154,10 +158,6 @@
             {
                 "version": "1.2.2",
                 "change_log": "V1.2.2\n\nFeature Highlights:\nRogue Academy In-Game Encyclopedia\nBoss Rush Gamemode\n\nNew:\nHolly NPC Companion\nHolly / Roy NPC Dialogue\nBoss Rush Gamemode\nIn-Game Knowledge Base Encyclopedia\nInterface Background Illustrations\nVinyl Easter Egg Collectables\n\nAdded:\nBoss Rush Gamemode\nNew Database Keywords\nNew Class Unlock Indicator Text\n\nModified:\nUpgraded Source Project Version\nLevel sector titles (Cartography, Engineering)\nTutorial completion directs to knowledge base\nLarge Weapon Crate Loot Weights\nQuest 3 visual effects scale\n\nImproved:\nPsyops Class Passive Effect Visuals (Premonition)\n\nOptimized:\nRemoved framerate cap (Quest 3 performance increase)\n\nFixed:\nHolliday event candy gold sprites\nQuest 3 Overlay Resolution\nMinimum DPS Bug\nGunship Boss Impact Audio Bug\nDialogue Candidacy Failure Bug\nHeal After Death Stuck in Elevator Bug\n\nUnimplemented additions:\n\nKnown Issues:"
-            },
-            {
-                "version": "1.2.1b6",
-                "change_log": "V1.2.1\nFeature Highlights:\nNew:\nAdded:\nModified:\nLevel Gen Placement Algorithms (Windows. Lifts, Ceiling Heights, Uplink Kiosk)\nCheckpoint System Version\nIncreased Foundry Floors\nIncreased Medbay Floors\nAutoinjektor Crafting Recipe (Dual Syringe)\nImproved:\nOptimized:\nFixed:\nStuck Elevator Bug\nDecor Spawning Bug\nMedbay Decor Bug\nUnimplemented additions:\nCritical Error Status (Debug Data)\nKnown Issues:"
             }
         ],
         "on_rookie": true,
@@ -168,13 +168,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480433,
+        "changelog_update": 481322,
         "keyword_update": 474685,
         "tag_update": 475633,
         "rating_update": 480433,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481297,
+        "last_update": 481322,
         "category": "GAMES",
         "votes": 152,
         "rating": 4.638158,
