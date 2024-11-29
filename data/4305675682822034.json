@@ -1,0 +1,108 @@
+{
+    "data": {
+        "id": "4305675682822034",
+        "app_name": "VR Sync",
+        "release_date": "1980-01-01T00:00:00.000Z",
+        "description": "VR Sync is a populair solution for playing 360 content synchronized on multiple VR Devices.\n\nFor more information visit www.vr-sync.com\nRequest a free trial and get started on our dashboard: dashboard.vr-sync.com\n\nVR Sync supports 360 videos and photos which you can easily manage\nfrom the online dashboard. Just drag and drop and the content will automatically be pushed to the devices.",
+        "developer": "VR Owl",
+        "publisher": "VR Owl",
+        "genres": [],
+        "devices": [
+            "Touch Controllers",
+            "Hand Tracking"
+        ],
+        "modes": [
+            "Single User"
+        ],
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Meta Quest 3S",
+            "Meta Quest 3",
+            "Meta Quest Pro",
+            "Meta Quest 2",
+            "Meta Quest"
+        ],
+        "player_modes": [
+            "SITTING",
+            "STANDING"
+        ],
+        "tags": [],
+        "hist": [
+            {
+                "rating": 1,
+                "votes": 1
+            },
+            {
+                "rating": 2,
+                "votes": 0
+            },
+            {
+                "rating": 3,
+                "votes": 0
+            },
+            {
+                "rating": 4,
+                "votes": 1
+            },
+            {
+                "rating": 5,
+                "votes": 1
+            }
+        ],
+        "comfort": "NOT_RATED",
+        "iarc": {
+            "age_rating": "Everyone",
+            "descriptors": [],
+            "elements": [],
+            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+        },
+        "internet_connection": "REQUIRED",
+        "website": "http://vr-sync.com/",
+        "app_images": {
+            "cover_landscape": "38974518_529800245029253_4440335596938590473_n.png",
+            "cover_portrait": "38982685_369360671461950_3240475901558111325_n.png",
+            "cover_square": "38974892_881787362435738_7091743348579415547_n.png",
+            "hero": "38974901_1147491405764336_1066258904273824731_n.png",
+            "icon": "39031315_134168845461888_6125111019534203678_n.png",
+            "immersive_layer_backdrop": null,
+            "immersive_layer_logo": null,
+            "logo_transparent": "38974613_328989262287330_1316420938595630718_n.png"
+        },
+        "changelog": [
+            {
+                "version": "3.5.0",
+                "change_log": "Major Features\n\n- Significantly improve the synchronization of videos between devices. This makes VR Sync suitable for use with things like motion platforms and external audio systems. To ensure devices all start at the same time, they will now wait for a few seconds to start a video after a play command is sent. Users will see a small loading bar to indicate the waiting time.\n\n- Add HTTPS support to the VR Sync server, to improve compatibility with restrictive networks.\n\n- Motion platform support using SimTools and their Ride Creator.\n\n\n\nMinor Features/Improvements\n\n- Significantly improve the projection accuracy of 360 videos, which gets rid of 'wobblyness' that was especially noticeable on straight lines.\n\n- Increase timing accuracy of spatial audio on some platforms.\n\n- Show device latency in the web remote.\n\n- Add several functions to provide easier customer support.\n\n- Show a loading icon when a video is synchronizing to the correct time.\n\n- When devices have different locally preloaded content, the web remote will now still try to show the name of one of the files, instead of the old non-descript names like “Local Video 7”.\n\n- Improve synchronization of web remote preview view.\n\n- Prevent synchronization accuracy loss if the app and device have been running for several days without shutting down.\n\n- Locally preloaded background and logo will now override their cloud counterparts, instead of vice versa.\n\n- Implement a new request dialog for storage permissions in order to comply with the Meta Quest store requirements.\n\n\n\nBug Fixes\n\n- Fix an issue where the web remote would keep asking for a license code after clearing server data.\n\n- Pressing the cancel button right after downloading finishes would not cancel the transition to the video player on some platforms.\n\n- Don’t flash the background and company logo between playlist loops.\n\n- Fix a crash after playing many dozens of high-resolution images.\n\n- Automatically restart the application after a crash which could occur in extremely rare cases when the user dons certain types of devices right when a very large video starts.\n\n- Fix several rare issues regarding playlists and/or turning the device screen on where a video might play from the start instead of synchronizing to the correct time.\n\n- Fix wrong media/progress information in the web remote when using playlists in some scenarios.\n\n- Fix an issue where it could freeze when large .png files were used as content or as a logo."
+            },
+            {
+                "version": "3.4.5",
+                "change_log": "Add support for new Meta firmware V51"
+            },
+            {
+                "version": "3.4.4",
+                "change_log": "Greatly reduces startup time with many videos, various bugfixes."
+            }
+        ],
+        "on_rookie": false,
+        "general_update": 481346,
+        "genre_update": 481346,
+        "device_update": 481346,
+        "mode_update": 481346,
+        "language_update": 481346,
+        "platform_update": 481346,
+        "player_mode_update": 481346,
+        "changelog_update": 481346,
+        "keyword_update": 481346,
+        "tag_update": 481346,
+        "rating_update": 481346,
+        "iarc_detail_update": 481346,
+        "keywords": [],
+        "last_update": 481346,
+        "category": "APPS",
+        "votes": 3,
+        "rating": 3.333333,
+        "weighted_rating": 3.4
+    },
+    "errors": []
+}

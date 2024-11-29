@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 275
+                "votes": 326
             },
             {
                 "rating": 2,
-                "votes": 143
+                "votes": 169
             },
             {
                 "rating": 3,
-                "votes": 170
+                "votes": 200
             },
             {
                 "rating": 4,
-                "votes": 189
+                "votes": 227
             },
             {
                 "rating": 5,
-                "votes": 710
+                "votes": 792
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -79,6 +79,10 @@
                 "change_log": "Fix for delayed movement issue that has been occurring during some matches\nThe counter-punch bonus damage system is no longer an optional custom match option and has been made part of the core game mechanics\nFixed an issue that would sometimes cause the mark to render incorrectly at the end of a match\nMade a small tweak to damage to reduce huge unexpected spikes (much larger damage update coming soon)\nFixed ping display to show the packet travel time to the other player instead of just to the server"
             },
             {
+                "version": "0.1.16.758275",
+                "change_log": "0.1.16 Patch Notes\nAdded the experimental damage system update that can be enabled in custom matches and against the training dummy. Please try it out and give us feedback!\nSlightly reduced body damage.\nIncreased requirements to get a punishment knockdown.\nStanding Mode joystick movement is no longer blocked if you are outside of the shared play area during a match. This will not allow you to exit the play area!\nImproved a portion of our netcode that was failing for players in some regions when they tried to join a match.\nFixed a rare issue where players could get stuck after a knockdown.\nYour ping that is shown during a match now shows the full return trip time to and from your opponent. \nAdjusted some IK settings to improve how the body looks in certain positions."
+            },
+            {
                 "version": "0.1.14.757494",
                 "change_log": "- Added an experimental counter-punch system that can be enabled in custom matches. Please try it out and give us feedback!\n- The maximum allowed wrist angle has been increased significantly.\n- Your corner color will now appear on the floor marks during a match.\n- Fixed an issue that gave incorrect match results when one player inflicted overwhelming amounts of damage.\n- Fixed an issue that was causing some players to get stuck when starting ranked match searches.\n- Errors with the ranked match search are more verbose for easier issue reporting. "
             },
@@ -100,17 +104,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481273,
+        "general_update": 481346,
         "genre_update": 481201,
         "device_update": 481201,
         "mode_update": 481201,
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481322,
+        "changelog_update": 481346,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481322,
+        "rating_update": 481346,
         "iarc_detail_update": 481201,
         "keywords": [
             "fight",
@@ -118,11 +122,11 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481322,
+        "last_update": 481346,
         "category": "GAMES",
-        "votes": 1487,
-        "rating": 3.616005,
-        "weighted_rating": 3.6
+        "votes": 1714,
+        "rating": 3.577596,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

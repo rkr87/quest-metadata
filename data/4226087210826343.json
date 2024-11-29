@@ -106,6 +106,14 @@
         },
         "changelog": [
             {
+                "version": "6.0.95",
+                "change_log": "Bugfix regression in multiplayer bounce before net fault detection."
+            },
+            {
+                "version": "6.0.94",
+                "change_log": "Update safe gaming notice at boot. Bugfix previous button on leaderboard."
+            },
+            {
                 "version": "6.0.93",
                 "change_log": "Dim lights in terminal scene. Improve player alignment function."
             },
@@ -176,14 +184,6 @@
             {
                 "version": "6.0.76",
                 "change_log": "Update full body bot animations and locomotion"
-            },
-            {
-                "version": "6.0.75",
-                "change_log": "Bugfix doubles regression. Default bot avatars are full body for doubles."
-            },
-            {
-                "version": "6.0.74",
-                "change_log": "Bugfix doubles initial positions"
             }
         ],
         "on_rookie": true,
@@ -194,13 +194,13 @@
         "language_update": 474685,
         "platform_update": 480313,
         "player_mode_update": 474685,
-        "changelog_update": 481322,
+        "changelog_update": 481346,
         "keyword_update": 474685,
         "tag_update": 477913,
         "rating_update": 481250,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481322,
+        "last_update": 481346,
         "category": "GAMES",
         "votes": 245,
         "rating": 4.2,

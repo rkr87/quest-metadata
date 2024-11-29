@@ -71,6 +71,10 @@
         },
         "changelog": [
             {
+                "version": "1.42.61",
+                "change_log": "- Fixed Reflections and lighting during Assessment in Star Catcher, Sun Blazer and Moon Shadow."
+            },
+            {
                 "version": "1.42.59",
                 "change_log": "-Updated Fixation shader\n-Cleaned old cameras in Convergence, RhythmIQ, Login and Saccades since sometimes it would cause the view to appear weird while loading a scene.\n-Cleaned up RhythmIQ scene, and reduced Particle quantities so as to increase performance a bit on this game.\n-Removed casted shadows in some elements of Moon Shadow.\n-Changed colors for pause panel buttons in all games.\n-Fixed lineRendered being enabled on SC turrets even while not using the aim powerup, which made them render as a white circle in a single spot.\n-Fixed environment redirection"
             },
@@ -143,13 +147,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 481178,
+        "changelog_update": 481346,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 480745,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481346,
         "category": "APPS",
         "votes": 3,
         "rating": 4.333333,

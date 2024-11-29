@@ -27,10 +27,10 @@
         ],
         "platforms": [
             "Meta Quest",
+            "Meta Quest 2",
             "Meta Quest 3S",
             "Meta Quest 3",
-            "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest Pro"
         ],
         "player_modes": [
             "SITTING",
@@ -41,7 +41,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 291
+                "votes": 290
             },
             {
                 "rating": 2,
@@ -49,7 +49,7 @@
             },
             {
                 "rating": 3,
-                "votes": 96
+                "votes": 97
             },
             {
                 "rating": 4,
@@ -57,7 +57,7 @@
             },
             {
                 "rating": 5,
-                "votes": 2370
+                "votes": 2381
             }
         ],
         "comfort": "NOT_RATED",
@@ -85,6 +85,14 @@
         "changelog": [
             {
                 "version": "0.1",
+                "change_log": "# UPDATE 0.4.6\n\n## Christmas Maps\nWe’ve added Christmas versions of some of the popular maps. Enjoy the festive mood and Christmas atmosphere. Also added some decorations in the arena building.\n\n## 2025 Mega Bundle\nNew bundle featuring 25 items and a ‘Snowman’ ball with unique tumbler doll physics.\n\n## Voice Chat Settings\nAdded feature to switch voice chat to team-only or friends-only modes (see in the Settings).\n\n## In-field Bots in Multiplayer Practice\nYou can now add in-field bots on your custom arenas. They will try tackling the ball all the time. Note that this is in beta and will get improved in the future.\n\n## Portals (Experimental)\nAdded experimental portals on the starting arena.\n\n## New Bots Training Mode\nUpdated training bots and introduced bot matches in the 4v4 arena. Access it through the portal in the starting scene.\n\n## Optimized Botkeepers\nAs you may have noticed, botkeepers on custom arenas were a bit heavy on performance, so we’ve revamped them. \n\n## New Reporting Interface and Moderation\nYour assistance in reporting disruptive players is highly valued. The reporting interface has been upgraded for better usability.\n\n## Tutorial Testing \nWe’ve created a tutorial mode for new players. If you’d like to test it and share some suggestions on enhancing it, we’d appreciate that a lot. Enter via the portal on the starting arena.\n\n## New Arrivals\nApart from the Christmas bundle, check out the new arrivals, including the latest winter soccer boots and a few other things. \n\n## Graphics Settings\nYou can now switch to higher or lower resolution if you’d like to. \n\n## Some Bug Fixes\nFixed glitched items in some lockers\nEnhanced performance on the VFA arena\nOptimized palm trees\n"
+            },
+            {
+                "version": "0.1",
+                "change_log": "# UPDATE 0.4.6\n\n## Christmas Maps\nWe’ve added Christmas versions of some of the popular maps. Enjoy the festive mood and Christmas atmosphere. Also added some decorations in the arena building.\n\n## 2025 Mega Bundle\nNew bundle featuring 25 items and a ‘Snowman’ ball with unique tumbler doll physics.\n\n## Voice Chat Settings\nAdded feature to switch voice chat to team-only or friends-only modes (see in the Settings).\n\n## In-field Bots in Multiplayer Practice\nYou can now add in-field bots on your custom arenas. They will try tackling the ball all the time. Note that this is in beta and will get improved in the future.\n\n## Portals (Experimental)\nAdded experimental portals on the starting arena.\n\n## New Bots Training Mode\nUpdated training bots and introduced bot matches in the 4v4 arena. Access it through the portal in the starting scene.\n\n## Optimized Botkeepers\nAs you may have noticed, botkeepers on custom arenas were a bit heavy on performance, so we’ve revamped them. \n\n## New Reporting Interface and Moderation\nYour assistance in reporting disruptive players is highly valued. The reporting interface has been upgraded for better usability.\n\n## Tutorial Testing \nWe’ve created a tutorial mode for new players. If you’d like to test it and share some suggestions on enhancing it, we’d appreciate that a lot. Enter via the portal on the starting arena.\n\n## New Arrivals\nApart from the Christmas bundle, check out the new arrivals, including the latest winter soccer boots and a few other things. \n\n## Graphics Settings\nYou can now switch to higher or lower resolution if you’d like to. \n\n## Some Bug Fixes\nFixed glitched items in some lockers\nEnhanced performance on the VFA arena\nOptimized palm trees\n"
+            },
+            {
+                "version": "0.1",
                 "change_log": "# UPDATE 0.4.5\n\n## New Mega Pitch\nAdded an even larger pitch (way beyond FIFA standards) as it was highly requested by the community. This arena is available for public and private games and in the arena editor.\n\n## Curl Physics Enhanced\nThe curl physics simulation has been updated to enhance realism, smoothness, and predictability. Let us know what you think about this change. Note that balls with extra curling effects remain unchanged.\n\n## Corner Flags with Physics\nRecreated the original corner flags with fully-featured physics for your celebrations.\n\n## Renegade and Razor Bundles\nEach bundle includes six items you can mix and match to create unique sci-fi looks.\n\n## New Boots Collection\nThe new brand with a strange unreadable name “/////” features 16 sports casual boots designs.\n\n## Gloves Dash Disabled\nAfter long consideration, taking into account the new GK mechanics and community feedback, we've disabled the gloves dash. We can switch it back on if the majority wants this.\n\n## Performance Improved\nA lot of performance optimizations have been made in the online practice mode and some official maps. We keep on working on more optimizations for the custom arenas to move the limits as far away as possible.\n\n## Other\nFixed some known bugs, potentially improved stick-drift issues, head physics, custom arena thumbnails, and overall performance enhancements."
             },
             {
@@ -154,14 +162,6 @@
             {
                 "version": "0.1",
                 "change_log": "# UPDATE 0.4.1\n\n## INTRODUCING STORE CREDITS AND GIFTS!\nYou can now purchase store credits to use in the store. You can also send store credits as gifts by clicking on a name in your current lobby or by using the player's ID.\n\n## BODY COLLISIONS TESTING\nAvailable as an experimental feature in private matches for initial testing. We’ll improve body collisions based on your feedback.\n\n## THROWING PHYSICS UPDATE\nImproved responsiveness and ball rotation during throws, along with several bug fixes. While we know you’d like this feature in matches, it needs more polishing before being fully released.\n\n## TRAMPOLINES, SPEED BOOSTERS, AND MORE\nIn the arena editor, you can now add trampolines and speed boosters that interact with balls and players in locomotion mode. We’ve also added a ‘no-stick movement’ locomotion button as a separate mechanic.\n\n## U19 GLOVES PACK BUNDLE\nA new bundle from U19 designers featuring 7 new gloves, including thin gloves similar to those used in sports like baseball and basketball.\n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.4.0\n\nUPDATED ‘FAVELA’ MAP  \n- Revamped and improved\n\nARENA EDITOR ENHANCEMENTS  \n- You can now choose to place objects freely in the air\n- Undo/Redo feature \n- Customizable floor materials\n- New building objects (Favela pack)\n\nNEW THROWING MECHANICS  \n- Switch to gloves and hold the ball by pressing the trigger. This currently works only in practice mode. Throwing physics will be improved in future updates, so we’d appreciate your feedback\n\nSTORE ITEMS & BUNDLES\n- Baseball\n- U19 GT bundle \n- Event collection bundle\n\nPRIVATE LOBBIES  \n- Outs can now be activated in private lobbies (experimental)\n\nBUG FIXES, OPTIMIZATIONS & MORE\n- Custom arenas in public practice rotation\n- Resolved issues with the ball sometimes stuck after spawn\n- Resolved issue with inability to deflect the ball in penalty series sometimes\n- Significantly optimized custom arenas \n- Fixed glitches on scaled scoreboards\n- Something else :)  \n"
-            },
-            {
-                "version": "0.1",
-                "change_log": "UPDATE 0.4.0\n\nUPDATED ‘FAVELA’ MAP  \n- Revamped and improved\n\nARENA EDITOR ENHANCEMENTS  \n- You can now choose to place objects freely in the air\n- Undo/Redo feature \n- Customizable floor materials\n- New building objects (Favela pack)\n\nNEW THROWING MECHANICS  \n- Switch to gloves and hold the ball by pressing the trigger. This currently works only in practice mode. Throwing physics will be improved in future updates, so we’d appreciate your feedback\n\nSTORE ITEMS & BUNDLES\n- Baseball\n- U19 GT bundle \n- Event collection bundle\n\nPRIVATE LOBBIES  \n- Outs can now be activated in private lobbies (experimental)\n\nBUG FIXES, OPTIMIZATIONS & MORE\n- Custom arenas in public practice rotation\n- Resolved issues with the ball sometimes stuck after spawn\n- Resolved issue with inability to deflect the ball in penalty series sometimes\n- Significantly optimized custom arenas \n- Fixed glitches on scaled scoreboards\n- Something else :)  \n"
             }
         ],
         "on_rookie": false,
@@ -172,16 +172,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481346,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481322,
+        "rating_update": 481346,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481322,
+        "last_update": 481346,
         "category": "GAMES",
-        "votes": 3084,
-        "rating": 4.414721,
+        "votes": 3095,
+        "rating": 4.417447,
         "weighted_rating": 4.4
     },
     "errors": []
