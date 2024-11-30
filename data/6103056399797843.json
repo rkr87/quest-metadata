@@ -3,7 +3,7 @@
         "id": "6103056399797843",
         "app_name": "Wall Town Wonders",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Wall Town Wonders is a mixed reality game that turns your living room into a lively miniature town. Help colorful characters build their world through fun quests and mini-games, unlocking unique buildings and surprises along the way.\n\n💬 \"This could win Mixed-Reality Game of the Year!\" - **The Elite Institute**\n\n💬 \"A Mixed Reality City Builder with Tons of Charm.\" - **Road To VR**\n\n💬 \"Wall Town Wonders is the best surprise of 2024 on Meta!\" - **Quel Tizio In VR**\n\n💬 \"Wall to wall fun.\" - **Thumb Culture**\n\n💬 \"Charming, cozy, and addictive. I didn't intend to, but played for hours on my first try.\" - **GameList+**\n\n💬 \"One of the best mixed reality experiences to date!\" - **Gamekod3**\n\n\n\n# Mixed reality cosy life sim city builder:\nDive into a world where you will experience MR like never before, with unique interactions and highly detailed environments.\n\n![{\"height\":400,\"type\":\"image\",\"width\":1280}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/38974910_1244979133617883_2649082754817463864_n.png?_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=AMOpPY6maSYQ7kNvgEVPsyU&_nc_zt=3&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYD1689Bsw5vZT0TjTtWE_LILLdBjOLOeouh-PeMKQCikw&oe=674ED77F)\n\n# Innovative Handtracking and Interactions: \nExperience the magic of interacting with your town's people using just your bare hands, adding a new level of realism and immersion to gameplay.\n\n{877223127628737}\n\n# Gentle and Relaxing Gameplay: \nPlay, discover, and nurture your town at your own pace in a tranquil and soothing environment, perfect for unwinding and relaxation.\n\n{2757946757700941}\n\n# Endless Customization and Exploration: \nCollect countless new looks and customization options for your city through gameplay and exploration, ensuring each experience is uniquely tailored to your preferences.",
+        "description": "Wall Town Wonders is a mixed reality game that turns your living room into a lively miniature town. Help colorful characters build their world through fun quests and mini-games, unlocking unique buildings and surprises along the way.\n\n💬 \"This could win Mixed-Reality Game of the Year!\" - **The Elite Institute**\n\n💬 \"A Mixed Reality City Builder with Tons of Charm.\" - **Road To VR**\n\n💬 \"Wall Town Wonders is the best surprise of 2024 on Meta!\" - **Quel Tizio In VR**\n\n💬 \"Wall to wall fun.\" - **Thumb Culture**\n\n💬 \"Charming, cozy, and addictive. I didn't intend to, but played for hours on my first try.\" - **GameList+**\n\n💬 \"One of the best mixed reality experiences to date!\" - **Gamekod3**\n\n\n\n# Mixed reality cosy life sim city builder:\nDive into a world where you will experience MR like never before, with unique interactions and highly detailed environments.\n\n![{\"height\":400,\"type\":\"image\",\"width\":1280}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/38974910_1244979133617883_2649082754817463864_n.png?_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=94TdlZLYOA4Q7kNvgH_oqYC&_nc_zt=3&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYCwcCASkVy8UE-U-gBRdD6qhe5F7LqgnuFmvU8EDY7ZMQ&oe=675028FF)\n\n# Innovative Handtracking and Interactions: \nExperience the magic of interacting with your town's people using just your bare hands, adding a new level of realism and immersion to gameplay.\n\n{877223127628737}\n\n# Gentle and Relaxing Gameplay: \nPlay, discover, and nurture your town at your own pace in a tranquil and soothing environment, perfect for unwinding and relaxation.\n\n{2757946757700941}\n\n# Endless Customization and Exploration: \nCollect countless new looks and customization options for your city through gameplay and exploration, ensuring each experience is uniquely tailored to your preferences.",
         "developer": "Cyborn BVBA",
         "publisher": "Cyborn BV",
         "genres": [
@@ -41,11 +41,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 13
+                "votes": 14
             },
             {
                 "rating": 2,
-                "votes": 8
+                "votes": 10
             },
             {
                 "rating": 3,
@@ -53,11 +53,11 @@
             },
             {
                 "rating": 4,
-                "votes": 18
+                "votes": 19
             },
             {
                 "rating": 5,
-                "votes": 138
+                "votes": 143
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -82,6 +82,10 @@
         "changelog": [
             {
                 "version": "1.01",
+                "change_log": "* Fixed a bug that made some buildings disappear on room recovery\n* Added a safety that would gift these buildings back in case they were lost\n* Added additional safeties on room recovery\n* Added more stable room scanning flow  "
+            },
+            {
+                "version": "1.01",
                 "change_log": "* Ninja Quest stability fixes\n* Random balloon character animation fixes\n* Floating character that could randomly float in the middle of your room\n* Alchemist is now also opened up if no ninja quest is active\n* Confirmation menu's are now correctly sorted in the case you want to select a different save slot in a new room\n* Falling seed catcher can find enough room again in most rooms\n* If a building cannot be upgraded due to bigger restraints on higher build tiers you will now get a message for that\n* made it possible again to move old town and restaurant.\n* Sometimes dialogue boxes were no longer interactible when a character spawned while you were in the mine this is resolved.\n* Added a safety that prevent crashes on startup after room swapping"
             },
             {
@@ -94,17 +98,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481346,
+        "general_update": 481369,
         "genre_update": 481178,
         "device_update": 481178,
         "mode_update": 481178,
         "language_update": 481178,
         "platform_update": 481178,
         "player_mode_update": 481178,
-        "changelog_update": 481346,
+        "changelog_update": 481369,
         "keyword_update": 481178,
         "tag_update": 481178,
-        "rating_update": 481346,
+        "rating_update": 481369,
         "iarc_detail_update": 481178,
         "keywords": [
             "simulator",
@@ -112,11 +116,11 @@
             "casual",
             "handtracking"
         ],
-        "last_update": 481346,
+        "last_update": 481369,
         "category": "GAMES",
-        "votes": 193,
-        "rating": 4.34715,
-        "weighted_rating": 4.3
+        "votes": 202,
+        "rating": 4.321782,
+        "weighted_rating": 4.2
     },
     "errors": []
 }

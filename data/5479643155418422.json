@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 326
+                "votes": 398
             },
             {
                 "rating": 2,
-                "votes": 169
+                "votes": 178
             },
             {
                 "rating": 3,
-                "votes": 200
+                "votes": 232
             },
             {
                 "rating": 4,
-                "votes": 227
+                "votes": 272
             },
             {
                 "rating": 5,
-                "votes": 792
+                "votes": 925
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -74,6 +74,10 @@
             "logo_transparent": "75221326_1062885241901642_1970211887359381480_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.17.758452",
+                "change_log": "0.1.17 Patch Notes\nAdded the experimental damage system update that can be enabled in custom matches and against the training dummy. Please try it out and give us feedback!\nSlightly reduced body damage.\nIncreased requirements to get a punishment knockdown.\nStanding Mode joystick movement is no longer blocked if you are outside of the shared play area during a match. This will not allow you to exit the play area!\nImproved a portion of our netcode that was failing for players in some regions when they tried to join a match.\nFixed a rare issue where players could get stuck after a knockdown.\nYour ping that is shown during a match now shows the full return trip time to and from your opponent.\nAdjusted some IK settings to improve how the body looks in certain positions."
+            },
             {
                 "version": "0.1.15.757734",
                 "change_log": "Fix for delayed movement issue that has been occurring during some matches\nThe counter-punch bonus damage system is no longer an optional custom match option and has been made part of the core game mechanics\nFixed an issue that would sometimes cause the mark to render incorrectly at the end of a match\nMade a small tweak to damage to reduce huge unexpected spikes (much larger damage update coming soon)\nFixed ping display to show the packet travel time to the other player instead of just to the server"
@@ -111,10 +115,10 @@
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481346,
+        "changelog_update": 481369,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481346,
+        "rating_update": 481369,
         "iarc_detail_update": 481201,
         "keywords": [
             "fight",
@@ -122,10 +126,10 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481346,
+        "last_update": 481369,
         "category": "GAMES",
-        "votes": 1714,
-        "rating": 3.577596,
+        "votes": 2005,
+        "rating": 3.572569,
         "weighted_rating": 3.5
     },
     "errors": []

@@ -95,6 +95,10 @@
         },
         "changelog": [
             {
+                "version": "1.16.3.276964-release",
+                "change_log": "Fixed an issue with a frozen popup in Treehouse River"
+            },
+            {
                 "version": "1.16.3.276586-release",
                 "change_log": "Fixed an issue where the game would not load when offline, after updating from a previous version of Bait!"
             },
@@ -161,10 +165,6 @@
             {
                 "version": "1.14.196795-release",
                 "change_log": "New features:\n- Toggling 'Push to talk' is now also editable through settings (no longer required going to Casters' Cove)\n- Varying fish sizes in Penguin Point\n\nBugfixes:\n- Players that deny microphone permissions can now enter Penguin Point without crashing\n- Re-enabled Exit Game (Go To Docks) button in settings\n- Improvements to multiplayer inventory coins and items loading between save slots\n- Fixed bug where multiplayer coins and multiplayer items bought  in Penguin Point was not saved until scene change, now also saved when fish is caught and item bought\n- Improvements to Avatar loading when CDN fails\n- Pink gator trash fish no longer counted towards game completion\n- Bugfix where advanced singleplayer items in Jimbob's Shop were not available to buy unless certain singleplayer gear was equipped\n\nKnown issues:\n- Players who deny mic permissions can not hear other players in multiplayer while in Penguin Point"
-            },
-            {
-                "version": "1.14.193452",
-                "change_log": "1.14.193452 patch notes\n\nKnown issues:\n- entering penguin point (multiplayer scene) without allowing microphone access can crash the game.\n\nBug fixing\n- fixed crash caused by joining a multipalyer room with idle host.\n- fixed bug with the mute button not working in penguin point after having used push-to-talk.\n- fixed bug where ther chair would sometimes disapear after having visited the vending machine.\n- fixed missing questline completed popup.\n\nVisual updates\n- fixed trash croc aligenment.\n- fixed snow poof effect.\n- fixed various UI glitches.\n- improved water shader.\n- improved vending machine visuals.\n- added vending machine item rarity effect.\n\nTweaks\n- made return to fishing chair mechanic work similar to other movement.\n\nAdditions\n- added info popup on first visit to penguin point.\n- added info access button on multiplayer page in fish-o-dex."
             }
         ],
         "on_rookie": false,
@@ -175,7 +175,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481346,
+        "changelog_update": 481369,
         "keyword_update": 474881,
         "tag_update": 474880,
         "rating_update": 481346,
@@ -185,7 +185,7 @@
             "fish",
             "free"
         ],
-        "last_update": 481346,
+        "last_update": 481369,
         "category": "GAMES",
         "votes": 3099,
         "rating": 4.026783,
