@@ -28,7 +28,9 @@
         "player_modes": [
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -75,6 +77,10 @@
         },
         "changelog": [
             {
+                "version": "0.40.7.0",
+                "change_log": "VERSION: 0.40.7.0\nBUGFIX: ScoreBoard header titles are now consistent and grammatically correct.\nBUGFIX: Pirates campaign now plays arena ambience audio.\nBUGFIX: Level ratings now save username correctly.\nBUGFIX: Removed Oculus Spatializer reflections.\nBUGFIX: Endless mode > style score calculation takes into account total number of obstacles.\nBUGFIX: Endless mode now resets all portals/worlds back to original state of level after finishing the level instance.\nCHANGE: Made arrows in Level Rating panel bigger.\nCHANGE: Order of level ratings changed to be more logical.\nCHANGE: No style points for obstacles that are dodged when > 5m away."
+            },
+            {
                 "version": "0.40.6.0",
                 "change_log": "VERSION: 0.40.6.0\nBUGFIX: Obstacles now play audio correctly when moving (huge regression in 40.2.0)!!!\nBUGFIX: Arena ambience ambisonic audio now plays correctly when teleporting.\nBUGFIX: Cleaned up SciFiHardwareStore world.\nBUGFIX: Shield tutorial level can now be completed after blocking 2 obstacles.\nBUGFIX: Tutorial now shows correct controllers for all Quest devices.\nCHANGE: Changed some tutorial level text to be less confusing."
             },
@@ -107,13 +113,13 @@
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 481250,
+        "changelog_update": 481394,
         "keyword_update": 480193,
-        "tag_update": 480193,
+        "tag_update": 481394,
         "rating_update": 481178,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 481250,
+        "last_update": 481394,
         "category": "GAMES",
         "votes": 4,
         "rating": 5.0,
