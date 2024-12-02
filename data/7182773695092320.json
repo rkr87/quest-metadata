@@ -34,7 +34,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 2,
@@ -50,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 25
+                "votes": 26
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -73,6 +73,10 @@
             "logo_transparent": "38982630_1675020876358997_7794976227427543697_n.png"
         },
         "changelog": [
+            {
+                "version": "4.2.1",
+                "change_log": "Added notion of time in the notebook and to therapists, improved management of notebook notes"
+            },
             {
                 "version": "4.2.1",
                 "change_log": "Added notion of time in the notebook and to therapists, improved management of notebook notes"
@@ -144,10 +148,6 @@
             {
                 "version": "3.4",
                 "change_log": "New hands free feature, talk just with your voice without controllers!"
-            },
-            {
-                "version": "3.4",
-                "change_log": "New hands free feature, talk just with your voice without controllers!"
             }
         ],
         "on_rookie": false,
@@ -158,16 +158,16 @@
         "language_update": 479953,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 481394,
+        "changelog_update": 481418,
         "keyword_update": 478921,
         "tag_update": 478921,
-        "rating_update": 481226,
+        "rating_update": 481418,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 481394,
+        "last_update": 481418,
         "category": "APPS",
-        "votes": 41,
-        "rating": 4.585366,
+        "votes": 43,
+        "rating": 4.511628,
         "weighted_rating": 4.3
     },
     "errors": []
