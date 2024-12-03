@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 183
+                "votes": 185
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -77,6 +77,10 @@
             "logo_transparent": "39031327_3613340595587260_1107946763981684942_n.png"
         },
         "changelog": [
+            {
+                "version": "4104",
+                "change_log": "-\nv41 is RELEASED !\n\nDidn't expect it so soon did ya ?\n\n# AI Controller Hotkey\n\n- Effortlessly use AI with no countdown or menu interaction !\n\n- Properly integrated, cannot be accidentally triggered, and offers introductory visual explanation on how to use\n\n# AI Improvements\n\n- AI Visualization now utilizes 3.29x more resolution ( 228% more quality )\n\n- AI can now properly visualize your perspective in Space\n\n- Fixed seeing Markdown Syntax ( ** ) in AI responses\n\n- If the AI usage limit every few hours wasn’t already generous, now it’s even higher / harder to reach !\n\n# Additional\n\n- A considerate amount of polishing, behavior refinement for better reliability, and bug fixes.\n\n- Wind will no longer be heard when flying with Flight Speed 0.1x \n\n- Careful small refinements made to Thumbstick Smooth Rotation, preventing accidentally turning when the Thumbstick is tilted very slightly. Additionally resulting in more responsive 'Thumbstick Flight Input Mode' controls.\n\n- FINALLY Solved the rare, mysterious crash that happened immediately after loading in.  ( I'm 95% sure it's fixed, if it ever happens to you again, let me know - contact.earthquest.site )\n\n- Improved Street View nearby 360 detection and usage\n\nLet me know if there are any issues, big OR small ( contact.earthquest.site )"
+            },
             {
                 "version": "4103",
                 "change_log": "-\nv41 is RELEASED !\n\nDidn't expect it so soon did ya ?\n\n# AI Controller Hotkey\n\n- Effortlessly use AI with no countdown or menu interaction !\n\n- Properly integrated, cannot be accidentally triggered, and offers introductory visual explanation on how to use\n\n# AI Improvements\n\n- AI Visualization now utilizes 3.29x more resolution ( 228% more quality )\n\n- AI can now properly visualize your perspective in Space\n\n- Fixed seeing Markdown Syntax ( ** ) in AI responses\n\n- If the AI usage limit every few hours wasn’t already generous, now it’s even higher / harder to reach !\n\n# Additional\n\n- A considerate amount of polishing, behavior refinement for better reliability, and bug fixes.\n\n- Wind will no longer be heard when flying with Flight Speed 0.1x \n\n- Careful small refinements made to Thumbstick Smooth Rotation, preventing accidentally turning when the Thumbstick is tilted very slightly. Additionally resulting in more responsive 'Thumbstick Flight Input Mode' controls.\n\n- FINALLY Solved the rare, mysterious crash that happened immediately after loading in.  ( I'm 95% sure it's fixed, if it ever happens to you again, let me know - contact.earthquest.site )\n\n- Improved Street View nearby 360 detection and usage\n\nLet me know if there are any issues, big OR small ( contact.earthquest.site )"
@@ -152,10 +156,6 @@
             {
                 "version": "3652",
                 "change_log": "-\nv36.5 Released !\n\nPolishing\n- Solved 'Search For Place' coordinate loading stutter, it is now smooth like every other function\n\n- Atmospheric new music track\n\n- Many other smaller improvements ( Functionality & UI ) and polish\n\nBig Improvements\n- Street View 'Community Imagery' Toggle  -  in 'Preferences'\n\n- GUARANTEED 90 FPS Average in EVERY Loaded Street View thanks to significant optimization !\n\nSee the full list of changes on discord ( earthquest.site )\n-\nv36.00, the version that expands upon all the previous limitations, and which adds one of the most requested feature of all time, is OUT NOW !\n\nMultiplayer with up to not 3, BUT 4 Simultaneous Players !!!!\n\n- Let the adventures begin in 3x, and 4x the fun !!!\n- Maximally optimized the entirety of the Multiplayer Core System for maximum performance no matter the amount of players\n- Redesigned the Multiplayer Interface, highlighting the current Player’s visible ID, dynamic player list to select which user to teleport to, and room code, all with a new compact & intuitive design with simple & clear visibility\n- Only compatible with players on v36 and future versions\n\nThe Flight Speed Adjustment System has been reworked to ensure consistency and best possible experience for every altitude and ground level !!\n\n- Altitude inconsistency is now fixed - Previously flying close to the ground at higher altitudes produced significantly faster acceleration than the optimal 0-700m from sea level, which was frustrating and inconvenient \n- The new system will not only provide the same desired speed adjustments for all altitudes and surfaces, but will also provide a more immersive, natural, and dynamic experience specifically tailored to more favorably adapt the user’s chosen speed.\n- The system is also more flexible, allowing a larger flight speed setting range ! ( 0.2x to 3.0x )\n\nEntire Hub User Interface REDESIGN !\n\n- The Main Menu will simply be shown without any other settings or options, for maximum simplicity and ease of use; offering clear, comfortable visibility\n- A new panel is introduced specifically designed for Flight Customization Settings, Comfort Options, and Accessibility\n- Starting with v36, a quick option that allows resetting app data will now effortlessly allow users to instantly solve any underlying bug / error that may rarely occur within just 2 presses !\n\nAdditional\n\n- Updated the Menu Button’s color to reflect EarthQuest’s main color palette, Green-Blue\n- Tens of other smaller improvements \n\n——\nEnjoy ❤️"
-            },
-            {
-                "version": "3650",
-                "change_log": "-\nv36.5 Released !\n\n.5 - Not a HUGE one, but not small one either\n\nPolishing\n- Solved 'Search For Place' coordinate loading stutter, it is now smooth like every other function\n\n- Atmospheric new music track\n\n- Many other smaller improvements ( Functionality & UI ) and polish\n\nBig Improvements\n- Street View 'Community Imagery' Toggle  -  in 'Preferences'\n( due to API constraints, this feature may limit imagery in EXTREMELY busy areas like times square )\n\n- GUARANTEED 90 FPS Average in EVERY Loaded Street View thanks to significant optimization !\n\nSee the full list of changes on discord ( earthquest.site )\n-\nv36.00, the version that expands upon all the previous limitations, and which adds one of the most requested feature of all time, is OUT NOW !\n\nMultiplayer with up to not 3, BUT 4 Simultaneous Players !!!!\n\n- Let the adventures begin in 3x, and 4x the fun !!!\n- Maximally optimized the entirety of the Multiplayer Core System for maximum performance no matter the amount of players\n- Redesigned the Multiplayer Interface, highlighting the current Player’s visible ID, dynamic player list to select which user to teleport to, and room code, all with a new compact & intuitive design with simple & clear visibility\n- Only compatible with players on v36 and future versions\n\nThe Flight Speed Adjustment System has been reworked to ensure consistency and best possible experience for every altitude and ground level !!\n\n- Altitude inconsistency is now fixed - Previously flying close to the ground at higher altitudes produced significantly faster acceleration than the optimal 0-700m from sea level, which was frustrating and inconvenient \n- The new system will not only provide the same desired speed adjustments for all altitudes and surfaces, but will also provide a more immersive, natural, and dynamic experience specifically tailored to more favorably adapt the user’s chosen speed.\n- The system is also more flexible, allowing a larger flight speed setting range ! ( 0.2x to 3.0x )\n\nEntire Hub User Interface REDESIGN !\n\n- The Main Menu will simply be shown without any other settings or options, for maximum simplicity and ease of use; offering clear, comfortable visibility\n- A new panel is introduced specifically designed for Flight Customization Settings, Comfort Options, and Accessibility\n- Starting with v36, a quick option that allows resetting app data will now effortlessly allow users to instantly solve any underlying bug / error that may rarely occur within just 2 presses !\n\nAdditional\n\n- Updated the Menu Button’s color to reflect EarthQuest’s main color palette, Green-Blue\n- Tens of other smaller improvements \n\n——\nEnjoy ❤️"
             }
         ],
         "on_rookie": true,
@@ -166,16 +166,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 475561,
-        "changelog_update": 481418,
+        "changelog_update": 481442,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481418,
+        "rating_update": 481442,
         "iarc_detail_update": 481178,
         "keywords": [],
-        "last_update": 481418,
+        "last_update": 481442,
         "category": "APPS",
-        "votes": 249,
-        "rating": 4.349398,
+        "votes": 251,
+        "rating": 4.354582,
         "weighted_rating": 4.3
     },
     "errors": []

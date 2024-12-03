@@ -83,6 +83,10 @@
                 "change_log": "🚀 Features & Improvements\n\n- Thickened surfaces can now be baked with either hard edges (creased) or soft edges\n- Better visual feedback for touching vs. pressing buttons\n- Web browser experimental feature: enabled uploading instant screenshots and downloading 3D files (useful for AI workflows). This is a beta feature so this may not work consistently/not work for all web pages.\n\n🐛 Bug Fixes\n- Duplicating a collapsed layer group now correctly duplicates the layers it contains\n- Fixed memory issues when repeatedly deleting/restoring points\n- Other misc fixes"
             },
             {
+                "version": "6.3.10-generalqc",
+                "change_log": "🚀 Features & Improvements\n\n- Added “Bake Transforms” option to FBX exports, which solves some transform issues when opening an exported file in Rhino and avoids the creation of empties in Blender\n- Some performance improvements when importing large zipped files (GRS, OBJ)\n\n🐛 Bug Fixes\n\n- Standalone headsets: local folders now visible in import menu when “Allow USB File Access” is disabled\n- Recovery autosaves now have the correct layer/layer group info\n- Viewpoint navigation via thumbstick now respects viewpoint order\n- Cancelling a save no longer causes bad filepaths to be displayed on next save attempt\n- Progress bar numbers when uploading larger files now make more sense\n- Fixed wrong hues on screenshots of the web browser\n- When creating primitive shapes in Central Line mode, shift trigger can now be used to create shapes with uniform dimensions e.g. a perfect sphere/cube\n- Fixed some UI options incorrectly displaying in Collab for users who don’t have access to them"
+            },
+            {
                 "version": "6.3.9-generalqc",
                 "change_log": "🚀 Features & Improvements\n\n- Thickened surfaces can now be baked with either hard edges (creased) or soft edges\n- Better visual feedback for touching vs. pressing buttons\n- Web browser experimental feature: enabled uploading instant screenshots and downloading 3D files (useful for AI workflows). This is a beta feature so this may not work consistently/not work for all web pages.\n\n🐛 Bug Fixes\n- Duplicating a collapsed layer group now correctly duplicates the layers it contains\n- Fixed memory issues when repeatedly deleting/restoring points\n- Other misc fixes"
             },
@@ -129,10 +133,6 @@
             {
                 "version": "6.3.2-generalqog",
                 "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an occasional error that could prevent the user from performing most sketch actions.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Improved appearance of highlights around sketch objects."
-            },
-            {
-                "version": "6.3.2-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an occasional error that could prevent the user from performing most sketch actions.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Improved appearance of highlights around sketch objects."
             }
         ],
         "on_rookie": false,
@@ -143,7 +143,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481442,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 481226,
@@ -153,7 +153,7 @@
             "model",
             "design"
         ],
-        "last_update": 481226,
+        "last_update": 481442,
         "category": "APPS",
         "votes": 1118,
         "rating": 4.103757,

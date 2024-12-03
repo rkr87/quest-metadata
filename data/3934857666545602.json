@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "0.32",
+                "change_log": "Added event mode to personal stats. In this mode only pitches for a temporary player are shown. When switching to another player the calls are dleted so they don't impact your own stats."
+            },
+            {
                 "version": "0.31",
                 "change_log": "Small bug fixes from previous version"
             },
@@ -117,13 +121,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 481178,
+        "changelog_update": 481442,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 481250,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 481250,
+        "last_update": 481442,
         "category": "APPS",
         "votes": 19,
         "rating": 2.421053,
