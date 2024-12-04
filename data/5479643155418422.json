@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 540
+                "votes": 582
             },
             {
                 "rating": 2,
-                "votes": 238
+                "votes": 248
             },
             {
                 "rating": 3,
-                "votes": 305
+                "votes": 316
             },
             {
                 "rating": 4,
-                "votes": 358
+                "votes": 382
             },
             {
                 "rating": 5,
-                "votes": 1291
+                "votes": 1414
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,6 +78,14 @@
             "logo_transparent": "75221326_1062885241901642_1970211887359381480_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.19.759119",
+                "change_log": "0.1.19 Patch Notes\n- Fixed an issue that was causing the Damage Update V2 toggle in Training to act incorrectly\n- The beacon list that appears while searching for a Ranked match is now scrollable\n- Small visual fixes for the stun effect "
+            },
+            {
+                "version": "0.1.18.759029",
+                "change_log": "0.1.18 Patch Notes\n- The new damage update \"v1\" has been enabled in Ranked and in Training\n- The next round of damage testing \"v2\" is now available in Custom matches and in Training\n- Updated visual effect that plays when you get hit to better convey how much damage you received\n- Added more networking information to the Ranked menu when searching for a match\n- Reduced the time it takes to check regional ping when starting search for a ranked match"
+            },
             {
                 "version": "0.1.17.758452",
                 "change_log": "0.1.17 Patch Notes\nAdded the experimental damage system update that can be enabled in custom matches and against the training dummy. Please try it out and give us feedback!\nSlightly reduced body damage.\nIncreased requirements to get a punishment knockdown.\nStanding Mode joystick movement is no longer blocked if you are outside of the shared play area during a match. This will not allow you to exit the play area!\nImproved a portion of our netcode that was failing for players in some regions when they tried to join a match.\nFixed a rare issue where players could get stuck after a knockdown.\nYour ping that is shown during a match now shows the full return trip time to and from your opponent.\nAdjusted some IK settings to improve how the body looks in certain positions."
@@ -112,17 +120,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481346,
+        "general_update": 481466,
         "genre_update": 481201,
         "device_update": 481201,
         "mode_update": 481201,
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481369,
+        "changelog_update": 481466,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481442,
+        "rating_update": 481466,
         "iarc_detail_update": 481442,
         "keywords": [
             "fight",
@@ -130,11 +138,11 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481442,
+        "last_update": 481466,
         "category": "GAMES",
-        "votes": 2732,
-        "rating": 3.593704,
-        "weighted_rating": 3.5
+        "votes": 2942,
+        "rating": 3.611149,
+        "weighted_rating": 3.6
     },
     "errors": []
 }

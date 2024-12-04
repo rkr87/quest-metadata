@@ -81,6 +81,10 @@
         },
         "changelog": [
             {
+                "version": "4.19.0.12494",
+                "change_log": "4.0.18->4.19.0\n\n**`FEATURES`**\n\n-  Scene switcher UI was returned.\n\n-  Implemented a progress indicator.\n\n**`IMPROVEMENTS`**\n\n-  Resurrected Pico platform functionality.\n\n-  \"Show avatars\" is now OFF by default.\n\n-  Refactored scene systems to prepare for migration to state-based scenes.\n\n-  Polished Figma view for improved usability.\n\n-  Improved Bindings Updater to address issues with object offsets during controller movement.\n\n-  Supported scene changes using the new Scenes Menu on the controller during object grabbing or Gizmo use.\n\n**`BUG FIXES`**\n\n- Fixed exception and freeze when adding stages with objects to a collaborative session without an internet \nconnection.\n\n- Menu no longer jumps when the user moves using teleport.\n\n- Exception fixed while grabbing certain objects\n\n- Interactions no longer stay in the background when the object is transferred to the scene.\n\n- Fixed exception after pausing\n\n- Move button in import preview is no longer available after the trial ends.\n\n- Spaces now open in the correct mode instead of always defaulting to MR mode.\n\n- Fixed incorrect scene indexing on the controller in Play mode.\n\n- Commenters and viewers can no longer change space names.\n\n- Interactions are no longer duplicated when duplicating or copy-pasting a scene.\n\n- Group bounds are no longer shown during interactivity scene previews.\n\n- Scene numbers are now synced correctly in Same Page mode between versions 18 and 19.\n\n- Scene numbers are now synced on interactivity cards.\n\n- Fixed issue where controllers appeared \"empty\" when pointing at objects with interactivity in Play mode.\n\n- Hover effect now works for viewers and commenters in Play mode.\n\n- Background notification now displays when changing spaces.\n\n- Viewpoints are now correctly handled as part of scenes and the background.\n\n- Added pop-up explaining why the Paste button is inactive for free users in the selection menu.\n\n- Trial notifications now display correctly for Pro and Community Pro plans.\n\n- Fixed \"VIEW-ONLY\" message always appearing.\n\n- Resolved pop-up overlapping issues.\n\n- Added notifications about the 14-day trial in workspaces.\n\n- Objects beyond the workspace boundary can no longer be grabbed.\n\n- Undo/Redo functionality is now blocked after permission changes.\n\n- Trial notifications now correctly display for Team plans when storage is full.\n\n- Resolved overlap issues between plan and view pop-ups.\n\n- Fixed when Camera tool label  is active in the Toolswitcher.\n\n- Corrected text for free users when attempting to create a new space.\n\n- Avatar visibility now updates dynamically during presentations.\n\n- Trial notifications now correctly appear in the Share panel for Enterprise plans.\n\n- Paid plans can now add more than 10 scenes.\n\n- Participants can now see the presenter’s avatar.\n\n- Fixed missing trial notifications in workspaces.\n\n- Education users can now see the Projects tab in the app.\n\n- Fixed outline display for the current scene."
+            },
+            {
                 "version": "4.0.18.12422",
                 "change_log": "4.0.17->4.0.18f3\n\n\nFEATURES\n\n- Licenses changes\n\n- Introduced Figma View/Prototype support.\n\n- Introduced Follow Mode for the Web Editor.\n\n\nIMPROVEMENTS\n\n- Added a new \"Community Pro\" license, similar to the current Pro/Professional license.\n\n- Removed \"Back to 1.0\" and \"Revert to 1.0\" buttons.\n\nBUG FIXES\n\n- Fixed exception after pausing \n\n- Viewpoint is now visible after pausing when pasted from the clipboard.\n\n- Viewpoints are no longer pasted as regular objects.\n\n- Disabled material copy/paste functionality for viewpoints to prevent exceptions.\n\n- Disabled material copying for space links, holonotes, web views, and viewpoints.\n\n- Controller and hand positions are now correctly copied when copying a viewpoint.\n\n- Fixed when export button in the scene context menu is no longer blocked."
             },
@@ -155,10 +159,6 @@
             {
                 "version": "4.0.8.10976",
                 "change_log": "4.0.7->4.0.8\n- New tooltips added\n\n- Make logo to Coral color\n\n- Haptic effect when touching any objects in play mode\n\n- Fixed when trial notification for scenes is in the wrong position\n\n- Fixed when frame drops when selection in some cases\n\n- Fixed when teleport is activated after choosing a target in interactivity\n\n- Fixed when the dropdown list shows \"Value\" instead of the export format\n\n- Show the ToolTIp for spaces with a long name\n"
-            },
-            {
-                "version": "4.0.7.10960",
-                "change_log": "Features\n- New contexted tooltips added\n\nBug  Fixes\n- Made gizmo in direct mode without smooth effect.\n- Hide gizmo when users start to select objects in the continuous\n- Bring back the teleportation to view-only/comments modes additional fixes\n- Viewpoints should be disabled in 1:1 + Play mode\n"
             }
         ],
         "on_rookie": false,
@@ -169,7 +169,7 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481346,
+        "changelog_update": 481466,
         "keyword_update": 474881,
         "tag_update": 477913,
         "rating_update": 481442,
@@ -180,7 +180,7 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 481442,
+        "last_update": 481466,
         "category": "APPS",
         "votes": 347,
         "rating": 4.144092,
