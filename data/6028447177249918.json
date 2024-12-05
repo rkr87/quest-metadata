@@ -18,7 +18,11 @@
         "languages": [
             "English"
         ],
-        "platforms": [],
+        "platforms": [
+            "Meta Quest 3S",
+            "Meta Quest 3",
+            "Meta Quest 2"
+        ],
         "player_modes": [
             "STANDING"
         ],
@@ -42,7 +46,7 @@
             },
             {
                 "rating": 5,
-                "votes": 0
+                "votes": 1
             }
         ],
         "comfort": "NOT_RATED",
@@ -66,29 +70,33 @@
         },
         "changelog": [
             {
+                "version": "1.0.24",
+                "change_log": "PVR Update Notes;\n\n- Added new Intro\n- Added new Menu environment\n- Added new menu interaction (thumbs to menu scene)\n- Added Interact Relax: Beach\n- Added Interact Relax: Forest\n- Added Interact Relax: Space\n- Added Interact Asteroids\n- Added Interact Solar System\n- Added new sounds for new interacts, as well as changed some existing sounds\n- Added significantly better water with shore and wave effects\n- Added post processing for bloom and other screen effects\n- Added new GameState default audio option\n- Added buttons to the menu for new interacts\n- Completely revamped the Objects interact and added new art for the cubes\n- Removed all previous audio code and components from the game\n- Added new audio system previously developed in VapingVR\n- Created a new low poly environment to replace some interacts environments\n- Removed a significant amount of unused and large assets, reducing project size\n- Fixed various small bugs"
+            },
+            {
                 "version": "1.0.18",
                 "change_log": "*Please update to the latest* \n\nPlease update PatientVR application on your MetaQuest 3 and MetaQuest 3s as we have added more \"Interact\" features.\nSome experiences are updated and we have squashed some minor bugs too! "
             }
         ],
         "on_rookie": false,
-        "general_update": 480481,
+        "general_update": 481490,
         "genre_update": 480481,
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
-        "platform_update": 478969,
+        "platform_update": 481490,
         "player_mode_update": 478969,
-        "changelog_update": 481442,
+        "changelog_update": 481490,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 478969,
+        "rating_update": 481490,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 481442,
+        "last_update": 481490,
         "category": "APPS",
-        "votes": 0,
-        "rating": 0.0,
-        "weighted_rating": 3.4
+        "votes": 1,
+        "rating": 5.0,
+        "weighted_rating": 3.6
     },
     "errors": []
 }
