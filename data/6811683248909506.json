@@ -7,6 +7,8 @@
         "developer": "Bandai Namco Filmworks, Atlas V, Albyon",
         "publisher": "Astrea",
         "genres": [
+            "Action",
+            "Narrative",
             "Shooter"
         ],
         "devices": [
@@ -18,11 +20,22 @@
         ],
         "languages": [
             "English",
-            "Japanese"
+            "French (France)",
+            "German",
+            "Japanese",
+            "Korean",
+            "Spanish (Argentina)",
+            "Spanish (Chile)",
+            "Spanish (Colombia)",
+            "Spanish (Mexico)",
+            "Spanish (Peru)",
+            "Spanish (Puerto Rico)",
+            "Spanish (Venezuela)"
         ],
         "platforms": [
             "Meta Quest 3S",
             "Meta Quest 3",
+            "Meta Quest Pro",
             "Meta Quest 2"
         ],
         "player_modes": [
@@ -77,6 +90,10 @@
         },
         "changelog": [
             {
+                "version": "1.1.58.402",
+                "change_log": "French, German, Spanish (LATAM) and Korean now available (Audio and Subs) / \nBattle Arena add-on / \nPerformance improvements / \nVarious bug fixes"
+            },
+            {
                 "version": "1.0.23.152",
                 "change_log": "$($env:P4_CHANGELIST)"
             },
@@ -87,13 +104,13 @@
         ],
         "on_rookie": false,
         "general_update": 480433,
-        "genre_update": 480481,
+        "genre_update": 481514,
         "device_update": 480001,
         "mode_update": 480001,
-        "language_update": 480001,
-        "platform_update": 480001,
+        "language_update": 481514,
+        "platform_update": 481514,
         "player_mode_update": 480001,
-        "changelog_update": 480505,
+        "changelog_update": 481514,
         "keyword_update": 480001,
         "tag_update": 480001,
         "rating_update": 481490,
@@ -104,7 +121,7 @@
             "robot",
             "space"
         ],
-        "last_update": 481490,
+        "last_update": 481514,
         "category": "GAMES",
         "votes": 293,
         "rating": 4.081911,

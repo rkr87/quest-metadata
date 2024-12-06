@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 23
+                "votes": 24
             },
             {
                 "rating": 2,
@@ -151,31 +151,27 @@
             {
                 "version": "2024.28.2",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.28.2\n\n## Bug Fixes\n\n- Fixed a bug that could cause a hovered image to persist and be saved out of the browser even after the user has stopped touching it with the cursor.\n\n## Improvements\n\n- Improved how scrolling, image saving, and click-and-drag work in the web browser.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
-            },
-            {
-                "version": "2024.28.1",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.28.1\n\n## Bug Fixes\n\n- Re-enabled texture filtering on web browsers to prevent shimmering and other aliasing effects; had been disabled for testing and development.\n\n## Improvements\n\n- Moved the status indicator panel above the field-of-view instead of below, where it was interfering with hand interactions such as typing.\n- Added a new sky option: Clear Passthrough.\n- User is notified of the sky setting when changed.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             }
         ],
         "on_rookie": false,
-        "general_update": 478921,
+        "general_update": 481514,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481514,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 481418,
+        "rating_update": 481514,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481418,
+        "last_update": 481514,
         "category": "APPS",
-        "votes": 78,
-        "rating": 3.307692,
-        "weighted_rating": 3.3
+        "votes": 79,
+        "rating": 3.278481,
+        "weighted_rating": 3.2
     },
     "errors": []
 }
