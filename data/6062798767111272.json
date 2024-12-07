@@ -46,7 +46,7 @@
             },
             {
                 "rating": 5,
-                "votes": 91
+                "votes": 92
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -69,6 +69,10 @@
             "logo_transparent": "39031636_6060752907370241_7711013442721188115_n.png"
         },
         "changelog": [
+            {
+                "version": "1.0.35",
+                "change_log": "// Realms of Flow | 1.0.35 - 06.12.2024 //\n\n- Added new experience \"Magical Vastness\"\n- Added Spatial Sound category \"Wooden Chimes\"\n- Added ability to resposition the Pan Drum - hold both grip buttons for 1s while the Pan Drum is active and use your controller position/rotation to align it as needed\n- Implemented nudging of the automatic breath tempo also for the \"Advanced\" mode (that includes the holds). As before: when holding your controller's upper left face button, you can use the triggers to nudge the tempo up/down as indicated. The calibration mechanism formerly used for the \"Advanced\" mode (acting out the tempo with your controllers) can still be accessed either by clicking the stopwatches in the Breathing sub-menu, or you can choose to always use it with the controller button shortcut mentioned before, by setting the \"Tempo Change Mode\" in the Controls sub-menu from \"Nudge\" to \"Act Out\".\n- Added a 1:2:2:0 preset for the \"Advanced\" mode of the Auto tempo, inspired by and similar to the 4-8-7 breath technique\n- Made the Breath Timing Indicatiors (sound and haptics) more precise to the time values specfied in the settings menu (Auto tempo mode), to make them more useful over a wide range of breath tempos, especially with breath holds\n- Added subtle sounds for the start and sustain phase of the breath holds, as well as haptic indicators (short double-burst) to the start of the holds\n- Increased the follow-speed of the catchers for the \"Element of Play\" controller element to make it work better with faster a breathing tempo\n- Adapted the \"Element of Play\" gaze element to improve catching with breath holds\n- While the \"Element of Play\" is active: Adjust the indicated breath tempo of the glowing paths by using the same tempo nudging mechanism that can be used to adjust the Auto breath tempo (works in this context for both Auto- and Controller tempo breath mode)\n- The goals for the \"Element of Play\" controller element are now also spawned in a way that they accompany the start of breath holds to better reflect the complete breathing rhythm\n- Completely fixed occasional unwanted shaking behaviour of drum sticks for the Pan Drum\n- Fixed a visual glitch at the end of the cool-down phase (cool-down phase = the last 30s of a session, when is \"Open-End\" disabled)"
+            },
             {
                 "version": "1.0.32",
                 "change_log": "// Realms of Flow | 1.0.32 - 12.10.2024 //\n\n- Fixed and issue with the 4K version of the \"Dissolve\" experience creating an app freeze\n- Fixed \"Extra Depth\" slider and thumbstick function not working correctly with a certain combination of settings\n- Added functionality to reset the horizon (re-align with the real-world), when holding the \"Re-Center View\" controller button for 1 sec.\n- Added setting for a height-offset of the glowing \"Element of Play\"-paths to better adjust them your sitting posture\n- Added option for sound-activated waterpipe smoke exhalation. You can find it on the Breath Guide sub-menu, when the waterpipe and its breath mode are active. Make an audible exhalation sound to blow out smoke. This also allows you to \"keep the smoke in your mouth\" as long as you like before exhaling.\n- Fixed an issue with the animation of the waterpipe's glowing coal and improved the quality of the coal's appearance\n- Fixed an issue with the \"Hookah Wisdom\" volume slider sometimes not working as intended\n- Values for the sound volumes of \"Pan Drum\" and \"Hookah Wisdom\" are now also saved in the save slots\n- Improved orientation of UI elements with the \"Optimized for Reclining\" and \"Scene Follows View\" options enabled\n- Regular thumbstick actions are now blocked, while adjsting the menu distance with the thumbstick to avoid unwanted changes\n- Added ability to adjust the settings menu's orientation with the controller rotation while repositioning it\n- Fixed unwanted strong wobble of the left pan drum stick in some cases"
@@ -130,16 +134,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480218,
+        "changelog_update": 481538,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481514,
+        "rating_update": 481538,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481514,
+        "last_update": 481538,
         "category": "APPS",
-        "votes": 92,
-        "rating": 4.967391,
+        "votes": 93,
+        "rating": 4.967742,
         "weighted_rating": 4.8
     },
     "errors": []

@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 621
+                "votes": 642
             },
             {
                 "rating": 2,
-                "votes": 276
+                "votes": 289
             },
             {
                 "rating": 3,
-                "votes": 335
+                "votes": 348
             },
             {
                 "rating": 4,
-                "votes": 426
+                "votes": 449
             },
             {
                 "rating": 5,
-                "votes": 1559
+                "votes": 1619
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,6 +78,10 @@
             "logo_transparent": "75221326_1062885241901642_1970211887359381480_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.20.759728",
+                "change_log": "0.1.20 Patch Notes\n- Crowd audio now plays when the server counts a hit from the opponent's perspective, instead of when you see a hit from your perspective.\n- Fixed an issue that could cause punishment to max out with one punch.\n- Fixed an issue that could cause your damage for a round to show as zero after your score a punishment knockdown.\n- Fixed an issue that could cause errors when players joined a lobby, requiring the lobby to be remade.\n- Updated recenter logic to bring the standing circle to the player's in-game body instead of moving the player's in-game body to the standing circle.\n- KOs and the third knockdown of a TKO now show up in the knockdown count on the scorecard."
+            },
             {
                 "version": "0.1.19.759119",
                 "change_log": "0.1.19 Patch Notes\n- Fixed an issue that was causing the Damage Update V2 toggle in Training to act incorrectly\n- The beacon list that appears while searching for a Ranked match is now scrollable\n- Small visual fixes for the stun effect "
@@ -127,10 +131,10 @@
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481466,
+        "changelog_update": 481538,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481514,
+        "rating_update": 481538,
         "iarc_detail_update": 481442,
         "keywords": [
             "fight",
@@ -138,10 +142,10 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481514,
+        "last_update": 481538,
         "category": "GAMES",
-        "votes": 3217,
-        "rating": 3.629779,
+        "votes": 3347,
+        "rating": 3.63161,
         "weighted_rating": 3.6
     },
     "errors": []
