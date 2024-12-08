@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.4.4",
+                "change_log": "Improved UI and keypad on Security Reboot Terminal.\nImproved UI and keypad on Blast Door Override Terminal.\nImprovements to Sentry Bot material and textures."
+            },
+            {
                 "version": "0.4.3",
                 "change_log": "'Raspberry Pi' Sentry bots (better visibility, particularly in dark areas than the original dark red ones).\n\n'Green Absynth' Klaus-Spider pods (now with added fizz). \n\nRandom bunker selection randomizes only when the Random icon is selected, not on game start (allows you to retry the same random bunker).\n\nBiodome now contains water - and you know what lurks in that.\n\nComputer Room Security Reboot terminal now has shorter time limit for key entry."
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.2.5",
                 "change_log": "Added warm-up sfx to give warning before Mech shoots.\n\nCrates now provide shelter from damage when Mech shoots.\n\nImproved hangar crane controls - added targeting display.\n\nReplaced Sentry shoot sfx.\n\nReplaced Menu button click sfx.\n\nReplaced Mech foot stomp sfx.\n\nVarious small tweaks."
-            },
-            {
-                "version": "0.2.4",
-                "change_log": "Fixed: Reactor balls missing electric arc lines.\n\nFixed: Mech no longer continues sound effect when destroyed.\n\nFixed: Mech no longer responds to physics forces when destroyed. \n\nAdded first pass underfloor area to central hangar."
             }
         ],
         "on_rookie": false,
@@ -166,13 +166,13 @@
         "language_update": 478969,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 481226,
+        "changelog_update": 481562,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 481250,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 481250,
+        "last_update": 481562,
         "category": "GAMES",
         "votes": 7,
         "rating": 4.714286,
