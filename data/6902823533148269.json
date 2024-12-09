@@ -96,6 +96,10 @@
         },
         "changelog": [
             {
+                "version": "0.8.0",
+                "change_log": "- Added voice input support for most text input fields.\n- Overhauled UI/UX to be more consistent.\n- Updated Firebase, MessagePack and TTS."
+            },
+            {
                 "version": "0.7.19",
                 "change_log": "- Your friend can now dance!"
             },
@@ -166,10 +170,6 @@
             {
                 "version": "0.6.0",
                 "change_log": "Update v0.6.0\n- Added new environment: AR!\n- Added back button in settings."
-            },
-            {
-                "version": "0.5.3",
-                "change_log": "Update v0.5.3\n- Default environment is now in daytime.\n- Added some other graphical and performance improvements."
             }
         ],
         "on_rookie": false,
@@ -180,13 +180,13 @@
         "language_update": 480218,
         "platform_update": 479809,
         "player_mode_update": 475753,
-        "changelog_update": 481369,
+        "changelog_update": 481586,
         "keyword_update": 475753,
         "tag_update": 479689,
         "rating_update": 481514,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481514,
+        "last_update": 481586,
         "category": "APPS",
         "votes": 15,
         "rating": 2.733333,

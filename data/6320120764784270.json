@@ -48,7 +48,7 @@
             },
             {
                 "rating": 4,
-                "votes": 23
+                "votes": 24
             },
             {
                 "rating": 5,
@@ -77,6 +77,10 @@
             "logo_transparent": "39031327_3613340595587260_1107946763981684942_n.png"
         },
         "changelog": [
+            {
+                "version": "4106",
+                "change_log": "-\nv41 is RELEASED !\n\nDidn't expect it so soon did ya ?\n\n# AI Controller Hotkey\n\n- Effortlessly use AI with no countdown or menu interaction !\n\n- Properly integrated, cannot be accidentally triggered, and offers introductory visual explanation on how to use\n\n# AI Improvements\n\n- AI Visualization now utilizes 3.29x more resolution ( 228% more quality )\n\n- AI can now properly visualize your perspective in Space\n\n- Fixed seeing Markdown Syntax ( ** ) in AI responses\n\n- If the AI usage limit every few hours wasn’t already generous, now it’s even higher / harder to reach !\n\n# Additional\n\n- A considerate amount of polishing, behavior refinement for better reliability, and bug fixes.\n\n- Wind will no longer be heard when flying with Flight Speed 0.1x \n\n- Careful small refinements made to Thumbstick Smooth Rotation, preventing accidentally turning when the Thumbstick is tilted very slightly. Additionally resulting in more responsive 'Thumbstick Flight Input Mode' controls.\n\n- FINALLY Solved the rare, mysterious crash that happened immediately after loading in.\n\n- Improved Street View nearby 360 detection and usage\n\nLet me know if there are any issues, big OR small ( contact.earthquest.site )"
+            },
             {
                 "version": "4105",
                 "change_log": "-\nv41 is RELEASED !\n\nDidn't expect it so soon did ya ?\n\n# AI Controller Hotkey\n\n- Effortlessly use AI with no countdown or menu interaction !\n\n- Properly integrated, cannot be accidentally triggered, and offers introductory visual explanation on how to use\n\n# AI Improvements\n\n- AI Visualization now utilizes 3.29x more resolution ( 228% more quality )\n\n- AI can now properly visualize your perspective in Space\n\n- Fixed seeing Markdown Syntax ( ** ) in AI responses\n\n- If the AI usage limit every few hours wasn’t already generous, now it’s even higher / harder to reach !\n\n# Additional\n\n- A considerate amount of polishing, behavior refinement for better reliability, and bug fixes.\n\n- Wind will no longer be heard when flying with Flight Speed 0.1x \n\n- Careful small refinements made to Thumbstick Smooth Rotation, preventing accidentally turning when the Thumbstick is tilted very slightly. Additionally resulting in more responsive 'Thumbstick Flight Input Mode' controls.\n\n- FINALLY Solved the rare, mysterious crash that happened immediately after loading in.\n\n- Improved Street View nearby 360 detection and usage\n\nLet me know if there are any issues, big OR small ( contact.earthquest.site )"
@@ -152,10 +156,6 @@
             {
                 "version": "3700",
                 "change_log": "-\nv37 Released !\n\nIntroducing a game-changing new feature that offers\n\n# BETTER 3D Map Quality\n\nYup, you heard that right, this seemed impossible to work on standalone mobile VR due to the immense computation needed for this type of task\n\nAnd it was, almost impossible, but with many advanced optimization methods I'm happy to announce that \nEarthQuest manages to do this with the same fluid performance as before !\n--\n\nAdditional\n\n- 'Preferences' redesign ! \n\n- Flight collision range is now slightly smaller, this allows more movement freedom when very close to 3D surfaces !\n\n- 3D Map Quality and Loading settings will now provide a single, compact, more useful **Performance Warning** guiding you while adjusting your preferred Quality & Performance\n\n- AI Voice Recording is now more reliable and should now last until completely stopped talking\n\nLet me know if there are any issues"
-            },
-            {
-                "version": "3720",
-                "change_log": "v37 Released !\n\nIntroducing a game-changing new feature that offers\n\nBETTER 3D Map Quality\n\nYup, you heard that right, this seemed impossible to work on standalone mobile VR due to the immense computation needed for this type of task\n\nAnd it was, almost impossible, but with many advanced optimization methods I'm happy to announce that \nEarthQuest manages to do this with the same fluid performance as before !\n--\n\nAdditional\n\n- 'Preferences' redesign ! \n\n- Flight collision range is now slightly smaller, this allows more movement freedom when very close to 3D surfaces !\n\n- 3D Map Quality and Loading settings will now provide a single, compact, more useful Performance Warning guiding you while adjusting your preferred Quality & Performance\n\n- AI Voice Recording is now more reliable and should now last until completely stopped talking\n\n- You can now switch from the largest Player Scale to Human-Scale & vice versa, IN JUST ONE PRESS !\n\nLet me know if there are any issues"
             }
         ],
         "on_rookie": true,
@@ -166,16 +166,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 475561,
-        "changelog_update": 481562,
+        "changelog_update": 481586,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481538,
+        "rating_update": 481586,
         "iarc_detail_update": 481178,
         "keywords": [],
-        "last_update": 481562,
+        "last_update": 481586,
         "category": "APPS",
-        "votes": 258,
-        "rating": 4.348837,
+        "votes": 259,
+        "rating": 4.34749,
         "weighted_rating": 4.3
     },
     "errors": []
