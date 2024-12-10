@@ -73,6 +73,10 @@
         },
         "changelog": [
             {
+                "version": "2.07",
+                "change_log": "Added Dodging Game Mode to the 10v10 expansion. Dodge the defender from X and up top, beat your man, score a goal.  \n\nRe-worked 6v6 mode to use our new models from 10v10.  This game mode looks and performs much better now.\n\nNew Player Goalie Mesh in Goalie, Sixes and 10v10 Modes.\n\nUpdated lighting reflections to better display a player having a  white shaft; it was appearing way too dark due to lighting.\n\nGoalies can be faked in, in close, 10v10, Sixes, Box and Dodging Modes.  Field goalies can be faked low or high, box left or right.\n\nGoalie Mode has improved:\n\t- Speeded up the game so faster to run thru an entire game. \n\t- Revamped \"Speed Mode\".  Added a third shooter.\n        - Increased chances for a body save now, but you have to scoop the ball to record the save.\n        - Improved the mesh collider for better save chances.\n        - New stick mesh.\n  \t- Other visual and lightning changes.\n\n\nNew Goals for 10v10, 6v6, Dodging and Goalie Mode.\n\nNew AI stick meshes in 10v10\n\nPerformance Enhancements in 10v10 mode.\n\nOther glitch fixes and performance enhancements made."
+            },
+            {
                 "version": "2.04",
                 "change_log": "Another fix for scaling issues."
             },
@@ -143,10 +147,6 @@
             {
                 "version": "1.75",
                 "change_log": "Updated visuals.  Added support for Quest 3.  Fixed a bug where the default shoot aim was the joystick rather than the headset."
-            },
-            {
-                "version": "1.73",
-                "change_log": "+ Revamped Shooting skill mode\n+ Cleaned up the main menu\n+ Field goalie has been tweaked\n+ Several other fixes and enhancements."
             }
         ],
         "on_rookie": true,
@@ -157,13 +157,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481610,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 481418,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481418,
+        "last_update": 481610,
         "category": "GAMES",
         "votes": 54,
         "rating": 4.240741,

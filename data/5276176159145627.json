@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 163
+                "votes": 164
             }
         ],
         "comfort": "NOT_RATED",
@@ -77,6 +77,10 @@
             "logo_transparent": "75542957_1213374052837880_7986681139275246226_n.png"
         },
         "changelog": [
+            {
+                "version": "2.11.6",
+                "change_log": "Ranked\n🎯 Matches will pair you with opponents based on your selected mode: arcade or realistic.\n🚫 Auto-teleport is unavailable in Ranked matches.\n❌ You can cancel your matchmaking ticket until a match is found.\n🔒 Once matched, you are locked into the game.\n\nStatistics\n📊 Check out Statistics and Leaderboards\n🆕 Separate stats and Elo for Arcade and Realistic queues.\n\nGameplay Changes\n⏱️ 25-second serve timer added to all multiplayer modes. Failure to serve in time counts as a fault.\n\n🎨 New Additions\n🌌 Nebula Station court unlocked at XP Level 50.\n🌟 Fresh icons for XP player levels."
+            },
             {
                 "version": "2.7.15",
                 "change_log": "2.7.15\nBug Fix: \n- Fixed issue causing a double hit to be called on a low velocity swing"
@@ -116,10 +120,6 @@
             {
                 "version": "1.3.4",
                 "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nVERSION 1.3.4\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nPhysics - Reverted physics to previous version\nWhile we were excited to share our new updated physics in the recent update, the performance was too inconsistent across various game modes. As a result, we have reverted the physics to the way they were before this update.\n\nDoes this mean the physics won't be improved?\nWhile the changes should be more consistent across every mode, they are still not perfect. We are working hard to release our new physics system and ensure steady and constant performance across every game mode. We will be providing updates closer to the release of the new system with more details.\n\n\nScene - Graphics Adjustment\nMade the Gearbox banners less vibrant.\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nBUG FIXES\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nPerformance - Fixed Memory Leak\nMajor memory leak fixed which was a causing Quest 1 to have screen lock up or crash and Quest 2 crash\n\nGlitch - Fixed Spectators Catching the Ball\nSpectators are no longer able to catch the ball when a player throws a ball toward them.\n\nGlitch - Fixed Incomplete Paddle Display\nFixed issue where the player could see an incomplete paddle if they were to squeeze the grip button to spawn a paddle repeatedly in the paddle settings the player\n\nGraphics - Profile Pictures Now Fill Their Border\nEnd of game profile pictures are now expanded to fill to the border edge."
-            },
-            {
-                "version": "1.3.3",
-                "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n**VERSION 1.3.3**\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n***ENHANCEMENTS***\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- \n** Physics Improvement **\nAccounted for loss of controller tracking which caused large spikes in the velocity of the ball.\n\n** Matchmaking Improvement **\nMaster client can now set the desired Physics difficulty when creating a multiplayer room.\n\n** Added Notification in Single Player games **\nNotification popup added to the net when the player is in a singleplayer game\n\n\nSetting associated with the notification where the player can choose to receive “No notification”, for “Invites Only” and “Friend request and invites”.\n\n\n** Player Movement **\nPlayers will now be moved back to their current default position on another player hitting a ball.\n\n** Gearbox Tournament Enhancements **\nFor a limited time players have access to two Official Gearbox Paddles (the CX14 and GBX paddles)\nGearbox branding has been added to the stadium scene for the length of the tournament\n\n** Ball Machine Improvements\nDefault values of ball machine launcher have been adjusted to make it easier for new players\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n***BUG FIXES***\n(including many internal stress tests that were not reported by users)**\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\n** AI - **Fixed AI players failing to serve in between gameplay. \n\n** Ball (Double Hit Issue) - ** Fixed issue of two players hitting the ball around the same location at the same time causing a double hit fault.\n\n** Glitch (Mid-Air-Fault) - **Fixed issue for when the ball is getting called out before the ball has bounced on the hitting players side.\n\n** Glitch (Serve)- **Fixed serve fault being given to the wrong team when remote player hits the ball that the master client has spawned.\n\n** Multiplayer (Invites) - **Fixed issue that the player was able to send an invite to a friend before other player was able to receive invites, so the invite notification would not be displayed to the player.\n\n** Multiplayer (Connecting Message) - **Fixed issue when the “Connecting to Server…” pop-up would not disappear. \n\n** Multiplayer - **Fixed issue where a player would fail to connect so the players in their friends list would show as offline even though they can see people online in the online players list.\n\n** Spectator - **Fixed issue where a spectator can see the score as 0-0 and hears game 2 audio in-between gameplayer.\n\n** Tutorial - **Fixed issue when the player is able to see Gameplay Tutorial avatar in two different places at the same time.\n\n** User Interface (Mute Label Change) - **Wording of block button has been changed to mute.\n\n** User Interface (Spawn Ball Message) - **Fixed issue where the “Hold trigger to spawn ball” pop-up is seen even when it is another player’s turn to serve.\n"
             }
         ],
         "on_rookie": true,
@@ -130,16 +130,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481610,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 481586,
+        "rating_update": 481610,
         "iarc_detail_update": 481297,
         "keywords": [],
-        "last_update": 481586,
+        "last_update": 481610,
         "category": "GAMES",
-        "votes": 255,
-        "rating": 4.282353,
+        "votes": 256,
+        "rating": 4.285156,
         "weighted_rating": 4.2
     },
     "errors": []

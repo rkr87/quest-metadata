@@ -72,6 +72,10 @@
         },
         "changelog": [
             {
+                "version": "1.20.2",
+                "change_log": "Fixed\n\n- Controller support not working"
+            },
+            {
                 "version": "1.20.1",
                 "change_log": "Added\n- When the app is used for the first time it will use the OS’s language as it’s display language\n\nFixed\n- Security issue related to downloading the language options\n\nChanged\n- Added Dutch localization support directly to the app instead of needing to download it\n\nRemoved\n- Using the dashboard language as the display language for the first time the user logs in\n- The requirement for a patient to have an active period before they can use the app"
             },
@@ -92,13 +96,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 481178,
+        "changelog_update": 481610,
         "keyword_update": 478921,
         "tag_update": 478921,
         "rating_update": 480361,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 481178,
+        "last_update": 481610,
         "category": "APPS",
         "votes": 0,
         "rating": 0.0,

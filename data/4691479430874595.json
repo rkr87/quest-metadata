@@ -3,10 +3,13 @@
         "id": "4691479430874595",
         "app_name": "Drop Dead: The Cabin",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# Survive the night\n\n\n**Drop Dead: The Cabin** is a co-op VR survival horror game where you must survive the hordes of the living dead. Become a survivor in a forest full of thrills, chills and kills.\n\n{1210997950116932}\n\n**Co-op Survival Action**\n\nPartner up with a friend for an intense battle, where teamwork is crucial for survival.\n\n{877805244304818}\n\n**Immersive Combat**\n\nWield weapons of mass destruction. Use a raygun or a machete. It’s up to you.\n\n**Customisation**\n\nNew weapon skin packs are available. Every purchase supports the continued development of The Cabin.\n\n{3791428691185459}\n\n**Zombie Hordes**\n\nFace the oncoming hordes of zombies that will keep you on your toes as they become more fearsome over time. \n\n**Unique Zombies**\n\nBattle an array of deadly zombie types, each more unpredictable than the last, keeping every encounter fresh and intense!\n\n{1254520162341881}\n\n**Home Invasion**\n\nDefend your real home from the horde in this award winning mixed-reality experience.\n\n{884402176566479}\n\n**Key Features:**\n- Explore the forest \n- Unlock upgrades and achievements \n- Interactive objects\n- Huge arsenal of weapons \n- Weapon customisation",
+        "description": "“The Cabin offers some of the most enjoyable and intense short-session action currently available on the Quest “ - 6DOF \n\nLocked in a creepy Cabin deep in the woods, you must rely on your wits and survival skills to gather supplies, arm yourself to the teeth, and fend off hordes of gruesome proto-zombie creatures. \n\n{1210997950116932}\n\n**✔ Play alone or co-op**\n\nBrave enough to take on the challenge alone? Or bring a friend along for the ride!\n\n{877805244304818}\n\n**✔ Endless Hordes**\n\nCan you handle the intense action of 15+ zombies on screen at any given time? Stay alert and use every tool at your disposal to survive.\n\n{1254520162341881}\n\n**✔ Scavenge for Resources**\n\nSearch high and low for ammo, weapons, and other objects that can give you an edge in the battle against the undead. Be careful with your resource management, as every bullet counts.\n\n**✔ Gear up**\n\nCustomize your loadout with a wide range of firearms, melee weapons, and other tools to suit your playstyle.\n\n**✔ Power Up**\n\nLevel up your player and unlock a range of powerful perks that will give you an edge in combat, including deadly weapon upgrades like the laser scope for sniper precision accuracy.\n\n**✔ Unlock New Areas**\n\nUnlock lots of new zones outside of the Cabin area that will test your skills in new and exciting ways.\n\n**✔ Climb the Leaderboards**\n\nClimb the leaderboards and show off your skills to the world.\n\n**✔ Home Invasion**\n\nTurn your real-world space into a creepy Cabin with the FREE award winning Home Invasion Mixed Reality game mode.\n\n{884402176566479}\n\nDo you have what it takes to survive The Cabin? \n\n**Discord: Soulassembly.com/cabin**",
         "developer": "Soul Assembly",
         "publisher": "Soul Assembly",
-        "genres": [],
+        "genres": [
+            "Action",
+            "Shooter"
+        ],
         "devices": [
             "Touch Controllers"
         ],
@@ -52,11 +55,11 @@
             },
             {
                 "rating": 4,
-                "votes": 171
+                "votes": 173
             },
             {
                 "rating": 5,
-                "votes": 526
+                "votes": 536
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -84,6 +87,10 @@
             "logo_transparent": "39035433_1164604114456474_6369836142453382440_n.png"
         },
         "changelog": [
+            {
+                "version": "3.1.0",
+                "change_log": "- Added a new gameplay mechanic where you can pay RP to repair a window barricade if you have a plank.\n- Added a new single shot grenade launcher pistol weapon with xmas skin\n- Added a new explosives slot on the ammo belt for the grenade launcher\n- Refactored grenade crates to now have a guaranteed spawn of the grenade launcher in at least one crate in any session.\n- Added a snow weather particle system for the xmas event\n- Adjusted the skybox and fog colour palette for the xmas event on Beginner mode\n- Added a new Candy Cane weapon for the xmas event\n- Added a new Icicle weapon for the xmas event\n- Added a new Ice Axe weapon for the xmas event\n- Improved the audio distance hand grenade explosions can be heard from\n- Refactored the xmas event time to start on 10/12/2024"
+            },
             {
                 "version": "3.0.1",
                 "change_log": "Update 3.0.1:\n\n- Refactored main menu interface layout\n- Overhauled visual effects and introduced splash damage for the Raygun\n- Addition of deep linking reel for other Soul Assembly titles\n- Addition of the FREE to unlock Vaporwave skin for the Pistol and Revolver"
@@ -147,24 +154,20 @@
             {
                 "version": "1.1.1",
                 "change_log": "Introducing brand new sky box variations and fog effects across the new difficulty modes for enhanced visual immersion.\nFine-tuning of 'normal mode' to provide a more accessible and enjoyable experience for all players.\nResolved a critical bug preventing the triggering of the 'Kill All' objective in the Mine Pit, ensuring smooth gameplay progression.\nSuccessfully rectified an imbalance where the 'client' player would endure excessive damage compared to the 'Host,' preventing unfair one-shot situations.\nRifle ammo distribution - You can now acquire rifle ammunition from the random and 'special ammo'  crates."
-            },
-            {
-                "version": "1.0.4",
-                "change_log": "Issues fixed in 1.0.4\n\nKnown Improvements:\n\n- Improved melee hit responsiveness\n- Modified lobby options - ‘Quick Play’ and a new ‘Host Friends’ option to avoid random players joining lobbies intended to be closed\n- Re-worked Item grab and visualisation for an improved item pick-up accuracy\n- Improvements to melee throwing mechanics, including velocity, item travel, and item embed.\n- Melee audio revamped to feel more satisfying\n- Added a dot over an item when hovered to indicate where to grasp the item.\n\nKnown Fixes:\n- Fixed an issue where player cosmetics such as golden revolver and laser sight weren't visible to another player.\n- Fixed an issue where players' extraction time was logging incorrectly on the leaderboards\n- Fixed an issue where changing Belt depth past a certain point caused the ammo pouch to lose UI\n- Fixed an exploit where players could stand at the extraction door to outpace zombie spawns\n- Fixed an issue where extraction can fail to trigger\n- Fixed an issue where occasionally weapons could occupy both back holsters\n- Rebalanced Meta Game\n\nWe are continuing to investigate and fix performance related stutters and crashes."
             }
         ],
         "on_rookie": true,
-        "general_update": 481201,
-        "genre_update": 480481,
+        "general_update": 481610,
+        "genre_update": 481610,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481610,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481586,
+        "rating_update": 481610,
         "iarc_detail_update": 481297,
         "keywords": [
             "horror",
@@ -173,10 +176,10 @@
             "shoot",
             "zombie"
         ],
-        "last_update": 481586,
+        "last_update": 481610,
         "category": "GAMES",
-        "votes": 927,
-        "rating": 4.070119,
+        "votes": 939,
+        "rating": 4.079872,
         "weighted_rating": 4.0
     },
     "errors": []
