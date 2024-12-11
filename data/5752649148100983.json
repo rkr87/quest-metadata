@@ -78,6 +78,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.3",
+                "change_log": "1) Improved song sorting and filtering.\n\t• Song sorting is now persistent between sessions.\n\t• Songs can now be filtered by built in, custom, and more.\n\n2) Added a new Arm Length Calibration setting.\n\t• Players can now re-calibrate their arm length to ensure better striking range. This can be done in player settings."
+            },
+            {
                 "version": "0.2.2.3",
                 "change_log": "Hotfix to fix bug preventing Quest 1 users from converting local mp3s"
             },
@@ -152,10 +156,6 @@
             {
                 "version": "0.1.35.1",
                 "change_log": "1) Bug Fixes:\n\t• Fixed bug causing some built in songs to throw an error when playing one handed mode.\n\t• Fixed bug causing community content search page to not work correctly sometimes.\n\t• Fixed bug previewing a custom song to sometimes throw an error.\n\t• Fixed bug causing some custom songs to fail to save due to \"illegal\" characters.\n\t• Temporarily disabled images in custom songs to fix a bug causing loading custom songs to sometimes get stuck."
-            },
-            {
-                "version": "0.1.35",
-                "change_log": "1) Reworked creating and editing playlists!\n\t• Re-ordered planels to improve editing and creating workflow. Panels are now, from left to right, Available Songs, Songs in Playlist, and Playlist Settings.\n\t• Moved customizing individual songs to the Songs in Playlists. Players can now just add the songs and then edit what has been added.\n\t• Added option to preview a song by selecting the play button for each song on Available Songs.\n\t• Playlists can now be re-ordered by clicking and dragging the song you want to edit.\n\n2) More flow improvements!\n\t• Improved algorithm and changed how targets after a duck obtacle are handled.\n\n3) Bug Fixes:\n\t• Fixed bug causing viewing next page in community content to throw an error sometimes.\n\t• Fixed bug causing previewing communinty content song to throw an error sometimes.\n\t• Improved error reporting to give more detailed information.\n\t• Fixed bug causing community content search page to not work correctly sometimes."
             }
         ],
         "on_rookie": true,
@@ -166,13 +166,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 481634,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 481178,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481394,
+        "last_update": 481634,
         "category": "GAMES",
         "votes": 41,
         "rating": 4.585366,

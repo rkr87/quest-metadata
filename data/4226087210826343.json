@@ -64,7 +64,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 29
+                "votes": 30
             },
             {
                 "rating": 2,
@@ -105,6 +105,10 @@
             "logo_transparent": "38982666_449350133589696_3811944066712869644_n.png"
         },
         "changelog": [
+            {
+                "version": "6.1.0",
+                "change_log": "Wait for bot to settle into receiving position before allowing player to serve. Improve safe gaming dialog. Allow ball machine and custom drills with randomized bullseye target instead of cones and cube targets"
+            },
             {
                 "version": "6.0.99",
                 "change_log": "Improve Bot shot selection. Pause bot when menu is open."
@@ -180,10 +184,6 @@
             {
                 "version": "6.0.81",
                 "change_log": "Update teleportation in badminton. Disable paddle clipping when its closer to face."
-            },
-            {
-                "version": "6.0.80",
-                "change_log": "Add anti-piracy checks. Save game scores in leaderboard."
             }
         ],
         "on_rookie": true,
@@ -194,16 +194,16 @@
         "language_update": 474685,
         "platform_update": 480313,
         "player_mode_update": 474685,
-        "changelog_update": 481562,
+        "changelog_update": 481634,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 481514,
+        "rating_update": 481634,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481562,
+        "last_update": 481634,
         "category": "GAMES",
-        "votes": 249,
-        "rating": 4.200803,
+        "votes": 250,
+        "rating": 4.188,
         "weighted_rating": 4.1
     },
     "errors": []

@@ -55,7 +55,7 @@
             },
             {
                 "rating": 3,
-                "votes": 297
+                "votes": 296
             },
             {
                 "rating": 4,
@@ -63,7 +63,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3654
+                "votes": 3656
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,10 @@
             "logo_transparent": "38982652_2339984606323297_4253485479653015552_n.png"
         },
         "changelog": [
+            {
+                "version": "2.3.105.052",
+                "change_log": ".052:\nQuick fix for loading Western scene during the holiday season\n\n=====\n\n.049:\nAdded Sandbox for Heavy DLC Content\n\nNew Target Props:\n - Kyle, Mike,Tammy\n - Flatbed, Box and Tanker trucks \n\nNew Device Props:\n - Washer, Dryer, Filing cabinet\n \nAdded each Range's targets as Props (DLC Targets unlock with DLC Ownership)\n - Fixed Sandbox patch notes' \"Okay\" button not being clickable\n - Fixed being able to buy unequippable Heavy Weapons from the dealer\n - Added DLC entitlement check when clicking to purchase\n - Fixed infinitely firing Grenade Launcher attachment\n - Fixed Secondary weapons not spawning with the selected upgrades\n - Fixed SCAR-H's stock attachment points\n - Fixed save & load of CZ75 sight attachments"
+            },
             {
                 "version": "2.3.105.049",
                 "change_log": "Added Sandbox for Heavy DLC Content\n\nNew Target Props:\n - Kyle, Mike,Tammy\n - Flatbed, Box and Tanker trucks \n\nNew Device Props:\n - Washer, Dryer, Filing cabinet\n \nAdded each Range's targets as Props (DLC Targets unlock with DLC Ownership)\n - Fixed Sandbox patch notes' \"Okay\" button not being clickable\n - Fixed being able to buy unequippable Heavy Weapons from the dealer\n - Added DLC entitlement check when clicking to purchase\n - Fixed infinitely firing Grenade Launcher attachment\n - Fixed Secondary weapons not spawning with the selected upgrades\n - Fixed SCAR-H's stock attachment points\n - Fixed save & load of CZ75 sight attachments"
@@ -163,10 +167,6 @@
             {
                 "version": "1.1.82",
                 "change_log": "1.1.82.58c -  Performance and bugfix update\n\n        - Added Axe-head Attachment\n        - Added Volume Setting in Audio options\n        - Magazines updated to use correct rounds (some .45ACP Pistols were previously using .9mm magazines)\n        - Fixed issue causing action ranges to not progress when locomoting into their waypoints\n        - Fixed issue causing the grenade launcher to be removable when in range\n        - Fixed some cases of Speedloaders no longer working\n        - New map view buttons to skip across 5 events\n        - Options pages now hold more options\n        - DSR1 backup magazine well no longer accepts magazines other than the default for the DSR1\n        - Fixed the hide state of the buffer tube underneath the M16 stocks when removed\n        - Bugfix for corrupt save data that interrupted loading\n        - Engine upgrade resulting in many performance optimisations\n        - Fixed ACR Rendering issue\n"
-            },
-            {
-                "version": "1.1.82",
-                "change_log": "1.1.82.57c -  Performance and bugfix update\n\n        - Added Axe-head Attachment\n        - Added Volume Setting in Audio options\n        - Magazines updated to use correct rounds (some .45ACP Pistols were previously using .9mm magazines)\n        - Fixed issue causing action ranges to not progress when locomoting into their waypoints\n        - Fixed issue causing the grenade launcher to be removable when in range\n        - Fixed some cases of Speedloaders no longer working\n        - New map view buttons to skip across 5 events\n        - Options pages now hold more options\n        - DSR1 backup magazine well no longer accepts magazines other than the default for the DSR1\n        - Fixed the hide state of the buffer tube underneath the M16 stocks when removed\n        - Bugfix for corrupt save data that interrupted loading\n        - Engine upgrade resulting in many performance optimisations\n"
             }
         ],
         "on_rookie": true,
@@ -177,20 +177,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479065,
+        "changelog_update": 481634,
         "keyword_update": 474881,
         "tag_update": 478345,
-        "rating_update": 481610,
+        "rating_update": 481634,
         "iarc_detail_update": 477385,
         "keywords": [
             "fps",
             "shooter",
             "gun"
         ],
-        "last_update": 481610,
+        "last_update": 481634,
         "category": "GAMES",
-        "votes": 5533,
-        "rating": 4.378818,
+        "votes": 5534,
+        "rating": 4.379292,
         "weighted_rating": 4.3
     },
     "errors": []

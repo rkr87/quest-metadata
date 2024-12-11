@@ -37,7 +37,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 249
+                "votes": 250
             },
             {
                 "rating": 2,
@@ -53,7 +53,7 @@
             },
             {
                 "rating": 5,
-                "votes": 11484
+                "votes": 11494
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -81,6 +81,10 @@
             "logo_transparent": "39031656_539251757279211_2762329440703161126_n.png"
         },
         "changelog": [
+            {
+                "version": "0.54.1",
+                "change_log": "- It is no longer possible to grab the pause menu while jumping with both hands (this prevents a fly bug).\n- Fixed a crash when opening the pause menu while switching to the lobby.\n- Fixed coins showing up in the owned items list.\n- Fixed favoriting a level from the pause menu home tab crashing if you already have 100 favorites.\n- No longer using compositor layers when using the SteamVR runtime, fxing the UI being broken on steam (but reducing the rendering quality a bit).\n- Fixed using the pause menu while holding it inside the level editor.\n- Verifiers can verify levels from within the game again.\n- Lobby settings are only shown to the host.\n- Fixed the black dot in the center of the sun."
+            },
             {
                 "version": "0.54.0",
                 "change_log": "- New cosmetic items.\n- New lobby with 10 hidden coin stacks (worth 5 coins each).\n- New level selection UI in the lobby.\n- New pause menu.\n- New frost block that behaves like ice but allows to jump on it while keeping the momentum.\n- Fixed a crash related to emojis in the player name."
@@ -156,10 +160,6 @@
             {
                 "version": "0.45.1",
                 "change_log": "- Added 10 slots for custom colors for colored blocks in the editor.\n- Improved snapping in the editor, making it easier to align objects.\n- Performance improvements with lots of blocks."
-            },
-            {
-                "version": "0.45.1",
-                "change_log": "- Added 10 slots for custom colors for colored blocks in the editor.\n- Improved snapping in the editor, making it easier to align objects.\n- Performance improvements with lots of blocks."
             }
         ],
         "on_rookie": false,
@@ -170,16 +170,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481538,
+        "changelog_update": 481634,
         "keyword_update": 474685,
         "tag_update": 478921,
-        "rating_update": 481610,
+        "rating_update": 481634,
         "iarc_detail_update": 481178,
         "keywords": [],
-        "last_update": 481610,
+        "last_update": 481634,
         "category": "GAMES",
-        "votes": 12301,
-        "rating": 4.860337,
+        "votes": 12312,
+        "rating": 4.860136,
         "weighted_rating": 4.8
     },
     "errors": []
