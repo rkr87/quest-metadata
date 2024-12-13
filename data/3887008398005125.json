@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "2024.12.11",
+                "change_log": "Added support for Limited Media Server, which allows you to stream content from your desktop to your device.  Spent a lot of time playing with the Video & Photo rendering pipeline and made adjustments, so everything will look better.  Also added in a new setting menu for Image Adjustments."
+            },
+            {
                 "version": "2024.11.02",
                 "change_log": "New background, Western.  New option to directly download/stream via url.  Other text fixes."
             },
@@ -148,10 +152,6 @@
             {
                 "version": "2023.06.19",
                 "change_log": "New Internal Folder, Updated Text, New Menu Adjustments, Latest SDK"
-            },
-            {
-                "version": "2023.05.17",
-                "change_log": "Better Scoped Storage support, Copy, Paste.  Better safety rails.  Support for non-standard zip files.  Some graphic changes.  Added Shameless shilling"
             }
         ],
         "on_rookie": false,
@@ -162,13 +162,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480745,
+        "changelog_update": 481682,
         "keyword_update": 474685,
         "tag_update": 474685,
         "rating_update": 481658,
         "iarc_detail_update": 481178,
         "keywords": [],
-        "last_update": 481658,
+        "last_update": 481682,
         "category": "APPS",
         "votes": 2110,
         "rating": 3.672512,
