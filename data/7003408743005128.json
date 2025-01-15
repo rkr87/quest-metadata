@@ -47,11 +47,11 @@
             },
             {
                 "rating": 4,
-                "votes": 4
+                "votes": 6
             },
             {
                 "rating": 5,
-                "votes": 22
+                "votes": 25
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -74,6 +74,10 @@
             "logo_transparent": "38982671_686001190089416_7664495948856312424_n.png"
         },
         "changelog": [
+            {
+                "version": "2025.1.8.2-quest",
+                "change_log": "Removed FPS Caps on Quest 2 and Pro"
+            },
             {
                 "version": "2024.10.28.13",
                 "change_log": "Fixed build issues. Likely by reinstalling OpenXR and/or deactivating SRP foveated rendering. Enemy AI improved. Enemy firing rate and bullet velocity improved"
@@ -129,22 +133,6 @@
             {
                 "version": "2024.2.9.3",
                 "change_log": "Right thumbstick fix, done correctly this time"
-            },
-            {
-                "version": "2024.2.8.5",
-                "change_log": "Attempted right thumbstick fix"
-            },
-            {
-                "version": "2024.1.31.5",
-                "change_log": "Fixed music cutover in Intro mission which should now play the second music cue. Music volume and engine volume reduced"
-            },
-            {
-                "version": "2024.1.31.4",
-                "change_log": "Final fix to volume controls in settings menu. hitting hte menu watch from mission selector screen no longer makes raycasts disappear."
-            },
-            {
-                "version": "2024.1.30.1",
-                "change_log": "Gameplay and audio tweaks following observation of IndieVR playthrough. Saurian Bombing Raid now has significantly more powerups to help new players survive the mission. Fire extinguisher audio channel fixed to zero doppler"
             }
         ],
         "on_rookie": false,
@@ -155,16 +143,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480649,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481634,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 26,
-        "rating": 4.846154,
+        "votes": 31,
+        "rating": 4.806452,
         "weighted_rating": 4.5
     },
     "errors": []

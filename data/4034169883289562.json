@@ -46,7 +46,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 10
+                "votes": 11
             },
             {
                 "rating": 2,
@@ -54,15 +54,15 @@
             },
             {
                 "rating": 3,
-                "votes": 7
-            },
-            {
-                "rating": 4,
                 "votes": 10
             },
             {
+                "rating": 4,
+                "votes": 12
+            },
+            {
                 "rating": 5,
-                "votes": 26
+                "votes": 31
             }
         ],
         "comfort": "NOT_RATED",
@@ -89,6 +89,26 @@
             "logo_transparent": "39031613_4165392783495663_2442638352413047922_n.png"
         },
         "changelog": [
+            {
+                "version": "1.7.7",
+                "change_log": "v1.7.7 (January 7, 2025)\n- Updated Multiplayer Session creation flow\n- Players can now create a room that is Open or Private\n- Private rooms are passworded\n- Passwords can be entered with a new UI keyboard"
+            },
+            {
+                "version": "1.7.6",
+                "change_log": "v1.7.6 (January 6, 2025)\n- Fix: Dart release timing fixed. Release would be a touch delayed, pulling darts downward on some throws"
+            },
+            {
+                "version": "1.7.5",
+                "change_log": "v1.7.5 (January 3, 2025)\n- Happy New Year!\n- Fix: Meta Avatars lipsync now works in multiplayer."
+            },
+            {
+                "version": "1.7.4",
+                "change_log": "v1.7.4 (December 30, 2024)\n- Player preferences refactor + updates (this will fix some players Throw Power defaulting to 1, should by 7.75)"
+            },
+            {
+                "version": "1.7.3",
+                "change_log": "v1.7.3 (December 12, 2024)\n- Happy Holidays!\n- Added Xmas Tree and snow in the Tavern scene with updated lighting\n- Added Review button in the welcome message. Opens a browser overlay to review the game. ;)\n- System updates. Meta SDK v71\n- Added additional support for Quest 3S and performance optimizations for all headsets\n- Added user icons when playing in Multiplayer\n- Resetting Prefs to default now reverts dart parts back to default\n- Fix: Resetting Prefs would set the Tavern Hands scene as the default for Single Player Controller Mode\n- Fix: Hands Mode dart spawning. Still experimental but working"
+            },
             {
                 "version": "1.7.1",
                 "change_log": "v1.7.1 (November 12, 2024)\n- Custom Darts now show up for all players in Multiplayer Sessions\n- Fix: Game crashes or stutters when exiting the app using the Exit Game menu button"
@@ -148,26 +168,6 @@
             {
                 "version": "1.4.33",
                 "change_log": "v1.4.33.477 (November 9, 2023)\n[Bug] Grabbing dart with non throwing hand breaks dart spawning. [Fix] Only one hand can grab the dart. *Handedness can still be switched in Settings.\n[Update] AndroidManifest.xml includes all Meta Quest 2 and above headsets\n[Update] Rendering optimizations"
-            },
-            {
-                "version": "1.4.32",
-                "change_log": "v1.4.32.475 (October 23, 2023)\nBug fix: Updated build settings to allow Quest 3 to fully work"
-            },
-            {
-                "version": "1.4.31",
-                "change_log": "v1.4.31.473 [All Channels] (October 22, 2023)\n- Updated Passthrough scene to default colour scheme"
-            },
-            {
-                "version": "1.4.27",
-                "change_log": "v1.4.27 (April 6, 2023)\n- Added X01 Double Out toggle\n- Players that choose to turn off X01 Double Out will not have stats for or Lowest Thrown in a game.\n- Added battery power indicator on DartCam canvas with button hint text for battery remaining value\n- General performance updates\n- Added skip button to intro\n- Changed in-game menu button to Left Controller Menu button, instead of Y"
-            },
-            {
-                "version": "1.4.23",
-                "change_log": "v1.4.23 (January 16, 2023)\nBug fix: Passthrough scene working again\nBug fix: Tournament scene TV resolution fixed\nEnabled Mixed Reality capture\nAdded battery power indicator with new hover state to DartCam TV\nPerformance optimizations"
-            },
-            {
-                "version": "1.4.19",
-                "change_log": "v1.4.19 457\nBug fix: Fixed Multiplayer P2 not getting darts for X01 and Cricket"
             }
         ],
         "on_rookie": true,
@@ -178,16 +178,16 @@
         "language_update": 478465,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481346,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481346,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 56,
-        "rating": 3.696429,
+        "votes": 67,
+        "rating": 3.731343,
         "weighted_rating": 3.6
     },
     "errors": []

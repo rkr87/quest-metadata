@@ -54,7 +54,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 38
+                "votes": 41
             },
             {
                 "rating": 2,
@@ -62,15 +62,15 @@
             },
             {
                 "rating": 3,
-                "votes": 29
+                "votes": 30
             },
             {
                 "rating": 4,
-                "votes": 67
+                "votes": 70
             },
             {
                 "rating": 5,
-                "votes": 506
+                "votes": 528
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -96,6 +96,14 @@
         },
         "changelog": [
             {
+                "version": "1.8.279440-release",
+                "change_log": "Fixes an issue where Ranked mode was incorrectly applied even if the vote was tied (one player in Singles or two player in Soubles voting Practice)."
+            },
+            {
+                "version": "1.8.279099-release",
+                "change_log": "Patch 1.8.4\n- League points are now displayed for all sport types and modes in your profile\n- Added option to spawn serve ball on the ground\n- Match default scoring options have been adjusted\n- Various bug fixes and quality of life improvements"
+            },
+            {
                 "version": "1.2.239644-release",
                 "change_log": "You will stop queuing when you start a match\nSee your ranking in your profile\nIn your friends profile you can click to go to the club they're in\nA few bug fixes"
             }
@@ -108,16 +116,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 481658,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 660,
-        "rating": 4.489394,
+        "votes": 689,
+        "rating": 4.486212,
         "weighted_rating": 4.4
     },
     "errors": []

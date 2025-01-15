@@ -99,6 +99,10 @@
         },
         "changelog": [
             {
+                "version": "2.60",
+                "change_log": "-Drawing data is now saved as a \"Draw00??.magicaldoodle\" file\n　　You can find it in the following path in the internal storage:\n　　\\Android\\data\\com.tarya.arstargraffiti.quest\\files\n-When the background is MR and the brightness is 0, a thin edge is now displayed even if the hand edge display setting is off (to avoid inoperability)"
+            },
+            {
                 "version": "2.40",
                 "change_log": "- Added a new pen called \"Cube.\"\n- Added a menu option to hide the hand outline when in MR mode.\n- Improved the stability of the palette position and orientation when hand tracking becomes unstable due to the overlap of the other hand with the hand opening the palette.\n- Improved the accuracy of pinch gesture recognition.\n- Fixed a bug where an invalid particle group was displayed at specific coordinates."
             },
@@ -123,13 +127,13 @@
         "language_update": 480193,
         "platform_update": 479809,
         "player_mode_update": 479161,
-        "changelog_update": 480433,
+        "changelog_update": 482473,
         "keyword_update": 479161,
         "tag_update": 479689,
         "rating_update": 481418,
         "iarc_detail_update": 479161,
         "keywords": [],
-        "last_update": 481418,
+        "last_update": 482473,
         "category": "APPS",
         "votes": 17,
         "rating": 4.705882,

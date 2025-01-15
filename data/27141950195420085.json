@@ -36,11 +36,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1
+                "votes": 8
             },
             {
                 "rating": 2,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 3,
@@ -52,7 +52,7 @@
             },
             {
                 "rating": 5,
-                "votes": 3
+                "votes": 5
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -76,6 +76,22 @@
         },
         "changelog": [
             {
+                "version": "0.68.2",
+                "change_log": "Add site validation to add or remove www. \nAdded check db on update app to fix already added domains."
+            },
+            {
+                "version": "0.67",
+                "change_log": "Reworked controllers mapping setting.\nImproved InfoPanel behavior."
+            },
+            {
+                "version": "0.66",
+                "change_log": "Fixed issue with back navigation from video player scene.\nAdded sending error logs on login error."
+            },
+            {
+                "version": "0.64",
+                "change_log": "Added ability to change playback speed."
+            },
+            {
                 "version": "0.60",
                 "change_log": "Sensitivity and deadzone sliders have been hidden.\nSensitivity set to 75 and deadzone set to 0.1.\nFixed issue with clicking on tags, studio, actors in info panel."
             },
@@ -89,17 +105,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481562,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 480433,
         "mode_update": 480433,
         "language_update": 480433,
         "platform_update": 480433,
         "player_mode_update": 480433,
-        "changelog_update": 481297,
+        "changelog_update": 482473,
         "keyword_update": 480433,
         "tag_update": 480433,
-        "rating_update": 481562,
+        "rating_update": 482473,
         "iarc_detail_update": 480433,
         "keywords": [
             "vr",
@@ -107,11 +123,11 @@
             "entertainment",
             "stream"
         ],
-        "last_update": 481562,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 6,
-        "rating": 3.666667,
-        "weighted_rating": 3.5
+        "votes": 16,
+        "rating": 2.5625,
+        "weighted_rating": 2.8
     },
     "errors": []
 }

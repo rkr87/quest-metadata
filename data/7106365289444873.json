@@ -41,19 +41,22 @@
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 0
             },
             {
                 "rating": 5,
-                "votes": 0
+                "votes": 2
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
-            "age_rating": "Everyone",
-            "descriptors": [],
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence",
+                "Crude Humor"
+            ],
             "elements": [],
-            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "internet_connection": "NOT_REQUIRED",
         "website": "http://anotherworldvr.com/",
@@ -67,26 +70,31 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38974848_387024414494421_8620488154090145266_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "1.1",
+                "change_log": "Items\n- Fix incorrect hand positions of pick up items\n- Fix infinite batery bug\n\nCinematic\n- Fix cinematic sequence showing the last frame of the previous sequence\n- Fix sync issue\n\nCollision\n- Fix player falling off the ship in Poop extraction lvl\n\nUI\n- Update Burp Nation UI\n- Update save file visualization\n- GGP overview menu added\n- Fix GGP Text errors\n- Fix aim UI bug of not correct updating target\n- font normalized\n\nAudio\n- Update ineraction sounds\n- Update voiceovers\n- Fix sometimes missing charge sound of batery\n\nSavegame\n- default records for minigames added\n- Fix bug of spawning incorrect pawn when loading manual save file in new level\n\nMisc\n- Fix bug of game unpausing when in Oculus menu and headset put on head"
+            }
+        ],
         "on_rookie": false,
-        "general_update": 481514,
+        "general_update": 482473,
         "genre_update": 481514,
         "device_update": 481514,
         "mode_update": 481514,
         "language_update": 481514,
         "platform_update": 481514,
         "player_mode_update": 481514,
-        "changelog_update": 481514,
+        "changelog_update": 482473,
         "keyword_update": 481514,
         "tag_update": 481514,
-        "rating_update": 481586,
-        "iarc_detail_update": 481514,
+        "rating_update": 482473,
+        "iarc_detail_update": 482473,
         "keywords": [],
-        "last_update": 481586,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 1,
-        "rating": 4.0,
-        "weighted_rating": 3.4
+        "votes": 2,
+        "rating": 5.0,
+        "weighted_rating": 3.7
     },
     "errors": []
 }

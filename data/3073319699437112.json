@@ -37,23 +37,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 245
+                "votes": 248
             },
             {
                 "rating": 2,
-                "votes": 36
+                "votes": 37
             },
             {
                 "rating": 3,
-                "votes": 55
+                "votes": 56
             },
             {
                 "rating": 4,
-                "votes": 135
+                "votes": 134
             },
             {
                 "rating": 5,
-                "votes": 1075
+                "votes": 1087
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -83,6 +83,10 @@
             "logo_transparent": "39036637_429764504911745_4889807881295605772_n.png"
         },
         "changelog": [
+            {
+                "version": "2.4",
+                "change_log": "Version 2.4 Release Notes\n\nIMPORTANT NOTICE\nIf you own the Patron of the Old Gods, make sure to log in monthly to claim your Gems.\n\nBALANCE CHANGES\n(Missed from the previous update) Tombstone Mimic now costs 5 Mana and has stats of 3/4.\nIndentured Servitude no longer has the Discarded ability.\nLowly Lieutenant is now classified as an Underling and no longer has the Discarded ability.\nGrand Tutoring now costs 9 Mana.\nSell-Sword no longer has the Loophole ability. Its Last Word effect is now: \"ALL players gain 1 Life.\"\n\nADDED\nDante now assists new and existing players who created their accounts after December 1st, 2024, introducing mechanics that players may not have encountered before.\n\nUPDATES\nDante has been polished with new facial features and repositioning to better suit VR players during tutorials.\nSlick Grifter and Something Wicked Approaches had their text updated for consistency with other cards.\nTrapjaw Stump and Hungry Mimic now include \"When blocked\" in their descriptions for uniformity.\nUnlawful Trespass has been raised from Common to Rare.\nMystic Envisioner has been reduced from Uncommon to Common.\n\nFIXES\nThe Guidebook now correctly displays milestone limits as 100 instead of 50.\nA typo in the quest \"Kill 5 creatures with damaging spells\" has been corrected.\nMasters no longer trigger \"deals direct damage\" abilities like Messenger Raven when taking damage.\nMasters taking damage no longer incorrectly increment the Reduce your opponent’s Life Total quest.\nPlayers will no longer draw cards if a game is forfeited during the \"first person\" or \"redraw\" steps.\nThe Summon Mastery Creatures quest now correctly increments for creatures granted Mastery.\nThe Summon Taunt Creatures quest now accounts for copies of creatures granted Taunt.\nCreatures summoned by Grand Tutoring with Summon Copy abilities now correctly apply stat changes.\nCopies of Amped creatures that lose the Amped status (via suppression or theft) will no longer be summoned Unexhausted.\nCunning Snaremaster’s first ability now correctly increases the damage of all Banes, not just opponents'.\nVisual artifacts in Flatscreen BattleCam caused by creatures being removed too early have been resolved.\nFlatscreen players no longer encounter errors when performing gestures or swapping havens.\nThe watch menu’s Havens page now correctly displays as Havens, not Taverns.\nOn Android, cards in hand will no longer become unplayable after swapping apps.\nVR players now receive proper error messaging when attempting to block Flight or Loophole creatures.\nTombstone Mimic no longer exhausts itself when copying Amped creatures.\nSkill Siphoner now only copies active attributes from its target, ignoring disabled or suppressed ones.\nA missing tooltip explaining why a creature could not block another (if eligible to block something else) has been added.\nExiting a ranked battle now transitions background music without errors."
+            },
             {
                 "version": "2.3.2",
                 "change_log": "Version 2.3.2 Release Notes\nIMPORTANT NOTICE:\nHardware requirements for Cards & Tankards on Android devices have been changed, now requiring 4+ GB Ram and Android 11 or newer. Download today on the Google Play Store!\nYou will now need to log-in monthly if you have Patron of the Old Gods to receive your Gems.\n\nBALANCE CHANGES:\nField Bureaucrat no longer has a Discarded ability, and reduces the cost of the first spell it sees each turn.\nAlkar, the Former Master is now 10 Mana with Mastery 2, and causes you to lose 1 Life for each spell you play.\nKira, Heroine of Garsang no longer raises her own health.\nMastercraft Flesh Golem is now 9 Mana 2/12.\nDreaded Corpse Flinger lowered from 3/3 to 2/3\nForbidden Lotus’s Enhance is now \"To their Banish Zone instead for 3 Coins.\"\nMind Squander is now 2 Mana and no longer gives life.\nBone Amalgamates no longer give health as part of their Last Word.\nSoul Extraction no longer draws a card if it gets a kill.\nCosmic Reanimation now causes all players to summon the top 3 creatures of their Graveyard, dooming them and making them Undead.\nTorch Carrier’s Last Word now instead Shifts all Powder Kegs in all decks to the top.\nSomething Wicked Approaches + Grand Tutoring now only Fetch Non-Legendaries.\nWraith’s Wrath is reduced back to 5 damage.\n\nADDED:\nA brand new Guide Book for providing information about aspects of the game, found in your Watch Menu at the top-right.\nA completely re-done and shortened tutorial.\nAutomatic forfeiting if a player AFKs in ranked.\nA new visual showing the game deciding which player gets the first turn.\nWhilst deciding which player begins, faction banner flags matching the deck’s primary and secondary choices.\nBrand new \"Mana Fragment\" system. The player going second will gain 1 at the beginning of the game.\nTooltips for when you attempt to block and are unable to do so along with why.\nA large number of new quests – Augur-focused, gamemode-focused and attribute focused.\n\nUPDATED:\nAll existing quests have had a overhaul to make them better to complete\nMilestone Quests have been adjusted to allow greater rewards for more consecutive quest completion.\nAll summons not played directly from the hand are always summoned on the right side of the board.\nPatron of the Old Gods subscription page now has a \"Manage Subscription\" button on Android.\nFlatscreen players are now able to use spells by just dragging them like they would a creature.\nA minor visual change to boost visibility when the quest board has rewards ready to be claimed.\n\nFIXED:\nMystic Envisioner’s ability being triggered by Masters.\nFlatscreen Battle Camera getting pieces stuck on-screen.\nFlatscreen Zones screen can get stuck with no way to close it.\nFlatscreen Redraw screen getting stuck with no way for you to click on it.\nA visual issue where a Flatscreen player moving a card will make it appear to be clipping in their hand to others.\nEndless Enforcers summoning copies even if it’s already died (in the instance of Multi-damaging abilities).\nChanneled Destruction continues to activate even though its counter is 0.\nGrow the Horde keeps waiting for you to make a second selection, even if you have no room.\nCreatures with passives not updating after a spell has been played."
@@ -134,10 +138,6 @@
             {
                 "version": "1.2",
                 "change_log": "Version 1.2 Release Notes:\nAdded:\n21 new cards, 5 for each faction plus 1 Neutral\nIn-game Privacy Policy page that requires agreement to continue playing Cards & Tankards\nAuto selling cards when past the deck copy limit, this can be disabled in Gameplay Settings\nDraft battle progression scroll popup at the end of draft battles\nDaily win reward cards animation\nVFX for animated cards in booster packs\n\nChanged:\nUpdated documentation\nUpdated buy, sell, and animate prices of individual cards due to introducing Legendary rarity\nUpdated the Code of Conduct, and report reasons\nRemoved \"Summons Token\" text from card tooltips\nHourglass countdown is now paused during abilities, except when waiting for a selection\nFirst card choice in Draft Mode is now a faction specific Legendary rarity\nHyped Bugstrine renamed to Rebellion's Spark\nGreat Arbiter of Garsang renamed to Arbiter of Garsang\nRestless Spirit renamed to Disturbed Spirit\nAnimations play faster when there is multiple Banes/Boons\n\nFixed:\nAlkar instantly casting Ritual of Annihilation\nVFX lingering on tables after a battle\nForfeiting battles sometimes not giving rewards even though the match was legit\nGurm's SFX not culling at a distance\nBanes and Boons going to hand while waiting to resolve\nBanes and Boons continuing to play at the end of a battle\nCard hand not going away when disconnected in PC mode\nVisual bug with Quill/Brush where it seemed to be drawing when it wasn't\nPlayers holding your Quill/Brush leaving would despawn your prop\nTokens summoned as copies of a card not having their stats properly adjusted\n\nBalance Changes:\nIntroduced Legendary rarity cards, all Unique cards are now Legendary cards\nInnate keyword added: \"Card type category which includes Spells and non-Token Creatures while excluding Tokens, Banes, and Boons.\"\nMobilize now targets the highest mana cost cards first\nAcidic Overlord rarity changed to Legendary, stats changed to 6/6, ability changed to \"When a friendly Ooze is summoned, give all friendly summoned and reserved Oozes except Acidic Overlord +1/+1. Aftermath: Summon a Slime.\"\nAlkar, the Former Master ability changed to \"Entrance: Banish the top spell in your deck. Last Word: Cast a random Banished spell.\"\nAssassin's Strike is now a Bane, and no longer a Token\nBighorn Packbeast ability now specifies X or less\nDutiful Servant creature type changed to Elemental\nEndless Merc Band Taunt Removed\nGarngian Cutthroat now shuffles in 3 Assassin's Strikes\nGarenan, Trading Prince stats changed to 0/4 and Pacifist\nGelatinous Protestant rarity changed to Uncommon, stats changed to 2/2, Taunt added, ability changed to \"Entrance: Give all creatures in your Reserves +1/+1.\"\nGrand Tutoring no longer copies Attributes\nGunhaunt's Call ability changed to \"Banish a friendly creature then deal that creature's attack to an enemy creature.\"\nGurm, Former Taskmaster is now an Elemental\nLife Pact Condition changed to \"You do not Outnumber your opponent.\"\nLonely Ooze has been removed from the game\nLoot the Body Enhance cost reduced to 2\nMerchant's Guard Discarded ability changed to \"Gain +1/+0\"\nMind Corruption ability changed to include \"an enemy creature\" for consistency\nNecromancy rarity changed to Rare\nParchment Barrage Condition changed to \"Your opponent did not cast more spells than you last turn.\"\nPassanian Liquidator now adds 3 Assassin's Strikes if Enhanced, Enhance cost reduced to 2\nPotion of the Weald now only targets Innate cards, self-banishes when cast and costs 1 less mana to Enhance\nPower in Equality renamed to Equilibrium and ability changed to \"If you control 2 or less Combatants, Mobilize 9 or less. Otherwise, Mobilize 6 or less.\"\nPreplanned Prophecy now only draws Innate cards\nReiteration can no longer copy Legendaries\nSlick Gifter ability changed to \"Entrance: Give all friendly Loophole creatures Restless until end of turn. Discarded: Give a random friendly non-Loophole creature Loophole.\"\nSlime is now a 1/1\nSpymaster of the Guild ability changed to \"Banes deal +1 damage. Prepare: Randomly place an Assassin's Strike into your opponent's deck for each Bane your opponent drew last turn.\"\nStellar Shard Taunt Removed\nSuppressor of Magic stats changed to 7/7 and ability changed to \"Activate: Suppress an enemy creature. Discarded: A random 9 Mana or less spell in all player's hands costs 1 more Mana.\"\nTaunting ability changed to \"Give a friendly creature Taunt and \"When this creature is blocked or targeted by an opponent as a result of Taunt, draw a card.\"\nTill Undeath Do Us Part mana reduced to 3 and ability changed to \"Give up to 2 friendly creatures +1/+1. If that creature is Undead, +2/+2 instead.\"\nUnion of Monsters replaced Lonely Ooze with Slime token\nWanted Notice ability changed to \"Randomly place 3 Assassin's Strikes into your opponent's deck. Enhance: Randomly place 6 instead for 2 coins.\"\nZealous Ooze summons a Slime token when reserved instead of a Lonely Ooze"
-            },
-            {
-                "version": "1.1.1",
-                "change_log": "Version 1.1.1 Release Notes:\nChanged:\nEvery 4th set of 3 draft card choices will now always be primary faction cards\nRenamed Neutral Taverns to Public Taverns\nImproved Reputation System calculations, removed faulty data\nAll Neutral Reputation players have been reset to Cordial Reputation\n\nFixed:\nLegit match detection flagging some valid battles as non-legit\nSome players being unable to connect to the accounts server\nTaunt for spells/abilities selecting a target now functions the same as blocking, only when able\nTaunt disallowing you to block non-taunt creatures even if you were not able to block taunted creatures\nReadability of buff/debuff text on animated cards\nDraft decks preventing selling cards"
             }
         ],
         "on_rookie": false,
@@ -148,16 +148,16 @@
         "language_update": 474685,
         "platform_update": 479953,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 481658,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481658,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 1546,
-        "rating": 4.137775,
+        "votes": 1562,
+        "rating": 4.136364,
         "weighted_rating": 4.1
     },
     "errors": []

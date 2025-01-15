@@ -3,7 +3,7 @@
         "id": "7856648691073700",
         "app_name": "CoasterMania",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# Build, Ride, & Share Rollercoasters in Mixed Reality!\nCreate and ride thrilling rollercoasters in your own space with **CoasterMania**! Use physics-based tools to design jaw-dropping tracks that adapt to your room, then hop in the front seat for a first-person ride like no other.\n![{\"height\":1320,\"type\":\"image\",\"width\":1920}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/39001725_2044160592744930_5758080194808880617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=sIZkeeXs9EoQ7kNvgF1M9kY&_nc_zt=3&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYBLKLkA0wnZLpN4u_NIlZUouPJ4vzzSgQhBUKLIj5CePA&oe=67616107)\n\n\n\n\n# Campaign Mode\nComplete over 50 puzzles across four themed worlds—Medieval, Western, Atlantis, and Sci-Fi. Solve challenges, unlock cosmetics, and master the art of coaster-building!\n{1092357901949034}\n\n# Sandbox Mode\nTurn your room into a coaster playground! Build tracks through your space with gadgets like cannons, rocket propellers, and portals. Decorate with props, sculpt terrain, and experience your creations in VR, zipping around furniture and even your pets.\n{2874787972689001}\n\n# Showcase Mode\nShare your coasters and ride creations from players around the world!\n\nBring your imagination to life—your living room is now a theme park!\n\n{1078555903573759}",
+        "description": "# Build, Ride, & Share Rollercoasters in Mixed Reality!\nCreate and ride thrilling rollercoasters in your own space with **CoasterMania**! Use physics-based tools to design jaw-dropping tracks that adapt to your room, then hop in the front seat for a first-person ride like no other.\n![{\"height\":1320,\"type\":\"image\",\"width\":1920}](https://scontent-iad3-2.oculuscdn.com/v/t64.5771-25/39001725_2044160592744930_5758080194808880617_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=syWJcf3uDfYQ7kNvgGJrOIZ&_nc_zt=3&_nc_ht=scontent-iad3-2.oculuscdn.com&oh=00_AYCPTj5i1j_eRS26diDbhDslj22t1jHWcxIcLvJ21LNEng&oe=678CE287)\n\n\n\n\n# Campaign Mode\nComplete over 50 puzzles across four themed worlds—Medieval, Western, Atlantis, and Sci-Fi. Solve challenges, unlock cosmetics, and master the art of coaster-building!\n{1092357901949034}\n\n# Sandbox Mode\nTurn your room into a coaster playground! Build tracks through your space with gadgets like cannons, rocket propellers, and portals. Decorate with props, sculpt terrain, and experience your creations in VR, zipping around furniture and even your pets.\n{2874787972689001}\n\n# Showcase Mode\nShare your coasters and ride creations from players around the world!\n\nBring your imagination to life—your living room is now a theme park!\n\n{1078555903573759}",
         "developer": "4th Wall Breakers",
         "publisher": "4th Wall Breakers",
         "genres": [
@@ -35,15 +35,15 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 8
+                "votes": 10
             },
             {
                 "rating": 2,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 3,
-                "votes": 9
+                "votes": 11
             },
             {
                 "rating": 4,
@@ -51,13 +51,15 @@
             },
             {
                 "rating": 5,
-                "votes": 48
+                "votes": 54
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
-            "descriptors": [],
+            "descriptors": [
+                "Mild Fantasy Violence"
+            ],
             "elements": [],
             "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
         },
@@ -113,39 +115,27 @@
             {
                 "version": ".13c",
                 "change_log": "v.13c\n- Fix issues where ghost tracks would appear\n- Fix interaction with start station causing angled tracks\n- Fix issue where error logging would show up in main menu"
-            },
-            {
-                "version": ".13b",
-                "change_log": "v.13b\n-Add support for color passthrough with Quest Pro\n-Add ability to report coasters\n-Add toggle for enabling/disabling error messages\n\n-Move error messages to side of build menu\n-Fix issue with cart throwing error when in passthrough\n-Fix issue not being able to move if loaded passthrough scene\n-Fix issue with music manager throwing error\n-Update UI for downloading showcase"
-            },
-            {
-                "version": ".13a",
-                "change_log": "**v.13a**\n\n-Add main menu scene\n-Add loading scene between loading tracks\n-Add passthrough mode (now it's own mode rather than a setting)\n-Re-enable & Add updated tutorial\n\n-Update build menu to be more user friendly\n-Fix loading community made terrains not working\n-Fix pre-built tracks not loading correctly\n\n-& Much more!"
-            },
-            {
-                "version": ".10a",
-                "change_log": "**v.10a**\n\n-Add loop pre-made element\n-Add corkscrew pre-made element\n-Add hand raising animations to test dummies when going at fast speeds or flying off tracks\n-Add better tooltip indicators for controls\n\n-Update controller model\n-Update Tutorial\n-Make cart explode on impact with props\n\n-Fix issue on first time trying the app showing an error message.\n-Disable scaling for all interactors except the grab tool"
             }
         ],
         "on_rookie": true,
-        "general_update": 481682,
+        "general_update": 482473,
         "genre_update": 481273,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 481273,
         "player_mode_update": 474685,
-        "changelog_update": 481490,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 481586,
-        "iarc_detail_update": 475000,
+        "rating_update": 482473,
+        "iarc_detail_update": 482473,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 70,
-        "rating": 4.214286,
-        "weighted_rating": 4.1
+        "votes": 81,
+        "rating": 4.135802,
+        "weighted_rating": 4.0
     },
     "errors": []
 }

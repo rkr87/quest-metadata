@@ -34,7 +34,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 4
+                "votes": 8
             },
             {
                 "rating": 2,
@@ -46,11 +46,11 @@
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 5,
-                "votes": 16
+                "votes": 24
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -76,7 +76,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 481610,
+        "general_update": 482473,
         "genre_update": 481466,
         "device_update": 481466,
         "mode_update": 481466,
@@ -86,7 +86,7 @@
         "changelog_update": 481466,
         "keyword_update": 481466,
         "tag_update": 481466,
-        "rating_update": 481634,
+        "rating_update": 482473,
         "iarc_detail_update": 481466,
         "keywords": [
             "gorilla",
@@ -94,11 +94,23 @@
             "social",
             "mod"
         ],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 21,
-        "rating": 4.190476,
-        "weighted_rating": 3.9
+        "votes": 34,
+        "rating": 4.0,
+        "weighted_rating": 3.8
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

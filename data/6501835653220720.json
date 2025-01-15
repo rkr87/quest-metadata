@@ -21,10 +21,10 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest 3S",
-            "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest 3S",
+            "Meta Quest 3"
         ],
         "player_modes": [
             "SITTING"
@@ -41,15 +41,15 @@
             },
             {
                 "rating": 3,
-                "votes": 13
+                "votes": 12
             },
             {
                 "rating": 4,
-                "votes": 48
+                "votes": 50
             },
             {
                 "rating": 5,
-                "votes": 270
+                "votes": 284
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -75,6 +75,14 @@
             "logo_transparent": "75404377_3251630548499259_4004100082373645662_n.png"
         },
         "changelog": [
+            {
+                "version": "1.6",
+                "change_log": "RUNNER 1.6.0 Update:\n-90Hz mode can now be enabled on Quest 3 devices\n-Important stability updates\n-Graphics API migrated to OpenGL ES"
+            },
+            {
+                "version": "1.5.2",
+                "change_log": "Stability improvements and bug fixes for Quest 3 platforms"
+            },
             {
                 "version": "1.5",
                 "change_log": "1.5.0.1"
@@ -146,14 +154,6 @@
             {
                 "version": "1.13",
                 "change_log": "<RUNNER> v 1.1.3  \"CheckPoint V.3\" update\n----------------------------------\n-Checkpoints added! players will now have the option of restarting from a mid-stage checkpoint OR from the start of the boss battle, with full weapon upgrades retained.  Choosing this option will incur a minor score penalty, however, though players will still have the option of restarting the stage the traditional way. (Gaunlet runs, such as stage 5 and stage 7, do not feature checkpoints due to their special encounter design). Hardcore players wanting to get an \"S\" rank will still be able to do so by ignoring the checkpoint option.\n\n-We've added additional hints to the restart menu should the player lose during a boss encounter.\n\n-We've tweaked early boss encounters based on player feedback for a more gradual difficulty ramp.  This was originally addressed in 1.1, and has been further adjusted in 1.1.2 and 1.1.3 with improvements to the strider encounter.\n\n-We've improved the balance of sidearm powerups. Upgrades now have more of a kick.\n\n-We've added an update bulletin to the title screen so you can see what's new at a glance.\n\n-We've fixed a rare bug in the tutorial that prevented some players from advancing.\n\n-We've improved our city engine rendering for later stages.\n\n-We've added additional names to the credits sequence.\n\n-We have fun DLC planned, but we want to ensure as perfect a base experience for players as possible first.\n\n-We appreciate all the helpful and constructive feedback players have given us thus far! If you enjoy the game and want to see more, please feel free to drop a rating and, if you have time, a review!"
-            },
-            {
-                "version": "1.12",
-                "change_log": "<RUNNER> v 1.12 \"CheckPoint V.2\" update\n----------------------------------\n-Checkpoints added! players will now have the option of restarting from a mid-stage checkpoint OR from the start of the boss battle, with full weapon upgrades retained.  Choosing this option will incur a minor score penalty, however, though players will still have the option of restarting the stage the traditional way. (Gaunlet runs, such as stage 5 and stage 7, do not feature checkpoints due to their special encounter design). Hardcore players wanting to get an \"S\" rank will still be able to do so by ignoring the checkpoint option.\n\n-We've added additional hints to the restart menu should the player lose during a boss encounter.\n\n-We've tweaked early boss encounters based on player feedback for a more gradual difficulty ramp.  This was originally addressed in 1.1, and has been further adjusted in 1.12\n\n-We've improved the balance of sidearm powerups.\n\n-We've added an update bulletin to the title screen so you can see what's new at a glance.\n\n-We've fixed a rare bug in the tutorial that prevented some players from advancing.\n\n-We've improved our city engine rendering for later stages.\n\n-We've added additional names to the credits sequence.\n\n-We have fun DLC planned, but we want to ensure as perfect a base experience for players as possible first.\n\n-We appreciate all the helpful and constructive feedback players have given us thus far! If you enjoy the game and want to see more, please feel free to drop a rating and, if you have time, a review!"
-            },
-            {
-                "version": "1.1",
-                "change_log": "<RUNNER> v 1.1 \"CheckPoint\" update\n----------------------------------\n-Checkpoints added! players will now have the option of restarting from a mid-stage checkpoint OR from the start of the boss battle, with full weapon upgrades retained.  Choosing this option will incur a minor score penalty, however, though players will still have the option of restarting the stage the traditional way. (Gaunlet runs, such as stage 5 and stage 7, do not feature checkpoints due to their special encounter design). Hardcore players wanting to get an \"S\" rank will still be able to do so by ignoring the checkpoint option.\n\n-We've added a special hint to the restart menu should the player lose during a boss encounter.\n\n-We've improved the balance of sidearm powerups.\n\n-We've added an update bulletin to the title screen so you can see what's new at a glance.\n\n-We've fixed a rare bug in the tutorial that prevented some players from advancing.\n\n-We've improved our city engine rendering for later stages.\n\n-We've tweaked early boss encounters based on player feedback for a more gradual difficulty ramp.\n\n-We've added additional names to the credits sequence.\n\n-We have fun DLC planned, but we want to ensure as perfect a base experience for players as possible first.\n\n-We appreciate all the helpful and constructive feedback players have given us thus far! If you enjoy the game and want to see more, please feel free to drop a rating and, if you have time, a review!"
             }
         ],
         "on_rookie": true,
@@ -164,19 +164,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 475177,
-        "rating_update": 481562,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "animation",
             "retro"
         ],
-        "last_update": 481562,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 343,
-        "rating": 4.655977,
+        "votes": 358,
+        "rating": 4.670391,
         "weighted_rating": 4.6
     },
     "errors": []

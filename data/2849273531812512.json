@@ -42,23 +42,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 487
+                "votes": 490
             },
             {
                 "rating": 2,
-                "votes": 107
+                "votes": 109
             },
             {
                 "rating": 3,
-                "votes": 87
+                "votes": 90
             },
             {
                 "rating": 4,
-                "votes": 151
+                "votes": 160
             },
             {
                 "rating": 5,
-                "votes": 2032
+                "votes": 2202
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,30 @@
             "logo_transparent": "39031482_481957372579076_5980230021053153280_n.png"
         },
         "changelog": [
+            {
+                "version": "2.18.0",
+                "change_log": "Avatar visibility fixes.\nHand raycast fixes on launch.\nAudio bug fix.\nSave seat position in non-networked room."
+            },
+            {
+                "version": "2.17.0",
+                "change_log": "Update Meta avatars.\nAddress abnormal scrolling on browser.\nSeating fixes."
+            },
+            {
+                "version": "2.16.0",
+                "change_log": "- Fixed player height issues \n- Fixed avatar not showing up in webcam in solo/collab\n- Fixed browser input appearing on agent side \n- Fixed Bluetooth keyboard input "
+            },
+            {
+                "version": "2.15.0",
+                "change_log": "- Avatars fixes\n- Browser input fixes"
+            },
+            {
+                "version": "2.14.0",
+                "change_log": "Immersed’s NEW Browser (Beta)\n- Laptop not required (compatible with Bluetooth keyboards too).\n- Spawn virtual browser windows alongside your computer (uses your computer's keyboard; click the Agent to prevent duplicate keystrokes for now).\n- two hand resize for now (standard resizing controls coming soon).\n- Upgrade Meta Avatars"
+            },
+            {
+                "version": "2.13.0",
+                "change_log": "UI fix and minor updates."
+            },
             {
                 "version": "2.12.0",
                 "change_log": "Minor bug fix for notifications."
@@ -139,53 +163,29 @@
             {
                 "version": "2.1.0",
                 "change_log": "Implement real time updates of user account data, features and streaks.\nImprove memory management during screen connection.\nFix freeze on launch caused by disabled microphone permissions.\nUpdate server for coworking and public rooms."
-            },
-            {
-                "version": "2.0.2",
-                "change_log": "Revert screen visual updates."
-            },
-            {
-                "version": "2.0.1",
-                "change_log": "Fix wired connection."
-            },
-            {
-                "version": "2.0.0",
-                "change_log": "Update end to end encryption for local and shared connections.\nScreen connection improvements and retry logic added if failing to load.\nAllow connection to mobile agent before computer connection.\nAdd speaking indicator in participants list.\nMic will turn red if there is a connection issue.\nAdd Enable hands tip for new users.\nLoading screen UI now have slight opacity. Add fade for main menu.\nFixes and improvements to voice connection\nFix spatial audio resetting when switching rooms.\nFix sorting of discovered agents in UI.\nFix saving layouts when data is corrupt.\nFix screens from showing during timeout of keyboard passthrough tutorial."
-            },
-            {
-                "version": "1.13.0",
-                "change_log": "Update voice architecture in Collaboration and Public rooms.\nFix ReadyPlayerMe avatars not instantiating.\nAdjustments to spatial audio."
-            },
-            {
-                "version": "1.12.01",
-                "change_log": "Fix issue where screen sharing would fail.\nCorrect issue for saving layouts when wired connection disconnects."
-            },
-            {
-                "version": "1.12.0",
-                "change_log": "Improve saving and loading of screen layouts between sessions and installs.\nFix UI refreshing in profile menu."
             }
         ],
         "on_rookie": false,
-        "general_update": 478489,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481442,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "collaboration"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 2864,
-        "rating": 4.094274,
-        "weighted_rating": 4.0
+        "votes": 3051,
+        "rating": 4.138971,
+        "weighted_rating": 4.1
     },
     "errors": []
 }

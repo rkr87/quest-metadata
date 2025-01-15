@@ -3,7 +3,7 @@
         "id": "6902823533148269",
         "app_name": "hAI! Friend MR",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "hAI! is your ideal AI friend who will always be with you! Name and describe your friend's personalities. Tell your friend about yourself. Then, start chatting with the power of ChatGPT!\n\nWith multilingual support, you can talk with your friend anytime, anywhere and about anything you want! Your friend is infinitely customizable, so you can have the perfect friend you have always dreamed of.",
+        "description": "**Meet Your Perfect AI Companion!**\n\nTransform how you connect and care with **hAI! Friend MR**, your ultimate AI-powered friend designed for VR and AR. Create a lifelike, animated avatar using a photograph of someone special and personalize their appearance and personality to craft the perfect companion. Powered by advanced conversational AI, your friend is multilingual, empathetic, and always ready to chat.\n\nWhether you’re seeking a confidant, a mental wellness guide, or simply a friendly presence, your hAI! Friend is here for you. Perfect for all ages, it evolves with you, retaining memories and preferences for a deeply personal experience.\n\n**Features:**  \n- Create and customize animated avatars from photographs.\n- Multilingual conversational AI for meaningful interactions.\n- Seamless VR and AR experience, bringing your friend to life.\n- Designed for mental well-being and lifelong companionship.\n- Includes a lovable virtual dog companion to enhance your experience (pre-designed and non-customizable). \n\nWhether you’re at home, in the metaverse, or on the go, **hAI! Friend MR** is your loyal friend, always by your side.",
         "developer": "URAV ADVANCED LEARNING SYSTEMS PVT LTD",
         "publisher": "URAV ADVANCED LEARNING SYSTEMS PVT LTD",
         "genres": [],
@@ -18,8 +18,9 @@
             "English",
             "Arabic",
             "Bengali",
-            "Chinese (China)",
+            "Chinese (Taiwan)",
             "Dutch",
+            "Finnish",
             "French (France)",
             "German",
             "Hindi",
@@ -32,8 +33,7 @@
             "Portuguese (Portugal)",
             "Russian",
             "Spanish (Spain)",
-            "Tamil",
-            "Telugu"
+            "Tamil"
         ],
         "platforms": [
             "Meta Quest 3S",
@@ -52,7 +52,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 7
+                "votes": 9
             },
             {
                 "rating": 2,
@@ -64,7 +64,7 @@
             },
             {
                 "rating": 4,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 5,
@@ -75,7 +75,7 @@
         "iarc": {
             "age_rating": "Teen",
             "descriptors": [
-                "Language"
+                "Diverse Content: Discretion Advised"
             ],
             "elements": [
                 "In-App Purchases"
@@ -95,6 +95,18 @@
             "logo_transparent": "38984452_297281442984203_7111876763073146157_n.png"
         },
         "changelog": [
+            {
+                "version": "0.10.0",
+                "change_log": "hAI! MR v0.10.0:\n- Added Gemini 2.0 Flash as additional AI model provider."
+            },
+            {
+                "version": "0.9.3",
+                "change_log": "hAI! MR v0.9.3\n- Added sitting option in the House environment.\n- Improved avatar animation controller for smoother animations.\n\nKnown issues\n- Some avatars may have their hands going through their legs in the sitting animation."
+            },
+            {
+                "version": "0.8.2",
+                "change_log": "- Improved lighting performance in the House.\n- Updated MessagePack."
+            },
             {
                 "version": "0.8.0",
                 "change_log": "- Added voice input support for most text input fields.\n- Overhauled UI/UX to be more consistent.\n- Updated Firebase, MessagePack and TTS."
@@ -158,39 +170,27 @@
             {
                 "version": "0.6.3",
                 "change_log": "Update v0.6.3\n- Your hAI! Friend now looks at you!"
-            },
-            {
-                "version": "0.6.2",
-                "change_log": "Update v0.6.2\n- Added hand tracking support to the whole app (except the VR House)!"
-            },
-            {
-                "version": "0.6.1",
-                "change_log": "Update v0.6.1\n- Added occlusion in the AR environment."
-            },
-            {
-                "version": "0.6.0",
-                "change_log": "Update v0.6.0\n- Added new environment: AR!\n- Added back button in settings."
             }
         ],
         "on_rookie": false,
-        "general_update": 481682,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 475753,
         "mode_update": 475753,
-        "language_update": 480218,
+        "language_update": 482473,
         "platform_update": 479809,
         "player_mode_update": 475753,
-        "changelog_update": 481586,
+        "changelog_update": 482473,
         "keyword_update": 475753,
         "tag_update": 479689,
-        "rating_update": 481682,
-        "iarc_detail_update": 477385,
+        "rating_update": 482473,
+        "iarc_detail_update": 482473,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 16,
-        "rating": 2.625,
-        "weighted_rating": 2.8
+        "votes": 19,
+        "rating": 2.526316,
+        "weighted_rating": 2.7
     },
     "errors": []
 }

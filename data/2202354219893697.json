@@ -20,11 +20,11 @@
             "English"
         ],
         "platforms": [
+            "Meta Quest",
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2",
-            "Meta Quest"
+            "Meta Quest 2"
         ],
         "player_modes": [
             "ROOM_SCALE"
@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 23
+                "votes": 25
             },
             {
                 "rating": 2,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 169
+                "votes": 170
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -78,6 +78,10 @@
             "logo_transparent": "39001692_2911220255673166_1868043972715037280_n.png"
         },
         "changelog": [
+            {
+                "version": "R1.2.2",
+                "change_log": "* Added new revive option to restart the current wave when defeated instead of quitting\n* Added new Bow Select menu. Completing all waves in the Dojo or Garden now unlocks a special bow\n* Updated bow interaction to be more accurate and consistent. Bows now have simulated drag, damping, and power unique to each one\n* Updated arrow flight physics to be more realistic and predictable\n* Fixed an issue where changes in frame rate could affect arrow trajectory as it leaves the bow\n* Added new Goals menu. Current goals include reaching checkpoints and passing multiple waves without taking damage\n* Added new Days Played Streak\n* Added new How to Play menu\n* Updated main menu UI/UX to better display and scale with future content\n* Added location images to the level select menu\n* Added 'waves completed / total' display to the level select menu for a quick view of current progress in each location\n* Added color-coded frames to the level select menu to denote total progress for each location\n* Adjusted hitboxes slightly for improved feel\n* Adjusted texture resolutions for improved visuals and performance\n* Switched from Oculus XR to Open XR to gain important cross platform support. This integration is not yet fully supported by Oculus. If any stability issues arise, please reach out directly\n* Switched from hand models to generic Open XR controller models for future cross platform consistency\n* Additional 3rd party / cross-platform support improvements\n* Minor environment adjustments\n* Updated the initial loading scene\n* Added support for displaying messages to the player in the loading scene if any important news should be presented\n* Additional minor improvements\n "
+            },
             {
                 "version": "R1.1.13",
                 "change_log": "Add support for offline play\nMigrate save data to Meta servers"
@@ -123,19 +127,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475000,
+        "changelog_update": 482473,
         "keyword_update": 475633,
         "tag_update": 475657,
-        "rating_update": 481610,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "archery",
             "wave"
         ],
-        "last_update": 481610,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 275,
-        "rating": 4.185455,
+        "votes": 278,
+        "rating": 4.165468,
         "weighted_rating": 4.1
     },
     "errors": []

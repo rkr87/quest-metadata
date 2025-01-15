@@ -74,6 +74,10 @@
         },
         "changelog": [
             {
+                "version": "6.5.20",
+                "change_log": "Scrolling fix"
+            },
+            {
                 "version": "6.5.14",
                 "change_log": "Gaze interaction rework"
             },
@@ -124,18 +128,6 @@
             {
                 "version": "6.1.0",
                 "change_log": "XRPoke + Practice Enhancements"
-            },
-            {
-                "version": "6.0.12",
-                "change_log": "Fixed a bug where entering First Person sometimes would not pre-orient the user correctly"
-            },
-            {
-                "version": "6.0.12",
-                "change_log": "Welcome to VReps Basketball v6.0.11! This update contains:\n\nFeatures:\n- Lessons can be created by coaches to teach and quiz players! (On the web)\n- Coaches can track their players' learning! (On the web)\n\nBugfixes:\n- Various lessons bugfixes\n- Various VR-specific bugfixes"
-            },
-            {
-                "version": "5.12",
-                "change_log": "Welcome to Virtual Playbook v5.12! Here are our latest changes:\nFeatures: \n   - New Home Screen\n   - New \"On Ball\" camera tracks the game ball\n   - Mods to Practice Mode to ease difficulty curve\n   - Pick your preferred court lines: NBA or NCAA\n\nBug Fixes: \n   - Frame-text and Spotlight UI de-conflicted\n   - Mirrored plays will mirror court items (cones, text, etc.)\n   - Quiz-questions properly de-duplicated for multi-play quizzes\n   - Bugfix for close-proximity passes in practice mode\n   - Bugfix for coach-led film session UI getting stuck at maximized"
             }
         ],
         "on_rookie": false,
@@ -146,13 +138,13 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 480193,
-        "changelog_update": 481201,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 478585,
         "rating_update": 475105,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481201,
+        "last_update": 482473,
         "category": "APPS",
         "votes": 24,
         "rating": 2.0,

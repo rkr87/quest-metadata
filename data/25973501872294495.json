@@ -40,7 +40,7 @@
             },
             {
                 "rating": 3,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 4,
@@ -63,19 +63,10 @@
         },
         "internet_connection": "REQUIRED",
         "website": "https://docs.google.com/document/d/1eZs6m26ZXulJJTtWqgWg9JwhR3kqh3lhr7kXHAPuvCU/edit?usp=sharing",
-        "app_images": {
-            "cover_landscape": "75234370_1502246290403876_6136722795329404387_n.png",
-            "cover_portrait": "39035410_1653225962128256_1298496130996653315_n.png",
-            "cover_square": "75540501_494880116335215_3116024421995633113_n.png",
-            "hero": "38974531_833796022155078_8490957820379037056_n.png",
-            "icon": "38982693_498382085981289_6273870952967430409_n.png",
-            "immersive_layer_backdrop": null,
-            "immersive_layer_logo": null,
-            "logo_transparent": "75284540_481388770918718_5117491107665564107_n.png"
-        },
+        "app_images": {},
         "changelog": [],
         "on_rookie": false,
-        "general_update": 481346,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 478969,
         "mode_update": 478969,
@@ -85,14 +76,26 @@
         "changelog_update": 478969,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 481346,
+        "rating_update": 482473,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 481346,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 12,
-        "rating": 4.333333,
+        "votes": 13,
+        "rating": 4.230769,
         "weighted_rating": 3.9
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

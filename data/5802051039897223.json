@@ -48,11 +48,11 @@
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 14
             },
             {
                 "rating": 5,
-                "votes": 142
+                "votes": 152
             }
         ],
         "comfort": "NOT_RATED",
@@ -79,6 +79,10 @@
             "logo_transparent": "38974777_604945281685800_2956375268975241351_n.png"
         },
         "changelog": [
+            {
+                "version": "2.65",
+                "change_log": "🏁Track Craft  2.65 - Multiplayer matchmaking update🏁\n\nBefore releasing the big new lap piece update soon, we're excited to bring you a new Multiplayer matchmaking feature!👨‍👨‍👧‍👦\n\nWhat's new:\n\n🏎️ When you join a Multiplayer room, all online players will get a quick join notification.\n🏎️ Multiplayer games yield increased points to help you climb that global leaderboard!\n🏎️ Added Discord link to main menu to grow our community even bigger."
+            },
             {
                 "version": "2.60",
                 "change_log": "What's new in 2.60?\n\nNew features:\nCo-located multiplayer \nPrivate rooms\n\nFixes:\nFixed switching to the pov camera in the editor and back breaks room mesh \nFixed bug where the car would levitate and could not be driven \nFixed some pieces that could not be deleted \nFixed for application does not display an error message when losing internet connection \nFixed The user is unable to proceed after attempting to join a full multiplayer room\nFixed - The application prompts the microphone permission two additional times when it is denied\nImproved performance in Multiplayer and some tracks \nFixed cheating using scale / move mechanic \nFixer or user stats gets saved in the wrong format for some users \nFixed arcade level double load on the first open \nImproved  TJ third-person camera positions \nZero times will now not save to the high-score table \nFixed no internet triggering after the pause \nUser can not lock an editor multiplayer session with a password "
@@ -138,10 +142,6 @@
             {
                 "version": "0.77",
                 "change_log": "Fixed bug with replay"
-            },
-            {
-                "version": "0.76",
-                "change_log": "Improvements:\n\n*Player options (left hand, MSAA, ground shadows) persist after reloading the game.\n*More tracks are displayed in Community tracks.\n*Smoother movement of cars has been implemented.\n*Minor performance improvements have been made in multiplayer.\nBug Fixes:\n*Replay saving should now be more reliable.\n*An issue that would allow driving a car without timer to start has been fixed.\n*High scores that took advantage of bugs have been cleared.\n"
             }
         ],
         "on_rookie": false,
@@ -152,16 +152,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479977,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 481658,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481658,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 162,
-        "rating": 4.796296,
+        "votes": 174,
+        "rating": 4.798851,
         "weighted_rating": 4.7
     },
     "errors": []

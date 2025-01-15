@@ -48,7 +48,7 @@
             },
             {
                 "rating": 4,
-                "votes": 3
+                "votes": 5
             },
             {
                 "rating": 5,
@@ -83,6 +83,14 @@
         },
         "changelog": [
             {
+                "version": "1.8.721",
+                "change_log": "- Added an arrow to the station interface in the Training sector to direct players to the Missions menu.\n- Added support for more fonts for most European languages.\n- Small tweaks for some translations for Russian, German, Spanish, and Ukrainian.\n- Fixed issue with 'Docking...' incorrectly appearing.\n- Bug fixes"
+            },
+            {
+                "version": "1.8.719",
+                "change_log": "- Preliminary \"beta\" localized client text support for 20 languages: English, Spanish, French, German, Portuguese, Italian, Turkish, Russian, Polish, Ukrainian, Chinese Simplified, Chinese Traditional, Korean, Japanese, Thai, Vietnamese, Indonesian, Hindi, Bengali, and Arabic.\n- More Missions are now localized into more languages.\n- Improved in-client tutorial voiceovers are available in a subset of languages: English, Spanish, French, German, Portuguese, Italian, Turkish, Russian, Polish, Chinese (Mandarin), Korean, Japanese, Hindi, and Arabic.\n- Other mission voiceovers may use platform-specific text-to-speech in local languages, with varied quality (we cannot store high-quality voiceovers for all missions, the game would be too large of a download).\n- TRANSLATION CAVEATS: \"Full\" localization only extends to the game-client and initial mission tutorials. Some missions are translated after that, into a few languages, but not yet all languages. Not all Client content is localized, and some interfaces have layout issues with long word-lengths. Machine translation has been temporarily used for some languages, and may be less than ideal. Again, this is a \"beta\" localization update.\n"
+            },
+            {
                 "version": "1.8.712.1",
                 "change_log": "- Auto-detection of Quest 3S, with improved default graphical settings.\n- Fixed crash in the graphics driver.\n- Fixed rendering issue with missing shadows on certain ships.\n- The range of the Cargo Tractor Beam for non-capships has been extended to 15 meters, acceleration increased to 80 m/s^2, and an extra conic tractor region has been added to the front of the ship.\n- Improved alignment of name text under 2D selection box on the HUD.\n"
             },
@@ -107,16 +115,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480218,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481538,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481538,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 29,
-        "rating": 4.724138,
+        "votes": 31,
+        "rating": 4.677419,
         "weighted_rating": 4.4
     },
     "errors": []

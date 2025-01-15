@@ -5,18 +5,23 @@
         "release_date": "1980-01-01T00:00:00.000Z",
         "description": "\"Fitness GAL - Sweat for Better World\" is a VR application that blends boxing, music aerobics, and character development. Players become aspiring top boxers, working with a charming coach to tackle challenges and chase their dreams.\n\n## Game Features:\nBoxing and Music Aerobics Fusion:\nThis unique combination lets players punch to the rhythm, enjoy aerobic fitness, and promote weight loss.\n\n## Track Fitness Progress:\nA built-in fitness log lets players record their workout results and plans, tracking progress and staying motivated.\n\n## Charming Coach Guidance:\nPlayers receive guidance from a beautiful boxing coach who helps improve techniques and offers encouragement.\n\n## Challenges and Growth:\nCompleting challenges and tasks enhances boxing skills and fitness, helping players grow into top boxers, win matches, and earn honors.\n\n## Future Updates:\nFuture versions will introduce player vs. player and virtual character challenges, allowing competitive duels to determine the strongest boxer. Various modes, including training, character development, and competition, will cater to diverse player preferences.\n\n## Conclusion:\n\"Fitness GAL - Sweat for Better World\" is a VR app that helps players exercise and learn boxing techniques while embarking on a dream-filled adventure. Work with your charming coach to pursue your dreams and become a true boxing champion!",
         "developer": "SkyFirework",
-        "publisher": "Unity",
+        "publisher": "SkyFirework",
         "genres": [
             "Sports"
         ],
         "devices": [
-            "Touch Controllers",
-            "Hand Tracking"
+            "Touch Controllers"
         ],
         "modes": [
             "Single User"
         ],
         "languages": [
+            "English",
+            "English (US)",
+            "English (Australia)",
+            "English (Canada)",
+            "English (South Africa)",
+            "English (UK)",
             "Chinese (China)"
         ],
         "platforms": [
@@ -49,10 +54,10 @@
             },
             {
                 "rating": 5,
-                "votes": 1
+                "votes": 2
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone 10+",
             "descriptors": [
@@ -62,7 +67,7 @@
             "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "internet_connection": "REQUIRED_FOR_DOWNLOAD",
-        "website": "http://www.yshh.online/",
+        "website": "https://sites.google.com/view/skyfirework/fitnessgal",
         "app_images": {
             "cover_landscape": "428899350_934608271803013_5664996553218607431_n.png",
             "cover_portrait": "38974740_2194243847594155_3137488608243161442_n.png",
@@ -75,6 +80,10 @@
         },
         "changelog": [
             {
+                "version": "0.2.5",
+                "change_log": "fix a assetbundle error"
+            },
+            {
                 "version": "0.2.2",
                 "change_log": "0.2.0 版本日志\n\n语音：更换语音模块\n在线：支持云存档，角色排行榜，PK系统初版\n操作：玩家与角色距离，可自调整\n课程：新增课程 x 3，基中高阶课程 x 1，增中躲闪机制\n角色：新增角色 x 2\n\n0.2.1 版本日志\n\n修正：排行榜我的位置\n修正：字幕边缘与墙壁重叠造成的显示不全\n修正：高阶课程中的摆拳与直拳台词错误\n优化：云存档机制，支持卸载后、重新安装恢复存档\n优化：朋克少女的眼睛纹理\n\n0.2.2 版本日志\n\n新增：课程U型躲闪、中阶组合1、高阶组合2\n新增：角色露娜(Luna)及三个皮肤\n新增：道具系统（装备和礼物）\n新增：亲密度和喜好系统（赠送礼物）\n调整：角色渲染效果调整\n修正：PK模式，角色会超出线外\n调整：PK规则，从随机制调整为轮流制\n调整：角色列表，增加翻页，每页最多4个角色"
             },
@@ -84,24 +93,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481514,
+        "general_update": 482473,
         "genre_update": 480481,
-        "device_update": 478969,
+        "device_update": 482473,
         "mode_update": 478969,
-        "language_update": 478969,
+        "language_update": 482473,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 482473,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 481514,
+        "rating_update": 482473,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 481514,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 1,
+        "votes": 2,
         "rating": 5.0,
-        "weighted_rating": 3.6
+        "weighted_rating": 3.7
     },
     "errors": []
 }

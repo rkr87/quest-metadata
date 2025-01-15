@@ -26,7 +26,6 @@
             "Meta Quest 2"
         ],
         "player_modes": [
-            "SITTING",
             "STANDING"
         ],
         "tags": [],
@@ -41,18 +40,18 @@
             },
             {
                 "rating": 3,
-                "votes": 6
+                "votes": 7
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 11
             },
             {
                 "rating": 5,
-                "votes": 52
+                "votes": 54
             }
         ],
-        "comfort": "NOT_RATED",
+        "comfort": "COMFORTABLE_FOR_SOME",
         "iarc": {
             "age_rating": "Everyone",
             "descriptors": [],
@@ -72,6 +71,10 @@
             "logo_transparent": "75542960_619873362410957_8865805999066214505_n.png"
         },
         "changelog": [
+            {
+                "version": "2.15.2",
+                "change_log": "Removed unnecessary permissions"
+            },
             {
                 "version": "2.15.1",
                 "change_log": "Fixed an issue preventing training from starting in certain cases\nFixed an issue where sometimes midfield players would have goalkeeper kits\nFixed an issue where sometimes goalkeepers would have midfielder kits\nFixed an issue where your team message would appear at the start of every scenario"
@@ -143,31 +146,27 @@
             {
                 "version": "2.9.8",
                 "change_log": "Added the ability perform a pass into space (through pass) in Matchplay.\nIncreased the spread of the players over the field in Matchplay.\nIncreased the width of wingers when attacking in Matchplay.\nMade defenders press up the field further when attacking in Matchplay.\nMade defenders pressure the player on the ball more aggressively in Matchplay.\nIncreased the amount of passing happening during play in Matchplay.\nAdjusted the controls in Matchplay so that tackle (previously A button) and request ball (previously B button) are on the right grip button."
-            },
-            {
-                "version": "2.9.6",
-                "change_log": "Fixed players not being positioned correctly in replays\nFixed inability to fly around in replay mode\nFixed grid overlay graphic appearing in replay mode\nFixed app lagging when playing a new scenario set after quitting a previous set\nFixed aiming line not appearing in scenarios when shooting\nFixed control hint for sprint action not appearing in Matchplay"
             }
         ],
         "on_rookie": false,
-        "general_update": 479689,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
-        "player_mode_update": 474685,
-        "changelog_update": 481322,
+        "player_mode_update": 482473,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481658,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481658,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 107,
-        "rating": 3.495327,
-        "weighted_rating": 3.4
+        "votes": 109,
+        "rating": 3.513761,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

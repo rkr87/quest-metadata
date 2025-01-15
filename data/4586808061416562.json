@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 24
+                "votes": 25
             },
             {
                 "rating": 2,
-                "votes": 4
+                "votes": 7
             },
             {
                 "rating": 3,
-                "votes": 8
+                "votes": 9
             },
             {
                 "rating": 4,
-                "votes": 12
+                "votes": 15
             },
             {
                 "rating": 5,
-                "votes": 31
+                "votes": 32
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -135,18 +135,6 @@
             {
                 "version": "2024.31",
                 "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.31\n\n## Improvements\n\n- Changed Fixed Foveation render setting to reduce visible pixellation at top of the field-of-view, while maintaining performance benefits from previous setting.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
-            },
-            {
-                "version": "2024.30",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.30\n\n## Improvements\n\n- Reduced the browser render rate to 1/2 of the headset render rate to lessen the framerate impact of CPU-heavy websites.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
-            },
-            {
-                "version": "2024.29",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.29\n\n## Bug Fixes\n\n- Re-connecting the network keyboard and headset should be much more robust to network interruptions, closing and re-opening Softspace, etc.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
-            },
-            {
-                "version": "2024.28.3",
-                "change_log": "For complete release notes, please visit → docs.soft.space\n\n# Softspace v2024.28.3\n\n## Improvements\n\n- Optimized the mesh representation of Topic item body backing and title backing for 89% reduction in draw calls, which greatly reduces the CPU load of rendering scenes with many topics; e.g. the demo scene.\n\n## Known Issues\n\n- The Dropbox authentication can expire, preventing the Dropbox import and export features from working. If this happens, please unlink Dropbox from the Account settings pages and relink.\n- Speech-to-text button occasionally stops working, requiring an app restart.\n- Workspaces with large numbers of content items can cause low framerates.\n- Browsing websites with heavy scripts or 3D rendering can cause frame drops.\n- Scrolling in the web browser can sometimes target the incorrect part of the page."
             }
         ],
         "on_rookie": false,
@@ -157,16 +145,16 @@
         "language_update": 474685,
         "platform_update": 481682,
         "player_mode_update": 474685,
-        "changelog_update": 481682,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474880,
-        "rating_update": 481514,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 79,
-        "rating": 3.278481,
+        "votes": 88,
+        "rating": 3.25,
         "weighted_rating": 3.2
     },
     "errors": []

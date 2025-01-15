@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 58
+                "votes": 59
             },
             {
                 "rating": 2,
@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 250
+                "votes": 253
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -80,6 +80,18 @@
             "logo_transparent": "38982627_236975028352460_6136802256551461280_n.png"
         },
         "changelog": [
+            {
+                "version": "4.19.3.12723",
+                "change_log": "4.19.2 -> 4.19.3 \n\nImprovements\n\n - Removed old banner"
+            },
+            {
+                "version": "4.19.3.12703",
+                "change_log": "4.19.2 -> 4.19.3 \n\nImprovements\n\n - Added new banner"
+            },
+            {
+                "version": "4.19.2.12651",
+                "change_log": "4.19.1 -> 4.192 \n\nImprovements\n\n - Added chroma key controls for the Figma Viewer"
+            },
             {
                 "version": "4.19.1.12551",
                 "change_log": "4.19.0->4.19.1\n\n- SXR-6749: Fixed issue where Follow mode in VR cannot be stopped if started by a web user.\n\n- SXR-6802: Resolved issues with attached groups breaking after exiting Play mode.\n\n- SXR-6808: Fixed workspace-related problems for free users.\n\n- SXR-6812: File names are no longer cut off in the Move pop-up and file preview.\n\n- SXR-6823: Scene switching via the stick now functions correctly.\n\n- SXR-6816: Fixed handling of objects with pivots that do not correspond to the bounds center.\n"
@@ -147,18 +159,6 @@
             {
                 "version": "4.0.10.11049",
                 "change_log": "4.0.9->4.0.10\n\nImprovements:\n\n-Added new samples to library\n\n-Added one more tutorial\n\n-Made animated transition between Sky and Passthrough\n\n-New stages appear at the end of the list.\n\n-Snapping to the surface no longer switches direct selection to ray selection.\n\n-\"My files\" tab is now the default for the library.\n\n-Recolored asset library assets from FFFFFF to 9B9B9B. and icons to pure FFFFFF\n\n-Spaces now start in VR by default.\n\n-Added laser straightening during snapping.\n\n-Iteration of UX polishing.\n\n-Rotation snapping now works with the laser pointer.\n\n-Added color dropper button in the Paint tool.\n\n-Returned duplicate toolbit on the dominant hand.\n\n-The audio spatializer now works for objects attached to the body.\n\n-Tool switches to selection when an asset is grabbed from the asset menu.\n\n-Snapping orb can now be grabbed.\n\n-The hand menu now opens when an object is selected.\n\n-Teleport to viewpoint on Play is now available in the Prototyping section.\n\nFixes:\n\n-Fixed laggy object snap when rotation snap is enabled.\n\n-Background scene issue when switching scenes is fixed.\n\n-Model preview no longer spawns in the center when scale factor is set to auto.\n\n-The delete button is now displayed for project spaces.\n\n-Fixed when line from interactivity to the object is visible in play mode.\n\n-Color change for multi-selected objects with groups is now functional.\n\n-Snapping to surfaces now works correctly with newly grabbed procedural cubes.\n\n-Paint tool ray is no longer interrupted by furniture in Room-scale mode.\n\n-Objects are no longer snapped to the wrong side of the floor.\n\n-Interactivity for deleted objects no longer refers to them.\n\n-Fixed when toolbar opens on the Text tool for the first time.\n\n-Objects are no longer duplicated when grabbed.\n\n-Text color can now be changed via the Paint tool.\n\n-VR and real controllers now match correctly for Quest Pro and Quest 3.\n\n-Frame drops while selecting are fixed.\n\n-Interactivity is now cleared from the object when the option that uses it is changed.\n\n-The Delete interactivity button now responds in all cases.\n\n-Selection with modification pressed now works correctly.\n\n-Space now opens immediately when using the \"Open in VR\" feature"
-            },
-            {
-                "version": "4.0.10.11035",
-                "change_log": "4.0.9->4.0.10\n\nImprovements:\n\n-Added new samples to library\n\n-Added one more tutorial\n\n-Made animated transition between Sky and Passthrough\n\n-New stages appear at the end of the list.\n\n-Snapping to the surface no longer switches direct selection to ray selection.\n\n-\"My files\" tab is now the default for the library.\n\n-Recolored asset library assets from FFFFFF to 9B9B9B. and icons to pure FFFFFF\n\n-Spaces now start in VR by default.\n\n-Added laser straightening during snapping.\n\n-Iteration of UX polishing.\n\n-Rotation snapping now works with the laser pointer.\n\n-Added color dropper button in the Paint tool.\n\n-Returned duplicate toolbit on the dominant hand.\n\n-The audio spatializer now works for objects attached to the body.\n\n-Tool switches to selection when an asset is grabbed from the asset menu.\n\n-Snapping orb can now be grabbed.\n\n-The hand menu now opens when an object is selected.\n\n-Teleport to viewpoint on Play is now available in the Prototyping section.\n\nFixes:\n\n-Fixed laggy object snap when rotation snap is enabled.\n\n-Background scene issue when switching scenes is fixed.\n\n-Model preview no longer spawns in the center when scale factor is set to auto.\n\n-The delete button is now displayed for project spaces.\n\n-Fixed when line from interactivity to the object is visible in play mode.\n\n-Color change for multi-selected objects with groups is now functional.\n\n-Snapping to surfaces now works correctly with newly grabbed procedural cubes.\n\n-Paint tool ray is no longer interrupted by furniture in Room-scale mode.\n\n-Objects are no longer snapped to the wrong side of the floor.\n\n-Interactivity for deleted objects no longer refers to them.\n\n-Fixed when toolbar opens on the Text tool for the first time.\n\n-Objects are no longer duplicated when grabbed.\n\n-Text color can now be changed via the Paint tool.\n\n-VR and real controllers now match correctly for Quest Pro and Quest 3.\n\n-Frame drops while selecting are fixed.\n\n-Interactivity is now cleared from the object when the option that uses it is changed.\n\n-The Delete interactivity button now responds in all cases.\n\n-Selection with modification pressed now works correctly.\n\n-Space now opens immediately when using the \"Open in VR\" feature\n"
-            },
-            {
-                "version": "4.0.9.11003",
-                "change_log": "4.0.8->4.0.9\n\nFEATURES\n-Improved attachment to viewpoints.\n\nIMPROVEMENTS\n\n-Optimized skybox implementation.\n\n-Enhanced Floor Grid Shader performance.\n\n-Updated environment and space pop-ups.\n\nBUG FIXES\n\n-Resolved issue where room walls were visible outside the designated space.\n\n-Fixed visual issues with buttons during new stage creation when certain limits were displayed.\n\n-Implemented a workaround for issues with unavailable room scale mode.\n\n-Addressed missing \"move to scene\" button, ensuring objects can be moved from the background to the scene.\n\n-Corrected issues with space renaming via the share panel.\n\n-Fixed space name overflow on space cards.\n\n-Resolved snapping issues where procedural primitives' boundaries were displayed incorrectly.\n\n-Ensured viewpoints have teleport options after Play mode.\n\n-Fixed tool change behavior when selecting objects for interactivity.\n\n-Corrected snapping display when the beam interacts with the UI near a surface.\n\n-Fixed an issue where the pointer visual was sometimes too large and flickered on objects.\n\n-Resolved issue where room walls were visible during space loading after a pause.\n"
-            },
-            {
-                "version": "4.0.8.10978",
-                "change_log": "4.0.7->4.0.8\n- New tooltips added\n\n- Make logo to Coral color\n\n- Haptic effect when touching any objects in play mode\n\n- Fixed when trial notification for scenes is in the wrong position\n\n- Fixed when frame drops when selection in some cases\n\n- Fixed when teleport is activated after choosing a target in interactivity\n\n- Fixed when the dropdown list shows \"Value\" instead of the export format\n\n- Show the ToolTIp for spaces with a long name"
             }
         ],
         "on_rookie": false,
@@ -169,10 +169,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481634,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481538,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "design",
@@ -180,10 +180,10 @@
             "storytelling",
             "productivity"
         ],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 349,
-        "rating": 4.148997,
+        "votes": 353,
+        "rating": 4.147309,
         "weighted_rating": 4.1
     },
     "errors": []

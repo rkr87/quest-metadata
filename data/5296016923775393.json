@@ -35,7 +35,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 8
+                "votes": 9
             },
             {
                 "rating": 2,
@@ -51,7 +51,7 @@
             },
             {
                 "rating": 5,
-                "votes": 381
+                "votes": 388
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -79,6 +79,18 @@
             "logo_transparent": "38974606_1616568852051417_4748903909820829929_n.png"
         },
         "changelog": [
+            {
+                "version": "1.7.1.21838.138.OBERON.Quest.release",
+                "change_log": "Barbaria 1.7.1 Patch Update\n- Whims of the Ancients: It’s a Bare Knuckle Bonanza! All punching damage 2x until Monday, Dec 23rd.  Future Whims will be announced on the 4th Wall in game. \n- Enclose the narrow entrance on the Mountain Fragment to help minimize usage of the “corridor of death” setup\n- Add Hat: Santa’s Helper\n- Add Configurable Thumbstick Deadzone setting in pause menu\n- Buff Skeletons Boon now affects both Skeletons and Shamans\n- Fix Cyclotaur Entrance on Ring of Champions\n- Fix No Limits playground setting not always saving\n- Fix mirror tiles allowing item placement inside built in spawners\n- Fix Gladiatrix LOD visibility for certain hat and skin combinations"
+            },
+            {
+                "version": "1.7.0.21815.137.OBERON.Quest.release",
+                "change_log": "Barbaria 1.7 - Age of Play Update\n\nNew Features:\n\nPlayground Save Slots: There are now 3 different save slots in the Playground area. Load and save different realm ideas. Want to experiment with a few tweaks to your Realm before you set it live?  Pull your Realm to your Playground and try out changes there. Have an awesome Playground idea you’ve been saving for just the right moment? Push it to be your active Realm for ranked raids.\n\nNo Limits: Tired of the Ancient ones telling you how many Minions you can place, and restricting their placement radius? Turn on “No Limits” in the Playground and go wild! In playgrounds only, place as many tiles and items as you want. Placement distance restrictions are removed, so you can focus on creating the most awesome level you can imagine.\n\nPlayground Level Normalization: In an effort to make Playground realms accessible and fun for players of different rankings, we have added a level normalization option to Playgrounds that will rescale item levels to match those of the attacking champion.  A player with a level 2 max champion attacking the playground will find Level 2 items, while a Level 5 champion will find Level 5 items. The option to always use your actual minion and item levels is in the Playground settings.\n\nMirrored Fragment Skins:  Ever wished you could flip the orientation of one of your tiles?  All Fragments now have a “Mirror” version. Drop a Fragment on the customization station to change its orientation, and then use it in your Realm or Playground for more variety.\n\nNew Structure: Shaman Party Crashers\n\nBug Fixes and Improvements:\n\n- Block Friendly Realm Raids: As suggested in Discord, we have blocked all friendly Realm raids to prevent players scouting realms before doing actual attacks. Playground realms will remain public.\n- Add Krank, Cyclotaur, and additional weapon kits to Ring of Champions\n- Fix structures placed above or below ground making crystal crush impossible\n- Fix weekly challenge data not saving\n- Fix realm upgrade requirements display\n- Fix Left handed Krank bow animations\n- Fix NPCs getting stuck in forest connector\n- Fix collider size on Age02 statue\n- Fix broken overlapping LODs on Zealots\n- Fix hat LOD cutoffs\n- Fix gladiatrix alopecia bug\n- Quest render performance improvements\n- Reduce Quest memory usage\n- Remove target from organist in Batter Up"
+            },
+            {
+                "version": "1.7.0.21806.136.OBERON.Quest.release",
+                "change_log": "Barbaria 1.7 - Age of Play Update\n\nNew Features:\n\nPlayground Save Slots: There are now 3 different save slots in the Playground area. Load and save different realm ideas. Want to experiment with a few tweaks to your Realm before you set it live?  Pull your Realm to your Playground and try out changes there. Have an awesome Playground idea you’ve been saving for just the right moment? Push it to be your active Realm for ranked raids.\n\nNo Limits: Tired of the Ancient ones telling you how many Minions you can place, and restricting their placement radius? Turn on “No Limits” in the Playground and go wild! In playgrounds only, place as many tiles and items as you want. Placement distance restrictions are removed, so you can focus on creating the most awesome level you can imagine.\n\nPlayground Level Normalization: In an effort to make Playground realms accessible and fun for players of different rankings, we have added a level normalization option to Playgrounds that will rescale item levels to match those of the attacking champion.  A player with a level 2 max champion attacking the playground will find Level 2 items, while a Level 5 champion will find Level 5 items. The option to always use your actual minion and item levels is in the Playground settings.\n\nMirrored Fragment Skins:  Ever wished you could flip the orientation of one of your tiles?  All Fragments now have a “Mirror” version. Drop a Fragment on the customization station to change its orientation, and then use it in your Realm or Playground for more variety.\n\nNew Structure: Shaman Party Crashers\n\nBug Fixes and Improvements:\n\n- Block Friendly Realm Raids: As suggested in Discord, we have blocked all friendly Realm raids to prevent players scouting realms before doing actual attacks. Playground realms will remain public.\n- Add Krank, Cyclotaur, and additional weapon kits to Ring of Champions\n- Fix structures placed above or below ground making crystal crush impossible\n- Fix weekly challenge data not saving\n- Fix realm upgrade requirements display\n- Fix Left handed Krank bow animations\n- Fix NPCs getting stuck in forest connector\n- Fix collider size on Age02 statue\n- Fix broken overlapping LODs on Zealots\n- Fix hat LOD cutoffs\n- Fix gladiatrix alopecia bug\n- Quest render performance improvements\n- Reduce Quest memory usage\n- Remove target from organist in Batter Up"
+            },
             {
                 "version": "1.6.1.21694.133.OBERON.Quest.release",
                 "change_log": "Barbaria 1.6.1 Patch Update\n\n- Fix naming weapons at the naming station\n- Fix weekly challenges not showing up\n- Fix old award trophies not showing up\n- Fix blocking two tunnels entrances\n- Fix Level 6 Quiver damage\n- Update Party Crashers delay time before spawn from 30s to 20s"
@@ -146,18 +158,6 @@
             {
                 "version": "1.2.2.20134.83.OBERON.Quest.release",
                 "change_log": "Barbaria 1.2.2 Patch Update\n\n- Fix bug that allowed players to re-use their reinforcements under certain circumstances"
-            },
-            {
-                "version": "1.2.1.19818.79.OBERON.Quest.release",
-                "change_log": "Barbaria 1.2.1 Patch Update\n\n- Fix translation missing errors\n- Fix progression blockage on certain levels when using alternate skins\n- Fix Bar-bell-baria animations when using alternate skins\n- Fix fragment caps missing names and descriptions\n- Fix Reinforcements Tooltips\n- Fix a few rare crashes"
-            },
-            {
-                "version": "1.2.0.19790.77.OBERON.Quest.release",
-                "change_log": "Barbaria 1.2 - The Age of Expression\n\nThe Age of Retribution has ended and the Age of Expression begins! We’ve added 6 new structures, a new item type (Fragment caps), and lots of new customization options so you can expand your realms and make them uniquely your own.\n\nNew Features:\n\n* Cosmetics and Customization: Take your champions and minions to the customization station to chose alternate outfits, skin tones, and pick your Taunts.  Unlock new skins for your statues.\n\n* Friendly Attack Replays: Carnage Carnival allows you to search for other players by name and attack their Realm or Playground in an unranked mode. These attacks now generate notifications and will send replays to those you attack.\n\n* New Item Type: Fragment Caps. Place fragment caps on unused connection points in your realm for extra piece placement possibilities.\n\n* Taunts: Choose an animated taunt for your champion to perform during replay notifications after successful attacks.\n\n* New Structures: Archery Boost, Melee Boost, Defense Boost, Speed Boost, Ruined Wall, Bait.\n\n* Equip weapons to left, right, or both hands on champions\n\nImprovements, Balance Changes, and Fixes:\n- Added 2 more reinforcements slots for a total of 4.\n- Added Auto-deploy Reinforcements option (defaults to on)\n- Added “No Turn” Option for Quest players who want to physically turn only\n- 10min limit on 4 tile realms\n- Show affect radius around relevant structures\n- Max Fragment placement capacity per tile set to 24 (max level + 2 feasts)\n- Players can unlock 2 additional feasts for a total of 4\n- Fixed NPCs tending to ignore weapon racks\n- Fixed reinforcements getting respawned onto the stands after they die\n- Various bug fixes and polish improvements\n\nSuggestions, Questions or comments? Join us on Discord!\nstalwart.com/discord"
-            },
-            {
-                "version": "1.1.2.19388.74.OBERON.Quest.release",
-                "change_log": "Barbaria 1.1.2 Patch Update\n\n- Expand placement area around unused fragment connections\n- Do not allow clearing a tile or ending an attack by bamboozling the last enemy\n- Improve Ranged AI's standing around doing nothing when they can't hit the target they want\n- Shorter spawner cooldown for Imp and Skeleton spawners\n- Reduce memory usage\n- Fix sword scale on weapon rack structure\n- Fix item levels on weapon racks\n- Fix info text size for Marauder’s Shield\n\n\n"
             }
         ],
         "on_rookie": true,
@@ -168,10 +168,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 477481,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 481586,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "combat",
@@ -179,10 +179,10 @@
             "rpg",
             "funny"
         ],
-        "last_update": 481586,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 464,
-        "rating": 4.696121,
+        "votes": 472,
+        "rating": 4.692797,
         "weighted_rating": 4.6
     },
     "errors": []

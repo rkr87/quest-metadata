@@ -3,7 +3,7 @@
         "id": "3662196457238336",
         "app_name": "Human Anatomy VR for Institutions",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# Upgrade Your Institution with Human Anatomy VR\n\n**Why Choose Human Anatomy VR?** - Utilize a comprehensive and highly detailed anatomical XR tool, trusted and adopted by **top universities**, healthcare organizations, and professionals in over *180 countries*.\n\n**Key Features:**\n\n- **Interactive Learning:** Host multi-user, cross-platform sessions with up to 100 participants. \n{1022341832369269}\n\n- **Advanced DICOM Imaging:** Transform CT/MRI scans into 3D models with our VR DICOM module. \n{1058954758917488}\n\n- **Extensive Anatomy Library:** Explore 15 body systems and over 13,000 anatomical structures.\n{1418662452153040}\n\n- **Ant-Mode:** Allows you to shrink down in size up to 40x and observe the human body from a completely different perspective.\n{1409897293028158}\n\n**And much more!**\n\n- **3D Cadaver Images:** Access a vast collection for realistic study created in cooperation with Stanford University. \n- **Detailed Bone Mapping:** Includes 5000 bony features for in-depth study.\n- **Microanatomy Models:** 21 detailed models with explanatory information.\n- **Dynamic Animations:** Over 500 movement animations for a better understanding of body mechanics.\n- **Interactive Learning Tools:** In-app anatomy quizzes.\n- And much more!\n\n**Subscription Levels**\n- Student\n- Educator\n- Professional\n- Institution\n\n**Free Trial:** Experience full access to the application with our complimentary trial for new users.\n\n**Upgrade now** and bring an immersive, intuitive VR tool for anatomical visualization to your institution",
+        "description": "# Upgrade Your Institution with Human Anatomy VR\n\n**Why Choose Human Anatomy VR?** - Utilize a comprehensive and highly detailed anatomical XR tool, trusted and adopted by **top universities**, healthcare organizations, and professionals in over *180 countries*.\n\nThis application requires an **active subscription** to unlock features.\n\n**Subscription Levels:**\n- Student\n- Educator\n- Professional\n- Institution\n\n**Key Features:**\n\n- **Interactive Learning:** Host multi-user, cross-platform sessions with up to 100 participants. \n{1022341832369269}\n\n- **Advanced DICOM Imaging:** Transform CT/MRI scans into 3D models with our VR DICOM module. \n{1058954758917488}\n\n- **Extensive Anatomy Library:** Explore 15 body systems and over 13,000 anatomical structures.\n{1418662452153040}\n\n- **Ant-Mode:** Allows you to shrink down in size up to 40x and observe the human body from a completely different perspective.\n{1409897293028158}\n\n**And much more!**\n\n- **3D Cadaver Images:** Access a vast collection for realistic study created in cooperation with Stanford University. \n- **Detailed Bone Mapping:** Includes 5000 bony features for in-depth study.\n- **Microanatomy Models:** 21 detailed models with explanatory information.\n- **Dynamic Animations:** Over 500 movement animations for a better understanding of body mechanics.\n- **Interactive Learning Tools:** In-app anatomy quizzes.\n- And much more!\n\n\n**Free Trial:** Experience full access to the application with our 24-hour free trial.\n\n**Upgrade now** and bring an immersive, intuitive VR tool for anatomical visualization to your institution",
         "developer": "Virtual Medicine",
         "publisher": "Virtual Medicine s.r.o",
         "genres": [],
@@ -17,13 +17,21 @@
         ],
         "languages": [
             "English",
+            "Chinese (China)",
             "Czech",
+            "Dutch",
+            "Finnish",
             "French (France)",
             "German",
             "Italian",
+            "Japanese",
+            "Korean",
+            "Polish",
             "Portuguese (Brazil)",
+            "Russian",
             "Slovak",
-            "Spanish (Spain)"
+            "Spanish (Spain)",
+            "Ukrainian"
         ],
         "platforms": [
             "Meta Quest",
@@ -41,7 +49,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 13
+                "votes": 14
             },
             {
                 "rating": 2,
@@ -49,15 +57,15 @@
             },
             {
                 "rating": 3,
-                "votes": 2
+                "votes": 4
             },
             {
                 "rating": 4,
-                "votes": 10
+                "votes": 12
             },
             {
                 "rating": 5,
-                "votes": 46
+                "votes": 48
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -81,6 +89,10 @@
         },
         "changelog": [
             {
+                "version": "2024.50.1",
+                "change_log": "Performance:\n- Improved performance after loading saves.\n\nNew Features:\n- Added the ability to pin objects for easier identification and manipulation.\n- Added labels for controllers on Quest 3 and Quest 3S.\n- Toggle hand menu panels (models/tools) using the X button.\n- Full body scaling using double grab.\n- Ability to move and rotate the entire body within the room.\n- Added the option to display the original text for translations on the info panel.\n- Added new languages: Polish and Finnish.\n\nAntMode Improvements:\n- Automatic breakdown of complex objects into more detailed parts.\n- Improved highlight colors for a better visual experience.\n- Updated info monitor content only after pressing the trigger.\n\nUI and Settings:\n- Redesigned layout of the info panel.\n- Added the option to adjust skin tones in the login scene.\n\nFixes:\n- Fixed a visual bug when a detail part returned to its place.\n- Fixed the issue with hiding and showing objects through rapid clicking.\n- Fixed incorrect voice-over in the tutorial.\n\nInstitution Only\n- Added slice plane positioning in individual axes.\n- Quick settings panel for students: change language, skin tones, and movement type.\n- Fixed cadaver images that could not be opened."
+            },
+            {
                 "version": "2024.41.1",
                 "change_log": "- Fixed labels for the microanatomy layers of the skin.\n- Added new languages: Ukrainian, Russian, Korean, and Japanese.\n- Implemented functionality to fix the XYZ axis while slicing DICOM.\n- Added the option to open PDF files via the web browser.\n- Improved female models.\n- Minor bug fixes."
             },
@@ -102,23 +114,23 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481514,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
-        "language_update": 478465,
+        "language_update": 482473,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480193,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481562,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481562,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 79,
-        "rating": 3.860759,
+        "votes": 86,
+        "rating": 3.837209,
         "weighted_rating": 3.8
     },
     "errors": []

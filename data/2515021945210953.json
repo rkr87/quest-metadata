@@ -32,23 +32,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 89
+                "votes": 92
             },
             {
                 "rating": 2,
-                "votes": 18
+                "votes": 17
             },
             {
                 "rating": 3,
-                "votes": 29
+                "votes": 31
             },
             {
                 "rating": 4,
-                "votes": 77
+                "votes": 80
             },
             {
                 "rating": 5,
-                "votes": 435
+                "votes": 469
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -71,6 +71,10 @@
             "logo_transparent": "38984455_2474447646210412_462888090281705472_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0.126 : vr_only",
+                "change_log": "- Added “Random” tab, on the content discovery wall, which allows users to randomly shuffle through the entire library.\n- Added “Surprise Me!” button, while in playback from the Random tab, which enables random play next."
+            },
             {
                 "version": "2.0.123 : vr_only",
                 "change_log": "- Added Artist Pages, enabling viewers to explore an artist's content by clicking their profile image.\n- Added Artist descriptions on Artist Pages, viewable by hovering over the profile picture at the bottom.\n- Bug fixes"
@@ -110,10 +114,6 @@
             {
                 "version": "1.6.0 03-03-2021 (D26767664) : vr_only",
                 "change_log": "- New localization text rendering\n- Add loop key support\n- Add spawn area default key support\n- Fix audio within span playback issue"
-            },
-            {
-                "version": "1.5.2 11-20-2020 (D25129479) : vr_only",
-                "change_log": "Updated audio engine to 1.10.4\nFixed rendering difference in pretesselated vs static\nFixed individual creators metadata"
             }
         ],
         "on_rookie": false,
@@ -124,10 +124,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 482473,
         "keyword_update": 475633,
         "tag_update": 474685,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
@@ -135,10 +135,10 @@
             "story",
             "narrative"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 648,
-        "rating": 4.158951,
+        "votes": 689,
+        "rating": 4.185776,
         "weighted_rating": 4.1
     },
     "errors": []

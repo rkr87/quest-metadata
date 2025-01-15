@@ -3,7 +3,7 @@
         "id": "4226087210826343",
         "app_name": "Pickleball",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "Experience cutting dinks, outrageous rallies and pickup games with AI Bots and friends online. State-of-the-art configurable custom physics with ever expanding feature set.\n# Configurable AI Bots for Singles and Doubles with instant replay\n{553087617321703}\n{1714346862674368}\nUse your real-life forehand, backhand, dinks and volleys - unlocking more creativity, and a better workout along the way.\n# Practice Wall \n{559682220101194}\n# Several drills with fully programmable ball machine\n{526989036877632}\n# Pro pack with  Racquetball, Baseball, Cricket, , etc.\n# Padel\n{1286563722370883}\n# Badminton\n{8361007357342352}\n# Zombies FPS with 7 levels\n{1603794127236342}\n- Competitive multiplayer against real players from around the world.\n- Several Ball types, Paddle types, Court types and Avatars\n- Ambidextrous play\n- Customizable physics: Arcade, Simcade and Simulation modes \n- Customizable paddle size, paddle sensitivity, paddle friction, ball bounce, ball friction, etc.\n- Support for paddle grip adapters.\n- Instant Replay with playback trail\n- Instant Analytics\n- Configurable options like displaying fault trajectory on the fly, ball landing position, ball trail, collision animation, ball orb, background tracks etc.\n- A variety of immersive environments to explore.\n- Mixed reality\n- Mirror Mode\n- In-game leaderboard where you can compete to be a star. \n- Fully localized in following 27 languages with text and audio\n\n# Tech support contacts\n- Facebook -https://www.facebook.com/groups/vrpickleball/\n- Discord - https://discord.gg/gHZCUSPuRE\n- Email - viniotstudios@gmail.com",
+        "description": "# Discover the Ultimate Pickleball Experience and More!\n- Unleash your creativity and fitness with our configurable custom physics engine. Whether you're aiming for precision, training for excellence, or just having fun, our platform has it all, with **9** sports and **27** environments to explore.\n{3771787856372411}\n# Key Features:\n- AI-Powered Pickleball: Experience outrageous rallies and exciting gameplay with our advanced AI Bots and **Multiplayer** for Singles and Doubles, with **instant replay**.\n{1714346862674368}\n- Realistic Gameplay: Use your real-life forehand, backhand, dinks, and volleys to enhance your skills with **custom grip** adapters.\n- Ambidextrous Play: Perfect for left, right-handed and ambidextrous players.\n- **Single controller play** for double handed shots.\n- **Ball machine with custom shot editor**: Take on several drills with a fully programmable ball machine. \n{526989036877632}\n- **Practice Wall & Mirror mode**: Hone your skills with endless practice. Challenge yourself with different perspectives.\n{559682220101194}\n- **Over 50 leaderboards**: ranked daily, weekly, and all-time scores.\n- Configurable Settings: Display fault trajectory, ball trail, etc.\n# Multiplayer:\n- Skill-based **matchmaking** worldwide.\n- Invite friends\n- Create and join courts for pickup games.\n\n# Fitness Tracker:\n- Keeps a 7-day history of balls hit and minutes played\n\n# Eight unlockable sports:\n- Padel\n- Badminton\n- Baseball\n- Cricket\n- Zombies First Person Shooter\n- Racquetball\n- Paddleball\n- Handball\n{1286563722370883}\n{996106292134279}\n{491879043926357}\n{997209605501640}\n{1603794127236342}\n{389676130833865}\n\n# Support:\n- https://www.facebook.com/groups/vrpickleball/\n- https://discord.gg/gHZCUSPuRE\n- Email: viniotstudios@gmail.com",
         "developer": "Viniot Studios",
         "publisher": "Viniot Studios",
         "genres": [
@@ -68,7 +68,7 @@
             },
             {
                 "rating": 2,
-                "votes": 6
+                "votes": 8
             },
             {
                 "rating": 3,
@@ -76,11 +76,11 @@
             },
             {
                 "rating": 4,
-                "votes": 32
+                "votes": 33
             },
             {
                 "rating": 5,
-                "votes": 169
+                "votes": 174
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -105,6 +105,30 @@
             "logo_transparent": "38982666_449350133589696_3811944066712869644_n.png"
         },
         "changelog": [
+            {
+                "version": "6.1.9",
+                "change_log": "Bugfix multiplayer"
+            },
+            {
+                "version": "6.1.8",
+                "change_log": "Hide review button once review is found"
+            },
+            {
+                "version": "6.1.7",
+                "change_log": "Add player height adjustment. Bugfix turn on matchmaking by default for players with >500 points. Fix language translation of Courts."
+            },
+            {
+                "version": "6.1.4",
+                "change_log": "Bugfix Bot serve position in Padel. Update materials of Padel, Racquetball and Badminton racquets. Update Welcome Dialog."
+            },
+            {
+                "version": "6.1.3",
+                "change_log": "Bugfix initial position in Cricket and Baseball."
+            },
+            {
+                "version": "6.1.2",
+                "change_log": "Delay player reset by 0.5 seconds after point ends. Long press of B button on right controller will reset player position back to baseline."
+            },
             {
                 "version": "6.1.1",
                 "change_log": "Bugfix serve in doubles"
@@ -152,58 +176,26 @@
             {
                 "version": "6.0.90",
                 "change_log": "Bugfix missing skybox in Paddleball. Add feature to reset player position by pressing Y button in Paddleball and Zombies. Move exit function in Zombies and Paddleball to menu button on left controller."
-            },
-            {
-                "version": "6.0.89",
-                "change_log": "Add welcome dialog at game start and a confirmation dialog for exiting Zombies when button 2 is pressed on left controller. Bugfix flicker when launching zombies."
-            },
-            {
-                "version": "6.0.88",
-                "change_log": "Add welcome dialog. Add ability to reset player location and rotation by pressing menu key on their controller for 1 second. Improve bot shot selection."
-            },
-            {
-                "version": "6.0.87",
-                "change_log": "Update bot spin implementation. Bugfix partner bot serve to reduce serve faults by partner bot in doubles game. Enemy navigation map updates in several scenes of Zombies game."
-            },
-            {
-                "version": "6.0.86",
-                "change_log": "Update menu layout. Bugfix snake in Zombies game."
-            },
-            {
-                "version": "6.0.85",
-                "change_log": "Bugfix teleportation when returning serves that bounce on the center line. Bugfix difficulty setting for Zombies game."
-            },
-            {
-                "version": "6.0.84",
-                "change_log": "Update badminton teleportation. Support 21 point badminton game. Add some more audio comments. Update badminton shuttle motion."
-            },
-            {
-                "version": "6.0.83",
-                "change_log": "Bugfix missing fault markers. Improve performance."
-            },
-            {
-                "version": "6.0.82",
-                "change_log": "Add hawk eye for ball bounce. Reverse player and bot labels when viewing from behind. Add smooth scale down of ball hit indicator on paddle."
             }
         ],
         "on_rookie": true,
-        "general_update": 481178,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 480313,
         "player_mode_update": 474685,
-        "changelog_update": 481658,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 477913,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 252,
-        "rating": 4.206349,
+        "votes": 260,
+        "rating": 4.203846,
         "weighted_rating": 4.1
     },
     "errors": []

@@ -3,12 +3,12 @@
         "id": "5477835475651321",
         "app_name": "DodgeALL",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "*DodgeALL* is a high-intensity VR game that puts your agility and reflexes to the test. Engage in a world where the only rule is to dodge everything that comes your way! With immersive 3D environments and physics-based gameplay, each level presents a new challenge, offering endless replayability. Dodge, weave, and strategize in this adrenaline-fueled game, where your skill determines your survival. \n\nAre you ready to DodgeALL?\n\n# Features include:\n- Room-scale & 360 degrees: Where you can move IRL is where you can move in-game.\n- 3D Spatial Audio: Gives audible cues where obstacles are coming from.\n- Abilities: 5 different unlockable abilities to help when you're lazy.\n- Endless Mode: Play any unlocked level until you drop. Each iteration gets progressively faster.\n- Leaderboards: Compare your dodging skills to other players.\n- Interactive Twitch mode: Let your viewers throw things at you!\n- Custom levels: Design your own levels.",
+        "description": "*DodgeALL* is a high-intensity VR game that puts your agility and reflexes to the test. Engage in a world where the only rule is to dodge everything that comes your way! With immersive 3D environments and physics-based gameplay, each level presents a new challenge, offering endless replayability. Dodge, weave, and strategize in this adrenaline-fueled game, where your skill determines your survival. \n\nAre you ready to DodgeALL?\n\n# Features include:\n- Room-scale & 360 degrees: Where you can move IRL is where you can move in-game.\n- 3D Spatial Audio: Gives audible cues where obstacles are coming from.\n- Abilities: 5 different unlockable abilities to help when you're lazy.\n- Endless Mode: Play any unlocked level until you drop. Each iteration gets progressively faster.\n- Leaderboards: Compare your dodging skills to other players.\n- Interactive Twitch mode: Let your viewers throw things at you!\n- Custom levels: Design your own levels.\n\n# Mixed Reality Mode Coming Soon!\n\nJoin the Discord for questions, suggestions, feedback: \nhttps://discord.gg/BUprUMGw9Q",
         "developer": "GlennerooVR LLC",
         "publisher": "GlennerooVR LLC",
         "genres": [
             "Action",
-            "Arcade"
+            "Sports"
         ],
         "devices": [
             "Touch Controllers"
@@ -28,7 +28,9 @@
         "player_modes": [
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Mixed Reality"
+        ],
         "hist": [
             {
                 "rating": 1,
@@ -48,7 +50,7 @@
             },
             {
                 "rating": 5,
-                "votes": 4
+                "votes": 5
             }
         ],
         "comfort": "COMFORTABLE_FOR_FEW",
@@ -74,6 +76,14 @@
             "logo_transparent": "38982552_223366293749350_7672506839740868752_n.png"
         },
         "changelog": [
+            {
+                "version": "0.40.7.3",
+                "change_log": "VERSION: 0.40.7.3\nBUGFIX: Fixed issue launching game in some countries.\nBUGFIX: PlayFab now saves level rating 'length' attribute.\nBUGFIX: Level Rating buttons easier to click.\nBUGFIX: Added more angry females.\nBUGFIX: PirateBoat characters no longer step through boat.\nBUGFIX: Leaderboard screen now hidden if player clicks Start buttons too quickly to start a level.\nBUGFIX: Custom levels directory created correctly after running for first time.\nBUGFIX: Scoreboard buttons no longer visible on TV surface.\nCHANGE: Removed Recenter View button from Pause screen since it doesn't do anything.\n"
+            },
+            {
+                "version": "0.40.7.2",
+                "change_log": "VERSION: 0.40.7.2\nBUGFIX: Fixed issue loading level files in non-UTF8 compatible regions.\nBUGFIX: Fixed potential PlayFab login timing issue.\nCHANGE: Increased minimum damage."
+            },
             {
                 "version": "0.40.7.1",
                 "change_log": "VERSION: 0.40.7.1\nBUGFIX: Camera is no longer locked to floor at startup!\nBUGFIX: Skyboxes are now visible again (regression due to All-In-One SDK default settings).\nINTERNAL: Updated to Meta XR All-in-One SDK 71.0.0."
@@ -108,24 +118,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481178,
-        "genre_update": 480625,
+        "general_update": 482473,
+        "genre_update": 482473,
         "device_update": 480193,
         "mode_update": 480193,
         "language_update": 480193,
         "platform_update": 480193,
         "player_mode_update": 480193,
-        "changelog_update": 481586,
+        "changelog_update": 482473,
         "keyword_update": 480193,
-        "tag_update": 481418,
-        "rating_update": 481178,
+        "tag_update": 482473,
+        "rating_update": 482473,
         "iarc_detail_update": 480193,
         "keywords": [],
-        "last_update": 481586,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 4,
+        "votes": 5,
         "rating": 5.0,
-        "weighted_rating": 3.9
+        "weighted_rating": 4.0
     },
     "errors": []
 }

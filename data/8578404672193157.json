@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 2,
@@ -63,17 +63,24 @@
         },
         "internet_connection": "REQUIRED",
         "website": "https://sites.google.com/view/gorillaparkour/home",
-        "app_images": {
-            "cover_landscape": "39035404_1233723934484225_6030106016803791026_n.png",
-            "cover_portrait": "38974532_1771873960218887_4202382376701018729_n.png",
-            "cover_square": "38974744_394294796745332_5394570386241783130_n.png",
-            "hero": "75272212_858885249215035_6591523419948375878_n.png",
-            "icon": "39031511_571352345236062_164864580663930029_n.png",
-            "immersive_layer_backdrop": null,
-            "immersive_layer_logo": null,
-            "logo_transparent": "75314845_1188551255694973_202838236700253087_n.png"
-        },
+        "app_images": {},
         "changelog": [
+            {
+                "version": "LIVE1.8.1",
+                "change_log": "fixed pompom hats cause they didnt show on player"
+            },
+            {
+                "version": "LIVE1.8.0",
+                "change_log": "added winter cosmetics\nswitched to bakery gpu lightmapper for lighting"
+            },
+            {
+                "version": "LIVE1.7.1",
+                "change_log": "fixes such as:\n- players starting with white\n- very broken teleport box if you fall out the map\n- shop not enabling when falling out of the map"
+            },
+            {
+                "version": "LIVE1.7.0",
+                "change_log": "christmas\nicicles\nchrimuh tree"
+            },
             {
                 "version": "LIVE1.6.0",
                 "change_log": "added snow to everything\nremoved fall cosmetics\nmade the weather overcast\nMASSIVE performance fix"
@@ -124,27 +131,24 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481346,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 479905,
         "mode_update": 479905,
         "language_update": 479905,
         "platform_update": 479905,
         "player_mode_update": 479905,
-        "changelog_update": 481490,
-        "keyword_update": 479905,
+        "changelog_update": 482473,
+        "keyword_update": 482473,
         "tag_update": 479905,
-        "rating_update": 481346,
+        "rating_update": 482473,
         "iarc_detail_update": 479905,
-        "keywords": [
-            "gorilla",
-            "fangame"
-        ],
-        "last_update": 481490,
+        "keywords": [],
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 4,
-        "rating": 4.0,
-        "weighted_rating": 3.6
+        "votes": 5,
+        "rating": 3.4,
+        "weighted_rating": 3.4
     },
     "errors": []
 }

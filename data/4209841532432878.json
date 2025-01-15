@@ -3,11 +3,12 @@
         "id": "4209841532432878",
         "app_name": "NOPE CHALLENGE",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "**NOPE CHALLENGE** transforms your fears into fun with **9 Unique Challenges** centered around **3 Core Phobias**: **Clowns**, **Heights**, and **Spiders**. If things get too intense, tap the **NOPE Button** to enter the calming **Breather Space**, collect rewards, and steady your nerves before diving back in. With each player's unique phobia thresholds, every journey is filled with laughs, screams, and maybe even some swearing. And the best part? It's not just fun to play, but also a blast for friends and family to watch.\n\nKey Features:\n\n- **9 NOPE CHALLENGES**: **Clowns**, **Heights**, and **Spiders** themes, each offering **Light**, **Moderate**, and **Extreme** levels. Start at Light to learn the ropes. Move up to Moderate and Extreme to experience the full progression. Everyone's fear threshold is different, so what’s Light for one might be Extreme for another. We're always listening to feedback, so dive in and let us know what you think!\n- **The NOPE Button & Breather Space**: If things get too intense, press the **NOPE Button** to retreat to the **Breather Space**. Rest, recharge, and hang out with **Mr. Peels**, your emotional support banana, before jumping back into the laughter, screams, and swears!\n- **Dynamic Progression**: Early challenges guide you through gameplay, but advancing brings in AI-driven characters for unpredictable and intense encounters, making later challenges highly dynamic.\n- **Share Your Scare**: Friends and family will have fun watching you push your limits, and cheering you on to see if you can hold off hitting the **NOPE Button!**\n\n",
+        "description": "Laugh, jump, or scream—it’s all part of the fun! Face towering heights, creepy crawlies, and robotic murder clowns as you challenge your fears. Don’t “**NOPE**” out too soon! If you do, retreat to **Breather Space** with Mr. Peels and Coco to calm your nerves and maybe feed some fish before diving back in. Push your phobia limits, or just have a blast! **NOPE CHALLENGE** reveals which fear makes your heart race the most!\n{1580544089558500}\n🔥 **Explore the NOPE CHALLENGES:**\n\n**Nine Unique NOPE CHALLENGES! Featuring Clowns, Heights, and Spiders**, each available in Light, Moderate, or EXTREME intensity levels. Everyone's different—what's easy for one person might be super scary for someone else. For instance, although most players say clowns are the least feared, our data shows that our clowns (especially Dioko!) are the ones they NOPE OUT of the most!\n\n\n🆘 **Your Fun Escape: The NOPE Button & Breather Space**\n\nIf things get too intense, hit the **NOPE Button** to take a break in the **Breather Space**. Here, you can relax with **Mr. Peels** and **Coco** who you will rescue from their own phobia challenges. They don't talk, but they will laugh and scream. Save them to make new friends and hang out together.\n\n🤩 **Fun for Everyone to Play and Watch:**\n\nIt's not just fun to play, but also awesome to watch others! Since everyone reacts differently, you never know if someone will laugh, scream, or hit the **NOPE Button** right away. \n\n\n**NOPE CHALLENGE** turns your phobias into a thrilling experience. Get ready to face your fears while having tons of fun!\n\n\n\n\n\n",
         "developer": "Happy Manic LLC",
         "publisher": "Happy Manic LLC",
         "genres": [
-            "Action"
+            "Action",
+            "Adventure"
         ],
         "devices": [
             "Touch Controllers"
@@ -32,23 +33,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 2,
-                "votes": 11
+                "votes": 13
             },
             {
                 "rating": 3,
-                "votes": 8
+                "votes": 9
             },
             {
                 "rating": 4,
-                "votes": 24
+                "votes": 25
             },
             {
                 "rating": 5,
-                "votes": 106
+                "votes": 112
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -74,6 +75,14 @@
         },
         "changelog": [
             {
+                "version": "1.0.758.6657",
+                "change_log": "- Fix for when Mr Peels the banana would sometimes take off in Breather Space. Now, he occupies his beach chair after 30 seconds if the player does not place him.\n- Fix for climbing when having items in holsters.\n- Fix for Coco's Coconut tree, throwing players back down to the top of the building.\n"
+            },
+            {
+                "version": "1.0.756.6656",
+                "change_log": "- Fixed issue causing some instances of game requiring second attempt restart after first install.\n- Fixed climbing jolt that was happening on first grab of climbing object.\n- Fixed challenge completions counting as a \"Nope\" in stats.\n- Fixed an achievement that was not activating properly.\n- Fixed Crypt Chip information display issue on Nope Band screen. \n- Increased grab distance for climbing hand holds to reduce falls."
+            },
+            {
                 "version": "1.0.494.5683",
                 "change_log": "NOPE CHALLENGE \"SCREAMING SUMMER\" - PATCH 2!\nWe’re excited to bring you the latest update for NOPE CHALLENGE! This \"SCREAMING SUMMER\" patch includes a variety of fixes, improvements, and a few new features!\n\nHEIGHTS\n\n- LIGHT Challenge: Find the new screaming friend of Mr. Peels. They have a fear of heights and need to be rescued!\n- EXTREME Challenge: Fixed the issue where players could get stuck on large white panels if they landed on them.\n- EXTREME Challenge: Players will now die if they fall into the dark void below.\n- EXTREME Challenge: Resolved the issue with players hitting the YEP button when standing very close to it.\n- EXTREME Challenge:  Players no longer get stuck at the top of the ladder near the zipline if they climb too fast.\n\nCLOWNS\n\n- LIGHT Challenge: Fixed the strange issues with the flashlight.\n- LIGHT Challenge: Celebration music no longer plays simultaneously with the voiceover.\n- MODERATE Challenge: If Phil doesn’t kill you in one hit, the low health notification will no longer continuously beep. \n- EXTREME Challenge: Dioko’s AI has been adjusted so that he teleports less often when lurking player movements.\n- Shock Stick: Phil and Dioko can no longer knock the shock stick around.\n- Mary: Mary O Nette now has the same face and hair in both LIGHT and EXTREME \n\nSPIDERS\n\n- LIGHT Challenge: Celebration music no longer plays simultaneously with the voiceover.\n- Creature Stun Spray: Increased the power of the Creature Stun Spray. Spiders and cockroaches now stun much faster when used.\n- Jumping Spiders: Fixed the issue where jumping spiders caught midair would refuse to stay in containers.\n\nBREATHER SPACES\n\n- Tutorial: Mr. Peels no longer gets accidentally bumped to the floor when lifting the lid to reveal him screaming under the box.\n- Tutorial: A new shelf created to help players practice using the “Reach Assist” ability.\n- Tutorial:  Fixed the issue where players could climb back into the tutorial area before the trapdoor closed, trapping them inside.\n- Menu: Added functionality to check if LIGHT and MODERATE challenges have been completed if EXTREME is chosen.\n- Guides: Added signs to direct players to the Trophy Hut, Information Station, and NOPE CHALLENGE Kiosk.\n- Hungry Koi Fish: Fixed the issue where the Koi were not eating the treats thrown into the water. They now go after everything! They are quite hungry.\n- Trophies Now Stay: Trophies now retain their placement made by the player and no longer rearrange themselves. \n- Trophy Lost & Found: Trophy “Lost & Found” Bin added - If you decide to yeet your trophies into the ocean, now you can always get them back!\n- Trophies: Fixed the collision issue for the trophy preventing the player from grabbing the one computer chip.\n\nMiscellaneous\n- NOPE Button: The Nope Button ring now highlights GREEN when engaged.\n- Computer Chips: Fixed the issue where some found computer chips were installed backwards into the NOPE Band.\n- Sound FX: Some sound effects have been tweaked.\n"
             },
@@ -83,28 +92,28 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481346,
-        "genre_update": 480481,
+        "general_update": 482473,
+        "genre_update": 482473,
         "device_update": 476137,
         "mode_update": 476137,
         "language_update": 476137,
         "platform_update": 479809,
         "player_mode_update": 476137,
-        "changelog_update": 477481,
+        "changelog_update": 482473,
         "keyword_update": 476137,
         "tag_update": 481178,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "fear",
             "simulator",
             "challenge"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 151,
-        "rating": 4.463576,
-        "weighted_rating": 4.4
+        "votes": 162,
+        "rating": 4.419753,
+        "weighted_rating": 4.3
     },
     "errors": []
 }

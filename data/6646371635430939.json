@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 9
+                "votes": 21
             },
             {
                 "rating": 2,
-                "votes": 11
+                "votes": 14
             },
             {
                 "rating": 3,
-                "votes": 20
+                "votes": 25
             },
             {
                 "rating": 4,
-                "votes": 36
+                "votes": 51
             },
             {
                 "rating": 5,
-                "votes": 103
+                "votes": 134
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -84,6 +84,10 @@
         },
         "changelog": [
             {
+                "version": "1.1.2",
+                "change_log": "Just Dance VR Version 1.1.2 - Patch Notes\n\nDancity\nAdded a DJ Booth to Dancity with interactive records to grab and play\nPlacing a record on the DJ Booth decks triggers new visual effects\nAdded fast travel option for the DJ Booth\nAdded a scoreboard to the Basketball zones in Dancity and the Apartment\n\nUI/UX\nAdded a dodge animation to notifications so they aren't blocked by the menu\nFixed overlapping player names in the UI\nFixed cropped Dancer Card Avatars in the Friends list\n\nAvatars\nSong based lighting adjustment for Avatars\n\nMultiplayer\nIntroduced a matchmaking indicator above the player to help communicate matchmaking status to nearby players\nFixed a bug that caused group members to spawn at random locations in Dancity after playing a song. Group members now reliably spawn together in front of the song's billboard\nFix an issue where a player may not be recognized by all group members if he was previously kicked by group leader \nFixed an issue with multiple network reconnections while traveling\n\nBug Fixes\nDisabled non-functional pointer in multiplayer sessions\nFixed a bug that caused the player's progression level to display as 30 instead of 300\n\"Hello World!\" achievement unlocking condition based on dancing with players in a session rather than a group\n\"10 out of 10!\" achievement correctly unlocked at level 10"
+            },
+            {
                 "version": "1.0.7",
                 "change_log": "Just Dance VR Version 1.0.7 - Patch Notes\n \nUI/UX\nAdded options to lock movement and turning controls while dancing in a map\nStarting emotes & basketball toy are now assigned to the wrist menu by default\nThe default movement scheme has been changed to Free Move\nOpening the Emotes and Toys Modal not automatically selects the first empty slot\nFixed oversized hitboxes on Notification popups that would block menu interaction\n \nAvatars\nFixed an issue where the default Avatar's head could sometimes clip into the player's view while moving\nChanges to avatar loading make switching between Avatars a bit smoother and faster\nUpdated hand poses to look nicer and be more expressive and added custom grasping poses for all toys\nImproved Avatar lighting contrast\n \nMultiplayer\nTweaks to the matchmaking system to make it easier to queue simultaneously with players not in your group\nImproved handling of ambient playlist music when online session status changes\nReworked Join Group goal (The Ultimate Alliance) trigger to work when accepting a Meta Invite\n \nLocalisation\nFixed some menu titles not updating when changing language\nFixed Difficulty text not updating when changing language\n \nVisuals\nMinor graphical improvements and fixes in the Apartment and multiple maps\nDancity 2.0! - Updates to Dance stages, Ball Pit, Billboards and more to make Dancity even more vibrant\nScoreboards have been added to the Ball Pit tracking goals scored in both hoops\nThe winner of last week's Song of the Week now has their Avatar displayed prominently on the outside of the spiral tower in Dancity\nMinor graphical improvements and fixes in the Apartment and multiple maps\nFixed some graphical bugs with portals including appearance in floor reflections in some maps\nCorrected the draw order of VFX, backing dancers, and core UI in multiple maps"
             },
@@ -93,17 +97,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481562,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 480289,
         "mode_update": 480289,
         "language_update": 480289,
         "platform_update": 480289,
         "player_mode_update": 480289,
-        "changelog_update": 481634,
+        "changelog_update": 482473,
         "keyword_update": 480289,
         "tag_update": 480289,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 480289,
         "keywords": [
             "dance",
@@ -112,11 +116,11 @@
             "music",
             "parti"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 179,
-        "rating": 4.189944,
-        "weighted_rating": 4.1
+        "votes": 245,
+        "rating": 4.073469,
+        "weighted_rating": 4.0
     },
     "errors": []
 }

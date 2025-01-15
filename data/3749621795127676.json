@@ -47,11 +47,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 33
+                "votes": 36
             },
             {
                 "rating": 2,
-                "votes": 20
+                "votes": 22
             },
             {
                 "rating": 3,
@@ -63,17 +63,17 @@
             },
             {
                 "rating": 5,
-                "votes": 1349
+                "votes": 1362
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
             "age_rating": "Mature 17+",
             "descriptors": [
+                "Violence",
                 "Blood",
-                "Strong Language",
                 "Use of Alcohol",
-                "Violence"
+                "Strong Language"
             ],
             "elements": [
                 "In-Game Purchases"
@@ -93,6 +93,18 @@
             "logo_transparent": "57566679_1119631221888744_1983862012686943534_n.png"
         },
         "changelog": [
+            {
+                "version": "2.5.0",
+                "change_log": "Fixed a crash that could occur on game launch"
+            },
+            {
+                "version": "2.5.0",
+                "change_log": "Update 2.5.0 - Hotfix 1\n\n- Fixed a crash that could occur when uploading a Cloud save"
+            },
+            {
+                "version": "2.5.0",
+                "change_log": "Update 2.5.0 - Christmas 2024 Update!\n\n- New Christmas Seasonal Event from December 18th to January 1st\n  - Christmas themed Home menu and Cloakroom\n  - New Christmas Hammer, unlockable by completing any song during the event, or by finding the secret in the Home menu\n  - New Christmas costume for your avatar (will remain available after the event ends!)\n- New Songs\n  - Hearts On Fire (HammerFall - 3/5/7)\n  - Sunlight Knight (Twilight Force - 6/8/10)\n- Fixed a bug with the level 2 combo gauge on the Stairway to Valhalla hammers\n- All newly unlocked hammers will now trigger a short animation upon coming back in the Home Menu"
+            },
             {
                 "version": "2.4.1",
                 "change_log": "Thanksgiving 2024 Update!\nChicken seasonal event is back until December 5th (turkeys were not available)\n- Chicken invasion in the Home menu and Cloakroom\n- Chicken Hammer can be unlocked by completing any song during the event, or by finding the secret in the Home menu"
@@ -160,18 +172,6 @@
             {
                 "version": "1.7.0",
                 "change_log": "Nuclear Blast Update (V1.7)\n\nNew DLC available: Nuclear Blast RAID\n\nEnjoy this new epic journey on songs by amazing bands of the Nuclear Blast Records label, such as Beast in Black, Eluveitie, Battle Beast, and more. Discover 9 new tracks with different music styles, collect a special new longship, and unlock the unique Nuclear Blast Hammer by playing all songs from the pack!  \nThe pack includes:\n\n - Battle Beast - \"Eye of the Storm\" - [04:26] - Difficulty 3/5/7\n - Beast In Black - \"One Night in Tokyo\" - [03:07] - Difficulty 2/7/9\n - Eluveitie - \"Ambiramus\" - [02:53] - Difficulty 2/4/8\n - Epica - \"Abyss of Time - Countdown to Singularity\" - [05:20] - Difficulty 3/6/9\n - Equilibrium - \"Revolution\" - [04:16] - Difficulty 4/7/9\n - Equilibrium - \"Rise Again\" - [03:51] - Difficulty 4/6/8\n - Korpiklaani - \"Vodka\" - [02:59] - Difficulty 2/5/7\n - Korpiklaani - \"A Man with a Plan\" - [02:59] - Difficulty 3/5/9\n - Symphony X - \"Nevermore\" - [05:30] - Difficulty 3/7/10\n - New \"Nuclear Blast\" Longship skin - Sail aboard the Nuclear Moose! Unlocks by acquiring any of the songs above.\n - New \"Nuclear Blast\" Hammer skin - Unlocks by playing all 9 songs above at least once.\n\nReminder: Please note DLC songs can be shared in public/private multiplayer.\n\nFixes\n\n- More equalized sound volume on secondary in-game sounds (drums, vikings, medals...). Remember those can always be turned down in the audio settings."
-            },
-            {
-                "version": "1.6.3",
-                "change_log": "Update 1.6 - Patch 3\n - Restored music volume to match previous update level\n\nNote from the team: \nDuring development, we had sound issues on other platforms that drove us to rework the whole system. That changed the overall audio mix on the game, and therefore the game feel that our players were used to. We apologize for that, and we restored the audio mix to what it was before. We will continue working to offer you the best game experience possible across all platforms, while preserving the loudness and power expected from a viking metal themed game!"
-            },
-            {
-                "version": "1.6.2",
-                "change_log": "Update 1.6 - Patch 2\n- [Fix] Restored preview sound quality (was downmixed to mono)\n- [Fix] Restored song volume to mix properly with other gameplay sounds like drums\n- [Fix] Longship shields color/texture now display properly\n- [Fix] Front panel when starting a multiplayer game now properly shows if the song is available\n- [Fix] Front panel when starting a multiplayer game now properly disappears when the song starts"
-            },
-            {
-                "version": "1.6.1",
-                "change_log": "Update 1.6 - Patch 1\n- [Fix] Song sound was downmixed to mono\n- [Fix] Fix dates on new songs to have the correct filter by date"
             }
         ],
         "on_rookie": true,
@@ -182,16 +182,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481178,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 475633,
-        "rating_update": 481682,
-        "iarc_detail_update": 477385,
+        "rating_update": 482473,
+        "iarc_detail_update": 482473,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 1552,
-        "rating": 4.75,
+        "votes": 1570,
+        "rating": 4.741401,
         "weighted_rating": 4.7
     },
     "errors": []

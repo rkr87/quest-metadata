@@ -3,7 +3,7 @@
         "id": "24613461608300906",
         "app_name": "Last Stand",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "**Get Last Stand now for the special introductory early access price of just $7.99—available for a limited time only!**\n\nThis is the world’s first multi-location mixed reality PvP shootout. Your living room becomes a battlefield as you eliminate your opponent while fending off a relentless zombie invasion. Move, dodge, and take cover in a fully immersive combat zone.\n\n{1067517198339345}\n\n**1v1 Mixed Reality PvP Combat**\n\nBattle opponents from anywhere—each player fights from their own home. Turn your living room into a battlefield, outsmarting rivals with real-world strategy.\n\n{1232934048025689}\n\n**Precision Full-Body Tracking**\n\nDodge bullets like in The Matrix or land headshots like John Wick! Our full-body tracking ensures every movement feels accurate and responsive, immersing you deeply in the action.\n\n{428700763582659}\n\n**Your Room, Your Advantage**\n\nTransform your living room from a Netflix haven into a tactical stronghold. Your couch becomes a fortress; your table, a shield. Outsmart and outmaneuver—your home is part of the fight!\n\n{1127967098666563}\n\n**Cinematic Shootouts at Home**\n\nExperience intense gunfights and explosive combat, with dynamic destruction shaping every encounter. With dynamic destruction, every round is as intense as a blockbuster.\n\n{556217970668528}\n\n**Play Solo**\n\nTake on the Horde Solo in our brand new single player experience.\n\n**Last Stand is an early access title pushing the boundaries of mixed reality. Join our community on Discord to share feedback and help us shape the future of the game.**\n\nVisit **LastStandXR.com** to learn more and join the discord.",
+        "description": "**Get Last Stand now for a special introductory early access price—available for a limited time only!**\n\nThis is the world’s first multi-location mixed reality PvP shootout. Your living room becomes a battlefield as you eliminate your opponent while fending off a relentless zombie invasion. Move, dodge, and take cover in a fully immersive combat zone.\n\n{1067517198339345}\n\n**1v1 Mixed Reality PvP Combat**\n\nBattle opponents from anywhere—each player fights from their own home. Turn your living room into a battlefield, outsmarting rivals with real-world strategy.\n\n{1232934048025689}\n\n**Precision Full-Body Tracking**\n\nDodge bullets like in The Matrix or land headshots like John Wick! Our full-body tracking ensures every movement feels accurate and responsive, immersing you deeply in the action.\n\n{428700763582659}\n\n**Your Room, Your Advantage**\n\nTransform your living room from a Netflix haven into a tactical stronghold. Your couch becomes a fortress; your table, a shield. Outsmart and outmaneuver—your home is part of the fight!\n\n{1127967098666563}\n\n**Cinematic Shootouts at Home**\n\nExperience intense gunfights and explosive combat, with dynamic destruction shaping every encounter. With dynamic destruction, every round is as intense as a blockbuster.\n\n{556217970668528}\n\n**Play Solo**\n\nTake on the Horde Solo in our brand new single player experience.\n\n**Last Stand is an early access title pushing the boundaries of mixed reality. Join our community on Discord to share feedback and help us shape the future of the game.**\n\nVisit **LastStandXR.com** to learn more and join the discord.",
         "developer": "Soul Assembly Ltd",
         "publisher": "Soul Assembly",
         "genres": [
@@ -35,23 +35,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 17
+                "votes": 30
             },
             {
                 "rating": 2,
-                "votes": 5
+                "votes": 16
             },
             {
                 "rating": 3,
-                "votes": 8
+                "votes": 28
             },
             {
                 "rating": 4,
-                "votes": 13
+                "votes": 111
             },
             {
                 "rating": 5,
-                "votes": 78
+                "votes": 423
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -78,19 +78,28 @@
             "immersive_layer_logo": "38982588_1074789717701066_5207324619992874065_n.png",
             "logo_transparent": "38982464_1699867207516387_3309945373911526198_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.2.2",
+                "change_log": "Resolved a perpetual load on boot for some users after they had previously not fully concluded a match"
+            },
+            {
+                "version": "0.2.1",
+                "change_log": "Fixed tutorial softlock when changing watch orientation during the tutorial.\nAdjusted Results Screen panel positions and angles for correct alignment.\nResolved double-calling of network events in the numpad alarm system.\nFixed washed-out appearance of avatars in all scenes.\nEnsured stats persist between application boots."
+            }
+        ],
         "on_rookie": false,
-        "general_update": 481682,
+        "general_update": 482473,
         "genre_update": 481369,
         "device_update": 481369,
         "mode_update": 481369,
         "language_update": 481369,
         "platform_update": 481369,
         "player_mode_update": 481369,
-        "changelog_update": 481369,
+        "changelog_update": 482473,
         "keyword_update": 481369,
         "tag_update": 481369,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 481369,
         "keywords": [
             "pvp",
@@ -99,11 +108,11 @@
             "action",
             "duel"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 121,
-        "rating": 4.07438,
-        "weighted_rating": 4.0
+        "votes": 608,
+        "rating": 4.449013,
+        "weighted_rating": 4.4
     },
     "errors": []
 }

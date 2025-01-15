@@ -33,7 +33,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 4
+                "votes": 5
             },
             {
                 "rating": 2,
@@ -41,7 +41,7 @@
             },
             {
                 "rating": 3,
-                "votes": 4
+                "votes": 3
             },
             {
                 "rating": 4,
@@ -72,6 +72,18 @@
             "logo_transparent": "39003245_490538802433399_4179192259275784319_n.png"
         },
         "changelog": [
+            {
+                "version": "2.0812",
+                "change_log": "minor enhancements and fixes for glitches in shooting challenge mode and dodging mode."
+            },
+            {
+                "version": "2.081",
+                "change_log": "minor enhancements"
+            },
+            {
+                "version": "2.08",
+                "change_log": "Updates to 10v10 and Sixes.  New goalie stick head, and shaft is shorter.  Fixed some glitches."
+            },
             {
                 "version": "2.07",
                 "change_log": "Added Dodging Game Mode to the 10v10 expansion. Dodge the defender from X and up top, beat your man, score a goal.  \n\nRe-worked 6v6 mode to use our new models from 10v10.  This game mode looks and performs much better now.\n\nNew Player Goalie Mesh in Goalie, Sixes and 10v10 Modes.\n\nUpdated lighting reflections to better display a player having a  white shaft; it was appearing way too dark due to lighting.\n\nGoalies can be faked in, in close, 10v10, Sixes, Box and Dodging Modes.  Field goalies can be faked low or high, box left or right.\n\nGoalie Mode has improved:\n\t- Speeded up the game so faster to run thru an entire game. \n\t- Revamped \"Speed Mode\".  Added a third shooter.\n        - Increased chances for a body save now, but you have to scoop the ball to record the save.\n        - Improved the mesh collider for better save chances.\n        - New stick mesh.\n  \t- Other visual and lightning changes.\n\n\nNew Goals for 10v10, 6v6, Dodging and Goalie Mode.\n\nNew AI stick meshes in 10v10\n\nPerformance Enhancements in 10v10 mode.\n\nOther glitch fixes and performance enhancements made."
@@ -135,18 +147,6 @@
             {
                 "version": "1.821",
                 "change_log": "Performance improvements and bug fixes!"
-            },
-            {
-                "version": "1.81",
-                "change_log": "November 15, 2023\n\n- Custom sticks can now have 2 color heads.\n- New  menu system.\n- Performance improvements in the frame rate.\n- Fixed bug in shooting challenge were ball would fly in unexpected direction (sorry about that).\n- Fixed bugs in Medicine game that caused the stick to get stuck."
-            },
-            {
-                "version": "1.8",
-                "change_log": "Added stick customizations.  Performance improvements were also made."
-            },
-            {
-                "version": "1.75",
-                "change_log": "Updated visuals.  Added support for Quest 3.  Fixed a bug where the default shoot aim was the joystick rather than the headset."
             }
         ],
         "on_rookie": true,
@@ -157,16 +157,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481610,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481418,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481610,
+        "last_update": 482473,
         "category": "GAMES",
         "votes": 54,
-        "rating": 4.240741,
+        "rating": 4.203704,
         "weighted_rating": 4.1
     },
     "errors": []

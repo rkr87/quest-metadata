@@ -45,7 +45,7 @@
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
@@ -77,6 +77,22 @@
             "logo_transparent": "38982539_190451697338836_6493974219653368380_n.png"
         },
         "changelog": [
+            {
+                "version": "0.2.3",
+                "change_log": "Happy New Year!\n\nHere's the first update to start the year! Not too small but not too big!\n\nNetworking:\n     - Faster Networking with new PlayFab Update\n\nAll Maps:\n     - Lighting: Redone lighting everywhere with a new skybox and \n      lighting shouldn't blind players\n     - Removed all Christmas 24' stuff\n\nForest:\n     - Reskin\n     - Grass instead of snow on floor now\n     - Snow is gone and Rain is here!\n\nShop:\n     - Removed Christmas LT Cosmetics\n\n\nPlans:\n     - New LT Cosmetics\n     - If needed, Photon Update.\n     - Floor is lava\n     - Horror\n     - Links on the computer for YT, Twitch, Discord, Website"
+            },
+            {
+                "version": "0.2.2",
+                "change_log": "Bug Fixes:\n\nBans:\n - Banning was broken and didn't show reasons/times. FIXED\n\nReporting:\n - If reported user didn't have a name set the report was useless. \n   Name is now required upon game start in-order to play.\n\nLighting:\n - Lighting was a bit dark so it has been modified and made \n   slightly brighter for better visibility.\n\nAdditions:\n\nMod Vents:\n - Moderators now have access to security cameras of each map \n   to see activity by players which can be used to give bans to \n   players.\n\nName Requirement:\n - Looping back to the Reporting, It is now required that before a \n   player can leave the Den (Starting Area), a name must be set \n   for online play."
+            },
+            {
+                "version": "0.2.1",
+                "change_log": "Patch Notes for V0.2.1:\n\nHey gamers! I’m back with part 2 of the Christmas 24’ update! This is also combined with, drum roll pleaseeee, The Bouncy update!!! Now I was thinking about doing this separately but I figured why not make it your Christmas present! Well, I hope everyone has had a great december, has a great christmas, and I’ll be back once more this year with a smaller update for New Years.  With that said, let's get on with the patch notes!\n\nI’ve brought on a completely new revamp to all the maps and the game itself! Now the forest is essentially the same, just slightly bigger and things are placed a little differently. I’ve completely remodeled the Den, Shop, Zero G, and added a new map! I also redid the entire lighting system. New gameplay system too!\n\n- Forest:\n     - Revamp!\n     - Slightly bigger\n     - Rearranged all items in the Forest\n\n- Shop:\n     - Revamp!\n     - 10x Bigger\n     - Changed the lighting\n     - Added paths to 2 maps (ZeroG, Bounce House)\n     - Changed up the mirror\n     - 2 New Cosmetics\n\n- ZeroG:\n     - Revamp!\n     - Made Map Bigger\n\n- Bounce House:\n     - New Map!\n     - Located in Shop\n     - Slide to enter\n     - Jump on anything to bounce around!\n     - Kiddie Birthday Party themed bounce pad!\n\n- Lighting:\n     - Revamp!\n     - More “Life Like”\n     - Some places are darker, might be adjusted\n\n- Gameplay:\n     - Using a new Tag system\n     - New Tag system is infection at this time.\n\n- Cosmetics:\n     - Snail Collection Start!\n     - Edible Chocolate Bar called the Wolf Bar\n\n- Next Plans:\n     - Possibly another new map\n     - More cosmetics"
+            },
+            {
+                "version": "0.2",
+                "change_log": "Hey gamers! Sorry for the late update. I know I missed Halloween and Thanksgiving. A lot has happened and I just went through major surgery on my leg a few weeks ago. I haven't been able to test in VR mode so if something is wrong please let me know by emailing me at: wolfbromail@gmail.com. Anyways, lets get to it!\n\nChristmas Update 1!!!!!!!\n\nDen:\n\n- Re-Detailed and added some more stuff for Christmas!\n- MOTD Board!\n- Alerts Tab on Computer\n\nForest:\n\n- Re-detailed Forest for Wintery/Christmas Vibes.\n- Added Santa with a free Santa Hat cosmetic.\n- Reindeer across the Forest\n- Santa Sleigh with presents (nothing special but can be fun to play in)\n\nShop:\n\n- Added a Cart System!\n  - Now when shopping for cosmetics you can add them to a cart \n    instead of instantly buying them. Now you have time to \n    hesitate! Plan to add a try on feature later!\n- Reindeer shopping too? What's that about?\n\nZero G:\n\n- WHY IS A REINDEER FLOATING AROUND?! HELP HIM!"
+            },
             {
                 "version": "0.17",
                 "change_log": "Added Map loaders back, Join room trigger so your always in a lobby, ZeroG Zone, Lighting in the den, and 2 more Cosmetics. Time to work on the fall update!"
@@ -136,31 +152,27 @@
             {
                 "version": "0.2",
                 "change_log": "Removed Christmas 23 items and added a day/night cycle. Audio permissions are needed for voice chat."
-            },
-            {
-                "version": "0.1",
-                "change_log": "Because of a late release this is the christmas update too! Audio is needed for in game real time voice chat."
             }
         ],
         "on_rookie": false,
-        "general_update": 479953,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 478969,
         "mode_update": 478969,
         "language_update": 478969,
         "platform_update": 479809,
         "player_mode_update": 478969,
-        "changelog_update": 479809,
+        "changelog_update": 482473,
         "keyword_update": 478969,
         "tag_update": 478969,
-        "rating_update": 479953,
+        "rating_update": 482473,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 480481,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 6,
-        "rating": 3.333333,
-        "weighted_rating": 3.3
+        "votes": 7,
+        "rating": 3.428571,
+        "weighted_rating": 3.4
     },
     "errors": []
 }

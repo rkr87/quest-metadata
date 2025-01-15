@@ -31,33 +31,35 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 3
+                "votes": 4
             },
             {
                 "rating": 2,
-                "votes": 1
+                "votes": 2
             },
             {
                 "rating": 3,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 4,
-                "votes": 0
+                "votes": 1
             },
             {
                 "rating": 5,
-                "votes": 7
+                "votes": 11
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
         "iarc": {
-            "age_rating": "Everyone",
-            "descriptors": [],
+            "age_rating": "Everyone 10+",
+            "descriptors": [
+                "Fantasy Violence"
+            ],
             "elements": [
                 "Users Interact"
             ],
-            "iarc_icon": "12482345_233896350376075_8399588285755686912_n.png"
+            "iarc_icon": "12386444_352227485138085_8354695406382219264_n.png"
         },
         "internet_connection": "REQUIRED",
         "website": "https://project-revenge.my.canva.site/",
@@ -73,7 +75,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 481634,
+        "general_update": 482473,
         "genre_update": 481466,
         "device_update": 481466,
         "mode_update": 481466,
@@ -83,14 +85,26 @@
         "changelog_update": 481466,
         "keyword_update": 481466,
         "tag_update": 481466,
-        "rating_update": 481634,
-        "iarc_detail_update": 481466,
+        "rating_update": 482473,
+        "iarc_detail_update": 482473,
         "keywords": [],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 11,
-        "rating": 3.636364,
-        "weighted_rating": 3.5
+        "votes": 19,
+        "rating": 3.684211,
+        "weighted_rating": 3.6
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

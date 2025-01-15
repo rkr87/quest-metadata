@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 116
+                "votes": 122
             },
             {
                 "rating": 2,
-                "votes": 36
+                "votes": 40
             },
             {
                 "rating": 3,
-                "votes": 60
+                "votes": 63
             },
             {
                 "rating": 4,
-                "votes": 143
+                "votes": 147
             },
             {
                 "rating": 5,
-                "votes": 1044
+                "votes": 1065
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "7.2.0",
+                "change_log": "We are excited to announce the release of our new update - v7.2.0 🚀\n\n**Gameplay Improvements:**\n- Bat Physics: Adjusted bat powers based on user feedback for a balanced gameplay experience 🏏\n- Updated ball physics during bowling for more realistic ball speeds, both upon pitching and during the flight\n- Field positions in fieldsets are now more adaptable to batsman scoring regions\n- Bowlers now adjust the bowling guard(around the wicket) if too many runs are scored from over the wicket 🏃\n- Stadiums: The radius of all stadiums is now displayed in QuickStart and the Shop 🏟️ \n- Optimization: Extensive effort has been made to optimize battery performance, achieving a significant improvement. Players can now easily enjoy a full 50-over match without needing to recharge their headset, ensuring a seamless gaming experience🔋\n- Wide Ball Detection: Enhanced accuracy in the wide ball detection algorithm\n\n**Bug Fixes**\n- Balls bowled outside the leg stump or too close to the wide line on the off stump have been significantly reduced\n- Spinners bowling lengths in Practice mode have been corrected.\n- Addressed excessive byes in Unlimited Overs mode\n- Fixed bowler hand release poses for a couple of special ball deliveries\n- Resolved an issue where matches could not be resumed after Save & Exit in specific scenarios\n- Corrected target-setting issues when clicking \"Play Again\" in Team Chasing Challenge 🎯\n- Fixed a network error affecting a few users with specific ISPs. Changes have been implemented to ensure such users can continue playing smoothly using their regular internet connection 🛜\n\n**New Assets**\n- Stadiums: Two new stadiums have been added to the Shop 🏟️\n- Dressing Room: Updated with a Holiday theme 🎄🎅"
+            },
+            {
                 "version": "7.1.0",
                 "change_log": "We are excited to announce the **release of our new update** alongside with the start of a **new tournament season**.\nUsers in Early Access have shared positive feedback about this update, appreciating the enhanced realism of the gameplay.\n \n**Enhancements**\n\n**Realistic Bat Physics**\n- Updated bat powers to enhance the realism of bat physics\n- Ball movement when it takes an edge off the bat feels more natural\n\n**Bowling Enhancements**\n- Limited-over formats - Bowling strategies at higher difficulty levels now adapt based on user gameplay & More line and length variations from bowlers\n- In Unlimited over formats, bowling strategies including bowling spells and special deliveries, are updated according to user gameplay\n- Revised bowling regions for left-handed batsmen\n\n**Field Placement & Fielding Enhancements**\n- When the ball edges off the bat, the keeper and slips have an increased chance of taking a catch\n- Field placement adjusts based on your hitting regions as the match progresses and persists throughout the match\n- Updated ball deflection after misfields\n\n**Ball Physics**\n- Enhanced friction dynamics between the ball and grass\n- Increased ball bounce after pitching on all types of pitches\n- Reduced ball velocity upon pitching, with variations depending on the pitch type\n\n**Bug Fixes**\n- Reduced the gap between some of the commentary sentences\n- Resolved several disconnection issues in Co-Op to enhance multiplayer stability and performance\n\nThank you all for your continued support\n\n**To adapt to these enhancements, we recommend playing for 1-2 hours to adapt before jumping into competitive modes.**"
             },
@@ -97,10 +101,6 @@
             {
                 "version": "5.12.0",
                 "change_log": "v 5.12.0 - Release"
-            },
-            {
-                "version": "5.10.1",
-                "change_log": "New Update with many Tactical Changes is live now\n\n1. New Difficulty Mode Ultra Insane is Awesome and its not for the faint hearted\n      a. Fast Bowlers can now ball in excess of 150, Watch out for bouncers.\n      b. Bowlers will have stock deliveries\n    c. Bowlers will bowl in spells\n    d. New Aggressive Fielding templates and bowling according to them\n    e. Special Deliveries based on the newness of the ball and pitch conditions\n        i. Green Pitch - Swing and Seam bowlers\n        ii. Hard Pitch - Seam and Cutters\n    f. Variable pace of the pitch, variable ball movement \n2. Auto Save Option for tournament knockout matches and quick start is available.\n3. Fielding Algo new changes\n    a. Fielders no longer catch the ball without looking at it (Back catches).\n    b. Runs timing have been fine tuned\n    c. Over running the ball is corrected\n    d. New Fielding templates have been added\n4. Special Ball Changes\n    a. Removed Banana Balls from stock deliveries\n    b. Added 2 new special balls seam in and seam out \n    c. Decreased Cutters pace\n5. Ball trace option now shows difference between special ball and normal ball for stock deliveries\n6. New Pro tournaments with Ultra Insane difficulty for those who crossed 1000 super runs\n7. Improved bowling and fielding AI for Scooping: Does what a human can do if a batsman is only scooping, Once the AI decided a batsman is scooping.\n    a. Bowlers will have no restriction on cutters they can bowl at any speed of the delivery\n    b. More field sets to stop excessive scooping\n8. Auto Matchmaking for PVP is released in Beta for users with more than 1000 super runs. Please let us know your feedback.\n9. VR bowling no ball corrections made in PVP\n10. Scores display in Quick start has been made consistent\n11. Visuals of Stadium 6 have been improved"
             }
         ],
         "on_rookie": false,
@@ -111,19 +111,19 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480769,
+        "changelog_update": 482473,
         "keyword_update": 481178,
         "tag_update": 479689,
-        "rating_update": 481610,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "cricket",
             "sport"
         ],
-        "last_update": 481610,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 1399,
-        "rating": 4.403145,
+        "votes": 1437,
+        "rating": 4.386917,
         "weighted_rating": 4.3
     },
     "errors": []

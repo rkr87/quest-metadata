@@ -12,7 +12,8 @@
             "Action"
         ],
         "devices": [
-            "Touch Controllers"
+            "Touch Controllers",
+            "Hand Tracking"
         ],
         "modes": [
             "Single User",
@@ -46,23 +47,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 128
+                "votes": 147
             },
             {
                 "rating": 2,
-                "votes": 52
+                "votes": 56
             },
             {
                 "rating": 3,
-                "votes": 100
+                "votes": 113
             },
             {
                 "rating": 4,
-                "votes": 203
+                "votes": 221
             },
             {
                 "rating": 5,
-                "votes": 1711
+                "votes": 1830
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -88,6 +89,10 @@
             "logo_transparent": "38974622_796017918604254_2264792844258297444_n.png"
         },
         "changelog": [
+            {
+                "version": "4",
+                "change_log": "Merry Christmas if you celebrate it, please check the official blog for more details\n\nNew Features / Improvements beyond the announcement\n- Players will now see newly designed blood-splatter effects when taking damage.\n- Players can now kick-jump off other players’ heads.\n- Added an option to create local LAN-only rooms.\n- Improved smoothness for certain weapons and their behaviors during latency in multiplayer, such as shooting, bows, and projectile-based skills.\n- Challenge dungeon level 2 have been refined and enhanced.\n- Optimized the difficulty of MR combat levels.\n- Optimized the revolver to prevent jamming.\n- Optimized the mana cost for the Energy Transforming Bow.\n- Optimized the performance when multiple players use the lift together.\n- Optimized the experience of using the Scabbards in multiplayer.\n- Optimized flame effects.\n- Optimized the panel for selecting mods when creating multiplayer rooms.\n\nBug Fixes\n- Fixed the issue where elite and boss room doors would drag players when closed.\n- Fixed occasional crashes in multiplayer maps.\n- Fixed frame drops in certain scenes.\n- Fixed the issue where the boss room would suddenly disappear upon startup.\n- Fixed the issue where Earth Spell could not be used properly in MR mode.\n- Fixed the issue with the TwinBlade of Slash's enchantment status when separating or joining.\n- Fixed shadow effects on Quest.\n- Fixed the Spell status issue with the Spell Gun in multiplayer.\n- Fixed environment/building errors and movement blockages in some scenes.\n- Fixed the issue where the lever on the Demon Tablet occasionally gets stuck at the bottom\n- Fixed the erroneous pop-up of the MR battle report panel.\n- Fixed the stuttering issue when switching to ground-only mode in MR.\n- Fixed the issue where enemies would occasionally be pulled backward when attacked.\n- Fixed the issue where the Scabbards would disappear when on the sword, in the hand, during saves, or upon death and respawn.\n- Fixed the issue where weapons would easily slip out of hands.\n- Fixed the incorrect orientation of shields when stored in the backpack.\n\nKnown Issues\n- To optimize latency, there are some issues with using certain weapons (such as the Whip Sword) after joining multiplayer rooms. We will fix them soon.\n- Temporarily removed Sacrifice Spell. It will be reworked and added back later."
+            },
             {
                 "version": "3.9",
                 "change_log": "just a small patch for crash issue, the next update will be released early Dec"
@@ -143,35 +148,31 @@
             {
                 "version": "3.0",
                 "change_log": "Just a small patch, hope you enjoy the game so far:\n\n- Improve save system.. again\n- Fixed selfie cam, won't be freeze anymore when enemy's arround\n- Fixed skill - ice spike can hit multiple enemies at the same time\n- Improve the holster area"
-            },
-            {
-                "version": "3.0",
-                "change_log": "Change Log\n- General\n  - better cheat menu\n  - more two handed cast spells\n  - better aerial combo\n  - more loot in sky ruin\n  - more loot in sky ruin\n  - easier to climb and jump\n  - less parkour rooms\n  - removed sword orc's helmet\n  - endless mode\n- Performance & Bug\n  - fixed save file corrupted when out of battery\n  - fixed some animation\n  - optimized final boss fight performance\n  - optimized test scene\n  - fixed real time shadow bug on quest\n- Artwork\n  - replaced stormpistol artwork\n  - replaced ice dagger/sword artwork\n  - replaced goblin armor"
             }
         ],
         "on_rookie": true,
-        "general_update": 481178,
+        "general_update": 482473,
         "genre_update": 480481,
-        "device_update": 474685,
+        "device_update": 482473,
         "mode_update": 481178,
         "language_update": 481178,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481442,
+        "changelog_update": 482473,
         "keyword_update": 481466,
         "tag_update": 479689,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "physic",
             "mod",
             "sword"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 2194,
-        "rating": 4.511851,
-        "weighted_rating": 4.5
+        "votes": 2367,
+        "rating": 4.491762,
+        "weighted_rating": 4.4
     },
     "errors": []
 }

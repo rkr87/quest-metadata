@@ -15,7 +15,6 @@
             "Touch Controllers"
         ],
         "modes": [
-            "Single User",
             "Multiplayer"
         ],
         "languages": [
@@ -35,23 +34,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 808
+                "votes": 1461
             },
             {
                 "rating": 2,
-                "votes": 354
+                "votes": 544
             },
             {
                 "rating": 3,
-                "votes": 412
+                "votes": 586
             },
             {
                 "rating": 4,
-                "votes": 516
+                "votes": 725
             },
             {
                 "rating": 5,
-                "votes": 1849
+                "votes": 2682
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -78,6 +77,14 @@
             "logo_transparent": "75221326_1062885241901642_1970211887359381480_n.png"
         },
         "changelog": [
+            {
+                "version": "0.1.22.766116",
+                "change_log": "Hotfix 0.1.22:\n-Alien and Gorrila Stick fix\n-Matchmaker height parameter fix\n\n"
+            },
+            {
+                "version": "0.1.21.762360",
+                "change_log": "0.1.21\n- New testing option on dummy/custom matches for \"V3\" damage\n- Added ability to define smallest play area size you're willing to match up against\n- The matchmaker now only matches players that have a height within 20cm of each other\n- Increased joystick forward speed when far from opponent, and increased joystick back-up speed overall\n- Added additional error messaging for disconnects to assist in debugging\n- Changed punch audio to be based solely to punch force instead of playing loud sounds on high velocity hits"
+            },
             {
                 "version": "0.1.20.759728",
                 "change_log": "0.1.20 Patch Notes\n- Crowd audio now plays when the server counts a hit from the opponent's perspective, instead of when you see a hit from your perspective.\n- Fixed an issue that could cause punishment to max out with one punch.\n- Fixed an issue that could cause your damage for a round to show as zero after your score a punishment knockdown.\n- Fixed an issue that could cause errors when players joined a lobby, requiring the lobby to be remade.\n- Updated recenter logic to bring the standing circle to the player's in-game body instead of moving the player's in-game body to the standing circle.\n- KOs and the third knockdown of a TKO now show up in the knockdown count on the scorecard."
@@ -124,17 +131,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 481634,
+        "general_update": 482473,
         "genre_update": 481201,
         "device_update": 481201,
-        "mode_update": 481201,
+        "mode_update": 482473,
         "language_update": 481201,
         "platform_update": 481201,
         "player_mode_update": 481201,
-        "changelog_update": 481538,
+        "changelog_update": 482473,
         "keyword_update": 481201,
         "tag_update": 481201,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 481442,
         "keywords": [
             "fight",
@@ -142,11 +149,11 @@
             "multiplay",
             "box"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 3939,
-        "rating": 3.569688,
-        "weighted_rating": 3.5
+        "votes": 5998,
+        "rating": 3.437312,
+        "weighted_rating": 3.4
     },
     "errors": []
 }

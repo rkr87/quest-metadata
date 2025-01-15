@@ -79,6 +79,10 @@
         },
         "changelog": [
             {
+                "version": "1.62",
+                "change_log": "- Radiology discipline is now available with a Teo Pro license\n- Practice and learn proper techniques for taking dental x-rays\n- 18 sets of x-ray locations included\n- Review your last x-ray position\n- Click x-ray to enlarge view\n- Use incorrect angle with device and x-ray result will elongate or overlap\n- Correct location results in better density and contrast\n- Place positioner in wrong location and x-ray result will distort or cone"
+            },
+            {
                 "version": "1.61",
                 "change_log": "- Added function to increase size of models and burs to view cuts in more detail\n- Users can now trim gutta percha from the bottom for more accurate packing\n- Refactor drawing function to improve efficiency\n "
             },
@@ -153,10 +157,6 @@
             {
                 "version": "1.4761",
                 "change_log": "- Fixed issue with data load upon update\n- Adjusted default table height\n- Updated endodontic procedures with new ruler block\n- Fixed issue with guest ability to grab dentition while not in control\n- Set voice region for all users in a network session"
-            },
-            {
-                "version": "1.47",
-                "change_log": "- Updated network functions to improve reliability and host to guest syncing\n- Improved UI flow for discipline functions\n- Improved function of forceps and paper points in Endodontic procedures"
             }
         ],
         "on_rookie": false,
@@ -167,13 +167,13 @@
         "language_update": 478921,
         "platform_update": 479809,
         "player_mode_update": 478921,
-        "changelog_update": 481634,
+        "changelog_update": 482473,
         "keyword_update": 478921,
         "tag_update": 479953,
         "rating_update": 478921,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "APPS",
         "votes": 1,
         "rating": 5.0,

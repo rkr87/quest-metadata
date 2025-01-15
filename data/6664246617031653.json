@@ -33,11 +33,11 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 24
+                "votes": 25
             },
             {
                 "rating": 2,
-                "votes": 11
+                "votes": 12
             },
             {
                 "rating": 3,
@@ -45,11 +45,11 @@
             },
             {
                 "rating": 4,
-                "votes": 27
+                "votes": 29
             },
             {
                 "rating": 5,
-                "votes": 29
+                "votes": 32
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -72,6 +72,10 @@
             "logo_transparent": "39031330_732335591655789_4440335899005320839_n.png"
         },
         "changelog": [
+            {
+                "version": "4.9",
+                "change_log": "-If a 2D panel is open, clicking on the tool icon again will close the panel.\n-Increased network buffering size\n-Fixed a memory leak in VP9 decoder\n-Added support for 3DOF\n-Changed the way backgrounds are loaded to reduce memory usage"
+            },
             {
                 "version": "4.8",
                 "change_log": "-Fixed another color bug with some codecs"
@@ -147,10 +151,6 @@
             {
                 "version": "2.9",
                 "change_log": "- Added \"Recently Added\" section.  Results are limited to the first 20 matches in each library on the server.\n- Fixed some minor bugs with the browser\n- Made the debug log longer \n- Now ignoring unsupported subtitle formats"
-            },
-            {
-                "version": "2.8",
-                "change_log": "- Added support for external subtitles in .SRT format.  To use, make sure the subtitles contain\na language code before the srt extension in the filename.  (ie MovieName.en.srt)  You can use the\nsubtitle search feature in Plex to download and it should name them correctly for you.\n- Increased the render resolution, fixing clarity and subtitle aliasing issues.\n- Fixed a bug where current subtitle and audio track weren't getting reset when switching videos\n- Fixed default curve not getting set when switching to 180 SBS videos\n"
             }
         ],
         "on_rookie": false,
@@ -161,16 +161,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481297,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 474685,
-        "rating_update": 481634,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 107,
-        "rating": 3.242991,
+        "votes": 114,
+        "rating": 3.27193,
         "weighted_rating": 3.2
     },
     "errors": []

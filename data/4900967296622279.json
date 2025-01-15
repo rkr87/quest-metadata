@@ -44,7 +44,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 12
+                "votes": 13
             },
             {
                 "rating": 2,
@@ -56,11 +56,11 @@
             },
             {
                 "rating": 4,
-                "votes": 73
+                "votes": 74
             },
             {
                 "rating": 5,
-                "votes": 744
+                "votes": 748
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -86,6 +86,14 @@
             "logo_transparent": "43997711_632805781098711_883755566039317171_n.png"
         },
         "changelog": [
+            {
+                "version": "1.5.6",
+                "change_log": "- Browser uses the desktop version of websites again, making it easier to use YouTube.\n- The laser pointer is stabilized to make it much easier to click things.\n- The laser pointer is now always following the direction of your controller, rather than the brush."
+            },
+            {
+                "version": "1.5.5f1",
+                "change_log": "- Web pages can now be dragged to scroll them, making it possible to navigate them using MX Ink.\n- Updated web browser plug-in."
+            },
             {
                 "version": "1.5.4f2",
                 "change_log": "- Fixed DuckDuckGo links resulting in Bad Request errors."
@@ -153,18 +161,6 @@
             {
                 "version": "1.5.0",
                 "change_log": "- You can now generate a paint by numbers template from your own images and any image you find online! Vermillion will generate the outlines, which you can show above or below the paint on the canvas. The palette will be automatically filled with the required colors. You can isolate outlines to one color at a time, so you can very easily apply the right color in the right area. Painting has never been more accessible!\n- You can now open files you copied to your Quest over USB, instead of only online. Paint by numbers can also be generated from local images.\n- Reduced memory usage which makes the app more stable on Quest 3, especially in multiplayer.\n- Fixed a bug where for lefties, your hands could swap if you paused the game and resumed.\n- Fixed keyboard sometimes not being complete."
-            },
-            {
-                "version": "1.4.3f1",
-                "change_log": "Fixed hand stabilizer line not showing on canvas in passthrough. Thanks to Walhallo=DM= for the report!\n\nPrevious update:\n- Colocated multiplayer now shows the physical person in passthrough rather than overlaying their Meta Avatar!\n- Distant grabbing of studio equipment (brushes, palette, easel and stand grips) is now a setting that's disabled by default. You can enable it again from Settings > Controllers\n- Improved framerate when walking to another person's easel in multiplayer\n- Fixed brush disappearing when grabbing someone else's brush and then repositioning an easel or a stand\n- Autosave doesn't happen while painting\n- Fixed 3D model export being 10m under the origin"
-            },
-            {
-                "version": "1.4.3",
-                "change_log": "- Colocated multiplayer now shows the physical person in passthrough rather than overlaying their Meta Avatar!\n- Distant grabbing of studio equipment (brushes, palette, easel and stand grips) is now a setting that's disabled by default. You can enable it again from Settings > Controllers\n- Improved framerate when walking to another person's easel in multiplayer\n- Fixed brush disappearing when grabbing someone else's brush and then repositioning an easel or a stand\n- Autosave doesn't happen while painting\n- Fixed 3D model export being 10m under the origin"
-            },
-            {
-                "version": "1.4.2",
-                "change_log": "Experimental support for co-located multiplayer!"
             }
         ],
         "on_rookie": false,
@@ -175,10 +171,10 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480457,
+        "changelog_update": 482473,
         "keyword_update": 478321,
         "tag_update": 477913,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 481178,
         "keywords": [
             "paint",
@@ -187,10 +183,10 @@
             "art",
             "relax"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 859,
-        "rating": 4.77532,
+        "votes": 865,
+        "rating": 4.771098,
         "weighted_rating": 4.7
     },
     "errors": []

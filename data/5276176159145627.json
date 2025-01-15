@@ -48,11 +48,11 @@
             },
             {
                 "rating": 4,
-                "votes": 39
+                "votes": 41
             },
             {
                 "rating": 5,
-                "votes": 165
+                "votes": 192
             }
         ],
         "comfort": "NOT_RATED",
@@ -116,31 +116,27 @@
             {
                 "version": "1.3.10",
                 "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nVERSION 1.3.10\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nAudio Improvements\nAdded “Point” and “Second Serve” Audio for referee calls.\n\nAudio Improvements\nRemoved calling “out” audio for referee calls.\n\nSettings (Audio)\nAdded settings to control calling “fault” as well as control the calling of “point, side out and second serve.”\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nBUG FIXES\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nAudio - Fixed the umpires voice lines to be more in line with real life umpires.\n\nBall - Fixed issue where if the ball hits the post it would sometimes be counted as in.\n\nBall - Fixed issue of serve being lost for the player when the opponent tries to strike a dead ball.\n\nBall - Fixed ball disappearing in Single-player AI game mode when the AI player strikes a ball.\n\nGraphical - Fixed blurriness of stadium advertising writing.\n\nMultiplayer - Fixed issue where the host was still able to toggle to the baseline and volley line when the results are showing in a Multiplayer game.\n\nStability - Fixed issue that would cause the game to freeze after ball is served in a multiplayer game on Quest 1.\n\nUser Interface (Text) - Fixed issue where the “Rally won by” text would be wrong in a doubles game."
-            },
-            {
-                "version": "1.3.4",
-                "change_log": "--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nVERSION 1.3.4\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nENHANCEMENTS\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nPhysics - Reverted physics to previous version\nWhile we were excited to share our new updated physics in the recent update, the performance was too inconsistent across various game modes. As a result, we have reverted the physics to the way they were before this update.\n\nDoes this mean the physics won't be improved?\nWhile the changes should be more consistent across every mode, they are still not perfect. We are working hard to release our new physics system and ensure steady and constant performance across every game mode. We will be providing updates closer to the release of the new system with more details.\n\n\nScene - Graphics Adjustment\nMade the Gearbox banners less vibrant.\n\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nBUG FIXES\n--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---\nPerformance - Fixed Memory Leak\nMajor memory leak fixed which was a causing Quest 1 to have screen lock up or crash and Quest 2 crash\n\nGlitch - Fixed Spectators Catching the Ball\nSpectators are no longer able to catch the ball when a player throws a ball toward them.\n\nGlitch - Fixed Incomplete Paddle Display\nFixed issue where the player could see an incomplete paddle if they were to squeeze the grip button to spawn a paddle repeatedly in the paddle settings the player\n\nGraphics - Profile Pictures Now Fill Their Border\nEnd of game profile pictures are now expanded to fill to the border edge."
             }
         ],
         "on_rookie": true,
-        "general_update": 481297,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481610,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 481297,
         "keywords": [],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 256,
-        "rating": 4.289062,
-        "weighted_rating": 4.2
+        "votes": 285,
+        "rating": 4.354386,
+        "weighted_rating": 4.3
     },
     "errors": []
 }

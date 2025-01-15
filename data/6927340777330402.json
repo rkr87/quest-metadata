@@ -32,12 +32,13 @@
             "ROOM_SCALE"
         ],
         "tags": [
-            "Mixed Reality"
+            "Mixed Reality",
+            "Enterprise"
         ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 7
+                "votes": 8
             },
             {
                 "rating": 2,
@@ -80,6 +81,10 @@
         },
         "changelog": [
             {
+                "version": "3.0.0",
+                "change_log": "https://support.campfire3d.com/release-notes"
+            },
+            {
                 "version": "1.5.1",
                 "change_log": "March 2024\nNew Features\n•\tIn-Room Collaboration (Quest Preview).  Now multiple Quest users can work on the same project in the same room. Powered by Meta Shared Spatial Anchors, in-room collaboration works seamlessly. To join a project, stand near a colleague and look where they do. You'll be prompted to join if the project has been shared with you.\n\n•\tPoint-to-Point Measurement (All Platforms). You can now make point-to-point measurements with the Measure tool.  Just point at the locations you want to measure between, and the distance between them appears on a connecting line. Measurements update automatically, so it's easy to evaluate gaps while grabbing and moving parts. And because measurements are annotations, you can share them with links as with text and sketches.\n\n•\tPrecision Slice (Mac, PC, iPad). We brought the Slice tool to the desktop, so you can create precise cross sections when creating scenes and then move them freely on Quest. On the desktop, you can lock a cutting plane to a particular axis and use the inspector to control position and rotation on all axes. The Slice plane also now appears in the Hierarchy, allowing a presenter to hide/show it.\n\n•\tEnhanced VR Experience (Quest)\nWe've enhanced the visual experience in VR to make it easier to orient yourself relative to the ground and other users.  \n\n•\tEasier Access to Materials (All Platforms)\nA new section has also been added to Materials tab in the Inspector to make it easier to access general purpose materials.\n\n•\tProject List Updates (All Platforms)\nAll apps now use the tiled project list introduced in the Quest app. Project tiles now include a thumbnail for the first scene, icons for users in the project, and an indicator for whether a project is open nearby (Quest). \nKnown Issues\nAdding Models (Mac, PC, iPad)\n•\tImporting multiple large models simultaneously into different scenes may fail with an error notification. Re-import failed models one at a time.\n•\tIf models require external texture files, the external files must be stored locally – they cannot be links to cloud services. \n\nIn-Room Collaboration (Quest Preview)\n•\tIf you don’t see a shared project after a few seconds, you might need to clear the Point Cloud cache on your Quest with the following steps: 1) Navigate to Settings -> Point Cloud -> Delete shared storage, 2) Click on Delete, 3) Create a new room-scale boundary, 4) Restart your device.\n•\tRoom scale content may make the real world and other users impossible to see. Take care not to bump into physical objects, walls, or people. \n\nMeasure\n•\tPoint-to-point measurements can only be made between points on model surfaces. To measure the distance between a model and an arbitrary point in space or on the ground, add a model with a surface at the point in space or on the ground you want to measure to or from (All Platforms)\n•\tMeasurement units cannot be changed from the Measure tool in AR mode (iPad)\n•\tCannot resolve or copy a link to Measurement annotations in AR mode. (iPad)\n\nSharing\n•\tCampfire links do not open the Quest app. Open projects directly from within the Campfire app. (Quest)\nFixes\n•\tFixed issues related to switching between environment and object scenes. \n•\tQuest VR mode now has color gradient\n"
             },
@@ -97,17 +102,17 @@
             }
         ],
         "on_rookie": false,
-        "general_update": 480625,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 475297,
+        "changelog_update": 482473,
         "keyword_update": 480073,
-        "tag_update": 479689,
-        "rating_update": 481178,
+        "tag_update": 482473,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "design",
@@ -115,11 +120,11 @@
             "collaboration",
             "visual"
         ],
-        "last_update": 481178,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 39,
-        "rating": 3.666667,
-        "weighted_rating": 3.6
+        "votes": 40,
+        "rating": 3.6,
+        "weighted_rating": 3.5
     },
     "errors": []
 }

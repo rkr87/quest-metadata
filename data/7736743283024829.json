@@ -71,6 +71,10 @@
         },
         "changelog": [
             {
+                "version": "0.9.11",
+                "change_log": "- NursingVR <V 0.9.11>\n    - 주요 업데이트\n        - 기능 추가 및 개선\n            - 옵션 계정 연동\n            - 로그인UI\n                - 아이디 저장하기 토글버튼 추가 : 토글 해제하면 저장아이디를 공백문자로 저장\n                - 패스워드 저장하기 토글버튼 추가 : 아이디 저장시에만 유효\n                - 로그아웃 버튼을 UserID 아래에 추가\n                - 로그아웃하시겠습니까? 확인 팝업 추가\n                - 아이디/패스워드창 키보드 활성화시 해당 창 테두리 출력\n              \n        - 버그 수정\n            - 새 기기로 첫 설치시 계정정보가 남아있는 문제\n            - 시나리오\n                - 자기 순서가 아닐 때 수액백의 수액세트 연결 마개 열었을 때 정상적으로 진행되지 않는 문제\n                - 투약준비실에서 인벤토리에 뚜껑넣기전 펜을 넣었을 때 정상적으로 진행되지 않는 문제\n                - 바닥에 떨어지지 않았는데 경고 멘트가 나오는 문제\n                    - 소독필요할 때 [바닥에 떨어진 개봉 바이알은 입구 소독이 필요합니다.]  경고 멘트가 나오는 경우 체크\n                - 고주의 펜형 펜니들 결합시 마개소독 안하면 정상적으로 진행되지 않는 문제\n                - 간헐적으로 고주의 투약 완료 후 '솜 5초간 누르기' 실행 안 되는 문제\n    \n   **NursingVR <V 0.9.11>**\n\n### Major Updates\n\n### **Features Added and Improved**\n\n- **Option Account Integration**\n- **Login UI Enhancements**:\n    - Added \"Remember ID\" toggle button: When toggled off, the saved ID is cleared.\n    - Added \"Save Password\" toggle button: Only valid when \"Remember ID\" is enabled.\n    - Added a Logout button below the User ID display.\n    - Added a confirmation popup for \"Are you sure you want to log out?\".\n    - Highlighted border on the ID/password fields when the keyboard is activated.\n\n### **Bug Fixes**\n\n- **Account Management**:\n    - Resolved an issue where account information remained after the first installation on a new device.\n- **Scenario Bugs**:\n    - Fixed an issue where the process did not progress properly if the infusion bag's set connector cap was opened out of turn.\n    - Fixed an issue in the medication preparation room where the process would not progress correctly if the pen was placed in the inventory before the cap.\n    - Fixed a bug where warning messages appeared even though items had not fallen to the floor.\n    - Checked scenarios where a warning message, \"[The opening of a vial dropped to the floor needs to be disinfected.],\" appeared unnecessarily.\n    - Resolved an issue where the process did not proceed if the pen needle cap was not disinfected during pen-type syringe assembly for high-dose medication.\n    - Addressed a bug where the \"Press with cotton for 5 seconds\" step intermittently failed to execute after completing a high-dose injection."
+            },
+            {
                 "version": "0.9.2",
                 "change_log": "Modified the UI of the login interface"
             }
@@ -83,13 +87,13 @@
         "language_update": 478969,
         "platform_update": 481369,
         "player_mode_update": 478969,
-        "changelog_update": 478969,
+        "changelog_update": 482473,
         "keyword_update": 478969,
         "tag_update": 478969,
         "rating_update": 479089,
         "iarc_detail_update": 478969,
         "keywords": [],
-        "last_update": 481369,
+        "last_update": 482473,
         "category": "APPS",
         "votes": 2,
         "rating": 5.0,

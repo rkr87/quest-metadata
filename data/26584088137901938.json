@@ -32,7 +32,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 33
+                "votes": 51
             },
             {
                 "rating": 2,
@@ -40,15 +40,15 @@
             },
             {
                 "rating": 3,
-                "votes": 12
+                "votes": 20
             },
             {
                 "rating": 4,
-                "votes": 16
+                "votes": 23
             },
             {
                 "rating": 5,
-                "votes": 114
+                "votes": 184
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -76,7 +76,7 @@
         },
         "changelog": [],
         "on_rookie": false,
-        "general_update": 481250,
+        "general_update": 482473,
         "genre_update": 480625,
         "device_update": 480386,
         "mode_update": 480386,
@@ -86,17 +86,29 @@
         "changelog_update": 480386,
         "keyword_update": 480386,
         "tag_update": 480386,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 481178,
         "keywords": [
             "tag",
             "project"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 178,
-        "rating": 3.983146,
-        "weighted_rating": 3.9
+        "votes": 281,
+        "rating": 4.017794,
+        "weighted_rating": 4.0
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

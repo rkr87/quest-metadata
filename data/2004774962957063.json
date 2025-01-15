@@ -47,23 +47,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 65
+                "votes": 70
             },
             {
                 "rating": 2,
-                "votes": 29
+                "votes": 30
             },
             {
                 "rating": 3,
-                "votes": 56
+                "votes": 61
             },
             {
                 "rating": 4,
-                "votes": 167
+                "votes": 172
             },
             {
                 "rating": 5,
-                "votes": 868
+                "votes": 887
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -88,6 +88,14 @@
             "logo_transparent": "75435282_957640477981367_4746268653272923305_n.png"
         },
         "changelog": [
+            {
+                "version": "1.16.2.279729-release",
+                "change_log": "- Fixed Meta Avatars failing to load for many players."
+            },
+            {
+                "version": "1.16.1.279137-release",
+                "change_log": "- Fixed the game getting stuck loading, when the Meta Avatar can't be loaded.\n- You will now instead get your Cook-Out avatar selected in these circumstances."
+            },
             {
                 "version": "1.16.0.278405-release",
                 "change_log": "- Added a seasonal holiday theme! Enjoy the snowy season with updated environments and a festive soundtrack!\n- Meet Santa and his reindeer in Creative mode!\n- Restored the word \"cheese\" that had mysteriously vanished from all recipe names and hints.\n- Improved the fidelity of the lighting in the cabin."
@@ -147,14 +155,6 @@
             {
                 "version": "1.9.115949",
                 "change_log": "New Features:\nCustomize your Cook-Out avatar\n- We've added lots of options for hats, shirts and gloves\n- Your favorite animal avatar can now have different skin variations\n- As you customize, you can have a look in the new beautiful mirror to make sure you are as fancy as you want to be\n\nA new animal Avatar\n- How to unlock it is for us to know and you to find out\n\nAchievements\n- There are now a bunch of achievements to unlock\n- Some are really tricky, and by unlocking some you will unlock new customization options.\n\nMain menu facelift\n- We updated the way the main menu looks, isn't it fancy?\n\nBug fixes:\nFixed bugs and improved overall stability"
-            },
-            {
-                "version": "1.8.112973",
-                "change_log": "New Features:\nAnimal avatars eyes are now animated\n\nBug fixes:\nAvatar hands now syncs better over network.\nFixed occasional infinite loading on Avatars menu preventing players from choosing different avatars\nFixed broken Splash Screen on Quest\nFixed several network bugs that could cause customers and plates to break\nFixed bug that made any grabbable item disappear if a player left the game holding said item\nFixed bug preventing use of Vive Cosmos controllers\n\nGame changes:\nValve Index controllers grip input has been tweaked to be more responsive.\nValve Index controllers now have haptics enabled.\nAdded another hand pose for animal avatars so it is not so easy to accidentally do an OK-sign."
-            },
-            {
-                "version": "1.7.111157",
-                "change_log": "Fixed an issue where avatars sometimes would enter a room frozen, broken or invisible."
             }
         ],
         "on_rookie": true,
@@ -165,20 +165,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481682,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 475657,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "multiplay",
             "cook",
             "food"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 1185,
-        "rating": 4.47173,
+        "votes": 1220,
+        "rating": 4.455738,
         "weighted_rating": 4.4
     },
     "errors": []

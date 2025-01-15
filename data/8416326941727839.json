@@ -28,11 +28,13 @@
             "STANDING",
             "ROOM_SCALE"
         ],
-        "tags": [],
+        "tags": [
+            "Enterprise"
+        ],
         "hist": [
             {
                 "rating": 1,
-                "votes": 10
+                "votes": 12
             },
             {
                 "rating": 2,
@@ -44,11 +46,11 @@
             },
             {
                 "rating": 4,
-                "votes": 2
+                "votes": 3
             },
             {
                 "rating": 5,
-                "votes": 19
+                "votes": 22
             }
         ],
         "comfort": "COMFORTABLE_FOR_SOME",
@@ -84,15 +86,27 @@
         "player_mode_update": 478921,
         "changelog_update": 478921,
         "keyword_update": 478921,
-        "tag_update": 478921,
-        "rating_update": 481658,
+        "tag_update": 482473,
+        "rating_update": 482473,
         "iarc_detail_update": 478921,
         "keywords": [],
-        "last_update": 481658,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 32,
-        "rating": 3.625,
+        "votes": 38,
+        "rating": 3.605263,
         "weighted_rating": 3.5
     },
-    "errors": []
+    "errors": [
+        {
+            "message": "A server error field_exception occured. Check server logs for details.",
+            "severity": "ERROR",
+            "mids": [
+                "d4127d1d458dce7d4fbdd3cf1b5d837c"
+            ],
+            "path": [
+                "item",
+                "is_ccve_pdp_warning_enforced"
+            ]
+        }
+    ]
 }

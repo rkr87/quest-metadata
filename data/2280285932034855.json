@@ -39,23 +39,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 174
+                "votes": 191
             },
             {
                 "rating": 2,
-                "votes": 76
+                "votes": 81
             },
             {
                 "rating": 3,
-                "votes": 174
+                "votes": 196
             },
             {
                 "rating": 4,
-                "votes": 556
+                "votes": 696
             },
             {
                 "rating": 5,
-                "votes": 4889
+                "votes": 6815
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -82,41 +82,41 @@
         },
         "changelog": [
             {
+                "version": "4.1.1.1485",
+                "change_log": "### Fixes/improvements\n\n- Fixed Wards in some cases getting stuck, blocking progression\n- Fixed few hand-tracking specific achievements not unlocking\n- Fixed finger accessibility menu not working correctly\n- Fixed Neutron Orb VR gesture breaking under specific circumstances\n- Fixed Tower visitors (Igor, giant, bat) frequently showing up right when game is started\n- Fix Air Drawing graphics being scaled wrong if user was little/big\n- Fixed flying explosive barrels not always flying\n- Fixed putting Ear Trumpet on Skully being difficult\n- Fixed final door in Fortress levels often automatically opening"
+            },
+            {
                 "version": "3.1.0.1436",
                 "change_log": "Skully’s Unruly Reactions update brings 400+ new voicelines and a whole bunch of new Skully interactions! From entirely new reactions to extensions of what was there before, the update makes Skully feel more alive and responsive to a greater set of things that you do and say. \n\n== New or Improved Skully Interactions ==\n• 👀 When poked in the eye\n• 😬 Biting when finger is held in front of him\n• 🌊 When drowned in pot (short, medium, and long duration)\n• 🪟 When thrown out the window\n• 💥 Hit reactions (low, medium, high, and extreme impact)\n• 🏹 When shot with the crossbow\n• 📍 Various commentary to being placed or held in different locations in the Tower\n• 🪶 Being drawn on with the feather pen\n• 🪄 More spell reactions when being miniaturized, supersized, polymorphed, transmuted, puppetered, made weightless, and turned into a Firework\n• 🫴 When targeted with “Bring-to-me”\n• 💀 Variations when being shown the same thing multiple timess\n• 💋 When kissed on the lips or head (short and long durations)\n• 🎺 When the trumpet is put on him\n• 😵‍💫 After being thrown multiple times in a short time\n• 🤾 When being thrown back and forth with the Armor Catcher\n• 😱 When using the ‘Make everything explode/disappear’ or ‘Turn everything into a butterfly/frog’ voice magic\n• 😮‍💨 When then saying the ‘Make it stop’ voice magic after uttering one of the above commands\n• 👍 When making the ‘thumbs up’, ‘thumbs down’, or ‘peace’ hand gestures\n• 🔫 When being aimed at with crossbow or slingshot\n• 🚪 When Igor/Goliath/Bat enters the Tower\n• 🚑 When Igor/Goliath/Bat are hit or shot\n• 🗣️ Added approximately 50 new questions and phrases that Skully can respond to — including multiple reactions to some of these sentences. Please refer to the blog post for a full list.\n\n\n== General Fixes/Improvements ==\n• Skully now respawns after being thrown out the window\n• Improved Skully’s colliders to make it easier to draw on him\n• Improved Skully’s physics so he doesn’t fall sideways as easily\n• Fixed Skully sometimes saying 'Don’t put me in the pot' after you already did so\n• Skully’s voice is now pitched up when turned into a butterfly/frog\n• Improved timings and priority of various pre-existing Skully dialogues\n• Improved audio mixing on Skully to prevent some audio clips from causing distortion on the Quest speakers\n• Fixed a few bugs in Puppeteer and added interpolation to puppeteered objects so they animate smoother\n• Various improvements to Skully’s gaze behavior\n• Fixed objects being respawned despite being affected by magic\n• Fixed incorrect color hue post-processing effect being applied when loading for the first time into the Tower (Quest only)\n• Improved reliability of some hand gesture detections (namely the middle-finger gesture)"
             },
             {
                 "version": "2.3.1.1133",
                 "change_log": "## Improvements\n\n- Automatons now wake-up later - if you’re sneaky enough you might even kill them before they wake up!\n- Added SFX to Voice Suggestions\n- Added VFX and SFX to level selector\n- “Make that faster” voice modifier now works for Rat, Silverfish and Frogs\n- Improvements to what Voice suggestions are selected for display\n- Added SFX to Telepath\n- The Armor Catcher guy has been removed from the Courtyard (RIP)\n- “Give me Air Drawing” grimoire page has been changed to “Give me Fireball”\n- The Start and End rooms in Infinite Fortress now have a slightly changed look\n- Added VFX when using using Teleport command (e.g. “Take me to the Courtyard”)\n- Skully now repeats himself during the Voice tutorial if the user doesn’t trigger the intended voice commands\n- .. and various other minor improvements\n\n## Fixes\n\n- Fixed “Scavanger Hunter” and “Artifact Connoisseur” potentially not unlocking if you had finished those tasks before\n- Fixed “Make normal” voice command not working on something that has been made bigger/smaller\n- Fixes to various colliders\n- Fixed some voice commands not showing up in subtitles\n- Fixed issue where objects affected by the Bouncy Wand would be bouncy forever.\n- Fixed haptics under very specific circumstances breaking when entering the Observer Fortress\n- You can no longer snap rotate with controllers in Mixed Reality mode, which caused posters being offset\n- Fixed Bat spawning 2 bodies if killed\n- Fixed Voice subtitles possibly getting stuck in wrong scale if user changed his height\n- You can no longer reach assist the same object with both hands simualtenously\n- Fixed some Natural Magic powers accidentally triggering when holding objects\n- Change Pitch voice commands possibly getting too high or too low\n- Fixed running not working in hand-tracking\n- Skully no longer yells his greeting at you when you enter the Tower (i.e. the volume of his greeting has been lowered to a more normal level)\n- Fixed crank wheel for the Well sometimes breaking\n- Fixed hand-tracking slingshot sometimes acting weird\n- .. and various other minor fixes\n\n## Observer Fortress crash\n\nWe are aware of a crash occuring for some users in the Observer Fortress. We’ve added a detection for when this crash is about to occur, which sends us a log with more info about the crash to help us fix this issue."
-            },
-            {
-                "version": "2.3.1.1112",
-                "change_log": "• Fixed freeze issue in Mixed Reality Mode on Quest Pro\n• Further reduced memory footprint in Observer Fortress\n• Fixed an issue where tutorial Skully could appear magenta"
             }
         ],
         "on_rookie": true,
-        "general_update": 480793,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480697,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "magic",
             "wizard",
             "fantasy"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 5869,
-        "rating": 4.688533,
-        "weighted_rating": 4.6
+        "votes": 7979,
+        "rating": 4.737436,
+        "weighted_rating": 4.7
     },
     "errors": []
 }

@@ -39,7 +39,7 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 10
+                "votes": 11
             },
             {
                 "rating": 2,
@@ -47,15 +47,15 @@
             },
             {
                 "rating": 3,
-                "votes": 18
+                "votes": 19
             },
             {
                 "rating": 4,
-                "votes": 111
+                "votes": 115
             },
             {
                 "rating": 5,
-                "votes": 761
+                "votes": 768
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -80,7 +80,12 @@
             "immersive_layer_logo": null,
             "logo_transparent": "38982607_690148956260496_6818253247735988207_n.png"
         },
-        "changelog": [],
+        "changelog": [
+            {
+                "version": "0.32.1 (316)",
+                "change_log": "# v32.0.1 (316)\n\n## New Stuff\n- All international keyboard layouts now work with both Chromium and Gecko windows. \n- You can now change the cursor ray color in Mouse section of Settings app. \n\n## Bug Fixes\n- Fixed key events not going to Gecko windows in non-English layouts.\n- Fixed Spanish (Latin America) keyboard layout not working.\n- Reduced some aliasing in Tranquil Grandeur environment.\n- Fixed user agent bug causing Google login issues."
+            }
+        ],
         "on_rookie": false,
         "general_update": 479185,
         "genre_update": 480481,
@@ -89,16 +94,16 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 479521,
+        "changelog_update": 482473,
         "keyword_update": 474685,
         "tag_update": 479689,
-        "rating_update": 481586,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [],
-        "last_update": 481586,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 912,
-        "rating": 4.755482,
+        "votes": 925,
+        "rating": 4.748108,
         "weighted_rating": 4.7
     },
     "errors": []

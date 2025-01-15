@@ -46,19 +46,19 @@
             },
             {
                 "rating": 2,
-                "votes": 44
+                "votes": 45
             },
             {
                 "rating": 3,
-                "votes": 55
+                "votes": 57
             },
             {
                 "rating": 4,
-                "votes": 139
+                "votes": 141
             },
             {
                 "rating": 5,
-                "votes": 877
+                "votes": 889
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -83,6 +83,10 @@
             "logo_transparent": "38974815_330154097603796_583183325309435904_n.png"
         },
         "changelog": [
+            {
+                "version": "0.11.1.6",
+                "change_log": "- Fixed an issue with the audio engine decoder that caused some tracks to fail when loading\n- Mentor lessons now have the correct avatars displayed\n- Cached leaderboard data now loads properly, allowing for better offline usage.\n- Additional minor optimizations and code cleanup "
+            },
             {
                 "version": "0.11.1.4",
                 "change_log": "- Rekordbox metadata can now be imported from Dropbox\n- TIDAL tracks now imported from Rekordbox collection xml\n- Added Beatport audio quality selection\n- Streaming services now auto-login on start if possible (previously required visiting them in the music menu to login)\n- Fixed issue where Dropbox would require manually logging in more often than necessary\n- Fixed SoundCloud track search broken by API change\n- Enabled additional achievements on Meta Quest that were previously only available on PC"
@@ -154,10 +158,6 @@
             {
                 "version": "0.10.5",
                 "change_log": "Tribe is launching a new subscription service!\nAll premium features in Tribe are available through a single subscription tier. \nIncludes all music packs, equipment, environments, livestreaming, workshops and more.\nFolks who already purchased Tribe will be grandfathered in and receive a Tribe for Life. \nTo learn more, join us on Discord (discord.gg/tribexr)"
-            },
-            {
-                "version": "0.10.4.1",
-                "change_log": "- Restored the Friends list and Multiplayer invite functionality\n- Menu adjustments\n- Fixed Twitch Login issues\n- Various Bug fixes"
             }
         ],
         "on_rookie": true,
@@ -168,20 +168,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 480097,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481682,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "education",
             "learn",
             "music"
         ],
-        "last_update": 481682,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 1282,
-        "rating": 4.181747,
+        "votes": 1299,
+        "rating": 4.185527,
         "weighted_rating": 4.1
     },
     "errors": []

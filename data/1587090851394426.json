@@ -19,11 +19,11 @@
             "English"
         ],
         "platforms": [
-            "Meta Quest",
             "Meta Quest 3S",
             "Meta Quest 3",
             "Meta Quest Pro",
-            "Meta Quest 2"
+            "Meta Quest 2",
+            "Meta Quest"
         ],
         "player_modes": [
             "SITTING",
@@ -47,7 +47,7 @@
             },
             {
                 "rating": 3,
-                "votes": 70
+                "votes": 71
             },
             {
                 "rating": 4,
@@ -55,7 +55,7 @@
             },
             {
                 "rating": 5,
-                "votes": 731
+                "votes": 737
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -78,6 +78,10 @@
             "logo_transparent": "38974538_2166461300096555_6682755566802042880_n.png"
         },
         "changelog": [
+            {
+                "version": "6.4.0-generalqc",
+                "change_log": "Gravity Sketch 6.4 is centered around the presentation of ideas in Gravity Sketch – facilitating better representation and exploration of design intent.\n\nApplying color texture and materials to your designs in VR can be achieved with greater ease: You can get hands on with texture manipulation with intuitive scaling and rotation, plus the ability to pan.\n\nMaterials now have additional properties that can be manipulated including roughness, metallic values, outline thickness and clear coat application. These controls can help improve the realism of designs.\n\n6.4 also brings a set of improvements to enhance the experience of joining rooms from your PC: an updated UI makes navigation simple, and presenters can keep their flow as comments are now decoupled from viewpoints. New functionality includes the ability to import, select and move objects in a room, alongside a share button from inside Screen Collab – making it easier to bring others in to collaborate."
+            },
             {
                 "version": "6.3.9-generalqog",
                 "change_log": "🚀 Features & Improvements\n\n- Thickened surfaces can now be baked with either hard edges (creased) or soft edges\n- Better visual feedback for touching vs. pressing buttons\n- Web browser experimental feature: enabled uploading instant screenshots and downloading 3D files (useful for AI workflows). This is a beta feature so this may not work consistently/not work for all web pages.\n\n🐛 Bug Fixes\n- Duplicating a collapsed layer group now correctly duplicates the layers it contains\n- Fixed memory issues when repeatedly deleting/restoring points\n- Other misc fixes"
@@ -121,14 +125,6 @@
             {
                 "version": "6.3.4-generalqc",
                 "change_log": "VR\n\n🚀 Features & Improvements\n\n- (Enterprise feature) Added support for decimation of  USDZ and GLTF files.\n\n🐛 Bug Fixes\n\n- Fixed recovery autosaves not triggering if the app closed unexpectedly during a sketch.\n- Fixed ambient occlusion shadows always rendering in front of imported videos.\n- Fixed microphone permissions dialog on first time joining a Collab room failing to properly apply microphone permissions.\n- Fixed the build not updating the launcher if the build was launched directly.\n\nScreen Collab\n\n🐛 Bug Fixes\n\n- Fixed incorrect appearance of backgrounds and some sketch objects in screenshots.\n- Removed sketch object highlights."
-            },
-            {
-                "version": "6.3.3-generalqog",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue sometimes causing Collab rooms to run out of memory.\n- Switching between export presets now properly updates the the Units, Mirror Plane and Up Axis options.\n- The playback speed options on the video player UI are now easier to select."
-            },
-            {
-                "version": "6.3.3-generalqc",
-                "change_log": "VR\n\n🐛 Bug Fixes\n\n- Fixed an issue sometimes causing Collab rooms to run out of memory.\n- Switching between export presets now properly updates the the Units, Mirror Plane and Up Axis options.\n- The playback speed options on the video player UI are now easier to select."
             }
         ],
         "on_rookie": false,
@@ -139,20 +135,20 @@
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481514,
+        "changelog_update": 482473,
         "keyword_update": 474881,
         "tag_update": 477913,
-        "rating_update": 481634,
+        "rating_update": 482473,
         "iarc_detail_update": 475000,
         "keywords": [
             "art",
             "model",
             "design"
         ],
-        "last_update": 481634,
+        "last_update": 482473,
         "category": "APPS",
-        "votes": 1120,
-        "rating": 4.105357,
+        "votes": 1127,
+        "rating": 4.109139,
         "weighted_rating": 4.1
     },
     "errors": []

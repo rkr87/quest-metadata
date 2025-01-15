@@ -3,7 +3,7 @@
         "id": "2436558143118760",
         "app_name": "Synth Riders",
         "release_date": "1980-01-01T00:00:00.000Z",
-        "description": "# New DLC Available for Purchase today!\n\nFor the first time in a VR rhythm game, enter the world of **Barbie™** through an immersive musical **Synth Riders Experience™**! \n\nA world inspired by Barbie flows all around you while you play and dance to the rhythm. Soak in rays at the beach and groove at the roller disco while bopping along to K-pop hit, **“Barbie Dreams (feat. Kaliii)” by FIFTY FIFTY from Barbie™ the Album**.\n\n# About Synth Riders\n\nLet the music move you in a unique combination of freestyle dancing & fitness workout that’ll make you to burn calories while having tons of fun, in full VR or Mixed Reality!\n\n\"Accessible, fun, and an absolute must-have for anyone with a VR headset.\"\n9.5/10 - GamingTrend\n\n“An amazing physical experience that involves the entire body.”\n8.8/10 - VR Fitness Insider\n\n“Brilliant gameplay and exceptional soundtrack.”\n9/10 - Push Square\n\n- Play, dance & exercise to 75 included tracks\n- Have fun in 10 player cross-platform multiplayer\n- Customize your experience with a range of features, including custom song support and Mixed Reality mode.\n- Play your way with a tremendous variety of gameplay modifiers & styles, such as Spin & Spiral modes\n- Discover 13 optional DLCs adding 7 visually stunning experiences & 68 songs from artists such as Gorillaz, Muse, Bruno Mars, Lindsey Stirling, Caravan Palace & more!\n\n\nBARBIE™ and any associated trademarks  and trade dress are owned by, and under license from, Mattel. ©2024 Mattel.",
+        "description": "Let the music move you in a unique combination of freestyle dancing & fitness workout that’ll make you to burn calories while having tons of fun, in VR and Mixed Reality!\n\n**\"80s Mixtape Side B\"** DLC now available with 7 huge hits including **Toto, Queen, Rick Astley, and Wham!**\n\n- Play, dance & exercise to 77 licensed tracks.\n\n- Have fun in 10 player cross-platform multiplayer.\n\n- Customize your experience with a range of features, including custom song support and Mixed Reality mode.\n\n- Play your way with a tremendous variety of gameplay modifiers and styles, such as Spin and Spiral modes.\n\n- Discover 15 optional DLCs adding 7 visually stunning Experiences™ & 75 songs from artists such as a-ha, Gorillaz, Muse, Bruno Mars, Lindsey Stirling, and more!\n\n\"Accessible, fun, and an absolute must-have for anyone with a VR headset.\"\n9.5/10 - GamingTrend\n\n“An amazing physical experience that involves the entire body.”\n8.8/10 - VR Fitness Insider\n\n“Brilliant gameplay and exceptional soundtrack.”\n9/10 - Push Square\n",
         "developer": "Kluge Interactive",
         "publisher": "Kluge Interactive",
         "genres": [],
@@ -40,23 +40,23 @@
         "hist": [
             {
                 "rating": 1,
-                "votes": 77
+                "votes": 91
             },
             {
                 "rating": 2,
-                "votes": 48
+                "votes": 49
             },
             {
                 "rating": 3,
-                "votes": 111
+                "votes": 115
             },
             {
                 "rating": 4,
-                "votes": 302
+                "votes": 307
             },
             {
                 "rating": 5,
-                "votes": 2579
+                "votes": 2603
             }
         ],
         "comfort": "COMFORTABLE_FOR_MOST",
@@ -85,8 +85,20 @@
         },
         "changelog": [
             {
+                "version": "3.5.4a1",
+                "change_log": "Version 3.5.4a1 - 80s Mixtape Side B\n\nIt's time to turn that tape over as Synth Riders brings you seven more smash hits of the 80s!\n\n* Queen - \"Don't Stop Me Now\"\n* Wham! - \"Wake Me Up Before You Go-Go\"\n* Toto - \"Africa\"\n* Simple Minds - \"Don't You (Forget About Me)\"\n* The Cure - \"Just Like Heaven\"\n* Daryl Hall & John Oates - \"Out of Touch\"\n* Rick Astley - \"Never Gonna Give You Up\"\n\nImprovements and Bug Fixes \n* Selection of previously used names in Party Mode fixed.\n* Animation of colours for Combo & Multiplier counter fixed.\n* Improved loading time for Challenges leaderboards.\n* Score details now show correctly for Challenge leaderboards.\n* Fixed an issue causing incorrect map loading/selection for Challenges.\n* Fixed an issue causing scores to be set for incorrect mode boards, including when changing/inheriting modifiers without playing a song."
+            },
+            {
+                "version": "3.5.3a1",
+                "change_log": "3.5.3a1 - Bug Fixes\n\n* Fixed an issue where having a device language set that was not one of the game's supported languages would cause a hang.\n* Your modifier selections retain their state between areas of the game and when restarting the game.\n* Fixed an issue where Force Mode could be stuck on that caused scores to appear in the wrong leaderboard.\n* Fix for in-game news display issues.\n* Fix for READY / UNREADY state being incorrect or album cover art being incorrect when in Multiplayer.\n* Fix for Vanish Modifier working incorrectly.\n* Fixed song count for Specials Pack."
+            },
+            {
                 "version": "3.5.2a1",
                 "change_log": "Version 3.5.2a1 - Barbie™ Dance 'n Dream\n\n* Addition of Synth Riders Experience™ - Barbie™ Dance 'n Dream."
+            },
+            {
+                "version": "3.5.3b4",
+                "change_log": "3.5.3 - Beta 4 - Release Notes\n\n* Fixed an issue where having a device language set that was not one of the game's supported languages would cause a hang.\n* Updated SQLite libraries to address issues of custom song library continually reloading.\n* Your modifier selections retain their state between areas of the game and when restarting the game.\n* Fixed an issue where Force Mode could be stuck on that caused scores to appear in the wrong leaderboard (board corrections to come, still possible to trigger this from Multiplayer).\n* Fix for in-game news display issues\n* Fix for READY / UNREADY state being incorrect or album cover art being incorrect when in Multiplayer.\n* Fix for Vanish Modifier working incorrectly\n* Fixed song count for Specials Pack"
             },
             {
                 "version": "3.5.1a6",
@@ -151,32 +163,20 @@
             {
                 "version": "3.1.1",
                 "change_log": "Release Notes - Synth Riders Mixed Reality Update - Patch v3.1.1\n\nIncludes Fixes for:\n* Tutorials, Halo Notes\n* Fixed an issue which could lock up the game at the end of a song.\n* Fixes for the Mixed Reality platform.\n\n----------------\nRide the Rails and Remix Your Reality!\n\nWelcome to a huge Synth Riders update, headlined by our all-new Mixed Reality Mode and jam-packed with updates to each corner of our game!\n\nJust in time for the release of Meta Quest 3, Kluge Interactive brings an all-new Mixed Reality Mode to Synth Riders. With mixed reality, the player’s room becomes the stage as they catch notes, ride the rails, and avoid obstacles that pass from the game into reality. The addition of mixed reality support comes alongside one of the largest updates to the game since launch on Quest.\n\nWatch your whole world transform as the portal opens, connecting your reality to one of Synth Riders’ retro future worlds. Players will dance along to their favorite songs as their walls respond to the music; the portals pulsing to the beat to match the gameplay and the whole rooms reacting to their performance in the gold and green special sections!\n\nMixed Reality Update comes as part of a massive upgrade to Synth Riders, many months in the making. Practically a “remastered” version, players will notice improvements to loading speeds and visual fidelity alongside new social and multiplayer features and more! There’s lots of exciting new changes to cover, so make sure to check out the developer blog post here. https://www.oculus.com/experiences/quest/developer-post/7120312691313813/\n\nAs always we welcome your feedback and bug reports on Reddit in /r/SynthRiders, on our Official Discord server or in the Synth Riders Official Community on Facebook.\n\nIf you want to support the development of Synth Riders, we really appreciate reviews left in the store!\n\nHappy Riding! "
-            },
-            {
-                "version": "3.1.0",
-                "change_log": "Release Notes - Synth Riders Mixed Reality Update - v3.1.0\n\nRide the Rails and Remix Your Reality!\n\nWelcome to a huge Synth Riders update, headlined by our all-new Mixed Reality Mode and jam-packed with updates to each corner of our game!\n\nJust in time for the release of Meta Quest 3, Kluge Interactive brings an all-new Mixed Reality Mode to Synth Riders. With mixed reality, the player’s room becomes the stage as they catch notes, ride the rails, and avoid obstacles that pass from the game into reality. The addition of mixed reality support comes alongside one of the largest updates to the game since launch on Quest.\n\nWatch your whole world transform as the portal opens, connecting your reality to one of Synth Riders’ retro future worlds. Players will dance along to their favorite songs as their walls respond to the music; the portals pulsing to the beat to match the gameplay and the whole rooms reacting to their performance in the gold and green special sections!\n\nMixed Reality Update comes as part of a massive upgrade to Synth Riders, many months in the making. Practically a “remastered” version, players will notice improvements to loading speeds and visual fidelity alongside new social and multiplayer features and more! There’s lots of exciting new changes to cover, so make sure to check out the developer blog post here. https://www.oculus.com/experiences/quest/developer-post/7120312691313813/\n\nAs always we welcome your feedback and bug reports on Reddit in /r/SynthRiders, on our Official Discord server or in the Synth Riders Official Community on Facebook.\n\nIf you want to support the development of Synth Riders, we really appreciate reviews left in the store!\n\nHappy Riding! "
-            },
-            {
-                "version": "2.3.26.a15",
-                "change_log": "Release Notes - Version 2.3.26.a15 (Quest 1 Final Release)\n\nSynth Riders goes “Back to the Synths” to celebrate 5 years of riding the rails with the “Synthwave Essentials Volume 3” music pack!  Headlined by The Midnight, this 10 song pack (5 free songs, 5 paid DLC) also features a brand new cover of New Order’s classic “Blue Monday”, created just for Synth Riders by legendary DJ Zardonic. Enjoy these great tracks in “Back to the Synths”, one of our original play Stages which has received a special “glow-up” to coincide with our birthday!\n\nWhat's New (a14):\n- Addition of \"Synthwave Essentials Volume 3\"\n- Updated visuals for the \"Back to the Synths\" play stage, select it with the STAGES button on the Song Select screen.\n- Find Experiences quickly using the new EXPERIENCES button on the Song Select screen.\n- Minor cosmetic fixes.\n\nWhat's New (a15):\n- Logging / telemetry fixes.\n\nAs always we welcome your feedback and bug reports on our Official Discord server (Invite: <http://discord.synthridersvr.com/>) or in the Synth Riders Official Community on Facebook.  If you want to support the development of Synth Riders, we really appreciate reviews left in the store!"
-            },
-            {
-                "version": "2.3.26.a14",
-                "change_log": "Release Notes - Version 2.3.26\n\nSynth Riders goes “Back to the Synths” to celebrate 5 years of riding the rails with the “Synthwave Essentials Volume 3” music pack!  Headlined by The Midnight, this 10 song pack (5 free songs, 5 paid DLC) also features a brand new cover of New Order’s classic “Blue Monday”, created just for Synth Riders by legendary DJ Zardonic.  Enjoy these great tracks in “Back to the Synths”, one of our original play Stages which has received a special “glow-up” to coincide with our birthday!\n\nWhat's New:\n- Addition of \"Synthwave Essentials Volume 3\"\n- Updated visuals for the \"Back to the Synths\" play stage, select it with the STAGES button on the Song Select screen.\n- Find Experiences quickly using the new EXPERIENCES button on the Song Select screen. \n- Minor cosmetic fixes.\n \nAs always we welcome your feedback and bug reports on our Official Discord server (Invite: <http://discord.synthridersvr.com/>) or in the Synth Riders Official Community on Facebook.\n\nIf you want to support the development of Synth Riders, we really appreciate reviews left in the store!"
             }
         ],
         "on_rookie": true,
-        "general_update": 481514,
+        "general_update": 482473,
         "genre_update": 480481,
         "device_update": 474685,
         "mode_update": 474685,
         "language_update": 474685,
         "platform_update": 479809,
         "player_mode_update": 474685,
-        "changelog_update": 481514,
+        "changelog_update": 482473,
         "keyword_update": 479809,
         "tag_update": 477913,
-        "rating_update": 481610,
+        "rating_update": 482473,
         "iarc_detail_update": 477385,
         "keywords": [
             "music",
@@ -185,10 +185,10 @@
             "audio",
             "fit"
         ],
-        "last_update": 481610,
+        "last_update": 482473,
         "category": "GAMES",
-        "votes": 3117,
-        "rating": 4.686878,
+        "votes": 3165,
+        "rating": 4.668878,
         "weighted_rating": 4.6
     },
     "errors": []
